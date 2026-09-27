@@ -1,0 +1,101 @@
+name: Prepare and test complete source reader
+on:
+  push:
+    branches: [reader-offline-v2]
+    paths:
+      - .github/workflows/prepare-reader.yml
+      - scripts/reader-build-trigger.txt
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: reader-upgrade
+  cancel-in-progress: true
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: reader-offline-v2
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          name: reader-source-and-licensed-materials
+          run-id: 36355231447
+          github-token: ${{ github.token }}
+          path: /tmp/reader-input
+      - name: Extract only approved original PDFs and parser
+        run: |
+          python - <<'PY'
+          from pathlib import Path,PurePosixPath
+          import tarfile,json,hashlib
+          with tarfile.open('/tmp/reader-input/reader-source.tar.gz') as t:
+            entries={m.name.removeprefix('./'):m for m in t.getmembers() if m.isfile()}
+            acquisition=json.load(t.extractfile(entries['resources/acquisition.json']))
+            allowed={'resources/acquisition.json','vendor/pdfjs/pdf.mjs','vendor/pdfjs/pdf.worker.mjs','vendor/pdfjs/LICENSE'}
+            for r in acquisition['records']:
+              if r['status']=='licensed':
+                assert r['license']['url'].startswith('https://creativecommons.org/licenses/')
+                allowed.update(['resources/'+r['id']+'/source.pdf','resources/'+r['id']+'/provenance.json'])
+            for name in allowed:
+              assert '..' not in PurePosixPath(name).parts and name in entries
+              m=entries[name];assert 0<=m.size<45000000
+              p=Path(name);p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(t.extractfile(m).read())
+            for r in acquisition['records']:
+              if r['status']=='licensed':assert hashlib.sha256(Path('resources/'+r['id']+'/source.pdf').read_bytes()).hexdigest()==r['sha256']
+          PY
+      - name: Convert, integrate and build source volumes
+        run: |
+          pip install PyMuPDF==1.26.4 requests==2.32.5 playwright==1.55.0
+          python scripts/compile_sources.py
+          python scripts/install_reader.py
+          python scripts/finish_reader_ui.py
+          node --check src/app.js
+          node --check src/reader.js
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python examples/pareto_lab.py --test
+          python examples/sequence_lab.py
+          python -m playwright install --with-deps chromium
+      - name: Existing tutorial regression suite
+        run: python scripts/test_browser.py
+      - name: Original reader and full offline suite
+        run: python scripts/test_reader.py
+      - name: Commit verified source and licensed archive
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          for p in Path('resources').iterdir():
+            if p.is_dir() and p.name!='library':shutil.rmtree(p)
+          PY
+          git config user.name paper-reader-builder
+          git config user.email paper-reader-builder@users.noreply.github.com
+          git add src scripts/build.py scripts/build_tutorials.py scripts/test_browser.py content/session-log.json content/navigation.json resources/library resources/catalog.json resources/acquisition.json vendor/pdfjs
+          if ! git diff --cached --quiet; then
+            git commit -m "Add tested reflow reader and 12 licensed complete originals"
+            git pull --rebase origin reader-offline-v2
+            git push origin HEAD:reader-offline-v2
+          fi
+      - name: Save source and evidence
+        if: always()
+        run: |
+          mkdir -p test-results /tmp/reader-delivery
+          git rev-parse HEAD > test-results/source-commit.txt
+          tar --exclude=.git --exclude=dist --exclude=test-results --exclude=__pycache__ -czf /tmp/reader-delivery/reader-source.tar.gz .
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reader-upgrade-validation
+          path: |
+            test-results
+            /tmp/reader-delivery
+          retention-days: 14

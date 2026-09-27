@@ -1,0 +1,2044 @@
+Stakeholder perspectives on ecosystem services in agricultural landscapes:
+A case study in the North China Plain
+
+Jiali Cheng a,b,c,*, Andries Richter d, Wen-Feng Cong b,*, Zhan Xu b,c, Zhengyuan Liang a,b,c,
+Chaochun Zhang b, Fusuo Zhang b, Wopke van der Werf c, Jeroen C.J. Groot a
+
+a Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands
+b State Key Laboratory of Nutrient Use and Management, Key Laboratory of Plant-Soil Interactions, Ministry of Education, College of Resources and Environmental
+Sciences, National Academy of Agriculture Green Development, China Agricultural University, Beijing 100193, China
+c Centre for Crop Systems Analysis, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands
+d Environmental Economics and Natural Resources Group, Sub-department of Economics, Wageningen University, P.O. Box 430, 6700 AK Wageningen, the Netherlands
+
+H I G H L I G H T S
+G R A P H I C A L A B S T R A C T
+
+• Landscape
+redesign
+may
+improve
+ecosystem
+services
+(ESs)
+but
+imple-
+mentation requires stakeholder support.
+• Q methodology was used to characterize
+stakeholder perspectives on ESs in Quz-
+hou county, China.
+• Stakeholders
+prioritized
+provisioning
+services but also valued environmental
+quality and cultural values.
+• Diverse
+stakeholders’
+perspectives
+highlight the potential trade-offs and
+decision-making challenges for policy.
+
+A R T I C L E I N F O
+
+Editor: Jagadish Timsina
+
+Keywords:
+Landscape approach
+Perceptions
+Participatory research
+Ecosystem services demand
+Socio-cultural value
+Q methodology
+
+A B S T R A C T
+
+CONTEXT: Intensive agriculture is under pressure from changing demands from society, prompting the need to
+redesign agricultural landscapes to provide multiple ecosystem services (ESs). However, implementation of
+changed practices requires positive engagement from stakeholders. Therefore, their perspective on ecosystem
+services needs to be known.
+OBJECTIVE: This study investigates stakeholders’ perspectives on multiple ESs in Quzhou County, an area in the
+North China Plain used for intensified cereal production. We aim to elucidate perspectives within and across
+diverse stakeholder groups (farmers, companies, citizens, academics, village and township heads, and county
+government staff).
+METHODS: Employing the Q methodology, we identified differences in perspectives within stakeholder groups
+and we compared the similarities and differences of those perspectives across stakeholder groups. We also
+investigated how farmers’ personal and household characteristics were related to the perspectives they held.
+RESULTS AND CONCLUSIONS: Significant differences in preference emerged among stakeholder groups. Aca-
+demics assigned higher importance to regulating and supporting services than other stakeholder groups and
+companies assigned less importance to cultural services. We identified 18 distinct perspectives across seven
+
+* Corresponding authors at: Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700 AK, Wageningen, the Netherlands.
+E-mail addresses: jiali.cheng@wur.nl (J. Cheng), wenfeng.cong@cau.edu.cn (W.-F. Cong).
+
+Contents lists available at ScienceDirect
+
+Agricultural Systems
+
+journal homepage: www.elsevier.com/locate/agsy
+
+https://doi.org/10.1016/j.agsy.2024.104187
+Received 13 May 2024; Received in revised form 9 November 2024; Accepted 9 November 2024
+
+Agricultural Systems 223 (2025) 104187
+
+Available online 29 November 2024 
+0308-521X/© 2024 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by- 
+nc-nd/4.0/ ).
+
+stakeholder groups. These perspectives showed a combination of preferences for at least two different ES cate-
+gories. Most of the perspectives prioritize provisioning services whereas only few perspectives prioritize sup-
+porting services.
+SIGNIFICANCE: This study exemplifies a bottom-up approach for systematically analyzing stakeholder per-
+spectives on the relative importance of ESs derived from agricultural landscapes. The revealed differences and
+complexity of stakeholder perspectives can inform decision-making on the redesign of agricultural landscapes
+with stakeholder engagement. Recognizing areas of consensus and conflict can guide efforts to promote agro-
+ecologically sound practices and policies.
+
+1. Introduction
+
+Intensive agriculture needs transformation towards greater sustain-
+ability worldwide, which may require a redesign of agricultural land-
+scapes (Jackson et al., 2007; Landis, 2017). Agricultural landscapes
+provide multiple ecosystem services (ESs) to a range of stakeholders
+(O’Farrell and Anderson, 2010). An unbalanced ESs delivery leads to
+compromised sustainability and biodiversity loss (Foley, 2005), poten-
+tially leaving some people’s demand for ESs unmet. It is necessary to
+assess the importance of ESs for stakeholders when adjusting the man-
+agement of a landscape to rebalance the ESs supply. The importance of
+ESs for stakeholders is strongly shaped by the socio-economic and cul-
+tural context and by their (subjective) values, which mediate between
+the benefits derived from services and the processes of governance that
+steer agroecosystem management decisions (Breyne et al., 2021).
+The value of ESs refers to economic (monetary) values, but also non-
+monetary, socio-cultural values (MEA, 2005). Economic values high-
+light the importance of certain ESs by assigning them high monetary
+worth, which helps raise awareness and communicate their significance
+to policymakers (de Groot et al., 2012). Socio-cultural values express
+people’s opinions on the non-monetary importance of ESs and are re-
+flected in stakeholder preferences for the multiple ESs that are provided
+by an agroecosystem (see Table 1 for definitions). Insight into stake-
+holder preferences can firstly aid policymakers in understanding how
+changes in landscape management are perceived by different stake-
+holders. Secondly, it informs decision-making in situations where trade-
+offs among various (categories of) performance indicators occur
+(Scholte et al., 2015). More inclusive and equitable decision-making is
+facilitated by the integration of socio-cultural values with ecological and
+monetary assessment. Contrasting perspectives on these diverse values
+may exist and should be considered, in particular when stakeholders are
+engaged in the assessment process (Martín-L´opez et al., 2012).
+The degree to which the demand and supply of multiple ESs can be
+balanced within a society or community depends on the heterogeneity of
+demands, the potential changes that can be realized in the supply of the
+ESs and the extent to which spatial distances or temporal lags hamper
+the timely supply of demanded ESs (Mouchet et al., 2014). These con-
+siderations should also inform decision-making and policy formulation
+(Bulkeley and Mol, 2003). Here we focus only on the heterogeneity on
+the demand side. Different stakeholders that are active or have an in-
+terest in certain landscapes could have different preferences for ESs
+depending on their roles, demographic characteristics, and other
+
+attributes (Smith and Sullivan, 2014). While farmers might prefer pro-
+visioning services for their well-being, urban visitors might show a
+preference for cultural services (Zoderer et al., 2019), while regional
+development programs and researchers would tend to assign greater
+importance to regulating services to support the sustainable use of the
+landscape (Peter et al., 2022). Within a certain stakeholder group, there
+may also be different perspectives among individuals (Teixeira et al.,
+2018). However, few studies have analyzed the heterogeneity of pref-
+erences within stakeholder groups (Bernues et al., 2019).
+Different methodologies could be applied to assess socio-cultural
+values related to ESs, including expert-based approaches, focus group
+discussions, interviews and questionnaire surveys (Chen et al., 2017;
+Iniesta-Arandia et al., 2014; Lamarque et al., 2011; Page and Bellotti,
+2015; Smith and Sullivan, 2014). However, as found in previous studies
+and in our own pilot survey, when respondents are asked about the
+importance of different ESs, nearly all respondents state that most ESs
+are important (Horne et al., 2005). However, not all ESs can be provided
+maximally at the same time. Trade-offs among ESs make it necessary to
+prioritize ESs in decision-making and planning processes. Hence there is
+a need for assessment approaches that give insight into the preferences
+of ESs among stakeholders.
+Q methodology is a semi-quantitative method for eliciting and sys-
+tematically presenting stakeholder perspectives. It originates from psy-
+chology and has also been used for many years in policy science and
+public health (McKeown and Thomas, 2013, Watts and Stenner, 2005,
+Valenta and Wigger, 1997). It aims to reveal the way individuals think
+about a specific subject (Watts and Stenner, 2005) and assesses if groups
+of individuals perceive a subject similarly (Stephenson, 1953). Con-
+ducting Q methodology involves generating a set of statements that
+represent the various facets of a discourse or problem, which are then
+sorted by participants by the degree of agreement with the statements.
+The sorting result is statistically analyzed to identify common sorting
+patterns among participants (Watts and Stenner, 2005). In this paper, we
+refer to typical sorting patterns as perspectives. Perspectives thus
+represent typical patterns of how stakeholders think about the relative
+importance of different ESs. Q sorting embedded in Q methodology
+encourages participants to sort the items using deliberate thinking.
+Q methodology has gradually gained credence in environmental and
+agricultural science to assess the subjective values of stakeholders when
+designing management and policymaking (Jiren et al., 2023; Rietveld
+et al., 2023; Swagemakers et al., 2017; Timler et al., 2023; Vaas et al.,
+2019; van Dijk et al., 2022). There are however only few applications of
+Q methodology to capturing stakeholders’ perspectives on the impor-
+tance of ESs in agricultural landscapes (Ciftcioglu, 2021) compared to
+other ecosystems, e.g., nature reserves (Mahlalela et al., 2022), national
+forests (Armatas et al., 2018), aquaculture (Pethiyagoda et al., 2024),
+and urban parks (Buchel and Frantzeskaki, 2015).
+The North China Plain is one of the largest crop production areas in
+China and is characterized by simplified agricultural landscapes with a
+dominance of wheat, maize and cotton (Xu et al., 2024). As a major
+breadbasket of China, the region is geared towards enhancing provi-
+sioning services (i.e. production of food, feed and other commodities),
+and generation of economic value. Regions with intensive production
+are often characterized by sustainability issues such as declining
+groundwater tables (Zhao et al., 2017), greenhouse gas emissions (Zhao
+
+Table 1
+Glossary of most important terms in this study.
+
+Terms
+Definitions
+
+Value
+The importance and necessity of objects and actions (Harrington et al.,
+2010) described in monetary or non-monetary terms (MEA, 2005).
+Importance
+Indication to what extent and how a service or its associated benefits
+matter (including non-monetary terms benefits) for a person or a
+group of persons (Breyne et al., 2021).
+Preference
+Preference refers to the importance attributed to one ES relative to
+another one (IPBES, 2019).
+Perspective
+A perspective in this case refers to the combination of preferences
+towards multiple (bundles of) ecosystem services that are shared by a
+group of stakeholders.
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+2
+
+et al., 2021) and biodiversity loss (Mu et al., 2022), i.e. a lack of non-
+provisioning services (regulating, supporting, and cultural services)
+(Cheng et al., 2023). Those non-provisioning services have been less
+emphasized in this region and may need revitalization by policy for the
+sake of long-term sustainability of the agroecosystem. The North China
+Plain therefore requires an evaluation of the need to preserve and
+possibly strengthen different ESs. The envisioned process of trans-
+formation and landscape redesign could be informed by the preferences
+of stakeholders, especially by those of local farmers. They shape land-
+scapes, influencing cropping systems and ecosystem services, and their
+benefits and demands must be carefully considered in policymaking (de
+Snoo et al., 2013).
+This paper aims to analyze the perspectives of stakeholders on the
+importance of ESs provisioning in a case study area in the North China
+Plain. We use Q methodology to identify perspectives within the
+stakeholder groups and find the similarity of those perspectives among
+stakeholder groups. Characteristics associated with farmers’ perspec-
+tives, as the main stakeholder group, will also be investigated in this
+study. The ultimate goal is to elucidate stakeholders’ perspectives on ESs
+and to inform policymaking for the redesign and management of agri-
+cultural landscapes.
+
+2. Materials and methods
+
+2.1. Case study area
+
+We conducted our study in Quzhou county, located in Heibei Prov-
+ince of the North China Plain (NCP). The surface area of Quzhou is
+676.7 km2 including 525.2 km2 of cropland (NBSC, 2017). Winter
+wheat, summer maize and cotton are the main crops, occupying together
+approximately 80 % of the cropland area (NBSC, 2017). The landscapes
+in Quzhou county are simplified and intensively used for agricultural
+production, with mostly arable cropping and only a small area of non-
+crop habitat, and 85.5 % of the population in Quzhou is rural (NBSC,
+2017). As a representative area in the NCP, Quzhou has been selected as
+a National Agriculture Green Development Pilot Demonstration Zone in
+2019. Since 2020, the Quzhou government has formulated policies to
+transform the county towards sustainable agricultural development in
+the context of the Agriculture Green Development (AGD) program, which
+is facilitated by Chinese national policies (Shen et al., 2020). We chose
+Quzhou for this study because the area has sustainability issues, and is in
+need of an agricultural green transition.
+Quzhou county has 10 townships including 342 administrative vil-
+lages. In this study, we selected 35 villages in Quzhou (Fig. S2(a)). Five
+villages were sampled from each of 7 different village types, which
+together cover the diversity of socio-economic conditions and agricul-
+tural activity within the county (Xu et al., 2024). The sampling strategy
+was equally weighted among the seven clusters to capture the full di-
+versity of stakeholders’ views without regard for the size of each cluster
+(number of villages in it). Details about the sampled villages and their
+locations can be found in Cheng et al. (2023), Xu et al. (2024) and Fig.
+S2.
+
+2.2. Q methodology and data collection
+
+An application of Q methodology proceeds in four steps: (1) research
+design, (2) data collection, (3) analysis, and (4) interpretation (Zabala
+et al., 2018). In step 1, the researcher selects a topic or issue to study and
+describes the discourse around the topic and generates a set of state-
+ments (Q set); this set represents different perspectives or opinions on
+the topic. Here the statements refer to different ESs and the topic is the
+importance of different ESs delivered by agricultural landscapes in the
+NCP, and in Quzhou in particular (Section 2.2.1). The researcher then
+recruits the participants (p set) who are identified as key stakeholders
+and have knowledge or experience related to the topic (Section 2.2.2).
+During step 2 (data collection), the researcher conducts the Q sorting,
+
+which involves having participants rank the statements according to
+their perceived importance (Section 2.2.3). Our Q sort distinguished five
+levels of importance: very unimportant, unimportant, neutral, important
+and very important (Fig. 1). The number of statements assigned to each
+category varied (2–4–8–4–2; 20 statements in total), broadly repre-
+senting a bell-shaped distribution, with the middle category having the
+greatest number of “slots” to assign statements (Fig. 1). In step 3
+(analysis) the researcher analyzes the data using a variety of multivar-
+iate data-reduction techniques (such as principal components analysis or
+factor analysis) to identify the patterns of Q sorts, representing the main
+perspectives or views among the stakeholders (Section 2.2.4). Step 4
+(interpretation) presents the results to show how the perspectives are
+different or similar and explains the key characteristics of those
+perspectives.
+
+2.2.1. Determining the statements for the Q set
+Relevant ESs delivered by agricultural landscapes were selected from
+the four categories of ESs, i.e., provisioning services, supporting ser-
+vices, regulating services and cultural services (Haines-Young and Pot-
+schin, 2018; MEA, 2005). We determined 20 relevant ESs of agricultural
+landscapes in total and for each ES we formulated one statement
+describing it. Hence, our Q sorting results characterize the perceived
+importance of different ecosystem services. The statements were
+initially formulated based on the original definition of ESs that are
+relevant in the context of agricultural landscapes. Before the formal
+sorting exercises, three rounds of pilot sorting exercises were done to test
+whether the statements and pictures were understandable for local
+farmers and minor revisions were made. The final 20 statements related
+to 20 ESs (Table 2) were printed onto cards (in Chinese).
+
+2.2.2. Stakeholder identification and selection
+Before the survey, we did a stakeholder identification analysis (Reed
+et al., 2009) to select the most relevant stakeholder groups in Quzhou
+county. Stakeholder groups were considered relevant if they had basic
+knowledge about agriculture or potentially had an interest in ESs and
+agricultural development, or their actions might impact ESs. The final
+list of stakeholders was established after consulting experts and local
+informants (Table 3).
+We sampled 35 villages across all the 10 townships in Quzhou. The
+majority of farmers in the villages are smallholders (Xu et al., 2024).
+Five smallholder farmers were randomly chosen from each village to
+ensure the survey’s feasibility within a time and budget framework. The
+village heads helped identify up to two leader farmers, defined as those
+running cooperatives, family farms or having participated in profes-
+sional trainings. All 35 village heads and nine township heads were
+
+Fig. 1. Grids used in the Q methodology sorting exercises with the shape like a
+normal distribution. The ESs assigned to grids in the columns 1–5 get the
+corresponding importance scores. The fully filled grids (Q sort) show the
+preference of all ESs (see a filled example in Fig. S5 of supplementary material).
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+3
+
+included (except the township head of Nanliyue who was unavailable).
+Five citizens were selected randomly from each of the four main town-
+ships (Baizhai, Disituan, Huaiqiao, Anzhai). In these townships, the total
+cropland area is relatively large, and the townships are distributed in the
+north, south, west and east of Quzhou County, respectively (Fig. S2).
+The county government staff were recruited by a snowball sampling
+if they had important roles and their departments contributed to the
+county-level Agriculture Green Development program. Companies which
+were interested in the Agriculture Green Development program were
+selected from a list of locally leading companies and the managers of
+those companies were recruited. People working in academic in-
+stitutions and universities with strong relations and cooperation with
+Quzhou county were also selected by snowball sampling. In total, 327
+people finished the Q sorts completely.
+
+2.2.3. Conducting Q sorts and getting importance scores
+The Q sorts and interviews were done from December 2020 to April
+2021 by a pre-trained team of instructors. We asked the farmers and
+citizens to sort the cards according to their own opinion, but for other
+stakeholders, we asked them to represent the point of view of their
+institution or committee.
+During the sorting exercise, each participant was asked to arrange
+the statements into the grid according to the level of importance of the
+statements (Fig. 1). For the respondents who had difficulty reading, the
+instructors read the statements out aloud and explained statements with
+the help of pictures. In the first round of card-sorting, the participants
+initially sorted the cards into three piles for “important”, “not impor-
+tant” and “neutral” statements, without a limitation in the number of
+statements in each pile. During a second round, the participants were
+asked to decide the extreme answers of “very important” and “very
+unimportant” statements from the piles of “important” and “unimpor-
+tant” services in the first round. The remaining statements were placed
+in the three central columns of the grid ranging between important,
+neutral and unimportant. The most important and unimportant state-
+ments in the Q sorts were then discussed in a post-hoc interview to get a
+
+deeper understanding of the participant’s reasonings.
+
+2.2.4. Determining the perspectives: Q analysis
+The data from the Q sorting were analyzed using Q analysis, which is
+based on principal component analysis (PCA). Similar to standard PCA,
+the data are reduced by Q analysis to a few factors (or principal com-
+ponents), which represent the perspectives shared by groups of people.
+This analysis serves as a tool to uncover the underlying patterns in how
+people fill the Q sorts similarly, thereby highlighting shared ways of
+thinking across the group, and revealing the commonalities in how
+participants rank the statements in the Q sort. We began with a
+comprehensive Q analysis using all 327 Q sorts. Following this, we
+conducted separate Q analyses for each of the seven stakeholder groups.
+This approach allowed us to identify distinct perspectives within each
+stakeholder group and was deemed necessary due to the over-
+representation of farmers among the respondents.
+For each Q analysis, the number of factors was determined based on
+the commonly used statistical criteria like scree plots, explained vari-
+ance, the number of participants flagged and the Kaiser-Guttman crite-
+rion (Borcard et al., 2011; Cliff, 1988). These criteria typically indicate
+the selection of a small number of perspectives. In combination with our
+expert judgment, we finalized the number of meaningful perspectives,
+which in this case ranged from two to three (Andreotti et al., 2023).
+The factor loadings, z scores and factor scores are the key results
+from the Q analysis to describe each perspective (Brown, 1980; Zabala
+et al., 2018) and the calculation is well established in the ‘qmethod’
+package (Zabala, 2014) and other Q analysis software. Factor loadings
+
+Table 2
+Ecosystem services and the statements used in the Q sorting.
+
+Ecosystem services and
+categories
+Statements
+
+Provisioning services
+Nutrient provisioning
+To harvest crops to supply food and nutrients
+Profit provisioning
+To harvest crops for profit
+Regulating services
+Water regulation
+To maintain sufficient soil moisture in the farmland
+Air quality
+Good air quality
+Natural hazard regulation
+To reduce the yield loss caused by natural hazards
+Water quality
+Good water quality
+Biological control
+To reduce pesticide use but use biological control
+
+Pollination
+To have effective pollination for the crops requiring
+pollinators
+Climate regulation
+Preventing climate warming
+Supporting services
+Water provisioning
+To have sufficient irrigation water
+Soil fertility
+Good soil fertility in the farmland
+Natural habitats of field
+border
+To have more non-crop greening areas around the
+farmland
+Natural habitats within
+fields
+To have more diversified crops in farmland
+
+Cultural services
+Agricultural tourism
+To relax and recreate at rural tourism sites
+Scientific and educational
+value
+To get involved in scientific/educational events
+
+Aesthetic value
+To have beautiful scenery of the farmland
+
+Belonging value
+To have a feeling of belonging living in the rural
+area
+Self-identity value
+To have self-identity for farmers
+
+Social relations
+To have good social relations within rural
+communities
+Spiritual value
+To keep the ancestral graves in the farmland
+
+Table 3
+Stakeholder groups and the sample size used in the Q methodology analysis.
+
+Stakeholder
+group
+Code
+Explanation
+Sample
+size
+
+Farmers
+Farmer
+Individuals who are in charge of the
+crop production in their households.
+Most farmers are smallholders with
+farm sizes of less than two hectares.
+Leader farmers are those who 1) run
+cooperatives, 2) run family farms or 3)
+have been trained as professional
+farmers by the agricultural bureau.
+
+222
+
+Village heads
+Village
+The village head or key village cadres
+working on the village committees.
+These functionaries have a good
+understanding of the village situation.
+
+35
+
+Township
+heads
+Township
+The (deputy) township heads working
+in the township government take
+charge of the administrative affairs of
+rural and agricultural production.
+
+9
+
+County
+government
+County
+According to the AGD development
+planning of local government, the
+relevant county-level bureaus mainly
+include the Agriculture and Rural
+Bureau, Eco-Environment Bureau,
+Natural Resources and Planning Bureau
+Development and Reform Bureau, and
+Water Conservancy Bureau. In each
+bureau, representatives of the sectors
+involved in the AGD program were
+selected.
+
+21
+
+Companies
+Company
+Leading companies that produce,
+purchase, or process agricultural (crop)
+products.
+
+5
+
+Citizens
+Citizen
+People living in the township centers
+but are not involved in agricultural
+activities.
+
+20
+
+Academics
+Academic
+Researchers from China Agricultural
+University, local agronomists, and
+graduate students in Science and
+Technology Backyards (Zhang et al.,
+2016). The researchers were often
+involved in the AGD program together
+with Quzhou County government.
+
+15
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+4
+
+indicate the relationship between the Q sort and each factor. A high
+factor loading indicates that the participant’s Q sort closely aligns with
+the pattern of that factor. Participants were assigned, or “flagged” to a
+factor if their factor loading was significantly high (p < 0.05) and the
+squared loadings for that factor exceeded the sum of the squared load-
+ings for all other factors (Zabala, 2014). The flagged Q sorts are used for
+subsequent calculations. The z-scores are the weighted averages of the
+scores given by the flagged Q sorts to a statement. The factor scores of
+the statements for each factor are derived from z-scores by sorting the
+statements in ascending order of z-score and assigning the 1–5 scores
+following the pattern in the Q grid in Fig. 1. This results in a typical and
+representative Q sort for the factor, which allows easy comparison with
+other factors (c.f., Yarar and Orth, 2018). A detailed illustration of how
+to calculate z-scores and factor scores is provided in the supplementary
+material. We conducted the Q analysis using the rotation method of
+varimax based on ‘qmethod’ package (Zabala, 2014) in R version 4.4.0
+(R Core Team, 2021).
+
+2.2.5. Comparing preferences for ESs among perspectives
+In this study, the statements represent the ESs and the factors denote
+the different perspectives on the relative importance of these ESs. The
+factor scores were used to compare the relative importance of individual
+ESs across perspectives. We also compared the preferences across ES
+categories by calculating the scaled average factor scores for each ES
+category. Scaling between 0 and 1 (multiplied by 100, resulting in values
+0–100) was needed due to the different number of statements across
+categories (2 for provisioning ESs, 4 for supporting ESs and 7 for regu-
+lating and cultural ESs). We define a perspective prioritizing certain ES
+categories when the scaled average factor scores were higher than 50. A
+detailed calculation of scaled average factor scores is provided in the
+supplementary material.
+
+2.3. Personal, household and village characteristics
+
+Following the Q sort, farmers were asked to fill in a structured
+questionnaire, which consisted of two main parts: 1) crop production
+information for each farm, including total planting area and revenues of
+crops, etc.; 2) basic information of participants, including age, gender,
+education, years of farming, type of farmer (smallholder farmers or
+leader farmers), off-farm occupation, family income, etc. Other stake-
+holders were interviewed to understand their roles and work experience
+and we collected their age, education level and gender. To protect the
+privacy of participants, we cannot specify the specific positions of these
+respondents in their organizations.
+
+2.4. Statistical analysis
+
+The mean and standard deviation of ES preference scores within
+different stakeholder groups were calculated, and visualized using the
+“Likert” (Bryer et al., 2016) and “ggplot2” packages (Wickham et al.,
+2016) in R (R Core Team, 2021).
+To test the difference in ES importance scores among stakeholder
+groups, parameter-free Kruskal–Wallis tests were conducted in R. The
+confidence level for these tests was 95 %. The mean of each ES impor-
+tance score from all the stakeholder groups was calculated by dividing
+by the maximum value, 5 (very important), and plotted as the size in
+bubble plots by the package of ‘ggplot2’ (Wickham et al., 2016) using R
+(R Core Team, 2021).
+As farmers were considered a central group of stakeholders, we
+aimed to establish which farmer characteristics were associated with
+different perspectives. We expected that personal characteristics,
+household characteristics and farm characteristics could influence
+farmer perspectives (Table 4). Kruskal-Wallis tests were conducted for
+continuous variables to determine whether there were significant dif-
+ferences among perspectives, and Chi-square tests were conducted for
+categorical variables. The confidence interval for these tests was 95 %.
+
+The analyses were conducted in R (R Core Team, 2021).
+
+3. Results
+
+3.1. Overview of the respondents and ecosystem services importance
+scores
+
+In total, we obtained 327 completed Q sorts and accompanying in-
+terviews. Of the respondents, 13.5 % were females and 86.5 % were
+males. Respondents were on average 53.7 years of age and had 9.7 years
+of education (around the age of completing junior high school) (Table
+S1). More than half of the respondents sorted scientific and educational
+value, profit provisioning, water provisioning (irrigation), and air
+quality as important ecosystem services (scores 4 or 5) of agricultural
+landscapes (Fig. S3). Ecosystem services with low importance (scores 1
+or 2) according to more than half of the respondents were the presence
+of natural habitats (both within the fields and on field borders), agro-
+tourism, climate regulation, and pollination (Fig. S3).
+
+3.2. Different scorings among stakeholder groups
+
+Stakeholder groups were different in their personal characteristics
+(Table S1) and their scoring of ecosystem service importance (Table S2
+and Fig. 2). Academics, citizens, companies and county governmental
+staff rated the importance of biological control on average higher than
+farmers, village heads and township heads did. For cultural services like
+social relations and spiritual value, citizens had mostly similar impor-
+tance scores as farmers, while companies cared relatively less, except for
+scientific and educational values. We found that academics rated the
+importance of natural habitats in general higher than other respondents.
+All the stakeholder groups assigned low importance to climate regula-
+tion and pollination, and more importance to profit provisioning, air and
+water quality, and water provisioning.
+
+3.3. Different perspectives within stakeholder groups
+
+As a first step, we conducted a single overarching Q analysis with all
+327 participants. This analysis identified three main perspectives:
+Perspective 1 emphasized the importance of provisioning services;
+Perspective 2 focused on regulating and supporting services; and
+Perspective 3 highlighted cultural services (see Table S4 and Fig. S6).
+This comprehensive Q analysis also illustrated the diversity of per-
+spectives within the stakeholder groups (Table S5). However, because
+
+Table 4
+Variables that are potentially associated with perspectives of farmers.
+
+Variables
+Units/Categories
+
+Personal characteristics
+Age
+years
+Education year
+years
+Experience in agriculture
+years
+Farmer types
+Smallholder farmers, leader farmers
+Gender
+Female, Male
+Occupation other than
+farming
+1) Employment outside of villages
+2) Local agricultural employment
+3) Local non-agricultural employment
+4) Self-employment
+Other roles in the village
+1) Accountant in the village committee
+2) Village doctor
+3) Village teacher
+4) Village cadres
+Household and farm
+characteristics
+Total owned land area
+ha
+Non-agricultural income
+CNY/year
+Agricultural revenue
+CNY/year
+Main crop type (determined
+by the most area)
+Cereals, Cereals and Fiber, Cereals and
+Vegetables, Fiber, Vegetables, Others
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+5
+
+farmers constitute the majority of participants, the overall analysis may
+be disproportionately influenced by their views. To address this imbal-
+ance and to gain a clearer understanding of how different stakeholder
+groups prioritize ecosystem services, we performed separate Q analyses
+for each stakeholder group. This approach allowed for a more nuanced
+exploration of the specific preferences within each group and provided
+more targeted insights into their distinct perspectives.
+Within each stakeholder group, we found 2 to 3 different perspec-
+tives based on the results of Q analysis (Fig. 3 and Table 5). In total, there
+were 18 different perspectives from 7 different stakeholder groups,
+reflecting differences in importance assigned to ecosystem services
+categories (Fig. 3 and Table 5).
+Within the group of farmers, the perspective Farmers_1 gave higher
+importance to provisioning services than other services, the “Nutrients
+provisioning” and “Profit provisioning” services were assigned the
+highest importance. The perspective Farmers_2 attributed more impor-
+tance to regulating services like “Air quality” and “Water quality”. The
+perspective Farmers_3 assigned more importance to cultural services
+like “Aesthetic value” and “Social relations”. Similarly, there were also
+three different perspectives within the citizens group, with different
+preferences on regulating (Citizen_2), provisioning (Citizen_3) and cul-
+tural services (Citizen_1) (Fig. 3 and Table 5).
+There were three different perspectives among village heads. The
+perspective Village_1 and Village_2 showed similar preference for
+
+provisioning services, but participants sharing the Village_1 perspective
+gave higher importance to regulating services while Village_2 gave
+higher importance to cultural services like “Agrotourism” and “Aesthetic
+value” of agricultural landscapes. Village_3 assigned less importance to
+provisioning services than other perspectives but gave more importance
+to supporting services (Fig. 3 and Table 5).
+Two
+different
+perspectives
+emerged
+among
+academics.
+The
+perspective of Academics_1 assigned more importance to supporting
+services like “Soil Fertility” and “Water provisioning”. The perspective
+of Academics_2 gave more importance to provisioning and cultural
+services like “Social relations” and “Profit provisioning” (Fig. 3 and
+Table 5).
+Among county government staff, the differences were that County_1
+gave higher importance to regulating services (“Air quality” and “Bio-
+logical control” services) but had the least importance on cultural ser-
+vices. The perspective County_2 gave higher importance to provisioning
+services, and the perspective County _3 gave higher importance to
+regulating and cultural services, for example, “Air quality” and
+“Aesthetic value” services (Fig. 3 and Table 5).
+There were two different perspectives among companies, with dif-
+ferences in the preferences mainly reflected in the regulating services, e.
+g., “Biological control” service. The two perspectives assigned similar
+importance to provisioning services like “Profit provisioning” service
+and gave the least importance to cultural services (Fig. 3 and Table 5).
+
+Fig. 2. Means of the ecosystem services importance scores in different stakeholder groups. The color and size of circles shows the absolute value of the importance
+score (from 1-least important to 5-most important). Significant differences among stakeholder groups are indicated: * p < 0.05; ** p < 0.01; *** p < 0.001.
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+6
+
+There were also two different perspectives within the group of
+township heads, with differences in the preferences mainly for cultural
+and provisioning services. Township_1 gave the least importance to
+“Nutrients provisioning” service but gave the highest importance to
+“Agricultural tourism” service, which is quite different from Township_2
+(Fig. 3 and Table 5).
+
+3.4. Similar perspectives across stakeholder groups
+
+From Fig. 3 and Fig. S7, we identified 11 perspectives that prioritized
+provisioning services (i.e. scaled factor scores higher than 50), with
+representation across all stakeholder groups. Nine perspectives priori-
+tized regulating services. Seven perspectives prioritized cultural ser-
+vices,
+covering
+all
+groups
+except
+companies.
+Lastly,
+only
+four
+perspectives prioritized supporting services, and these were absent
+among
+village
+heads,
+academics,
+county
+government
+staff,
+and
+companies.
+
+Fig. 4 provides a qualitative summary of the prioritization expressed
+by the identified perspectives. While 11 perspectives prioritize provi-
+sioning services, only 2 (Farmer_1 and County_2) show an exclusive
+prioritization for these services. Other perspectives, such as Citizen_3,
+Company_1, and Township_2, primarily show a prioritization for pro-
+visioning services but also value regulating or supporting services,
+reflecting a concern for both agricultural production and environmental
+health (Fig. S7 and Fig. 4).
+Among the 5 perspectives that showed a preference for cultural
+services, only 2 (Citizen_1 and Township_1) showed an exclusive pri-
+oritization for this category. Perspectives such as Village_2 and
+Farmer_3, while primarily showing a prioritization for cultural services,
+
+also indicated a preference for provisioning services (Fig. S7 and Fig. 4).
+Similarly, of the 11 perspectives that showed a prioritization for
+regulating and supporting services, only 3 (Farmer_2, Citizen_2, and
+County_1) exclusively focused on regulating and supporting services.
+Perspectives like Village_3 and County_3, while mainly prioritizing
+regulating or supporting services, also showed a preference for cultural
+services (Fig. S7 and Fig. 4).
+Perspectives that were broadly similar in some instances still differed
+in the importance assigned to specific services (Table 5). For example,
+the perspectives of Farmer_1 and County_2 both agreed that profit pro-
+visioning is very important, but County_2 gave lower importance to
+human dietary nutrition provisioning than Farmer_1. Although per-
+spectives Company_2 and Academics_1 had a similar prioritization for
+the environmental dimension of ESs and provisioning services, they
+have opposite ranks on the importance of climate regulation service.
+
+3.5. Farmer attributes related to the different perspectives
+
+Among the farmer participants, we found three different perspectives
+(Fig. 3). The farmers with the perspective Farmer_1 (prioritizing provi-
+sioning services and therefore labeled ‘Production’ perspective) were on
+average older farmers with more experience working on agricultural
+production but lower education (Fig. 5 (a), (b) and (d)). We also found
+that the farmers with the perspective of Farmer_1 tended to have smaller
+farm areas and lower incomes (Fig. 5 (c), (e) and (f)), and had less non-
+agricultural income compared with farmers with other perspectives.
+Farmers with the perspective Farmer_2 (prioritizing regulating services
+and therefore labeled “Environment’ perspective) were on average
+younger and had received more education than farmers in the Farmer_1
+
+Fig. 3. Different perspectives (x-axis) within each stakeholder group and the average factor scores of each ecosystem service category (y-axis) showing the relative
+importance of each ES category.
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+7
+
+and Farmer_3 groups. Farmers with the perspective Farmer_3 (priori-
+tizing cultural and to a lesser extent provisioning services and labeled
+“Culture” perspective) included more females and more leader farmers
+(Fig. S4 (a) and (b)). The group of farmers having an environment
+perspective (Farmers_2) had diverse roles in the villages and a variety of
+non-farming occupations besides farming (Fig. S4 (d) and (f)).
+
+4. Discussion
+
+This study analyzed the perspectives of stakeholders on the impor-
+tance of ecosystem services (ESs) provisioning in a case study area in the
+North China Plain using Q methodology. It introduces a novel applica-
+tion of Q methodology by directly linking the statements to specific ESs,
+differentiating our work from traditional approaches. In general, the
+participants assigned the highest importance to provisioning services
+and the lowest importance to supporting services in this study. We found
+most of the respondents regarded scientific and educational value, profit
+provisioning, water provisioning (irrigation), and air quality as impor-
+tant ecosystem services of agricultural landscapes in Quzhou (Fig. S3 in
+Supplementary Material). Notable differences emerged among stake-
+holder groups, e.g., academics assigned higher importance to supporting
+services while the companies assigned less importance to cultural ser-
+vices (Fig. 2). There were different perspectives within each stakeholder
+group (Fig. 3), and totally we found 18 different perspectives from 7
+different stakeholder groups. While most perspectives showed a com-
+bination of preferences for at least two different ES categories, we also
+observed similarities across stakeholder groups (Fig. 4 and S7). Five
+perspectives mainly prioritized provisioning services, seven perspectives
+prioritized regulating services and supporting services, and four per-
+spectives prioritized cultural services. This pattern is further confirmed
+by the overarching single Q analysis (Fig. S6 in Supplementary Mate-
+rial). As the main stakeholder group, farmers’ perspectives were asso-
+ciated with personal characteristics (age and education, Fig. 5), and with
+farm and household characteristics (farm size and income, Fig. 5).
+
+4.1. Importance of agroecosystem services: Consensus and disagreement
+
+In this study, the perspective of prioritizing agricultural production
+(provisioning services) was held by most of the participants, and this
+perspective was found in all of the stakeholder groups. Increasing the
+profit of crop production and supplying sufficient dietary nutrients are
+also local goals for the long term in the policy agenda. Similar to pre-
+vious studies, especially those conducted in areas undergoing rapid
+economic development, we found that provisioning services were
+generally preferred over regulating, cultural and supporting services in
+agricultural landscapes (Wang and Zhao, 2023; Zhang et al., 2020).
+Moreover, there was a consensus among stakeholder groups and par-
+ticipants with different perspectives that irrigation water provisioning,
+water and air quality, and science and educational value are important
+ESs in Quzhou. The interviewed stakeholders assigned a low importance
+to preventing climate warming although they were aware that temper-
+ature is increasing (Cheng et al., 2023). Farmers may also not be aware
+that agricultural activities and practices could contribute to climate
+warming (Madhuri Sharma, 2020) and they stated that they cannot
+control how nature changes. A previous study in China found that
+farmers have developed adaptive strategies to deal with the impact of
+climate change like increasing irrigation (Zhai et al., 2018). It suggests
+that they do not want to suffer the damage from climate change, but they
+are also passive about preventing climate warming since they consider it
+something outside their control.
+Pursuing mainly provisioning services may decrease the delivery of
+cultural services in agricultural landscapes (Landis, 2017). Prioritization
+of cultural services was a minority perspective in this study. People
+holding this perspective may face more conflicting interests with the
+majority. As a specific example in the North China Plain, tombs in the
+agricultural landscape, while hindering mechanical operations, hold
+significant cultural value. Removing them for land consolidation would
+be resisted by farmers, particularly older farmers. However, the farmers,
+whose cultural services are most affected, often have the least power in
+decision-making processes (Hanaˇcek and Rodríguez-Labajos, 2018).
+
+Table 5
+Factor scores of each perspective within stakeholder groups based on Q analyses.
+
+Perspectives
+
+Provisioning 
+services
+Regulating services
+Supporting services 
+Cultural services
+
+Nutrient 
+provisioning
+
+Profit provisioning
+
+Water regulation
+
+Air quality
+
+Natural hazards 
+regulation
+
+Water quality
+
+Biological control
+
+Pollination
+
+Climate regulation
+
+Water provisioning
+
+Soil fertility
+
+Natural habitats of 
+field border
+
+Natural habitats 
+within fields
+
+Agricultural 
+tourism
+
+Scientific and 
+educational value
+
+Aesthetic value
+
+Belonging value
+
+Self-identity value
+
+Social relations
+
+Spiritual value
+
+Farmer_1
+5
+5
+3
+3
+4
+3
+3
+2
+2
+4
+3
+1
+2
+1
+4
+2
+3
+3
+4
+3
+
+Farmer_2
+2
+3
+3
+5
+4
+5
+3
+3
+2
+3
+4
+2
+2
+1
+4
+3
+3
+3
+4
+1
+
+Farmer_3
+3
+4
+2
+3
+2
+3
+2
+1
+1
+3
+3
+2
+3
+3
+4
+5
+4
+4
+5
+3
+
+Academics_1
+3
+4
+3
+3
+3
+4
+4
+3
+1
+5
+5
+2
+3
+2
+4
+3
+2
+3
+2
+1
+
+Academics_2
+3
+5
+2
+2
+3
+3
+3
+2
+2
+3
+3
+3
+1
+1
+4
+3
+4
+4
+5
+4
+
+County_1
+3
+2
+4
+5
+3
+4
+5
+2
+3
+3
+4
+3
+3
+1
+4
+3
+3
+2
+2
+1
+
+County_2
+3
+4
+3
+3
+3
+5
+2
+2
+2
+5
+3
+1
+3
+3
+4
+4
+3
+4
+2
+1
+
+County_3
+2
+2
+3
+5
+4
+5
+3
+2
+4
+3
+3
+1
+1
+2
+3
+4
+4
+3
+3
+3
+
+Village_1
+3
+4
+3
+4
+4
+5
+3
+2
+2
+5
+3
+1
+2
+1
+4
+3
+3
+3
+3
+2
+
+Village_2
+3
+4
+3
+4
+2
+3
+3
+2
+1
+4
+2
+3
+2
+5
+4
+5
+3
+3
+3
+1
+
+Village_3
+3
+3
+2
+3
+3
+3
+4
+3
+1
+4
+2
+4
+3
+1
+2
+5
+3
+4
+5
+2
+
+Citizen_1
+3
+3
+3
+5
+3
+4
+4
+1
+1
+3
+2
+2
+3
+3
+2
+4
+2
+5
+3
+4
+
+Citizen_2
+3
+3
+3
+4
+4
+4
+4
+2
+2
+3
+3
+2
+3
+1
+2
+3
+5
+5
+3
+1
+
+Citizen_3
+4
+3
+3
+5
+4
+3
+3
+2
+2
+3
+3
+4
+2
+1
+5
+3
+2
+3
+4
+1
+
+Company_1
+3
+4
+3
+3
+3
+4
+5
+2
+3
+4
+4
+2
+3
+2
+5
+2
+3
+3
+1
+1
+
+Company_2
+3
+4
+3
+4
+4
+5
+4
+3
+5
+3
+3
+3
+3
+1
+2
+1
+2
+2
+2
+3
+
+Township_1
+1
+4
+3
+3
+2
+4
+2
+3
+2
+4
+3
+2
+3
+5
+4
+5
+3
+3
+3
+1
+
+Township_2
+3
+4
+4
+3
+3
+3
+3
+3
+3
+5
+3
+1
+2
+1
+2
+4
+4
+5
+2
+2
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+8
+
+Thus, it is important for policy or decision-makers to realize such power
+asymmetry among the stakeholders while making decisions for land use
+change and planning, instead of only focusing on major perspectives.
+Certain patterns reveal ecosystem services demand bundles: e.g.,
+urban visitors favored cultural services (e.g., aesthetics, leisure), while
+rural farmers preferred provisioning services (e.g., agricultural pro-
+duction, timber) (Zoderer et al., 2019). Our study also demonstrated
+that people hold different perspectives showing a preference for
+different (combinations of) ES categories. Like previous studies, we
+found that within the population of farmers, the perspectives towards
+ESs were quite diverse (Teixeira et al., 2018). We observed differences in
+preferences among stakeholder groups. However, unlike a previous
+study (Zhang et al., 2020) where experts prioritized regulating services
+and farmers prioritized provisioning services in a typical Karst basin, our
+study found both farmers and experts placed greater importance on
+provisioning services. The possible reason is that the case study area is a
+county that mostly relies on the rural population and agricultural pro-
+duction and is located in the main crop production area.
+Gender, age, and education have often been found to be important
+factors in understanding people’s perceptions of ESs (Lima and Bastos,
+2019). In this study, we provided further evidence similar to previous
+studies that the farmers who prioritized agroecosystem regulating and
+supporting services were younger (Maas et al., 2021), higher-educated
+or larger-scale farm farmers (Teixeira et al., 2018). We found no evi-
+dence
+that
+farmers’
+perspectives
+have
+a
+statistically
+significant
+
+association with gender which could be expected since the number of
+female participants was limited. To promote Agriculture Green Develop-
+ment in the North China Plain, recommendations or interventions should
+be tailored to farmers with diverse perspectives. For example, for older
+farmers who prioritize traditional provisioning services, it is essential to
+focus on improving economic returns from current cropping systems
+while preserving cultural traditions. In contrast, younger, more
+educated farmers are more likely to support transitioning to ecological
+and multifunctional cropping systems and landscapes. This shift requires
+targeted professional training in modern agronomic technologies, along
+with strong policy support from government bodies and research
+institutions.
+
+4.2. Different perspectives of academics
+
+Integrating semi-natural habitats could support beneficial insect
+populations and stimulate the provisioning of ESs like biological control
+and pollination in intensively used, simplified agricultural landscapes
+like those of Quzhou (Holland et al., 2017). We found that, however,
+except for the academics, stakeholders assigned less importance to
+supporting services associated with maintaining semi-natural habitats
+within fields or on the field borders. Interestingly, still more than 30 % of
+the respondents, especially some non-farming stakeholder groups such
+as citizens, county governmental staff and companies found the bio-
+logical control service important. Similar to previous studies (e.g., Maas
+
+Fig. 4. Qualitative illustration of the similarity of perspectives based on ES category preferences. The points in the figure represent the perspectives, with different
+colors indicating the stakeholder groups. The ellipses, also in different colors, represent the ecosystem service (ES) categories that are the priority for certain per-
+spectives. Points located at the vertices of the triangle indicate perspectives that show an exclusive priority for the corresponding ES category, represented by a darker
+color. Points positioned along the line connecting two vertices show that these perspectives prioritize both ES categories (indicated by a lighter color), but one is
+relatively more preferred. For example, “C > P” means that both cultural and provisioning services scored >50 for the scaled average score, but cultural services are
+preferred over provisioning services by stakeholders with the perspectives Village_2 and Farmer_3. S/R indicates the largest value assigned for either supporting or
+regulating services.
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+9
+
+et al., 2021), we found that scientists tended to give more importance to
+natural habitats and related ESs than farmers.
+However, the questions would be: even if developing more semi-
+natural habitats in simplified agricultural landscapes is necessary, why
+do people underestimate the importance of semi-natural habitats, and
+what will be the potential roadblocks for developing more semi-natural
+habitats? Currently, people perceive natural habitats as causing diffi-
+culties in mechanical operations and negative effects on the yield for the
+crops by the field edges where the windbreaks or hedgerows grow.
+Lacking knowledge and understanding regarding the relationship be-
+tween semi-natural habitats and ecosystem services like biological
+control makes that people do not acknowledge the benefits of semi-
+natural habitats, and farmers would perceive even mainly the disad-
+vantages (Salliou and Barnaud, 2017). Importantly, the perceived costs
+and potential yield losses associated with establishing more semi-natural
+habitats discourage many stakeholders, especially farmers, as there is a
+lack of supportive policies or subsidies in place at the local level (Pe’er
+et al., 2017).
+
+4.3. Limitations
+
+We attempted in this study to cover different types of stakeholders
+(stakeholder groups), however, citizens were underrepresented. Due to
+time and budget constraints, citizen sampling might lack precision, not
+encompassing the full spatial and typological spectrum. Despite the fe-
+male farmers’ involvement in agricultural production, their decision-
+
+making independence is often lower than that of males (Ge et al.,
+2023), and some of them did not want to represent their households to
+participate in the survey so we interviewed relatively few females in this
+study. The perception of female and male farmers could be different, for
+example, females tend to assign more importance to regulating services
+and sustainability than males (Mponela et al., 2023). Since female per-
+spectives in decision-making were often neglected (Rola-Rubzen et al.,
+2020), studying the divergent demands of female and male farmers on
+the importance of ESs is pivotal in future studies for advancing agri-
+cultural sustainability with a more gender-sensitive approach.
+Unlike traditional Q methodology with small samples of participants,
+our large sample case showed that a large proportion of the farmers were
+not assigned to certain perspectives (Fig. 5). The formulation of the
+statement did not engage with stakeholders. The elicited perspectives
+thus might not cover all possible viewpoints existing in the whole pop-
+ulation in reality (Sneegas et al., 2021). Nevertheless, Q methodology
+was found to be useful for capturing and understanding the different
+perspectives on ESs importance in this study. It stimulated expressing
+opinions when people hesitated to speak openly about a certain topic.
+Based on our experience, stakeholders’ thoughts were more deliberate
+while they participated in Q sorting and they could rank the ESs
+importance with gradients.
+This study analyzed certain factors influencing people’s preference
+for ecosystem services. However, the preferences can be influenced by
+many factors other than personal, farm and household characteristics
+used in this study. Some intrinsic factors or psychological factors, e.g.,
+
+Fig. 5. Personal and household/farm characteristics of farmers for each perspective. The x-axis represents in each panel the four different perspectives of farmers.
+Production perspective (Farmer_1) indicates a priority for provisioning services; Environment perspective (Farmer_2) indicates a priority for regulating services;
+Culture perspective (Farmer_3) indicates a priority for cultural and provisioning services. Here we define a perspective prioritizing certain ESs categories when the
+scale average scores were higher than 50. Farmers not assigned to any specific perspective are categorized as “Ungrouped”. Significant differences in characteristics
+among farmer groups are indicated: * p < 0.05; ** p < 0.01; *** p < 0.001.
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+10
+
+belief, personality, worldview, and awareness, were not included in this
+study, but they may also affect people’s preferences for ESs (Peter et al.,
+2022).
+Quzhou County is a prototypical agricultural production zone within
+the North China Plain, where stakeholder perspectives are predomi-
+nantly centered on production functionality. This specific focus raises
+questions regarding the external validity of our findings, i.e., the ability
+to generalize our findings in a study to other locations, times, and par-
+ticipants (Roe and Just, 2009). To address this, future research should
+extend to other socio-ecological regions, allowing for a comparative
+analysis of our results against those from other contexts to better un-
+derstand the broader applicability and potential limitations of Q meth-
+odology, which could also ensure a more comprehensive understanding
+of the preferences for multiple ESs beyond agricultural productivity.
+Internal validity is concerned with the believability of the results
+(Streiner, 2020). In Q methodology studies, internal validity can refer to
+the transparency in selecting statements and participants, following
+recommended steps to minimize subjectivity, etc. (Zabala et al., 2018),
+which is what we have done in our study. We also conducted several
+analyses to probe into the robustness of our results, but we did not
+specifically validate the results through additional data collection within
+the study area. Future studies could explore ways to further validate the
+results of Q methodology. For example, one approach, as suggested by
+Webler et al. (2009), involves having participants self-validate the per-
+spectives identified after the Q analysis. In that regard, focus group
+discussions could be valuable for validating patterns of perspectives
+within specific groups, and discussing potential conflicts and areas of
+consensus (Cuppen et al., 2010). While such mixed approaches seem
+promising for a deeper understanding of the perspectives elicited by Q
+methodology, they also pose some practical limitations. First and fore-
+most, analyzing the data, constructing the perspectives, and visualizing
+the results all take time, so it would almost certainly require a follow-up
+meeting at a much later point with the participants. Post-hoc interviews
+with participants seem more feasible and may also help to gain deeper
+insights into the reasoning behind their perspectives, though it would
+not be possible to directly discuss the perspectives with the participants.
+
+4.4. Implications and outlook
+
+Our study contributes to the literature that used Q methodology to
+map consensus and dissensus on ES provision. Previous studies have
+employed similar techniques to rank the importance of ESs in various
+contexts, such as in wetland ecosystems (Mahlalela et al., 2022), coastal
+lagoon ecosystems (Sy et al., 2018), wildlife management (Bredin et al.,
+2015), but this study gives the first evidence in the context of intensively
+managed agricultural landscapes. Methodologically, this study inno-
+vated by incorporating a visual approach during Q sorting practices,
+which enhances participants’ comprehension of the statements. Addi-
+tionally, we adopted a multiple-step approach to compare the perspec-
+tives from diverse stakeholder groups, ensuring a comprehensive
+understanding of the varying views on the importance of ESs. We
+anticipate that these methodological advancements expand the appli-
+cability of Q methodology in agricultural science.
+It has been well recognized that a “One-size-fits-all” policy would not
+meet the different demands for landscape management from stake-
+holders. This analysis aims to contribute to integrating the stakeholders’
+preferences into future agricultural landscape redesigning and planning
+aimed at enhancing multifunctionality. The Q methodology results can
+assist the process in two ways: 1) engaging the stakeholders while un-
+derstanding the difference of their perspectives and 2) setting clear
+prioritized goals based on stakeholders’ perspectives.
+Integrating stakeholders’ participation is one of the key elements for
+the landscape approach to improve the sustainability in landscapes with
+land uses that result in conflicting outcomes (Sayer et al., 2013).
+Although the diversity of the perspectives provides a challenge for
+policymaking, the results from Q methodology can give a better
+
+comprehension of what the different perspectives are about. Policy-
+makers can tailor communication strategies to engage stakeholders with
+distinct views effectively (Maas et al., 2021). Coupled with other
+possible participatory methods, Q methodology can also be used to
+monitor the changes in stakeholders’ demands along the projects’
+progress (Andreotti et al., 2023). However, it is necessary for stake-
+holders to understand concretely how their decision will impact the
+landscape and thus their livelihoods and well-being. The outcomes and
+trade-offs of the ecosystem services supply from agricultural landscapes
+need to be well-informed for stakeholders in different policy scenarios
+(Bernues et al., 2019). We also suggest that future studies complement Q
+methodology with deep interviews or focus groups for participants to
+self-validate their perspectives.
+To co-design farming systems and landscapes beyond economic
+goals, diverse stakeholder preferences necessitate additional objectives
+(Meynard et al., 2012). With people’s preferences for ESs, decision-
+makers could identify the essential action points in the next step to
+improve the ESs with higher importance and allocate resources effi-
+ciently for maintaining human well-being and agricultural landscape
+sustainability (Smith and Sullivan, 2014). Multi-criteria Decision Anal-
+ysis (MCDA) techniques could be used to prioritize ecosystem services
+based on stakeholders’ preferences, such as Analytic Network Process
+(ANP) method (Parra-L´opez et al., 2008; 2009). These techniques can
+weigh indicators based on stakeholders’ preferences for ecosystem ser-
+vices to translate the multitude of science-based indicators into a more
+tangible set of indicators, which may better align with the needs and
+perceptions of nonscientist stakeholders such as citizens, resource
+managers, and policymakers (Groot and Rossing, 2011). The other way
+around, stakeholders’ preferences can also be translated into specific
+science-based indicators for long-term monitoring and informing ESs
+management. The MCDA methodologies can further be used to calculate
+the priorities of each individual ecosystem service based on the scores
+from Q methodology in this study. It will be useful for future decision-
+making if the preferences for ESs can be linked with measurable in-
+dicators or management and policy options or alternatives (Parra-L´opez
+et al., 2008). However, it is also worth noting that the multi-criteria
+decision-making approach can never give the “right answer” for
+decision-making, it is only to inform the decision-making process and to
+provide a structured way of thinking (Belton and Stewart, 2002). To
+determine the real priorities for enhancing ESs in certain areas, partic-
+ipatory decision-making with multiple stakeholders for certain projects
+is necessary.
+
+5. Conclusions
+
+This study revealed that while most stakeholders considered provi-
+sioning services as the most important, they also recognized the signif-
+icance of non-provisioning services such as water quality, air quality,
+and scientific and educational value. The perspectives on the relative
+importance of ecosystem services (ESs) varied significantly both among
+and within stakeholder groups. Generally, stakeholders’ preferences
+showed a combination of at least two ES categories, with notable simi-
+larities across stakeholder groups. Five perspectives primarily showed
+the preferences for provisioning services, seven showed the preferences
+for regulating and supporting services, and four showed the preferences
+for cultural services. Although the existence of diverse and complex
+perspectives makes it challenging to find a unified goal for all stake-
+holders, our research helps identify similar perspectives among different
+stakeholders, which can be a foundational basis for future collaboration
+and setting specific goals.
+The findings on the relationship between farmers’ preferences and
+characteristics highlight the importance of targeted interventions and
+policies that enhance agroecosystem services in line with farmers’
+preferences. Specifically, there should be an emphasis on traditional
+provisioning
+services
+for
+older
+farmers,
+while
+prioritizing
+non-
+provisioning services for younger generations. However, scientists
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+11
+
+must also remain mindful of potential conflicts and challenges when
+promoting regulating and supporting services.
+Based on a case study, we applied an adapted Q methodology mainly
+to show its abilities to uncover diverse stakeholder perspectives.
+Awareness of different perspectives within and among different stake-
+holder groups is the first step to facilitating open and effective
+communication while co-designing for more sustainable and multi-
+functional agricultural landscapes. In future agricultural landscape
+planning and redesigning projects, we hope Q methodology can also aid
+the establishment of clear, prioritized objectives for agricultural land-
+scape multifunctional development in different socioecological contexts.
+
+CRediT authorship contribution statement
+
+Jiali Cheng: Writing – review & editing, Writing – original draft,
+Visualization, Investigation, Formal analysis, Data curation. Andries
+Richter: Writing – review & editing, Supervision, Conceptualization.
+Wen-Feng Cong: Writing – review & editing, Supervision, Resources,
+Funding acquisition. Zhan Xu: Investigation, Data curation. Zhengyuan
+Liang: Investigation, Data curation. Chaochun Zhang: Supervision,
+Resources. Fusuo Zhang: Supervision, Resources, Project administra-
+tion. Wopke van der Werf: Writing – review & editing, Supervision,
+Conceptualization. Jeroen C.J. Groot: Writing – review & editing, Su-
+pervision, Conceptualization.
+
+Declaration of competing interest
+
+None.
+
+Acknowledgements
+
+We acknowledge all the stakeholders who participated in this study.
+We acknowledge colleagues who participated in the Q sorting, survey
+and data entry. We acknowledge Xueqin Zhu and Carl Timler who
+provided suggestions for the stakeholder analysis and Q methodology.
+We acknowledge Yang Zhou who provided the graphical design. This
+study was financially supported by the China Scholarship Council (No.
+201913043), Hainan University, the Program of Advanced Discipline
+Construction in Beijing (Agriculture Green Development), and the Na-
+tional
+Key
+Research
+and
+Development
+Program
+of
+China
+(2022YFD1900200).
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.agsy.2024.104187.
+
+Data availability
+
+Data and R script used in the analyses are available from the corre-
+sponding authors on request.
+
+References
+
+Andreotti, F., Neher, C.M., Speelman, E.N., Bazile, D., 2023. Exploring farmers’
+perspectives on agrobiodiversity management: future options for quinoa smallholder
+organizations in the Peruvian high Andes. Agron. Sustain. Dev. 43, 42. https://doi.
+org/10.1007/s13593-023-00891-y.
+Armatas, C.A., Campbell, R.M., Watson, A.E., Borrie, W.T., Christensen, N., Venn, T.J.,
+2018. An integrated approach to valuation and tradeoff analysis of ecosystem
+services for national forest decision-making. Ecosyst. Serv. 33, 1–18. https://doi.
+org/10.1016/j.ecoser.2018.07.007.
+Belton, V., Stewart, T., 2002. Multiple Criteria Decision Analysis: An Integrated
+Approach. Springer Science & Business Media.
+Bernues, A., Alfnes, F., Clemetsen, M., Eik, L.O., Faccioni, G., Ramanzin, M., Ripoll-
+Bosch, R., Rodriguez-Ortega, T., Sturaro, E., 2019. Exploring social preferences for
+ecosystem services of multifunctional agriculture across policy scenarios. Ecosyst.
+Serv. 39, 101002 doi:10/ggkkw7.
+
+Borcard, D., Gillet, F., Legendre, P., 2011. Unconstrained ordination. In: Borcard, D.,
+Gillet, Francois, Legendre, P. (Eds.), Numerical Ecology with R. Springer, New York,
+NY, pp. 115–151. https://doi.org/10.1007/978-1-4419-7976-6_5.
+Bredin, Y.K., Lindhjem, H., van Dijk, J., Linnell, J.D.C., 2015. Mapping value plurality
+towards ecosystem services in the case of Norwegian wildlife management: a Q
+analysis. Ecol. Econ. 118, 198–206. https://doi.org/10.1016/j.
+ecolecon.2015.07.005.
+Breyne, J., Dufrˆene, M., Mar´echal, K., 2021. How integrating “socio-cultural values” into
+ecosystem services evaluations can give meaning to value indicators. Ecosyst. Serv.
+49, 101278. https://doi.org/10.1016/j.ecoser.2021.101278.
+Brown, S.R., 1980. Political Subjectivity: Applications of Q Methodology in Political
+Science.
+Bryer, J., Speerschneider, K., Bryer, M.J., 2016. Package ‘likert.’ Likert Anal. Vis. Likert
+Items 13 5Computer Softw. Available Online HttpsCRAN R-Proj. Orgpackage Likert
+Accessed Dec. 31 2016.
+Buchel, S., Frantzeskaki, N., 2015. Citizens’ voice: a case study about perceived
+ecosystem services by urban park users in Rotterdam, the Netherlands. Ecosyst. Serv.
+12, 169–177. https://doi.org/10.1016/j.ecoser.2014.11.014.
+Bulkeley, H., Mol, A.P.J., 2003. Participation and environmental governance: consensus,
+ambivalence and debate. Environ. Values 12, 143–154. https://doi.org/10.3197/
+096327103129341261.
+Chen, Y., Zhang, Q., Liu, W., Yu, Z., 2017. Analyzing farmers’ perceptions of ecosystem
+services and PES schemes within agricultural landscapes in Mengyin County, China:
+transforming trade-offs into synergies. Sustainability 9, 1459. https://doi.org/
+10.3390/su9081459.
+Cheng, J., Xu, Z., Liang, Z., Li, F., Cong, W.-F., Zhang, C., Song, L., Wang, C., Zhang, F.,
+Richter, A., van der Werf, W., Groot, J.C.J., 2023. Farmers perceive diminishing
+ecosystem services, but overlook dis-services in intensively used agricultural
+landscapes in the North China Plain. J. Environ. Manag. 347, 119060. https://doi.
+org/10.1016/j.jenvman.2023.119060.
+Ciftcioglu, G.C., 2021. The social valuation of agro-ecosystem services at different scales:
+a case study from Kyrenia (Girne) Region of Northern Cyprus. Environ. Dev. 100645.
+https://doi.org/10.1016/j.envdev.2021.100645.
+Cliff, N., 1988. The eigenvalues-greater-than-one rule and the reliability of components.
+Psychol. Bull. 103, 276. https://doi.org/10.1037/0033-2909.103.2.276.
+Cuppen, E., Breukers, S., Hisschem¨oller, M., Bergsma, E., 2010. Q methodology to select
+participants for a stakeholder dialogue on energy options from biomass in the
+Netherlands. Ecol. Econ. 69, 579–591 doi:10/cdvvgm.
+de Groot, R., Brander, L., van der Ploeg, S., Costanza, R., Bernard, F., Braat, L.,
+Christie, M., Crossman, N., Ghermandi, A., Hein, L., Hussain, S., Kumar, P.,
+McVittie, A., Portela, R., Rodriguez, L.C., ten Brink, P., van Beukering, P., 2012.
+Global estimates of the value of ecosystems and their services in monetary units.
+Ecosyst. Serv. 1, 50–61. https://doi.org/10.1016/j.ecoser.2012.07.005.
+de Snoo, G.R., Herzon, I., Staats, H., Burton, R.J.F., Schindler, S., van Dijk, J.,
+Lokhorst, A.M., Bullock, J.M., Lobley, M., Wrbka, T., Schwarz, G., Musters, C.J.M.,
+2013. Toward effective nature conservation on farmland: making farmers matter.
+Conserv. Lett. 6, 66–72. https://doi.org/10.1111/j.1755-263X.2012.00296.x.
+Foley, J.A., 2005. Global consequences of land use. Science 309, 570–574. https://doi.
+org/10.1126/science.1111772.
+Ge, Y., Fan, L., Li, Y., Guo, J., Niu, H., 2023. Gender differences in smallholder farmers’
+adoption of crop diversification: evidence from Shaanxi Plain. China. Clim. Risk
+Manag. 39, 100482. https://doi.org/10.1016/j.crm.2023.100482.
+Groot, J.C.J., Rossing, W.A.H., 2011. Model-aided learning for adaptive management of
+natural resources: an evolutionary design perspective. Methods Ecol. Evol. 2,
+643–650 doi:10/bgbd7d.
+Haines-Young, R., Potschin, M., 2018. Common International Classification of Ecosystem
+Services (CICES) V5.1 and Guidance on the Application of the Revised Structure.
+Hanaˇcek, K., Rodríguez-Labajos, B., 2018. Impacts of land-use and management changes
+on cultural agroecosystem services and environmental conflicts—a global review.
+Glob. Environ. Chang. 50, 41–59. https://doi.org/10.1016/j.
+gloenvcha.2018.02.016.
+Harrington, R., Anton, C., Dawson, T.P., de Bello, F., Feld, C.K., Haslett, J.R.,
+Kluv´ankova-Oravsk´a, T., Kontogianni, A., Lavorel, S., Luck, G.W., Rounsevell, M.D.
+A., Samways, M.J., Settele, J., Skourtos, M., Spangenberg, J.H., Vandewalle, M.,
+Zobel, M., Harrison, P.A., 2010. Ecosystem services and biodiversity conservation:
+concepts and a glossary. Biodivers. Conserv. 19, 2773–2790 doi:10/db7td3.
+Holland, J.M., Douma, J.C., Crowley, L., James, L., Kor, L., Stevenson, D.R.W., Smith, B.
+M., 2017. Semi-natural habitats support biological control, pollination and soil
+conservation in Europe. A review. Agron. Sustain. Dev. 37, 31. https://doi.org/
+10.1007/s13593-017-0434-x.
+Horne, P., Boxall, P.C., Adamowicz, W.L., 2005. Multiple-use management of forest
+recreation sites: a spatially explicit choice experiment. For. Ecol. Manag. Decision
+Support in Multi Purpose Forestry 207, 189–199. https://doi.org/10.1016/j.
+foreco.2004.10.026.
+Iniesta-Arandia, I., García-Llorente, M., Aguilera, P.A., Montes, C., Martín-L´opez, B.,
+2014. Socio-cultural valuation of ecosystem services: uncovering the links between
+values, drivers of change, and human well-being. Ecol. Econ. 108, 36–48. https://
+doi.org/10.1016/j.ecolecon.2014.09.028.
+IPBES, 2019. In: Brondizio, E.S., Settele, J., Díaz, S., Ngo, H.T. (Eds.), Annex I: Glossary
+of Global assessment report on biodiversity and ecosystem services of the
+Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services.
+IPBES secretariat, Bonn, Germany. https://doi.org/10.5281/zenodo.3831673, 1148
+pages.
+Jackson, L.E., Pascual, U., Hodgkin, T., 2007. Utilizing and conserving agrobiodiversity
+in agricultural landscapes. Agric. Ecosyst. Environ. 121, 196–210. https://doi.org/
+10.1016/j.agee.2006.12.017.
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+12
+
+Jiren, T.S., Abson, D.J., Schultner, J., Riechers, M., Fischer, J., 2023. Bridging scenario
+planning and backcasting: a Q-analysis of divergent stakeholder priorities for future
+landscapes. People Nat. 5, 572–590. https://doi.org/10.1002/pan3.10441.
+Lamarque, P., Tappeiner, U., Turner, C., Steinbacher, M., Bardgett, R.D., Szukics, U.,
+Schermer, M., Lavorel, S., 2011. Stakeholder perceptions of grassland ecosystem
+services in relation to knowledge on soil fertility and biodiversity. Reg. Environ.
+Chang. 11, 791–804. https://doi.org/10.1007/s10113-011-0214-0.
+Landis, D.A., 2017. Designing agricultural landscapes for biodiversity-based ecosystem
+services. Basic Appl. Ecol. 18, 1–12. https://doi.org/10.1016/j.baae.2016.07.005.
+Lima, F.P., Bastos, R.P., 2019. Perceiving the invisible: formal education affects the
+perception of ecosystem services provided by native areas. Ecosyst. Serv. 40,
+101029. https://doi.org/10.1016/j.ecoser.2019.101029.
+Maas, B., Fabian, Y., Kross, S.M., Richter, A., 2021. Divergent farmer and scientist
+perceptions of agricultural biodiversity, ecosystem services and decision-making.
+Biol. Conserv. 256, 109065. https://doi.org/10.1016/j.biocon.2021.109065.
+Madhuri Sharma, U., 2020. How do farmers perceive climate change? A systematic
+review. Clim. Chang. 162, 991–1010. https://doi.org/10.1007/s10584-020-02814-
+2.
+Mahlalela, L.S., Jourdain, D., Mungatana, E.D., Lundhede, T.H., 2022. Diverse
+stakeholder perspectives and ecosystem services ranking: application of the Q-
+methodology to Hawane dam and nature Reserve in Eswatini. Ecol. Econ. 197,
+107439. https://doi.org/10.1016/j.ecolecon.2022.107439.
+Martín-L´opez, B., Iniesta-Arandia, I., García-Llorente, M., Palomo, I., Casado-Arzuaga, I.,
+Amo, D.G.D., G´omez-Baggethun, E., Oteros-Rozas, E., Palacios-Agundez, I.,
+Willaarts, B., Gonz´alez, J.A., Santos-Martín, F., Onaindia, M., L´opez-Santiago, C.,
+Montes, C., 2012. Uncovering ecosystem service bundles through social preferences.
+PLoS One 7, e38970. https://doi.org/10.1371/journal.pone.0038970.
+McKeown, B., Thomas, D.B., 2013. Q Methodology. SAGE Publications.
+MEA, 2005. Current State and Trends. Wash. DC.
+Meynard, J.-M., Dedieu, B., Bos, A.P., 2012. Re-design and co-design of farming systems.
+An overview of methods and practices. In: Darnhofer, I., Gibbon, D., Dedieu, Benoît
+(Eds.), Farming Systems Research into the 21st Century: The New Dynamic.
+Springer, Netherlands, Dordrecht, pp. 405–429. https://doi.org/10.1007/978-94-
+007-4503-2_18.
+Mouchet, M.A., Lamarque, P., Martín-L´opez, B., Crouzat, E., Gos, P., Byczek, C.,
+Lavorel, S., 2014. An interdisciplinary methodological guide for quantifying
+associations between ecosystem services. Glob. Environ. Chang. 28, 298–308 doi:10/
+f6nbf3.
+Mponela, P., Aynekulu, E., Ebrahim, M., Abate, T., Abera, W., Zaremba, H., Elias, M.,
+Tamene, L., 2023. Gender gap in perspectives of the impacts of degradation and
+restoration on ecosystem services in Ethiopia. Land Degrad. Dev. 34, 4503–4516.
+https://doi.org/10.1002/ldr.4764.
+Mu, H., Wang, K., Yang, X., Xu, W., Liu, X., Ritsema, C.J., Geissen, V., 2022. Pesticide
+usage practices and the exposure risk to pollinators: a case study in the North China
+plain. Ecotoxicol. Environ. Saf. 241, 113713. https://doi.org/10.1016/j.
+ecoenv.2022.113713.
+NBSC, 2017. Quzhou County Statistical Yearbook of 2017. China Statistics Press, Beijing.
+O’Farrell, P.J., Anderson, P.M., 2010. Sustainable multifunctional landscapes: a review
+to implementation. Curr. Opin. Environ. Sustain. 2, 59–65. https://doi.org/10.1016/
+j.cosust.2010.02.005.
+Page, G., Bellotti, B., 2015. Farmers value on-farm ecosystem services as important, but
+what are the impediments to participation in PES schemes? Sci. Total Environ.
+515–516, 12–19. https://doi.org/10.1016/j.scitotenv.2015.02.029.
+Parra-L´opez, C., Groot, J.C.J., Carmona-Torres, C., Rossing, W.A.H., 2008. Integrating
+public demands into model-based design for multifunctional agriculture: an
+application to intensive Dutch dairy landscapes. Ecol. Econ. 67, 538–551. https://
+doi.org/10.1016/j.ecolecon.2008.01.007.
+Parra-L´opez, C., Groot, J.C.J., Carmona-Torres, C., Rossing, W.A.H., 2009. An integrated
+approach for ex-ante evaluation of public policies for sustainable agriculture at
+landscape level. Land Use Policy 26, 1020–1030. https://doi.org/10.1016/j.land
+usepol.2008.12.006.
+Pe’er, G., Zinngrebe, Y., Hauck, J., Schindler, S., Dittrich, A., Zingg, S., Tscharntke, T.,
+Oppermann, R., Sutcliffe, L.M.E., Sirami, C., Schmidt, J., Hoyer, C., Schleyer, C.,
+Lakner, S., 2017. Adding some green to the greening: improving the EU’s ecological
+focus areas for biodiversity and farmers. Conserv. Lett. 10, 517–530. https://doi.
+org/10.1111/conl.12333.
+Peter, S., Le Provost, G., Mehring, M., Müller, T., Manning, P., 2022. Cultural worldviews
+consistently explain bundles of ecosystem service prioritisation across rural
+Germany. People Nat. 4, 218–230. https://doi.org/10.1002/pan3.10277.
+Pethiyagoda, N.A., Ogier, E.M., Hatton MacDonald, D., 2024. Measuring stakeholder
+preferences for ecosystem services interacting with salmon aquaculture in Tasmania
+under expansion: application of Q methodology. Mar. Policy 162, 106053. https://
+doi.org/10.1016/j.marpol.2024.106053.
+R Core Team, 2021. R: A language and environment for statistical computing. Published
+online 2020.
+Reed, M.S., Graves, A., Dandy, N., Posthumus, H., Hubacek, K., Morris, J., Prell, C.,
+Quinn, C.H., Stringer, L.C., 2009. Who’s in and why? A typology of stakeholder
+analysis methods for natural resource management. J. Environ. Manag. 90,
+1933–1949. https://doi.org/10.1016/j.jenvman.2009.01.001.
+Rietveld, A.M., Farnworth, C.R., Nawaz, M., Timler, C.J., Tittonell, P.A., van der
+Burg, M., Groot, J.C.J., 2023. Understanding diversity in gender norms within
+farming communities: a Q-methodology approach applied in Uganda. NJAS-Impact
+Agric. Life Sci. 95, 2279542. https://doi.org/10.1080/27685241.2023.2279542.
+Roe, B.E., Just, D.R., 2009. Internal and external validity in economics research: tradeoffs
+between experiments, field experiments, natural experiments, and field data. Am. J.
+Agric. Econ. 91, 1266–1271. https://doi.org/10.1111/j.1467-8276.2009.01295.x.
+
+Rola-Rubzen, M.F., Paris, T., Hawkins, J., Sapkota, B., 2020. Improving gender
+participation in agricultural technology adoption in Asia: from rhetoric to practical
+action. Appl. Econ. Perspect. Policy 42, 113–125. https://doi.org/10.1002/
+aepp.13011.
+Salliou, N., Barnaud, C., 2017. Landscape and biodiversity as new resources for agro-
+ecology? Insights from farmers’ perspectives. Ecol. Soc. 22. https://doi.org/
+10.5751/ES-09249-220216.
+Sayer, J., Sunderland, T., Ghazoul, J., Pfund, J.-L., Sheil, D., Meijaard, E., Venter, M.,
+Boedhihartono, A.K., Day, M., Garcia, C., van Oosten, C., Buck, L.E., 2013. Ten
+principles for a landscape approach to reconciling agriculture, conservation, and
+other competing land uses. Proc. Natl. Acad. Sci. 110, 8349–8356. https://doi.org/
+10.1073/pnas.1210595110.
+Scholte, S.S.K., van Teeffelen, A.J.A., Verburg, P.H., 2015. Integrating socio-cultural
+perspectives into ecosystem service valuation: a review of concepts and methods.
+Ecol. Econ. 114, 67–78. https://doi.org/10.1016/j.ecolecon.2015.03.007.
+Shen, J., Zhu, Q., Jiao, X., Ying, H., Wang, H., Wen, X., Xu, W., Li, T., Cong, W., Liu, X.,
+Hou, Y., Cui, Z., Oenema, O., Davies, W.J., Zhang, F., 2020. Agriculture green
+development: a model for China and the world. Front. Agric. Sci. Eng. 7, 5. https://
+doi.org/10.15302/J-FASE-2019300.
+Smith, H.F., Sullivan, C.A., 2014. Ecosystem services within agricultural landscapes-
+Farmers’ perceptions. Ecol. Econ. 98, 72–80. https://doi.org/10.1016/j.
+ecolecon.2013.12.008.
+Sneegas, G., Beckner, S., Brannstrom, C., Jepson, W., Lee, K., Seghezzo, L., 2021. Using
+Q-methodology in environmental sustainability research: a bibliometric analysis and
+systematic review. Ecol. Econ. 180, 106864. https://doi.org/10.1016/j.
+ecolecon.2020.106864.
+Stephenson, W., 1953. The study of behavior; Q-technique and its methodology, The
+Study of Behavior; Q-Technique and its Methodology. University of Chicago Press,
+Chicago, IL, US.
+Streiner, D.L., 2020. Statistics commentary series. Commentary no. 44: internal and
+external validity. J. Clin. Psychopharmacol. 40, 531. https://doi.org/10.1097/
+JCP.0000000000001304.
+Swagemakers, P., Dominguez Garcia, M., Onofa Torres, A., Oostindie, H., Groot, J., 2017.
+A values-based approach to exploring synergies between livestock farming and
+landscape conservation in Galicia (Spain). Sustainability 9, 1987 doi:10/gjtxx9.
+Sy, M.M., Rey-Valette, H., Simier, M., Pasqualini, V., Figui`eres, C., De Wit, R., 2018.
+Identifying consensus on coastal lagoons ecosystem services and conservation
+priorities for an effective decision making: a Q approach. Ecol. Econ. 154, 1–13.
+https://doi.org/10.1016/j.ecolecon.2018.07.018.
+Teixeira, H.M., Vermue, A.J., Cardoso, I.M., Claros, M.P., Bianchi, F.J.J.A., 2018.
+Farmers show complex and contrasting perceptions on ecosystem services and their
+management. Ecosyst. Serv. 33, 44–58. https://doi.org/10.1016/j.
+ecoser.2018.08.006.
+Timler, C.J., Groot, J.C.J., Snapp, S.S., Tittonell, P.A., 2023. Strategies steering
+intensification pathways of farmers in Central Malawi. Hum. Ecol. https://doi.org/
+10.1007/s10745-023-00413-0.
+Vaas, J., Driessen, P.P.J., Giezen, M., van Laerhoven, F., Wassen, M.J., 2019. “Let me tell
+you your problems”. Using Q methodology to elicit latent problem perceptions about
+invasive alien species. Geoforum 99, 120–131 doi:10/gkq8j8.
+Valenta, A.L., Wigger, U., 1997. Q-methodology: definition and application in health
+care informatics. J. Am. Med. Inform. Assoc. 4, 501–510 doi:10/b3xrn8.
+van Dijk, R., Intriago Zambrano, J.C., Diehl, J.C., Ertsen, M.W., 2022. Q-methodology
+and farmers’ decision-making. Front. Sustain. Food Syst. 6. https://doi.org/
+10.3389/fsufs.2022.954934.
+Wang, X., Zhao, X., 2023. Farmers’ perception and choice preference of grassland
+ecosystem services: evidence from the northeastern region of the Qinghai-Tibet
+plateau. Land Use Policy 132, 106768. https://doi.org/10.1016/j.
+landusepol.2023.106768.
+Watts, S., Stenner, P., 2005. Doing Q ethodology: theory, method and interpretation.
+Qual. Res. Psychol. 2, 67–91. https://doi.org/10.1191/1478088705qp022oa.
+Webler, T., Danielson, S., Tuler, S., 2009. Using Q method to reveal social perspectives in
+environmental research. Greenfield MA Soc. Environ. Res. Inst. 54, 1–45.
+Wickham, H., Chang, W., Wickham, M.H., 2016. Package ‘ggplot2.’ Create Elegant Data
+Vis. Using Gramm. Graph. Version 2, pp. 1–189.
+Xu, Z., Li, F., Cheng, J., Liang, Z., Groot, J.C., van der Werf, W., Zhang, C., 2024. Survey
+data on livelihoods and inputs and outputs of crop production in Quzhou county on
+the North China plain. Data in Brief 110269. https://doi.org/10.1016/j.
+dib.2024.110269.
+Yarar, N., Orth, U.R., 2018. Consumer lay theories on healthy nutrition: A Q
+methodology application in Germany. Appetite 120, 145–157. https://doi.org/10.10
+16/j.appet.2017.08.026.
+Zabala, A., 2014. Qmethod: a package to explore human perspectives using Q
+methodology. R J 6, 163–173. https://doi.org/10.32614/RJ-2014-032.
+Zabala, A., Sandbrook, C., Mukherjee, N., 2018. When and how to use Q methodology to
+understand perspectives in conservation research. Conserv. Biol. 32, 1185–1194.
+https://doi.org/10.1111/cobi.13123.
+Zhai, S., Song, G., Qin, Y., Ye, X., Leipnik, M., 2018. Climate change and Chinese farmers:
+perceptions and determinants of adaptive strategies. J. Integr. Agric. 17, 949–963.
+https://doi.org/10.1016/S2095-3119(17)61753-2.
+Zhang, W., Cao, G., Li, X., Zhang, H., Wang, C., Liu, Q., Chen, X., Cui, Z., Shen, J.,
+Jiang, R., Mi, G., Miao, Y., Zhang, F., Dou, Z., 2016. Closing yield gaps in China by
+empowering smallholder farmers. Nature 537, 671-+. https://doi.org/10.1038/
+nature19368.
+Zhang, W., Yu, Y., Wu, X., Pereira, P., Borja, M.E.L., 2020. Integrating preferences and
+social values for ecosystem services in local ecological management: a framework
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+13
+
+applied in Xiaojiang Basin Yunnan province, China. Land Use Policy 91, 104339 doi:
+10/ghbr3t.
+Zhao, Z., Qin, X., Zang, H., Chen, C., Zhang, Y., Wang, Z., 2017. Value of groundwater
+used for producing extra grain in North China plain. Field Crop Res. 210, 47–51.
+https://doi.org/10.1016/j.fcr.2017.05.022.
+Zhao, Y., Wang, L., Lei, X., Wang, B., Cui, J., Xu, Y., Chen, Y., Sui, P., 2021. Reducing
+carbon footprint without compromising grain security through relaxing cropping
+
+rotation system in the North China plain. J. Clean. Prod. 318, 128465. https://doi.
+org/10.1016/j.jclepro.2021.128465.
+Zoderer, B.M., Tasser, E., Carver, S., Tappeiner, U., 2019. Stakeholder perspectives on
+ecosystem service supply and ecosystem service demand bundles. Ecosyst. Serv. 37,
+100938. https://doi.org/10.1016/j.ecoser.2019.100938.
+
+J. Cheng et al.
+Agricultural Systems 223 (2025) 104187
+
+14

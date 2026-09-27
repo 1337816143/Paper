@@ -1,0 +1,1053 @@
+{
+  "schema": "paper.original.v2",
+  "id": "mixed-2026",
+  "lessonId": "mixed-2026",
+  "title": "Systems-oriented Innovation towards Sustainable Smallholder Mixed Farming",
+  "citation": "Martínez-Ramón, V., et al. (2026). Perspective. DOI: 10.1038/s44264-025-00114-9.",
+  "origin": "https://doi.org/10.1038/s44264-025-00114-9",
+  "sourceHash": "1847ca3bcdced1f671eb5a4c41472b2510921d3aa63d7980e5d9de505c4dc346",
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "evidence": "This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modiﬁed the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the mat",
+    "page": 9
+  },
+  "originalPath": "library/mixed-2026/1847ca3bcdce/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/mixed-2026/1847ca3bcdce/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-f518d12",
+          "kind": "heading",
+          "text": "npj | sustainable agriculture\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            18.08558464050293,
+            561.248291015625,
+            35.07148361206055
+          ]
+        },
+        {
+          "id": "p1-b1-88d2b70",
+          "kind": "heading",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nSystems-oriented Innovation towards\nSustainable Smallholder Mixed Farming",
+          "bbox": [
+            39.685001373291016,
+            96.6487045288086,
+            561.2908325195312,
+            167.17604064941406
+          ]
+        },
+        {
+          "id": "p1-b3-f26f327",
+          "kind": "paragraph",
+          "text": "Check for updates",
+          "bbox": [
+            494.5888977050781,
+            192.9699249267578,
+            561.2428588867188,
+            200.9401397705078
+          ]
+        },
+        {
+          "id": "p1-b4-c7f40c4",
+          "kind": "paragraph",
+          "text": "Valentina Martínez-Ramón1\n, Santiago López-Ridaura2,3, Alessandra Cossu1, Mazvita Chiduwa4,\nSabine Homann-Kee Tui5, Powell Mponela6, Nirman Shrestha7, Timothy J. Krupnik8,\nNurudeen Abdul Rahman9, Mateete Bekunda10, Kindu Mekonnen11, Randall S. Ritzema12,\nMary Atieno Otieno13, Tamiru Amanu Abetu14, Mattis Höft1, Kim van Wijngaarden1, Sanderijn Meijer1,\nDaan Andreas1, Lois Veenings1, Margherita Senesi1, Yifan Wang1, Gerrie van de Ven14,\nKatrien Descheemaeker14, Jerry Glover15, Sieglinde Snapp2 & Jeroen C. J. Groot1",
+          "bbox": [
+            39.685001373291016,
+            208.203369140625,
+            459.9431457519531,
+            281.8777770996094
+          ]
+        },
+        {
+          "id": "p1-b5-f2d329e",
+          "kind": "paragraph",
+          "text": "Existing innovation approaches in smallholder mixed farming systems (MFS) often fall short by\noverlooking system complexity and local contexts. This Perspective calls for more responsible and\neffective co-design of MFS innovations. We outline distinct (socio-)technical innovation pathways, to\nbetter comprehend their opportunities and trade-offs. Drawing on case studies from Sub-Saharan\nAfrica and South and South-East Asia, we identify three key enablers for MFS innovation approaches:\nsystems thinking, participatory processes, and context-sensitivity. Together, these elements can help\nunlock the potential of MFS to improve livelihoods and advance landscape sustainability across the\nGlobal South.",
+          "bbox": [
+            39.685001373291016,
+            309.1016540527344,
+            476.19427490234375,
+            416.6908264160156
+          ]
+        },
+        {
+          "id": "p1-b6-a4cf113",
+          "kind": "paragraph",
+          "text": "Mixed farming systems (MFS) are deﬁned by the presence of diverse\ncombinations of crops, livestock, trees, aquatic organisms and/or other\ncomponents that coexist within single farms and across rural communities.\nThey form the backbone of agricultural production in many low- and\nmiddle-income countries (Fig. 1), contributing almost 70% of rural\nhouseholds’ income1. Their signiﬁcance is particularly evident in Sub-\nSaharan Africa (SSA) and South and South-East Asia (SA and SEA,\nrespectively), where they serve as a key source of livelihoods for millions of\nsmallholder farmers and rural communities, and provide a major share of\nstaple crop and livestock production1–3.\nMFS are heterogeneous and characterized by different levels of com-\nplexity in interactions among their different farm components, particularly\nbetween the managed plants and animals. The core advantage of MFS liesin\ntheir capacity to harness complementarities between farm components\nthrough their integration, fostering system-level synergies that enhance\noverall productivity and resource use efﬁciency4. The diversity inherent to\nMFS not only supports multiple production objectives but also helps\nbuilding resilience to external environmental or economic shocks, and",
+          "bbox": [
+            39.68393325805664,
+            444.55609130859375,
+            294.8451843261719,
+            636.204345703125
+          ]
+        },
+        {
+          "id": "p1-b7-f2cb10d",
+          "kind": "paragraph",
+          "text": "promoting beneﬁcial ecological interactions3,5,6. Such synergies can lead to\nimproved soilhealth,nutrientcycling,andnaturalpestandweedregulation,\nas evidenced in highly integrated mixed systems such as rice-duck-azolla-\nﬁsh polycultures7,8. Importantly, these beneﬁts are highly scale dependent,\nshaped by temporal dynamics (e.g., multi-year rotations and successional\neffects) and by spatial conﬁguration, as the connectivity of ﬁelds and natural\nhabitats in the landscape9. By producing a variety of outputs from limited\nresources, MFS play a vital role in food and nutrition security, income\ngeneration,\nagricultural\nrisk\nreduction,\nand\nin\nsustainable\nland\nmanagement1,10,11.\nDespite the numerous beneﬁts and potentials of MFS, these systems\nface mounting pressures. Biophysical pressures include climate change,\nhealth issues in crops, livestock and other components, and progressive soil\ndegradation1. Furthermore, they are subjected to socioeconomic stressors\nincluding increasingly limited and unequal access to resources such as land,\ndysfunctional markets and market pressures towards specialization and\ncash crop production, weak social protection systems, and farmers’\nincreasing\nreliance\non\noff-farm\nlivelihood\noptions;\noften\npoorly",
+          "bbox": [
+            306.1408386230469,
+            444.0345153808594,
+            561.3416137695312,
+            636.203857421875
+          ]
+        },
+        {
+          "id": "p1-b8-e113d3e",
+          "kind": "paragraph",
+          "text": "1Farming Systems Ecology, Wageningen University & Research, Wageningen, the Netherlands. 2International Maize and Wheat Improvement Center,\nTexcoco, Mexico. 3Innovation, Montpellier University, CIRAD, INRAE, Institut Agro, Montpellier, 34060, France. 4International Maize and Wheat Improvement\nCenter, Lilongwe, Malawi. 5International Center for Tropical Agriculture, Lilongwe, Malawi. 6International Maize and Wheat Improvement Center, Patan, Nepal.",
+          "bbox": [
+            39.685001373291016,
+            659.3892822265625,
+            555.6373291015625,
+            689.0996704101562
+          ]
+        },
+        {
+          "id": "p1-b9-a922ea0",
+          "kind": "paragraph",
+          "text": "7International Water Management Institute, Patan, Nepal. 8International Maize and Wheat Improvement Center, Dhaka, Bangladesh. 9International Institute of\nTropical Agriculture, Tamale, Ghana. 10International Institute of Tropical Agriculture, Kampala, Uganda. 11International Livestock Research Institute, Addis\nAbaba, Ethiopia. 12Daugherty Water for Food Global Institute, University of Nebraska-Lincoln, Lincoln, USA. 13International Center for Tropical Agriculture,\nHanoi, Vietnam. 14Plant Production Systems, Wageningen University & Research, Wageningen, the Netherlands. 15International Rice Research Institute, Los\nBaños, Philippines.\ne-mail: valentinamartinezramon@gmail.com",
+          "bbox": [
+            39.685001373291016,
+            691.4775390625,
+            552.402587890625,
+            742.6180419921875
+          ]
+        },
+        {
+          "id": "p1-b10-e571edb",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n1",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        },
+        {
+          "id": "p1-b11-46a2bc4",
+          "kind": "paragraph",
+          "text": "1234567890():,;",
+          "bbox": [
+            6.865813732147217,
+            300.9578857421875,
+            11.847113609313965,
+            334.0346374511719
+          ]
+        },
+        {
+          "id": "p1-b12-46a2bc4",
+          "kind": "paragraph",
+          "text": "1234567890():,;",
+          "bbox": [
+            17.559646606445312,
+            300.8313903808594,
+            22.54094696044922,
+            334.0346374511719
+          ]
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-d83c0c5",
+          "kind": "paragraph",
+          "text": "compensated and subverting farmers’ own on-farm production12. More-\nover, persistent gender disparities and implicit unequal access to assets,\ncredit, and decision-making power limit beneﬁts from improved practices\nfor women and youth13. The interplay of these factors undermines small-\nholder capacity and compromises their ability to improve MFS to produce\nsufﬁcient and adequate food and income, with equitable beneﬁts, as well as\nreduces their ability to invest in other productive, sustainable, and resource-\nefﬁcient practices14.\nWhile many of the challenges within MFS are inﬂuenced by the\nunderlying regional and global economic pressures15, there is an\nimmediate need for local strategies that identify and sustain systemic\nsolutions, and thereby enhance their resilience, equitability and sus-\ntainability. Agricultural innovation represents a promising pathway to\naddress these challenges. Innovation is understood here not merely as the\napplication of technological interventions, but more broadly as any type\nof change that contributes towards enhancing social-ecological com-\nmunity goals, both in technical and socio-institutional dimensions16,17.\nInnovations are widely extended by agricultural development programs,\nyet in many instances have failed to fully achieve intended outcomes, and\nhave had limited impact, with modest or negligible adoption rates18. In\naddition, innovations have often led to an ampliﬁcation of trade-offs and\ninequalities, leading to e.g., reduced agency among women farmers, in\ndirect contradiction to sustainability objectives19.\nInnovating in MFS has proved particularly challenging for various\nreasons. To start with, the inherent complexity and interconnectedness of\nthese systems make it difﬁcult to identify effective entry points for inter-\nventions or to predict system-wide effects10. Additionally, an overall critique\nof agricultural development within the MFS context is that a supply-driven",
+          "bbox": [
+            39.68372344970703,
+            444.0345153808594,
+            294.9126892089844,
+            743.2974243164062
+          ]
+        },
+        {
+          "id": "p2-b1-8dad99f",
+          "kind": "paragraph",
+          "text": "approach has too often prioritized technologies aimed at unlocking speciﬁc\nbiophysical challenges without considering the enabling socio-institutional\nconditions16, where subsidy and market structures often incentivize farmers\nto grow monocultures. Design shortcomings have further undermined the\neffectiveness of innovation efforts. A focus on single farm components\nwithin MFS-dominated landscapes has led to inadequate attention to the\ninteractions among multiple system components and their integration20.\nThe farmer and stakeholder community involvement are also too often not\nconsidered from the start of the innovation process, which leads to tech-\nnologies that are not ﬁne-tuned for local context, farmers’ diverse pre-\nferences and needs, and pay insufﬁcient attention to trade-offs among\nsustainability objectives21,22. This has led to technology development that\ninadequately addresses labour and cash constraints within MFS or fails to\nmediate short versus long-term productivity and sustainability gains.\nThis Perspective advocates a more systems-oriented understanding\nof MFS innovation, one that can guide researchers and practitioners in\nnavigating the unique opportunities MFS offer for delivering sustainable\noutcomes in the Global South. We build on established agricultural\ninnovation frameworks as Agricultural Innovation Systems16 (AIS) and\nthe Multi-Level Perspective23 (MLP), acknowledging that innovation is\nshaped by networks of actors and institutions, and that broader cross-\nscale dynamics inﬂuence local change. Our contribution focuses on\nintegrating these perspectives with systems agronomy24,25 by making the\ninternal dynamics of farm systems explicit, offering a practical lens for\ndesigning technical innovations in MFS. To do so, we ﬁrst outline MFS\ninnovation possibilities and disentangle their associated opportunities\nand risks. We then illustrate these different innovation pathways through\ncase studies from Sub-Saharan Africa and South and South-East Asia,",
+          "bbox": [
+            306.1405029296875,
+            444.554443359375,
+            561.3680419921875,
+            743.2967529296875
+          ]
+        },
+        {
+          "id": "p2-figure1",
+          "kind": "image",
+          "path": "library/mixed-2026/1847ca3bcdce/p2-figure1.png",
+          "alt": "Original source page 2, graphic 1",
+          "caption": "原文第2页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p2-b3-0bcdccb",
+          "kind": "paragraph",
+          "text": "Fig. 1 | Farming systems distribution in low- and middle-income countries, where different types of mixed farming systems are prevalent. Extracted from Dixon et al. (2023)69.",
+          "bbox": [
+            39.685001373291016,
+            416.15838623046875,
+            561.2530517578125,
+            424.9334411621094
+          ]
+        },
+        {
+          "id": "p2-b4-fce4c52",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            23.761194229125977,
+            561.1757202148438,
+            33.723793029785156
+          ]
+        },
+        {
+          "id": "p2-b5-9deeb6e",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n2",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-9573f25",
+          "kind": "paragraph",
+          "text": "regions where MFS are central to rural livelihoods and landscape-level\nsustainability. Building on these cases, we identify key enablers for\neffective MFS innovation co-design, addressing concerns on how not to\ncontribute to ‘innovation speak’ as a reinforcer of compounding\ndynamics that undermines and constrains the agency of local actors26.\nThis requires recognition of MFS interconnectedness by use of systems\napproaches, ensuring innovation design is part of a participatory, co-\ncreation approach, and careful consideration of local contexts.",
+          "bbox": [
+            39.683990478515625,
+            48.91419982910156,
+            294.90985107421875,
+            132.82781982421875
+          ]
+        },
+        {
+          "id": "p3-b1-1ff898b",
+          "kind": "paragraph",
+          "text": "MFS innovation pathways\nInnovation strategies for sustainable development in MFS need to address\nthe variability in the state and functions of heterogenous farming systems,\nincluding biophysical conditions, household management and gender\nrelations, resource availability, and the inﬂuence of value networks and\npolicies. Innovation of these complex systems with the aim of improving\noverall farm and farming system performance (social, productive, and\nenvironmental) can take a variety of forms. We focus on technical inno-\nvation at the farm system level, while recognizing that technical change\ndeeply impacts and is inﬂuenced by the socio-institutional dimension. We\nthus treat the socio-institutional environment as an enabling layer which\nshapeshow technical change is adoptedand scaled, rather than as a separate\ninnovation pathway.\nWedistinguishthreebroadtypesoftechnicalinnovationdependingon\nthe main focus of the strategy: enhancing component effectiveness, system\nintegration and system diversiﬁcation. Importantly, these are not inde-\npendent, and the implementation of one kind of innovation can simulta-\nneously create opportunities for others. Furthermore, these technical",
+          "bbox": [
+            39.684967041015625,
+            145.04049682617188,
+            294.86846923828125,
+            336.2959899902344
+          ]
+        },
+        {
+          "id": "p3-b2-54bc1c6",
+          "kind": "paragraph",
+          "text": "innovations can be coupled with socio-institutional ones, forming socio-\ntechnical innovation bundles (STIBs) (Fig. 2).",
+          "bbox": [
+            306.14276123046875,
+            48.90998840332031,
+            561.239990234375,
+            68.59101104736328
+          ]
+        },
+        {
+          "id": "p3-b3-a4b0d14",
+          "kind": "paragraph",
+          "text": "Technical innovations\nTechnical innovations at the farm system level have the potential to sig-\nniﬁcantly improve the performance of the system, positively impacting\nproductivity as well as environmental, social, human, and economic indi-\ncators at the farm and community level. Broadly, technical innovation will\naffect system dynamics and the magnitude of material ﬂows entering,\nleaving, and moving within the system. Nonetheless, we can differentiate\ntechnical innovations ranging from incremental to transformative\napproaches interms of expected impact onperformance includingtargeting\ncomponenteffectiveness,systemintegration,andsystemdiversiﬁcation.Itis\nworth noting that although we here focus on farm level effects, these\ninnovations are inﬂuenced by drivers at the farming system and landscape\nlevel, for example through collaboration between farms in the use and\norganization of resources or labour, as well as by socio-institutional\nenvironments.",
+          "bbox": [
+            306.1416931152344,
+            80.80741119384766,
+            561.2972412109375,
+            239.9185791015625
+          ]
+        },
+        {
+          "id": "p3-b4-20c7510",
+          "kind": "paragraph",
+          "text": "Component effectiveness. Improving effectiveness refers to the opti-\nmization of existing system components to increase productivity and\nefﬁciency at farm or household level. This kind of management opti-\nmization often involves farmers and their households making direct and\nsigniﬁcant changes to speciﬁc farm components to better utilizeresources\nand/or reduce trade-offs, production costs, and losses. This could include\nnew water management strategies such as crop drip irrigation, improved\nsoil health and manure management practices that minimize nutrient",
+          "bbox": [
+            306.1405029296875,
+            252.3849639892578,
+            561.2730102539062,
+            336.2978210449219
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/mixed-2026/1847ca3bcdce/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b6-d22db8a",
+          "kind": "paragraph",
+          "text": "Fig. 2 | Pathways for sustainable innovation of smallholder mixed farming\nsystems (MFS). The innermost box represents the MFS where different components\ninteract resulting in socio-environmental outcomes. Enhancing component effec-\ntiveness is exempliﬁed by use of higher yielding varieties, integration by the resource\nﬂows between components such as crops, ﬁshery and livestock, and diversiﬁcation\nby the introduction of new components e.g., ﬁshery. The blue box represents the",
+          "bbox": [
+            39.685001373291016,
+            678.7981567382812,
+            294.79901123046875,
+            736.4603271484375
+          ]
+        },
+        {
+          "id": "p3-b7-aefedce",
+          "kind": "paragraph",
+          "text": "enabling socio-institutional environment. Technical innovation can be bundled\nwith enabling socio-institutional innovations to form socio-technical innovation\nbundles (STIBs). Critical enablers shown inyellow are the use of systems approaches,\nensuring innovation design is a participatory process, and careful consideration of\nlocal contexts (Section 4).",
+          "bbox": [
+            306.1437072753906,
+            679.0830688476562,
+            561.1690063476562,
+            726.7086181640625
+          ]
+        },
+        {
+          "id": "p3-b8-fce4c52",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            23.761194229125977,
+            561.1757202148438,
+            33.723793029785156
+          ]
+        },
+        {
+          "id": "p3-b9-d56b8fa",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n3",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-0094bae",
+          "kind": "paragraph",
+          "text": "losses, or enhanced food preparation practices that improve nutrient\nretention in foodproducts. Such innovations have tobe understood inthe\ncontext of a highly interconnected MFS, where optimization of one\ncomponent may lead to trade-offs at system level. An example is seen in\nconventional rice breeding, where decades of selection for higher yield\nhave been linked to declines in key micronutrients such as iron and zinc,\nwith negative implications for household nutrition in rice-dependent\nsmallholder systems27. Recognizing these cascading effects is essential to\ndesigning innovations that are effective not just at the component level,\nbut also at the system level.",
+          "bbox": [
+            39.684654235839844,
+            48.91419982910156,
+            294.795654296875,
+            154.25799560546875
+          ]
+        },
+        {
+          "id": "p4-b1-a3e9f8d",
+          "kind": "paragraph",
+          "text": "System integration. Targeting system integration through innovation\nentails purposefully strengthening linkages between system components,\nhence enhancing synergies between the existing components to improve\noverall system performance. For example, this can involve the redirection\nof ﬂows between existing components, such as by changing the allocation\nof a speciﬁc farm byproduct. This type of innovation is particularly\neffective in restoring broken or weakened connections that otherwise\ndisrupt the system’s cyclical nature and lead to unnecessary environ-\nmental losses. For example, if manure is not returned to the soil, nutrients\nare lost, soil quality may decline, and the potential complementarity\nbetween the crop and livestock components is diminished. Innovations\nthat restore and strengthen these connections, such as utilizing crop\nresidue as animal feed, can enhance nutrient cycling and resource use\nefﬁciency, producing noticeable improvements in farm performance1,5.\nNonetheless, this may also introduce new trade-offs at system level: those\nsame residues could otherwise serve as mulch for soil coverage and\nmoisture conservation. Addressing such trade-offs in systems analysis of\ninnovations is essential to avoid undermining MFS sustainability.",
+          "bbox": [
+            39.683990478515625,
+            166.72206115722656,
+            294.8138122558594,
+            357.7284851074219
+          ]
+        },
+        {
+          "id": "p4-b2-9bc4f1f",
+          "kind": "paragraph",
+          "text": "System diversiﬁcation. Diversifying farming systems involves the\naddition of new components, thereby increasing the system’s diversity\nand complexity, particularly when new links are created between existing\nand new components, creating novel opportunities for integration. Some\nexamples include introducing new crops or forages into the crop rotation,\nor adding trees, ﬁsheries, compost, or biogas structures. The introduction\nof new components can reduce the risk of total failure at the farm level in\nthe event that the performance of one component is decimated by speciﬁc\nbiophysical or market stresses. For instance, introduction of soybean to a\nmaize farm can mitigate the impact of fall armyworm on maize. Addi-\ntionally, diversiﬁcation creates opportunities for alternative markets if\nthe maize or other critical markets are underperforming, and provides\nnutritional beneﬁts to complement the maize household and community",
+          "bbox": [
+            39.68452453613281,
+            370.0065612792969,
+            294.8125915527344,
+            507.6793518066406
+          ]
+        },
+        {
+          "id": "p4-b3-3512829",
+          "kind": "paragraph",
+          "text": "diet. By increasing the diversity of farm system components and their\nintegration, new components provide additional resources or outputs\nwhich can potentially contribute to multiple farm dimensions – diver-\nsifying outputs and enhancing overall circularity and resilience28. How-\never, diversiﬁcation may also introduce new risks or trade-offs for\nfarmers, such as increased labour demands or greater management\ncomplexity.",
+          "bbox": [
+            306.14117431640625,
+            48.90962219238281,
+            561.279052734375,
+            122.11298370361328
+          ]
+        },
+        {
+          "id": "p4-b4-1f00382",
+          "kind": "paragraph",
+          "text": "Socio-technical innovation bundles. The success of the technical\ninnovations in bringing about the intended change depends on the socio-\ninstitutional environment in which the smallholders operate13. While\ntechnical innovations hold potential to enhance both social and ecolo-\ngical dimensions and farm productivity, their adoption and scaling\ndepend on a complex web of social and institutional factors. These\ninclude policy frameworks, organizational arrangements, governance\nstructures, market dynamics, value networks, knowledge systems, cul-\ntural norms, gender relations, and economic and political power interests\nand imbalances, all of which can either accelerate or hinder the uptake\nand effectiveness of innovations. In many smallholder contexts, the\ninstitutional dimension can become a trap for farmers, hindering sus-\ntainable agricultural development29. For instance, smallholders often face\nbinding structural constraints such as insecure land tenure or limited\nlandholdings30. These conditions restrict their ability to reorganize\nresource ﬂows, even when technical options are known. Thus, socio-\ninstitutional change is often fundamental for successful innovation16.\nFurthermore, while being part of similar institutional contexts, farming\ncommunities can be heterogeneous in social structures, with differing\nvalues, perspectives, preferences, culture, gender, and power dynamics,\nand in their access to economic opportunities regarding innovation31. In\nthis light, socio-technical innovation bundles (STIBs), entailing the\ncombination of technical innovations with related socio-institutional\nones, can drive impactful implementation and scaling, and address trade-\noffs and unwanted effects that could emerge from the innovation\nprocesses32,33. Examples include subsidy programs that enhance small-\nholders’ capability to adopt small-scale irrigation (component effec-\ntiveness) and micro-ﬁnance services that enable the integration of new\nsystem components, such as ﬁsheries or multipurpose legumes into the\nsmallholder system34 (Table 1).",
+          "bbox": [
+            306.1405944824219,
+            134.57716369628906,
+            561.2726440429688,
+            454.107177734375
+          ]
+        },
+        {
+          "id": "p4-b5-6b78413",
+          "kind": "paragraph",
+          "text": "Learning from ex-ante assessment of MFS innovation\nHereweusefourinnovationstudiesfromourresearchcarriedoutwithinthe\n4-year CGIAR Research Initiative on Mixed Farming Systems (MFS), in\ncountries with representative smallholder MFS, to exemplify each",
+          "bbox": [
+            306.1416931152344,
+            466.18511962890625,
+            561.2787475585938,
+            507.6814270019531
+          ]
+        },
+        {
+          "id": "p4-b6-0e7ff32",
+          "kind": "paragraph",
+          "text": "Table 1 | Examples of MFS innovation pathways. The list is not exhaustive but is meant to illustrate possibilities for MFS\ninnovation",
+          "bbox": [
+            39.685001373291016,
+            522.419921875,
+            537.7630615234375,
+            541.3639526367188
+          ]
+        },
+        {
+          "id": "p4-b7-25ca60f",
+          "kind": "paragraph",
+          "text": "Entry point\nInnovation type\nInnovation strategy\nExamples",
+          "bbox": [
+            42.51969909667969,
+            552.0462646484375,
+            353.64599609375,
+            559.0200805664062
+          ]
+        },
+        {
+          "id": "p4-b8-789e272",
+          "kind": "paragraph",
+          "text": "Technical\nComponent\neffectiveness\nOptimizing the irrigation system\nIncreased irrigation levels based on crop-speciﬁc requirements60 (Section 3.1)",
+          "bbox": [
+            42.51969909667969,
+            561.2000732421875,
+            558.4124145507812,
+            579.5689697265625
+          ]
+        },
+        {
+          "id": "p4-b9-7e56704",
+          "kind": "paragraph",
+          "text": "Optimizing plant density\nChanging plant density to improve yields61",
+          "bbox": [
+            195.41983032226562,
+            576.3384399414062,
+            451.3594970703125,
+            584.1043090820312
+          ]
+        },
+        {
+          "id": "p4-b10-1523700",
+          "kind": "paragraph",
+          "text": "Adjusting fertilizer application\nImproved fertilizer source, application placement and timing62",
+          "bbox": [
+            195.42039489746094,
+            589.3209838867188,
+            509.8097839355469,
+            597.087158203125
+          ]
+        },
+        {
+          "id": "p4-b11-bc7a713",
+          "kind": "paragraph",
+          "text": "System integration\nImproving feed quality\nImproved animal diets through new crop rotations33 (Section 3.2)",
+          "bbox": [
+            111.62830352783203,
+            600.1480712890625,
+            519.2379150390625,
+            610.0698852539062
+          ]
+        },
+        {
+          "id": "p4-b12-e1b533a",
+          "kind": "paragraph",
+          "text": "Increasing feed availability\nUtilizing perennial fodder crops as livestock feed63",
+          "bbox": [
+            195.419921875,
+            615.2864379882812,
+            475.0003967285156,
+            623.0523071289062
+          ]
+        },
+        {
+          "id": "p4-b13-9400fb4",
+          "kind": "paragraph",
+          "text": "Improving manure application\nAdjusting the source, timing and application methods of manure to the soil64",
+          "bbox": [
+            195.42039489746094,
+            628.2689819335938,
+            554.59716796875,
+            636.0352783203125
+          ]
+        },
+        {
+          "id": "p4-b14-3750987",
+          "kind": "paragraph",
+          "text": "System diversiﬁcation\nAdding trees in the system\nImplementation of silvo-pastoral systems65 (Section 3.3)",
+          "bbox": [
+            111.62830352783203,
+            639.0960693359375,
+            492.8189697265625,
+            649.0180053710938
+          ]
+        },
+        {
+          "id": "p4-b15-aa991e8",
+          "kind": "paragraph",
+          "text": "Adding multipurpose crops\nIntroduction of crops with multipurpose traits suited to mixed maize systems on\nlimited landholdings for feed, soil fertility and food22",
+          "bbox": [
+            195.41986083984375,
+            655.026611328125,
+            558.3914794921875,
+            670.44775390625
+          ]
+        },
+        {
+          "id": "p4-b16-7703e80",
+          "kind": "paragraph",
+          "text": "Adding aquaculture\nIntroduction of aquaculture to terrestrial production systems66",
+          "bbox": [
+            195.42039489746094,
+            675.664306640625,
+            510.6601867675781,
+            683.4304809570312
+          ]
+        },
+        {
+          "id": "p4-b17-9610990",
+          "kind": "paragraph",
+          "text": "Socio-technical\nbundles\nFlexible markets and ﬁnance services\nfor legume diversiﬁcation\nLeveraging stakeholder collaborations to co-design service and innovation\nbundles to incentivize the integration of legumes for system diversiﬁcation67",
+          "bbox": [
+            42.51969909667969,
+            689.2492065429688,
+            553.0664672851562,
+            704.8605346679688
+          ]
+        },
+        {
+          "id": "p4-b18-4e476fb",
+          "kind": "paragraph",
+          "text": "(Section 3.4)",
+          "bbox": [
+            321.5621032714844,
+            706.3905639648438,
+            359.87408447265625,
+            713.3643798828125
+          ]
+        },
+        {
+          "id": "p4-b19-e080330",
+          "kind": "paragraph",
+          "text": "Gender inclusive advisory services for\nlegume diversiﬁcation\nRe-orienting the legume diversiﬁcation extension system from household head\n(often male) centric to more targeted, gender inclusive approach68",
+          "bbox": [
+            195.42001342773438,
+            719.1828002929688,
+            558.3854370117188,
+            734.794189453125
+          ]
+        },
+        {
+          "id": "p4-b20-fce4c52",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            23.761194229125977,
+            561.1757202148438,
+            33.723793029785156
+          ]
+        },
+        {
+          "id": "p4-b21-7b85646",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n4",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/mixed-2026/1847ca3bcdce/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-035adab",
+          "kind": "paragraph",
+          "text": "innovation pathway for MFS. In general, we applied a range of ex-ante\nassessment methods, from quantitative whole-farm modelling using the\nFarmDESIGN model35,36 and measuring economic, social and environ-\nmental farm indicators, to qualitative methods such as surveys or Focus\nGroup Discussions (FGDs) that explore farmers’ perceptions on innova-\ntions. The use of ex-ante analyses of system level effects in each innovation\ncase highlights the diverse ways in which the innovation types in the fra-\nmework can interact with the complexities of MFS. While we focus on the\nmain lessons learnt from the studies in this section, the Supplementary\nInformationprovidesfurthercontextonthecasestudies,methodsused,and\nresults of the explorations.",
+          "bbox": [
+            39.68352508544922,
+            46.53614044189453,
+            294.82666015625,
+            164.9716796875
+          ]
+        },
+        {
+          "id": "p5-b1-5fc24be",
+          "kind": "paragraph",
+          "text": "Component effectiveness in Nepal – optimizing irrigation use\nWater scarcity and climate-induced droughts have emerged as major\nchallenges in the mid-hills of Nepal. Additionally, current production levels\nare unable to meet food security objectives for the population. In this\ncontext, the potential of improving irrigation use to achieve higher yields\nwith minimal waterinputs was explored fora representative average farm in\nthe Surkhet district in western Nepal. The 0.5 ha farmland produced staple\ncrops such as rice, wheat and maize in a double rotation that also sometimes\nincluded lentils or potatoes. Livestock included chickens, goats, and at least\none cow or buffalo. The analysis revealed the potential of increasing irri-\ngationlevelsbased oncrop-speciﬁcwaterrequirements,whichcould double\nthe yield of crops grown outside the monsoon season, like maize and potato.\nThe increase in yields and the use of crop residues were expected to support\nan increase in livestock numbers and enhance soil fertility (up to 30%\npotential increase in SOM). However, it was noted that improved irrigation\nalone could not be a ‘silver bullet’ that mitigates agricultural under-\nperformance, as yield gaps were also attributed to nutrient deﬁciencies and\nweed competition. Hence, multiple innovations that would not solely focus\non effectiveness (in this case irrigation), but advance more integrated\nsolutions (e.g., as improving soil fertility by adding nitrogen-ﬁxing crops to\nthe rotation) would be required for conserving water resources, supporting\nlong-term agricultural productivity, and minimizing environmental\nimpacts.",
+          "bbox": [
+            39.68499755859375,
+            177.05128479003906,
+            294.9188232421875,
+            422.0143737792969
+          ]
+        },
+        {
+          "id": "p5-b2-43ff0c7",
+          "kind": "paragraph",
+          "text": "System integration in Ghana – Improving livestock diets\nSmallruminantsare valuableelementsinsustainablefarmingsystems.They\ncan convert plant residues from the farm by-products into human food,\nadding economic value to otherwise lower-value crops, and providing\nimportant pathways out of food insecurity and extreme poverty on small\nfarmland holdings37,38. Alternative livestock rations based on crop residues\nfor small ruminants were explored with the aim of improving farming\nsystem performance in the Kumbungu and Savelugu districts in Northern\nGhana.Thesmallruminantfarmshadanaveragesizeofaround2 halandof\nwhich about half was cultivated with maize and the rest was occupied by\ngroundnut, soybean, and rice. Some farmers in the area produced a greater\ndiversity of crops, including cassava, yam, pearl millet, and/or pepper. We\nfound that the cultivation of a greater diversity of crops and a more nutri-\ntious diet for the animals could support a greater small ruminant ﬂock size,\nincreasing the numbers from 10 to up to 26 animals. This was expected to\nenhance crop and livestock productivity, without needing more land or\nexternal feed. In turn, soil fertility was expected to improve due to the\nincreased manure application from the ﬂock, as well as the inclusion of new\nleguminous crops that ﬁx atmospheric nitrogen, replacing maize. Pigeon\npea and cowpea, in particular, had high positive potential impacts when\nused as small ruminant feed, due to their large and nutritious residue pro-\nduction (up to 1,1and 1,8 Mg/ha,respectively).However,farmersexpressed\nreluctance toward cropping innovations due to insecure land tenure and\ngrowing concerns about land grabbing, which undermines their willingness\ntoinvestinlandtheymightsuddenlylose39.Thispointsatthewiderneedfor\npublic institutions that guarantee law enforcement and property rights,\nwhile also recognizing the role of customary tenure systems, which may\nprovide de facto security where they are legitimate40,41. Strengthening both\nstatutory and customary institutions is critical to ensuring fair and",
+          "bbox": [
+            39.68402099609375,
+            434.096923828125,
+            294.9234313964844,
+            743.2974243164062
+          ]
+        },
+        {
+          "id": "p5-b3-94c24ca",
+          "kind": "paragraph",
+          "text": "transparent governance of land transactions, thereby enabling farmers to\nadopt farm innovations and realize their full beneﬁts40,42.",
+          "bbox": [
+            306.1418151855469,
+            48.91127014160156,
+            561.272216796875,
+            68.59540557861328
+          ]
+        },
+        {
+          "id": "p5-b4-309bfdb",
+          "kind": "paragraph",
+          "text": "System diversiﬁcation in Laos – Implementing a silvo-\npastoral system\nSilvo-pastoral systems offer pathways to improve farmer economies and\nreverse environmental degradation in MFS in Xieng Khouang province in\nthe northeast of Laos. The farms in the focal region are typically 5–10 ha,\nconsisting of pastures, cultivated plots of paddy rice, maize and/or other\ncrops, and small vegetable gardens for household consumption. Addition-\nally, they produced cattle, buffalo, pigs, chickens, and/or ducks. The use of\nfarm modelling to assess the impacts of converting the average farm system\nto silvo-pastoral systems that integrate trees, forage crops and livestock,\nindicated that the introduction of trees could support manifold beneﬁts,\nsuch as providing fodder to animals, increasing soil fertility (up to 20%\nincrease in SOM content), increasing farm proﬁts, and saving labour. Tree\nincorporation, however, would require additional labour, investment and\nmanagement knowledge to generate returns on the investments, presenting\nsigniﬁcant barriers to adoption. While farmers in the study felt positive\nabouttheimpactsexpectedfromconvertingtoasilvo-pastoralsystem,some\nwere concerned about the implementation challenges.\nSystemic innovations targeting system integration or diversiﬁcation, as\nthe implementation of agroforestry systems in this case, that promise broad\nand long-termbeneﬁts,oftencomewithhigh barrierstoadoption,requiring\nsubstantial investment in time, labour, and knowledge. This contrasts with\ninnovations that target component effectiveness, which are generally easier\nto implement but have less potential impacts on overall system perfor-\nmance.Tosurpass such challenges, these innovationtypes require sustained\nsupport through farmer accompaniment in on-farm experimentation,\ncapacity building, and risk aversion mechanisms during transition periods.",
+          "bbox": [
+            306.14080810546875,
+            80.67329406738281,
+            561.3844604492188,
+            368.4389343261719
+          ]
+        },
+        {
+          "id": "p5-b5-6078063",
+          "kind": "paragraph",
+          "text": "Socio-technical innovation bundles in Malawi – Socio-\ninstitutional bundling for legume diversiﬁcation\nLegume diversiﬁcation in maize-dominated, low-input farming systems in\nMalawi can enhance productivity and provide a variety of ecological and\nsocio-economic beneﬁts. However, the socio-technical bundles required to\nsuccessfully realize the beneﬁts of legume diversiﬁcation are still unclear.\nThis study thus explored which social and institutional innovations to\nbundle with legume diversiﬁcation through a conjoint experiment43. The\nexperiment involved farmer participation in trials for Mbili-Mbili strip\ncropping, a maize and legume intercropping technique44. The qualitative\nassessment, based on hypothetical STIBs that were generated and assessed\nby participating farmers, highlighted the need for institutional innovations\nto better enable legume diversiﬁcation in smallholder systems in Malawi.\nThis would enable adequate beneﬁts for women farmers in particular, who\ntend to have strong preferences for legumes, given their multiple uses and\nnutrition beneﬁts45,46. The main preferred institutional innovations identi-\nﬁed by farmers for bundling included microloan services that could be\nrepaid after harvest, combining the supply of soybean and pigeon seeds with\nmaizeseeds,and crop insuranceservices,aswellasmarketservicesthatoffer\nfarmers more ﬂexibility. While the ﬁndings underscore the importance of\noffering institutional services to farmers along with technical innovations in\nthe form of STIBs, we found that farmers were heterogeneous in their\npreferences for the different socio-institutional innovations, with some\nfavouring credit access, others prioritizing seed bundles, and others valuing\ninsurance over the rest. The variation in farmer preference is an essential\nconsideration in STIB design to reﬂect diverse needs, constraints, and\npriorities within farming communities. It also relates to farmer preferences\nnot only being shaped by their household needs but also by political\neconomy factors, including control over resources, market and institutional\nfunctioning in providing access to ﬁnance, seeds, and insurance.",
+          "bbox": [
+            306.1405029296875,
+            380.5221252441406,
+            561.3858642578125,
+            700.4349365234375
+          ]
+        },
+        {
+          "id": "p5-b6-0eb7105",
+          "kind": "paragraph",
+          "text": "Critical enablers for sustainable innovation co-design for MFS\nBuilding on our experience aimed at advancing sustainable innovation in\nMFS, we have identiﬁed three key enablers – systems approaches,",
+          "bbox": [
+            306.1416931152344,
+            712.6498413085938,
+            561.232177734375,
+            743.2974243164062
+          ]
+        },
+        {
+          "id": "p5-b7-fce4c52",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            23.761194229125977,
+            561.1757202148438,
+            33.723793029785156
+          ]
+        },
+        {
+          "id": "p5-b8-ad16aa2",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n5",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-1cc21df",
+          "kind": "paragraph",
+          "text": "participatory processes, and context sensitivity – which emergedas essential\nto effective and equitable innovation co-design in MFS.",
+          "bbox": [
+            39.685001373291016,
+            48.329402923583984,
+            294.7539367675781,
+            68.59522247314453
+          ]
+        },
+        {
+          "id": "p6-b1-2e603f5",
+          "kind": "paragraph",
+          "text": "Systems approaches – considering interconnectedness. Systems\napproaches view farming systems not as isolated entities, but as\nembedded within complex ecological, social, and economic systems,\nwhere diverse elements interact to generate outcomes47,48. Innovations,\nregardless of their domain, can reverberate across multiple dimensions of\nthe farming system, inﬂuencing both socio-institutional and technical\nrealms, and extending their impact to the broader landscape, as high-\nlighted by our case studies. Recognizing these multi-layered inter-\ndependencies is essential for the effective design of innovations in MFS49.\nTo address this complexity and understand potential effects and trade-\noffs, enhanced innovation anticipation methods can be helpful, where\nattention is paid to meaningful engagement with stakeholders through-\nout the process17,21. The use of integrated assessments within our research,\nincluding whole farm modelling, offered a comprehensive evaluation of\ninnovation impacts by quantifying externalities across social, environ-\nmental, and economic indicators at both the farm and landscape scales3.\nSystems assessments are strengthened through building on local\nknowledge and involvement of farmers, including using a gender-aware\napproach22. Additionally, while acknowledging the difﬁculty of qualita-\ntively anticipating innovation effects, quantitative assessments should be\ncomplemented, as much as possible, by robust anticipation evaluation\nthat considers wider possible effects on communities, such as impacts on\nfood sovereignty, or indigenous knowledge17.",
+          "bbox": [
+            39.683807373046875,
+            80.8726577758789,
+            294.81134033203125,
+            325.6410827636719
+          ]
+        },
+        {
+          "id": "p6-b2-36d7cf7",
+          "kind": "paragraph",
+          "text": "Participatory processes. A key implication of applying systems\napproaches to MFS development is placing individual farmers and entire\ncommunities at the core of innovation design (i.e., their autonomous\ndesign50) through collaborative, participatory processes. This focus is\ncentral to reframing smallholder MFS innovation in ways that enable\ninnovation design to effectively improve overall sustainability. While the\nuse of participatory approaches in agricultural research and development\nis surely increasing, implementation varies in scope and depth. For\ninstance, while Sarku et al.51. ﬁnd an increasing tendency towards par-\nticipatory agricultural modelling studies, stakeholder engagement fre-\nquently remains narrow in the studies. In general, there is a need for a\nmore critical reﬂection on the purpose and value of participation to move\nbeyond tokenism, as participation otherwise risks amplifying and rein-\nforcing present power structures, privileging techno-scientiﬁc knowledge\nand perspectives over local ones52.\nParticipation within the MFS initiative aimed to support co-learning\nprocesses, including site-level farmers co-determining the innovation to be\nstudied through integrated assessments, as the ones presented in this paper.\nOur work complements approaches that go beyond design to imple-\nmentation phases, through iterative co-learning cycles such as those in\nparticipatory action research (PAR). In Malawi, for instance, PAR has\nprovedsuccessfulinsupportingthedevelopmentofuniquesustainableMFS\ninnovations,whichrequiredsustainedengagementoverdecades,respectfor\nlocal knowledge and attention to building capacity and communication\nthroughout the process arise22. Although this level of engagement may not\nbe feasible for all research processes, it is recommended for grappling with\nthe highly complex challenges of sustainable development, where value-\nconﬂicts and power inequities arise.",
+          "bbox": [
+            39.683929443359375,
+            338.0479736328125,
+            294.8647766113281,
+            636.2040405273438
+          ]
+        },
+        {
+          "id": "p6-b3-687001b",
+          "kind": "paragraph",
+          "text": "Context-sensitivity. Finally, considering smallholder MFS as part of\nwider complex socio-ecological systems also necessitates the recognition\nand thorough analysis of the heterogeneous agroecological, socio-\neconomic, and historical contexts in which they operate. The varying\nconditions and dynamics mandate the development of place-based and\ncontext-speciﬁc innovations that are locally adapted and shaped, while\nalso acknowledging market functioning, institutional arrangements, and\npower relations that inﬂuence who participates in and beneﬁts from\ninnovations53,54.",
+          "bbox": [
+            39.68353271484375,
+            648.6683349609375,
+            294.81072998046875,
+            743.2976684570312
+          ]
+        },
+        {
+          "id": "p6-b4-49e76e2",
+          "kind": "paragraph",
+          "text": "Vinsel & Russell55 refer to ‘innovation speak’ as the extended discourse\nsurrounding innovation that assumes that innovations are inherently\nbeneﬁcial instruments (understood mostly as technologies) capable of\nachieving sustainable development and solving major world challenges,\nsuch as food insecurity, poverty or climate change. A disregard of local\nactors’ needs and perspectives as well as connectedness to social networks\nwithrespect totheirowndevelopmentfrequentlyaccompaniesthisoutlook.\nIn practice, this can result in a lack of adoption and ineffectiveness of the\ninnovations advanced by research and development projects, and, fur-\nthermore, reinforce power imbalances, create technological lock-ins for\ncommunities, and/or displace traditional and indigenous knowledge26,56.\nMoreover, the dominant innovation paradigm often reduces the\nstructural roots of underdevelopment to a deﬁcit in innovation capacity.\nThis framing overlooks that such conditions emerge from complex and\ninterlocking structural barriers, including volatile and unfavourable mar-\nkets, liquidity and credit constraints, insecure and unequal land rights,\nunder-resourced extension and data systems, structural gender and socio-\neconomic inequalities, and political-economic power imbalances. These\nconstraintsarebothrootedinandreproducedbyinstitutionalarrangements\nandcoloniallegaciesthatshapeaccesstoassets,information,andbargaining\npower26,42,57. Recognizing this, innovation design must pay special attention\nto the structural and historical context in which it takes place, as well as\nsystemic preconditions that would enable their uptake, such as macro-\neconomic stability, fair and competitive markets, tenure security, and\naccessible information systems58. If innovation aims to solve major chal-\nlenges, such as smallholder poverty or food insecurity, then any innovation\nthat does not acknowledge root structural causes of these issues will fail to\nadvance real transformation and may exacerbate prevailing inequities26,33,56.\nTechnical innovations aimed at mitigating land degradation and food\ninsecurity often fall short when they overlook broader structural pressures\nsuch as those from land acquisition and consolidation processes, which can\nconstrain farmers’ capacity to adapt. This challenge is evident in our Gha-\nnian case study (Section 3.2), where the potential beneﬁts of cropping sys-\ntems innovations were undermined by farmers’ unwillingness to invest in\nland theydidnotownorcould loseat shortnotice.Additionally,land tenure\ngranting and irrigation innovation schemes speciﬁcally often leave women\nand youth out, and consequently reduce their control of resources and\ncontribute to gendered disenfranchisement56,59. Without addressing these\nunderlying inequalities, innovations are likely to be short-sighted and lim-\nited in their transformative impact.",
+          "bbox": [
+            306.1407165527344,
+            45.11579895019531,
+            561.2967529296875,
+            475.53662109375
+          ]
+        },
+        {
+          "id": "p6-b5-23d0cb8",
+          "kind": "paragraph",
+          "text": "Conclusions\nAgricultural innovation holds signiﬁcant promise to improve the sustain-\nability of smallholder MFS, but realizing this potential requires moving\nbeyond reductionist, technocentric and top-down approaches. This Per-\nspective contributes to rethinking MFS innovation by answering both the\nwhat and the how for designing MFS innovations. It sharpens under-\nstanding of possible strategies and their system-level effects, and points to\nthree critical enablers of responsible innovation: careful consideration of\nheterogeneous socio-ecological contexts and interests represented among\nfarmers and communities, inclusive co-design with engaged farmers and\ncommunities, and recognition of MFS interconnectedness within politically\nand socially contested environments.\nThe challenge is profound: deep structural barriers including limited\nlabour and capital, insecure and fragmented landholdings, and entrenched\npower inequalities, continue to affect smallholders. Systems-oriented\ninnovation processes can help navigate such constraints to arrive at\nlocally adapted innovations for system re-design. Equally important is\nrethinking scaling, shifting the focus from replicating individual solutions\ntowards expanding innovation processes that allow communities to\ngenerate, test and reﬁne their own futures. Advancing such trans-\nformative and reﬂexive innovation approaches can open pathways to\nsecure sustainable futures for MFS, strengthening rural communities’\nagency and resilience while safeguarding the natural resource base on\nwhich they depend.",
+          "bbox": [
+            306.1416931152344,
+            487.7491149902344,
+            561.4000854492188,
+            743.29296875
+          ]
+        },
+        {
+          "id": "p6-b6-fce4c52",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            23.761194229125977,
+            561.1757202148438,
+            33.723793029785156
+          ]
+        },
+        {
+          "id": "p6-b7-dcc22da",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n6",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-ea7e531",
+          "kind": "paragraph",
+          "text": "Data availability\nNo datasets were generated or analysed during the current study.",
+          "bbox": [
+            39.685001373291016,
+            47.49010467529297,
+            263.6964111328125,
+            68.59540557861328
+          ]
+        },
+        {
+          "id": "p7-b1-e84a3ea",
+          "kind": "paragraph",
+          "text": "Received: 30 July 2025; Accepted: 2 December 2025;",
+          "bbox": [
+            39.685001373291016,
+            78.68140411376953,
+            231.93594360351562,
+            87.647705078125
+          ]
+        },
+        {
+          "id": "p7-b3-a5a39ce",
+          "kind": "paragraph",
+          "text": "References\n1.\nBaker, E. et al. Mixed farming systems: potentials and barriers for\nclimate change adaptation in food systems. Curr. Opin. Environ.\nSustain. https://doi.org/10.1016/J.COSUST.2023.101270 (2023).\n2.\nHerrero, M. et al. Farming and the geography of nutrientproductionfor\nhuman use: a transdisciplinary analysis. Lancet Planet Health https://\ndoi.org/10.1016/S2542-5196(17)30007-4 (2017).\n3.\nParsons, D. et al. Development and evaluation of an integrated\nsimulationmodelfor assessingsmallholder crop-livestock production\nin Yucatán, Mexico. Agric Syst. 104, 1–12 (2011).\n4.\nSumberg, J. Toward a dis-aggregated view of crop–livestock\nintegration in Western Africa. Land Use Policy https://doi.org/10.\n1016/S0264-8377(03)00021-8 (2003).\n5.\nRuﬁno, M. C., Hengsdijk, H. & Verhagen, A. Analysing integration and\ndiversity in agro-ecosystems by using indicators of network analysis.\nNutr. Cycl. Agroecosyst 84, 229–247 (2009).\n6.\nStark, F. et al. Crop-livestock integration determines the\nagroecological performance of mixed farming systems in Latino-\nCaribbean farms. Agron. Sustain Dev. 38, 1–11 (2018).\n7.\nKhumairoh, U., Lantinga, E. A., Handriyadi, I., Schulte, R. P. O. &\nGroot, J. C. J. Agro-ecological mechanisms for weed and pest\nsuppression and nutrient recycling in high yielding complex rice\nsystems. Agric Ecosyst. Environ. 313, 107385 (2021).\n8.\nXie,J.et al.Ecologicalmechanismsunderlyingthesustainability ofthe\nagricultural heritage rice-ﬁsh coculture system. Proc. Natl. Acad. Sci.\nUSA 108, E1381–E1387 (2011).\n9.\nMorizet-Davis, J. et al. Ecosystem Services at the Farm Level—\nOverview, Synergies, Trade-Offs, and Stakeholder Analysis. Glob.\nChall. 7, 2200225 (2023).\n10. González-García, E., Gourdine, J. L., Alexandre, G., Archimède, H. &\nVaarst, M. The complex nature of mixed farming systems requires\nmultidimensional actions supported by integrative research and\ndevelopment efforts. Animal 6, 763–777 (2012).\n11. Herrero, M. et al. Smart investments in sustainable food production:\nRevisiting mixed crop-livestock systems. Science (1979) 327,\n822–825 (2010).\n12. Gomez y Paloma, S., Riesgo, L. & Louhichi, K. The Role of Smallholder\nFarms in Food and Nutrition Security. The Role of Smallholder Farms\nin Food and Nutrition Security (Springer International Publishing,\nhttps://doi.org/10.1007/978-3-030-42148-9/COVER (2020).\n13. Snyder, K. A. & Sulle, E. The Impact and Outcomes of Sustainable\nIntensiﬁcation Initiatives in Six Countries on Women, Men, and Other\nSocial Groups. https://hdl.handle.net/10568/126943 (2022).\n14. Touch, V. et al. Smallholder farmers’ challenges and opportunities:\nImplications for agricultural production, environment and food\nsecurity. J. Environ. Manag. 370, 122536 (2024).\n15. McGreevy, S. R. et al. Sustainable agrifood systems for a post-growth\nworld. Nat. Sustain. 5, 1011–1017 (2022). 5.\n16. Klerkx, L., Van Mierlo, B. & Leeuwis, C. Evolution of systems\napproaches to agricultural innovation: Concepts, analysis and\ninterventions. in Farming Systems Research into the 21st Century:The\nNew Dynamic 457–483 (Springer Netherlands, 2012). https://doi.org/\n10.1007/978-94-007-4503-2_20/TABLES/3.\n17. Ludwig, D. & Macnaghten, P. Traditional ecological knowledge in\ninnovation governance: a framework for responsible and just\ninnovation. J. Responsible Innov. 7, 26–44 (2020).\n18. Nhantumbo, N. S., Zivale, C. O., Nhantumbo, I. S. & Gomes, A. M.\nMaking agricultural intervention attractive to farmers in Africa through\ninclusive innovation systems. World Dev. Perspect. 4, 19–23 (2016).",
+          "bbox": [
+            39.67779541015625,
+            111.72307586669922,
+            294.89801025390625,
+            742.7337646484375
+          ]
+        },
+        {
+          "id": "p7-b4-7c706af",
+          "kind": "paragraph",
+          "text": "19. Rietveld, A. M., Groot, J. C. J. & van der Burg, M. Predictable patterns\nof unsustainable intensiﬁcation. Int J. Agric Sustain 20, 461–477\n(2022).\n20. Mabhaudhi, T., Chibarabada, T. P. & Sikka, A. Status of integrated\ncrop-livestock research in the mixed farming systems of the Global\nSouth: a scoping study. Front. Sustain. Food Syst. https://doi.org/10.\n3389/fsufs.2023.1241675 (2023).\n21. Breure, T. S. et al. A systematic review of the methodology of trade-off\nanalysis in agriculture. Nat. Food 2024 5(3 5), 211–220 (2024).\n22. Snapp, S. S. et al. Participatory action research generates knowledge\nfor Sustainable Development Goals. Front Ecol. Environ. 21, 341–349\n(2023).\n23. Geels, F. W. Technological transitions as evolutionary reconﬁguration\nprocesses: a multi-level perspective and a case-study. Res Policy 31,\n1257–1274 (2002).\n24. Giller, K. E. et al. Communicating complexity: Integrated assessment\nof trade-offs concerning soil fertility management within African\nfarming systems to support innovation and development. Agric Syst.\n104, 191–203 (2011).\n25. Reckling, M., Bergkvist, G., Watson, C. A., Stoddard, F. L. &\nBachinger, J. Re-designing organic grain legume cropping systems\nusing systems agronomy. Eur. J. Agron. 112, 125951 (2020).\n26. Jiménez, A., Pansera, M. & Abdelnour, S. Imposing innovation: How\n‘innovation speak’ maintains postcolonial exclusion in Peru. World\nDev. 189, 106914 (2025).\n27. Tiozon, R. J. N. et al. Unlocking the potential of wild rice to bring\nmissing nutrition to elite grains. Plant Commun. 6, 101344 (2025).\n28. Asante, B. O., Villano, R. A., Patrick, I. W. & Battese, G. E.\nDeterminants of farm diversiﬁcation in integrated crop–livestock\nfarming systems in Ghana. Renew. Agriculture Food Syst. 33,\n131–149 (2018).\n29. Struik, P. C., Klerkx, L., Van Huis, A. & Röling, N. G. Institutional\nchange towards sustainable agriculture in West Africa. Int J. Agric\nSustain 12, 203–213 (2014).\n30. Chiarella, C., Meyfroidt, P., Abeygunawardane, D. & Conforti, P.\nBalancing the trade-offs between land productivity, labor productivity\nand labor intensity. Ambio 52, 1618 (2023).\n31. Krampe, C., Ingenbleek, P. T. M., Niemi, J. K. & Serratosa, J.\nDesigning precision livestock farming system innovations: A farmer\nperspective. J. Rural Stud. 111, 103397 (2024).\n32. Gebreyes, M., Notenbaert, A. M. O., López Ridaura, S., Kizito, F. &\nWery, J. Co-Designing Socio-Technical Innovation Bundles for the\nSustainable Intensiﬁcation of Mixed Farming Systems: A\nMethodological Note. https://hdl.handle.net/10568/128746 (2023).\n33. Barrett, C. B. The political economy of bundling socio-technical\ninnovations to transform agri-food systems. in The Political Economy\nof Food System Transformation: Pathways to Progress in a Polarized\nWorld 206–229 (Oxford University Press, https://doi.org/10.1093/\nOSO/9780198882121.003.0009 (2023).\n34. Barrett, C. B. et al. Bundling innovations to transform agri-food\nsystems. Nat. Sustain. 3(12 3), 974–976 (2020).\n35. Groot, J. C. J., Oomen, G. J. M. & Rossing, W. A. H. Multi-objective\noptimization and design of farming systems. Agric Syst. 110, 63–77\n(2012).\n36. Ditzler, L. et al. A model to examine farm household trade-offs and\nsynergies with an application to smallholders in Vietnam. Agric Syst.\n173, 49–63 (2019).\n37. Lawal-Adebowale,O.A.DynamicsofRuminantLivestock Management\nin the Context of the Nigerian Agricultural System. in Livestock\nProduction (IntechOpen, https://doi.org/10.5772/52923 (2012).\n38. Herrero, M. et al. The roles of livestock in developing countries. Animal\n7, 3–18 (2013).\n39. Alhassan, S. I., Shaibu, M. T., Kuwornu, J. K. M., Damba, O. T. &\nAmikuzuno, J. The nexus of land grabbing and livelihood of farming\nhouseholds in Ghana. Environ. Dev. Sustain 23, 3289–3317 (2021).",
+          "bbox": [
+            306.1341857910156,
+            49.343894958496094,
+            561.3248901367188,
+            742.7388916015625
+          ]
+        },
+        {
+          "id": "p7-b5-fce4c52",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            23.761194229125977,
+            561.1757202148438,
+            33.723793029785156
+          ]
+        },
+        {
+          "id": "p7-b6-899e338",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n7",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-05925b2",
+          "kind": "paragraph",
+          "text": "40. Lawry, S. et al. The impact of land property rights interventions on\ninvestment and agricultural productivity in developing countries: a\nsystematic review. J. Dev. Eff. 9, 61–81 (2017).\n41. Belton, B., Win, M. T., Zhang, X. & Filipski, M. The rapid rise of\nagricultural mechanization in Myanmar. Food Policy 101, 102095\n(2021).\n42. Holden, S. T. & Otsuka, K. The roles of land tenure reforms and land\nmarkets in the context of population growth and land use\nintensiﬁcation in Africa. Food Policy 48, 88–97 (2014).\n43. Rao, V. R. Conjoint Analysis. Wiley International Encyclopedia of\nMarketing https://doi.org/10.1002/9781444316568.WIEM02019\n(2010).\n44. Kihara, J. M. & Kinyua, M. W. Mbili-Mbili technology: Increasing\nlegume production in East Africa. https://hdl.handle.net/10568/\n125404 (2022).\n45. Homann-Kee Tui, S., Snyder, K. A., Chiduwa, M. & Liben, F. Insights\nfor Enhancing Gender Equity and Social Inclusion through Sustainable\nIntensiﬁcation of Mixed Farming Systems of Malawi. https://hdl.\nhandle.net/10568/159441 (2024).\n46. Snapp, S. S. et al. Maize yield and proﬁtability tradeoffs with social,\nhuman and environmental performance: Is sustainable intensiﬁcation\nfeasible?. Agric Syst. 162, 77–88 (2018).\n47. Clayton,A. M. H. & Radcliffe, N. J. Sustainability: A systemsapproach.\nSustainability: A Syst. Approach 1, 257 (2018).\n48. Van Berkum, S., Dengerink, J. & Ruben, R. The Food Systems\nApproach: Sustainable Solutions for a Sufﬁcient Supply of Healthy\nFood. (2018).\n49. Ostrom, E., Janssen, M. A. & Anderies, J. M. Going beyond panaceas.\nProc. Natl. Acad. Sci. 104, 15176–15178 (2007).\n50. Escobar, A. Designs for the Pluriverse. Radical Interdependence,\nAutonomy, and the Making of Worlds. Scientiﬁc American vol. 57\n(2018).\n51. Sarku, R., Whitﬁeld, S., Jennings, S. & Challinor, A. J. Approaches to\nparticipation and knowledge equity in agricultural climate impacts\nmodelling: a systematic literature review. Int. J. Agric. Sustain. 23,\n1–21 (2025).\n52. Pansera, M. & Owen, R. Framing inclusive innovation within the\ndiscourse of development: Insights from case studies in India. Res\nPolicy 47, 23–34 (2018).\n53. Reich, J., Paul, S. S. & Snapp, S. S. Highly variable performance of\nsustainable intensiﬁcation on smallholder farms: A systematic review.\nGlob. Food Sec 30, 100553 (2021).\n54. Hartley, S., McLeod, C., Clifford, M., Jewitt, S. & Ray, C. A\nretrospective analysis of responsible innovation for low-technology\ninnovation in the Global South. J. Responsible Innov. 6, 143–162\n(2019).\n55. Vinsel, L. & Russell, A. The Innovation Delusion. (Penguin Random\nHouse, (2020).\n56. Bezner Kerr, R. Feminist Agroecology Viewed through the Lens of the\nPlantationocene. Ann. Am. Assoc. Geogr. 114, 2204–2211 (2024).\n57. Harding, S. The Postcolonial Science and Technology Studies\nReader. (Duke University Press, (2011).\n58. Burke, W. J., Snapp, S. S., Peter, B. G. & Jayne, T. S. Sustainable\nintensiﬁcation in jeopardy: Transdisciplinary evidence from Malawi.\nSci. Total Environ. 837, 155758 (2022).\n59. Hailemariam, A., Kalsi, J. & Mavisakalyan, A. Gender gaps in the\nadoption of climate-smart agricultural practices: Evidence from sub-\nSaharan Africa. J. Agric Econ. 75, 764–793 (2024).\n60. Veenings, L. et al. Identifying opportunities for sustainable\nintensiﬁcation of mixed farming systems in the Mid-Hills of Nepal by\noptimal use of water in agriculture. (CGIAR, 2023).\n61. Han, K., Liu, B., Liu, P. & Wang, Z. The optimal plant density of maize\nfor dairy cow forage production. Agron. J. 112, 1849–1861 (2020).",
+          "bbox": [
+            39.681175231933594,
+            49.343650817871094,
+            294.8677978515625,
+            721.3050537109375
+          ]
+        },
+        {
+          "id": "p8-b1-e4a5838",
+          "kind": "paragraph",
+          "text": "62. Berdjour, A. et al. Impact of fertilizer applications on grain and\nvegetable crops in smallholder Mixed Crop-Livestock (MCL) systems\nin West Africa. Eur. J. Agron. 164, 127525 (2025).\n63. Höft, M. Hedging eroding slopes in Malawi: Can the integration of\ncontour bunds and perennial forages improve Malawian mixed\nfarming system productivity. (2024).\n64. Bationo, A. et al. Sustainable intensiﬁcation of crop– livestock\nsystems through manure management in eastern and western Africa:\nLessons learned and emerging research opportunities. in Sustainable\ncrop–livestock production for improved livelihoods and natural\nresource management in West Africa, Proceedings of an International\nConference (Ibadan, Nigeria, (2001).\n65. VanWijngaarden,K.et al.Silvopasture forimprovedsmallholder crop-\nlivestock systems: A case study of sustainable intensiﬁcation in the\nXieng Khouang province, Lao PDR. (2023).\n66. Ignowski, L., Belton, B., Ali, H. & Thilsted, S. H. Integrated aquatic and\nterrestrial food production enhances micronutrient and economic\nproductivity for nutrition-sensitive food systems. Nat. Food 4,\n866–873 (2023).\n67. Abetu, T. A. et al. Co-design of socio-technical innovation bundles:\nlessons for sustainable intensiﬁcation of smallholder farming systems\nin Malawi. in 8th International Farming System Design Conference\n(2025).\n68. Yatogo, H. Assessment of Maize-Legume Intercropping as a Way for\nSustainable Intensiﬁcation in Mixed Farming Systems for Smallholder\nFarmers in Jimma, Ethiopia https://hdl.handle.net/10568/170271\n(2024).\n69. Dixon, J., Li, L. & Amede, T. A century of farming systems. Part 1:\nConcepts and evolution. Farming Syst. 1, 100055 (2023).",
+          "bbox": [
+            306.13775634765625,
+            49.345420837402344,
+            561.3253173828125,
+            357.1626281738281
+          ]
+        },
+        {
+          "id": "p8-b2-d8bfa09",
+          "kind": "paragraph",
+          "text": "Acknowledgements\nThis work was supported in part by the CGIAR Mixed Farming Systems\n(MFS) Initiative (https://www.cgiar.org/initiative/mixed-farming-systems/),\nnow integrated into the CGIAR Sustainable Farming Science Program.\nCGIAR research is supported by contributions to the CGIAR Trust Fund.\nCGIAR is a global research partnership for a food-secure future dedicated to\ntransforming food, land, and water systems in a climate crisis.",
+          "bbox": [
+            306.14166259765625,
+            368.768798828125,
+            561.3347778320312,
+            442.8831787109375
+          ]
+        },
+        {
+          "id": "p8-b3-38a2073",
+          "kind": "paragraph",
+          "text": "Author contributions\nV.M.R. & A.C.: Conceptualization, Methodology, Formal analysis, Writing.\nS.L.R.: Conceptualization, Methodology, Formal Analysis, Resources,\nSupervision, Project Administration, Funding Acquisition. M.C., S.H-K.T.,\nP.M., N.S., T.J.K., A.R.N., K.M., M.A.O., G.V., K.D.: Writing, Supervision.\nM.B., J.G.: Writing, Project Administration, Funding Acquisition. T.A.A.,\nM.H., K.W., S.M., D.A., L.V., M.S., Y.W.: Investigation, Writing. R.S.R., S.S.:\nWriting. J.C.J.G: Conceptualization, Methodology, Writing, Supervision.",
+          "bbox": [
+            306.1416931152344,
+            454.43170166015625,
+            561.2606811523438,
+            539.2612915039062
+          ]
+        },
+        {
+          "id": "p8-b4-3a3ef11",
+          "kind": "paragraph",
+          "text": "Competing interests\nThe authors declare no competing interests.",
+          "bbox": [
+            306.1416931152344,
+            550.8663330078125,
+            457.3404235839844,
+            571.3483276367188
+          ]
+        },
+        {
+          "id": "p8-b5-0406f3a",
+          "kind": "paragraph",
+          "text": "Additional information\nSupplementary information The online version contains\nsupplementary material available at\nhttps://doi.org/10.1038/s44264-025-00114-9.",
+          "bbox": [
+            306.1416931152344,
+            582.95458984375,
+            501.5567321777344,
+            625.48974609375
+          ]
+        },
+        {
+          "id": "p8-b6-49afec7",
+          "kind": "paragraph",
+          "text": "Correspondence and requests for materials should be addressed to\nValentina Martínez-Ramón.",
+          "bbox": [
+            306.1416931152344,
+            638.2880859375,
+            542.397705078125,
+            657.0681762695312
+          ]
+        },
+        {
+          "id": "p8-b7-a110b1a",
+          "kind": "paragraph",
+          "text": "Reprints and permissions information is available at\nhttp://www.nature.com/reprints",
+          "bbox": [
+            306.1416931152344,
+            670.4334716796875,
+            491.8976745605469,
+            689.2135620117188
+          ]
+        },
+        {
+          "id": "p8-b8-8beb85e",
+          "kind": "paragraph",
+          "text": "Publisher’s note Springer Nature remains neutral with regard to\njurisdictional claims in published maps and institutional afﬁliations.",
+          "bbox": [
+            306.1416931152344,
+            702.3997192382812,
+            533.0253295898438,
+            721.3023681640625
+          ]
+        },
+        {
+          "id": "p8-b9-fce4c52",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            23.761194229125977,
+            561.1757202148438,
+            33.723793029785156
+          ]
+        },
+        {
+          "id": "p8-b10-2ea2807",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n8",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-3f4c6bf",
+          "kind": "paragraph",
+          "text": "Open Access This article is licensed under a Creative Commons\nAttribution-NonCommercial-NoDerivatives 4.0 International License,\nwhich permits any non-commercial use, sharing, distribution and\nreproduction in any medium or format, as long as you give appropriate\ncredit to the original author(s) and the source, provide a link to the Creative\nCommons licence, and indicate if you modiﬁed the licensed material. You\ndo not have permission under this licence to share adapted material\nderived from this article or parts of it. The images or other third party\nmaterial in this article are included in the article’s Creative Commons\nlicence, unless indicated otherwise in a credit line to the material. If material\nisnot includedin thearticle’s CreativeCommons licenceandyour intended\nuse is not permitted by statutory regulation or exceeds the permitted use,\nyou will need to obtain permission directly from the copyright holder. To\nview a copy of this licence, visit http://creativecommons.org/licenses/by-\nnc-nd/4.0/.",
+          "bbox": [
+            39.684165954589844,
+            49.2489013671875,
+            294.85821533203125,
+            207.83319091796875
+          ]
+        },
+        {
+          "id": "p9-b1-f7adc7b",
+          "kind": "paragraph",
+          "text": "© The Author(s) 2025",
+          "bbox": [
+            39.685001373291016,
+            220.6695098876953,
+            111.94123840332031,
+            228.6397247314453
+          ]
+        },
+        {
+          "id": "p9-b2-fce4c52",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1038/s44264-025-00114-9\nPerspective",
+          "bbox": [
+            39.685001373291016,
+            23.761194229125977,
+            561.1757202148438,
+            33.723793029785156
+          ]
+        },
+        {
+          "id": "p9-b3-b27fedd",
+          "kind": "paragraph",
+          "text": "npj Sustainable Agriculture |  (2026) 4:5 \n9",
+          "bbox": [
+            39.685001373291016,
+            763.4093627929688,
+            561.2955322265625,
+            771.4407958984375
+          ]
+        }
+      ],
+      "snapshot": "library/mixed-2026/1847ca3bcdce/page-9.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 9,
+    "pageSnapshots": 9,
+    "allTextBlocksRetained": true,
+    "textCharacters": 54001,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 3,
+    "sourceSHA256": "1847ca3bcdced1f671eb5a4c41472b2510921d3aa63d7980e5d9de505c4dc346",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

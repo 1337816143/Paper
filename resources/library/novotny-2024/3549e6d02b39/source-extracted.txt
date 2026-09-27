@@ -1,0 +1,2108 @@
+Landscape and Urban Planning 246 (2024) 105041
+
+Available online 22 February 2024
+0169-2046/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+Exploring nutrient-sensitive landscape configurations for rural 
+communities in southern Mexico
+
+Ivan P. Novotny a,b,c,*, Walter A.H. Rossing b, Pablo Tittonell d,e,f, Mariela Fuentes-Ponce c, 
+Jeroen C.J. Groot b
+
+a Ecosystems Management, Department of Environmental Systems Science, Institute of Terrestrial Ecosystems, ETH Zürich, Zürich, Switzerland 
+b Farming Systems Ecology Group, Wageningen University & Research, P.O. Box 430, 6700 AK, Wageningen, The Netherlands 
+c Animal and Crop Production Department, Universidad Aut´onoma Metropolitana-Xochimilco, Calzada del Hueso 1100, Col. Villa Quietud, 04960, Mexico City, Mexico 
+d Agroecology, Environment and Systems Group, Instituto de Investigaciones Forestales y Agropecuarias de Bariloche (IFAB), INTA-CONICET, Modesta Victoria 4450 – 
+CC 277 (8400), San Carlos de Bariloche, Río Negro, Argentina 
+e Agro´ecologie et Intensification Durable (AïDA), Centre de coop´eration Internationale en Recherche Agronomique pour le D´eveloppement (CIRAD), Universit´e de 
+Montpellier, 34000 Montpellier, France 
+f Groningen Institute of Evolutionary Life Sciences, Groningen University, P.O. Box 11103, 9700 CC Groningen, The Netherlands
+
+H I G H L I G H T S
+
+• Food production and ecosystem services can be improved by reconfiguring landscapes. 
+• Often neglected vitamins for human nutrition should be considered when designing landscapes. 
+• Exploration of trade-offs and synergies between indicators shows the room to maneuver in planning processes. 
+• Visualization of a large array of landscape redesign options informs to decision making and planning by communities.
+
+A R T I C L E  I N F O
+
+Keywords: 
+Landscape design 
+Nutrient-sensitive 
+Food security 
+Self-sufficiency 
+Ecosystem services
+
+A B S T R A C T
+
+In Mexico, the traditional MILPA polycropping system is giving way to maize monocultures, impacting the 
+nutritional diversity of smallholder farmers and diminishing ecosystem services. This study explores landscape 
+alternatives to enhance nutritional self-sufficiency and environmental performance in rural communities, 
+comparing scenarios without (S1) and with (S2) innovative cropping systems. The innovations, maize-squash and 
+MIAF (a variation of MILPA with fruit trees), were evaluated using the LandscapeIMAGES modeling framework 
+in two Oaxacan municipalities: Santa Catarina Tayata (SCT) and San Crist´obal Amoltepec (SCA). The assessment 
+considered nutritional elements, ecosystem services proxies, labor requirements, and income associated with 
+various land-use options. In scenario S1, nutritional self-sufficiency was achievable in SCT but not in SCA, even 
+with a 17% expansion of agriculture into forest and grassland areas. Scenario S2, incorporating maize-squash and 
+MIAF, facilitated nutritional self-sufficiency in both municipalities, while concurrently boosting incomes, carbon 
+stocks, and reducing soil erosion. This research underscores the potential of reshaping landscapes in small 
+communities to address widespread issues like nutritional gaps and inadequate natural resource conservation. By 
+emphasizing innovative cropping systems, the study provides positive solutions to enhance the well-being of 
+smallholder farmers and promote sustainable land use practices in the face of evolving agricultural trends.
+
+1. Introduction
+
+Agricultural production has managed to keep pace with population 
+growth in the last decades (Willett et al., 2019). However, the number of
+
+food insecure people has seen an unprecedented rise since World War II 
+(UN), according to the UN’s recent secretary-general, Guterres (2022). 
+The rise in food insecurity can be attributed to major events such as 
+Brexit, the COVID-19 pandemic, the China-USA trade war, and the
+
+* Corresponding author at: Universit¨atstrasse 16, 8092, Zürich, Switzerland. 
+E-mail addresses: ivan.novotny@usys.ethz.ch (I.P. Novotny), walter.rossing@wur.nl (W.A.H. Rossing), p.a.tittonell@rug.nl (P. Tittonell), mfponce@correo.xoc. 
+uam.mx (M. Fuentes-Ponce), jeroen.groot@wur.nl (J.C.J. Groot).
+
+Contents lists available at ScienceDirect
+
+Landscape and Urban Planning
+
+journal homepage: www.elsevier.com/locate/landurbplan
+
+https://doi.org/10.1016/j.landurbplan.2024.105041 
+Received 20 February 2023; Received in revised form 10 January 2024; Accepted 16 February 2024
+
+Landscape and Urban Planning 246 (2024) 105041
+
+2
+
+Ukraine-Russia war, which have disrupted global markets (Carriquiry, 
+Dumortier, & Elobeid, 2022). The cascading effects of these major 
+events have prompted nations to reconsider the role of self-sufficiency 
+(Bisoffi et al., 2021; Mottaleb, Kruseman, & Snapp, 2022). Concur­
+rently, food systems contribute to climate change by emitting one-third 
+of greenhouse gases (GHG) (Geyik, Hadjikakou, & Bryan, 2022). The 
+IPCC (2022) predicts a worsening negative impact of climate change on 
+food security. The interconnectedness of agriculture with global issues 
+such as persistent food insecurity, incremental CO2 emissions, and 
+degradation of natural services raises the question of how to produce 
+more sustainable and diverse food for an ever-increasing population 
+while restoring the environment (Ickowitz et al., 2022; Powell et al., 
+2015). Thus, landscape planning approaches that account for the so­
+cioeconomic and environmental complexity of food systems are 
+essential. 
+In Latin America, two major types of food production systems 
+coexist: intensified techno-centric monocropping systems and tradi­
+tional diversified production systems (Parraguez-Vergara et al., 2018). 
+The former, despite bringing increased yields through improved genetic 
+material and intense input use, has proven ineffective against hunger 
+and it is linked with unemployment, migration, and ecosystem degra­
+dation (Altieri & Nicholls, 2008; FAO, 2014; de Gordillo, 2004; Jokisch, 
+2002). Nevertheless, public incentives and labor shortages are compel­
+ling smallholder farmers to shift away from crop diversity towards 
+simplified systems (Parraguez-Vergara et al., 2018), potentially having 
+negative implications for food security in rural areas (Isakson, 2009). 
+This oversimplification of agricultural systems is a global issue, as food 
+systems worldwide are failing to produce enough crop variety to ensure 
+a healthy and balanced diet, with only three crops (rice, maize, and 
+wheat) providing 48% of the daily human calorie consumption (FAO, 
+2018). 
+The traditional Mexican cropping system MILPA centers around 
+maize, which is combined with other species such as common beans 
+(Phaseolus vulgaris), fava beans (Vicia faba), and squash (Cucurbita spp.). 
+This cropping system holds high potential for contributing to nutritional 
+self-sufficiency, defined as the relation between the availability of nu­
+trients and vitamins from locally produced products and the mean rec­
+ommended intake of these nutrients and vitamins (Sioen, Sekiyama, 
+Terada, & Yokohari, 2017). Despite its many advantages, MILPA is being 
+replaced by monocultures, leading to the freeing up of labor for off-farm 
+activities at the expense of the production and consumption of vitamins 
+A and C, as observed in southern Mexico (Novotny, Fuentes-Ponce, 
+Tittonell, Lopez-Ridaura, & Rossing, 2021). The low nutritional self- 
+sufficiency at the household level is also reflected at the national 
+level, with the country increasing grain imports by 65% between 2007 
+and 2012 (Senado de la Republica, 2017). 
+The Nutrition-Sensitive Landscape (NSL) framework was proposed 
+for analyzing landscape ecosystem services and nutritional performance 
+(Bioversity International, 2014; Groot et al., 2017; Kennedy et al., 
+2017). Here we use the framework to explore landscape configurations 
+prospectively and in a spatially explicit fashion. The application of the 
+NSL framework is particularly relevant for Mexico, where food security 
+and environmental conservation are often considered separately and at 
+the national rather than at the local level (Galeana-Piza˜na, Couturier, & 
+Monsivais-Huertero, 2018). 
+Research in nutrition-sensitive agriculture and landscape planning 
+has been gaining traction over the past years, exploring various topics 
+such as the relationship between closing global nutrient gaps and 
+greenhouse gas emissions (Geyik et al., 2022) and exploring farm-scale 
+management options for improving agricultural production and nutri­
+tion (Timler et al., 2020). To our knowledge, however, there is currently 
+no study that evaluates mid-scale landscape-level management options 
+for improving food production and the provisioning of ecosystem 
+services. 
+For that reason, this study focuses on two municipalities in southern 
+Mexico. We chose the municipal level as an administrative unit where
+
+the local authorities and local population interact to manage the 
+communal land. This decision-making process can have significant 
+positive or negative impacts on the landscape, as shown by Novotny, 
+Tittonell, Fuentes-Ponce, L´opez-Ridaura, and Rossing (2021). We 
+selected the state of Oaxaca for being one of the most marginalized states 
+in Mexico (CONAPO, 2016) and for presenting large degrees of land 
+degradation. Improving nutritional self-sufficiency through a landscape 
+re-design can be beneficial to these marginalized communities where 
+access to food from markets is restricted (Galeana-Piza˜na et al., 2018). 
+Food security depends not only on availability but also on access, sta­
+bility, and utilization (FAO, 1996). Here, we focus on food availability 
+from local production and food utilization, estimated through a com­
+bination of field surveys, land-use/land-cover (LULC) maps, and dietary 
+reference intake of several nutrients and vitamins. 
+The two municipalities chosen for this study have contrasting so­
+cioeconomic contexts. The first municipality, San Cristobal Amoltepec, 
+is characterized by low crop yields and high population density, 
+resulting in pressure on the land. The second community, Santa Catarina 
+Tayata, is marked by intense abandonment of agriculture and negative 
+demographic growth. Together, these communities are representative of 
+other municipalities in Mexico (Novotny et al., 2021). Our goal is to 
+compare the current landscape performance of these two communities 
+in terms of food production and nutritional diversity. Subsequently, we 
+explored ways to improve the nutritional, socio-economic, and envi­
+ronmental landscape performances through (i) the expansion of current 
+LULC and cropping systems, or (ii) the introduction of alternative and 
+diversified cropping systems.
+
+2. Materials and methods
+
+2.1. Study area and production systems
+
+This study was conducted in two neighboring municipalities, Santa 
+Catarina Tayata (SCT) and San Cristobal Amoltepec (SCA), located in the 
+state of Oaxaca, Mexico (Fig. 1). The two communities are similar in 
+terms of climate conditions, cropping systems, and community land­
+scape management (Novotny et al., 2021). They differ, however, in 
+demography, crop performance, and LULC configuration. The three 
+dominant cropping systems in the area are monocultures of maize and 
+common bean and MILPA. MILPA systems in this region include maize in 
+combination with one or more of the following crops: common bean, 
+fava bean, and squash. Cropping may be followed by a fallow period, 
+which usually lasts one year but may last up to five years. Sheep hus­
+bandry is the most common type of animal production. Sheep mostly 
+forage on fallow fields and grasslands in communal areas. 
+Like in other municipalities of Mexico, the land in SCT and SCA is 
+divided into common and private land (Fig. 1). Cropping activities are 
+performed exclusively on private land, although this is not the rule in 
+other municipalities. Common land is managed by Bienes Comunales 
+(BC), a local institution that enforces local regulations decided on by 
+municipal assemblies. Forest and grassland are the most frequent LULCs 
+on common land. Settlement areas were left out of the analysis as they 
+are not managed by the community. 
+Both communities are considered marginalized (CONAPO, 2016). 
+SCT is self-sufficient for more nutrients and vitamins than SCA, but 
+neither community is entirely self-sufficient (Novotny et al., 2021). Over 
+the last three decades, SCT and SCA increased forest cover and reduced 
+the surface with bare soil through a series of local regulations (Novotny 
+et al., 2021).
+
+2.2. Nutrition-sensitive landscapes and modeling framework
+
+Kennedy et al. (2017) established the NSL framework, integrating 
+UNICEF’s conceptual framework for nutrition with ecosystem service 
+functions. Derived from the UNICEF framework addressing malnutrition 
+issues, including food insecurity, inadequate maternal and child care,
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+3
+
+insufficient health services, and unhealthy environments (UNICEF, 
+1991), the NSL approach focuses on enhancing human nutrition and 
+health. It particularly targets locations where natural resources are 
+managed by stakeholders with diverse and often conflicting objectives 
+(Kennedy et al., 2017). 
+In this study, The LandscapeIMAGES (Landscape Interactive Multi- 
+Goal Agroecosystem Generation and Evaluation System – LI, Groot 
+et al., 2007) was employed. This framework facilitates the evaluation of 
+the current and alternative performance of landscapes using a Pareto- 
+based multi-objective Differential Evolution (P-MODE) algorithm. The 
+aim was to explore trade-offs and synergies among various landscape 
+performance indicators, such as soil erosion, food provision, habitat 
+connectivity, and carbon sequestration (Groot et al., 2007, 2009). For 
+each map polygon, alternative LULCs are described by decision variables 
+that are iteratively varied by the optimization algorithm. Pareto- 
+optimality is achieved when the performance of a landscape in terms 
+of a particular indicator cannot be improved without compromising 
+performance in one or more other indicators (Groot, Yalew, & Rossing, 
+2018). 
+This study adopted a a five-step approach to apply the model (Fig. 2), 
+detailed in the subsequent sub-sections. First, data was collected, and 
+production, socioeconomic, and environmental indicators were calcu­
+lated. Second, different LULCs were classified. Third, the combined 
+LULC classification and indicators were employed to assess landscape 
+performance. Fourth, stakeholders’ objectives and potential alternative 
+scenarios were identified. Lastly, stakeholders’ objectives were
+
+translated into six indicators, and the Pareto-based differential evolution 
+method was utilized to evaluate trade-offs and synergies across these 
+indicators.
+
+2.2.1. Data collection and quantification of indicators 
+To comprehensively assess nutrition, socio-economic factors, and 
+environmental aspects, a diverse set of data sources and measurement 
+techniques was employed (Table 1). The primary data collection 
+methods included a household survey conducted in December 2017, 
+encompassing 60 respondents (30 in SCT and 30 in SCA), yielding in­
+sights from 157 plots (Novotny et al., 2021). The survey, strategically 
+selecting participants for geographic diversity, covered crucial aspects 
+such as family structure, production systems, labor allocation, and 
+economic performance. 
+Crop yields and sheep production estimates derived from the survey 
+data revealed a consistent sheep stocking rate (3.5 sheep ha−1 of 
+grassland) across both municipalities. Although average crop yields 
+were similar, SCA consistently exhibited lower attainable yields (highest 
+observed yields) (Table 3). To account for the polyculture nature of 
+MILPA, the Land Equivalent Ratio (LER; Mead & Willey, 1980) was 
+calculated, utilizing average and highest observed yields for both mu­
+nicipalities. Squash production, absent as a monocrop, was estimated 
+using the average squash production in the state of Guerrero (10 Mg 
+ha−1; SIAP, 2017), the nearest state with relevant squash data. 
+The study used the Nutrient System Yield (NSYj,p, persons ha−1
+
+year−1) to quantify nutrient and vitamin yield, considering various crops
+
+Fig. 1. Location of the case study municipalities Santa Catarina Tayata and San Crist´obal Amoltepec within the state of Oaxaca.
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+4
+
+and cropping systems. Nutritional self-sufficiency (NSSj,p) for each 
+nutrient or vitamin in a municipality was calculated by dividing NSYj,p 
+by the population size. NSYj,p was calculated as:
+
+NSYj,p =
+
+∑n
+m=1CYj,m × NCp,m
+
+Rp
+
+where p is a nutrient or vitamin, CY is the yield of an individual crop m in 
+Mg/ha year−1 in municipality j. NCp,m is the content of nutrient or 
+vitamin p (unit dependent on the nutrient or vitamin) per Mg of crop m. 
+Rp is the annual Dietary Reference Intake (DRI, National Academy of 
+Sciences, 2011) per person for nutrient p (adapted from Timler et al., 
+2020). 
+The nutritional self-sufficiency (NSSj,p) for individual nutrients and 
+vitamins p in municipality j was calculated as:
+
+NSSj,p = NSYj,p
+
+Popj
+
+where Popj is the population size of municipality j, which was 680 
+persons for SCT and 1005 persons for SCA (INEGI, 2015). The Dietary 
+Reference Intake for the population between 31 and 50 years old was 
+used as this range is representative of the population average of both 
+communities. Deviating requirements of pregnant women and children 
+were not considered here, as their special dietary requirements demand 
+specific analyses. 
+Erosion was estimated based on a study conducted in the area 
+(Naranjo et al., 2021), which collected the eroded soil after 39 precip­
+itation events in plots with forest, maize, and fallow after 39 precipi­
+tation events.
+
+Fig. 2. Methodoological framework with steps in the data acquisition and modelling approach. Arrows show the connection between the different steps taken to 
+collect and analyze the data. Colored rows represent the major phases of data collection and analysis.
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+5
+
+Income generated from various activities (sheep-grazed grassland, 
+maize, bean, and MILPA) was calculated by subtracting production costs 
+(e.g., labor, inputs) from product prices. 
+Locally available labor was determined from INEGI (2010), consid­
+ering the population between 15 and 60 years of age and an 8-hour 
+working day. Only labor requirements for May and June were consid­
+ered and compared with locally available labor. This time frame was 
+preferred over the annual requirement because May and June are the 
+most labor-demanding months during which locally available labor 
+should be available. 
+To determine carbon stock for each LULC, the analysis considered 
+soil organic matter (SOM) and above-ground biomass (AGB). SOM data 
+were derived from 64 stratified random soil samples, accounting for 
+bulk density. For AGB, focus was placed on pasture and forest classes, 
+excluding bare soil devoid of vegetation and crop residues removed 
+post-harvest. 
+Forest AGB calculation involved identifying trees with a diameter 
+exceeding 7 cm at breast height (DBH) across 14 forest plots covering a 
+200 m2 surface. Tree height information was incorporated into an 
+allometric formula to quantify biomass (N´avar, 2009). A distinct allo­
+metric model estimated below-ground biomass from tree AGB (Mokany, 
+Raison, & Prokushkin, 2006). Additionally, understory biomass was 
+assessed by collecting non-woody material in a 1 m2 quadrant, dried for 
+48 h at 70 ◦C, and weighed (Bartholom´ee, Grigulis, Colace, Arnoldi, & 
+Lavorel, 2018). Combining tree and understory biomass provided the 
+total AGB. Pasture AGB estimation mirrored understory biomass, 
+involving cutting and weighing vegetation in a 1 m2 quadrant. Below- 
+ground biomass (BGB) for pastures was derived by multiplying AGB 
+by a factor of 1.6 (Eggleston, 2006). 
+Three additional landscape indicators—nutritional evenness, 
+Satoyama index, and habitat connectivity—were computed based on 
+LULC spatial distribution (Fig. 3). Nutritional evenness, assessed via the 
+Shannon index, gauged food richness and evenness in each municipality 
+(Remans et al., 2011). A higher nutritional evenness signifies potential 
+for a more balanced and diverse diet, crucial in mitigating issues related 
+to hidden hunger (Bamji, Murty, & Sudhir, 2021). The Satoyama index 
+was calculated following the methodology by Kadoya and Washitani 
+(2011), incorporating Simpson’s diversity index and the Compound 
+Index, its value ranges from 0 (homogeneous monoculture landscape) to 
+1 (highly diverse landscape). The habitat connectivity, indicating the 
+spatial contiguity of forests and biodiversity potential (Groot et al., 
+2018), was calculated using the method by Urban and Keitt (2001).
+
+2.2.2. LULC classification 
+GIS polygons serve as a powerful tool to illustrate the structural 
+components of an agricultural landscape, encompassing fields, borders, 
+roads, rivers, and more. Linear features such as field borders and 
+hedgerows are represented using GIS line elements. Information specific 
+to each landscape element is integrated into the GIS file as an internal 
+attribute table. Additional details regarding alternative properties, such 
+as vegetation type and land use, as well as the management of landscape 
+elements, are stored in database tables using MS Access/SQLite. 
+LI captures information about each landscape element in the GIS 
+file’s attribute table (Groot et al., 2018). In this study, the key landscape 
+elements encompass various LULC classes, including forest, agricultural 
+fields, and pasture. To categorize these elements, a LULC classification 
+was performed using a Landsat 8 image taken in October 2017 with a 
+spatial resolution of 30 m (https://earthexplorer.usgs.gov), carefully 
+chosen for minimal cloud cover and high contrast between LULCs. 
+Applying the Dark Object Subtraction atmospheric correction 
+method (Ellis & Porter-Bolland, 2008), the semi-supervised classifica­
+tion method was utilized. It combines elements of both supervised and 
+unsupervised classification, leveraging a small amount of labeled data 
+(supervised learning) sampled from Google Earth’s high-resolution map 
+(WorldView-2, 0.5 m resolution), and applying a maximum likelihood 
+algorithm to classify the remaining, unsampled data (unsupervised,
+
+Table 1 
+Nutritional, socio-economic, and environmental indicators and sources used as 
+inputs for each LULC.
+
+Indicator type 
+Indicator 
+Units 
+Used in LI 
+as1
+
+Source
+
+Nutritional 
+Nutritional 
+evenness 
+– 
+Indicator 
+Survey +
+literature2
+
+NSYDietary.
+
+energy
+
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYProtein 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYCa 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYP 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYFe 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYMg 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYZn 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYVit.A 
+Persons 
+fed yr−1
+
+ha−1
+
+Objective 
+(increase) 
+Survey +
+literature2
+
+NSYVit.B2 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYVit.B3 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYVit.B6 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYVit.B9 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+NSYVit.B12 
+Persons 
+fed yr−1
+
+ha−1
+
+Objective 
+(increase) 
+Survey +
+literature2
+
+NSYVit.C 
+Persons 
+fed yr−1
+
+ha−1
+
+Indicator 
+Survey +
+literature2
+
+Socio- 
+economic 
+Required 
+labor 
+days ha−1 
+Objective 
+(decrease)
+
+Reyna et al.,
+
+Locally 
+available 
+labor
+
+days ha−1 
+Indicator 
+Calculated (Inegi, 
+2010)
+
+Income 
+MXN yr−1
+
+ha−1
+
+Objective 
+(increase) 
+Survey + (Cadena- 
+I˜niguez et al., 
+2018) 
+Environmental 
+Soil loss 
+Mg yr−1
+
+ha−1
+
+Objective 
+(decrease) 
+(Etchevers et al., 
+2004; Naranjo- 
+Macias, 2019)  
+Total carbon 
+t ha−1 
+Objective 
+(increase) 
+Calculated from 
+soil samples + ( 
+Bos, 2020; 
+Etchevers et al., 
+2004)  
+Habitat 
+connectivity 
+ha 
+Indicator 
+Calculated (Urban 
+& Keitt, 2001)  
+Satoyama 
+index 
+– 
+Indicator 
+Calculated ( 
+Kadoya & 
+Washitani, 2011)
+
+1 “Used in LI as” refers to whether an indicator was defined in Land­
+scapeIMAGES as an “objective” for the multi-objective optimization. Indicators 
+not used as objectives were termed “indicators.”
+
+2 Literature used: Bressani (2015); Cadena-I˜niguez et al. (2018); Incap (2006); 
+Jim´enez, Gad´amez, Aguilar, Hern´andez, and Solis (2019); USDA (2010).
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+6
+
+Mekasha, Gerard, Tesfaye, Nigatu, & Duncan, 2014; Tolessa, Senbeta, & 
+Kidane, 2017). The three LULC labels utilized were forest, cropland/ 
+grassland, and bare soil, achieving an overall classification accuracy of 
+88% (Appendix D). 
+Cropland and grassland were merged under the same label for the 
+semi-supervised classification as these produced very similar spectral 
+signatures. Considering that grassland is important for animal produc­
+tion and cropland for growing crops, they had to be further differenti­
+ated. This was done by first using a shapefile containing the land 
+ownership information of SCT and SCA, which are divided into three 
+types of land ownership: private plots, common land, and settlement 
+(RAN, 2019). To distinguish cropland from grassland, we overlaid the 
+shapefile containing the land ownership with our LULC classification 
+map. Our differentiation criteria were: if a classified cropland/grassland 
+pixel overlayed with a private plot, then it was classified as cropland, if it
+
+overlayed with a common area, then it was classified as grassland. Based 
+on a survey performed before this study (described below), cropland was 
+used for growing maize, beans, MILPA, or fallow. Results from this 
+survey showed that 20% of the cropland area in SCT was occupied by 
+maize, 7% by bean, 33% by MILPA, and 40% by fallow. For SCA 26% of 
+the cropland areas was occupied by maize, 4% by bean, 50% by milpa, 
+and 20% by fallow. These proportions were used to randomly distribute 
+these crops across all the classified cropland plots. 
+The Semi-Automatic Classification Plugin (version 6.4.2) for QGIS 
+(version 3.4) facilitated the LULC classification process, contributing to 
+the robustness of the study’s GIS-based landscape characterization.
+
+2.2.3. Estimating current performance 
+Most indicators, except for the Satoyama index, habitat connectivity, 
+and nutritional evenness, were calculated per area of each LULC class.
+
+Fig. 3. Current landscape configuration in Santa Catarina Tayata and San Cristobal Amoltepec. LULCs such as bean, fallow, maize, and MILPA were randomly 
+allocated to the LULC class cropland based on the current proportion of each LULC.
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+7
+
+These indicators were stored in a GIS file used in LI. The performance of 
+these indicators can therefore be calculated by:
+
+Pi,j =
+∑
+n
+
+l=1
+
+Pi,l × Aj,l
+
+where Pi,j is the value of indicator i (unit dependent on the indicator) in 
+municipality j (e.g. SCT or SCA). Pi,l is the value of indicator i per ha of 
+LULC l. Aj,l is the area of LULC l in community j (ha).
+
+2.2.4. Identifying stakeholders’ objectives and alternative scenarios 
+Various indicators may be used as objectives to guide the exploration 
+of alternative landscape configurations (Table 1). To define locally 
+relevant objectives three major stakeholder categories in the munici­
+palities were asked for their opinions: farmers, local officials, and 
+ENLACE (a local NGO). ENLACE seeks to promote sustainable agricul­
+tural practices and improve rural infrastructure. ENLACE’s and local 
+officials’ objectives were defined in workshops held in 2015 and 2017. 
+The workshops consisted of identifying the stakeholders’ perceptions of 
+major problems in the case study area and objectives in their policy 
+agendas. ENLACE’s representatives stated that their priority goals are to 
+improve food security, minimize soil losses, and increase forest cover. In 
+addition to ENLACE’s goals, the local officials also wanted to protect 
+rivers and streams from soil sediments. Farmers were asked about their 
+objectives during the same household survey described before. The most 
+frequently expressed goals by farmers were improving crop perfor­
+mance, minimizing labor, and improving income. Objectives for the two 
+communities were similar. 
+We translated the crop performance and food security goals into the 
+objectives maximization produced vitamins A and B12. Vitamin A was 
+selected because reaching its nutritional self-sufficiency also guarantees 
+that minimum requirements for other nutrients and vitamins would be 
+met, except for vitamin B12 (Novotny et al., 2021). Vitamin B12 is 
+derived from free-range sheep production. Sheep production is associ­
+ated with grassland. Maximizing carbon stocks was used as an objective, 
+as this indicator is directly related to ENLACE’s and local officials’ 
+objective of increasing carbon sequestration. 
+Community regulations issued by the Bienes Communales were 
+implemented as restrictions in LI: 1) no forest clearing in common areas; 
+2) each river and stream should be protected by at least 15 m forest 
+buffer on each side; and 3) cropped land was allowed to be turned into 
+fallow. 
+Two scenarios were considered for this study. The first scenario (S1) 
+was used to explore ways to improve the stakeholders’ goals by re- 
+designing landscapes using current LULCs and cropping systems. This 
+scenario is particularly relevant for highly marginalized places such as 
+SCT and SCA, where innovations in cropping systems are less likely to 
+occur. Forest, fallow, grassland, maize, bean, and MILPA were defined as 
+LULC options in LI, and multi-objective optimizations were performed to 
+assess this scenario. 
+The second scenario (S2) aimed at investigating opportunities to 
+improve nutritional self-sufficiency while offering new economic op­
+portunities. As such, two novel cropping systems developed elsewhere in 
+Mexico were selected. The selected innovations were maize inter­
+cropped with squash (henceforth referred to as maize-squash) and an 
+agroforestry-based MILPA system (locally also known as MIAF). The 
+maize-squash system was selected because of farmers’ familiarity with 
+both species, reduced labor requirements compared to the traditional 
+MILPA, and its potential for improving the production of vitamins A and 
+C (the most limiting vitamins in the region;). The MIAF system was 
+developed to reduce poverty and environmental damage in hillside areas 
+such as the highlands of Oaxaca (Cadena-I˜niguez, Camas-G´omez, L´opez- 
+B´aez, L´opez-G´omez, & Gonz´alez-Cifuentes, 2018). The MIAF considered 
+for this study consisted of maize intercropped with bean and peach. The 
+composition was chosen based on experiences with the system in an 
+agroecologically similar area in Mexico (Cadena-I˜niguez et al., 2018).
+
+2.2.5. Multi-objective optimization 
+The evolutionary algorithm Differential Evolution (Storn & Price, 
+1997) was used for Pareto-based multi-objective optimization. The 
+complete mathematical explanation with the corresponding formulae, 
+used in LI is described by Groot et al. (2018). Here we briefly summarize 
+the optimization process. The DE algorithm generates two populations 
+of solutions which represent the decision variables that indicate allo­
+cated LULC on map polygons. The opportunity space created by these 
+populations is diverse; the variety in the decision variables (genotypes) 
+creates diversity in landscape performance that is measured by the in­
+dicators (phenotypes). The first population of ‘parents’ serves as the 
+result-set that is iteratively improved, while the second population 
+consists of ‘competitors’ that are generated by a uniform cross-over of 
+three selected ‘parent’ solutions in each iteration. The parameters of the 
+DE algorithm are the probability of cross-over (CR = 0.85) and the 
+amplitude of mutation (F = 0.15). Each population consisted of 1000 
+solutions. 
+The solutions in both populations are ranked using the principle of 
+Pareto-optimality (Groot, Oomen, & Rossing, 2012) and the Euclidean 
+distance between the solutions in the opportunity space is calculated 
+from the normalized indicator values, which serves to quantify a 
+crowding metric. After the ranking, the selection process is conducted by 
+pairwise comparison: solutions in the result-set population are replaced 
+by individuals from the competitor population if the latter has a better 
+Pareto rank or is positioned in a less crowded part of the opportunity 
+space. The rank-based selection results in the movement of the ‘parent’ 
+population in the direction of the trade-off frontier (or surface), while 
+the crowd-based selection ensures spread along the frontier (or surface). 
+This process was conducted for 1000 iterations.
+
+3. Results
+
+3.1. Current landscape performance
+
+The total areas of SCT and SCA were 4220 and 3490 ha, respectively. 
+Forest and grassland were the most common LULC types in both mu­
+nicipalities, occupying around 50 and 30% of the total territory in SCT, 
+and 40 and 35% in SCA, respectively (Fig. 3). Crops occupied 20% of the 
+total territory in each municipality. Maize was grown on around 70 and 
+55% of the cropland in SCT and SCA, respectively. Bean took around 25 
+and 30% and MILPA 5 and 15% of the cropland in SCT and SCA, 
+respectively. 
+In SCT nutrients and vitamins were enough to feed a population of 
+679 people, except for vitamins A and C (Table 2). Vitamins A and C are 
+found in high concentrations in squash, which is produced in MILPA. 
+Apart from vitamin A and C deficiencies, SCA fell short of the pop­
+ulation’s requirements for vitamin B9, dietary energy, calcium, iron, and 
+zinc (Table 2). The lower nutrient and vitamin systems yields in SCA 
+were attributable to lower crop yields and less cropland area compared 
+to SCT. 
+The amount of locally available labor in SCA (41,280 days) in May 
+and June was double that of SCT (Table 2). Neither community could 
+meet the required labor with locally available labor for these months. 
+Therefore, both communities hire external labor to address this deficit. 
+The distribution of plots across the municipalities affected habitat 
+connectivity. The concentration of agricultural plots in the mid-section 
+of SCT (Fig. 3) decreased forest habitat connectivity by physically 
+separating the forests on the west and east sides of the community. In 
+SCA, forest cover was found interspersed among agricultural plots, 
+which resulted in greater habitat connectivity. SCT performed better 
+than SCA in terms of carbon stock due to its larger forest area. The 
+Satoyama index values in each municipality were similar (0.9 for SCT 
+and 0.91 for SCA), meaning that both municipal landscapes had a high 
+diversity of LULCs and showed patchy patterns.
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+8
+
+3.2. Exploring landscape configuration alternatives
+
+3.2.1. Scenario S1 - Reallocation of existing LULC options 
+Around 40% and 30% of the alternative landscapes generated by 
+multi-objective optimization for SCT and SCA satisfied the population’s 
+demand for vitamin A (points above red line Fig. 4). Across the alter­
+native landscape configurations generated by LI, vitamin A supply was 
+positively connected with income, soil erosion, and labor requirements 
+(Fig. 4 and Appendix B). Greater carbon stocks were generally associ­
+ated with greater vitamin B12 yields. A trade-off existed between 
+vitamin B12 and vitamin A. A reduction in vitamin B12 yield and an 
+increase in vitamin A production was accompanied by a reduction in 
+grassland and an increase in MILPA (Appendix B). 
+Nutritional self-sufficiency of vitamin A could be achieved with 
+different landscape configurations in SCT (red line in Fig. 4). Reaching 
+vitamin A self-sufficiency in SCT would require 10% of the land to be 
+occupied with MILPA (red lines in Fig. 5). For SCA, the most productive 
+landscape alternative for vitamin A would be able to feed 968 out of its 
+1005 persons. To reach this level, the cropping area would have to be 
+expanded by 17% (horizontal black lines in Fig. 5). 
+In scenario S1, increasing vitamin A self-sufficiency through MILPA 
+would come at the cost of reduced forest and grassland surface (Fig. 5). 
+Since forest and grassland are the LULCs that resulted in less soil erosion, 
+their reduction would increase soil losses throughout the landscape.
+
+3.2.2. Scenario S2: Reallocations including new LULC options 
+The introduction of maize-squash and MIAF systems in scenario S2 
+considerably changed the solution spaces compared to the first scenario 
+(Fig. 4). Notably, both communities had a much larger window of op­
+portunity for improving vitamin A production and generating income. 
+Nevertheless, the attainable levels for carbon stock and vitamin B12 
+were lower compared to the S1 scenario without maize-squash and 
+MIAF. Similarly, in scenario S2 erosion could not be reduced below 2.7 
+Mg ha−1 year−1, which was reachable for scenario S1. This is explained 
+by a larger share of the land being allocated to crops, reducing the share 
+of forest and grassland in scenario S2 when compared to S1. 
+In scenario S2, any Pareto-optimal landscape would allow both 
+communities to increase their vitamin A production, and consequently, 
+nutritional self-sufficiency of vitamin A could be reached for all alter­
+native landscape configurations in the result-set. Reaching vitamin A 
+self-sufficiency would require a minimum cropland area of 19 and 20% 
+of the total territory for SCT and SCA, respectively. This is particularly 
+relevant for SCA, which had no alternative landscape that would reach 
+self-sufficiency without cropping systems innovations. Despite the po­
+tential benefits offered by introducing maize-squash and MIAF systems, 
+these systems would increase labor requirements and reduce the pro­
+duction of vitamin B12.
+
+Fig. 6 shows four landscape configuration options for each munici­
+pality. They provide insights into how landscape configuration changes 
+according to stakeholder’s goals. When maximizing vitamin A produc­
+tion, there was an emphasis on maize-squash production. Landscapes 
+that generated more income had increased MIAF production.
+
+4. Discussion
+
+4.1. Achieving nutrition-sensitive landscapes
+
+Our study showed how the landscape performance can improved 
+through reorganizing the different LULCs to optimize nutritional self- 
+sufficiency while increasing carbon stocks. Among current cropping 
+systems, the diversified MILPA plays a clear role in sustaining and 
+improving nutritional self-sufficiency (Novotny et al., 2021). Intro­
+ducing cropping systems such as maize-squash and MIAF could increase 
+vitamin A production and generate greater incomes for farmers. How­
+ever, expanding maize-squash and MIAF onto grasslands and forest 
+lands could lead to increased soil erosion rates and smaller carbon stocks
+
+Table 2 
+Current nutritional, socio-economic, and environmental performance for Santa 
+Catarina Tayata and San Cristobal Amoltepec.
+
+Indicator type 
+Indicator 
+Units 
+Municipality
+
+Santa Catarina 
+Tayata1
+
+San Cristobal 
+Amoltepec1
+
+Nutritional 
+Nutritional 
+evenness 
+– 
+3.53 
+4.07
+
+NSYDietary.
+
+energy
+
+Persons 
+fed yr−1
+
+1,992 (293%) 
+860 (85%)
+
+NSYProtein 
+Persons 
+fed yr−1
+
+2,734 (402%) 
+1,508 (150%)
+
+NSYCa 
+Persons 
+fed yr−1
+
+1,523 (224%) 
+595 (59%)
+
+NSYP 
+Persons 
+fed yr−1
+
+2,851 (419%) 
+1,488 (148%)
+
+NSYFe 
+Persons 
+fed yr−1
+
+1,601 (235%) 
+826 (82%)
+
+NSYMg 
+Persons 
+fed yr−1
+
+3,398 (500%) 
+1,350 (134%)
+
+NSYZn 
+Persons 
+fed yr−1
+
+1,054 (155%) 
+827 (82%)
+
+NSYVit.A 
+Persons 
+fed yr−1
+
+102 (15%) 
+73 (7%)
+
+NSYVit.B2 
+Persons 
+fed yr−1
+
+1,992 (293%) 
+1,058 (105%)
+
+NSYVit.B3 
+Persons 
+fed yr−1
+
+2,421 (356%) 
+1,290 (128%)
+
+NSYVit.B6 
+Persons 
+fed yr−1
+
+3,124 (459%) 
+1,356 (135%)
+
+NSYVit.B9 
+Persons 
+fed yr−1
+
+898 (132%) 
+860 (86%)
+
+NSYVit.B12 
+Persons 
+fed yr−1
+
+1,367 (201%) 
+1,488 (148%)
+
+NSYVit.C 
+Persons 
+fed yr−1
+
+117 (17%) 
+86 (8%)
+
+Socio- 
+economic 
+Required 
+labor 
+Days 
+55,855 
+49,268
+
+Locally 
+available 
+labor
+
+Days 
+20,520 
+41,280
+
+Income 
+MXN yr−1
+
+(USD 
+yr−1)
+
+5,709,818 
+(285,490) 
+5,717,113 
+(285,855)
+
+Environmental 
+Soil loss 
+Mg yr−1 
+13,005 
+11,143  
+Total carbon 
+T 
+283,929 
+239,398  
+Habitat 
+connectivity 
+Ha 
+834 
+1411
+
+Satoyama 
+index 
+– 
+0.90 
+0.91
+
+1 Values outside the parentheses are the nutrient system yield while percen­
+tual values between parentheses represent the nutritional self-sufficiency of a 
+given nutrient or vitamin.
+
+Table 3 
+Average and highest maize, common bean, and squash yields in different 
+cropping systems and calculated land equivalent ratios (LERs) of MILPA.
+
+Santa Catarina Tayata 
+San Cristobal Amoltepec
+
+Average 
+(Mg/ 
+ha)
+
+Highest observed 
+yield (Mg/ha) 
+Average 
+(Mg/ 
+ha)
+
+Highest observed 
+yield (Mg/ha)
+
+Maize  
+0.84  
+2.00  
+0.34  
+1.62 
+Maize in MILPA  
+0.04  
+1.62  
+0.04  
+1.56 
+Common bean  
+0.15  
+0.45  
+0.12  
+0.25 
+Common bean in 
+MILPA  
+0.05  
+0.22  
+0.04  
+0.04
+
+Squash in MILPA  
+0.45  
+1.00  
+0.22  
+1.00 
+Land Equivalent 
+Ratio MILPA  
+0.42  
+1.40  
+0.47  
+1.22
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+9
+
+at the landscape level. 
+Our study aimed to answer the question raised by Ickowitz et al. 
+(2022) and Powell et al. (2015) regarding how landscapes can sustain 
+healthy food production while maintaining or even improving, 
+ecosystem services. Moreover, international organizations call for 
+nutrition-sensitive landscape solutions that aim at improving both food 
+and nutritional security while promoting sustainable use of natural re­
+sources and conservation (Bioversity International, 2014; IFPRI, 2014).
+
+Broegaard et al. (2017) followed an NSL approach to study a wide array 
+of systems from forests, fallow, and agricultural fields to demonstrate 
+wild foods’ relevance in decreasing protein gaps. Similar to the study 
+from Broegaard et al. (2017), our study assessed food production ac­
+cording to different LULCs. However, our study is the first to include a 
+set of nutritional components in the analysis and relate nutritional self- 
+sufficiency with ecosystem services. 
+As a result of favoring maize monoculture instead of MILPA, vitamins
+
+Fig. 4. Performance of alternative Pareto-optimal landscapes generated by multi-objective optimization for Scenarios S1 and S2, expressed in five objectives: vitamin 
+A, vitamin B12, income, carbon stock, and erosion. Red dots represent current landscape performance. Red lines indicate the nutritional self-sufficiency threshold for 
+vitamin A. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+10
+
+Fig. 5. Thousand landscape configurations (percentage of different LULCs indicated on the y-axis) ranked by the performance of vitamin A and soil erosion 
+(low–high, x-axis) for Santa Catarina Tayata (SCT) and San Cristobal Amoltepec (SCA) without (scenario S1) and with (scenario S2) the introduction of maize-squash 
+and MIAF. Horizontal black lines indicate the legal limit of land allowed for agricultural exploitation. Vertical red lines represent the nutritional self-sufficiency 
+threshold. Black arrows represent the current LULC proportions. The lines of percentages of LULCs were smoothed using the LOESS method for better interpreta­
+tion. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+11
+
+A and C were produced in low quantities in each case study munici­
+pality. Vitamin A deficiency is a common problem in Mexico (Leather­
+man, Goodman, & Stillman, 2020; Mora, Gueri, & Mora, 1998), with 
+alarming cases of severe deficiency in children (Brito et al., 2015). Also 
+for other regions of Latin America (Brito et al., 2015; Mora et al., 1998) 
+and the world (Laillou et al., 2012; Timler et al., 2020), vitamin A 
+deficiency has been reported as a concern for human nutrition. Reaching 
+self-sufficiency for vitamin A proved to be particularly difficult at the 
+San Cristobal Amoltepec municipality. Given the current LULCs and 
+productivity levels (scenario S1), SCA would require an expansion of its 
+cropland to come close to achieving the local demand for vitamin A, 
+consequently reducing LULCs that can improve carbon stocks and 
+reduce erosion (e.g., forest and grassland). 
+By diversifying cropping systems options (scenario S2), MILPA could 
+provide sufficient amounts of nutrients and vitamins for adequate 
+human nutrition (Novotny et al., 2021). Despite the nutritional benefits 
+of MILPA, these polycultures exhibited relatively low productivity 
+(Table 3) and high labor demands in the region of study. Together with 
+an increasing engagement in off-farm activities (Novotny, 2020), 
+farmers might be less inclined to grow MILPA, which requires also more 
+manual labor than maize monocultures. Other places in Mexico exhibit 
+similar preferences for monocropping systems (Birol, Villalba, & Smale, 
+2009; Guti´errez-Carbajal & Maga˜na-Maga˜na, 2017; Kontoleon, Pascual, 
+Smale, 2009; Otero-Prevost, Gurri-García, Mariaca-M´endez, & Guízar- 
+V´azquez, 2018; Richard, 2008; Rodríguez & Arias, 2014). 
+Improving MILPA to bring the average yield closer to the attainable
+
+yield could provide greater amounts of food and generate more income, 
+making this system more attractive to farmers. Technical interventions 
+should aim at bridging this gap. In experimental conditions in Texcoco, 
+Mexico, MILPA polycultures yielded 4.5, 0.9, and 6.2 Mg ha−1 of maize, 
+bean, and squash respectively (Ebel, Pozas, Soria, & Cruz, 2017); this 
+represents 110-, 6-, and 10-fold the average yields measured in our re­
+gion of study. Another option is to increase squash density in MILPA to 
+favor the production of vitamins A and C, although experimental trials 
+should be performed for better recommendations on plant density. At 
+the policy level, efforts should be made to stimulate MILPA production 
+instead of steering farmers away from it towards monocultures, as has 
+been the case in the last decade (S´anchez & Hern´andez, 2014). 
+Considering the challenges of expanding MILPA to provide better 
+nutrition, alternative production management or cropping systems, such 
+as the ones proposed in this study, should be also considered. Results 
+showed that maize-squash and MIAF systems could change the land­
+scape performance for the indicators assessed. Maize-squash could in­
+crease vitamin A, while MIAF could offer better economic performance, 
+as seen in other studies (Cadena-I˜niguez et al., 2018; Cort´es et al., 2007; 
+Etchevers et al., 2004). Our modeling study revealed several landscape 
+configurations with maize-squash and MIAF that could reach vitamin A 
+self-sufficiency while also increasing ecosystem services like carbon 
+stocks and soil erosion reduction. In contrast, reaching vitamin A self- 
+sufficiency with current cropping systems would not be possible 
+without greatly compromising these ecosystem services.
+
+Fig. 6. Landscape configuration for maximizing vitamin A production, income, and carbon stock and minimizing soil erosio.
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+12
+
+4.2. Socio-ecological landscapes
+
+The assessment of scenarios that considered only current LULCs and 
+cropping systems revealed the limited potential to improve the socio- 
+economic, nutritional, and environmental performance of landscapes 
+in contexts where no changes in cropping systems are likely to happen. 
+This is particularly relevant to highly marginalized places such as the 
+state of Oaxaca (CONAPO, 2016). Results from this study showed 
+landscape alternatives that could improve carbon stocks, and vitamin A 
+production, and reduce soil erosion (Fig. 4). Combining this potential 
+with the fact that communities in Mexico have the autonomy to govern 
+their land (Novotny et al., 2021), offers prospects for improved land­
+scapes. Despite this study being realized in an unproductive and 
+marginalized area, the robustness of our approach can be replicated in 
+different contexts. Landscape-level management often involves wicked 
+problems that arise from a socio-economic and ecological complexity 
+fueled by social actors with conflicting interests. Incorporating these 
+actors’ goals and aspirations into the analysis and exploring potential 
+landscape alternatives and their associated synergies and trade-offs can 
+offer a transparent and inclusive platform for discussing these 
+alternatives. 
+Reaching food regional self-sufficiency has several implications for 
+food markets. A more localized food production boosts the rural econ­
+omy, mitigates the influence of price fluctuations, and reduces travel 
+costs (Clapp, 2017; Puma, Bose, Chon, & Cook, 2015; Suweis, Carr, 
+Maritan, Rinaldo, & D’Odorico, 2015). In contrast, a few negative points 
+should also be considered. Achieving higher food self-sufficiency might 
+not be possible depending on whether the environment’s agricultural 
+aptitude can sustain a sufficient supply of food for its population (Fader,
+
+Gerten, Krause, Lucht, & Cramer, 2013). Furthermore, reducing the 
+dependency on external markets might remove the assurance of 
+obtaining extra food in the face of crop failure, pest outbreaks, or 
+extreme weather events.
+
+4.3. Limitations and future research
+
+This study had some limitations. First, it focused on nutritional self- 
+sufficiency, which assesses food availability from agriculture and food 
+utilization. Although both are important for a food security assessment, 
+data on access to food and food production stability are required for a 
+fuller panorama of food security. This study explored alternative land­
+scapes for two municipalities, and the question remains of how to scale 
+up and incorporate these findings at the regional landscape planning 
+level. However, landscape performance can be improved, even for re­
+gions where high marginalization, nutritional gaps, and land degrada­
+tion exist. As such, learnings from this study could be carried out in 
+similar socio-economic contexts. Third, the addition of two cropping 
+systems did not aim to be exhaustive in terms of available possibilities. 
+Instead, it was used as an example of how alternative systems can alter 
+landscape performance and create new opportunities for productive and 
+sustainable landscapes. Other cropping systems and management can 
+and should be considered for reaching improved landscape perfor­
+mances. While this study assessed the current performance of indicators 
+whose performance depended on the spatial configuration of land uses 
+(Satoyama index and habitat connectivity), they were not considered by 
+stakeholders as key variables for optimization. Nevertheless, we suggest 
+future studies to not only consider the amount of areas per land use but 
+also how distribute and connect with one another in the landscape.
+
+Fig. 6. (continued).
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+13
+
+Lastly, this study offers a way to inspire further collaboration between 
+stakeholders by discussing the advantages and disadvantages of alter­
+native landscape configurations. 
+The potential for improving landscape performance through diver­
+sification and intensification, with or without innovations in cropping 
+systems exists. Nevertheless, with the current yield levels and labor 
+demands, traditional MILPA systems are losing interest from farmers. 
+Therefore, an agronomic rejuvenation of the agroecological concept 
+behind this iconic mixed cropping system is needed to fit both the 
+economic and socio-cultural contexts.
+
+5. Conclusions
+
+Through a nutrition-sensitive landscape approach, we generated and 
+illustrated several landscape configurations for improving landscape 
+performance in terms of income, nutritional self-sufficiency, carbon 
+stocks, and soil erosion reduction. This study demonstrated it is possible 
+to improve the nutritional, economic, and environmental performance 
+solely by re-arranging current LULCs. Yet, introducing new cropping 
+systems may contribute to breaking deadlocks and improving landscape 
+performance even further. The inclusion of a maize-squash intercrop­
+ping system would vastly improve the provision of vitamin A, while the 
+MIAF agroforestry system would provide farmers with an opportunity to 
+increase their income. These benefits, however, come at the cost of 
+higher labor demands and more soil erosion risks as cropping systems 
+activities start to replace forests and grasslands. The multi-objective 
+model used here was based on stakeholders’ objectives, offering a 
+robust way to assess landscape configurations in a risk-free environ­
+ment. This increases the chance for every party involved to have their 
+voice expressed in the design process and to foresee how changing as­
+pects of the landscape affect its performance. The use of this framework 
+in participatory exercises of landscape redesign with local communities 
+and other stakeholders has the potential to inform discussion in the 
+quest for more equitable, sustainable, and nutritionally sensitive
+
+landscapes.
+
+CRediT authorship contribution statement
+
+Ivan P. Novotny: Conceptualization, Data curation, Formal anal­
+ysis, Investigation, Methodology, Project administration, Software, 
+Visualization, Writing – original draft, Writing – review & editing. 
+Walter A.H. Rossing: Conceptualization, Methodology, Supervision, 
+Writing – review & editing. Pablo Tittonell: Funding acquisition, Su­
+pervision, Writing – review & editing. Mariela Fuentes-Ponce: 
+Conceptualization, Supervision, Writing – review & editing. Jeroen C.J. 
+Groot: Methodology, Software, Writing – review & editing.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+
+Data availability
+
+Data will be made available on request.
+
+Acknowledgments
+
+The authors would like to thank the following people and organi­
+zation: Sergio Naranjo for his valuable work on soil erosion in the area; 
+Tim Bos, Erick Rebollo, and Dulce Zu˜niga for their dedication, without 
+which we would have not been able to estimate carbon stocks; Samuel 
+Ding for his invaluable assistance with fine-tuning the user interface for 
+running the LandscapeIMAGES modeling; and the support provided by 
+the CGIAR, which funded this project, ‘Agro-ecosystem diversity and the 
+Trajectories and Trade-offs for Intensification of Cereal-based systems’ 
+(ATTIC, grant agreement: A4032.09.20).
+
+Appendix
+
+Appendix A. Production per LULC in Santa Catarina Tayata and San Cristobal Amoltepec
+
+LULC in Santa Catarina Tayata
+
+Indicator 
+Unit 
+Forest 
+Grassland 
+Maize 
+Bean 
+MILPA 
+Maize- 
+squash 
+MIAF
+
+Dietary energy 
+persons fed ha−1 
+0 
+0.19 
+3.14 
+0.64 
+3.75 
+8.63 
+4.91 
+Protein 
+persons fed ha−1 
+0 
+0.48 
+3.60 
+1.85 
+5 
+10.31 
+6.27 
+Calcium 
+persons fed ha−1 
+0 
+0.02 
+2.61 
+0.56 
+3.11 
+7.25 
+4.08 
+Phosphorus 
+persons fed ha−1 
+0 
+0.33 
+3.73 
+2.47 
+6.37 
+13.73 
+6.40 
+Iron 
+persons fed ha−1 
+0 
+0.13 
+2.15 
+1.64 
+3.51 
+7.37 
+3.99 
+Magnesium 
+persons fed ha−1 
+0 
+0.08 
+5.84 
+0.62 
+8.03 
+19.75 
+8.22 
+Zinc 
+persons fed ha−1 
+0 
+0.49 
+0.64 
+1.06 
+2.07 
+4.62 
+1.99 
+Vitamin A 
+persons fed ha−1 
+0 
+0 
+0 
+0 
+1.96 
+7.83 
+0.63 
+Vitamin B2 
+persons fed ha−1 
+0 
+0.27 
+2.68 
+1.63 
+3.84 
+8.28 
+5.38 
+Vitamin B3 
+persons fed ha−1 
+0 
+0.59 
+3.22 
+0.58 
+4.11 
+9.89 
+6.19 
+Vitamin B6 
+persons fed ha−1 
+0 
+0.14 
+4.96 
+1.69 
+6.26 
+14.23 
+8.00 
+Vitamin B9 
+persons fed ha−1 
+0 
+0 
+0 
+4.82 
+1.99 
+1.97 
+3.37 
+Vitamin B12 
+persons fed ha−1 
+0 
+1.45 
+0 
+0 
+0 
+0 
+0 
+Vitamin C 
+persons fed ha−1 
+0 
+0 
+0 
+0 
+2.01 
+8.25 
+5.55 
+Required labor 
+days ha−1 
+0 
+60 
+69 
+90 
+125 
+90 
+170 
+Income 
+MXN ha−1 
+0 
+4615 
+3050 
+−1900 
+5245 
+18,881 
+18,450 
+Soil loss 
+Mg/ha 
+1 
+1 
+15 
+15 
+15 
+15 
+5 
+Total carbon 
+t ha−1 
+121.1 
+78.7 
+23 
+23 
+23.8 
+23 
+26.8   
+LULC in San Cristobal Amoltepec 
+Indicator 
+Unit 
+Forest 
+Grassland 
+Maize 
+Bean 
+MILPA 
+Maize- 
+squash 
+MIAF
+
+Dietary energy 
+persons fed ha−1 
+0 
+0.19 
+1.29 
+0.52 
+2.17 
+8.63 
+4.91 
+Protein 
+persons fed ha−1 
+0 
+0.48 
+1.46 
+1.50 
+2.99 
+10.31 
+6.27 
+Calcium 
+persons fed ha−1 
+0 
+0.02 
+1.06 
+0.45 
+1.79 
+7.25 
+4.08 
+Phosphorus 
+persons fed ha−1 
+0 
+0.33 
+1.51 
+2.00 
+3.76 
+13.73 
+6.40
+
+(continued on next page)
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+14
+
+(continued)
+
+LULC in Santa Catarina Tayata
+
+Indicator 
+Unit 
+Forest 
+Grassland 
+Maize 
+Bean 
+MILPA 
+Maize- 
+squash 
+MIAF
+
+Iron 
+persons fed ha−1 
+0 
+0.13 
+0.87 
+1.33 
+2.11 
+7.37 
+3.99 
+Magnesium 
+persons fed ha−1 
+0 
+0.08 
+2.36 
+0.51 
+4.54 
+19.75 
+8.22 
+Zinc 
+persons fed ha−1 
+0 
+0.49 
+0.26 
+0.85 
+1.22 
+4.62 
+1.99 
+Vitamin A 
+persons fed ha−1 
+0 
+0 
+0 
+0 
+0.95 
+7.83 
+0.63 
+Vitamin B2 
+persons fed ha−1 
+0 
+0.27 
+1.09 
+1.31 
+1.02 
+8.28 
+5.38 
+Vitamin B3 
+persons fed ha−1 
+0 
+0.59 
+1.30 
+0.47 
+2.29 
+9.89 
+6.19 
+Vitamin B6 
+persons fed ha−1 
+0 
+0.14 
+2.01 
+1.37 
+2.35 
+14.23 
+8.00 
+Vitamin B9 
+persons fed ha−1 
+0 
+0 
+0 
+3.9 
+3.65 
+1.97 
+3.37 
+Vitamin B12 
+persons fed ha−1 
+0 
+1.45 
+0 
+0 
+1.44 
+0 
+0 
+Vitamin C 
+persons fed ha−1 
+0 
+0 
+0 
+0.04 
+1.02 
+8.25 
+5.55 
+Required labor 
+days 
+0 
+60 
+69 
+90 
+125 
+90 
+170 
+Income 
+MXN 
+0 
+4615 
+−700 
+−645 
+5000 
+18,881 
+18,450 
+Soil loss 
+Mg/ha 
+1 
+1 
+15 
+15 
+15 
+15 
+5 
+Total carbon 
+t 
+121.1 
+78.7 
+23 
+23 
+23.8 
+23 
+26.8
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+15
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+16
+
+Appendix B. Performance of alternative Pareto-optimal landscapes expressed in six objectives: income, vitamin B12, erosion, carbon 
+stock, vitamin A, and labor. Black squares represent current landscape performance. Dashed lines indicate the vitamin self-sufficiency 
+threshold. Blue: San Cristobal Amoltepec, red: Santa Catarina de Tayata. Hulls around the solution clouds were added for ease of 
+comparison between municipalities
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+17
+
+Appendix C. Thousand landscape configurations (y-axis) ranked by the performance of 6 objectives (low–high, x-axis) for Santa Catarina 
+Tayata (SCT) and San Cristobal Amoltepec (SCA) with and without the introduction of maize-squash and MIAF. Horizontal black lines 
+indicate the current maximum surface allowed for private agricultural exploitation. Vertical red lines represent the nutritional self- 
+sufficiency threshold. Black arrows represent the current LULC proportions. The figures’ lines were smoothed using the LOESS method 
+for better interpretation
+
+Appendix D. Area-based error matrix
+
+Reference
+
+Classified 
+Forest 
+Agriculture 
+Bare soil 
+Area
+
+Forest 
+0.6028 
+0.0009 
+0 
+1,265,400 
+Agriculture 
+0.0906 
+0.1765 
+0.0013 
+562,500 
+Bare soil 
+0 
+0.024 
+0.1039 
+268,200 
+Total 
+0.6934 
+0.2014 
+0.1052 
+2,096,100 
+Estimated area 
+1,453,500 
+422,100 
+220,500 
+2,096,100 
+Standard error 
+0.0051 
+0.0059 
+0.003  
+Standard error area 
+10724.32 
+12359.2 
+6275.52  
+95% CI area 
+21019.67 
+24224.04 
+12300.03  
+Producer accuracy [%] 
+86.935 
+87.6333 
+98.7755  
+User accuracy [%] 
+99.8578 
+65.76 
+81.2081  
+Overall accuracy [%] = 88.3212
+
+References
+
+Altieri, M. A., & Nicholls, C. I. (2008). Scaling up agroecological approaches for food 
+sovereignty in Latin America. Development, 51(4), 472–480. https://doi.org/ 
+10.1057/dev.2008.68 
+Bamji, M. S., Murty, P. V. V. S., & Sudhir, P. D. (2021). Nutritionally sensitive 
+agriculture—An approach to reducing hidden hunger. European Journal of Clinical 
+Nutrition, 75(7), 1001–1009. https://doi.org/10.1038/s41430-020-00760-x 
+Bartholom´ee, O., Grigulis, K., Colace, M.-P., Arnoldi, C., & Lavorel, S. (2018). 
+Methodological uncertainties in estimating carbon storage in temperate forests and 
+grasslands. Ecological Indicators, 95, 331–342. https://doi.org/10.1016/j. 
+ecolind.2018.07.054 
+Bioversity International. (2014). Concept Note: Nutrition-sensitive landscapes. Bioversity 
+International and The Earth Institute: Columbia University. https://www. 
+bioversityinternational.org/fileadmin/user_upload/research/research_portfolio/ 
+Diet_diversity/Nutrition__Sensitive_Landscapes_Concept_paper_March_2014.pdf. 
+Birol, E., Villalba, E. R., & Smale, M. (2009). Farmer preferences for milpa diversity and 
+genetically modified maize in Mexico: A latent class approach. Environment and 
+Development Economics, 14(4), 521–540. https://doi.org/10.1017/ 
+S1355770X08004944 
+Bisoffi, S., Ahrn´e, L., Aschemann-Witzel, J., B´aldi, A., Cuhls, K., DeClerck, F., … 
+Brunori, G. (2021). COVID-19 and sustainable food systems: what should we learn 
+before the next emergency. Frontiers in Sustainable Food Systems, 5, Article 650987. 
+https://doi.org/10.3389/fsufs.2021.650987 
+Bos, T. (2020). Developing a spatially explicit land use management approach: Case study of 
+Santa Catarina Tayata. Oaxaca, Mexico: Wageningen University & Research [Master 
+thesis under progress]. 
+Bressani, R. (2015). Caracterizaci´on química y nutricional de la semilla, pulpa y c´ascara 
+de chilacayote (Cucúrbita ficifolia) y aplicaciones en el desarrollo de productos 
+(Final report PROYECTO FODECYT No. 023-2008; p. 82). Universidad del Valle de 
+Guatemala. http://168.234.106.70/library/images/c/c7/FODECYT_2008.23.pdf. 
+Brito, A., Mujica-Coopman, M. F., Olivares, M., L´opez de Roma˜na, D., Cori, H., & 
+Allen, L. H. (2015). Folate and vitamin B 12 status in latin america and the caribbean: 
+An update. Food and Nutrition Bulletin, 36(2_suppl), S109–S118. https://doi.org/ 
+10.1177/0379572115585772 
+Broegaard, R. B., Rasmussen, L. V., Dawson, N., Mertz, O., Vongvisouk, T., & Grogan, K. 
+(2017). Wild food collection and nutrition under commercial agriculture expansion 
+in agriculture-forest landscapes. Forest Policy and Economics, 84, 92–101. https://doi. 
+org/10.1016/j.forpol.2016.12.012 
+Cadena-I˜niguez, P., Camas-G´omez, R., L´opez-B´aez, W., L´opez-G´omez, H. D. C., & 
+Gonz´alez-Cifuentes, J. H. (2018). El MIAF, una alternativa viable para laderas en 
+´areas marginadas del sureste de M´exico: Caso de estudio en Chiapas. Revista 
+Mexicana de Ciencias Agrícolas, 9(7), 1351–1361. https://doi.org/10.29312/ 
+remexca.v9i7.1670 
+Carriquiry, M., Dumortier, J., & Elobeid, A. (2022). Trade scenarios compensating for 
+halted wheat and maize exports from Russia and Ukraine increase carbon emissions 
+without easing food insecurity. Nature Food, 3(10), 847–850. https://doi.org/ 
+10.1038/s43016-022-00600-0 
+Clapp, J. (2017). Food self-sufficiency: Making sense of it, and when it makes sense. Food 
+Policy, 66, 88–96. https://doi.org/10.1016/j.foodpol.2016.12.001 
+CONAPO. (2016). ´Indice de marginaci´on por entidad federativa, 1990-2015. Consejo 
+Nacional de Poblaci´on. http://www.conapo.gob.mx/es/CONAPO/Datos_Abiertos_ 
+del_Indice_de_Marginacion.
+
+Cort´es, J., Turrent, A., Díaz, P., Claro, P., Hern´andez, E., Aceves, E., & Mendoza, R. 
+(2007). La milpa intercalada con ´arboles frutales (MIAF), una tecnología multiobjetivo 
+para las peque˜nas unidades de producci´on (pp. 100–116). Forestal y Pesquero: 
+Desarrollo Agropecuario. 
+de Gordillo, G.de. A. (2004). Seguridad alimentaria y agricultura familiar. Revista de La 
+CEPAL, 83, 71–84. 
+de la Republica, S. (2017). M´exico, segundo país importador de alimentos per capita: 
+FAO. Coordinaci´on de Comunicaci´on Social. http://comunicacion.senado.gob.mx/in 
+dex.php/informacion/boletines/35832-mexico-segundo-pais-importador-de-alimen 
+tos-per-capita-fao.html. 
+Ebel, R., Pozas, J. G. C., Soria, F. M., & Cruz, J. G. (2017). Manejo org´anico de la milpa: 
+Rendimiento de maíz, frijol y calabaza en monocultivo y policultivo. Terra 
+Latinoamericana, 35, 149–160. 
+Eggleston, H. S. (Ed.). (2006). 2006 IPCC guidelines for national greenhouse gas 
+inventories. Institute for Global Environmental Strategies. 
+Ellis, E. A., & Porter-Bolland, L. (2008). Is community-based forest management more 
+effective than protected areas? Forest Ecology and Management, 256(11), 1971–1983. 
+https://doi.org/10.1016/j.foreco.2008.07.036 
+Etchevers, J., Prat, C., Balbontin, C., Bravo, M., Martinez, M., & Ortiz, C. (2004). 
+Influence of Land use on carbon sequestration and erosion in Mexico and Central 
+America. Journal: Bulletin Du R´eseau Erosion, 23, 284–310. 
+Fader, M., Gerten, D., Krause, M., Lucht, W., & Cramer, W. (2013). Spatial decoupling of 
+agricultural production and consumption: Quantifying dependences of countries on 
+food imports due to domestic land and water constraints. Environmental Research 
+Letters, 8(1), Article 014046. https://doi.org/10.1088/1748-9326/8/1/014046 
+FAO (1996). Rome declaration and world food summit plan of action. Rome: Food and 
+Agriculture Organization of the United Nations . http://www.fao.org/3/w3613e/ 
+w3613e00.htm. 
+FAO. (2018). Sustainable agriculture for biodiversity – biodiversity for sustainable 
+agriculture. Food and Agriculture Organization of the United Nations. Rome. htt 
+ps://www.fao.org/documents/card/en/c/85baf9c5-ea7f-4e25-812f-737755 
+a8b320/. 
+FAO. (2014). Nutrition-sensitive agriculture. Food and Agriculture Organization of the 
+United Nations. Rome. http://www.fao.org/3/a-as601e.pdf. 
+Galeana-Piza˜na, J. M., Couturier, S., & Monsivais-Huertero, A. (2018). Assessing food 
+security and environmental protection in Mexico with a GIS-based food 
+environmental efficiency index. Land Use Policy, 76, 442–454. https://doi.org/ 
+10.1016/j.landusepol.2018.02.022 
+Geyik, ¨O., Hadjikakou, M., & Bryan, B. A. (2022). Climate-friendly and nutrition- 
+sensitive interventions can close the global dietary nutrient gap while reducing GHG 
+emissions. Nature Food, 4(1), 61–73. https://doi.org/10.1038/s43016-022-00648-y 
+Groot, J. C. J., Oomen, G. J. M., & Rossing, W. A. H. (2012). Multi-objective optimization 
+and design of farming systems. Agricultural Systems, 110, 63–77. https://doi.org/ 
+10.1016/j.agsy.2012.03.012 
+Groot, J. C. J., Remans, R., Estrada-Carmona, N., Raneri, J., DeClerck, F., Alvarez, S., … 
+Descheemaeker, K. (2017). Integrated systems research in nutrition-sensitive 
+landscapes: A theoretical methodological framework. In I. Oborn, B. Vanlauwe, 
+M. Phillips, R. Thomas, W. Brooijmans, & K. Atta-Krah (Eds.), Sustainable 
+intensification in smallholder agriculture: An integrated systems research approach (pp. 
+259–274). Routledge.  
+Groot, J. C. J., Rossing, W. A. H., Jellema, A., Stobbelaar, D. J., Renting, H., & Van 
+Ittersum, M. K. (2007). Exploring multi-scale trade-offs between nature 
+conservation, agricultural profits and landscape quality—A methodology to support
+
+I.P. Novotny et al.
+
+Landscape and Urban Planning 246 (2024) 105041
+
+18
+
+discussions on land-use perspectives. Agriculture, Ecosystems & Environment, 120(1), 
+58–69. https://doi.org/10.1016/j.agee.2006.03.037 
+Groot, J. C. J., Rossing, W. A. H., Tichit, M., Turpin, N., Jellema, A., Baudry, J., … van de 
+Ven, G. W. J. (2009). On the contribution of modelling to multifunctional 
+agriculture: Learning from comparisons. Journal of Environmental Management, 90, 
+S147–S160. https://doi.org/10.1016/j.jenvman.2008.11.030 
+Groot, J. C. J., Yalew, S. G., & Rossing, W. A. H. (2018). Exploring ecosystem services 
+trade-offs in agricultural landscapes with a multi-objective programming approach. 
+Landscape and Urban Planning, 172, 29–36. https://doi.org/10.1016/j. 
+landurbplan.2017.12.008 
+Guterres, A. (2022). The War in Ukraine: A Silent Assault on the Developing World. 
+https://www.un.org/africarenewal/magazine/april-2022/“-war-ukraine-silent- 
+assault-developing-world”. 
+Guti´errez-Carbajal, M. G., & Maga˜na-Maga˜na, M.´A. (2017). Migraci´on e influencia 
+urbana en el consumo de alimentos en dos comunidades Mayas de Yucat´an. Estudios 
+Sociales. Revista de Alimentaci´on Contempor´anea y Desarrollo Regional, 27(50). https:// 
+doi.org/10.24836/es.v27i50.429 
+Ickowitz, A., McMullin, S., Rosenstock, T., Dawson, I., Rowland, D., Powell, B., … 
+Nasi, R. (2022). Transforming food systems with trees and forests. The Lancet 
+Planetary Health, 6(7), e632–e639. https://doi.org/10.1016/S2542-5196(22)00091- 
+2 
+IFPRI. (2014). 2014 global nutrition report: Actions and accountability to accelerate the 
+world’s progress on nutrition. International Food Policy Research Institute.  
+INCAP. (2006). Tabla de Composici´on de alimentos para Centroam´erica ((2nd ed.).) 
+Instituto de Nutrici´on de Centroam´erica y Panam´a. 
+INEGI. (2010). Censos y Conteos de Pablaci´on y Vivienda. http://www.beta.inegi.org.mx/d 
+atos/?init=2. 
+INEGI. (2015). Encuesta intercensal 2015 [Census]. Instituto Nacional de Estadística y 
+Geografía. https://www.inegi.org.mx/programas/ccpv/2010/. 
+IPCC. (2022). Climate Change and Land: IPCC Special Report on Climate Change, 
+Desertification, Land Degradation, Sustainable Land Management, Food Security, 
+and Greenhouse Gas Fluxes in Terrestrial Ecosystems (1st ed.). Cambridge University 
+Press. https://doi.org/10.1017/9781009157988. 
+Isakson, S. R. (2009). No hay ganancia en la milpa: The agrarian question, food 
+sovereignty, and the on-farm conservation of agrobiodiversity in the Guatemalan 
+highlands. The Journal of Peasant Studies, 36(4), 725–759. https://doi.org/10.1080/ 
+03066150903353876 
+Jim´enez, C. E. A., Gad´amez, J. G., Aguilar, F. B. M., Hern´andez, F. G., & Solis, H. V. 
+(2019). Eficiencia del policultivo maíz-frijol-calabaza bajo manejo org´anico en la 
+Frailesca, Chiapas M´exico. Revista Científica Agroecosistemas, 7(3), 64–72. 
+Jokisch, B. D. (2002). Migration and agricultural change: The case of smallholder 
+agriculture in highland ecuador. Human Ecology, 30(4), 523–550. https://doi.org/ 
+10.1023/A:1021198023769 
+Kadoya, T., & Washitani, I. (2011). The Satoyama Index: A biodiversity indicator for 
+agricultural landscapes. Agriculture, Ecosystems & Environment, 140(1–2), 20–26. 
+https://doi.org/10.1016/j.agee.2010.11.007 
+Kennedy, G., Raneri, J., Termote, C., Nowak, V., Remans, R., Groot, J. C. J., & 
+Thilsted, S. H. (2017). Nutrition-sensitive landscapes: Approach and methods to 
+assess food availability and diversification of diets. In I. Oborn, B. Vanlauwe, 
+M. Phillips, R. Thomas, K. AttaKrah, & W. Brooijmans (Eds.), Sustainable 
+Intensification in Smallholder Agriculture: An Integrated Systems Research Approach (pp. 
+247–258). Taylor and Francis Inc.  
+Kontoleon, A., Pascual, U., & Smale, M. (Eds.). (2009). Agrobiodiversity conservation 
+and economic development. Routledge. 
+Laillou, A., Pham, T. V., Tran, N. T., Le, H. T., Wieringa, F., Rohner, F., … Berger, J. 
+(2012). Micronutrient deficits are still public health issues among women and young 
+children in Vietnam. PLoS ONE, 7(4), e34906. 
+Leatherman, T., Goodman, A. H., & Stillman, J. T. (2020). A critical biocultural 
+perspective on tourism and the nutrition transition in the Yucatan. In H. Azcorra, & 
+F. Dickinson (Eds.), Culture, Environment and Health in the Yucatan Peninsula (pp. 
+97–120). Springer International Publishing. https://doi.org/10.1007/978-3-030- 
+27001-8_6.  
+Mead, R., & Willey, R. W. (1980). The concept of a ‘land equivalent ratio’ and advantages 
+in yields from intercropping. Experimental Agriculture, 16(3), 217–228. https://doi. 
+org/10.1017/S0014479700010978 
+Mekasha, A., Gerard, B., Tesfaye, K., Nigatu, L., & Duncan, A. J. (2014). Inter-connection 
+between land use/land cover change and herders’/farmers’ livestock feed resource 
+management strategies: A case study from three Ethiopian eco-environments. 
+Agriculture, Ecosystems & Environment, 188, 150–162. https://doi.org/10.1016/j. 
+agee.2014.02.022 
+Mokany, K., Raison, R. J., & Prokushkin, A. S. (2006). Critical analysis of root: Shoot 
+ratios in terrestrial biomes. Global Change Biology, 12(1), 84–96. https://doi.org/ 
+10.1111/j.1365-2486.2005.001043.x 
+Mora, J. O., Gueri, M., & Mora, O. L. (1998). Vitamin A deficiency in latin America and 
+the caribbean: An overview. Revista Panamericana de Salud Pública, 4(3). https://doi. 
+org/10.1590/S1020-49891998000900005 
+Mottaleb, K. A., Kruseman, G., & Snapp, S. (2022). Potential impacts of Ukraine-Russia 
+armed conflict on global wheat food security: A quantitative exploration. Global Food 
+Security, 35, Article 100659. https://doi.org/10.1016/j.gfs.2022.100659 
+Naranjo, S., Rodrigues, F. A., Jr., Cadisch, G., Lopez-Ridaura, S., Fuentes Ponce, M., & 
+Marohn, C. (2021). Effects of spatial resolution of terrain models on modelled 
+discharge and soil loss in Oaxaca Mexico. Hydrology and Earth System Sciences, 25 
+(10), 5561–5588. https://doi.org/10.5194/hess-25-5561-2021
+
+Naranjo-Macias, S. A. (2019). Assessing the effect of different spatial resolutions in soil 
+erosion modeling – Case study in a highland tropical watershed in southeast Mexico. 
+University of Hohenheim [Master thesis]. 
+National Academy of Sciences. (2011). Nutrient Recommendations: Dietary Reference 
+Intakes (DRI). https://ods.od.nih.gov/Health_Information/Dietary_Reference_ 
+Intakes.aspx. 
+N´avar, J. (2009). Allometric equations for tree species and carbon stocks for forests of 
+northwestern Mexico. Forest Ecology and Management, 257(2), 427–434. https://doi. 
+org/10.1016/j.foreco.2008.09.028 
+Novotny, I. P. (2020). Assessing household and landscape trajectories for improving 
+ecosystem services and nutritional self-sufficiency in south Mexico [Wageningen 
+University]. https://doi.org/10.18174/516608. 
+Novotny, I. P., Fuentes-Ponce, M. H., Tittonell, P., Lopez-Ridaura, S., & Rossing, W. A. H. 
+(2021). Back to the people: The role of community-based responses in shaping 
+landscape trajectories in Oaxaca Mexico. Land Use Policy, 100, Article 104912. 
+https://doi.org/10.1016/j.landusepol.2020.104912 
+Novotny, I. P., Tittonell, P., Fuentes-Ponce, M. H., L´opez-Ridaura, S., & Rossing, W. A. H. 
+(2021). The importance of the traditional milpa in food security and nutritional self- 
+sufficiency in the highlands of Oaxaca Mexico. PLOS ONE, 16(2), e0246281. 
+Otero-Prevost, D. E., Gurri-García, F. D., Mariaca-M´endez, R., & Guízar-V´azquez, F., Jr. 
+(2018). La incorporaci´on y el aumento de oferta de alimentos industrializados en las 
+dietas de las unidades dom´esticas y su relaci´on con el abandono del sistema de 
+subsistencia propio en las comunidades rurales mayas de Yucat´an M´exico. Cuadernos 
+de Desarrollo Rural, 14(80). https://doi.org/10.11144/Javeriana.cdr14-80.iaoa 
+Parraguez-Vergara, E., Contreras, B., Clavijo, N., Villegas, V., Paucar, N., & Ther, F. 
+(2018). Does indigenous and campesino traditional agriculture have anything to 
+contribute to food sovereignty in Latin America? Evidence from Chile, Peru, 
+Ecuador, Colombia, Guatemala and Mexico. International Journal of Agricultural 
+Sustainability, 16(4–5), 326–341. https://doi.org/10.1080/14735903.2018.1489361 
+Powell, B., Thilsted, S. H., Ickowitz, A., Termote, C., Sunderland, T., & Herforth, A. 
+(2015). Improving diets with wild and cultivated biodiversity from across the 
+landscape. Food Security, 7(3), 535–554. https://doi.org/10.1007/s12571-015-0466- 
+5 
+Puma, M. J., Bose, S., Chon, S. Y., & Cook, B. I. (2015). Assessing the evolving fragility of 
+the global food system. Environmental Research Letters, 10(2), Article 024007. 
+https://doi.org/10.1088/1748-9326/10/2/024007 
+RAN. (2019). Tierra de uso común. Registro Agrario Nacional. http://datos.ran.gob.mx/co 
+njuntoDatosPublico.php. 
+Remans, R., Flynn, D. F. B., DeClerck, F., Diru, W., Fanzo, J., Gaynor, K., … Palm, C. A. 
+(2011). Assessing nutritional diversity of cropping systems in African villages. PLoS 
+ONE, 6(6), e21235. 
+Reyna, C., Fuentes-Ponce, M., Rossing, W., Groot, J., & L´opez-Ridaura, S. (unpublished). 
+Experimentation and model-based re-design for sustainable intensification of mixed 
+crop-livestock smallholder farms in the Mixteca-Oaxaque˜na region, Mexico. 
+Richard, A. (2008). Withered Milpas: Governmental disaster and the mexican 
+countryside. The Journal of Latin American and Caribbean Anthropology, 13(2), 
+387–413. https://doi.org/10.1111/j.1935-4940.2008.00043.x 
+Rodríguez, A., & Arias, L. M. (2014). La milpa y el maizal: Retos al desarrollo rural en 
+M´exico y Perú. Etnobiología, 12(3), 76–89. 
+S´anchez, P., & Hern´andez, P. (2014). Sistema MILPA: Elemento de Identidad Campesina 
+e Indígena (p. 24). Programa de Intercambio, Di´alogo y Asesoría en Agricultura 
+Sostenible y Soberanía Alimentaria. http://infoandina.org/infoandina/node/66102. 
+SIAP. (2017). Estadística de producci´on agrícola. Servicio de Informaci´on 
+Agroalimentaria y Pesquera. https://nube.siap.gob.mx/cierreagricola/. 
+Sioen, G. B., Sekiyama, M., Terada, T., & Yokohari, M. (2017). Post-disaster food and 
+nutrition from urban agriculture: A self-sufficiency analysis of Nerima Ward, Tokyo. 
+International Journal of Environmental Research and Public Health, 14(7). https://doi. 
+org/10.3390/ijerph14070748 
+Storn, R., & Price, K. (1997). Differential evolution – A simple and efficient heuristic for 
+global optimization over continuous spaces. Journal of Global Optimization, 11(4), 
+341–359. https://doi.org/10.1023/A:1008202821328 
+Suweis, S., Carr, J. A., Maritan, A., Rinaldo, A., & D’Odorico, P. (2015). Resilience and 
+reactivity of global food security. Proceedings of the National Academy of Sciences, 112 
+(22), 6902–6907. https://doi.org/10.1073/pnas.1507366112 
+Timler, C., Alvarez, S., DeClerck, F., Remans, R., Raneri, J., Estrada Carmona, N., … 
+Groot, J. C. J. (2020). Exploring solution spaces for nutrition-sensitive agriculture in 
+Kenya and Vietnam. Agricultural Systems, 180, Article 102774. https://doi.org/ 
+10.1016/j.agsy.2019.102774 
+Tolessa, T., Senbeta, F., & Kidane, M. (2017). The impact of land use/land cover change 
+on ecosystem services in the central highlands of Ethiopia. Ecosystem Services, 23, 
+47–54. https://doi.org/10.1016/j.ecoser.2016.11.010 
+Unicef. (1991). Strategy for improved nutrition of children and women in developing 
+countries. The Indian Journal of Pediatrics, 58(1), 13–24. https://doi.org/10.1007/ 
+BF02810402 
+Urban, D., & Keitt, T. (2001). Landscape connectivity: A graph-theoretic perspective. 
+Ecology, 82(5), 1205–1218. https://doi.org/10.1890/0012-9658(2001)082[1205: 
+LCAGTP]2.0.CO;2 
+USDA. (2010). Food data central [Data Base]. https://fdc.nal.usda.gov/. 
+Willett, W., Rockstr¨om, J., Loken, B., Springmann, M., Lang, T., Vermeulen, S., … 
+Murray, C. J. L. (2019). Food in the anthropocene: The EAT–lancet commission on 
+healthy diets from sustainable food systems. The Lancet, 393(10170), 447–492. 
+https://doi.org/10.1016/S0140-6736(18)31788-4
+
+I.P. Novotny et al.

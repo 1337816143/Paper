@@ -12,6 +12,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,26 +21,27 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Build and check teaching algorithms
+      - name: Build and check teaching algorithms and original archive
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
           node --check src/app.js
+          node --check src/reader.js
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
       - name: Install browser test runtime
         run: |
           pip install playwright==1.55.0
           python -m playwright install --with-deps chromium
-      - name: Test desktop, mobile, navigation, data and offline
+      - name: Test existing tutorials
         run: python scripts/test_browser.py
-      - name: Save build and test artifacts
+      - name: Test original reading, annotations, source download and full offline
+        run: python scripts/test_reader.py
+      - name: Save test artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: paper-site-and-tests
-          path: |
-            dist/site
-            test-results
+          path: test-results
           retention-days: 30
       - name: Upload GitHub Pages artifact
         if: github.ref == 'refs/heads/main'
@@ -57,36 +59,32 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Read Pages configuration
-        uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v5
       - name: Publish tested site
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify public release and reading entry
+      - name: Verify exact public release and source catalog
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
-        shell: bash
         run: |
           set -euo pipefail
           verified=false
-          for attempt in $(seq 1 12); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['paperEntries']>=21; print(d)"; then
+          for attempt in $(seq 1 15); do
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['archivedOriginals']>=12; print(d)"; then
               verified=true
               break
             fi
             sleep 5
           done
           test "$verified" = true
-          curl --fail --silent --show-error "${PAGE_URL%/}/" -o live-home.html
-          grep -q 'Paper Lab' live-home.html
-          curl --fail --silent --show-error "${PAGE_URL%/}/read/liang-2022.html" -o live-first-reading.html
-          grep -q 'MIDIP' live-first-reading.html
-      - name: Save live verification evidence
-        uses: actions/upload-artifact@v4
+          curl --fail --silent --show-error "${PAGE_URL%/}/resources.js" -o live-source-catalog.js
+          curl --fail --silent --show-error "${PAGE_URL%/}/downloads/index.html" -o live-downloads.html
+          grep -q '原文分卷' live-downloads.html
+      - uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification
           path: |
             live-release.json
-            live-home.html
-            live-first-reading.html
+            live-source-catalog.js
+            live-downloads.html
           retention-days: 30

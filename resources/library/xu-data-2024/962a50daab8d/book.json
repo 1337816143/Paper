@@ -1,0 +1,1789 @@
+{
+  "schema": "paper.original.v2",
+  "id": "xu-data-2024",
+  "lessonId": "xu-data-2024",
+  "title": "Survey data on livelihoods and inputs and outputs of crop production in Quzhou county on the North China Plain",
+  "citation": "Xu, Z., et al. (2024). Data in Brief. Dataset DOI: 10.17632/jp3v9859cx.1.",
+  "origin": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10964062/",
+  "sourceHash": "962a50daab8d15b0976a0e5119b44f1059cb99848774a30d6e973385a0bc8504",
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "evidence": "es belonging to seven vil- lage types (ﬁve for each type) were selected for stratiﬁed random sampling to collect information on farm character- istics and cropping practices. We surveyed these 35 villages, interviewing ﬁfteen farmer households per village (525 in to- ∗Corresponding author. E-mail address: zhan.xu@wur.nl (Z. Xu) . https://doi.org/10.1016/j.dib.2024.110269 2352-3409/© 2024 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by-nc/4.0/ ) 2 Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269 tal) in 2020. The interviewees represented two farm man- agement models: smallholder farms and business farms. The resulting household dataset provides farm-level data, includ- ing demograph",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "originalPath": "library/xu-data-2024/962a50daab8d/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/xu-data-2024/962a50daab8d/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-103d34e",
+          "kind": "paragraph",
+          "text": "Data in Brief 53 (2024) 110269",
+          "bbox": [
+            170.5050048828125,
+            21.052383422851562,
+            266.8714599609375,
+            27.530500411987305
+          ]
+        },
+        {
+          "id": "p1-b2-b0658ce",
+          "kind": "paragraph",
+          "text": "Contents lists available at ScienceDirect",
+          "bbox": [
+            159.2550048828125,
+            51.52650451660156,
+            293.5416564941406,
+            58.50030517578125
+          ]
+        },
+        {
+          "id": "p1-b3-f2fe9c3",
+          "kind": "heading",
+          "text": "Data in Brief",
+          "bbox": [
+            190.59300231933594,
+            74.74849700927734,
+            262.16864013671875,
+            86.38880920410156
+          ]
+        },
+        {
+          "id": "p1-b4-0ca3f07",
+          "kind": "paragraph",
+          "text": "journal homepage: www.elsevier.com/locate/dib",
+          "bbox": [
+            145.11599731445312,
+            107.43452453613281,
+            307.5706481933594,
+            114.4083251953125
+          ]
+        },
+        {
+          "id": "p1-b7-0ccb3a9",
+          "kind": "heading",
+          "text": "Data Article",
+          "bbox": [
+            36.13502883911133,
+            136.28759765625,
+            92.54837799072266,
+            146.00473022460938
+          ]
+        },
+        {
+          "id": "p1-b8-70be42b",
+          "kind": "heading",
+          "text": "Survey data on livelihoods and inputs and \noutputs of crop production in Quzhou county \non the North China Plain",
+          "bbox": [
+            36.13502883911133,
+            155.09544372558594,
+            328.7582702636719,
+            203.23023986816406
+          ]
+        },
+        {
+          "id": "p1-b9-6e5010d",
+          "kind": "heading",
+          "text": "Zhan Xu a , b , d , ∗, Fan Li c , e , Jiali Cheng a , b , d , Zhengyuan Liang a , b , d , \nJeroen C.J. Groot b , Wopke van der Werf a , Chaochun Zhang d",
+          "bbox": [
+            36.13502883911133,
+            214.3944854736328,
+            334.1332702636719,
+            239.367919921875
+          ]
+        },
+        {
+          "id": "p1-b10-cc965aa",
+          "kind": "paragraph",
+          "text": "a Centre for Crop Systems Analysis Group, Wageningen University & Research, P.O. Box 430, 6700 AK Wageningen, \nthe Netherlands \nb Farming System Ecology Group, Wageningen University & Research, P.O. Box 430, 6700 AK Wageningen, the \nNetherlands \nc Development Economics Group, Wageningen University & Research, Hollandseweg 1, 6706 KN Wageningen, the \nNetherlands \nd State Key Laboratory of Nutrient Use and Management, College of Resources and Environmental Sciences, China \nAgricultural University, Beijing 100193, China \ne College of Economics and Management, Huazhong Agricultural University, Wuhan 430070, China",
+          "bbox": [
+            36.13502883911133,
+            244.9851531982422,
+            367.4624328613281,
+            322.3077392578125
+          ]
+        },
+        {
+          "id": "p1-b11-6da4309",
+          "kind": "heading",
+          "text": "a r t i c l e \ni n f o",
+          "bbox": [
+            36.13502883911133,
+            343.8544616699219,
+            135.86328125,
+            353.98822021484375
+          ]
+        },
+        {
+          "id": "p1-b12-649f063",
+          "kind": "paragraph",
+          "text": "Article history: \nReceived 23 November 2023 \nRevised 20 February 2024 \nAccepted 23 February 2024 \nAvailable online 28 February 2024",
+          "bbox": [
+            36.13502883911133,
+            366.9674072265625,
+            142.4679718017578,
+            407.7182922363281
+          ]
+        },
+        {
+          "id": "p1-b13-288f3e8",
+          "kind": "paragraph",
+          "text": "Dataset link: Survey data on livelihoods \nand inputs and outputs of crop production \nactivities in Quzhou county on the North \nChina Plain (Original data)",
+          "bbox": [
+            36.13949203491211,
+            418.277099609375,
+            168.16238403320312,
+            450.4598388671875
+          ]
+        },
+        {
+          "id": "p1-b14-8a7870e",
+          "kind": "paragraph",
+          "text": "Keywords: \nVillage typology \nCropping system \nSustainability \nInput-output",
+          "bbox": [
+            36.13502883911133,
+            458.2904052734375,
+            89.3308334350586,
+            499.0412902832031
+          ]
+        },
+        {
+          "id": "p1-b15-d692307",
+          "kind": "heading",
+          "text": "a b s t r a c t",
+          "bbox": [
+            191.3040313720703,
+            343.66546630859375,
+            259.9733581542969,
+            353.7992248535156
+          ]
+        },
+        {
+          "id": "p1-b16-30aeec9",
+          "kind": "paragraph",
+          "text": "Farmers’ decisions on crop choice, management practices, \nand livelihood strategies are essential to agricultural sustain- \nability. This data article describes three datasets on crop pro- \nduction in Quzhou, a county in the central part of North \nChina Plain. The three datasets cover different scales. The \nvillage dataset assembles basic data on all 342 villages of \nQuzhou county, including information on population, land \narea, crop grown, labour, irrigation and markets. Data was \nsourced from the yearbook data of 2017 and a village cadres \nsurvey in 2018. The village dataset was used to create a vil- \nlage typology from which 35 villages belonging to seven vil- \nlage types (ﬁve for each type) were selected for stratiﬁed \nrandom sampling to collect information on farm character- \nistics and cropping practices. We surveyed these 35 villages, \ninterviewing ﬁfteen farmer households per village (525 in to-",
+          "bbox": [
+            191.3040313720703,
+            366.3011779785156,
+            401.4167785644531,
+            507.4820556640625
+          ]
+        },
+        {
+          "id": "p1-b17-84b100f",
+          "kind": "paragraph",
+          "text": "∗Corresponding author. \nE-mail address: zhan.xu@wur.nl (Z. Xu) .",
+          "bbox": [
+            42.27302932739258,
+            549.5634765625,
+            169.02841186523438,
+            566.0096435546875
+          ]
+        },
+        {
+          "id": "p1-b18-1766cb3",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1016/j.dib.2024.110269 \n2352-3409/© 2024 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY-NC license \n( http://creativecommons.org/licenses/by-nc/4.0/ )",
+          "bbox": [
+            36.13502883911133,
+            576.5143432617188,
+            395.07373046875,
+            600.1287231445312
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure3",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p1-figure3.png",
+          "alt": "Original source page 1, graphic 3",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-7d4b984",
+          "kind": "heading",
+          "text": "2 \nZ. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269",
+          "bbox": [
+            25.757999420166016,
+            20.836257934570312,
+            299.7453918457031,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p2-b1-b09af03",
+          "kind": "paragraph",
+          "text": "tal) in 2020. The interviewees represented two farm man- \nagement models: smallholder farms and business farms. The \nresulting household dataset provides farm-level data, includ- \ning demographic data of farming decision-makers and the \nnumber of household members, land use and machinery re- \nsources, crop production management practices, and govern- \nment subsidies. The crop-level dataset was derived from the \nhousehold survey and included input-output inventories for \neach crop grown during one year on each ﬁeld greater than \n1/30th ha (1/2 mu) on the 525 surveyed farms within a year. \nThis dataset comprises information on cropping practices in \n1352 ﬁelds. The three datasets provide a basis for analyses \non cropping practices and sustainability attributes of farms \nand crops in a typical agricultural county on the North China \nPlain. \n© 2024 The Author(s). Published by Elsevier Inc. \nThis is an open access article under the CC BY-NC license \n( http://creativecommons.org/licenses/by-nc/4.0/ )",
+          "bbox": [
+            180.927001953125,
+            40.03318405151367,
+            391.048828125,
+            209.91505432128906
+          ]
+        },
+        {
+          "id": "p2-b2-d13e79e",
+          "kind": "paragraph",
+          "text": "Speciﬁcations Table",
+          "bbox": [
+            25.757999420166016,
+            252.8920135498047,
+            101.99234771728516,
+            260.9896240234375
+          ]
+        },
+        {
+          "id": "p2-b3-9b1fea5",
+          "kind": "paragraph",
+          "text": "Subject \nAgriculture science \nSpeciﬁc subject area \nCrop diversity, Crop production, Management practice, Sustainability \nData format \nRaw data \nType of data \nCSV ﬁles ( n = 5): i) Village data, ii) Farm household data, iii) Crop data, iv) \nCodebook_village data, v) Codebook_household and crop data \nTables and Figures \nHow the data were acquired \nThe data are in three datasets: (1) village dataset, (2) farm dataset, (3) crop \ndataset. The village-level data (dataset 1) was composed of two sources: \nyearbook [1] data and village cadres survey, including village Chinese \nCommunist Party (CCP) secretary, village monitor and village accountant. Data \nfor datasets 2 and 3 were collected by conducting personal interviews using a \nstructured questionnaire. We interviewed 525 households in Quzhou county \non the North China Plain. These 525 households originated from 35 villages, 5 \nvillages from each of 7 village clusters identiﬁed by analysing dataset 1. The \ndataset consists of 505 valid observations after checking for missing values and \npotential errors. \nDescription of data collection \nIn the ﬁrst step, we grouped all 342 villages in Quzhou in eight clusters based \non similar crop production and socio-economic characteristics according to \nyearbook data [1] and village cadres survey data. A random sample of ﬁve \nvillages was selected for each of seven village types, excluding one semi-urban \nvillage type without crop production. We surveyed ﬁfteen farms from each of \nthe 35 villages, including smallholder farms and business farms. We obtained \nthe list of registered business farms from the local government and all the \nbusiness farms present in the surveyed villages were included in the interview. \nThere were up to two business farms per village, and all business farms in a \nvillage were included. Twenty-one of the 35 villages did not have business \nfarms. A random selection was made from the remaining smallholder farms in \na village to obtain a sample of ﬁfteen farms per village. A structured \nquestionnaire was administered to all households. In this survey, we collected \ninformation on the household and agricultural practices on all plots greater \nthan 0.5 mu (1/30th ha) on a farm. Perennial crops and greenhouse crops were \nexcluded from the survey. \nData source location \nInstitution: College of Resources and Environmental Sciences, China \nAgricultural University \nCity/Town/Region: Quzhou County of Handan City, Hebei Province \nCountry: China \nLatitude and longitude: 36.58 and 114.83",
+          "bbox": [
+            39.2130012512207,
+            275.3653564453125,
+            389.59539794921875,
+            590.2833251953125
+          ]
+        },
+        {
+          "id": "p2-b4-3a4fa1d",
+          "kind": "paragraph",
+          "text": "( continued on next page )",
+          "bbox": [
+            313.4700012207031,
+            595.396240234375,
+            389.38958740234375,
+            601.8743896484375
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-816104b",
+          "kind": "paragraph",
+          "text": "Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269\n3",
+          "bbox": [
+            127.53900146484375,
+            20.836257934570312,
+            401.5174560546875,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p3-b1-898a729",
+          "kind": "paragraph",
+          "text": "Data accessibility \nRepository name: Mendeley Data \nData identiﬁcation number: Doi: 10.17632/jp3v9859cx.1 \nDirect URL to data: \nhttps://data.mendeley.com/datasets/jp3v9859cx/1",
+          "bbox": [
+            49.58100128173828,
+            47.76435852050781,
+            326.2364501953125,
+            79.94670104980469
+          ]
+        },
+        {
+          "id": "p3-b2-fff7b91",
+          "kind": "heading",
+          "text": "1. Value of the Data",
+          "bbox": [
+            36.1349983215332,
+            106.14698028564453,
+            118.23695373535156,
+            114.2446060180664
+          ]
+        },
+        {
+          "id": "p3-b3-cb16320",
+          "kind": "paragraph",
+          "text": "• This dataset contains the ﬁrst publicly available data on cropping practices for a very wide \nrange of crop systems (62 one-year cropping systems were identiﬁed) in a representative \ncounty on the North China Plain. The North China Plain is an area that is of prime importance \nfor China’s wheat and maize grain production, but it also has important production of cotton \nand a vast range of minor crops. \n• The dataset with village characteristics and the associated typology results can be used to se- \nlect representative villages based on socio-economic data, crop patterns and crop production- \nrelated resources when further surveys are done in Quzhou. \n• The farm-level data are valuable for analyzing sustainability and input/poutput relationships \nof crop production in Quzhou as a representative village on the North China Plain. \n• Farm level data are furthermore valuable for analysing performance of farm management \nstrategies at the farm household level in response to policy interventions, farm size, socioe- \nconomic conditions, and household demographics \n• The crop inventory data was collected for all crops grown within a year on each farm ﬁeld > \n0.5 mu (1/30th ha) operated by the household. So the farm level and crop level data can be \ncombined to be used as a benchmark, and it can be used to analyze the production eﬃciency \nof farms. \n• The crop level data can be used to design new rotations to better meet stakeholder demands \nand sustainability objectives. \n• The datasets can be a reference source for making policies to promote crop production prac- \ntices that contribute to improved agricultural sustainability in high-input farming systems.",
+          "bbox": [
+            41.81399917602539,
+            128.06199645996094,
+            401.5771484375,
+            345.3736267089844
+          ]
+        },
+        {
+          "id": "p3-b4-1429d2e",
+          "kind": "heading",
+          "text": "2. Objective",
+          "bbox": [
+            36.1349983215332,
+            370.5579833984375,
+            86.05484771728516,
+            378.6556091308594
+          ]
+        },
+        {
+          "id": "p3-b5-4267ffe",
+          "kind": "paragraph",
+          "text": "The objective of the household survey is to provide a comprehensive picture of crop produc- \ntion practices and rural livelihoods in Quzhou county on the North China Plain. The county, lo- \ncated in the center of the North China Plain ( Fig. 1 ), is representative of the North China Plain in \nterms of its land-use, production practices and sustainability challenges. It was selected in 2019 \nas an agriculture green development (AGD) focus area [2] . The AGD program aims to explore \nthe sustainability challenges, to promote a series of promising solutions and to share practical \nexperiences across regions with similar conditions throughout China [3] . Speciﬁcally, we focused \non which crops were grown, and how farmers cultivated these crops. Although the North China \nPlain is one of the food bowls in China, most previous studies focused on the main cropping \nsystem, double cropping of wheat and maize, in which wheat is sown in October and harvested \nin June the following year while maize is sown immediately after wheat harvest in June and \nharvested in October. Other crop production activities have not previously been described in \ndetail.",
+          "bbox": [
+            36.1349983215332,
+            392.4729919433594,
+            401.6595458984375,
+            526.1026611328125
+          ]
+        },
+        {
+          "id": "p3-b6-e13582d",
+          "kind": "heading",
+          "text": "3. Data Description",
+          "bbox": [
+            36.1349983215332,
+            551.2780151367188,
+            115.37515258789062,
+            559.3756713867188
+          ]
+        },
+        {
+          "id": "p3-b7-3da53bc",
+          "kind": "paragraph",
+          "text": "This data paper reports on three datasets in Quzhou county, covering village, farm house- \nhold, and crop levels. Data from the 2017 village yearbook, village cadre survey data, and vil- \nlage typology results were included in the village dataset. The farm household dataset provides",
+          "bbox": [
+            36.1349983215332,
+            573.19287109375,
+            401.5142517089844,
+            602.2155151367188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-b2c9edb",
+          "kind": "heading",
+          "text": "4 \nZ. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269",
+          "bbox": [
+            25.757999420166016,
+            20.836257934570312,
+            299.7453918457031,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-b2-e617934",
+          "kind": "paragraph",
+          "text": "Fig. 1. Map of the North China Plain. The green polygon in south Hebei is Quzhou county.",
+          "bbox": [
+            69.93900299072266,
+            332.5423583984375,
+            346.9728698730469,
+            339.0204772949219
+          ]
+        },
+        {
+          "id": "p4-b3-34582e5",
+          "kind": "paragraph",
+          "text": "Table 1 \nDeﬁnition of business farms and three subtypes of business farms included in the dataset.",
+          "bbox": [
+            25.757999420166016,
+            367.49835205078125,
+            301.7015686035156,
+            382.544677734375
+          ]
+        },
+        {
+          "id": "p4-b4-f26e9e1",
+          "kind": "paragraph",
+          "text": "Farm management models \nCharacteristics",
+          "bbox": [
+            31.733999252319336,
+            390.1873779296875,
+            200.64308166503906,
+            396.6654968261719
+          ]
+        },
+        {
+          "id": "p4-b5-f933a46",
+          "kind": "paragraph",
+          "text": "Business farm \nBusiness farms prioritize economic beneﬁts from marketing their farm \nproduce. Business farms have a relatively large farm size (more than 3 \nhectares per farm [3] ), and they are usually run by a professional manager. \nBusiness farms need to register with the local government to obtain a \nbusiness license. \nFamily farm \nFamily farms are run by a family. They hire seasonal labour as needed and \nthe farm size is mostly larger than 50 mu (3.3 hectares) [4] . \nCooperative farm \nCooperative farms typically consist of at least ﬁve family farms [5] \ninvesting together in machinery and wages for hired labour. \nAgricultural company \nAgricultural companies have the largest farm size. They employ a \nprofessional manager for marketing and sales [6] . Some agricultural \ncompanies have their own processing facilities.",
+          "bbox": [
+            31.733999252319336,
+            403.579345703125,
+            384.57122802734375,
+            504.3056945800781
+          ]
+        },
+        {
+          "id": "p4-b6-048590e",
+          "kind": "paragraph",
+          "text": "information on data collected from 505 household surveys across 35 villages on various issues, \nincluding the households’ socioeconomics, crop production decision makers’ characteristics, and \ncrop production information for each major plot ( > 0.5 mu) on the farm. There are two types of \nfarm management in this dataset: the smallholder model and the business model. The business \nfarms are divided into three subtypes: family farms, cooperative farms, and agricultural com- \npanies ( Table 1 ). Based on the data from the household survey, we generated a crop dataset \nwhich provides input-output data of all crops grown on the surveyed farms within a year. Five",
+          "bbox": [
+            25.757999420166016,
+            531.3519897460938,
+            391.2174377441406,
+            602.2155151367188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-702e391",
+          "kind": "paragraph",
+          "text": "Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269\n5",
+          "bbox": [
+            127.53900146484375,
+            20.836257934570312,
+            401.5174560546875,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p5-b1-73f9622",
+          "kind": "paragraph",
+          "text": "Table 2 \nDeﬁnition of ﬁve cropping system types covered in the dataset.",
+          "bbox": [
+            36.1349983215332,
+            39.05238342285156,
+            230.68702697753906,
+            54.09867858886719
+          ]
+        },
+        {
+          "id": "p5-b2-436ab01",
+          "kind": "paragraph",
+          "text": "Cropping system type \nCharacteristics \nArea \npercentage (%)",
+          "bbox": [
+            42.111000061035156,
+            61.74140930175781,
+            390.7499694824219,
+            76.78770446777344
+          ]
+        },
+        {
+          "id": "p5-b3-82a56b2",
+          "kind": "paragraph",
+          "text": "Single cropping \nA single crop is grown in one plot in one year. E.g. cotton. \n43.9 % \nRelay intercropping \nRelay intercropping entails growing two crop species in the \nsame parcel, but the growing period of the two crops \noverlaps only partially. E.g. cotton/mung bean relay \nintercropping.",
+          "bbox": [
+            42.111000061035156,
+            83.70137023925781,
+            368.6744079589844,
+            124.45213317871094
+          ]
+        },
+        {
+          "id": "p5-b4-104e180",
+          "kind": "paragraph",
+          "text": "0.4 %",
+          "bbox": [
+            346.3739929199219,
+            92.26936340332031,
+            364.9488525390625,
+            98.74748229980469
+          ]
+        },
+        {
+          "id": "p5-b5-4c531d4",
+          "kind": "paragraph",
+          "text": "Double cropping \nDouble cropping means harvesting two full crops in a \ncalendar year in the same parcel and there is no overlap in \ngrowing period. E.g. wheat-maize double cropping.",
+          "bbox": [
+            42.111000061035156,
+            126.54139709472656,
+            321.96661376953125,
+            150.15589904785156
+          ]
+        },
+        {
+          "id": "p5-b6-5629c09",
+          "kind": "paragraph",
+          "text": "53.8 %",
+          "bbox": [
+            346.3739929199219,
+            126.54139709472656,
+            368.6744079589844,
+            133.01951599121094
+          ]
+        },
+        {
+          "id": "p5-b7-d654d40",
+          "kind": "paragraph",
+          "text": "Relay double cropping \nRelay double cropping includes three crops in a parcel in a \nyear, including one crop with a long growing period and \ntwo crops with a short growing period. The latter two \ncrops are planted as a double cropping and they are \ncombined with the long growth period crops in a strip \nintercrop. E.g. cotton-watermelon-cauliﬂower where cotton \nis the long season crop and watermelon and cauliﬂower \nare grown in the same strip after each other.",
+          "bbox": [
+            42.111000061035156,
+            152.24537658691406,
+            320.77874755859375,
+            218.7001190185547
+          ]
+        },
+        {
+          "id": "p5-b8-a9547b4",
+          "kind": "paragraph",
+          "text": "0.6 %",
+          "bbox": [
+            346.3739929199219,
+            152.24537658691406,
+            364.9488525390625,
+            158.72349548339844
+          ]
+        },
+        {
+          "id": "p5-b9-8973157",
+          "kind": "paragraph",
+          "text": "Triple cropping \nTriple cropping covers three crops grown after each other \nin one year. E.g. a sequence of three cabbage crops in the \nsame ﬁeld in one year.",
+          "bbox": [
+            42.111000061035156,
+            220.7893829345703,
+            316.88104248046875,
+            244.40391540527344
+          ]
+        },
+        {
+          "id": "p5-b10-611331f",
+          "kind": "paragraph",
+          "text": "1.3 %",
+          "bbox": [
+            346.3739929199219,
+            220.7893829345703,
+            364.4183654785156,
+            227.2675018310547
+          ]
+        },
+        {
+          "id": "p5-b11-9ce80cb",
+          "kind": "paragraph",
+          "text": "cropping system types ( Table 2 ) and 28 crop species are included in our dataset. Two codebooks \nare available as supplemental ﬁles. The ﬁrst, Codebook_village data , includes units, descriptions, \nsurvey questions and the sources for the variables in the village dataset. The second, Code- \nbook_household and crop data , includes units, descriptions, and survey questions for the variables \nin the farm household dataset and crop dataset. The following sections present each dataset in \nmore detail.",
+          "bbox": [
+            36.1349983215332,
+            269.55999755859375,
+            401.5653381347656,
+            329.95660400390625
+          ]
+        },
+        {
+          "id": "p5-b12-8df148c",
+          "kind": "heading",
+          "text": "3.1. Village dataset",
+          "bbox": [
+            36.1349983215332,
+            362.97998046875,
+            106.85254669189453,
+            371.0776062011719
+          ]
+        },
+        {
+          "id": "p5-b13-bca9355",
+          "kind": "paragraph",
+          "text": "The village dataset comprises 342 records, one for each village in Quzhou, and 16 variables. \nFifteen variables were used to build a village typology and the result of the village typology is \nthe 16th variable. The ﬁfteen key variables represented three aspects: village structure (e.g. pop- \nulation, number of households), area of a few main crops (wheat, maize, cotton, vegetables and \noil crops) within a village, and crop production-related resources (e.g. land area, irrigatable land, \ndistance to city). Seven variables were derived from the village cadre survey, and the remaining \neight were extracted from the yearbook [1] ( Table 3 ). The village cadre survey was conducted \nin January 2018. These village cadres included the village Chinese Communist Party (CCP) sec- \nretary, a village monitor, and an accountant. These cadres collect and manage village statistics \nand are therefore a primary source of information. The village cadre survey focused on villages’ \nresources endowment, agricultural production structure (crop production and livestock produc- \ntion), agricultural pollutants, and rural waste management. Only the variables related to crop \nproduction were included in the village dataset.",
+          "bbox": [
+            36.1349983215332,
+            384.90399169921875,
+            401.54345703125,
+            518.524658203125
+          ]
+        },
+        {
+          "id": "p5-b14-eee2447",
+          "kind": "paragraph",
+          "text": "Fig. 2 shows the percentage of arable land per village that was cultivated with winter wheat, \nmaize, cotton, vegetables, and oil crops, which are the main crops cultivated in Quzhou. There \nwas large heterogeneity in crop proportions across the county. For instance, vegetable and oil \ncrops were widely cultivated in only a few villages. The areas of maize, cotton, vegetables, and \noil crops were sourced from yearbook data, and the wheat area was sourced from the village \ncadre survey. It was recorded in both the yearbook and the village cadre data that crop pro- \nduction information applied to the year 2017. Thirty villages did not have wheat area data since \ntwelve villages were excluded from the cadre survey because the number of households was too",
+          "bbox": [
+            36.1349983215332,
+            520.8939819335938,
+            401.54144287109375,
+            602.2155151367188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-2e8a533",
+          "kind": "heading",
+          "text": "6 \nZ. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269",
+          "bbox": [
+            25.757999420166016,
+            20.836257934570312,
+            299.7453918457031,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p6-b1-1680683",
+          "kind": "paragraph",
+          "text": "Table 3 \nVillage dataset variables.",
+          "bbox": [
+            25.757999420166016,
+            39.05238342285156,
+            102.91964721679688,
+            54.09867858886719
+          ]
+        },
+        {
+          "id": "p6-b2-92569dd",
+          "kind": "paragraph",
+          "text": "Variable \nUnit \nDescription \nSource",
+          "bbox": [
+            31.733999252319336,
+            61.74140930175781,
+            332.7823791503906,
+            68.21952819824219
+          ]
+        },
+        {
+          "id": "p6-b3-029992d",
+          "kind": "paragraph",
+          "text": "Structure \nHousehold number \nNumber \nTotal number of households \nYearbook \nSmallholder farmland \n% \nPercentage of arable land operated by \nsmallholder farms to total arable land",
+          "bbox": [
+            31.733999252319336,
+            75.13337707519531,
+            340.26092529296875,
+            107.31571960449219
+          ]
+        },
+        {
+          "id": "p6-b4-8f58b90",
+          "kind": "paragraph",
+          "text": "Village cadre survey",
+          "bbox": [
+            309.6990051269531,
+            92.26936340332031,
+            373.3069763183594,
+            98.74748229980469
+          ]
+        },
+        {
+          "id": "p6-b5-95acfb1",
+          "kind": "paragraph",
+          "text": "Family farms \nNumber \nTotal number of family farms \nVillage cadre survey \nCooperative farms \nNumber \nTotal number of cooperative farms \nVillage cadre survey \nCrop pattern \nArea with winter wheat \n% \nPercent arable land with wheat 1 \nVillage cadre survey \nArea with maize \n% \nPercent arable land with maize 1 \nYearbook \nArea with vegetables \n% \nPercent arable land with vegetables \nYearbook \nArea with cotton \n% \nPercent arable land with cotton \nYearbook \nArea with oil crops \n% \nPercent arable land with oil crops \nYearbook \nResources \nArable land \nha \nArea of arable land \nYearbook \nIrrigatable land \n% \nPercentage of irrigated land (includes \nwell irrigated and surface water \nirrigated) to total arable land",
+          "bbox": [
+            31.733999252319336,
+            109.40541076660156,
+            373.3069763183594,
+            218.6999053955078
+          ]
+        },
+        {
+          "id": "p6-b6-3ce0ea9",
+          "kind": "paragraph",
+          "text": "Yearbook",
+          "bbox": [
+            309.6990051269531,
+            195.0853729248047,
+            340.26092529296875,
+            201.56349182128906
+          ]
+        },
+        {
+          "id": "p6-b7-b4fea60",
+          "kind": "paragraph",
+          "text": "Off-farm labour ratio \n% \nThe ratio of off-farm labour to total \nlabour",
+          "bbox": [
+            31.733999252319336,
+            220.7893829345703,
+            291.93695068359375,
+            235.83570861816406
+          ]
+        },
+        {
+          "id": "p6-b8-8f58b90",
+          "kind": "paragraph",
+          "text": "Village cadre survey",
+          "bbox": [
+            309.6990051269531,
+            220.7893829345703,
+            373.3069763183594,
+            227.2675018310547
+          ]
+        },
+        {
+          "id": "p6-b9-c6476ab",
+          "kind": "paragraph",
+          "text": "Average income \nCNY capita−1",
+          "bbox": [
+            31.733999252319336,
+            235.62513732910156,
+            166.42745971679688,
+            244.4034881591797
+          ]
+        },
+        {
+          "id": "p6-b10-3450a2a",
+          "kind": "paragraph",
+          "text": "year−1",
+          "bbox": [
+            124.38919067382812,
+            244.19313049316406,
+            146.4114532470703,
+            252.97129821777344
+          ]
+        },
+        {
+          "id": "p6-b11-9377782",
+          "kind": "paragraph",
+          "text": "Average net income per capita per year \nVillage cadre survey",
+          "bbox": [
+            181.1790008544922,
+            237.9253692626953,
+            373.3069763183594,
+            244.4034881591797
+          ]
+        },
+        {
+          "id": "p6-b12-c8126c3",
+          "kind": "paragraph",
+          "text": "Distance to the city center \nkm \nThe distance from the village council to \nthe city council of Quzhou via roads",
+          "bbox": [
+            31.733999252319336,
+            255.06138610839844,
+            304.2275085449219,
+            270.1076965332031
+          ]
+        },
+        {
+          "id": "p6-b13-8f58b90",
+          "kind": "paragraph",
+          "text": "Village cadre survey",
+          "bbox": [
+            309.6990051269531,
+            255.06138610839844,
+            373.3069763183594,
+            261.53948974609375
+          ]
+        },
+        {
+          "id": "p6-b14-4080f95",
+          "kind": "paragraph",
+          "text": "Distance to road net \nkm \nThe distance from the village council to \nthe road net. The road net, which \nincludes multiple highways, serves as a \ntransportation network connecting \nurban and rural areas.",
+          "bbox": [
+            31.733999252319336,
+            272.1973876953125,
+            304.2275085449219,
+            312.94830322265625
+          ]
+        },
+        {
+          "id": "p6-b15-8f58b90",
+          "kind": "paragraph",
+          "text": "Village cadre survey",
+          "bbox": [
+            309.6990051269531,
+            272.1973876953125,
+            373.3069763183594,
+            278.67547607421875
+          ]
+        },
+        {
+          "id": "p6-b16-6a43465",
+          "kind": "paragraph",
+          "text": "1 Wheat and maize are usually cultivated in a double cropping sequence. Hence, the land can be cultivated twice in a \nyear if the land is cultivated with wheat-maize double cropping. Due to the existence of double and even triple cropping, \nthe crop percentages can add up to more than 100 %.",
+          "bbox": [
+            25.762189865112305,
+            315.3021240234375,
+            391.2510681152344,
+            341.2171325683594
+          ]
+        },
+        {
+          "id": "p6-b17-6357f24",
+          "kind": "paragraph",
+          "text": "small (below 100), or because of a high degree of urbanization. Another 18 questionnaires were \nexcluded due to low quality.",
+          "bbox": [
+            25.757999420166016,
+            361.6209716796875,
+            391.11883544921875,
+            380.1766052246094
+          ]
+        },
+        {
+          "id": "p6-b18-cd871fc",
+          "kind": "heading",
+          "text": "3.2. Farm household dataset",
+          "bbox": [
+            25.757999420166016,
+            405.57696533203125,
+            131.0157470703125,
+            413.6745910644531
+          ]
+        },
+        {
+          "id": "p6-b19-03bab75",
+          "kind": "paragraph",
+          "text": "The farm household dataset reports farm-level data and was collected in Quzhou County \nin July 2020. The household data contained 505 records, including data from 486 smallholder \nfarms, 14 family farms, and ﬁve cooperative farms. A structured questionnaire was administered \nto all farm decision-makers in person to collect crop production activity data during a one-year \ncropping cycle (June 2019 to June 2020). There were four parts to the questionnaire. The answers \nto the questions in part 1 of the questionnaire resulted in 60 columns in the resulting dataﬁle. \nDemographic information is divided into two parts. The ﬁrst part is information on all house- \nhold members, including the number of household members, their age and sex, occupation, and \noff-farm income. The second sub-part is information about the person who makes the farming \ndecisions, and we asked about their farming experience, and the number of schooling years. The \nanswers to the questions in part 2 resulted in 17 columns and describes resources, such as land \nallocation and self-owned machinery. A farm’s resources include allocated lands, 1 rental lands, 2",
+          "bbox": [
+            25.757999420166016,
+            427.49200439453125,
+            391.17303466796875,
+            550.6636352539062
+          ]
+        },
+        {
+          "id": "p6-b20-60669ce",
+          "kind": "heading",
+          "text": "1 In China, the rural land is collectively owned by villagers and all of the cropland is allocated for use to the rural \npopulation on a pro-rata basis. This cropland is allocated land.",
+          "bbox": [
+            25.75826072692871,
+            566.7621459960938,
+            391.2917785644531,
+            584.1089477539062
+          ]
+        },
+        {
+          "id": "p6-b21-f3e9a6d",
+          "kind": "heading",
+          "text": "2 Some villagers choose not to manage part or all of their allocated cropland, e.g. because of their age, and rent it out \nto earn income. This cropland is rental land.",
+          "bbox": [
+            25.76272964477539,
+            584.5281372070312,
+            391.3045349121094,
+            601.8749389648438
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-2ed8d22",
+          "kind": "paragraph",
+          "text": "Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269\n7",
+          "bbox": [
+            127.53900146484375,
+            20.836257934570312,
+            401.5174560546875,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b2-f62b58b",
+          "kind": "paragraph",
+          "text": "Fig. 2. Percentage of the arable land in Quzhou, cultivated with different crops: (a) wheat, (b) maize, (c) cotton, (d) \nvegetables, and (e) oil crops. In Quzhou, the typical oil crops are peanuts, soybean, and sunﬂower grown for oil. Note \nthat wheat and maize are predominantly cultivated in a winter wheat-maize double cropping system.",
+          "bbox": [
+            36.1349983215332,
+            363.54736328125,
+            401.6149597167969,
+            387.1618957519531
+          ]
+        },
+        {
+          "id": "p7-b3-497983e",
+          "kind": "paragraph",
+          "text": "and rented lands 3 for every cropping system. A detailed input-output inventory for crop produc- \ntion is provided in Part 3, which consists of 864 columns. Additionally, Part 4 includes data on \nsubsidies and land leasing related to crop production. The questions of this part has 9 columns. \nResults of the survey indicate that the farmers used ﬁve types of one-year cropping system: \nsingle cropping, relay-intercropping, double cropping, relay-double cropping, and triple cropping \n( Table 2 ). Double cropping and single cropping occupied approximately 54 % and 44 % area of \nour sample, respectively, and the other three cropping systems occupied a small area percentage. \nIn our data set, the dominant double cropping was wheat-maize double cropping (51 % of the \narea). The dominant crop species in single cropping was cotton (23 % of the total area).",
+          "bbox": [
+            36.1349983215332,
+            408.51513671875,
+            401.5609436035156,
+            501.901611328125
+          ]
+        },
+        {
+          "id": "p7-b4-d4508cb",
+          "kind": "paragraph",
+          "text": "Table 4 describes the critical socioeconomic characteristics of households and decision- \nmakers. The number of household members of business farms has thirteen missing values since \nthese farms were not run by a family and were operated by several families.",
+          "bbox": [
+            36.1349983215332,
+            504.2619934082031,
+            401.4598388671875,
+            533.28466796875
+          ]
+        },
+        {
+          "id": "p7-b5-1a6f140",
+          "kind": "paragraph",
+          "text": "Fig. 3 shows the distribution of farm size as reported by survey respondents. It shows that the \nmean farm size of sampled farms was 1.23 ha per farm and the median farm size was 0.67 ha \nper farm. The smallholder farms’ mean farm size was 0.71 ha per farm, and the median was",
+          "bbox": [
+            36.1349983215332,
+            535.6449584960938,
+            401.59503173828125,
+            564.6586303710938
+          ]
+        },
+        {
+          "id": "p7-b6-3a8c2c8",
+          "kind": "heading",
+          "text": "3 Some villagers want to enlarge their cropland to earn more money. They rent cropland from other villagers. This \ncropland is rented land.",
+          "bbox": [
+            36.13780975341797,
+            584.5281372070312,
+            401.56292724609375,
+            601.8749389648438
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-2d7c7ee",
+          "kind": "heading",
+          "text": "8 \nZ. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269",
+          "bbox": [
+            25.757999420166016,
+            20.836257934570312,
+            299.7453918457031,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p8-b1-25ce852",
+          "kind": "paragraph",
+          "text": "Table 4 \nSocioeconomics characteristics of the respondents.",
+          "bbox": [
+            25.757999420166016,
+            39.05238342285156,
+            180.78330993652344,
+            54.09867858886719
+          ]
+        },
+        {
+          "id": "p8-b2-2dcfadc",
+          "kind": "paragraph",
+          "text": "Variable \nCategory \nFrequency \n(% of valid)",
+          "bbox": [
+            31.733999252319336,
+            61.74140930175781,
+            252.38473510742188,
+            76.78770446777344
+          ]
+        },
+        {
+          "id": "p8-b3-5ccb9e5",
+          "kind": "paragraph",
+          "text": "Valid \nMissing",
+          "bbox": [
+            286.5329895019531,
+            61.74140930175781,
+            383.6592712402344,
+            68.21952819824219
+          ]
+        },
+        {
+          "id": "p8-b4-db07d98",
+          "kind": "paragraph",
+          "text": "Household characteristics \nHousehold size \n1–5 \n366 (74.4 %) \n492 \n(97.4 %)",
+          "bbox": [
+            31.733999252319336,
+            83.70137023925781,
+            312.8108215332031,
+            107.31571960449219
+          ]
+        },
+        {
+          "id": "p8-b5-a3723a7",
+          "kind": "paragraph",
+          "text": "13 \n(2.6 %) \n6–10 \n124 (25.2 %) \nAbove 10 \n2 (0.4 %) \nOff-farm work \nParticipating \n272 (53.9 %) \n505 \n(100.0 %)",
+          "bbox": [
+            31.733999252319336,
+            92.26936340332031,
+            383.2273864746094,
+            133.0196990966797
+          ]
+        },
+        {
+          "id": "p8-b6-4895d7e",
+          "kind": "paragraph",
+          "text": "0 \n(0.0 %) \nNot participating \n233 (46.1 %) \nCharacteristics of farming \ndecision maker \nGender \nMale \n374 (74.0 %) \n505 \n(100.0 %)",
+          "bbox": [
+            31.733999252319336,
+            117.97340393066406,
+            383.20062255859375,
+            167.2917022705078
+          ]
+        },
+        {
+          "id": "p8-b7-8541585",
+          "kind": "paragraph",
+          "text": "0 \n(0.0 %) \nFemale \n131 (26.0 %) \nAge \nYouth (18–35) \n6 (1.2 %) \n505 \n(100.0 %)",
+          "bbox": [
+            31.733999252319336,
+            152.24537658691406,
+            383.173828125,
+            184.4276885986328
+          ]
+        },
+        {
+          "id": "p8-b8-27b8194",
+          "kind": "paragraph",
+          "text": "0 \n(0.0 %) \nAdult (36–60) \n24 8 (4 9.1 %) \nElderly ( > 60) \n251 (49.7 %) \nLevel of education \nNo schooling \n137 (27.1 %) \n505 \n(100.0 %)",
+          "bbox": [
+            31.733999252319336,
+            169.3813934326172,
+            383.20062255859375,
+            210.13169860839844
+          ]
+        },
+        {
+          "id": "p8-b9-05e49cb",
+          "kind": "paragraph",
+          "text": "0 \n(0.0 %) \nPrimary \n146 (28.9 %) \nMiddle \n172 (34.1 %) \nSenior \n46 (9.1 %) \nBachelor \n4 (0.8 %) \nYears of farming experience \n1–10 \n25 (4.9 %) \n505 \n(100.0 %)",
+          "bbox": [
+            31.733999252319336,
+            195.0853729248047,
+            383.20062255859375,
+            252.97169494628906
+          ]
+        },
+        {
+          "id": "p8-b10-62d1200",
+          "kind": "paragraph",
+          "text": "0 \n(0.0 %) \n10–20 \n49 (9.7 %) \n20–30 \n114 (22.6 %) \n> 30 \n317 (62.8 %)",
+          "bbox": [
+            138.59100341796875,
+            237.9253692626953,
+            383.20062255859375,
+            270.10748291015625
+          ]
+        },
+        {
+          "id": "p8-b11-af0ea3f",
+          "kind": "paragraph",
+          "text": "Table 5 \nNumber of farms with one, two, three or more than three cropping systems. For each case, the table lists in how many \ncases speciﬁc cropping systems (rows) are present on the farm. For instance, of 212 farms have two cropping systems, \n174 had cotton, and 191 had winter wheat-maize double cropping.",
+          "bbox": [
+            25.75609016418457,
+            291.30438232421875,
+            391.2972412109375,
+            323.4870910644531
+          ]
+        },
+        {
+          "id": "p8-b12-99478c7",
+          "kind": "paragraph",
+          "text": "Cropping systems",
+          "bbox": [
+            31.733999252319336,
+            339.6973876953125,
+            87.782470703125,
+            346.17547607421875
+          ]
+        },
+        {
+          "id": "p8-b13-b9603af",
+          "kind": "paragraph",
+          "text": "Number of cropping systems per farm",
+          "bbox": [
+            172.96200561523438,
+            331.12939453125,
+            291.3323669433594,
+            337.60748291015625
+          ]
+        },
+        {
+          "id": "p8-b14-511f0c8",
+          "kind": "paragraph",
+          "text": "1 ( n = 228) \n2 ( n = 212) \n3 ( n = 45)",
+          "bbox": [
+            172.96200561523438,
+            353.44940185546875,
+            323.08917236328125,
+            359.927490234375
+          ]
+        },
+        {
+          "id": "p8-b15-518c524",
+          "kind": "paragraph",
+          "text": "> 3 \n( n = 20)",
+          "bbox": [
+            345.5639953613281,
+            344.88140869140625,
+            374.5063781738281,
+            359.92767333984375
+          ]
+        },
+        {
+          "id": "p8-b16-2daca2f",
+          "kind": "paragraph",
+          "text": "Cotton \n28 \n174 \n37 \n11 \nStevia \n4 \n17 \n11 \n5 \nChili \n3 \n5 \n9 \n6 \nMaize \n4 \n10 \n2 \n3 \nVegetable \n0 \n2 \n6 \n2 \nOther single cropping \n2 \n8 \n8 \n6 \nCotton/mung bean \n0 \n6 \n5 \n3 \nCotton/ watermelon \n0 \n0 \n1 \n1 \nWinter wheat-maize \n186 \n191 \n37 \n12 \nVegetable-Vegetable \n0 \n0 \n3 \n12 \nMaize-vegetable \n0 \n3 \n3 \n5 \nWinter wheat-vegetable \n0 \n2 \n1 \n1 \nOther double cropping \n0 \n6 \n5 \n8 \nRelay double cropping \n0 \n0 \n0 \n3 \nVegetable-vegetable-vegetable \n1 \n1 \n13 \n7 \nVegetable-maize-vegetable \n0 \n0 \n3 \n0",
+          "bbox": [
+            31.733999252319336,
+            366.84136962890625,
+            355.95831298828125,
+            501.8395080566406
+          ]
+        },
+        {
+          "id": "p8-b17-939ae95",
+          "kind": "paragraph",
+          "text": "0.63 ha per farm. The business farms’ mean farm size was 14.5 ha per farm, and the median \nwas 13.3 ha per farm. Eighty-six out of 505 farms (17 %) rented out their croplands to others \nand about 22 % of farms rented in croplands from other farms.",
+          "bbox": [
+            25.757999420166016,
+            531.3519897460938,
+            391.200439453125,
+            560.3746337890625
+          ]
+        },
+        {
+          "id": "p8-b18-224a30a",
+          "kind": "paragraph",
+          "text": "Table 5 presents the number of cropping systems cultivated per farm and lists the cropping \nsystems. Forty-ﬁve percent of farms grew only one cropping system, usually double cropping of \nwheat and maize. A total of 212 of the 505 farms cultivated two cropping systems, with wheat- \nmaize double cropping and single cotton being the most commonly used. In 12 % of farms,",
+          "bbox": [
+            25.757999420166016,
+            562.7349853515625,
+            391.16363525390625,
+            602.2155151367188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-f3d94a8",
+          "kind": "paragraph",
+          "text": "Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269\n9",
+          "bbox": [
+            127.53900146484375,
+            20.836257934570312,
+            401.5174255371094,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p9-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p9-figure1.png",
+          "alt": "Original source page 9, graphic 1",
+          "caption": "原文第9页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p9-b2-78375d9",
+          "kind": "paragraph",
+          "text": "Fig. 3. Farm size distribution as reported by respondents for all farms (a), smallholder farms (b) and business farms (c) \nThe black vertical dashed lines indicate the median farm size and the red vertical dashed lines indicate the mean farm \nsize.",
+          "bbox": [
+            36.1349983215332,
+            391.54638671875,
+            401.6149597167969,
+            415.1609191894531
+          ]
+        },
+        {
+          "id": "p9-b3-f4751a9",
+          "kind": "paragraph",
+          "text": "there were more than two cropping systems. Vegetable-based cropping systems were more often \nfound on farms that had at least three cropping systems than on farms that had only one or two \ncropping systems.",
+          "bbox": [
+            36.1349983215332,
+            436.87896728515625,
+            401.58544921875,
+            465.8926086425781
+          ]
+        },
+        {
+          "id": "p9-b4-4963f0f",
+          "kind": "heading",
+          "text": "3.3. Crop dataset",
+          "bbox": [
+            36.1349983215332,
+            498.969970703125,
+            100.85904693603516,
+            507.0675964355469
+          ]
+        },
+        {
+          "id": "p9-b5-272096c",
+          "kind": "paragraph",
+          "text": "The crop dataset was derived from the household survey and applied to the period from \nJune 2019 to June 2020. The dataset provided recalled ﬁeld-level data with 112 columns and \n1352 records. The dataset presents detailed crop input-output inventory and crop management \ndata. The input data includes the quantity and costs of seeds, ﬁlm mulch, fertilizers, pesticide, \nirrigation and fuel consumption of each machine, costs of hired labour and purchased machinery \nservice, and the labour consumption of every management practice, including soil preparation, \nsowing, fertilizer application, pesticide spraying, weeding, harvesting, and other management \npractices. The output data contains the average crop yield, reported by farmers, as an average",
+          "bbox": [
+            36.1349983215332,
+            520.8939819335938,
+            401.4962463378906,
+            602.2155151367188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-b65dc8f",
+          "kind": "heading",
+          "text": "10 \nZ. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269",
+          "bbox": [
+            25.757999420166016,
+            20.836257934570312,
+            299.7447509765625,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p10-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p10-figure1.png",
+          "alt": "Original source page 10, graphic 1",
+          "caption": "原文第10页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p10-b2-de338a7",
+          "kind": "paragraph",
+          "text": "Fig. 4. The number of cultivated crops by respondents.",
+          "bbox": [
+            123.36299896240234,
+            312.54437255859375,
+            293.3485412597656,
+            319.0224914550781
+          ]
+        },
+        {
+          "id": "p10-b3-59bfc76",
+          "kind": "paragraph",
+          "text": "over all ﬁelds 4 of a crop on the farm, and the farm-gate price for every crop. The management \nincludes the timing of sowing and harvesting and application frequency of fertilizers, irrigation, \npesticides and weeding, as well as fertilizer type and quantity. With regards to pesticide spray- \ning, we distinguished between herbicides, insecticdes and fungicides; for each category, we col- \nlected the information on treatment frequency. For intercropping, the farmers could provide the \noccupied percentage of every crop component in strips.",
+          "bbox": [
+            25.757999420166016,
+            339.0621337890625,
+            391.2032470703125,
+            401.06561279296875
+          ]
+        },
+        {
+          "id": "p10-b4-1a17381",
+          "kind": "paragraph",
+          "text": "Fig. 4 provides information on the cultivated crop species and their records in the dataset. \nTwenty-eight crop species were cultivated on the interviewed farms, but only nine crops had ten \nor more records in the crop dataset. Maize, winter wheat, and cotton were the most prevalent \ncrop species grown in the area.",
+          "bbox": [
+            25.757999420166016,
+            403.43499755859375,
+            391.155029296875,
+            442.9156188964844
+          ]
+        },
+        {
+          "id": "p10-b5-412cc5d",
+          "kind": "heading",
+          "text": "4. Experimental Design, Materials and Methods",
+          "bbox": [
+            25.757999420166016,
+            464.0409851074219,
+            216.08795166015625,
+            472.13861083984375
+          ]
+        },
+        {
+          "id": "p10-b6-1472f2f",
+          "kind": "paragraph",
+          "text": "Before doing the household survey, we created a village typology based on already available \nyearbook data on the area of a few main crops in each village of Quzhou county and additional \ninformation from a village cadre survey done in 2018. Developing this typology allowed us to \ntarget the effort of household survey across the main agricultural village types in Quzhou, to \nensure the representativeness of the sample, and avoid that important village types were under- \nrepresented or time would be spent on survey in villages with no or marginal agricultural activ- \nity. Creating a typology thus allows us to deal with heterogeneity and to develop a more tailored \napproach for the household survey [7] . For the purpose of selecting representative villages and",
+          "bbox": [
+            25.757999420166016,
+            485.9649658203125,
+            391.1998291015625,
+            567.28662109375
+          ]
+        },
+        {
+          "id": "p10-b7-ee6c051",
+          "kind": "paragraph",
+          "text": "4 A ﬁeld is a parcel of open land with one planted crop or planted with an intercrop. In Quzhou, farmers usually \ncultivate the same crop in multiple ﬁelds, and those ﬁelds are scattered across the farm.",
+          "bbox": [
+            25.753799438476562,
+            584.5281372070312,
+            391.26947021484375,
+            601.8749389648438
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-cfe6aeb",
+          "kind": "paragraph",
+          "text": "Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269\n11",
+          "bbox": [
+            127.53900146484375,
+            20.836257934570312,
+            401.5174560546875,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p11-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p11-figure1.png",
+          "alt": "Original source page 11, graphic 1",
+          "caption": "原文第11页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p11-b2-1773277",
+          "kind": "paragraph",
+          "text": "Fig. 5. The dendrogram from hierarchical clustering on 308 villages of Quzhou.",
+          "bbox": [
+            97.24500274658203,
+            355.54638671875,
+            340.2973937988281,
+            362.02447509765625
+          ]
+        },
+        {
+          "id": "p11-b3-27853ca",
+          "kind": "paragraph",
+          "text": "gaining a broader perspective of crop activities in Quzhou, all 342 villages in the county were \ngrouped based on their structure, crop patterns, and resources related to crop production. Eight \nvillage types were distinguished ( Fig. 5 ).",
+          "bbox": [
+            36.1349983215332,
+            372.92498779296875,
+            401.5142517089844,
+            401.9476013183594
+          ]
+        },
+        {
+          "id": "p11-b4-5e72a06",
+          "kind": "heading",
+          "text": "4.1. Selection of typology variables",
+          "bbox": [
+            36.1349983215332,
+            424.989990234375,
+            163.50436401367188,
+            433.0876159667969
+          ]
+        },
+        {
+          "id": "p11-b5-221607d",
+          "kind": "paragraph",
+          "text": "Prior to the farm household survey, a village typology was made based on the village dataset. \nConsidering the classiﬁcation objective and the available data (amount and accuracy), ﬁfteen \nvariables were calculated from structural variables, crop patterns, and resources ( Table 3 ). The \nresource variables represented land (arable land), water (irrigatable water), labour (off-farm \nlabour ratio), ﬁnance (average income) and market (distance to the city center and distance \nto the road net). Of 342 villages, 308 were retained for typology analysis because 12 villages \nwere not surveyed in the village cadre survey, 18 villages had low-quality questionnaires; these \nvillages were assigned the type “NA”. Four villages having inconsistent data between yearbook \ndata and surveyed data were assigned the type “Outlier”.",
+          "bbox": [
+            36.1349983215332,
+            446.91400146484375,
+            401.5235290527344,
+            538.6936645507812
+          ]
+        },
+        {
+          "id": "p11-b6-082db00",
+          "kind": "heading",
+          "text": "4.2. Multivariate analysis",
+          "bbox": [
+            36.1349983215332,
+            561.7359619140625,
+            130.54835510253906,
+            569.8336181640625
+          ]
+        },
+        {
+          "id": "p11-b7-33ee342",
+          "kind": "paragraph",
+          "text": "The typology was generated sequentially using multivariate analysis and cluster analysis: \nmultivariate analysis was used to identify discriminating variables, and cluster analysis was used",
+          "bbox": [
+            36.1349983215332,
+            583.6510009765625,
+            401.4326477050781,
+            602.2155151367188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-b8eb936",
+          "kind": "heading",
+          "text": "12 \nZ. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269",
+          "bbox": [
+            25.757999420166016,
+            20.836257934570312,
+            299.745361328125,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p12-b1-4f1f520",
+          "kind": "paragraph",
+          "text": "to group villages into homogeneous types. All analyses were done with the ade4 package for R \nversion 4.1.0 [8] . Principal component analysis (PCA) was used to reduce the database into non- \ncorrelated components based on all ﬁfteen quantitative variables. The number of principal com- \nponents (PC’s) was determined by considering two criteria. The cumulative variance explained \nby the selected principal components should be > 60 %, and all principal components’ eigenval- \nues were greater than one [8] . As a result, we found seven principal components that explained \n66 % of the variance among villages. Ward’s minimum variance method was used to perform \na hierarchical cluster analysis using the PCA output in the form of a reduced dataset based on \nthe retained PC’s. A maximum average silhouette was used to determine the number of clus- \nters [9] and seven types of villages were determined. Village type 1 comprised a higher num- \nber of villages than the other types. Fig. 5 shows that two subclusters were connected to the \nbiggest cluster in the dendrogram. A second typology analysis was conducted to differentiate \nthe largest clusters. The same classiﬁcation variables and methods were used to split type 1 into \ntwo subtypes. Fig. 6 shows the relationships between village characteristics and village types \nafter PCA and clustering analysis. The distribution of village types across Quzhou is illustrated \nin Fig. 7 .",
+          "bbox": [
+            25.757999420166016,
+            39.39398956298828,
+            391.1792297363281,
+            204.4066162109375
+          ]
+        },
+        {
+          "id": "p12-b2-e938cce",
+          "kind": "heading",
+          "text": "4.3. Description of village types",
+          "bbox": [
+            25.757999420166016,
+            237.95201110839844,
+            142.6520538330078,
+            246.04962158203125
+          ]
+        },
+        {
+          "id": "p12-b3-f59dde0",
+          "kind": "paragraph",
+          "text": "Type 1. Small households and small arable land with cereal-based cropping system (119 villages) \nIn comparison to the other types, this village type had few households (the mean was 192) \nand less arable land per village (84 ha). The type was subdivided into two subtypes. Farmers in \nvillage type 1–1 (sample size of 88 village) allocated signiﬁcantly less land to vegetables than \nfarmers in village type 1–2 (sample size of 31 villages) ( Fig. 8 ). \nType 2. Large arable land with multiple farm management models (8 villages) \nIt was the smaller of the two clusters, with a small proportion of off-farm labour (37 %) and \na large area of arable land per village (250 ha). This type had the greatest number of business \nfarms, and the proportion of the village area occupied by smallholder farms was the smallest \n(77 %) among the villages ( Fig. 8 ). \nType 3. Medium number of households and medium arable land with cereal-based cropping sys- \ntem (75 villages) \nThis was the second largest cluster, with a medium number of households per village (378) \nand an average area of arable land per village (173 ha). The cultivated crops were primarily \nmaize and wheat, and about 60 % of labourers had other employment ( Fig. 8 ). \nType 4. Close to market and low off-farm labour with substantial vegetable production (60 vil- \nlages) \nAmong the villages, type 4 had the smallest distance to the city center and road net. With \n96 ha of average arable land per village, this group allocated less than 48 % to wheat cultivation \nand about 20 % to vegetables grown as arable crop. There was a relatively little off-farm labour \nin this village type ( Fig. 8 ). \nType 5. High urbanization and nearly no crop production (7 villages) \nThe type 5 settlements were the closest to the city center, and nearly no land was used for \nagriculture. Approximately seventy percent of the labour force worked off-farm ( Fig. 8 ). Villages \nin this cluster were not included in farm survey. \nType 6. Large households and large arable land with far from the city center (17 villages) \nIn type 6, there were more households per village (786 on average) and arable land area \nof the village was greater (328 ha). This type was the farthest from the city center (28 km on \naverage), and maize and wheat were the main crops ( Fig. 8 ). \nType 7. Medium arable land with diversiﬁed cropping systems (22 villages) \nThis village type had the highest areas allocated to cotton and oil crops (47 % for cotton and \n8 % for oil crops) ( Fig. 8 ).",
+          "bbox": [
+            25.757999420166016,
+            259.8669738769531,
+            391.2181396484375,
+            592.2526245117188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-a50787f",
+          "kind": "paragraph",
+          "text": "Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269\n13",
+          "bbox": [
+            127.53900146484375,
+            20.836257934570312,
+            401.5174255371094,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p13-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p13-figure1.png",
+          "alt": "Original source page 13, graphic 1",
+          "caption": "原文第13页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p13-b2-09290d8",
+          "kind": "paragraph",
+          "text": "Fig. 6. Principal component analysis of the associations between village characteristics and villages. The ﬁlled circles \nrepresent villages and different colors represent village types. The arrows represent village characteristic variables, e.g. \ncity center (distance to the city center), road (distance to road net), household (number of households per village), \noff-farm labour (off-farm labour ratio), income (average income), area (arable land), irrigatable ratio (irrigatable land), \nwheat (area with wheat), maize (area with maize), cotton (area with cotton), oil crop (area with oil crops), vegetable \n(area with vegetable), small farm (smallholder farm), cooperative (cooperative farm), and family farm. For a description \nof variables characterizing the villages, see Table 3 . Village types: 1–1 Small villages with small farms, mainly cereal- \nbased ( n = 88); 1–2 Small villages with small farms, like type 1 but with more vegetables ( n = 31); 2. Large villages \nwith more business farms ( n = 8); 3. Medium-sized villages, mainly cereal-based ( n = 75); 4. Villages close to the city \nand with high proportion vegetables ( n = 60); 5. Urbanized villages with almost no crop production (excluded from \nfarm survey) ( n = 7); 6. Large villages with large farms, far from city, mostly cereal-based ( n = 17); 7. Medium-sized \nvillages with diversiﬁed cropping systems, including cotton and oil crops) ( n = 22). (For interpretation of the references \nto color in this ﬁgure legend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            36.12872314453125,
+            464.88739013671875,
+            401.7599182128906,
+            574.1817016601562
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-9ce4aaa",
+          "kind": "heading",
+          "text": "14 \nZ. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269",
+          "bbox": [
+            25.757999420166016,
+            20.836257934570312,
+            299.7447204589844,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p14-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p14-figure1.png",
+          "alt": "Original source page 14, graphic 1",
+          "caption": "原文第14页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p14-b2-e0f04a9",
+          "kind": "paragraph",
+          "text": "Fig. 7. Village types distribution in Quzhou county. Quzhou county includes ten townships (delineated by bold black \nborders) and 342 villages (delineated by light grey borders). Township names are listed on the map. Coloring of villages \nindicates the village type: 1–1 Small villages with small farms, mainly cereal-based ( n = 88); 1–2 Small villages with \nsmall farms, like type 1 but with more vegetables ( n = 31); 2. Large villages with more business farms ( n = 8); 3. \nMedium-sized villages, mainly cereal-based ( n = 75); 4. Villages close to the city and with high proportion vegetables \n( n = 60); 5. Urbanized villages with almost no crop production (excluded from farm survey) ( n = 7); 6. Large villages \nwith large farms, far from city, mostly cereal-based ( n = 17); 7. Medium-sized villages with diversiﬁed cropping systems, \nincluding cotton and oil crops) ( n = 22). (For interpretation of the references to color in this ﬁgure legend, the reader is \nreferred to the web version of this article.)",
+          "bbox": [
+            25.750946044921875,
+            417.54736328125,
+            391.36669921875,
+            492.5696716308594
+          ]
+        },
+        {
+          "id": "p14-b3-d31c489",
+          "kind": "heading",
+          "text": "4.4. Use of the typology",
+          "bbox": [
+            25.757999420166016,
+            530.3529663085938,
+            115.31165313720703,
+            538.4506225585938
+          ]
+        },
+        {
+          "id": "p14-b4-ff3a5e4",
+          "kind": "paragraph",
+          "text": "The typology was used to select representative villages for a farm household survey that was \nconducted in Quzhou county from July to August 2020 using stratiﬁed random sampling. Five \nvillages were selected at random from each of seven clusters (the highly urbanized cluster 5 \nwas excluded) of villages having crop production. A total of ﬁfteen farms were identiﬁed from \neach selected village. The list of business farms was provided by the local government. All family",
+          "bbox": [
+            25.757999420166016,
+            552.2769775390625,
+            391.13653564453125,
+            602.2155151367188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-14.png"
+    },
+    {
+      "number": 15,
+      "blocks": [
+        {
+          "id": "p15-b0-947f809",
+          "kind": "paragraph",
+          "text": "Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269\n15",
+          "bbox": [
+            127.53900146484375,
+            20.836257934570312,
+            401.51678466796875,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p15-figure1",
+          "kind": "image",
+          "path": "library/xu-data-2024/962a50daab8d/p15-figure1.png",
+          "alt": "Original source page 15, graphic 1",
+          "caption": "原文第15页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p15-b2-b9f0375",
+          "kind": "paragraph",
+          "text": "Fig. 8. Village features for the seven village types and two sub-types identiﬁed by typology. The white diamond dots \nrepresent the mean and the black dots represent outlier values. Oil crops are: peanut, soybean and oil sunﬂowers. Village \ntypes: 1–1 Small villages with small farms, mainly cereal-based ( n = 88); 1–2 Small villages with small farms, like type \n1 but with more vegetables ( n = 31); 2. Large villages with more business farms ( n = 8); 3. Medium-sized villages, \nmainly cereal-based ( n = 75); 4. Villages close to the city and with high proportion vegetables ( n = 60); 5. Urbanized \nvillages with almost no crop production (excluded from farm survey) ( n = 7); 6. Large villages with large farms, far from \ncity, mostly cereal-based ( n = 17); 7. Medium-sized villages with diversiﬁed cropping systems, including cotton and oil \ncrops) ( n = 22).",
+          "bbox": [
+            36.13055419921875,
+            267.54437255859375,
+            401.7105712890625,
+            333.9991149902344
+          ]
+        },
+        {
+          "id": "p15-b3-988d87f",
+          "kind": "paragraph",
+          "text": "farms and cooperative farms were always included if they were present in a village. The remain- \ning smallholder farms were randomly selected to obtain a sample of 15 farms per village.",
+          "bbox": [
+            36.1349983215332,
+            364.91497802734375,
+            401.5225524902344,
+            383.4706115722656
+          ]
+        },
+        {
+          "id": "p15-b4-69b1b67",
+          "kind": "paragraph",
+          "text": "Limitations",
+          "bbox": [
+            36.1349983215332,
+            410.51800537109375,
+            83.69695281982422,
+            418.6156311035156
+          ]
+        },
+        {
+          "id": "p15-b5-3f1074b",
+          "kind": "paragraph",
+          "text": "The village cadres survey and household survey were conducted in a single county on the \nNorth China Plain. Therefore it may not accurately reﬂect the situation in the whole North China \nPlain. \nIn the survey, farmers found it hard to recall some detailed management data, such as culti- \nvar of crops, ingredients and content of pesticides, and the precise date of fertilizer application, \npesticide spraying, and irrigation. In the future, some farmers in this survey could be further \ntracked to collect more detailed data on management practices.",
+          "bbox": [
+            36.1349983215332,
+            432.4419860839844,
+            401.52264404296875,
+            503.3056335449219
+          ]
+        },
+        {
+          "id": "p15-b6-60788ec",
+          "kind": "paragraph",
+          "text": "Ethics Statements",
+          "bbox": [
+            36.1349983215332,
+            530.3529663085938,
+            109.04855346679688,
+            538.4506225585938
+          ]
+        },
+        {
+          "id": "p15-b7-66675f0",
+          "kind": "paragraph",
+          "text": "After consultation of the ethics experts of Wageningen University and China Agricultural Uni- \nversity, we obtained the approval from the local competent authority represented by the Quzhou \nExperiment Station. All farmers participated in the survey voluntarily. All participants agreed to \nthe survey and the use of the data for non-proﬁt research purposes. All data were collected \nanonymously.",
+          "bbox": [
+            36.1349983215332,
+            552.2769775390625,
+            401.5057373046875,
+            602.2155151367188
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-15.png"
+    },
+    {
+      "number": 16,
+      "blocks": [
+        {
+          "id": "p16-b0-e4644d9",
+          "kind": "heading",
+          "text": "16 \nZ. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269",
+          "bbox": [
+            25.757999420166016,
+            20.836257934570312,
+            299.7447204589844,
+            27.314374923706055
+          ]
+        },
+        {
+          "id": "p16-b1-f5955ab",
+          "kind": "heading",
+          "text": "Data Availability",
+          "bbox": [
+            25.757999420166016,
+            61.45301055908203,
+            93.06484985351562,
+            69.5506362915039
+          ]
+        },
+        {
+          "id": "p16-b2-b9be634",
+          "kind": "paragraph",
+          "text": "Survey data on livelihoods and inputs and outputs of crop production activities in Quzhou \ncounty on the North China Plain (Original data) (Mendeley Data).",
+          "bbox": [
+            25.757999420166016,
+            83.36798858642578,
+            391.0750427246094,
+            101.9325942993164
+          ]
+        },
+        {
+          "id": "p16-b3-0c52e90",
+          "kind": "paragraph",
+          "text": "CRediT Author Statement",
+          "bbox": [
+            25.757999420166016,
+            114.75098419189453,
+            128.18984985351562,
+            122.8486099243164
+          ]
+        },
+        {
+          "id": "p16-b4-4cfb181",
+          "kind": "paragraph",
+          "text": "Zhan Xu: Conceptualization, Investigation, Data curation, Writing – review & editing; Fan Li: \nData curation, Resources; Jiali Cheng: Investigation, Data curation; Zhengyuan Liang: Investi- \ngation, Data curation; Jeroen C.J. Groot: Methodology, Supervision, Writing – review & editing; \nWopke van der Werf: Supervision, Writing – review & editing; Chaochun Zhang: Supervision.",
+          "bbox": [
+            25.757999420166016,
+            135.67601013183594,
+            390.9578552246094,
+            175.1566162109375
+          ]
+        },
+        {
+          "id": "p16-b5-4be0f86",
+          "kind": "heading",
+          "text": "Acknowledgments",
+          "bbox": [
+            25.757999420166016,
+            199.9359893798828,
+            100.34545135498047,
+            208.03359985351562
+          ]
+        },
+        {
+          "id": "p16-b6-39443c0",
+          "kind": "paragraph",
+          "text": "This work received ﬁnancial support from the Cooperative Project of Chinese Academy of En- \ngineering (2020-FJ-XZ-8) and China Scholarship Council (CSC) (grant number is No. 201913043 ) \nand Hainan University. In particular, we would like to thank Nico Heerink for the valuable sug- \ngestions. We thanked Dongsheng Li, Shuai Han, Yingying Wang and Jiahui Ji for the farm survey \ndata collection.",
+          "bbox": [
+            25.757999420166016,
+            221.8509979248047,
+            391.1279296875,
+            271.78961181640625
+          ]
+        },
+        {
+          "id": "p16-b7-8feb861",
+          "kind": "paragraph",
+          "text": "Declaration of Competing Interest",
+          "bbox": [
+            25.757999420166016,
+            296.5690002441406,
+            162.6039581298828,
+            304.6666259765625
+          ]
+        },
+        {
+          "id": "p16-b8-813bdb7",
+          "kind": "paragraph",
+          "text": "The authors declare that they have no known competing ﬁnancial interests or personal rela- \ntionships that could have appeared to inﬂuence the work reported in this paper.",
+          "bbox": [
+            25.757999420166016,
+            318.49298095703125,
+            391.092529296875,
+            337.0486145019531
+          ]
+        },
+        {
+          "id": "p16-b9-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            25.757999420166016,
+            356.34698486328125,
+            70.74604797363281,
+            364.4446105957031
+          ]
+        },
+        {
+          "id": "p16-b10-947a345",
+          "kind": "paragraph",
+          "text": "[1] National Bureau of Statistics of ChinaChina Statistics Yearbook, Chinese Statistics Press, Beijing, 2017 (in Chinese) . \n[2] Ministry of Agriculture and Rural Affairs of the People’s Republic of ChinaList of National Agricultural Green Devel- \nopment Focus Areas for the Second Round (in Chinese), 2019 . \n[3] J. Shen, Q. Zhu, X. Jiao, H. Ying, H. Wang, X. Wen, W. Xu, T. Li, W. Cong, X. Liu, Y. Hou, Z. Cui, O. Oenema, W.J. Davies, \nF. Zhang, Agriculture green development: a model for China and the world, Front. Agric. Sci. Eng. 7 (2020) 5–13 . \n[4] J. Huang, J. Ding, Institutional innovation and policy support to facilitate small-scale farming transformation in China, \nAgric. Econ. 47 (2016) 227–237 . \n[5] M. Shen, J. Shen, Evaluating the cooperative and family farm programs in China: a rural governance perspective, Land \nUse Policy 79 (2018) 240–250 . \n[6] Y. Yu, Y. Hu, B. Gu, S. Reis, L. Yang, Reforming smallholder farms to mitigate agricultural pollution, Environ. Sci. Pollut. \nRes. Int. 29 (2021) 13869–13880 . \n[7] S. Alvarez, C.J. Timler, M. Michalscheck, W. Paas, K. Descheemaeker, P. Tittonell, J.A. Andersson, J.C. Groot, Captur- \ning farm diversity with hypothesis-based typologies: an innovative methodological framework for farming system \ntypology development, PLoS ONE 13 (2018) e0194757 . \n[8] R. Core Team, R: A Language and Environment For Statistical Computing, R Foundation for Statistical Computing, \n2021 . \n[9] K.S. Kuivanen, S. Alvarez, M. Michalscheck, S. Adjei-Nsiah, S. Descheemaeker, S. Mellon-Bedi, J.C.J. Groot, Characteriz- \ning the diversity of smallholder farming systems and their constraints and opportunities for innovation: a case study \nfrom the Northern Region, Ghana, NJAS 78 (1) (2016) 153–166 .",
+          "bbox": [
+            25.757999420166016,
+            373.56439208984375,
+            391.4590759277344,
+            523.5025024414062
+          ]
+        }
+      ],
+      "snapshot": "library/xu-data-2024/962a50daab8d/page-16.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 16,
+    "pageSnapshots": 16,
+    "allTextBlocksRetained": true,
+    "textCharacters": 40315,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 11,
+    "sourceSHA256": "962a50daab8d15b0976a0e5119b44f1059cb99848774a30d6e973385a0bc8504",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

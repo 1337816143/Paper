@@ -1,0 +1,3205 @@
+{
+  "schema": "paper.original.v2",
+  "id": "novotny-2024",
+  "lessonId": "novotny-2024",
+  "title": "Exploring nutrient-sensitive landscape configurations for rural communities in southern Mexico",
+  "citation": "Novotny, I. P., et al. (2024). Landscape and Urban Planning, 246, 105041.",
+  "origin": "https://doi.org/10.1016/j.landurbplan.2024.105041",
+  "sourceHash": "3549e6d02b39f329c80d4d2caeb76b584eda198ac413f810fd214cf59b4a0c4b",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Landscape and Urban Planning 246 (2024) 105041 Available online 22 February 2024 0169-2046/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Exploring nutrient-sensitive landscape configurations for rural communities in southern Mexico Ivan P. Novotny a,b,c,*, Walter A.H. Rossing b, Pablo Tittonell d,e,f, Mariela Fuentes-Ponce c, Jeroen C.J. Groot b a Ecosystems Management, Department of Environmental Systems Science, Institute of Te",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "originalPath": "library/novotny-2024/3549e6d02b39/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/novotny-2024/3549e6d02b39/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            215.8179931640625,
+            33.45158004760742,
+            378.7096252441406,
+            45.17943572998047
+          ]
+        },
+        {
+          "id": "p1-b2-e1fd748",
+          "kind": "paragraph",
+          "text": "Available online 22 February 2024\n0169-2046/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+          "bbox": [
+            37.51798629760742,
+            714.7015991210938,
+            557.4534912109375,
+            736.0494384765625
+          ]
+        },
+        {
+          "id": "p1-b3-83f27fd",
+          "kind": "heading",
+          "text": "Exploring nutrient-sensitive landscape configurations for rural \ncommunities in southern Mexico",
+          "bbox": [
+            37.587398529052734,
+            160.96640014648438,
+            415.1727600097656,
+            200.19052124023438
+          ]
+        },
+        {
+          "id": "p1-b4-5b98635",
+          "kind": "heading",
+          "text": "Ivan P. Novotny a,b,c,*, Walter A.H. Rossing b, Pablo Tittonell d,e,f, Mariela Fuentes-Ponce c, \nJeroen C.J. Groot b",
+          "bbox": [
+            37.587398529052734,
+            205.74708557128906,
+            467.3611145019531,
+            236.84884643554688
+          ]
+        },
+        {
+          "id": "p1-b5-f49e794",
+          "kind": "paragraph",
+          "text": "a Ecosystems Management, Department of Environmental Systems Science, Institute of Terrestrial Ecosystems, ETH Zürich, Zürich, Switzerland \nb Farming Systems Ecology Group, Wageningen University & Research, P.O. Box 430, 6700 AK, Wageningen, The Netherlands \nc Animal and Crop Production Department, Universidad Aut´onoma Metropolitana-Xochimilco, Calzada del Hueso 1100, Col. Villa Quietud, 04960, Mexico City, Mexico \nd Agroecology, Environment and Systems Group, Instituto de Investigaciones Forestales y Agropecuarias de Bariloche (IFAB), INTA-CONICET, Modesta Victoria 4450 – \nCC 277 (8400), San Carlos de Bariloche, Río Negro, Argentina \ne Agro´ecologie et Intensification Durable (AïDA), Centre de coop´eration Internationale en Recherche Agronomique pour le D´eveloppement (CIRAD), Universit´e de \nMontpellier, 34000 Montpellier, France \nf Groningen Institute of Evolutionary Life Sciences, Groningen University, P.O. Box 11103, 9700 CC Groningen, The Netherlands",
+          "bbox": [
+            37.587398529052734,
+            238.19540405273438,
+            485.78692626953125,
+            311.43499755859375
+          ]
+        },
+        {
+          "id": "p1-b6-557615b",
+          "kind": "paragraph",
+          "text": "H I G H L I G H T S",
+          "bbox": [
+            37.587398529052734,
+            332.8944396972656,
+            112.71508026123047,
+            344.29644775390625
+          ]
+        },
+        {
+          "id": "p1-b7-4431dc1",
+          "kind": "paragraph",
+          "text": "• Food production and ecosystem services can be improved by reconfiguring landscapes. \n• Often neglected vitamins for human nutrition should be considered when designing landscapes. \n• Exploration of trade-offs and synergies between indicators shows the room to maneuver in planning processes. \n• Visualization of a large array of landscape redesign options informs to decision making and planning by communities.",
+          "bbox": [
+            37.587398529052734,
+            352.2150573730469,
+            427.58697509765625,
+            394.159912109375
+          ]
+        },
+        {
+          "id": "p1-b8-19af77a",
+          "kind": "paragraph",
+          "text": "A R T I C L E  I N F O",
+          "bbox": [
+            37.587398529052734,
+            416.7994384765625,
+            126.12201690673828,
+            428.2014465332031
+          ]
+        },
+        {
+          "id": "p1-b9-bacf52c",
+          "kind": "paragraph",
+          "text": "Keywords: \nLandscape design \nNutrient-sensitive \nFood security \nSelf-sufficiency \nEcosystem services",
+          "bbox": [
+            37.587398529052734,
+            436.05340576171875,
+            93.01182556152344,
+            489.3367919921875
+          ]
+        },
+        {
+          "id": "p1-b10-c0671f4",
+          "kind": "paragraph",
+          "text": "A B S T R A C T",
+          "bbox": [
+            201.9969940185547,
+            416.7994384765625,
+            269.1467590332031,
+            428.2014465332031
+          ]
+        },
+        {
+          "id": "p1-b11-acdfcc4",
+          "kind": "paragraph",
+          "text": "In Mexico, the traditional MILPA polycropping system is giving way to maize monocultures, impacting the \nnutritional diversity of smallholder farmers and diminishing ecosystem services. This study explores landscape \nalternatives to enhance nutritional self-sufficiency and environmental performance in rural communities, \ncomparing scenarios without (S1) and with (S2) innovative cropping systems. The innovations, maize-squash and \nMIAF (a variation of MILPA with fruit trees), were evaluated using the LandscapeIMAGES modeling framework \nin two Oaxacan municipalities: Santa Catarina Tayata (SCT) and San Crist´obal Amoltepec (SCA). The assessment \nconsidered nutritional elements, ecosystem services proxies, labor requirements, and income associated with \nvarious land-use options. In scenario S1, nutritional self-sufficiency was achievable in SCT but not in SCA, even \nwith a 17% expansion of agriculture into forest and grassland areas. Scenario S2, incorporating maize-squash and \nMIAF, facilitated nutritional self-sufficiency in both municipalities, while concurrently boosting incomes, carbon \nstocks, and reducing soil erosion. This research underscores the potential of reshaping landscapes in small \ncommunities to address widespread issues like nutritional gaps and inadequate natural resource conservation. By \nemphasizing innovative cropping systems, the study provides positive solutions to enhance the well-being of \nsmallholder farmers and promote sustainable land use practices in the face of evolving agricultural trends.",
+          "bbox": [
+            201.9969940185547,
+            436.12005615234375,
+            559.7669067382812,
+            572.1739501953125
+          ]
+        },
+        {
+          "id": "p1-b12-6e62ee8",
+          "kind": "heading",
+          "text": "1. Introduction",
+          "bbox": [
+            37.587398529052734,
+            599.1797485351562,
+            100.17181396484375,
+            612.2108764648438
+          ]
+        },
+        {
+          "id": "p1-b13-2c4e446",
+          "kind": "paragraph",
+          "text": "Agricultural production has managed to keep pace with population \ngrowth in the last decades (Willett et al., 2019). However, the number of",
+          "bbox": [
+            37.587398529052734,
+            620.098876953125,
+            291.03021240234375,
+            643.561279296875
+          ]
+        },
+        {
+          "id": "p1-b14-d80628f",
+          "kind": "paragraph",
+          "text": "food insecure people has seen an unprecedented rise since World War II \n(UN), according to the UN’s recent secretary-general, Guterres (2022). \nThe rise in food insecurity can be attributed to major events such as \nBrexit, the COVID-19 pandemic, the China-USA trade war, and the",
+          "bbox": [
+            306.5926208496094,
+            599.1797485351562,
+            560.0059814453125,
+            643.561279296875
+          ]
+        },
+        {
+          "id": "p1-b15-7a57fd5",
+          "kind": "paragraph",
+          "text": "* Corresponding author at: Universit¨atstrasse 16, 8092, Zürich, Switzerland. \nE-mail addresses: ivan.novotny@usys.ethz.ch (I.P. Novotny), walter.rossing@wur.nl (W.A.H. Rossing), p.a.tittonell@rug.nl (P. Tittonell), mfponce@correo.xoc. \nuam.mx (M. Fuentes-Ponce), jeroen.groot@wur.nl (J.C.J. Groot).",
+          "bbox": [
+            37.58750915527344,
+            659.4910888671875,
+            559.7395629882812,
+            690.380859375
+          ]
+        },
+        {
+          "id": "p1-b17-b0658ce",
+          "kind": "paragraph",
+          "text": "Contents lists available at ScienceDirect",
+          "bbox": [
+            228.41600036621094,
+            59.29375076293945,
+            371.40277099609375,
+            72.32485961914062
+          ]
+        },
+        {
+          "id": "p1-b18-86f4ec9",
+          "kind": "heading",
+          "text": "Landscape and Urban Planning",
+          "bbox": [
+            201.94000244140625,
+            80.03680419921875,
+            399.6263122558594,
+            102.84097290039062
+          ]
+        },
+        {
+          "id": "p1-b19-a07a70b",
+          "kind": "paragraph",
+          "text": "journal homepage: www.elsevier.com/locate/landurbplan",
+          "bbox": [
+            190.375,
+            118.17890930175781,
+            409.3917541503906,
+            126.14900970458984
+          ]
+        },
+        {
+          "id": "p1-b21-ef825cb",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1016/j.landurbplan.2024.105041 \nReceived 20 February 2023; Received in revised form 10 January 2024; Accepted 16 February 2024",
+          "bbox": [
+            37.587398529052734,
+            695.66064453125,
+            366.92132568359375,
+            716.9127807617188
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure3",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p1-figure3.png",
+          "alt": "Original source page 1, graphic 3",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p2-b1-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p2-b2-749cab8",
+          "kind": "paragraph",
+          "text": "Ukraine-Russia war, which have disrupted global markets (Carriquiry, \nDumortier, & Elobeid, 2022). The cascading effects of these major \nevents have prompted nations to reconsider the role of self-sufficiency \n(Bisoffi et al., 2021; Mottaleb, Kruseman, & Snapp, 2022). Concur­\nrently, food systems contribute to climate change by emitting one-third \nof greenhouse gases (GHG) (Geyik, Hadjikakou, & Bryan, 2022). The \nIPCC (2022) predicts a worsening negative impact of climate change on \nfood security. The interconnectedness of agriculture with global issues \nsuch as persistent food insecurity, incremental CO2 emissions, and \ndegradation of natural services raises the question of how to produce \nmore sustainable and diverse food for an ever-increasing population \nwhile restoring the environment (Ickowitz et al., 2022; Powell et al., \n2015). Thus, landscape planning approaches that account for the so­\ncioeconomic and environmental complexity of food systems are \nessential. \nIn Latin America, two major types of food production systems \ncoexist: intensified techno-centric monocropping systems and tradi­\ntional diversified production systems (Parraguez-Vergara et al., 2018). \nThe former, despite bringing increased yields through improved genetic \nmaterial and intense input use, has proven ineffective against hunger \nand it is linked with unemployment, migration, and ecosystem degra­\ndation (Altieri & Nicholls, 2008; FAO, 2014; de Gordillo, 2004; Jokisch, \n2002). Nevertheless, public incentives and labor shortages are compel­\nling smallholder farmers to shift away from crop diversity towards \nsimplified systems (Parraguez-Vergara et al., 2018), potentially having \nnegative implications for food security in rural areas (Isakson, 2009). \nThis oversimplification of agricultural systems is a global issue, as food \nsystems worldwide are failing to produce enough crop variety to ensure \na healthy and balanced diet, with only three crops (rice, maize, and \nwheat) providing 48% of the daily human calorie consumption (FAO, \n2018). \nThe traditional Mexican cropping system MILPA centers around \nmaize, which is combined with other species such as common beans \n(Phaseolus vulgaris), fava beans (Vicia faba), and squash (Cucurbita spp.). \nThis cropping system holds high potential for contributing to nutritional \nself-sufficiency, defined as the relation between the availability of nu­\ntrients and vitamins from locally produced products and the mean rec­\nommended intake of these nutrients and vitamins (Sioen, Sekiyama, \nTerada, & Yokohari, 2017). Despite its many advantages, MILPA is being \nreplaced by monocultures, leading to the freeing up of labor for off-farm \nactivities at the expense of the production and consumption of vitamins \nA and C, as observed in southern Mexico (Novotny, Fuentes-Ponce, \nTittonell, Lopez-Ridaura, & Rossing, 2021). The low nutritional self- \nsufficiency at the household level is also reflected at the national \nlevel, with the country increasing grain imports by 65% between 2007 \nand 2012 (Senado de la Republica, 2017). \nThe Nutrition-Sensitive Landscape (NSL) framework was proposed \nfor analyzing landscape ecosystem services and nutritional performance \n(Bioversity International, 2014; Groot et al., 2017; Kennedy et al., \n2017). Here we use the framework to explore landscape configurations \nprospectively and in a spatially explicit fashion. The application of the \nNSL framework is particularly relevant for Mexico, where food security \nand environmental conservation are often considered separately and at \nthe national rather than at the local level (Galeana-Piza˜na, Couturier, & \nMonsivais-Huertero, 2018). \nResearch in nutrition-sensitive agriculture and landscape planning \nhas been gaining traction over the past years, exploring various topics \nsuch as the relationship between closing global nutrient gaps and \ngreenhouse gas emissions (Geyik et al., 2022) and exploring farm-scale \nmanagement options for improving agricultural production and nutri­\ntion (Timler et al., 2020). To our knowledge, however, there is currently \nno study that evaluates mid-scale landscape-level management options \nfor improving food production and the provisioning of ecosystem \nservices. \nFor that reason, this study focuses on two municipalities in southern \nMexico. We chose the municipal level as an administrative unit where",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.03497314453125,
+            744.2991333007812
+          ]
+        },
+        {
+          "id": "p2-b3-3b12368",
+          "kind": "paragraph",
+          "text": "the local authorities and local population interact to manage the \ncommunal land. This decision-making process can have significant \npositive or negative impacts on the landscape, as shown by Novotny, \nTittonell, Fuentes-Ponce, L´opez-Ridaura, and Rossing (2021). We \nselected the state of Oaxaca for being one of the most marginalized states \nin Mexico (CONAPO, 2016) and for presenting large degrees of land \ndegradation. Improving nutritional self-sufficiency through a landscape \nre-design can be beneficial to these marginalized communities where \naccess to food from markets is restricted (Galeana-Piza˜na et al., 2018). \nFood security depends not only on availability but also on access, sta­\nbility, and utilization (FAO, 1996). Here, we focus on food availability \nfrom local production and food utilization, estimated through a com­\nbination of field surveys, land-use/land-cover (LULC) maps, and dietary \nreference intake of several nutrients and vitamins. \nThe two municipalities chosen for this study have contrasting so­\ncioeconomic contexts. The first municipality, San Cristobal Amoltepec, \nis characterized by low crop yields and high population density, \nresulting in pressure on the land. The second community, Santa Catarina \nTayata, is marked by intense abandonment of agriculture and negative \ndemographic growth. Together, these communities are representative of \nother municipalities in Mexico (Novotny et al., 2021). Our goal is to \ncompare the current landscape performance of these two communities \nin terms of food production and nutritional diversity. Subsequently, we \nexplored ways to improve the nutritional, socio-economic, and envi­\nronmental landscape performances through (i) the expansion of current \nLULC and cropping systems, or (ii) the introduction of alternative and \ndiversified cropping systems.",
+          "bbox": [
+            306.59417724609375,
+            51.30048751831055,
+            560.0242309570312,
+            336.34075927734375
+          ]
+        },
+        {
+          "id": "p2-b4-a77f4aa",
+          "kind": "heading",
+          "text": "2. Materials and methods",
+          "bbox": [
+            306.59417724609375,
+            344.3427429199219,
+            408.69354248046875,
+            357.37384033203125
+          ]
+        },
+        {
+          "id": "p2-b5-6ce1f26",
+          "kind": "heading",
+          "text": "2.1. Study area and production systems",
+          "bbox": [
+            306.59417724609375,
+            365.2618408203125,
+            444.49285888671875,
+            378.2929382324219
+          ]
+        },
+        {
+          "id": "p2-b6-9b673b0",
+          "kind": "paragraph",
+          "text": "This study was conducted in two neighboring municipalities, Santa \nCatarina Tayata (SCT) and San Cristobal Amoltepec (SCA), located in the \nstate of Oaxaca, Mexico (Fig. 1). The two communities are similar in \nterms of climate conditions, cropping systems, and community land­\nscape management (Novotny et al., 2021). They differ, however, in \ndemography, crop performance, and LULC configuration. The three \ndominant cropping systems in the area are monocultures of maize and \ncommon bean and MILPA. MILPA systems in this region include maize in \ncombination with one or more of the following crops: common bean, \nfava bean, and squash. Cropping may be followed by a fallow period, \nwhich usually lasts one year but may last up to five years. Sheep hus­\nbandry is the most common type of animal production. Sheep mostly \nforage on fallow fields and grasslands in communal areas. \nLike in other municipalities of Mexico, the land in SCT and SCA is \ndivided into common and private land (Fig. 1). Cropping activities are \nperformed exclusively on private land, although this is not the rule in \nother municipalities. Common land is managed by Bienes Comunales \n(BC), a local institution that enforces local regulations decided on by \nmunicipal assemblies. Forest and grassland are the most frequent LULCs \non common land. Settlement areas were left out of the analysis as they \nare not managed by the community. \nBoth communities are considered marginalized (CONAPO, 2016). \nSCT is self-sufficient for more nutrients and vitamins than SCA, but \nneither community is entirely self-sufficient (Novotny et al., 2021). Over \nthe last three decades, SCT and SCA increased forest cover and reduced \nthe surface with bare soil through a series of local regulations (Novotny \net al., 2021).",
+          "bbox": [
+            306.59417724609375,
+            386.18096923828125,
+            560.0194702148438,
+            671.166259765625
+          ]
+        },
+        {
+          "id": "p2-b7-67c2e55",
+          "kind": "heading",
+          "text": "2.2. Nutrition-sensitive landscapes and modeling framework",
+          "bbox": [
+            306.59417724609375,
+            679.5643310546875,
+            511.8975524902344,
+            692.595458984375
+          ]
+        },
+        {
+          "id": "p2-b8-15b747e",
+          "kind": "paragraph",
+          "text": "Kennedy et al. (2017) established the NSL framework, integrating \nUNICEF’s conceptual framework for nutrition with ecosystem service \nfunctions. Derived from the UNICEF framework addressing malnutrition \nissues, including food insecurity, inadequate maternal and child care,",
+          "bbox": [
+            306.59417724609375,
+            700.4842529296875,
+            559.989990234375,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p2-b9-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p3-b1-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p3-b2-cbd770f",
+          "kind": "paragraph",
+          "text": "insufficient health services, and unhealthy environments (UNICEF, \n1991), the NSL approach focuses on enhancing human nutrition and \nhealth. It particularly targets locations where natural resources are \nmanaged by stakeholders with diverse and often conflicting objectives \n(Kennedy et al., 2017). \nIn this study, The LandscapeIMAGES (Landscape Interactive Multi- \nGoal Agroecosystem Generation and Evaluation System – LI, Groot \net al., 2007) was employed. This framework facilitates the evaluation of \nthe current and alternative performance of landscapes using a Pareto- \nbased multi-objective Differential Evolution (P-MODE) algorithm. The \naim was to explore trade-offs and synergies among various landscape \nperformance indicators, such as soil erosion, food provision, habitat \nconnectivity, and carbon sequestration (Groot et al., 2007, 2009). For \neach map polygon, alternative LULCs are described by decision variables \nthat are iteratively varied by the optimization algorithm. Pareto- \noptimality is achieved when the performance of a landscape in terms \nof a particular indicator cannot be improved without compromising \nperformance in one or more other indicators (Groot, Yalew, & Rossing, \n2018). \nThis study adopted a a five-step approach to apply the model (Fig. 2), \ndetailed in the subsequent sub-sections. First, data was collected, and \nproduction, socioeconomic, and environmental indicators were calcu­\nlated. Second, different LULCs were classified. Third, the combined \nLULC classification and indicators were employed to assess landscape \nperformance. Fourth, stakeholders’ objectives and potential alternative \nscenarios were identified. Lastly, stakeholders’ objectives were",
+          "bbox": [
+            37.587398529052734,
+            462.66375732421875,
+            291.0341796875,
+            737.1595458984375
+          ]
+        },
+        {
+          "id": "p3-b3-65e6d63",
+          "kind": "paragraph",
+          "text": "translated into six indicators, and the Pareto-based differential evolution \nmethod was utilized to evaluate trade-offs and synergies across these \nindicators.",
+          "bbox": [
+            306.5926208496094,
+            462.66375732421875,
+            560.0219116210938,
+            496.6139831542969
+          ]
+        },
+        {
+          "id": "p3-b4-f040d05",
+          "kind": "paragraph",
+          "text": "2.2.1. Data collection and quantification of indicators \nTo comprehensively assess nutrition, socio-economic factors, and \nenvironmental aspects, a diverse set of data sources and measurement \ntechniques was employed (Table 1). The primary data collection \nmethods included a household survey conducted in December 2017, \nencompassing 60 respondents (30 in SCT and 30 in SCA), yielding in­\nsights from 157 plots (Novotny et al., 2021). The survey, strategically \nselecting participants for geographic diversity, covered crucial aspects \nsuch as family structure, production systems, labor allocation, and \neconomic performance. \nCrop yields and sheep production estimates derived from the survey \ndata revealed a consistent sheep stocking rate (3.5 sheep ha−1 of \ngrassland) across both municipalities. Although average crop yields \nwere similar, SCA consistently exhibited lower attainable yields (highest \nobserved yields) (Table 3). To account for the polyculture nature of \nMILPA, the Land Equivalent Ratio (LER; Mead & Willey, 1980) was \ncalculated, utilizing average and highest observed yields for both mu­\nnicipalities. Squash production, absent as a monocrop, was estimated \nusing the average squash production in the state of Guerrero (10 Mg \nha−1; SIAP, 2017), the nearest state with relevant squash data. \nThe study used the Nutrient System Yield (NSYj,p, persons ha−1",
+          "bbox": [
+            306.5926208496094,
+            504.50201416015625,
+            560.0233154296875,
+            727.1600341796875
+          ]
+        },
+        {
+          "id": "p3-b5-f9f3f2e",
+          "kind": "paragraph",
+          "text": "year−1) to quantify nutrient and vitamin yield, considering various crops",
+          "bbox": [
+            306.5950012207031,
+            722.9987182617188,
+            559.9927978515625,
+            737.1621704101562
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b7-aaa3429",
+          "kind": "paragraph",
+          "text": "Fig. 1. Location of the case study municipalities Santa Catarina Tayata and San Crist´obal Amoltepec within the state of Oaxaca.",
+          "bbox": [
+            91.04879760742188,
+            441.16607666015625,
+            508.4599304199219,
+            452.8939514160156
+          ]
+        },
+        {
+          "id": "p3-b8-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p4-b1-4b22777",
+          "kind": "paragraph",
+          "text": "4",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p4-b2-3fd7e15",
+          "kind": "paragraph",
+          "text": "and cropping systems. Nutritional self-sufficiency (NSSj,p) for each \nnutrient or vitamin in a municipality was calculated by dividing NSYj,p \nby the population size. NSYj,p was calculated as:",
+          "bbox": [
+            37.587398529052734,
+            583.36279296875,
+            290.9952087402344,
+            617.79931640625
+          ]
+        },
+        {
+          "id": "p4-b3-8b8be7e",
+          "kind": "paragraph",
+          "text": "NSYj,p =",
+          "bbox": [
+            37.58904266357422,
+            628.9249267578125,
+            66.23137664794922,
+            638.0859985351562
+          ]
+        },
+        {
+          "id": "p4-b4-3ae1783",
+          "kind": "paragraph",
+          "text": "∑n\nm=1CYj,m × NCp,m",
+          "bbox": [
+            68.42829895019531,
+            617.5869140625,
+            132.47402954101562,
+            633.3644409179688
+          ]
+        },
+        {
+          "id": "p4-b5-140db28",
+          "kind": "paragraph",
+          "text": "Rp",
+          "bbox": [
+            96.71810150146484,
+            634.7664184570312,
+            106.79522705078125,
+            643.2290649414062
+          ]
+        },
+        {
+          "id": "p4-b6-680df2e",
+          "kind": "paragraph",
+          "text": "where p is a nutrient or vitamin, CY is the yield of an individual crop m in \nMg/ha year−1 in municipality j. NCp,m is the content of nutrient or \nvitamin p (unit dependent on the nutrient or vitamin) per Mg of crop m. \nRp is the annual Dietary Reference Intake (DRI, National Academy of \nSciences, 2011) per person for nutrient p (adapted from Timler et al., \n2020). \nThe nutritional self-sufficiency (NSSj,p) for individual nutrients and \nvitamins p in municipality j was calculated as:",
+          "bbox": [
+            37.587398529052734,
+            650.9967651367188,
+            291.03021240234375,
+            737.2186889648438
+          ]
+        },
+        {
+          "id": "p4-b7-7ef5f42",
+          "kind": "paragraph",
+          "text": "NSSj,p = NSYj,p",
+          "bbox": [
+            306.59381103515625,
+            592.2463989257812,
+            355.6988830566406,
+            606.4509887695312
+          ]
+        },
+        {
+          "id": "p4-b8-6ef413a",
+          "kind": "paragraph",
+          "text": "Popj",
+          "bbox": [
+            338.9100036621094,
+            603.1314086914062,
+            355.8094177246094,
+            611.5950927734375
+          ]
+        },
+        {
+          "id": "p4-b9-c934c7f",
+          "kind": "paragraph",
+          "text": "where Popj is the population size of municipality j, which was 680 \npersons for SCT and 1005 persons for SCA (INEGI, 2015). The Dietary \nReference Intake for the population between 31 and 50 years old was \nused as this range is representative of the population average of both \ncommunities. Deviating requirements of pregnant women and children \nwere not considered here, as their special dietary requirements demand \nspecific analyses. \nErosion was estimated based on a study conducted in the area \n(Naranjo et al., 2021), which collected the eroded soil after 39 precip­\nitation events in plots with forest, maize, and fallow after 39 precipi­\ntation events.",
+          "bbox": [
+            306.5950012207031,
+            619.36279296875,
+            560.021240234375,
+            736.9910888671875
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-b11-ea33d3d",
+          "kind": "paragraph",
+          "text": "Fig. 2. Methodoological framework with steps in the data acquisition and modelling approach. Arrows show the connection between the different steps taken to \ncollect and analyze the data. Colored rows represent the major phases of data collection and analysis.",
+          "bbox": [
+            37.587398529052734,
+            552.341064453125,
+            559.7760009765625,
+            573.5932006835938
+          ]
+        },
+        {
+          "id": "p4-b12-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p5-b1-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p5-b2-2ebbeca",
+          "kind": "paragraph",
+          "text": "Income generated from various activities (sheep-grazed grassland, \nmaize, bean, and MILPA) was calculated by subtracting production costs \n(e.g., labor, inputs) from product prices. \nLocally available labor was determined from INEGI (2010), consid­\nering the population between 15 and 60 years of age and an 8-hour \nworking day. Only labor requirements for May and June were consid­\nered and compared with locally available labor. This time frame was \npreferred over the annual requirement because May and June are the \nmost labor-demanding months during which locally available labor \nshould be available. \nTo determine carbon stock for each LULC, the analysis considered \nsoil organic matter (SOM) and above-ground biomass (AGB). SOM data \nwere derived from 64 stratified random soil samples, accounting for \nbulk density. For AGB, focus was placed on pasture and forest classes, \nexcluding bare soil devoid of vegetation and crop residues removed \npost-harvest. \nForest AGB calculation involved identifying trees with a diameter \nexceeding 7 cm at breast height (DBH) across 14 forest plots covering a \n200 m2 surface. Tree height information was incorporated into an \nallometric formula to quantify biomass (N´avar, 2009). A distinct allo­\nmetric model estimated below-ground biomass from tree AGB (Mokany, \nRaison, & Prokushkin, 2006). Additionally, understory biomass was \nassessed by collecting non-woody material in a 1 m2 quadrant, dried for \n48 h at 70 ◦C, and weighed (Bartholom´ee, Grigulis, Colace, Arnoldi, & \nLavorel, 2018). Combining tree and understory biomass provided the \ntotal AGB. Pasture AGB estimation mirrored understory biomass, \ninvolving cutting and weighing vegetation in a 1 m2 quadrant. Below- \nground biomass (BGB) for pastures was derived by multiplying AGB \nby a factor of 1.6 (Eggleston, 2006). \nThree additional landscape indicators—nutritional evenness, \nSatoyama index, and habitat connectivity—were computed based on \nLULC spatial distribution (Fig. 3). Nutritional evenness, assessed via the \nShannon index, gauged food richness and evenness in each municipality \n(Remans et al., 2011). A higher nutritional evenness signifies potential \nfor a more balanced and diverse diet, crucial in mitigating issues related \nto hidden hunger (Bamji, Murty, & Sudhir, 2021). The Satoyama index \nwas calculated following the methodology by Kadoya and Washitani \n(2011), incorporating Simpson’s diversity index and the Compound \nIndex, its value ranges from 0 (homogeneous monoculture landscape) to \n1 (highly diverse landscape). The habitat connectivity, indicating the \nspatial contiguity of forests and biodiversity potential (Groot et al., \n2018), was calculated using the method by Urban and Keitt (2001).",
+          "bbox": [
+            306.5954895019531,
+            51.29973220825195,
+            560.0254516601562,
+            493.2103576660156
+          ]
+        },
+        {
+          "id": "p5-b3-5674431",
+          "kind": "paragraph",
+          "text": "2.2.2. LULC classification \nGIS polygons serve as a powerful tool to illustrate the structural \ncomponents of an agricultural landscape, encompassing fields, borders, \nroads, rivers, and more. Linear features such as field borders and \nhedgerows are represented using GIS line elements. Information specific \nto each landscape element is integrated into the GIS file as an internal \nattribute table. Additional details regarding alternative properties, such \nas vegetation type and land use, as well as the management of landscape \nelements, are stored in database tables using MS Access/SQLite. \nLI captures information about each landscape element in the GIS \nfile’s attribute table (Groot et al., 2018). In this study, the key landscape \nelements encompass various LULC classes, including forest, agricultural \nfields, and pasture. To categorize these elements, a LULC classification \nwas performed using a Landsat 8 image taken in October 2017 with a \nspatial resolution of 30 m (https://earthexplorer.usgs.gov), carefully \nchosen for minimal cloud cover and high contrast between LULCs. \nApplying the Dark Object Subtraction atmospheric correction \nmethod (Ellis & Porter-Bolland, 2008), the semi-supervised classifica­\ntion method was utilized. It combines elements of both supervised and \nunsupervised classification, leveraging a small amount of labeled data \n(supervised learning) sampled from Google Earth’s high-resolution map \n(WorldView-2, 0.5 m resolution), and applying a maximum likelihood \nalgorithm to classify the remaining, unsampled data (unsupervised,",
+          "bbox": [
+            306.59771728515625,
+            501.098388671875,
+            560.022216796875,
+            744.30126953125
+          ]
+        },
+        {
+          "id": "p5-b4-1413fae",
+          "kind": "paragraph",
+          "text": "Table 1 \nNutritional, socio-economic, and environmental indicators and sources used as \ninputs for each LULC.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            290.7655944824219,
+            83.42589569091797
+          ]
+        },
+        {
+          "id": "p5-b5-88f0dc6",
+          "kind": "paragraph",
+          "text": "Indicator type \nIndicator \nUnits \nUsed in LI \nas1",
+          "bbox": [
+            43.5968017578125,
+            85.74838256835938,
+            217.00596618652344,
+            104.79000854492188
+          ]
+        },
+        {
+          "id": "p5-b6-0e570ca",
+          "kind": "paragraph",
+          "text": "Source",
+          "bbox": [
+            230.57000732421875,
+            85.74838256835938,
+            251.4447021484375,
+            96.17298126220703
+          ]
+        },
+        {
+          "id": "p5-b7-6f54e2c",
+          "kind": "paragraph",
+          "text": "Nutritional \nNutritional \nevenness \n– \nIndicator \nSurvey +\nliterature2",
+          "bbox": [
+            43.59928894042969,
+            107.51762390136719,
+            262.31317138671875,
+            126.50313568115234
+          ]
+        },
+        {
+          "id": "p5-b8-4e43136",
+          "kind": "paragraph",
+          "text": "NSYDietary.",
+          "bbox": [
+            96.9448013305664,
+            124.63943481445312,
+            127.17347717285156,
+            135.300048828125
+          ]
+        },
+        {
+          "id": "p5-b9-381cfb6",
+          "kind": "paragraph",
+          "text": "energy",
+          "bbox": [
+            96.94499969482422,
+            136.5676727294922,
+            112.65766906738281,
+            143.86026000976562
+          ]
+        },
+        {
+          "id": "p5-b10-5ea9da2",
+          "kind": "paragraph",
+          "text": "Persons \nfed yr−1",
+          "bbox": [
+            146.7779998779297,
+            124.63943481445312,
+            171.1669158935547,
+            143.62432861328125
+          ]
+        },
+        {
+          "id": "p5-b11-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            141.21644592285156,
+            161.47190856933594,
+            152.1850128173828
+          ]
+        },
+        {
+          "id": "p5-b12-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            124.63943481445312,
+            262.31317138671875,
+            143.62432861328125
+          ]
+        },
+        {
+          "id": "p5-b13-e997bae",
+          "kind": "paragraph",
+          "text": "NSYProtein \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            150.32138061523438,
+            171.1669158935547,
+            169.3062744140625
+          ]
+        },
+        {
+          "id": "p5-b14-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            166.89845275878906,
+            161.47190856933594,
+            177.8670196533203
+          ]
+        },
+        {
+          "id": "p5-b15-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            150.32138061523438,
+            262.31317138671875,
+            169.3062744140625
+          ]
+        },
+        {
+          "id": "p5-b16-0832eb5",
+          "kind": "paragraph",
+          "text": "NSYCa \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            176.05941772460938,
+            171.1669158935547,
+            195.0443115234375
+          ]
+        },
+        {
+          "id": "p5-b17-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            192.63746643066406,
+            161.47190856933594,
+            203.6060333251953
+          ]
+        },
+        {
+          "id": "p5-b18-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            176.05941772460938,
+            262.31317138671875,
+            195.0443115234375
+          ]
+        },
+        {
+          "id": "p5-b19-3852b91",
+          "kind": "paragraph",
+          "text": "NSYP \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            201.74142456054688,
+            171.1669158935547,
+            220.726318359375
+          ]
+        },
+        {
+          "id": "p5-b20-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            218.31947326660156,
+            161.47190856933594,
+            229.2880401611328
+          ]
+        },
+        {
+          "id": "p5-b21-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            201.74142456054688,
+            262.31317138671875,
+            220.726318359375
+          ]
+        },
+        {
+          "id": "p5-b22-37be368",
+          "kind": "paragraph",
+          "text": "NSYFe \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            227.42343139648438,
+            171.1669158935547,
+            246.46507263183594
+          ]
+        },
+        {
+          "id": "p5-b23-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            244.0574493408203,
+            161.47190856933594,
+            255.02601623535156
+          ]
+        },
+        {
+          "id": "p5-b24-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            227.42343139648438,
+            262.31317138671875,
+            246.46507263183594
+          ]
+        },
+        {
+          "id": "p5-b25-337c5cc",
+          "kind": "paragraph",
+          "text": "NSYMg \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            253.16238403320312,
+            171.1669158935547,
+            272.1472473144531
+          ]
+        },
+        {
+          "id": "p5-b26-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            269.73944091796875,
+            161.47190856933594,
+            280.7080078125
+          ]
+        },
+        {
+          "id": "p5-b27-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            253.16238403320312,
+            262.31317138671875,
+            272.1472473144531
+          ]
+        },
+        {
+          "id": "p5-b28-bf7111f",
+          "kind": "paragraph",
+          "text": "NSYZn \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            278.84442138671875,
+            171.1669158935547,
+            297.82928466796875
+          ]
+        },
+        {
+          "id": "p5-b29-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            295.42144775390625,
+            161.47190856933594,
+            306.3900146484375
+          ]
+        },
+        {
+          "id": "p5-b30-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            278.84442138671875,
+            262.31317138671875,
+            297.82928466796875
+          ]
+        },
+        {
+          "id": "p5-b31-f8fd748",
+          "kind": "paragraph",
+          "text": "NSYVit.A \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            304.5823974609375,
+            171.1669158935547,
+            323.5672607421875
+          ]
+        },
+        {
+          "id": "p5-b32-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            321.16046142578125,
+            161.47190856933594,
+            332.12799072265625
+          ]
+        },
+        {
+          "id": "p5-b33-5e72ec7",
+          "kind": "paragraph",
+          "text": "Objective \n(increase) \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            304.5823974609375,
+            262.31317138671875,
+            323.5672607421875
+          ]
+        },
+        {
+          "id": "p5-b34-1c229b5",
+          "kind": "paragraph",
+          "text": "NSYVit.B2 \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            330.264404296875,
+            171.1669158935547,
+            349.249267578125
+          ]
+        },
+        {
+          "id": "p5-b35-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            346.84246826171875,
+            161.47190856933594,
+            357.80999755859375
+          ]
+        },
+        {
+          "id": "p5-b36-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            330.264404296875,
+            262.31317138671875,
+            349.249267578125
+          ]
+        },
+        {
+          "id": "p5-b37-831f1b9",
+          "kind": "paragraph",
+          "text": "NSYVit.B3 \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            355.9464111328125,
+            171.1669158935547,
+            374.9312744140625
+          ]
+        },
+        {
+          "id": "p5-b38-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            372.5804443359375,
+            161.47190856933594,
+            383.54901123046875
+          ]
+        },
+        {
+          "id": "p5-b39-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            355.9464111328125,
+            262.31317138671875,
+            374.9312744140625
+          ]
+        },
+        {
+          "id": "p5-b40-0aa7a27",
+          "kind": "paragraph",
+          "text": "NSYVit.B6 \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            381.6853942871094,
+            171.1669158935547,
+            400.6702575683594
+          ]
+        },
+        {
+          "id": "p5-b41-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            398.262451171875,
+            161.47190856933594,
+            409.2309875488281
+          ]
+        },
+        {
+          "id": "p5-b42-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            381.6853942871094,
+            262.31317138671875,
+            400.6702575683594
+          ]
+        },
+        {
+          "id": "p5-b43-d948cfc",
+          "kind": "paragraph",
+          "text": "NSYVit.B9 \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            407.36639404296875,
+            171.1669158935547,
+            426.35125732421875
+          ]
+        },
+        {
+          "id": "p5-b44-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            423.9444580078125,
+            161.47190856933594,
+            434.9129943847656
+          ]
+        },
+        {
+          "id": "p5-b45-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            407.36639404296875,
+            262.31317138671875,
+            426.35125732421875
+          ]
+        },
+        {
+          "id": "p5-b46-1cf37c0",
+          "kind": "paragraph",
+          "text": "NSYVit.B12 \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            433.04840087890625,
+            171.1669158935547,
+            452.09002685546875
+          ]
+        },
+        {
+          "id": "p5-b47-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            449.6834411621094,
+            161.47190856933594,
+            460.6510009765625
+          ]
+        },
+        {
+          "id": "p5-b48-5e72ec7",
+          "kind": "paragraph",
+          "text": "Objective \n(increase) \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            433.04840087890625,
+            262.31317138671875,
+            452.09002685546875
+          ]
+        },
+        {
+          "id": "p5-b49-fbb0ac7",
+          "kind": "paragraph",
+          "text": "NSYVit.C \nPersons \nfed yr−1",
+          "bbox": [
+            96.9448013305664,
+            458.78741455078125,
+            171.1669158935547,
+            477.77227783203125
+          ]
+        },
+        {
+          "id": "p5-b50-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            475.36444091796875,
+            161.47190856933594,
+            486.3330078125
+          ]
+        },
+        {
+          "id": "p5-b51-daaa9ce",
+          "kind": "paragraph",
+          "text": "Indicator \nSurvey +\nliterature2",
+          "bbox": [
+            186.46299743652344,
+            458.78741455078125,
+            260.9121398925781,
+            477.77227783203125
+          ]
+        },
+        {
+          "id": "p5-b52-43d3b04",
+          "kind": "paragraph",
+          "text": "Socio- \neconomic \nRequired \nlabor \ndays ha−1 \nObjective \n(decrease)",
+          "bbox": [
+            43.5968017578125,
+            483.9254455566406,
+            217.3414764404297,
+            503.45428466796875
+          ]
+        },
+        {
+          "id": "p5-b53-e34b837",
+          "kind": "paragraph",
+          "text": "Reyna et al.,",
+          "bbox": [
+            230.56954956054688,
+            484.46942138671875,
+            269.60345458984375,
+            494.8940124511719
+          ]
+        },
+        {
+          "id": "p5-b54-adbb94c",
+          "kind": "paragraph",
+          "text": "Locally \navailable \nlabor",
+          "bbox": [
+            96.94600677490234,
+            501.646728515625,
+            124.30499267578125,
+            529.1925048828125
+          ]
+        },
+        {
+          "id": "p5-b55-56aaa2b",
+          "kind": "paragraph",
+          "text": "days ha−1 \nIndicator \nCalculated (Inegi, \n2010)",
+          "bbox": [
+            146.7787628173828,
+            501.10345458984375,
+            282.3769226074219,
+            520.6322631835938
+          ]
+        },
+        {
+          "id": "p5-b56-625212b",
+          "kind": "paragraph",
+          "text": "Income \nMXN yr−1",
+          "bbox": [
+            96.94600677490234,
+            526.7854614257812,
+            176.5529022216797,
+            537.7534790039062
+          ]
+        },
+        {
+          "id": "p5-b57-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            535.346435546875,
+            161.47190856933594,
+            546.3140258789062
+          ]
+        },
+        {
+          "id": "p5-b58-69df088",
+          "kind": "paragraph",
+          "text": "Objective \n(increase) \nSurvey + (Cadena- \nI˜niguez et al., \n2018) \nEnvironmental \nSoil loss \nMg yr−1",
+          "bbox": [
+            43.598846435546875,
+            527.3294067382812,
+            284.57086181640625,
+            563.4354858398438
+          ]
+        },
+        {
+          "id": "p5-b59-30d7a81",
+          "kind": "paragraph",
+          "text": "ha−1",
+          "bbox": [
+            146.7779998779297,
+            561.0274658203125,
+            161.47190856933594,
+            571.9960327148438
+          ]
+        },
+        {
+          "id": "p5-b60-863e6d2",
+          "kind": "paragraph",
+          "text": "Objective \n(decrease) \n(Etchevers et al., \n2004; Naranjo- \nMacias, 2019)  \nTotal carbon \nt ha−1 \nObjective \n(increase) \nCalculated from \nsoil samples + ( \nBos, 2020; \nEtchevers et al., \n2004)  \nHabitat \nconnectivity \nha \nIndicator \nCalculated (Urban \n& Keitt, 2001)  \nSatoyama \nindex \n– \nIndicator \nCalculated ( \nKadoya & \nWashitani, 2011)",
+          "bbox": [
+            96.94600677490234,
+            553.0104370117188,
+            283.9007873535156,
+            666.2752075195312
+          ]
+        },
+        {
+          "id": "p5-b61-f06687f",
+          "kind": "paragraph",
+          "text": "1 “Used in LI as” refers to whether an indicator was defined in Land­\nscapeIMAGES as an “objective” for the multi-objective optimization. Indicators \nnot used as objectives were termed “indicators.”",
+          "bbox": [
+            37.58793640136719,
+            668.4173583984375,
+            290.79193115234375,
+            699.9048461914062
+          ]
+        },
+        {
+          "id": "p5-b62-e19bbe0",
+          "kind": "heading",
+          "text": "2 Literature used: Bressani (2015); Cadena-I˜niguez et al. (2018); Incap (2006); \nJim´enez, Gad´amez, Aguilar, Hern´andez, and Solis (2019); USDA (2010).",
+          "bbox": [
+            37.58793640136719,
+            694.52685546875,
+            290.75103759765625,
+            719.010498046875
+          ]
+        },
+        {
+          "id": "p5-b63-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p6-b1-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p6-b2-e6be715",
+          "kind": "paragraph",
+          "text": "Mekasha, Gerard, Tesfaye, Nigatu, & Duncan, 2014; Tolessa, Senbeta, & \nKidane, 2017). The three LULC labels utilized were forest, cropland/ \ngrassland, and bare soil, achieving an overall classification accuracy of \n88% (Appendix D). \nCropland and grassland were merged under the same label for the \nsemi-supervised classification as these produced very similar spectral \nsignatures. Considering that grassland is important for animal produc­\ntion and cropland for growing crops, they had to be further differenti­\nated. This was done by first using a shapefile containing the land \nownership information of SCT and SCA, which are divided into three \ntypes of land ownership: private plots, common land, and settlement \n(RAN, 2019). To distinguish cropland from grassland, we overlaid the \nshapefile containing the land ownership with our LULC classification \nmap. Our differentiation criteria were: if a classified cropland/grassland \npixel overlayed with a private plot, then it was classified as cropland, if it",
+          "bbox": [
+            37.587398529052734,
+            580.9247436523438,
+            291.0357971191406,
+            740.39208984375
+          ]
+        },
+        {
+          "id": "p6-b3-2bef9b5",
+          "kind": "paragraph",
+          "text": "overlayed with a common area, then it was classified as grassland. Based \non a survey performed before this study (described below), cropland was \nused for growing maize, beans, MILPA, or fallow. Results from this \nsurvey showed that 20% of the cropland area in SCT was occupied by \nmaize, 7% by bean, 33% by MILPA, and 40% by fallow. For SCA 26% of \nthe cropland areas was occupied by maize, 4% by bean, 50% by milpa, \nand 20% by fallow. These proportions were used to randomly distribute \nthese crops across all the classified cropland plots. \nThe Semi-Automatic Classification Plugin (version 6.4.2) for QGIS \n(version 3.4) facilitated the LULC classification process, contributing to \nthe robustness of the study’s GIS-based landscape characterization.",
+          "bbox": [
+            306.5926208496094,
+            580.9247436523438,
+            560.0131225585938,
+            698.5531005859375
+          ]
+        },
+        {
+          "id": "p6-b4-22a6177",
+          "kind": "heading",
+          "text": "2.2.3. Estimating current performance \nMost indicators, except for the Satoyama index, habitat connectivity, \nand nutritional evenness, were calculated per area of each LULC class.",
+          "bbox": [
+            306.5926208496094,
+            706.4410400390625,
+            560.0235595703125,
+            740.39208984375
+          ]
+        },
+        {
+          "id": "p6-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p6-figure1.png",
+          "alt": "Original source page 6, graphic 1",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-b6-555f531",
+          "kind": "paragraph",
+          "text": "Fig. 3. Current landscape configuration in Santa Catarina Tayata and San Cristobal Amoltepec. LULCs such as bean, fallow, maize, and MILPA were randomly \nallocated to the LULC class cropland based on the current proportion of each LULC.",
+          "bbox": [
+            37.587398529052734,
+            549.903076171875,
+            559.7832641601562,
+            571.1552124023438
+          ]
+        },
+        {
+          "id": "p6-b7-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p7-b1-7902699",
+          "kind": "paragraph",
+          "text": "7",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p7-b2-73a1f6b",
+          "kind": "paragraph",
+          "text": "These indicators were stored in a GIS file used in LI. The performance of \nthese indicators can therefore be calculated by:",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.03021240234375,
+            74.81869506835938
+          ]
+        },
+        {
+          "id": "p7-b3-cde5b3c",
+          "kind": "paragraph",
+          "text": "Pi,j =\n∑\nn",
+          "bbox": [
+            37.587398529052734,
+            79.45816802978516,
+            69.35917663574219,
+            96.1579818725586
+          ]
+        },
+        {
+          "id": "p7-b4-5187d6d",
+          "kind": "paragraph",
+          "text": "l=1",
+          "bbox": [
+            59.584468841552734,
+            97.61891174316406,
+            67.6038818359375,
+            103.05844116210938
+          ]
+        },
+        {
+          "id": "p7-b5-c00742d",
+          "kind": "paragraph",
+          "text": "Pi,l × Aj,l",
+          "bbox": [
+            70.63929748535156,
+            86.99787902832031,
+            101.71654510498047,
+            96.1579818725586
+          ]
+        },
+        {
+          "id": "p7-b6-bfa6f88",
+          "kind": "paragraph",
+          "text": "where Pi,j is the value of indicator i (unit dependent on the indicator) in \nmunicipality j (e.g. SCT or SCA). Pi,l is the value of indicator i per ha of \nLULC l. Aj,l is the area of LULC l in community j (ha).",
+          "bbox": [
+            37.587398529052734,
+            110.60075378417969,
+            291.0318298339844,
+            144.98031616210938
+          ]
+        },
+        {
+          "id": "p7-b7-24b0fd3",
+          "kind": "paragraph",
+          "text": "2.2.4. Identifying stakeholders’ objectives and alternative scenarios \nVarious indicators may be used as objectives to guide the exploration \nof alternative landscape configurations (Table 1). To define locally \nrelevant objectives three major stakeholder categories in the munici­\npalities were asked for their opinions: farmers, local officials, and \nENLACE (a local NGO). ENLACE seeks to promote sustainable agricul­\ntural practices and improve rural infrastructure. ENLACE’s and local \nofficials’ objectives were defined in workshops held in 2015 and 2017. \nThe workshops consisted of identifying the stakeholders’ perceptions of \nmajor problems in the case study area and objectives in their policy \nagendas. ENLACE’s representatives stated that their priority goals are to \nimprove food security, minimize soil losses, and increase forest cover. In \naddition to ENLACE’s goals, the local officials also wanted to protect \nrivers and streams from soil sediments. Farmers were asked about their \nobjectives during the same household survey described before. The most \nfrequently expressed goals by farmers were improving crop perfor­\nmance, minimizing labor, and improving income. Objectives for the two \ncommunities were similar. \nWe translated the crop performance and food security goals into the \nobjectives maximization produced vitamins A and B12. Vitamin A was \nselected because reaching its nutritional self-sufficiency also guarantees \nthat minimum requirements for other nutrients and vitamins would be \nmet, except for vitamin B12 (Novotny et al., 2021). Vitamin B12 is \nderived from free-range sheep production. Sheep production is associ­\nated with grassland. Maximizing carbon stocks was used as an objective, \nas this indicator is directly related to ENLACE’s and local officials’ \nobjective of increasing carbon sequestration. \nCommunity regulations issued by the Bienes Communales were \nimplemented as restrictions in LI: 1) no forest clearing in common areas; \n2) each river and stream should be protected by at least 15 m forest \nbuffer on each side; and 3) cropped land was allowed to be turned into \nfallow. \nTwo scenarios were considered for this study. The first scenario (S1) \nwas used to explore ways to improve the stakeholders’ goals by re- \ndesigning landscapes using current LULCs and cropping systems. This \nscenario is particularly relevant for highly marginalized places such as \nSCT and SCA, where innovations in cropping systems are less likely to \noccur. Forest, fallow, grassland, maize, bean, and MILPA were defined as \nLULC options in LI, and multi-objective optimizations were performed to \nassess this scenario. \nThe second scenario (S2) aimed at investigating opportunities to \nimprove nutritional self-sufficiency while offering new economic op­\nportunities. As such, two novel cropping systems developed elsewhere in \nMexico were selected. The selected innovations were maize inter­\ncropped with squash (henceforth referred to as maize-squash) and an \nagroforestry-based MILPA system (locally also known as MIAF). The \nmaize-squash system was selected because of farmers’ familiarity with \nboth species, reduced labor requirements compared to the traditional \nMILPA, and its potential for improving the production of vitamins A and \nC (the most limiting vitamins in the region;). The MIAF system was \ndeveloped to reduce poverty and environmental damage in hillside areas \nsuch as the highlands of Oaxaca (Cadena-I˜niguez, Camas-G´omez, L´opez- \nB´aez, L´opez-G´omez, & Gonz´alez-Cifuentes, 2018). The MIAF considered \nfor this study consisted of maize intercropped with bean and peach. The \ncomposition was chosen based on experiences with the system in an \nagroecologically similar area in Mexico (Cadena-I˜niguez et al., 2018).",
+          "bbox": [
+            37.58835220336914,
+            152.4388885498047,
+            291.0335388183594,
+            740.7844848632812
+          ]
+        },
+        {
+          "id": "p7-b8-5220b6c",
+          "kind": "paragraph",
+          "text": "2.2.5. Multi-objective optimization \nThe evolutionary algorithm Differential Evolution (Storn & Price, \n1997) was used for Pareto-based multi-objective optimization. The \ncomplete mathematical explanation with the corresponding formulae, \nused in LI is described by Groot et al. (2018). Here we briefly summarize \nthe optimization process. The DE algorithm generates two populations \nof solutions which represent the decision variables that indicate allo­\ncated LULC on map polygons. The opportunity space created by these \npopulations is diverse; the variety in the decision variables (genotypes) \ncreates diversity in landscape performance that is measured by the in­\ndicators (phenotypes). The first population of ‘parents’ serves as the \nresult-set that is iteratively improved, while the second population \nconsists of ‘competitors’ that are generated by a uniform cross-over of \nthree selected ‘parent’ solutions in each iteration. The parameters of the \nDE algorithm are the probability of cross-over (CR = 0.85) and the \namplitude of mutation (F = 0.15). Each population consisted of 1000 \nsolutions. \nThe solutions in both populations are ranked using the principle of \nPareto-optimality (Groot, Oomen, & Rossing, 2012) and the Euclidean \ndistance between the solutions in the opportunity space is calculated \nfrom the normalized indicator values, which serves to quantify a \ncrowding metric. After the ranking, the selection process is conducted by \npairwise comparison: solutions in the result-set population are replaced \nby individuals from the competitor population if the latter has a better \nPareto rank or is positioned in a less crowded part of the opportunity \nspace. The rank-based selection results in the movement of the ‘parent’ \npopulation in the direction of the trade-off frontier (or surface), while \nthe crowd-based selection ensures spread along the frontier (or surface). \nThis process was conducted for 1000 iterations.",
+          "bbox": [
+            306.5927734375,
+            51.30070877075195,
+            560.0140991210938,
+            357.2601013183594
+          ]
+        },
+        {
+          "id": "p7-b9-c3fea71",
+          "kind": "heading",
+          "text": "3. Results",
+          "bbox": [
+            306.5927734375,
+            365.14892578125,
+            348.6214599609375,
+            378.1800231933594
+          ]
+        },
+        {
+          "id": "p7-b10-08079c5",
+          "kind": "heading",
+          "text": "3.1. Current landscape performance",
+          "bbox": [
+            306.5927734375,
+            386.06805419921875,
+            431.8962707519531,
+            399.0991516113281
+          ]
+        },
+        {
+          "id": "p7-b11-82e79c6",
+          "kind": "paragraph",
+          "text": "The total areas of SCT and SCA were 4220 and 3490 ha, respectively. \nForest and grassland were the most common LULC types in both mu­\nnicipalities, occupying around 50 and 30% of the total territory in SCT, \nand 40 and 35% in SCA, respectively (Fig. 3). Crops occupied 20% of the \ntotal territory in each municipality. Maize was grown on around 70 and \n55% of the cropland in SCT and SCA, respectively. Bean took around 25 \nand 30% and MILPA 5 and 15% of the cropland in SCT and SCA, \nrespectively. \nIn SCT nutrients and vitamins were enough to feed a population of \n679 people, except for vitamins A and C (Table 2). Vitamins A and C are \nfound in high concentrations in squash, which is produced in MILPA. \nApart from vitamin A and C deficiencies, SCA fell short of the pop­\nulation’s requirements for vitamin B9, dietary energy, calcium, iron, and \nzinc (Table 2). The lower nutrient and vitamin systems yields in SCA \nwere attributable to lower crop yields and less cropland area compared \nto SCT. \nThe amount of locally available labor in SCA (41,280 days) in May \nand June was double that of SCT (Table 2). Neither community could \nmeet the required labor with locally available labor for these months. \nTherefore, both communities hire external labor to address this deficit. \nThe distribution of plots across the municipalities affected habitat \nconnectivity. The concentration of agricultural plots in the mid-section \nof SCT (Fig. 3) decreased forest habitat connectivity by physically \nseparating the forests on the west and east sides of the community. In \nSCA, forest cover was found interspersed among agricultural plots, \nwhich resulted in greater habitat connectivity. SCT performed better \nthan SCA in terms of carbon stock due to its larger forest area. The \nSatoyama index values in each municipality were similar (0.9 for SCT \nand 0.91 for SCA), meaning that both municipal landscapes had a high \ndiversity of LULCs and showed patchy patterns.",
+          "bbox": [
+            306.5927734375,
+            406.9879455566406,
+            560.0228881835938,
+            723.3801879882812
+          ]
+        },
+        {
+          "id": "p7-b12-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p8-b1-2c62423",
+          "kind": "paragraph",
+          "text": "8",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p8-b2-365d04c",
+          "kind": "heading",
+          "text": "3.2. Exploring landscape configuration alternatives",
+          "bbox": [
+            306.5950012207031,
+            51.29973220825195,
+            481.5339050292969,
+            64.33084106445312
+          ]
+        },
+        {
+          "id": "p8-b3-7e790e8",
+          "kind": "paragraph",
+          "text": "3.2.1. Scenario S1 - Reallocation of existing LULC options \nAround 40% and 30% of the alternative landscapes generated by \nmulti-objective optimization for SCT and SCA satisfied the population’s \ndemand for vitamin A (points above red line Fig. 4). Across the alter­\nnative landscape configurations generated by LI, vitamin A supply was \npositively connected with income, soil erosion, and labor requirements \n(Fig. 4 and Appendix B). Greater carbon stocks were generally associ­\nated with greater vitamin B12 yields. A trade-off existed between \nvitamin B12 and vitamin A. A reduction in vitamin B12 yield and an \nincrease in vitamin A production was accompanied by a reduction in \ngrassland and an increase in MILPA (Appendix B). \nNutritional self-sufficiency of vitamin A could be achieved with \ndifferent landscape configurations in SCT (red line in Fig. 4). Reaching \nvitamin A self-sufficiency in SCT would require 10% of the land to be \noccupied with MILPA (red lines in Fig. 5). For SCA, the most productive \nlandscape alternative for vitamin A would be able to feed 968 out of its \n1005 persons. To reach this level, the cropping area would have to be \nexpanded by 17% (horizontal black lines in Fig. 5). \nIn scenario S1, increasing vitamin A self-sufficiency through MILPA \nwould come at the cost of reduced forest and grassland surface (Fig. 5). \nSince forest and grassland are the LULCs that resulted in less soil erosion, \ntheir reduction would increase soil losses throughout the landscape.",
+          "bbox": [
+            306.5950012207031,
+            72.2188491821289,
+            560.0210571289062,
+            304.9330139160156
+          ]
+        },
+        {
+          "id": "p8-b4-4623740",
+          "kind": "paragraph",
+          "text": "3.2.2. Scenario S2: Reallocations including new LULC options \nThe introduction of maize-squash and MIAF systems in scenario S2 \nconsiderably changed the solution spaces compared to the first scenario \n(Fig. 4). Notably, both communities had a much larger window of op­\nportunity for improving vitamin A production and generating income. \nNevertheless, the attainable levels for carbon stock and vitamin B12 \nwere lower compared to the S1 scenario without maize-squash and \nMIAF. Similarly, in scenario S2 erosion could not be reduced below 2.7 \nMg ha−1 year−1, which was reachable for scenario S1. This is explained \nby a larger share of the land being allocated to crops, reducing the share \nof forest and grassland in scenario S2 when compared to S1. \nIn scenario S2, any Pareto-optimal landscape would allow both \ncommunities to increase their vitamin A production, and consequently, \nnutritional self-sufficiency of vitamin A could be reached for all alter­\nnative landscape configurations in the result-set. Reaching vitamin A \nself-sufficiency would require a minimum cropland area of 19 and 20% \nof the total territory for SCT and SCA, respectively. This is particularly \nrelevant for SCA, which had no alternative landscape that would reach \nself-sufficiency without cropping systems innovations. Despite the po­\ntential benefits offered by introducing maize-squash and MIAF systems, \nthese systems would increase labor requirements and reduce the pro­\nduction of vitamin B12.",
+          "bbox": [
+            306.5950012207031,
+            312.821044921875,
+            560.0211181640625,
+            545.5388793945312
+          ]
+        },
+        {
+          "id": "p8-b5-fb88181",
+          "kind": "paragraph",
+          "text": "Fig. 6 shows four landscape configuration options for each munici­\npality. They provide insights into how landscape configuration changes \naccording to stakeholder’s goals. When maximizing vitamin A produc­\ntion, there was an emphasis on maize-squash production. Landscapes \nthat generated more income had increased MIAF production.",
+          "bbox": [
+            306.5957946777344,
+            542.9390258789062,
+            560.001953125,
+            597.8092041015625
+          ]
+        },
+        {
+          "id": "p8-b6-54c664c",
+          "kind": "heading",
+          "text": "4. Discussion",
+          "bbox": [
+            306.5957946777344,
+            606.3778076171875,
+            361.4165344238281,
+            619.408935546875
+          ]
+        },
+        {
+          "id": "p8-b7-9111636",
+          "kind": "heading",
+          "text": "4.1. Achieving nutrition-sensitive landscapes",
+          "bbox": [
+            306.5957946777344,
+            627.2969360351562,
+            458.8167419433594,
+            640.3280639648438
+          ]
+        },
+        {
+          "id": "p8-b8-dc60169",
+          "kind": "paragraph",
+          "text": "Our study showed how the landscape performance can improved \nthrough reorganizing the different LULCs to optimize nutritional self- \nsufficiency while increasing carbon stocks. Among current cropping \nsystems, the diversified MILPA plays a clear role in sustaining and \nimproving nutritional self-sufficiency (Novotny et al., 2021). Intro­\nducing cropping systems such as maize-squash and MIAF could increase \nvitamin A production and generate greater incomes for farmers. How­\never, expanding maize-squash and MIAF onto grasslands and forest \nlands could lead to increased soil erosion rates and smaller carbon stocks",
+          "bbox": [
+            306.5957946777344,
+            648.2168579101562,
+            560.0162963867188,
+            744.926025390625
+          ]
+        },
+        {
+          "id": "p8-b9-ef93007",
+          "kind": "paragraph",
+          "text": "Table 2 \nCurrent nutritional, socio-economic, and environmental performance for Santa \nCatarina Tayata and San Cristobal Amoltepec.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            290.7497863769531,
+            83.42589569091797
+          ]
+        },
+        {
+          "id": "p8-b10-d724941",
+          "kind": "paragraph",
+          "text": "Indicator type \nIndicator \nUnits \nMunicipality",
+          "bbox": [
+            43.5968017578125,
+            85.74838256835938,
+            235.38893127441406,
+            96.17298126220703
+          ]
+        },
+        {
+          "id": "p8-b11-60cb2e8",
+          "kind": "paragraph",
+          "text": "Santa Catarina \nTayata1",
+          "bbox": [
+            190.2029571533203,
+            98.90058898925781,
+            233.3034210205078,
+            117.94221496582031
+          ]
+        },
+        {
+          "id": "p8-b12-e975b4d",
+          "kind": "paragraph",
+          "text": "San Cristobal \nAmoltepec1",
+          "bbox": [
+            242.75900268554688,
+            98.90042114257812,
+            282.03326416015625,
+            117.94204711914062
+          ]
+        },
+        {
+          "id": "p8-b13-b38864c",
+          "kind": "paragraph",
+          "text": "Nutritional \nNutritional \nevenness \n– \n3.53 \n4.07",
+          "bbox": [
+            43.5968017578125,
+            116.07839965820312,
+            259.0467224121094,
+            135.06329345703125
+          ]
+        },
+        {
+          "id": "p8-b14-4e43136",
+          "kind": "paragraph",
+          "text": "NSYDietary.",
+          "bbox": [
+            97.05744934082031,
+            133.19895935058594,
+            127.2874755859375,
+            143.861083984375
+          ]
+        },
+        {
+          "id": "p8-b15-381cfb6",
+          "kind": "paragraph",
+          "text": "energy",
+          "bbox": [
+            97.05899810791016,
+            145.1287078857422,
+            112.77166748046875,
+            152.42129516601562
+          ]
+        },
+        {
+          "id": "p8-b16-5ea9da2",
+          "kind": "paragraph",
+          "text": "Persons \nfed yr−1",
+          "bbox": [
+            148.53500366210938,
+            133.20040893554688,
+            172.86790466308594,
+            152.185302734375
+          ]
+        },
+        {
+          "id": "p8-b17-c4bb18a",
+          "kind": "paragraph",
+          "text": "1,992 (293%) \n860 (85%)",
+          "bbox": [
+            190.2050018310547,
+            133.20040893554688,
+            276.6507263183594,
+            143.62501525878906
+          ]
+        },
+        {
+          "id": "p8-b18-e997bae",
+          "kind": "paragraph",
+          "text": "NSYProtein \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            150.3209686279297,
+            172.86790466308594,
+            169.3062744140625
+          ]
+        },
+        {
+          "id": "p8-b19-09e1b1e",
+          "kind": "paragraph",
+          "text": "2,734 (402%) \n1,508 (150%)",
+          "bbox": [
+            190.2050018310547,
+            150.32138061523438,
+            285.626708984375,
+            160.74598693847656
+          ]
+        },
+        {
+          "id": "p8-b20-0832eb5",
+          "kind": "paragraph",
+          "text": "NSYCa \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            167.4419403076172,
+            172.86790466308594,
+            186.4840545654297
+          ]
+        },
+        {
+          "id": "p8-b21-8c5494a",
+          "kind": "paragraph",
+          "text": "1,523 (224%) \n595 (59%)",
+          "bbox": [
+            190.2050018310547,
+            167.44241333007812,
+            276.6507263183594,
+            177.8670196533203
+          ]
+        },
+        {
+          "id": "p8-b22-3852b91",
+          "kind": "paragraph",
+          "text": "NSYP \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            184.61972045898438,
+            172.86790466308594,
+            203.60528564453125
+          ]
+        },
+        {
+          "id": "p8-b23-319e357",
+          "kind": "paragraph",
+          "text": "2,851 (419%) \n1,488 (148%)",
+          "bbox": [
+            190.2050018310547,
+            184.62039184570312,
+            285.626708984375,
+            195.0449981689453
+          ]
+        },
+        {
+          "id": "p8-b24-37be368",
+          "kind": "paragraph",
+          "text": "NSYFe \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            201.74095153808594,
+            172.86790466308594,
+            220.726318359375
+          ]
+        },
+        {
+          "id": "p8-b25-b7bffa5",
+          "kind": "paragraph",
+          "text": "1,601 (235%) \n826 (82%)",
+          "bbox": [
+            190.2050018310547,
+            201.74142456054688,
+            276.6507263183594,
+            212.16603088378906
+          ]
+        },
+        {
+          "id": "p8-b26-337c5cc",
+          "kind": "paragraph",
+          "text": "NSYMg \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            218.8619842529297,
+            172.86790466308594,
+            237.84832763671875
+          ]
+        },
+        {
+          "id": "p8-b27-28b2f96",
+          "kind": "paragraph",
+          "text": "3,398 (500%) \n1,350 (134%)",
+          "bbox": [
+            190.2050018310547,
+            218.86343383789062,
+            285.626708984375,
+            229.2880401611328
+          ]
+        },
+        {
+          "id": "p8-b28-bf7111f",
+          "kind": "paragraph",
+          "text": "NSYZn \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            236.04043579101562,
+            172.86790466308594,
+            255.02532958984375
+          ]
+        },
+        {
+          "id": "p8-b29-21f1222",
+          "kind": "paragraph",
+          "text": "1,054 (155%) \n827 (82%)",
+          "bbox": [
+            190.2050018310547,
+            236.04043579101562,
+            276.6507263183594,
+            246.4650421142578
+          ]
+        },
+        {
+          "id": "p8-b30-f8fd748",
+          "kind": "paragraph",
+          "text": "NSYVit.A \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            253.1610107421875,
+            172.86790466308594,
+            272.1472473144531
+          ]
+        },
+        {
+          "id": "p8-b31-868ce75",
+          "kind": "paragraph",
+          "text": "102 (15%) \n73 (7%)",
+          "bbox": [
+            190.2050018310547,
+            253.16238403320312,
+            269.4899597167969,
+            263.58697509765625
+          ]
+        },
+        {
+          "id": "p8-b32-1c229b5",
+          "kind": "paragraph",
+          "text": "NSYVit.B2 \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            270.282958984375,
+            172.86790466308594,
+            289.2682800292969
+          ]
+        },
+        {
+          "id": "p8-b33-5e0e74b",
+          "kind": "paragraph",
+          "text": "1,992 (293%) \n1,058 (105%)",
+          "bbox": [
+            190.2050018310547,
+            270.2834167480469,
+            285.626708984375,
+            280.7080078125
+          ]
+        },
+        {
+          "id": "p8-b34-831f1b9",
+          "kind": "paragraph",
+          "text": "NSYVit.B3 \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            287.40399169921875,
+            172.86790466308594,
+            306.3892822265625
+          ]
+        },
+        {
+          "id": "p8-b35-658e9de",
+          "kind": "paragraph",
+          "text": "2,421 (356%) \n1,290 (128%)",
+          "bbox": [
+            190.2050018310547,
+            287.4044189453125,
+            285.626708984375,
+            297.8290100097656
+          ]
+        },
+        {
+          "id": "p8-b36-0aa7a27",
+          "kind": "paragraph",
+          "text": "NSYVit.B6 \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            304.58172607421875,
+            172.86790466308594,
+            323.5672607421875
+          ]
+        },
+        {
+          "id": "p8-b37-4d90afe",
+          "kind": "paragraph",
+          "text": "3,124 (459%) \n1,356 (135%)",
+          "bbox": [
+            190.2050018310547,
+            304.5823974609375,
+            285.626708984375,
+            315.0069885253906
+          ]
+        },
+        {
+          "id": "p8-b38-d948cfc",
+          "kind": "paragraph",
+          "text": "NSYVit.B9 \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            321.7029724121094,
+            172.86790466308594,
+            340.6882629394531
+          ]
+        },
+        {
+          "id": "p8-b39-f424707",
+          "kind": "paragraph",
+          "text": "898 (132%) \n860 (86%)",
+          "bbox": [
+            190.2050018310547,
+            321.7033996582031,
+            276.6507263183594,
+            332.12799072265625
+          ]
+        },
+        {
+          "id": "p8-b40-1cf37c0",
+          "kind": "paragraph",
+          "text": "NSYVit.B12 \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            338.823974609375,
+            172.86790466308594,
+            357.8102722167969
+          ]
+        },
+        {
+          "id": "p8-b41-6db6261",
+          "kind": "paragraph",
+          "text": "1,367 (201%) \n1,488 (148%)",
+          "bbox": [
+            190.2050018310547,
+            338.8254089355469,
+            285.626708984375,
+            349.25
+          ]
+        },
+        {
+          "id": "p8-b42-fbb0ac7",
+          "kind": "paragraph",
+          "text": "NSYVit.C \nPersons \nfed yr−1",
+          "bbox": [
+            97.06011962890625,
+            355.94598388671875,
+            172.86790466308594,
+            374.9312744140625
+          ]
+        },
+        {
+          "id": "p8-b43-710320a",
+          "kind": "paragraph",
+          "text": "117 (17%) \n86 (8%)",
+          "bbox": [
+            190.2050018310547,
+            355.9464111328125,
+            267.6217956542969,
+            366.3710021972656
+          ]
+        },
+        {
+          "id": "p8-b44-510917e",
+          "kind": "paragraph",
+          "text": "Socio- \neconomic \nRequired \nlabor \nDays \n55,855 \n49,268",
+          "bbox": [
+            43.598846435546875,
+            373.12371826171875,
+            266.22802734375,
+            392.1092224121094
+          ]
+        },
+        {
+          "id": "p8-b45-adbb94c",
+          "kind": "paragraph",
+          "text": "Locally \navailable \nlabor",
+          "bbox": [
+            97.06011962890625,
+            390.24493408203125,
+            124.41910552978516,
+            417.79071044921875
+          ]
+        },
+        {
+          "id": "p8-b46-4a11ae4",
+          "kind": "paragraph",
+          "text": "Days \n20,520 \n41,280",
+          "bbox": [
+            148.53659057617188,
+            390.24493408203125,
+            266.22802734375,
+            400.6695251464844
+          ]
+        },
+        {
+          "id": "p8-b47-625212b",
+          "kind": "paragraph",
+          "text": "Income \nMXN yr−1",
+          "bbox": [
+            97.06011962890625,
+            415.3834533691406,
+            178.30990600585938,
+            426.35101318359375
+          ]
+        },
+        {
+          "id": "p8-b48-53b4752",
+          "kind": "paragraph",
+          "text": "(USD \nyr−1)",
+          "bbox": [
+            148.53500366210938,
+            424.4884033203125,
+            165.09957885742188,
+            443.4732666015625
+          ]
+        },
+        {
+          "id": "p8-b49-60cc043",
+          "kind": "paragraph",
+          "text": "5,709,818 \n(285,490) \n5,717,113 \n(285,855)",
+          "bbox": [
+            190.20387268066406,
+            415.9278259277344,
+            273.32391357421875,
+            434.9127197265625
+          ]
+        },
+        {
+          "id": "p8-b50-3a9b662",
+          "kind": "paragraph",
+          "text": "Environmental \nSoil loss \nMg yr−1 \n13,005 \n11,143  \nTotal carbon \nT \n283,929 \n239,398  \nHabitat \nconnectivity \nHa \n834 \n1411",
+          "bbox": [
+            43.59834289550781,
+            441.1224670410156,
+            269.8176574707031,
+            477.7724914550781
+          ]
+        },
+        {
+          "id": "p8-b51-4ee4aa7",
+          "kind": "paragraph",
+          "text": "Satoyama \nindex \n– \n0.90 \n0.91",
+          "bbox": [
+            97.06011962890625,
+            475.9081726074219,
+            259.04876708984375,
+            494.89306640625
+          ]
+        },
+        {
+          "id": "p8-b52-24dfc85",
+          "kind": "heading",
+          "text": "1 Values outside the parentheses are the nutrient system yield while percen­\ntual values between parentheses represent the nutritional self-sufficiency of a \ngiven nutrient or vitamin.",
+          "bbox": [
+            37.58793640136719,
+            494.5140686035156,
+            290.7453308105469,
+            528.522216796875
+          ]
+        },
+        {
+          "id": "p8-b53-9c00636",
+          "kind": "paragraph",
+          "text": "Table 3 \nAverage and highest maize, common bean, and squash yields in different \ncropping systems and calculated land equivalent ratios (LERs) of MILPA.",
+          "bbox": [
+            37.587398529052734,
+            545.7650756835938,
+            290.74627685546875,
+            576.5982055664062
+          ]
+        },
+        {
+          "id": "p8-b54-bdf45bb",
+          "kind": "paragraph",
+          "text": "Santa Catarina Tayata \nSan Cristobal Amoltepec",
+          "bbox": [
+            104.71199798583984,
+            578.9764404296875,
+            272.3854064941406,
+            589.4010009765625
+          ]
+        },
+        {
+          "id": "p8-b55-dfcad40",
+          "kind": "paragraph",
+          "text": "Average \n(Mg/ \nha)",
+          "bbox": [
+            104.71199798583984,
+            592.128662109375,
+            129.58438110351562,
+            619.6744384765625
+          ]
+        },
+        {
+          "id": "p8-b56-08b6ead",
+          "kind": "paragraph",
+          "text": "Highest observed \nyield (Mg/ha) \nAverage \n(Mg/ \nha)",
+          "bbox": [
+            139.29425048828125,
+            592.128662109375,
+            224.26011657714844,
+            619.6744384765625
+          ]
+        },
+        {
+          "id": "p8-b57-c45f6dc",
+          "kind": "paragraph",
+          "text": "Highest observed \nyield (Mg/ha)",
+          "bbox": [
+            233.969970703125,
+            592.128662109375,
+            284.50726318359375,
+            611.1141357421875
+          ]
+        },
+        {
+          "id": "p8-b58-e639f95",
+          "kind": "paragraph",
+          "text": "Maize  \n0.84  \n2.00  \n0.34  \n1.62 \nMaize in MILPA  \n0.04  \n1.62  \n0.04  \n1.56 \nCommon bean  \n0.15  \n0.45  \n0.12  \n0.25 \nCommon bean in \nMILPA  \n0.05  \n0.22  \n0.04  \n0.04",
+          "bbox": [
+            43.597721099853516,
+            622.4027099609375,
+            248.39224243164062,
+            667.1257934570312
+          ]
+        },
+        {
+          "id": "p8-b59-7a182e4",
+          "kind": "paragraph",
+          "text": "Squash in MILPA  \n0.45  \n1.00  \n0.22  \n1.00 \nLand Equivalent \nRatio MILPA  \n0.42  \n1.40  \n0.47  \n1.22",
+          "bbox": [
+            43.597721099853516,
+            665.261474609375,
+            250.2603759765625,
+            692.8072509765625
+          ]
+        },
+        {
+          "id": "p8-b60-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.58843231201172,
+            33.65658950805664,
+            501.7443542480469,
+            44.08118438720703
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p9-b1-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p9-b2-3666657",
+          "kind": "paragraph",
+          "text": "at the landscape level. \nOur study aimed to answer the question raised by Ickowitz et al. \n(2022) and Powell et al. (2015) regarding how landscapes can sustain \nhealthy food production while maintaining or even improving, \necosystem services. Moreover, international organizations call for \nnutrition-sensitive landscape solutions that aim at improving both food \nand nutritional security while promoting sustainable use of natural re­\nsources and conservation (Bioversity International, 2014; IFPRI, 2014).",
+          "bbox": [
+            37.587398529052734,
+            650.5437622070312,
+            291.02862548828125,
+            736.7642822265625
+          ]
+        },
+        {
+          "id": "p9-b3-ea94d06",
+          "kind": "paragraph",
+          "text": "Broegaard et al. (2017) followed an NSL approach to study a wide array \nof systems from forests, fallow, and agricultural fields to demonstrate \nwild foods’ relevance in decreasing protein gaps. Similar to the study \nfrom Broegaard et al. (2017), our study assessed food production ac­\ncording to different LULCs. However, our study is the first to include a \nset of nutritional components in the analysis and relate nutritional self- \nsufficiency with ecosystem services. \nAs a result of favoring maize monoculture instead of MILPA, vitamins",
+          "bbox": [
+            306.5926208496094,
+            650.5437622070312,
+            560.022705078125,
+            736.7642822265625
+          ]
+        },
+        {
+          "id": "p9-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p9-figure1.png",
+          "alt": "Original source page 9, graphic 1",
+          "caption": "原文第9页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p9-b5-d5d548b",
+          "kind": "paragraph",
+          "text": "Fig. 4. Performance of alternative Pareto-optimal landscapes generated by multi-objective optimization for Scenarios S1 and S2, expressed in five objectives: vitamin \nA, vitamin B12, income, carbon stock, and erosion. Red dots represent current landscape performance. Red lines indicate the nutritional self-sufficiency threshold for \nvitamin A. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            37.587398529052734,
+            609.9411010742188,
+            559.7587890625,
+            640.7742309570312
+          ]
+        },
+        {
+          "id": "p9-b6-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p10-b1-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p10-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p10-figure1.png",
+          "alt": "Original source page 10, graphic 1",
+          "caption": "原文第10页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p10-b3-c0fdded",
+          "kind": "paragraph",
+          "text": "Fig. 5. Thousand landscape configurations (percentage of different LULCs indicated on the y-axis) ranked by the performance of vitamin A and soil erosion \n(low–high, x-axis) for Santa Catarina Tayata (SCT) and San Cristobal Amoltepec (SCA) without (scenario S1) and with (scenario S2) the introduction of maize-squash \nand MIAF. Horizontal black lines indicate the legal limit of land allowed for agricultural exploitation. Vertical red lines represent the nutritional self-sufficiency \nthreshold. Black arrows represent the current LULC proportions. The lines of percentages of LULCs were smoothed using the LOESS method for better interpreta­\ntion. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            37.587398529052734,
+            685.6828002929688,
+            559.7789306640625,
+            735.6778564453125
+          ]
+        },
+        {
+          "id": "p10-b4-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p11-b1-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p11-b2-d18769c",
+          "kind": "paragraph",
+          "text": "A and C were produced in low quantities in each case study munici­\npality. Vitamin A deficiency is a common problem in Mexico (Leather­\nman, Goodman, & Stillman, 2020; Mora, Gueri, & Mora, 1998), with \nalarming cases of severe deficiency in children (Brito et al., 2015). Also \nfor other regions of Latin America (Brito et al., 2015; Mora et al., 1998) \nand the world (Laillou et al., 2012; Timler et al., 2020), vitamin A \ndeficiency has been reported as a concern for human nutrition. Reaching \nself-sufficiency for vitamin A proved to be particularly difficult at the \nSan Cristobal Amoltepec municipality. Given the current LULCs and \nproductivity levels (scenario S1), SCA would require an expansion of its \ncropland to come close to achieving the local demand for vitamin A, \nconsequently reducing LULCs that can improve carbon stocks and \nreduce erosion (e.g., forest and grassland). \nBy diversifying cropping systems options (scenario S2), MILPA could \nprovide sufficient amounts of nutrients and vitamins for adequate \nhuman nutrition (Novotny et al., 2021). Despite the nutritional benefits \nof MILPA, these polycultures exhibited relatively low productivity \n(Table 3) and high labor demands in the region of study. Together with \nan increasing engagement in off-farm activities (Novotny, 2020), \nfarmers might be less inclined to grow MILPA, which requires also more \nmanual labor than maize monocultures. Other places in Mexico exhibit \nsimilar preferences for monocropping systems (Birol, Villalba, & Smale, \n2009; Guti´errez-Carbajal & Maga˜na-Maga˜na, 2017; Kontoleon, Pascual, \nSmale, 2009; Otero-Prevost, Gurri-García, Mariaca-M´endez, & Guízar- \nV´azquez, 2018; Richard, 2008; Rodríguez & Arias, 2014). \nImproving MILPA to bring the average yield closer to the attainable",
+          "bbox": [
+            37.587398529052734,
+            462.8337707519531,
+            291.0325927734375,
+            737.38623046875
+          ]
+        },
+        {
+          "id": "p11-b3-4445d66",
+          "kind": "paragraph",
+          "text": "yield could provide greater amounts of food and generate more income, \nmaking this system more attractive to farmers. Technical interventions \nshould aim at bridging this gap. In experimental conditions in Texcoco, \nMexico, MILPA polycultures yielded 4.5, 0.9, and 6.2 Mg ha−1 of maize, \nbean, and squash respectively (Ebel, Pozas, Soria, & Cruz, 2017); this \nrepresents 110-, 6-, and 10-fold the average yields measured in our re­\ngion of study. Another option is to increase squash density in MILPA to \nfavor the production of vitamins A and C, although experimental trials \nshould be performed for better recommendations on plant density. At \nthe policy level, efforts should be made to stimulate MILPA production \ninstead of steering farmers away from it towards monocultures, as has \nbeen the case in the last decade (S´anchez & Hern´andez, 2014). \nConsidering the challenges of expanding MILPA to provide better \nnutrition, alternative production management or cropping systems, such \nas the ones proposed in this study, should be also considered. Results \nshowed that maize-squash and MIAF systems could change the land­\nscape performance for the indicators assessed. Maize-squash could in­\ncrease vitamin A, while MIAF could offer better economic performance, \nas seen in other studies (Cadena-I˜niguez et al., 2018; Cort´es et al., 2007; \nEtchevers et al., 2004). Our modeling study revealed several landscape \nconfigurations with maize-squash and MIAF that could reach vitamin A \nself-sufficiency while also increasing ecosystem services like carbon \nstocks and soil erosion reduction. In contrast, reaching vitamin A self- \nsufficiency with current cropping systems would not be possible \nwithout greatly compromising these ecosystem services.",
+          "bbox": [
+            306.5926208496094,
+            462.8337707519531,
+            560.02587890625,
+            726.9541015625
+          ]
+        },
+        {
+          "id": "p11-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p11-figure1.png",
+          "alt": "Original source page 11, graphic 1",
+          "caption": "原文第11页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p11-b5-509032e",
+          "kind": "paragraph",
+          "text": "Fig. 6. Landscape configuration for maximizing vitamin A production, income, and carbon stock and minimizing soil erosio.",
+          "bbox": [
+            96.88809967041016,
+            430.0540771484375,
+            502.6001281738281,
+            441.7819519042969
+          ]
+        },
+        {
+          "id": "p11-b6-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p12-b1-6b51d43",
+          "kind": "paragraph",
+          "text": "12",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p12-b2-0e7c639",
+          "kind": "heading",
+          "text": "4.2. Socio-ecological landscapes",
+          "bbox": [
+            37.587398529052734,
+            435.96075439453125,
+            149.33059692382812,
+            448.9918518066406
+          ]
+        },
+        {
+          "id": "p12-b3-d1acc7c",
+          "kind": "paragraph",
+          "text": "The assessment of scenarios that considered only current LULCs and \ncropping systems revealed the limited potential to improve the socio- \neconomic, nutritional, and environmental performance of landscapes \nin contexts where no changes in cropping systems are likely to happen. \nThis is particularly relevant to highly marginalized places such as the \nstate of Oaxaca (CONAPO, 2016). Results from this study showed \nlandscape alternatives that could improve carbon stocks, and vitamin A \nproduction, and reduce soil erosion (Fig. 4). Combining this potential \nwith the fact that communities in Mexico have the autonomy to govern \ntheir land (Novotny et al., 2021), offers prospects for improved land­\nscapes. Despite this study being realized in an unproductive and \nmarginalized area, the robustness of our approach can be replicated in \ndifferent contexts. Landscape-level management often involves wicked \nproblems that arise from a socio-economic and ecological complexity \nfueled by social actors with conflicting interests. Incorporating these \nactors’ goals and aspirations into the analysis and exploring potential \nlandscape alternatives and their associated synergies and trade-offs can \noffer a transparent and inclusive platform for discussing these \nalternatives. \nReaching food regional self-sufficiency has several implications for \nfood markets. A more localized food production boosts the rural econ­\nomy, mitigates the influence of price fluctuations, and reduces travel \ncosts (Clapp, 2017; Puma, Bose, Chon, & Cook, 2015; Suweis, Carr, \nMaritan, Rinaldo, & D’Odorico, 2015). In contrast, a few negative points \nshould also be considered. Achieving higher food self-sufficiency might \nnot be possible depending on whether the environment’s agricultural \naptitude can sustain a sufficient supply of food for its population (Fader,",
+          "bbox": [
+            37.587398529052734,
+            456.8798828125,
+            291.03179931640625,
+            741.9209594726562
+          ]
+        },
+        {
+          "id": "p12-b4-e3267d3",
+          "kind": "paragraph",
+          "text": "Gerten, Krause, Lucht, & Cramer, 2013). Furthermore, reducing the \ndependency on external markets might remove the assurance of \nobtaining extra food in the face of crop failure, pest outbreaks, or \nextreme weather events.",
+          "bbox": [
+            306.5926208496094,
+            435.96075439453125,
+            559.98681640625,
+            480.3988342285156
+          ]
+        },
+        {
+          "id": "p12-b5-5fb0b9e",
+          "kind": "heading",
+          "text": "4.3. Limitations and future research",
+          "bbox": [
+            306.5926208496094,
+            491.2923889160156,
+            432.0220642089844,
+            504.323486328125
+          ]
+        },
+        {
+          "id": "p12-b6-1fdfc69",
+          "kind": "paragraph",
+          "text": "This study had some limitations. First, it focused on nutritional self- \nsufficiency, which assesses food availability from agriculture and food \nutilization. Although both are important for a food security assessment, \ndata on access to food and food production stability are required for a \nfuller panorama of food security. This study explored alternative land­\nscapes for two municipalities, and the question remains of how to scale \nup and incorporate these findings at the regional landscape planning \nlevel. However, landscape performance can be improved, even for re­\ngions where high marginalization, nutritional gaps, and land degrada­\ntion exist. As such, learnings from this study could be carried out in \nsimilar socio-economic contexts. Third, the addition of two cropping \nsystems did not aim to be exhaustive in terms of available possibilities. \nInstead, it was used as an example of how alternative systems can alter \nlandscape performance and create new opportunities for productive and \nsustainable landscapes. Other cropping systems and management can \nand should be considered for reaching improved landscape perfor­\nmances. While this study assessed the current performance of indicators \nwhose performance depended on the spatial configuration of land uses \n(Satoyama index and habitat connectivity), they were not considered by \nstakeholders as key variables for optimization. Nevertheless, we suggest \nfuture studies to not only consider the amount of areas per land use but \nalso how distribute and connect with one another in the landscape.",
+          "bbox": [
+            306.5926208496094,
+            512.2114868164062,
+            560.0162353515625,
+            744.9256591796875
+          ]
+        },
+        {
+          "id": "p12-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p12-figure1.png",
+          "alt": "Original source page 12, graphic 1",
+          "caption": "原文第12页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p12-b8-fe7ef4e",
+          "kind": "paragraph",
+          "text": "Fig. 6. (continued).",
+          "bbox": [
+            267.4200134277344,
+            414.52105712890625,
+            329.92767333984375,
+            426.2489318847656
+          ]
+        },
+        {
+          "id": "p12-b9-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p13-b1-3fdba35",
+          "kind": "paragraph",
+          "text": "13",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p13-b2-92b4fe5",
+          "kind": "paragraph",
+          "text": "Lastly, this study offers a way to inspire further collaboration between \nstakeholders by discussing the advantages and disadvantages of alter­\nnative landscape configurations. \nThe potential for improving landscape performance through diver­\nsification and intensification, with or without innovations in cropping \nsystems exists. Nevertheless, with the current yield levels and labor \ndemands, traditional MILPA systems are losing interest from farmers. \nTherefore, an agronomic rejuvenation of the agroecological concept \nbehind this iconic mixed cropping system is needed to fit both the \neconomic and socio-cultural contexts.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0270080566406,
+            158.4967803955078
+          ]
+        },
+        {
+          "id": "p13-b3-c6e7582",
+          "kind": "heading",
+          "text": "5. Conclusions",
+          "bbox": [
+            37.587398529052734,
+            166.38478088378906,
+            97.85250854492188,
+            179.4158935546875
+          ]
+        },
+        {
+          "id": "p13-b4-47a1d20",
+          "kind": "paragraph",
+          "text": "Through a nutrition-sensitive landscape approach, we generated and \nillustrated several landscape configurations for improving landscape \nperformance in terms of income, nutritional self-sufficiency, carbon \nstocks, and soil erosion reduction. This study demonstrated it is possible \nto improve the nutritional, economic, and environmental performance \nsolely by re-arranging current LULCs. Yet, introducing new cropping \nsystems may contribute to breaking deadlocks and improving landscape \nperformance even further. The inclusion of a maize-squash intercrop­\nping system would vastly improve the provision of vitamin A, while the \nMIAF agroforestry system would provide farmers with an opportunity to \nincrease their income. These benefits, however, come at the cost of \nhigher labor demands and more soil erosion risks as cropping systems \nactivities start to replace forests and grasslands. The multi-objective \nmodel used here was based on stakeholders’ objectives, offering a \nrobust way to assess landscape configurations in a risk-free environ­\nment. This increases the chance for every party involved to have their \nvoice expressed in the design process and to foresee how changing as­\npects of the landscape affect its performance. The use of this framework \nin participatory exercises of landscape redesign with local communities \nand other stakeholders has the potential to inform discussion in the \nquest for more equitable, sustainable, and nutritionally sensitive",
+          "bbox": [
+            37.587398529052734,
+            187.30470275878906,
+            291.0285949707031,
+            409.53021240234375
+          ]
+        },
+        {
+          "id": "p13-b5-93f7906",
+          "kind": "paragraph",
+          "text": "landscapes.",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            349.0732116699219,
+            64.33084106445312
+          ]
+        },
+        {
+          "id": "p13-b6-75794fc",
+          "kind": "paragraph",
+          "text": "CRediT authorship contribution statement",
+          "bbox": [
+            306.5926208496094,
+            72.2188491821289,
+            470.8659362792969,
+            85.24996185302734
+          ]
+        },
+        {
+          "id": "p13-b7-aa1a274",
+          "kind": "paragraph",
+          "text": "Ivan P. Novotny: Conceptualization, Data curation, Formal anal­\nysis, Investigation, Methodology, Project administration, Software, \nVisualization, Writing – original draft, Writing – review & editing. \nWalter A.H. Rossing: Conceptualization, Methodology, Supervision, \nWriting – review & editing. Pablo Tittonell: Funding acquisition, Su­\npervision, Writing – review & editing. Mariela Fuentes-Ponce: \nConceptualization, Supervision, Writing – review & editing. Jeroen C.J. \nGroot: Methodology, Software, Writing – review & editing.",
+          "bbox": [
+            306.5926208496094,
+            93.13796997070312,
+            560.0067749023438,
+            179.4158935546875
+          ]
+        },
+        {
+          "id": "p13-b8-9c53d09",
+          "kind": "paragraph",
+          "text": "Declaration of competing interest",
+          "bbox": [
+            306.5926208496094,
+            187.30470275878906,
+            437.5142517089844,
+            200.3358154296875
+          ]
+        },
+        {
+          "id": "p13-b9-5f4cebb",
+          "kind": "paragraph",
+          "text": "The authors declare that they have no known competing financial \ninterests or personal relationships that could have appeared to influence \nthe work reported in this paper.",
+          "bbox": [
+            306.5926208496094,
+            208.2238311767578,
+            560.0115966796875,
+            242.1748504638672
+          ]
+        },
+        {
+          "id": "p13-b10-188a992",
+          "kind": "heading",
+          "text": "Data availability",
+          "bbox": [
+            306.5926208496094,
+            250.06285095214844,
+            372.4368591308594,
+            263.0939636230469
+          ]
+        },
+        {
+          "id": "p13-b11-2889f11",
+          "kind": "paragraph",
+          "text": "Data will be made available on request.",
+          "bbox": [
+            318.5541687011719,
+            270.98199462890625,
+            461.20538330078125,
+            284.0130920410156
+          ]
+        },
+        {
+          "id": "p13-b12-4be0f86",
+          "kind": "heading",
+          "text": "Acknowledgments",
+          "bbox": [
+            306.5926208496094,
+            291.90191650390625,
+            378.55462646484375,
+            304.9330139160156
+          ]
+        },
+        {
+          "id": "p13-b13-5cd1074",
+          "kind": "paragraph",
+          "text": "The authors would like to thank the following people and organi­\nzation: Sergio Naranjo for his valuable work on soil erosion in the area; \nTim Bos, Erick Rebollo, and Dulce Zu˜niga for their dedication, without \nwhich we would have not been able to estimate carbon stocks; Samuel \nDing for his invaluable assistance with fine-tuning the user interface for \nrunning the LandscapeIMAGES modeling; and the support provided by \nthe CGIAR, which funded this project, ‘Agro-ecosystem diversity and the \nTrajectories and Trade-offs for Intensification of Cereal-based systems’ \n(ATTIC, grant agreement: A4032.09.20).",
+          "bbox": [
+            306.5926208496094,
+            312.821044921875,
+            560.0147094726562,
+            409.53021240234375
+          ]
+        },
+        {
+          "id": "p13-b14-2d4b3e2",
+          "kind": "paragraph",
+          "text": "Appendix",
+          "bbox": [
+            37.587398529052734,
+            431.2519226074219,
+            76.07501220703125,
+            444.28302001953125
+          ]
+        },
+        {
+          "id": "p13-b15-eb3fa64",
+          "kind": "paragraph",
+          "text": "Appendix A. Production per LULC in Santa Catarina Tayata and San Cristobal Amoltepec",
+          "bbox": [
+            37.587398529052734,
+            452.17108154296875,
+            352.8917541503906,
+            465.2021789550781
+          ]
+        },
+        {
+          "id": "p13-b16-2b54805",
+          "kind": "paragraph",
+          "text": "LULC in Santa Catarina Tayata",
+          "bbox": [
+            202.73399353027344,
+            479.0834045410156,
+            291.7345275878906,
+            489.50799560546875
+          ]
+        },
+        {
+          "id": "p13-b17-d0952e8",
+          "kind": "paragraph",
+          "text": "Indicator \nUnit \nForest \nGrassland \nMaize \nBean \nMILPA \nMaize- \nsquash \nMIAF",
+          "bbox": [
+            43.59919738769531,
+            492.7456970214844,
+            549.2501831054688,
+            511.731201171875
+          ]
+        },
+        {
+          "id": "p13-b18-27ad2f4",
+          "kind": "paragraph",
+          "text": "Dietary energy \npersons fed ha−1 \n0 \n0.19 \n3.14 \n0.64 \n3.75 \n8.63 \n4.91 \nProtein \npersons fed ha−1 \n0 \n0.48 \n3.60 \n1.85 \n5 \n10.31 \n6.27 \nCalcium \npersons fed ha−1 \n0 \n0.02 \n2.61 \n0.56 \n3.11 \n7.25 \n4.08 \nPhosphorus \npersons fed ha−1 \n0 \n0.33 \n3.73 \n2.47 \n6.37 \n13.73 \n6.40 \nIron \npersons fed ha−1 \n0 \n0.13 \n2.15 \n1.64 \n3.51 \n7.37 \n3.99 \nMagnesium \npersons fed ha−1 \n0 \n0.08 \n5.84 \n0.62 \n8.03 \n19.75 \n8.22 \nZinc \npersons fed ha−1 \n0 \n0.49 \n0.64 \n1.06 \n2.07 \n4.62 \n1.99 \nVitamin A \npersons fed ha−1 \n0 \n0 \n0 \n0 \n1.96 \n7.83 \n0.63 \nVitamin B2 \npersons fed ha−1 \n0 \n0.27 \n2.68 \n1.63 \n3.84 \n8.28 \n5.38 \nVitamin B3 \npersons fed ha−1 \n0 \n0.59 \n3.22 \n0.58 \n4.11 \n9.89 \n6.19 \nVitamin B6 \npersons fed ha−1 \n0 \n0.14 \n4.96 \n1.69 \n6.26 \n14.23 \n8.00 \nVitamin B9 \npersons fed ha−1 \n0 \n0 \n0 \n4.82 \n1.99 \n1.97 \n3.37 \nVitamin B12 \npersons fed ha−1 \n0 \n1.45 \n0 \n0 \n0 \n0 \n0 \nVitamin C \npersons fed ha−1 \n0 \n0 \n0 \n0 \n2.01 \n8.25 \n5.55 \nRequired labor \ndays ha−1 \n0 \n60 \n69 \n90 \n125 \n90 \n170 \nIncome \nMXN ha−1 \n0 \n4615 \n3050 \n−1900 \n5245 \n18,881 \n18,450 \nSoil loss \nMg/ha \n1 \n1 \n15 \n15 \n15 \n15 \n5 \nTotal carbon \nt ha−1 \n121.1 \n78.7 \n23 \n23 \n23.8 \n23 \n26.8   \nLULC in San Cristobal Amoltepec \nIndicator \nUnit \nForest \nGrassland \nMaize \nBean \nMILPA \nMaize- \nsquash \nMIAF",
+          "bbox": [
+            43.59919738769531,
+            513.2473754882812,
+            553.5474853515625,
+            695.9264526367188
+          ]
+        },
+        {
+          "id": "p13-b19-2bda146",
+          "kind": "paragraph",
+          "text": "Dietary energy \npersons fed ha−1 \n0 \n0.19 \n1.29 \n0.52 \n2.17 \n8.63 \n4.91 \nProtein \npersons fed ha−1 \n0 \n0.48 \n1.46 \n1.50 \n2.99 \n10.31 \n6.27 \nCalcium \npersons fed ha−1 \n0 \n0.02 \n1.06 \n0.45 \n1.79 \n7.25 \n4.08 \nPhosphorus \npersons fed ha−1 \n0 \n0.33 \n1.51 \n2.00 \n3.76 \n13.73 \n6.40",
+          "bbox": [
+            43.59919738769531,
+            693.1341552734375,
+            546.3682250976562,
+            730.2260131835938
+          ]
+        },
+        {
+          "id": "p13-b20-154d159",
+          "kind": "paragraph",
+          "text": "(continued on next page)",
+          "bbox": [
+            485.23162841796875,
+            730.9127197265625,
+            553.5277099609375,
+            741.3372802734375
+          ]
+        },
+        {
+          "id": "p13-b21-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.58990478515625,
+            33.65701675415039,
+            501.7454528808594,
+            44.08161163330078
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p14-b1-8527a89",
+          "kind": "paragraph",
+          "text": "14",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p14-b2-4455fc4",
+          "kind": "paragraph",
+          "text": "(continued)",
+          "bbox": [
+            39.74169921875,
+            50.15510177612305,
+            81.51152038574219,
+            61.882957458496094
+          ]
+        },
+        {
+          "id": "p14-b3-2b54805",
+          "kind": "paragraph",
+          "text": "LULC in Santa Catarina Tayata",
+          "bbox": [
+            202.73399353027344,
+            64.48843383789062,
+            291.7345275878906,
+            74.91303253173828
+          ]
+        },
+        {
+          "id": "p14-b4-d0952e8",
+          "kind": "paragraph",
+          "text": "Indicator \nUnit \nForest \nGrassland \nMaize \nBean \nMILPA \nMaize- \nsquash \nMIAF",
+          "bbox": [
+            43.59919738769531,
+            78.15071105957031,
+            549.2501831054688,
+            97.13623046875
+          ]
+        },
+        {
+          "id": "p14-b5-bc22046",
+          "kind": "paragraph",
+          "text": "Iron \npersons fed ha−1 \n0 \n0.13 \n0.87 \n1.33 \n2.11 \n7.37 \n3.99 \nMagnesium \npersons fed ha−1 \n0 \n0.08 \n2.36 \n0.51 \n4.54 \n19.75 \n8.22 \nZinc \npersons fed ha−1 \n0 \n0.49 \n0.26 \n0.85 \n1.22 \n4.62 \n1.99 \nVitamin A \npersons fed ha−1 \n0 \n0 \n0 \n0 \n0.95 \n7.83 \n0.63 \nVitamin B2 \npersons fed ha−1 \n0 \n0.27 \n1.09 \n1.31 \n1.02 \n8.28 \n5.38 \nVitamin B3 \npersons fed ha−1 \n0 \n0.59 \n1.30 \n0.47 \n2.29 \n9.89 \n6.19 \nVitamin B6 \npersons fed ha−1 \n0 \n0.14 \n2.01 \n1.37 \n2.35 \n14.23 \n8.00 \nVitamin B9 \npersons fed ha−1 \n0 \n0 \n0 \n3.9 \n3.65 \n1.97 \n3.37 \nVitamin B12 \npersons fed ha−1 \n0 \n1.45 \n0 \n0 \n1.44 \n0 \n0 \nVitamin C \npersons fed ha−1 \n0 \n0 \n0 \n0.04 \n1.02 \n8.25 \n5.55 \nRequired labor \ndays \n0 \n60 \n69 \n90 \n125 \n90 \n170 \nIncome \nMXN \n0 \n4615 \n−700 \n−645 \n5000 \n18,881 \n18,450 \nSoil loss \nMg/ha \n1 \n1 \n15 \n15 \n15 \n15 \n5 \nTotal carbon \nt \n121.1 \n78.7 \n23 \n23 \n23.8 \n23 \n26.8",
+          "bbox": [
+            43.59919738769531,
+            98.65238189697266,
+            553.5474853515625,
+            221.40650939941406
+          ]
+        },
+        {
+          "id": "p14-b6-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.58990478515625,
+            33.64900588989258,
+            501.7454528808594,
+            44.07360076904297
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-14.png"
+    },
+    {
+      "number": 15,
+      "blocks": [
+        {
+          "id": "p15-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p15-b1-e629fa6",
+          "kind": "paragraph",
+          "text": "15",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p15-b3-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p15-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p15-figure1.png",
+          "alt": "Original source page 15, graphic 1",
+          "caption": "原文第15页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-15.png"
+    },
+    {
+      "number": 16,
+      "blocks": [
+        {
+          "id": "p16-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p16-b1-b17ef6d",
+          "kind": "paragraph",
+          "text": "16",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p16-b2-87d94b1",
+          "kind": "paragraph",
+          "text": "Appendix B. Performance of alternative Pareto-optimal landscapes expressed in six objectives: income, vitamin B12, erosion, carbon \nstock, vitamin A, and labor. Black squares represent current landscape performance. Dashed lines indicate the vitamin self-sufficiency \nthreshold. Blue: San Cristobal Amoltepec, red: Santa Catarina de Tayata. Hulls around the solution clouds were added for ease of \ncomparison between municipalities",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            554.0379028320312,
+            95.7378158569336
+          ]
+        },
+        {
+          "id": "p16-b4-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.7425231933594,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p16-figure1",
+          "kind": "image",
+          "path": "library/novotny-2024/3549e6d02b39/p16-figure1.png",
+          "alt": "Original source page 16, graphic 1",
+          "caption": "原文第16页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-16.png"
+    },
+    {
+      "number": 17,
+      "blocks": [
+        {
+          "id": "p17-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p17-b1-4523540",
+          "kind": "paragraph",
+          "text": "17",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p17-b2-7ac5227",
+          "kind": "paragraph",
+          "text": "Appendix C. Thousand landscape configurations (y-axis) ranked by the performance of 6 objectives (low–high, x-axis) for Santa Catarina \nTayata (SCT) and San Cristobal Amoltepec (SCA) with and without the introduction of maize-squash and MIAF. Horizontal black lines \nindicate the current maximum surface allowed for private agricultural exploitation. Vertical red lines represent the nutritional self- \nsufficiency threshold. Black arrows represent the current LULC proportions. The figures’ lines were smoothed using the LOESS method \nfor better interpretation",
+          "bbox": [
+            37.587398529052734,
+            61.78776931762695,
+            554.0195922851562,
+            116.65711975097656
+          ]
+        },
+        {
+          "id": "p17-b3-dceb563",
+          "kind": "paragraph",
+          "text": "Appendix D. Area-based error matrix",
+          "bbox": [
+            37.587398529052734,
+            124.54592895507812,
+            172.247802734375,
+            137.57704162597656
+          ]
+        },
+        {
+          "id": "p17-b4-71bf909",
+          "kind": "paragraph",
+          "text": "Reference",
+          "bbox": [
+            212.9949951171875,
+            151.45541381835938,
+            248.26010131835938,
+            161.88002014160156
+          ]
+        },
+        {
+          "id": "p17-b5-b189e6a",
+          "kind": "paragraph",
+          "text": "Classified \nForest \nAgriculture \nBare soil \nArea",
+          "bbox": [
+            88.95249938964844,
+            165.11769104003906,
+            492.662353515625,
+            175.54229736328125
+          ]
+        },
+        {
+          "id": "p17-b6-e4cc298",
+          "kind": "paragraph",
+          "text": "Forest \n0.6028 \n0.0009 \n0 \n1,265,400 \nAgriculture \n0.0906 \n0.1765 \n0.0013 \n562,500 \nBare soil \n0 \n0.024 \n0.1039 \n268,200 \nTotal \n0.6934 \n0.2014 \n0.1052 \n2,096,100 \nEstimated area \n1,453,500 \n422,100 \n220,500 \n2,096,100 \nStandard error \n0.0051 \n0.0059 \n0.003  \nStandard error area \n10724.32 \n12359.2 \n6275.52  \n95% CI area \n21019.67 \n24224.04 \n12300.03  \nProducer accuracy [%] \n86.935 \n87.6333 \n98.7755  \nUser accuracy [%] \n99.8578 \n65.76 \n81.2081  \nOverall accuracy [%] = 88.3212",
+          "bbox": [
+            88.95249938964844,
+            177.93069458007812,
+            508.20037841796875,
+            274.0735168457031
+          ]
+        },
+        {
+          "id": "p17-b7-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            37.587398529052734,
+            310.27276611328125,
+            81.13601684570312,
+            323.3038635253906
+          ]
+        },
+        {
+          "id": "p17-b8-a6d6f02",
+          "kind": "paragraph",
+          "text": "Altieri, M. A., & Nicholls, C. I. (2008). Scaling up agroecological approaches for food \nsovereignty in Latin America. Development, 51(4), 472–480. https://doi.org/ \n10.1057/dev.2008.68 \nBamji, M. S., Murty, P. V. V. S., & Sudhir, P. D. (2021). Nutritionally sensitive \nagriculture—An approach to reducing hidden hunger. European Journal of Clinical \nNutrition, 75(7), 1001–1009. https://doi.org/10.1038/s41430-020-00760-x \nBartholom´ee, O., Grigulis, K., Colace, M.-P., Arnoldi, C., & Lavorel, S. (2018). \nMethodological uncertainties in estimating carbon storage in temperate forests and \ngrasslands. Ecological Indicators, 95, 331–342. https://doi.org/10.1016/j. \necolind.2018.07.054 \nBioversity International. (2014). Concept Note: Nutrition-sensitive landscapes. Bioversity \nInternational and The Earth Institute: Columbia University. https://www. \nbioversityinternational.org/fileadmin/user_upload/research/research_portfolio/ \nDiet_diversity/Nutrition__Sensitive_Landscapes_Concept_paper_March_2014.pdf. \nBirol, E., Villalba, E. R., & Smale, M. (2009). Farmer preferences for milpa diversity and \ngenetically modified maize in Mexico: A latent class approach. Environment and \nDevelopment Economics, 14(4), 521–540. https://doi.org/10.1017/ \nS1355770X08004944 \nBisoffi, S., Ahrn´e, L., Aschemann-Witzel, J., B´aldi, A., Cuhls, K., DeClerck, F., … \nBrunori, G. (2021). COVID-19 and sustainable food systems: what should we learn \nbefore the next emergency. Frontiers in Sustainable Food Systems, 5, Article 650987. \nhttps://doi.org/10.3389/fsufs.2021.650987 \nBos, T. (2020). Developing a spatially explicit land use management approach: Case study of \nSanta Catarina Tayata. Oaxaca, Mexico: Wageningen University & Research [Master \nthesis under progress]. \nBressani, R. (2015). Caracterizaci´on química y nutricional de la semilla, pulpa y c´ascara \nde chilacayote (Cucúrbita ficifolia) y aplicaciones en el desarrollo de productos \n(Final report PROYECTO FODECYT No. 023-2008; p. 82). Universidad del Valle de \nGuatemala. http://168.234.106.70/library/images/c/c7/FODECYT_2008.23.pdf. \nBrito, A., Mujica-Coopman, M. F., Olivares, M., L´opez de Roma˜na, D., Cori, H., & \nAllen, L. H. (2015). Folate and vitamin B 12 status in latin america and the caribbean: \nAn update. Food and Nutrition Bulletin, 36(2_suppl), S109–S118. https://doi.org/ \n10.1177/0379572115585772 \nBroegaard, R. B., Rasmussen, L. V., Dawson, N., Mertz, O., Vongvisouk, T., & Grogan, K. \n(2017). Wild food collection and nutrition under commercial agriculture expansion \nin agriculture-forest landscapes. Forest Policy and Economics, 84, 92–101. https://doi. \norg/10.1016/j.forpol.2016.12.012 \nCadena-I˜niguez, P., Camas-G´omez, R., L´opez-B´aez, W., L´opez-G´omez, H. D. C., & \nGonz´alez-Cifuentes, J. H. (2018). El MIAF, una alternativa viable para laderas en \n´areas marginadas del sureste de M´exico: Caso de estudio en Chiapas. Revista \nMexicana de Ciencias Agrícolas, 9(7), 1351–1361. https://doi.org/10.29312/ \nremexca.v9i7.1670 \nCarriquiry, M., Dumortier, J., & Elobeid, A. (2022). Trade scenarios compensating for \nhalted wheat and maize exports from Russia and Ukraine increase carbon emissions \nwithout easing food insecurity. Nature Food, 3(10), 847–850. https://doi.org/ \n10.1038/s43016-022-00600-0 \nClapp, J. (2017). Food self-sufficiency: Making sense of it, and when it makes sense. Food \nPolicy, 66, 88–96. https://doi.org/10.1016/j.foodpol.2016.12.001 \nCONAPO. (2016). ´Indice de marginaci´on por entidad federativa, 1990-2015. Consejo \nNacional de Poblaci´on. http://www.conapo.gob.mx/es/CONAPO/Datos_Abiertos_ \ndel_Indice_de_Marginacion.",
+          "bbox": [
+            37.587398529052734,
+            330.54840087890625,
+            288.5706481933594,
+            739.4655151367188
+          ]
+        },
+        {
+          "id": "p17-b9-105c647",
+          "kind": "paragraph",
+          "text": "Cort´es, J., Turrent, A., Díaz, P., Claro, P., Hern´andez, E., Aceves, E., & Mendoza, R. \n(2007). La milpa intercalada con ´arboles frutales (MIAF), una tecnología multiobjetivo \npara las peque˜nas unidades de producci´on (pp. 100–116). Forestal y Pesquero: \nDesarrollo Agropecuario. \nde Gordillo, G.de. A. (2004). Seguridad alimentaria y agricultura familiar. Revista de La \nCEPAL, 83, 71–84. \nde la Republica, S. (2017). M´exico, segundo país importador de alimentos per capita: \nFAO. Coordinaci´on de Comunicaci´on Social. http://comunicacion.senado.gob.mx/in \ndex.php/informacion/boletines/35832-mexico-segundo-pais-importador-de-alimen \ntos-per-capita-fao.html. \nEbel, R., Pozas, J. G. C., Soria, F. M., & Cruz, J. G. (2017). Manejo org´anico de la milpa: \nRendimiento de maíz, frijol y calabaza en monocultivo y policultivo. Terra \nLatinoamericana, 35, 149–160. \nEggleston, H. S. (Ed.). (2006). 2006 IPCC guidelines for national greenhouse gas \ninventories. Institute for Global Environmental Strategies. \nEllis, E. A., & Porter-Bolland, L. (2008). Is community-based forest management more \neffective than protected areas? Forest Ecology and Management, 256(11), 1971–1983. \nhttps://doi.org/10.1016/j.foreco.2008.07.036 \nEtchevers, J., Prat, C., Balbontin, C., Bravo, M., Martinez, M., & Ortiz, C. (2004). \nInfluence of Land use on carbon sequestration and erosion in Mexico and Central \nAmerica. Journal: Bulletin Du R´eseau Erosion, 23, 284–310. \nFader, M., Gerten, D., Krause, M., Lucht, W., & Cramer, W. (2013). Spatial decoupling of \nagricultural production and consumption: Quantifying dependences of countries on \nfood imports due to domestic land and water constraints. Environmental Research \nLetters, 8(1), Article 014046. https://doi.org/10.1088/1748-9326/8/1/014046 \nFAO (1996). Rome declaration and world food summit plan of action. Rome: Food and \nAgriculture Organization of the United Nations . http://www.fao.org/3/w3613e/ \nw3613e00.htm. \nFAO. (2018). Sustainable agriculture for biodiversity – biodiversity for sustainable \nagriculture. Food and Agriculture Organization of the United Nations. Rome. htt \nps://www.fao.org/documents/card/en/c/85baf9c5-ea7f-4e25-812f-737755 \na8b320/. \nFAO. (2014). Nutrition-sensitive agriculture. Food and Agriculture Organization of the \nUnited Nations. Rome. http://www.fao.org/3/a-as601e.pdf. \nGaleana-Piza˜na, J. M., Couturier, S., & Monsivais-Huertero, A. (2018). Assessing food \nsecurity and environmental protection in Mexico with a GIS-based food \nenvironmental efficiency index. Land Use Policy, 76, 442–454. https://doi.org/ \n10.1016/j.landusepol.2018.02.022 \nGeyik, ¨O., Hadjikakou, M., & Bryan, B. A. (2022). Climate-friendly and nutrition- \nsensitive interventions can close the global dietary nutrient gap while reducing GHG \nemissions. Nature Food, 4(1), 61–73. https://doi.org/10.1038/s43016-022-00648-y \nGroot, J. C. J., Oomen, G. J. M., & Rossing, W. A. H. (2012). Multi-objective optimization \nand design of farming systems. Agricultural Systems, 110, 63–77. https://doi.org/ \n10.1016/j.agsy.2012.03.012 \nGroot, J. C. J., Remans, R., Estrada-Carmona, N., Raneri, J., DeClerck, F., Alvarez, S., … \nDescheemaeker, K. (2017). Integrated systems research in nutrition-sensitive \nlandscapes: A theoretical methodological framework. In I. Oborn, B. Vanlauwe, \nM. Phillips, R. Thomas, W. Brooijmans, & K. Atta-Krah (Eds.), Sustainable \nintensification in smallholder agriculture: An integrated systems research approach (pp. \n259–274). Routledge.  \nGroot, J. C. J., Rossing, W. A. H., Jellema, A., Stobbelaar, D. J., Renting, H., & Van \nIttersum, M. K. (2007). Exploring multi-scale trade-offs between nature \nconservation, agricultural profits and landscape quality—A methodology to support",
+          "bbox": [
+            306.5934143066406,
+            310.31201171875,
+            557.5609130859375,
+            735.1566772460938
+          ]
+        },
+        {
+          "id": "p17-b10-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.58909606933594,
+            33.65469741821289,
+            501.74456787109375,
+            44.07929229736328
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-17.png"
+    },
+    {
+      "number": 18,
+      "blocks": [
+        {
+          "id": "p18-b0-ec6f84c",
+          "kind": "paragraph",
+          "text": "Landscape and Urban Planning 246 (2024) 105041",
+          "bbox": [
+            417.87799072265625,
+            33.65479278564453,
+            558.28369140625,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p18-b1-4ec9599",
+          "kind": "paragraph",
+          "text": "18",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p18-b2-9e6cb79",
+          "kind": "paragraph",
+          "text": "discussions on land-use perspectives. Agriculture, Ecosystems & Environment, 120(1), \n58–69. https://doi.org/10.1016/j.agee.2006.03.037 \nGroot, J. C. J., Rossing, W. A. H., Tichit, M., Turpin, N., Jellema, A., Baudry, J., … van de \nVen, G. W. J. (2009). On the contribution of modelling to multifunctional \nagriculture: Learning from comparisons. Journal of Environmental Management, 90, \nS147–S160. https://doi.org/10.1016/j.jenvman.2008.11.030 \nGroot, J. C. J., Yalew, S. G., & Rossing, W. A. H. (2018). Exploring ecosystem services \ntrade-offs in agricultural landscapes with a multi-objective programming approach. \nLandscape and Urban Planning, 172, 29–36. https://doi.org/10.1016/j. \nlandurbplan.2017.12.008 \nGuterres, A. (2022). The War in Ukraine: A Silent Assault on the Developing World. \nhttps://www.un.org/africarenewal/magazine/april-2022/“-war-ukraine-silent- \nassault-developing-world”. \nGuti´errez-Carbajal, M. G., & Maga˜na-Maga˜na, M.´A. (2017). Migraci´on e influencia \nurbana en el consumo de alimentos en dos comunidades Mayas de Yucat´an. Estudios \nSociales. Revista de Alimentaci´on Contempor´anea y Desarrollo Regional, 27(50). https:// \ndoi.org/10.24836/es.v27i50.429 \nIckowitz, A., McMullin, S., Rosenstock, T., Dawson, I., Rowland, D., Powell, B., … \nNasi, R. (2022). Transforming food systems with trees and forests. The Lancet \nPlanetary Health, 6(7), e632–e639. https://doi.org/10.1016/S2542-5196(22)00091- \n2 \nIFPRI. (2014). 2014 global nutrition report: Actions and accountability to accelerate the \nworld’s progress on nutrition. International Food Policy Research Institute.  \nINCAP. (2006). Tabla de Composici´on de alimentos para Centroam´erica ((2nd ed.).) \nInstituto de Nutrici´on de Centroam´erica y Panam´a. \nINEGI. (2010). Censos y Conteos de Pablaci´on y Vivienda. http://www.beta.inegi.org.mx/d \natos/?init=2. \nINEGI. (2015). Encuesta intercensal 2015 [Census]. Instituto Nacional de Estadística y \nGeografía. https://www.inegi.org.mx/programas/ccpv/2010/. \nIPCC. (2022). Climate Change and Land: IPCC Special Report on Climate Change, \nDesertification, Land Degradation, Sustainable Land Management, Food Security, \nand Greenhouse Gas Fluxes in Terrestrial Ecosystems (1st ed.). Cambridge University \nPress. https://doi.org/10.1017/9781009157988. \nIsakson, S. R. (2009). No hay ganancia en la milpa: The agrarian question, food \nsovereignty, and the on-farm conservation of agrobiodiversity in the Guatemalan \nhighlands. The Journal of Peasant Studies, 36(4), 725–759. https://doi.org/10.1080/ \n03066150903353876 \nJim´enez, C. E. A., Gad´amez, J. G., Aguilar, F. B. M., Hern´andez, F. G., & Solis, H. V. \n(2019). Eficiencia del policultivo maíz-frijol-calabaza bajo manejo org´anico en la \nFrailesca, Chiapas M´exico. Revista Científica Agroecosistemas, 7(3), 64–72. \nJokisch, B. D. (2002). Migration and agricultural change: The case of smallholder \nagriculture in highland ecuador. Human Ecology, 30(4), 523–550. https://doi.org/ \n10.1023/A:1021198023769 \nKadoya, T., & Washitani, I. (2011). The Satoyama Index: A biodiversity indicator for \nagricultural landscapes. Agriculture, Ecosystems & Environment, 140(1–2), 20–26. \nhttps://doi.org/10.1016/j.agee.2010.11.007 \nKennedy, G., Raneri, J., Termote, C., Nowak, V., Remans, R., Groot, J. C. J., & \nThilsted, S. H. (2017). Nutrition-sensitive landscapes: Approach and methods to \nassess food availability and diversification of diets. In I. Oborn, B. Vanlauwe, \nM. Phillips, R. Thomas, K. AttaKrah, & W. Brooijmans (Eds.), Sustainable \nIntensification in Smallholder Agriculture: An Integrated Systems Research Approach (pp. \n247–258). Taylor and Francis Inc.  \nKontoleon, A., Pascual, U., & Smale, M. (Eds.). (2009). Agrobiodiversity conservation \nand economic development. Routledge. \nLaillou, A., Pham, T. V., Tran, N. T., Le, H. T., Wieringa, F., Rohner, F., … Berger, J. \n(2012). Micronutrient deficits are still public health issues among women and young \nchildren in Vietnam. PLoS ONE, 7(4), e34906. \nLeatherman, T., Goodman, A. H., & Stillman, J. T. (2020). A critical biocultural \nperspective on tourism and the nutrition transition in the Yucatan. In H. Azcorra, & \nF. Dickinson (Eds.), Culture, Environment and Health in the Yucatan Peninsula (pp. \n97–120). Springer International Publishing. https://doi.org/10.1007/978-3-030- \n27001-8_6.  \nMead, R., & Willey, R. W. (1980). The concept of a ‘land equivalent ratio’ and advantages \nin yields from intercropping. Experimental Agriculture, 16(3), 217–228. https://doi. \norg/10.1017/S0014479700010978 \nMekasha, A., Gerard, B., Tesfaye, K., Nigatu, L., & Duncan, A. J. (2014). Inter-connection \nbetween land use/land cover change and herders’/farmers’ livestock feed resource \nmanagement strategies: A case study from three Ethiopian eco-environments. \nAgriculture, Ecosystems & Environment, 188, 150–162. https://doi.org/10.1016/j. \nagee.2014.02.022 \nMokany, K., Raison, R. J., & Prokushkin, A. S. (2006). Critical analysis of root: Shoot \nratios in terrestrial biomes. Global Change Biology, 12(1), 84–96. https://doi.org/ \n10.1111/j.1365-2486.2005.001043.x \nMora, J. O., Gueri, M., & Mora, O. L. (1998). Vitamin A deficiency in latin America and \nthe caribbean: An overview. Revista Panamericana de Salud Pública, 4(3). https://doi. \norg/10.1590/S1020-49891998000900005 \nMottaleb, K. A., Kruseman, G., & Snapp, S. (2022). Potential impacts of Ukraine-Russia \narmed conflict on global wheat food security: A quantitative exploration. Global Food \nSecurity, 35, Article 100659. https://doi.org/10.1016/j.gfs.2022.100659 \nNaranjo, S., Rodrigues, F. A., Jr., Cadisch, G., Lopez-Ridaura, S., Fuentes Ponce, M., & \nMarohn, C. (2021). Effects of spatial resolution of terrain models on modelled \ndischarge and soil loss in Oaxaca Mexico. Hydrology and Earth System Sciences, 25 \n(10), 5561–5588. https://doi.org/10.5194/hess-25-5561-2021",
+          "bbox": [
+            37.587772369384766,
+            52.12942886352539,
+            288.5762939453125,
+            716.1028442382812
+          ]
+        },
+        {
+          "id": "p18-b3-1c18446",
+          "kind": "paragraph",
+          "text": "Naranjo-Macias, S. A. (2019). Assessing the effect of different spatial resolutions in soil \nerosion modeling – Case study in a highland tropical watershed in southeast Mexico. \nUniversity of Hohenheim [Master thesis]. \nNational Academy of Sciences. (2011). Nutrient Recommendations: Dietary Reference \nIntakes (DRI). https://ods.od.nih.gov/Health_Information/Dietary_Reference_ \nIntakes.aspx. \nN´avar, J. (2009). Allometric equations for tree species and carbon stocks for forests of \nnorthwestern Mexico. Forest Ecology and Management, 257(2), 427–434. https://doi. \norg/10.1016/j.foreco.2008.09.028 \nNovotny, I. P. (2020). Assessing household and landscape trajectories for improving \necosystem services and nutritional self-sufficiency in south Mexico [Wageningen \nUniversity]. https://doi.org/10.18174/516608. \nNovotny, I. P., Fuentes-Ponce, M. H., Tittonell, P., Lopez-Ridaura, S., & Rossing, W. A. H. \n(2021). Back to the people: The role of community-based responses in shaping \nlandscape trajectories in Oaxaca Mexico. Land Use Policy, 100, Article 104912. \nhttps://doi.org/10.1016/j.landusepol.2020.104912 \nNovotny, I. P., Tittonell, P., Fuentes-Ponce, M. H., L´opez-Ridaura, S., & Rossing, W. A. H. \n(2021). The importance of the traditional milpa in food security and nutritional self- \nsufficiency in the highlands of Oaxaca Mexico. PLOS ONE, 16(2), e0246281. \nOtero-Prevost, D. E., Gurri-García, F. D., Mariaca-M´endez, R., & Guízar-V´azquez, F., Jr. \n(2018). La incorporaci´on y el aumento de oferta de alimentos industrializados en las \ndietas de las unidades dom´esticas y su relaci´on con el abandono del sistema de \nsubsistencia propio en las comunidades rurales mayas de Yucat´an M´exico. Cuadernos \nde Desarrollo Rural, 14(80). https://doi.org/10.11144/Javeriana.cdr14-80.iaoa \nParraguez-Vergara, E., Contreras, B., Clavijo, N., Villegas, V., Paucar, N., & Ther, F. \n(2018). Does indigenous and campesino traditional agriculture have anything to \ncontribute to food sovereignty in Latin America? Evidence from Chile, Peru, \nEcuador, Colombia, Guatemala and Mexico. International Journal of Agricultural \nSustainability, 16(4–5), 326–341. https://doi.org/10.1080/14735903.2018.1489361 \nPowell, B., Thilsted, S. H., Ickowitz, A., Termote, C., Sunderland, T., & Herforth, A. \n(2015). Improving diets with wild and cultivated biodiversity from across the \nlandscape. Food Security, 7(3), 535–554. https://doi.org/10.1007/s12571-015-0466- \n5 \nPuma, M. J., Bose, S., Chon, S. Y., & Cook, B. I. (2015). Assessing the evolving fragility of \nthe global food system. Environmental Research Letters, 10(2), Article 024007. \nhttps://doi.org/10.1088/1748-9326/10/2/024007 \nRAN. (2019). Tierra de uso común. Registro Agrario Nacional. http://datos.ran.gob.mx/co \nnjuntoDatosPublico.php. \nRemans, R., Flynn, D. F. B., DeClerck, F., Diru, W., Fanzo, J., Gaynor, K., … Palm, C. A. \n(2011). Assessing nutritional diversity of cropping systems in African villages. PLoS \nONE, 6(6), e21235. \nReyna, C., Fuentes-Ponce, M., Rossing, W., Groot, J., & L´opez-Ridaura, S. (unpublished). \nExperimentation and model-based re-design for sustainable intensification of mixed \ncrop-livestock smallholder farms in the Mixteca-Oaxaque˜na region, Mexico. \nRichard, A. (2008). Withered Milpas: Governmental disaster and the mexican \ncountryside. The Journal of Latin American and Caribbean Anthropology, 13(2), \n387–413. https://doi.org/10.1111/j.1935-4940.2008.00043.x \nRodríguez, A., & Arias, L. M. (2014). La milpa y el maizal: Retos al desarrollo rural en \nM´exico y Perú. Etnobiología, 12(3), 76–89. \nS´anchez, P., & Hern´andez, P. (2014). Sistema MILPA: Elemento de Identidad Campesina \ne Indígena (p. 24). Programa de Intercambio, Di´alogo y Asesoría en Agricultura \nSostenible y Soberanía Alimentaria. http://infoandina.org/infoandina/node/66102. \nSIAP. (2017). Estadística de producci´on agrícola. Servicio de Informaci´on \nAgroalimentaria y Pesquera. https://nube.siap.gob.mx/cierreagricola/. \nSioen, G. B., Sekiyama, M., Terada, T., & Yokohari, M. (2017). Post-disaster food and \nnutrition from urban agriculture: A self-sufficiency analysis of Nerima Ward, Tokyo. \nInternational Journal of Environmental Research and Public Health, 14(7). https://doi. \norg/10.3390/ijerph14070748 \nStorn, R., & Price, K. (1997). Differential evolution – A simple and efficient heuristic for \nglobal optimization over continuous spaces. Journal of Global Optimization, 11(4), \n341–359. https://doi.org/10.1023/A:1008202821328 \nSuweis, S., Carr, J. A., Maritan, A., Rinaldo, A., & D’Odorico, P. (2015). Resilience and \nreactivity of global food security. Proceedings of the National Academy of Sciences, 112 \n(22), 6902–6907. https://doi.org/10.1073/pnas.1507366112 \nTimler, C., Alvarez, S., DeClerck, F., Remans, R., Raneri, J., Estrada Carmona, N., … \nGroot, J. C. J. (2020). Exploring solution spaces for nutrition-sensitive agriculture in \nKenya and Vietnam. Agricultural Systems, 180, Article 102774. https://doi.org/ \n10.1016/j.agsy.2019.102774 \nTolessa, T., Senbeta, F., & Kidane, M. (2017). The impact of land use/land cover change \non ecosystem services in the central highlands of Ethiopia. Ecosystem Services, 23, \n47–54. https://doi.org/10.1016/j.ecoser.2016.11.010 \nUnicef. (1991). Strategy for improved nutrition of children and women in developing \ncountries. The Indian Journal of Pediatrics, 58(1), 13–24. https://doi.org/10.1007/ \nBF02810402 \nUrban, D., & Keitt, T. (2001). Landscape connectivity: A graph-theoretic perspective. \nEcology, 82(5), 1205–1218. https://doi.org/10.1890/0012-9658(2001)082[1205: \nLCAGTP]2.0.CO;2 \nUSDA. (2010). Food data central [Data Base]. https://fdc.nal.usda.gov/. \nWillett, W., Rockstr¨om, J., Loken, B., Springmann, M., Lang, T., Vermeulen, S., … \nMurray, C. J. L. (2019). Food in the anthropocene: The EAT–lancet commission on \nhealthy diets from sustainable food systems. The Lancet, 393(10170), 447–492. \nhttps://doi.org/10.1016/S0140-6736(18)31788-4",
+          "bbox": [
+            306.5920715332031,
+            52.12942886352539,
+            557.5606689453125,
+            708.1087646484375
+          ]
+        },
+        {
+          "id": "p18-b4-b1cbc64",
+          "kind": "paragraph",
+          "text": "I.P. Novotny et al.",
+          "bbox": [
+            37.587772369384766,
+            33.646968841552734,
+            501.74224853515625,
+            44.071563720703125
+          ]
+        }
+      ],
+      "snapshot": "library/novotny-2024/3549e6d02b39/page-18.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 18,
+    "pageSnapshots": 18,
+    "allTextBlocksRetained": true,
+    "textCharacters": 78760,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 12,
+    "sourceSHA256": "3549e6d02b39f329c80d4d2caeb76b584eda198ac413f810fd214cf59b4a0c4b",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

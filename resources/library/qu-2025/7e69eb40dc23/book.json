@@ -1,0 +1,2006 @@
+{
+  "schema": "paper.original.v2",
+  "id": "qu-2025",
+  "lessonId": "qu-2025",
+  "title": "Improved manure management moves trade-off and synergy relationships among environmental indicators in desirable directions",
+  "citation": "Qu, Q., Groot, J. C. J., & Zhang, K. (2025). Agricultural Systems, 222, 104170.",
+  "origin": "https://doi.org/10.1016/j.agsy.2024.104170",
+  "sourceHash": "7e69eb40dc235c56e72cddc615d123cb8b8679999727d499127a08b0cb2b2769",
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "evidence": "This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by- nc/4.0/ ). ",
+    "page": 1
+  },
+  "originalPath": "library/qu-2025/7e69eb40dc23/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/qu-2025/7e69eb40dc23/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-9371f87",
+          "kind": "heading",
+          "text": "Improved manure management moves trade-off and synergy relationships \namong environmental indicators in desirable directions",
+          "bbox": [
+            37.587398529052734,
+            160.96640014648438,
+            485.762451171875,
+            200.19052124023438
+          ]
+        },
+        {
+          "id": "p1-b1-82948b0",
+          "kind": "heading",
+          "text": "Qingbo Qu a,b,c,d, Jeroen C.J. Groot c, Keqiang Zhang d,e,*",
+          "bbox": [
+            37.587398529052734,
+            206.1637725830078,
+            306.1962890625,
+            223.92398071289062
+          ]
+        },
+        {
+          "id": "p1-b2-5d5e566",
+          "kind": "paragraph",
+          "text": "a College of Agriculture and Biological Science, Dali University, Dali, Yunnan 671003, China\nb Team for Agroecology in Erhai Lake Watershed, Dali University, Dali, Yunnan 671003, China\nc Farming Systems Ecology Group, Wageningen University and Research, Wageningen 6700 AK, the Netherlands\nd Dali Yunnan, Agricultural Ecosystem, National Observation and Research Station, Dali 671004, China\ne Agro-environmental Protection Institute, Ministry of Agriculture and Rural Affairs, Tianjin 300191, China",
+          "bbox": [
+            37.587398529052734,
+            225.26937866210938,
+            339.6487731933594,
+            272.77099609375
+          ]
+        },
+        {
+          "id": "p1-b3-70b050c",
+          "kind": "paragraph",
+          "text": "H I G H L I G H T S\nG R A P H I C A L  A B S T R A C T",
+          "bbox": [
+            37.587398529052734,
+            294.22943115234375,
+            327.98907470703125,
+            305.6314392089844
+          ]
+        },
+        {
+          "id": "p1-b4-a01fcc1",
+          "kind": "paragraph",
+          "text": "• Improved manure management and \ncrop-dairy integration enhance nutrient \ncircularity in intensive dairy farms.\n• Combining manure technologies greatly \nreduces N losses.\n• Manure management optimizes N vola­",
+          "bbox": [
+            37.587398529052734,
+            313.5500793457031,
+            172.96990966796875,
+            374.0895080566406
+          ]
+        },
+        {
+          "id": "p1-b5-ec92ed8",
+          "kind": "paragraph",
+          "text": "tilization, soil N losses, and soil organic \nmatter balance.\n• Improved manure practices alone are \ninsufficient to address N surplus in high- \ndensity dairies.",
+          "bbox": [
+            37.587398529052734,
+            371.9425964355469,
+            172.96487426757812,
+            422.44842529296875
+          ]
+        },
+        {
+          "id": "p1-b7-19af77a",
+          "kind": "paragraph",
+          "text": "A R T I C L E  I N F O",
+          "bbox": [
+            37.587398529052734,
+            489.4804382324219,
+            115.68936157226562,
+            500.8824462890625
+          ]
+        },
+        {
+          "id": "p1-b8-7e7e2d5",
+          "kind": "paragraph",
+          "text": "Editor: Paul Crosson",
+          "bbox": [
+            37.587398529052734,
+            508.7904357910156,
+            95.59151458740234,
+            519.2150268554688
+          ]
+        },
+        {
+          "id": "p1-b9-ee1c122",
+          "kind": "paragraph",
+          "text": "Keywords:\nManure management\nCrop-dairy integration\nFeed self-sufficiency\nFarmDESIGN\nMulti-objective optimization",
+          "bbox": [
+            37.587398529052734,
+            527.2716674804688,
+            118.40193939208984,
+            580.4989013671875
+          ]
+        },
+        {
+          "id": "p1-b10-c0671f4",
+          "kind": "paragraph",
+          "text": "A B S T R A C T",
+          "bbox": [
+            201.9969940185547,
+            489.4804382324219,
+            258.714111328125,
+            500.8824462890625
+          ]
+        },
+        {
+          "id": "p1-b11-71f6dbf",
+          "kind": "paragraph",
+          "text": "CONTEXT: Dairy production systems with a high stocking density are strongly dependent on external feed re­\nsources and concentrate nutrients in manure on a small surface area, thus causing environmental challenges. \nBoth improved manure management and integration of crop-dairy production have been proposed as ways to \nreduce nutrient losses and improve sustainability of intensive dairy production. However, the potential inter­\nactive relationships between these two options are rarely investigated.\nOBJECTIVE: This study aimed to investigate how different manure management technologies influence nutrient \nlosses at manure management and farm levels and how manure management impacts farm multi-objective \noptimization results for more integrated crop-dairy production.\nMETHODS: A whole farm model (FarmDESIGN) extended with a manure management module (FarmM3) was \nused to simulate an intensive mixed crop-dairy farm with a herd of 66 cows and 9.6 ha of crop area. The \noptimization aimed to improve farm environmental performance, increase feed self-sufficiency and food \nproduction.\nRESULTS AND CONCLUSIONS: The results showed that individual manure management technologies were \ninsufficient to reduce nitrogen (N) losses from manure management chains due to compensatory losses, whereas",
+          "bbox": [
+            201.9969940185547,
+            508.74407958984375,
+            559.78125,
+            644.7979736328125
+          ]
+        },
+        {
+          "id": "p1-b12-c429d57",
+          "kind": "paragraph",
+          "text": "* Corresponding author at: Dali Yunnan, Agricultural Ecosystem, National Observation and Research Station, Dali 671004, China.",
+          "bbox": [
+            42.632999420166016,
+            669.0720825195312,
+            461.1280822753906,
+            680.7999267578125
+          ]
+        },
+        {
+          "id": "p1-b13-99b1a1e",
+          "kind": "paragraph",
+          "text": "E-mail address: keqiangzhang68@163.com (K. Zhang).",
+          "bbox": [
+            49.5492057800293,
+            678.653076171875,
+            224.8429718017578,
+            690.3809204101562
+          ]
+        },
+        {
+          "id": "p1-b15-b0658ce",
+          "kind": "paragraph",
+          "text": "Contents lists available at ScienceDirect",
+          "bbox": [
+            228.41600036621094,
+            59.29375076293945,
+            369.06756591796875,
+            72.32485961914062
+          ]
+        },
+        {
+          "id": "p1-b16-fb1fca0",
+          "kind": "heading",
+          "text": "Agricultural Systems",
+          "bbox": [
+            234.65199279785156,
+            80.03680419921875,
+            362.8741760253906,
+            102.84097290039062
+          ]
+        },
+        {
+          "id": "p1-b17-a2a80ca",
+          "kind": "paragraph",
+          "text": "journal homepage: www.elsevier.com/locate/agsy",
+          "bbox": [
+            204.3780059814453,
+            118.17890930175781,
+            393.1817321777344,
+            126.14900970458984
+          ]
+        },
+        {
+          "id": "p1-b19-aa72d0e",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1016/j.agsy.2024.104170\nReceived 29 May 2024; Received in revised form 27 September 2024; Accepted 28 October 2024",
+          "bbox": [
+            37.587398529052734,
+            695.66064453125,
+            354.84197998046875,
+            716.9127807617188
+          ]
+        },
+        {
+          "id": "p1-b20-3df18ec",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 222 (2025) 104170",
+          "bbox": [
+            232.35000610351562,
+            33.45002365112305,
+            364.2830505371094,
+            45.183204650878906
+          ]
+        },
+        {
+          "id": "p1-b21-c8ae058",
+          "kind": "paragraph",
+          "text": "Available online 6 November 2024 \n0308-521X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by- \nnc/4.0/ ).",
+          "bbox": [
+            37.519989013671875,
+            714.7000122070312,
+            559.6732177734375,
+            744.0932006835938
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/qu-2025/7e69eb40dc23/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/qu-2025/7e69eb40dc23/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure3",
+          "kind": "image",
+          "path": "library/qu-2025/7e69eb40dc23/p1-figure3.png",
+          "alt": "Original source page 1, graphic 3",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-df91a51",
+          "kind": "paragraph",
+          "text": "combinations of slurry solid-liquid separation, covered storage of solid and liquid fractions, and improved \nmanure application could remarkably reduce N losses by 46 to 58 % and increase manure N use efficiencies by \nmore than 30 %. Improved manure management did not influence total N losses at farm level without decreasing \nlivestock density. Multi-objective optimization showed that improved manure management did not eliminate \ntrade-offs or synergies among objectives but did affect the positions and the slopes of the solution frontiers \nbetween objectives. Differences between solution frontiers of alternative farm configurations in terms of N \nvolatilization, soil N losses and soil organic matter (OM) balance indicated that manure management chains \n(MMCs) could be designed effectively to optimize these objectives.\nSIGNIFICANCE: This study confirmed the value of improved manure management and integrated crop-dairy \nproduction in reducing N losses and improving farm nutrient use efficiency. For intensive dairy farms with \nlimited land availability, future studies should focus on recoupling crop and dairy production at regional scales to \ncreate more sustainable and resilient food production systems.",
+          "bbox": [
+            201.9969940185547,
+            52.2530632019043,
+            559.7891845703125,
+            169.20164489746094
+          ]
+        },
+        {
+          "id": "p2-b1-6e62ee8",
+          "kind": "heading",
+          "text": "1. Introduction",
+          "bbox": [
+            37.587398529052734,
+            196.14976501464844,
+            97.8365707397461,
+            209.18087768554688
+          ]
+        },
+        {
+          "id": "p2-b2-e37bda7",
+          "kind": "heading",
+          "text": "1.1. Intensive dairy production",
+          "bbox": [
+            37.587398529052734,
+            217.0688934326172,
+            143.23745727539062,
+            230.10000610351562
+          ]
+        },
+        {
+          "id": "p2-b3-03dd386",
+          "kind": "paragraph",
+          "text": "Dairy farming has intensified and specialized over the past few de­\ncades (FAO, 2018). With high stocking rates and large external feed \ninputs, intensive dairy farming systems are typically characterized by \nhigh productivity and profitability but also negative site-specific envi­\nronmental impacts (Clay et al., 2020). Environmental problems, such as \ngreenhouse gas and ammonia emissions, nutrient surpluses and eutro­\nphication of ecosystems, have gained worldwide attention (Rotz et al., \n2006; Oenema et al., 2007). Poor on-farm manure management and the \nspatial decoupling of crop and dairy farms were perceived as the major \ncauses of nutrient losses from intensive confinement dairy farms (Bai \net al., 2013; Chadwick et al., 2020; Zou et al., 2023). With a large \namount of excreted manure but limited available grassland or cropland \nto utilize the produced manure, manure has become a burden for \nintensive confinement dairy farms. Additionally, due to the high live­\nstock density, the strong reliance on external feeds of these intensive \nconfinement dairy farms has resulted in very low levels of nutrient \ncircularity and use efficiency. Strategies to reduce nutrient losses and to \nimprove nutrient use efficiency have been pointed out to involve \nimproving manure management and by recoupling crop and dairy pro­\nduction (Oenema and Tamminga, 2005; Chadwick et al., 2020).",
+          "bbox": [
+            37.58736801147461,
+            237.98800659179688,
+            291.02862548828125,
+            449.7830505371094
+          ]
+        },
+        {
+          "id": "p2-b4-aef22ee",
+          "kind": "heading",
+          "text": "1.2. Improved manure management",
+          "bbox": [
+            37.587398529052734,
+            459.9393615722656,
+            159.34820556640625,
+            472.970458984375
+          ]
+        },
+        {
+          "id": "p2-b5-73c3474",
+          "kind": "paragraph",
+          "text": "Emission mitigation measures and manure treatment technologies \nhave been developed to reduce nutrient losses from manure manage­\nment facilities. For instance, covering of manure storages, slurry acidi­\nfication and dilution, and injection of liquid manure were used to reduce \nammonia emissions. Anaerobic digestion, solid-liquid separation and \ncomposting could contribute to mitigation of greenhouse gas emissions \nand facilitate manure nutrient management by producing alternative \nmanure products such as anaerobic digestate, separated liquid and solid \nfractions, and compost (Foged et al., 2011; Sommer et al., 2013). \nHowever, devising a single mitigation measure on a single loss pathway \nhas led to pollution swapping by increased losses of other compounds \n(De Vries et al., 2015a). It was reported that the reduced ammonia \nemissions by covering slurry storage and by injection of liquid manure \nresulted in an increased nitrous oxide emission (Sommer and Hutchings, \n2001; Berg et al., 2006). Moreover, the reduced gas emission at previous \nstages might lead to increased losses at later manure management stages \n(Shah et al., 2013). Considering the pollution swapping among nutrient \nloss pathways and compensatory losses among manure management \ntechnologies and different stages in the manure management chain, a \ncombination of different manure management technologies has been \nproven more efficient to reduce nutrient losses from the whole manure \nmanagement chains (Rotz et al., 2006; Hou et al., 2015; Sajeev et al., \n2018). However, the quantitative effects of improved manure manage­\nment on nutrient use efficiency at farm level are rarely investigated. \nWith more conserved nutrients in manure products, fewer nutrient",
+          "bbox": [
+            37.58735275268555,
+            480.8584899902344,
+            291.0166320800781,
+            744.9238891601562
+          ]
+        },
+        {
+          "id": "p2-b6-71d4caa",
+          "kind": "paragraph",
+          "text": "inputs from synthetic fertilizers and a larger area of crop- or grassland \nmight be needed to utilize these nutrients. Thus, for intensive confine­\nment dairy farms, the recoupling of crop and dairy production could be a \npromising solution to reduce nutrient surplus and to increase nutrient \ncircularity and use efficiency (Peyraud et al., 2014; Schut et al., 2021).",
+          "bbox": [
+            306.5926208496094,
+            196.14976501464844,
+            559.9932861328125,
+            251.0191192626953
+          ]
+        },
+        {
+          "id": "p2-b7-1db16b2",
+          "kind": "heading",
+          "text": "1.3. Reintegration of crop and dairy production",
+          "bbox": [
+            306.5926208496094,
+            259.7017517089844,
+            468.9348449707031,
+            272.73284912109375
+          ]
+        },
+        {
+          "id": "p2-b8-4e74d8b",
+          "kind": "paragraph",
+          "text": "In integrated or recoupled crop and dairy systems, the manure pro­\nduced by cows is used as a source of fertilizer for the crops, which in turn \nprovide feeds for the livestock. These closed-loop systems allow for the \nefficient use of nutrients, reducing the need for synthetic fertilizers and \nlimiting the demand for imported feeds (Ryschawy et al., 2012; Marton \net al., 2016). Although the value of integrated crop-livestock systems in \nterms of reducing detrimental environmental impacts has been \nconfirmed, studies have highlighted the necessity to consider food pro­\nduction of these systems (Lemaire et al., 2014; Puech et al., 2023), \nespecially at farm scale, since the issue of increasing nutrient recycling \nby crop-livestock integration raises questions about the use of agricul­\ntural land and resource allocation between food crops, feed and animal \nproducts, particularly the role of intermediate resources such as fodder \nfor animal feed (Barbieri et al., 2022). Thus, a strategic plan and design \nfor integrated crop-livestock systems is highly vital to improve nutrient \nuse efficiency and circularity, to increase feed self-sufficiency without \ncompromising food production.",
+          "bbox": [
+            306.59259033203125,
+            280.6208801269531,
+            560.0084228515625,
+            461.0081481933594
+          ]
+        },
+        {
+          "id": "p2-b9-b0b1418",
+          "kind": "heading",
+          "text": "1.4. Whole farm models",
+          "bbox": [
+            306.5926208496094,
+            469.6334228515625,
+            390.1830749511719,
+            482.6645202636719
+          ]
+        },
+        {
+          "id": "p2-b10-94bfa9a",
+          "kind": "paragraph",
+          "text": "Given the strong interactions among different farm components (i.e., \nanimals, manure, soils and crops) of integrated crop and dairy farms, \nwhole farm models can be powerful means to redesign crop and dairy \nsystems to balance supply and demand of feedstuff and manure, and to \nprovide ex-ante assessments of performance of integrated crop-dairy \nsystems. In this study, we will apply a whole farm model, the FarmDE­\nSIGN model, developed by Groot et al. (2012) to redesign farming sys­\ntems by balancing crop-livestock interactions. This model can identify \ncomplicated interactions among farm components, support the explo­\nration of alternative farm configurations using a Pareto-based multi- \nobjective optimization algorithm, and provide redesign plans for \nimproving farm nutrient use efficiency, increasing self-sufficiency of \nfeed and guarantee food production. With a linked external manure \nmanagement module (Qu et al., 2023), it also allows the investigation of \nthe effects of improved manure management practices on nutrient losses \nand farm nutrient use efficiency.",
+          "bbox": [
+            306.59259033203125,
+            490.5533142089844,
+            560.0171508789062,
+            660.508544921875
+          ]
+        },
+        {
+          "id": "p2-b11-d1389db",
+          "kind": "heading",
+          "text": "1.5. Objectives",
+          "bbox": [
+            306.5926208496094,
+            669.1337890625,
+            358.18707275390625,
+            682.1649169921875
+          ]
+        },
+        {
+          "id": "p2-b12-b5cc635",
+          "kind": "paragraph",
+          "text": "This study aims to investigate alternative farm management prac­\ntices to improve nutrient use efficiency of intensive confinement dairy \nfarms. Using the extended FarmDESIGN model, we first evaluate the \nimpacts of various improved manure management practices on nutrient \nlosses and farm nutrient use efficiency. Then we explore alternative farm",
+          "bbox": [
+            306.5926208496094,
+            690.0537109375,
+            560.013916015625,
+            744.9238891601562
+          ]
+        },
+        {
+          "id": "p2-b13-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p2-b14-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-6befaac",
+          "kind": "paragraph",
+          "text": "configurations to further increase nutrient circularity by integrating \ncrop and dairy production based on Pareto-based multi-objective opti­\nmization. Lastly, the potential impacts of improved manure manage­\nment chains on designing and optimizing plans for integrated crop and \ndairy farms is investigated.",
+          "bbox": [
+            37.58738327026367,
+            51.29973220825195,
+            291.0269775390625,
+            106.16908264160156
+          ]
+        },
+        {
+          "id": "p3-b1-a77f4aa",
+          "kind": "heading",
+          "text": "2. Materials and methods",
+          "bbox": [
+            37.587398529052734,
+            115.02146911621094,
+            137.35072326660156,
+            128.05258178710938
+          ]
+        },
+        {
+          "id": "p3-b2-c40b2ca",
+          "kind": "heading",
+          "text": "2.1. Case study farm",
+          "bbox": [
+            37.587398529052734,
+            135.94139099121094,
+            110.39028930664062,
+            148.97250366210938
+          ]
+        },
+        {
+          "id": "p3-b3-231c20a",
+          "kind": "paragraph",
+          "text": "A mixed dairy-crop farm in an agri-environmental scientific obser­\nvation experimental station in Dali, in the province of Yunnan, China \nwas selected as a case study. The region has experienced significant \nenvironmental challenges, particularly the degradation of Erhai Lake's \nwater quality, primarily due to nutrient runoff from chemical fertilizers \nand the expansion of intensive dairy farming. To counter these issues, \nlocal policies have increasingly advocated for the use of organic fertil­\nizers and the integration of crop and dairy farming systems, aiming to \npromote sustainable agricultural practices.",
+          "bbox": [
+            37.58738327026367,
+            156.8605194091797,
+            291.02862548828125,
+            253.5697021484375
+          ]
+        },
+        {
+          "id": "p3-b4-0368c6d",
+          "kind": "paragraph",
+          "text": "At this farm, the dairy herd consisted of 66 animals, including 6 \ncalves, 18 heifers and 42 milking cows. Heifers were kept on the grazed \npasture for 245 days during spring, summer and part of autumn. Milking \ncows and calves were kept in an open barn throughout the whole year. \nDung and urine excreted on the pastures were kept on the pasture \nwithout collection. Excreta produced in the barn were collected sepa­\nrately with solid manure being sold off-farm and liquid manure being \nstored in an underground tank for a period of two months before being \napplied to fields.",
+          "bbox": [
+            37.58738327026367,
+            251.0264434814453,
+            291.0294494628906,
+            347.7356262207031
+          ]
+        },
+        {
+          "id": "p3-b5-ffff3d1",
+          "kind": "paragraph",
+          "text": "The total cultivated farm area was 9.5 ha, with 3.5 ha for fava-bean \nand rice rotation, 1.5 ha for annual ryegrass, 1.5 ha for barley and maize \nrotation, and 3 ha for alfalfa and rape rotation. The harvested rice and \nrapeseed were sold and other crop products were used as animal feed or \nbedding. Additionally, large amounts of bedding materials and feeds",
+          "bbox": [
+            37.5874137878418,
+            345.13580322265625,
+            291.00396728515625,
+            400.0058898925781
+          ]
+        },
+        {
+          "id": "p3-b6-a84b1bb",
+          "kind": "paragraph",
+          "text": "were imported into the farm. Table 1 presents the annual amounts of \nimported feeds and bedding materials in the original farm, which were \nestimated based on the data provided by the farmer.",
+          "bbox": [
+            306.59259033203125,
+            51.29970169067383,
+            560.00830078125,
+            85.24996185302734
+          ]
+        },
+        {
+          "id": "p3-b7-38ebff4",
+          "kind": "paragraph",
+          "text": "Given the limited grazing area and the high potential for nutrient \nlosses through leaching and runoff, we revised the farm configuration \nwith no grazing by heifers and keeping all of the animals in the open \nbarn throughout the whole year. We also improved the herd structure by \nreplacing dairy cows at a rate of 25 %. Correspondingly, we revised the \namount of feed intake to meet animal requirements (Table 1). To in­\ncrease nutrient use efficiency and circularity within the farm, we \nassumed that all produced manure is applied within the farm. The \nmodified farm was taken as the baseline farm and as the starting point \nfor farm optimization.",
+          "bbox": [
+            306.5925598144531,
+            82.70670318603516,
+            560.0210571289062,
+            189.84716796875
+          ]
+        },
+        {
+          "id": "p3-b8-cadf53d",
+          "kind": "heading",
+          "text": "2.2. FarmDESIGN model",
+          "bbox": [
+            306.5926208496094,
+            198.69955444335938,
+            392.5637512207031,
+            211.7306671142578
+          ]
+        },
+        {
+          "id": "p3-b9-50c5481",
+          "kind": "paragraph",
+          "text": "To evaluate the farm's performance comprehensively in terms of \nagronomic and environmental indicators, we utilized the FarmDESIGN \nmodel. This model is a bio-economic whole farm model that supports \nevaluation of mixed crop-livestock farm performance comprehensively \nwith various agronomic, environmental and economic indicators (Groot \net al., 2012). It can be used to simulate flows of organic matter (OM), \ncarbon (C), nitrogen (N), phosphorus (P) and potassium (K) to, through \nand from farm components (crop-animal-manure-soil) on an annual \nbasis. Based on a Pareto-based multi-objective optimization algorithm, \nthis model also enables redesigning more sustainable farming systems \nby exploring alternative farm configurations of balancing different farm \ncomponents interactions. We used an extended version of the model \nwith a flexible modular manure management model (FarmM3) as \ndetailed by Qu et al. (2023).",
+          "bbox": [
+            306.592529296875,
+            219.61866760253906,
+            560.0186767578125,
+            368.6555480957031
+          ]
+        },
+        {
+          "id": "p3-b10-0675359",
+          "kind": "paragraph",
+          "text": "The FarmDESIGN model estimates the amount of manure dry matter \nproduced (DMManure; kg) based on the amount of feed dry matter sup­\nplied to animals (DMAnimalFeed for each feed p; kg), corrected for feed loss",
+          "bbox": [
+            306.5926208496094,
+            366.05572509765625,
+            559.9899291992188,
+            400.49530029296875
+          ]
+        },
+        {
+          "id": "p3-b11-fb5ba41",
+          "kind": "paragraph",
+          "text": "Table 1 \nOverview of variables in the original farm, baseline farm, farm scenario A (aiming to optimize livestock number on a 9.5 ha crop area), and farm scenario B (aiming to \nincrease nutrient circularity by integrating more crop area) of the case study farm. The columns labeled Minimum and Maximum indicate the allowed range of \nvariation in the optimization procedure for variables used as decision variables. The term ‘External’ refers to feeds or bedding materials that are imported from outside \nthe farm.",
+          "bbox": [
+            37.587345123291016,
+            410.6650695800781,
+            559.7781372070312,
+            460.603515625
+          ]
+        },
+        {
+          "id": "p3-b12-33edf71",
+          "kind": "paragraph",
+          "text": "Description\nOriginal\nBaseline\nScenario A\nScenario B",
+          "bbox": [
+            43.5968017578125,
+            462.982421875,
+            507.5117492675781,
+            473.4070129394531
+          ]
+        },
+        {
+          "id": "p3-b13-bf7b5be",
+          "kind": "paragraph",
+          "text": "Minimum\nMaximum\nMinimum\nMaximum",
+          "bbox": [
+            385.3941345214844,
+            476.1346130371094,
+            551.6947631835938,
+            486.5592041015625
+          ]
+        },
+        {
+          "id": "p3-b14-f925dc9",
+          "kind": "paragraph",
+          "text": "Number of animals kept on the farm\nDairy cows\n42\n42\n12\n42\n–\n–\nReplacement Rate\n–\n0.25\n0.15\n0.35\n–\n–\nHeifers\n18\n10\n–\n–\n–\n–\nCalves\n6\n10\n–\n–\n–\n–",
+          "bbox": [
+            43.5968017578125,
+            489.2874755859375,
+            526.4015502929688,
+            525.3935546875
+          ]
+        },
+        {
+          "id": "p3-b15-f8983d2",
+          "kind": "paragraph",
+          "text": "Areas of crop in rotation, ha",
+          "bbox": [
+            43.5968017578125,
+            549.2675170898438,
+            125.55963134765625,
+            559.6920776367188
+          ]
+        },
+        {
+          "id": "p3-b16-8493943",
+          "kind": "paragraph",
+          "text": "Bean-Rice\n3.5\n3.5\n3\n9.5\n3\n45\nRyegrass\n1.5\n1.5\n0.5\n1.5\n0.5\n1.5\nBarley-Maize\n1.5\n1.5\n0\n3.0\n0\n3\nAlfalfa-Rape\n3\n3\n0\n9.5\n0\n10\nAlfalfa-Rice\n0\n0\n0\n0\n0\n45\nBean-Maize\n0\n0\n0\n0\n0\n45\nChinese cabbage-Maize\n0\n0\n0\n0\n0\n45\nAsparagus lettuc-Rice\n0\n0\n0\n0\n0\n45\nAmount of external feeds, kg DM per year\nAlfalfa silage\n134,558\n134,558\n0\n134,558\n0\n134,558\nBean Straw\n10,000\n10,000\n0\n10,000\n0\n10,000\nConcentrate\n80,942\n80,942\n0\n80,942\n0\n80,942\nConcentrate2\n20,000\n10,000\n0\n10,000\n0\n10,000\nMaize straw silage\n0\n0\n0\n15,000\n0\n15,000\nAmount of bedding supplied to animals, kg per day",
+          "bbox": [
+            43.5968017578125,
+            523.529296875,
+            546.5368041992188,
+            645.3541870117188
+          ]
+        },
+        {
+          "id": "p3-b17-b4e917a",
+          "kind": "paragraph",
+          "text": "Calves\n2.5\n2.5\n2\n4\n2\n4\nHeifers\n2.5\n2.5\n2\n5\n2\n5\nDairy Cows\n4.5\n4.5\n2.5\n6\n2.5\n6\nAmount of bedding supplied to animals, kg DM per year\nExternal\nRice straw\n64,000\n60,000\n0\n90,000\n0\n90,000\nPercentage of crop products used as feed or bedding\nBean-Rice rotation\nRice straw (as feed)\n0\n0\n0\n100\n0\n100\nAlfalfa-Rice rotation\nRice straw (as bedding)\n0\n0\n0\n0\n0\n100\nBean-Maize rotation\nBean straw (as bedding)\n0\n0\n0\n0\n0\n100\nMilk proudction and use\nMilk Production, kg per cow per day\n24\n24\n24\n30\n24\n30\nAmount fed to animals, kg per year\n3000\n5000\n1000\n7500\n–\n–",
+          "bbox": [
+            43.5968017578125,
+            643.4905395507812,
+            542.9472045898438,
+            739.6339721679688
+          ]
+        },
+        {
+          "id": "p3-b18-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.58751678466797,
+            33.65164566040039,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p3-b19-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-1a9da9d",
+          "kind": "paragraph",
+          "text": "rate (FL,p; kg/kg) and the apparent dry matter digestibility (DMD; kg/kg) \nof each feed, and the amount of dry matter from bedding material \n(DMBedding; kg) collected in the barn and mixed with produced faces and \nurine.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            290.9911804199219,
+            95.73770141601562
+          ]
+        },
+        {
+          "id": "p4-b1-f10aded",
+          "kind": "paragraph",
+          "text": "DMManure =\n∑",
+          "bbox": [
+            37.58781814575195,
+            95.6722183227539,
+            90.3354721069336,
+            113.08541870117188
+          ]
+        },
+        {
+          "id": "p4-b2-791a7b3",
+          "kind": "paragraph",
+          "text": "p=1",
+          "bbox": [
+            79.65350341796875,
+            111.83909606933594,
+            89.45500946044922,
+            120.30921173095703
+          ]
+        },
+        {
+          "id": "p4-b3-b8d58ab",
+          "kind": "paragraph",
+          "text": "DMAnimalFeed,p ×\n(\n1 −FL,p",
+          "bbox": [
+            90.31179809570312,
+            96.74977111816406,
+            172.0784912109375,
+            113.08688354492188
+          ]
+        },
+        {
+          "id": "p4-b4-d781d07",
+          "kind": "paragraph",
+          "text": ")\n× DMDp + DMBedding",
+          "bbox": [
+            172.572998046875,
+            96.74891662597656,
+            248.05294799804688,
+            113.08688354492188
+          ]
+        },
+        {
+          "id": "p4-b5-e08dea1",
+          "kind": "paragraph",
+          "text": "The amounts of OM and C in manure are determined based on the ash \ncontent of the crop and animal products and assuming a C content in \norganic matter of 50 %. The total amounts of N, P and K in manure (in \nboth urine and feces) are derived from the difference between intake and \nproducts of the animals, as demonstrated bellow for N only.",
+          "bbox": [
+            37.58807373046875,
+            124.26371765136719,
+            291.0300598144531,
+            179.13307189941406
+          ]
+        },
+        {
+          "id": "p4-b6-7721232",
+          "kind": "paragraph",
+          "text": "NManure =\n∑",
+          "bbox": [
+            37.58807373046875,
+            179.06716918945312,
+            83.58907318115234,
+            196.48158264160156
+          ]
+        },
+        {
+          "id": "p4-b7-791a7b3",
+          "kind": "paragraph",
+          "text": "p=1",
+          "bbox": [
+            72.90699768066406,
+            195.23411560058594,
+            82.70850372314453,
+            203.70423889160156
+          ]
+        },
+        {
+          "id": "p4-b8-c114844",
+          "kind": "paragraph",
+          "text": "(\nDMAnimalFeed,p × FN,p ×\n(\n1 −FL,p",
+          "bbox": [
+            83.56529998779297,
+            180.1438751220703,
+            190.56048583984375,
+            196.48184204101562
+          ]
+        },
+        {
+          "id": "p4-b9-d7b12f3",
+          "kind": "paragraph",
+          "text": ") )\n−NAnimalProducts",
+          "bbox": [
+            191.05499267578125,
+            180.1438751220703,
+            252.23159790039062,
+            196.48098754882812
+          ]
+        },
+        {
+          "id": "p4-b10-752da54",
+          "kind": "paragraph",
+          "text": "The amounts of produced manure DM, OM, C and nutrients esti­\nmated by FarmDESIGN model serve as inputs of FarmM3 model. The \nFarmM3 model quantifies the degradation of OM and C, losses of N, P \nand K along the whole manure management chain using specific loss \ncoefficients. The detailed calculation procedure of FarmM3 can be found \nin Qu et al. (2023). The amounts and characteristics of manure available \nfor application are fed back from the FarmM3 module to FarmDESIGN \nmodel. Adding FarmM3 as an external manure module improves the \nflexibility of the FarmDESIGN model in estimating nutrient losses from \nmanure management chains with different manure treatment \ntechnologies.",
+          "bbox": [
+            37.58807373046875,
+            207.6587371826172,
+            291.03009033203125,
+            325.28704833984375
+          ]
+        },
+        {
+          "id": "p4-b11-4bac231",
+          "kind": "paragraph",
+          "text": "The farm evaluation results revealed that the original farm had a \nhigh livestock density of 6.5 LU/ha (LU refers to Livestock Unit equaling \n500 kg live weight), and a low feed self-reliance, with more than 70 % of \nfeeds imported from outside the farm. Due to the large number of cows \nbut a limited crop area, the farm exhibited a high farm N balance around \n272 kg/ha, with 77 % of N losses attributed to N volatilization from \nmanure management. The N cycling rate, defined as the fraction of \nexcreted manure N recycled into soil, was about 37 %, while over 30 % \nof manure N was exported off the farm.",
+          "bbox": [
+            37.58807373046875,
+            322.7438049316406,
+            291.03009033203125,
+            419.4529724121094
+          ]
+        },
+        {
+          "id": "p4-b12-df6ef13",
+          "kind": "heading",
+          "text": "2.3. Manure management scenarios",
+          "bbox": [
+            37.58807373046875,
+            427.9084777832031,
+            159.36642456054688,
+            440.9395751953125
+          ]
+        },
+        {
+          "id": "p4-b13-15a0eb5",
+          "kind": "paragraph",
+          "text": "To investigate how different levels of technology and management \npractices can enhance manure management outcomes, reduce environ­\nmental impacts, and improve nutrient use efficiency on farms, four \nmanure management scenarios with different manure treatment tech­\nnologies were developed and modelled in FarmM3 (Table 2). The \nmanure management scenario M1 reflected the original farm practice, \nwhere manure was collected and stored without cover, resulting in \nsignificant nutrient losses through volatilization and runoff. The manure \nmanagement scenario M2 introduced a concrete cover to the storage \ntank, which helped mitigate nutrient losses by reducing exposure to the \nelements, thereby enhancing overall nutrient retention. The manure \nmanagement scenario M3 employed a more advanced approach by \nimplementing solid-liquid separation, a technology that has been \ndemonstrated to be both cost-effective and environmentally friendly \n(Aguirre-Villegas et al., 2019; Holly et al., 2017). In this scenario, the \nsolid fraction was covered during storage, minimizing nutrient loss, \nwhile the liquid fraction was stored in a covered tank, further reducing \npotential nutrient emissions. The manure management scenario M4 \nbuilt on the advancements of M3 by incorporating best practices for land \napplication. The solid manure was applied through incorporation, which \nsignificantly reduced nutrient runoff, while the liquid fraction was \ndelivered using a trailing hose, optimizing nutrient uptake by crops and \nminimizing losses.",
+          "bbox": [
+            37.58807373046875,
+            448.82757568359375,
+            291.0308532714844,
+            692.0296630859375
+          ]
+        },
+        {
+          "id": "p4-b14-4a907d0",
+          "kind": "heading",
+          "text": "2.4. Farm scenarios and objective",
+          "bbox": [
+            37.58807373046875,
+            700.485107421875,
+            152.92100524902344,
+            713.5162353515625
+          ]
+        },
+        {
+          "id": "p4-b15-5d66a68",
+          "kind": "paragraph",
+          "text": "To address the challenges of high nutrient losses and low farm \nnutrient use efficiency, two scenarios were developed. The first scenario",
+          "bbox": [
+            37.58807373046875,
+            721.405029296875,
+            291.00457763671875,
+            744.9240112304688
+          ]
+        },
+        {
+          "id": "p4-b16-e8f362d",
+          "kind": "paragraph",
+          "text": "(Scenario A) aimed to optimize the number of livestock units based on \nthe amount of feed produced within the farm. The objective of this \nscenario was to maximize whole farm N use efficiency (%) and soil \norganic matter (OM) balance (kg/ha), and to minimize N volatilization \n(kg/ha) and soil N losses (kg/ha). In Scenario B, the focus was on \nincreasing nutrient circularity, improving feed self-sufficiency for the \nherd, and expanding food production by integrating more crop area. \nSince P surplus can also pose significant challenges for dairy operations, \nwe included whole farm P balance as a critical objective. By optimizing \nboth N and P balance, the scenario aimed to achieve a more holistic \napproach to farm nutrient management. It intended to maximize whole \nfarm N use efficiency (%), self-supply of total feed DM (%), dietary en­\nergy production (persons fed/ha), and soil OM balance (kg/ha/year), \nwhile minimizing N volatilization (kg/ha) and whole farm P balance \n(kg/ha/year). The calculations for these objectives were as follows:",
+          "bbox": [
+            306.5924987792969,
+            328.64007568359375,
+            560.0186157226562,
+            488.16400146484375
+          ]
+        },
+        {
+          "id": "p4-b17-3c2633d",
+          "kind": "paragraph",
+          "text": "• Whole farm N use efficiency (%) is calculated by comparing the \namount of N output to the amount of N input. Nitrogen can enter the \nfarm through imported crop products, imported fertilizer or manure, \nsymbiotic fixation, non-symbiotic fixation and deposition. The \noutput of N includes exported N from crop product, animal product \nand exported animal manure.\n• N volatilization (kg/ha) estimates the total cumulative N losses via \nammonia emissions, nitrous oxide emissions and nitrogen (N2) \nemissions through the entire manure management process, including \nmanure excretion, storage, treatment (such as solid-liquid separa­\ntion, composting, anaerobic digestion etc.) and application.\n• Soil N losses (kg/ha) quantifies the total N losses by denitrification, \nleaching and runoff from soil.\n• Soil OM balance (kg/ha/year) is quantified as the difference between \ninputs of OM into the soil and losses by degradation, erosion, \ndecomposition of active soil OM and added manure. Inputs of OM \ninclude crop roots and residues, mulch, and farm-produced and im­\nported manures.\n• Whole farm P balance (kg/ha/year) is calculated as the difference \nbetween P inputs, which include imported feed, bedding materials, \nimported fertilizers, and atmospheric deposition, and P outputs, \nwhich consist of P in animal and crop products as well as exported \nmanure.",
+          "bbox": [
+            310.95770263671875,
+            496.0528564453125,
+            560.0221557617188,
+            739.200927734375
+          ]
+        },
+        {
+          "id": "p4-b18-5d59225",
+          "kind": "paragraph",
+          "text": "Table 2 \nDescription of modelled manure management chains.",
+          "bbox": [
+            306.5950012207031,
+            52.53608322143555,
+            476.5499267578125,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p4-b19-361ed6b",
+          "kind": "paragraph",
+          "text": "Manure management \nchains (MMCs)",
+          "bbox": [
+            312.6050109863281,
+            76.22341918945312,
+            374.3804626464844,
+            95.20829772949219
+          ]
+        },
+        {
+          "id": "p4-b20-526e008",
+          "kind": "paragraph",
+          "text": "Description",
+          "bbox": [
+            397.6996765136719,
+            76.22341918945312,
+            429.9425964355469,
+            86.64801788330078
+          ]
+        },
+        {
+          "id": "p4-b21-20fe6f3",
+          "kind": "paragraph",
+          "text": "M1\nAll of the manure excreted in the barn was collected \nand stored in a tank without cover. After being stored \nfor two months, the slurry was applied to fields without \nincorporation.\nM2\nAll of the manure excreted in the barn was collected \nand stored in an underground tank with a concrete \ncover. After being stored for two months, the slurry was \napplied to fields without incorporation.\nM3\nAll of the manure excreted in the barn was collected \nand stored in an underground tank before being \nseparated into solid and liquid fractions. The separated \nsolid fraction was stored and covered during storage. \nThe liquid fraction was stored in an underground tank \nwith a concrete cover. After being stored for two \nmonths, the liquid and solid fractions were applied to \nfields without incorporation.\nM4\nAll of the manure excreted in the barn were collected \nand stored in an underground tank before being \nseparated into solid and liquid fractions. The separated \nsolid fraction was stored and covered during storage. \nThe liquid fraction was stored in an underground tank \nwith a concrete cover. After storage, the solid manure \nwas applied to fields by broadcast application with \nincorporation and the liquid was applied to fields by a \ntrailing hose.",
+          "bbox": [
+            312.6050109863281,
+            97.93655395507812,
+            553.563720703125,
+            313.98388671875
+          ]
+        },
+        {
+          "id": "p4-b22-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.590789794921875,
+            33.6477165222168,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p4-b23-4b22777",
+          "kind": "paragraph",
+          "text": "4",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-e43aa2e",
+          "kind": "paragraph",
+          "text": "• Self-supply of total feed DM (%) is a key indicator used to determine \nthe proportion of feed produced on a farm. This calculation involves \ndividing the amount of feed produced on the farm by the total \namount of feed consumed by the animals.\n• Dietary energy production (persons fed/ha) is a crucial metric used \nto measure the efficiency and sustainability of food production sys­\ntems. It quantifies the number of individuals that can meet their daily \ndietary needs based on the complete daily dietary reference intake \nfrom various sources such as field crops, animal breeding and other \nproduction systems.",
+          "bbox": [
+            41.952701568603516,
+            51.29973220825195,
+            291.03509521484375,
+            158.4967803955078
+          ]
+        },
+        {
+          "id": "p5-b1-95e5e97",
+          "kind": "paragraph",
+          "text": "For each farm scenario, we explored alternative farm configurations \nto meet the target objectives and investigated the impacts of MMCs with \ndifferent manure treatment technologies on alternative farm \nconfigurations.",
+          "bbox": [
+            37.58747863769531,
+            166.38478088378906,
+            291.0223083496094,
+            210.76707458496094
+          ]
+        },
+        {
+          "id": "p5-b2-9f415ff",
+          "kind": "heading",
+          "text": "2.5. Decision variables and constraints",
+          "bbox": [
+            37.58747863769531,
+            220.69622802734375,
+            169.56198120117188,
+            233.7273406982422
+          ]
+        },
+        {
+          "id": "p5-b3-0aa37f4",
+          "kind": "paragraph",
+          "text": "For each scenario, the decision variables included management \nvariables of the size of the livestock herd, allocation of crop areas, the \ndestination of crop products, and the amounts of external feeds and \nbedding materials supplied to animals (Table 1). Constraints (see \nTable 3) were set for the total crop areas that should not be more than \n9.5 ha in Scenario A and should be less than 45 ha in Scenario B. The \nextended farm areas in Scenario B were determined based on the \navailability of surrounding crop areas. The number of livestock units \nshould be less than the baseline farm's 56.2 LU in Scenario A and be kept \nthe same as for the baseline farm in Scenario B. The availability of en­\nergy, protein and fibrous material (‘structure’) in feed should match \nanimal requirements, whereas intake capacity (corrected for saturation \nunits) should not be exceeded. The soil N losses comprising leaching, \nrunoff and denitrification should not be less than 20 kg N/ha/year, to \nmake sure that enough N is in the system to support crop and grassland \nproduction while acknowledging unavoidable losses, and the soil P and \nK losses should not be less than 0 kg/ha/year to avoid mining. The \nsupplied bedding material should be sufficient given requirements per \nanimal (i.e., the bedding balance) with an allowed deviation of less than \n5 % for animal welfare (Table 3).",
+          "bbox": [
+            37.58747863769531,
+            241.67274475097656,
+            291.03668212890625,
+            453.410400390625
+          ]
+        },
+        {
+          "id": "p5-b4-39c5b09",
+          "kind": "heading",
+          "text": "2.6. Model exploration",
+          "bbox": [
+            306.59271240234375,
+            51.29973220825195,
+            385.8553161621094,
+            64.33084106445312
+          ]
+        },
+        {
+          "id": "p5-b5-eb47e04",
+          "kind": "paragraph",
+          "text": "For model exploration, we ran the Pareto-based multi-objective \noptimization for 3000 iterations to get 500 alternative farm configura­\ntions for each scenario. The complete mathematical explanation of the \nalgorithm with the corresponding formulae is described by Groot et al. \n(2012). Here we briefly summarize the optimization process. The DE \nalgorithm generates two populations of solutions which represent the \ndecision variables. The opportunity space created by these populations \nis diverse; the variety in the decision variables (genotypes) creates di­\nversity in farm performance that is measured by the indicators (phe­\nnotypes). The first population of ‘parents’ serves as the result-set that is \niteratively improved, while the second population consists of ‘compet­\nitors’ that are generated by uniform cross-over of three selected ‘parent’ \nsolutions in each iteration.",
+          "bbox": [
+            306.59271240234375,
+            72.2188491821289,
+            560.0076293945312,
+            210.76707458496094
+          ]
+        },
+        {
+          "id": "p5-b6-8068bd5",
+          "kind": "paragraph",
+          "text": "The solutions in both populations are ranked using the principle of \nPareto-optimality (Groot et al., 2012) and the Euclidean distance be­\ntween the solutions in the opportunity space is calculated from the \nnormalized indicator values, which serves to quantify a crowding \nmetric. After ranking a selection process is conducted by pairwise \ncomparison: a solution in the ‘parent’ population is replaced by the \npaired individual from the ‘competitor’ population if the latter has a \nbetter Pareto rank or if the ranks are equal it is positioned in a less \ncrowded part of the opportunity space. The rank-based selection results \nin movement of the ‘parent’ population in the direction of the trade-off \nfrontier (or surface), while the crowd-based selection ensures spread \nalong the frontier (or surface).",
+          "bbox": [
+            306.59271240234375,
+            208.2238311767578,
+            559.9971923828125,
+            336.3407897949219
+          ]
+        },
+        {
+          "id": "p5-b7-9f0bc90",
+          "kind": "paragraph",
+          "text": "The final set of alternative farm configurations produced by the \nmodel represents a solution space (Groot and Rossing, 2011). The so­\nlution frontier, defined as the boundary of solution space, illustrates the \nbest possible trade-offs among the objectives, highlighting the optimal \nconfigurations that balance competing goals. We repeated each opti­\nmization for 3 times to get stable outcomes. The parameter settings of \nuniform cross-over in the Differential Evolution algorithm of the opti­\nmization was 0.85 for mutation probability and 0.15 for amplitude of \nmutations (Groot et al., 2007).",
+          "bbox": [
+            306.59271240234375,
+            333.7409362792969,
+            559.98291015625,
+            430.45013427734375
+          ]
+        },
+        {
+          "id": "p5-b8-c3fea71",
+          "kind": "heading",
+          "text": "3. Results",
+          "bbox": [
+            306.59271240234375,
+            439.2451477050781,
+            346.2861328125,
+            452.2762451171875
+          ]
+        },
+        {
+          "id": "p5-b9-32e0c82",
+          "kind": "heading",
+          "text": "3.1. Impacts of manure management on N losses from manure \nmanagement chains (MMCs)",
+          "bbox": [
+            306.59271240234375,
+            460.1650695800781,
+            521.1573486328125,
+            483.62744140625
+          ]
+        },
+        {
+          "id": "p5-b10-908e49c",
+          "kind": "paragraph",
+          "text": "As shown in Fig. 1, although there were no obvious differences in N \nlosses and N use efficiencies between MMCs M1 and M2, MMC config­\nurations M3 and M4 could reduce N losses by 46 to 58 % and increase",
+          "bbox": [
+            306.59271240234375,
+            491.51544189453125,
+            559.9821166992188,
+            525.466552734375
+          ]
+        },
+        {
+          "id": "p5-b11-9cec8c6",
+          "kind": "paragraph",
+          "text": "Table 3 \nOverview of constraints on different farm scenarios of the case study farm.",
+          "bbox": [
+            37.587398529052734,
+            464.0130615234375,
+            275.64349365234375,
+            485.3218994140625
+          ]
+        },
+        {
+          "id": "p5-b12-f906033",
+          "kind": "paragraph",
+          "text": "Scenario A\nScenario B",
+          "bbox": [
+            136.4600067138672,
+            487.7004089355469,
+            245.19778442382812,
+            498.125
+          ]
+        },
+        {
+          "id": "p5-b13-9e40af1",
+          "kind": "paragraph",
+          "text": "Description\nBaseline\nMinimum\nMaximum\nMinimum\nMaximum",
+          "bbox": [
+            43.59821319580078,
+            500.85260009765625,
+            282.5771484375,
+            511.2771911621094
+          ]
+        },
+        {
+          "id": "p5-b14-6a01bfb",
+          "kind": "paragraph",
+          "text": "Deviation in \nfeed balance \nintake (%)",
+          "bbox": [
+            43.59821319580078,
+            514.0054931640625,
+            80.93292999267578,
+            541.55126953125
+          ]
+        },
+        {
+          "id": "p5-b15-e4d19ea",
+          "kind": "paragraph",
+          "text": "−6.9\n-∞\n0\n-∞\n0",
+          "bbox": [
+            101.82101440429688,
+            522.5657958984375,
+            257.6856384277344,
+            532.9903564453125
+          ]
+        },
+        {
+          "id": "p5-b16-bcf860f",
+          "kind": "paragraph",
+          "text": "Deviation in \nfeed balance \nenergy (%)",
+          "bbox": [
+            43.59821319580078,
+            539.6869506835938,
+            80.93292999267578,
+            567.2327270507812
+          ]
+        },
+        {
+          "id": "p5-b17-03204be",
+          "kind": "paragraph",
+          "text": "2.2\n−5\n5\n−5\n5",
+          "bbox": [
+            101.82101440429688,
+            548.2472534179688,
+            257.6856384277344,
+            558.6718139648438
+          ]
+        },
+        {
+          "id": "p5-b18-92f7522",
+          "kind": "paragraph",
+          "text": "Deviation in \nfeed balance \nprotein (%)",
+          "bbox": [
+            43.59821319580078,
+            565.4252319335938,
+            80.93292999267578,
+            592.970947265625
+          ]
+        },
+        {
+          "id": "p5-b19-1ea80a9",
+          "kind": "paragraph",
+          "text": "5.2\n0\n30\n0\n30",
+          "bbox": [
+            101.82101440429688,
+            573.9854736328125,
+            261.2752380371094,
+            584.4100341796875
+          ]
+        },
+        {
+          "id": "p5-b20-5a589ed",
+          "kind": "paragraph",
+          "text": "Deviation in \nfeed balance \nstructure (%)",
+          "bbox": [
+            43.59821319580078,
+            591.106689453125,
+            80.97502136230469,
+            618.6524658203125
+          ]
+        },
+        {
+          "id": "p5-b21-27125db",
+          "kind": "paragraph",
+          "text": "159.1\n0\n∞\n0\n∞",
+          "bbox": [
+            101.82101440429688,
+            599.6676025390625,
+            260.0000915527344,
+            610.0921630859375
+          ]
+        },
+        {
+          "id": "p5-b22-9ba3815",
+          "kind": "paragraph",
+          "text": "Rotation Area \n(ha)\n9.5\n9\n9.5\n9\n45",
+          "bbox": [
+            43.59821319580078,
+            616.7882080078125,
+            261.2752380371094,
+            635.773681640625
+          ]
+        },
+        {
+          "id": "p5-b23-9a51808",
+          "kind": "paragraph",
+          "text": "Livestock Units \n(LU)\n56.2\n15\n57\n–\n–",
+          "bbox": [
+            43.59821319580078,
+            633.9661254882812,
+            257.283935546875,
+            652.9515991210938
+          ]
+        },
+        {
+          "id": "p5-b24-e3f3690",
+          "kind": "paragraph",
+          "text": "Deviation \nbedding balance \n(%)",
+          "bbox": [
+            43.59821319580078,
+            651.0873413085938,
+            91.7611312866211,
+            678.6331176757812
+          ]
+        },
+        {
+          "id": "p5-b25-151fad5",
+          "kind": "paragraph",
+          "text": "1.3\n−5\n5\n−5\n5",
+          "bbox": [
+            101.82101440429688,
+            659.6476440429688,
+            257.6856384277344,
+            670.0722045898438
+          ]
+        },
+        {
+          "id": "p5-b26-02481b8",
+          "kind": "paragraph",
+          "text": "Soil nitrogen (N) \nlosses (kg/ha)\n197\n20\n197–352 \na\n20\n197–352 \na",
+          "bbox": [
+            43.59821319580078,
+            676.7688598632812,
+            280.6905517578125,
+            695.7543334960938
+          ]
+        },
+        {
+          "id": "p5-b27-ad508a6",
+          "kind": "paragraph",
+          "text": "Phosphorus (P) \nbalance (kg/ha)\n37\n0\n∞\n0\n∞",
+          "bbox": [
+            43.5968017578125,
+            693.9495239257812,
+            259.99932861328125,
+            712.9343872070312
+          ]
+        },
+        {
+          "id": "p5-b28-fda2ec9",
+          "kind": "paragraph",
+          "text": "Potassium (K) \nbalance (kg/ha)\n664\n0\n∞\n0\n∞",
+          "bbox": [
+            43.5968017578125,
+            711.070068359375,
+            259.99932861328125,
+            730.0556030273438
+          ]
+        },
+        {
+          "id": "p5-b29-8b1006e",
+          "kind": "paragraph",
+          "text": "a The soil N losses varied with manure management chains.",
+          "bbox": [
+            43.20000076293945,
+            729.6197509765625,
+            234.5842742919922,
+            744.5223999023438
+          ]
+        },
+        {
+          "id": "p5-figure1",
+          "kind": "image",
+          "path": "library/qu-2025/7e69eb40dc23/p5-figure1.png",
+          "alt": "Original source page 5, graphic 1",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p5-b31-207d4b4",
+          "kind": "paragraph",
+          "text": "Fig. 1. Nitrogen losses and N use efficiency under different manure manage­\nment chains (M1-M4, described in Table 2). The blue bars represent N losses, \nand the diamond dots indicate N use efficiency of various manure management \nchains. (For interpretation of the references to colour in this figure legend, the \nreader is referred to the web version of this article.)",
+          "bbox": [
+            306.5950012207031,
+            694.5835571289062,
+            559.7810668945312,
+            744.52197265625
+          ]
+        },
+        {
+          "id": "p5-b32-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p5-b33-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-6c76712",
+          "kind": "paragraph",
+          "text": "manure N use efficiencies by more than 30 %, compared to M1. This \nimplied that applying a single emission mitigation measure (i.e., slurry \ncover) had limited influence on N losses from MMCs and manure N use \nefficiencies, while combinations of slurry solid-liquid separation, \ncovered solid and liquid fractions storage and improved manure appli­\ncation could remarkably reduce N losses and improve N use efficiencies \nof manure management.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0214538574219,
+            127.08900451660156
+          ]
+        },
+        {
+          "id": "p6-b1-3420fce",
+          "kind": "heading",
+          "text": "3.2. Impacts of manure management on N losses from the whole farm",
+          "bbox": [
+            37.587398529052734,
+            139.5693817138672,
+            275.1951904296875,
+            152.60049438476562
+          ]
+        },
+        {
+          "id": "p6-b2-6715175",
+          "kind": "paragraph",
+          "text": "Differences among the MMC configurations M1-M4 combined with \nthe baseline farm configuration would not result in reduction of total N \nlosses from the whole farm or improvement of farm N use efficiency. Due \nto the high livestock density and heavy reliance on imported feeds in \nbaseline farm configuration, the N excreted by animals exceeded the N \nrequirements of crop production, resulting in a high N surplus. Without \nchanging the number of cows and crop areas, the conserved N from \nimproved manure management would be lost after being applied to soil. \nTherefore, for this intensive mixed crop-dairy farm, improvements in",
+          "bbox": [
+            37.587398529052734,
+            160.48851013183594,
+            291.0301818847656,
+            257.19769287109375
+          ]
+        },
+        {
+          "id": "p6-b3-4d56d3d",
+          "kind": "paragraph",
+          "text": "manure management did not affect farm N use efficiency which is \ncalculated as the ratio of N output (i.e., crop and animal products) from \nthe farm to total N inputs (i.e., imported feeds, fixation and deposition) \nto the farm.",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            560.005126953125,
+            95.7378158569336
+          ]
+        },
+        {
+          "id": "p6-b4-7f1445d",
+          "kind": "heading",
+          "text": "3.3. Effects of manure management on farm environmental performance",
+          "bbox": [
+            306.5926208496094,
+            108.16160583496094,
+            551.6763916015625,
+            121.19271850585938
+          ]
+        },
+        {
+          "id": "p6-b5-6057f1b",
+          "kind": "paragraph",
+          "text": "The results of multi-objective optimization in farm Scenario A \nrevealed distinct synergies (1) between improving whole farm N use \nefficiency and reducing N volatilization (Fig. 2A), (2) between \nimproving whole farm N use efficiency and decreasing soil N losses \n(Fig. 2B), (3) between reductions of soil N losses and N volatilization \n(Fig. 2C). On the other hand, trade-offs were found (4) between im­\nprovements of whole farm N use efficiency and soil OM balance \n(Fig. 2D), (5) between reducing N volatilization and increasing the soil \nOM balance (Fig. 2E), and (6) between reducing soil N losses and \nimproving the soil OM balance (Fig. 2F). The main factor explaining the \nsynergies and trade-offs between objectives was the number of cows on \nthe farm. With the same farm area, a greater whole farm N use efficiency",
+          "bbox": [
+            306.5926208496094,
+            129.08152770996094,
+            560.0186767578125,
+            257.19769287109375
+          ]
+        },
+        {
+          "id": "p6-figure1",
+          "kind": "image",
+          "path": "library/qu-2025/7e69eb40dc23/p6-figure1.png",
+          "alt": "Original source page 6, graphic 1",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-b7-202b6b0",
+          "kind": "paragraph",
+          "text": "Fig. 2. Relationships between the objectives whole farm N use efficiency, N volatilization, soil N loss and soil OM balance in the farm scenario A with different \nmanure management chains (i.e., M1, M2, M3 and M4). The larger symbols mark the performance of the baseline farm configuration.",
+          "bbox": [
+            37.587398529052734,
+            723.2702026367188,
+            559.7509155273438,
+            744.5223388671875
+          ]
+        },
+        {
+          "id": "p6-b8-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p6-b9-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-5cea6ab",
+          "kind": "paragraph",
+          "text": "could be achieved by reducing the number of cows. Reducing the \nnumber of cows reduced N volatilization and soil N losses but also \nlowered the soil OM balance.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            290.9983215332031,
+            85.24996185302734
+          ]
+        },
+        {
+          "id": "p7-b1-1f15303",
+          "kind": "paragraph",
+          "text": "Although the trade-off or synergy relationships among objectives \nwere present under different MMCs, considerable differences in posi­\ntions and slopes of solution frontiers in terms of N volatilization, soil N \nlosses and soil OM balance among MMCs were observed (Fig. 2). These \ndifferences could primarily be explained by the impacts of manure \nmanagement technologies on N volatilization, soil N losses and soil OM \nbalance. As shown in Fig. 2, the apparent distance between the solution \nfrontiers of MMCs M1, M2 and M3, M4 in terms of N volatilization and \nwhole farm N use efficiency (Fig. 2A) showed lower N volatilization in \nMMCs M3 and M4 due to multiple N mitigation measures (i.e., solid- \nliquid separation, cover and improved application methods). Similar \nresults were also found in solution frontiers of N volatilization and soil N \nlosses (Fig. 2C) and N volatilization and soil OM balance (Fig. 2E). But \nhigher soil N losses and soil OM balance were observed in MMCs M3 and \nM4 than in MMCs M1 and M2 with the same whole farm N use efficiency \n(Fig. 2B and D). Higher soil N losses in MMCs M3 and M4 demonstrated \nthe compensatory N losses from manure management and soil, with less \nN volatilization from MMCs M3 and M4 (Fig. 2A) leading to higher N",
+          "bbox": [
+            37.587398529052734,
+            82.70670318603516,
+            291.0254211425781,
+            273.5252380371094
+          ]
+        },
+        {
+          "id": "p7-b2-130874c",
+          "kind": "paragraph",
+          "text": "losses from soil (Fig. 2B). Higher soil OM balance in MMCs M3 and M4 \ncould be as a result of the larger contribution of solid manure to soil OM \nthan the contribution of slurry manure in MMCs M1 and M2.",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            560.0139770507812,
+            85.24996185302734
+          ]
+        },
+        {
+          "id": "p7-b3-8af3a1e",
+          "kind": "paragraph",
+          "text": "The steeper slope of the synergy frontier between N volatilization \nand whole farm N use efficiency in MMCs M1 and M2 than in MMCs M3 \nand M4 indicated a stronger reduction in N volatilization in MMCs M1 \nand M2 needed to reach the same increase in whole farm N use effi­\nciency (Fig. 2A). On the contrary, the steeper slope of the synergy \nfrontiers between N volatilization and soil N losses in MMCs M3 and M4 \nshowed that with the same decrease in N volatilization, more reduction \nin soil N losses could be obtained in MMCs M3 and M4 than M1 and M2 \n(Fig. 2C). Similar slopes but larger ranges of the frontiers were observed \nbetween whole farm N use efficiency and soil N losses, between whole \nfarm N use efficiency and soil OM balance, and between soil N losses and \nsoil OM balance in MMCs M3 and M4 than M1 and M2 (Fig. 2B and C). \nCompared to the baseline farm N use efficiency, a larger improvement in \nwhole farm N use efficiency could be achieved in MMCs M3 and M4 than \nin MMCs M1 and M2.",
+          "bbox": [
+            306.5926208496094,
+            82.70670318603516,
+            560.0178833007812,
+            242.1748504638672
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/qu-2025/7e69eb40dc23/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b5-faae395",
+          "kind": "paragraph",
+          "text": "Fig. 3. Relationships between the objectives whole farm N use efficiency, self-supply of feed DM, dietary energy supply, N volatilization, whole farm P balance and \nsoil OM balance in the farm scenario B with two different manure management chains. The larger symbols mark the performance of the baseline farm configuration.",
+          "bbox": [
+            37.587398529052734,
+            723.2702026367188,
+            559.7560424804688,
+            744.5223388671875
+          ]
+        },
+        {
+          "id": "p7-b6-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p7-b7-7902699",
+          "kind": "paragraph",
+          "text": "7",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-243e21d",
+          "kind": "heading",
+          "text": "3.4. Effects of manure management on optimization results for more \nintegrated crop-dairy production",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            271.8406066894531,
+            74.81869506835938
+          ]
+        },
+        {
+          "id": "p8-b1-f9d58de",
+          "kind": "paragraph",
+          "text": "Since there was no clear difference in optimization results of objec­\ntives between MMCs M1 and M2, and between MMCs M3 and M4, we \nonly performed farm explorations for the two most contrasting MMCs \n(M1 and M4) in farm Scenario B. Compared to exploration results of \nfarm Scenario A, similar but more curvilinear trade-offs and synergies \namong objectives of whole farm N use efficiency, N volatilization and \nsoil OM balance were observed in farm Scenario B due to more \ncomplicated interactions with added objectives of feed self-sufficiency, \ndietary energy supply and whole farm P balance. Exploration results \nof integration of crop and dairy production with multi-objective opti­\nmization indicated that changing farm configurations could also sub­\nstantially improve whole farm N use efficiency, reduce N volatilization \nand improve soil OM balance (Fig. 3). With MMC M1, a maximum whole \nfarm N use efficiency of 65 % could be reached, while MMC M4 could \nobtain values up to 85 %.",
+          "bbox": [
+            37.587398529052734,
+            82.70670318603516,
+            291.03021240234375,
+            242.1748504638672
+          ]
+        },
+        {
+          "id": "p8-b2-3cda4ce",
+          "kind": "paragraph",
+          "text": "An obvious synergy relationship between reducing N volatilization \nand reducing P balance was observed (Fig. 3J). The steeper slope of the \nsynergy frontier between N volatilization and whole farm P balance in \nMMC M4 compared to MMC M1 indicated that MMC M4 can achieve a \ngreater reduction in P balance with the same decrease in N volatilization \n(Fig. 3J). Improved manure management MMC M4 also contributed to \nlarger solution spaces for relationships between improving whole farm N \nuse efficiency and reducing whole farm P balance (Fig. 3G), between \nincreasing self-supply of feed DM and reducing whole farm P balance \n(Fig. 3H), and between improving dietary energy supply and reducing \nwhole farm P balance (Fig. 3I). Improved manure management moves \nthe synergy frontiers between reducing whole farm P balance and \nimproving self-supply of feed DM (Fig. 3H), and between reducing \nwhole farm P balance and improving soil OM balance in a more desir­\nable direction (Fig. 3O).",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            560.0186767578125,
+            210.76707458496094
+          ]
+        },
+        {
+          "id": "p8-b3-c95f811",
+          "kind": "paragraph",
+          "text": "The improved MMC M4 also moved the trade-off frontiers between \nwhole farm N use efficiency and self-supply rate of feed DM (Fig. 3A) \nand between whole farm N use efficiency and dietary energy supply",
+          "bbox": [
+            306.5926208496094,
+            208.2238311767578,
+            560.0051879882812,
+            242.1748504638672
+          ]
+        },
+        {
+          "id": "p8-figure1",
+          "kind": "image",
+          "path": "library/qu-2025/7e69eb40dc23/p8-figure1.png",
+          "alt": "Original source page 8, graphic 1",
+          "caption": "原文第8页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p8-b5-4e8c6c0",
+          "kind": "paragraph",
+          "text": "Fig. 4. Modelled allocation of crop areas and quantities of imported feeds in each alternative farm configuration generated to meet the objectives of maximizing self- \nsupply rate of feed DM and dietary energy yield in farm Scenario B. The x-axis values were ordered from minimum to maximum for each objective.",
+          "bbox": [
+            37.587398529052734,
+            723.2702026367188,
+            559.7652587890625,
+            744.5223388671875
+          ]
+        },
+        {
+          "id": "p8-b6-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p8-b7-2c62423",
+          "kind": "paragraph",
+          "text": "8",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-70d5ed2",
+          "kind": "paragraph",
+          "text": "(Fig. 3B) towards more desirable directions. But a clear trade-off be­\ntween increasing self-supply rate of feed DM and improving dietary \nenergy supply was observed (Fig. 3C), indicating food-feed competition \nat the case study farm. Fig. 4 shows how the shift in cropping patterns \nand changes in the amount of external feed inputs define the relation­\nship between feed self-supply and dietary energy production. In farm \nScenario B, to approach the objective of increasing feed self-sufficiency, \nthe model shifted the feed production from external importation to on- \nfarm production, subsequently causing the increase of areas to feed \ncrops, such as alfalfa (Fig. 4A and B). Conversely, in the alternative \nconfigurations with greater dietary energy supply, the model allocated \nlarger areas to food crops (i.e., Chinese cabbage and maize) and smaller \nareas to alfalfa. The reduced on-farm alfalfa silage production was \ncompensated by an increased external alfalfa silage input (Fig. 4C and \nD).",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0342102050781,
+            210.76707458496094
+          ]
+        },
+        {
+          "id": "p9-b1-54c664c",
+          "kind": "heading",
+          "text": "4. Discussion",
+          "bbox": [
+            37.587398529052734,
+            219.3357391357422,
+            90.1294937133789,
+            232.36685180664062
+          ]
+        },
+        {
+          "id": "p9-b2-8df74c3",
+          "kind": "paragraph",
+          "text": "In this study we compared N losses under various manure manage­\nment chains with different manure management technologies, and \nexplored the effects of improved manure management chains on farm \nenvironmental performance optimization. The results demonstrated that \nan individual emission mitigation measure was insufficient to reduce N \nlosses at manure management chain level. However, implementing a \ncombination of solid-liquid separation, covered solid or liquid manure \nstorage and improved manure application (M4) resulted in substantial \nreductions in N losses from the whole manure management chains.",
+          "bbox": [
+            37.587398529052734,
+            240.25485229492188,
+            291.00469970703125,
+            336.96405029296875
+          ]
+        },
+        {
+          "id": "p9-b3-67f68ab",
+          "kind": "paragraph",
+          "text": "The importance of an integrated approach with combined manure \nmanagement technologies along the manure management chain has \nbeen pointed out (De Vries et al., 2015a, 2015b), given the compensa­\ntory losses among manure management facilities. Previous study re­\nported that the reduced N loss by covered solid manure storage resulted \nin larger N loss after manure field application, and highlighted that \ncombined manure management practices were more effective to reduce \ntotal N losses (Shah et al., 2013). In a study by Rotz et al. (2006) for a \nfarm with 100 cows on 100 ha cropland and a farm with 1000 cows on \n600 ha cropland, implementing nutrient conservation technologies, \nincluding a barn floor for feces and urine separation, covered six-month \nmanure storage, and manure injection, reduced ammonia emission by \n54 % to 77 % and reduced total farm N losses by 24 % to 29 %.",
+          "bbox": [
+            37.587398529052734,
+            334.3642272949219,
+            291.0246276855469,
+            472.9690246582031
+          ]
+        },
+        {
+          "id": "p9-b4-8906c68",
+          "kind": "paragraph",
+          "text": "Although multiple mitigation measures showed potential for \nreducing N loss from manure management, we found no decrease in \ntotal N loss from the farm. This could be explained by the high livestock \ndensity and large quantity of imported feed N on the case study farm. \nThe imported feed N led to excessive amounts of N cycled through the \nfarm system. Although improved manure management practices \nconserved more N in manure, the limited croplands could not assimilate \nthe conserved N, leading to larger losses from soil. This implied that for \nintensive dairy farms with limited land availability, it probably is not \nenough to reduce N losses only by improving manure management chain \nwith multiple mitigation practices, and exporting manure outside the \nfarm or integrating more croplands to the farm is likely needed.",
+          "bbox": [
+            37.587398529052734,
+            470.36920166015625,
+            291.0301818847656,
+            598.4861450195312
+          ]
+        },
+        {
+          "id": "p9-b5-c5dc1fd",
+          "kind": "paragraph",
+          "text": "We also found no substantial decrease in whole farm P balance from \nimproved manure management practices. This was primarily because \nmanure P was mainly lost by runoff and leaching after application. As \nnoted by Spears et al. (2003), around 96 % of manure P can be conserved \nduring manure storage and accumulated in the soil after manure \napplication. Additionally, feed imports significantly contribute to the \nwhole farm P balance (Ros et al., 2023). By enhancing feed self-reliance \nthrough the integration of more crop areas for on-farm feed production, \nwe could see substantial reductions in whole farm P balance. This is in \nconsistent with the finding from Harrison et al. (2021), which indicate \nthat farming systems with a higher inclusion rate of home-grown feed in \ntheir herds' diet exhibited greater P use efficiency and lower P surplus.",
+          "bbox": [
+            37.587398529052734,
+            595.8862915039062,
+            291.0301818847656,
+            724.0032958984375
+          ]
+        },
+        {
+          "id": "p9-b6-ca3a0bf",
+          "kind": "paragraph",
+          "text": "The results of the multi-objective optimization on environmental \nperformance in the case study farm demonstrated that improved manure",
+          "bbox": [
+            37.587398529052734,
+            721.4034423828125,
+            291.0086669921875,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p9-b7-5fdbdc4",
+          "kind": "paragraph",
+          "text": "management with multiple mitigation measures could move trade-off \nand synergy relationships among N volatilization, soil N losses, soil \nOM balance and whole farm N use efficiency in desirable directions. \nIntegrated crop-dairy systems offered further possibilities for mini­\nmizing environmental impacts. Larger reductions in N volatilization and \ngreater whole farm N use efficiencies were achieved through integrating \ncrop and dairy production.",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            560.0059204101562,
+            127.08900451660156
+          ]
+        },
+        {
+          "id": "p9-b8-b306449",
+          "kind": "paragraph",
+          "text": "Integrated crop–livestock systems have been identified as a viable \nstrategy to increase nutrient circularity and limit the negative environ­\nmental impacts (Lemaire et al., 2014; Moraine et al., 2014; Peyraud \net al., 2014).For intensive dairy farming systems with heavy reliance on \noff-farm feeds and with substantial manure nutrient surpluses, closing \nthe loop in nutrient and energy cycles by recoupling crop systems at \nfarm and regional scales can help reduce the environmental externalities \nof intensive farms and increase their resilience (Garrett et al., 2020; \nChen et al., 2023). This study showed that combined with improved \nmanure management, crop-dairy integration reduced N volatilization, \nsoil N losses, whole farm P balance and achieved high farm nutrient use \nefficiency.",
+          "bbox": [
+            306.5926208496094,
+            124.54573059082031,
+            560.0162963867188,
+            252.6061248779297
+          ]
+        },
+        {
+          "id": "p9-b9-c92a1ad",
+          "kind": "paragraph",
+          "text": "Although the obvious trade-off between feed self-sufficiency and \ndietary energy supply at the case study farm was identified, it is \nimportant to note that this is not the case for other integrated crop- \nlivestock systems. With a high stocking density, this case study farm \nallocated the majority of crop area to produce feeds, creating a trade-off \nbetween food and feed production. Integrating crop areas to produce \nfeed created a shift on the trade-off, but did not change the trade-off \nrelationship. The issue of crop-dairy integration has raised the ques­\ntion about resource allocation for food and feed production, especially \nfor intensive dairy farms with high stocking densities (Muscat et al., \n2020; Puech and Stark, 2023). The food-feed competition in our study \nwas mainly generated from the use of cropland, with more cropland \nused to produce livestock feeds (e.g., alfalfa and whole maize silage) \nleading to a smaller area for food production. Potential ways to alleviate \nthe food-feed competition on integrated crop-dairy farm might include \nincreasing nutrient use efficiency in cropping systems through opti­\nmizing crop rotations and increasing crop yields per area (Barbieri et al., \n2021). Increasing animal feed use efficiency at the animal and herd level \nis also an important lever to save feed resources (Barbieri et al., 2022). \nAdditionally, collaboration between local crop and dairy farms for direct \nexchange of manure and crop by-products could further close nutrient \nloops at larger scales, promoting resource utilization efficiency and \ncontributing to a circular food system (Martin et al., 2016; De Boer and \nVan Ittersum, 2018; Ghimire et al., 2021).",
+          "bbox": [
+            306.5926208496094,
+            250.06285095214844,
+            560.020263671875,
+            503.6961669921875
+          ]
+        },
+        {
+          "id": "p9-b10-eaa5194",
+          "kind": "paragraph",
+          "text": "Some limitations of this study were identified based on current re­\nsults. First, we explored alternative farm configurations with a focus on \noptimizing environmental and nutritional indicators and without \nconsidering economic indicators. Although some studies have proven \nthat crop-livestock integration could limit the negative environmental \nimpacts without compromising farm economics (Martin et al., 2016), in \npractice, the cost for manure management varies with types of treatment \ntechnologies (Hansen, 2019; Sefeedpari et al., 2019). A more compre­\nhensive evaluation that considers environmental, economic and nutri­\ntional indicators would contribute to a better understanding of the role \nof manure management in farm management, and would help farmers to \nadopt cost-effective manure management technologies. Second, our \nstudy might underestimate the contribution of manure management on \nfarm nutrient management as the model calculated nutrient flows based \non mass balance without considering the nutrient availability of \ndifferent manure types as fertilizer which highly depends on methods of \nmanure handling, storage and treatment (Rufino et al., 2007; Risbery \net al., 2017). In addition, the impacts of manure management technol­\nogies on manure quality are crucial for maintaining soil biodiversity, \nand are worthwhile to investigate (K¨oninger et al., 2021).",
+          "bbox": [
+            306.5926208496094,
+            501.09710693359375,
+            560.0186767578125,
+            712.891357421875
+          ]
+        },
+        {
+          "id": "p9-b11-754a85d",
+          "kind": "paragraph",
+          "text": "The combined FarmDESIGN and FarmM3 models offer a useful tool \nto explore how improved manure management influence nutrient flows \nand use efficiency at the whole farm. The generated alternative solutions",
+          "bbox": [
+            306.5926208496094,
+            710.34814453125,
+            560.0020141601562,
+            744.2991943359375
+          ]
+        },
+        {
+          "id": "p9-b12-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p9-b13-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-cff1f9a",
+          "kind": "paragraph",
+          "text": "based on Pareto-based multi-objective optimization algorithm can sup­\nport farmers to have their autonomous choice from a broad portfolio of \nalternatives and can serve as entry points for future participatory pro­\ncess with multiple stakeholders (Groot and Rossing, 2011). As integra­\ntion of crop and dairy production within farms requires greater \nworkload and increased skills and knowledge in animal, manure, soil \nand crop management, future research on integrating crop and dairy \nproduction beyond the farm scale by exchanging manure and feedstuff \nbetween dairy and crop farms are necessary, especially for intensive and \nspecialized farms. Nutrient “sharing” between crop and dairy farms \nwithin a region can provide complementary interactions and benefits, \nreducing externalities of specialized farms and contributing to close \nnutrient cycles at a larger scale.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.03021240234375,
+            189.84716796875
+          ]
+        },
+        {
+          "id": "p10-b1-c6e7582",
+          "kind": "heading",
+          "text": "5. Conclusions",
+          "bbox": [
+            37.587398529052734,
+            197.7359619140625,
+            95.51727294921875,
+            210.76707458496094
+          ]
+        },
+        {
+          "id": "p10-b2-8dd013c",
+          "kind": "paragraph",
+          "text": "Manure management plays an important role in farm nutrient \nmanagement of intensive mixed crop-dairy farms. Due to substantial \nnutrient losses from a large amount of produced manure, as well as \ncomplicated interactions of manure management and soil and crops, the \neffects of improved manure management on farm nutrient management \nshould also be considered when seeking to optimize farm configurations. \nOur study integrated an external manure management model (FarmM3) \nto a whole farm model (FarmDESIGN), which enables (i) to evaluate the \neffects of diverse improved manure management technologies on \nnutrient losses from manure management and from the whole farm \nsystem; (ii) to identify potential influence of improved manure man­\nagement on multi-objective optimization of farm configurations.",
+          "bbox": [
+            37.587398529052734,
+            218.65509033203125,
+            291.03338623046875,
+            346.77203369140625
+          ]
+        },
+        {
+          "id": "p10-b3-463c3cf",
+          "kind": "paragraph",
+          "text": "To reduce nutrient losses from the whole manure management chain, \na single manure management technology was insufficient, highlighting \nthe importance of integrated approaches to reduce N losses from manure \nmanagement. At a high livestock density, total N losses from the whole \nfarm were not influenced by improved manure management, since \nconserved N from manure management could be lost after being applied \nto cropland. A greater reduction of N losses from both manure man­\nagement and soil could be achieved by reducing livestock density, \nresulting in an improved whole N use efficiency. Additionally, improved \nmanure management did not lead to a decrease in whole farm P balance, \nprimarily because manure P was mainly lost through runoff and leach­\ning after application. However, integrating crop and dairy production to \nincrease on-farm feed production could significantly reduce whole farm \nP balance.",
+          "bbox": [
+            37.587398529052734,
+            344.22882080078125,
+            291.03338623046875,
+            493.2082824707031
+          ]
+        },
+        {
+          "id": "p10-b4-54b7665",
+          "kind": "paragraph",
+          "text": "Although trade-offs and synergies existed among objectives, \nimproved manure management did not change relationships among \nobjectives but did affect the positions and the slopes of the solution \nfrontiers between objectives of N volatilization, soil N losses and soil OM \nbalance. To move towards sustainable intensification of dairy produc­\ntion, increasing nutrient circularity by improving manure management \nwith multiple mitigation measures and integrating crop and dairy pro­\nduction within farm or between farms are necessary. Given the trade-off \nof food-feed competition when integrating crop production within dairy \nfarms with high stocking densities and heavy reliance on external feeds, \nfood production should also be considered when optimizing farm con­\nfigurations towards more sustainable agricultural production.",
+          "bbox": [
+            37.587398529052734,
+            490.6650695800781,
+            291.0246276855469,
+            618.7254638671875
+          ]
+        },
+        {
+          "id": "p10-b5-75794fc",
+          "kind": "paragraph",
+          "text": "CRediT authorship contribution statement",
+          "bbox": [
+            37.587398529052734,
+            626.6134033203125,
+            199.52548217773438,
+            639.64453125
+          ]
+        },
+        {
+          "id": "p10-b6-282113f",
+          "kind": "paragraph",
+          "text": "Qingbo Qu: Writing – review & editing, Writing – original draft, \nVisualization, Methodology, Investigation, Formal analysis, Data cura­\ntion, Conceptualization. Jeroen C.J. Groot: Writing – review & editing, \nSupervision, Software, Methodology, Funding acquisition, Conceptual­\nization. Keqiang Zhang: Writing – review & editing, Supervision, Re­\nsources, Funding acquisition, Conceptualization.",
+          "bbox": [
+            37.587398529052734,
+            647.5333251953125,
+            291.0158386230469,
+            712.891357421875
+          ]
+        },
+        {
+          "id": "p10-b7-9c53d09",
+          "kind": "paragraph",
+          "text": "Declaration of competing interest",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            435.17901611328125,
+            64.33084106445312
+          ]
+        },
+        {
+          "id": "p10-b8-5f4cebb",
+          "kind": "paragraph",
+          "text": "The authors declare that they have no known competing financial \ninterests or personal relationships that could have appeared to influence \nthe work reported in this paper.",
+          "bbox": [
+            306.5926208496094,
+            72.2188491821289,
+            560.0115966796875,
+            106.16908264160156
+          ]
+        },
+        {
+          "id": "p10-b9-188a992",
+          "kind": "heading",
+          "text": "Data availability",
+          "bbox": [
+            306.5926208496094,
+            114.05789184570312,
+            370.10162353515625,
+            127.08900451660156
+          ]
+        },
+        {
+          "id": "p10-b10-2889f11",
+          "kind": "paragraph",
+          "text": "Data will be made available on request.",
+          "bbox": [
+            318.5541687011719,
+            134.9770050048828,
+            458.8701477050781,
+            148.00811767578125
+          ]
+        },
+        {
+          "id": "p10-b11-c9015d5",
+          "kind": "heading",
+          "text": "Acknowledgements",
+          "bbox": [
+            306.5926208496094,
+            157.99465942382812,
+            380.4355773925781,
+            171.02577209472656
+          ]
+        },
+        {
+          "id": "p10-b12-f75af88",
+          "kind": "paragraph",
+          "text": "This work was supported by Research on Key Technologies for \nReducing Emissions and Enhancing Resource Utilization of Manure in \nLarge-scale Dairy Farms (grant number 202402AE090032), Science & \nTechnology Innovation Program of Chinese Academy of Agricultural \nScience, the Cooperative Sino-Dutch PhD Programme between Chinese \nAcademy of Agricultural Science and Wageningen University & \nResearch (grant number MOE11NL1A20151701N), and the China \nScholarship Council (grant number 202003250092).",
+          "bbox": [
+            306.5926208496094,
+            178.91378784179688,
+            560.0115966796875,
+            265.1916809082031
+          ]
+        },
+        {
+          "id": "p10-b13-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            306.5926208496094,
+            275.1774597167969,
+            347.80596923828125,
+            288.20855712890625
+          ]
+        },
+        {
+          "id": "p10-b14-882e3f7",
+          "kind": "paragraph",
+          "text": "Aguirre-Villegas, H.A., Larson, R.A., Sharara, M.A., 2019. Anaerobic digestion, solid- \nliquid separation, and drying of dairy manure: measuring constituents and modeling \nemission. Sci. Total Environ. 696, 134059. https://doi.org/10.1016/j. \nscitotenv.2019.134059.\nBai, Z.H., Ma, L., Oenema, O., Chen, Q., Zhang, F.S., 2013. Nitrogen and phosphorus use \nefficiencies in dairy production in China. J. Environ. Qual. 42, 990–1001. https:// \ndoi.org/10.2134/jeq2012.0464.\nBarbieri, P., Pellerin, S., Seufert, V., Smith, L., Ramankutty, N., Nesme, T., 2021. Global \noption space for organic agriculture is delimited by nitrogen availability. Nat. Food \n2, 363–372. https://doi.org/10.1038/s43016-021-00276-y.\nBarbieri, P., Dumont, B., Benoit, M., Nesme, T., 2022. Opinion paper: livestock is at the \nheart of interacting levers to reduce feed-food competition in agroecological food \nsystems. Animal 16, 100436. https://doi.org/10.1016/j.animal.2021.100436.\nBerg, W., Brunsch, R., Pazsiczki, I., 2006. Greenhouse gas emissions from covered slurry \ncompared with uncovered during storage. Agric. Ecosyst. Environ. 112, 129–134. \nhttps://doi.org/10.1016/j.agee.2005.08.031.\nChadwick, D.R., Williams, J.R., Lu, Y.L., Ma, L., Bai, Z.H., Hou, Y., Chen, X.P., \nMisselbrook, T.H., 2020. Strategies to reduce nutrient pollution from manure \nmanagement in China. Front. Agric. Sci. Eng. 7, 45–55. https://doi.org/10.15302/j- \nfase-2019293.\nChen, X., Lin, J., Tan, K., Pei, Y., Wang, X., 2023. Cooperation between specialized \ncropping and livestock farms at local level reduces carbon footprint of agricultural \nsystem: a case study of recoupling maize-cow system in South China. Agric. Ecosyst. \nEnviron. 348, 108406. https://doi.org/10.1016/j.agee.2023.108406.\nClay, N., Garnett, T., Lorimer, J., 2020. Dairy intensification: drivers, impacts and \nalternatives. Ambio 49, 35–48. https://doi.org/10.1007/s13280-019-01177-y.\nDe Boer, I.J.M., Van Ittersum, M.K., 2018. Circularity in Agricultural Production. \nWageningen University. https://library.wur.nl/WebQuery/wurpubs/fullte \nxt/470625 (accessed 23 July 2021). \nDe Vries, J.W., Groenestein, C.M., Schr¨oder, J.J., Hoogmoed, W.B., Sukkel, W., Groot \nKoerkamp, P.W.G., De Boer, I.J.M., 2015a. Integrated manure management to \nreduce environmental impact: II. Environmental impact assessment of strategies. \nAgr. Syst. 138, 88–99. https://doi.org/10.1016/j.agsy.2015.05.006.\nDe Vries, J.W., Hoogmoed, W.B., Groenestein, C.M., Schr¨oder, J.J., Sukkel, W., De \nBoer, I.J.M., Groot Koerkamp, P.W.G., 2015b. Integrated manure management to \nreduce environmental impact: I. Structured design of strategies. Agric. Syst. 139, \n29–37. https://doi.org/10.1016/j.agsy.2015.05.010.\nFAO, 2018. The State of the world’s Animal Genetic Resources for Food and Agriculture - \nLivestock Diversity Is Essential, 2nd ed. Food and Agriculture Organization of the \nUnited Nations.\nFoged, H.L., Flotats, X., Blasi, A.B., Palatsi, J., Magri, A., Schelde, K.M., 2011. Inventory \nof manure processing activities in Europe. Technical Report No. I concerning \n“Manure Processing Activities in Europe” to the European Commission, Directorate- \nGeneral Environment, 138.\nGarrett, R.D., Ryschawy, J., Bell, L.W., Cortner, O., Ferreira, J., Garik, A.V.N., Gil, J.D.B., \nKlerkx, L., Moraine, M., Peterson, C.A., dos Reis, J.C., Valentim, J.F., 2020. Drivers \nof decoupling and recoupling of crop and livestock systems at farm and territorial \nscales. Ecol. Soc. 25 (1), 24. https://doi.org/10.5751/ES-11412-250124.\nGhimire, S., Wang, J., Fleck, J.R., 2021. Integrated crop-livestock systems for nitrogen \nmanagement: a multi-scale spatial analysis. Animals 11 (1), 100. https://doi.org/ \n10.3390/ani11010100.\nGroot, J.C.J., Rossing, W.A.H., 2011. Model-aided learning for adaptive management of \nnatural resources: an evolutionary design perspective. Methods Ecol. Evol. 2, \n643–650. https://doi.org/10.1111/j.2041-210X.2011.00114.x.\nGroot, J.C.J., Rossing, W.A.H., Jellema, A., Stobbelaar, D.J., Renting, H., Van \nIttersum, M.K., 2007. Exploring multi-scale trade-offs between nature conservation,",
+          "bbox": [
+            306.5950012207031,
+            295.4554138183594,
+            557.5695190429688,
+            744.224365234375
+          ]
+        },
+        {
+          "id": "p10-b15-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.590057373046875,
+            33.650760650634766,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p10-b16-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            294.41998291015625,
+            754.4534301757812,
+            303.467529296875,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-395cbd4",
+          "kind": "paragraph",
+          "text": "agricultural profits and landscape quality—a methodology to support discussions on \nland-use perspectives. Agric. Ecosyst. Environ. 120, 58–69. https://doi.org/ \n10.1016/j.agee.2006.03.037.\nGroot, J.C.J., Oomen, G.J.M., Rossing, W.A.H., 2012. Multi-objective optimization and \ndesign of farming systems. Agr. Syst. 110, 63–77. https://doi.org/10.1016/j. \nagsy.2012.03.012.\nHansen, B.G., 2019. CO2–emission, costs and capacity of different manure management \npractices-results from an advisory project. Agr. Syst. 173, 325–334. https://doi.org/ \n10.1016/j.agsy.2019.03.011.\nHarrison, B.P., Dorigo, M., Reynolds, C.K., Sinclair, L.A., Dijkstra, J., Ray, P.P., 2021. \nDeterminants of phosphorus balance and use efficiency in diverse dairy farming \nsystems. Agr. Syst. 194, 103273. https://doi.org/10.1016/j.agsy.2021.103273.\nHolly, M.A., Larson, R.A., Powell, J.M., Ruark, M.D., Aguirre-Villegas, H., 2017. \nGreenhouse gas and ammonia emissions from digested and separated dairy manure \nduring storage and after land application. Agric. Ecosyst. Environ. 239, 410–419. \nhttps://doi.org/10.1016/j.agee.2017.02.007.\nHou, Y., Velthof, G.L., Oenema, O., 2015. Mitigation of ammonia, nitrous oxide and \nmethane emissions from manure management chains: a meta-analysis and integrated \nassessment. Glob. Change Biol. 21 (3), 1293–1312. https://doi.org/10.1111/ \ngcb.12767.\nK¨oninger, J., Lugato, E., Panagos, P., Kochupillai, M., Orgiazzi, A., Briones, M.J.I., 2021. \nManure management and soil biodiversity: towards more sustainable food systems in \nthe EU. Agr. Syst. 194, 103251. https://doi.org/10.1016/j.agsy.2021.103251.\nLemaire, G., Franzluebbers, A., Carvalho, P.C.D.F., Dedieu, B., 2014. Integrated \ncrop–livestock systems: strategies to achieve synergy between agricultural \nproduction and environmental quality. Agric. Ecosyst. Environ. 190, 4–8. https:// \ndoi.org/10.1016/j.agee.2013.08.009.\nMartin, G., Moraine, M., Ryschawy, J., Magne, M.-A., Asai, M., Sarthou, J.-P., Duru, M., \nTherond, O., 2016. Crop–livestock integration beyond the farm level: a review. \nAgron. Sustain. Dev. 36, 53. https://doi.org/10.1007/s13593-016-0390-x.\nMarton, S.M.R.R., Zimmermann, A., Kreuzer, M., Gaillard, G., 2016. Comparing the \nenvironmental performance of mixed and specialised dairy farms: the role of the \nsystem level analysed. J. Clean. Prod. 124, 73–83. https://doi.org/10.1016/j. \njclepro.2016.02.074.\nMoraine, M., Duru, M., Nicholas, P., Leterme, P., Therond, O., 2014. Farming system \ndesign for innovative crop-livestock integration in Europe. Animal 8, 1204–1217. \nhttps://doi.org/10.1017/S1751731114001189.\nMuscat, A., de Olde, E.M., de Boer, I.J.M., Ripoll-Bosch, R., 2020. The battle for biomass: \na systematic review of food-feed-fuel competition. Glob. Food Sec. 25, 100330. \nhttps://doi.org/10.1016/j.gfs.2019.100330.\nOenema, O., Tamminga, S., 2005. Nitrogen in global animal production and \nmanagement options for improving nitrogen use efficiency. Sci. China. Ser. C. 48, \n871–887. https://doi.org/10.1360/062005-279.\nOenema, O., Oudendag, D., Velthof, G.L., 2007. Nutrient losses from manure \nmanagement in the European Union. Livest. Sci. 112, 261–272. https://doi.org/ \n10.1016/j.livsci.2007.09.007.",
+          "bbox": [
+            37.587772369384766,
+            52.12942886352539,
+            288.5584716796875,
+            421.189453125
+          ]
+        },
+        {
+          "id": "p11-b1-e0272ea",
+          "kind": "paragraph",
+          "text": "Peyraud, J.-L., Taboada, M., Delaby, L., 2014. Integrated crop and livestock systems in \nWestern Europe and South America: a review. Eur. J. Agron. 57, 31–42. https://doi. \norg/10.1016/j.eja.2014.02.005.\nPuech, T., Stark, F., 2023. Diversification of an integrated crop-livestock system: \nAgroecological and food production assessment at farm scale. Agric. Ecosyst. \nEnviron. 344, 108300. https://doi.org/10.1016/j.agee.2022.108300.\nQu, Q., Zhang, K., Groot, J.C., 2023. A model to identify entry points to curb emissions \nfrom complex manure management chains. J. Clean. Prod. 137787. https://doi.org/ \n10.1016/j.jclepro.2023.137787.\nRos, M.B.H., Godber, O.F., Olivo, A.J., Reed, K.F., Ketterings, Q.M., 2023. Key nitrogen \nand phosphorus performance indicators derived from farm-gate mass balances on \ndairies. J. Dairy Sci. 106 (5), 3268–3286. https://doi.org/10.3168/jds.2022-22297.\nRotz, C.A., Oenema, J., van Keulen, H., 2006. Whole farm management to reduce \nnutrient losses from dairy farms: a simulation study. Appl. Eng. Agric. 22, 773–784.\nRufino, M.C., Tittonell, P., van Wijk, M.T., Castellanos-Navarrete, A., Delve, R.J., de \nRidder, N., Giller, K.E., 2007. Manure as a key resource within smallholder farming \nsystems: Analysing farm-scale nutrient cycling efficiencies with the NUANCES \nframework. Livest. Sci. 112, 273–287. https://doi.org/10.1016/j.livsci.2007.09.011.\nRyschawy, J., Choisis, N., Choisis, J.P., Joannon, A., Gibon, A., 2012. Mixed crop- \nlivestock systems: an economic and environmental-friendly way of farming? Animal \n6, 1722–1730. https://doi.org/10.1017/S1751731112000675.\nSajeev, E.P.M., Winiwarter, W., Amon, B., 2018. Greenhouse gas and ammonia emissions \nfrom different stages of liquid manure management chains: abatement options and \nemission interactions. J. Environ. Qual. 47, 30–41. https://doi.org/10.2134/ \njeq2017.05.0199.\nSchut, A.G.T., Cooledge, E.C., Moraine, M., Van de Ven, G.W.J., Jones, D.L., \nChadwick, D.R., 2021. Reintegration of crop-livestock systems in Europe: an \noverview. Front. Agric. Sci. Eng. 8, 111–129. https://doi.org/10.15302/JFASE- \n2020373.\nSefeedpari, P., Vellinga, T., Rafiee, S., Sharifi, M., Shine, P., Pishgar-Komleh, S.H., 2019. \nTechnical, environmental and cost-benefit assessment of manure management chain: \na case study of large scale dairy farming. J. Clean. Prod. 233, 857–868. https://doi. \norg/10.1016/j.jclepro.2019.06.146.\nShah, G.A., Groot, J.C., Shah, G.M., Lantinga, E.A., 2013. Simulation of long-term carbon \nand nitrogen dynamics in grassland-based dairy farming systems to evaluate \nmitigation strategies for nutrient losses. PloS One 8, e67279. https://doi.org/ \n10.1371/journal.pone.0067279.\nSommer, S.G., Hutchings, N.J., 2001. Ammonia emission from field applied manure and \nits reduction - invited paper. Eur. J. Agron. 15, 1–15. https://doi.org/10.1016/ \nS1161-0301(01)00112-5.\nSommer, S.G., Christensen, M.L., Schmidt, T., Jensen, L.S., 2013. Animal Manure \nRecycling Treatment and Management. John Wiley & Sons.\nSpears, R.A., Young, A.J., Kohn, R.A., 2003. Whole-farm phosphorus balance on western \ndairy farms. J. Dairy Sci. 86 (2), 688–695.\nZou, T., Meng, F., Zhou, J., Ying, H., Liu, X., Hou, Y., Zhao, Z., Zhang, F., Xu, W., 2023. \nQuantifying nitrogen and phosphorus losses from crop and livestock production and \nmitigation potentials in Erhai Lake Basin, China. Agric. Syst. 211, 103745. https:// \ndoi.org/10.1016/j.agsy.2023.103745.",
+          "bbox": [
+            306.5920715332031,
+            52.12942886352539,
+            557.560302734375,
+            437.1763916015625
+          ]
+        },
+        {
+          "id": "p11-b2-22c6dab",
+          "kind": "paragraph",
+          "text": "Q. Qu et al.                                                                                                                                                                                                                                      \nAgricultural Systems 222 (2025) 104170",
+          "bbox": [
+            37.587772369384766,
+            33.64824295043945,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p11-b3-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            294.41998291015625,
+            754.4534301757812,
+            303.467529296875,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/qu-2025/7e69eb40dc23/page-11.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 11,
+    "pageSnapshots": 11,
+    "allTextBlocksRetained": true,
+    "textCharacters": 65091,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 7,
+    "sourceSHA256": "7e69eb40dc235c56e72cddc615d123cb8b8679999727d499127a08b0cb2b2769",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

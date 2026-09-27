@@ -33,7 +33,7 @@ with sync_playwright() as p:
     assert '符合' in page.locator('#q-result').inner_text();checks.append('interactive Pareto and Q-sort')
     page.evaluate("document.querySelector('a[href=\"#/offline\"]').click()")
     page.wait_for_selector('#check-cache');page.evaluate('navigator.serviceWorker.ready.then(()=>true)')
-    page.locator('#check-cache').click();page.wait_for_function("document.querySelector('#cache-status').textContent.includes('已完整缓存')")
+    page.locator('#cache-site').click();page.wait_for_function("document.querySelector('#cache-status').textContent.includes('已完整缓存')",timeout=300000)
     checks.append('all declared offline assets present in versioned cache')
     with page.expect_download() as info:page.locator('[data-file="pareto_lab.py"]').click()
     assert info.value.suggested_filename=='pareto_lab.py';checks.append('embedded exercise download')

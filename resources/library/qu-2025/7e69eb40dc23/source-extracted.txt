@@ -1,0 +1,1410 @@
+Improved manure management moves trade-off and synergy relationships 
+among environmental indicators in desirable directions
+
+Qingbo Qu a,b,c,d, Jeroen C.J. Groot c, Keqiang Zhang d,e,*
+
+a College of Agriculture and Biological Science, Dali University, Dali, Yunnan 671003, China
+b Team for Agroecology in Erhai Lake Watershed, Dali University, Dali, Yunnan 671003, China
+c Farming Systems Ecology Group, Wageningen University and Research, Wageningen 6700 AK, the Netherlands
+d Dali Yunnan, Agricultural Ecosystem, National Observation and Research Station, Dali 671004, China
+e Agro-environmental Protection Institute, Ministry of Agriculture and Rural Affairs, Tianjin 300191, China
+
+H I G H L I G H T S
+G R A P H I C A L  A B S T R A C T
+
+• Improved manure management and 
+crop-dairy integration enhance nutrient 
+circularity in intensive dairy farms.
+• Combining manure technologies greatly 
+reduces N losses.
+• Manure management optimizes N vola­
+
+tilization, soil N losses, and soil organic 
+matter balance.
+• Improved manure practices alone are 
+insufficient to address N surplus in high- 
+density dairies.
+
+A R T I C L E  I N F O
+
+Editor: Paul Crosson
+
+Keywords:
+Manure management
+Crop-dairy integration
+Feed self-sufficiency
+FarmDESIGN
+Multi-objective optimization
+
+A B S T R A C T
+
+CONTEXT: Dairy production systems with a high stocking density are strongly dependent on external feed re­
+sources and concentrate nutrients in manure on a small surface area, thus causing environmental challenges. 
+Both improved manure management and integration of crop-dairy production have been proposed as ways to 
+reduce nutrient losses and improve sustainability of intensive dairy production. However, the potential inter­
+active relationships between these two options are rarely investigated.
+OBJECTIVE: This study aimed to investigate how different manure management technologies influence nutrient 
+losses at manure management and farm levels and how manure management impacts farm multi-objective 
+optimization results for more integrated crop-dairy production.
+METHODS: A whole farm model (FarmDESIGN) extended with a manure management module (FarmM3) was 
+used to simulate an intensive mixed crop-dairy farm with a herd of 66 cows and 9.6 ha of crop area. The 
+optimization aimed to improve farm environmental performance, increase feed self-sufficiency and food 
+production.
+RESULTS AND CONCLUSIONS: The results showed that individual manure management technologies were 
+insufficient to reduce nitrogen (N) losses from manure management chains due to compensatory losses, whereas
+
+* Corresponding author at: Dali Yunnan, Agricultural Ecosystem, National Observation and Research Station, Dali 671004, China.
+
+E-mail address: keqiangzhang68@163.com (K. Zhang).
+
+Contents lists available at ScienceDirect
+
+Agricultural Systems
+
+journal homepage: www.elsevier.com/locate/agsy
+
+https://doi.org/10.1016/j.agsy.2024.104170
+Received 29 May 2024; Received in revised form 27 September 2024; Accepted 28 October 2024
+
+Agricultural Systems 222 (2025) 104170
+
+Available online 6 November 2024 
+0308-521X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by- 
+nc/4.0/ ).
+
+combinations of slurry solid-liquid separation, covered storage of solid and liquid fractions, and improved 
+manure application could remarkably reduce N losses by 46 to 58 % and increase manure N use efficiencies by 
+more than 30 %. Improved manure management did not influence total N losses at farm level without decreasing 
+livestock density. Multi-objective optimization showed that improved manure management did not eliminate 
+trade-offs or synergies among objectives but did affect the positions and the slopes of the solution frontiers 
+between objectives. Differences between solution frontiers of alternative farm configurations in terms of N 
+volatilization, soil N losses and soil organic matter (OM) balance indicated that manure management chains 
+(MMCs) could be designed effectively to optimize these objectives.
+SIGNIFICANCE: This study confirmed the value of improved manure management and integrated crop-dairy 
+production in reducing N losses and improving farm nutrient use efficiency. For intensive dairy farms with 
+limited land availability, future studies should focus on recoupling crop and dairy production at regional scales to 
+create more sustainable and resilient food production systems.
+
+1. Introduction
+
+1.1. Intensive dairy production
+
+Dairy farming has intensified and specialized over the past few de­
+cades (FAO, 2018). With high stocking rates and large external feed 
+inputs, intensive dairy farming systems are typically characterized by 
+high productivity and profitability but also negative site-specific envi­
+ronmental impacts (Clay et al., 2020). Environmental problems, such as 
+greenhouse gas and ammonia emissions, nutrient surpluses and eutro­
+phication of ecosystems, have gained worldwide attention (Rotz et al., 
+2006; Oenema et al., 2007). Poor on-farm manure management and the 
+spatial decoupling of crop and dairy farms were perceived as the major 
+causes of nutrient losses from intensive confinement dairy farms (Bai 
+et al., 2013; Chadwick et al., 2020; Zou et al., 2023). With a large 
+amount of excreted manure but limited available grassland or cropland 
+to utilize the produced manure, manure has become a burden for 
+intensive confinement dairy farms. Additionally, due to the high live­
+stock density, the strong reliance on external feeds of these intensive 
+confinement dairy farms has resulted in very low levels of nutrient 
+circularity and use efficiency. Strategies to reduce nutrient losses and to 
+improve nutrient use efficiency have been pointed out to involve 
+improving manure management and by recoupling crop and dairy pro­
+duction (Oenema and Tamminga, 2005; Chadwick et al., 2020).
+
+1.2. Improved manure management
+
+Emission mitigation measures and manure treatment technologies 
+have been developed to reduce nutrient losses from manure manage­
+ment facilities. For instance, covering of manure storages, slurry acidi­
+fication and dilution, and injection of liquid manure were used to reduce 
+ammonia emissions. Anaerobic digestion, solid-liquid separation and 
+composting could contribute to mitigation of greenhouse gas emissions 
+and facilitate manure nutrient management by producing alternative 
+manure products such as anaerobic digestate, separated liquid and solid 
+fractions, and compost (Foged et al., 2011; Sommer et al., 2013). 
+However, devising a single mitigation measure on a single loss pathway 
+has led to pollution swapping by increased losses of other compounds 
+(De Vries et al., 2015a). It was reported that the reduced ammonia 
+emissions by covering slurry storage and by injection of liquid manure 
+resulted in an increased nitrous oxide emission (Sommer and Hutchings, 
+2001; Berg et al., 2006). Moreover, the reduced gas emission at previous 
+stages might lead to increased losses at later manure management stages 
+(Shah et al., 2013). Considering the pollution swapping among nutrient 
+loss pathways and compensatory losses among manure management 
+technologies and different stages in the manure management chain, a 
+combination of different manure management technologies has been 
+proven more efficient to reduce nutrient losses from the whole manure 
+management chains (Rotz et al., 2006; Hou et al., 2015; Sajeev et al., 
+2018). However, the quantitative effects of improved manure manage­
+ment on nutrient use efficiency at farm level are rarely investigated. 
+With more conserved nutrients in manure products, fewer nutrient
+
+inputs from synthetic fertilizers and a larger area of crop- or grassland 
+might be needed to utilize these nutrients. Thus, for intensive confine­
+ment dairy farms, the recoupling of crop and dairy production could be a 
+promising solution to reduce nutrient surplus and to increase nutrient 
+circularity and use efficiency (Peyraud et al., 2014; Schut et al., 2021).
+
+1.3. Reintegration of crop and dairy production
+
+In integrated or recoupled crop and dairy systems, the manure pro­
+duced by cows is used as a source of fertilizer for the crops, which in turn 
+provide feeds for the livestock. These closed-loop systems allow for the 
+efficient use of nutrients, reducing the need for synthetic fertilizers and 
+limiting the demand for imported feeds (Ryschawy et al., 2012; Marton 
+et al., 2016). Although the value of integrated crop-livestock systems in 
+terms of reducing detrimental environmental impacts has been 
+confirmed, studies have highlighted the necessity to consider food pro­
+duction of these systems (Lemaire et al., 2014; Puech et al., 2023), 
+especially at farm scale, since the issue of increasing nutrient recycling 
+by crop-livestock integration raises questions about the use of agricul­
+tural land and resource allocation between food crops, feed and animal 
+products, particularly the role of intermediate resources such as fodder 
+for animal feed (Barbieri et al., 2022). Thus, a strategic plan and design 
+for integrated crop-livestock systems is highly vital to improve nutrient 
+use efficiency and circularity, to increase feed self-sufficiency without 
+compromising food production.
+
+1.4. Whole farm models
+
+Given the strong interactions among different farm components (i.e., 
+animals, manure, soils and crops) of integrated crop and dairy farms, 
+whole farm models can be powerful means to redesign crop and dairy 
+systems to balance supply and demand of feedstuff and manure, and to 
+provide ex-ante assessments of performance of integrated crop-dairy 
+systems. In this study, we will apply a whole farm model, the FarmDE­
+SIGN model, developed by Groot et al. (2012) to redesign farming sys­
+tems by balancing crop-livestock interactions. This model can identify 
+complicated interactions among farm components, support the explo­
+ration of alternative farm configurations using a Pareto-based multi- 
+objective optimization algorithm, and provide redesign plans for 
+improving farm nutrient use efficiency, increasing self-sufficiency of 
+feed and guarantee food production. With a linked external manure 
+management module (Qu et al., 2023), it also allows the investigation of 
+the effects of improved manure management practices on nutrient losses 
+and farm nutrient use efficiency.
+
+1.5. Objectives
+
+This study aims to investigate alternative farm management prac­
+tices to improve nutrient use efficiency of intensive confinement dairy 
+farms. Using the extended FarmDESIGN model, we first evaluate the 
+impacts of various improved manure management practices on nutrient 
+losses and farm nutrient use efficiency. Then we explore alternative farm
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+2
+
+configurations to further increase nutrient circularity by integrating 
+crop and dairy production based on Pareto-based multi-objective opti­
+mization. Lastly, the potential impacts of improved manure manage­
+ment chains on designing and optimizing plans for integrated crop and 
+dairy farms is investigated.
+
+2. Materials and methods
+
+2.1. Case study farm
+
+A mixed dairy-crop farm in an agri-environmental scientific obser­
+vation experimental station in Dali, in the province of Yunnan, China 
+was selected as a case study. The region has experienced significant 
+environmental challenges, particularly the degradation of Erhai Lake's 
+water quality, primarily due to nutrient runoff from chemical fertilizers 
+and the expansion of intensive dairy farming. To counter these issues, 
+local policies have increasingly advocated for the use of organic fertil­
+izers and the integration of crop and dairy farming systems, aiming to 
+promote sustainable agricultural practices.
+
+At this farm, the dairy herd consisted of 66 animals, including 6 
+calves, 18 heifers and 42 milking cows. Heifers were kept on the grazed 
+pasture for 245 days during spring, summer and part of autumn. Milking 
+cows and calves were kept in an open barn throughout the whole year. 
+Dung and urine excreted on the pastures were kept on the pasture 
+without collection. Excreta produced in the barn were collected sepa­
+rately with solid manure being sold off-farm and liquid manure being 
+stored in an underground tank for a period of two months before being 
+applied to fields.
+
+The total cultivated farm area was 9.5 ha, with 3.5 ha for fava-bean 
+and rice rotation, 1.5 ha for annual ryegrass, 1.5 ha for barley and maize 
+rotation, and 3 ha for alfalfa and rape rotation. The harvested rice and 
+rapeseed were sold and other crop products were used as animal feed or 
+bedding. Additionally, large amounts of bedding materials and feeds
+
+were imported into the farm. Table 1 presents the annual amounts of 
+imported feeds and bedding materials in the original farm, which were 
+estimated based on the data provided by the farmer.
+
+Given the limited grazing area and the high potential for nutrient 
+losses through leaching and runoff, we revised the farm configuration 
+with no grazing by heifers and keeping all of the animals in the open 
+barn throughout the whole year. We also improved the herd structure by 
+replacing dairy cows at a rate of 25 %. Correspondingly, we revised the 
+amount of feed intake to meet animal requirements (Table 1). To in­
+crease nutrient use efficiency and circularity within the farm, we 
+assumed that all produced manure is applied within the farm. The 
+modified farm was taken as the baseline farm and as the starting point 
+for farm optimization.
+
+2.2. FarmDESIGN model
+
+To evaluate the farm's performance comprehensively in terms of 
+agronomic and environmental indicators, we utilized the FarmDESIGN 
+model. This model is a bio-economic whole farm model that supports 
+evaluation of mixed crop-livestock farm performance comprehensively 
+with various agronomic, environmental and economic indicators (Groot 
+et al., 2012). It can be used to simulate flows of organic matter (OM), 
+carbon (C), nitrogen (N), phosphorus (P) and potassium (K) to, through 
+and from farm components (crop-animal-manure-soil) on an annual 
+basis. Based on a Pareto-based multi-objective optimization algorithm, 
+this model also enables redesigning more sustainable farming systems 
+by exploring alternative farm configurations of balancing different farm 
+components interactions. We used an extended version of the model 
+with a flexible modular manure management model (FarmM3) as 
+detailed by Qu et al. (2023).
+
+The FarmDESIGN model estimates the amount of manure dry matter 
+produced (DMManure; kg) based on the amount of feed dry matter sup­
+plied to animals (DMAnimalFeed for each feed p; kg), corrected for feed loss
+
+Table 1 
+Overview of variables in the original farm, baseline farm, farm scenario A (aiming to optimize livestock number on a 9.5 ha crop area), and farm scenario B (aiming to 
+increase nutrient circularity by integrating more crop area) of the case study farm. The columns labeled Minimum and Maximum indicate the allowed range of 
+variation in the optimization procedure for variables used as decision variables. The term ‘External’ refers to feeds or bedding materials that are imported from outside 
+the farm.
+
+Description
+Original
+Baseline
+Scenario A
+Scenario B
+
+Minimum
+Maximum
+Minimum
+Maximum
+
+Number of animals kept on the farm
+Dairy cows
+42
+42
+12
+42
+–
+–
+Replacement Rate
+–
+0.25
+0.15
+0.35
+–
+–
+Heifers
+18
+10
+–
+–
+–
+–
+Calves
+6
+10
+–
+–
+–
+–
+
+Areas of crop in rotation, ha
+
+Bean-Rice
+3.5
+3.5
+3
+9.5
+3
+45
+Ryegrass
+1.5
+1.5
+0.5
+1.5
+0.5
+1.5
+Barley-Maize
+1.5
+1.5
+0
+3.0
+0
+3
+Alfalfa-Rape
+3
+3
+0
+9.5
+0
+10
+Alfalfa-Rice
+0
+0
+0
+0
+0
+45
+Bean-Maize
+0
+0
+0
+0
+0
+45
+Chinese cabbage-Maize
+0
+0
+0
+0
+0
+45
+Asparagus lettuc-Rice
+0
+0
+0
+0
+0
+45
+Amount of external feeds, kg DM per year
+Alfalfa silage
+134,558
+134,558
+0
+134,558
+0
+134,558
+Bean Straw
+10,000
+10,000
+0
+10,000
+0
+10,000
+Concentrate
+80,942
+80,942
+0
+80,942
+0
+80,942
+Concentrate2
+20,000
+10,000
+0
+10,000
+0
+10,000
+Maize straw silage
+0
+0
+0
+15,000
+0
+15,000
+Amount of bedding supplied to animals, kg per day
+
+Calves
+2.5
+2.5
+2
+4
+2
+4
+Heifers
+2.5
+2.5
+2
+5
+2
+5
+Dairy Cows
+4.5
+4.5
+2.5
+6
+2.5
+6
+Amount of bedding supplied to animals, kg DM per year
+External
+Rice straw
+64,000
+60,000
+0
+90,000
+0
+90,000
+Percentage of crop products used as feed or bedding
+Bean-Rice rotation
+Rice straw (as feed)
+0
+0
+0
+100
+0
+100
+Alfalfa-Rice rotation
+Rice straw (as bedding)
+0
+0
+0
+0
+0
+100
+Bean-Maize rotation
+Bean straw (as bedding)
+0
+0
+0
+0
+0
+100
+Milk proudction and use
+Milk Production, kg per cow per day
+24
+24
+24
+30
+24
+30
+Amount fed to animals, kg per year
+3000
+5000
+1000
+7500
+–
+–
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+3
+
+rate (FL,p; kg/kg) and the apparent dry matter digestibility (DMD; kg/kg) 
+of each feed, and the amount of dry matter from bedding material 
+(DMBedding; kg) collected in the barn and mixed with produced faces and 
+urine.
+
+DMManure =
+∑
+
+p=1
+
+DMAnimalFeed,p ×
+(
+1 −FL,p
+
+)
+× DMDp + DMBedding
+
+The amounts of OM and C in manure are determined based on the ash 
+content of the crop and animal products and assuming a C content in 
+organic matter of 50 %. The total amounts of N, P and K in manure (in 
+both urine and feces) are derived from the difference between intake and 
+products of the animals, as demonstrated bellow for N only.
+
+NManure =
+∑
+
+p=1
+
+(
+DMAnimalFeed,p × FN,p ×
+(
+1 −FL,p
+
+) )
+−NAnimalProducts
+
+The amounts of produced manure DM, OM, C and nutrients esti­
+mated by FarmDESIGN model serve as inputs of FarmM3 model. The 
+FarmM3 model quantifies the degradation of OM and C, losses of N, P 
+and K along the whole manure management chain using specific loss 
+coefficients. The detailed calculation procedure of FarmM3 can be found 
+in Qu et al. (2023). The amounts and characteristics of manure available 
+for application are fed back from the FarmM3 module to FarmDESIGN 
+model. Adding FarmM3 as an external manure module improves the 
+flexibility of the FarmDESIGN model in estimating nutrient losses from 
+manure management chains with different manure treatment 
+technologies.
+
+The farm evaluation results revealed that the original farm had a 
+high livestock density of 6.5 LU/ha (LU refers to Livestock Unit equaling 
+500 kg live weight), and a low feed self-reliance, with more than 70 % of 
+feeds imported from outside the farm. Due to the large number of cows 
+but a limited crop area, the farm exhibited a high farm N balance around 
+272 kg/ha, with 77 % of N losses attributed to N volatilization from 
+manure management. The N cycling rate, defined as the fraction of 
+excreted manure N recycled into soil, was about 37 %, while over 30 % 
+of manure N was exported off the farm.
+
+2.3. Manure management scenarios
+
+To investigate how different levels of technology and management 
+practices can enhance manure management outcomes, reduce environ­
+mental impacts, and improve nutrient use efficiency on farms, four 
+manure management scenarios with different manure treatment tech­
+nologies were developed and modelled in FarmM3 (Table 2). The 
+manure management scenario M1 reflected the original farm practice, 
+where manure was collected and stored without cover, resulting in 
+significant nutrient losses through volatilization and runoff. The manure 
+management scenario M2 introduced a concrete cover to the storage 
+tank, which helped mitigate nutrient losses by reducing exposure to the 
+elements, thereby enhancing overall nutrient retention. The manure 
+management scenario M3 employed a more advanced approach by 
+implementing solid-liquid separation, a technology that has been 
+demonstrated to be both cost-effective and environmentally friendly 
+(Aguirre-Villegas et al., 2019; Holly et al., 2017). In this scenario, the 
+solid fraction was covered during storage, minimizing nutrient loss, 
+while the liquid fraction was stored in a covered tank, further reducing 
+potential nutrient emissions. The manure management scenario M4 
+built on the advancements of M3 by incorporating best practices for land 
+application. The solid manure was applied through incorporation, which 
+significantly reduced nutrient runoff, while the liquid fraction was 
+delivered using a trailing hose, optimizing nutrient uptake by crops and 
+minimizing losses.
+
+2.4. Farm scenarios and objective
+
+To address the challenges of high nutrient losses and low farm 
+nutrient use efficiency, two scenarios were developed. The first scenario
+
+(Scenario A) aimed to optimize the number of livestock units based on 
+the amount of feed produced within the farm. The objective of this 
+scenario was to maximize whole farm N use efficiency (%) and soil 
+organic matter (OM) balance (kg/ha), and to minimize N volatilization 
+(kg/ha) and soil N losses (kg/ha). In Scenario B, the focus was on 
+increasing nutrient circularity, improving feed self-sufficiency for the 
+herd, and expanding food production by integrating more crop area. 
+Since P surplus can also pose significant challenges for dairy operations, 
+we included whole farm P balance as a critical objective. By optimizing 
+both N and P balance, the scenario aimed to achieve a more holistic 
+approach to farm nutrient management. It intended to maximize whole 
+farm N use efficiency (%), self-supply of total feed DM (%), dietary en­
+ergy production (persons fed/ha), and soil OM balance (kg/ha/year), 
+while minimizing N volatilization (kg/ha) and whole farm P balance 
+(kg/ha/year). The calculations for these objectives were as follows:
+
+• Whole farm N use efficiency (%) is calculated by comparing the 
+amount of N output to the amount of N input. Nitrogen can enter the 
+farm through imported crop products, imported fertilizer or manure, 
+symbiotic fixation, non-symbiotic fixation and deposition. The 
+output of N includes exported N from crop product, animal product 
+and exported animal manure.
+• N volatilization (kg/ha) estimates the total cumulative N losses via 
+ammonia emissions, nitrous oxide emissions and nitrogen (N2) 
+emissions through the entire manure management process, including 
+manure excretion, storage, treatment (such as solid-liquid separa­
+tion, composting, anaerobic digestion etc.) and application.
+• Soil N losses (kg/ha) quantifies the total N losses by denitrification, 
+leaching and runoff from soil.
+• Soil OM balance (kg/ha/year) is quantified as the difference between 
+inputs of OM into the soil and losses by degradation, erosion, 
+decomposition of active soil OM and added manure. Inputs of OM 
+include crop roots and residues, mulch, and farm-produced and im­
+ported manures.
+• Whole farm P balance (kg/ha/year) is calculated as the difference 
+between P inputs, which include imported feed, bedding materials, 
+imported fertilizers, and atmospheric deposition, and P outputs, 
+which consist of P in animal and crop products as well as exported 
+manure.
+
+Table 2 
+Description of modelled manure management chains.
+
+Manure management 
+chains (MMCs)
+
+Description
+
+M1
+All of the manure excreted in the barn was collected 
+and stored in a tank without cover. After being stored 
+for two months, the slurry was applied to fields without 
+incorporation.
+M2
+All of the manure excreted in the barn was collected 
+and stored in an underground tank with a concrete 
+cover. After being stored for two months, the slurry was 
+applied to fields without incorporation.
+M3
+All of the manure excreted in the barn was collected 
+and stored in an underground tank before being 
+separated into solid and liquid fractions. The separated 
+solid fraction was stored and covered during storage. 
+The liquid fraction was stored in an underground tank 
+with a concrete cover. After being stored for two 
+months, the liquid and solid fractions were applied to 
+fields without incorporation.
+M4
+All of the manure excreted in the barn were collected 
+and stored in an underground tank before being 
+separated into solid and liquid fractions. The separated 
+solid fraction was stored and covered during storage. 
+The liquid fraction was stored in an underground tank 
+with a concrete cover. After storage, the solid manure 
+was applied to fields by broadcast application with 
+incorporation and the liquid was applied to fields by a 
+trailing hose.
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+4
+
+• Self-supply of total feed DM (%) is a key indicator used to determine 
+the proportion of feed produced on a farm. This calculation involves 
+dividing the amount of feed produced on the farm by the total 
+amount of feed consumed by the animals.
+• Dietary energy production (persons fed/ha) is a crucial metric used 
+to measure the efficiency and sustainability of food production sys­
+tems. It quantifies the number of individuals that can meet their daily 
+dietary needs based on the complete daily dietary reference intake 
+from various sources such as field crops, animal breeding and other 
+production systems.
+
+For each farm scenario, we explored alternative farm configurations 
+to meet the target objectives and investigated the impacts of MMCs with 
+different manure treatment technologies on alternative farm 
+configurations.
+
+2.5. Decision variables and constraints
+
+For each scenario, the decision variables included management 
+variables of the size of the livestock herd, allocation of crop areas, the 
+destination of crop products, and the amounts of external feeds and 
+bedding materials supplied to animals (Table 1). Constraints (see 
+Table 3) were set for the total crop areas that should not be more than 
+9.5 ha in Scenario A and should be less than 45 ha in Scenario B. The 
+extended farm areas in Scenario B were determined based on the 
+availability of surrounding crop areas. The number of livestock units 
+should be less than the baseline farm's 56.2 LU in Scenario A and be kept 
+the same as for the baseline farm in Scenario B. The availability of en­
+ergy, protein and fibrous material (‘structure’) in feed should match 
+animal requirements, whereas intake capacity (corrected for saturation 
+units) should not be exceeded. The soil N losses comprising leaching, 
+runoff and denitrification should not be less than 20 kg N/ha/year, to 
+make sure that enough N is in the system to support crop and grassland 
+production while acknowledging unavoidable losses, and the soil P and 
+K losses should not be less than 0 kg/ha/year to avoid mining. The 
+supplied bedding material should be sufficient given requirements per 
+animal (i.e., the bedding balance) with an allowed deviation of less than 
+5 % for animal welfare (Table 3).
+
+2.6. Model exploration
+
+For model exploration, we ran the Pareto-based multi-objective 
+optimization for 3000 iterations to get 500 alternative farm configura­
+tions for each scenario. The complete mathematical explanation of the 
+algorithm with the corresponding formulae is described by Groot et al. 
+(2012). Here we briefly summarize the optimization process. The DE 
+algorithm generates two populations of solutions which represent the 
+decision variables. The opportunity space created by these populations 
+is diverse; the variety in the decision variables (genotypes) creates di­
+versity in farm performance that is measured by the indicators (phe­
+notypes). The first population of ‘parents’ serves as the result-set that is 
+iteratively improved, while the second population consists of ‘compet­
+itors’ that are generated by uniform cross-over of three selected ‘parent’ 
+solutions in each iteration.
+
+The solutions in both populations are ranked using the principle of 
+Pareto-optimality (Groot et al., 2012) and the Euclidean distance be­
+tween the solutions in the opportunity space is calculated from the 
+normalized indicator values, which serves to quantify a crowding 
+metric. After ranking a selection process is conducted by pairwise 
+comparison: a solution in the ‘parent’ population is replaced by the 
+paired individual from the ‘competitor’ population if the latter has a 
+better Pareto rank or if the ranks are equal it is positioned in a less 
+crowded part of the opportunity space. The rank-based selection results 
+in movement of the ‘parent’ population in the direction of the trade-off 
+frontier (or surface), while the crowd-based selection ensures spread 
+along the frontier (or surface).
+
+The final set of alternative farm configurations produced by the 
+model represents a solution space (Groot and Rossing, 2011). The so­
+lution frontier, defined as the boundary of solution space, illustrates the 
+best possible trade-offs among the objectives, highlighting the optimal 
+configurations that balance competing goals. We repeated each opti­
+mization for 3 times to get stable outcomes. The parameter settings of 
+uniform cross-over in the Differential Evolution algorithm of the opti­
+mization was 0.85 for mutation probability and 0.15 for amplitude of 
+mutations (Groot et al., 2007).
+
+3. Results
+
+3.1. Impacts of manure management on N losses from manure 
+management chains (MMCs)
+
+As shown in Fig. 1, although there were no obvious differences in N 
+losses and N use efficiencies between MMCs M1 and M2, MMC config­
+urations M3 and M4 could reduce N losses by 46 to 58 % and increase
+
+Table 3 
+Overview of constraints on different farm scenarios of the case study farm.
+
+Scenario A
+Scenario B
+
+Description
+Baseline
+Minimum
+Maximum
+Minimum
+Maximum
+
+Deviation in 
+feed balance 
+intake (%)
+
+−6.9
+-∞
+0
+-∞
+0
+
+Deviation in 
+feed balance 
+energy (%)
+
+2.2
+−5
+5
+−5
+5
+
+Deviation in 
+feed balance 
+protein (%)
+
+5.2
+0
+30
+0
+30
+
+Deviation in 
+feed balance 
+structure (%)
+
+159.1
+0
+∞
+0
+∞
+
+Rotation Area 
+(ha)
+9.5
+9
+9.5
+9
+45
+
+Livestock Units 
+(LU)
+56.2
+15
+57
+–
+–
+
+Deviation 
+bedding balance 
+(%)
+
+1.3
+−5
+5
+−5
+5
+
+Soil nitrogen (N) 
+losses (kg/ha)
+197
+20
+197–352 
+a
+20
+197–352 
+a
+
+Phosphorus (P) 
+balance (kg/ha)
+37
+0
+∞
+0
+∞
+
+Potassium (K) 
+balance (kg/ha)
+664
+0
+∞
+0
+∞
+
+a The soil N losses varied with manure management chains.
+
+Fig. 1. Nitrogen losses and N use efficiency under different manure manage­
+ment chains (M1-M4, described in Table 2). The blue bars represent N losses, 
+and the diamond dots indicate N use efficiency of various manure management 
+chains. (For interpretation of the references to colour in this figure legend, the 
+reader is referred to the web version of this article.)
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+5
+
+manure N use efficiencies by more than 30 %, compared to M1. This 
+implied that applying a single emission mitigation measure (i.e., slurry 
+cover) had limited influence on N losses from MMCs and manure N use 
+efficiencies, while combinations of slurry solid-liquid separation, 
+covered solid and liquid fractions storage and improved manure appli­
+cation could remarkably reduce N losses and improve N use efficiencies 
+of manure management.
+
+3.2. Impacts of manure management on N losses from the whole farm
+
+Differences among the MMC configurations M1-M4 combined with 
+the baseline farm configuration would not result in reduction of total N 
+losses from the whole farm or improvement of farm N use efficiency. Due 
+to the high livestock density and heavy reliance on imported feeds in 
+baseline farm configuration, the N excreted by animals exceeded the N 
+requirements of crop production, resulting in a high N surplus. Without 
+changing the number of cows and crop areas, the conserved N from 
+improved manure management would be lost after being applied to soil. 
+Therefore, for this intensive mixed crop-dairy farm, improvements in
+
+manure management did not affect farm N use efficiency which is 
+calculated as the ratio of N output (i.e., crop and animal products) from 
+the farm to total N inputs (i.e., imported feeds, fixation and deposition) 
+to the farm.
+
+3.3. Effects of manure management on farm environmental performance
+
+The results of multi-objective optimization in farm Scenario A 
+revealed distinct synergies (1) between improving whole farm N use 
+efficiency and reducing N volatilization (Fig. 2A), (2) between 
+improving whole farm N use efficiency and decreasing soil N losses 
+(Fig. 2B), (3) between reductions of soil N losses and N volatilization 
+(Fig. 2C). On the other hand, trade-offs were found (4) between im­
+provements of whole farm N use efficiency and soil OM balance 
+(Fig. 2D), (5) between reducing N volatilization and increasing the soil 
+OM balance (Fig. 2E), and (6) between reducing soil N losses and 
+improving the soil OM balance (Fig. 2F). The main factor explaining the 
+synergies and trade-offs between objectives was the number of cows on 
+the farm. With the same farm area, a greater whole farm N use efficiency
+
+Fig. 2. Relationships between the objectives whole farm N use efficiency, N volatilization, soil N loss and soil OM balance in the farm scenario A with different 
+manure management chains (i.e., M1, M2, M3 and M4). The larger symbols mark the performance of the baseline farm configuration.
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+6
+
+could be achieved by reducing the number of cows. Reducing the 
+number of cows reduced N volatilization and soil N losses but also 
+lowered the soil OM balance.
+
+Although the trade-off or synergy relationships among objectives 
+were present under different MMCs, considerable differences in posi­
+tions and slopes of solution frontiers in terms of N volatilization, soil N 
+losses and soil OM balance among MMCs were observed (Fig. 2). These 
+differences could primarily be explained by the impacts of manure 
+management technologies on N volatilization, soil N losses and soil OM 
+balance. As shown in Fig. 2, the apparent distance between the solution 
+frontiers of MMCs M1, M2 and M3, M4 in terms of N volatilization and 
+whole farm N use efficiency (Fig. 2A) showed lower N volatilization in 
+MMCs M3 and M4 due to multiple N mitigation measures (i.e., solid- 
+liquid separation, cover and improved application methods). Similar 
+results were also found in solution frontiers of N volatilization and soil N 
+losses (Fig. 2C) and N volatilization and soil OM balance (Fig. 2E). But 
+higher soil N losses and soil OM balance were observed in MMCs M3 and 
+M4 than in MMCs M1 and M2 with the same whole farm N use efficiency 
+(Fig. 2B and D). Higher soil N losses in MMCs M3 and M4 demonstrated 
+the compensatory N losses from manure management and soil, with less 
+N volatilization from MMCs M3 and M4 (Fig. 2A) leading to higher N
+
+losses from soil (Fig. 2B). Higher soil OM balance in MMCs M3 and M4 
+could be as a result of the larger contribution of solid manure to soil OM 
+than the contribution of slurry manure in MMCs M1 and M2.
+
+The steeper slope of the synergy frontier between N volatilization 
+and whole farm N use efficiency in MMCs M1 and M2 than in MMCs M3 
+and M4 indicated a stronger reduction in N volatilization in MMCs M1 
+and M2 needed to reach the same increase in whole farm N use effi­
+ciency (Fig. 2A). On the contrary, the steeper slope of the synergy 
+frontiers between N volatilization and soil N losses in MMCs M3 and M4 
+showed that with the same decrease in N volatilization, more reduction 
+in soil N losses could be obtained in MMCs M3 and M4 than M1 and M2 
+(Fig. 2C). Similar slopes but larger ranges of the frontiers were observed 
+between whole farm N use efficiency and soil N losses, between whole 
+farm N use efficiency and soil OM balance, and between soil N losses and 
+soil OM balance in MMCs M3 and M4 than M1 and M2 (Fig. 2B and C). 
+Compared to the baseline farm N use efficiency, a larger improvement in 
+whole farm N use efficiency could be achieved in MMCs M3 and M4 than 
+in MMCs M1 and M2.
+
+Fig. 3. Relationships between the objectives whole farm N use efficiency, self-supply of feed DM, dietary energy supply, N volatilization, whole farm P balance and 
+soil OM balance in the farm scenario B with two different manure management chains. The larger symbols mark the performance of the baseline farm configuration.
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+7
+
+3.4. Effects of manure management on optimization results for more 
+integrated crop-dairy production
+
+Since there was no clear difference in optimization results of objec­
+tives between MMCs M1 and M2, and between MMCs M3 and M4, we 
+only performed farm explorations for the two most contrasting MMCs 
+(M1 and M4) in farm Scenario B. Compared to exploration results of 
+farm Scenario A, similar but more curvilinear trade-offs and synergies 
+among objectives of whole farm N use efficiency, N volatilization and 
+soil OM balance were observed in farm Scenario B due to more 
+complicated interactions with added objectives of feed self-sufficiency, 
+dietary energy supply and whole farm P balance. Exploration results 
+of integration of crop and dairy production with multi-objective opti­
+mization indicated that changing farm configurations could also sub­
+stantially improve whole farm N use efficiency, reduce N volatilization 
+and improve soil OM balance (Fig. 3). With MMC M1, a maximum whole 
+farm N use efficiency of 65 % could be reached, while MMC M4 could 
+obtain values up to 85 %.
+
+An obvious synergy relationship between reducing N volatilization 
+and reducing P balance was observed (Fig. 3J). The steeper slope of the 
+synergy frontier between N volatilization and whole farm P balance in 
+MMC M4 compared to MMC M1 indicated that MMC M4 can achieve a 
+greater reduction in P balance with the same decrease in N volatilization 
+(Fig. 3J). Improved manure management MMC M4 also contributed to 
+larger solution spaces for relationships between improving whole farm N 
+use efficiency and reducing whole farm P balance (Fig. 3G), between 
+increasing self-supply of feed DM and reducing whole farm P balance 
+(Fig. 3H), and between improving dietary energy supply and reducing 
+whole farm P balance (Fig. 3I). Improved manure management moves 
+the synergy frontiers between reducing whole farm P balance and 
+improving self-supply of feed DM (Fig. 3H), and between reducing 
+whole farm P balance and improving soil OM balance in a more desir­
+able direction (Fig. 3O).
+
+The improved MMC M4 also moved the trade-off frontiers between 
+whole farm N use efficiency and self-supply rate of feed DM (Fig. 3A) 
+and between whole farm N use efficiency and dietary energy supply
+
+Fig. 4. Modelled allocation of crop areas and quantities of imported feeds in each alternative farm configuration generated to meet the objectives of maximizing self- 
+supply rate of feed DM and dietary energy yield in farm Scenario B. The x-axis values were ordered from minimum to maximum for each objective.
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+8
+
+(Fig. 3B) towards more desirable directions. But a clear trade-off be­
+tween increasing self-supply rate of feed DM and improving dietary 
+energy supply was observed (Fig. 3C), indicating food-feed competition 
+at the case study farm. Fig. 4 shows how the shift in cropping patterns 
+and changes in the amount of external feed inputs define the relation­
+ship between feed self-supply and dietary energy production. In farm 
+Scenario B, to approach the objective of increasing feed self-sufficiency, 
+the model shifted the feed production from external importation to on- 
+farm production, subsequently causing the increase of areas to feed 
+crops, such as alfalfa (Fig. 4A and B). Conversely, in the alternative 
+configurations with greater dietary energy supply, the model allocated 
+larger areas to food crops (i.e., Chinese cabbage and maize) and smaller 
+areas to alfalfa. The reduced on-farm alfalfa silage production was 
+compensated by an increased external alfalfa silage input (Fig. 4C and 
+D).
+
+4. Discussion
+
+In this study we compared N losses under various manure manage­
+ment chains with different manure management technologies, and 
+explored the effects of improved manure management chains on farm 
+environmental performance optimization. The results demonstrated that 
+an individual emission mitigation measure was insufficient to reduce N 
+losses at manure management chain level. However, implementing a 
+combination of solid-liquid separation, covered solid or liquid manure 
+storage and improved manure application (M4) resulted in substantial 
+reductions in N losses from the whole manure management chains.
+
+The importance of an integrated approach with combined manure 
+management technologies along the manure management chain has 
+been pointed out (De Vries et al., 2015a, 2015b), given the compensa­
+tory losses among manure management facilities. Previous study re­
+ported that the reduced N loss by covered solid manure storage resulted 
+in larger N loss after manure field application, and highlighted that 
+combined manure management practices were more effective to reduce 
+total N losses (Shah et al., 2013). In a study by Rotz et al. (2006) for a 
+farm with 100 cows on 100 ha cropland and a farm with 1000 cows on 
+600 ha cropland, implementing nutrient conservation technologies, 
+including a barn floor for feces and urine separation, covered six-month 
+manure storage, and manure injection, reduced ammonia emission by 
+54 % to 77 % and reduced total farm N losses by 24 % to 29 %.
+
+Although multiple mitigation measures showed potential for 
+reducing N loss from manure management, we found no decrease in 
+total N loss from the farm. This could be explained by the high livestock 
+density and large quantity of imported feed N on the case study farm. 
+The imported feed N led to excessive amounts of N cycled through the 
+farm system. Although improved manure management practices 
+conserved more N in manure, the limited croplands could not assimilate 
+the conserved N, leading to larger losses from soil. This implied that for 
+intensive dairy farms with limited land availability, it probably is not 
+enough to reduce N losses only by improving manure management chain 
+with multiple mitigation practices, and exporting manure outside the 
+farm or integrating more croplands to the farm is likely needed.
+
+We also found no substantial decrease in whole farm P balance from 
+improved manure management practices. This was primarily because 
+manure P was mainly lost by runoff and leaching after application. As 
+noted by Spears et al. (2003), around 96 % of manure P can be conserved 
+during manure storage and accumulated in the soil after manure 
+application. Additionally, feed imports significantly contribute to the 
+whole farm P balance (Ros et al., 2023). By enhancing feed self-reliance 
+through the integration of more crop areas for on-farm feed production, 
+we could see substantial reductions in whole farm P balance. This is in 
+consistent with the finding from Harrison et al. (2021), which indicate 
+that farming systems with a higher inclusion rate of home-grown feed in 
+their herds' diet exhibited greater P use efficiency and lower P surplus.
+
+The results of the multi-objective optimization on environmental 
+performance in the case study farm demonstrated that improved manure
+
+management with multiple mitigation measures could move trade-off 
+and synergy relationships among N volatilization, soil N losses, soil 
+OM balance and whole farm N use efficiency in desirable directions. 
+Integrated crop-dairy systems offered further possibilities for mini­
+mizing environmental impacts. Larger reductions in N volatilization and 
+greater whole farm N use efficiencies were achieved through integrating 
+crop and dairy production.
+
+Integrated crop–livestock systems have been identified as a viable 
+strategy to increase nutrient circularity and limit the negative environ­
+mental impacts (Lemaire et al., 2014; Moraine et al., 2014; Peyraud 
+et al., 2014).For intensive dairy farming systems with heavy reliance on 
+off-farm feeds and with substantial manure nutrient surpluses, closing 
+the loop in nutrient and energy cycles by recoupling crop systems at 
+farm and regional scales can help reduce the environmental externalities 
+of intensive farms and increase their resilience (Garrett et al., 2020; 
+Chen et al., 2023). This study showed that combined with improved 
+manure management, crop-dairy integration reduced N volatilization, 
+soil N losses, whole farm P balance and achieved high farm nutrient use 
+efficiency.
+
+Although the obvious trade-off between feed self-sufficiency and 
+dietary energy supply at the case study farm was identified, it is 
+important to note that this is not the case for other integrated crop- 
+livestock systems. With a high stocking density, this case study farm 
+allocated the majority of crop area to produce feeds, creating a trade-off 
+between food and feed production. Integrating crop areas to produce 
+feed created a shift on the trade-off, but did not change the trade-off 
+relationship. The issue of crop-dairy integration has raised the ques­
+tion about resource allocation for food and feed production, especially 
+for intensive dairy farms with high stocking densities (Muscat et al., 
+2020; Puech and Stark, 2023). The food-feed competition in our study 
+was mainly generated from the use of cropland, with more cropland 
+used to produce livestock feeds (e.g., alfalfa and whole maize silage) 
+leading to a smaller area for food production. Potential ways to alleviate 
+the food-feed competition on integrated crop-dairy farm might include 
+increasing nutrient use efficiency in cropping systems through opti­
+mizing crop rotations and increasing crop yields per area (Barbieri et al., 
+2021). Increasing animal feed use efficiency at the animal and herd level 
+is also an important lever to save feed resources (Barbieri et al., 2022). 
+Additionally, collaboration between local crop and dairy farms for direct 
+exchange of manure and crop by-products could further close nutrient 
+loops at larger scales, promoting resource utilization efficiency and 
+contributing to a circular food system (Martin et al., 2016; De Boer and 
+Van Ittersum, 2018; Ghimire et al., 2021).
+
+Some limitations of this study were identified based on current re­
+sults. First, we explored alternative farm configurations with a focus on 
+optimizing environmental and nutritional indicators and without 
+considering economic indicators. Although some studies have proven 
+that crop-livestock integration could limit the negative environmental 
+impacts without compromising farm economics (Martin et al., 2016), in 
+practice, the cost for manure management varies with types of treatment 
+technologies (Hansen, 2019; Sefeedpari et al., 2019). A more compre­
+hensive evaluation that considers environmental, economic and nutri­
+tional indicators would contribute to a better understanding of the role 
+of manure management in farm management, and would help farmers to 
+adopt cost-effective manure management technologies. Second, our 
+study might underestimate the contribution of manure management on 
+farm nutrient management as the model calculated nutrient flows based 
+on mass balance without considering the nutrient availability of 
+different manure types as fertilizer which highly depends on methods of 
+manure handling, storage and treatment (Rufino et al., 2007; Risbery 
+et al., 2017). In addition, the impacts of manure management technol­
+ogies on manure quality are crucial for maintaining soil biodiversity, 
+and are worthwhile to investigate (K¨oninger et al., 2021).
+
+The combined FarmDESIGN and FarmM3 models offer a useful tool 
+to explore how improved manure management influence nutrient flows 
+and use efficiency at the whole farm. The generated alternative solutions
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+9
+
+based on Pareto-based multi-objective optimization algorithm can sup­
+port farmers to have their autonomous choice from a broad portfolio of 
+alternatives and can serve as entry points for future participatory pro­
+cess with multiple stakeholders (Groot and Rossing, 2011). As integra­
+tion of crop and dairy production within farms requires greater 
+workload and increased skills and knowledge in animal, manure, soil 
+and crop management, future research on integrating crop and dairy 
+production beyond the farm scale by exchanging manure and feedstuff 
+between dairy and crop farms are necessary, especially for intensive and 
+specialized farms. Nutrient “sharing” between crop and dairy farms 
+within a region can provide complementary interactions and benefits, 
+reducing externalities of specialized farms and contributing to close 
+nutrient cycles at a larger scale.
+
+5. Conclusions
+
+Manure management plays an important role in farm nutrient 
+management of intensive mixed crop-dairy farms. Due to substantial 
+nutrient losses from a large amount of produced manure, as well as 
+complicated interactions of manure management and soil and crops, the 
+effects of improved manure management on farm nutrient management 
+should also be considered when seeking to optimize farm configurations. 
+Our study integrated an external manure management model (FarmM3) 
+to a whole farm model (FarmDESIGN), which enables (i) to evaluate the 
+effects of diverse improved manure management technologies on 
+nutrient losses from manure management and from the whole farm 
+system; (ii) to identify potential influence of improved manure man­
+agement on multi-objective optimization of farm configurations.
+
+To reduce nutrient losses from the whole manure management chain, 
+a single manure management technology was insufficient, highlighting 
+the importance of integrated approaches to reduce N losses from manure 
+management. At a high livestock density, total N losses from the whole 
+farm were not influenced by improved manure management, since 
+conserved N from manure management could be lost after being applied 
+to cropland. A greater reduction of N losses from both manure man­
+agement and soil could be achieved by reducing livestock density, 
+resulting in an improved whole N use efficiency. Additionally, improved 
+manure management did not lead to a decrease in whole farm P balance, 
+primarily because manure P was mainly lost through runoff and leach­
+ing after application. However, integrating crop and dairy production to 
+increase on-farm feed production could significantly reduce whole farm 
+P balance.
+
+Although trade-offs and synergies existed among objectives, 
+improved manure management did not change relationships among 
+objectives but did affect the positions and the slopes of the solution 
+frontiers between objectives of N volatilization, soil N losses and soil OM 
+balance. To move towards sustainable intensification of dairy produc­
+tion, increasing nutrient circularity by improving manure management 
+with multiple mitigation measures and integrating crop and dairy pro­
+duction within farm or between farms are necessary. Given the trade-off 
+of food-feed competition when integrating crop production within dairy 
+farms with high stocking densities and heavy reliance on external feeds, 
+food production should also be considered when optimizing farm con­
+figurations towards more sustainable agricultural production.
+
+CRediT authorship contribution statement
+
+Qingbo Qu: Writing – review & editing, Writing – original draft, 
+Visualization, Methodology, Investigation, Formal analysis, Data cura­
+tion, Conceptualization. Jeroen C.J. Groot: Writing – review & editing, 
+Supervision, Software, Methodology, Funding acquisition, Conceptual­
+ization. Keqiang Zhang: Writing – review & editing, Supervision, Re­
+sources, Funding acquisition, Conceptualization.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+
+Data availability
+
+Data will be made available on request.
+
+Acknowledgements
+
+This work was supported by Research on Key Technologies for 
+Reducing Emissions and Enhancing Resource Utilization of Manure in 
+Large-scale Dairy Farms (grant number 202402AE090032), Science & 
+Technology Innovation Program of Chinese Academy of Agricultural 
+Science, the Cooperative Sino-Dutch PhD Programme between Chinese 
+Academy of Agricultural Science and Wageningen University & 
+Research (grant number MOE11NL1A20151701N), and the China 
+Scholarship Council (grant number 202003250092).
+
+References
+
+Aguirre-Villegas, H.A., Larson, R.A., Sharara, M.A., 2019. Anaerobic digestion, solid- 
+liquid separation, and drying of dairy manure: measuring constituents and modeling 
+emission. Sci. Total Environ. 696, 134059. https://doi.org/10.1016/j. 
+scitotenv.2019.134059.
+Bai, Z.H., Ma, L., Oenema, O., Chen, Q., Zhang, F.S., 2013. Nitrogen and phosphorus use 
+efficiencies in dairy production in China. J. Environ. Qual. 42, 990–1001. https:// 
+doi.org/10.2134/jeq2012.0464.
+Barbieri, P., Pellerin, S., Seufert, V., Smith, L., Ramankutty, N., Nesme, T., 2021. Global 
+option space for organic agriculture is delimited by nitrogen availability. Nat. Food 
+2, 363–372. https://doi.org/10.1038/s43016-021-00276-y.
+Barbieri, P., Dumont, B., Benoit, M., Nesme, T., 2022. Opinion paper: livestock is at the 
+heart of interacting levers to reduce feed-food competition in agroecological food 
+systems. Animal 16, 100436. https://doi.org/10.1016/j.animal.2021.100436.
+Berg, W., Brunsch, R., Pazsiczki, I., 2006. Greenhouse gas emissions from covered slurry 
+compared with uncovered during storage. Agric. Ecosyst. Environ. 112, 129–134. 
+https://doi.org/10.1016/j.agee.2005.08.031.
+Chadwick, D.R., Williams, J.R., Lu, Y.L., Ma, L., Bai, Z.H., Hou, Y., Chen, X.P., 
+Misselbrook, T.H., 2020. Strategies to reduce nutrient pollution from manure 
+management in China. Front. Agric. Sci. Eng. 7, 45–55. https://doi.org/10.15302/j- 
+fase-2019293.
+Chen, X., Lin, J., Tan, K., Pei, Y., Wang, X., 2023. Cooperation between specialized 
+cropping and livestock farms at local level reduces carbon footprint of agricultural 
+system: a case study of recoupling maize-cow system in South China. Agric. Ecosyst. 
+Environ. 348, 108406. https://doi.org/10.1016/j.agee.2023.108406.
+Clay, N., Garnett, T., Lorimer, J., 2020. Dairy intensification: drivers, impacts and 
+alternatives. Ambio 49, 35–48. https://doi.org/10.1007/s13280-019-01177-y.
+De Boer, I.J.M., Van Ittersum, M.K., 2018. Circularity in Agricultural Production. 
+Wageningen University. https://library.wur.nl/WebQuery/wurpubs/fullte 
+xt/470625 (accessed 23 July 2021). 
+De Vries, J.W., Groenestein, C.M., Schr¨oder, J.J., Hoogmoed, W.B., Sukkel, W., Groot 
+Koerkamp, P.W.G., De Boer, I.J.M., 2015a. Integrated manure management to 
+reduce environmental impact: II. Environmental impact assessment of strategies. 
+Agr. Syst. 138, 88–99. https://doi.org/10.1016/j.agsy.2015.05.006.
+De Vries, J.W., Hoogmoed, W.B., Groenestein, C.M., Schr¨oder, J.J., Sukkel, W., De 
+Boer, I.J.M., Groot Koerkamp, P.W.G., 2015b. Integrated manure management to 
+reduce environmental impact: I. Structured design of strategies. Agric. Syst. 139, 
+29–37. https://doi.org/10.1016/j.agsy.2015.05.010.
+FAO, 2018. The State of the world’s Animal Genetic Resources for Food and Agriculture - 
+Livestock Diversity Is Essential, 2nd ed. Food and Agriculture Organization of the 
+United Nations.
+Foged, H.L., Flotats, X., Blasi, A.B., Palatsi, J., Magri, A., Schelde, K.M., 2011. Inventory 
+of manure processing activities in Europe. Technical Report No. I concerning 
+“Manure Processing Activities in Europe” to the European Commission, Directorate- 
+General Environment, 138.
+Garrett, R.D., Ryschawy, J., Bell, L.W., Cortner, O., Ferreira, J., Garik, A.V.N., Gil, J.D.B., 
+Klerkx, L., Moraine, M., Peterson, C.A., dos Reis, J.C., Valentim, J.F., 2020. Drivers 
+of decoupling and recoupling of crop and livestock systems at farm and territorial 
+scales. Ecol. Soc. 25 (1), 24. https://doi.org/10.5751/ES-11412-250124.
+Ghimire, S., Wang, J., Fleck, J.R., 2021. Integrated crop-livestock systems for nitrogen 
+management: a multi-scale spatial analysis. Animals 11 (1), 100. https://doi.org/ 
+10.3390/ani11010100.
+Groot, J.C.J., Rossing, W.A.H., 2011. Model-aided learning for adaptive management of 
+natural resources: an evolutionary design perspective. Methods Ecol. Evol. 2, 
+643–650. https://doi.org/10.1111/j.2041-210X.2011.00114.x.
+Groot, J.C.J., Rossing, W.A.H., Jellema, A., Stobbelaar, D.J., Renting, H., Van 
+Ittersum, M.K., 2007. Exploring multi-scale trade-offs between nature conservation,
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+10
+
+agricultural profits and landscape quality—a methodology to support discussions on 
+land-use perspectives. Agric. Ecosyst. Environ. 120, 58–69. https://doi.org/ 
+10.1016/j.agee.2006.03.037.
+Groot, J.C.J., Oomen, G.J.M., Rossing, W.A.H., 2012. Multi-objective optimization and 
+design of farming systems. Agr. Syst. 110, 63–77. https://doi.org/10.1016/j. 
+agsy.2012.03.012.
+Hansen, B.G., 2019. CO2–emission, costs and capacity of different manure management 
+practices-results from an advisory project. Agr. Syst. 173, 325–334. https://doi.org/ 
+10.1016/j.agsy.2019.03.011.
+Harrison, B.P., Dorigo, M., Reynolds, C.K., Sinclair, L.A., Dijkstra, J., Ray, P.P., 2021. 
+Determinants of phosphorus balance and use efficiency in diverse dairy farming 
+systems. Agr. Syst. 194, 103273. https://doi.org/10.1016/j.agsy.2021.103273.
+Holly, M.A., Larson, R.A., Powell, J.M., Ruark, M.D., Aguirre-Villegas, H., 2017. 
+Greenhouse gas and ammonia emissions from digested and separated dairy manure 
+during storage and after land application. Agric. Ecosyst. Environ. 239, 410–419. 
+https://doi.org/10.1016/j.agee.2017.02.007.
+Hou, Y., Velthof, G.L., Oenema, O., 2015. Mitigation of ammonia, nitrous oxide and 
+methane emissions from manure management chains: a meta-analysis and integrated 
+assessment. Glob. Change Biol. 21 (3), 1293–1312. https://doi.org/10.1111/ 
+gcb.12767.
+K¨oninger, J., Lugato, E., Panagos, P., Kochupillai, M., Orgiazzi, A., Briones, M.J.I., 2021. 
+Manure management and soil biodiversity: towards more sustainable food systems in 
+the EU. Agr. Syst. 194, 103251. https://doi.org/10.1016/j.agsy.2021.103251.
+Lemaire, G., Franzluebbers, A., Carvalho, P.C.D.F., Dedieu, B., 2014. Integrated 
+crop–livestock systems: strategies to achieve synergy between agricultural 
+production and environmental quality. Agric. Ecosyst. Environ. 190, 4–8. https:// 
+doi.org/10.1016/j.agee.2013.08.009.
+Martin, G., Moraine, M., Ryschawy, J., Magne, M.-A., Asai, M., Sarthou, J.-P., Duru, M., 
+Therond, O., 2016. Crop–livestock integration beyond the farm level: a review. 
+Agron. Sustain. Dev. 36, 53. https://doi.org/10.1007/s13593-016-0390-x.
+Marton, S.M.R.R., Zimmermann, A., Kreuzer, M., Gaillard, G., 2016. Comparing the 
+environmental performance of mixed and specialised dairy farms: the role of the 
+system level analysed. J. Clean. Prod. 124, 73–83. https://doi.org/10.1016/j. 
+jclepro.2016.02.074.
+Moraine, M., Duru, M., Nicholas, P., Leterme, P., Therond, O., 2014. Farming system 
+design for innovative crop-livestock integration in Europe. Animal 8, 1204–1217. 
+https://doi.org/10.1017/S1751731114001189.
+Muscat, A., de Olde, E.M., de Boer, I.J.M., Ripoll-Bosch, R., 2020. The battle for biomass: 
+a systematic review of food-feed-fuel competition. Glob. Food Sec. 25, 100330. 
+https://doi.org/10.1016/j.gfs.2019.100330.
+Oenema, O., Tamminga, S., 2005. Nitrogen in global animal production and 
+management options for improving nitrogen use efficiency. Sci. China. Ser. C. 48, 
+871–887. https://doi.org/10.1360/062005-279.
+Oenema, O., Oudendag, D., Velthof, G.L., 2007. Nutrient losses from manure 
+management in the European Union. Livest. Sci. 112, 261–272. https://doi.org/ 
+10.1016/j.livsci.2007.09.007.
+
+Peyraud, J.-L., Taboada, M., Delaby, L., 2014. Integrated crop and livestock systems in 
+Western Europe and South America: a review. Eur. J. Agron. 57, 31–42. https://doi. 
+org/10.1016/j.eja.2014.02.005.
+Puech, T., Stark, F., 2023. Diversification of an integrated crop-livestock system: 
+Agroecological and food production assessment at farm scale. Agric. Ecosyst. 
+Environ. 344, 108300. https://doi.org/10.1016/j.agee.2022.108300.
+Qu, Q., Zhang, K., Groot, J.C., 2023. A model to identify entry points to curb emissions 
+from complex manure management chains. J. Clean. Prod. 137787. https://doi.org/ 
+10.1016/j.jclepro.2023.137787.
+Ros, M.B.H., Godber, O.F., Olivo, A.J., Reed, K.F., Ketterings, Q.M., 2023. Key nitrogen 
+and phosphorus performance indicators derived from farm-gate mass balances on 
+dairies. J. Dairy Sci. 106 (5), 3268–3286. https://doi.org/10.3168/jds.2022-22297.
+Rotz, C.A., Oenema, J., van Keulen, H., 2006. Whole farm management to reduce 
+nutrient losses from dairy farms: a simulation study. Appl. Eng. Agric. 22, 773–784.
+Rufino, M.C., Tittonell, P., van Wijk, M.T., Castellanos-Navarrete, A., Delve, R.J., de 
+Ridder, N., Giller, K.E., 2007. Manure as a key resource within smallholder farming 
+systems: Analysing farm-scale nutrient cycling efficiencies with the NUANCES 
+framework. Livest. Sci. 112, 273–287. https://doi.org/10.1016/j.livsci.2007.09.011.
+Ryschawy, J., Choisis, N., Choisis, J.P., Joannon, A., Gibon, A., 2012. Mixed crop- 
+livestock systems: an economic and environmental-friendly way of farming? Animal 
+6, 1722–1730. https://doi.org/10.1017/S1751731112000675.
+Sajeev, E.P.M., Winiwarter, W., Amon, B., 2018. Greenhouse gas and ammonia emissions 
+from different stages of liquid manure management chains: abatement options and 
+emission interactions. J. Environ. Qual. 47, 30–41. https://doi.org/10.2134/ 
+jeq2017.05.0199.
+Schut, A.G.T., Cooledge, E.C., Moraine, M., Van de Ven, G.W.J., Jones, D.L., 
+Chadwick, D.R., 2021. Reintegration of crop-livestock systems in Europe: an 
+overview. Front. Agric. Sci. Eng. 8, 111–129. https://doi.org/10.15302/JFASE- 
+2020373.
+Sefeedpari, P., Vellinga, T., Rafiee, S., Sharifi, M., Shine, P., Pishgar-Komleh, S.H., 2019. 
+Technical, environmental and cost-benefit assessment of manure management chain: 
+a case study of large scale dairy farming. J. Clean. Prod. 233, 857–868. https://doi. 
+org/10.1016/j.jclepro.2019.06.146.
+Shah, G.A., Groot, J.C., Shah, G.M., Lantinga, E.A., 2013. Simulation of long-term carbon 
+and nitrogen dynamics in grassland-based dairy farming systems to evaluate 
+mitigation strategies for nutrient losses. PloS One 8, e67279. https://doi.org/ 
+10.1371/journal.pone.0067279.
+Sommer, S.G., Hutchings, N.J., 2001. Ammonia emission from field applied manure and 
+its reduction - invited paper. Eur. J. Agron. 15, 1–15. https://doi.org/10.1016/ 
+S1161-0301(01)00112-5.
+Sommer, S.G., Christensen, M.L., Schmidt, T., Jensen, L.S., 2013. Animal Manure 
+Recycling Treatment and Management. John Wiley & Sons.
+Spears, R.A., Young, A.J., Kohn, R.A., 2003. Whole-farm phosphorus balance on western 
+dairy farms. J. Dairy Sci. 86 (2), 688–695.
+Zou, T., Meng, F., Zhou, J., Ying, H., Liu, X., Hou, Y., Zhao, Z., Zhang, F., Xu, W., 2023. 
+Quantifying nitrogen and phosphorus losses from crop and livestock production and 
+mitigation potentials in Erhai Lake Basin, China. Agric. Syst. 211, 103745. https:// 
+doi.org/10.1016/j.agsy.2023.103745.
+
+Q. Qu et al.                                                                                                                                                                                                                                      
+Agricultural Systems 222 (2025) 104170
+
+11

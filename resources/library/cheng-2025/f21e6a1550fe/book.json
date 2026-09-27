@@ -1,0 +1,2342 @@
+{
+  "schema": "paper.original.v2",
+  "id": "cheng-2025",
+  "lessonId": "cheng-2025",
+  "title": "Stakeholder perspectives on ecosystem services in agricultural landscapes: A case study in the North China Plain",
+  "citation": "Cheng, J., et al. (2025). Agricultural Systems, 223, 104187. Online 29 November 2024.",
+  "origin": "https://doi.org/10.1016/j.agsy.2024.104187",
+  "sourceHash": "f21e6a1550fef48f92aee382657a1ac00931c1df1e87e46bfdf40457e56a7162",
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "evidence": "This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by- nc-nd/4.0/ ). ",
+    "page": 1
+  },
+  "originalPath": "library/cheng-2025/f21e6a1550fe/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/cheng-2025/f21e6a1550fe/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-67eca0c",
+          "kind": "heading",
+          "text": "Stakeholder perspectives on ecosystem services in agricultural landscapes:\nA case study in the North China Plain",
+          "bbox": [
+            37.587398529052734,
+            160.96640014648438,
+            483.5284729003906,
+            200.19052124023438
+          ]
+        },
+        {
+          "id": "p1-b1-f6a9fd3",
+          "kind": "heading",
+          "text": "Jiali Cheng a,b,c,*, Andries Richter d, Wen-Feng Cong b,*, Zhan Xu b,c, Zhengyuan Liang a,b,c,\nChaochun Zhang b, Fusuo Zhang b, Wopke van der Werf c, Jeroen C.J. Groot a",
+          "bbox": [
+            37.587398529052734,
+            206.1637725830078,
+            464.8908996582031,
+            236.85000610351562
+          ]
+        },
+        {
+          "id": "p1-b2-5a9b883",
+          "kind": "paragraph",
+          "text": "a Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands\nb State Key Laboratory of Nutrient Use and Management, Key Laboratory of Plant-Soil Interactions, Ministry of Education, College of Resources and Environmental\nSciences, National Academy of Agriculture Green Development, China Agricultural University, Beijing 100193, China\nc Centre for Crop Systems Analysis, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands\nd Environmental Economics and Natural Resources Group, Sub-department of Economics, Wageningen University, P.O. Box 430, 6700 AK Wageningen, the Netherlands",
+          "bbox": [
+            37.587398529052734,
+            238.19540405273438,
+            483.9306335449219,
+            285.7539978027344
+          ]
+        },
+        {
+          "id": "p1-b3-1bf1204",
+          "kind": "paragraph",
+          "text": "H I G H L I G H T S\nG R A P H I C A L A B S T R A C T",
+          "bbox": [
+            37.587398529052734,
+            307.15545654296875,
+            327.98907470703125,
+            318.5574645996094
+          ]
+        },
+        {
+          "id": "p1-b4-5fdfa9e",
+          "kind": "paragraph",
+          "text": "• Landscape\nredesign\nmay\nimprove\necosystem\nservices\n(ESs)\nbut\nimple-\nmentation requires stakeholder support.\n• Q methodology was used to characterize\nstakeholder perspectives on ESs in Quz-\nhou county, China.\n• Stakeholders\nprioritized\nprovisioning\nservices but also valued environmental\nquality and cultural values.\n• Diverse\nstakeholders’\nperspectives\nhighlight the potential trade-offs and\ndecision-making challenges for policy.",
+          "bbox": [
+            37.587398529052734,
+            326.5330810546875,
+            170.8617401123047,
+            444.95574951171875
+          ]
+        },
+        {
+          "id": "p1-b6-26585e7",
+          "kind": "paragraph",
+          "text": "A R T I C L E I N F O",
+          "bbox": [
+            37.587398529052734,
+            498.43743896484375,
+            115.68936157226562,
+            509.8394470214844
+          ]
+        },
+        {
+          "id": "p1-b7-f33c23a",
+          "kind": "paragraph",
+          "text": "Editor: Jagadish Timsina",
+          "bbox": [
+            37.587398529052734,
+            517.6914672851562,
+            108.16287231445312,
+            528.1160278320312
+          ]
+        },
+        {
+          "id": "p1-b8-e099fc2",
+          "kind": "paragraph",
+          "text": "Keywords:\nLandscape approach\nPerceptions\nParticipatory research\nEcosystem services demand\nSocio-cultural value\nQ methodology",
+          "bbox": [
+            37.587398529052734,
+            536.1726684570312,
+            115.85539245605469,
+            598.017578125
+          ]
+        },
+        {
+          "id": "p1-b9-c0671f4",
+          "kind": "paragraph",
+          "text": "A B S T R A C T",
+          "bbox": [
+            201.9969940185547,
+            498.43743896484375,
+            258.714111328125,
+            509.8394470214844
+          ]
+        },
+        {
+          "id": "p1-b10-23ac590",
+          "kind": "paragraph",
+          "text": "CONTEXT: Intensive agriculture is under pressure from changing demands from society, prompting the need to\nredesign agricultural landscapes to provide multiple ecosystem services (ESs). However, implementation of\nchanged practices requires positive engagement from stakeholders. Therefore, their perspective on ecosystem\nservices needs to be known.\nOBJECTIVE: This study investigates stakeholders’ perspectives on multiple ESs in Quzhou County, an area in the\nNorth China Plain used for intensified cereal production. We aim to elucidate perspectives within and across\ndiverse stakeholder groups (farmers, companies, citizens, academics, village and township heads, and county\ngovernment staff).\nMETHODS: Employing the Q methodology, we identified differences in perspectives within stakeholder groups\nand we compared the similarities and differences of those perspectives across stakeholder groups. We also\ninvestigated how farmers’ personal and household characteristics were related to the perspectives they held.\nRESULTS AND CONCLUSIONS: Significant differences in preference emerged among stakeholder groups. Aca-\ndemics assigned higher importance to regulating and supporting services than other stakeholder groups and\ncompanies assigned less importance to cultural services. We identified 18 distinct perspectives across seven",
+          "bbox": [
+            201.9969940185547,
+            517.7020874023438,
+            557.6859741210938,
+            653.7559814453125
+          ]
+        },
+        {
+          "id": "p1-b11-084d459",
+          "kind": "paragraph",
+          "text": "* Corresponding authors at: Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700 AK, Wageningen, the Netherlands.\nE-mail addresses: jiali.cheng@wur.nl (J. Cheng), wenfeng.cong@cau.edu.cn (W.-F. Cong).",
+          "bbox": [
+            42.632999420166016,
+            669.0720825195312,
+            520.2766723632812,
+            690.3809204101562
+          ]
+        },
+        {
+          "id": "p1-b13-b0658ce",
+          "kind": "paragraph",
+          "text": "Contents lists available at ScienceDirect",
+          "bbox": [
+            228.41600036621094,
+            59.29375076293945,
+            369.06756591796875,
+            72.32485961914062
+          ]
+        },
+        {
+          "id": "p1-b14-fb1fca0",
+          "kind": "heading",
+          "text": "Agricultural Systems",
+          "bbox": [
+            234.65199279785156,
+            80.03680419921875,
+            362.8741760253906,
+            102.84097290039062
+          ]
+        },
+        {
+          "id": "p1-b15-a2a80ca",
+          "kind": "paragraph",
+          "text": "journal homepage: www.elsevier.com/locate/agsy",
+          "bbox": [
+            204.3780059814453,
+            118.17890930175781,
+            393.1817321777344,
+            126.14900970458984
+          ]
+        },
+        {
+          "id": "p1-b17-c5ad9be",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1016/j.agsy.2024.104187\nReceived 13 May 2024; Received in revised form 9 November 2024; Accepted 9 November 2024",
+          "bbox": [
+            37.587398529052734,
+            695.66064453125,
+            349.2779235839844,
+            716.9127807617188
+          ]
+        },
+        {
+          "id": "p1-b18-a817d2e",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 223 (2025) 104187",
+          "bbox": [
+            232.35000610351562,
+            33.45002365112305,
+            364.2830505371094,
+            45.183204650878906
+          ]
+        },
+        {
+          "id": "p1-b20-ac04683",
+          "kind": "paragraph",
+          "text": "Available online 29 November 2024 \n0308-521X/© 2024 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by- \nnc-nd/4.0/ ).",
+          "bbox": [
+            37.519989013671875,
+            714.7000122070312,
+            559.6732177734375,
+            744.0932006835938
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure3",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p1-figure3.png",
+          "alt": "Original source page 1, graphic 3",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure4",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p1-figure4.png",
+          "alt": "Original source page 1, graphic 4",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-a9885e0",
+          "kind": "paragraph",
+          "text": "stakeholder groups. These perspectives showed a combination of preferences for at least two different ES cate-\ngories. Most of the perspectives prioritize provisioning services whereas only few perspectives prioritize sup-\nporting services.\nSIGNIFICANCE: This study exemplifies a bottom-up approach for systematically analyzing stakeholder per-\nspectives on the relative importance of ESs derived from agricultural landscapes. The revealed differences and\ncomplexity of stakeholder perspectives can inform decision-making on the redesign of agricultural landscapes\nwith stakeholder engagement. Recognizing areas of consensus and conflict can guide efforts to promote agro-\necologically sound practices and policies.",
+          "bbox": [
+            201.9969940185547,
+            52.2530632019043,
+            557.6773681640625,
+            130.93441772460938
+          ]
+        },
+        {
+          "id": "p2-b1-6e62ee8",
+          "kind": "heading",
+          "text": "1. Introduction",
+          "bbox": [
+            37.587398529052734,
+            157.8817596435547,
+            97.8365707397461,
+            170.91287231445312
+          ]
+        },
+        {
+          "id": "p2-b2-443dd40",
+          "kind": "paragraph",
+          "text": "Intensive agriculture needs transformation towards greater sustain-\nability worldwide, which may require a redesign of agricultural land-\nscapes (Jackson et al., 2007; Landis, 2017). Agricultural landscapes\nprovide multiple ecosystem services (ESs) to a range of stakeholders\n(O’Farrell and Anderson, 2010). An unbalanced ESs delivery leads to\ncompromised sustainability and biodiversity loss (Foley, 2005), poten-\ntially leaving some people’s demand for ESs unmet. It is necessary to\nassess the importance of ESs for stakeholders when adjusting the man-\nagement of a landscape to rebalance the ESs supply. The importance of\nESs for stakeholders is strongly shaped by the socio-economic and cul-\ntural context and by their (subjective) values, which mediate between\nthe benefits derived from services and the processes of governance that\nsteer agroecosystem management decisions (Breyne et al., 2021).\nThe value of ESs refers to economic (monetary) values, but also non-\nmonetary, socio-cultural values (MEA, 2005). Economic values high-\nlight the importance of certain ESs by assigning them high monetary\nworth, which helps raise awareness and communicate their significance\nto policymakers (de Groot et al., 2012). Socio-cultural values express\npeople’s opinions on the non-monetary importance of ESs and are re-\nflected in stakeholder preferences for the multiple ESs that are provided\nby an agroecosystem (see Table 1 for definitions). Insight into stake-\nholder preferences can firstly aid policymakers in understanding how\nchanges in landscape management are perceived by different stake-\nholders. Secondly, it informs decision-making in situations where trade-\noffs among various (categories of) performance indicators occur\n(Scholte et al., 2015). More inclusive and equitable decision-making is\nfacilitated by the integration of socio-cultural values with ecological and\nmonetary assessment. Contrasting perspectives on these diverse values\nmay exist and should be considered, in particular when stakeholders are\nengaged in the assessment process (Martín-L´opez et al., 2012).\nThe degree to which the demand and supply of multiple ESs can be\nbalanced within a society or community depends on the heterogeneity of\ndemands, the potential changes that can be realized in the supply of the\nESs and the extent to which spatial distances or temporal lags hamper\nthe timely supply of demanded ESs (Mouchet et al., 2014). These con-\nsiderations should also inform decision-making and policy formulation\n(Bulkeley and Mol, 2003). Here we focus only on the heterogeneity on\nthe demand side. Different stakeholders that are active or have an in-\nterest in certain landscapes could have different preferences for ESs\ndepending on their roles, demographic characteristics, and other",
+          "bbox": [
+            37.587398529052734,
+            178.8574676513672,
+            288.6949768066406,
+            599.846923828125
+          ]
+        },
+        {
+          "id": "p2-b3-3b0c42c",
+          "kind": "paragraph",
+          "text": "attributes (Smith and Sullivan, 2014). While farmers might prefer pro-\nvisioning services for their well-being, urban visitors might show a\npreference for cultural services (Zoderer et al., 2019), while regional\ndevelopment programs and researchers would tend to assign greater\nimportance to regulating services to support the sustainable use of the\nlandscape (Peter et al., 2022). Within a certain stakeholder group, there\nmay also be different perspectives among individuals (Teixeira et al.,\n2018). However, few studies have analyzed the heterogeneity of pref-\nerences within stakeholder groups (Bernues et al., 2019).\nDifferent methodologies could be applied to assess socio-cultural\nvalues related to ESs, including expert-based approaches, focus group\ndiscussions, interviews and questionnaire surveys (Chen et al., 2017;\nIniesta-Arandia et al., 2014; Lamarque et al., 2011; Page and Bellotti,\n2015; Smith and Sullivan, 2014). However, as found in previous studies\nand in our own pilot survey, when respondents are asked about the\nimportance of different ESs, nearly all respondents state that most ESs\nare important (Horne et al., 2005). However, not all ESs can be provided\nmaximally at the same time. Trade-offs among ESs make it necessary to\nprioritize ESs in decision-making and planning processes. Hence there is\na need for assessment approaches that give insight into the preferences\nof ESs among stakeholders.\nQ methodology is a semi-quantitative method for eliciting and sys-\ntematically presenting stakeholder perspectives. It originates from psy-\nchology and has also been used for many years in policy science and\npublic health (McKeown and Thomas, 2013, Watts and Stenner, 2005,\nValenta and Wigger, 1997). It aims to reveal the way individuals think\nabout a specific subject (Watts and Stenner, 2005) and assesses if groups\nof individuals perceive a subject similarly (Stephenson, 1953). Con-\nducting Q methodology involves generating a set of statements that\nrepresent the various facets of a discourse or problem, which are then\nsorted by participants by the degree of agreement with the statements.\nThe sorting result is statistically analyzed to identify common sorting\npatterns among participants (Watts and Stenner, 2005). In this paper, we\nrefer to typical sorting patterns as perspectives. Perspectives thus\nrepresent typical patterns of how stakeholders think about the relative\nimportance of different ESs. Q sorting embedded in Q methodology\nencourages participants to sort the items using deliberate thinking.\nQ methodology has gradually gained credence in environmental and\nagricultural science to assess the subjective values of stakeholders when\ndesigning management and policymaking (Jiren et al., 2023; Rietveld\net al., 2023; Swagemakers et al., 2017; Timler et al., 2023; Vaas et al.,\n2019; van Dijk et al., 2022). There are however only few applications of\nQ methodology to capturing stakeholders’ perspectives on the impor-\ntance of ESs in agricultural landscapes (Ciftcioglu, 2021) compared to\nother ecosystems, e.g., nature reserves (Mahlalela et al., 2022), national\nforests (Armatas et al., 2018), aquaculture (Pethiyagoda et al., 2024),\nand urban parks (Buchel and Frantzeskaki, 2015).\nThe North China Plain is one of the largest crop production areas in\nChina and is characterized by simplified agricultural landscapes with a\ndominance of wheat, maize and cotton (Xu et al., 2024). As a major\nbreadbasket of China, the region is geared towards enhancing provi-\nsioning services (i.e. production of food, feed and other commodities),\nand generation of economic value. Regions with intensive production\nare often characterized by sustainability issues such as declining\ngroundwater tables (Zhao et al., 2017), greenhouse gas emissions (Zhao",
+          "bbox": [
+            306.5926208496094,
+            157.8817596435547,
+            557.6921997070312,
+            735.7952880859375
+          ]
+        },
+        {
+          "id": "p2-b4-0b45beb",
+          "kind": "paragraph",
+          "text": "Table 1\nGlossary of most important terms in this study.",
+          "bbox": [
+            37.587398529052734,
+            615.2700805664062,
+            187.55044555664062,
+            636.5789184570312
+          ]
+        },
+        {
+          "id": "p2-b5-e92ba24",
+          "kind": "paragraph",
+          "text": "Terms\nDefinitions",
+          "bbox": [
+            43.5968017578125,
+            638.9004516601562,
+            117.91939544677734,
+            649.3250122070312
+          ]
+        },
+        {
+          "id": "p2-b6-ca5e3f5",
+          "kind": "paragraph",
+          "text": "Value\nThe importance and necessity of objects and actions (Harrington et al.,\n2010) described in monetary or non-monetary terms (MEA, 2005).\nImportance\nIndication to what extent and how a service or its associated benefits\nmatter (including non-monetary terms benefits) for a person or a\ngroup of persons (Breyne et al., 2021).\nPreference\nPreference refers to the importance attributed to one ES relative to\nanother one (IPBES, 2019).\nPerspective\nA perspective in this case refers to the combination of preferences\ntowards multiple (bundles of) ecosystem services that are shared by a\ngroup of stakeholders.",
+          "bbox": [
+            43.5968017578125,
+            652.0526733398438,
+            282.7032165527344,
+            739.6358032226562
+          ]
+        },
+        {
+          "id": "p2-b7-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.58751678466797,
+            33.65158462524414,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p2-b8-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-b61394f",
+          "kind": "paragraph",
+          "text": "et al., 2021) and biodiversity loss (Mu et al., 2022), i.e. a lack of non-\nprovisioning services (regulating, supporting, and cultural services)\n(Cheng et al., 2023). Those non-provisioning services have been less\nemphasized in this region and may need revitalization by policy for the\nsake of long-term sustainability of the agroecosystem. The North China\nPlain therefore requires an evaluation of the need to preserve and\npossibly strengthen different ESs. The envisioned process of trans-\nformation and landscape redesign could be informed by the preferences\nof stakeholders, especially by those of local farmers. They shape land-\nscapes, influencing cropping systems and ecosystem services, and their\nbenefits and demands must be carefully considered in policymaking (de\nSnoo et al., 2013).\nThis paper aims to analyze the perspectives of stakeholders on the\nimportance of ESs provisioning in a case study area in the North China\nPlain. We use Q methodology to identify perspectives within the\nstakeholder groups and find the similarity of those perspectives among\nstakeholder groups. Characteristics associated with farmers’ perspec-\ntives, as the main stakeholder group, will also be investigated in this\nstudy. The ultimate goal is to elucidate stakeholders’ perspectives on ESs\nand to inform policymaking for the redesign and management of agri-\ncultural landscapes.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            288.6949768066406,
+            273.5252380371094
+          ]
+        },
+        {
+          "id": "p3-b1-a77f4aa",
+          "kind": "heading",
+          "text": "2. Materials and methods",
+          "bbox": [
+            37.587398529052734,
+            281.58380126953125,
+            137.35073852539062,
+            294.6148986816406
+          ]
+        },
+        {
+          "id": "p3-b2-a030405",
+          "kind": "heading",
+          "text": "2.1. Case study area",
+          "bbox": [
+            37.587398529052734,
+            302.5029296875,
+            109.25054931640625,
+            315.5340270996094
+          ]
+        },
+        {
+          "id": "p3-b3-b3fbc50",
+          "kind": "paragraph",
+          "text": "We conducted our study in Quzhou county, located in Heibei Prov-\nince of the North China Plain (NCP). The surface area of Quzhou is\n676.7 km2 including 525.2 km2 of cropland (NBSC, 2017). Winter\nwheat, summer maize and cotton are the main crops, occupying together\napproximately 80 % of the cropland area (NBSC, 2017). The landscapes\nin Quzhou county are simplified and intensively used for agricultural\nproduction, with mostly arable cropping and only a small area of non-\ncrop habitat, and 85.5 % of the population in Quzhou is rural (NBSC,\n2017). As a representative area in the NCP, Quzhou has been selected as\na National Agriculture Green Development Pilot Demonstration Zone in\n2019. Since 2020, the Quzhou government has formulated policies to\ntransform the county towards sustainable agricultural development in\nthe context of the Agriculture Green Development (AGD) program, which\nis facilitated by Chinese national policies (Shen et al., 2020). We chose\nQuzhou for this study because the area has sustainability issues, and is in\nneed of an agricultural green transition.\nQuzhou county has 10 townships including 342 administrative vil-\nlages. In this study, we selected 35 villages in Quzhou (Fig. S2(a)). Five\nvillages were sampled from each of 7 different village types, which\ntogether cover the diversity of socio-economic conditions and agricul-\ntural activity within the county (Xu et al., 2024). The sampling strategy\nwas equally weighted among the seven clusters to capture the full di-\nversity of stakeholders’ views without regard for the size of each cluster\n(number of villages in it). Details about the sampled villages and their\nlocations can be found in Cheng et al. (2023), Xu et al. (2024) and Fig.\nS2.",
+          "bbox": [
+            37.587398529052734,
+            323.4228820800781,
+            288.69586181640625,
+            597.97802734375
+          ]
+        },
+        {
+          "id": "p3-b4-366d523",
+          "kind": "heading",
+          "text": "2.2. Q methodology and data collection",
+          "bbox": [
+            37.58909606933594,
+            606.376953125,
+            173.1509246826172,
+            619.4080810546875
+          ]
+        },
+        {
+          "id": "p3-b5-c5b1382",
+          "kind": "paragraph",
+          "text": "An application of Q methodology proceeds in four steps: (1) research\ndesign, (2) data collection, (3) analysis, and (4) interpretation (Zabala\net al., 2018). In step 1, the researcher selects a topic or issue to study and\ndescribes the discourse around the topic and generates a set of state-\nments (Q set); this set represents different perspectives or opinions on\nthe topic. Here the statements refer to different ESs and the topic is the\nimportance of different ESs delivered by agricultural landscapes in the\nNCP, and in Quzhou in particular (Section 2.2.1). The researcher then\nrecruits the participants (p set) who are identified as key stakeholders\nand have knowledge or experience related to the topic (Section 2.2.2).\nDuring step 2 (data collection), the researcher conducts the Q sorting,",
+          "bbox": [
+            37.58909606933594,
+            627.2960205078125,
+            288.701416015625,
+            744.9244384765625
+          ]
+        },
+        {
+          "id": "p3-b6-13277b8",
+          "kind": "paragraph",
+          "text": "which involves having participants rank the statements according to\ntheir perceived importance (Section 2.2.3). Our Q sort distinguished five\nlevels of importance: very unimportant, unimportant, neutral, important\nand very important (Fig. 1). The number of statements assigned to each\ncategory varied (2–4–8–4–2; 20 statements in total), broadly repre-\nsenting a bell-shaped distribution, with the middle category having the\ngreatest number of “slots” to assign statements (Fig. 1). In step 3\n(analysis) the researcher analyzes the data using a variety of multivar-\niate data-reduction techniques (such as principal components analysis or\nfactor analysis) to identify the patterns of Q sorts, representing the main\nperspectives or views among the stakeholders (Section 2.2.4). Step 4\n(interpretation) presents the results to show how the perspectives are\ndifferent or similar and explains the key characteristics of those\nperspectives.",
+          "bbox": [
+            306.593505859375,
+            51.30250930786133,
+            557.6835327148438,
+            200.3385772705078
+          ]
+        },
+        {
+          "id": "p3-b7-a990c7f",
+          "kind": "paragraph",
+          "text": "2.2.1. Determining the statements for the Q set\nRelevant ESs delivered by agricultural landscapes were selected from\nthe four categories of ESs, i.e., provisioning services, supporting ser-\nvices, regulating services and cultural services (Haines-Young and Pot-\nschin, 2018; MEA, 2005). We determined 20 relevant ESs of agricultural\nlandscapes in total and for each ES we formulated one statement\ndescribing it. Hence, our Q sorting results characterize the perceived\nimportance of different ecosystem services. The statements were\ninitially formulated based on the original definition of ESs that are\nrelevant in the context of agricultural landscapes. Before the formal\nsorting exercises, three rounds of pilot sorting exercises were done to test\nwhether the statements and pictures were understandable for local\nfarmers and minor revisions were made. The final 20 statements related\nto 20 ESs (Table 2) were printed onto cards (in Chinese).",
+          "bbox": [
+            306.593505859375,
+            208.22659301757812,
+            557.6875,
+            357.2626647949219
+          ]
+        },
+        {
+          "id": "p3-b8-60ef1d6",
+          "kind": "paragraph",
+          "text": "2.2.2. Stakeholder identification and selection\nBefore the survey, we did a stakeholder identification analysis (Reed\net al., 2009) to select the most relevant stakeholder groups in Quzhou\ncounty. Stakeholder groups were considered relevant if they had basic\nknowledge about agriculture or potentially had an interest in ESs and\nagricultural development, or their actions might impact ESs. The final\nlist of stakeholders was established after consulting experts and local\ninformants (Table 3).\nWe sampled 35 villages across all the 10 townships in Quzhou. The\nmajority of farmers in the villages are smallholders (Xu et al., 2024).\nFive smallholder farmers were randomly chosen from each village to\nensure the survey’s feasibility within a time and budget framework. The\nvillage heads helped identify up to two leader farmers, defined as those\nrunning cooperatives, family farms or having participated in profes-\nsional trainings. All 35 village heads and nine township heads were",
+          "bbox": [
+            306.593505859375,
+            365.15069580078125,
+            557.6875,
+            524.6180419921875
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b9-c4298c8",
+          "kind": "paragraph",
+          "text": "Fig. 1. Grids used in the Q methodology sorting exercises with the shape like a\nnormal distribution. The ESs assigned to grids in the columns 1–5 get the\ncorresponding importance scores. The fully filled grids (Q sort) show the\npreference of all ESs (see a filled example in Fig. S5 of supplementary material).",
+          "bbox": [
+            306.5950012207031,
+            704.1079711914062,
+            557.6707763671875,
+            744.5220947265625
+          ]
+        },
+        {
+          "id": "p3-b10-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p3-b11-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-e03a00b",
+          "kind": "paragraph",
+          "text": "included (except the township head of Nanliyue who was unavailable).\nFive citizens were selected randomly from each of the four main town-\nships (Baizhai, Disituan, Huaiqiao, Anzhai). In these townships, the total\ncropland area is relatively large, and the townships are distributed in the\nnorth, south, west and east of Quzhou County, respectively (Fig. S2).\nThe county government staff were recruited by a snowball sampling\nif they had important roles and their departments contributed to the\ncounty-level Agriculture Green Development program. Companies which\nwere interested in the Agriculture Green Development program were\nselected from a list of locally leading companies and the managers of\nthose companies were recruited. People working in academic in-\nstitutions and universities with strong relations and cooperation with\nQuzhou county were also selected by snowball sampling. In total, 327\npeople finished the Q sorts completely.",
+          "bbox": [
+            37.58732223510742,
+            371.5007629394531,
+            288.6997375488281,
+            520.536865234375
+          ]
+        },
+        {
+          "id": "p4-b1-9984502",
+          "kind": "paragraph",
+          "text": "2.2.3. Conducting Q sorts and getting importance scores\nThe Q sorts and interviews were done from December 2020 to April\n2021 by a pre-trained team of instructors. We asked the farmers and\ncitizens to sort the cards according to their own opinion, but for other\nstakeholders, we asked them to represent the point of view of their\ninstitution or committee.\nDuring the sorting exercise, each participant was asked to arrange\nthe statements into the grid according to the level of importance of the\nstatements (Fig. 1). For the respondents who had difficulty reading, the\ninstructors read the statements out aloud and explained statements with\nthe help of pictures. In the first round of card-sorting, the participants\ninitially sorted the cards into three piles for “important”, “not impor-\ntant” and “neutral” statements, without a limitation in the number of\nstatements in each pile. During a second round, the participants were\nasked to decide the extreme answers of “very important” and “very\nunimportant” statements from the piles of “important” and “unimpor-\ntant” services in the first round. The remaining statements were placed\nin the three central columns of the grid ranging between important,\nneutral and unimportant. The most important and unimportant state-\nments in the Q sorts were then discussed in a post-hoc interview to get a",
+          "bbox": [
+            37.587337493896484,
+            528.4248657226562,
+            288.6981201171875,
+            740.2198486328125
+          ]
+        },
+        {
+          "id": "p4-b2-5efbd3f",
+          "kind": "paragraph",
+          "text": "deeper understanding of the participant’s reasonings.",
+          "bbox": [
+            306.59259033203125,
+            457.16253662109375,
+            495.2073974609375,
+            470.1936340332031
+          ]
+        },
+        {
+          "id": "p4-b3-301d6dd",
+          "kind": "paragraph",
+          "text": "2.2.4. Determining the perspectives: Q analysis\nThe data from the Q sorting were analyzed using Q analysis, which is\nbased on principal component analysis (PCA). Similar to standard PCA,\nthe data are reduced by Q analysis to a few factors (or principal com-\nponents), which represent the perspectives shared by groups of people.\nThis analysis serves as a tool to uncover the underlying patterns in how\npeople fill the Q sorts similarly, thereby highlighting shared ways of\nthinking across the group, and revealing the commonalities in how\nparticipants rank the statements in the Q sort. We began with a\ncomprehensive Q analysis using all 327 Q sorts. Following this, we\nconducted separate Q analyses for each of the seven stakeholder groups.\nThis approach allowed us to identify distinct perspectives within each\nstakeholder group and was deemed necessary due to the over-\nrepresentation of farmers among the respondents.\nFor each Q analysis, the number of factors was determined based on\nthe commonly used statistical criteria like scree plots, explained vari-\nance, the number of participants flagged and the Kaiser-Guttman crite-\nrion (Borcard et al., 2011; Cliff, 1988). These criteria typically indicate\nthe selection of a small number of perspectives. In combination with our\nexpert judgment, we finalized the number of meaningful perspectives,\nwhich in this case ranged from two to three (Andreotti et al., 2023).\nThe factor loadings, z scores and factor scores are the key results\nfrom the Q analysis to describe each perspective (Brown, 1980; Zabala\net al., 2018) and the calculation is well established in the ‘qmethod’\npackage (Zabala, 2014) and other Q analysis software. Factor loadings",
+          "bbox": [
+            306.5924987792969,
+            478.0816650390625,
+            557.6809692382812,
+            742.20361328125
+          ]
+        },
+        {
+          "id": "p4-b4-f2276bb",
+          "kind": "paragraph",
+          "text": "Table 2\nEcosystem services and the statements used in the Q sorting.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            230.65875244140625,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p4-b5-b858e9f",
+          "kind": "paragraph",
+          "text": "Ecosystem services and\ncategories\nStatements",
+          "bbox": [
+            43.5968017578125,
+            76.22341918945312,
+            169.2772674560547,
+            95.20829772949219
+          ]
+        },
+        {
+          "id": "p4-b6-bf67989",
+          "kind": "paragraph",
+          "text": "Provisioning services\nNutrient provisioning\nTo harvest crops to supply food and nutrients\nProfit provisioning\nTo harvest crops for profit\nRegulating services\nWater regulation\nTo maintain sufficient soil moisture in the farmland\nAir quality\nGood air quality\nNatural hazard regulation\nTo reduce the yield loss caused by natural hazards\nWater quality\nGood water quality\nBiological control\nTo reduce pesticide use but use biological control",
+          "bbox": [
+            43.5968017578125,
+            97.93655395507812,
+            282.68603515625,
+            176.90208435058594
+          ]
+        },
+        {
+          "id": "p4-b7-6635197",
+          "kind": "paragraph",
+          "text": "Pollination\nTo have effective pollination for the crops requiring\npollinators\nClimate regulation\nPreventing climate warming\nSupporting services\nWater provisioning\nTo have sufficient irrigation water\nSoil fertility\nGood soil fertility in the farmland\nNatural habitats of field\nborder\nTo have more non-crop greening areas around the\nfarmland\nNatural habitats within\nfields\nTo have more diversified crops in farmland",
+          "bbox": [
+            43.5968132019043,
+            175.03775024414062,
+            282.7109375,
+            262.56414794921875
+          ]
+        },
+        {
+          "id": "p4-b8-83bdb2c",
+          "kind": "paragraph",
+          "text": "Cultural services\nAgricultural tourism\nTo relax and recreate at rural tourism sites\nScientific and educational\nvalue\nTo get involved in scientific/educational events",
+          "bbox": [
+            43.596839904785156,
+            260.6998596191406,
+            273.00048828125,
+            296.8627014160156
+          ]
+        },
+        {
+          "id": "p4-b9-e927578",
+          "kind": "paragraph",
+          "text": "Aesthetic value\nTo have beautiful scenery of the farmland",
+          "bbox": [
+            49.94599533081055,
+            294.9983825683594,
+            257.1181335449219,
+            305.4229736328125
+          ]
+        },
+        {
+          "id": "p4-b10-8e9e41b",
+          "kind": "paragraph",
+          "text": "Belonging value\nTo have a feeling of belonging living in the rural\narea\nSelf-identity value\nTo have self-identity for farmers",
+          "bbox": [
+            49.946006774902344,
+            303.5592956542969,
+            276.46514892578125,
+            331.1051025390625
+          ]
+        },
+        {
+          "id": "p4-b11-7513355",
+          "kind": "paragraph",
+          "text": "Social relations\nTo have good social relations within rural\ncommunities\nSpiritual value\nTo keep the ancestral graves in the farmland",
+          "bbox": [
+            49.9460334777832,
+            329.2408142089844,
+            264.77178955078125,
+            356.8433532714844
+          ]
+        },
+        {
+          "id": "p4-b12-8096a6b",
+          "kind": "paragraph",
+          "text": "Table 3\nStakeholder groups and the sample size used in the Q methodology analysis.",
+          "bbox": [
+            306.5950012207031,
+            52.53608322143555,
+            550.2388305664062,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p4-b13-0e87449",
+          "kind": "paragraph",
+          "text": "Stakeholder\ngroup\nCode\nExplanation\nSample\nsize",
+          "bbox": [
+            312.6050109863281,
+            76.22341918945312,
+            546.4500732421875,
+            95.20829772949219
+          ]
+        },
+        {
+          "id": "p4-b14-7fed54b",
+          "kind": "paragraph",
+          "text": "Farmers\nFarmer\nIndividuals who are in charge of the\ncrop production in their households.\nMost farmers are smallholders with\nfarm sizes of less than two hectares.\nLeader farmers are those who 1) run\ncooperatives, 2) run family farms or 3)\nhave been trained as professional\nfarmers by the agricultural bureau.",
+          "bbox": [
+            312.6050109863281,
+            97.93655395507812,
+            514.520263671875,
+            168.34115600585938
+          ]
+        },
+        {
+          "id": "p4-b15-9b87151",
+          "kind": "paragraph",
+          "text": "222",
+          "bbox": [
+            525.8814697265625,
+            97.93655395507812,
+            536.6503295898438,
+            108.36114501953125
+          ]
+        },
+        {
+          "id": "p4-b16-dc77fee",
+          "kind": "paragraph",
+          "text": "Village heads\nVillage\nThe village head or key village cadres\nworking on the village committees.\nThese functionaries have a good\nunderstanding of the village situation.",
+          "bbox": [
+            312.60504150390625,
+            166.47747802734375,
+            512.6757202148438,
+            202.58355712890625
+          ]
+        },
+        {
+          "id": "p4-b17-9f14025",
+          "kind": "paragraph",
+          "text": "35",
+          "bbox": [
+            525.8814697265625,
+            166.4774627685547,
+            533.0607299804688,
+            176.90206909179688
+          ]
+        },
+        {
+          "id": "p4-b18-e6987ea",
+          "kind": "paragraph",
+          "text": "Township\nheads\nTownship\nThe (deputy) township heads working\nin the township government take\ncharge of the administrative affairs of\nrural and agricultural production.",
+          "bbox": [
+            312.60504150390625,
+            200.71923828125,
+            512.6240234375,
+            236.882080078125
+          ]
+        },
+        {
+          "id": "p4-b19-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            525.8814697265625,
+            200.71923828125,
+            529.4711303710938,
+            211.1438446044922
+          ]
+        },
+        {
+          "id": "p4-b20-252f135",
+          "kind": "paragraph",
+          "text": "County\ngovernment\nCounty\nAccording to the AGD development\nplanning of local government, the\nrelevant county-level bureaus mainly\ninclude the Agriculture and Rural\nBureau, Eco-Environment Bureau,\nNatural Resources and Planning Bureau\nDevelopment and Reform Bureau, and\nWater Conservancy Bureau. In each\nbureau, representatives of the sectors\ninvolved in the AGD program were\nselected.",
+          "bbox": [
+            312.60504150390625,
+            235.0183868408203,
+            514.5062255859375,
+            331.10516357421875
+          ]
+        },
+        {
+          "id": "p4-b21-6f4b661",
+          "kind": "paragraph",
+          "text": "21",
+          "bbox": [
+            525.8814697265625,
+            235.0184326171875,
+            533.0607299804688,
+            245.4430389404297
+          ]
+        },
+        {
+          "id": "p4-b22-d4efe28",
+          "kind": "paragraph",
+          "text": "Companies\nCompany\nLeading companies that produce,\npurchase, or process agricultural (crop)\nproducts.",
+          "bbox": [
+            312.60504150390625,
+            329.2408447265625,
+            514.543212890625,
+            356.8434143066406
+          ]
+        },
+        {
+          "id": "p4-b23-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            525.8814697265625,
+            329.2408752441406,
+            529.4711303710938,
+            339.66546630859375
+          ]
+        },
+        {
+          "id": "p4-b24-5126599",
+          "kind": "paragraph",
+          "text": "Citizens\nCitizen\nPeople living in the township centers\nbut are not involved in agricultural\nactivities.",
+          "bbox": [
+            312.60504150390625,
+            354.9790954589844,
+            509.7446594238281,
+            382.52490234375
+          ]
+        },
+        {
+          "id": "p4-b25-f5ca38f",
+          "kind": "paragraph",
+          "text": "20",
+          "bbox": [
+            525.8814086914062,
+            354.9791259765625,
+            533.0607299804688,
+            365.4037170410156
+          ]
+        },
+        {
+          "id": "p4-b26-603b84b",
+          "kind": "paragraph",
+          "text": "Academics\nAcademic\nResearchers from China Agricultural\nUniversity, local agronomists, and\ngraduate students in Science and\nTechnology Backyards (Zhang et al.,\n2016). The researchers were often\ninvolved in the AGD program together\nwith Quzhou County government.",
+          "bbox": [
+            312.6050109863281,
+            380.6606140136719,
+            513.9443969726562,
+            442.505615234375
+          ]
+        },
+        {
+          "id": "p4-b27-e629fa6",
+          "kind": "paragraph",
+          "text": "15",
+          "bbox": [
+            525.8814086914062,
+            380.6606750488281,
+            533.0606689453125,
+            391.08526611328125
+          ]
+        },
+        {
+          "id": "p4-b28-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.59075927734375,
+            33.64785385131836,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p4-b29-4b22777",
+          "kind": "paragraph",
+          "text": "4",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-6f29b33",
+          "kind": "paragraph",
+          "text": "indicate the relationship between the Q sort and each factor. A high\nfactor loading indicates that the participant’s Q sort closely aligns with\nthe pattern of that factor. Participants were assigned, or “flagged” to a\nfactor if their factor loading was significantly high (p < 0.05) and the\nsquared loadings for that factor exceeded the sum of the squared load-\nings for all other factors (Zabala, 2014). The flagged Q sorts are used for\nsubsequent calculations. The z-scores are the weighted averages of the\nscores given by the flagged Q sorts to a statement. The factor scores of\nthe statements for each factor are derived from z-scores by sorting the\nstatements in ascending order of z-score and assigning the 1–5 scores\nfollowing the pattern in the Q grid in Fig. 1. This results in a typical and\nrepresentative Q sort for the factor, which allows easy comparison with\nother factors (c.f., Yarar and Orth, 2018). A detailed illustration of how\nto calculate z-scores and factor scores is provided in the supplementary\nmaterial. We conducted the Q analysis using the rotation method of\nvarimax based on ‘qmethod’ package (Zabala, 2014) in R version 4.4.0\n(R Core Team, 2021).",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            288.693359375,
+            231.6862030029297
+          ]
+        },
+        {
+          "id": "p5-b1-dcf286a",
+          "kind": "paragraph",
+          "text": "2.2.5. Comparing preferences for ESs among perspectives\nIn this study, the statements represent the ESs and the factors denote\nthe different perspectives on the relative importance of these ESs. The\nfactor scores were used to compare the relative importance of individual\nESs across perspectives. We also compared the preferences across ES\ncategories by calculating the scaled average factor scores for each ES\ncategory. Scaling between 0 and 1 (multiplied by 100, resulting in values\n0–100) was needed due to the different number of statements across\ncategories (2 for provisioning ESs, 4 for supporting ESs and 7 for regu-\nlating and cultural ESs). We define a perspective prioritizing certain ES\ncategories when the scaled average factor scores were higher than 50. A\ndetailed calculation of scaled average factor scores is provided in the\nsupplementary material.",
+          "bbox": [
+            37.587398529052734,
+            239.57501220703125,
+            288.68939208984375,
+            378.1798095703125
+          ]
+        },
+        {
+          "id": "p5-b2-4b0e757",
+          "kind": "heading",
+          "text": "2.3. Personal, household and village characteristics",
+          "bbox": [
+            37.587398529052734,
+            386.3515930175781,
+            211.46072387695312,
+            399.3826904296875
+          ]
+        },
+        {
+          "id": "p5-b3-c7dd62a",
+          "kind": "paragraph",
+          "text": "Following the Q sort, farmers were asked to fill in a structured\nquestionnaire, which consisted of two main parts: 1) crop production\ninformation for each farm, including total planting area and revenues of\ncrops, etc.; 2) basic information of participants, including age, gender,\neducation, years of farming, type of farmer (smallholder farmers or\nleader farmers), off-farm occupation, family income, etc. Other stake-\nholders were interviewed to understand their roles and work experience\nand we collected their age, education level and gender. To protect the\nprivacy of participants, we cannot specify the specific positions of these\nrespondents in their organizations.",
+          "bbox": [
+            37.587398529052734,
+            407.27069091796875,
+            288.6949768066406,
+            514.4677734375
+          ]
+        },
+        {
+          "id": "p5-b4-e69d96d",
+          "kind": "heading",
+          "text": "2.4. Statistical analysis",
+          "bbox": [
+            37.587398529052734,
+            522.6968994140625,
+            117.6111831665039,
+            535.72802734375
+          ]
+        },
+        {
+          "id": "p5-b5-95481ad",
+          "kind": "paragraph",
+          "text": "The mean and standard deviation of ES preference scores within\ndifferent stakeholder groups were calculated, and visualized using the\n“Likert” (Bryer et al., 2016) and “ggplot2” packages (Wickham et al.,\n2016) in R (R Core Team, 2021).\nTo test the difference in ES importance scores among stakeholder\ngroups, parameter-free Kruskal–Wallis tests were conducted in R. The\nconfidence level for these tests was 95 %. The mean of each ES impor-\ntance score from all the stakeholder groups was calculated by dividing\nby the maximum value, 5 (very important), and plotted as the size in\nbubble plots by the package of ‘ggplot2’ (Wickham et al., 2016) using R\n(R Core Team, 2021).\nAs farmers were considered a central group of stakeholders, we\naimed to establish which farmer characteristics were associated with\ndifferent perspectives. We expected that personal characteristics,\nhousehold characteristics and farm characteristics could influence\nfarmer perspectives (Table 4). Kruskal-Wallis tests were conducted for\ncontinuous variables to determine whether there were significant dif-\nferences among perspectives, and Chi-square tests were conducted for\ncategorical variables. The confidence interval for these tests was 95 %.",
+          "bbox": [
+            37.587398529052734,
+            543.615966796875,
+            288.693359375,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p5-b6-9a24d88",
+          "kind": "paragraph",
+          "text": "The analyses were conducted in R (R Core Team, 2021).",
+          "bbox": [
+            306.5926208496094,
+            285.83587646484375,
+            505.9694519042969,
+            298.8669738769531
+          ]
+        },
+        {
+          "id": "p5-b7-c3fea71",
+          "kind": "heading",
+          "text": "3. Results",
+          "bbox": [
+            306.5926208496094,
+            307.4356384277344,
+            346.2861022949219,
+            320.46673583984375
+          ]
+        },
+        {
+          "id": "p5-b8-acaa27a",
+          "kind": "heading",
+          "text": "3.1. Overview of the respondents and ecosystem services importance\nscores",
+          "bbox": [
+            306.5926208496094,
+            328.3547668457031,
+            536.976318359375,
+            351.87451171875
+          ]
+        },
+        {
+          "id": "p5-b9-36bbe9c",
+          "kind": "paragraph",
+          "text": "In total, we obtained 327 completed Q sorts and accompanying in-\nterviews. Of the respondents, 13.5 % were females and 86.5 % were\nmales. Respondents were on average 53.7 years of age and had 9.7 years\nof education (around the age of completing junior high school) (Table\nS1). More than half of the respondents sorted scientific and educational\nvalue, profit provisioning, water provisioning (irrigation), and air\nquality as important ecosystem services (scores 4 or 5) of agricultural\nlandscapes (Fig. S3). Ecosystem services with low importance (scores 1\nor 2) according to more than half of the respondents were the presence\nof natural habitats (both within the fields and on field borders), agro-\ntourism, climate regulation, and pollination (Fig. S3).",
+          "bbox": [
+            306.5926208496094,
+            359.7625427246094,
+            557.6906127929688,
+            477.39080810546875
+          ]
+        },
+        {
+          "id": "p5-b10-be74922",
+          "kind": "heading",
+          "text": "3.2. Different scorings among stakeholder groups",
+          "bbox": [
+            306.5926208496094,
+            488.28436279296875,
+            472.5380859375,
+            501.3154602050781
+          ]
+        },
+        {
+          "id": "p5-b11-77815c5",
+          "kind": "paragraph",
+          "text": "Stakeholder groups were different in their personal characteristics\n(Table S1) and their scoring of ecosystem service importance (Table S2\nand Fig. 2). Academics, citizens, companies and county governmental\nstaff rated the importance of biological control on average higher than\nfarmers, village heads and township heads did. For cultural services like\nsocial relations and spiritual value, citizens had mostly similar impor-\ntance scores as farmers, while companies cared relatively less, except for\nscientific and educational values. We found that academics rated the\nimportance of natural habitats in general higher than other respondents.\nAll the stakeholder groups assigned low importance to climate regula-\ntion and pollination, and more importance to profit provisioning, air and\nwater quality, and water provisioning.",
+          "bbox": [
+            306.5926208496094,
+            509.2034912109375,
+            557.6802368164062,
+            637.3204956054688
+          ]
+        },
+        {
+          "id": "p5-b12-7eb7ab8",
+          "kind": "heading",
+          "text": "3.3. Different perspectives within stakeholder groups",
+          "bbox": [
+            306.5926208496094,
+            648.2131958007812,
+            483.6499938964844,
+            661.2443237304688
+          ]
+        },
+        {
+          "id": "p5-b13-2c46002",
+          "kind": "paragraph",
+          "text": "As a first step, we conducted a single overarching Q analysis with all\n327 participants. This analysis identified three main perspectives:\nPerspective 1 emphasized the importance of provisioning services;\nPerspective 2 focused on regulating and supporting services; and\nPerspective 3 highlighted cultural services (see Table S4 and Fig. S6).\nThis comprehensive Q analysis also illustrated the diversity of per-\nspectives within the stakeholder groups (Table S5). However, because",
+          "bbox": [
+            306.5926208496094,
+            669.1331176757812,
+            557.6866455078125,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p5-b14-385867e",
+          "kind": "paragraph",
+          "text": "Table 4\nVariables that are potentially associated with perspectives of farmers.",
+          "bbox": [
+            306.5950012207031,
+            52.53608322143555,
+            528.1438598632812,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p5-b15-27a0623",
+          "kind": "paragraph",
+          "text": "Variables\nUnits/Categories",
+          "bbox": [
+            312.6050109863281,
+            76.22341918945312,
+            463.2515869140625,
+            86.64801788330078
+          ]
+        },
+        {
+          "id": "p5-b16-b58c0d9",
+          "kind": "paragraph",
+          "text": "Personal characteristics\nAge\nyears\nEducation year\nyears\nExperience in agriculture\nyears\nFarmer types\nSmallholder farmers, leader farmers\nGender\nFemale, Male\nOccupation other than\nfarming\n1) Employment outside of villages\n2) Local agricultural employment\n3) Local non-agricultural employment\n4) Self-employment\nOther roles in the village\n1) Accountant in the village committee\n2) Village doctor\n3) Village teacher\n4) Village cadres\nHousehold and farm\ncharacteristics\nTotal owned land area\nha\nNon-agricultural income\nCNY/year\nAgricultural revenue\nCNY/year\nMain crop type (determined\nby the most area)\nCereals, Cereals and Fiber, Cereals and\nVegetables, Fiber, Vegetables, Others",
+          "bbox": [
+            312.6050109863281,
+            89.37562561035156,
+            528.4636840820312,
+            271.12445068359375
+          ]
+        },
+        {
+          "id": "p5-b17-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.590789794921875,
+            33.6477165222168,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p5-b18-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-abe5e7a",
+          "kind": "paragraph",
+          "text": "farmers constitute the majority of participants, the overall analysis may\nbe disproportionately influenced by their views. To address this imbal-\nance and to gain a clearer understanding of how different stakeholder\ngroups prioritize ecosystem services, we performed separate Q analyses\nfor each stakeholder group. This approach allowed for a more nuanced\nexploration of the specific preferences within each group and provided\nmore targeted insights into their distinct perspectives.\nWithin each stakeholder group, we found 2 to 3 different perspec-\ntives based on the results of Q analysis (Fig. 3 and Table 5). In total, there\nwere 18 different perspectives from 7 different stakeholder groups,\nreflecting differences in importance assigned to ecosystem services\ncategories (Fig. 3 and Table 5).\nWithin the group of farmers, the perspective Farmers_1 gave higher\nimportance to provisioning services than other services, the “Nutrients\nprovisioning” and “Profit provisioning” services were assigned the\nhighest importance. The perspective Farmers_2 attributed more impor-\ntance to regulating services like “Air quality” and “Water quality”. The\nperspective Farmers_3 assigned more importance to cultural services\nlike “Aesthetic value” and “Social relations”. Similarly, there were also\nthree different perspectives within the citizens group, with different\npreferences on regulating (Citizen_2), provisioning (Citizen_3) and cul-\ntural services (Citizen_1) (Fig. 3 and Table 5).\nThere were three different perspectives among village heads. The\nperspective Village_1 and Village_2 showed similar preference for",
+          "bbox": [
+            37.587398529052734,
+            488.061767578125,
+            288.693359375,
+            741.695068359375
+          ]
+        },
+        {
+          "id": "p6-b1-7badb87",
+          "kind": "paragraph",
+          "text": "provisioning services, but participants sharing the Village_1 perspective\ngave higher importance to regulating services while Village_2 gave\nhigher importance to cultural services like “Agrotourism” and “Aesthetic\nvalue” of agricultural landscapes. Village_3 assigned less importance to\nprovisioning services than other perspectives but gave more importance\nto supporting services (Fig. 3 and Table 5).\nTwo\ndifferent\nperspectives\nemerged\namong\nacademics.\nThe\nperspective of Academics_1 assigned more importance to supporting\nservices like “Soil Fertility” and “Water provisioning”. The perspective\nof Academics_2 gave more importance to provisioning and cultural\nservices like “Social relations” and “Profit provisioning” (Fig. 3 and\nTable 5).\nAmong county government staff, the differences were that County_1\ngave higher importance to regulating services (“Air quality” and “Bio-\nlogical control” services) but had the least importance on cultural ser-\nvices. The perspective County_2 gave higher importance to provisioning\nservices, and the perspective County _3 gave higher importance to\nregulating and cultural services, for example, “Air quality” and\n“Aesthetic value” services (Fig. 3 and Table 5).\nThere were two different perspectives among companies, with dif-\nferences in the preferences mainly reflected in the regulating services, e.\ng., “Biological control” service. The two perspectives assigned similar\nimportance to provisioning services like “Profit provisioning” service\nand gave the least importance to cultural services (Fig. 3 and Table 5).",
+          "bbox": [
+            306.5926208496094,
+            488.061767578125,
+            557.6786499023438,
+            741.695068359375
+          ]
+        },
+        {
+          "id": "p6-figure1",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p6-figure1.png",
+          "alt": "Original source page 6, graphic 1",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-b3-b338641",
+          "kind": "paragraph",
+          "text": "Fig. 2. Means of the ecosystem services importance scores in different stakeholder groups. The color and size of circles shows the absolute value of the importance\nscore (from 1-least important to 5-most important). Significant differences among stakeholder groups are indicated: * p < 0.05; ** p < 0.01; *** p < 0.001.",
+          "bbox": [
+            37.587398529052734,
+            456.9830627441406,
+            557.6843872070312,
+            478.2919006347656
+          ]
+        },
+        {
+          "id": "p6-b4-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p6-b5-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-e31e64c",
+          "kind": "paragraph",
+          "text": "There were also two different perspectives within the group of\ntownship heads, with differences in the preferences mainly for cultural\nand provisioning services. Township_1 gave the least importance to\n“Nutrients provisioning” service but gave the highest importance to\n“Agricultural tourism” service, which is quite different from Township_2\n(Fig. 3 and Table 5).",
+          "bbox": [
+            37.58807373046875,
+            438.05877685546875,
+            288.6964416503906,
+            503.36016845703125
+          ]
+        },
+        {
+          "id": "p7-b1-fa2680d",
+          "kind": "heading",
+          "text": "3.4. Similar perspectives across stakeholder groups",
+          "bbox": [
+            37.58807373046875,
+            512.2117919921875,
+            209.25845336914062,
+            525.242919921875
+          ]
+        },
+        {
+          "id": "p7-b2-8d64a8f",
+          "kind": "paragraph",
+          "text": "From Fig. 3 and Fig. S7, we identified 11 perspectives that prioritized\nprovisioning services (i.e. scaled factor scores higher than 50), with\nrepresentation across all stakeholder groups. Nine perspectives priori-\ntized regulating services. Seven perspectives prioritized cultural ser-\nvices,\ncovering\nall\ngroups\nexcept\ncompanies.\nLastly,\nonly\nfour\nperspectives prioritized supporting services, and these were absent\namong\nvillage\nheads,\nacademics,\ncounty\ngovernment\nstaff,\nand\ncompanies.",
+          "bbox": [
+            37.58807373046875,
+            533.1317138671875,
+            288.6932373046875,
+            619.4088134765625
+          ]
+        },
+        {
+          "id": "p7-b3-d202eb3",
+          "kind": "paragraph",
+          "text": "Fig. 4 provides a qualitative summary of the prioritization expressed\nby the identified perspectives. While 11 perspectives prioritize provi-\nsioning services, only 2 (Farmer_1 and County_2) show an exclusive\nprioritization for these services. Other perspectives, such as Citizen_3,\nCompany_1, and Township_2, primarily show a prioritization for pro-\nvisioning services but also value regulating or supporting services,\nreflecting a concern for both agricultural production and environmental\nhealth (Fig. S7 and Fig. 4).\nAmong the 5 perspectives that showed a preference for cultural\nservices, only 2 (Citizen_1 and Township_1) showed an exclusive pri-\noritization for this category. Perspectives such as Village_2 and\nFarmer_3, while primarily showing a prioritization for cultural services,",
+          "bbox": [
+            37.58807373046875,
+            616.809814453125,
+            288.6964416503906,
+            744.9259643554688
+          ]
+        },
+        {
+          "id": "p7-b4-70c605c",
+          "kind": "paragraph",
+          "text": "also indicated a preference for provisioning services (Fig. S7 and Fig. 4).\nSimilarly, of the 11 perspectives that showed a prioritization for\nregulating and supporting services, only 3 (Farmer_2, Citizen_2, and\nCounty_1) exclusively focused on regulating and supporting services.\nPerspectives like Village_3 and County_3, while mainly prioritizing\nregulating or supporting services, also showed a preference for cultural\nservices (Fig. S7 and Fig. 4).\nPerspectives that were broadly similar in some instances still differed\nin the importance assigned to specific services (Table 5). For example,\nthe perspectives of Farmer_1 and County_2 both agreed that profit pro-\nvisioning is very important, but County_2 gave lower importance to\nhuman dietary nutrition provisioning than Farmer_1. Although per-\nspectives Company_2 and Academics_1 had a similar prioritization for\nthe environmental dimension of ESs and provisioning services, they\nhave opposite ranks on the importance of climate regulation service.",
+          "bbox": [
+            306.5924987792969,
+            438.05877685546875,
+            557.677001953125,
+            597.526123046875
+          ]
+        },
+        {
+          "id": "p7-b5-7966ccf",
+          "kind": "heading",
+          "text": "3.5. Farmer attributes related to the different perspectives",
+          "bbox": [
+            306.5924987792969,
+            606.377685546875,
+            501.57061767578125,
+            619.4088134765625
+          ]
+        },
+        {
+          "id": "p7-b6-42e9c8f",
+          "kind": "paragraph",
+          "text": "Among the farmer participants, we found three different perspectives\n(Fig. 3). The farmers with the perspective Farmer_1 (prioritizing provi-\nsioning services and therefore labeled ‘Production’ perspective) were on\naverage older farmers with more experience working on agricultural\nproduction but lower education (Fig. 5 (a), (b) and (d)). We also found\nthat the farmers with the perspective of Farmer_1 tended to have smaller\nfarm areas and lower incomes (Fig. 5 (c), (e) and (f)), and had less non-\nagricultural income compared with farmers with other perspectives.\nFarmers with the perspective Farmer_2 (prioritizing regulating services\nand therefore labeled “Environment’ perspective) were on average\nyounger and had received more education than farmers in the Farmer_1",
+          "bbox": [
+            306.5924987792969,
+            627.2976684570312,
+            557.6848754882812,
+            744.9259643554688
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b8-377c0b1",
+          "kind": "paragraph",
+          "text": "Fig. 3. Different perspectives (x-axis) within each stakeholder group and the average factor scores of each ecosystem service category (y-axis) showing the relative\nimportance of each ES category.",
+          "bbox": [
+            37.587398529052734,
+            406.9800720214844,
+            557.6671142578125,
+            428.2889099121094
+          ]
+        },
+        {
+          "id": "p7-b9-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p7-b10-7902699",
+          "kind": "paragraph",
+          "text": "7",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-c6a0e5d",
+          "kind": "paragraph",
+          "text": "and Farmer_3 groups. Farmers with the perspective Farmer_3 (priori-\ntizing cultural and to a lesser extent provisioning services and labeled\n“Culture” perspective) included more females and more leader farmers\n(Fig. S4 (a) and (b)). The group of farmers having an environment\nperspective (Farmers_2) had diverse roles in the villages and a variety of\nnon-farming occupations besides farming (Fig. S4 (d) and (f)).",
+          "bbox": [
+            37.587398529052734,
+            374.90277099609375,
+            288.6949768066406,
+            440.20416259765625
+          ]
+        },
+        {
+          "id": "p8-b1-54c664c",
+          "kind": "heading",
+          "text": "4. Discussion",
+          "bbox": [
+            37.587398529052734,
+            448.0921936035156,
+            90.1294937133789,
+            461.123291015625
+          ]
+        },
+        {
+          "id": "p8-b2-67e135c",
+          "kind": "paragraph",
+          "text": "This study analyzed the perspectives of stakeholders on the impor-\ntance of ecosystem services (ESs) provisioning in a case study area in the\nNorth China Plain using Q methodology. It introduces a novel applica-\ntion of Q methodology by directly linking the statements to specific ESs,\ndifferentiating our work from traditional approaches. In general, the\nparticipants assigned the highest importance to provisioning services\nand the lowest importance to supporting services in this study. We found\nmost of the respondents regarded scientific and educational value, profit\nprovisioning, water provisioning (irrigation), and air quality as impor-\ntant ecosystem services of agricultural landscapes in Quzhou (Fig. S3 in\nSupplementary Material). Notable differences emerged among stake-\nholder groups, e.g., academics assigned higher importance to supporting\nservices while the companies assigned less importance to cultural ser-\nvices (Fig. 2). There were different perspectives within each stakeholder\ngroup (Fig. 3), and totally we found 18 different perspectives from 7\ndifferent stakeholder groups. While most perspectives showed a com-\nbination of preferences for at least two different ES categories, we also\nobserved similarities across stakeholder groups (Fig. 4 and S7). Five\nperspectives mainly prioritized provisioning services, seven perspectives\nprioritized regulating services and supporting services, and four per-\nspectives prioritized cultural services. This pattern is further confirmed\nby the overarching single Q analysis (Fig. S6 in Supplementary Mate-\nrial). As the main stakeholder group, farmers’ perspectives were asso-\nciated with personal characteristics (age and education, Fig. 5), and with\nfarm and household characteristics (farm size and income, Fig. 5).",
+          "bbox": [
+            37.587398529052734,
+            469.0121154785156,
+            288.6949768066406,
+            733.13330078125
+          ]
+        },
+        {
+          "id": "p8-b3-cc28d40",
+          "kind": "heading",
+          "text": "4.1. Importance of agroecosystem services: Consensus and disagreement",
+          "bbox": [
+            306.5926208496094,
+            374.90277099609375,
+            549.2279663085938,
+            387.9338684082031
+          ]
+        },
+        {
+          "id": "p8-b4-0706044",
+          "kind": "paragraph",
+          "text": "In this study, the perspective of prioritizing agricultural production\n(provisioning services) was held by most of the participants, and this\nperspective was found in all of the stakeholder groups. Increasing the\nprofit of crop production and supplying sufficient dietary nutrients are\nalso local goals for the long term in the policy agenda. Similar to pre-\nvious studies, especially those conducted in areas undergoing rapid\neconomic development, we found that provisioning services were\ngenerally preferred over regulating, cultural and supporting services in\nagricultural landscapes (Wang and Zhao, 2023; Zhang et al., 2020).\nMoreover, there was a consensus among stakeholder groups and par-\nticipants with different perspectives that irrigation water provisioning,\nwater and air quality, and science and educational value are important\nESs in Quzhou. The interviewed stakeholders assigned a low importance\nto preventing climate warming although they were aware that temper-\nature is increasing (Cheng et al., 2023). Farmers may also not be aware\nthat agricultural activities and practices could contribute to climate\nwarming (Madhuri Sharma, 2020) and they stated that they cannot\ncontrol how nature changes. A previous study in China found that\nfarmers have developed adaptive strategies to deal with the impact of\nclimate change like increasing irrigation (Zhai et al., 2018). It suggests\nthat they do not want to suffer the damage from climate change, but they\nare also passive about preventing climate warming since they consider it\nsomething outside their control.\nPursuing mainly provisioning services may decrease the delivery of\ncultural services in agricultural landscapes (Landis, 2017). Prioritization\nof cultural services was a minority perspective in this study. People\nholding this perspective may face more conflicting interests with the\nmajority. As a specific example in the North China Plain, tombs in the\nagricultural landscape, while hindering mechanical operations, hold\nsignificant cultural value. Removing them for land consolidation would\nbe resisted by farmers, particularly older farmers. However, the farmers,\nwhose cultural services are most affected, often have the least power in\ndecision-making processes (Hanaˇcek and Rodríguez-Labajos, 2018).",
+          "bbox": [
+            306.5926208496094,
+            395.8218994140625,
+            557.6842041015625,
+            743.5645751953125
+          ]
+        },
+        {
+          "id": "p8-b5-8c1d9da",
+          "kind": "paragraph",
+          "text": "Table 5\nFactor scores of each perspective within stakeholder groups based on Q analyses.",
+          "bbox": [
+            42.51959991455078,
+            52.53608322143555,
+            300.9979248046875,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p8-b6-20bce1a",
+          "kind": "paragraph",
+          "text": "Perspectives",
+          "bbox": [
+            48.20669937133789,
+            113.39363098144531,
+            88.64659881591797,
+            121.0489273071289
+          ]
+        },
+        {
+          "id": "p8-b7-3dee5b1",
+          "kind": "paragraph",
+          "text": "Provisioning \nservices\nRegulating services\nSupporting services \nCultural services",
+          "bbox": [
+            99.27119445800781,
+            78.65960693359375,
+            495.87237548828125,
+            93.88275909423828
+          ]
+        },
+        {
+          "id": "p8-b8-bf5b4ec",
+          "kind": "paragraph",
+          "text": "Nutrient \nprovisioning",
+          "bbox": [
+            99.29129028320312,
+            111.13020324707031,
+            114.7775650024414,
+            144.3206329345703
+          ]
+        },
+        {
+          "id": "p8-b9-2ca0fca",
+          "kind": "paragraph",
+          "text": "Profit provisioning",
+          "bbox": [
+            125.10079956054688,
+            102.85322570800781,
+            131.66250610351562,
+            152.58767700195312
+          ]
+        },
+        {
+          "id": "p8-b10-ea59002",
+          "kind": "paragraph",
+          "text": "Water regulation",
+          "bbox": [
+            147.93499755859375,
+            105.57182312011719,
+            154.4967041015625,
+            149.8757781982422
+          ]
+        },
+        {
+          "id": "p8-b11-0e9cbaf",
+          "kind": "paragraph",
+          "text": "Air quality",
+          "bbox": [
+            170.76998901367188,
+            113.4228515625,
+            177.33169555664062,
+            142.04566955566406
+          ]
+        },
+        {
+          "id": "p8-b12-5f2ff3c",
+          "kind": "paragraph",
+          "text": "Natural hazards \nregulation",
+          "bbox": [
+            190.5869903564453,
+            105.42396545410156,
+            206.07261657714844,
+            148.43197631835938
+          ]
+        },
+        {
+          "id": "p8-b13-b8b9cc0",
+          "kind": "paragraph",
+          "text": "Water quality",
+          "bbox": [
+            216.48300170898438,
+            109.79733276367188,
+            223.04470825195312,
+            145.6760711669922
+          ]
+        },
+        {
+          "id": "p8-b14-979915c",
+          "kind": "paragraph",
+          "text": "Biological control",
+          "bbox": [
+            239.3179931640625,
+            103.99832916259766,
+            245.87969970703125,
+            151.53787231445312
+          ]
+        },
+        {
+          "id": "p8-b15-9079d73",
+          "kind": "paragraph",
+          "text": "Pollination",
+          "bbox": [
+            262.15301513671875,
+            113.32061767578125,
+            268.7147216796875,
+            142.13307189941406
+          ]
+        },
+        {
+          "id": "p8-b16-09e7b51",
+          "kind": "paragraph",
+          "text": "Climate regulation",
+          "bbox": [
+            285.1619873046875,
+            103.25299072265625,
+            291.72369384765625,
+            152.23806762695312
+          ]
+        },
+        {
+          "id": "p8-b17-539789b",
+          "kind": "paragraph",
+          "text": "Water provisioning",
+          "bbox": [
+            308.22998046875,
+            102.33010864257812,
+            314.79168701171875,
+            153.15707397460938
+          ]
+        },
+        {
+          "id": "p8-b18-aa7291b",
+          "kind": "paragraph",
+          "text": "Soil fertility",
+          "bbox": [
+            331.1090087890625,
+            111.72674560546875,
+            337.67071533203125,
+            143.66387939453125
+          ]
+        },
+        {
+          "id": "p8-b19-5dfc09c",
+          "kind": "paragraph",
+          "text": "Natural habitats of \nfield border",
+          "bbox": [
+            350.92401123046875,
+            101.72151184082031,
+            366.366943359375,
+            152.15017700195312
+          ]
+        },
+        {
+          "id": "p8-b20-aa25feb",
+          "kind": "paragraph",
+          "text": "Natural habitats \nwithin fields",
+          "bbox": [
+            373.802978515625,
+            105.24375915527344,
+            389.28863525390625,
+            148.60678100585938
+          ]
+        },
+        {
+          "id": "p8-b21-becc936",
+          "kind": "paragraph",
+          "text": "Agricultural \ntourism",
+          "bbox": [
+            396.81298828125,
+            110.07008361816406,
+            412.298583984375,
+            143.79527282714844
+          ]
+        },
+        {
+          "id": "p8-b22-a2bbeb3",
+          "kind": "paragraph",
+          "text": "Scientific and \neducational value",
+          "bbox": [
+            419.69097900390625,
+            104.71162414550781,
+            435.17596435546875,
+            150.79315185546875
+          ]
+        },
+        {
+          "id": "p8-b23-97b183f",
+          "kind": "paragraph",
+          "text": "Aesthetic value",
+          "bbox": [
+            445.58697509765625,
+            107.39715576171875,
+            452.148681640625,
+            148.0383758544922
+          ]
+        },
+        {
+          "id": "p8-b24-28f36ce",
+          "kind": "paragraph",
+          "text": "Belonging value",
+          "bbox": [
+            468.46600341796875,
+            106.09735107421875,
+            475.0277099609375,
+            149.30747985839844
+          ]
+        },
+        {
+          "id": "p8-b25-ab9ba8f",
+          "kind": "paragraph",
+          "text": "Self-identity value",
+          "bbox": [
+            491.3590087890625,
+            103.4390869140625,
+            497.92071533203125,
+            152.0632781982422
+          ]
+        },
+        {
+          "id": "p8-b26-1329cd2",
+          "kind": "paragraph",
+          "text": "Social relations",
+          "bbox": [
+            514.2369995117188,
+            107.35335540771484,
+            520.7987060546875,
+            148.03787231445312
+          ]
+        },
+        {
+          "id": "p8-b27-672c1c5",
+          "kind": "paragraph",
+          "text": "Spiritual value",
+          "bbox": [
+            537.114990234375,
+            108.47940063476562,
+            543.6766967773438,
+            146.94607543945312
+          ]
+        },
+        {
+          "id": "p8-b28-81f548d",
+          "kind": "paragraph",
+          "text": "Farmer_1\n5\n5\n3\n3\n4\n3\n3\n2\n2\n4\n3\n1\n2\n1\n4\n2\n3\n3\n4\n3",
+          "bbox": [
+            55.6431999206543,
+            160.48277282714844,
+            541.9945068359375,
+            167.0444793701172
+          ]
+        },
+        {
+          "id": "p8-b29-4a4db67",
+          "kind": "paragraph",
+          "text": "Farmer_2\n2\n3\n3\n5\n4\n5\n3\n3\n2\n3\n4\n2\n2\n1\n4\n3\n3\n3\n4\n1",
+          "bbox": [
+            55.6431999206543,
+            170.8939666748047,
+            541.9945068359375,
+            177.45567321777344
+          ]
+        },
+        {
+          "id": "p8-b30-3588331",
+          "kind": "paragraph",
+          "text": "Farmer_3\n3\n4\n2\n3\n2\n3\n2\n1\n1\n3\n3\n2\n3\n3\n4\n5\n4\n4\n5\n3",
+          "bbox": [
+            55.6431999206543,
+            181.31927490234375,
+            541.9945068359375,
+            187.8809814453125
+          ]
+        },
+        {
+          "id": "p8-b31-9e3eaaa",
+          "kind": "paragraph",
+          "text": "Academics_1\n3\n4\n3\n3\n3\n4\n4\n3\n1\n5\n5\n2\n3\n2\n4\n3\n2\n3\n2\n1",
+          "bbox": [
+            50.56850051879883,
+            191.7752685546875,
+            541.9945068359375,
+            198.33697509765625
+          ]
+        },
+        {
+          "id": "p8-b32-6c4b4b7",
+          "kind": "paragraph",
+          "text": "Academics_2\n3\n5\n2\n2\n3\n3\n3\n2\n2\n3\n3\n3\n1\n1\n4\n3\n4\n4\n5\n4",
+          "bbox": [
+            50.56850051879883,
+            202.18626403808594,
+            541.9945068359375,
+            208.7479705810547
+          ]
+        },
+        {
+          "id": "p8-b33-9349da1",
+          "kind": "paragraph",
+          "text": "County_1\n3\n2\n4\n5\n3\n4\n5\n2\n3\n3\n4\n3\n3\n1\n4\n3\n3\n2\n2\n1",
+          "bbox": [
+            55.467899322509766,
+            212.59727478027344,
+            541.9945068359375,
+            219.1589813232422
+          ]
+        },
+        {
+          "id": "p8-b34-86403c1",
+          "kind": "paragraph",
+          "text": "County_2\n3\n4\n3\n3\n3\n5\n2\n2\n2\n5\n3\n1\n3\n3\n4\n4\n3\n4\n2\n1",
+          "bbox": [
+            55.467899322509766,
+            223.05227661132812,
+            541.9945068359375,
+            229.61398315429688
+          ]
+        },
+        {
+          "id": "p8-b35-a72a64a",
+          "kind": "paragraph",
+          "text": "County_3\n2\n2\n3\n5\n4\n5\n3\n2\n4\n3\n3\n1\n1\n2\n3\n4\n4\n3\n3\n3",
+          "bbox": [
+            55.467899322509766,
+            233.46426391601562,
+            541.9945068359375,
+            240.02597045898438
+          ]
+        },
+        {
+          "id": "p8-b36-829df9b",
+          "kind": "paragraph",
+          "text": "Village_1\n3\n4\n3\n4\n4\n5\n3\n2\n2\n5\n3\n1\n2\n1\n4\n3\n3\n3\n3\n2",
+          "bbox": [
+            55.467899322509766,
+            243.874267578125,
+            541.9945068359375,
+            250.43597412109375
+          ]
+        },
+        {
+          "id": "p8-b37-7ef38be",
+          "kind": "paragraph",
+          "text": "Village_2\n3\n4\n3\n4\n2\n3\n3\n2\n1\n4\n2\n3\n2\n5\n4\n5\n3\n3\n3\n1",
+          "bbox": [
+            55.467899322509766,
+            254.32928466796875,
+            541.9945068359375,
+            260.8909912109375
+          ]
+        },
+        {
+          "id": "p8-b38-7378cda",
+          "kind": "paragraph",
+          "text": "Village_3\n3\n3\n2\n3\n3\n3\n4\n3\n1\n4\n2\n4\n3\n1\n2\n5\n3\n4\n5\n2",
+          "bbox": [
+            55.467899322509766,
+            264.7402648925781,
+            541.9945068359375,
+            271.3019714355469
+          ]
+        },
+        {
+          "id": "p8-b39-e266615",
+          "kind": "paragraph",
+          "text": "Citizen_1\n3\n3\n3\n5\n3\n4\n4\n1\n1\n3\n2\n2\n3\n3\n2\n4\n2\n5\n3\n4",
+          "bbox": [
+            55.6431999206543,
+            275.1512756347656,
+            541.9945068359375,
+            281.7129821777344
+          ]
+        },
+        {
+          "id": "p8-b40-de5e738",
+          "kind": "paragraph",
+          "text": "Citizen_2\n3\n3\n3\n4\n4\n4\n4\n2\n2\n3\n3\n2\n3\n1\n2\n3\n5\n5\n3\n1",
+          "bbox": [
+            55.6431999206543,
+            285.6072692871094,
+            541.9945068359375,
+            292.1689758300781
+          ]
+        },
+        {
+          "id": "p8-b41-c27422f",
+          "kind": "paragraph",
+          "text": "Citizen_3\n4\n3\n3\n5\n4\n3\n3\n2\n2\n3\n3\n4\n2\n1\n5\n3\n2\n3\n4\n1",
+          "bbox": [
+            55.6431999206543,
+            296.0182800292969,
+            541.9945068359375,
+            302.5799865722656
+          ]
+        },
+        {
+          "id": "p8-b42-a62bacd",
+          "kind": "paragraph",
+          "text": "Company_1\n3\n4\n3\n3\n3\n4\n5\n2\n3\n4\n4\n2\n3\n2\n5\n2\n3\n3\n1\n1",
+          "bbox": [
+            52.36249923706055,
+            306.4432678222656,
+            541.9945068359375,
+            313.0049743652344
+          ]
+        },
+        {
+          "id": "p8-b43-7da71b1",
+          "kind": "paragraph",
+          "text": "Company_2\n3\n4\n3\n4\n4\n5\n4\n3\n5\n3\n3\n3\n3\n1\n2\n1\n2\n2\n2\n3",
+          "bbox": [
+            52.36249923706055,
+            316.89825439453125,
+            541.9945068359375,
+            323.4599609375
+          ]
+        },
+        {
+          "id": "p8-b44-7bd025f",
+          "kind": "paragraph",
+          "text": "Township_1\n1\n4\n3\n3\n2\n4\n2\n3\n2\n4\n3\n2\n3\n5\n4\n5\n3\n3\n3\n1",
+          "bbox": [
+            52.01239776611328,
+            327.3102722167969,
+            541.9945068359375,
+            333.8719787597656
+          ]
+        },
+        {
+          "id": "p8-b45-178d59b",
+          "kind": "paragraph",
+          "text": "Township_2\n3\n4\n4\n3\n3\n3\n3\n3\n3\n5\n3\n1\n2\n1\n2\n4\n4\n5\n2\n2",
+          "bbox": [
+            52.01239776611328,
+            337.9832763671875,
+            541.9945068359375,
+            344.54498291015625
+          ]
+        },
+        {
+          "id": "p8-b46-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p8-b47-2c62423",
+          "kind": "paragraph",
+          "text": "8",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        },
+        {
+          "id": "p8-figure1",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p8-figure1.png",
+          "alt": "Original source page 8, graphic 1",
+          "caption": "原文第8页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-bc93848",
+          "kind": "paragraph",
+          "text": "Thus, it is important for policy or decision-makers to realize such power\nasymmetry among the stakeholders while making decisions for land use\nchange and planning, instead of only focusing on major perspectives.\nCertain patterns reveal ecosystem services demand bundles: e.g.,\nurban visitors favored cultural services (e.g., aesthetics, leisure), while\nrural farmers preferred provisioning services (e.g., agricultural pro-\nduction, timber) (Zoderer et al., 2019). Our study also demonstrated\nthat people hold different perspectives showing a preference for\ndifferent (combinations of) ES categories. Like previous studies, we\nfound that within the population of farmers, the perspectives towards\nESs were quite diverse (Teixeira et al., 2018). We observed differences in\npreferences among stakeholder groups. However, unlike a previous\nstudy (Zhang et al., 2020) where experts prioritized regulating services\nand farmers prioritized provisioning services in a typical Karst basin, our\nstudy found both farmers and experts placed greater importance on\nprovisioning services. The possible reason is that the case study area is a\ncounty that mostly relies on the rural population and agricultural pro-\nduction and is located in the main crop production area.\nGender, age, and education have often been found to be important\nfactors in understanding people’s perceptions of ESs (Lima and Bastos,\n2019). In this study, we provided further evidence similar to previous\nstudies that the farmers who prioritized agroecosystem regulating and\nsupporting services were younger (Maas et al., 2021), higher-educated\nor larger-scale farm farmers (Teixeira et al., 2018). We found no evi-\ndence\nthat\nfarmers’\nperspectives\nhave\na\nstatistically\nsignificant",
+          "bbox": [
+            37.587398529052734,
+            479.8417663574219,
+            288.6949462890625,
+            743.962890625
+          ]
+        },
+        {
+          "id": "p9-b1-1f64203",
+          "kind": "paragraph",
+          "text": "association with gender which could be expected since the number of\nfemale participants was limited. To promote Agriculture Green Develop-\nment in the North China Plain, recommendations or interventions should\nbe tailored to farmers with diverse perspectives. For example, for older\nfarmers who prioritize traditional provisioning services, it is essential to\nfocus on improving economic returns from current cropping systems\nwhile preserving cultural traditions. In contrast, younger, more\neducated farmers are more likely to support transitioning to ecological\nand multifunctional cropping systems and landscapes. This shift requires\ntargeted professional training in modern agronomic technologies, along\nwith strong policy support from government bodies and research\ninstitutions.",
+          "bbox": [
+            306.5926208496094,
+            479.8417663574219,
+            557.6827392578125,
+            607.9579467773438
+          ]
+        },
+        {
+          "id": "p9-b2-a8e62a1",
+          "kind": "heading",
+          "text": "4.2. Different perspectives of academics",
+          "bbox": [
+            306.5926208496094,
+            616.810302734375,
+            441.5351867675781,
+            629.8414306640625
+          ]
+        },
+        {
+          "id": "p9-b3-747274e",
+          "kind": "paragraph",
+          "text": "Integrating semi-natural habitats could support beneficial insect\npopulations and stimulate the provisioning of ESs like biological control\nand pollination in intensively used, simplified agricultural landscapes\nlike those of Quzhou (Holland et al., 2017). We found that, however,\nexcept for the academics, stakeholders assigned less importance to\nsupporting services associated with maintaining semi-natural habitats\nwithin fields or on the field borders. Interestingly, still more than 30 % of\nthe respondents, especially some non-farming stakeholder groups such\nas citizens, county governmental staff and companies found the bio-\nlogical control service important. Similar to previous studies (e.g., Maas",
+          "bbox": [
+            306.5926208496094,
+            637.7294311523438,
+            557.6818237304688,
+            744.926513671875
+          ]
+        },
+        {
+          "id": "p9-figure1",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p9-figure1.png",
+          "alt": "Original source page 9, graphic 1",
+          "caption": "原文第9页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p9-b5-f44e101",
+          "kind": "paragraph",
+          "text": "Fig. 4. Qualitative illustration of the similarity of perspectives based on ES category preferences. The points in the figure represent the perspectives, with different\ncolors indicating the stakeholder groups. The ellipses, also in different colors, represent the ecosystem service (ES) categories that are the priority for certain per-\nspectives. Points located at the vertices of the triangle indicate perspectives that show an exclusive priority for the corresponding ES category, represented by a darker\ncolor. Points positioned along the line connecting two vertices show that these perspectives prioritize both ES categories (indicated by a lighter color), but one is\nrelatively more preferred. For example, “C > P” means that both cultural and provisioning services scored >50 for the scaled average score, but cultural services are\npreferred over provisioning services by stakeholders with the perspectives Village_2 and Farmer_3. S/R indicates the largest value assigned for either supporting or\nregulating services.",
+          "bbox": [
+            37.587398529052734,
+            401.028076171875,
+            557.6751098632812,
+            470.12847900390625
+          ]
+        },
+        {
+          "id": "p9-b6-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p9-b7-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            296.21002197265625,
+            754.4534301757812,
+            301.6678771972656,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-7a88f85",
+          "kind": "paragraph",
+          "text": "et al., 2021), we found that scientists tended to give more importance to\nnatural habitats and related ESs than farmers.\nHowever, the questions would be: even if developing more semi-\nnatural habitats in simplified agricultural landscapes is necessary, why\ndo people underestimate the importance of semi-natural habitats, and\nwhat will be the potential roadblocks for developing more semi-natural\nhabitats? Currently, people perceive natural habitats as causing diffi-\nculties in mechanical operations and negative effects on the yield for the\ncrops by the field edges where the windbreaks or hedgerows grow.\nLacking knowledge and understanding regarding the relationship be-\ntween semi-natural habitats and ecosystem services like biological\ncontrol makes that people do not acknowledge the benefits of semi-\nnatural habitats, and farmers would perceive even mainly the disad-\nvantages (Salliou and Barnaud, 2017). Importantly, the perceived costs\nand potential yield losses associated with establishing more semi-natural\nhabitats discourage many stakeholders, especially farmers, as there is a\nlack of supportive policies or subsidies in place at the local level (Pe’er\net al., 2017).",
+          "bbox": [
+            37.587398529052734,
+            467.7657470703125,
+            288.693359375,
+            658.58349609375
+          ]
+        },
+        {
+          "id": "p10-b1-09dff77",
+          "kind": "heading",
+          "text": "4.3. Limitations",
+          "bbox": [
+            37.587398529052734,
+            669.13671875,
+            92.71259307861328,
+            682.1678466796875
+          ]
+        },
+        {
+          "id": "p10-b2-012e2f2",
+          "kind": "paragraph",
+          "text": "We attempted in this study to cover different types of stakeholders\n(stakeholder groups), however, citizens were underrepresented. Due to\ntime and budget constraints, citizen sampling might lack precision, not\nencompassing the full spatial and typological spectrum. Despite the fe-\nmale farmers’ involvement in agricultural production, their decision-",
+          "bbox": [
+            37.587398529052734,
+            690.0557861328125,
+            288.693359375,
+            744.926025390625
+          ]
+        },
+        {
+          "id": "p10-b3-9225d39",
+          "kind": "paragraph",
+          "text": "making independence is often lower than that of males (Ge et al.,\n2023), and some of them did not want to represent their households to\nparticipate in the survey so we interviewed relatively few females in this\nstudy. The perception of female and male farmers could be different, for\nexample, females tend to assign more importance to regulating services\nand sustainability than males (Mponela et al., 2023). Since female per-\nspectives in decision-making were often neglected (Rola-Rubzen et al.,\n2020), studying the divergent demands of female and male farmers on\nthe importance of ESs is pivotal in future studies for advancing agri-\ncultural sustainability with a more gender-sensitive approach.\nUnlike traditional Q methodology with small samples of participants,\nour large sample case showed that a large proportion of the farmers were\nnot assigned to certain perspectives (Fig. 5). The formulation of the\nstatement did not engage with stakeholders. The elicited perspectives\nthus might not cover all possible viewpoints existing in the whole pop-\nulation in reality (Sneegas et al., 2021). Nevertheless, Q methodology\nwas found to be useful for capturing and understanding the different\nperspectives on ESs importance in this study. It stimulated expressing\nopinions when people hesitated to speak openly about a certain topic.\nBased on our experience, stakeholders’ thoughts were more deliberate\nwhile they participated in Q sorting and they could rank the ESs\nimportance with gradients.\nThis study analyzed certain factors influencing people’s preference\nfor ecosystem services. However, the preferences can be influenced by\nmany factors other than personal, farm and household characteristics\nused in this study. Some intrinsic factors or psychological factors, e.g.,",
+          "bbox": [
+            306.5926208496094,
+            467.7657470703125,
+            557.6858520507812,
+            742.2615966796875
+          ]
+        },
+        {
+          "id": "p10-figure1",
+          "kind": "image",
+          "path": "library/cheng-2025/f21e6a1550fe/p10-figure1.png",
+          "alt": "Original source page 10, graphic 1",
+          "caption": "原文第10页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p10-b5-7373b4e",
+          "kind": "paragraph",
+          "text": "Fig. 5. Personal and household/farm characteristics of farmers for each perspective. The x-axis represents in each panel the four different perspectives of farmers.\nProduction perspective (Farmer_1) indicates a priority for provisioning services; Environment perspective (Farmer_2) indicates a priority for regulating services;\nCulture perspective (Farmer_3) indicates a priority for cultural and provisioning services. Here we define a perspective prioritizing certain ESs categories when the\nscale average scores were higher than 50. Farmers not assigned to any specific perspective are categorized as “Ungrouped”. Significant differences in characteristics\namong farmer groups are indicated: * p < 0.05; ** p < 0.01; *** p < 0.001.",
+          "bbox": [
+            37.587398529052734,
+            408.0010681152344,
+            557.6778564453125,
+            457.9961853027344
+          ]
+        },
+        {
+          "id": "p10-b6-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p10-b7-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            294.41998291015625,
+            754.4534301757812,
+            303.467529296875,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-a343192",
+          "kind": "paragraph",
+          "text": "belief, personality, worldview, and awareness, were not included in this\nstudy, but they may also affect people’s preferences for ESs (Peter et al.,\n2022).\nQuzhou County is a prototypical agricultural production zone within\nthe North China Plain, where stakeholder perspectives are predomi-\nnantly centered on production functionality. This specific focus raises\nquestions regarding the external validity of our findings, i.e., the ability\nto generalize our findings in a study to other locations, times, and par-\nticipants (Roe and Just, 2009). To address this, future research should\nextend to other socio-ecological regions, allowing for a comparative\nanalysis of our results against those from other contexts to better un-\nderstand the broader applicability and potential limitations of Q meth-\nodology, which could also ensure a more comprehensive understanding\nof the preferences for multiple ESs beyond agricultural productivity.\nInternal validity is concerned with the believability of the results\n(Streiner, 2020). In Q methodology studies, internal validity can refer to\nthe transparency in selecting statements and participants, following\nrecommended steps to minimize subjectivity, etc. (Zabala et al., 2018),\nwhich is what we have done in our study. We also conducted several\nanalyses to probe into the robustness of our results, but we did not\nspecifically validate the results through additional data collection within\nthe study area. Future studies could explore ways to further validate the\nresults of Q methodology. For example, one approach, as suggested by\nWebler et al. (2009), involves having participants self-validate the per-\nspectives identified after the Q analysis. In that regard, focus group\ndiscussions could be valuable for validating patterns of perspectives\nwithin specific groups, and discussing potential conflicts and areas of\nconsensus (Cuppen et al., 2010). While such mixed approaches seem\npromising for a deeper understanding of the perspectives elicited by Q\nmethodology, they also pose some practical limitations. First and fore-\nmost, analyzing the data, constructing the perspectives, and visualizing\nthe results all take time, so it would almost certainly require a follow-up\nmeeting at a much later point with the participants. Post-hoc interviews\nwith participants seem more feasible and may also help to gain deeper\ninsights into the reasoning behind their perspectives, though it would\nnot be possible to directly discuss the perspectives with the participants.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            288.6949768066406,
+            430.45013427734375
+          ]
+        },
+        {
+          "id": "p11-b1-8822332",
+          "kind": "heading",
+          "text": "4.4. Implications and outlook",
+          "bbox": [
+            37.587398529052734,
+            439.0188293457031,
+            138.86744689941406,
+            452.0499267578125
+          ]
+        },
+        {
+          "id": "p11-b2-13352d2",
+          "kind": "paragraph",
+          "text": "Our study contributes to the literature that used Q methodology to\nmap consensus and dissensus on ES provision. Previous studies have\nemployed similar techniques to rank the importance of ESs in various\ncontexts, such as in wetland ecosystems (Mahlalela et al., 2022), coastal\nlagoon ecosystems (Sy et al., 2018), wildlife management (Bredin et al.,\n2015), but this study gives the first evidence in the context of intensively\nmanaged agricultural landscapes. Methodologically, this study inno-\nvated by incorporating a visual approach during Q sorting practices,\nwhich enhances participants’ comprehension of the statements. Addi-\ntionally, we adopted a multiple-step approach to compare the perspec-\ntives from diverse stakeholder groups, ensuring a comprehensive\nunderstanding of the varying views on the importance of ESs. We\nanticipate that these methodological advancements expand the appli-\ncability of Q methodology in agricultural science.\nIt has been well recognized that a “One-size-fits-all” policy would not\nmeet the different demands for landscape management from stake-\nholders. This analysis aims to contribute to integrating the stakeholders’\npreferences into future agricultural landscape redesigning and planning\naimed at enhancing multifunctionality. The Q methodology results can\nassist the process in two ways: 1) engaging the stakeholders while un-\nderstanding the difference of their perspectives and 2) setting clear\nprioritized goals based on stakeholders’ perspectives.\nIntegrating stakeholders’ participation is one of the key elements for\nthe landscape approach to improve the sustainability in landscapes with\nland uses that result in conflicting outcomes (Sayer et al., 2013).\nAlthough the diversity of the perspectives provides a challenge for\npolicymaking, the results from Q methodology can give a better",
+          "bbox": [
+            37.587398529052734,
+            459.93792724609375,
+            288.693359375,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p11-b3-73ac7e2",
+          "kind": "paragraph",
+          "text": "comprehension of what the different perspectives are about. Policy-\nmakers can tailor communication strategies to engage stakeholders with\ndistinct views effectively (Maas et al., 2021). Coupled with other\npossible participatory methods, Q methodology can also be used to\nmonitor the changes in stakeholders’ demands along the projects’\nprogress (Andreotti et al., 2023). However, it is necessary for stake-\nholders to understand concretely how their decision will impact the\nlandscape and thus their livelihoods and well-being. The outcomes and\ntrade-offs of the ecosystem services supply from agricultural landscapes\nneed to be well-informed for stakeholders in different policy scenarios\n(Bernues et al., 2019). We also suggest that future studies complement Q\nmethodology with deep interviews or focus groups for participants to\nself-validate their perspectives.\nTo co-design farming systems and landscapes beyond economic\ngoals, diverse stakeholder preferences necessitate additional objectives\n(Meynard et al., 2012). With people’s preferences for ESs, decision-\nmakers could identify the essential action points in the next step to\nimprove the ESs with higher importance and allocate resources effi-\nciently for maintaining human well-being and agricultural landscape\nsustainability (Smith and Sullivan, 2014). Multi-criteria Decision Anal-\nysis (MCDA) techniques could be used to prioritize ecosystem services\nbased on stakeholders’ preferences, such as Analytic Network Process\n(ANP) method (Parra-L´opez et al., 2008; 2009). These techniques can\nweigh indicators based on stakeholders’ preferences for ecosystem ser-\nvices to translate the multitude of science-based indicators into a more\ntangible set of indicators, which may better align with the needs and\nperceptions of nonscientist stakeholders such as citizens, resource\nmanagers, and policymakers (Groot and Rossing, 2011). The other way\naround, stakeholders’ preferences can also be translated into specific\nscience-based indicators for long-term monitoring and informing ESs\nmanagement. The MCDA methodologies can further be used to calculate\nthe priorities of each individual ecosystem service based on the scores\nfrom Q methodology in this study. It will be useful for future decision-\nmaking if the preferences for ESs can be linked with measurable in-\ndicators or management and policy options or alternatives (Parra-L´opez\net al., 2008). However, it is also worth noting that the multi-criteria\ndecision-making approach can never give the “right answer” for\ndecision-making, it is only to inform the decision-making process and to\nprovide a structured way of thinking (Belton and Stewart, 2002). To\ndetermine the real priorities for enhancing ESs in certain areas, partic-\nipatory decision-making with multiple stakeholders for certain projects\nis necessary.",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            557.6834716796875,
+            493.2082824707031
+          ]
+        },
+        {
+          "id": "p11-b4-c6e7582",
+          "kind": "heading",
+          "text": "5. Conclusions",
+          "bbox": [
+            306.5926208496094,
+            501.7769775390625,
+            364.4659118652344,
+            514.80810546875
+          ]
+        },
+        {
+          "id": "p11-b5-11bb984",
+          "kind": "paragraph",
+          "text": "This study revealed that while most stakeholders considered provi-\nsioning services as the most important, they also recognized the signif-\nicance of non-provisioning services such as water quality, air quality,\nand scientific and educational value. The perspectives on the relative\nimportance of ecosystem services (ESs) varied significantly both among\nand within stakeholder groups. Generally, stakeholders’ preferences\nshowed a combination of at least two ES categories, with notable simi-\nlarities across stakeholder groups. Five perspectives primarily showed\nthe preferences for provisioning services, seven showed the preferences\nfor regulating and supporting services, and four showed the preferences\nfor cultural services. Although the existence of diverse and complex\nperspectives makes it challenging to find a unified goal for all stake-\nholders, our research helps identify similar perspectives among different\nstakeholders, which can be a foundational basis for future collaboration\nand setting specific goals.\nThe findings on the relationship between farmers’ preferences and\ncharacteristics highlight the importance of targeted interventions and\npolicies that enhance agroecosystem services in line with farmers’\npreferences. Specifically, there should be an emphasis on traditional\nprovisioning\nservices\nfor\nolder\nfarmers,\nwhile\nprioritizing\nnon-\nprovisioning services for younger generations. However, scientists",
+          "bbox": [
+            306.5926208496094,
+            522.6968994140625,
+            557.6858520507812,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p11-b6-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p11-b7-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            294.41998291015625,
+            754.4534301757812,
+            303.467529296875,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-7cb4a3e",
+          "kind": "paragraph",
+          "text": "must also remain mindful of potential conflicts and challenges when\npromoting regulating and supporting services.\nBased on a case study, we applied an adapted Q methodology mainly\nto show its abilities to uncover diverse stakeholder perspectives.\nAwareness of different perspectives within and among different stake-\nholder groups is the first step to facilitating open and effective\ncommunication while co-designing for more sustainable and multi-\nfunctional agricultural landscapes. In future agricultural landscape\nplanning and redesigning projects, we hope Q methodology can also aid\nthe establishment of clear, prioritized objectives for agricultural land-\nscape multifunctional development in different socioecological contexts.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            288.6949768066406,
+            168.92803955078125
+          ]
+        },
+        {
+          "id": "p12-b1-75794fc",
+          "kind": "paragraph",
+          "text": "CRediT authorship contribution statement",
+          "bbox": [
+            37.587398529052734,
+            178.6300506591797,
+            199.52548217773438,
+            191.66116333007812
+          ]
+        },
+        {
+          "id": "p12-b2-f401788",
+          "kind": "paragraph",
+          "text": "Jiali Cheng: Writing – review & editing, Writing – original draft,\nVisualization, Investigation, Formal analysis, Data curation. Andries\nRichter: Writing – review & editing, Supervision, Conceptualization.\nWen-Feng Cong: Writing – review & editing, Supervision, Resources,\nFunding acquisition. Zhan Xu: Investigation, Data curation. Zhengyuan\nLiang: Investigation, Data curation. Chaochun Zhang: Supervision,\nResources. Fusuo Zhang: Supervision, Resources, Project administra-\ntion. Wopke van der Werf: Writing – review & editing, Supervision,\nConceptualization. Jeroen C.J. Groot: Writing – review & editing, Su-\npervision, Conceptualization.",
+          "bbox": [
+            37.587398529052734,
+            199.54995727539062,
+            288.70452880859375,
+            306.6903991699219
+          ]
+        },
+        {
+          "id": "p12-b3-9c53d09",
+          "kind": "paragraph",
+          "text": "Declaration of competing interest",
+          "bbox": [
+            37.587398529052734,
+            322.11895751953125,
+            166.17379760742188,
+            335.1500549316406
+          ]
+        },
+        {
+          "id": "p12-b4-903ea50",
+          "kind": "paragraph",
+          "text": "None.",
+          "bbox": [
+            49.54892349243164,
+            343.0380859375,
+            70.28712463378906,
+            356.0691833496094
+          ]
+        },
+        {
+          "id": "p12-b5-c9015d5",
+          "kind": "heading",
+          "text": "Acknowledgements",
+          "bbox": [
+            37.587398529052734,
+            365.7720031738281,
+            111.43037414550781,
+            378.8031005859375
+          ]
+        },
+        {
+          "id": "p12-b6-6ecb6d1",
+          "kind": "paragraph",
+          "text": "We acknowledge all the stakeholders who participated in this study.\nWe acknowledge colleagues who participated in the Q sorting, survey\nand data entry. We acknowledge Xueqin Zhu and Carl Timler who\nprovided suggestions for the stakeholder analysis and Q methodology.\nWe acknowledge Yang Zhou who provided the graphical design. This\nstudy was financially supported by the China Scholarship Council (No.\n201913043), Hainan University, the Program of Advanced Discipline\nConstruction in Beijing (Agriculture Green Development), and the Na-\ntional\nKey\nResearch\nand\nDevelopment\nProgram\nof\nChina\n(2022YFD1900200).",
+          "bbox": [
+            37.587398529052734,
+            386.69189453125,
+            288.6917419433594,
+            493.83233642578125
+          ]
+        },
+        {
+          "id": "p12-b7-c09b53c",
+          "kind": "paragraph",
+          "text": "Appendix A. Supplementary data",
+          "bbox": [
+            37.587398529052734,
+            503.534423828125,
+            166.21206665039062,
+            516.5655517578125
+          ]
+        },
+        {
+          "id": "p12-b8-4c1fce7",
+          "kind": "paragraph",
+          "text": "Supplementary data to this article can be found online at https://doi.\norg/10.1016/j.agsy.2024.104187.",
+          "bbox": [
+            37.587398529052734,
+            524.4542846679688,
+            288.6606750488281,
+            547.9166870117188
+          ]
+        },
+        {
+          "id": "p12-b9-188a992",
+          "kind": "heading",
+          "text": "Data availability",
+          "bbox": [
+            37.587398529052734,
+            555.8046875,
+            101.09555053710938,
+            568.8358154296875
+          ]
+        },
+        {
+          "id": "p12-b10-d09999d",
+          "kind": "paragraph",
+          "text": "Data and R script used in the analyses are available from the corre-\nsponding authors on request.",
+          "bbox": [
+            37.587398529052734,
+            576.7811889648438,
+            288.6662902832031,
+            600.2435913085938
+          ]
+        },
+        {
+          "id": "p12-b11-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            37.587398529052734,
+            609.9463500976562,
+            78.80078125,
+            622.9774780273438
+          ]
+        },
+        {
+          "id": "p12-b12-06d7656",
+          "kind": "paragraph",
+          "text": "Andreotti, F., Neher, C.M., Speelman, E.N., Bazile, D., 2023. Exploring farmers’\nperspectives on agrobiodiversity management: future options for quinoa smallholder\norganizations in the Peruvian high Andes. Agron. Sustain. Dev. 43, 42. https://doi.\norg/10.1007/s13593-023-00891-y.\nArmatas, C.A., Campbell, R.M., Watson, A.E., Borrie, W.T., Christensen, N., Venn, T.J.,\n2018. An integrated approach to valuation and tradeoff analysis of ecosystem\nservices for national forest decision-making. Ecosyst. Serv. 33, 1–18. https://doi.\norg/10.1016/j.ecoser.2018.07.007.\nBelton, V., Stewart, T., 2002. Multiple Criteria Decision Analysis: An Integrated\nApproach. Springer Science & Business Media.\nBernues, A., Alfnes, F., Clemetsen, M., Eik, L.O., Faccioni, G., Ramanzin, M., Ripoll-\nBosch, R., Rodriguez-Ortega, T., Sturaro, E., 2019. Exploring social preferences for\necosystem services of multifunctional agriculture across policy scenarios. Ecosyst.\nServ. 39, 101002 doi:10/ggkkw7.",
+          "bbox": [
+            37.587398529052734,
+            630.1704711914062,
+            286.69635009765625,
+            744.228271484375
+          ]
+        },
+        {
+          "id": "p12-b13-6862bd9",
+          "kind": "paragraph",
+          "text": "Borcard, D., Gillet, F., Legendre, P., 2011. Unconstrained ordination. In: Borcard, D.,\nGillet, Francois, Legendre, P. (Eds.), Numerical Ecology with R. Springer, New York,\nNY, pp. 115–151. https://doi.org/10.1007/978-1-4419-7976-6_5.\nBredin, Y.K., Lindhjem, H., van Dijk, J., Linnell, J.D.C., 2015. Mapping value plurality\ntowards ecosystem services in the case of Norwegian wildlife management: a Q\nanalysis. Ecol. Econ. 118, 198–206. https://doi.org/10.1016/j.\necolecon.2015.07.005.\nBreyne, J., Dufrˆene, M., Mar´echal, K., 2021. How integrating “socio-cultural values” into\necosystem services evaluations can give meaning to value indicators. Ecosyst. Serv.\n49, 101278. https://doi.org/10.1016/j.ecoser.2021.101278.\nBrown, S.R., 1980. Political Subjectivity: Applications of Q Methodology in Political\nScience.\nBryer, J., Speerschneider, K., Bryer, M.J., 2016. Package ‘likert.’ Likert Anal. Vis. Likert\nItems 13 5Computer Softw. Available Online HttpsCRAN R-Proj. Orgpackage Likert\nAccessed Dec. 31 2016.\nBuchel, S., Frantzeskaki, N., 2015. Citizens’ voice: a case study about perceived\necosystem services by urban park users in Rotterdam, the Netherlands. Ecosyst. Serv.\n12, 169–177. https://doi.org/10.1016/j.ecoser.2014.11.014.\nBulkeley, H., Mol, A.P.J., 2003. Participation and environmental governance: consensus,\nambivalence and debate. Environ. Values 12, 143–154. https://doi.org/10.3197/\n096327103129341261.\nChen, Y., Zhang, Q., Liu, W., Yu, Z., 2017. Analyzing farmers’ perceptions of ecosystem\nservices and PES schemes within agricultural landscapes in Mengyin County, China:\ntransforming trade-offs into synergies. Sustainability 9, 1459. https://doi.org/\n10.3390/su9081459.\nCheng, J., Xu, Z., Liang, Z., Li, F., Cong, W.-F., Zhang, C., Song, L., Wang, C., Zhang, F.,\nRichter, A., van der Werf, W., Groot, J.C.J., 2023. Farmers perceive diminishing\necosystem services, but overlook dis-services in intensively used agricultural\nlandscapes in the North China Plain. J. Environ. Manag. 347, 119060. https://doi.\norg/10.1016/j.jenvman.2023.119060.\nCiftcioglu, G.C., 2021. The social valuation of agro-ecosystem services at different scales:\na case study from Kyrenia (Girne) Region of Northern Cyprus. Environ. Dev. 100645.\nhttps://doi.org/10.1016/j.envdev.2021.100645.\nCliff, N., 1988. The eigenvalues-greater-than-one rule and the reliability of components.\nPsychol. Bull. 103, 276. https://doi.org/10.1037/0033-2909.103.2.276.\nCuppen, E., Breukers, S., Hisschem¨oller, M., Bergsma, E., 2010. Q methodology to select\nparticipants for a stakeholder dialogue on energy options from biomass in the\nNetherlands. Ecol. Econ. 69, 579–591 doi:10/cdvvgm.\nde Groot, R., Brander, L., van der Ploeg, S., Costanza, R., Bernard, F., Braat, L.,\nChristie, M., Crossman, N., Ghermandi, A., Hein, L., Hussain, S., Kumar, P.,\nMcVittie, A., Portela, R., Rodriguez, L.C., ten Brink, P., van Beukering, P., 2012.\nGlobal estimates of the value of ecosystems and their services in monetary units.\nEcosyst. Serv. 1, 50–61. https://doi.org/10.1016/j.ecoser.2012.07.005.\nde Snoo, G.R., Herzon, I., Staats, H., Burton, R.J.F., Schindler, S., van Dijk, J.,\nLokhorst, A.M., Bullock, J.M., Lobley, M., Wrbka, T., Schwarz, G., Musters, C.J.M.,\n2013. Toward effective nature conservation on farmland: making farmers matter.\nConserv. Lett. 6, 66–72. https://doi.org/10.1111/j.1755-263X.2012.00296.x.\nFoley, J.A., 2005. Global consequences of land use. Science 309, 570–574. https://doi.\norg/10.1126/science.1111772.\nGe, Y., Fan, L., Li, Y., Guo, J., Niu, H., 2023. Gender differences in smallholder farmers’\nadoption of crop diversification: evidence from Shaanxi Plain. China. Clim. Risk\nManag. 39, 100482. https://doi.org/10.1016/j.crm.2023.100482.\nGroot, J.C.J., Rossing, W.A.H., 2011. Model-aided learning for adaptive management of\nnatural resources: an evolutionary design perspective. Methods Ecol. Evol. 2,\n643–650 doi:10/bgbd7d.\nHaines-Young, R., Potschin, M., 2018. Common International Classification of Ecosystem\nServices (CICES) V5.1 and Guidance on the Application of the Revised Structure.\nHanaˇcek, K., Rodríguez-Labajos, B., 2018. Impacts of land-use and management changes\non cultural agroecosystem services and environmental conflicts—a global review.\nGlob. Environ. Chang. 50, 41–59. https://doi.org/10.1016/j.\ngloenvcha.2018.02.016.\nHarrington, R., Anton, C., Dawson, T.P., de Bello, F., Feld, C.K., Haslett, J.R.,\nKluv´ankova-Oravsk´a, T., Kontogianni, A., Lavorel, S., Luck, G.W., Rounsevell, M.D.\nA., Samways, M.J., Settele, J., Skourtos, M., Spangenberg, J.H., Vandewalle, M.,\nZobel, M., Harrison, P.A., 2010. Ecosystem services and biodiversity conservation:\nconcepts and a glossary. Biodivers. Conserv. 19, 2773–2790 doi:10/db7td3.\nHolland, J.M., Douma, J.C., Crowley, L., James, L., Kor, L., Stevenson, D.R.W., Smith, B.\nM., 2017. Semi-natural habitats support biological control, pollination and soil\nconservation in Europe. A review. Agron. Sustain. Dev. 37, 31. https://doi.org/\n10.1007/s13593-017-0434-x.\nHorne, P., Boxall, P.C., Adamowicz, W.L., 2005. Multiple-use management of forest\nrecreation sites: a spatially explicit choice experiment. For. Ecol. Manag. Decision\nSupport in Multi Purpose Forestry 207, 189–199. https://doi.org/10.1016/j.\nforeco.2004.10.026.\nIniesta-Arandia, I., García-Llorente, M., Aguilera, P.A., Montes, C., Martín-L´opez, B.,\n2014. Socio-cultural valuation of ecosystem services: uncovering the links between\nvalues, drivers of change, and human well-being. Ecol. Econ. 108, 36–48. https://\ndoi.org/10.1016/j.ecolecon.2014.09.028.\nIPBES, 2019. In: Brondizio, E.S., Settele, J., Díaz, S., Ngo, H.T. (Eds.), Annex I: Glossary\nof Global assessment report on biodiversity and ecosystem services of the\nIntergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services.\nIPBES secretariat, Bonn, Germany. https://doi.org/10.5281/zenodo.3831673, 1148\npages.\nJackson, L.E., Pascual, U., Hodgkin, T., 2007. Utilizing and conserving agrobiodiversity\nin agricultural landscapes. Agric. Ecosyst. Environ. 121, 196–210. https://doi.org/\n10.1016/j.agee.2006.12.017.",
+          "bbox": [
+            306.59234619140625,
+            52.13705825805664,
+            555.6982421875,
+            740.0341796875
+          ]
+        },
+        {
+          "id": "p12-b14-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.653465270996094,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p12-b15-6b51d43",
+          "kind": "paragraph",
+          "text": "12",
+          "bbox": [
+            294.41998291015625,
+            754.4534301757812,
+            303.467529296875,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-c9b8842",
+          "kind": "paragraph",
+          "text": "Jiren, T.S., Abson, D.J., Schultner, J., Riechers, M., Fischer, J., 2023. Bridging scenario\nplanning and backcasting: a Q-analysis of divergent stakeholder priorities for future\nlandscapes. People Nat. 5, 572–590. https://doi.org/10.1002/pan3.10441.\nLamarque, P., Tappeiner, U., Turner, C., Steinbacher, M., Bardgett, R.D., Szukics, U.,\nSchermer, M., Lavorel, S., 2011. Stakeholder perceptions of grassland ecosystem\nservices in relation to knowledge on soil fertility and biodiversity. Reg. Environ.\nChang. 11, 791–804. https://doi.org/10.1007/s10113-011-0214-0.\nLandis, D.A., 2017. Designing agricultural landscapes for biodiversity-based ecosystem\nservices. Basic Appl. Ecol. 18, 1–12. https://doi.org/10.1016/j.baae.2016.07.005.\nLima, F.P., Bastos, R.P., 2019. Perceiving the invisible: formal education affects the\nperception of ecosystem services provided by native areas. Ecosyst. Serv. 40,\n101029. https://doi.org/10.1016/j.ecoser.2019.101029.\nMaas, B., Fabian, Y., Kross, S.M., Richter, A., 2021. Divergent farmer and scientist\nperceptions of agricultural biodiversity, ecosystem services and decision-making.\nBiol. Conserv. 256, 109065. https://doi.org/10.1016/j.biocon.2021.109065.\nMadhuri Sharma, U., 2020. How do farmers perceive climate change? A systematic\nreview. Clim. Chang. 162, 991–1010. https://doi.org/10.1007/s10584-020-02814-\n2.\nMahlalela, L.S., Jourdain, D., Mungatana, E.D., Lundhede, T.H., 2022. Diverse\nstakeholder perspectives and ecosystem services ranking: application of the Q-\nmethodology to Hawane dam and nature Reserve in Eswatini. Ecol. Econ. 197,\n107439. https://doi.org/10.1016/j.ecolecon.2022.107439.\nMartín-L´opez, B., Iniesta-Arandia, I., García-Llorente, M., Palomo, I., Casado-Arzuaga, I.,\nAmo, D.G.D., G´omez-Baggethun, E., Oteros-Rozas, E., Palacios-Agundez, I.,\nWillaarts, B., Gonz´alez, J.A., Santos-Martín, F., Onaindia, M., L´opez-Santiago, C.,\nMontes, C., 2012. Uncovering ecosystem service bundles through social preferences.\nPLoS One 7, e38970. https://doi.org/10.1371/journal.pone.0038970.\nMcKeown, B., Thomas, D.B., 2013. Q Methodology. SAGE Publications.\nMEA, 2005. Current State and Trends. Wash. DC.\nMeynard, J.-M., Dedieu, B., Bos, A.P., 2012. Re-design and co-design of farming systems.\nAn overview of methods and practices. In: Darnhofer, I., Gibbon, D., Dedieu, Benoît\n(Eds.), Farming Systems Research into the 21st Century: The New Dynamic.\nSpringer, Netherlands, Dordrecht, pp. 405–429. https://doi.org/10.1007/978-94-\n007-4503-2_18.\nMouchet, M.A., Lamarque, P., Martín-L´opez, B., Crouzat, E., Gos, P., Byczek, C.,\nLavorel, S., 2014. An interdisciplinary methodological guide for quantifying\nassociations between ecosystem services. Glob. Environ. Chang. 28, 298–308 doi:10/\nf6nbf3.\nMponela, P., Aynekulu, E., Ebrahim, M., Abate, T., Abera, W., Zaremba, H., Elias, M.,\nTamene, L., 2023. Gender gap in perspectives of the impacts of degradation and\nrestoration on ecosystem services in Ethiopia. Land Degrad. Dev. 34, 4503–4516.\nhttps://doi.org/10.1002/ldr.4764.\nMu, H., Wang, K., Yang, X., Xu, W., Liu, X., Ritsema, C.J., Geissen, V., 2022. Pesticide\nusage practices and the exposure risk to pollinators: a case study in the North China\nplain. Ecotoxicol. Environ. Saf. 241, 113713. https://doi.org/10.1016/j.\necoenv.2022.113713.\nNBSC, 2017. Quzhou County Statistical Yearbook of 2017. China Statistics Press, Beijing.\nO’Farrell, P.J., Anderson, P.M., 2010. Sustainable multifunctional landscapes: a review\nto implementation. Curr. Opin. Environ. Sustain. 2, 59–65. https://doi.org/10.1016/\nj.cosust.2010.02.005.\nPage, G., Bellotti, B., 2015. Farmers value on-farm ecosystem services as important, but\nwhat are the impediments to participation in PES schemes? Sci. Total Environ.\n515–516, 12–19. https://doi.org/10.1016/j.scitotenv.2015.02.029.\nParra-L´opez, C., Groot, J.C.J., Carmona-Torres, C., Rossing, W.A.H., 2008. Integrating\npublic demands into model-based design for multifunctional agriculture: an\napplication to intensive Dutch dairy landscapes. Ecol. Econ. 67, 538–551. https://\ndoi.org/10.1016/j.ecolecon.2008.01.007.\nParra-L´opez, C., Groot, J.C.J., Carmona-Torres, C., Rossing, W.A.H., 2009. An integrated\napproach for ex-ante evaluation of public policies for sustainable agriculture at\nlandscape level. Land Use Policy 26, 1020–1030. https://doi.org/10.1016/j.land\nusepol.2008.12.006.\nPe’er, G., Zinngrebe, Y., Hauck, J., Schindler, S., Dittrich, A., Zingg, S., Tscharntke, T.,\nOppermann, R., Sutcliffe, L.M.E., Sirami, C., Schmidt, J., Hoyer, C., Schleyer, C.,\nLakner, S., 2017. Adding some green to the greening: improving the EU’s ecological\nfocus areas for biodiversity and farmers. Conserv. Lett. 10, 517–530. https://doi.\norg/10.1111/conl.12333.\nPeter, S., Le Provost, G., Mehring, M., Müller, T., Manning, P., 2022. Cultural worldviews\nconsistently explain bundles of ecosystem service prioritisation across rural\nGermany. People Nat. 4, 218–230. https://doi.org/10.1002/pan3.10277.\nPethiyagoda, N.A., Ogier, E.M., Hatton MacDonald, D., 2024. Measuring stakeholder\npreferences for ecosystem services interacting with salmon aquaculture in Tasmania\nunder expansion: application of Q methodology. Mar. Policy 162, 106053. https://\ndoi.org/10.1016/j.marpol.2024.106053.\nR Core Team, 2021. R: A language and environment for statistical computing. Published\nonline 2020.\nReed, M.S., Graves, A., Dandy, N., Posthumus, H., Hubacek, K., Morris, J., Prell, C.,\nQuinn, C.H., Stringer, L.C., 2009. Who’s in and why? A typology of stakeholder\nanalysis methods for natural resource management. J. Environ. Manag. 90,\n1933–1949. https://doi.org/10.1016/j.jenvman.2009.01.001.\nRietveld, A.M., Farnworth, C.R., Nawaz, M., Timler, C.J., Tittonell, P.A., van der\nBurg, M., Groot, J.C.J., 2023. Understanding diversity in gender norms within\nfarming communities: a Q-methodology approach applied in Uganda. NJAS-Impact\nAgric. Life Sci. 95, 2279542. https://doi.org/10.1080/27685241.2023.2279542.\nRoe, B.E., Just, D.R., 2009. Internal and external validity in economics research: tradeoffs\nbetween experiments, field experiments, natural experiments, and field data. Am. J.\nAgric. Econ. 91, 1266–1271. https://doi.org/10.1111/j.1467-8276.2009.01295.x.",
+          "bbox": [
+            37.587398529052734,
+            52.12942886352539,
+            286.70208740234375,
+            740.0265502929688
+          ]
+        },
+        {
+          "id": "p13-b1-e235500",
+          "kind": "paragraph",
+          "text": "Rola-Rubzen, M.F., Paris, T., Hawkins, J., Sapkota, B., 2020. Improving gender\nparticipation in agricultural technology adoption in Asia: from rhetoric to practical\naction. Appl. Econ. Perspect. Policy 42, 113–125. https://doi.org/10.1002/\naepp.13011.\nSalliou, N., Barnaud, C., 2017. Landscape and biodiversity as new resources for agro-\necology? Insights from farmers’ perspectives. Ecol. Soc. 22. https://doi.org/\n10.5751/ES-09249-220216.\nSayer, J., Sunderland, T., Ghazoul, J., Pfund, J.-L., Sheil, D., Meijaard, E., Venter, M.,\nBoedhihartono, A.K., Day, M., Garcia, C., van Oosten, C., Buck, L.E., 2013. Ten\nprinciples for a landscape approach to reconciling agriculture, conservation, and\nother competing land uses. Proc. Natl. Acad. Sci. 110, 8349–8356. https://doi.org/\n10.1073/pnas.1210595110.\nScholte, S.S.K., van Teeffelen, A.J.A., Verburg, P.H., 2015. Integrating socio-cultural\nperspectives into ecosystem service valuation: a review of concepts and methods.\nEcol. Econ. 114, 67–78. https://doi.org/10.1016/j.ecolecon.2015.03.007.\nShen, J., Zhu, Q., Jiao, X., Ying, H., Wang, H., Wen, X., Xu, W., Li, T., Cong, W., Liu, X.,\nHou, Y., Cui, Z., Oenema, O., Davies, W.J., Zhang, F., 2020. Agriculture green\ndevelopment: a model for China and the world. Front. Agric. Sci. Eng. 7, 5. https://\ndoi.org/10.15302/J-FASE-2019300.\nSmith, H.F., Sullivan, C.A., 2014. Ecosystem services within agricultural landscapes-\nFarmers’ perceptions. Ecol. Econ. 98, 72–80. https://doi.org/10.1016/j.\necolecon.2013.12.008.\nSneegas, G., Beckner, S., Brannstrom, C., Jepson, W., Lee, K., Seghezzo, L., 2021. Using\nQ-methodology in environmental sustainability research: a bibliometric analysis and\nsystematic review. Ecol. Econ. 180, 106864. https://doi.org/10.1016/j.\necolecon.2020.106864.\nStephenson, W., 1953. The study of behavior; Q-technique and its methodology, The\nStudy of Behavior; Q-Technique and its Methodology. University of Chicago Press,\nChicago, IL, US.\nStreiner, D.L., 2020. Statistics commentary series. Commentary no. 44: internal and\nexternal validity. J. Clin. Psychopharmacol. 40, 531. https://doi.org/10.1097/\nJCP.0000000000001304.\nSwagemakers, P., Dominguez Garcia, M., Onofa Torres, A., Oostindie, H., Groot, J., 2017.\nA values-based approach to exploring synergies between livestock farming and\nlandscape conservation in Galicia (Spain). Sustainability 9, 1987 doi:10/gjtxx9.\nSy, M.M., Rey-Valette, H., Simier, M., Pasqualini, V., Figui`eres, C., De Wit, R., 2018.\nIdentifying consensus on coastal lagoons ecosystem services and conservation\npriorities for an effective decision making: a Q approach. Ecol. Econ. 154, 1–13.\nhttps://doi.org/10.1016/j.ecolecon.2018.07.018.\nTeixeira, H.M., Vermue, A.J., Cardoso, I.M., Claros, M.P., Bianchi, F.J.J.A., 2018.\nFarmers show complex and contrasting perceptions on ecosystem services and their\nmanagement. Ecosyst. Serv. 33, 44–58. https://doi.org/10.1016/j.\necoser.2018.08.006.\nTimler, C.J., Groot, J.C.J., Snapp, S.S., Tittonell, P.A., 2023. Strategies steering\nintensification pathways of farmers in Central Malawi. Hum. Ecol. https://doi.org/\n10.1007/s10745-023-00413-0.\nVaas, J., Driessen, P.P.J., Giezen, M., van Laerhoven, F., Wassen, M.J., 2019. “Let me tell\nyou your problems”. Using Q methodology to elicit latent problem perceptions about\ninvasive alien species. Geoforum 99, 120–131 doi:10/gkq8j8.\nValenta, A.L., Wigger, U., 1997. Q-methodology: definition and application in health\ncare informatics. J. Am. Med. Inform. Assoc. 4, 501–510 doi:10/b3xrn8.\nvan Dijk, R., Intriago Zambrano, J.C., Diehl, J.C., Ertsen, M.W., 2022. Q-methodology\nand farmers’ decision-making. Front. Sustain. Food Syst. 6. https://doi.org/\n10.3389/fsufs.2022.954934.\nWang, X., Zhao, X., 2023. Farmers’ perception and choice preference of grassland\necosystem services: evidence from the northeastern region of the Qinghai-Tibet\nplateau. Land Use Policy 132, 106768. https://doi.org/10.1016/j.\nlandusepol.2023.106768.\nWatts, S., Stenner, P., 2005. Doing Q ethodology: theory, method and interpretation.\nQual. Res. Psychol. 2, 67–91. https://doi.org/10.1191/1478088705qp022oa.\nWebler, T., Danielson, S., Tuler, S., 2009. Using Q method to reveal social perspectives in\nenvironmental research. Greenfield MA Soc. Environ. Res. Inst. 54, 1–45.\nWickham, H., Chang, W., Wickham, M.H., 2016. Package ‘ggplot2.’ Create Elegant Data\nVis. Using Gramm. Graph. Version 2, pp. 1–189.\nXu, Z., Li, F., Cheng, J., Liang, Z., Groot, J.C., van der Werf, W., Zhang, C., 2024. Survey\ndata on livelihoods and inputs and outputs of crop production in Quzhou county on\nthe North China plain. Data in Brief 110269. https://doi.org/10.1016/j.\ndib.2024.110269.\nYarar, N., Orth, U.R., 2018. Consumer lay theories on healthy nutrition: A Q\nmethodology application in Germany. Appetite 120, 145–157. https://doi.org/10.10\n16/j.appet.2017.08.026.\nZabala, A., 2014. Qmethod: a package to explore human perspectives using Q\nmethodology. R J 6, 163–173. https://doi.org/10.32614/RJ-2014-032.\nZabala, A., Sandbrook, C., Mukherjee, N., 2018. When and how to use Q methodology to\nunderstand perspectives in conservation research. Conserv. Biol. 32, 1185–1194.\nhttps://doi.org/10.1111/cobi.13123.\nZhai, S., Song, G., Qin, Y., Ye, X., Leipnik, M., 2018. Climate change and Chinese farmers:\nperceptions and determinants of adaptive strategies. J. Integr. Agric. 17, 949–963.\nhttps://doi.org/10.1016/S2095-3119(17)61753-2.\nZhang, W., Cao, G., Li, X., Zhang, H., Wang, C., Liu, Q., Chen, X., Cui, Z., Shen, J.,\nJiang, R., Mi, G., Miao, Y., Zhang, F., Dou, Z., 2016. Closing yield gaps in China by\nempowering smallholder farmers. Nature 537, 671-+. https://doi.org/10.1038/\nnature19368.\nZhang, W., Yu, Y., Wu, X., Pereira, P., Borja, M.E.L., 2020. Integrating preferences and\nsocial values for ecosystem services in local ecological management: a framework",
+          "bbox": [
+            306.59234619140625,
+            52.13070297241211,
+            555.6981811523438,
+            732.0343627929688
+          ]
+        },
+        {
+          "id": "p13-b2-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587398529052734,
+            33.6501579284668,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p13-b3-3fdba35",
+          "kind": "paragraph",
+          "text": "13",
+          "bbox": [
+            294.41998291015625,
+            754.4534301757812,
+            303.467529296875,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-7d991bb",
+          "kind": "paragraph",
+          "text": "applied in Xiaojiang Basin Yunnan province, China. Land Use Policy 91, 104339 doi:\n10/ghbr3t.\nZhao, Z., Qin, X., Zang, H., Chen, C., Zhang, Y., Wang, Z., 2017. Value of groundwater\nused for producing extra grain in North China plain. Field Crop Res. 210, 47–51.\nhttps://doi.org/10.1016/j.fcr.2017.05.022.\nZhao, Y., Wang, L., Lei, X., Wang, B., Cui, J., Xu, Y., Chen, Y., Sui, P., 2021. Reducing\ncarbon footprint without compromising grain security through relaxing cropping",
+          "bbox": [
+            37.587772369384766,
+            52.12942886352539,
+            286.7030944824219,
+            110.40196990966797
+          ]
+        },
+        {
+          "id": "p14-b1-bd3044b",
+          "kind": "paragraph",
+          "text": "rotation system in the North China plain. J. Clean. Prod. 318, 128465. https://doi.\norg/10.1016/j.jclepro.2021.128465.\nZoderer, B.M., Tasser, E., Carver, S., Tappeiner, U., 2019. Stakeholder perspectives on\necosystem service supply and ecosystem service demand bundles. Ecosyst. Serv. 37,\n100938. https://doi.org/10.1016/j.ecoser.2019.100938.",
+          "bbox": [
+            306.5921325683594,
+            52.129432678222656,
+            555.64892578125,
+            94.41503143310547
+          ]
+        },
+        {
+          "id": "p14-b2-8e7726b",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.\nAgricultural Systems 223 (2025) 104187",
+          "bbox": [
+            37.587852478027344,
+            33.648250579833984,
+            560.1495361328125,
+            44.08295822143555
+          ]
+        },
+        {
+          "id": "p14-b3-8527a89",
+          "kind": "paragraph",
+          "text": "14",
+          "bbox": [
+            294.41998291015625,
+            754.4534301757812,
+            303.467529296875,
+            764.8829345703125
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2025/f21e6a1550fe/page-14.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 14,
+    "pageSnapshots": 14,
+    "allTextBlocksRetained": true,
+    "textCharacters": 86255,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 10,
+    "sourceSHA256": "f21e6a1550fef48f92aee382657a1ac00931c1df1e87e46bfdf40457e56a7162",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

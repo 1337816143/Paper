@@ -1,0 +1,5058 @@
+{
+  "schema": "paper.original.v2",
+  "id": "breure-2024",
+  "lessonId": "breure-2024",
+  "title": "A systematic review of the methodology of trade-off analysis in agriculture",
+  "citation": "Breure, T. S., et al. (2024). Nature Food, 5, 211–220.",
+  "origin": "https://doi.org/10.1038/s43016-024-00926-x",
+  "sourceHash": "766abe34a78ec2fc630ba474fb035879c398600884bd5676bca435b05aed9bc4",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted ",
+    "page": 10
+  },
+  "originalPath": "library/breure-2024/766abe34a78e/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/breure-2024/766abe34a78e/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-a2c127f",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n211",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.6771850585938,
+            771.7984008789062
+          ]
+        },
+        {
+          "id": "p1-b1-f0d4d0e",
+          "kind": "heading",
+          "text": "nature food",
+          "bbox": [
+            39.685001373291016,
+            41.36791229248047,
+            127.8652114868164,
+            59.367916107177734
+          ]
+        },
+        {
+          "id": "p1-b2-14038d5",
+          "kind": "heading",
+          "text": "https://doi.org/10.1038/s43016-024-00926-x\nArticle\nA systematic review of the methodology of \ntrade-off analysis in agriculture",
+          "bbox": [
+            39.685001373291016,
+            91.43093872070312,
+            561.2601318359375,
+            169.19564819335938
+          ]
+        },
+        {
+          "id": "p1-b3-f53b25c",
+          "kind": "paragraph",
+          "text": "Timo S. Breure \n  1, Natalia Estrada-Carmona \n  2, Athanasios Petsakos \n  3, \nElisabetta Gotor \n  3, Boris Jansen \n  4 & Jeroen C. J. Groot \n  1",
+          "bbox": [
+            217.32821655273438,
+            206.3316192626953,
+            531.36572265625,
+            231.84661865234375
+          ]
+        },
+        {
+          "id": "p1-b4-602fcc6",
+          "kind": "paragraph",
+          "text": "Trade-off analysis (TOA) is central to policy and decision-making aimed at \npromoting sustainable agricultural landscapes. Yet, a generic methodological \nframework to assess trade-offs in agriculture is absent, largely due to the wide \nrange of research disciplines and objectives for which TOA is used. In this \nstudy, we systematically reviewed 119 studies that have implemented TOAs in \nlandscapes and regions dominated by agricultural systems around the world. \nOur results highlight that TOAs tend to be unbalanced, with a strong emphasis \non productivity rather than environmental and socio-cultural services. TOAs \nhave mostly been performed at farm or regional scales, rarely considering \nmultiple spatial scales simultaneously. Mostly, TOAs fail to include \nstakeholders at study development stage, disregard recommendation \nuncertainty due to outcome variability and overlook risks associated with \nthe TOA outcomes. Increased attention to these aspects is critical for TOAs to \nguide agricultural landscapes towards sustainability.",
+          "bbox": [
+            217.33230590820312,
+            256.5927429199219,
+            563.021240234375,
+            450.9327392578125
+          ]
+        },
+        {
+          "id": "p1-b5-4be4ef2",
+          "kind": "paragraph",
+          "text": "Contemporary agriculture should not only provide food, fibre, feed \nand fuel but also environmental and socio-economic benefits for rural \ncommunities and beyond1. To ensure that agriculture delivers multi-\nple services while minimizing its negative impacts, society must be \naware of the trade-offs and synergies that may arise. The nature of \nthese trade-offs depends on location-specific natural, social and cul-\ntural conditions that place constraints on the inputs and outputs of an \nagricultural system. For example, market-based farmers are concerned \nwith enhancing commodity production, whereas the priority of subsist-\nence farmers lies with improving food security2. The global imperative \nto achieve the United Nations Sustainable Development Goals (SDGs) \nunderscores the need to reduce the environmental impact of land use \npractices and strengthen equitable social outcomes at both landscape \nand community levels. However, achieving the SDGs might require \nsacrifices to primary productivity and economic revenues. Thus, to \nreconcile the demands of agriculture and inform decision-making, an \nanalysis is required of potential trade-offs measured against agronomic, \nenvironmental, economic and social indicators3.\nTrade-off analysis (TOA) was established as a concept to gen-\nerate quantitative information on competing (trade-offs) or",
+          "bbox": [
+            39.685001373291016,
+            477.5956115722656,
+            296.42889404296875,
+            692.026123046875
+          ]
+        },
+        {
+          "id": "p1-b6-f45db76",
+          "kind": "paragraph",
+          "text": "complementary (synergies) indicators that can be used to guide \npolicy and decision-making4. A typical TOA project starts with three \npreparatory steps: formulation of the research question, identifica-\ntion of which indicators to assess, and formulation of hypotheses \nabout the relationships between the indicators and the associated \ntrade-offs and synergies. Subsequently, the management, policy or \ntechnological changes that affect the TOA indicators can be identi-\nfied and included in the analysis framework. Then, the trade-offs and \nsynergies under changing conditions or scenarios can be quantified \nand, finally, the results are communicated to relevant stakeholders \nto inform decision-making and policy4. Since its first implementation \nin the context of agriculture, a wide range of methods have been used \nto conduct TOAs, including optimization, simulations, qualitative, \neconometric and narrative-based approaches. In some cases, these \napproaches are deployed in a spatially explicit manner with the support \nof geographic information systems (GIS)5.\nAlthough important advances have been made regarding TOA \nin agricultural contexts, researchers have expressed concerns about \nthe scope and methodological limitations of published studies. These \nconcerns relate to the limited transfer of the academic knowledge",
+          "bbox": [
+            306.1375427246094,
+            477.5921325683594,
+            562.8906860351562,
+            692.026123046875
+          ]
+        },
+        {
+          "id": "p1-b7-a651117",
+          "kind": "paragraph",
+          "text": "Received: 25 August 2022",
+          "bbox": [
+            39.685001373291016,
+            207.22012329101562,
+            142.32252502441406,
+            218.90762329101562
+          ]
+        },
+        {
+          "id": "p1-b8-815d207",
+          "kind": "paragraph",
+          "text": "Accepted: 15 January 2024",
+          "bbox": [
+            39.685001373291016,
+            226.89761352539062,
+            145.95968627929688,
+            238.58511352539062
+          ]
+        },
+        {
+          "id": "p1-b9-6dfdabb",
+          "kind": "paragraph",
+          "text": "Published online: 5 March 2024",
+          "bbox": [
+            39.685001373291016,
+            247.28060913085938,
+            145.02549743652344,
+            258.7301025390625
+          ]
+        },
+        {
+          "id": "p1-b11-f26f327",
+          "kind": "paragraph",
+          "text": "Check for updates",
+          "bbox": [
+            50.43730163574219,
+            266.5410461425781,
+            124.12550354003906,
+            278.2285461425781
+          ]
+        },
+        {
+          "id": "p1-b12-980f537",
+          "kind": "paragraph",
+          "text": "1Farming Systems Ecology, Wageningen University and Research, Wageningen, The Netherlands. 2Bioversity International, Montpellier, France.",
+          "bbox": [
+            39.685001373291016,
+            713.6681518554688,
+            527.0255737304688,
+            723.9056396484375
+          ]
+        },
+        {
+          "id": "p1-b13-f79b3c5",
+          "kind": "paragraph",
+          "text": "3Bioversity International, Rome, Italy. 4Institute for Biodiversity and Ecosystem Dynamics, University of Amsterdam, Amsterdam, The Netherlands.",
+          "bbox": [
+            39.685001373291016,
+            724.4181518554688,
+            533.8760375976562,
+            734.6556396484375
+          ]
+        },
+        {
+          "id": "p1-b14-8e0a92c",
+          "kind": "paragraph",
+          "text": "e-mail: jeroen.groot@wur.nl",
+          "bbox": [
+            48.8380012512207,
+            735.1681518554688,
+            145.03225708007812,
+            745.4056396484375
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-fe3a4ed",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n212",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.0529174804688,
+            771.5487060546875
+          ]
+        },
+        {
+          "id": "p2-b1-47eb228",
+          "kind": "heading",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p2-b2-2aa093f",
+          "kind": "paragraph",
+          "text": "(1) indicators relevant to environmental and socio-economic services, \n(2) multiple spatial scales and their interactions, (3) the comprehensive \ninvolvement of stakeholders, and (4) the validity of trade-offs and \nrecommendations in the context of associated uncertainties and risks \n(see Table 1 for further details). Finally, a cluster analysis shows which \nindicators were frequently studied together and which TOA methods \nwere associated with each cluster.\nThe aim of this study was thus to provide an overview of the \npeer-reviewed literature on TOA in the context of agriculture using \na systematic approach. For this purpose, we sought to define how \ntrade-offs in agriculture are conceptualized, characterized and ana-\nlysed in the TOA literature. Based on these findings, we have identified \ncommon gaps in the implementation of TOA.",
+          "bbox": [
+            306.1416931152344,
+            391.5956115722656,
+            562.8394775390625,
+            530.776123046875
+          ]
+        },
+        {
+          "id": "p2-b3-9503bd3",
+          "kind": "paragraph",
+          "text": "Results\nThe distribution of publication dates for the articles in the sample was \nmainly centred in the years 2015–2021 (Extended Data Fig. 1a). Specifi-\ncally, 73% of the articles were published after 2014, which indicates an \nincreasing research effort directed towards TOAs in an agricultural \ncontext (Extended Data Fig. 1b).",
+          "bbox": [
+            306.1416931152344,
+            539.5236206054688,
+            562.72607421875,
+            606.026123046875
+          ]
+        },
+        {
+          "id": "p2-b4-df397c5",
+          "kind": "paragraph",
+          "text": "Common interrelationships and co-occurrences among TOA \nindicators\nThe articles examined included a median of 3.8 ± 1.9 (s.d.) TOA indi-\ncators, ranging from 1 to 10. Based on the cumulative distribution, \n52% of the articles included three or fewer TOA indicators, while 90% \nincluded six or fewer TOA indicators (Extended Data Fig. 2a). The most \nprevalent indicators across all articles were ‘profitability’ (57%, eco-\nnomic), ‘yield’ (44%, agronomic) and ‘water quantity’ (34%, sustainable \nresource management). The second most common set of indicators \nencompassed a selection of biophysical (for example, ‘water quality’ \nand ‘greenhouse gases’), agronomic (for example, ‘input efficiency’ and \n‘land use efficiency’) and economic indicators (for example, ‘assets’),",
+          "bbox": [
+            306.1416931152344,
+            616.8218994140625,
+            562.7950439453125,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p2-b5-93a11f9",
+          "kind": "paragraph",
+          "text": "generated by TOA into decision- and policy-making due to the inability \nto take into account social and cultural factors6, the sparsity of multi- \nand cross-scale assessments3,5–7, and the limited representation of \nuncertainty8,9 and risk analysis5.\nThe concerns reported in the literature on the limitations of TOA \nanalysis can indeed have important implications. First, failure to rec-\nognize the importance of scale (spatial, temporal, jurisdictional and \nlegislative) in TOA may lead to erroneous inferences on how the rela-\ntionships between trade-offs and indicators develop across scales. \nMultiple scales can be analysed without interactions between them or \na cross-scale analysis can be performed that accounts for interactions \nbetween scales10. Furthermore, adverse effects appearing outside the \nTOA case study area (off-site effects) may offset any gains stemming \nfrom a TOA-informed policy11. Second, recognition of social interac-\ntions and cultural values is needed to assure representation of ben-\neficiaries and non-beneficiaries relevant to the topic at hand, that is, \ndistributional justice9,10. Representation among stakeholders and their \ninvolvement in the design and implementation of a TOA can increase \nthe legitimacy of its findings, assure that the data used are relevant to \nthe context and thus enhance adoption of a study’s findings12. Third, \nvalidation and acknowledgement of uncertainty in both data and model \nestimates increase the robustness of a TOA and can facilitate risk-based \ndecision-making13–15.\nPrevious literature reviews on TOA in agriculture adopted a ‘story-\ntelling’ approach, where key studies were selected from the literature \nto discuss research trends. However, given the wide scope of TOAs \napplied in the context of agriculture, a systematic review could reveal \nthe variety of approaches used and potential knowledge gaps, as well \nas the indicators that were studied and by which methods, ultimately \nfacilitating the comparability of results.\nHere we report on the TOA indicators, methodology and analysis \nused in 119 peer-reviewed articles. Descriptive statistics are used to \ncharacterize articles based on the extent to which they considered",
+          "bbox": [
+            39.679443359375,
+            391.5956115722656,
+            296.4230651855469,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p2-b6-603cf45",
+          "kind": "heading",
+          "text": "Table 1 | A generic description of the criteria that were logged during this systematic review",
+          "bbox": [
+            39.685001373291016,
+            46.179847717285156,
+            421.45599365234375,
+            58.599849700927734
+          ]
+        },
+        {
+          "id": "p2-b7-21915da",
+          "kind": "paragraph",
+          "text": "Criterion\nGeneric description",
+          "bbox": [
+            42.51959991455078,
+            66.7225341796875,
+            212.17300415039062,
+            76.38253021240234
+          ]
+        },
+        {
+          "id": "p2-b8-3a740a3",
+          "kind": "paragraph",
+          "text": "TOA method\nThe method (spatially explicit simulation (M1), simulation (M2), optimization (M3), cost–benefit analysis (M4), econometrics (M5), \nqualitative (M6), literature review (M7), GIS (M8) and other (M9)) applied in the case study",
+          "bbox": [
+            43.681602478027344,
+            81.27552795410156,
+            554.6682739257812,
+            99.3285140991211
+          ]
+        },
+        {
+          "id": "p2-b9-a302a92",
+          "kind": "paragraph",
+          "text": "TOA scale\nThe spatial scale (field, farm, regional, national, multi-country and global) of the case study area for which the TOA is performed",
+          "bbox": [
+            43.681602478027344,
+            103.50050354003906,
+            549.9180297851562,
+            113.05550384521484
+          ]
+        },
+        {
+          "id": "p2-b10-d67299a",
+          "kind": "paragraph",
+          "text": "Discipline\nThe spatial scale (the same spatial scales as for the TOA criterion) at which modelling was performed or data were collected in the \nsix disciplines relevant to agricultural production and the provision of services (crop, livestock, economic, environment, fisheries \nand forestry)",
+          "bbox": [
+            43.681602478027344,
+            117.22749328613281,
+            558.914306640625,
+            143.77847290039062
+          ]
+        },
+        {
+          "id": "p2-b11-5fbaad2",
+          "kind": "paragraph",
+          "text": "TOA indicators\nIndicators that were assessed in the TOA: 24 indicators were logged within the generic classes of agronomic (A: yield, yield \nstability, self-sufficiency, land use efficiency and input efficiency), economic (E: profitability, poverty, market supply or demand, \nlabour productivity and assets), human health (H: nutrition, health, gender equity, food security and empowerment) and \nsustainable resource management (S: water quantity, water quality, soil nutrients, soil erosion, soil organic carbon, land use, \ngreenhouse gases, energy and biodiversity)",
+          "bbox": [
+            43.681602478027344,
+            147.95045471191406,
+            551.17236328125,
+            191.49740600585938
+          ]
+        },
+        {
+          "id": "p2-b12-5a0c053",
+          "kind": "paragraph",
+          "text": "Stakeholder type inclusion\nWhether, and if so which, stakeholders were included in the case study (local beneficiaries and non-beneficiaries (Lb), experts \n(Ex), government (Gv), farmers (Fm), distant beneficiaries and non-beneficiaries (Db), academics (Ac), private sector (Pv) and \nenvironmental organizations (Eo))",
+          "bbox": [
+            43.681602478027344,
+            195.6693878173828,
+            545.8748779296875,
+            222.22036743164062
+          ]
+        },
+        {
+          "id": "p2-b13-32baeee",
+          "kind": "paragraph",
+          "text": "Stakeholder implementation\nHow the stakeholders were included in the case study (validation (Vd), valuation (Va), co-development (Cd) and consultation (Co))",
+          "bbox": [
+            43.681602478027344,
+            226.39234924316406,
+            557.2554931640625,
+            235.94735717773438
+          ]
+        },
+        {
+          "id": "p2-b14-5439c30",
+          "kind": "paragraph",
+          "text": "Scenario\nWhether a scenario was considered in the case study and, if so, which type of scenario (climate (1), policy (2), behavioural (3), \ndemographic (4), economic (5), resource use (6), other (7) and none (8))",
+          "bbox": [
+            43.681602478027344,
+            240.1193389892578,
+            542.831298828125,
+            258.1723327636719
+          ]
+        },
+        {
+          "id": "p2-b15-ea03701",
+          "kind": "paragraph",
+          "text": "System border\nWhether biophysical or administrative boundaries were used to define the TOA case study area",
+          "bbox": [
+            43.681602478027344,
+            262.34429931640625,
+            446.8929748535156,
+            271.8993225097656
+          ]
+        },
+        {
+          "id": "p2-b16-52a544d",
+          "kind": "paragraph",
+          "text": "Off-site\nWhether off-site effects (those occurring outside the case study area) were considered in the TOA",
+          "bbox": [
+            43.681602478027344,
+            276.0712890625,
+            454.97705078125,
+            285.6263122558594
+          ]
+        },
+        {
+          "id": "p2-b17-d7ec4cb",
+          "kind": "paragraph",
+          "text": "Uncertainty\nWhether uncertainty has been acknowledged and accounted for",
+          "bbox": [
+            43.681602478027344,
+            289.79827880859375,
+            352.12396240234375,
+            299.3533020019531
+          ]
+        },
+        {
+          "id": "p2-b18-1457e8b",
+          "kind": "paragraph",
+          "text": "Validation\nWhether a validation was performed of the results obtained by data collection, the modelling procedure or the outcomes and \nrecommendations from the TOA",
+          "bbox": [
+            43.681602478027344,
+            303.5252685546875,
+            545.6277465820312,
+            321.5782775878906
+          ]
+        },
+        {
+          "id": "p2-b19-231a52a",
+          "kind": "paragraph",
+          "text": "Risk analysis\nWhether the inference from the TOA and associated recommendations account for risk",
+          "bbox": [
+            43.681602478027344,
+            325.750244140625,
+            422.1043395996094,
+            335.3052673339844
+          ]
+        },
+        {
+          "id": "p2-b20-e6a90bf",
+          "kind": "paragraph",
+          "text": "Cross-scale analysis\nWhether models address cross-scale TOA by summing or aggregation from lower to higher levels (aggregative) or by \nsimultaneous quantification at multiple levels (interactive)",
+          "bbox": [
+            43.681602478027344,
+            339.47723388671875,
+            518.5601196289062,
+            357.5302429199219
+          ]
+        },
+        {
+          "id": "p2-b21-639080f",
+          "kind": "paragraph",
+          "text": "For further details, see Supplementary Table 1.",
+          "bbox": [
+            39.685001373291016,
+            361.5482177734375,
+            165.8458251953125,
+            369.73822021484375
+          ]
+        },
+        {
+          "id": "p2-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p2-figure1.png",
+          "alt": "Original source page 2, graphic 1",
+          "caption": "原文第2页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-bc8c5b2",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n213",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.6771240234375,
+            771.7984008789062
+          ]
+        },
+        {
+          "id": "p3-b1-47eb228",
+          "kind": "paragraph",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p3-b2-de5d6c7",
+          "kind": "paragraph",
+          "text": "ranging between 13% and 21% (Fig. 1). The remaining TOA indicators \nwere used less frequently and related to economic (that is, ‘labour pro-\nductivity’ and ‘poverty’), human health (for example, ‘nutrition’, ‘health’ \nor ‘food security’) and agronomic (that is, ‘self-sufficiency’) aspects, \nrepresenting a share of 5–6% (Fig. 1). Rarely considered TOA indica-\ntors (less than 5%) included ‘market supply or demand’ (economic), \n‘yield stability’ (agronomic), ‘empowerment’ and ‘gender equity’ (both \nhuman health; Fig. 1).\nThe articles were grouped into 11 clusters, depending on which \nTOA indicators were assessed (left y-axis dendrogram in Fig. 2). These \nclusters show a dominant theme based on the co-occurrence of TOA \nindicators (right y-axis in Fig. 2). For example, in cluster 7, ‘poverty’ \nwas studied in conjunction with ‘soil nutrients’, whereas in cluster 5, \n‘poverty’ was studied in conjunction with ‘profitability’, ‘food security’ \nand ‘nutrition’. The clustering of articles by TOA indicator reveals which \nTOA indicators are often studied together. Indicators of ‘profitability’ \nand ‘yield’ were the most commonly used (Figs. 1 and 2) and were gener-\nally combined with case-specific environmental and social indicators \n(Fig. 2). This suggests that agronomic and economic viability are con-\nditional for the exploration of improvements in agricultural system \nsustainability. The cluster with the largest number of articles (cluster 6, \nFig. 2) concerned agricultural production and water quality. This high-\nlights the strong focus on solving pressing issues related to pollution \nby surplus nutrients from fertilizers and manure.\nThe clustering of TOA indicators (top x-axis dendrogram in Fig. 2) \nshows that for 50% of the indicators, the indicator closest in the den-\ndrogram belongs to the same category (sustainable resource manage-\nment, agronomic, economic or human health). In particular, four out",
+          "bbox": [
+            39.68499755859375,
+            445.3456115722656,
+            296.4136047363281,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p3-b3-f31410d",
+          "kind": "paragraph",
+          "text": "of five human health indicators were studied in isolation from other \nindicators, forming closely paired branches (top x-axis dendrogram, \norange colour, in Fig. 2).\nThe application of TOA methods varied across different TOA indi-\ncators and clusters. For example, the TOA indicators ‘labour productiv-\nity’, ‘empowerment’, ‘gender equity’ and ‘yield stability’ lacked cases \ninvolving spatially explicit methods (M1 or M8; Fig. 1). This same obser-\nvation applies to the clusters in which these TOA indicators belong \n(Fig. 3). While the absence of spatially explicit methods for social indi-\ncators such as ‘empowerment’ and ‘gender equity’ is expected, given \nthat their spatial dimension is often disregarded, it is worth noting \nthat gender and empowerment may relate to the spatial distribution \nof fields and resources in the landscape. For instance, their distance \nfrom the location of the homestead or decision-making processes \nregarding the (distribution of) use and ownership of these resources. \nClusters of articles associated with ‘yield’, ‘energy’, ‘biodiversity’ and \n‘land use’ exhibited a high use of GIS (M8), qualitative (M6) and other \n(M9) methods, with fewer articles applying optimization methods (M3; \nFig. 3). Lastly, an interesting anomaly is the ‘health’ indicator, where \nmethods M1–M3, encompassing (spatially explicit) simulations and \noptimization methods, were conspicuously absent (Fig. 1).",
+          "bbox": [
+            306.1416931152344,
+            445.3456115722656,
+            562.8616333007812,
+            670.526123046875
+          ]
+        },
+        {
+          "id": "p3-b4-6694dd6",
+          "kind": "paragraph",
+          "text": "Frequency of criteria levels\nThe majority of TOAs were conducted at regional (65%) and farm \n(17%) scales, followed by field (7%) and national (6%) scales. The TOAs \nconducted at multi-country (4%) and global scales, along with ‘other’, \naccounted for only a small proportion of the analyses (Fig. 4a). The \nspatial scales for TOAs differed from the scales at which modelling",
+          "bbox": [
+            306.1416931152344,
+            681.3218994140625,
+            562.7420654296875,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p3-b5-1de850d",
+          "kind": "paragraph",
+          "text": "H3: Gender equity",
+          "bbox": [
+            149.1186981201172,
+            346.312744140625,
+            204.94070434570312,
+            355.18524169921875
+          ]
+        },
+        {
+          "id": "p3-b6-aee490c",
+          "kind": "paragraph",
+          "text": "H5: Empowerment",
+          "bbox": [
+            148.0592041015625,
+            334.53472900390625,
+            204.93417358398438,
+            343.4072265625
+          ]
+        },
+        {
+          "id": "p3-b7-4263572",
+          "kind": "paragraph",
+          "text": "A2: Yield stability",
+          "bbox": [
+            152.4272003173828,
+            322.7567138671875,
+            204.94717407226562,
+            331.62921142578125
+          ]
+        },
+        {
+          "id": "p3-b8-f694203",
+          "kind": "paragraph",
+          "text": "E3: Market supply or demand",
+          "bbox": [
+            115.58519744873047,
+            310.97869873046875,
+            204.84970092773438,
+            319.8511962890625
+          ]
+        },
+        {
+          "id": "p3-b9-7e88ebe",
+          "kind": "paragraph",
+          "text": "H4: Food security",
+          "bbox": [
+            151.14019775390625,
+            299.20068359375,
+            204.94068908691406,
+            308.07318115234375
+          ]
+        },
+        {
+          "id": "p3-b10-76baa28",
+          "kind": "paragraph",
+          "text": "A3: Self-suﬀiciency",
+          "bbox": [
+            146.06369018554688,
+            287.42266845703125,
+            204.9276885986328,
+            296.295166015625
+          ]
+        },
+        {
+          "id": "p3-b11-d4531c3",
+          "kind": "paragraph",
+          "text": "H2: Health",
+          "bbox": [
+            173.00619506835938,
+            275.6446533203125,
+            205.01866149902344,
+            284.51715087890625
+          ]
+        },
+        {
+          "id": "p3-b12-866d372",
+          "kind": "paragraph",
+          "text": "H1: Nutrition",
+          "bbox": [
+            167.28619384765625,
+            263.86663818359375,
+            204.99917602539062,
+            272.7391357421875
+          ]
+        },
+        {
+          "id": "p3-b13-d8ddef1",
+          "kind": "paragraph",
+          "text": "E2: Poverty",
+          "bbox": [
+            171.0561981201172,
+            252.088623046875,
+            205.01219177246094,
+            260.96112060546875
+          ]
+        },
+        {
+          "id": "p3-b14-e9b05bd",
+          "kind": "paragraph",
+          "text": "E4: Labour productivity",
+          "bbox": [
+            133.64869689941406,
+            240.31060791015625,
+            204.9016876220703,
+            249.18310546875
+          ]
+        },
+        {
+          "id": "p3-b15-696237c",
+          "kind": "paragraph",
+          "text": "E5: Assets",
+          "bbox": [
+            174.16969299316406,
+            228.5325927734375,
+            205.02517700195312,
+            237.40509033203125
+          ]
+        },
+        {
+          "id": "p3-b16-e243cd8",
+          "kind": "paragraph",
+          "text": "S4: Soil erosion",
+          "bbox": [
+            157.32168579101562,
+            216.75457763671875,
+            204.96665954589844,
+            225.6270751953125
+          ]
+        },
+        {
+          "id": "p3-b17-a088596",
+          "kind": "paragraph",
+          "text": "A4: Land use eﬀiciency",
+          "bbox": [
+            134.25318908691406,
+            204.9765625,
+            204.88868713378906,
+            213.84906005859375
+          ]
+        },
+        {
+          "id": "p3-b18-3ece547",
+          "kind": "paragraph",
+          "text": "A5: Input eﬀiciency",
+          "bbox": [
+            145.90118408203125,
+            193.19854736328125,
+            204.92770385742188,
+            202.071044921875
+          ]
+        },
+        {
+          "id": "p3-b19-6fa45d9",
+          "kind": "paragraph",
+          "text": "S9: Biodiversity",
+          "bbox": [
+            157.7506866455078,
+            181.4205322265625,
+            204.9666748046875,
+            190.29302978515625
+          ]
+        },
+        {
+          "id": "p3-b20-dace168",
+          "kind": "paragraph",
+          "text": "S8: Energy",
+          "bbox": [
+            172.15469360351562,
+            169.64251708984375,
+            205.01219177246094,
+            178.5150146484375
+          ]
+        },
+        {
+          "id": "p3-b21-849ed9d",
+          "kind": "paragraph",
+          "text": "S3: Soil nutrients",
+          "bbox": [
+            152.8756866455078,
+            157.864501953125,
+            204.94715881347656,
+            166.73699951171875
+          ]
+        },
+        {
+          "id": "p3-b22-8b22be5",
+          "kind": "paragraph",
+          "text": "S5: Soil organic carbon",
+          "bbox": [
+            133.60968017578125,
+            146.08648681640625,
+            204.8821563720703,
+            154.958984375
+          ]
+        },
+        {
+          "id": "p3-b23-7d9f99b",
+          "kind": "paragraph",
+          "text": "S6: Land use",
+          "bbox": [
+            165.92117309570312,
+            134.3084716796875,
+            204.9861602783203,
+            143.18096923828125
+          ]
+        },
+        {
+          "id": "p3-b24-3e2d35e",
+          "kind": "paragraph",
+          "text": "S7: Greenhouse gases",
+          "bbox": [
+            137.34716796875,
+            122.53045654296875,
+            204.8821563720703,
+            131.4029541015625
+          ]
+        },
+        {
+          "id": "p3-b25-6057040",
+          "kind": "paragraph",
+          "text": "S2: Water quality",
+          "bbox": [
+            153.1876678466797,
+            110.75244140625,
+            204.94715881347656,
+            119.62493896484375
+          ]
+        },
+        {
+          "id": "p3-b26-c0a18fe",
+          "kind": "paragraph",
+          "text": "S1: Water quantity",
+          "bbox": [
+            149.8921661376953,
+            98.97442626953125,
+            204.9341583251953,
+            107.846923828125
+          ]
+        },
+        {
+          "id": "p3-b27-0ab9f6a",
+          "kind": "paragraph",
+          "text": "A1: Yield",
+          "bbox": [
+            179.2201690673828,
+            87.1964111328125,
+            205.0316619873047,
+            96.06890869140625
+          ]
+        },
+        {
+          "id": "p3-b28-6571709",
+          "kind": "paragraph",
+          "text": "E1: Profitability",
+          "bbox": [
+            160.16217041015625,
+            75.41839599609375,
+            204.96665954589844,
+            84.2908935546875
+          ]
+        },
+        {
+          "id": "p3-b29-c828fe6",
+          "kind": "paragraph",
+          "text": "0\n25\n50\n75\n100",
+          "bbox": [
+            208.8135986328125,
+            361.96673583984375,
+            484.7926025390625,
+            369.4742126464844
+          ]
+        },
+        {
+          "id": "p3-b30-66b8717",
+          "kind": "paragraph",
+          "text": "Percentage of articles",
+          "bbox": [
+            312.21881103515625,
+            370.70733642578125,
+            378.9607238769531,
+            379.579833984375
+          ]
+        },
+        {
+          "id": "p3-b31-51bb6dd",
+          "kind": "paragraph",
+          "text": "TOA method\nM1\nM2\nM3\nM4\nM5\nM6\nM7\nM8\nM9",
+          "bbox": [
+            267.34930419921875,
+            50.290828704833984,
+            425.231689453125,
+            66.82684326171875
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b32-9474d1a",
+          "kind": "paragraph",
+          "text": "Fig. 1 | Articles that include TOA indicators. Percentage of articles that include \na TOA indicator (black dotted line and circles) and the share of each TOA method \nM1–M9 used to study that indicator (coloured bars). The prefixes of the TOA",
+          "bbox": [
+            39.68510055541992,
+            384.8667297363281,
+            291.9447937011719,
+            413.6227111816406
+          ]
+        },
+        {
+          "id": "p3-b33-55c93ec",
+          "kind": "paragraph",
+          "text": "indicators refer to their class association (A, E, H, S) and number of occurrence \nwithin that class as provided in Table 1. Table 1 also describes the TOA methods \nM1–M9.",
+          "bbox": [
+            306.4725036621094,
+            384.9787292480469,
+            552.253662109375,
+            413.6227111816406
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-4d61c35",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n214",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.052978515625,
+            771.5487060546875
+          ]
+        },
+        {
+          "id": "p4-b1-47eb228",
+          "kind": "paragraph",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p4-b2-75b4c80",
+          "kind": "paragraph",
+          "text": "was performed or data were collected, with the farm and field scale \ncontributing to a combined share of 48%. Of the articles considered, \n12% implemented cross-scale analyses and 17% considered off-site \neffects (Fig. 4a). Case study areas were predominantly delineated using \nadministrative borders (54%), followed by biophysical delineation \n(24%), with 18% of the articles using both methods (Fig. 4b).\nIncluding a scenario in the TOA allows investigation of the effect \nof a postulated event or driver on the TOA indicators. In our analysis, \nscenarios focusing on climate, behavioural or demographic change \naccounted for 14% of the articles, while scenarios involving alterna-\ntive intensities of resource use constituted 37% of the articles. Sce-\nnarios were absent in 25% of the articles (Fig. 4b). Over half of the \narticles included stakeholders in their analysis, with a relatively equal \nspread across stakeholder types, except for ‘distant beneficiaries and \nnon-beneficiaries’, which were under-represented. Farmers and experts \nconstituted a larger share (48%) compared to other categories (Fig. 4c). \nStakeholders were mainly involved in consultation and valuation, with \nco-development and validation implemented in less than 25% of the \narticles considered (Fig. 4c). Overall, the robustness of the TOA results \nwas not widely considered, as the criteria ‘uncertainty’ and ‘validation’ \nwere logged for less than 50% of the articles. Articles incorporating risk \nanalysis constituted 12% of the sample (Fig. 4d).",
+          "bbox": [
+            39.68498992919922,
+            413.0956115722656,
+            296.4032897949219,
+            649.026123046875
+          ]
+        },
+        {
+          "id": "p4-b3-a22e641",
+          "kind": "paragraph",
+          "text": "Links between spatial scales and criteria\nOf the articles considered, ‘livestock’, ‘fisheries’ and ‘forestry’ accounted \nfor a relatively small share (16%) compared with ‘crop’, ‘economic’ \nand ‘environmental’ disciplines. For the livestock discipline, model-\nling and data collection were predominantly carried out at the farm \nscale, while for forestry, they were primarily conducted at the field or \nregional scale (Fig. 4e). For the economic discipline, modelling and \ndata collection were evenly distributed between the farm (n = 34) and",
+          "bbox": [
+            39.685001373291016,
+            659.8218994140625,
+            296.2976379394531,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p4-b4-677c00c",
+          "kind": "paragraph",
+          "text": "regional (n = 34) scales (Fig. 4e), in contrast to the overall share of these \nscales across all of the articles, where ‘regional’ constituted 65% and \n‘farm’ constituted 17% of the articles (Fig. 4a). In general, for a large \nshare of the reviewed articles, data were collected and modelling was \nperformed at the field and farm scales, but the TOA was conducted \nat the regional scale. These findings show that, before the TOA, some \nform of aggregation occurs in the majority of the reviewed articles. \nRegarding the spatial scale at which the TOA was conducted for articles \nincluding a scenario, two observations can be made. First, all of the \nscenarios (except the resource use scenario) were rarely studied at \nscales larger than the national scale. Second, the climate, behavioural \nand demographic change scenarios were almost exclusively studied at \nthe regional scale (Fig. 4f). These results show that few studies inves-\ntigated how scenarios unfolding at smaller or larger scales affect the \nindicators at the TOA scale.",
+          "bbox": [
+            306.1416931152344,
+            413.0626220703125,
+            562.8201293945312,
+            573.776123046875
+          ]
+        },
+        {
+          "id": "p4-b5-ede138a",
+          "kind": "paragraph",
+          "text": "Multi-scale, cross-scale and robustness criteria\nFigure 5 shows the percentage of articles that include a TOA indica-\ntor (black line, the same as shown in Fig. 1). The articles were then \ndivided into subsets according to whether they included a cross-scale, \nmulti-scale or robustness criterion. The coloured lines represent the \npercentage of articles in the subset that include a specific TOA indi-\ncator. With the exception of indicators rarely included in all articles \n(for example, those related to nutrition or health), most TOA indica-\ntors were present in articles adopting a cross-scale modelling frame-\nwork (Fig. 5a). These findings occur despite the overall low number \nof articles (<20%) reporting cross-scale analyses (Fig. 5a). Notably, \narticles applying an interactive modelling framework did not include \n‘water quality’, ‘soil erosion’, ‘soil organic carbon’ and ‘biodiversity’, \ndespite these indicators having a relatively high frequency across \nall articles (Fig. 5a).",
+          "bbox": [
+            306.1416931152344,
+            584.5718994140625,
+            562.7423095703125,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p4-b6-c93edfb",
+          "kind": "paragraph",
+          "text": "Profitability",
+          "bbox": [
+            144.2938995361328,
+            275.78472900390625,
+            153.16639709472656,
+            310.69622802734375
+          ]
+        },
+        {
+          "id": "p4-b7-347de0e",
+          "kind": "paragraph",
+          "text": "Yield",
+          "bbox": [
+            156.910400390625,
+            275.78472900390625,
+            165.78289794921875,
+            291.001220703125
+          ]
+        },
+        {
+          "id": "p4-b8-aba74fc",
+          "kind": "paragraph",
+          "text": "Water quantity",
+          "bbox": [
+            169.52040100097656,
+            275.78472900390625,
+            178.3928985595703,
+            320.5372314453125
+          ]
+        },
+        {
+          "id": "p4-b9-f2fcd3f",
+          "kind": "paragraph",
+          "text": "Energy",
+          "bbox": [
+            182.13690185546875,
+            275.7847595214844,
+            191.0093994140625,
+            297.000732421875
+          ]
+        },
+        {
+          "id": "p4-b10-375112e",
+          "kind": "paragraph",
+          "text": "GHG",
+          "bbox": [
+            194.7469024658203,
+            275.78472900390625,
+            203.61940002441406,
+            290.500732421875
+          ]
+        },
+        {
+          "id": "p4-b11-14da29c",
+          "kind": "paragraph",
+          "text": "SOC",
+          "bbox": [
+            207.3634033203125,
+            275.78472900390625,
+            216.23590087890625,
+            289.8767395019531
+          ]
+        },
+        {
+          "id": "p4-b12-1adf884",
+          "kind": "paragraph",
+          "text": "Soil nutrients",
+          "bbox": [
+            219.9799041748047,
+            275.7847900390625,
+            228.85240173339844,
+            316.2342529296875
+          ]
+        },
+        {
+          "id": "p4-b13-be4bb92",
+          "kind": "paragraph",
+          "text": "Land use eﬀiciency",
+          "bbox": [
+            232.58990478515625,
+            275.7848205566406,
+            241.46240234375,
+            334.40826416015625
+          ]
+        },
+        {
+          "id": "p4-b14-8bcee0c",
+          "kind": "paragraph",
+          "text": "Input eﬀiciency",
+          "bbox": [
+            245.20640563964844,
+            275.7848205566406,
+            254.0789031982422,
+            322.9942626953125
+          ]
+        },
+        {
+          "id": "p4-b15-4907275",
+          "kind": "paragraph",
+          "text": "Market supp./dem.",
+          "bbox": [
+            257.8229064941406,
+            275.7847900390625,
+            266.6954040527344,
+            333.478759765625
+          ]
+        },
+        {
+          "id": "p4-b16-feef7e8",
+          "kind": "paragraph",
+          "text": "Land use",
+          "bbox": [
+            270.43292236328125,
+            275.7847595214844,
+            279.305419921875,
+            303.1302490234375
+          ]
+        },
+        {
+          "id": "p4-b17-05a53e5",
+          "kind": "paragraph",
+          "text": "Biodiversity",
+          "bbox": [
+            283.0494079589844,
+            275.7847595214844,
+            291.9219055175781,
+            311.2747497558594
+          ]
+        },
+        {
+          "id": "p4-b18-b8b9cc0",
+          "kind": "paragraph",
+          "text": "Water quality",
+          "bbox": [
+            295.6658935546875,
+            275.78472900390625,
+            304.53839111328125,
+            316.24725341796875
+          ]
+        },
+        {
+          "id": "p4-b19-e3c3b88",
+          "kind": "paragraph",
+          "text": "Labour productivity",
+          "bbox": [
+            320.89239501953125,
+            275.7847595214844,
+            329.764892578125,
+            335.7277526855469
+          ]
+        },
+        {
+          "id": "p4-b20-ce56ce5",
+          "kind": "paragraph",
+          "text": "Soil erosion",
+          "bbox": [
+            333.5088806152344,
+            275.7847900390625,
+            342.3813781738281,
+            311.7232666015625
+          ]
+        },
+        {
+          "id": "p4-b21-cbf7276",
+          "kind": "paragraph",
+          "text": "Self-suﬀiciency",
+          "bbox": [
+            346.1253662109375,
+            275.7848205566406,
+            354.99786376953125,
+            322.72125244140625
+          ]
+        },
+        {
+          "id": "p4-b22-bd12731",
+          "kind": "paragraph",
+          "text": "Assets",
+          "bbox": [
+            358.7353515625,
+            275.7847900390625,
+            367.60784912109375,
+            295.5252685546875
+          ]
+        },
+        {
+          "id": "p4-b23-e52c2de",
+          "kind": "paragraph",
+          "text": "Yield stability",
+          "bbox": [
+            371.3518371582031,
+            275.7847595214844,
+            380.2243347167969,
+            316.7022705078125
+          ]
+        },
+        {
+          "id": "p4-b24-5e2d482",
+          "kind": "paragraph",
+          "text": "Food security",
+          "bbox": [
+            383.96185302734375,
+            275.7847900390625,
+            392.8343505859375,
+            317.2092590332031
+          ]
+        },
+        {
+          "id": "p4-b25-7ab78b7",
+          "kind": "paragraph",
+          "text": "Nutrition",
+          "bbox": [
+            396.5783386230469,
+            275.7847900390625,
+            405.4508361816406,
+            302.53875732421875
+          ]
+        },
+        {
+          "id": "p4-b26-7a25174",
+          "kind": "paragraph",
+          "text": "Poverty",
+          "bbox": [
+            409.19482421875,
+            275.7847900390625,
+            418.06732177734375,
+            298.84027099609375
+          ]
+        },
+        {
+          "id": "p4-b27-765d1ae",
+          "kind": "paragraph",
+          "text": "Gender equity",
+          "bbox": [
+            421.8048095703125,
+            275.7848205566406,
+            430.67730712890625,
+            319.3152770996094
+          ]
+        },
+        {
+          "id": "p4-b28-0d8615f",
+          "kind": "paragraph",
+          "text": "Empowerment",
+          "bbox": [
+            434.414794921875,
+            275.7847900390625,
+            443.28729248046875,
+            320.4787902832031
+          ]
+        },
+        {
+          "id": "p4-b29-5589844",
+          "kind": "paragraph",
+          "text": "Health",
+          "bbox": [
+            308.2690124511719,
+            275.7850341796875,
+            317.1415100097656,
+            295.8310241699219
+          ]
+        },
+        {
+          "id": "p4-b30-b419d86",
+          "kind": "paragraph",
+          "text": "TOA indicator clusters",
+          "bbox": [
+            247.19000244140625,
+            62.42001724243164,
+            325.7300109863281,
+            72.65751647949219
+          ]
+        },
+        {
+          "id": "p4-b31-337ba54",
+          "kind": "paragraph",
+          "text": "Articles clustered by TOA indicators",
+          "bbox": [
+            90.94700622558594,
+            130.38241577148438,
+            101.18450164794922,
+            257.31243896484375
+          ]
+        },
+        {
+          "id": "p4-b32-d184130",
+          "kind": "paragraph",
+          "text": "TOA indicator category",
+          "bbox": [
+            93.17340087890625,
+            50.290828704833984,
+            164.18589782714844,
+            59.163330078125
+          ]
+        },
+        {
+          "id": "p4-b33-3d698c1",
+          "kind": "paragraph",
+          "text": "Agronomic",
+          "bbox": [
+            106.58209991455078,
+            60.028343200683594,
+            135.28109741210938,
+            67.53584289550781
+          ]
+        },
+        {
+          "id": "p4-b34-b39b734",
+          "kind": "paragraph",
+          "text": "Economic",
+          "bbox": [
+            106.58209991455078,
+            68.70186614990234,
+            132.3055877685547,
+            76.20936584472656
+          ]
+        },
+        {
+          "id": "p4-b35-738cf04",
+          "kind": "paragraph",
+          "text": "Human health\nSustainable resources",
+          "bbox": [
+            157.6385955810547,
+            60.396873474121094,
+            214.60755920410156,
+            75.93440246582031
+          ]
+        },
+        {
+          "id": "p4-b36-a9cf0bf",
+          "kind": "paragraph",
+          "text": "Soil nutrients, poverty",
+          "bbox": [
+            447.6412048339844,
+            115.80393981933594,
+            494.27471923828125,
+            121.94644165039062
+          ]
+        },
+        {
+          "id": "p4-b37-39680ff",
+          "kind": "paragraph",
+          "text": "Profitability, food security,\nnutrition, poverty\nProfitability, GHG, nutrients,\nassets",
+          "bbox": [
+            447.6412048339844,
+            123.06694030761719,
+            506.9962463378906,
+            146.62448120117188
+          ]
+        },
+        {
+          "id": "p4-b38-663f59d",
+          "kind": "paragraph",
+          "text": "Agricultural eﬀiciency,\nproductivity, profitability",
+          "bbox": [
+            447.6412048339844,
+            147.9609832763672,
+            500.0436706542969,
+            159.50350952148438
+          ]
+        },
+        {
+          "id": "p4-b39-0c02d4d",
+          "kind": "paragraph",
+          "text": "Profitability, water quantity,\nbiodiversity",
+          "bbox": [
+            447.6412048339844,
+            163.83702087402344,
+            505.9206848144531,
+            175.37954711914062
+          ]
+        },
+        {
+          "id": "p4-b40-6b1330d",
+          "kind": "paragraph",
+          "text": "Profitability, yield, land use,\nwater quality",
+          "bbox": [
+            447.6412048339844,
+            182.5480194091797,
+            506.0692443847656,
+            194.09054565429688
+          ]
+        },
+        {
+          "id": "p4-b41-1da24d8",
+          "kind": "paragraph",
+          "text": "Water quantity and quality,\nyield, SOC, soil erosion",
+          "bbox": [
+            447.6412048339844,
+            200.74156188964844,
+            504.5887145996094,
+            212.28408813476562
+          ]
+        },
+        {
+          "id": "p4-b42-408b3bf",
+          "kind": "paragraph",
+          "text": "Agricultural eﬀiciency and\nproductivity, GHG, SOC",
+          "bbox": [
+            447.6412048339844,
+            216.07310485839844,
+            503.3916931152344,
+            227.61563110351562
+          ]
+        },
+        {
+          "id": "p4-b43-89755fa",
+          "kind": "paragraph",
+          "text": "Yield, energy,\nmarket supp./dem., assets",
+          "bbox": [
+            447.6412048339844,
+            231.6791229248047,
+            503.35125732421875,
+            243.22164916992188
+          ]
+        },
+        {
+          "id": "p4-b44-7025d80",
+          "kind": "paragraph",
+          "text": "Land use, biodiversity,\nwater quality",
+          "bbox": [
+            447.6412048339844,
+            245.62461853027344,
+            494.8957214355469,
+            257.1671447753906
+          ]
+        },
+        {
+          "id": "p4-b45-c300e17",
+          "kind": "paragraph",
+          "text": "Water quantity, energy,\nmarket supp./dem., land use",
+          "bbox": [
+            447.6412048339844,
+            260.3171081542969,
+            508.1302795410156,
+            271.8596496582031
+          ]
+        },
+        {
+          "id": "p4-b46-688b572",
+          "kind": "paragraph",
+          "text": "E1\nA1\nS1\nS8\nS7\nS5\nS3\nA4\nA5\nE3\nS6\nS9\nS2\nH2\nE4\nS4\nA3\nE5\nA2\nH4\nH1\nE2\nH3\nH5\n7",
+          "bbox": [
+            138.48086547851562,
+            106.9282455444336,
+            443.0433654785156,
+            122.40522766113281
+          ]
+        },
+        {
+          "id": "p4-b47-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            138.31036376953125,
+            125.07820892333984,
+            141.5388641357422,
+            132.58570861816406
+          ]
+        },
+        {
+          "id": "p4-b48-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            138.82736206054688,
+            150.0207061767578,
+            141.02186584472656,
+            157.52821350097656
+          ]
+        },
+        {
+          "id": "p4-b49-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            136.9518585205078,
+            137.5631866455078,
+            142.89186096191406,
+            145.07069396972656
+          ]
+        },
+        {
+          "id": "p4-b50-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            137.72735595703125,
+            165.80018615722656,
+            142.11636352539062,
+            173.3076934814453
+          ]
+        },
+        {
+          "id": "p4-b51-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            138.21685791015625,
+            184.9016876220703,
+            141.62135314941406,
+            192.40919494628906
+          ]
+        },
+        {
+          "id": "p4-b52-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            138.39285278320312,
+            202.9527130126953,
+            141.43984985351562,
+            210.46022033691406
+          ]
+        },
+        {
+          "id": "p4-b53-2c62423",
+          "kind": "paragraph",
+          "text": "8",
+          "bbox": [
+            138.24435424804688,
+            218.6881866455078,
+            141.58285522460938,
+            226.19569396972656
+          ]
+        },
+        {
+          "id": "p4-b54-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            138.2113494873047,
+            234.46766662597656,
+            141.62135314941406,
+            241.9751739501953
+          ]
+        },
+        {
+          "id": "p4-b55-4b22777",
+          "kind": "paragraph",
+          "text": "4",
+          "bbox": [
+            138.22235107421875,
+            248.02516174316406,
+            141.6158447265625,
+            255.5326690673828
+          ]
+        },
+        {
+          "id": "p4-b56-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            138.25535583496094,
+            262.6882019042969,
+            141.57736206054688,
+            270.1956787109375
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-b57-6b0acfb",
+          "kind": "paragraph",
+          "text": "Fig. 2 | Clustering of articles. The articles were clustered by TOA indicator \n(row-wise) and TOA indicator clusters (column-wise). The associations of articles \nwith clusters are indicated by the colours and labels on the left of the figure; the \ncolours are arbitrary. TOA indicator clusters (top x axis) are specified by colour, \ncorresponding to the main indicator categories (legend in top left of the figure),",
+          "bbox": [
+            39.68499755859375,
+            342.46771240234375,
+            293.5820007324219,
+            391.22967529296875
+          ]
+        },
+        {
+          "id": "p4-b58-aac705c",
+          "kind": "paragraph",
+          "text": "and their name (bottom x axis). The matrix indicates whether a TOA indicator \nhas been included in an article (red) or not (beige). The labels on the right list the \nmain TOA indicators included in each cluster. GHG, greenhouse gases; SOC, soil \norganic carbon; supp./dem., supply or demand.",
+          "bbox": [
+            306.472412109375,
+            342.5517272949219,
+            558.2333374023438,
+            381.2266845703125
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-90cc2b3",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n215",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.6771240234375,
+            771.7984008789062
+          ]
+        },
+        {
+          "id": "p5-b1-47eb228",
+          "kind": "paragraph",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p5-b2-c346744",
+          "kind": "paragraph",
+          "text": "Across all articles, 17% considered off-site effects (Fig. 4a). Nota-\nbly, the ‘poverty’ and ‘soil erosion’ indicators were under-represented \nin articles considering off-site effects (Fig. 5b). Eight indicators were \nexcluded in articles considering multiple spatial scales in modelling or \ndata collection (‘discipline’ in Fig. 5b). This finding is particularly strik-\ning for ‘biodiversity’, given that it constitutes a large share of spatially \nexplicit TOA methods (Fig. 1).\nThirteen per cent of articles reported TOA on multiple spatial \nscales, with seven indicators excluded in these cases (‘TOA’ in Fig. 5b). \nAmong the excluded indicators, those related to human health domi-\nnated (except for ‘nutrition’). For certain indicators, these findings are \nto be expected. For instance, market supply or demand (economic) \nis irrelevant at low geographical scales (field and farm) as prices are \ndetermined at the regional (local), national or international scale. The \narticles that included a risk analysis showed stark contrasts between \nTOA indicators with respect to their representation relative to all \narticles. Economic and human health indicators were particularly \nover-represented, while ‘yield’, ‘input efficiency’ and a set of biophysi-\ncal indicators were under-represented (Fig. 5c). For articles in which \nuncertainty was acknowledged or validation was performed, no indica-\ntors were over- or under-represented relative to their inclusion across \nall articles (Fig. 5c).",
+          "bbox": [
+            39.685001373291016,
+            391.5956115722656,
+            296.38555908203125,
+            627.526123046875
+          ]
+        },
+        {
+          "id": "p5-b3-c9552b0",
+          "kind": "paragraph",
+          "text": "Discussion\nLimitations on the inclusion of TOA indicators\nRecent reviews on TOA have stated that there is little to no represen-\ntation of indicators related to social interactions, justice and gender \nissues in TOAs for agricultural systems5,6. These studies referred in \nparticular to intra-household equity, asset ownership, health, education \nand nutrition. Our results also demonstrate that social and cultural TOA \nindicators are largely absent, mostly considered in isolation and studied \nby statistical approaches. These findings are probably a result of the \nlimited data availability and the inability of TOA methods to include",
+          "bbox": [
+            39.68510055541992,
+            636.2736206054688,
+            296.3839111328125,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p5-b4-cbdace0",
+          "kind": "paragraph",
+          "text": "socio-cultural indicators for features and processes that are difficult \nto capture quantitatively16,17. We further note a similarly low frequency \nfor the following indicators: food security, self-sufficiency and yield \nstability. These findings raise questions about the rationale behind the \nselection of TOA indicators. That is, the prevalent use of profitability \nand crop yield as primary indicators reflects the focus on profit and \ncrop yield maximization in the literature5. The outcomes and priorities \nof a TOA depend on the chosen objectives and indicators. Alternative \nindicators might therefore facilitate a more comprehensive analysis of \nthe delivery of environmental, economic and socio-cultural services \nfrom agriculture. One illustrative example is the metric ‘nutritional \nyield’, defined as “the number of hectares required to provide sufficient \nquantity to fulfil 100% of dietary reference intake for a nutrient for \none adult”2. Nutritional yield thus allows the assessment of land use \nefficiency in both agronomic and social terms. Integrating nutritional \nyield into TOA in the context of subsistence agriculture could unveil \nthe need for changes in farmers’ crop plans to balance food security \nand economic profitability objectives.",
+          "bbox": [
+            306.1416931152344,
+            391.5956115722656,
+            562.8004760742188,
+            584.526123046875
+          ]
+        },
+        {
+          "id": "p5-b5-f6ccf8c",
+          "kind": "paragraph",
+          "text": "TOA methodologies\nThe formulation of research objectives, questions and methodology \ndetermines the information base that a TOA can provide16,18. Decisions \nregarding TOA objectives and methodology determine the degree \nto which scales, disciplines and indicators are compartmentalized. \nIn addition, these decisions influence the range of interventions and \nscenarios explored for alternative agro-environmental management of \nland, resources and technologies7,18. The results of our analysis reveal \nassociations between TOA methods and indicators, indicating com-\nmon gaps, such as the absence of articles reporting the use of spatially \nexplicit methods to study the indicators ‘human health’ and ‘yield sta-\nbility’. Studying these indicators in a spatially explicit manner could \nallow for targeted land use planning at the local scale. For instance, \nPrestele and Verburg demonstrated that spatially explicit analysis",
+          "bbox": [
+            306.1416931152344,
+            595.3218994140625,
+            562.7413940429688,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p5-b6-9e017d8",
+          "kind": "paragraph",
+          "text": "Cluster 3\n(n = 12)",
+          "bbox": [
+            117.3479995727539,
+            299.9964294433594,
+            145.07049560546875,
+            316.6689147949219
+          ]
+        },
+        {
+          "id": "p5-b7-fccbc8e",
+          "kind": "paragraph",
+          "text": "Cluster 4\n(n = 10)",
+          "bbox": [
+            117.26349639892578,
+            277.5779113769531,
+            145.07049560546875,
+            294.2503967285156
+          ]
+        },
+        {
+          "id": "p5-b8-42ada3f",
+          "kind": "paragraph",
+          "text": "Cluster 9\n(n = 10)",
+          "bbox": [
+            117.2439956665039,
+            255.159423828125,
+            145.07049560546875,
+            271.8319091796875
+          ]
+        },
+        {
+          "id": "p5-b9-21bf1a5",
+          "kind": "paragraph",
+          "text": "Cluster 8\n(n = 13)",
+          "bbox": [
+            117.32849884033203,
+            232.74090576171875,
+            145.07049560546875,
+            249.41339111328125
+          ]
+        },
+        {
+          "id": "p5-b10-b7ba625",
+          "kind": "paragraph",
+          "text": "Cluster 2\n(n = 11)",
+          "bbox": [
+            117.67950439453125,
+            210.3223876953125,
+            145.07701110839844,
+            226.994873046875
+          ]
+        },
+        {
+          "id": "p5-b11-ac03f9a",
+          "kind": "paragraph",
+          "text": "Cluster 6\n(n = 17)",
+          "bbox": [
+            117.25700378417969,
+            187.90386962890625,
+            145.07701110839844,
+            204.57635498046875
+          ]
+        },
+        {
+          "id": "p5-b12-1eb5609",
+          "kind": "paragraph",
+          "text": "Cluster 11\n(n = 12)",
+          "bbox": [
+            116.09349822998047,
+            165.4853515625,
+            145.07701110839844,
+            182.1578369140625
+          ]
+        },
+        {
+          "id": "p5-b13-6279a7a",
+          "kind": "paragraph",
+          "text": "Cluster 1\n(n = 12)",
+          "bbox": [
+            118.68699645996094,
+            143.06683349609375,
+            145.07701110839844,
+            159.73931884765625
+          ]
+        },
+        {
+          "id": "p5-b14-e2decfc",
+          "kind": "paragraph",
+          "text": "Cluster 10\n(n = 8)",
+          "bbox": [
+            114.260498046875,
+            120.6483154296875,
+            145.07701110839844,
+            137.32080078125
+          ]
+        },
+        {
+          "id": "p5-b15-461c248",
+          "kind": "paragraph",
+          "text": "Cluster 5\n(n = 9)",
+          "bbox": [
+            117.46499633789062,
+            98.22979736328125,
+            145.07701110839844,
+            114.90228271484375
+          ]
+        },
+        {
+          "id": "p5-b16-21575a5",
+          "kind": "paragraph",
+          "text": "Cluster 7\n(n = 5)",
+          "bbox": [
+            117.86799621582031,
+            75.811279296875,
+            145.07701110839844,
+            92.4837646484375
+          ]
+        },
+        {
+          "id": "p5-b17-c4adf9a",
+          "kind": "paragraph",
+          "text": "0\n25\n50\n75\n100\nPercentage of articles",
+          "bbox": [
+            148.86810302734375,
+            326.0401306152344,
+            486.11712646484375,
+            343.5193176269531
+          ]
+        },
+        {
+          "id": "p5-b18-51bb6dd",
+          "kind": "paragraph",
+          "text": "TOA method\nM1\nM2\nM3\nM4\nM5\nM6\nM7\nM8\nM9",
+          "bbox": [
+            230.55960083007812,
+            50.290828704833984,
+            387.3706970214844,
+            66.82684326171875
+          ]
+        },
+        {
+          "id": "p5-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p5-figure1.png",
+          "alt": "Original source page 5, graphic 1",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p5-b19-0ef4bef",
+          "kind": "paragraph",
+          "text": "Fig. 3 | The share of each TOA method by cluster. Cluster associations are as per Fig. 2 and the number of articles within each cluster is given by n.",
+          "bbox": [
+            39.68510055541992,
+            348.80621337890625,
+            495.22412109375,
+            357.5632019042969
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-9163c84",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n216",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.052978515625,
+            771.5487060546875
+          ]
+        },
+        {
+          "id": "p6-b1-47eb228",
+          "kind": "heading",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p6-b2-ca53032",
+          "kind": "paragraph",
+          "text": "of climate-smart agriculture adoptions unveils local-scale trade-offs \naffecting yield and soil carbon sequestration at an aggregated scale19. \nOur results also underscore expected patterns, with socio-economic \nindicators predominantly studied through statistical approaches and \nqualitative methods. These methods, static and based on existing data-\nsets, differ from mechanistic models, which allow extrapolation and ex \nante assessment under alternative future scenarios. Simulations based \non mechanistic models hold the potential to explore scenarios that \nminimize trade-offs between indicators3,7. However, the validity of this \nkind of optimization depends on having sufficient understanding of \nrelevant processes and feedbacks in the socio-environmental system3. \nFor example, while crop models vary in their capacity to assess climate \nchange impacts, they share common limitations, such as inadequate \nrepresentation of low-intensity agricultural systems20. We found that \na description of study limitations in the context of the TOA framework, \nfor example, excluded aspects, was often absent. Ideally, models and \nassociated uncertainties would be assessed in the design phase of the \nTOA. This could ensure the availability of adequate information for \nquantifying all desired parameters at the desired resolution, allow-\ning the study to comprehensively represent the agricultural system.",
+          "bbox": [
+            39.685001373291016,
+            531.3456420898438,
+            296.3636779785156,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p6-b3-3098107",
+          "kind": "paragraph",
+          "text": "Such an approach is crucial to guide planning in future management \ndecisions aligned with research objectives17.",
+          "bbox": [
+            306.1416931152344,
+            531.3456420898438,
+            562.6387939453125,
+            552.276123046875
+          ]
+        },
+        {
+          "id": "p6-b4-abaee2b",
+          "kind": "paragraph",
+          "text": "Involvement of stakeholders and practical application of TOA \nresults\nOne recurring concern in the literature is the frequent omission of \nstakeholders at the onset of the TOA, potentially limiting the prac-\ntical application of TOA results6,8. Our findings partially support \nthese concerns, given that co-development with stakeholders was \nobserved in only 10% of the articles. However, making a definitive \nstatement on equal representation among stakeholders proved \nchallenging as there was generally an absence of a systematic \ninventory outlining the relevance of different stakeholders to the \ndecision-making process based on their interests and influence21. \nOur analysis shows that farmers and experts were the primary stake-\nholders included in the articles. Nonetheless, the omission of distant \nbeneficiaries and non-beneficiaries is noteworthy as they are likely \nto be relevant to the decision-making process in numerous cases, \nespecially when off-site effects are considered in TOAs conducted \non multiple scales.",
+          "bbox": [
+            306.1416931152344,
+            563.0718994140625,
+            562.8663940429688,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p6-b5-838c589",
+          "kind": "paragraph",
+          "text": "0\n25\n50",
+          "bbox": [
+            88.7760009765625,
+            366.18902587890625,
+            194.43600463867188,
+            372.33154296875
+          ]
+        },
+        {
+          "id": "p6-b6-66b8717",
+          "kind": "paragraph",
+          "text": "Percentage of articles",
+          "bbox": [
+            163.18710327148438,
+            374.8523254394531,
+            219.6610565185547,
+            382.35980224609375
+          ]
+        },
+        {
+          "id": "p6-b7-015af6f",
+          "kind": "paragraph",
+          "text": "75\n100",
+          "bbox": [
+            239.25399780273438,
+            366.18902587890625,
+            296.5705261230469,
+            372.33154296875
+          ]
+        },
+        {
+          "id": "p6-b8-24ee11d",
+          "kind": "paragraph",
+          "text": "Cross-scale",
+          "bbox": [
+            55.160301208496094,
+            114.20394134521484,
+            85.16280364990234,
+            121.71144104003906
+          ]
+        },
+        {
+          "id": "p6-b9-a1b14db",
+          "kind": "paragraph",
+          "text": "Discipline",
+          "bbox": [
+            59.85179901123047,
+            99.2109603881836,
+            85.13530731201172,
+            106.71846008300781
+          ]
+        },
+        {
+          "id": "p6-b10-0ed8cce",
+          "kind": "paragraph",
+          "text": "Oﬀ-site",
+          "bbox": [
+            66.19879913330078,
+            84.21248626708984,
+            85.10230255126953,
+            91.71998596191406
+          ]
+        },
+        {
+          "id": "p6-b11-be40717",
+          "kind": "paragraph",
+          "text": "TOA",
+          "bbox": [
+            73.81079864501953,
+            69.2195053100586,
+            85.06380462646484,
+            76.72700500488281
+          ]
+        },
+        {
+          "id": "p6-b12-2fcb5d3",
+          "kind": "paragraph",
+          "text": "Scenario",
+          "bbox": [
+            62.359798431396484,
+            190.52748107910156,
+            85.1187973022461,
+            198.0349884033203
+          ]
+        },
+        {
+          "id": "p6-b13-1777a81",
+          "kind": "paragraph",
+          "text": "System border",
+          "bbox": [
+            47.1797981262207,
+            170.8539581298828,
+            85.19580078125,
+            178.36146545410156
+          ]
+        },
+        {
+          "id": "p6-b14-dbc3617",
+          "kind": "paragraph",
+          "text": "TOA method",
+          "bbox": [
+            52.31679916381836,
+            151.18043518066406,
+            85.16829681396484,
+            158.6879425048828
+          ]
+        },
+        {
+          "id": "p6-b15-1cff771",
+          "kind": "paragraph",
+          "text": "Implementation",
+          "bbox": [
+            44.19329833984375,
+            268.3854675292969,
+            85.2123031616211,
+            275.8929443359375
+          ]
+        },
+        {
+          "id": "p6-b16-16f5ce6",
+          "kind": "paragraph",
+          "text": "Inclusion",
+          "bbox": [
+            61.644798278808594,
+            248.6624298095703,
+            85.12430572509766,
+            256.169921875
+          ]
+        },
+        {
+          "id": "p6-b17-baaddf7",
+          "kind": "paragraph",
+          "text": "Type",
+          "bbox": [
+            72.50180053710938,
+            228.9394073486328,
+            85.06930541992188,
+            236.44691467285156
+          ]
+        },
+        {
+          "id": "p6-b18-7c9e8ef",
+          "kind": "paragraph",
+          "text": "Risk analysis",
+          "bbox": [
+            52.94380187988281,
+            345.6494140625,
+            85.16830444335938,
+            353.1568908691406
+          ]
+        },
+        {
+          "id": "p6-b19-77b9ebf",
+          "kind": "paragraph",
+          "text": "Uncertainty",
+          "bbox": [
+            55.237300872802734,
+            325.9264221191406,
+            85.15730285644531,
+            333.43389892578125
+          ]
+        },
+        {
+          "id": "p6-b20-68e1ca5",
+          "kind": "paragraph",
+          "text": "Validation",
+          "bbox": [
+            59.1697998046875,
+            306.1979064941406,
+            85.13530731201172,
+            313.70538330078125
+          ]
+        },
+        {
+          "id": "p6-b21-cffb57f",
+          "kind": "paragraph",
+          "text": "0\n0\n0",
+          "bbox": [
+            477.69781494140625,
+            72.9319076538086,
+            546.623779296875,
+            80.43940734863281
+          ]
+        },
+        {
+          "id": "p6-b22-e28e81d",
+          "kind": "paragraph",
+          "text": "0\n0\n4",
+          "bbox": [
+            379.68780517578125,
+            115.02339935302734,
+            448.54229736328125,
+            122.53089904785156
+          ]
+        },
+        {
+          "id": "p6-b23-843ac3e",
+          "kind": "paragraph",
+          "text": "27\n25\n47\n6\n3\n0",
+          "bbox": [
+            378.59881591796875,
+            178.1579132080078,
+            546.6348266601562,
+            185.66542053222656
+          ]
+        },
+        {
+          "id": "p6-b24-949e38b",
+          "kind": "paragraph",
+          "text": "3\n15\n6",
+          "bbox": [
+            379.9078369140625,
+            72.9374008178711,
+            448.5533447265625,
+            80.44490051269531
+          ]
+        },
+        {
+          "id": "p6-b25-58a025b",
+          "kind": "paragraph",
+          "text": "13\n34\n34\n5\n4\n1",
+          "bbox": [
+            378.8133239746094,
+            157.11488342285156,
+            545.8648681640625,
+            164.6223907470703
+          ]
+        },
+        {
+          "id": "p6-b26-6d28019",
+          "kind": "paragraph",
+          "text": "26\n24\n55\n6\n3\n1",
+          "bbox": [
+            378.3513488769531,
+            136.07191467285156,
+            545.8703002929688,
+            143.5794219970703
+          ]
+        },
+        {
+          "id": "p6-b27-907152a",
+          "kind": "paragraph",
+          "text": "1\n1\n0",
+          "bbox": [
+            478.49530029296875,
+            115.0289535522461,
+            546.6458129882812,
+            122.53645324707031
+          ]
+        },
+        {
+          "id": "p6-b28-a5ff6de",
+          "kind": "paragraph",
+          "text": "11\n1\n14\n4\n1\n0",
+          "bbox": [
+            379.38531494140625,
+            93.9859848022461,
+            546.6458129882812,
+            101.49348449707031
+          ]
+        },
+        {
+          "id": "p6-b29-98caf7c",
+          "kind": "paragraph",
+          "text": "Crop",
+          "bbox": [
+            343.82232666015625,
+            177.96546936035156,
+            356.6758117675781,
+            185.4729766845703
+          ]
+        },
+        {
+          "id": "p6-b30-b39b734",
+          "kind": "paragraph",
+          "text": "Economic",
+          "bbox": [
+            331.018310546875,
+            156.92250061035156,
+            356.7418212890625,
+            164.4300079345703
+          ]
+        },
+        {
+          "id": "p6-b31-84e85ef",
+          "kind": "paragraph",
+          "text": "Environmental",
+          "bbox": [
+            319.42431640625,
+            135.87953186035156,
+            356.7968444824219,
+            143.3870391845703
+          ]
+        },
+        {
+          "id": "p6-b32-4d8c7c9",
+          "kind": "paragraph",
+          "text": "Fisheries",
+          "bbox": [
+            334.0323181152344,
+            114.8365707397461,
+            356.7253112792969,
+            122.34407043457031
+          ]
+        },
+        {
+          "id": "p6-b33-a033c55",
+          "kind": "paragraph",
+          "text": "Forestry",
+          "bbox": [
+            335.6273193359375,
+            93.7936019897461,
+            356.71429443359375,
+            101.30110168457031
+          ]
+        },
+        {
+          "id": "p6-b34-bb63d87",
+          "kind": "paragraph",
+          "text": "Livestock",
+          "bbox": [
+            332.43731689453125,
+            72.7506332397461,
+            356.7308654785156,
+            80.25813293457031
+          ]
+        },
+        {
+          "id": "p6-b35-c02bf71",
+          "kind": "paragraph",
+          "text": "Field\nFarm\nRegional\nNational Multi–country\nGlobal",
+          "bbox": [
+            375.27130126953125,
+            198.75563049316406,
+            553.3778076171875,
+            206.2631378173828
+          ]
+        },
+        {
+          "id": "p6-b36-f102986",
+          "kind": "paragraph",
+          "text": "Scale",
+          "bbox": [
+            454.7168884277344,
+            214.720703125,
+            471.6038818359375,
+            223.59320068359375
+          ]
+        },
+        {
+          "id": "p6-b37-a1b14db",
+          "kind": "paragraph",
+          "text": "Discipline",
+          "bbox": [
+            306.7587890625,
+            114.75013732910156,
+            315.63128662109375,
+            144.63055419921875
+          ]
+        },
+        {
+          "id": "p6-b38-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            374.7666931152344,
+            346.7937316894531,
+            378.51220703125,
+            354.30120849609375
+          ]
+        },
+        {
+          "id": "p6-b39-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            374.7666931152344,
+            328.6712341308594,
+            378.51220703125,
+            336.1787109375
+          ]
+        },
+        {
+          "id": "p6-b40-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            374.44769287109375,
+            310.5487365722656,
+            378.836669921875,
+            318.05621337890625
+          ]
+        },
+        {
+          "id": "p6-b41-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            375.5422058105469,
+            292.4262390136719,
+            377.7366943359375,
+            299.9337158203125
+          ]
+        },
+        {
+          "id": "p6-b42-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            374.7666931152344,
+            274.3037414550781,
+            378.51220703125,
+            281.81121826171875
+          ]
+        },
+        {
+          "id": "p6-b43-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            374.7666931152344,
+            256.1812438964844,
+            378.51220703125,
+            263.688720703125
+          ]
+        },
+        {
+          "id": "p6-b44-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            374.7666931152344,
+            238.05873107910156,
+            378.51220703125,
+            245.5662384033203
+          ]
+        },
+        {
+          "id": "p6-b45-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            400.2976989746094,
+            346.7937316894531,
+            402.4921875,
+            354.30120849609375
+          ]
+        },
+        {
+          "id": "p6-b46-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            399.78070068359375,
+            328.6712341308594,
+            403.0091857910156,
+            336.1787109375
+          ]
+        },
+        {
+          "id": "p6-b47-4ec9599",
+          "kind": "paragraph",
+          "text": "18",
+          "bbox": [
+            398.6257019042969,
+            310.5487365722656,
+            404.15869140625,
+            318.05621337890625
+          ]
+        },
+        {
+          "id": "p6-b48-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            399.86871337890625,
+            292.4262390136719,
+            402.91571044921875,
+            299.9337158203125
+          ]
+        },
+        {
+          "id": "p6-b49-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            399.522216796875,
+            274.3037414550781,
+            403.2677307128906,
+            281.81121826171875
+          ]
+        },
+        {
+          "id": "p6-b50-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            400.2977294921875,
+            256.1812438964844,
+            402.4922180175781,
+            263.688720703125
+          ]
+        },
+        {
+          "id": "p6-b51-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            399.522216796875,
+            238.05873107910156,
+            403.2677307128906,
+            245.5662384033203
+          ]
+        },
+        {
+          "id": "p6-b52-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            424.2887268066406,
+            346.7937316894531,
+            428.03424072265625,
+            354.30120849609375
+          ]
+        },
+        {
+          "id": "p6-b53-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            424.2887268066406,
+            328.6712341308594,
+            428.03424072265625,
+            336.1787109375
+          ]
+        },
+        {
+          "id": "p6-b54-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            424.50323486328125,
+            310.5487365722656,
+            427.8252258300781,
+            318.05621337890625
+          ]
+        },
+        {
+          "id": "p6-b55-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            425.0642395019531,
+            292.4262390136719,
+            427.25872802734375,
+            299.9337158203125
+          ]
+        },
+        {
+          "id": "p6-b56-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            424.2887268066406,
+            274.3037414550781,
+            428.03424072265625,
+            281.81121826171875
+          ]
+        },
+        {
+          "id": "p6-b57-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            424.2887268066406,
+            256.1812438964844,
+            428.03424072265625,
+            263.688720703125
+          ]
+        },
+        {
+          "id": "p6-b58-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            424.2887268066406,
+            238.05873107910156,
+            428.03424072265625,
+            245.5662384033203
+          ]
+        },
+        {
+          "id": "p6-b59-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            448.9507141113281,
+            346.7937316894531,
+            452.69622802734375,
+            354.30120849609375
+          ]
+        },
+        {
+          "id": "p6-b60-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            449.7262268066406,
+            328.6712341308594,
+            451.92071533203125,
+            336.1787109375
+          ]
+        },
+        {
+          "id": "p6-b61-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            449.1212158203125,
+            310.5487365722656,
+            452.5257263183594,
+            318.05621337890625
+          ]
+        },
+        {
+          "id": "p6-b62-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            449.7262268066406,
+            292.4262390136719,
+            451.92071533203125,
+            299.9337158203125
+          ]
+        },
+        {
+          "id": "p6-b63-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            448.9507141113281,
+            274.3037414550781,
+            452.69622802734375,
+            281.81121826171875
+          ]
+        },
+        {
+          "id": "p6-b64-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            448.9507141113281,
+            256.1812438964844,
+            452.69622802734375,
+            263.688720703125
+          ]
+        },
+        {
+          "id": "p6-b65-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            448.9507141113281,
+            238.05873107910156,
+            452.69622802734375,
+            245.5662384033203
+          ]
+        },
+        {
+          "id": "p6-b66-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            474.41571044921875,
+            346.7937316894531,
+            476.6101989746094,
+            354.30120849609375
+          ]
+        },
+        {
+          "id": "p6-b67-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            473.8106994628906,
+            328.6712341308594,
+            477.2152099609375,
+            336.1787109375
+          ]
+        },
+        {
+          "id": "p6-b68-b17ef6d",
+          "kind": "paragraph",
+          "text": "16",
+          "bbox": [
+            472.7161865234375,
+            310.5487365722656,
+            478.315185546875,
+            318.05621337890625
+          ]
+        },
+        {
+          "id": "p6-b69-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            474.4156799316406,
+            292.4262390136719,
+            476.61016845703125,
+            299.9337158203125
+          ]
+        },
+        {
+          "id": "p6-b70-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            473.6401672363281,
+            274.3037414550781,
+            477.38568115234375,
+            281.81121826171875
+          ]
+        },
+        {
+          "id": "p6-b71-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            473.6401672363281,
+            256.1812438964844,
+            477.38568115234375,
+            263.688720703125
+          ]
+        },
+        {
+          "id": "p6-b72-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            473.6401672363281,
+            238.05873107910156,
+            477.38568115234375,
+            245.5662384033203
+          ]
+        },
+        {
+          "id": "p6-b73-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            498.47265625,
+            346.7937316894531,
+            501.7946472167969,
+            354.30120849609375
+          ]
+        },
+        {
+          "id": "p6-b74-3fdba35",
+          "kind": "paragraph",
+          "text": "13",
+          "bbox": [
+            497.3781433105469,
+            328.6712341308594,
+            502.8946228027344,
+            336.1787109375
+          ]
+        },
+        {
+          "id": "p6-b75-44cb730",
+          "kind": "paragraph",
+          "text": "43",
+          "bbox": [
+            496.7786560058594,
+            310.5487365722656,
+            503.494140625,
+            318.05621337890625
+          ]
+        },
+        {
+          "id": "p6-b76-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            498.52215576171875,
+            292.4262390136719,
+            501.7506408691406,
+            299.9337158203125
+          ]
+        },
+        {
+          "id": "p6-b77-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            499.0391540527344,
+            274.3037414550781,
+            501.233642578125,
+            281.81121826171875
+          ]
+        },
+        {
+          "id": "p6-b78-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            499.0391540527344,
+            256.1812438964844,
+            501.233642578125,
+            263.688720703125
+          ]
+        },
+        {
+          "id": "p6-b79-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            498.2636413574219,
+            238.05873107910156,
+            502.0091552734375,
+            245.5662384033203
+          ]
+        },
+        {
+          "id": "p6-b80-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            523.0191650390625,
+            346.7937316894531,
+            526.7646484375,
+            354.30120849609375
+          ]
+        },
+        {
+          "id": "p6-b81-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            523.0191650390625,
+            328.6712341308594,
+            526.7646484375,
+            336.1787109375
+          ]
+        },
+        {
+          "id": "p6-b82-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            523.3711547851562,
+            310.5487365722656,
+            526.4181518554688,
+            318.05621337890625
+          ]
+        },
+        {
+          "id": "p6-b83-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            523.0191650390625,
+            292.4262390136719,
+            526.7646484375,
+            299.9337158203125
+          ]
+        },
+        {
+          "id": "p6-b84-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            523.0191650390625,
+            274.3037414550781,
+            526.7646484375,
+            281.81121826171875
+          ]
+        },
+        {
+          "id": "p6-b85-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            523.0191650390625,
+            256.1812438964844,
+            526.7646484375,
+            263.688720703125
+          ]
+        },
+        {
+          "id": "p6-b86-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            523.0191650390625,
+            238.05873107910156,
+            526.7646484375,
+            245.5662384033203
+          ]
+        },
+        {
+          "id": "p6-b87-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            547.9671630859375,
+            346.7937316894531,
+            551.1956787109375,
+            354.30120849609375
+          ]
+        },
+        {
+          "id": "p6-b88-7902699",
+          "kind": "paragraph",
+          "text": "7",
+          "bbox": [
+            548.1376342773438,
+            328.6712341308594,
+            551.025146484375,
+            336.1787109375
+          ]
+        },
+        {
+          "id": "p6-b89-b7a5687",
+          "kind": "paragraph",
+          "text": "25",
+          "bbox": [
+            546.4436645507812,
+            310.5487365722656,
+            552.7191772460938,
+            318.05621337890625
+          ]
+        },
+        {
+          "id": "p6-b90-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            547.9176635742188,
+            292.4262390136719,
+            551.2396850585938,
+            299.9337158203125
+          ]
+        },
+        {
+          "id": "p6-b91-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            547.9671630859375,
+            274.3037414550781,
+            551.1956787109375,
+            281.81121826171875
+          ]
+        },
+        {
+          "id": "p6-b92-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            547.7086791992188,
+            256.1812438964844,
+            551.4541625976562,
+            263.688720703125
+          ]
+        },
+        {
+          "id": "p6-b93-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            548.4841918945312,
+            238.05873107910156,
+            550.6787109375,
+            245.5662384033203
+          ]
+        },
+        {
+          "id": "p6-b94-f45fc1d",
+          "kind": "paragraph",
+          "text": "Field",
+          "bbox": [
+            344.0821838378906,
+            346.4967346191406,
+            356.6716613769531,
+            354.00421142578125
+          ]
+        },
+        {
+          "id": "p6-b95-3457b16",
+          "kind": "paragraph",
+          "text": "Farm",
+          "bbox": [
+            343.62567138671875,
+            328.3742370605469,
+            356.6716613769531,
+            335.8817138671875
+          ]
+        },
+        {
+          "id": "p6-b96-299a03b",
+          "kind": "paragraph",
+          "text": "Regional",
+          "bbox": [
+            334.0501708984375,
+            310.2517395019531,
+            356.6716613769531,
+            317.75921630859375
+          ]
+        },
+        {
+          "id": "p6-b97-865b30e",
+          "kind": "paragraph",
+          "text": "National",
+          "bbox": [
+            335.17218017578125,
+            292.1292419433594,
+            356.67169189453125,
+            299.63671875
+          ]
+        },
+        {
+          "id": "p6-b98-2b3cddd",
+          "kind": "paragraph",
+          "text": "Multi–country",
+          "bbox": [
+            320.8941650390625,
+            274.0067443847656,
+            356.67169189453125,
+            281.51422119140625
+          ]
+        },
+        {
+          "id": "p6-b99-a258b30",
+          "kind": "paragraph",
+          "text": "Global",
+          "bbox": [
+            339.4896545410156,
+            255.8842315673828,
+            356.6716613769531,
+            263.3917236328125
+          ]
+        },
+        {
+          "id": "p6-b100-f97e9da",
+          "kind": "paragraph",
+          "text": "Other",
+          "bbox": [
+            341.77764892578125,
+            237.76173400878906,
+            356.6716613769531,
+            245.2692413330078
+          ]
+        },
+        {
+          "id": "p6-b101-51d34f0",
+          "kind": "paragraph",
+          "text": "1\n2\n3\n4\n5\n6\n7\n8\nScenario",
+          "bbox": [
+            375.3991394042969,
+            365.0372619628906,
+            551.2175903320312,
+            382.4048156738281
+          ]
+        },
+        {
+          "id": "p6-b102-cba5200",
+          "kind": "paragraph",
+          "text": "TOA scale",
+          "bbox": [
+            306.7578125,
+            281.10858154296875,
+            315.63031005859375,
+            312.0616149902344
+          ]
+        },
+        {
+          "id": "p6-b103-3f79bb7",
+          "kind": "heading",
+          "text": "e",
+          "bbox": [
+            308.4259033203125,
+            50.90454864501953,
+            314.0430908203125,
+            63.86874771118164
+          ]
+        },
+        {
+          "id": "p6-b104-252f10c",
+          "kind": "heading",
+          "text": "f",
+          "bbox": [
+            308.4352111816406,
+            223.3172607421875,
+            312.0901184082031,
+            236.28146362304688
+          ]
+        },
+        {
+          "id": "p6-b105-0aed5d7",
+          "kind": "paragraph",
+          "text": "3\n4\n5 6",
+          "bbox": [
+            201.6367950439453,
+            69.2470932006836,
+            292.8268127441406,
+            76.81507873535156
+          ]
+        },
+        {
+          "id": "p6-b106-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            202.4453125,
+            114.36360931396484,
+            205.76731872558594,
+            121.87110900878906
+          ]
+        },
+        {
+          "id": "p6-b107-b598b3a",
+          "kind": "paragraph",
+          "text": "1\n2",
+          "bbox": [
+            95.50331115722656,
+            69.3131332397461,
+            121.86480712890625,
+            76.82063293457031
+          ]
+        },
+        {
+          "id": "p6-b108-b598b3a",
+          "kind": "paragraph",
+          "text": "1\n2",
+          "bbox": [
+            96.43280792236328,
+            114.3966293334961,
+            111.87130737304688,
+            121.90412902832031
+          ]
+        },
+        {
+          "id": "p6-b109-0960890",
+          "kind": "paragraph",
+          "text": "1\n2\n3\n4\n56",
+          "bbox": [
+            110.49080657958984,
+            99.30464935302734,
+            293.7783508300781,
+            106.87812805175781
+          ]
+        },
+        {
+          "id": "p6-b110-9b6498d",
+          "kind": "paragraph",
+          "text": "3\n4\n5",
+          "bbox": [
+            176.33990478515625,
+            151.3090362548828,
+            216.06640625,
+            158.8770294189453
+          ]
+        },
+        {
+          "id": "p6-b111-99e7772",
+          "kind": "paragraph",
+          "text": "3 4\n5",
+          "bbox": [
+            135.02940368652344,
+            190.7605743408203,
+            162.63389587402344,
+            198.3285675048828
+          ]
+        },
+        {
+          "id": "p6-b112-a39d2d2",
+          "kind": "paragraph",
+          "text": "1\n2\n6\n7\n8\n9",
+          "bbox": [
+            106.63839721679688,
+            151.34754943847656,
+            280.9278869628906,
+            158.88807678222656
+          ]
+        },
+        {
+          "id": "p6-b113-d8d3cf4",
+          "kind": "paragraph",
+          "text": "1\n2\n6\n7\n8",
+          "bbox": [
+            96.22137451171875,
+            190.7990264892578,
+            271.2533874511719,
+            198.3395538330078
+          ]
+        },
+        {
+          "id": "p6-b114-f83c1be",
+          "kind": "paragraph",
+          "text": "No\nYes",
+          "bbox": [
+            170.5675048828125,
+            84.32894134521484,
+            280.01202392578125,
+            91.84193420410156
+          ]
+        },
+        {
+          "id": "p6-b115-f83c1be",
+          "kind": "paragraph",
+          "text": "No\nYes",
+          "bbox": [
+            132.2985076904297,
+            248.9329376220703,
+            241.7429962158203,
+            256.4459228515625
+          ]
+        },
+        {
+          "id": "p6-b116-f83c1be",
+          "kind": "paragraph",
+          "text": "No\nYes",
+          "bbox": [
+            145.05850219726562,
+            306.46844482421875,
+            254.5030059814453,
+            313.9814147949219
+          ]
+        },
+        {
+          "id": "p6-b117-f83c1be",
+          "kind": "paragraph",
+          "text": "No\nYes",
+          "bbox": [
+            140.8070068359375,
+            326.1914367675781,
+            250.2515106201172,
+            333.70440673828125
+          ]
+        },
+        {
+          "id": "p6-b118-f83c1be",
+          "kind": "paragraph",
+          "text": "No\nYes",
+          "bbox": [
+            175.6715087890625,
+            345.919921875,
+            285.11602783203125,
+            353.4328918457031
+          ]
+        },
+        {
+          "id": "p6-b119-6100987",
+          "kind": "paragraph",
+          "text": "Administrative\nBiophysical\nBoth",
+          "bbox": [
+            98.61651611328125,
+            170.6679229736328,
+            270.14501953125,
+            178.68141174316406
+          ]
+        },
+        {
+          "id": "p6-b120-f97e9da",
+          "kind": "paragraph",
+          "text": "Other",
+          "bbox": [
+            283.43182373046875,
+            168.32000732421875,
+            290.9393005371094,
+            183.21405029296875
+          ]
+        },
+        {
+          "id": "p6-b121-9706d40",
+          "kind": "paragraph",
+          "text": "Lb\nEx\nGv\nFm\nDb\nAc\nPv\nEo",
+          "bbox": [
+            98.8458023071289,
+            229.20509338378906,
+            284.8667907714844,
+            236.8061065673828
+          ]
+        },
+        {
+          "id": "p6-b122-43927be",
+          "kind": "paragraph",
+          "text": "Co\nCd\nVa\nVd",
+          "bbox": [
+            145.0017852783203,
+            268.6565856933594,
+            283.6292724609375,
+            276.2520751953125
+          ]
+        },
+        {
+          "id": "p6-b123-2a50c64",
+          "kind": "heading",
+          "text": "Scale\na",
+          "bbox": [
+            44.266700744628906,
+            50.90454864501953,
+            70.58140563964844,
+            63.86874771118164
+          ]
+        },
+        {
+          "id": "p6-b124-e1ffc1a",
+          "kind": "heading",
+          "text": "TOA framework\nb",
+          "bbox": [
+            44.11439895629883,
+            130.15252685546875,
+            101.25961303710938,
+            143.11672973632812
+          ]
+        },
+        {
+          "id": "p6-b125-75e7685",
+          "kind": "heading",
+          "text": "Stakeholder\nc",
+          "bbox": [
+            44.16809844970703,
+            207.462646484375,
+            90.46480560302734,
+            220.42684936523438
+          ]
+        },
+        {
+          "id": "p6-b126-effc393",
+          "kind": "heading",
+          "text": "TOA robustness\nd",
+          "bbox": [
+            44.11000061035156,
+            285.2506103515625,
+            102.11322021484375,
+            298.2148132324219
+          ]
+        },
+        {
+          "id": "p6-figure5",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p6-figure5.png",
+          "alt": "Original source page 6, graphic 5",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-b127-61264e2",
+          "kind": "paragraph",
+          "text": "Fig. 4 | The relative frequency of each level within a criterion. a, Criteria \nrelated to the scale of the analysis. TOA: the spatial scale at which the TOA was \nconducted. The numbers refer to the spatial scales of field (1), farm (2), regional \n(3), national (4), multi-country (5) and global (6). Off-site: whether off-site effects \nhave been considered in the TOA. Discipline: the spatial scale at which modelling \nor data collection was performed for a discipline. The numbers refer to the spatial \nscales detailed above for TOA. Cross-scale: whether aggregative (1), interactive \n(2) or no cross-scale modelling was performed (3). b, Criteria related to the TOA \nframework. TOA method: the methods used to perform the TOAs. The numbers \nrefer to the TOA methods M1–M9 defined in Table 1. System border: which \nboundaries were used to define the TOA case study area. Scenario: whether the \narticle considered a scenario and, if so, which type of scenario. The numbers refer",
+          "bbox": [
+            39.677978515625,
+            387.6917419433594,
+            295.6267395019531,
+            506.4746398925781
+          ]
+        },
+        {
+          "id": "p6-b128-bbbf37a",
+          "kind": "paragraph",
+          "text": "to the scenarios 1–8 defined in Table 1. c, Criteria related to stakeholders. Type: \nwhether local beneficiaries and non-beneficiaries, experts, government, farmers, \ndistant beneficiaries and non-beneficiaries, academics, private organizations \nor environmental organizations were involved. Inclusion: whether the study \nincluded stakeholders. Implementation: whether stakeholders were involved \nin consultation, co-development, valuation or validation. d, Criteria related \nto TOA robustness: whether the article performed a validation, risk analysis \nor acknowledged uncertainty. e, The frequency (shown in the circles) for each \nspatial scale at which the modelling or data collection was performed for a given \ndiscipline. f, The frequency (shown in the circles) at which an article considered \na given scenario in TOA for each spatial scale. The scenario numbers 1–8 are \ndefined in Table 1.",
+          "bbox": [
+            306.4583740234375,
+            387.6917419433594,
+            562.3375854492188,
+            506.4746398925781
+          ]
+        },
+        {
+          "id": "p6-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p6-figure1.png",
+          "alt": "Original source page 6, graphic 1",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-figure2",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p6-figure2.png",
+          "alt": "Original source page 6, graphic 2",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-figure3",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p6-figure3.png",
+          "alt": "Original source page 6, graphic 3",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-figure4",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p6-figure4.png",
+          "alt": "Original source page 6, graphic 4",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-4c8552d",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n217",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.67724609375,
+            771.7984008789062
+          ]
+        },
+        {
+          "id": "p7-b1-47eb228",
+          "kind": "paragraph",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p7-b2-4111639",
+          "kind": "paragraph",
+          "text": "Multi- and cross-scale analysis\nDepending on the research objectives, the TOA literature underscores \nthe importance of acknowledging processes across scales and includ-\ning them in research3,6–9,22. In many of the articles, data were collected \nor modelling was performed at field and farm scales, yet the TOA was \nconducted at the regional scale. This highlights an opportunity for \nmulti-scale TOA analysis, potentially enhancing the relevance of TOA \nstudies to policy. For example, bilevel optimization is a promising \napproach to facilitating nested decision-making processes at different \nscales. In this approach, the solution at the higher level (for example, \nlarger spatial scale) depends on the solution at the lower level (for exam-\nple, smaller spatial scale). Bostian et al. demonstrated the application \nof this methodology in recognizing multiple spatial scales inherent to \nnon-point pollution regulation23. However, the restricted application \nof cross-scale analysis in our sample (12%) shows the limited extent to \nwhich TOA in agriculture captures the hierarchical nature of social, \ncultural, environmental, economic and agronomic processes.\nFurthermore, 17% of the articles considered effects outside the TOA \ncase study area, considering off-site effects in a diverse array of subjects, \nincluding transnational emission permits, water trading and increased \ndemand for scarce resources, anticipated to influence their shadow \nprices24–26. However, off-site effects might have feedbacks, such as \ndependencies between alternative production systems within a supply",
+          "bbox": [
+            39.68324279785156,
+            498.5718688964844,
+            296.3740539550781,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p7-b3-ee05057",
+          "kind": "paragraph",
+          "text": "chain27. In such cases, the delineation of the system boundary must be \nconsidered in the context of these feedbacks to ensure their inclusion \nwithin the system. In cases where off-site effects do not have feedbacks, \nthese can be classified as ‘teleconnections’, denoting processes whose \ncause and effect are widely separated28. A case in point is a study of the \nwater quality of the Danube River, in which distant beneficiaries and \nnon-beneficiaries, represented by an international committee, were \nconsidered in the TOA29. The results also show that climate, behavioural \nand demographic scenarios were rarely assessed at lower or higher \nscales (compared to the regional scale). This underscores that the extent \nto which these scales are relevant to TOA is understudied and merits \nfurther research. For example, generic methods, such as the carbon30 \nor water31 footprint, can provide a broad assessment of which off-site \neffects at larger scales are relevant to TOA outcomes. These approaches \nmay facilitate the inclusion of underlying causes, the involvement of \nmore inclusive stakeholders and account for leakage effects, such as \nthe expansion of agricultural lands beyond the TOA case study area32.\nIdeally, a TOA methodological framework is conceptualized such \nthat (1) it recognizes multi- and cross-scale interactions where appli-\ncable, (2) the system boundary aligns with substantiated biophysical \nand relevant socio-institutional boundaries, and (3) it recognizes the \nheterogeneity in which scales and associated consequences are per-\nceived as well as valued by different stakeholders10.",
+          "bbox": [
+            306.13800048828125,
+            498.7574157714844,
+            562.8272705078125,
+            745.776123046875
+          ]
+        },
+        {
+          "id": "p7-b4-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            54.11349868774414,
+            137.1612091064453,
+            57.8589973449707,
+            144.66871643066406
+          ]
+        },
+        {
+          "id": "p7-b5-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            51.91349792480469,
+            125.3416976928711,
+            57.85349655151367,
+            132.8491973876953
+          ]
+        },
+        {
+          "id": "p7-b6-f5ca38f",
+          "kind": "paragraph",
+          "text": "20",
+          "bbox": [
+            51.060997009277344,
+            113.52217864990234,
+            57.85349655151367,
+            121.02967834472656
+          ]
+        },
+        {
+          "id": "p7-b7-624b60c",
+          "kind": "paragraph",
+          "text": "30",
+          "bbox": [
+            50.78599548339844,
+            101.7026596069336,
+            57.853492736816406,
+            109.21015930175781
+          ]
+        },
+        {
+          "id": "p7-b8-d59eced",
+          "kind": "paragraph",
+          "text": "40",
+          "bbox": [
+            50.71449661254883,
+            89.88314056396484,
+            57.85349655151367,
+            97.39064025878906
+          ]
+        },
+        {
+          "id": "p7-b9-1a65625",
+          "kind": "paragraph",
+          "text": "50",
+          "bbox": [
+            50.87949752807617,
+            78.0636215209961,
+            57.85349655151367,
+            85.57112121582031
+          ]
+        },
+        {
+          "id": "p7-b10-8761833",
+          "kind": "heading",
+          "text": "60\nCross-scale",
+          "bbox": [
+            50.70349884033203,
+            62.335506439208984,
+            528.481201171875,
+            73.75160217285156
+          ]
+        },
+        {
+          "id": "p7-b11-318c828",
+          "kind": "paragraph",
+          "text": "All articles\nAggregative\n(n = 9)\nInteractive\n(n = 6)",
+          "bbox": [
+            505.968994140625,
+            72.7190170288086,
+            537.6105346679688,
+            107.89143371582031
+          ]
+        },
+        {
+          "id": "p7-b12-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            54.110992431640625,
+            237.1524200439453,
+            57.85649108886719,
+            244.65992736816406
+          ]
+        },
+        {
+          "id": "p7-b13-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            51.91099166870117,
+            224.54640197753906,
+            57.850990295410156,
+            232.0539093017578
+          ]
+        },
+        {
+          "id": "p7-b14-f5ca38f",
+          "kind": "paragraph",
+          "text": "20",
+          "bbox": [
+            51.05849075317383,
+            211.9403839111328,
+            57.850990295410156,
+            219.44789123535156
+          ]
+        },
+        {
+          "id": "p7-b15-624b60c",
+          "kind": "paragraph",
+          "text": "30",
+          "bbox": [
+            50.78348922729492,
+            199.33436584472656,
+            57.85098648071289,
+            206.8418731689453
+          ]
+        },
+        {
+          "id": "p7-b16-d59eced",
+          "kind": "paragraph",
+          "text": "40",
+          "bbox": [
+            50.71199035644531,
+            186.7283477783203,
+            57.850990295410156,
+            194.23585510253906
+          ]
+        },
+        {
+          "id": "p7-b17-1a65625",
+          "kind": "paragraph",
+          "text": "50",
+          "bbox": [
+            50.876991271972656,
+            174.12232971191406,
+            57.850990295410156,
+            181.6298370361328
+          ]
+        },
+        {
+          "id": "p7-b18-958e640",
+          "kind": "heading",
+          "text": "60\nMulti-scale",
+          "bbox": [
+            50.700992584228516,
+            161.5163116455078,
+            527.4382934570312,
+            171.1982421875
+          ]
+        },
+        {
+          "id": "p7-b19-c0ba089",
+          "kind": "paragraph",
+          "text": "All articles\nTOA\n(n = 16)\nDiscipline\n(n = 12)\nOﬀ-site\n(n = 20)",
+          "bbox": [
+            506.9638977050781,
+            172.70960998535156,
+            534.282470703125,
+            221.63197326660156
+          ]
+        },
+        {
+          "id": "p7-b20-ca97811",
+          "kind": "paragraph",
+          "text": "a",
+          "bbox": [
+            39.007598876953125,
+            50.9044189453125,
+            44.44804000854492,
+            63.86847686767578
+          ]
+        },
+        {
+          "id": "p7-b21-3e23e81",
+          "kind": "paragraph",
+          "text": "b",
+          "bbox": [
+            39.007598876953125,
+            149.92047119140625,
+            45.01533508300781,
+            162.88453674316406
+          ]
+        },
+        {
+          "id": "p7-b22-2e7d2c0",
+          "kind": "paragraph",
+          "text": "c",
+          "bbox": [
+            39.007598876953125,
+            250.88946533203125,
+            44.457340240478516,
+            263.853515625
+          ]
+        },
+        {
+          "id": "p7-b23-5feceb6",
+          "kind": "paragraph",
+          "text": "0",
+          "bbox": [
+            54.11349868774414,
+            339.6247253417969,
+            57.8589973449707,
+            347.1322021484375
+          ]
+        },
+        {
+          "id": "p7-b24-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            51.91349792480469,
+            330.1592102050781,
+            57.85349655151367,
+            337.66668701171875
+          ]
+        },
+        {
+          "id": "p7-b25-f5ca38f",
+          "kind": "paragraph",
+          "text": "20",
+          "bbox": [
+            51.060997009277344,
+            320.6882019042969,
+            57.85349655151367,
+            328.1956787109375
+          ]
+        },
+        {
+          "id": "p7-b26-624b60c",
+          "kind": "paragraph",
+          "text": "30",
+          "bbox": [
+            50.78599548339844,
+            311.2226867675781,
+            57.853492736816406,
+            318.73016357421875
+          ]
+        },
+        {
+          "id": "p7-b27-d59eced",
+          "kind": "paragraph",
+          "text": "40",
+          "bbox": [
+            50.71449661254883,
+            301.7571716308594,
+            57.85349655151367,
+            309.2646484375
+          ]
+        },
+        {
+          "id": "p7-b28-1a65625",
+          "kind": "paragraph",
+          "text": "50",
+          "bbox": [
+            50.87949752807617,
+            292.2916564941406,
+            57.85349655151367,
+            299.79913330078125
+          ]
+        },
+        {
+          "id": "p7-b29-39fa9ec",
+          "kind": "paragraph",
+          "text": "60",
+          "bbox": [
+            50.70349884033203,
+            282.8261413574219,
+            57.85349655151367,
+            290.3336181640625
+          ]
+        },
+        {
+          "id": "p7-b30-ff5a1ae",
+          "kind": "paragraph",
+          "text": "70",
+          "bbox": [
+            51.220497131347656,
+            273.3606262207031,
+            57.85349655151367,
+            280.86810302734375
+          ]
+        },
+        {
+          "id": "p7-b31-48449a1",
+          "kind": "paragraph",
+          "text": "80",
+          "bbox": [
+            50.76949691772461,
+            263.8951110839844,
+            57.85349655151367,
+            271.402587890625
+          ]
+        },
+        {
+          "id": "p7-b32-69f59c2",
+          "kind": "paragraph",
+          "text": "90",
+          "bbox": [
+            50.697998046875,
+            254.42408752441406,
+            57.85349655151367,
+            261.93157958984375
+          ]
+        },
+        {
+          "id": "p7-b33-6571709",
+          "kind": "paragraph",
+          "text": "E1: Profitability",
+          "bbox": [
+            70.79769897460938,
+            353.44903564453125,
+            78.3051986694336,
+            391.36053466796875
+          ]
+        },
+        {
+          "id": "p7-b34-0ab9f6a",
+          "kind": "paragraph",
+          "text": "A1: Yield",
+          "bbox": [
+            91.28519439697266,
+            353.40509033203125,
+            98.79269409179688,
+            375.24554443359375
+          ]
+        },
+        {
+          "id": "p7-b35-c0a18fe",
+          "kind": "paragraph",
+          "text": "S1: Water quantity",
+          "bbox": [
+            111.77269744873047,
+            353.4710693359375,
+            119.28019714355469,
+            400.0450439453125
+          ]
+        },
+        {
+          "id": "p7-b36-6057040",
+          "kind": "paragraph",
+          "text": "S2: Water quality",
+          "bbox": [
+            132.26019287109375,
+            353.465576171875,
+            139.7677001953125,
+            397.2620544433594
+          ]
+        },
+        {
+          "id": "p7-b37-3e2d35e",
+          "kind": "paragraph",
+          "text": "S7: Greenhouse gases",
+          "bbox": [
+            152.74769592285156,
+            353.50958251953125,
+            160.2552032470703,
+            410.654541015625
+          ]
+        },
+        {
+          "id": "p7-b38-7d9f99b",
+          "kind": "paragraph",
+          "text": "S6: Land use",
+          "bbox": [
+            173.23519897460938,
+            353.4380798339844,
+            180.74270629882812,
+            386.4930419921875
+          ]
+        },
+        {
+          "id": "p7-b39-8b22be5",
+          "kind": "paragraph",
+          "text": "S5: Soil organic carbon",
+          "bbox": [
+            193.7227020263672,
+            353.5151672363281,
+            201.23020935058594,
+            413.8225402832031
+          ]
+        },
+        {
+          "id": "p7-b40-849ed9d",
+          "kind": "paragraph",
+          "text": "S3: Soil nutrients",
+          "bbox": [
+            214.210205078125,
+            353.4710998535156,
+            221.71771240234375,
+            397.53155517578125
+          ]
+        },
+        {
+          "id": "p7-b41-dace168",
+          "kind": "paragraph",
+          "text": "S8: Energy",
+          "bbox": [
+            234.6977081298828,
+            353.4271240234375,
+            242.20521545410156,
+            381.22955322265625
+          ]
+        },
+        {
+          "id": "p7-b42-6fa45d9",
+          "kind": "paragraph",
+          "text": "S9: Biodiversity",
+          "bbox": [
+            255.18519592285156,
+            353.4600830078125,
+            262.69268798828125,
+            393.41204833984375
+          ]
+        },
+        {
+          "id": "p7-b43-3ece547",
+          "kind": "paragraph",
+          "text": "A5: Input eﬀiciency",
+          "bbox": [
+            275.6726989746094,
+            353.48760986328125,
+            283.18017578125,
+            403.43304443359375
+          ]
+        },
+        {
+          "id": "p7-b44-a088596",
+          "kind": "paragraph",
+          "text": "A4: Land use eﬀiciency",
+          "bbox": [
+            296.1601867675781,
+            353.51507568359375,
+            303.66766357421875,
+            413.2835388183594
+          ]
+        },
+        {
+          "id": "p7-b45-e243cd8",
+          "kind": "paragraph",
+          "text": "S4: Soil erosion",
+          "bbox": [
+            316.6476745605469,
+            353.4601135253906,
+            324.1551513671875,
+            393.7750244140625
+          ]
+        },
+        {
+          "id": "p7-b46-696237c",
+          "kind": "paragraph",
+          "text": "E5: Assets",
+          "bbox": [
+            337.1351623535156,
+            353.4215087890625,
+            344.64263916015625,
+            379.530029296875
+          ]
+        },
+        {
+          "id": "p7-b47-e9b05bd",
+          "kind": "paragraph",
+          "text": "E4: Labour productivity",
+          "bbox": [
+            357.6226501464844,
+            353.50408935546875,
+            365.130126953125,
+            413.7950439453125
+          ]
+        },
+        {
+          "id": "p7-b48-d8ddef1",
+          "kind": "paragraph",
+          "text": "E2: Poverty",
+          "bbox": [
+            378.1101379394531,
+            353.42706298828125,
+            385.61761474609375,
+            382.1590576171875
+          ]
+        },
+        {
+          "id": "p7-b49-866d372",
+          "kind": "paragraph",
+          "text": "H1: Nutrition",
+          "bbox": [
+            398.5976257324219,
+            353.4380798339844,
+            406.1051025390625,
+            385.34906005859375
+          ]
+        },
+        {
+          "id": "p7-b50-d4531c3",
+          "kind": "paragraph",
+          "text": "H2: Health",
+          "bbox": [
+            419.0851135253906,
+            353.4270324707031,
+            426.59259033203125,
+            380.5145568847656
+          ]
+        },
+        {
+          "id": "p7-b51-76baa28",
+          "kind": "paragraph",
+          "text": "A3: Self-suﬀiciency",
+          "bbox": [
+            439.5726013183594,
+            353.487548828125,
+            447.080078125,
+            403.2955627441406
+          ]
+        },
+        {
+          "id": "p7-b52-7e88ebe",
+          "kind": "paragraph",
+          "text": "H4: Food security",
+          "bbox": [
+            460.0600891113281,
+            353.47662353515625,
+            467.56756591796875,
+            399.00006103515625
+          ]
+        },
+        {
+          "id": "p7-b53-f694203",
+          "kind": "paragraph",
+          "text": "E3: Market supply or demand",
+          "bbox": [
+            480.5475769042969,
+            353.5426330566406,
+            488.0550537109375,
+            429.0740661621094
+          ]
+        },
+        {
+          "id": "p7-b54-4263572",
+          "kind": "paragraph",
+          "text": "A2: Yield stability",
+          "bbox": [
+            501.0350646972656,
+            353.4765625,
+            508.54254150390625,
+            397.91656494140625
+          ]
+        },
+        {
+          "id": "p7-b55-aee490c",
+          "kind": "paragraph",
+          "text": "H5: Empowerment",
+          "bbox": [
+            521.5225219726562,
+            353.48760986328125,
+            529.030029296875,
+            401.6125793457031
+          ]
+        },
+        {
+          "id": "p7-b56-1de850d",
+          "kind": "paragraph",
+          "text": "H3: Gender equity",
+          "bbox": [
+            542.010009765625,
+            353.4876708984375,
+            549.5175170898438,
+            400.7215881347656
+          ]
+        },
+        {
+          "id": "p7-b57-cd67fc2",
+          "kind": "paragraph",
+          "text": "Robustness",
+          "bbox": [
+            493.310791015625,
+            262.3153076171875,
+            528.5018310546875,
+            271.18780517578125
+          ]
+        },
+        {
+          "id": "p7-b58-dcbf28c",
+          "kind": "paragraph",
+          "text": "All articles\nRisk analysis\n(n = 14)\nUncertainty\n(n = 55)\nValidation\n(n = 50)",
+          "bbox": [
+            506.2535095214844,
+            272.6980285644531,
+            538.4945068359375,
+            321.52703857421875
+          ]
+        },
+        {
+          "id": "p7-b59-8b44b82",
+          "kind": "paragraph",
+          "text": "Percentage of articles\nPercentage of articles\nPercentage of articles",
+          "bbox": [
+            40.686100006103516,
+            68.66240692138672,
+            49.55860137939453,
+            336.68994140625
+          ]
+        },
+        {
+          "id": "p7-b60-8a4b129",
+          "kind": "paragraph",
+          "text": "TOA indicator",
+          "bbox": [
+            289.76629638671875,
+            420.0713195800781,
+            331.95782470703125,
+            428.9438171386719
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b61-a3392ef",
+          "kind": "paragraph",
+          "text": "Fig. 5 | Percentage of articles that include a TOA indicator. The percentages \nof all reviewed articles and subsets of articles that include specific TOA \nindicators. a–c, The subsets comprise articles that included cross-scale (a), \nmulti-scale (b) and robustness (c) criteria. In b, TOA refers to articles in which",
+          "bbox": [
+            39.67802429199219,
+            435.3856201171875,
+            284.2635803222656,
+            474.1515808105469
+          ]
+        },
+        {
+          "id": "p7-b62-72095f8",
+          "kind": "paragraph",
+          "text": "the TOA was conducted on multiple spatial scales, ‘Discipline’ refers to articles \nthat considered multiple spatial scales for modelling or data collection, and \n‘Off-site’ refers to articles in which effects outside the TOA case study area were \nconsidered.",
+          "bbox": [
+            306.472412109375,
+            435.49761962890625,
+            553.7717895507812,
+            474.14459228515625
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-126e1a7",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n218",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.0529174804688,
+            771.5487060546875
+          ]
+        },
+        {
+          "id": "p8-b1-47eb228",
+          "kind": "paragraph",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p8-b2-7105be4",
+          "kind": "paragraph",
+          "text": "Robustness of TOA results\nThe risk associated with TOA extends across spatial, temporal and \njurisdictional scales, carrying implications for the dissemination of \nTOA results13. The under-representation of ‘yield’ in articles considering \nrisk analysis highlights the dichotomy between yield and profitability \nas the most prominent indicators. That is, risk analysis appears to be \nmainly associated with the economic domain5. However, it is impor-\ntant to recognize that the evaluation of risk and the formulation of \nrelevant strategies (risk aversion, mitigation or offsetting) are criti-\ncal for farmers adopting system transformations, such as alternative \nforms of land use to mitigate inputs and associated greenhouse gas \nemissions. Integrating risk into TOA enables the study of the policies \nand incentives necessary for achieving whole-system transformations \ntowards sustainable agricultural practices13,14. Decision-making under \nuncertainty becomes interpretable when recommendations are accom-\npanied by an assessment of associated risks. Ideally, these risks are \ncontext-specific. For example, Hochman et al. provided TOA results \non crop rotations alongside a minimum risk threshold quantified as \nthe highest gross margin for the poorest 20% of years33.\nWhile a moderate number of the articles considered uncertainty, \nonly a few articles quantified changes in trade-offs as a function of \nuncertainty. The inclusion of stochastic components and the associated \nuncertainty inherent in biological systems could facilitate a more real-\nistic description of outcomes, proving valuable for decision-making13,15. \nVarying input data or model parameterization within an expected \nrange could reveal the sensitivity of results. For instance, when climate \nscenarios are used, realizations of these scenarios can be used to assess \nthe stochasticity of the objectives for which the TOA is implemented34. \nThis approach enables the acknowledgement of both the frequency \nand pattern of stochastic events, including extreme weather events, \nand their impact on TOA outcomes. Consequently, an analysis of the \nadaptability of a farming system would not solely rely on optimal solu-\ntions given the mean output but would also account for associated vari-\nability and unexpected events15. However, it is crucial to contextualize \nthe effect of stochasticity. For example, the relative impact of model or \nparameter uncertainty on optimization outcomes has been shown to \nvary depending on the prioritization of objectives and site conditions35.",
+          "bbox": [
+            39.685001373291016,
+            47.071876525878906,
+            296.4162902832031,
+            444.776123046875
+          ]
+        },
+        {
+          "id": "p8-b3-c029ef8",
+          "kind": "paragraph",
+          "text": "Limitations of this study\nAn important limitation of our review lies in the use of ‘trade-off analysis’ \nas a single term in our Web of Science search string. There are research \nareas that address trade-offs and synergies across various disciplines, \nscales and methods without explicitly using the term ‘trade-off analy-\nsis’ to describe their research objectives. Examples include the ‘food–\nenergy–water nexus’ literature36, as well as research under the auspices \nof the Agricultural Model Intercomparison and Improvement Project \n(AgMIP) (https://agmip.org/) and the Food, Agriculture, Biodiversity, \nLand-Use and Energy (FABLE) Consortium37. Both AgMIP and FABLE \nare particularly concerned with the relevance of TOA to policy. AgMIP \nexplicitly states the use of “multiple scenarios and models to assess \nand probabilistically manage risk”38. Given the focus of these studies \non global and regional assessments, we anticipate that our findings \nfor those spatial scales could be affected. Indeed, the identified gaps \nin TOA implementation need to be viewed in the context of our sample, \nwhich mostly comprises studies in which modelling or data analysis \nwas performed up to the regional level and TOA at the regional scale.\nThe method used to log the occurrence of pre-set criteria not only \naffects the variance within a criterion but also influences its abundance. \nFor example, Sanon et al. included a large number of TOA indicators that \nwere all classified under ‘biodiversity’29. Thus, binary criteria logging does \nnot capture the intensity with which a criterion is considered, a well-known \nphenomenon in the field of ecology39. This limitation may have resulted in \nthe underestimation of both the intensity with which certain TOA indica-\ntors and their classes have been studied (Fig. 1) and the total number of \nTOA indicators considered per article (Extended Data Fig. 2).",
+          "bbox": [
+            39.68499755859375,
+            455.5718688964844,
+            296.3896789550781,
+            745.77587890625
+          ]
+        },
+        {
+          "id": "p8-b4-26cc810",
+          "kind": "paragraph",
+          "text": "Conclusions\nBased on our analysis, it is possible to identify some actions that \nwould increase the contribution of TOAs to SDG-aligned agricultural \nlandscapes.\nFor instance, future studies should include multi- and cross-scale \neffects when relevant to the research objectives. We have identified an \nopportunity for multi-scale analysis, given that many studies aggre-\ngated farm- or field-scale data before performing TOA at a regional \nscale. As the inclusion of multiple scales, indicators and methods \nmay in some cases reduce the generalizability of results and make \nthem more context-specific, an alternative would be to discuss the \nanticipated implications of multi- and cross-scale effects on the \nstudy findings.\nFurthermore, the relevance of TOA to society and policy can be \nimproved by formulating research objectives such that TOA indicators \nlie within the scope of frameworks such as the SDGs. The most frequent \nindicators were biophysical or informed by profit maximization theory \n(for example, profitability and yield). However, indicators relevant to \nhuman well-being, security and farm resilience (for example, empow-\nerment, nutrition and yield stability) occurred less frequently. To \naid the interpretation of TOA results, the rationale behind the TOA \nmethodology that is used to assess indicators should be listed together \nwith a critical review of how the agricultural system under study is \nrepresented and what is excluded as a consequence.\nIn the reviewed articles, the most consulted stakeholders were \nfarmers and experts, stakeholder co-development and validation were \nrare, and scenarios were predominantly based on resource use with lit-\ntle consideration of off-site effects. These findings suggest that TOAs \nmostly explore alternative management across a set of farms rather \nthan policies and incentives that would facilitate whole landscape and \nfood system transformations.\nAgricultural policy- and decision-making carry an inherent risk. \nTOAs will become more operational when they evaluate associated risks \nand list strategies to manage these risks. This process could promote \nthe robustness of quantified trade-offs with respect to the associated \nuncertainty of data and variability in outcomes. Finally, an inventory \nof stakeholders that are relevant to the decision-making process and \ntheir respective roles in the study would provide legitimacy of results. \nWhile this element has already been recognized in the literature12,29, \nsome of the shortcomings that we have identified here would probably \noccur less frequently, particularly the lack of stakeholder inclusion and \nthe over-representation of specific stakeholder types and methods of \nstakeholder engagement.\nCloser adherence to these guidelines could enhance the relevance \nof TOA to the scientific community, policy-makers and farmers.",
+          "bbox": [
+            306.1416931152344,
+            45.023624420166016,
+            562.8240966796875,
+            530.776123046875
+          ]
+        },
+        {
+          "id": "p8-b5-de578eb",
+          "kind": "paragraph",
+          "text": "Methods\nWe followed the approach of Lautenbach et al. and Seppelt et al. in \ntheir systematic review of the literature on ecosystem services9,22. \nThe generic structure involved (1) the identification, screening and \nselection of relevant peer-reviewed literature from a global repository, \n(2) formulation of the criteria against which to evaluate each article \n(Table 1 and Supplementary Table 1), and (3) descriptive statistics and \ncluster analysis to assess common interrelationships between criteria \nand identify knowledge gaps.\nWe used the following search string “ALL=agricultur* AND (“trade \noff* analysis” OR “trade-off* analysis” OR “tradeoff* analysis”)” in the \nWeb of Science (on 14 September 2021) to identify peer-reviewed arti-\ncles in English reporting TOA. We found 153 articles with publication \ndates spanning from 1993 to 2021. We excluded studies that mentioned \nthe existence of trade-offs but did not assess relationships between \nindicators. For this reason, review and opinion papers were considered \noff-topic and were excluded from the search results. Furthermore, \nmethodological papers that did not involve a case study were also \nexcluded, leading to a total sample of 119 articles.",
+          "bbox": [
+            306.1416931152344,
+            539.5236206054688,
+            562.8466186523438,
+            745.776123046875
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-efd36bc",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n219",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.6771850585938,
+            771.7984008789062
+          ]
+        },
+        {
+          "id": "p9-b1-47eb228",
+          "kind": "paragraph",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p9-b2-889a18a",
+          "kind": "paragraph",
+          "text": "We selected criteria based on current TOA research5–9,16,22 and \nrecorded information on these criteria that were relevant to the con-\nceptualization, characterization and analysis of trade-offs in agri-\nculture (research objective 1). Briefly, the criteria included the type \nof TOA methods used, the spatial scales at which the analyses were \nperformed and/or data collected, the indicators assessed in the TOA, \nwhich stakeholder types were included as well as how the stakehold-\ners were engaged in the case study, whether the case study included \nalternative scenarios and of what type, how the case study area was \ndelineated, whether effects outside the case study area were consid-\nered, and whether the case study acknowledged and accounted for \nuncertainty, validated results or performed a risk analysis. To assess \nwhether cross-scale analyses were performed in case studies, we \nadopted the definition of Kanter et al., who distinguished between \nmodel frameworks that aggregate outputs at lower scales to use as \ninputs at higher scales (aggregative) and model frameworks that \nhave submodels operating at different spatial and temporal resolu-\ntions (interactive)6. Thus, whereas an aggregative model framework \nfollows a sequential approach, an interactive model framework per-\nforms analysis across scales simultaneously, allowing for interactions \nbetween scales and emergent indicators at higher levels. Furthermore, \ndescriptive information was collected for three criteria: the agricultural \nsystem(s) studied, agricultural activities and knowledge gaps reported \nin the discussion section of the article. All of the criteria are listed in \nTable 1 with a generic description. We refer the reader to Supplementary \nTable 1 for more detailed information on the criteria. Based on these \ncriteria, knowledge gaps were then assessed through descriptive sta-\ntistics and cluster analysis (research objective 2).\nThe decision of which TOA indicators to include is a major \nmethodological decision in TOA as it determines which interrelations \nare considered and analysed, and therefore which trade-offs and syner-\ngies can be identified. We anticipated thematic clusters of TOA indica-\ntors based on the discipline, scale, geography and method considered. \nTo identify co-occurrences between TOA indicators, we performed \nhierarchical Ward clustering to group articles by TOA indicators as well \nas the TOA indicators themselves based on the Jaccard similarity coef-\nficient40. Through the use of the Jaccard similarity metric, we accounted \nfor the double-zero problem. Namely, the absence of a TOA indicator in \ntwo articles does not indicate a similarity, whereas its presence does9. \nFor the clustering of articles by the TOA indicators used, the number of \nclusters to be retained was decided by the ‘elbow’ method based on the \nMantel correlation between the data for each cluster and the raw dis-\ntance matrix40. For the clustering of TOA indicators, the dendrogram was \nnot cut to visualize common co-occurrences for all of the TOA indicators.\nCriteria were logged in a Microsoft Office Excel (2021) spreadsheet \n(Supplementary Data 1). The data collected during this systematic \nreview were further analysed and visualized in R (ref. 41). Data handling, \nvisualizations and analysis were performed using the following R pack-\nages: tidyverse42, dendextend43, cluster44, vegan45 and pheatmap46.",
+          "bbox": [
+            39.68436050415039,
+            47.25740051269531,
+            296.4291687011719,
+            573.776123046875
+          ]
+        },
+        {
+          "id": "p9-b3-3c6163d",
+          "kind": "paragraph",
+          "text": "Reporting summary\nFurther information on research design is available in the Nature \nPortfolio Reporting Summary linked to this article.",
+          "bbox": [
+            39.68510055541992,
+            584.5718994140625,
+            296.4150390625,
+            616.776123046875
+          ]
+        },
+        {
+          "id": "p9-b4-e039230",
+          "kind": "heading",
+          "text": "Data availability\nThe dataset created has been made available as extended data.",
+          "bbox": [
+            39.68510055541992,
+            625.5236206054688,
+            271.0349426269531,
+            649.026123046875
+          ]
+        },
+        {
+          "id": "p9-b5-b57ab45",
+          "kind": "heading",
+          "text": "Code availability\nThe code created for data handling, analysis and visualizations is \navailable on request.",
+          "bbox": [
+            39.68510055541992,
+            657.7736206054688,
+            296.3467712402344,
+            692.026123046875
+          ]
+        },
+        {
+          "id": "p9-b6-7624b43",
+          "kind": "paragraph",
+          "text": "References\n1.\t\nRenting, H. et al. Exploring multifunctional agriculture. A review \nof conceptual approaches and prospects for an integrative \ntransitional framework. J. Environ. Manag. 90, 112–123 (2009).",
+          "bbox": [
+            39.68510055541992,
+            700.7736206054688,
+            288.44915771484375,
+            745.53564453125
+          ]
+        },
+        {
+          "id": "p9-b7-b42d2de",
+          "kind": "paragraph",
+          "text": "2.\t\nDeFries, R. et al. Synergies and trade-offs for sustainable \nagriculture: nutritional yields and climate-resilience for cereal \ncrops in Central India. Glob. Food Sec. 11, 44–53 (2016).\n3.\t\nSeppelt, R., Lautenbach, S. & Volk, M. Identifying trade-offs \nbetween ecosystem services, land use, and biodiversity: a plea for \ncombining scenario analysis and optimization on different spatial \nscales. Curr. Opin. Environ. Sustain. 5, 458–463 (2013).\n4.\t\nStoorvogel, J. J., Antle, J. M., Crissman, C. C. & Bowen, W. The tradeoff \nanalysis model: integrated bio-physical and economic modeling \nof agricultural production systems. Agric. Syst. 80, 43–66 (2004).\n5.\t\nAntle, J. M. & Valdivia, R. O. Trade-off analysis of agri-food systems \nfor sustainable research and development. Q Open https://doi.\norg/10.1093/qopen/qoaa005 (2021).\n6.\t\nKanter, D. R. et al. Evaluating agricultural trade-offs in the age of \nsustainable development. Agric. Syst. 163, 73–88 (2018).\n7.\t\nGroot, J. C. J. et al. On the contribution of modelling to \nmultifunctional agriculture: learning from comparisons.  \nJ. Environ. Manag. 90, 147–160 (2009).\n8.\t\nKlapwijk, C. J. et al. Analysis of trade-offs in agricultural systems: \ncurrent status and way forward. Curr. Opin. Environ. Sustain. 6, \n110–115 (2014).\n9.\t\nLautenbach, S. et al. Blind spots in ecosystem services research \nand challenges for implementation. Reg. Environ. Change 19, \n2151–2172 (2019).\n10.\t Cash, D. W. et al. Scale and cross-scale dynamics: governance \nand information in a multilevel world. Ecol. Soc. https://www.jstor.\norg/stable/26265993 (2006).\n11.\t\nGibson, R. B. Sustainability assessment: basic components of a \npractical approach. Impact Assess. Proj. Apprais. 24, 170–182 (2006).\n12.\t Cash, D. W. et al. Knowledge systems for sustainable \ndevelopment. Proc. Natl Acad. Sci. USA 100, 8086–8091 (2003).\n13.\t Anderson, J. R. Risk in rural development: challenges for \nmanagers and policy makers. Agric. Syst. 75, 161–197 (2003).\n14.\t Hardaker, J. B., Lien, G., Anderson, J. R. & Huirne, R. B. Coping with \nRisk in Agriculture: Applied Decision Analysis (Cabi, 2015).\n15.\t Uusitalo, L., Lehikoinen, A., Helle, I. & Myrberg, K. An overview \nof methods to evaluate uncertainty of deterministic models in \ndecision support. Environ. Model. Softw. 63, 24–31 (2015).\n16.\t Thornton, P. K. et al. A framework for priority-setting in climate \nsmart agriculture research. Agric. Syst. 167, 161–175 (2018).\n17.\t Jones, J. W. et al. Toward a new generation of agricultural system \ndata, models, and knowledge products: state of agricultural \nsystems science. Agric. Syst. 155, 269–288 (2017).\n18.\t Morrison-Saunders, A. & Pope, J. Conceptualising and managing \ntrade-offs in sustainability assessment. Environ. Impact Assess. \nRev. 38, 54–63 (2013).\n19.\t Prestele, R. & Verburg, P. H. The overlooked spatial dimension of \nclimate‐smart agriculture. Glob. Change Biol. 26, 1045–1054 (2020).\n20.\t Ewert, F. et al. Crop modelling for integrated assessment of risk to \nfood production from climate change. Environ. Model. Softw. 72, \n287–303 (2015).\n21.\t Norström, A. V. et al. Principles for knowledge co-production in \nsustainability research. Nat. Sustain. 3, 182–190 (2020).\n22.\t Seppelt, R., Dormann, C. F., Eppink, F. V., Lautenbach, S. & \nSchmidt, S. A quantitative review of ecosystem service studies: \napproaches, shortcomings and the road ahead. J. Appl. Ecol. 48, \n630–636 (2011).\n23.\t Bostian, M., Whittaker, G., Barnhart, B., Fare, R. & Grosskopf, S. \nValuing water quality tradeoffs at different spatial scales: an \nintegrated approach using bilevel optimization. Water Res. Econ. \n11, 1–12 (2015).\n24.\t Popp, A. et al. The economic potential of bioenergy for climate \nchange mitigation with special attention given to implications for \nthe land system. Environ. Res. Lett. https://doi.org/10.1088/1748-\n9326/6/3/034017 (2011).",
+          "bbox": [
+            306.14111328125,
+            46.61559295654297,
+            563.2608032226562,
+            745.6641845703125
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-d1ef6d3",
+          "kind": "paragraph",
+          "text": "Nature Food | Volume 5 | March 2024 | 211–220\n220",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            562.052978515625,
+            771.5487060546875
+          ]
+        },
+        {
+          "id": "p10-b1-47eb228",
+          "kind": "paragraph",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p10-b2-bd59267",
+          "kind": "paragraph",
+          "text": "25.\t Hayha, T., Franzese, P. P., Paletto, A. & Fath, B. D. Assessing, \nvaluing, and mapping ecosystem services in Alpine forests. \nEcosyst. Serv. 14, 12–23 (2015).\n26.\t Maraseni, T., An-Vo, D. A., Mushtaq, S. & Reardon-Smith, K. \nCarbon smart agriculture: an integrated regional approach offers \nsignificant potential to increase profit and resource use efficiency, \nand reduce emissions. J. Clean. Prod. https://doi.org/10.1016/j.\njclepro.2020.124555 (2021).\n27.\t Modongo, O. & Kulshreshtha, S. N. Economics of mitigating \ngreenhouse gas emissions from beef production in western \nCanada. Agric. Syst. 162, 229–238 (2018).\n28.\t Kinzig, A. P. in The Princeton Guide to Ecology (eds Levin, S. A. \net al.) 573–670 (Princeton Univ. Press, 2012).\n29.\t Sanon, S., Hein, T., Douven, W. & Winkler, P. Quantifying \necosystem service trade-offs: the case of an urban floodplain in \nVienna, Austria. J. Environ. Manag. 111, 159–172 (2012).\n30.\t Wright, L. A., Kemp, S. & Williams, I. ‘Carbon footprinting’: towards \na universally accepted definition. Carbon Manag. 2, 61–72 (2011).\n31.\t Chapagain, A. K. & Hoekstra, A. Y. The water footprint of Morocco and \nthe Netherlands: global water use as a result of domestic consumption \nof agricultural commodities. Ecol. Econ. 64, 109–118 (2007).\n32.\t Lambin, E. F. & Meyfroidt, P. Global land use change, economic \nglobalization, and the looming land scarcity. Proc. Natl Acad. Sci. \nUSA 108, 3465–3472 (2011).\n33.\t Hochman, Z. et al. Cropping system yield gaps can be narrowed \nwith more optimal rotations in dryland subtropical Australia. \nAgric. Syst. 184, 102896 (2020).\n34.\t Karner, K., Schmid, E., Schneider, U. A. & Mitter, H. Computing \nstochastic Pareto frontiers between economic and environmental \ngoals for a semi-arid agricultural production region in Austria. \nEcol. Econ. https://doi.org/10.1016/j.ecolecon.2021.107044 (2021).\n35.\t Holzkämper, A., Klein, T., Seppelt, R. & Fuhrer, J. Assessing the \npropagation of uncertainties in multi-objective optimization for \nagro-ecosystem adaptation to climate change. Environ. Model. \nSoftw. 66, 27–35 (2015).\n36.\t D’Odorico, P. et al. The global food–energy–water nexus. Rev. \nGeophys. 56, 456–531 (2018).\n37.\t FABLE Consortium. Pathways to Sustainable Land-Use and Food \nSystems. 2020 Report of the FABLE Consortium (International \nInstitute of Applied Systems Analysis and Sustainable Development \nSolutions Network, 2020); https://doi.org/10.22022/ESM/ \n12-2020.16896\n38.\t Agricultural Model Intercomparison and Improvement Project. \nApproach. Track 2: Climate change multi-model assessment \nAgMIP https://agmip.org/approach-4/ (2023).\n39.\t Royle, J. A. & Nichols, J. D. Estimating abundance from repeated \npresence–absence data or point counts. Ecology 84, 777–790 \n(2003).\n40.\t Legendre, P. & Legendre, L. Numerical Ecology (Elsevier, 2012).\n41.\t R Core Team. R: A language and environment for statistical \ncomputing. R package version 4.1.2. https://www.R-project.org/ \n(2021).\n42.\t Wickham, H. et al. Welcome to the tidyverse. J. Open Source \nSoftw. https://doi.org/10.21105/joss.01686 (2019).\n43.\t Galili, T. dendextend: an R package for visualizing, adjusting, and \ncomparing trees of hierarchical clustering. Bioinformatics 31, \n3718–3720 (2015).\n44.\t Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M. & Hornik, K. \ncluster: Cluster analysis basics and extensions. R package version \n2.1.2 (2021).\n45.\t Oksanen, J. et al. vegan: Community ecology package. R package \nversion 2.5-7 https://CRAN.R-project.org/package=vegan (2020).",
+          "bbox": [
+            39.685001373291016,
+            46.61162567138672,
+            296.5617980957031,
+            713.4042358398438
+          ]
+        },
+        {
+          "id": "p10-b3-8830e1f",
+          "kind": "heading",
+          "text": "46.\t Kolde, R. pheatmap: Pretty heatmaps. R package version 1.0.12",
+          "bbox": [
+            306.17303466796875,
+            46.73223114013672,
+            549.4735717773438,
+            57.65222930908203
+          ]
+        },
+        {
+          "id": "p10-b4-b86a26c",
+          "kind": "paragraph",
+          "text": "https://CRAN.R-project.org/package=pheatmap (2019).",
+          "bbox": [
+            323.1810302734375,
+            57.48424530029297,
+            522.2752075195312,
+            68.40424346923828
+          ]
+        },
+        {
+          "id": "p10-b5-1492852",
+          "kind": "paragraph",
+          "text": "Acknowledgements\nWe acknowledge R. Seppelt for his comments on the initial \nmethodology. This work was made possible by the CGIAR Research \nProgram on Roots, Tubers and Bananas (RTB) and the One CGIAR \nInitiatives ‘Nexus Gains—Realizing Multiple Benefits Across Water, \nEnergy, Food and Ecosystems’ and ‘Nature Positive Solutions’, \ntogether with all of the donors who supported this research through \ntheir contributions to the CGIAR and One CGIAR Fund. For a list of One \nCGIAR Fund donors, please see http://www.cgiar.org/our-funders. \nThis research was partly funded by the United States Agency for \nInternational Development (USAID; AID-BFS-G-11-00002) as part of the \nUS government’s Feed the Future Initiative. The contents of this Article \nare the responsibility of the producing organizations and do not \nnecessarily reflect the opinion of USAID or the US government.",
+          "bbox": [
+            306.1416931152344,
+            77.27362060546875,
+            562.8414916992188,
+            229.55580139160156
+          ]
+        },
+        {
+          "id": "p10-b6-6db84bf",
+          "kind": "paragraph",
+          "text": "Author contributions\nT.S.B. conceived and designed the study, led and performed the \nreview and data analyses, interpretations and writing. N.E.-C. \ncontributed to the study’s design, interpretations and writing. A.P., E.G. \nand B.J. contributed to interpretations and writing. J.C.J.G. contributed \nto the study’s design, analysis, interpretations and writing.",
+          "bbox": [
+            306.1416931152344,
+            238.52374267578125,
+            562.615478515625,
+            304.789794921875
+          ]
+        },
+        {
+          "id": "p10-b7-3a3ef11",
+          "kind": "heading",
+          "text": "Competing interests\nThe authors declare no competing interests.",
+          "bbox": [
+            306.1416931152344,
+            313.77362060546875,
+            466.17584228515625,
+            337.0316162109375
+          ]
+        },
+        {
+          "id": "p10-b8-ecf34e7",
+          "kind": "heading",
+          "text": "Additional information\nExtended data is available for this paper at  \nhttps://doi.org/10.1038/s43016-024-00926-x.",
+          "bbox": [
+            306.1416931152344,
+            346.02362060546875,
+            470.4255676269531,
+            380.03363037109375
+          ]
+        },
+        {
+          "id": "p10-b9-f97e10a",
+          "kind": "paragraph",
+          "text": "Supplementary information The online version contains supplementary \nmaterial available at https://doi.org/10.1038/s43016-024-00926-x.",
+          "bbox": [
+            306.1417236328125,
+            390.4976501464844,
+            562.8273315429688,
+            412.2896423339844
+          ]
+        },
+        {
+          "id": "p10-b10-f11c442",
+          "kind": "paragraph",
+          "text": "Correspondence and requests for materials should be addressed to \nJeroen C. J. Groot.",
+          "bbox": [
+            306.1417236328125,
+            422.753662109375,
+            555.7392578125,
+            444.545654296875
+          ]
+        },
+        {
+          "id": "p10-b11-1240ba6",
+          "kind": "paragraph",
+          "text": "Peer review information Nature Food thanks John Antle and Emma \nStephens for their contribution to the peer review of this work.",
+          "bbox": [
+            306.1417236328125,
+            455.0096740722656,
+            548.6319580078125,
+            476.8016662597656
+          ]
+        },
+        {
+          "id": "p10-b12-1797dc3",
+          "kind": "paragraph",
+          "text": "Reprints and permissions information is available at  \nwww.nature.com/reprints.",
+          "bbox": [
+            306.13372802734375,
+            487.26568603515625,
+            498.4537048339844,
+            509.05767822265625
+          ]
+        },
+        {
+          "id": "p10-b13-444b3f1",
+          "kind": "paragraph",
+          "text": "Publisher’s note Springer Nature remains neutral with regard to \njurisdictional claims in published maps and institutional affiliations.",
+          "bbox": [
+            306.13372802734375,
+            519.5216674804688,
+            548.109375,
+            541.3136596679688
+          ]
+        },
+        {
+          "id": "p10-b14-daa974e",
+          "kind": "paragraph",
+          "text": "Open Access This article is licensed under a Creative Commons \nAttribution 4.0 International License, which permits use, sharing, \nadaptation, distribution and reproduction in any medium or format, \nas long as you give appropriate credit to the original author(s) and the \nsource, provide a link to the Creative Commons licence, and indicate \nif changes were made. The images or other third party material in this \narticle are included in the article’s Creative Commons licence, unless \nindicated otherwise in a credit line to the material. If material is not \nincluded in the article’s Creative Commons licence and your intended \nuse is not permitted by statutory regulation or exceeds the permitted \nuse, you will need to obtain permission directly from the copyright \nholder. To view a copy of this licence, visit http://creativecommons.\norg/licenses/by/4.0/.",
+          "bbox": [
+            306.13372802734375,
+            551.7777099609375,
+            559.9845581054688,
+            691.8416748046875
+          ]
+        },
+        {
+          "id": "p10-b15-a233c8c",
+          "kind": "paragraph",
+          "text": "© The Author(s) 2024",
+          "bbox": [
+            306.13372802734375,
+            702.4256591796875,
+            383.4880065917969,
+            713.3456420898438
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-bc0946c",
+          "kind": "paragraph",
+          "text": "Nature Food",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            85.5009994506836,
+            771.1967163085938
+          ]
+        },
+        {
+          "id": "p11-b1-47eb228",
+          "kind": "heading",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p11-b3-66d8ab7",
+          "kind": "paragraph",
+          "text": "Extended Data Fig. 1 | Articles per year of publication. Number of articles by publication year (a) and its cumulative distribution (b).",
+          "bbox": [
+            39.685001373291016,
+            426.3559265136719,
+            458.17303466796875,
+            435.1129150390625
+          ]
+        },
+        {
+          "id": "p11-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p11-figure1.png",
+          "alt": "Original source page 11, graphic 1",
+          "caption": "原文第11页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-bc0946c",
+          "kind": "paragraph",
+          "text": "Nature Food",
+          "bbox": [
+            39.685001373291016,
+            760.1967163085938,
+            85.5009994506836,
+            771.1967163085938
+          ]
+        },
+        {
+          "id": "p12-b1-47eb228",
+          "kind": "heading",
+          "text": "Article\nhttps://doi.org/10.1038/s43016-024-00926-x",
+          "bbox": [
+            39.685001373291016,
+            20.316312789916992,
+            561.2601318359375,
+            34.11631393432617
+          ]
+        },
+        {
+          "id": "p12-b3-ea5cbf4",
+          "kind": "paragraph",
+          "text": "Extended Data Fig. 2 | Figures on the number of trade-off analysis (TOA) indicators considered. Cumulative distribution of articles per number of TOA indicators \nincluded within an article (a). Frequency (%) of the number of TOA indicators included within an article, color-coded by cluster as specified in Fig. 2 in the main text (b).",
+          "bbox": [
+            39.68510055541992,
+            291.3559265136719,
+            559.2181396484375,
+            310.11590576171875
+          ]
+        },
+        {
+          "id": "p12-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p12-figure1.png",
+          "alt": "Original source page 12, graphic 1",
+          "caption": "原文第12页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-6b86b27",
+          "kind": "paragraph",
+          "text": "1",
+          "bbox": [
+            571.5770874023438,
+            754.6825561523438,
+            576.4570922851562,
+            764.6825561523438
+          ]
+        },
+        {
+          "id": "p13-b1-04a6d9f",
+          "kind": "paragraph",
+          "text": "nature research  |  reporting summary\nApril 2020",
+          "bbox": [
+            569.0670776367188,
+            29.7630615234375,
+            580.0670776367188,
+            679.1913452148438
+          ]
+        },
+        {
+          "id": "p13-b3-776457f",
+          "kind": "paragraph",
+          "text": "Corresponding author(s):\nJCJ Groot, jeroen.groot@wur.nl",
+          "bbox": [
+            300.4736022949219,
+            61.17350769042969,
+            501.0827331542969,
+            70.21624755859375
+          ]
+        },
+        {
+          "id": "p13-b4-c593311",
+          "kind": "paragraph",
+          "text": "Last updated by author(s): Feb 14, 2024",
+          "bbox": [
+            300.4736022949219,
+            78.48149108886719,
+            441.3796691894531,
+            87.52423095703125
+          ]
+        },
+        {
+          "id": "p13-b5-9b41cf5",
+          "kind": "heading",
+          "text": "Reporting Summary",
+          "bbox": [
+            15.589999198913574,
+            111.28097534179688,
+            191.28639221191406,
+            133.28097534179688
+          ]
+        },
+        {
+          "id": "p13-b6-e903f81",
+          "kind": "paragraph",
+          "text": "Nature Research wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency \nin reporting. For further information on Nature Research policies, see our Editorial Policies and the Editorial Policy Checklist.",
+          "bbox": [
+            17.00799560546875,
+            140.92356872558594,
+            545.9876098632812,
+            160.7235565185547
+          ]
+        },
+        {
+          "id": "p13-b7-a656107",
+          "kind": "heading",
+          "text": "Statistics",
+          "bbox": [
+            17.007999420166016,
+            200.11605834960938,
+            66.69820404052734,
+            214.11605834960938
+          ]
+        },
+        {
+          "id": "p13-b8-397c12d",
+          "kind": "paragraph",
+          "text": "For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.",
+          "bbox": [
+            17.007999420166016,
+            218.87278747558594,
+            508.8840637207031,
+            227.87278747558594
+          ]
+        },
+        {
+          "id": "p13-b9-0131431",
+          "kind": "paragraph",
+          "text": "n/a Confirmed",
+          "bbox": [
+            16.39959716796875,
+            236.41990661621094,
+            73.98710632324219,
+            245.4200897216797
+          ]
+        },
+        {
+          "id": "p13-b10-c0350f4",
+          "kind": "paragraph",
+          "text": "The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement",
+          "bbox": [
+            50.10210037231445,
+            253.8029022216797,
+            478.07989501953125,
+            262.8028869628906
+          ]
+        },
+        {
+          "id": "p13-b11-83d55cb",
+          "kind": "paragraph",
+          "text": "A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly",
+          "bbox": [
+            50.10210037231445,
+            270.4358825683594,
+            518.1605834960938,
+            279.4358825683594
+          ]
+        },
+        {
+          "id": "p13-b12-9208874",
+          "kind": "paragraph",
+          "text": "The statistical test(s) used AND whether they are one- or two-sided \nOnly common tests should be described solely by name; describe more complex techniques in the Methods section.",
+          "bbox": [
+            50.10210037231445,
+            286.79595947265625,
+            415.6781005859375,
+            305.63873291015625
+          ]
+        },
+        {
+          "id": "p13-b13-9095eee",
+          "kind": "paragraph",
+          "text": "A description of all covariates tested",
+          "bbox": [
+            50.10210037231445,
+            312.9559631347656,
+            181.35177612304688,
+            321.9559631347656
+          ]
+        },
+        {
+          "id": "p13-b14-9d19f87",
+          "kind": "paragraph",
+          "text": "A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons",
+          "bbox": [
+            50.10210037231445,
+            329.9639587402344,
+            469.7090148925781,
+            338.9639587402344
+          ]
+        },
+        {
+          "id": "p13-b15-0842771",
+          "kind": "paragraph",
+          "text": "A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) \nAND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals)",
+          "bbox": [
+            50.10210037231445,
+            347.2410583496094,
+            550.36083984375,
+            367.0410461425781
+          ]
+        },
+        {
+          "id": "p13-b16-9c1aae4",
+          "kind": "paragraph",
+          "text": "For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted \nGive P values as exact values whenever suitable.",
+          "bbox": [
+            50.10210037231445,
+            376.3140563964844,
+            530.2818603515625,
+            395.1568298339844
+          ]
+        },
+        {
+          "id": "p13-b17-7d4c72d",
+          "kind": "paragraph",
+          "text": "For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settings",
+          "bbox": [
+            50.10210037231445,
+            404.1181640625,
+            400.7808532714844,
+            413.1181640625
+          ]
+        },
+        {
+          "id": "p13-b18-0b1cb8d",
+          "kind": "paragraph",
+          "text": "For hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes",
+          "bbox": [
+            50.10210037231445,
+            421.12615966796875,
+            466.6526794433594,
+            430.12615966796875
+          ]
+        },
+        {
+          "id": "p13-b19-562ea96",
+          "kind": "paragraph",
+          "text": "Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated",
+          "bbox": [
+            50.10210037231445,
+            438.1341552734375,
+            372.8520812988281,
+            447.1341552734375
+          ]
+        },
+        {
+          "id": "p13-b20-09f65ab",
+          "kind": "paragraph",
+          "text": "Our web collection on statistics for biologists contains articles on many of the points above.",
+          "bbox": [
+            156.2303009033203,
+            454.8237609863281,
+            410.70208740234375,
+            461.8237609863281
+          ]
+        },
+        {
+          "id": "p13-b21-f15be01",
+          "kind": "heading",
+          "text": "Software and code",
+          "bbox": [
+            17.007999420166016,
+            476.6095886230469,
+            122.44761657714844,
+            490.6095886230469
+          ]
+        },
+        {
+          "id": "p13-b22-385636c",
+          "kind": "paragraph",
+          "text": "Policy information about availability of computer code",
+          "bbox": [
+            17.007999420166016,
+            497.9102783203125,
+            213.03785705566406,
+            506.9102783203125
+          ]
+        },
+        {
+          "id": "p13-b23-7cf556d",
+          "kind": "paragraph",
+          "text": "Data collection\nCriteria were logged within a Microsoft Office Excel (2021) sheet which has been made available under as a supplementary dataset.",
+          "bbox": [
+            24.095001220703125,
+            513.8583984375,
+            512.3093872070312,
+            522.8583984375
+          ]
+        },
+        {
+          "id": "p13-b24-1b4729c",
+          "kind": "paragraph",
+          "text": "Data analysis\nThe data collected during the systematic review has been further analyzed and visualized in R. Data handling, visualizations and analysis were \ndone using the following R packages: tidyverse, dendextend, cluster, vegan and pheatmap. Please see the last paragraph in the methodology \nsection and references section for further details.",
+          "bbox": [
+            24.095001220703125,
+            534.5283813476562,
+            545.0374755859375,
+            561.7711181640625
+          ]
+        },
+        {
+          "id": "p13-b25-54df025",
+          "kind": "paragraph",
+          "text": "For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors and \nreviewers. We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Research guidelines for submitting code & software for further information.",
+          "bbox": [
+            17.00799560546875,
+            568.0616455078125,
+            539.9833374023438,
+            583.6817016601562
+          ]
+        },
+        {
+          "id": "p13-b26-cec3a9b",
+          "kind": "heading",
+          "text": "Data",
+          "bbox": [
+            17.007999420166016,
+            600.1498413085938,
+            43.28740310668945,
+            614.1498413085938
+          ]
+        },
+        {
+          "id": "p13-b27-7c646bc",
+          "kind": "paragraph",
+          "text": "Policy information about availability of data",
+          "bbox": [
+            17.007999420166016,
+            621.4506225585938,
+            173.9688720703125,
+            630.4506225585938
+          ]
+        },
+        {
+          "id": "p13-b28-3858e98",
+          "kind": "paragraph",
+          "text": "All manuscripts must include a data availability statement. This statement should provide the following information, where applicable:",
+          "bbox": [
+            21.259998321533203,
+            633.4207153320312,
+            507.5137939453125,
+            642.4207153320312
+          ]
+        },
+        {
+          "id": "p13-b29-73e04a3",
+          "kind": "paragraph",
+          "text": "- Accession codes, unique identifiers, or web links for publicly available datasets \n- A list of figures that have associated raw data \n- A description of any restrictions on data availability",
+          "bbox": [
+            31.180999755859375,
+            645.7033081054688,
+            288.5545654296875,
+            672.9033203125
+          ]
+        },
+        {
+          "id": "p13-b30-2e618a5",
+          "kind": "paragraph",
+          "text": "The dataset created has been made available as a supplementary dataset.",
+          "bbox": [
+            19.447998046875,
+            681.1784057617188,
+            256.7680358886719,
+            689.1784057617188
+          ]
+        },
+        {
+          "id": "p13-figure1",
+          "kind": "image",
+          "path": "library/breure-2024/766abe34a78e/p13-figure1.png",
+          "alt": "Original source page 13, graphic 1",
+          "caption": "原文第13页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            571.5770874023438,
+            754.6825561523438,
+            576.4570922851562,
+            764.6825561523438
+          ]
+        },
+        {
+          "id": "p14-b1-04a6d9f",
+          "kind": "heading",
+          "text": "nature research  |  reporting summary\nApril 2020",
+          "bbox": [
+            569.0670776367188,
+            29.7630615234375,
+            580.0670776367188,
+            679.1913452148438
+          ]
+        },
+        {
+          "id": "p14-b2-293152a",
+          "kind": "heading",
+          "text": "Field-specific reporting",
+          "bbox": [
+            15.589999198913574,
+            35.838314056396484,
+            199.6280059814453,
+            55.838314056396484
+          ]
+        },
+        {
+          "id": "p14-b3-da124a9",
+          "kind": "paragraph",
+          "text": "Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.",
+          "bbox": [
+            17.007999420166016,
+            61.97746276855469,
+            538.7155151367188,
+            70.97746276855469
+          ]
+        },
+        {
+          "id": "p14-b4-249afe4",
+          "kind": "paragraph",
+          "text": "Life sciences\nBehavioural & social sciences\n Ecological, evolutionary & environmental sciences",
+          "bbox": [
+            30.057998657226562,
+            77.48960876464844,
+            452.7115478515625,
+            86.48960876464844
+          ]
+        },
+        {
+          "id": "p14-b5-2d23e6f",
+          "kind": "paragraph",
+          "text": "For a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf",
+          "bbox": [
+            17.007999420166016,
+            93.24494934082031,
+            339.3167419433594,
+            100.24494934082031
+          ]
+        },
+        {
+          "id": "p14-b6-211fca3",
+          "kind": "heading",
+          "text": "Ecological, evolutionary & environmental sciences study design",
+          "bbox": [
+            15.589999198913574,
+            125.04443359375,
+            522.4320678710938,
+            145.04443359375
+          ]
+        },
+        {
+          "id": "p14-b7-c4eb5f4",
+          "kind": "paragraph",
+          "text": "All studies must disclose on these points even when the disclosure is negative.",
+          "bbox": [
+            17.007999420166016,
+            152.60166931152344,
+            299.47308349609375,
+            161.60166931152344
+          ]
+        },
+        {
+          "id": "p14-b8-121511c",
+          "kind": "paragraph",
+          "text": "Study description\nA systematic review on trade-off analysis within agriculture.",
+          "bbox": [
+            24.095001220703125,
+            168.54966735839844,
+            310.3578796386719,
+            177.54966735839844
+          ]
+        },
+        {
+          "id": "p14-b9-5fb4fd2",
+          "kind": "paragraph",
+          "text": "Research sample\nThe research sample consisted of all peer-reviewed articles from the Web of Science database that corresponded to our search \nstring.",
+          "bbox": [
+            24.095001220703125,
+            189.2197723388672,
+            528.99072265625,
+            206.86248779296875
+          ]
+        },
+        {
+          "id": "p14-b10-53c12a9",
+          "kind": "paragraph",
+          "text": "Sampling strategy\nWe used the following search string: “ALL=agricultur* AND (\"trade off* analysis\" OR \"trade-off* analysis\" OR \"tradeoff* analysis\")” in \nthe Web of Science (on 14/09/2021) to identify peer-reviewed articles in English conducting TOA. We found 153 articles with \npublication dates spanning from 1993 to 2021.",
+          "bbox": [
+            24.095001220703125,
+            218.4897918701172,
+            546.117919921875,
+            245.73248291015625
+          ]
+        },
+        {
+          "id": "p14-b11-417213b",
+          "kind": "paragraph",
+          "text": "Data collection\nCriteria to evaluate for each article were defined prior to the review. TB read and evaluated all articles based on criteria. (See meta \ndata in data file). Decisions made during evaluation were also logged in the 'Rules' tab in the data file.",
+          "bbox": [
+            24.095001220703125,
+            257.3598937988281,
+            540.062744140625,
+            275.00262451171875
+          ]
+        },
+        {
+          "id": "p14-b12-72fe328",
+          "kind": "paragraph",
+          "text": "Timing and spatial scale\nData collection took place from 15-09-2021 up till 31-01-2022, the date at which all articles had been read and logged.",
+          "bbox": [
+            24.095001220703125,
+            286.6298828125,
+            500.71630859375,
+            295.6298828125
+          ]
+        },
+        {
+          "id": "p14-b13-4229ee6",
+          "kind": "paragraph",
+          "text": "Data exclusions\nReview- and opinion papers were considered off-topic and were excluded from the search results. Furthermore, methodological \npapers that did not involve a case-study were also excluded, leading to a total sample of 119 articles.",
+          "bbox": [
+            24.095001220703125,
+            307.2999572753906,
+            532.1227416992188,
+            324.9427185058594
+          ]
+        },
+        {
+          "id": "p14-b14-2d602cc",
+          "kind": "paragraph",
+          "text": "Reproducibility\nReproducibility has been facilitated through making the data file accessible together with the notes and decision-making in the data \nfile, if required we can also publish the R code used to analyze the data and visualize results.",
+          "bbox": [
+            24.095001220703125,
+            336.5699768066406,
+            543.1307983398438,
+            354.2127380371094
+          ]
+        },
+        {
+          "id": "p14-b15-3392fa5",
+          "kind": "paragraph",
+          "text": "Randomization\nAfter downloading all the articles, they were evaluated in alphabetical order based on author names.",
+          "bbox": [
+            24.095001220703125,
+            365.8400573730469,
+            442.2481689453125,
+            374.8400573730469
+          ]
+        },
+        {
+          "id": "p14-b16-9e08adc",
+          "kind": "paragraph",
+          "text": "Blinding\nWe did not consider blinding applicable to our study. One way in which it could have been would be to blind the authors and their \naffiliation. However, we also wanted to use this information to investigate geographic trends between the author's affiliation and the \nlocation of the case-study (see suppl. material).",
+          "bbox": [
+            24.095001220703125,
+            386.5101623535156,
+            547.3411254882812,
+            413.7529296875
+          ]
+        },
+        {
+          "id": "p14-b17-24557d6",
+          "kind": "paragraph",
+          "text": "Did the study involve field work?\nYes\nNo",
+          "bbox": [
+            24.095001220703125,
+            422.19091796875,
+            220.5260009765625,
+            431.3801574707031
+          ]
+        },
+        {
+          "id": "p14-b18-67136b0",
+          "kind": "heading",
+          "text": "Reporting for specific materials, systems and methods",
+          "bbox": [
+            15.589999198913574,
+            456.26513671875,
+            449.9779968261719,
+            476.26513671875
+          ]
+        },
+        {
+          "id": "p14-b19-37d2526",
+          "kind": "paragraph",
+          "text": "We require information from authors about some types of materials, experimental systems and methods used in many studies. Here, indicate whether each material, \nsystem or method listed is relevant to your study. If you are not sure if a list item applies to your research, read the appropriate section before selecting a response.",
+          "bbox": [
+            17.00799560546875,
+            480.613037109375,
+            550.6815185546875,
+            498.2130432128906
+          ]
+        },
+        {
+          "id": "p14-b20-b7261d9",
+          "kind": "heading",
+          "text": "Materials & experimental systems",
+          "bbox": [
+            19.842998504638672,
+            507.0198974609375,
+            170.11074829101562,
+            518.0198974609375
+          ]
+        },
+        {
+          "id": "p14-b21-53efce7",
+          "kind": "paragraph",
+          "text": "n/a Involved in the study",
+          "bbox": [
+            18.243000030517578,
+            522.900390625,
+            112.81920623779297,
+            531.900390625
+          ]
+        },
+        {
+          "id": "p14-b22-5778864",
+          "kind": "paragraph",
+          "text": "Antibodies",
+          "bbox": [
+            51.02410125732422,
+            537.2821044921875,
+            85.38490295410156,
+            545.2821044921875
+          ]
+        },
+        {
+          "id": "p14-b23-2980388",
+          "kind": "paragraph",
+          "text": "Eukaryotic cell lines",
+          "bbox": [
+            51.02410125732422,
+            551.4552001953125,
+            113.88329315185547,
+            559.4552001953125
+          ]
+        },
+        {
+          "id": "p14-b24-29a6761",
+          "kind": "paragraph",
+          "text": "Palaeontology and archaeology",
+          "bbox": [
+            51.02410125732422,
+            565.6282348632812,
+            151.5648956298828,
+            573.6282348632812
+          ]
+        },
+        {
+          "id": "p14-b25-9c748fa",
+          "kind": "paragraph",
+          "text": "Animals and other organisms",
+          "bbox": [
+            51.02410125732422,
+            579.8013305664062,
+            144.4617156982422,
+            587.8013305664062
+          ]
+        },
+        {
+          "id": "p14-b26-5f205d1",
+          "kind": "paragraph",
+          "text": "Human research participants",
+          "bbox": [
+            51.02410125732422,
+            593.9743041992188,
+            143.8704833984375,
+            601.9743041992188
+          ]
+        },
+        {
+          "id": "p14-b27-d89aa76",
+          "kind": "paragraph",
+          "text": "Clinical data",
+          "bbox": [
+            51.02410125732422,
+            608.147216796875,
+            89.81371307373047,
+            616.147216796875
+          ]
+        },
+        {
+          "id": "p14-b28-52fbbc6",
+          "kind": "paragraph",
+          "text": "Dual use research of concern",
+          "bbox": [
+            51.02410125732422,
+            622.3203125,
+            144.40890502929688,
+            630.3203125
+          ]
+        },
+        {
+          "id": "p14-b29-8696622",
+          "kind": "heading",
+          "text": "Methods",
+          "bbox": [
+            212.59939575195312,
+            507.0198974609375,
+            252.36219787597656,
+            518.0198974609375
+          ]
+        },
+        {
+          "id": "p14-b30-53efce7",
+          "kind": "paragraph",
+          "text": "n/a Involved in the study",
+          "bbox": [
+            210.99940490722656,
+            522.900390625,
+            305.575439453125,
+            531.900390625
+          ]
+        },
+        {
+          "id": "p14-b31-b4c9f2c",
+          "kind": "paragraph",
+          "text": "ChIP-seq",
+          "bbox": [
+            243.77749633789062,
+            537.2821044921875,
+            271.8894958496094,
+            545.2821044921875
+          ]
+        },
+        {
+          "id": "p14-b32-3adc6dc",
+          "kind": "paragraph",
+          "text": "Flow cytometry",
+          "bbox": [
+            243.77749633789062,
+            551.4552001953125,
+            293.7223205566406,
+            559.4552001953125
+          ]
+        },
+        {
+          "id": "p14-b33-245567b",
+          "kind": "paragraph",
+          "text": "MRI-based neuroimaging",
+          "bbox": [
+            243.77749633789062,
+            565.6282348632812,
+            324.6022033691406,
+            573.6282348632812
+          ]
+        }
+      ],
+      "snapshot": "library/breure-2024/766abe34a78e/page-14.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 14,
+    "pageSnapshots": 14,
+    "allTextBlocksRetained": true,
+    "textCharacters": 67093,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 13,
+    "sourceSHA256": "766abe34a78ec2fc630ba474fb035879c398600884bd5676bca435b05aed9bc4",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

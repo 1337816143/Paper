@@ -1,0 +1,57 @@
+name: Weekly licensed original refresh
+on:
+  schedule:
+    - cron: '23 3 * * 0'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: paper-source-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install converter and browser tools
+        run: |
+          pip install PyMuPDF==1.26.4 requests==2.32.5 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Check known licensed sources, keeping old immutable versions
+        run: python scripts/refresh_sources.py
+      - name: Validate source conversion and all reading functions
+        run: |
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python scripts/test_browser.py
+          python scripts/test_reader.py
+      - name: Commit verified updates and queue standard publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name paper-resource-maintainer
+          git config user.email paper-resource-maintainer@users.noreply.github.com
+          git add resources/catalog.json resources/library resources/refresh-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Check licensed original versions and retain offline archive"
+            git pull --rebase origin main
+            git push origin HEAD:main
+            gh workflow run pages.yml --ref main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: original-refresh-checks
+          path: |
+            resources/refresh-report.json
+            test-results/*report.json
+          retention-days: 30
