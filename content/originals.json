@@ -1,0 +1,42 @@
+[
+  {
+    "paperId": "liang-2022",
+    "sourceUrl": "https://doi.org/10.1016/j.agsy.2022.103471",
+    "pdfUrl": "https://edepot.wur.nl/575567",
+    "license": "CC BY",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsVerifiedUrl": "https://research.wur.nl/en/publications/identifying-exemplary-sustainable-cropping-systems-using-a-positi/",
+    "archiveMode": "reflow-and-pdf",
+    "verifiedOn": "2026-09-28"
+  },
+  {
+    "paperId": "liang-2023",
+    "sourceUrl": "https://doi.org/10.1016/j.spc.2023.07.018",
+    "pdfUrl": "https://edepot.wur.nl/636239",
+    "license": "CC BY-NC-ND",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "rightsVerifiedUrl": "https://research.wur.nl/en/publications/designing-diversified-crop-rotations-to-advance-sustainability-a-/",
+    "archiveMode": "pdf-only",
+    "verifiedOn": "2026-09-28"
+  },
+  {
+    "paperId": "xu-2024",
+    "sourceUrl": "https://doi.org/10.1016/j.agsy.2024.103896",
+    "pdfUrl": "https://edepot.wur.nl/651956",
+    "license": "CC BY",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsVerifiedUrl": "https://research.wur.nl/en/publications/comparing-the-sustainability-of-smallholder-and-business-farms-in/",
+    "archiveMode": "reflow-and-pdf",
+    "verifiedOn": "2026-09-28"
+  },
+  {
+    "paperId": "xu-data-2024",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10964062/",
+    "pdfUrl": "https://edepot.wur.nl/652815",
+    "license": "CC BY-NC",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "rightsVerifiedUrl": "https://research.wur.nl/en/publications/survey-data-on-livelihoods-and-inputs-and-outputs-of-crop-product/",
+    "archiveMode": "reflow-and-pdf",
+    "verifiedOn": "2026-09-28"
+  }
+]
