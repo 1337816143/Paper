@@ -1,0 +1,1 @@
+Final reader validation: independent selection and scroll-save timers, deterministic original-source volumes, original-note navigation, source licensing and offline coverage.
