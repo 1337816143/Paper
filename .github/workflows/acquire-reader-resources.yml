@@ -1,0 +1,50 @@
+name: Acquire licensed reader resources
+on:
+  push:
+    branches: [reader-offline-v2]
+    paths:
+      - scripts/acquire_sources.py
+      - .github/workflows/acquire-reader-resources.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: paper-resource-preparation
+  cancel-in-progress: true
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install acquisition tools
+        run: pip install PyMuPDF==1.26.4 requests==2.32.5
+      - name: Acquire only sources with confirmed redistribution permission
+        run: python scripts/acquire_sources.py
+      - name: Vendor PDF.js parser without viewer, CDN or font files
+        run: |
+          mkdir -p /tmp/pdf-dep vendor/pdfjs
+          cd /tmp/pdf-dep
+          npm pack pdfjs-dist@5.4.149
+          tar -xzf pdfjs-dist-5.4.149.tgz
+          cp package/legacy/build/pdf.mjs "$GITHUB_WORKSPACE/vendor/pdfjs/"
+          cp package/legacy/build/pdf.worker.mjs "$GITHUB_WORKSPACE/vendor/pdfjs/"
+          cp package/LICENSE "$GITHUB_WORKSPACE/vendor/pdfjs/LICENSE"
+      - name: Package the exact source tree and permitted materials
+        run: |
+          mkdir -p /tmp/reader-payload
+          tar --exclude=.git --exclude=dist --exclude=test-results -czf /tmp/reader-payload/reader-source.tar.gz .
+          cp resources/acquisition.json /tmp/reader-payload/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-source-and-licensed-materials
+          path: /tmp/reader-payload
+          retention-days: 14
