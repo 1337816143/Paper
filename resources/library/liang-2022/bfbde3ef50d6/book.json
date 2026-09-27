@@ -1,0 +1,2747 @@
+{
+  "schema": "paper.original.v2",
+  "id": "liang-2022",
+  "lessonId": "liang-2022",
+  "title": "Identifying exemplary sustainable cropping systems using a positive deviance approach: Wheat-maize double cropping in the North China Plain",
+  "citation": "Liang, Z., et al. (2022). Agricultural Systems, 201, 103471.",
+  "origin": "https://doi.org/10.1016/j.agsy.2022.103471",
+  "sourceHash": "bfbde3ef50d61598c5aa73a5ff6d02141f1d7473ae446b0f73f88e6bbef0ef47",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Agricultural Systems 201 (2022) 103471 Available online 30 July 2022 0308-521X/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Identifying exemplary sustainable cropping systems using a positive deviance approach: Wheat-maize double cropping in the North China Plain Zhengyuan Liang a,b,c,*, Wopke van der Werf c, Zhan Xu b,c, Jiali Cheng a,b,c, Chong Wang b, Wen-Feng Cong b,**, Chaochun Zhang b, Fusuo Zhang b, Jeroen C.J",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "originalPath": "library/liang-2022/bfbde3ef50d6/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/liang-2022/bfbde3ef50d6/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            232.34799194335938,
+            33.45158004760742,
+            362.1792907714844,
+            45.17943572998047
+          ]
+        },
+        {
+          "id": "p1-b2-094a208",
+          "kind": "paragraph",
+          "text": "Available online 30 July 2022\n0308-521X/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+          "bbox": [
+            37.51798629760742,
+            714.7015991210938,
+            557.573486328125,
+            736.0494384765625
+          ]
+        },
+        {
+          "id": "p1-b3-1045ff7",
+          "kind": "heading",
+          "text": "Identifying exemplary sustainable cropping systems using a positive \ndeviance approach: Wheat-maize double cropping in the North China Plain",
+          "bbox": [
+            37.587398529052734,
+            160.96640014648438,
+            487.8672790527344,
+            200.19052124023438
+          ]
+        },
+        {
+          "id": "p1-b4-021ad72",
+          "kind": "heading",
+          "text": "Zhengyuan Liang a,b,c,*, Wopke van der Werf c, Zhan Xu b,c, Jiali Cheng a,b,c, Chong Wang b, \nWen-Feng Cong b,**, Chaochun Zhang b, Fusuo Zhang b, Jeroen C.J. Groot a",
+          "bbox": [
+            37.587398529052734,
+            205.74708557128906,
+            472.18011474609375,
+            236.85000610351562
+          ]
+        },
+        {
+          "id": "p1-b5-1d28ea1",
+          "kind": "paragraph",
+          "text": "a Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands \nb College of Resources and Environmental Science, National Academy of Agriculture Green Development, China Agricultural University, Beijing 100193, China \nc Centre for Crop Systems Analysis, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands",
+          "bbox": [
+            37.587398529052734,
+            238.19540405273438,
+            466.7392883300781,
+            268.63201904296875
+          ]
+        },
+        {
+          "id": "p1-b6-1db2276",
+          "kind": "paragraph",
+          "text": "H I G H L I G H T S  \nG R A P H I C A L  A B S T R A C T",
+          "bbox": [
+            37.587398529052734,
+            290.0344543457031,
+            333.2054138183594,
+            301.43646240234375
+          ]
+        },
+        {
+          "id": "p1-b7-08bd684",
+          "kind": "paragraph",
+          "text": "• A positive deviance approach was used \nto identify exemplary sustainable crop­\nping systems. \n• Exemplary \nwheat-maize \nsystems \nreached the best compromise across \nseven indicators. \n• Exemplary wheat-maize systems were \nsupported by several efficient practices \nbut not farming contexts. \n• Sustainability gaps could be closed if \nlocal wheat-maize systems resembled \nexemplary ones. \n• The positive deviance approach is a \npromising way to inform sustainability \nimprovement of cropping systems.",
+          "bbox": [
+            37.587398529052734,
+            309.3550720214844,
+            172.95553588867188,
+            456.9739685058594
+          ]
+        },
+        {
+          "id": "p1-b9-19af77a",
+          "kind": "paragraph",
+          "text": "A R T I C L E  I N F O",
+          "bbox": [
+            37.587398529052734,
+            486.3054504394531,
+            126.12201690673828,
+            497.70745849609375
+          ]
+        },
+        {
+          "id": "p1-b10-cc509a8",
+          "kind": "paragraph",
+          "text": "Editor: Guillaume Martin",
+          "bbox": [
+            37.587398529052734,
+            505.5583801269531,
+            112.97222137451172,
+            515.9829711914062
+          ]
+        },
+        {
+          "id": "p1-b11-d4675af",
+          "kind": "paragraph",
+          "text": "Keywords: \nHierarchical clustering \nPareto ranking \nDietary energy yield \nGross margin \nNitrogen loss \nGroundwater depletion",
+          "bbox": [
+            37.587398529052734,
+            524.0396118164062,
+            105.34217071533203,
+            585.884521484375
+          ]
+        },
+        {
+          "id": "p1-b12-c0671f4",
+          "kind": "paragraph",
+          "text": "A B S T R A C T",
+          "bbox": [
+            201.9969940185547,
+            486.3054504394531,
+            269.1467590332031,
+            497.70745849609375
+          ]
+        },
+        {
+          "id": "p1-b13-5a00eb0",
+          "kind": "paragraph",
+          "text": "CONTEXT: Sustainable cropping systems need to balance productivity and profitability with resource and \nenvironmental conservation. Within a population of cropping system observations, there might be positive de­\nviants that outperform others in terms of sustainability, which could serve as “model systems” for future \ndevelopment. Wheat-maize double cropping is the dominant system in the North China Plain, which is facing \nmultiple economic, societal, and environmental sustainability challenges. Identifying exemplary positive de­\nviants out of a multitude of wheat-maize observations might provide solutions to enhance overall sustainability. \nOBJECTIVES: We aimed to 1) identify exemplary wheat-maize systems that reached optimal performance across \nseven sustainability indicators, 2) determine which factors regarding management practices and farming con­\ntexts resulted in the sustainability gaps between exemplary and other systems, and 3) propose a sustainable \nwheat-maize prototype. \nMETHODS: Based on a farmer survey dataset (n = 344), we developed a cropping system-level positive deviance \napproach, including multi-criteria assessment, positive deviant identification (Pareto ranking) and positive",
+          "bbox": [
+            201.9969940185547,
+            505.56903076171875,
+            559.7704467773438,
+            622.517578125
+          ]
+        },
+        {
+          "id": "p1-b14-aefbfff",
+          "kind": "paragraph",
+          "text": "Abbreviations: NCP, North China Plain; N, Nitrogen; GHG, Greenhouse gas; C, Carbon; MIDIP, Multi-indicator distance to the ideal point; HDIP, Heterogeneity of \ndistances to the ideal point across the indicator set. \n* Corresponding author at: Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands. \n** Corresponding author. \nE-mail addresses: zhengyuan.liang@wur.nl (Z. Liang), wenfeng.cong@cau.edu.cn (W.-F. Cong).",
+          "bbox": [
+            37.58790588378906,
+            639.8750610351562,
+            559.7320556640625,
+            690.380126953125
+          ]
+        },
+        {
+          "id": "p1-b16-b0658ce",
+          "kind": "paragraph",
+          "text": "Contents lists available at ScienceDirect",
+          "bbox": [
+            228.41600036621094,
+            59.29375076293945,
+            371.40277099609375,
+            72.32485961914062
+          ]
+        },
+        {
+          "id": "p1-b17-fb1fca0",
+          "kind": "heading",
+          "text": "Agricultural Systems",
+          "bbox": [
+            234.65199279785156,
+            80.03680419921875,
+            366.96075439453125,
+            102.84097290039062
+          ]
+        },
+        {
+          "id": "p1-b18-a2a80ca",
+          "kind": "paragraph",
+          "text": "journal homepage: www.elsevier.com/locate/agsy",
+          "bbox": [
+            204.3780059814453,
+            118.17890930175781,
+            395.4212951660156,
+            126.14900970458984
+          ]
+        },
+        {
+          "id": "p1-b20-9955de4",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1016/j.agsy.2022.103471 \nReceived 24 May 2022; Received in revised form 20 July 2022; Accepted 22 July 2022",
+          "bbox": [
+            37.587398529052734,
+            695.66064453125,
+            325.0259704589844,
+            716.9127807617188
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure3",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p1-figure3.png",
+          "alt": "Original source page 1, graphic 3",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure4",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p1-figure4.png",
+          "alt": "Original source page 1, graphic 4",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p2-b1-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p2-b2-4a4cc8b",
+          "kind": "paragraph",
+          "text": "deviant clustering, to identify exemplary wheat-maize systems. We then compared exemplary and other systems \nto quantify the sustainability gaps and identify the key variables explaining sustainability gaps. \nRESULTS AND CONCLUSIONS: Sixteen percent of wheat-maize cases were Pareto-optimal and were classified as \npositive deviants. These were sorted into seven clusters representing contrasting sustainability patterns. Among \nthese clusters, one comprised exemplary systems due to the best compromise over the indicator set. Compared to \nremaining wheat-maize cases, exemplary systems, on average, resulted in 49% and 17% higher gross margin and \ndietary energy output, respectively, and 33–51% lower labor use, groundwater depletion, N loss, net greenhouse \ngas emission, and pesticide use. Key practices conferring exemplary system performance included higher maize \nseeding density, lower fertilizer N input in wheat, partial substitution of inorganic fertilizer with manure, a \nsmaller number of irrigation events, and a lower frequency of pesticide and herbicide application. No significant \ndifference in farming context was found between exemplary and other systems. \nSIGNIFICANCE: Since the practices of exemplary systems were already locally adopted and proven, we expect \nthat farmers in the region can increase the sustainability of their wheat-maize production by adjusting their \nmanagement to resemble the exemplary systems. The positive deviance approach thus provides a pragmatic \nbottom-up approach to identify practices that can improve the sustainability of cropping systems, and can be \nused for other cropping systems elsewhere.",
+          "bbox": [
+            201.99693298339844,
+            52.2530632019043,
+            559.7804565429688,
+            207.4122314453125
+          ]
+        },
+        {
+          "id": "p2-b3-6e62ee8",
+          "kind": "heading",
+          "text": "1. Introduction",
+          "bbox": [
+            37.587398529052734,
+            234.4177703857422,
+            100.17181396484375,
+            247.44888305664062
+          ]
+        },
+        {
+          "id": "p2-b4-60cfcb1",
+          "kind": "paragraph",
+          "text": "With a growing world population and widespread agriculture- \ninduced environmental harms, global crop production must meet joint \nsustainability demands regarding food security, resource conservation, \nenvironmental soundness, and socioeconomic viability (Foley et al., \n2011). Therefore, most agricultural regions on the globe need to explore \nsuitable pathways to improve multi-dimensional sustainability of crop \nproduction (Lechenet et al., 2017; Spiegal et al., 2018; Davis et al., \n2019), although the challenges they face differ among regions (Zhang \net al., 2021). \nThe North China Plain (NCP) is the breadbasket of China, responsible \nfor 59% and 26% of the national wheat and maize production, respec­\ntively (National Bureau of Statistics of China (NBSC), 2020). Agriculture \nin this region has prioritized high productivity to support increasing \ndomestic consumption in the past decades (Niu et al., 2021). The \naverage grain yield increased from 2.0 to 6.4 Mg/ha for wheat (Triticum \naestivum L.) and from 3.7 to 6.1 Mg/ha for maize (Zea mays L.) between \n1980 and 2019, with substantial increases in agricultural inputs, such as \nwater, fertilizer, and pesticides (National Bureau of Statistics of China \n(NBSC), 2020). However, local cropping systems are currently facing a \nrange of sustainability challenges from economic, societal, and envi­\nronmental perspectives. On the one hand, improving productivity and \nprofitability are needed to ensure national food self-sufficiency and \nboost rural economic prosperity under the condition of rural labor \nshortage (Ghose, 2014; Xu et al., 2019). On the other hand, due to \nintensive crop management by smallholders, crop production has been a \nmajor force behind local environmental deterioration. The NCP is \nsuffering from severe groundwater table decline (at a rate of 1 m per \nyear; Kong et al., 2016), fertilizer nitrogen (N)-related water and at­\nmospheric pollution (Meng et al., 2018a; Wang et al., 2019), high \ngreenhouse gas (GHG) emissions (Xu and Lan, 2017), as well as pesticide \ncontamination of soil and water (Brauns et al., 2018). All challenges are \npressing, and thus local cropping systems need to pursue multi- \ndimensional sustainability. \nDouble cropping of wheat and maize is the largest cropping system, \ncovering around 60% of the total arable land area in the NCP (Li and Lei, \n2021). Improving multi-dimensional sustainability of the wheat-maize \nsystem would therefore make a great contribution to enhancing \nfarming sustainability in this region. There is indeed a huge potential to \nimprove the sustainability of wheat-maize systems. For instance, many \nfield trials in the NCP have proven that the N loss, GHG emissions, or \ngroundwater table decline could be decreased without sacrificing grain \noutput through optimized management techniques such as fertilization \nbased on soil testing, enhanced-efficiency fertilizers, and advanced \nirrigation regimes (Ju et al., 2009; Sun et al., 2015; Zheng et al., 2020). \nHowever, most of those studies considered only a few aspects of sus­\ntainability, intentionally or unintentionally overlooking other aspects",
+          "bbox": [
+            37.58738327026367,
+            255.33689880371094,
+            291.03497314453125,
+            739.0853271484375
+          ]
+        },
+        {
+          "id": "p2-b5-7026ddf",
+          "kind": "paragraph",
+          "text": "and possible trade-offs. \nIt is difficult for researchers to give pragmatic solutions to enhance \nall domains of the sustainability performance of cropping systems based \non a “top-down” approach. That is because trade-offs between sustain­\nability domains usually occur in agricultural systems (Kanter et al., \n2018; Li et al., 2019) and challenges concern multiple disciplines. \nMoreover, those solutions may not fit the site-specific conditions, thus \nbeing not locally viable for farmers (Liu et al., 2018). So far, a holistic \nsustainability assessment of wheat-maize systems in the NCP is lacking, \nand it remains unclear how local farmers could reconcile the different \ndomains of sustainability in wheat and maize production. \nCropping systems within an agricultural region tend to have heter­\nogenous agronomic, environmental as well as socioeconomic perfor­\nmance as a result of varying cultivation practices and different \nproduction contexts across farmers (Aouadi et al., 2015). Identifying the \nexisting cropping systems that are cultivated sustainably from the \nmultitude of observations might provide a suitable example for wider \napplication. \nThe positive deviance approach can be used to investigate the \ncharacteristics and practices of the best performing individuals (i.e., \npositive deviants) within a population (Herington and van de Fliert, \n2018). Here, positive deviants refer to the cases achieving superior \nperformance compared to others within a community despite sharing \nsimilar environment, resources, and barriers. The positive deviance \napproach was initiated and widely applied in the field of human nutri­\ntion and public health (Albanna and Heeks, 2019), for example, to \npropose dietary interventions against child malnutrition through \nstudying positive deviant households with healthier children under \ngiven resource-poor circumstances. This approach was also extended to \nthe agricultural domain to look into positive deviant farms and the \npractices driving them (Savikurki, 2013; Dumont et al., 2020). \nRecent studies on positive deviance of farming systems identified \npositive deviants in terms of multiple assessment indicators through \nsystematic and quantitative methods, e.g., Pareto optimality (Modernel \net al., 2018; Steinke et al., 2019; Adelhart Toorop et al., 2020). These \nstudies also captured the diversity of positive deviants, and ruled out \npositive deviants that underperformed in certain indicators using \nbenchmark values for each indicator. Benchmark values can be recog­\nnized as threshold values (Modernel et al., 2018) or the population mean \ncould also be used as a benchmark (Adelhart Toorop et al., 2020). \nHowever, the use of such benchmarks is to some extent arbitrary, and it \nwould be interesting to pursue an approach to select positive deviants \nthat is benchmark-free. Besides, most of the agriculture-oriented studies \nfocused on the farm scale, while cropping system-level positive deviance \nanalysis to inform multifaceted sustainability improvement of crop \nproduction is still understudied. \nIn this study, we hypothesized that within a population of wheat- \nmaize double cropping cases, there are likely to be exemplary positive",
+          "bbox": [
+            306.5924377441406,
+            234.4177703857422,
+            560.021728515625,
+            739.0852661132812
+          ]
+        },
+        {
+          "id": "p2-b6-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p3-b1-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p3-b2-e640739",
+          "kind": "paragraph",
+          "text": "deviants that could reach comparatively superior and well-balanced \nperformance across all sustainability domains, supported by a set of \nefficient management practices and possibly also by favorable farming \ncontexts. Here we applied a nested positive deviance approach to wheat- \nmaize observations within a county in the NCP. The research objectives \nwere 1) to identify exemplary positive deviant wheat-maize systems \nwithout resorting to the use of benchmarks, 2) to identify whether multi- \ndimensional sustainability gaps between exemplary and other systems \nwere due to differences in management or farming context, and 3) to \npropose a sustainable wheat-maize prototype based on exemplary \nsystems.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.03021240234375,
+            168.92803955078125
+          ]
+        },
+        {
+          "id": "p3-b3-a77f4aa",
+          "kind": "heading",
+          "text": "2. Materials and methods",
+          "bbox": [
+            37.587398529052734,
+            177.8936004638672,
+            139.68597412109375,
+            190.92471313476562
+          ]
+        },
+        {
+          "id": "p3-b4-9a5389b",
+          "kind": "heading",
+          "text": "2.1. Methodological framework for the nested positive deviance approach",
+          "bbox": [
+            37.587398529052734,
+            198.81272888183594,
+            284.99920654296875,
+            211.84384155273438
+          ]
+        },
+        {
+          "id": "p3-b5-769ac8b",
+          "kind": "paragraph",
+          "text": "We used a four-step methodological approach to identify positive \ndeviants and exemplary cropping systems and to extract measures that \nimprove the sustainability of cropping systems (Fig. 1). \nSTEP 1: Data collection and multi-criteria assessment. \nA field survey was conducted to collect data regarding production \ninput-output as well as the biophysical and socioeconomic context of \ncropping systems (see Section 2.3). Then we used the dataset to quantify \ncropping system-level performance in terms of indicators related to local \nsustainability challenges (see Section 2.4). \nSTEP 2: Identification of positive deviants and exemplary systems. \nPositive deviants were identified by selecting Pareto-optimal crop­\nping systems (explained in Section 2.5.1) from the set based on indicator \nperformance. Next, hierarchical clustering was used to divide all posi­\ntive deviants into several clusters with contrasting sustainability pat­\nterns. Subsequently, the positive deviant cluster with the shortest \ndistance to the ideal point (see Section 2.5.2) was selected as the cluster \ncontaining those exemplary systems representing the best compromise \nacross the whole indicator set.",
+          "bbox": [
+            37.587398529052734,
+            219.73265075683594,
+            291.02301025390625,
+            410.6077575683594
+          ]
+        },
+        {
+          "id": "p3-b6-bf5b538",
+          "kind": "paragraph",
+          "text": "STEP 3: Quantification and explanation of sustainability gaps. \nWe compared sustainability indicators between exemplary and other \nsystems to calculate multi-dimensional sustainability gaps. Then, we \nused a range of explanatory variables describing crop management, \nbiophysical and socioeconomic context to analyze factors associated \nwith sustainability gaps. \nSTEP 4: Establishment of a sustainable cropping system prototype. \nFinally, based on the above three steps, a sustainable prototype was \nbuilt, which summarizes and describes crop management and expected \nsustainability outcomes of exemplary systems. This locally viable pro­\ntotype could act as a model for local stakeholders on possibilities to \nadvance the sustainability of wheat-maize production.",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            560.00830078125,
+            179.4158935546875
+          ]
+        },
+        {
+          "id": "p3-b7-658e195",
+          "kind": "heading",
+          "text": "2.2. Study area description",
+          "bbox": [
+            306.5926208496094,
+            188.38145446777344,
+            402.06005859375,
+            201.41256713867188
+          ]
+        },
+        {
+          "id": "p3-b8-3c1ce7b",
+          "kind": "paragraph",
+          "text": "Quzhou \nis \na \ntypical \nagricultural \ncounty \nin \nthe \nNCP \n(114◦50′E–115◦13′E, 36◦35′N–36◦57′N, located in Hebei Province of \nChina), and was chosen as the study area (Fig. S1). Its representativeness \nfor crop production over the NCP can be summarized in the following \npoints:",
+          "bbox": [
+            306.5926208496094,
+            209.3013916015625,
+            560.01318359375,
+            264.1718444824219
+          ]
+        },
+        {
+          "id": "p3-b9-697dc72",
+          "kind": "paragraph",
+          "text": "1) Pedo-climatic circumstances: Quzhou county has a warm-temperate \nand monsoonal climate that is typical for the NCP. The mean annual \ntemperature is 13.1 ◦C with hot summers and cold winters, while the \nmean annual precipitation is 500 mm, 60% of which occurs from late \nJune to late October. Agricultural soils are calcareous alluvial, \ncharacterized by loamy texture, high soil pH (> 7.5), and low soil \norganic matter content (< 2% in most croplands).  \n2) Cropping patterns: Similar to most agricultural counties in the NCP, \ncroplands in Quzhou are dominated by double cropping of wheat and \nmaize, in which wheat is sown in October and harvested in June the \nnext year while maize is sown immediately after wheat harvest in \nJune and harvested in October. Most of the wheat-maize systems are \nmanaged by smallholders who have an average farm size of 0.6 ha.",
+          "bbox": [
+            307.44671630859375,
+            272.0606689453125,
+            560.02197265625,
+            410.61004638671875
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b11-730ce76",
+          "kind": "paragraph",
+          "text": "Fig. 1. Schematic diagram of the nested steps in the methodological framework. Boxes outside the flow chart indicate the methods used in the corresponding steps. \nMargin, DEY, GWD, GHGn, and Pesti. denote gross margin, dietary energy yield, groundwater depletion, net GHG emission, and pesticide use respectively. MIDIP is \nthe multi-indicator distance to the ideal point (see Section 2.5.2).",
+          "bbox": [
+            37.587398529052734,
+            713.6890869140625,
+            559.7774658203125,
+            744.522216796875
+          ]
+        },
+        {
+          "id": "p3-b12-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p4-b1-4b22777",
+          "kind": "paragraph",
+          "text": "4",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p4-b2-415f26e",
+          "kind": "paragraph",
+          "text": "3) Sustainability challenges: Quzhou faces a variety of economic, soci­",
+          "bbox": [
+            38.43769836425781,
+            51.29973220825195,
+            288.6510314941406,
+            64.33084106445312
+          ]
+        },
+        {
+          "id": "p4-b3-e681167",
+          "kind": "paragraph",
+          "text": "etal, and environmental challenges that are characteristic for the \nNCP: low farming income, rural labor shortage, groundwater table \ndecline, and high N loss (Zhang et al., 2016; Xu et al., 2018; Meng \net al., 2021; Feng et al., 2022). Besides, current agri-environmental \npolicies aim to reduce the currently high use of pesticides and high \nemissions of GHG (Ministry of Agriculture and Rural Affairs of the \nPeople’s Republic of China (MARA), 2022).",
+          "bbox": [
+            49.492225646972656,
+            61.7875862121582,
+            291.01416015625,
+            137.57684326171875
+          ]
+        },
+        {
+          "id": "p4-b4-6733a1d",
+          "kind": "heading",
+          "text": "2.3. Farm household survey and dataset establishment",
+          "bbox": [
+            37.58808517456055,
+            145.46566772460938,
+            224.27175903320312,
+            158.4967803955078
+          ]
+        },
+        {
+          "id": "p4-b5-963c8f4",
+          "kind": "paragraph",
+          "text": "In July 2020, we conducted a survey of 525 farming households in \nQuzhou. The survey was carried out in 25 villages, with 15 randomly \nselected households per village (Fig. S1). For each household, we \ninterviewed the household head in person with a structured question­\nnaire to collect data on the household situation (e.g., labor availability), \ncultivated cropping systems (e.g., wheat-maize double cropping), and \ninputs and outputs (e.g., fertilizer use and yield) of each crop species in a \none-year cropping cycle (June 2019 – June 2020). We found that 344 \nhouseholds (66%) cultivated wheat-maize double cropping with irri­\ngation from groundwater. Data associated with these wheat-maize ob­\nservations, including a crop input-output inventory and household \ncharacteristics (Table S1), were extracted to build a new dataset for this \nstudy. We used the latest soil grid dataset of Quzhou (sampling in 2018; \nLi et al., 2022) to get averaged soil properties at the village level using \nthe inverse distance weighted method in ArcMap 10.8 (https://www. \nesri.com/en-us/arcgis/products/arcgis-desktop). Eventually, we had a \ndataset containing variables on crop input, crop output, as well as the \nbiophysical and socioeconomic context (i.e., soil properties and house­\nhold characteristics) of all groundwater-irrigated wheat-maize cases in \nQuzhou.",
+          "bbox": [
+            37.58808517456055,
+            166.38478088378906,
+            291.0300598144531,
+            378.1798095703125
+          ]
+        },
+        {
+          "id": "p4-b6-98a8ad5",
+          "kind": "heading",
+          "text": "2.4. Multi-criteria assessment",
+          "bbox": [
+            37.58808517456055,
+            386.0678405761719,
+            140.50119018554688,
+            399.09893798828125
+          ]
+        },
+        {
+          "id": "p4-b7-d793468",
+          "kind": "paragraph",
+          "text": "In this study, sustainability indicators were selected accounting for \nlocal challenges to be tackled and can fall into three domains, i.e., \neconomic, societal, and environmental aspects, of sustainability. The \ntemporal scale of all indicators is a double-cropping cycle (one year).",
+          "bbox": [
+            37.58808517456055,
+            406.9877624511719,
+            291.02850341796875,
+            451.3692321777344
+          ]
+        },
+        {
+          "id": "p4-b8-037e5d5",
+          "kind": "paragraph",
+          "text": "2.4.1. Economic domain – Gross margin \nMaximizing the profitability of the cropping system is the major in­\nterest of farmers. Here annual gross margin (GMtotal, USD/ha/year) was \nused to indicate the economic performance of each wheat-maize \nobservation, and was calculated as follows:",
+          "bbox": [
+            37.58808517456055,
+            459.2580871582031,
+            290.9914855957031,
+            514.1320190429688
+          ]
+        },
+        {
+          "id": "p4-b9-d5a020b",
+          "kind": "paragraph",
+          "text": "GMtotal =\n∑",
+          "bbox": [
+            37.59014892578125,
+            514.1221313476562,
+            82.22847747802734,
+            530.822998046875
+          ]
+        },
+        {
+          "id": "p4-b10-de7d1b7",
+          "kind": "paragraph",
+          "text": "i",
+          "bbox": [
+            75.74169921875,
+            532.486572265625,
+            77.18187713623047,
+            537.6670532226562
+          ]
+        },
+        {
+          "id": "p4-b11-3589661",
+          "kind": "paragraph",
+          "text": "Yi × PRi −VCi\n(1)",
+          "bbox": [
+            82.20469665527344,
+            518.5057373046875,
+            293.3431396484375,
+            531.536865234375
+          ]
+        },
+        {
+          "id": "p4-b12-83a7f4d",
+          "kind": "paragraph",
+          "text": "where i (= wheat, maize) denotes crop species. Yi (Mg/ha) and PRi \n(USD/t) denote grain yield and farm gate price respectively. Variable \ncosts (VCi, USD/ha/year) cover all costs of agricultural material inputs \n(including seed, fertilizer, manure, electricity, pesticides, and growth \nregulators) and hired machinery use (for tillage, sowing, harvesting, and \nstraw return) based on their application rate or the number of applica­\ntions and corresponding prices. Prices are listed in Table S2.",
+          "bbox": [
+            37.587398529052734,
+            545.2071533203125,
+            291.0118713378906,
+            620.9971313476562
+          ]
+        },
+        {
+          "id": "p4-b13-d5b9b1d",
+          "kind": "heading",
+          "text": "2.4.2. Societal domain",
+          "bbox": [
+            37.588314056396484,
+            628.8859252929688,
+            118.34693908691406,
+            641.9170532226562
+          ]
+        },
+        {
+          "id": "p4-b14-f9e0859",
+          "kind": "paragraph",
+          "text": "2.4.2.1. Dietary energy yield. Dietary energy yield (DEYtotal, GCal/ha/ \nyear) is a widely-used proxy indicator for food provisioning capacity, \nwhich is associated with the societal demand for food security. Here, this \nindicator represents the summation of the energy output of wheat and \nmaize, and was estimated based on Yi and dietary energy content (Ei, \nGcal/Mg) of harvested commodities:",
+          "bbox": [
+            37.588314056396484,
+            650.7694091796875,
+            291.02557373046875,
+            716.1287231445312
+          ]
+        },
+        {
+          "id": "p4-b15-374962b",
+          "kind": "paragraph",
+          "text": "DEYtotal =\n∑",
+          "bbox": [
+            37.59046936035156,
+            716.0623779296875,
+            85.8000717163086,
+            732.8194580078125
+          ]
+        },
+        {
+          "id": "p4-b16-de7d1b7",
+          "kind": "paragraph",
+          "text": "i",
+          "bbox": [
+            79.31330108642578,
+            734.4266967773438,
+            80.75347900390625,
+            739.607177734375
+          ]
+        },
+        {
+          "id": "p4-b17-72a1d64",
+          "kind": "paragraph",
+          "text": "Yi × Ei\n(2)",
+          "bbox": [
+            85.77629852294922,
+            720.4459838867188,
+            293.3431396484375,
+            733.4771118164062
+          ]
+        },
+        {
+          "id": "p4-b18-814df8a",
+          "kind": "paragraph",
+          "text": "where dietary energy content of wheat and maize grain was 3.17 and \n3.35 GCal/Mg, respectively (Yang et al., 2018).",
+          "bbox": [
+            306.59423828125,
+            54.99126052856445,
+            559.99560546875,
+            78.51022338867188
+          ]
+        },
+        {
+          "id": "p4-b19-a1da0a3",
+          "kind": "paragraph",
+          "text": "2.4.2.2. Labor use. Given the increasing rural labor shortage in the \nNCP, labor input needs to be minimized in sustainable cropping systems. \nHere we summed up the time farmers spent on manual cropping activ­\nities for wheat-maize systems to quantify annual labor use (LUtotal, h/ \nha/year), which was expressed as:",
+          "bbox": [
+            306.59423828125,
+            87.36265563964844,
+            560.0155029296875,
+            142.22610473632812
+          ]
+        },
+        {
+          "id": "p4-b20-70e0261",
+          "kind": "paragraph",
+          "text": "LUtotal =\n∑",
+          "bbox": [
+            306.5981140136719,
+            142.21719360351562,
+            349.0252685546875,
+            158.91702270507812
+          ]
+        },
+        {
+          "id": "p4-b21-de7d1b7",
+          "kind": "paragraph",
+          "text": "i",
+          "bbox": [
+            342.5379943847656,
+            160.58062744140625,
+            343.9781799316406,
+            165.76112365722656
+          ]
+        },
+        {
+          "id": "p4-b22-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            349.00201416015625,
+            142.2158966064453,
+            360.5347595214844,
+            150.18600463867188
+          ]
+        },
+        {
+          "id": "p4-b23-189f400",
+          "kind": "paragraph",
+          "text": "j",
+          "bbox": [
+            354.0469970703125,
+            160.58062744140625,
+            355.4871826171875,
+            165.76112365722656
+          ]
+        },
+        {
+          "id": "p4-b24-dd0eec8",
+          "kind": "paragraph",
+          "text": "Lj,i × Nj,i\n(3)",
+          "bbox": [
+            360.510009765625,
+            146.6007537841797,
+            562.3511962890625,
+            159.63186645507812
+          ]
+        },
+        {
+          "id": "p4-b25-bebef67",
+          "kind": "paragraph",
+          "text": "where j (=1, 2, 3, …) represents a manual cropping activity including \nmineral fertilizer and manure application, pesticide and herbicide use, \nirrigation, weeding, and harvesting. Lj,i is labor time consumption for \nactivity j, and Nj,i denotes the number of times the activity j was per­\nformed during the growing season of crop species i. Because some \nfarmers could not recall their labor inputs precisely and Lj,i was found to \nbe relatively homogeneous among households, we used a fixed value for \nLj,i (except for manure use and weeding), equal to the average of all \nhouseholds able to report it (Table S3).",
+          "bbox": [
+            306.5955810546875,
+            174.32315063476562,
+            560.0241088867188,
+            271.0326843261719
+          ]
+        },
+        {
+          "id": "p4-b26-51bdac1",
+          "kind": "heading",
+          "text": "2.4.3. Environmental domain",
+          "bbox": [
+            306.5955810546875,
+            278.92071533203125,
+            409.6911926269531,
+            291.9518127441406
+          ]
+        },
+        {
+          "id": "p4-b27-e569563",
+          "kind": "paragraph",
+          "text": "2.4.3.1. Groundwater \ndepletion. Sustainable \nwheat-maize \nsystems \nshould contribute to mitigating groundwater table decline in the NCP. \nGroundwater depletion (GWD, mm/year) is a useful indicator to assess \nthe sustainability of groundwater use at the cropping system level (Yang \net al., 2021), and was defined as:",
+          "bbox": [
+            306.5955810546875,
+            300.80419921875,
+            560.0176391601562,
+            355.6743469238281
+          ]
+        },
+        {
+          "id": "p4-b28-c96490b",
+          "kind": "paragraph",
+          "text": "GWD =\n∑",
+          "bbox": [
+            306.5955810546875,
+            355.66400146484375,
+            347.7204895019531,
+            371.5722961425781
+          ]
+        },
+        {
+          "id": "p4-b29-de7d1b7",
+          "kind": "paragraph",
+          "text": "i",
+          "bbox": [
+            341.2349853515625,
+            374.02960205078125,
+            342.6751708984375,
+            379.2101135253906
+          ]
+        },
+        {
+          "id": "p4-b30-76fda88",
+          "kind": "paragraph",
+          "text": "IRi −D\n(4)",
+          "bbox": [
+            347.697998046875,
+            360.04876708984375,
+            562.3494262695312,
+            373.0798645019531
+          ]
+        },
+        {
+          "id": "p4-b31-e43de45",
+          "kind": "paragraph",
+          "text": "where IRi (mm) is the irrigation amount from groundwater for crop i, \nand D (mm/year) is the deep infiltration during a wheat-maize cropping \nyear. Positive values of GWD reflect groundwater depletion, whereas \nnegative values indicate groundwater recharge. IRi was estimated from \nthe electricity consumption of water pumping using an empirical \nequation (Section 1.1 in the Supplemental Materials) while D was \ncalculated as:",
+          "bbox": [
+            306.5960998535156,
+            386.75018310546875,
+            560.0203857421875,
+            462.54083251953125
+          ]
+        },
+        {
+          "id": "p4-b32-5af3f24",
+          "kind": "paragraph",
+          "text": "D = α ×",
+          "bbox": [
+            306.5975036621094,
+            476.286865234375,
+            334.7289733886719,
+            484.81597900390625
+          ]
+        },
+        {
+          "id": "p4-b33-32ebb1a",
+          "kind": "paragraph",
+          "text": "(",
+          "bbox": [
+            336.0185546875,
+            462.7587585449219,
+            342.3229064941406,
+            470.7288513183594
+          ]
+        },
+        {
+          "id": "p4-b34-16fd171",
+          "kind": "paragraph",
+          "text": "P +\n∑",
+          "bbox": [
+            344.2955017089844,
+            468.7682189941406,
+            369.0370788574219,
+            484.676513671875
+          ]
+        },
+        {
+          "id": "p4-b35-de7d1b7",
+          "kind": "paragraph",
+          "text": "i",
+          "bbox": [
+            362.5509948730469,
+            487.1325988769531,
+            363.9911804199219,
+            492.3131103515625
+          ]
+        },
+        {
+          "id": "p4-b36-5904d87",
+          "kind": "paragraph",
+          "text": "IRi",
+          "bbox": [
+            369.0140075683594,
+            476.7064208984375,
+            378.44818115234375,
+            485.16912841796875
+          ]
+        },
+        {
+          "id": "p4-b37-ba5ec51",
+          "kind": "paragraph",
+          "text": ")",
+          "bbox": [
+            378.93499755859375,
+            462.7579345703125,
+            385.2393493652344,
+            470.72802734375
+          ]
+        },
+        {
+          "id": "p4-b38-97ce612",
+          "kind": "paragraph",
+          "text": "(5)",
+          "bbox": [
+            547.1973876953125,
+            473.15093994140625,
+            562.3485107421875,
+            486.1820373535156
+          ]
+        },
+        {
+          "id": "p4-b39-58315bf",
+          "kind": "paragraph",
+          "text": "where P is annual precipitation (mm/year). α denotes the dimensionless \nrecharge coefficient which was set as 0.2 calibrated for the case study \narea (Yang et al., 2021).",
+          "bbox": [
+            306.5959777832031,
+            500.53302001953125,
+            559.9957275390625,
+            534.4840087890625
+          ]
+        },
+        {
+          "id": "p4-b40-1a79b71",
+          "kind": "paragraph",
+          "text": "2.4.3.2. Nitrogen loss. Fertilizer nitrogen (N) that is lost to the envi­\nronment causes water eutrophication and PM2.5 (fine particle matters) \npollution (Huang et al., 2017; Meng et al., 2018a). Therefore, N loss \n(NLtotal, kg N/ha/year) from wheat-maize croplands needs to be mini­\nmized and was defined as:",
+          "bbox": [
+            306.59539794921875,
+            543.3929443359375,
+            559.9838256835938,
+            598.2637329101562
+          ]
+        },
+        {
+          "id": "p4-b41-19cf79b",
+          "kind": "paragraph",
+          "text": "NLtotal =\n∑",
+          "bbox": [
+            306.59539794921875,
+            598.1981811523438,
+            349.0252685546875,
+            614.89794921875
+          ]
+        },
+        {
+          "id": "p4-b42-de7d1b7",
+          "kind": "paragraph",
+          "text": "i",
+          "bbox": [
+            342.5379943847656,
+            616.5616455078125,
+            343.9781799316406,
+            621.7421264648438
+          ]
+        },
+        {
+          "id": "p4-b43-f636d15",
+          "kind": "paragraph",
+          "text": "(\nNLNH3,i + NLNO3,i + NLN2O,i",
+          "bbox": [
+            349.00201416015625,
+            599.27490234375,
+            441.79180908203125,
+            614.89794921875
+          ]
+        },
+        {
+          "id": "p4-b44-4826d47",
+          "kind": "paragraph",
+          "text": ")\n(6)",
+          "bbox": [
+            442.3179931640625,
+            599.27490234375,
+            562.3493041992188,
+            615.612060546875
+          ]
+        },
+        {
+          "id": "p4-b45-8e951a2",
+          "kind": "paragraph",
+          "text": "where NLNH3,i, NLNO3,i, and NLN2O,i indicate the crop-specific amount of \nN (kg N/ha) lost via the pathways of ammonia volatilization, nitrate \nleaching, and nitrous oxide emission, respectively. These were calcu­\nlated based on N fertilizer inputs using empirical equations calibrated \nfor the NCP (Section 1.2 in the Supplemental Materials).",
+          "bbox": [
+            306.59661865234375,
+            629.2831420898438,
+            560.0187377929688,
+            684.1531372070312
+          ]
+        },
+        {
+          "id": "p4-b46-c91606a",
+          "kind": "paragraph",
+          "text": "2.4.3.3. Net GHG emission. Carbon (C) emission abatement has been \nrecognized as a key objective for crop production in China (Ministry of \nAgriculture and Rural Affairs of the People’s Republic of China (MARA), \n2022). Building on the idea of life cycle assessment, net GHG emission",
+          "bbox": [
+            306.59661865234375,
+            693.0620727539062,
+            560.0211181640625,
+            737.4443969726562
+          ]
+        },
+        {
+          "id": "p4-b47-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-figure2",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p4-figure2.png",
+          "alt": "Original source page 4, graphic 2",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-figure3",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p4-figure3.png",
+          "alt": "Original source page 4, graphic 3",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-figure4",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p4-figure4.png",
+          "alt": "Original source page 4, graphic 4",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p5-b1-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p5-b2-5b4f8e0",
+          "kind": "paragraph",
+          "text": "was used to evaluate the system performance in combating global \nwarming (International Organization for Standardization (ISO), 2006). \nThe system boundary included manufacturing and transportation of \nagricultural inputs, cropping practices on farmland, and soil carbon \nstock change (including pre-and on-farm stage). Net GHG emission \n(GHGnet, Mg CO2 eq./ha/year) depends on GHG emission (GHGemi, Mg \nCO2 eq./ha/year) and soil C sequestration (QSOC, Mg CO2 eq./ha/year):",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0342102050781,
+            127.57528686523438
+          ]
+        },
+        {
+          "id": "p5-b3-84652dd",
+          "kind": "paragraph",
+          "text": "GHGnet = GHGemi −QSOC\n(7)",
+          "bbox": [
+            37.59014892578125,
+            129.87571716308594,
+            293.3431396484375,
+            142.90682983398438
+          ]
+        },
+        {
+          "id": "p5-b4-c0804c3",
+          "kind": "paragraph",
+          "text": "where GHGemi accounts for pre-farm GHG emissions, N fertilizer- \ninduced direct and indirect nitrous oxide emission, and soil C degrada­\ntion, while QSOC considered C inputs from straw return, root residues, \nand animal manure. These were all quantified using empirical equations \nspecified in Sections 1.3–1.4 of the Supplemental Materials.",
+          "bbox": [
+            37.588172912597656,
+            149.3777618408203,
+            291.02252197265625,
+            204.24801635742188
+          ]
+        },
+        {
+          "id": "p5-b5-dff7994",
+          "kind": "paragraph",
+          "text": "2.4.3.4. Pesticide use. Less reliance on chemical pesticides is an \nimportant element of sustainable cropping systems. Pesticides included \ninsecticides, herbicides, and fungicides in our research. Because it was \ndifficult for farmers to report the exact product composition and active \ningredients applied, we quantified the pesticide inputs based on the \nnumber of applications of a full dosage according to label recommen­\ndation (usually a 20 L tank of knapsack sprayer per mu, 1/15 ha, one \ntank as one dose). Thus, pesticide use (PUtotal, doses/year) was calcu­\nlated as:",
+          "bbox": [
+            37.58848571777344,
+            213.156982421875,
+            291.0289001464844,
+            309.8677062988281
+          ]
+        },
+        {
+          "id": "p5-b6-c31afa1",
+          "kind": "paragraph",
+          "text": "PUtotal = IUtotal + HUtotal + FUtotal\n(8)",
+          "bbox": [
+            37.589385986328125,
+            312.65374755859375,
+            293.3431396484375,
+            325.6848449707031
+          ]
+        },
+        {
+          "id": "p5-b7-7378e5a",
+          "kind": "paragraph",
+          "text": "where IUtotal, HUtotal, and FUtotal indicate insecticide use, herbicide use, \nand fungicide use in a one-year cropping cycle (all expressed in doses/ \nyear), respectively. The calculation is further elaborated in Section 1.5 \nof the Supplemental Materials.",
+          "bbox": [
+            37.58821105957031,
+            332.1557922363281,
+            291.0246276855469,
+            376.5382385253906
+          ]
+        },
+        {
+          "id": "p5-b8-fd923e6",
+          "kind": "heading",
+          "text": "2.5. Identification of positive deviants and exemplary systems",
+          "bbox": [
+            37.58821105957031,
+            389.0752258300781,
+            248.44915771484375,
+            402.1063232421875
+          ]
+        },
+        {
+          "id": "p5-b9-acabc38",
+          "kind": "paragraph",
+          "text": "This step aims to select exemplary systems out of all wheat-maize \nobservations in Quzhou in terms of the above sustainability indicators, \nwhich can be regarded as the “model” for sustainable wheat-maize \nproduction (Fig. 2).",
+          "bbox": [
+            37.58821105957031,
+            409.9951477050781,
+            291.0039367675781,
+            454.43402099609375
+          ]
+        },
+        {
+          "id": "p5-b10-bb23bff",
+          "kind": "paragraph",
+          "text": "2.5.1. Pareto ranking-based selection \nPareto ranking is a method that can find out well-performing in­\ndividuals, also known as Pareto-optimality, from the whole population \nwithout assigning subjective weights to multiple indicators (Groot and \nRossing, 2011). Here we used Pareto rank as a criterion to identify \npositive deviants among wheat-maize cases, in terms of seven sustain­\nability indicators (Fig. 1). During the ranking process, cases were ranked \nas “1” (i.e., Pareto-optimal or non-dominated) when they are not inferior \nthan any other case for all indicators (Groot et al., 2012). The Pareto \nranking was performed by using pareto_rank function from R package \n“eaf”. In this study, we treated Pareto-rank-1 cases as positive deviants, \nwhile the remaining systems were referred to as dominated systems.",
+          "bbox": [
+            306.5926513671875,
+            51.30318069458008,
+            560.0179443359375,
+            179.4193572998047
+          ]
+        },
+        {
+          "id": "p5-b11-9ec7732",
+          "kind": "paragraph",
+          "text": "2.5.2. Clustering- and distance-based selection \nIn the set of positive deviants, there might be extreme cases that \nexcelled at certain indicators but still performed relatively poorly in \nother indicators, in case strong trade-offs among indicators exist \n(Adelhart Toorop et al., 2020). When facing multiple challenges without \npredefined priority, we need to identify the positive deviants that reach \nan acceptable compromise across the whole indicator set. Such positive \ndeviants were denoted as “exemplary systems”, while the rest of the \npositive deviants and all dominated systems together as “other systems”. \nAn additional method is needed to identify exemplary systems. \nWe applied a hierarchical clustering method, with seven normalized \nindicators being response variables, to partition all positive deviants into \nseveral clusters with contrasting characteristics of sustainability per­\nformance. This clustering method used Manhattan distance, which is not \nsensitive to outliers, to measure dissimilarities among cases, and used \nthe “Ward.D2” linkage approach to minimize the intra-cluster dissimi­\nlarities (Kassambara, 2017). We conducted the clustering using the \nfunction hclust in R software. The decision on the number of clusters \nshould be made to keep intra-cluster variation in indicator performance \nsmall enough, which enabled each of the clusters to be treated as a \ncropping system group with a certain sustainability pattern. Here, we \nmade an elbow plot using function fviz_nbclust, and determined the \nnumber of clusters based on the position of the bend of the elbow plot. \nThen positive deviants were assigned to the clusters using function \ncutree. \nSubsequently, to evaluate the degree of compromise across in­\ndicators, two metrics were applied for each positive deviant cluster: \nmulti-indicator distance to the ideal point (MIDIP) and heterogeneity of \ndistances to the ideal point across the indicator set (HDIP). The ideal \npoint was defined as a point in performance space with coordinates that \nare for each indicator equal to the best observed indicator value in the \npopulation of observations. MIDIP was defined as the range-scaled \nEuclidean distance from the centroid of a given cluster to the ideal \npoint. We then defined the best compromise cluster of positive deviants \nas the cluster that had the shortest MIDIP in scaled indicator space (each \nindicator scaled from 0 to 1). This definition of the best compromise \ngives equal weight to different indicators and is scale-invariant. MIDIP \nwas derived as:",
+          "bbox": [
+            306.5926513671875,
+            187.30816650390625,
+            560.0179443359375,
+            587.377685546875
+          ]
+        },
+        {
+          "id": "p5-b12-b73a8c6",
+          "kind": "paragraph",
+          "text": "MIDIPc =",
+          "bbox": [
+            306.5926513671875,
+            601.825927734375,
+            340.3419494628906,
+            610.9859619140625
+          ]
+        },
+        {
+          "id": "p5-b13-d782dcd",
+          "kind": "paragraph",
+          "text": "̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\n∑\nn",
+          "bbox": [
+            350.47515869140625,
+            587.9930419921875,
+            378.65740966796875,
+            602.2562866210938
+          ]
+        },
+        {
+          "id": "p5-b14-9b19467",
+          "kind": "paragraph",
+          "text": "k=1",
+          "bbox": [
+            353.76336669921875,
+            612.4468994140625,
+            362.6427307128906,
+            617.8864135742188
+          ]
+        },
+        {
+          "id": "p5-b15-855c2a4",
+          "kind": "paragraph",
+          "text": "dk,c\n2\n√",
+          "bbox": [
+            342.5379943847656,
+            587.992919921875,
+            378.4643859863281,
+            610.6870727539062
+          ]
+        },
+        {
+          "id": "p5-b16-7a7170f",
+          "kind": "paragraph",
+          "text": "(9)",
+          "bbox": [
+            547.1973876953125,
+            598.669677734375,
+            562.3485717773438,
+            611.7008056640625
+          ]
+        },
+        {
+          "id": "p5-b17-60f1c21",
+          "kind": "paragraph",
+          "text": "dk,c =\n⃒⃒⃒⃒",
+          "bbox": [
+            306.5952453613281,
+            623.1998291015625,
+            330.39556884765625,
+            645.3424072265625
+          ]
+        },
+        {
+          "id": "p5-b18-4092c3d",
+          "kind": "paragraph",
+          "text": "pk,c −qk",
+          "bbox": [
+            330.3500061035156,
+            629.3218994140625,
+            356.9141540527344,
+            638.4819946289062
+          ]
+        },
+        {
+          "id": "p5-b19-3d60d48",
+          "kind": "paragraph",
+          "text": "mdk",
+          "bbox": [
+            337.54998779296875,
+            640.6054077148438,
+            349.7711486816406,
+            649.068115234375
+          ]
+        },
+        {
+          "id": "p5-b20-a6046ce",
+          "kind": "paragraph",
+          "text": "⃒⃒⃒⃒\n(10)",
+          "bbox": [
+            357.5050048828125,
+            623.1988525390625,
+            562.3572998046875,
+            645.3413696289062
+          ]
+        },
+        {
+          "id": "p5-b21-f6a9eac",
+          "kind": "paragraph",
+          "text": "mdk = maximumk −minimumk\n(11)",
+          "bbox": [
+            306.59600830078125,
+            656.77978515625,
+            562.359375,
+            669.8109130859375
+          ]
+        },
+        {
+          "id": "p5-b22-606f8cb",
+          "kind": "paragraph",
+          "text": "where c (=1, 2, …, 7) represents positive deviant clusters, and k (=1, 2, \n…, n) denotes the sustainability indicators. For indicator k, dk,c means \nthe range-scaled distance from the centroid of cluster c (pk,c) to the ideal \npoint (qk), while mdk is the maximum discrepancy across the whole \npopulation. \nIn rare occasions, the clusters closest to the ideal point may still",
+          "bbox": [
+            306.5959777832031,
+            676.2817993164062,
+            560.014892578125,
+            741.5836181640625
+          ]
+        },
+        {
+          "id": "p5-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p5-figure1.png",
+          "alt": "Original source page 5, graphic 1",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p5-b24-4e3fa02",
+          "kind": "paragraph",
+          "text": "Fig. 2. Visual representation of positive deviants (circles filled with yellow, \nlight blue, and green), dominated systems (circles filled with grey), and \nexemplary systems (circles filled with light blue). Each circle represents a \ncropping system observation. G1 and G2 denote two competing goals of sys­\ntems, and the solid arrows indicate the respective optimization directions. Each \nellipse with a dashed border denotes a positive deviant cluster. The blue square \nis the ideal system, corresponding in all indicators with the best value observed \nover the whole population of cases. The red arrows indicate the multi-indicator \ndistance from the cluster centroid to the ideal system (MIDIP). Positive de­\nviants, also known as Pareto-optimal systems, are not dominated by any other \nsystems. Exemplary systems are defined as the positive deviants that reach the \nbest compromise between multiple goals and their cluster is characterized by \nthe shortest MIDIP. (For interpretation of the references to colour in this figure \nlegend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            37.587398529052734,
+            608.4671020507812,
+            290.8028869628906,
+            744.52099609375
+          ]
+        },
+        {
+          "id": "p5-b25-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p5-figure2",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p5-figure2.png",
+          "alt": "Original source page 5, graphic 2",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p5-figure3",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p5-figure3.png",
+          "alt": "Original source page 5, graphic 3",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p5-figure4",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p5-figure4.png",
+          "alt": "Original source page 5, graphic 4",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p6-b1-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p6-b2-c4f5bd7",
+          "kind": "paragraph",
+          "text": "include extreme observations. As an indicator for the occurrence of this \nsituation, HDIP, defined as the standard deviation of distances to the \nideal point of all indicators, was also quantified for each cluster:",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0150451660156,
+            85.24996185302734
+          ]
+        },
+        {
+          "id": "p6-b3-e4fdddc",
+          "kind": "paragraph",
+          "text": "HDIPc =",
+          "bbox": [
+            37.587398529052734,
+            102.70088195800781,
+            67.36527252197266,
+            111.86202239990234
+          ]
+        },
+        {
+          "id": "p6-b4-e05812e",
+          "kind": "paragraph",
+          "text": "̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\n∑\nn",
+          "bbox": [
+            77.95195770263672,
+            85.69348907470703,
+            127.60729217529297,
+            103.13127136230469
+          ]
+        },
+        {
+          "id": "p6-b5-9b19467",
+          "kind": "paragraph",
+          "text": "k=1",
+          "bbox": [
+            79.20018768310547,
+            113.37993621826172,
+            88.0795669555664,
+            118.81946563720703
+          ]
+        },
+        {
+          "id": "p6-b6-0bf8671",
+          "kind": "paragraph",
+          "text": "(\ndk,c −dc",
+          "bbox": [
+            90.76529693603516,
+            90.39888000488281,
+            120.90213775634766,
+            106.0790023803711
+          ]
+        },
+        {
+          "id": "p6-b7-eb88c8b",
+          "kind": "paragraph",
+          "text": ")2",
+          "bbox": [
+            121.43599700927734,
+            90.39888000488281,
+            127.65425109863281,
+            99.82808685302734
+          ]
+        },
+        {
+          "id": "p6-b8-2d73ad0",
+          "kind": "paragraph",
+          "text": "n −1",
+          "bbox": [
+            100.62999725341797,
+            108.20088195800781,
+            118.27738952636719,
+            116.56948852539062
+          ]
+        },
+        {
+          "id": "p6-b9-23012b8",
+          "kind": "paragraph",
+          "text": "√\n√\n√\n√\n(12)",
+          "bbox": [
+            69.56333923339844,
+            85.6941146850586,
+            293.349365234375,
+            112.57726287841797
+          ]
+        },
+        {
+          "id": "p6-b10-b86934f",
+          "kind": "paragraph",
+          "text": "where n is the number of indicators. dc denotes the mean of dk,c across \nthe indicator set for cluster c. The cluster of exemplary systems should \nalso have the relatively low HDIP to ensure the most balanced perfor­\nmance. When a cluster has the lowest MIDIP but not the lowest HDIP, it \nis needed to explicitly list dk,c for each indicator of all clusters. This can \nhelp to decide whether such a high HDIP is acceptable or not.",
+          "bbox": [
+            37.58810043334961,
+            129.5918426513672,
+            291.0245666503906,
+            194.95114135742188
+          ]
+        },
+        {
+          "id": "p6-b11-47ccc6b",
+          "kind": "heading",
+          "text": "2.6. Quantification and explanation of sustainability gaps",
+          "bbox": [
+            37.588478088378906,
+            202.89573669433594,
+            235.82717895507812,
+            215.92684936523438
+          ]
+        },
+        {
+          "id": "p6-b12-d4f5343",
+          "kind": "paragraph",
+          "text": "2.6.1. Comparison between exemplary and other systems \nThe sustainability gap for the indicator k (SGk) was defined as the \ndifference between the mean performance of exemplary systems and \nthat of other systems, expressed as:",
+          "bbox": [
+            37.588478088378906,
+            223.81565856933594,
+            290.9896545410156,
+            268.2539978027344
+          ]
+        },
+        {
+          "id": "p6-b13-66a3b9c",
+          "kind": "paragraph",
+          "text": "SGk = MPexem,k −MPother,k\n(13)",
+          "bbox": [
+            37.589874267578125,
+            271.040771484375,
+            293.3513488769531,
+            284.0718688964844
+          ]
+        },
+        {
+          "id": "p6-b14-1e288f3",
+          "kind": "paragraph",
+          "text": "where MPexem,k and MPother,k represent the mean values of indicator k of \nexemplary and other systems, respectively. \nIn addition to the aforementioned individual sustainability in­\ndicators, we also compared the exemplary and other systems in terms of \nan efficiency indicator (economic labor productivity, ELP, USD/caput) \nand three footprint metrics including N footprint (NF, kg N/GCal), C \nfootprint (CF, Mg CO2 eq./GCal), and blue water footprint (BWF, mm/ \nGCal). These indicators were calculated for each observation as follows:",
+          "bbox": [
+            37.58861541748047,
+            290.71258544921875,
+            291.0354309082031,
+            376.99169921875
+          ]
+        },
+        {
+          "id": "p6-b15-c4fce6e",
+          "kind": "paragraph",
+          "text": "ELP = GMtotal/LUtotal\n(14)",
+          "bbox": [
+            37.588706970214844,
+            379.77874755859375,
+            293.3513488769531,
+            392.8098449707031
+          ]
+        },
+        {
+          "id": "p6-b16-6c94304",
+          "kind": "paragraph",
+          "text": "NF = NLtotal/DEYtotal\n(15)",
+          "bbox": [
+            37.5892333984375,
+            399.4507751464844,
+            293.3513488769531,
+            412.48187255859375
+          ]
+        },
+        {
+          "id": "p6-b17-917efa8",
+          "kind": "paragraph",
+          "text": "CF = GHGnet/DEYtotal\n(16)",
+          "bbox": [
+            37.5892333984375,
+            419.1227722167969,
+            293.3513488769531,
+            432.15386962890625
+          ]
+        },
+        {
+          "id": "p6-b18-d055c42",
+          "kind": "paragraph",
+          "text": "BWF =\n∑",
+          "bbox": [
+            37.5892333984375,
+            442.2344665527344,
+            76.9583511352539,
+            458.14276123046875
+          ]
+        },
+        {
+          "id": "p6-b19-de7d1b7",
+          "kind": "paragraph",
+          "text": "i",
+          "bbox": [
+            70.46920013427734,
+            460.599609375,
+            71.90937805175781,
+            465.7801208496094
+          ]
+        },
+        {
+          "id": "p6-b20-5904d87",
+          "kind": "paragraph",
+          "text": "IRi",
+          "bbox": [
+            76.93219757080078,
+            450.1734313964844,
+            86.36608123779297,
+            458.6371154785156
+          ]
+        },
+        {
+          "id": "p6-b21-8a5edab",
+          "kind": "paragraph",
+          "text": "/",
+          "bbox": [
+            86.85350036621094,
+            436.2259216308594,
+            97.06320190429688,
+            444.1960144042969
+          ]
+        },
+        {
+          "id": "p6-b22-6de649b",
+          "kind": "paragraph",
+          "text": "DEYtotal\n(17)",
+          "bbox": [
+            97.0576171875,
+            446.6187744140625,
+            291.0160827636719,
+            459.6498718261719
+          ]
+        },
+        {
+          "id": "p6-b23-2f8d327",
+          "kind": "paragraph",
+          "text": "The difference in mean values of all indicators between exemplary \nand other systems was tested through t-tests with equal variances at a \nsignificance level of 0.05 using the function t.test in R.",
+          "bbox": [
+            37.5892333984375,
+            470.31549072265625,
+            290.98980712890625,
+            504.2664794921875
+          ]
+        },
+        {
+          "id": "p6-b24-76f0700",
+          "kind": "paragraph",
+          "text": "2.6.2. Identification of variables underlying sustainability gaps \nAfter quantification of sustainability gaps between exemplary and \nother systems, we analyzed which factors might lead to these differences \nin indicators. In this step, we compared various explanatory variables \ndescribing management practices (e.g., sowing density, N application \nrate, number of irrigation events, etc.), biophysical context (e.g., soil \norganic matter content, soil bulk density), and socioeconomic context (e. \ng., educational experience of household heads, household labor avail­\nability) between exemplary and other systems (Table S7). Differences in \nvalues of such indicators between exemplary and other systems were \ntested by t-tests.",
+          "bbox": [
+            37.5892333984375,
+            512.154541015625,
+            291.03204345703125,
+            629.7836303710938
+          ]
+        },
+        {
+          "id": "p6-b25-fb2b681",
+          "kind": "heading",
+          "text": "2.7. Establishment of a sustainable cropping system prototype",
+          "bbox": [
+            37.5892333984375,
+            637.7282104492188,
+            248.26846313476562,
+            650.7593383789062
+          ]
+        },
+        {
+          "id": "p6-b26-b548b00",
+          "kind": "paragraph",
+          "text": "Sustainability performance and explanatory variables that charac­\nterized exemplary systems were summarized to establish a sustainable \nwheat-maize production prototype. Values in the prototype were the \naverage of all exemplary cases. Flexible options that featured in some of \nthe exemplary cases were also presented. This prototype could inform \nrelevant stakeholders, including agricultural authorities, extension staff, \nand other producers, of the sustainability gaps of current wheat-maize \nsystems and associated feasible improvement interventions tailored to",
+          "bbox": [
+            37.5892333984375,
+            658.6481323242188,
+            291.034423828125,
+            744.92529296875
+          ]
+        },
+        {
+          "id": "p6-b27-072c8a2",
+          "kind": "paragraph",
+          "text": "local conditions.",
+          "bbox": [
+            306.5944519042969,
+            51.30339431762695,
+            367.0102233886719,
+            64.33450317382812
+          ]
+        },
+        {
+          "id": "p6-b28-c3fea71",
+          "kind": "heading",
+          "text": "3. Results",
+          "bbox": [
+            306.5944519042969,
+            74.49000549316406,
+            348.6231689453125,
+            87.5211181640625
+          ]
+        },
+        {
+          "id": "p6-b29-82317f3",
+          "kind": "heading",
+          "text": "3.1. Indicator performance, positive deviants, and dominated systems",
+          "bbox": [
+            306.5944519042969,
+            95.40992736816406,
+            543.3638305664062,
+            108.4410400390625
+          ]
+        },
+        {
+          "id": "p6-b30-8ddb11d",
+          "kind": "paragraph",
+          "text": "We found large variations in each of sustainability indicators over \nthe whole population of wheat-maize observations, with coefficients of \nvariation of 0.12–0.53 (Table 1). This shows that the performance of \nwheat-maize systems greatly varied among households in Quzhou. \nUsing Pareto ranking, 16% of cases (n = 56) were classified as positive \ndeviants (Pareto-optimal cases) with Pareto rank 1 while the remainder \nwas classified as dominated systems (sub-optimal cases). Accordingly, \npositive deviants reached better performance than dominated systems. \nFor example, the average gross margin and dietary energy yield of \npositive deviants was 24% and 10% higher than that of dominated \nsystems. Meanwhile, groundwater depletion, N loss, net GHG emission \nand pesticide use of positive deviants were on average 26%, 32%, 34%, \nand 13% lower, respectively, than that of dominated systems. However, \nthe coefficient of variation of each indicator of positive deviants was still \nhigh (0.14–0.50), which means positive deviants had contrasting pat­\nterns of sustainability performance with possible trade-offs between \ndifferent indicators.",
+          "bbox": [
+            306.5944519042969,
+            116.38566589355469,
+            560.0149536132812,
+            296.7729187011719
+          ]
+        },
+        {
+          "id": "p6-b31-2e9e8a8",
+          "kind": "heading",
+          "text": "3.2. Characteristics of positive deviant clusters and exemplary system \nidentification",
+          "bbox": [
+            306.5944519042969,
+            314.2991943359375,
+            543.5327758789062,
+            337.76153564453125
+          ]
+        },
+        {
+          "id": "p6-b32-fe54e33",
+          "kind": "paragraph",
+          "text": "Using hierarchical clustering, we divided the positive deviants into \nseven clusters: PD1-PD7 (Fig. 3; Fig. S2). The clusters PD1-PD4 had \nhigher average economic and dietary energy output than PD5-PD7 and \nthe dominated systems. PD1-PD3, however, underperformed in terms of \nlabor and environmental indicators. Of these three, PD1 had very high \npesticide input (15.4 doses/year) and labor input (388 h/ha/year), \nwhile PD2 was characterized by high groundwater depletion (281 mm/ \nyear), N loss (137 kg N/ha/year), and net GHG emission (6.1 Mg CO2 \neq./ha/year). PD3 had relatively high groundwater depletion (269 mm/ \nyear) and pesticide use (8.6 doses/year). On the other hand, PD5-PD7 \nresulted in markedly lower average gross margin and dietary energy \nyield than PD1-PD4 and even the dominated systems, though they \nperformed best on some other indicators, i.e., groundwater depletion of \nPD5, N loss of PD6 and PD7, and labor use of PD7. By contrast, PD4 \nachieved the best compromise across all indicators, with the lowest \nvalues of MIDIP and HDIP (Fig. 3) among the seven clusters. Therefore, \nwe selected PD4 which contained 9 observations (2.6% of the popula­\ntion) as exemplary systems with cultivation practices that might qualify \nfor adoption by other farmers.",
+          "bbox": [
+            306.5944519042969,
+            345.6503601074219,
+            560.0179443359375,
+            547.0126953125
+          ]
+        },
+        {
+          "id": "p6-b33-34d3ece",
+          "kind": "heading",
+          "text": "3.3. Sustainability gaps between exemplary and other systems",
+          "bbox": [
+            306.5950012207031,
+            564.5389404296875,
+            518.1366577148438,
+            577.570068359375
+          ]
+        },
+        {
+          "id": "p6-b34-f4ce50d",
+          "kind": "paragraph",
+          "text": "Comparison of multifaceted indicators between exemplary and other \nsystems shows large sustainability gaps of wheat-maize double cropping \nin Quzhou (Fig. 4; Table S9). Mean gross margin and dietary energy \nyield of exemplary systems were 49% and 17% higher than the average \nof other systems (p < 0.05). Meanwhile, relative to other systems, from \nthe environmental perspective, exemplary systems resulted in 31%, \n69%, and 46% lower groundwater depletion, net GHG emission, and \npesticide use (p < 0.05), and they had on average 34% lower N loss (p =\n0.058). The mean labor consumption of exemplary systems was 17% \nlower than that of other systems (p = 0.050), despite a large variation of \nthis indicator for exemplary systems. \nExemplary systems also had 47% higher economic labor productivity \nwhile resulting in 44%, 59%, and 38% lower N footprint, C footprint, \nand blue water footprint, respectively, when compared with other sys­\ntems (p < 0.05; Fig. 5).",
+          "bbox": [
+            306.5950012207031,
+            585.4580078125,
+            560.022705078125,
+            744.9254150390625
+          ]
+        },
+        {
+          "id": "p6-b35-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p6-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p6-figure1.png",
+          "alt": "Original source page 6, graphic 1",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-figure2",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p6-figure2.png",
+          "alt": "Original source page 6, graphic 2",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-figure3",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p6-figure3.png",
+          "alt": "Original source page 6, graphic 3",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-figure4",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p6-figure4.png",
+          "alt": "Original source page 6, graphic 4",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-figure5",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p6-figure5.png",
+          "alt": "Original source page 6, graphic 5",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p7-b1-7902699",
+          "kind": "paragraph",
+          "text": "7",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p7-b2-bdf489e",
+          "kind": "heading",
+          "text": "3.4. Explanatory variables underlying exemplary systems",
+          "bbox": [
+            37.587398529052734,
+            217.29673767089844,
+            233.31155395507812,
+            230.32785034179688
+          ]
+        },
+        {
+          "id": "p7-b3-e16aacd",
+          "kind": "paragraph",
+          "text": "Variables concerning crop management were compared between \nexemplary and other systems (Fig. 6). First of all, exemplary systems \ntended to have a higher planting density of maize than other systems \n(7.8 vs. 6.8 plants/m2; p < 0.05). Compared with other systems, \nexemplary systems had 24% lower annual N application rate, mainly \ndue to a lower N input for wheat (203 vs. 288 kg N/ha/season; p < 0.05). \nFourteen wheat-maize cases adopted animal manure amendment in this \nstudy, but only one case with the lowest total N input among them was \nidentified as an exemplary system (Table S10). The total irrigation \namount per year of exemplary systems was 27% lower than that of other \nsystems as a result of the lower number of irrigation events in both \nwheat (3 vs. 4) and maize (1 vs. 2) (both p < 0.05). In addition, exem­\nplary systems applied 43% and 38% fewer doses of insecticides and \nherbicides than other systems, respectively (p < 0.05), while no signif­\nicant difference in fungicide use existed. Wheat sowing density, phos­\nphorus and potassium inputs, and diesel use were not significantly \ndifferent between exemplary and other systems. \nWe also compared variables on the biophysical and socio-economic \ncontext between exemplary and other systems (Table 2). Four soil \nproperties including soil organic matter, soil bulk density, soil Olsen-P as \nwell as soil electrical conductivity were not different between exemplary \nand other systems. Likewise, there were no significant differences in \nhousehold labor availability, income per capita, and educational and \ncropping experience of the household head between exemplary and \nother systems.",
+          "bbox": [
+            37.587398529052734,
+            238.2158660888672,
+            291.03314208984375,
+            502.2810974121094
+          ]
+        },
+        {
+          "id": "p7-b4-be4deb3",
+          "kind": "heading",
+          "text": "3.5. Exemplary system-informed prototype of the wheat-maize system",
+          "bbox": [
+            37.588714599609375,
+            511.81414794921875,
+            275.2634582519531,
+            524.8452758789062
+          ]
+        },
+        {
+          "id": "p7-b5-13f5d4c",
+          "kind": "paragraph",
+          "text": "Based on the above results regarding exemplary systems, an attain­\nable prototype of a sustainable wheat-maize double cropping system \nwas established (Fig. 7). This prototype features a best compromise \nacross economic, societal, and environmental indicators. Compared to \nthe conventional wheat-maize system representing non-exemplary sys­\ntems, the sustainable prototype was characterized by increased maize \nplanting density, lower N input for wheat, manure amendment without \nan increase in total N input, and a reduced input of irrigation water and \npesticides (especially insecticides and herbicides) for both wheat and \nmaize.",
+          "bbox": [
+            37.588714599609375,
+            532.7332763671875,
+            291.02911376953125,
+            639.9302978515625
+          ]
+        },
+        {
+          "id": "p7-b6-54c664c",
+          "kind": "heading",
+          "text": "4. Discussion",
+          "bbox": [
+            37.588714599609375,
+            648.216064453125,
+            92.46604919433594,
+            661.2471923828125
+          ]
+        },
+        {
+          "id": "p7-b7-6705310",
+          "kind": "paragraph",
+          "text": "We found large variability in indicator performance among 344 cases \nof wheat-maize double cropping in Quzhou county in terms of seven \neconomic, societal, and environmental indicators (Table 1). We identi­\nfied positive deviants (Pareto-optimality), and then partitioned them \ninto seven clusters (PD1-PD7) with contrasting sustainability patterns \n(Table 1; Fig. 3; Fig. S2). Nine cases (2.6%) constituting PD4 were \ncategorized as “exemplary systems”, which represented the best",
+          "bbox": [
+            37.588714599609375,
+            669.1351318359375,
+            291.0283508300781,
+            744.9252319335938
+          ]
+        },
+        {
+          "id": "p7-b8-1e484d7",
+          "kind": "paragraph",
+          "text": "compromise sustainability performance over the indicator set, on \naverage outperforming all other systems (n = 335) in each indicator \n(Fig. 4). We identified the practices that could close the sustainability \ngaps between exemplary and other systems: higher maize planting \ndensity, lower N fertilizer rate for wheat, partial substitution of inor­\nganic fertilizer by manure, lower frequency of irrigation and insecticide \nand herbicide application (Fig. 5). Finally, we proposed an exemplary \nsystem-informed prototype of sustainable wheat-maize production \n(Fig. 6), which could be adopted by local farmers to reconcile multiple \ndomains of agricultural sustainability.",
+          "bbox": [
+            306.5931396484375,
+            217.29742431640625,
+            560.0112915039062,
+            324.4371032714844
+          ]
+        },
+        {
+          "id": "p7-b9-684778b",
+          "kind": "heading",
+          "text": "4.1. Identification of exemplary wheat-maize systems for sustainable \nproduction",
+          "bbox": [
+            306.5931396484375,
+            334.3670654296875,
+            541.0343627929688,
+            357.8860168457031
+          ]
+        },
+        {
+          "id": "p7-b10-272e14b",
+          "kind": "paragraph",
+          "text": "Heterogeneous sustainability performance within a population of \nexisting wheat-maize systems provided an opportunity to identify the \nsustainable cases exemplary to others. The “bottom-up” perspective that \nidentified sustainable wheat-maize systems can be more suitable to local \ncontexts and better handle multiple (more than three) indicators, than \nthose identified by the “top-down” approaches, e.g., crop expert \nrecommendation (Xiao et al., 2019) and mechanistic model simulation \n(Xin and Tao, 2019). This is because the “bottom-up” approaches give \nsolutions that have been implemented under the local context, and trade \noff different sustainability attributes in a way that is already adopted \nand proven in reality. We therefore identified exemplary systems \nthrough investigating the diversity of wheat-maize cultivation by prac­\ntical farmers. \nThis study used a positive deviance approach combining Pareto \nranking, positive deviant clustering, and distance-based ordination \n(MIDIP and HDIP) to select wheat-maize systems that reached the best \ncompromise across seven indicators (i.e., exemplary systems). Pareto \nranking identified positive deviants accounting for 16% of all observa­\ntions. Pareto-optimality may include cases that perform well in some \nindictors at a high cost of others. When we equally emphasize all sus­\ntainability domains, these unbalanced positive deviants are not \nacceptable and thus need to be ruled out. To do so, we used the clus­\ntering technique to divide positive deviants into seven clusters, in each \nof which wheat-maize cases had similar sustainability patterns. Then \nMIDIP and HDIP ordination of clusters eventually helped us to identify \nthe cluster (PD4) containing nine exemplary (compromise) systems. \nCompared to conventional approaches, this method has three advan­\ntages: 1) Greater capacity to consider multiple indicators than conven­\ntional grouping methods such as quadrant and clustering analysis for all \nobservations (Ha et al., 2015; Chen et al., 2020); 2) The benchmark-free \nmethod to filter out unbalanced cases and to select cases reaching the \nbest compromise, unlike threshold values- or population mean-based \nselection (Modernel et al., 2018; Adelhart Toorop et al., 2020; Jiang \net al., 2021); 3) Identified exemplary systems are locally viable, whereas \nexternally developed solutions might not fit the local context. \nWe defined sustainability gaps in this study as the difference in",
+          "bbox": [
+            306.5931396484375,
+            365.7740173339844,
+            560.0223999023438,
+            744.9252319335938
+          ]
+        },
+        {
+          "id": "p7-b11-564f432",
+          "kind": "paragraph",
+          "text": "Table 1 \nIndicator performance of wheat-maize double cropping systems in Quzhou.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            281.7024841308594,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p7-b12-89c08c3",
+          "kind": "paragraph",
+          "text": "Indicator \nUnit \nAll observations (na=344) \nPositive deviants (n = 56) \nDominated systems (n = 288)",
+          "bbox": [
+            43.5968017578125,
+            75.67945861816406,
+            530.8803100585938,
+            86.64801788330078
+          ]
+        },
+        {
+          "id": "p7-b13-402f3d7",
+          "kind": "paragraph",
+          "text": "Mean \nSDb \nCVc \nMean \nSD \nCV \nMean \nSD \nCV",
+          "bbox": [
+            206.1365966796875,
+            88.77546691894531,
+            528.3966064453125,
+            99.74402618408203
+          ]
+        },
+        {
+          "id": "p7-b14-b30d352",
+          "kind": "paragraph",
+          "text": "Gross margin \nUSD/ha/yrd \n2215 \n689 \n0.31 \n2779 \n706 \n0.25 \n2105 \n630 \n0.30 \nDietary energy yield \nGCal/ha/yr \n52.3 \n6.0 \n0.12 \n56.9 \n7.7 \n0.14 \n51.6 \n5.4 \n0.10 \nLabor use \nh/ha/yr \n253 \n79 \n0.31 \n235 \n78 \n0.33 \n256 \n78 \n0.31 \nGroundwater depletion \nmm/yr \n283 \n69 \n0.24 \n232 \n62 \n0.27 \n293 \n66 \n0.23 \nN loss \nkg N/ha/yr \n135 \n71 \n0.53 \n96 \n23 \n0.24 \n142 \n75 \n0.52 \nNet GHG emission \nMg CO2 eq./ha/yr \n7.40 \n2.12 \n0.29 \n5.18 \n1.13 \n0.22 \n7.83 \n2.00 \n0.26 \nPesticide use \ndoses/yr \n9.0 \n4.0 \n0.44 \n8.0 \n4.0 \n0.50 \n9.2 \n4.0 \n0.43",
+          "bbox": [
+            43.59850311279297,
+            101.92848205566406,
+            534.57275390625,
+            164.31732177734375
+          ]
+        },
+        {
+          "id": "p7-b15-db97fcd",
+          "kind": "paragraph",
+          "text": "a n means sample size. \nb SD means standard deviation. \nc CV means coefficient of variation. \nd yr is the abbreviation of year.",
+          "bbox": [
+            43.20000076293945,
+            163.9380645751953,
+            159.4735107421875,
+            207.5269317626953
+          ]
+        },
+        {
+          "id": "p7-b16-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p8-b1-2c62423",
+          "kind": "paragraph",
+          "text": "8",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p8-b3-d2ee976",
+          "kind": "paragraph",
+          "text": "Fig. 3. Indicator performance (a-g) and distance-related outcomes (h) of wheat-maize double cropping systems in Quzhou. All cases were grouped into positive deviant clusters (PD1-PD7) and dominated systems (DS, n \n= 288). A blue dot denotes a wheat-maize observation. The black dot represents the mean of all observations within a cluster, while the error bar represents the standard error. The sample sizes for PD1-PD7 are 5, 5, 10, \n9, 8, 8, and 11 respectively. MIDIP indicates the multi-indicator distance to the ideal point, and HDIP indicates the heterogeneity of distances to the ideal point of all indicators. (For interpretation of the references to \ncolour in this figure legend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            429.7710876464844,
+            53.348018646240234,
+            470.1852111816406,
+            741.43017578125
+          ]
+        },
+        {
+          "id": "p8-b4-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p8-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p8-figure1.png",
+          "alt": "Original source page 8, graphic 1",
+          "caption": "原文第8页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p9-b1-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p9-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p9-figure1.png",
+          "alt": "Original source page 9, graphic 1",
+          "caption": "原文第9页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p9-b3-a267afa",
+          "kind": "paragraph",
+          "text": "Fig. 4. Sustainability performances (a-g) of the exemplary (XS, n = 9) and other systems (OS, n = 335) in Quzhou. A blue dot denotes a wheat-maize observation. The \nblack dot represents the mean of all observations in a group while the error bar represents the standard error. The p values are the results of t-tests comparing \nindicator values of XS and OS. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            37.587398529052734,
+            353.0090637207031,
+            559.75244140625,
+            383.84222412109375
+          ]
+        },
+        {
+          "id": "p9-b5-1315a09",
+          "kind": "paragraph",
+          "text": "Fig. 5. Economic labor productivity (a) and environ­\nmental footprints (b-d) of the exemplary (XS, n = 9) and \nother systems (OS, n = 335) in Quzhou. A blue dot denotes \na wheat-maize observation. The black dot represents the \nmean of all observations in a group while the error bar \nrepresents the standard error. The p values are the results \nof t-tests comparing indicator values of XS and OS. (For \ninterpretation of the references to colour in this figure \nlegend, the reader is referred to the web version of this \narticle.)",
+          "bbox": [
+            372.6990051269531,
+            400.9710693359375,
+            559.7744140625,
+            498.7577209472656
+          ]
+        },
+        {
+          "id": "p9-b6-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p9-figure2",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p9-figure2.png",
+          "alt": "Original source page 9, graphic 2",
+          "caption": "原文第9页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p10-b1-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p10-b3-2aba3ce",
+          "kind": "paragraph",
+          "text": "Fig. 6. Variables describing crop management (a-o) of exemplary (XS, n = 9) and other systems (OS, n = 335) in Quzhou. A green dot denotes a wheat-maize observation. The black dot represents the mean of all \nobservations in a group while the error bar represents the standard error. The p values are the results of t-tests comparing variable values of XS and OS. The yr in the unit is the abbreviation of year. (For interpretation of \nthe references to colour in this figure legend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            474.5580749511719,
+            53.347286224365234,
+            505.4479064941406,
+            741.43017578125
+          ]
+        },
+        {
+          "id": "p10-b4-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p10-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p10-figure1.png",
+          "alt": "Original source page 10, graphic 1",
+          "caption": "原文第10页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p11-b1-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p11-b2-a54dd18",
+          "kind": "paragraph",
+          "text": "indicator performance between exemplary and other systems, repre­\nsenting the attainable scope of improvement using the best compromise \nover the indicator set as an exemplary system for adoption. The presence \nof large sustainability gaps in our study indicates that if local wheat- \nmaize cases could adopt practices of exemplary systems, the holistic \nsustainability of wheat-maize systems in Quzhou could greatly improve. \nThe positive deviance approach is a promising data-driven methodology \nto inform multi-dimensional sustainability of cropping systems.",
+          "bbox": [
+            37.587398529052734,
+            264.124755859375,
+            290.9983215332031,
+            350.34527587890625
+          ]
+        },
+        {
+          "id": "p11-b3-c6741f4",
+          "kind": "heading",
+          "text": "4.2. Explanatory variables behind sustainability gaps",
+          "bbox": [
+            37.587398529052734,
+            365.7738037109375,
+            219.44276428222656,
+            378.8049011230469
+          ]
+        },
+        {
+          "id": "p11-b4-c05463c",
+          "kind": "paragraph",
+          "text": "Sustainability performance of cropping systems is generally depen­\ndent on management practices and farming context (Deytieux et al., \n2016). We selected management and contextual variables that are \ncommonly used to characterize wheat-maize systems (Table S7), and \nidentified key variables that might be associated with the sustainability \ngaps between exemplary and other systems. The results indicate that \nexemplary systems were mainly underpinned by a number of more \nsustainable practices but not by more favorable contexts (Fig. 6; \nTable 2). \nExemplary systems were characterized by a higher maize planting \ndensity (7.8 plants/m2). Previous studies showed that a planting density \nof 7.5–9 plants/m2 was crucial for maize to better utilize the light and \nheat resources, thereby establishing high-yield systems in the NCP \n(Meng et al., 2018b; Ren et al., 2021). Hence this practice was conducive \nto dietary energy production and economic-value creation. Most sur­\nveyed farmers in Quzhou used modern maize cultivars, but still adopted \nconventional planting rates (6–7 plants/m2) fitting outdated cultivars \nwhich were prone to lodging in a dense population. This knowledge gap \nneeds to be filled to facilitate the farmers’ adoption of this productive \npractice. \nAs for nutrient management, the lower N input for wheat (204 kg N/ \nha) and proper manure use (partial substitution of chemical fertilizer at \nthe optimal N rate) were observed within exemplary systems \n(Table S10). Farmers in Quzhou tend to overuse N fertilizer for wheat \n(286 N/ha/year on average) as insurance against nutrient deficiency \nand yield loss. The wheat N rate of exemplary systems was closer to \ngrain N removal of the high-yield wheat system (165 kg N/ha; Chuan \net al., 2013), thereby avoiding massive N loss and GHG emission without \ncompromising crop yield. Of fourteen wheat-maize cases with manure \namendment, most non-exemplary systems overused inorganic N fertil­\nizer (250–660 kg N/ha, Table S10) thus offsetting the beneficial effect of \nmanure input (e.g., GHG emission mitigation). Manure should be used \nwithout exceeding the agronomically optimal N rate to provide the \ndesired environmental benefits (Zhang et al., 2020), as the only one",
+          "bbox": [
+            37.587398529052734,
+            386.69293212890625,
+            291.0357971191406,
+            744.9268798828125
+          ]
+        },
+        {
+          "id": "p11-b5-1ca4cf6",
+          "kind": "paragraph",
+          "text": "exemplary system applying manure did. Otherwise, manure input would \nlead to extra N loss and economic and labor costs. \nBesides, exemplary systems had a smaller number of irrigation \nevents (3 and 1 for wheat and maize respectively) by canceling irrigation \nevents at some non-water-critical growth stages (e.g., the regreening \nstage of wheat and some precipitation-dense periods during the maize \nseason). This practice could not only mitigate groundwater depletion, \nbut also decrease labor use and electricity-incurred economic costs, and \nGHG emission, without taking a toll on agronomic output. Previous \nstudies showed that rationally reduced irrigation stimulated root \ndevelopment to enhance water uptake, and extended crop grain-filling \nduration, thus maintained or increased grain yield in wheat-maize sys­\ntems, which supported our findings (Xu et al., 2016; Wang et al., 2018). \nExemplary systems also had fewer insecticide and herbicide appli­\ncations than other systems, which might be related to a selection of \nbetter targeted pesticide types, appropriate application timings, and \nmoderate nutrient and water input. Misuse of chemical pesticides was \nwidespread in crop production in Quzhou. For example, repeated use of \nthe same insecticide products, spraying herbicides later than best tim­\nings (like after weed outbreak), and combating target pests or weeds \nwith wrong pesticide products, have resulted in overuse and sometimes \ncrop damage (Li et al., 2014; Zhang et al., 2015). Besides, optimal \nnutrient and water input could promote plant quality and growth, thus \nincreasing the resistance to pests (M´edi`ene et al., 2011) and competi­\ntiveness to weeds (Kaur et al., 2018), which could reduce the reliance on \nexternal pesticides. Insecticide and herbicide use in exemplary systems \nneeds to be further investigated to assess the scope for more efficient \ncrop protection in Quzhou. \nThere were no statistical differences in biophysical and socioeco­\nnomic context between exemplary and other systems (Table 2). The soil \ndataset showed that the range of soil properties across Quzhou was \nnarrow (Li et al., 2022). For instance, the range of soil organic matter \ncontent of wheat-maize fields was 1–2%, which would not be enough to \naffect crop growth under the high-level nutrient and water inputs \n(Oelofse et al., 2015). The variability of household backgrounds of \nexemplary systems was large, indicating those exemplary systems were \ndeveloped by farmers in contrasting socioeconomic farm situations. This \noutcome justified the assumption that the identified exemplary systems \nwould be transferrable and viable for wider adoption in Quzhou.",
+          "bbox": [
+            306.5932312011719,
+            51.30421829223633,
+            560.0089721679688,
+            461.8623962402344
+          ]
+        },
+        {
+          "id": "p11-b6-1fd8860",
+          "kind": "heading",
+          "text": "4.3. Development and future implementation of the sustainable prototype",
+          "bbox": [
+            306.5932312011719,
+            470.3744812011719,
+            554.0090942382812,
+            483.40557861328125
+          ]
+        },
+        {
+          "id": "p11-b7-eda01cb",
+          "kind": "paragraph",
+          "text": "In this study, a sustainable prototype for wheat-maize production \nwas developed to facilitate the promotion of identified exemplary sys­\ntems (Fig. 6). This prototype represented the mean values of nine \nexemplary cases since the variation among these cases was small, given \nthe wide range of performance across the entire set of wheat-maize \ncases. Manure substitution, characteristic for one of the exemplary \ncases, was also captured as a flexible option in the prototype. After that, \nwe discussed our prototype with several local agronomists and they \nascertained its viability based on their knowledge and experience. If, in \ncontrast to our findings, the variation within the selected cluster would \nbe so large that cases in the cluster could not be aggregated into a certain \ntype of cropping system, researchers could propose multiple sustainable \nprototypes that correspond to individual exemplary cases. \nIn further work, it is needed to work with a population of farmers \nwith sub-optimal wheat-maize systems to adopt the practices in the \nsustainable prototype and to verify that their performance is improved \nas expected. We could provide technology training on this prototype to \nparticipant farmers and organize these farmers to visit households with \nexemplary systems. The implementation of this prototype would be \neasily accepted by farmers because it was locally proven to help gain \nmore farming incomes. The local government could also offer subsidies \nto participants in order to further incentivize wider promotion as this \nprototype could greatly lower environmental costs, thereby improving \nthe public benefits. Moreover, if some sub-optimal systems improve",
+          "bbox": [
+            306.5932312011719,
+            491.2936096191406,
+            560.0209350585938,
+            744.9268798828125
+          ]
+        },
+        {
+          "id": "p11-b8-a7b3ae1",
+          "kind": "paragraph",
+          "text": "Table 2 \nVariables describing the farming context of the exemplary (XS) and other sys­\ntems (OS) in Quzhou. Data were shown as “mean ± standard error of the mean” \nfor each contextual variable. The p values are the results of t-tests comparing \nvariable values of XS and OS.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            290.7476501464844,
+            102.53117370605469
+          ]
+        },
+        {
+          "id": "p11-b9-1cb6f64",
+          "kind": "paragraph",
+          "text": "Contextual variable \nUnit \nXS (n = 9) \nOS (n =\n335) \np- \nvalue",
+          "bbox": [
+            43.5968017578125,
+            104.91043090820312,
+            279.9010314941406,
+            123.89530944824219
+          ]
+        },
+        {
+          "id": "p11-b10-7d51a1d",
+          "kind": "paragraph",
+          "text": "Soil properties:     \nSoil bulk density \ng/cm3 \n1.07 ± 0.04 \n1.11 ± 0.00 \n0.22 \nSoil organic matter \ng/kg \n12.4 ± 0.7 \n13.9 ± 0.2 \n0.08 \nSoil Olsen-P \nmg/kg \n21.6 ± 1.7 \n20.6 ± 0.3 \n0.61 \nSoil ECa \ndS/m \n4.36 ± 0.25 \n4.18 ± 0.04 \n0.48 \nHousehold \nbackground:     \nLabor availability \ncapita/ha \n3.16 ± 0.83 \n3.21 ± 0.15 \n0.96",
+          "bbox": [
+            43.5968017578125,
+            126.62356567382812,
+            277.1927185058594,
+            197.02926635742188
+          ]
+        },
+        {
+          "id": "p11-b11-dc96fc0",
+          "kind": "paragraph",
+          "text": "Income per capita \nUSD/capita/ \nyr \n3109 ±\n1546 \n2199 ± 134 \n0.28 \nEducation years \nyears \n6.7 ± 1.4 \n5.9 ± 0.2 \n0.57 \nCropping \nexperience \nyears \n39 ± 2 \n37 ± 1 \n0.67",
+          "bbox": [
+            49.55077362060547,
+            195.16494750976562,
+            279.0608215332031,
+            239.88868713378906
+          ]
+        },
+        {
+          "id": "p11-b12-c77d3c0",
+          "kind": "paragraph",
+          "text": "a EC: Electrical conductivity.",
+          "bbox": [
+            43.20000076293945,
+            239.4530792236328,
+            137.8786163330078,
+            254.3559112548828
+          ]
+        },
+        {
+          "id": "p11-b13-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p12-b1-6b51d43",
+          "kind": "paragraph",
+          "text": "12",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p12-b3-c7767b7",
+          "kind": "paragraph",
+          "text": "Fig. 7. Schematic diagram of exemplary system-informed wheat-maize system transition towards multifaceted sustainability improvement. The values of the conventional wheat-maize system and the sustainable \nwheat-maize prototype are the mean values of the variables characterizing other systems (OS) and exemplary systems (XS), respectively. IF denotes inorganic fertilizers; IN, HE, and FU represents insecticides, herbicides, \nand fungicides respectively. DEY, GWD, GHGn, and Pesti. indicate dietary energy yield, groundwater depletion, net greenhouse gas emission, and pesticide use, respectively. The yr in the unit is the abbreviation of year.",
+          "bbox": [
+            397.8520812988281,
+            51.967952728271484,
+            428.68524169921875,
+            740.069580078125
+          ]
+        },
+        {
+          "id": "p12-b4-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.2726135253906,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p12-figure1",
+          "kind": "image",
+          "path": "library/liang-2022/bfbde3ef50d6/p12-figure1.png",
+          "alt": "Original source page 12, graphic 1",
+          "caption": "原文第12页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p13-b1-3fdba35",
+          "kind": "paragraph",
+          "text": "13",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p13-b2-34f91d6",
+          "kind": "paragraph",
+          "text": "their performance by using identified sustainable practices, there would \nbe new Pareto-optimal and exemplary wheat-maize cases. In this situ­\nation, repeated application of the positive deviance approach for crop­\nping system redesign might help the local whole set of cropping systems \nto move in the desired direction in an evolutionary manner.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            290.98956298828125,
+            106.16908264160156
+          ]
+        },
+        {
+          "id": "p13-b3-6022d58",
+          "kind": "heading",
+          "text": "4.4. Limitation and outlook",
+          "bbox": [
+            37.5874137878418,
+            114.56797790527344,
+            134.85293579101562,
+            127.59909057617188
+          ]
+        },
+        {
+          "id": "p13-b4-d84c7a5",
+          "kind": "paragraph",
+          "text": "Uncertainty exists in the presented multi-criteria assessment because \nour indicators were empirically quantified using many parameters, \nespecially in the environmental domain. To minimize the effects of \nresult uncertainty, we used well-accepted methods to calculate the in­\ndicators (groundwater depletion: Yang et al., 2021; N loss: Cui et al., \n2018; net GHG emission: Xu and Lan, 2017; pesticide use: Lechenet \net al., 2017), and then extracted parameters calibrated to local condi­\ntions from a range of publications, statistics, and expert knowledge (see \nTable S2-S6). We also compared our empirical results with those \nmeasured in local experiments. For example, the estimated amount of \nsoil C stock change (soil C sequestration minus degradation) was close to \nprevious in situ measurement results (Cui et al., 2022). The average \ngroundwater depletion and N loss in this study were also comparable to \nthe results from field trials in the NCP (Yang et al., 2015; Song et al., \n2018; Sha et al., 2020; Zheng et al., 2020). This indicates that our multi- \ncriteria assessment is reasonable and reliable, although not as accurate \nas on-site measurement data. Measurement data could be included in \nfuture analysis to improve result certainty if available. \nWe considered as explanatory variables the most important man­\nagement variables related to wheat-maize performance. However, some \nmanagement practices were still not captured due to data accessibility, \ne.g., farmers did not remember the name of cultivars they used, and \nneither could they give us exact sowing and harvest dates. During our \nsurvey work, we found that the variety selection (mostly Jimai 22 and \nLuyuan 502 for wheat; Denghai 605 for maize) and cropping calendar \n(Oct.5-Oct.10 and Jun.1–10 for wheat and maize sowing respectively) \nwere quite homogenous among wheat-maize observations. Therefore, \nvariation in varieties or sowing dates might not markedly affect crop­\nping system performance. In future research, a tracking survey that \nmonitors all cropping activities implemented during the whole cropping \nsystem duration could be an effective way to avoid missing information \nthat farmers cannot precisely report in recall (Fumagalli et al., 2011). \nSimilarly, some contextual variables that were not recorded in this \nstudy might have affected the sustainability performance of the wheat- \nmaize systems. For instance, access to technology training and to sources \nof animal manure could play a role. These unobserved farm character­\nistics would affect farmers’ decisions on cultivation practices that are \nhighly associated with cropping system performance, e.g., manure \namendment. A broader range of variables regarding farming contexts \ncould be considered in future study. \nExemplary systems could be further elaborated by conducting a re­\nturn survey of farmers who practiced exemplary systems. It can be ex­\npected that the follow-up revisiting could help us gain more insights into \ntheir success, e.g., detailed information on crop management and \nfarming context (Steinke et al., 2019), which could make the sustainable \nprototype more practical. \nIn the future, this nested positive deviance approach could also be \napplied in other major cropping systems elsewhere in which multiple \nsustainability challenges exist. Sustainability indicators and exemplary \npositive deviants can be selected in terms of the local reality and \nstakeholder preference. With a broader application of the positive \ndeviance approach, global cropping systems would have the great po­\ntential to improve their sustainability, contributing to achieving the \nSustainable Development Goals advocated by the United Nations.",
+          "bbox": [
+            37.58732223510742,
+            135.48789978027344,
+            291.0302429199219,
+            702.97021484375
+          ]
+        },
+        {
+          "id": "p13-b5-e64fd69",
+          "kind": "heading",
+          "text": "5. Conclusion",
+          "bbox": [
+            37.58738327026367,
+            710.97216796875,
+            94.30580139160156,
+            724.0032958984375
+          ]
+        },
+        {
+          "id": "p13-b6-ff11c48",
+          "kind": "paragraph",
+          "text": "We proposed a nested positive deviance approach to find feasible",
+          "bbox": [
+            49.54890823364258,
+            731.8912963867188,
+            290.98394775390625,
+            744.9224243164062
+          ]
+        },
+        {
+          "id": "p13-b7-8fc74df",
+          "kind": "paragraph",
+          "text": "entry-points to close multi-dimensional sustainability gaps of cropping \nsystems. Taking wheat-maize double cropping in the NCP as a case, we \nempirically evaluated economic, societal, and environmental indicators \nrelevant to local sustainability challenges, and identified exemplary \nsystems that reached the best compromise across all indicators from all \npositive deviants. Then multifaceted sustainability gaps were quantified, \nand key factors explaining those gaps were determined. We found that \nthe sustainability performance of wheat-maize systems greatly varied \nacross households. Most positive deviants represented strong trade-offs \namong indicators, while nine cases could serve as exemplary systems \ndue to their acceptable compromise among indicators. Results also \nsuggested that sustainability gaps of wheat-maize systems could be \nclosed if other farmers implemented the key management practices of \nexemplary systems. Those sustainable practices included increased \nmaize planting density, moderate N input, lower number of irrigation \nevents as well as insecticide and herbicide use. Meanwhile, no system­\natic differences in farming context were observed between exemplary \nsystems and other cases. This study showed that the presented positive \ndeviance approach is a pragmatic method to identify locally viable so­\nlutions to improve sustainability of cropping systems by deciphering the \ndiversity of farmers’ practices.",
+          "bbox": [
+            306.59259033203125,
+            51.2997932434082,
+            560.0219116210938,
+            273.5252380371094
+          ]
+        },
+        {
+          "id": "p13-b8-75794fc",
+          "kind": "paragraph",
+          "text": "CRediT authorship contribution statement",
+          "bbox": [
+            306.5926513671875,
+            281.6969909667969,
+            470.865966796875,
+            294.72808837890625
+          ]
+        },
+        {
+          "id": "p13-b9-f084c07",
+          "kind": "paragraph",
+          "text": "Zhengyuan Liang: Investigation, Data curation, Formal analysis, \nVisualization, Writing – original draft, Writing – review & editing. \nWopke van der Werf: Supervision, Writing – review & editing. Zhan \nXu: Investigation, Data curation. Jiali Cheng: Investigation, Data \ncuration. Chong Wang: Data curation, Resources. Wen-Feng Cong: \nSupervision, Writing – review & editing, Funding acquisition. Chao­\nchun Zhang: Supervision, Resources, Funding acquisition. Fusuo \nZhang: Supervision, Resources, Project administration. Jeroen C.J. \nGroot: Conceptualization, Supervision, Writing – review & editing.",
+          "bbox": [
+            306.5926208496094,
+            302.6169128417969,
+            560.0155639648438,
+            399.3260803222656
+          ]
+        },
+        {
+          "id": "p13-b10-8feb861",
+          "kind": "paragraph",
+          "text": "Declaration of Competing Interest",
+          "bbox": [
+            306.5926513671875,
+            408.3482360839844,
+            438.799072265625,
+            421.37933349609375
+          ]
+        },
+        {
+          "id": "p13-b11-903ea50",
+          "kind": "paragraph",
+          "text": "None.",
+          "bbox": [
+            318.55419921875,
+            429.267333984375,
+            341.62762451171875,
+            442.2984313964844
+          ]
+        },
+        {
+          "id": "p13-b12-188a992",
+          "kind": "heading",
+          "text": "Data availability",
+          "bbox": [
+            306.5926513671875,
+            450.1872863769531,
+            372.4369201660156,
+            463.2183837890625
+          ]
+        },
+        {
+          "id": "p13-b13-b4f5a55",
+          "kind": "paragraph",
+          "text": "Data and R script used in the analyses are available from the corre­\nsponding authors on reasonable request.",
+          "bbox": [
+            306.5926208496094,
+            471.10638427734375,
+            557.6715087890625,
+            494.6253967285156
+          ]
+        },
+        {
+          "id": "p13-b14-791552f",
+          "kind": "paragraph",
+          "text": "Acknowledgment",
+          "bbox": [
+            306.5926208496094,
+            502.7979736328125,
+            375.0079345703125,
+            515.8291015625
+          ]
+        },
+        {
+          "id": "p13-b15-3c7001a",
+          "kind": "paragraph",
+          "text": "We acknowledge colleagues who participated in the household sur­\nvey and data entry. This study was financially supported by the China \nScholarship Council (No. 201913043), Hainan University, the Program \nof the National Natural Science Foundation of China (32072676) and \nthe Program of Advanced Discipline Construction in Beijing (Agriculture \nGreen Development).",
+          "bbox": [
+            306.592529296875,
+            523.717041015625,
+            560.0122680664062,
+            589.0184936523438
+          ]
+        },
+        {
+          "id": "p13-b16-c09b53c",
+          "kind": "paragraph",
+          "text": "Appendix A. Supplementary data",
+          "bbox": [
+            306.5925598144531,
+            597.1902465820312,
+            437.4958801269531,
+            610.2213745117188
+          ]
+        },
+        {
+          "id": "p13-b17-72c9ee3",
+          "kind": "paragraph",
+          "text": "Supplementary data to this article can be found online at https://doi. \norg/10.1016/j.agsy.2022.103471.",
+          "bbox": [
+            306.5925598144531,
+            618.1101684570312,
+            560.0010986328125,
+            641.629150390625
+          ]
+        },
+        {
+          "id": "p13-b18-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            306.5925598144531,
+            649.7443237304688,
+            350.1411437988281,
+            662.7754516601562
+          ]
+        },
+        {
+          "id": "p13-b19-8a4161b",
+          "kind": "paragraph",
+          "text": "Adelhart Toorop, R., Ceccarelli, V., Bijarniya, D., Jat, M.L., Jat, R.K., Lopez-Ridaura, S., \nGroot, J.C.J., 2020. Using a positive deviance approach to inform farming systems \nredesign: a case study from Bihar, India. Agric. Syst. 185, 102942 https://doi.org/ \n10.1016/j.agsy.2020.102942. \nAlbanna, B., Heeks, R., 2019. Positive deviance, big data, and development: a systematic \nliterature review. Electron. J. Inf. Syst. Dev. Ctries. 85, e12063 https://doi.org/ \n10.1002/isd2.12063. \nAouadi, N., Aubertot, J.N., Caneill, J., Munier-Jolain, N., 2015. Analyzing the impact of \nthe farming context and environmental factors on cropping systems: a regional case",
+          "bbox": [
+            306.594970703125,
+            670.0254516601562,
+            557.5599975585938,
+            744.228759765625
+          ]
+        },
+        {
+          "id": "p13-b20-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.59002685546875,
+            33.65390396118164,
+            501.2762756347656,
+            44.07849884033203
+          ]
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p14-b1-8527a89",
+          "kind": "paragraph",
+          "text": "14",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p14-b2-85c63e9",
+          "kind": "paragraph",
+          "text": "study in Burgundy. Eur. J. Agron. 66, 21–29. https://doi.org/10.1016/j. \neja.2015.02.006. \nBrauns, B., Jakobsen, R., Song, X., Bjerg, P.L., 2018. Pesticide use in the wheat-maize \ndouble cropping systems of the North China plain: assessment, field study, and \nimplications. Sci. Total Environ. 616–617, 1307–1316. https://doi.org/10.1016/j. \nscitotenv.2017.10.187. \nChen, X., Xu, X., Lu, Z., Zhang, W., Yang, J., Hou, Y., Wang, X., Zhou, S., Li, Y., Wu, L., \nZhang, F., 2020. Carbon footprint of a typical pomelo production region in China \nbased on farm survey data. J. Clean. Prod. 277, 124041 https://doi.org/10.1016/j. \njclepro.2020.124041. \nChuan, L., He, P., Jin, J., Li, S., Grant, C., Xu, X., Qiu, S., Zhao, S., Zhou, W., 2013. \nEstimating nutrient uptake requirements for wheat in China. Field Crop Res. 146, \n96–104. https://doi.org/10.1016/j.fcr.2013.02.015. \nCui, Z., Zhang, H., Chen, X., Zhang, C., Ma, W., Huang, C., Zhang, W., Mi, G., Miao, Y., \nLi, X., Gao, Q., Yang, J., Wang, Z., Ye, Y., Guo, S., Lu, J., Huang, J., Lv, S., Sun, Y., \nLiu, Y., Peng, X., Ren, J., Li, S., Deng, X., Shi, X., Zhang, Qiang, Yang, Z., Tang, L., \nWei, C., Jia, L., Zhang, J., He, M., Tong, Y., Tang, Q., Zhong, X., Liu, Z., Cao, N., \nKou, C., Ying, H., Yin, Y., Jiao, X., Zhang, Qingsong, Fan, M., Jiang, R., Zhang, F., \nDou, Z., 2018. Pursuing sustainable productivity with millions of smallholder \nfarmers. Nature 555, 363–366. https://doi.org/10.1038/nature25785. \nCui, H., Luo, Y., Chen, J., Jin, M., Li, Y., Wang, Z., 2022. Straw return strategies to \nimprove soil properties and crop productivity in a winter wheat-summer maize \ncropping system. Eur. J. Agron. 133, 126436 https://doi.org/10.1016/j. \neja.2021.126436. \nDavis, K.F., Chhatre, A., Rao, N.D., Singh, D., Ghosh-Jerath, S., Mridul, A., Poblete- \nCazenave, M., Pradhan, N., DeFries, R., 2019. Assessing the sustainability of post- \ngreen revolution cereals in India. Proc. Natl. Acad. Sci. 116, 25034–25041. https:// \ndoi.org/10.1073/pnas.1910935116. \nDeytieux, V., Munier-Jolain, N., Caneill, J., 2016. Assessing the sustainability of cropping \nsystems in single- and multi-site studies. A review of methods. Eur. J. Agron. 72, \n107–126. https://doi.org/10.1016/j.eja.2015.10.005. \nDumont, B., Modernel, P., Benoit, M., Ruggia, A., Soca, P., Dernat, S., Tournadre, H., \nDogliotti, S., Rossing, W.A.H., 2020. Mobilizing ecological processes for herbivore \nproduction: farmers and researchers learning together. Front. Sustain. Food Syst. 4, \n544828 https://doi.org/10.3389/fsufs.2020.544828. \nFeng, S., Xu, W., Cheng, M., Ma, Y., Wu, L., Kang, J., Wang, K., Tang, A., Collett, J.L., \nFang, Y., Goulding, K., Liu, X., Zhang, F., 2022. Overlooked nonagricultural and \nwintertime agricultural NH3 emissions in Quzhou County, North China plain: \nevidence from 15N-stable isotopes. Environ. Sci. Technol. Lett. 9, 127–133. https:// \ndoi.org/10.1021/acs.estlett.1c00935. \nFoley, J.A., Ramankutty, N., Brauman, K.A., Cassidy, E.S., Gerber, J.S., Johnston, M., \nMueller, N.D., O’Connell, C., Ray, D.K., West, P.C., Balzer, C., Bennett, E.M., \nCarpenter, S.R., Hill, J., Monfreda, C., Polasky, S., Rockstr¨om, J., Sheehan, J., \nSiebert, S., Tilman, D., Zaks, D.P.M., 2011. Solutions for a cultivated planet. Nature \n478, 337–342. https://doi.org/10.1038/nature10452. \nFumagalli, M., Acutis, M., Mazzetto, F., Vidotto, F., Sali, G., Bechini, L., 2011. An analysis \nof agricultural sustainability of cropping systems in arable and dairy farms in an \nintensively cultivated plain. Eur. J. Agron. 34, 71–82. https://doi.org/10.1016/j. \neja.2010.11.001. \nGhose, B., 2014. Food security and food self-sufficiency in China: from past to 2050. \nFood Energy Secur. 3, 86–95. https://doi.org/10.1002/fes3.48. \nGroot, J.C.J., Rossing, W.A.H., 2011. Model-aided learning for adaptive management of \nnatural resources: an evolutionary design perspective. Methods Ecol. Evol. 2, \n643–650. https://doi.org/10.1111/j.2041-210X.2011.00114.x. \nGroot, J.C.J., Oomen, G.J.M., Rossing, W.A.H., 2012. Multi-objective optimization and \ndesign of farming systems. Agric. Syst. 110, 63–77. https://doi.org/10.1016/j. \nagsy.2012.03.012. \nHa, N., Feike, T., Angenendt, E., Xiao, H., Bahrs, E., 2015. Impact of farm management \ndiversity on the environmental and economic performance of the wheat–maize \ncropping system in the North China plain. Int. J. Agric. Sustain. 13, 350–366. \nhttps://doi.org/10.1080/14735903.2015.1004856. \nHerington, M.J., van de Fliert, E., 2018. Positive deviance in theory and practice: a \nconceptual review. Deviant Behav. 39, 664–678. https://doi.org/10.1080/ \n01639625.2017.1286194. \nHuang, J., Xu, C., Ridoutt, B.G., Wang, X., Ren, P., 2017. Nitrogen and phosphorus losses \nand eutrophication potential associated with fertilizer application to cropland in \nChina. J. Clean. Prod. 159, 171–179. https://doi.org/10.1016/j. \njclepro.2017.05.008. \nInternational Organization for Standardization (ISO), 2006. Environmental \nManagement: Life Cycle Assessment; Requirements and Guidelines. ISO Geneva, \nSwitzerland.  \nJiang, W., Zhu, A., Wang, C., Zhang, F., Jiao, X., 2021. Optimizing wheat production and \nreducing environmental impacts through scientist–farmer engagement: lessons from \nthe North China plain. Food Energy Secur. 10 https://doi.org/10.1002/fes3.255. \nJu, X., Xing, G., Chen, X., Zhang, S., Zhang, L., Liu, X., Cui, Z., Yin, B., Christie, P., \nZhu, Z., Zhang, F., 2009. Reducing environmental risk by improving N management \nin intensive Chinese agricultural systems. Proc. Natl. Acad. Sci. 106, 3041–3046. \nhttps://doi.org/10.1073/pnas.0813417106. \nKanter, D.R., Musumba, M., Wood, S.L.R., Palm, C., Antle, J., Balvanera, P., Dale, V.H., \nHavlik, P., Kline, K.L., Scholes, R.J., Thornton, P., Tittonell, P., Andelman, S., 2018. \nEvaluating agricultural trade-offs in the age of sustainable development. Agric. Syst. \n163, 73–88. https://doi.org/10.1016/j.agsy.2016.09.010. \nKassambara, A., 2017. Practical Guide to Cluster Analysis in R. Unsupervised Machine \nLearning (Edition 1). STHDA. http://www.sthda.com.",
+          "bbox": [
+            37.587772369384766,
+            52.12942886352539,
+            288.57183837890625,
+            724.0991821289062
+          ]
+        },
+        {
+          "id": "p14-b3-89c8654",
+          "kind": "paragraph",
+          "text": "Kaur, S., Kaur, R., Chauhan, B.S., 2018. Understanding crop-weed-fertilizer-water \ninteractions and their implications for weed management in agricultural systems. \nCrop Prot. 103, 65–72. https://doi.org/10.1016/j.cropro.2017.09.011. \nKong, X., Zhang, X., Lal, R., Zhang, F., Chen, X., Niu, Z., Han, L., Song, W., 2016. \nGroundwater depletion by agricultural intensification in China’s HHH Plains, since \n1980s. In: Advances in Agronomy. Elsevier, pp. 59–106. https://doi.org/10.1016/ \nbs.agron.2015.09.003. \nLechenet, M., Dessaint, F., Py, G., Makowski, D., Munier-Jolain, N., 2017. Reducing \npesticide use while preserving crop productivity and profitability on arable farms. \nNat. Plants 3, 17008. https://doi.org/10.1038/nplants.2017.8. \nLi, J., Lei, H., 2021. Tracking the spatio-temporal change of planting area of winter \nwheat-summer maize cropping system in the North China plain during 2001–2018. \nComput. Electron. Agric. 187, 106222 https://doi.org/10.1016/j. \ncompag.2021.106222. \nLi, H., Zeng, E.Y., You, J., 2014. Mitigating pesticide pollution in China requires law \nenforcement, farmer training, and technological innovation: pesticide pollution, \nconsumption, and mitigation in China. Environ. Toxicol. Chem. 33, 963–971. \nhttps://doi.org/10.1002/etc.2549. \nLi, S., Lei, Y., Zhang, Y., Liu, J., Shi, X., Jia, H., Wang, C., Chen, F., Chu, Q., 2019. \nRational trade-offs between yield increase and fertilizer inputs are essential for \nsustainable intensification: a case study in wheat–maize cropping systems in China. \nSci. Total Environ. 679, 328–336. https://doi.org/10.1016/j.scitotenv.2019.05.085. \nLi, K., Wang, C., Zhang, H., Zhang, J., Jiang, R., Feng, G., Liu, X., Zuo, Y., Yuan, H., \nZhang, C., Gai, J., Tian, J., Li, H., Sun, Y., Yu, B., 2022. Evaluating the effects of \nagricultural inputs on the soil quality of smallholdings using improved indices. \nCATENA 209, 105838. https://doi.org/10.1016/j.catena.2021.105838. \nLiu, T., Bruins, R., Heberling, M., 2018. Factors influencing farmers’ adoption of best \nmanagement practices: a review and synthesis. Sustainability 10, 432. https://doi. \norg/10.3390/su10020432. \nM´edi`ene, S., Valantin-Morison, M., Sarthou, J.-P., de Tourdonnet, S., Gosme, M., \nBertrand, M., Roger-Estrade, J., Aubertot, J.-N., Rusch, A., Motisi, N., Pelosi, C., \nDor´e, T., 2011. Agroecosystem management and biotic interactions: a review. Agron. \nSustain. Dev. 31, 491–514. https://doi.org/10.1007/s13593-011-0009-1. \nMeng, Z., Xu, X., Lin, W., Ge, B., Xie, Y., Song, B., Jia, S., Zhang, R., Peng, W., Wang, Y., \nCheng, H., Yang, W., Zhao, H., 2018a. Role of ambient ammonia in particulate \nammonium formation at a rural site in the North China plain. Atmos. Chem. Phys. \n18, 167–184. https://doi.org/10.5194/acp-18-167-2018. \nMeng, Q., Cui, Z., Yang, H., Zhang, F., Chen, X., 2018b. Establishing high-yielding maize \nsystem for sustainable intensification in China. In: Advances in Agronomy. Elsevier, \npp. 85–109. https://doi.org/10.1016/bs.agron.2017.11.004. \nMeng, F., Wang, M., Strokal, M., Kroeze, C., Ma, L., Li, Y., Zhang, Q., Wei, Z., Hou, Y., \nLiu, X., Xu, W., Zhang, F., 2021. Nitrogen losses from food production in the North \nChina plain: a case study for Quzhou. Sci. Total Environ. 151557 https://doi.org/ \n10.1016/j.scitotenv.2021.151557. \nMinistry of Agriculture and Rural Affairs of the People’s Republic of China (MARA), \n2022. The Plan of National Crop Production Development for the 14th Five-Year (In \nChinese).  \nModernel, P., Dogliotti, S., Alvarez, S., Corbeels, M., Picasso, V., Tittonell, P., Rossing, W. \nA.H., 2018. Identification of beef production farms in the pampas and Campos area \nthat stand out in economic and environmental performance. Ecol. Indic. 89, \n755–770. https://doi.org/10.1016/j.ecolind.2018.01.038. \nNational Bureau of Statistics of China (NBSC), 2020. China Statistics Yearbook. Chinese \nStatistics Press, Beijing (in Chinese).  \nNiu, Y., Xie, G., Xiao, Y., Liu, J., Wang, Y., Luo, Q., Zou, H., Gan, S., Qin, K., Huang, M., \n2021. Spatiotemporal patterns and determinants of grain self-sufficiency in China. \nFoods 10, 747. https://doi.org/10.3390/foods10040747. \nOelofse, M., Markussen, B., Knudsen, L., Schelde, K., Olesen, J.E., Jensen, L.S., Bruun, S., \n2015. Do soil organic carbon levels affect potential yields and nitrogen use \nefficiency? An analysis of winter wheat and spring barley field trials. Eur. J. Agron. \n66, 62–73. https://doi.org/10.1016/j.eja.2015.02.009. \nRen, H., Han, K., Liu, Y., Zhao, Y., Zhang, L., He, Q., Li, Z., Zhang, Jibo, Liu, P., Wang, H., \nZhang, Jiwang, Zhao, B., 2021. Improving smallholder farmers’ maize yields and \neconomic benefits under sustainable crop intensification in the North China plain. \nSci. Total Environ. 763, 143035 https://doi.org/10.1016/j.scitotenv.2020.143035. \nSavikurki, A., 2013. Positive Deviance in Small Holder Crop-Livestock Farming Systems \nin Northern Ghana. Master Thesis. Helsingfors Universitet. http://urn.fi/URN:NBN:fi \n:hulib-201507212072. \nSha, Z., Ma, X., Loick, N., Lv, T., Cardenas, L.M., Ma, Y., Liu, X., Misselbrook, T., 2020. \nNitrogen stabilizers mitigate reactive N and greenhouse gas emissions from an arable \nsoil in North China plain: field and laboratory investigation. J. Clean. Prod. 258, \n121025 https://doi.org/10.1016/j.jclepro.2020.121025. \nSong, X., Liu, M., Ju, X., Gao, B., Su, F., Chen, X., Rees, R.M., 2018. Nitrous oxide \nemissions increase exponentially when optimum nitrogen fertilizer rates are \nexceeded in the North China plain. Environ. Sci. Technol. 52, 12504–12513. https:// \ndoi.org/10.1021/acs.est.8b03931. \nSpiegal, S., Bestelmeyer, B.T., Archer, D.W., Augustine, D.J., Boughton, E.H., \nBoughton, R.K., Cavigelli, M.A., Clark, P.E., Derner, J.D., Duncan, E.W., Hapeman, C. \nJ., Harmel, R.D., Heilman, P., Holly, M.A., Huggins, D.R., King, K., Kleinman, P.J.A., \nLiebig, M.A., Locke, M.A., McCarty, G.W., Millar, N., Mirsky, S.B., Moorman, T.B., \nPierson, F.B., Rigby, J.R., Robertson, G.P., Steiner, J.L., Strickland, T.C., Swain, H. \nM., Wienhold, B.J., Wulfhorst, J.D., Yost, M.A., Walthall, C.L., 2018. Evaluating \nstrategies for sustainable intensification of US agriculture through the long-term \nagroecosystem research network. Environ. Res. Lett. 13, 034031 https://doi.org/ \n10.1088/1748-9326/aaa779. \nSteinke, J., Mgimiloko, M.G., Graef, F., Hammond, J., van Wijk, M.T., van Etten, J., \n2019. Prioritizing options for multi-objective agricultural development through the",
+          "bbox": [
+            306.59295654296875,
+            52.130374908447266,
+            557.5540771484375,
+            740.0274658203125
+          ]
+        },
+        {
+          "id": "p14-b4-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.5886344909668,
+            33.64792251586914,
+            501.27398681640625,
+            44.07251739501953
+          ]
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-14.png"
+    },
+    {
+      "number": 15,
+      "blocks": [
+        {
+          "id": "p15-b0-3c257be",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 201 (2022) 103471",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p15-b1-e629fa6",
+          "kind": "paragraph",
+          "text": "15",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p15-b2-9bbca59",
+          "kind": "paragraph",
+          "text": "positive deviance approach. PLoS One 14, e0212926. https://doi.org/10.1371/ \njournal.pone.0212926. \nSun, H., Zhang, X., Wang, E., Chen, S., Shao, L., 2015. Quantifying the impact of \nirrigation on groundwater reserve and crop production – a case study in the North \nChina plain. Eur. J. Agron. 70, 48–56. https://doi.org/10.1016/j.eja.2015.07.001. \nWang, Y., Zhang, Y., Zhang, R., Li, J., Zhang, M., Zhou, S., Wang, Z., 2018. Reduced \nirrigation increases the water use efficiency and productivity of winter wheat- \nsummer maize rotation on the North China plain. Sci. Total Environ. 618, 112–120. \nhttps://doi.org/10.1016/j.scitotenv.2017.10.284. \nWang, S., Hu, Y., Yuan, R., Feng, W., Pan, Y., Yang, Y., 2019. Ensuring water security, \nfood security, and clean water in the North China plain – conflicting strategies. Curr. \nOpin. Environ. Sustain. 40, 63–71. https://doi.org/10.1016/j.cosust.2019.09.008. \nXiao, G., Zhao, Z., Liang, L., Meng, F., Wu, W., Guo, Y., 2019. Improving nitrogen and \nwater use efficiency in a wheat-maize rotation system in the North China plain using \noptimized farming practices. Agric. Water Manag. 212, 172–180. https://doi.org/ \n10.1016/j.agwat.2018.09.011. \nXin, Y., Tao, F., 2019. Optimizing genotype-environment-management interactions to \nenhance productivity and eco-efficiency for wheat-maize rotation in the North China \nplain. Sci. Total Environ. 654, 480–492. https://doi.org/10.1016/j. \nscitotenv.2018.11.126. \nXu, X., Lan, Y., 2017. Spatial and temporal patterns of carbon footprints of grain crops in \nChina. J. Clean. Prod. 146, 218–227. https://doi.org/10.1016/j. \njclepro.2016.11.181. \nXu, C., Tao, H., Tian, B., Gao, Y., Ren, J., Wang, P., 2016. Limited-irrigation improves \nwater use efficiency and soil reservoir capacity through regulating root and canopy \ngrowth of winter wheat. Field Crop Res. 196, 268–275. https://doi.org/10.1016/j. \nfcr.2016.07.009. \nXu, T., Yan, D., Weng, B., Bi, W., Do, P., Liu, F., Wang, Y., Ma, J., 2018. The effect \nevaluation of comprehensive treatment for groundwater overdraft in Quzhou \nCounty. China. Water 10, 874. https://doi.org/10.3390/w10070874. \nXu, D., Deng, X., Guo, S., Liu, S., 2019. Labor migration and farmland abandonment in \nrural China: empirical results and policy implications. J. Environ. Manag. 232, \n738–750. https://doi.org/10.1016/j.jenvman.2018.11.136.",
+          "bbox": [
+            37.587772369384766,
+            52.12942886352539,
+            288.57061767578125,
+            317.6123352050781
+          ]
+        },
+        {
+          "id": "p15-b3-d080265",
+          "kind": "paragraph",
+          "text": "Yang, X., Chen, Y., Pacenka, S., Gao, W., Ma, L., Wang, G., Yan, P., Sui, P., Steenhuis, T. \nS., 2015. Effect of diversified crop rotations on groundwater levels and crop water \nproductivity in the North China plain. J. Hydrol. 522, 428–438. https://doi.org/ \n10.1016/j.jhydrol.2015.01.010. \nYang, Y., Wang, G., He, M., Pan, X., Wang, Z., 2018. China Food Composition Tables. \nPeking University Medical Press, Beijing, China (in Chinese).  \nYang, X., Steenhuis, T.S., Davis, K.F., Werf, W., Ritsema, C.J., Pacenka, S., Zhang, F., \nSiddique, K.H.M., Du, T., 2021. Diversified crop rotations enhance groundwater and \neconomic sustainability of food production. Food Energy Secur. 10 https://doi.org/ \n10.1002/fes3.311. \nZhang, C., Hu, R., Shi, G., Jin, Y., Robson, M.G., Huang, X., 2015. Overuse or underuse? \nAn observation of pesticide use in China. Sci. Total Environ. 538, 1–6. https://doi. \norg/10.1016/j.scitotenv.2015.08.031. \nZhang, W., Cao, G., Li, X., Zhang, H., Wang, C., Liu, Q., Chen, X., Cui, Z., Shen, J., \nJiang, R., Mi, G., Miao, Y., Zhang, F., Dou, Z., 2016. Closing yield gaps in China by \nempowering smallholder farmers. Nature 537, 671–674. https://doi.org/10.1038/ \nnature19368. \nZhang, X., Fang, Q., Zhang, T., Ma, W., Velthof, G.L., Hou, Y., Oenema, O., Zhang, F., \n2020. Benefits and trade-offs of replacing synthetic fertilizers by animal manures in \ncrop production in China: a meta-analysis. Glob. Chang. Biol. 26, 888–900. https:// \ndoi.org/10.1111/gcb.14826. \nZhang, X., Yao, G., Vishwakarma, S., Dalin, C., Komarek, A.M., Kanter, D.R., Davis, K.F., \nPfeifer, K., Zhao, J., Zou, T., D’Odorico, P., Folberth, C., Rodriguez, F.G., Fanzo, J., \nRosa, L., Dennison, W., Musumba, M., Heyman, A., Davidson, E.A., 2021. \nQuantitative assessment of agricultural sustainability reveals divergent priorities \namong nations. One Earth 4, 1262–1277. https://doi.org/10.1016/j. \noneear.2021.08.015. \nZheng, W., Wan, Y., Li, Y., Liu, Z., Chen, J., Zhou, H., Gao, Y., Chen, B., Zhang, M., 2020. \nDeveloping water and nitrogen budgets of a wheat-maize rotation system using auto- \nweighing lysimeters: effects of blended application of controlled-release and un- \ncoated urea. Environ. Pollut. 263, 114383 https://doi.org/10.1016/j. \nenvpol.2020.114383.",
+          "bbox": [
+            306.5921325683594,
+            52.12942886352539,
+            557.5585327148438,
+            309.6188659667969
+          ]
+        },
+        {
+          "id": "p15-b4-5413519",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.",
+          "bbox": [
+            37.587974548339844,
+            33.648258209228516,
+            501.2732238769531,
+            44.072853088378906
+          ]
+        }
+      ],
+      "snapshot": "library/liang-2022/bfbde3ef50d6/page-15.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 15,
+    "pageSnapshots": 15,
+    "allTextBlocksRetained": true,
+    "textCharacters": 79947,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 23,
+    "sourceSHA256": "bfbde3ef50d61598c5aa73a5ff6d02141f1d7473ae446b0f73f88e6bbef0ef47",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

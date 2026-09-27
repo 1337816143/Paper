@@ -1,0 +1,3103 @@
+{
+  "schema": "paper.original.v2",
+  "id": "verdouw-2021",
+  "lessonId": "verdouw-2021",
+  "title": "Digital twins in smart farming",
+  "citation": "Verdouw, C., et al. (2021). Agricultural Systems, 189, 103046.",
+  "origin": "https://doi.org/10.1016/j.agsy.2020.103046",
+  "sourceHash": "6cd910d4ac59ed97e78b6df405d14a08a7265c69e08575f5ab37f013d1f45ca9",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Agricultural Systems 189 (2021) 103046 Available online 28 January 2021 0308-521X/© 2020 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Digital twins in smart farming Cor Verdouw a,b,*, Bedir Tekinerdogan a, Adrie Beulens a, Sjaak Wolfert a,c a Information Technology Group, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands b Mprise, P.O. Box 598, 3900, AN, Veenendaal, the Netherlands c Wageni",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "originalPath": "library/verdouw-2021/6cd910d4ac59/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/verdouw-2021/6cd910d4ac59/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            232.34799194335938,
+            33.45158004760742,
+            362.1792907714844,
+            45.17943572998047
+          ]
+        },
+        {
+          "id": "p1-b2-134af46",
+          "kind": "paragraph",
+          "text": "Available online 28 January 2021\n0308-521X/© 2020 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+          "bbox": [
+            37.51798629760742,
+            714.7015991210938,
+            557.573486328125,
+            736.0494384765625
+          ]
+        },
+        {
+          "id": "p1-b3-b541509",
+          "kind": "heading",
+          "text": "Digital twins in smart farming",
+          "bbox": [
+            37.587398529052734,
+            160.96640014648438,
+            223.47967529296875,
+            182.95632934570312
+          ]
+        },
+        {
+          "id": "p1-b4-f98b69c",
+          "kind": "heading",
+          "text": "Cor Verdouw a,b,*, Bedir Tekinerdogan a, Adrie Beulens a, Sjaak Wolfert a,c",
+          "bbox": [
+            37.587398529052734,
+            188.5120391845703,
+            387.1574401855469,
+            206.69003295898438
+          ]
+        },
+        {
+          "id": "p1-b5-828f64c",
+          "kind": "paragraph",
+          "text": "a Information Technology Group, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands \nb Mprise, P.O. Box 598, 3900, AN, Veenendaal, the Netherlands \nc Wageningen Economic Research, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands",
+          "bbox": [
+            37.587398529052734,
+            208.03439331054688,
+            386.1845397949219,
+            238.4149932861328
+          ]
+        },
+        {
+          "id": "p1-b6-19af77a",
+          "kind": "paragraph",
+          "text": "A R T I C L E  I N F O",
+          "bbox": [
+            37.587398529052734,
+            260.2704162597656,
+            126.12201690673828,
+            271.67242431640625
+          ]
+        },
+        {
+          "id": "p1-b7-0bee9fa",
+          "kind": "paragraph",
+          "text": "Keywords: \nSmart agriculture \nInternet of things \nFarm management systems \nRemote sensing and control \nVirtualization",
+          "bbox": [
+            37.587398529052734,
+            279.5244140625,
+            118.54984283447266,
+            332.7510681152344
+          ]
+        },
+        {
+          "id": "p1-b8-c0671f4",
+          "kind": "paragraph",
+          "text": "A B S T R A C T",
+          "bbox": [
+            201.9969940185547,
+            260.2704162597656,
+            269.1467590332031,
+            271.67242431640625
+          ]
+        },
+        {
+          "id": "p1-b9-de7f38d",
+          "kind": "paragraph",
+          "text": "Digital Twins are very promising to bring smart farming to new levels of farming productivity and sustainability. \nA Digital Twin is a digital equivalent of a real-life object of which it mirrors its behaviour and states over its \nlifetime in a virtual space. Using Digital Twins as a central means for farm management enables the decoupling of \nphysical flows from its planning and control. As a consequence, farmers can manage operations remotely based \non (near) real-time digital information instead of having to rely on direct observation and manual tasks on-site. \nThis allows them to act immediately in case of (expected) deviations and to simulate effects of interventions \nbased on real-life data. This paper analyses how Digital Twins can advance smart farming. It defines the concept, \ndevelops a typology of different types of Digital Twins, and proposes a conceptual framework for designing and \nimplementing Digital Twins. The framework comprises a control model based on a general systems approach and \nan implementation model for Digital Twin systems based on the Internet of Things—Architecture (IoT-A), a \nreference architecture for IoT systems. The framework is applied to and validated in five smart farming use cases \nof the European IoF2020 project, focussing on arable farming, dairy farming, greenhouse horticulture, organic \nvegetable farming and livestock farming.",
+          "bbox": [
+            201.9969940185547,
+            279.5350646972656,
+            559.79052734375,
+            406.0646667480469
+          ]
+        },
+        {
+          "id": "p1-b10-6e62ee8",
+          "kind": "heading",
+          "text": "1. Introduction",
+          "bbox": [
+            37.587398529052734,
+            433.01275634765625,
+            100.17181396484375,
+            446.0438537597656
+          ]
+        },
+        {
+          "id": "p1-b11-8504bf0",
+          "kind": "paragraph",
+          "text": "Modern agricultural production is not possible without reliable and \nup-to-date information about farm operations. Farms increasingly have \nto rely on digital technologies such as sensing and monitoring devices, \nadvanced analytics, and smart equipment. Agricultural production is \nchanging fast towards smart farming systems, driven by the rapid pace \nof technology development like cloud computing, the Internet of Things, \nbig data, machine learning, augmented reality and robotics (Janssen \net al., 2017; Tzounis et al., 2017; Wolfert et al., 2017; Kamilaris and \nPrenafeta-Boldú, 2018; Zhai et al., 2020). Smart Farming can be seen as \nthe next phase of Precision Agriculture, in which management tasks not \nonly are based on precise location data but also on context data, situa­\ntional awareness and event triggers (Balafoutis et al., 2017; Wolfert \net al., 2017). A smart farming system can be viewed as a cyber-physical \ncontrol cycle that seamlessly integrates sensing and monitoring, smart \nanalyses & planning and smart control of farm operations for all relevant \nfarm processes (‘whole farm management perspective’). \nIn smart farming systems, farmers can monitor and control opera­\ntions remotely, based on (near) real-time digital information instead of",
+          "bbox": [
+            37.587398529052734,
+            453.931884765625,
+            291.03021240234375,
+            644.8070068359375
+          ]
+        },
+        {
+          "id": "p1-b12-7bc2874",
+          "kind": "paragraph",
+          "text": "direct observation and manual tasks on-site. Consequently, farmers are \nautomatically informed if there is a problem, or anything is expected to \ngo wrong. Behind their desk or smartphone, they can check the situation \nin the field or stable by viewing a rich digital image of the plant, animal \nor machine concerned. At the same time, machine learning algorithms \naugment the digital view with object-specific analyses and advices. \nFarmers can simulate corrective and preventive actions and evaluate its \nimpact on the digital representation. Finally, the chosen intervention \ncan be executed remotely and the farmer can use the digital view again \nto verify if the (expected) problem is solved. It can also be expected that \nthis smart farm management cycle increasingly becomes autonomous, \nwithout manual intervention of the farmer anymore. In conclusion, you \ncould say that every object in the farm (e.g. crop, field, cow, equipment) \nis being virtualized and can be more and more remotely controlled. A \nDigital Twin is an appealing metaphor to characterize this development. \nAlthough there are several definitions of a Digital Twin - as will be \ndealt with later on –a Digital Twin basically is a digital equivalent of a \nreal-life object of which it mirrors its behaviour and its states over its \nlifetime in a virtual space (Boschert and Rosen, 2016; Grieves and \nVickers, 2017). Using Digital Twins as a central means for farm",
+          "bbox": [
+            306.5926208496094,
+            433.01275634765625,
+            560.0178833007812,
+            644.8070068359375
+          ]
+        },
+        {
+          "id": "p1-b13-9583383",
+          "kind": "paragraph",
+          "text": "* Corresponding author at: Information Technology Group, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands. \nE-mail address: cor.verdouw@wur.nl (C. Verdouw).",
+          "bbox": [
+            42.632999420166016,
+            669.0720825195312,
+            535.4180908203125,
+            690.3809204101562
+          ]
+        },
+        {
+          "id": "p1-b15-b0658ce",
+          "kind": "paragraph",
+          "text": "Contents lists available at ScienceDirect",
+          "bbox": [
+            228.41600036621094,
+            59.29375076293945,
+            371.40277099609375,
+            72.32485961914062
+          ]
+        },
+        {
+          "id": "p1-b16-fb1fca0",
+          "kind": "heading",
+          "text": "Agricultural Systems",
+          "bbox": [
+            234.65199279785156,
+            80.03680419921875,
+            366.96075439453125,
+            102.84097290039062
+          ]
+        },
+        {
+          "id": "p1-b17-a2a80ca",
+          "kind": "paragraph",
+          "text": "journal homepage: www.elsevier.com/locate/agsy",
+          "bbox": [
+            204.3780059814453,
+            118.17890930175781,
+            395.4212951660156,
+            126.14900970458984
+          ]
+        },
+        {
+          "id": "p1-b19-9b6fb7e",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1016/j.agsy.2020.103046 \nReceived 8 May 2020; Received in revised form 19 December 2020; Accepted 23 December 2020",
+          "bbox": [
+            37.587398529052734,
+            695.66064453125,
+            357.5670166015625,
+            716.9127807617188
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure3",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p1-figure3.png",
+          "alt": "Original source page 1, graphic 3",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p2-b1-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p2-b2-ff4baf0",
+          "kind": "paragraph",
+          "text": "management allows for the decoupling of physical flows from its plan­\nning and control. A Digital Twin removes fundamental constraints \nconcerning place, time, and human observation (Verdouw et al., 2015; \nVerdouw et al., 2016b). Farming would no longer require physical \nproximity, which enables remote and automated execution, monitoring, \ncontrol, and coordination of farm operations. This allows for the \ndecoupling of physical flows from information aspects of farm processes. \nDigital Twins can also be enriched with information that cannot be \nobserved (or not accurately) by the human senses (e.g. sensor and sat­\nellite data) or data that are provided by other information owners. \nMoreover, a crucial aspect of a Digital Twin is that it can add intelligence \nusing advanced analytics. As such, Digital Twins do not only represent \nactual states, but can also analyze historical states and simulate future \nbehaviour. As a consequence, applications based on Digital Twins, if \nproperly synchronized, enable farmers and other stakeholders to act \nimmediately in case of (expected) deviations. \nDigital Twins are very promising to bring smart farming to new \nlevels of farming productivity and sustainability. Although Digital Twins \nhave recently received a lot of interest, a sound basis for development \nand implementation is still in progress (Schleich et al., 2017; Jones et al., \n2020). Especially the application to the domain of smart farming is in its \ninfancy (Monteiro et al., 2018; Sreedevi and Santosh Kumar, 2020). \nThere are some explorative studies and cases about Digital Twins in farm \nmanagement (such as Verdouw and Kruize, 2017; Jo et al., 2018; \nMonteiro et al., 2018; Kampker et al., 2019; Linz et al., 2019; Sreedevi \nand Santosh Kumar, 2020; Skobelev et al., 2020), but especially the \nmanagement aspects of using Digital Twins to plan, monitor, control and \noptimize farm processes need to be further studied. \nThis paper aims to contribute to resolve this gap by analysing how \nDigital Twins can advance smart farming. More specifically, the objec­\ntives are threefold:",
+          "bbox": [
+            37.587398529052734,
+            217.29673767089844,
+            291.0325927734375,
+            544.1195068359375
+          ]
+        },
+        {
+          "id": "p2-b3-5737f09",
+          "kind": "heading",
+          "text": "1. To define the concept and introduce a typology of Digital Twins;",
+          "bbox": [
+            39.2308349609375,
+            552.00830078125,
+            283.252197265625,
+            565.0394287109375
+          ]
+        },
+        {
+          "id": "p2-b4-c6ddfe9",
+          "kind": "paragraph",
+          "text": "2. To propose a conceptual framework, i.e. a systematic classification of \nconcepts, for designing and implementing Digital Twins;  \n3. To apply and validate the conceptual framework to smart farming in \na multiple case study of the European IoF2020 project.",
+          "bbox": [
+            308.1794738769531,
+            217.29673767089844,
+            559.9788818359375,
+            261.6782531738281
+          ]
+        },
+        {
+          "id": "p2-b5-8035d4d",
+          "kind": "paragraph",
+          "text": "In the remainder of this paper we first introduce the research \nmethodology in Section 2. The next chapters describe the results of our \nstudy. The domain analysis in Section 3 defines the concept of Digital \nTwins, develops a typology of Digital Twins including distinct control \ncapabilities, and introduces the usage of Digital Twins in the context of \nsmart farming. Section 4 describes the conceptual framework devel­\noped, which comprises a control model based on a general systems \napproach and an enabling information architecture for Digital Twin \nsystems. Section 5 describes the application of the conceptual frame­\nwork to five smart farming use cases of the European IoF2020 project. \nThe control model and implementation model of one of these use cases \nare described in more detail. Finally, the main findings are summarized \nand discussed in Section 6.",
+          "bbox": [
+            306.5926208496094,
+            269.5670471191406,
+            560.0162963867188,
+            408.1718444824219
+          ]
+        },
+        {
+          "id": "p2-b6-a5cfb0a",
+          "kind": "heading",
+          "text": "2. Methodology",
+          "bbox": [
+            306.5926208496094,
+            416.05987548828125,
+            370.9137268066406,
+            429.0909729003906
+          ]
+        },
+        {
+          "id": "p2-b7-29c3f67",
+          "kind": "paragraph",
+          "text": "The development of a conceptual framework is typically a design- \noriented methodology that aims at solving a certain type of problem \nby constructing a new artefact (Hevner et al., 2004; Van Aken, 2004; \nMarch and Storey, 2008). The design artefact developed in this paper is a \nconceptual framework for the design and implementation of Digital \nTwins in farm management. The concept of Digital Twins is relatively \nnew and complex. A case study is a good approach to get a better un­\nderstanding of such complex phenomena, which cannot be studied \noutside their rich, real-world context (Benbasat et al., 1987; Eisenhardt, \n1989; Yin, 2002). Hence, a multi-case study approach is adopted to \nevaluate the applicability of the presented framework in the context of \nsmart farming.",
+          "bbox": [
+            306.5926208496094,
+            436.97900390625,
+            560.0162963867188,
+            565.0394287109375
+          ]
+        },
+        {
+          "id": "p2-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p2-figure1.png",
+          "alt": "Original source page 2, graphic 1",
+          "caption": "原文第2页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p2-b8-4cd4c7c",
+          "kind": "paragraph",
+          "text": "Fig. 1. Adopted Research Methodology.",
+          "bbox": [
+            233.17799377441406,
+            732.7945556640625,
+            366.345458984375,
+            744.5223999023438
+          ]
+        },
+        {
+          "id": "p2-b9-806ab8d",
+          "kind": "paragraph",
+          "text": "Table 1 \nOverview of the use cases.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            125.89347076416016,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p2-b10-93f2a2f",
+          "kind": "paragraph",
+          "text": "Trial/ \nsector \nUse Case (# and name \nIoF2020) \nUse case challenge \nFocal \ncountry \nChain role \nAdopter type \nConventional/ \nOrganic",
+          "bbox": [
+            43.5968017578125,
+            76.22341918945312,
+            544.3485107421875,
+            95.20829772949219
+          ]
+        },
+        {
+          "id": "p2-b11-bed7bf4",
+          "kind": "paragraph",
+          "text": "Arable \n1.1 Within-field \nmanagement zoning \ndefining specific field management zones by developing and \nlinking sensing- and actuating devices with external data \nNL \nFarming, \nLogistics \nEarly adopters \nand majority \nBoth",
+          "bbox": [
+            43.5968017578125,
+            97.93655395507812,
+            516.8619995117188,
+            116.92142486572266
+          ]
+        },
+        {
+          "id": "p2-b12-d427bf1",
+          "kind": "paragraph",
+          "text": "Dairy \n2.2 Happy Cow \nimproving dairy farm productivity through 3D cow activity \nsensing and cloud machine learning technologies \nNL \nFarming \nEarly \nAdopters \nBoth",
+          "bbox": [
+            43.5968017578125,
+            115.05711364746094,
+            516.8619995117188,
+            134.0426483154297
+          ]
+        },
+        {
+          "id": "p2-b13-0c1db4d",
+          "kind": "paragraph",
+          "text": "Vegs \n4.2 Chain-integrated \ngreenhouse production \nintegrating the value chain and quality innovation by \ndeveloping a full sensor-actuator-based system in tomato \ngreenhouses",
+          "bbox": [
+            43.5968017578125,
+            132.17831420898438,
+            328.1142883300781,
+            159.78086853027344
+          ]
+        },
+        {
+          "id": "p2-b14-8efbb62",
+          "kind": "paragraph",
+          "text": "SP \nFarming, \nLogistics, \nConsumption",
+          "bbox": [
+            347.80755615234375,
+            132.17831420898438,
+            427.1709289550781,
+            159.78086853027344
+          ]
+        },
+        {
+          "id": "p2-b15-71ddbf8",
+          "kind": "paragraph",
+          "text": "Majority \nBoth",
+          "bbox": [
+            442.4833068847656,
+            132.17831420898438,
+            516.8619995117188,
+            142.60292053222656
+          ]
+        },
+        {
+          "id": "p2-b16-0ba7130",
+          "kind": "paragraph",
+          "text": "Vegs \n4.3 Added value weeding \ndata \nboosting the value chain by harvesting weeding data of \norganic vegetables obtained by advanced visioning systems \nNL, AT \nFarming \nMajority \nOrganic",
+          "bbox": [
+            43.5968017578125,
+            157.9165496826172,
+            525.9732666015625,
+            176.90208435058594
+          ]
+        },
+        {
+          "id": "p2-b17-2eea8fd",
+          "kind": "paragraph",
+          "text": "Meat \n5.1 Pig farm management \noptimizing pig production management by interoperable on- \nfarm sensors and slaughterhouse data \nBE, NL \nFarming, \nProcessing, \nConsumption",
+          "bbox": [
+            43.5968017578125,
+            175.03775024414062,
+            427.1709289550781,
+            202.58355712890625
+          ]
+        },
+        {
+          "id": "p2-b18-4e746fd",
+          "kind": "paragraph",
+          "text": "Both \nBoth",
+          "bbox": [
+            442.4833068847656,
+            175.03775024414062,
+            518.7301025390625,
+            185.4623565673828
+          ]
+        },
+        {
+          "id": "p2-b19-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.58751678466797,
+            33.6477165222168,
+            501.5130920410156,
+            44.07231140136719
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p3-b1-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p3-b2-e06d2c9",
+          "kind": "paragraph",
+          "text": "The case study was carried out as part of the European IoF2020 \nproject in close interaction with involved business partners (Verdouw \net al., 2017). The project included 19 IoT use cases that were organized \nin five coherent trials that aim to address the most relevant challenges \nfor the concerned sub sector (Verdouw et al., 2019). We have selected \ncases that were expected to be appropriate for illustrating the use of the \nDigital Twin concept, especially due to including dynamic mirroring of \nreal and virtual objects by using IoT technologies. In total five cases were \nselected as being representative for different agricultural sub-sectors \n(Table 1). \nMore specifically, the research was organized in three phases \n(Fig. 1): (i) domain analysis, (ii) framework design and (iii) application \nto the cases (Fig. 1). \nFirstly, the research started with a domain analysis to develop key \nconcepts based on a narrative literature review in the Scopus database \nand Google Scholar. We first searched for papers that include Digital \nTwin or Digital Twins in the title. We selected papers that thoroughly \ndefine the concept and review papers. Case studies that only mention \nDigital Twin without a more elaborate definition were excluded from \nthe study. The concept of Digital Twins is relatively new and as a \nconsequence it is used in different meanings. The definition study has \ntherefore identified main perspectives and definitions on Digital Twins \nin literature, especially in the Product Lifecycle Management and \nInternet of Things domain. Based on this analysis, we have developed a \ntypology of Digital Twins, including distinct control capabilities. Finally, \nthe domain analysis has reviewed existing literature on the usage of \nDigital Twins in the context of smart farming. At this, we searched for \npapers that on the one hand include Digital Twin in the title and on the \nother hand agriculture or farming in the title, abstract or the keywords",
+          "bbox": [
+            37.58807373046875,
+            182.9967498779297,
+            291.03009033203125,
+            488.9569396972656
+          ]
+        },
+        {
+          "id": "p3-b3-b20d80f",
+          "kind": "paragraph",
+          "text": "section. Non-English and non-accessible papers were excluded from the \nstudy. \nSecondly, a conceptual framework was developed for designing and \nimplementing Digital Twins in farm management. This paper focuses on \nproviding a sound conceptual basis for the implementation of Digital \nTwins in smart farming, including the management aspects of using \nDigital Twins to plan, monitor, control and optimize farm processes. It is \nbeyond the scope of this paper to develop a detailed reference archi­\ntecture that can be used to model and realize Digital Twin-based infor­\nmation systems. For this reason, the framework includes two model \ntypes that represent the essence of a Digital Twin from a management \nviewpoint (control model) and from an information technology view­\npoint (implementation model). The control model is based on a general \nsystems approach. A control model represents the control functions \nneeded to ensure that a system’s objectives are achieved, even if dis­\nturbances occur, and information flows among these functions. Based on \nthe literature review, the control model for object virtualization of \nVerdouw et al. (2015) was selected as a basis of this view. The imple­\nmentation model classifies technical functionalities into different tech­\nnical layers ranging from device layer to application layer, as such it \nprovides an overview of the technical architecture. Based on the liter­\nature review, the IoT-A reference architecture was selected as a basis of \nthis view (Carrez et al., 2013). \nThirdly, the conceptual framework was applied to cases. We have \nadopted the case study empirical evaluation protocol as discussed by \nRuneson and H¨ost (2008). The protocol consists of the following steps: \n(1) case study design (2) preparation for data collection (3) execution \nwith data collection on the studied case (4) analysis of collected data (5) \nreporting. Table 2 presents the case study design steps for the selected \ncases. The primary purpose of the case study is to understand the \napplicability of the presented Digital Twin framework in smart farming. \nThe data were collected by desk research of use case documentation and \ninterviews with the lead architect of every use case. The interviews were \nconducted based on a semi-structured questionnaire comprising ques­\ntions in three categories: i) use case definition, including the problem \ncontext, core idea, objective, development status, etc.; ii) use case \nmapping, including main business processes targeted, objects addressed, \nmain actors using the envisaged system; and iii) use case information \narchitecture, including the main functionalities/services to be provided \nto end-users, non-functional requirements, technology components \nenvisioned, reusability, privacy/security, standards usage and available \ndocumentation. Subsequently, the researchers designed case-specific",
+          "bbox": [
+            306.5924987792969,
+            51.300418853759766,
+            560.0217895507812,
+            493.2089538574219
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b5-195f917",
+          "kind": "paragraph",
+          "text": "Fig. 2. Role of Digital Twins during the Product Life Cycle.",
+          "bbox": [
+            201.65699768066406,
+            732.7945556640625,
+            397.8399658203125,
+            744.5223999023438
+          ]
+        },
+        {
+          "id": "p3-b6-0dacbf0",
+          "kind": "paragraph",
+          "text": "Table 2 \nCase study design.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            100.27655029296875,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p3-b7-d336d06",
+          "kind": "paragraph",
+          "text": "Case study design \nactivity \nCase study",
+          "bbox": [
+            43.5968017578125,
+            76.22341918945312,
+            150.00674438476562,
+            95.20829772949219
+          ]
+        },
+        {
+          "id": "p3-b8-079fe64",
+          "kind": "paragraph",
+          "text": "Goal \nAssessing the applicability of the Digital Twin framework \nin smart farming \nResearch Questions \nHow applicable is the adopted Digital Twin design \napproach? \nBackground and \nsource \nMeetings and interviews; technical reports; official project \ndeliverables \nData Collection \nIndependent data collection based on document analysis \nData Analysis \nQualitative data analysis",
+          "bbox": [
+            43.5968017578125,
+            97.93655395507812,
+            284.57073974609375,
+            168.34115600585938
+          ]
+        },
+        {
+          "id": "p3-b9-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.58751678466797,
+            33.6477165222168,
+            501.5130920410156,
+            44.07231140136719
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p4-b1-4b22777",
+          "kind": "paragraph",
+          "text": "4",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p4-b2-2b6fc91",
+          "kind": "paragraph",
+          "text": "control model and technical layer models for the use cases by using the \nconceptual framework as designed in phase 2. The resulting case- \nspecific models were reviewed by the use case leader and iteratively \nrefined by the research analyst. Finally, generic implications were \nabstracted from the case study findings and incorporated in the \nframework. \nThe remainder of the paper introduces the results following the \nresearch steps as described above.",
+          "bbox": [
+            37.587398529052734,
+            286.8587646484375,
+            291.007080078125,
+            373.1358642578125
+          ]
+        },
+        {
+          "id": "p4-b3-d94e1a5",
+          "kind": "heading",
+          "text": "3. Definition and typology of Digital Twins",
+          "bbox": [
+            37.587398529052734,
+            381.02471923828125,
+            206.88665771484375,
+            394.0558166503906
+          ]
+        },
+        {
+          "id": "p4-b4-b30c7c2",
+          "kind": "heading",
+          "text": "3.1. What is a Digital Twin?",
+          "bbox": [
+            37.587398529052734,
+            401.9438171386719,
+            138.4139404296875,
+            414.97491455078125
+          ]
+        },
+        {
+          "id": "p4-b5-d003305",
+          "kind": "paragraph",
+          "text": "The principles behind the Digital Twin vision origin from the Product \nLifecycle Management domain (Grieves, 2005). From this perspective, \nthere is a strong need to integrate all product-related information in a \ncomprehensive product management system that can be accessed by any \nuser in any stage of the Product Life Cycle, for example for through-life \nperformance information, design optimization and manufacturing sys­\ntem improvement (Philpotts, 1996; Kovacs et al., 1998; Sudarsan et al., \n2005; Schleich et al., 2017). It was proposed to use a digital counterpart \nof each physical product as a central means to manage product data \nalong the product life cycle. In the beginning of the century, Michael \nGrieves argued in a presentation to industry that a digital informational \nconstruct about a physical system could be created as an entity on its \nown (Grieves and Vickers, 2017). This virtual system contains all in­\nformation about the physical system and it is linked with that physical \nsystem through the entire lifecycle of the system (Grieves and Vickers, \n2017). NASA introduced the concept Digital Twin for this idea (Mike \nShafto et al., 2012), which was an ultra-high fidelity simulation of the \nspace vehicle that would allow the engineers on earth to mirror the \nprecise and actual conditions of the real vehicle during the mission \n(Glaessgen and Stargel, 2012; Boschert and Rosen, 2016). \nIn essence, Digital Twins are virtual, digital equivalents of physical \nobjects (Grieves and Vickers, 2017; Fuller et al., 2020). They are real- \ntime and remotely connected to real objects and provide rich repre­\nsentations of these objects and its context. Such Digital Twins go beyond \nstatic product designs, like CAD models, but comprise dynamic behav­\niour (Boschert and Rosen, 2016; Grieves and Vickers, 2017). This dy­\nnamic nature of Digital Twins may include the representation of current \nbehaviour of real-life objects, but also the simulation or prediction of \nfuture behaviour and the recollection of historical behaviour (Verdouw \net al., 2015; Boschert and Rosen, 2016).",
+          "bbox": [
+            37.587398529052734,
+            422.8637390136719,
+            291.03021240234375,
+            739.2552490234375
+          ]
+        },
+        {
+          "id": "p4-b6-45002d0",
+          "kind": "paragraph",
+          "text": "A Digital Twin can already be created in the design phase of an ob­\nject’s lifecycle, enhancing the creative phase of inventing new products \nand elaborating it into a detailed product model (see Fig. 2). In this \nstage, a Digital Twin allows early and efficient assessment of conse­\nquences of design decisions on the quality and function of products \nreducing the need to develop costly physical prototypes (Grieves and \nVickers, 2017; Schleich et al., 2017). After the design phase, a physical \nstage is entered, in which the Digital Twin comes into existence. A \nphysical object is produced based on the designed Digital Twin, which is \nupdated in case of any deviations. During operational usage, the current \nand historical state and conditions of a physical product are monitored \nby using sensors and AutoID devices. Moreover, the Digital Twin can be \nused to remotely control an object by using actuators. Finally, the \ndisposal phase takes place, in which the physical object is disposed, but \nthe conceptual object may remain for some period e.g. for traceability, \ncompliance and learning. \nWhile originating from Product Lifecycle literature, a key technology \nfor realizing Digital Twins is the Internet of Things (Marr, 2017). The \ninteraction between real/physical and digital/virtual objects is an \nessential concept behind the Internet of Things. In the IoT, physical \nentities have digital counterparts; things themselves become context- \naware and they can sense, communicate, act, interact with their digi­\ntal counterparts and others, exchange data, information and knowledge \n(Sundmaeker et al., 2010). These counterparts are twins of the physical \nobjects and can be linked to and synchronized with the physical object \nthroughout their lifecycle (Verdouw et al., 2015; Canedo, 2016; Grieves \nand Vickers, 2016). The Internet acts as a storage and communication \ninfrastructure that holds a virtual representation of things linking rele­\nvant information with the object (Uckelmann et al., 2011). As such, \nDigital Twins serve as central hubs of object information, which \ncombine and update data continuously from a wide range of sources, as \nillustrated in Fig. 3 (Verdouw et al., 2013). \nThe emergence of Digital Twins in literature has resulted in various \ndefinitions both from a Product Life Cycle (PLC) and an Internet of \nThings (IoT) perspective (see Table 3) and is discussed below. \nIn the IoT literature, the digital representation of physical objects \nusing sensing technologies is highlighted. In the PLC literature, the \nemphasis is on mirroring real-life objects across their lifecycle, including \nsimulation of expected object behaviour. In this paper we combine both \nperspectives and use the following definition: “A Digital Twin is a dy­\nnamic representation of a real-life object that mirrors its states and \nbehaviour across its lifecycle and that can be used to monitor, analyze \nand simulate current and future states of and interventions on these",
+          "bbox": [
+            306.5926208496094,
+            286.8587646484375,
+            560.0178833007812,
+            739.2552490234375
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-b8-93389ed",
+          "kind": "paragraph",
+          "text": "Fig. 3. Digital Twin in the Internet of Things.",
+          "bbox": [
+            223.6540069580078,
+            265.361083984375,
+            375.8636169433594,
+            277.0889587402344
+          ]
+        },
+        {
+          "id": "p4-b9-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p5-b1-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p5-b2-f9d942b",
+          "kind": "paragraph",
+          "text": "objects, using data integration, artificial intelligence and machine \nlearning.” More specifically, based on literature as listed in Table 3, the \nfollowing essential characteristics of Digital Twins can be addressed:",
+          "bbox": [
+            306.5950012207031,
+            199.09776306152344,
+            559.989990234375,
+            233.04800415039062
+          ]
+        },
+        {
+          "id": "p5-b3-b571727",
+          "kind": "paragraph",
+          "text": "• Timeliness: a Digital Twin reflects its physical twin in (near) real- \ntime, which means that state changes of the physical object are \n(immediately) detected and synchronized with its Digital Twin \n(Verdouw et al., 2015; Dur˜ao et al., 2018; Mikell and Clark, 2018; \nTao et al., 2018; Knibbe et al., 2019; Park et al., 2019); \n• Fidelity: the reliability and security of a Digital Twin must be un­",
+          "bbox": [
+            310.9602355957031,
+            240.99339294433594,
+            560.0178833007812,
+            306.2948303222656
+          ]
+        },
+        {
+          "id": "p5-b4-daa13b3",
+          "kind": "paragraph",
+          "text": "questionable, allowing to blindly trust Digital Twins for decision \nmaking (Verdouw et al., 2015; Dur˜ao et al., 2018; Tao et al., 2018);  \n• Integration: a Digital Twin integrates data from different aspects of \nthe physical object and ensures convergence in a consistent format \n(Schleich et al., 2017; Kritzinger et al., 2018; Tao et al., 2018; Park \net al., 2019);  \n• Intelligence: Digital Twins do not only depict object data, but also \ninclude algorithms that describe, analyze or predict the behaviour of \ntheir physical twins (Glaessgen and Stargel, 2012; Schleich et al., \n2017; Dur˜ao et al., 2018; Kritzinger et al., 2018; Knibbe et al., 2019; \nPark et al., 2019; Shaw and Fruhlinger, 2019); \n• Complexity: Digital Twins can mirror different types of physical ob­",
+          "bbox": [
+            310.9602355957031,
+            303.7515869140625,
+            562.345947265625,
+            431.8111267089844
+          ]
+        },
+        {
+          "id": "p5-b5-e97af96",
+          "kind": "paragraph",
+          "text": "jects, including products, components, living and non-living re­\nsources, components and processes (Marr, 2017; Saddik, 2018). \nMoreover, Digital Twins may consider multiple interdependent ob­\njects as well as sub systems at different levels of granularity \n(Glaessgen and Stargel, 2012; Verdouw et al., 2016b; Grieves and \nVickers, 2017).",
+          "bbox": [
+            318.49993896484375,
+            429.2686767578125,
+            560.0107421875,
+            494.570068359375
+          ]
+        },
+        {
+          "id": "p5-b6-dbf87fd",
+          "kind": "heading",
+          "text": "3.2. Digital Twin typology",
+          "bbox": [
+            306.5950012207031,
+            512.2095336914062,
+            398.82977294921875,
+            525.2406616210938
+          ]
+        },
+        {
+          "id": "p5-b7-012e0b2",
+          "kind": "paragraph",
+          "text": "The focus of Digital Twins is on the usage phase of the lifecycle \n(Fig. 2) in which Digital Twins are connected to their real-life physical \ntwins. During that phase, Digital Twins can be used to monitor the actual \nstate of objects, prescribe desired states, predict future states, and to \nremotely correct the state of real-life objects. Before the usage stage, \nDigital Twins can already be created to define and simulate the states \nand behaviour of its real-life twins that are not yet born. Last, after the \nusage phase, Digital Twins will remain conceptually alive and can be \nused to recollect the historical states of real-life objects. As a result, we \ndefined a typology of six distinct Digital Twins (based on Porter and \nHeppelmann, 2014; Verdouw et al., 2015; Hagerty, 2016; Verdouw \net al., 2016b; Grieves and Vickers, 2017; Redelinghuys et al., 2019; \nLepenioti et al., 2020):",
+          "bbox": [
+            306.5950012207031,
+            533.128662109375,
+            560.0307006835938,
+            671.6768798828125
+          ]
+        },
+        {
+          "id": "p5-b8-e08fa65",
+          "kind": "paragraph",
+          "text": "• Imaginary Digital Twin: a conceptual entity that depicts an object that \ndoes not yet exist in real-life. It defines the information needed to \nmaterialize its physical twin including for example functional re­\nquirements, 3D product models, material and resource specifica­\ntions, production models, and disposal and recycling specifications \n(Verdouw et al., 2015; Grieves and Vickers, 2017). Imaginary twins",
+          "bbox": [
+            310.9602355957031,
+            679.565673828125,
+            560.0123291015625,
+            744.9237060546875
+          ]
+        },
+        {
+          "id": "p5-b9-e2775ba",
+          "kind": "paragraph",
+          "text": "Table 3 \nDigital Twin definitions classified into two perspectives: Internet of Things (IoT) \nand Product Life Cycle (PLC); further discussion in text.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            290.751953125,
+            83.42589569091797
+          ]
+        },
+        {
+          "id": "p5-b10-84249b0",
+          "kind": "paragraph",
+          "text": "Source \nDefinition Digital Twin \nMain \nperspective",
+          "bbox": [
+            43.5968017578125,
+            85.74838256835938,
+            278.6800231933594,
+            104.79000854492188
+          ]
+        },
+        {
+          "id": "p5-b11-b399b5c",
+          "kind": "paragraph",
+          "text": "Boschert and \nRosen, 2016",
+          "bbox": [
+            43.5968017578125,
+            107.51762390136719,
+            86.35486602783203,
+            126.50313568115234
+          ]
+        },
+        {
+          "id": "p5-b12-e2cf261",
+          "kind": "paragraph",
+          "text": "A Digital Twin is a comprehensive physical \nand functional description of a component, \nproduct or system, which includes more or \nless all information which could be useful in \nall—the current and subsequent—lifecycle \nphases.",
+          "bbox": [
+            103.9740219116211,
+            107.51762390136719,
+            231.69029235839844,
+            160.7449188232422
+          ]
+        },
+        {
+          "id": "p5-b13-ce1d734",
+          "kind": "paragraph",
+          "text": "PLC",
+          "bbox": [
+            242.07601928710938,
+            107.51762390136719,
+            255.0190887451172,
+            117.94221496582031
+          ]
+        },
+        {
+          "id": "p5-b14-dea4fbf",
+          "kind": "paragraph",
+          "text": "Dur˜ao et al., \n2018",
+          "bbox": [
+            43.5968017578125,
+            158.8812255859375,
+            80.53621673583984,
+            177.86611938476562
+          ]
+        },
+        {
+          "id": "p5-b15-3228cb5",
+          "kind": "paragraph",
+          "text": "Digital Twin is a multi-physical, multi-scale \nand probabilistic simulation model of a \ncomplex product. It uses updated sensors and \nphysical models to mirror physical life in the \ndigital world and vice versa.",
+          "bbox": [
+            103.9740219116211,
+            158.8812255859375,
+            232.63075256347656,
+            203.60435485839844
+          ]
+        },
+        {
+          "id": "p5-b16-ce1d734",
+          "kind": "paragraph",
+          "text": "PLC",
+          "bbox": [
+            242.07601928710938,
+            158.8812255859375,
+            255.0190887451172,
+            169.3058319091797
+          ]
+        },
+        {
+          "id": "p5-b17-f06f486",
+          "kind": "paragraph",
+          "text": "Glaessgen and \nStargel, 2012",
+          "bbox": [
+            43.5968017578125,
+            201.74066162109375,
+            89.07610321044922,
+            220.72555541992188
+          ]
+        },
+        {
+          "id": "p5-b18-0ef0d74",
+          "kind": "paragraph",
+          "text": "A Digital Twin is an integrated multi-physics, \nmultiscale, probabilistic simulation of an as- \nbuilt vehicle or system that uses the best \navailable physical models, sensor updates, \nfleet history, etc., to mirror the life of its \ncorresponding flying twin.",
+          "bbox": [
+            103.9740219116211,
+            201.74066162109375,
+            232.65245056152344,
+            255.0247039794922
+          ]
+        },
+        {
+          "id": "p5-b19-ce1d734",
+          "kind": "paragraph",
+          "text": "PLC",
+          "bbox": [
+            242.07601928710938,
+            201.74066162109375,
+            255.0190887451172,
+            212.16526794433594
+          ]
+        },
+        {
+          "id": "p5-b20-b3fed0e",
+          "kind": "paragraph",
+          "text": "Fuller et al., 2020 \nThe effortless integration of data between a \nphysical and virtual machine in either \ndirection.",
+          "bbox": [
+            43.5968017578125,
+            253.16036987304688,
+            229.27511596679688,
+            280.7061767578125
+          ]
+        },
+        {
+          "id": "p5-b21-5aa5a4a",
+          "kind": "paragraph",
+          "text": "IoT",
+          "bbox": [
+            242.07601928710938,
+            253.16036987304688,
+            253.33584594726562,
+            263.5849609375
+          ]
+        },
+        {
+          "id": "p5-b22-f860f47",
+          "kind": "paragraph",
+          "text": "Grieves and \nVickers, 2017",
+          "bbox": [
+            43.5968017578125,
+            278.8418884277344,
+            90.21038055419922,
+            297.827392578125
+          ]
+        },
+        {
+          "id": "p5-b23-1235afa",
+          "kind": "paragraph",
+          "text": "The Digital Twin is a set of virtual \ninformation constructs that fully describes a \npotential or actual physical manufactured \nproduct from the micro atomic level to the \nmacro geometrical level. At its optimum, any \ninformation that could be obtained from \ninspecting a physical manufactured product \ncan be obtained from its Digital Twin.",
+          "bbox": [
+            103.9740219116211,
+            278.8418884277344,
+            232.6409454345703,
+            349.2471008300781
+          ]
+        },
+        {
+          "id": "p5-b24-ce1d734",
+          "kind": "paragraph",
+          "text": "PLC",
+          "bbox": [
+            242.07601928710938,
+            278.8418884277344,
+            255.0190887451172,
+            289.2664794921875
+          ]
+        },
+        {
+          "id": "p5-b25-88acad3",
+          "kind": "paragraph",
+          "text": "Knibbe et al., \n2019",
+          "bbox": [
+            43.5968017578125,
+            347.3827819824219,
+            83.08721160888672,
+            366.3683166503906
+          ]
+        },
+        {
+          "id": "p5-b26-5143a85",
+          "kind": "paragraph",
+          "text": "Digital Twins are computational \nrepresentations of both living and non-living \nobjects and processes. They can be used to \ndescribe, analyze and simulate current and \nfuture states of and interventions in these \nobjects, using data integration, artificial \nintelligence and machine learning.",
+          "bbox": [
+            103.9740219116211,
+            347.3827819824219,
+            232.41139221191406,
+            409.2277526855469
+          ]
+        },
+        {
+          "id": "p5-b27-5aa5a4a",
+          "kind": "paragraph",
+          "text": "IoT",
+          "bbox": [
+            242.07601928710938,
+            347.3827819824219,
+            253.33584594726562,
+            357.807373046875
+          ]
+        },
+        {
+          "id": "p5-b28-e818a1a",
+          "kind": "paragraph",
+          "text": "Marr, 2017 \nA Digital Twin is a virtual model of a process, \nproduct or service. This pairing of the virtual \nand physical worlds allows analysis of data \nand monitoring of systems to head off \nproblems before they even occur, prevent \ndowntime, develop new opportunities and \neven plan for the future by using simulations.",
+          "bbox": [
+            43.5968017578125,
+            407.3634338378906,
+            232.63906860351562,
+            469.2077331542969
+          ]
+        },
+        {
+          "id": "p5-b29-5aa5a4a",
+          "kind": "paragraph",
+          "text": "IoT",
+          "bbox": [
+            242.07601928710938,
+            407.3634338378906,
+            253.33584594726562,
+            417.78802490234375
+          ]
+        },
+        {
+          "id": "p5-b30-a7bfa8d",
+          "kind": "paragraph",
+          "text": "Mikell and Clark, \n2018",
+          "bbox": [
+            43.5968017578125,
+            467.3440856933594,
+            94.37191772460938,
+            486.3289489746094
+          ]
+        },
+        {
+          "id": "p5-b31-c77a2bf",
+          "kind": "paragraph",
+          "text": "The Digital Twin is the virtual representation \nof a physical object or system across its life- \ncycle. It uses real-time data and other sources \nto enable learning, reasoning, and \ndynamically recalibrating for improved \ndecision making.",
+          "bbox": [
+            103.9740219116211,
+            467.3440856933594,
+            232.62948608398438,
+            520.6281127929688
+          ]
+        },
+        {
+          "id": "p5-b32-ae23456",
+          "kind": "paragraph",
+          "text": "PLC/IoT",
+          "bbox": [
+            242.07601928710938,
+            467.3440856933594,
+            267.5350036621094,
+            477.7686767578125
+          ]
+        },
+        {
+          "id": "p5-b33-23bac87",
+          "kind": "paragraph",
+          "text": "Saddik, 2018 \nA Digital Twin is a digital replica of a living or \nnon-living physical entity. By bridging the \nphysical and the virtual world, data is \ntransmitted seamlessly allowing the virtual \nentity to exist simultaneously with the \nphysical entity.",
+          "bbox": [
+            43.5968017578125,
+            518.7638549804688,
+            232.6148223876953,
+            571.9910888671875
+          ]
+        },
+        {
+          "id": "p5-b34-5aa5a4a",
+          "kind": "paragraph",
+          "text": "IoT",
+          "bbox": [
+            242.07601928710938,
+            518.7638549804688,
+            253.33584594726562,
+            529.1884155273438
+          ]
+        },
+        {
+          "id": "p5-b35-cced42a",
+          "kind": "paragraph",
+          "text": "Schleich et al., \n2017",
+          "bbox": [
+            43.5968017578125,
+            570.1835327148438,
+            86.8285903930664,
+            589.1690063476562
+          ]
+        },
+        {
+          "id": "p5-b36-f487da9",
+          "kind": "paragraph",
+          "text": "The Digital Twin is not one complete model \nof the physical product, but a set of linked \noperation data artefacts and simulation \nmodels, which are of suitable granularity for \ntheir intended purpose and evolve \nthroughout the product life-cycle. Thus, the \nDigital Twin not only serves representation \npurposes but is also applicable for making \npredictions about the expected product \nbehaviour, while the granularity of the \nsimulation models fits to their purpose and \nevolves from early design stages, where \nsimple product models are used to decide \nabout product concepts, to detail design, \nwhere sophisticated simulation models \nsupport the dimensioning and design of parts \nand subassemblies.",
+          "bbox": [
+            103.9740219116211,
+            570.1835327148438,
+            232.61099243164062,
+            717.6906127929688
+          ]
+        },
+        {
+          "id": "p5-b37-ce1d734",
+          "kind": "paragraph",
+          "text": "PLC",
+          "bbox": [
+            242.07601928710938,
+            570.1835327148438,
+            256.8872375488281,
+            580.6080932617188
+          ]
+        },
+        {
+          "id": "p5-b38-c42d2ef",
+          "kind": "paragraph",
+          "text": "Table 3 (continued)",
+          "bbox": [
+            306.5950012207031,
+            52.53608322143555,
+            371.4869689941406,
+            64.2639389038086
+          ]
+        },
+        {
+          "id": "p5-b39-84249b0",
+          "kind": "paragraph",
+          "text": "Source \nDefinition Digital Twin \nMain \nperspective",
+          "bbox": [
+            312.6050109863281,
+            66.64242553710938,
+            547.6882934570312,
+            85.62730407714844
+          ]
+        },
+        {
+          "id": "p5-b40-a14f64d",
+          "kind": "paragraph",
+          "text": "Shaw and \nFruhlinger, \n2019",
+          "bbox": [
+            312.6050109863281,
+            88.35556030273438,
+            351.84613037109375,
+            115.90071868896484
+          ]
+        },
+        {
+          "id": "p5-b41-a72903b",
+          "kind": "paragraph",
+          "text": "A Digital Twin is a computer program that \ntakes real-world data about a physical object \nor system as inputs and produces as outputs \npredications or simulations of how that \nphysical object or system will be affected by \nthose inputs.",
+          "bbox": [
+            372.98223876953125,
+            88.35556030273438,
+            501.62493896484375,
+            141.6389617919922
+          ]
+        },
+        {
+          "id": "p5-b42-5aa5a4a",
+          "kind": "paragraph",
+          "text": "IoT",
+          "bbox": [
+            511.084228515625,
+            88.35556030273438,
+            522.3441162109375,
+            98.7801513671875
+          ]
+        },
+        {
+          "id": "p5-b43-107df1e",
+          "kind": "paragraph",
+          "text": "Verdouw et al., \n2015",
+          "bbox": [
+            312.6050109863281,
+            139.7752685546875,
+            357.8216247558594,
+            158.76016235351562
+          ]
+        },
+        {
+          "id": "p5-b44-09a999b",
+          "kind": "paragraph",
+          "text": "A virtual object can be defined as ‘a digital \nrepresentation of an object, with a unique \nidentification, that can be trusted, possesses \nthe property of integrity, is timely available, \nand can be used for the intended purpose’.",
+          "bbox": [
+            372.98223876953125,
+            139.7752685546875,
+            500.7144775390625,
+            184.441650390625
+          ]
+        },
+        {
+          "id": "p5-b45-5aa5a4a",
+          "kind": "paragraph",
+          "text": "IoT",
+          "bbox": [
+            511.084228515625,
+            139.7752685546875,
+            524.2122192382812,
+            150.1998748779297
+          ]
+        },
+        {
+          "id": "p5-b46-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.590789794921875,
+            33.64778518676758,
+            501.51739501953125,
+            44.07238006591797
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p6-b1-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p6-b2-b22d7b2",
+          "kind": "paragraph",
+          "text": "can also simulate the behaviour of designed, not yet existing, objects \nbetween tolerance norms (Grieves and Vickers, 2017).  \n• Monitoring Digital Twin: a digital representation of the actual state, \nbehaviour and trajectory of a real-life physical object. It is connected \n(near) real-time to its physical twin and is used to monitor its con­\ndition, operation, and external environment. A monitoring Digital \nTwin can be both descriptive, providing insight in what happens or \nhappened with the connected real-life object, and diagnostic, \nexplaining why it happens or happened by relating the object to \ncontextual data.  \n• Predictive Digital Twin: a digital projection of the future states and \nbehaviour of physical objects using predictive analytics, such as \nstatistical forecasting, simulation and machine learning methods. \nPrediction is done dynamically based on (near) real-time data of the \nphysical twin.  \n• Prescriptive Digital Twin: a smart digital object that adds intelligence \nfor recommending corrective and preventive actions on the real-life \nobjects usually based on optimization algorithms and expert heu­\nristics. Prescriptive twins use the output of monitoring and predictive \ntwins as an input to suggest which courses of action need to be taken \nto reach a favourable outcome (Hagerty, 2016). The decisions on the \nrecommended actions still are taken by humans, who also trigger the \nremote or on-site execution of interventions.  \n• Autonomous Digital Twin: operates autonomously and fully controls \nthe behaviour of real-life objects without on-site or remote inter­\nvention by humans. Autonomous twins also can become self- \nadaptive systems that are able to learn about their environment, \nself-diagnose their own service needs, and adapt to users’ prefer­\nences (Porter and Heppelmann, 2014; Verdouw et al., 2016b).  \n• Recollection Digital Twin: maintains the complete history of the \nphysical object, which no longer exists in real-life. As such, recol­\nlection twins form the digital memory of e.g. a farm. This type of \nDigital Twins is often neglected in literature, but it is increasingly \nimportant for reducing the environmental impact of disposals and for \noptimization of the next generation objects (Grieves and Vickers, \n2017). In the context of farming, recollection twins are also of crucial \nimportance for tracing products to its source in case of food safety \nissues and for sustainability compliance.",
+          "bbox": [
+            41.95318603515625,
+            51.29973220825195,
+            291.0331726074219,
+            451.3692321777344
+          ]
+        },
+        {
+          "id": "p6-b3-0a89fe3",
+          "kind": "paragraph",
+          "text": "One should notice that the above listed properties are not indepen­\ndent and a Digital Twin do not necessarily belong to one category but \nmay combine features of different types. For example, Digital Twins \nduring the usage phase build upon each other’s capabilities. An auton­\nomous Digital Twin will typically also be a prescriptive Digital Twin, a \npredictive twin usually also includes predictive capabilities, and a pre­\ndictive twin can also include a monitoring Digital Twin. \nSo far we have defined the concept of Digital Twins and introduced a \ntypology of Digital Twins based on generic literature in the Product Life \nCycle and IoT domain. In the remainder of this section we introduce the \nusage of Digital Twins in the context of smart farming.",
+          "bbox": [
+            37.58796310424805,
+            459.2580871582031,
+            291.0108337402344,
+            576.8864135742188
+          ]
+        },
+        {
+          "id": "p6-b4-7aa4d28",
+          "kind": "heading",
+          "text": "3.3. Digital Twins in farm management",
+          "bbox": [
+            37.58796310424805,
+            585.4550170898438,
+            174.326171875,
+            598.4861450195312
+          ]
+        },
+        {
+          "id": "p6-b5-cfb3076",
+          "kind": "paragraph",
+          "text": "Farming is a highly complex and dynamic domain. Production pro­\ncesses are inherently dynamic because they depend on natural condi­\ntions, such as weather, diseases, soil conditions, seasonability and \nclimate (Fountas et al., 2013; Trienekens et al., 2014). Moreover, \nfarmers have to deal with critical demands from consumers and society \nconcerning food security, food safety, sustainability and health. As a \nconsequence, farms should not only be very efficient, but also have to \nmeet high quality and environmental standards and should adapt to \nchanging market conditions. This imposes high requirements on the \nmanagerial tasks of farmers (Sørensen et al., 2010; Fountas et al., 2013). \nThey constantly have to reassess production strategies and to reschedule \nplanned activities based on timely monitoring of farm operations in \norder to achieve their goals.",
+          "bbox": [
+            37.58796310424805,
+            606.3741455078125,
+            291.02838134765625,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p6-b6-0f350d1",
+          "kind": "paragraph",
+          "text": "As argued in the introduction section, Digital Twins can significantly \nenhance the needed control capabilities by enabling the decoupling of \nphysical and information aspects of farm management (Fig. 4). How­\never, implementing Digital Twins in farm management is a challenging \ntask for (at least) three reasons (Verdouw et al., 2016b). \nFirst of all, the highly dynamic production system in agriculture \n(process dynamics) poses requirements that go beyond many other \nsectors concerning the capabilities of Digital Twins to mirror dynamic \nbehaviour. In such a dynamic environment, it is really challenging to get \nseamless access to object data while ensuring the integrity of data and \nrespecting usage rights, safety and security. Furthermore, real-time \nsynchronization can be complicated in rural areas, which often have \nlimited coverage and bandwidth. \nSecond, agricultural products are living objects that inherently are \ndiverse and are characterized by complex behaviour. Moreover, farms \ndon’t have one Digital Twin of concern for smart farming, but they are \ncomposed of a large variety of interrelated objects (object complexity). \nMain objects are i) inputs including seeds, feed, fertilizers or pesticides, \nii) throughputs including objects in production (e.g. growing crops or \nanimals) and resources including fields, stables, machinery and \npersonnel, and iii) agricultural output including harvested (lots of) \ncrops, animals ready to be slaughtered, etc. Digital Twins of a fine \ngranularity level, e.g. up to individual plants or animals, would add \nmore value, but are also more difficult to implement, which results in \nhigher costs. In case of a fine granularity, a key challenge is to manage \nthe interdependences between (sub) Digital Twins at different granu­\nlarity levels. \nThird, farms are part of a dynamic network and share data with many \nstakeholders including customers, input suppliers, farmer cooperatives, \nadvisors, contractors, and certification and inspection organizations \n(network dynamics). These stakeholders may also have access to the \nfarmer’s Digital Twins, but limited to the information that they need. \nThis implies that there must be interoperable solutions for providing \nexternal access to specific views on Digital Twins in a secure and trusted \nway. Vice versa, external stakeholders can enrich farm Digital Twins \nwith a wealth of (3rd party) archives such as historical and forecasted \nmeteorological data, satellite data, soil-, water- and air-analyses, etc. \nThere should be proper mechanisms in place to dynamically integrate \nthese data in farm Digital Twins. \nDigital Twins can be seen as a new phase in smart farming. It is \nbuilding upon existing technologies especially for precision farming, \nInternet of Things and simulation. As a consequence, there are multiple \napplications in the agricultural domain, although often not framed as \nDigital Twins. However, most of these applications are still rather basic \nforms of Digital Twins, focusing for example on digital representation in \na cloud dashboard. More advanced applications, including e.g. predic­\ntive and prescriptive capabilities across the lifecycle, are still in an early",
+          "bbox": [
+            306.5923767089844,
+            248.47520446777344,
+            560.0193481445312,
+            742.7114868164062
+          ]
+        },
+        {
+          "id": "p6-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p6-figure1.png",
+          "alt": "Original source page 6, graphic 1",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-b8-cf377b6",
+          "kind": "paragraph",
+          "text": "Fig. 4. Virtual control of farming enabled by Digital Twins.",
+          "bbox": [
+            335.7919921875,
+            227.0370635986328,
+            532.676513671875,
+            238.76490783691406
+          ]
+        },
+        {
+          "id": "p6-b9-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p7-b1-7902699",
+          "kind": "paragraph",
+          "text": "7",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p7-b2-51709fb",
+          "kind": "paragraph",
+          "text": "stage of development. In our literature review, we only found a few \nexplorative studies and some case studies that frame an IoT-based sys­\ntem as a Digital Twin, without a detailed motivation or definition of the \nconcept. These papers, which are discussed below, are all congress pa­\npers, except one book chapter. \nTo the best of our knowledge, Verdouw and Kruize (2017) were the \nfirst who explored the application of Digital Twins in farm management. \nThe paper considers Digital Twins from an Internet of Things perspec­\ntive, in which physical objects have virtual, digital equivalents that are \nreal-time and remotely connected. Illustrated by six cases of the FIWARE \nAccelerator program, the paper shows that Digital Twins are already \nimplicitly used in smart farming, but existing applications mostly focus \non basic monitoring capabilities. The authors argue that these capabil­\nities establish a basis for optimization, simulation and decision support \nbased on on-line Digital Twins.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0334167480469,
+            210.76707458496094
+          ]
+        },
+        {
+          "id": "p7-b3-6c921be",
+          "kind": "paragraph",
+          "text": "Jo et al. (2018) conducted a feasibility study on using Digital Twins \nin pig farms to improve animal welfare. They introduce thre so-called \nDigital Twin platforms (Prefix, Ditto and Watson) and proposed a \ndesign smart livestock farming system using such a Digital Twin plat­\nform. The paper states that a Digital Twin is the digital replica of the real \nworld, but it does not further elaborate on the concept, neither it de­\nscribes how the designed system supports Digital Twins.",
+          "bbox": [
+            37.587398529052734,
+            208.2238311767578,
+            291.0222473144531,
+            284.0130920410156
+          ]
+        },
+        {
+          "id": "p7-b4-bdef921",
+          "kind": "paragraph",
+          "text": "Monteiro et al. (2018) present a technical IoT-based model and a \nprototype to implement Digital Twins in vertical farming. Digital Twins \nare defined as digital mirrors of physical objects. The Digital Twin \ndesigned in the paper is envisioned to support the lifecycle of planning, \noperation, monitoring, and optimization of vertical farms. The focus of \nthe prototype is on sensing and controlling the conditions via light and \nmisting.",
+          "bbox": [
+            37.587398529052734,
+            281.4140625,
+            291.03021240234375,
+            357.2599182128906
+          ]
+        },
+        {
+          "id": "p7-b5-c4bb31a",
+          "kind": "paragraph",
+          "text": "Alves et al. (2019) developed an IoT-based prototype to sense field \nconditions including soil moisture, air temperature and humidity, and to \nvisualize this information in a dashboard. This prototype is called a \nDigital Twin, in which data flows automatically between a physical and \na digital object. The authors argue that a Digital Twin enables farmers to \nmake better decisions and to decrease the environmental impact in \nwater, land and soil resources. \nIn the research of Kampker et al. (2019), a Digital Twin is an artificial \npotato, which is planted in the field and harvested just as real potatoes. \nThe ‘digital’ potato is equipped with sensors that measure its treatment, \nespecially shocks, blows and rotation speed, etc. This information is used \nto adjust the settings of the harvesting machine, thus minimizing dam­\nage to the potatoes. Subsequently, the digital potato is synchronized \nwith a cloud platform to enable smart services like potato price and field \nrevenue estimations (Maaß et al., 2018).",
+          "bbox": [
+            37.587398529052734,
+            354.66009521484375,
+            291.03338623046875,
+            514.1282348632812
+          ]
+        },
+        {
+          "id": "p7-b6-16f1d17",
+          "kind": "paragraph",
+          "text": "Linz et al. (2019) applied Digital Twins in the development of field \nrobots, for example for phenotyping and crop treatments in vineyards. \nThey simulate the autonomous behaviour of robots in a 3D environment \nusing real-time data and mirror the simulated Digital Twin to operate \nthe real-life robot. This results in shorter lead times of development, \nbetter evaluation of sensor behaviour and reducing the needed field \nexperiments to evaluate phenotypes or test the effects of crop \ntreatments.",
+          "bbox": [
+            37.587398529052734,
+            511.5849609375,
+            291.0246276855469,
+            597.8055419921875
+          ]
+        },
+        {
+          "id": "p7-b7-cc1786a",
+          "kind": "paragraph",
+          "text": "Skobelev et al. (2020) propose a multi-agent approach to develop­\nment of Digital Twins of plants. A plant Digital Twin is defined as “a \ncomputer model that imitates its life cycle and synchronizes with the \nliving plant using examinations by agronomists and data on environ­\nmental conditions (weather, soil, etc.)”. \nFinally, Sreedevi and Santosh Kumar (2020) argue that there are \nrelatively few studies about Digital Twins in agriculture compared to \nother domains. Furthermore, they discuss the potential contribution of \nDigital Twins in hydroponics farming, especially for predicting probable \nfailures and optimizing the whole farming system, including the man­\nagement of nutrients, pH values, pathogens and weeds. \nBased on the domain analysis introduced above, the next section \ndescribes the conceptual framework developed for designing and \nimplementing Digital Twins.",
+          "bbox": [
+            37.587398529052734,
+            595.2630615234375,
+            291.02862548828125,
+            744.2991943359375
+          ]
+        },
+        {
+          "id": "p7-b8-84ec7a6",
+          "kind": "heading",
+          "text": "4. Conceptual framework Digital Twins",
+          "bbox": [
+            306.5926208496094,
+            291.44842529296875,
+            461.71868896484375,
+            304.4795227050781
+          ]
+        },
+        {
+          "id": "p7-b9-a299d94",
+          "kind": "paragraph",
+          "text": "The conceptual framework of this paper should provide a sound \nconceptual basis for implementation of Digital Twins in smart farming, \nincluding the management aspects of using Digital Twin to plan, \nmonitor, control and optimize farm processes. More specifically, the \nfollowing basic requirements are defined based on the literature study of \nthe previous section:",
+          "bbox": [
+            306.5926208496094,
+            312.3675537109375,
+            560.01708984375,
+            377.726318359375
+          ]
+        },
+        {
+          "id": "p7-b10-36691e7",
+          "kind": "paragraph",
+          "text": "1. The framework must address the cyber-physical control cycle of \nsmart farming that seamlessly integrates sensing and monitoring, \nsmart analyses & planning and smart control of farm operations for \nall relevant farm processes (‘whole farm management perspective’);  \n2. The framework must support the entire life cycle of farm objects and \nconsequently it must include the six distinct Digital Twins defined, i. \ne. Imaginary, Monitoring, Predictive, Prescriptive, Autonomous and \nRecollection Digital Twins; \n3. The framework must support the implementation of essential char­",
+          "bbox": [
+            308.1794738769531,
+            385.6143493652344,
+            562.300537109375,
+            482.3235168457031
+          ]
+        },
+        {
+          "id": "p7-b11-4d4d027",
+          "kind": "paragraph",
+          "text": "acteristics of Digital Twins, i.e. timeliness, fidelity, integration, in­\ntelligence, and complexity;  \n4. The framework must address the specific challenges of implementing \nDigital Twins in farm management, i.e. farm object complexity, farm \nnetwork dynamics and farm process dynamics.",
+          "bbox": [
+            308.1794738769531,
+            479.72369384765625,
+            560.0099487304688,
+            534.5938720703125
+          ]
+        },
+        {
+          "id": "p7-b12-2bb26a6",
+          "kind": "paragraph",
+          "text": "The designed framework includes two model types that represent the \nessence of a Digital Twin from a management viewpoint and from an \ninformation technology viewpoint. This section introduces both models: \ni) a control model for Digital Twins based on a general systems approach \nand ii) an implementation model that provides an overview of the \ntechnical architecture for implementing Digital Twins.",
+          "bbox": [
+            306.5926208496094,
+            542.4818725585938,
+            560.0155029296875,
+            607.8406982421875
+          ]
+        },
+        {
+          "id": "p7-b13-a7768f3",
+          "kind": "heading",
+          "text": "4.1. Control model",
+          "bbox": [
+            306.5926208496094,
+            616.8062133789062,
+            374.65966796875,
+            629.8373413085938
+          ]
+        },
+        {
+          "id": "p7-b14-0f59386",
+          "kind": "paragraph",
+          "text": "4.1.1. Farm control from a systems perspective \nControl is a basic concept in system dynamics. It ensures that the \nsystem’s objectives are achieved, even if disturbances occur. The basic \nidea of control is the introduction of a controller that measures system \nbehaviour and corrects if measurements are not compliant with system \nobjectives (de Leeuw, 1997). Farm processes are ‘in control’ if the per­\nformance of its operations remain in a steady state. Therefore, the ac­\ntivities of these processes must include the cybernetic control functions \nnecessary to demonstrate ‘cybernetic validity’. Basically, this implies \nthat they must have a feedback loop in which a norm, sensor,",
+          "bbox": [
+            306.5926208496094,
+            637.725341796875,
+            560.0107421875,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b16-d198c95",
+          "kind": "paragraph",
+          "text": "Fig. 5. Basic control model.",
+          "bbox": [
+            386.87200927734375,
+            269.95404052734375,
+            481.5979309082031,
+            281.6819152832031
+          ]
+        },
+        {
+          "id": "p7-b17-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p8-b1-2c62423",
+          "kind": "paragraph",
+          "text": "8",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p8-b2-7b57fca",
+          "kind": "paragraph",
+          "text": "discriminator, decision maker, and effector are present (de Leeuw, 1997; \nInt Veld, 2002). Fig. 5 depicts these control functions in a basic control \nmodel. The object system executes activities that transform input into \nthe desired output. In farming systems these are the business processes \nof the involved actors that transform input material to final products at \nthe end customer’s location. The sensor function measures the actual \nperformance of the object system. The discriminator function compares \nthe measured performance with the norms that specify the desired \nperformance (system objectives concerning e.g. quantity, quality and \nlead time aspects) and signals deviations to the decision-making func­\ntion. Based on a control model of the object system, the decision-making \nfunction selects the appropriate intervention to remove the signalled \ndisturbances. Finally, the effector implements the chosen intervention to \ncorrect the object system’s performance.",
+          "bbox": [
+            37.587398529052734,
+            586.4807739257812,
+            291.03338623046875,
+            735.45947265625
+          ]
+        },
+        {
+          "id": "p8-b3-b82610d",
+          "kind": "paragraph",
+          "text": "4.1.2. Farm control with Digital Twins \nDigital Twins allow farmers to decouple the physical flows from in­\nformation aspects of farm operations (Verdouw and Kruize, 2017). \nDecoupling of control means that the measurements of the object sys­\ntem’s state are translated into a Digital Twin as visualized in Fig. 6. The \ncontrol cycle starts with measuring the object system’s state by the \nsensor function and with acquiring relevant external data (Verdouw \net al., 2015). These data are then translated into a virtual representation \nof the controlled object system (model-based transformation) on the \nbasis of a meta model. The Digital Twin includes all information relevant \nfor the supported purposes of usage (i.e. control objectives) as specified \nin a meta model. Dependent on a specific purpose of usage, a virtual \nview may then filter irrelevant information and present it in such a way \nthat it can be processed optimally by specific users (model-based",
+          "bbox": [
+            306.5926208496094,
+            586.4807739257812,
+            560.020263671875,
+            735.45947265625
+          ]
+        },
+        {
+          "id": "p8-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p8-figure1.png",
+          "alt": "Original source page 8, graphic 1",
+          "caption": "原文第8页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p8-b5-4c8f8b5",
+          "kind": "paragraph",
+          "text": "Fig. 6. Conceptual model for control based on Digital Twins, based on Verdouw et al. (2015).",
+          "bbox": [
+            145.87100219726562,
+            564.9840698242188,
+            453.6335754394531,
+            576.7119140625
+          ]
+        },
+        {
+          "id": "p8-b6-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p9-b1-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p9-b2-7d97748",
+          "kind": "paragraph",
+          "text": "transformation) on the basis of a meta model. The next control function \nis the decision-making function, which compares a virtual view on the \nobject system with a specific control norm. Next, the decision-making \nfunction selects appropriate interventions for deviations based on its \nDecision Support Model, similarly as in conventional control systems. \nLastly, the selected intervention is communicated with the effector \nfunction, either directly or via the Digital Twin using remote actuator \nsystems.",
+          "bbox": [
+            37.587398529052734,
+            423.1487731933594,
+            291.0238342285156,
+            509.4258728027344
+          ]
+        },
+        {
+          "id": "p9-b3-8a3ff68",
+          "kind": "paragraph",
+          "text": "4.1.3. Impact Digital Twin typology on control model \nThe distinct categories of Digital Twins as introduced previously \nserve different control purposes. Fig. 7 provides a summarized overview \nof the main differences in the control model (adapted from (Verdouw \net al., 2015). \nImaginary Digital Twins represent the state and simulate the behav­\niour of reference objects that are not yet connected to objects that \nphysically exist in the real-world. A reference object is a conceptual \nentity that specifies a typical object from the perspective of defining user \nrequirements. Usually it is a combination of desired features that can be \nbased on past experiences or they can be the result of a design process. It \nis also possible to select and depict a representative physical object \n(typical objects). Moreover, scenario data can be used to simulate the \nexpected behaviour of reference objects based on prediction models. \nMonitoring Digital Twins represent the current and historic state and \nbehaviour of objects that exist physically in the real-world. The physical \nobjects are equipped with tags for identification, usually barcodes or \nRFID transponders, and with sensors that measure dynamic properties of \nphysical things. The virtual object uses these sensor data to generate a \nrepresentation of the object based on a meta model, which might be \nimplicit. Usually, the sensor data are combined with external data to",
+          "bbox": [
+            37.587398529052734,
+            517.314697265625,
+            291.03021240234375,
+            739.540283203125
+          ]
+        },
+        {
+          "id": "p9-b4-3b47eeb",
+          "kind": "paragraph",
+          "text": "enrich the virtual representation. \nPredictive Digital Twins project the future state and behaviour of real- \nlife physical objects. The future states are forecasted by using a predic­\ntion model and subsequently a future projection of its behaviour is \ngenerated in conformance to a meta model. The prediction model uses \ninformation of the current and historic state of the objects, measured by \nsensors and AutoID devices, usually in combination with external data, \ne.g. weather forecasts or congestion information. \nPrescriptive Digital Twins: represent the effects of interventions in a \npresent Digital Twin on a future Digital Twin. The interventions can \neither correct a current issue as identified by a monitoring twin (reac­\ntive) or an expected future issue as forecasted by a predictive twin \n(proactive). Simulation of interventions in prescriptive twins allow for \nprecise and realistic evaluation of corrective and preventive measure \nbefore implementation. The decision still is taken by humans and also \nthe intervention is done without using a Digital Twin. \nAutonomous Digital Twins: go beyond prescriptive twins because also \nthe decision and implementation is done autonomously via digital rep­\nresentations. Prescriptive twins identify control issues based on moni­\ntoring and predictive twins and decide on optimal interventions based \non prescriptive twins. Subsequently the selected intervention is trans­\nlated into actuator instructions, that are implemented remotely. As such, \nautonomous twins run the complete control loop without any human \ninvolvement, but based on decision support models and control norms of \nhumans. Autonomous twins can also be self-learning, which means that \ndecision algorithms are optimized based on the measured response of \nreal objects on control measures. \nRecollection Digital Twins: represent the past state and behaviour of \nobjects that no longer exist in the real-world. Like imaginary twins they \nrepresent reference objects, i.e. conceptual entities, but the nature of the",
+          "bbox": [
+            306.5926208496094,
+            423.1487731933594,
+            560.0123291015625,
+            739.540283203125
+          ]
+        },
+        {
+          "id": "p9-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p9-figure1.png",
+          "alt": "Original source page 9, graphic 1",
+          "caption": "原文第9页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p9-b6-e5f3d5f",
+          "kind": "paragraph",
+          "text": "Fig. 7. Simplified Control Models of the Digital Twin Typology (excluding the Discriminator and Decision Making control functions).",
+          "bbox": [
+            82.94170379638672,
+            401.70806884765625,
+            516.5452270507812,
+            413.4359436035156
+          ]
+        },
+        {
+          "id": "p9-b7-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p10-b1-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p10-b2-3c9d2a8",
+          "kind": "paragraph",
+          "text": "representation is completely different since there has been a connected \nreal object in the past. Recollection twins have to depict this historical \nobject in an accurate and reliable way, and as such they use all relevant \ndata about this object.",
+          "bbox": [
+            37.587398529052734,
+            584.4397583007812,
+            291.0086669921875,
+            628.8778686523438
+          ]
+        },
+        {
+          "id": "p10-b3-84f3efc",
+          "kind": "paragraph",
+          "text": "4.1.4. Integrated control model for Digital Twins \nThe previous sections have defined distinct control mechanisms of \nsix Digital Twin categories. Fig. 8 incorporates these mechanisms into \nthe control model. This model integrates all six Digital Twin defined \ncategories, but not all elements will be relevant if less categories are \napplied. The integrated control model especially adds different types of \nthe representation, i.e. imaginary, present, future and past digital ob­\njects. Imaginary digital objects represent reference objects that do not \nyet exist. Present digital objects represent the current state and behav­\niour of real-life, physical objects. Future digital objects project the",
+          "bbox": [
+            37.587398529052734,
+            636.7666625976562,
+            291.03021240234375,
+            743.9071044921875
+          ]
+        },
+        {
+          "id": "p10-b4-bac2571",
+          "kind": "paragraph",
+          "text": "expected state and behaviour of objects. Past digital objects represent \nthe historical state and behaviour of real-life objects or objects that no \nlonger exist in the real-world. Furthermore a reference object is added to \nallow for the representation of conceptual entities that come into exis­\ntence in the design phase of the product life cycle. Once the conceptual \nentity is materialized, the real object can be connected to the virtual \nobject. This conceptual entity remains after the disposal of the real-life \nobject at the end of the lifecycle. Reference object can also be relevant \nduring the usage phase. An example is the usage of imaginary resources \nfor planning purposes, which specify the type of resources and the \nproperties necessary to do the job. Think of, for example, a virtual \nharvest machine having a certain capacity in specific weather and soil \nconditions. When the harvesting schedule becomes actual, a physical \nmachine is chosen to do the job for the virtual one (having at least \nproperties that match required ones).",
+          "bbox": [
+            306.5926208496094,
+            584.4397583007812,
+            560.020263671875,
+            743.9071044921875
+          ]
+        },
+        {
+          "id": "p10-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p10-figure1.png",
+          "alt": "Original source page 10, graphic 1",
+          "caption": "原文第10页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p10-b6-19113a8",
+          "kind": "paragraph",
+          "text": "Fig. 8. Integrated control model for Digital Twins.",
+          "bbox": [
+            215.9429931640625,
+            562.9430541992188,
+            383.5172119140625,
+            574.6708984375
+          ]
+        },
+        {
+          "id": "p10-b7-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p11-b1-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p11-b2-1d6dc31",
+          "kind": "paragraph",
+          "text": "Finally, the interaction between the decision-maker function and the \nDigital Twins is elaborated. In prescriptive Digital Twins, intervention \nproposals based on decision support models are transformed into future \nDigital Twins. As such, the expected object changes of virtual in­\nterventions are simulated. The decision maker uses this simulated in­\nterventions to decide on the final intervention. Autonomous Digital \nTwins also translate this intervention decision into planned object \nchanges and subsequently into actuator instructions. Autonomous twins \nremotely control the effector function that executes these instructions. \nSo far, the concept of Digital Twins and its underlying complexity \nwere defined. The next section will present a technical model that is \ndesigned to implement this concept.",
+          "bbox": [
+            37.58807373046875,
+            355.4567565917969,
+            291.0308837890625,
+            483.5729064941406
+          ]
+        },
+        {
+          "id": "p11-b3-a37bf10",
+          "kind": "heading",
+          "text": "4.2. Implementation model",
+          "bbox": [
+            37.58807373046875,
+            501.7790222167969,
+            132.24258422851562,
+            514.8101196289062
+          ]
+        },
+        {
+          "id": "p11-b4-f83da18",
+          "kind": "paragraph",
+          "text": "This section proposes a technical model for the implementation of \nDigital Twins. A technical architecture describes the components of a \nsystem, interactions among components, and the interaction of a system \nas a whole with its environment (Trienekens et al., 2014). It is usually \nnot drawn in one diagram but separated in multiple so-called architec­\nture views each of which describes an architecture according to specific \nstakeholders’ concerns (Clements et al., 2010). \nFor the purpose of this paper, we focus on visualizing main func­\ntionalities that are needed to implement the control model as developed \nin the previous section. Several technical architectures for Digital Twins \nare introduced recently. Schleich et al. (2017) proposed an abstract \nreference architecture that addresses some basic modelling principles \nfor ‘twinning’ between the physical and virtual world properties, such as \nmodel scalability, interoperability, expansibility, and fidelity. Alam and \nSaddik (2017) developed a specific a Digital Twin architecture, that \nanalytically describes key properties of cloud-based cyber-physical \nsystems. Redelinghuys et al. (2019) designed an architecture for Digital \nTwins of manufacturing cells comprising six layers, including local data, \ngateways, cloud-based databases and a layer for emulations and \nsimulations. \nThese authors consider Digital Twins as a next step in IoT-based",
+          "bbox": [
+            37.58807373046875,
+            522.698974609375,
+            291.0229187011719,
+            744.92529296875
+          ]
+        },
+        {
+          "id": "p11-b5-57de5c0",
+          "kind": "paragraph",
+          "text": "cyber-physical systems. As a consequence the proposed architectures \nare similar to reference architectures developed in the IoT domain, in \nwhich virtual representation of objects have an important role. Impor­\ntant IoT reference architectures include IoT-A, ITU-T and AIOTI (Ver­\ndouw et al., 2019). The Internet of Things—Architecture (IoT-A) \nprovides a very in-depth definition of IoT’s information technology as­\npects (Carrez et al., 2013; Gubbi et al., 2013). The International Tele­\ncoms Unions (ITU) has developed an IoT Reference Model which \nprovides a high level capability view of an IoT infrastructure (ITU-T, \n2016). The Alliance for IoT Innovation has defined a High Level IoT \nArchitecture to achieve IoT semantic interoperability (AIOTI, 2018). In \nthe present paper we adopted the IoT-A reference architecture because it \nmost explicitly addresses virtual entities as a core element of the ar­\nchitecture. The remainder of this section will introduce the IOT-A \nreference architecture and how it supports the implementation of Dig­\nital Twins.",
+          "bbox": [
+            306.5924987792969,
+            355.4567565917969,
+            559.9946899414062,
+            525.4119873046875
+          ]
+        },
+        {
+          "id": "p11-b6-3c4db3e",
+          "kind": "paragraph",
+          "text": "4.2.1. The IoT-A reference model \nThe Architectural Reference Model for the Internet of Things is \ndeveloped by the European project IoT-A (Gubbi et al., 2013). Besides \nestablishing a common understanding of the IoT domain, IoT-A aimed to \nprovide essential building blocks and design choices for developing \ninteroperable IoT system architectures. The reference model includes \nfive different sub models: an IoT domain model, IoT information model, \nIoT functional model, IoT communication model and an IoT trust, se­\ncurity and privacy model (Bauer et al., 2013; Carrez et al., 2013). \nThe ontological foundation is formed by the IoT Domain Model, \nwhich defines main concepts of the Internet of Things like Devices, IoT \nServices and Virtual Entities (VE), and how these concepts are related. \nBuilding upon these concepts, the IoT information model defines the \nstructure (e.g. relations, attributes) of IoT related information in an IoT \nsystem on an abstract level. The Functional Model decomposes the main \nfunctionalities of IoT-based systems into groups in a layered view. The \nIoT Communication Model elaborates the technical communication for \nconnecting the different elements of an IoT-based system, including a \nreference set of communication rules to build interoperable stacks. The",
+          "bbox": [
+            306.5924987792969,
+            533.30078125,
+            560.0137939453125,
+            734.6637573242188
+          ]
+        },
+        {
+          "id": "p11-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p11-figure1.png",
+          "alt": "Original source page 11, graphic 1",
+          "caption": "原文第11页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p11-b8-f5bc67e",
+          "kind": "paragraph",
+          "text": "Fig. 9. Implementation model for Digital Twins, adopted from IoT-A (Carrez et al., 2013), Virtual Entity is replaced by Digital Twin Management.",
+          "bbox": [
+            61.681800842285156,
+            334.0160827636719,
+            537.8218994140625,
+            345.74395751953125
+          ]
+        },
+        {
+          "id": "p11-b9-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p12-b1-6b51d43",
+          "kind": "paragraph",
+          "text": "12",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p12-b2-47d944a",
+          "kind": "paragraph",
+          "text": "sub models are elaborated in very detailed architectural views and \naccompanied by guidelines. \nIt can be concluded that the IoT-A is a very in-depth and rigorous \nreference model. It is beyond the scope of this paper to describe it into \ndetail, but we focus on its IoT functional model (Fig. 9). For more details \nand the further technical implementation we refer to Bauer et al. (2013) \nand Carrez et al. (2013).",
+          "bbox": [
+            37.587398529052734,
+            182.9967498779297,
+            291.0309753417969,
+            258.7860412597656
+          ]
+        },
+        {
+          "id": "p12-b3-3e783fa",
+          "kind": "paragraph",
+          "text": "4.2.2. Digital Twin implementation model \nBasically, a Digital Twin architecture is composed of a physical ob­\nject in real space, a digital representation of this object in the virtual \nspace and the connection between the virtual and real space for trans­\nferring data and information (Grieves and Vickers, 2017; Redelinghuys \net al., 2019). As argued previously, IoT technologies enable this syn­\nchronization of the physical and virtual worlds. The implementation \nmodel of our conceptual framework, based on the IoT-A functional \nmodel, addresses eight layers (Fig. 9). These layers range from a device",
+          "bbox": [
+            37.587398529052734,
+            266.6740417480469,
+            291.0309753417969,
+            363.4398193359375
+          ]
+        },
+        {
+          "id": "p12-b4-b6abee2",
+          "kind": "paragraph",
+          "text": "layer, which is attached to physical objects, to an application layer, \nwhich includes interaction with Digital Twin Users (based on Atzori \net al., 2010; Bauer et al., 2013; Carrez et al., 2013; and Verdouw et al., \n2016a). \nThe Device layer provides the hardware components that are attached \nto and directly interact with physical objects such as tags for unique \nidentification, sensors and actuators. Important identification technol­\nogies used in agriculture include (multi-dimensional) barcodes and RFID \ntags (Verdouw et al., 2016a). Furthermore, a multitude of different \nsensors is used to measure dynamic properties of physical things \nincluding temperature, crop size, humidity, light, moisture, CO2, \nammonia and pH values. Object sensing is also supported by mobile \ndevices such as barcode/RFID readers and smartphones, which enable \nfarmers to perform additional actions such as visual quality inspections. \nFurthermore, this layer includes remote sensing by satellites, aerial ve­\nhicles, and ground based platforms. Small unmanned aerial systems (i.e. \ndrones) are increasingly used to realize a high spatial and temporal",
+          "bbox": [
+            306.5925598144531,
+            182.99676513671875,
+            560.0234375,
+            363.4398193359375
+          ]
+        },
+        {
+          "id": "p12-b5-6236ae0",
+          "kind": "paragraph",
+          "text": "Table 5 \nImplementation model overview of the investigated cases.",
+          "bbox": [
+            37.587398529052734,
+            383.90606689453125,
+            226.97613525390625,
+            405.21490478515625
+          ]
+        },
+        {
+          "id": "p12-b6-0878bdc",
+          "kind": "paragraph",
+          "text": "Case \nWithin-field management \nzoning \nHappy Cow \nChain-integrated \ngreenhouse production \nAdded value weeding data \nPig farm management",
+          "bbox": [
+            43.5968017578125,
+            407.5934143066406,
+            533.399169921875,
+            426.5782775878906
+          ]
+        },
+        {
+          "id": "p12-b7-c8983b7",
+          "kind": "paragraph",
+          "text": "Device layer \nSoil, crop and weather \nsensors, GPS tracker, \nactuators",
+          "bbox": [
+            43.5968017578125,
+            429.3065490722656,
+            174.1726837158203,
+            456.8516845703125
+          ]
+        },
+        {
+          "id": "p12-b8-a5723b9",
+          "kind": "paragraph",
+          "text": "Accelerometer sensor \n(neck mounted \nbehaviour sensor)",
+          "bbox": [
+            194.05783081054688,
+            429.3065490722656,
+            256.3344421386719,
+            456.8516845703125
+          ]
+        },
+        {
+          "id": "p12-b9-a77c768",
+          "kind": "paragraph",
+          "text": "Crop, Climate and Irrigation \nSensors, Ventilation, \nClimate, Lighting and \nFertigation Actuators",
+          "bbox": [
+            275.6380615234375,
+            429.3065490722656,
+            357.59521484375,
+            465.4126281738281
+          ]
+        },
+        {
+          "id": "p12-b10-17301dd",
+          "kind": "paragraph",
+          "text": "Weeder Sensors, Weeder \nActuators, Weeder Terminal, \nTractor \nTerminal GPS, Weather Station, \nHarvester Terminal",
+          "bbox": [
+            367.08251953125,
+            429.3065490722656,
+            458.9120178222656,
+            474.0296325683594
+          ]
+        },
+        {
+          "id": "p12-b11-49fd4fc",
+          "kind": "paragraph",
+          "text": "RFID tags and readers, water \nconsumption, feed sensors \nconsumption sensors, barn \nclimate sensors",
+          "bbox": [
+            469.18548583984375,
+            429.3065490722656,
+            553.0093994140625,
+            465.41259765625
+          ]
+        },
+        {
+          "id": "p12-b12-62e8ce7",
+          "kind": "paragraph",
+          "text": "Communication \nlayer \nISOBUS Channel, LoRa \nNetwork \nCustom Farm LAN, Base \nStations, Field Access \nPoints",
+          "bbox": [
+            43.596702575683594,
+            472.1653137207031,
+            264.3622131347656,
+            499.71112060546875
+          ]
+        },
+        {
+          "id": "p12-b13-e2d7ff9",
+          "kind": "paragraph",
+          "text": "Wifi, GPRS/3G/4G Cellular, \nethernet, Serial Bus \nFarm WLAN, Farm LAN, \nCANbus \nWIFI, GPRS, XMPP",
+          "bbox": [
+            275.63800048828125,
+            472.1653137207031,
+            524.6309814453125,
+            491.1508483886719
+          ]
+        },
+        {
+          "id": "p12-b14-f694d3d",
+          "kind": "paragraph",
+          "text": "IoT service layer \nISOBUS Task Controller, \nISOBUS \nVPN Concentrator \nFog Computing Services, \nFIWARE IoT \nFireWire, SSD \nIoT Adapters, local IoT \nmiddleware \nIoT Process \nmanagement \nlayer",
+          "bbox": [
+            43.596702575683594,
+            497.8474426269531,
+            535.8341064453125,
+            542.570556640625
+          ]
+        },
+        {
+          "id": "p12-b15-a4686f8",
+          "kind": "paragraph",
+          "text": "Modelling Services \nn/a \nn/a \nn/a \nn/a",
+          "bbox": [
+            108.45236206054688,
+            514.9680786132812,
+            481.0382995605469,
+            525.3926391601562
+          ]
+        },
+        {
+          "id": "p12-b16-3976f2d",
+          "kind": "paragraph",
+          "text": "Service \norganisation \nService Composition, \nOrchestration and \nChoreography",
+          "bbox": [
+            43.596702575683594,
+            540.7069091796875,
+            169.9001007080078,
+            568.2520141601562
+          ]
+        },
+        {
+          "id": "p12-b17-ff2d483",
+          "kind": "paragraph",
+          "text": "Service Composition, \nOrchestration and \nChoreography",
+          "bbox": [
+            194.0577392578125,
+            540.7069091796875,
+            255.56222534179688,
+            568.2520141601562
+          ]
+        },
+        {
+          "id": "p12-b18-ff2d483",
+          "kind": "paragraph",
+          "text": "Service Composition, \nOrchestration and \nChoreography",
+          "bbox": [
+            275.63800048828125,
+            540.7069091796875,
+            337.0857238769531,
+            568.2520141601562
+          ]
+        },
+        {
+          "id": "p12-b19-ff2d483",
+          "kind": "paragraph",
+          "text": "Service Composition, \nOrchestration and \nChoreography",
+          "bbox": [
+            367.08245849609375,
+            540.7069091796875,
+            428.5875244140625,
+            568.2520141601562
+          ]
+        },
+        {
+          "id": "p12-b20-9908cbb",
+          "kind": "paragraph",
+          "text": "Service Composition, \nOrchestration and \nChoreography \nDigital Twin \nmanagement \nlayer",
+          "bbox": [
+            43.596702575683594,
+            540.7069091796875,
+            530.6331787109375,
+            593.9341430664062
+          ]
+        },
+        {
+          "id": "p12-b21-664ace3",
+          "kind": "paragraph",
+          "text": "Soil Map Service, Variable \nRate Application Map, \nFIWARE Orion Context \nBroker",
+          "bbox": [
+            108.45236206054688,
+            566.3883666992188,
+            184.60867309570312,
+            602.5512084960938
+          ]
+        },
+        {
+          "id": "p12-b22-38c2b5a",
+          "kind": "paragraph",
+          "text": "Fertility Prediction \nService \nHealth Prediction \nService \nHerd Monitoring Service \nData Fusion and Cloud \nData Storage",
+          "bbox": [
+            194.05776977539062,
+            566.3883666992188,
+            265.7005615234375,
+            628.2327270507812
+          ]
+        },
+        {
+          "id": "p12-b23-f54fed2",
+          "kind": "paragraph",
+          "text": "Climate and Irrigation \nSetpoints Estimation \nService, Diseases and \nCondensation \nCrop Monitoring Service, \nDynamic Lighting Control \nService, FIWARE Cloud Data \nStorage",
+          "bbox": [
+            275.6380615234375,
+            566.388427734375,
+            357.6123352050781,
+            636.79296875
+          ]
+        },
+        {
+          "id": "p12-b24-fa2ad42",
+          "kind": "paragraph",
+          "text": "Crop Growth Service, Yield \nPrediction Service, Machine \nSetup and Maintenance Service, \nData Storage and Processing",
+          "bbox": [
+            367.08251953125,
+            566.388427734375,
+            459.3328857421875,
+            602.5512084960938
+          ]
+        },
+        {
+          "id": "p12-b25-d6a80e6",
+          "kind": "paragraph",
+          "text": "Fusion Engine Service, Cloud \nData Storage",
+          "bbox": [
+            469.1855773925781,
+            566.388427734375,
+            553.4571533203125,
+            585.3732299804688
+          ]
+        },
+        {
+          "id": "p12-b26-ed5782b",
+          "kind": "paragraph",
+          "text": "Security layer \nIdentity Management, \nAuthorization, \nAuthentication, Network \nSecurity",
+          "bbox": [
+            43.5968017578125,
+            634.9293823242188,
+            180.20556640625,
+            671.0921630859375
+          ]
+        },
+        {
+          "id": "p12-b27-81e607f",
+          "kind": "paragraph",
+          "text": "Identity Management, \nAuthorization, \nAuthentication, Network \nSecurity",
+          "bbox": [
+            194.05783081054688,
+            634.9293823242188,
+            265.86767578125,
+            671.0922241210938
+          ]
+        },
+        {
+          "id": "p12-b28-81e607f",
+          "kind": "paragraph",
+          "text": "Identity Management, \nAuthorization, \nAuthentication, Network \nSecurity",
+          "bbox": [
+            275.63812255859375,
+            634.9293823242188,
+            347.4479675292969,
+            671.0922241210938
+          ]
+        },
+        {
+          "id": "p12-b29-d674dcb",
+          "kind": "paragraph",
+          "text": "Identity Management, \nAuthorization, Authentication, \nNetwork Security",
+          "bbox": [
+            367.0825500488281,
+            634.929443359375,
+            455.4174499511719,
+            662.4752197265625
+          ]
+        },
+        {
+          "id": "p12-b30-72f32eb",
+          "kind": "paragraph",
+          "text": "Identity Management, \nAuthorization, \nAuthentication, Network \nSecurity \nManagement layer \nConfiguration, Fault, \nReporting, Member, State \nConfiguration, Fault, \nReporting, Member, \nState",
+          "bbox": [
+            43.5968017578125,
+            634.929443359375,
+            540.9385986328125,
+            696.7737426757812
+          ]
+        },
+        {
+          "id": "p12-b31-20097db",
+          "kind": "paragraph",
+          "text": "Configuration, Fault, \nReporting, Member, State \nConfiguration, Fault, Reporting, \nMember, State \nConfiguration, Fault, \nReporting, Member, State",
+          "bbox": [
+            275.6380920410156,
+            669.22802734375,
+            543.587158203125,
+            688.2135620117188
+          ]
+        },
+        {
+          "id": "p12-b32-02b3ed7",
+          "kind": "paragraph",
+          "text": "Application layer \nAkkerweb/FarmMaps, \n365FarmNet, \nConfigurable Dashboard,",
+          "bbox": [
+            43.5968017578125,
+            694.91015625,
+            180.5951385498047,
+            722.4552612304688
+          ]
+        },
+        {
+          "id": "p12-b33-67875c1",
+          "kind": "paragraph",
+          "text": "IDA App, several FMIS’s \nGreenhouse Management \nDashboard \nFarmer Tractor Application, \nSteketee Dashboard, Akkerweb/ \nFarmMaps, 365 FarmNet, \nAgLeader \nSMS Basic",
+          "bbox": [
+            194.05783081054688,
+            694.9102172851562,
+            459.6976318359375,
+            739.63330078125
+          ]
+        },
+        {
+          "id": "p12-b34-3aab3c1",
+          "kind": "paragraph",
+          "text": "IoT Dashboard, Business \nIntelligence Dashboard",
+          "bbox": [
+            469.185546875,
+            694.9102172851562,
+            540.0072021484375,
+            713.8950805664062
+          ]
+        },
+        {
+          "id": "p12-b35-37549ed",
+          "kind": "paragraph",
+          "text": "Table 4 \nControl model overview of the investigated cases.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            200.27391052246094,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p12-b36-801e576",
+          "kind": "paragraph",
+          "text": "Case \nWithin-field management \nzoning \nHappy cow \nChain-integrated greenhouse \nproduction \nAdded value weeding data \nPig farm \nmanagement",
+          "bbox": [
+            43.5968017578125,
+            76.22341918945312,
+            529.827392578125,
+            95.20829772949219
+          ]
+        },
+        {
+          "id": "p12-b37-37e2a51",
+          "kind": "paragraph",
+          "text": "Main objects \nPotato Crops, Field, \nHarvested Potatoes \nCow, Herd, Field \nTomato Crop, Greenhouse, \nHarvested Tomatoes, Truck \nWeeds, Lettuce Crops, Field, Weeding \nMachine, Harvested Lettuce \nPig, Farm, \nSlaughterhouse \nTime \ndimension \nPresent, Future \nPresent, Future \nPresent, Future \nPresent, Future, Past \nPresent, Future",
+          "bbox": [
+            43.59675216674805,
+            97.93655395507812,
+            536.8025512695312,
+            134.04263305664062
+          ]
+        },
+        {
+          "id": "p12-b38-fabe763",
+          "kind": "paragraph",
+          "text": "Main farm \nprocesses \nGrow and Harvest Potatoes \nProduce Milk \nGrow, Harvest and Distribute \nTomatoes \nGrow and Harvest Lettuce \nFatten and Slaughter \nPigs \nDigital Twin \ntypes \nMonitoring, Predictive, \nPrescriptive \nMonitoring, \nPredictive \nMonitoring, Predictive, Prescriptive \nMonitoring, Predictive, Prescriptive, \nRecollection \nMonitoring, \nPredictive",
+          "bbox": [
+            43.59675216674805,
+            132.17831420898438,
+            552.4725952148438,
+            168.34115600585938
+          ]
+        },
+        {
+          "id": "p12-b39-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.58743667602539,
+            33.6477165222168,
+            501.51300048828125,
+            44.07231140136719
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p13-b1-3fdba35",
+          "kind": "paragraph",
+          "text": "13",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p13-b2-bd898f4",
+          "kind": "paragraph",
+          "text": "resolution and a high flexibility in image acquisition. Finally, in the \ndevice layer actuators are used to remotely operate objects such as \ntractor implements, climate control, irrigation, coolers, and lights. \nThe Communication layer manages the interactions between different \ncomponents and enables the communication from the devices to the IoT \nservices. It provides capabilities for networking, connectivity and data \ntransport and enables end-to-end communication that crosses different \nnetworking environments. \nThe IoT Service layer contains services and functionalities for dis­\ncovery, look-up and name resolution of IoT Services. It can be used to get \ninformation retrieved from a sensor device or to deliver information to \ncontrol actuator devices. \nThe Digital Twin Management layer contains functions for interacting",
+          "bbox": [
+            37.587398529052734,
+            603.6587524414062,
+            291.0285949707031,
+            742.2061767578125
+          ]
+        },
+        {
+          "id": "p13-b3-ddbb47e",
+          "kind": "paragraph",
+          "text": "with the IoT System on basis of virtual entities. It can give access to all \nthe information about the Digital Twin, from sensor devices, databases \nor applications. Furthermore, it contains all the functionality needed for \nmanaging associations with the physical objects and monitoring their \nvalidity. \nThe IoT Process Management layer provides an environment for the \nmodelling and execution of IoT-aware processes. Deployment of process \nmodels to the execution environments is achieved by utilizing IoT Ser­\nvices that are orchestrated in the Service Organisation layer. This layer \nacts as a communication hub between several other layers by composing \nand orchestrating services of different levels of abstraction. \nThe Security layer is responsible for the security and privacy of the \nsystems and its users. It includes components like authorization,",
+          "bbox": [
+            306.5926208496094,
+            603.6587524414062,
+            560.0218505859375,
+            742.2061767578125
+          ]
+        },
+        {
+          "id": "p13-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p13-figure1.png",
+          "alt": "Original source page 13, graphic 1",
+          "caption": "原文第13页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p13-b5-d969bfb",
+          "kind": "paragraph",
+          "text": "Fig. 10. Simplified control model of the weeding use case.",
+          "bbox": [
+            202.8470001220703,
+            582.1610717773438,
+            396.6370849609375,
+            593.888916015625
+          ]
+        },
+        {
+          "id": "p13-b6-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p14-b1-8527a89",
+          "kind": "paragraph",
+          "text": "14",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p14-b2-b1bd3a5",
+          "kind": "paragraph",
+          "text": "authentication and identity management. \nThe Management layer is focussed on the configuration of the system. \nIt also reports faults and determines the overall state of the system. \nFinally, the Application layer provides the intelligence for specific \ncontrol tasks based on virtual objects. It includes capabilities for usage of \nDigital Twins across its lifecycle. The different categories of Digital \nTwins are enabled by diverse technologies, including simulation and \noptimization tools, statistical forecasting, simulation and machine \nlearning. This layer also includes the user interface for interacting with \nDigital Twins. The types of user interfaces can vary from 2D graphical \nuser interfaces, as commonly used in personal computers, smartphones \nand tablets, to advanced 3D interfaces for Virtual and Augmented Re­\nality glasses. \nThe remainder of this paper will illustrate the application of Digital \nTwins in agriculture by some cases of the IoF2020 project.",
+          "bbox": [
+            37.58735275268555,
+            51.29973220825195,
+            291.0301818847656,
+            210.76707458496094
+          ]
+        },
+        {
+          "id": "p14-b3-708424a",
+          "kind": "heading",
+          "text": "5. Application of Digital Twins in smart farming",
+          "bbox": [
+            37.58738327026367,
+            219.3357391357422,
+            227.0262908935547,
+            232.36685180664062
+          ]
+        },
+        {
+          "id": "p14-b4-fd60f9b",
+          "kind": "heading",
+          "text": "5.1. Illustrative cases from IoF2020",
+          "bbox": [
+            37.58736801147461,
+            240.25485229492188,
+            162.38955688476562,
+            253.2859649658203
+          ]
+        },
+        {
+          "id": "p14-b5-ff1749f",
+          "kind": "paragraph",
+          "text": "The framework as presented in the previous sections is applied to five \nsmart farming use cases of the IoF2020 project (Table 1). It is beyond the \nscope of this paper to exhaustively deal with the applied models for all \ncases. Therefore, we provide in Table 4 an overview of the applied \ncontrol models and in Table 5 the applied implementation models. The \nmodels of the use case ‘Added value weeding data’ are described in more \ndetails as an illustrative example.",
+          "bbox": [
+            37.58735275268555,
+            261.1748046875,
+            291.02777099609375,
+            336.96405029296875
+          ]
+        },
+        {
+          "id": "p14-b6-ce5ffa8",
+          "kind": "paragraph",
+          "text": "Table 4 provides an overview of the applied control models. Point of \ndeparture in all use cases is a particular farm crop or animal, i.e. potato, \ntomato, lettuce, cow or pig. These objects are nested in high-level ob­\njects, such as fields, greenhouses and stables. The plant use cases all also \npredict the expected output of the farming process, i.e. potatoes, to­\nmatoes or lettuce to be harvested. Two use cases also virtualize equip­\nment used, i.e. a weeding machine or truck. All use cases analysed \ncombine multiple types of Digital Twins, starting with monitoring the \nactual state of objects and then predicting future states e.g. expected \nyields or animal health. Most of the use cases also include intelligence to \nadvice interventions. The crop farming use cases also process these ad­\nvices into prescriptive Digital Twins, e.g. by defining task maps. Most \nuse cases focus on the usage phase of a lifecycle and do not include \nimaginary or recollection Digital Twins. Only the use case ‘Added value \nweeding data’ applies a recollection Digital Twin for optimisation of \nmachine settings based on historical data about machine behaviour. \nNone of the use cases have implemented yet autonomous Digital Twins.",
+          "bbox": [
+            37.58735275268555,
+            334.3642272949219,
+            291.03021240234375,
+            514.80810546875
+          ]
+        },
+        {
+          "id": "p14-b7-dceea4c",
+          "kind": "paragraph",
+          "text": "Table 5 lists the main technical components that are used to imple­\nment the layers of the Digital Twin technical architecture. It shows that \nin the Device Layer all use cases apply domain-specific sensors and three \nuse cases also use specific actuators. Most technologies for technical \ncommunication are based on standardized protocols of both conven­\ntional technology such as wired networks and recent wireless IoT net­\nworks such as LoraNet. The use case ‘Happy cow’ has chosen to apply a \ncustom-built network consisting of distributed access points that enable \ncommunication up to several kilometers. Also in the IoT Service layer a \ncombination of technologies is used. Process-based orchestration of \nservices is not yet addressed. Only the first use case ‘Within-field man­\nagement zoning’ includes some Modelling Services. In the Digital Twin \nManagement Layer all use cases provide services that combine and store \ndata from diverse data sources and represent harmonized virtual en­\ntities. These services also include intelligence for simulation or decision \nsupport dependent on the supported control functions (see Table 4). In \nthe application layer, all use cases provide dedicated dashboards for the \ninteraction with users and three of the use cases also integrate with \nexisting farm management systems (e.g. Akkerweb/FarmMaps, \n365FarmNet, AgLeader). Finally, all use cases comprise some generic \ntechnical functions for the service organisation, security and \nmanagement.",
+          "bbox": [
+            37.58735275268555,
+            512.208251953125,
+            291.03021240234375,
+            744.9224853515625
+          ]
+        },
+        {
+          "id": "p14-b8-2d081d0",
+          "kind": "heading",
+          "text": "5.2. Overview of the use case ‘Added Value Weeding Data’",
+          "bbox": [
+            306.59259033203125,
+            51.29985427856445,
+            509.548828125,
+            64.33096313476562
+          ]
+        },
+        {
+          "id": "p14-b9-b243de3",
+          "kind": "paragraph",
+          "text": "When growing organic vegetables, weeding is one of the most \nimportant and frequent activities to control both the quality of the field \nand its produce (Lockeretz, 2007). In recent years, automated intra-row \nweeding machines have entered the market, enhancing the weeding \nprocess significantly. The most advanced weeding machines use ma­\nchine vision applications to distinguish crops from weeds. These camera \ndata can not only be used for automated control of the weeding task, but \nalso as a valuable information source for farm management. This use \ncase uses these location-specific camera data of a weeding machine as a \nmain data source to provide actual insights into the number of lettuce \nheads growing on the field, the plants’ growth status, weed prevalence \nand best harvesting moment. As such it creates Digital Twins of a field, \nplants and weeds to monitor crop growth and to predict the crop weight \nand size of lettuce.",
+          "bbox": [
+            306.5926208496094,
+            72.2189712524414,
+            560.01708984375,
+            221.25494384765625
+          ]
+        },
+        {
+          "id": "p14-b10-9009896",
+          "kind": "heading",
+          "text": "5.3. Application of the control model",
+          "bbox": [
+            306.5928649902344,
+            229.7670135498047,
+            435.5475158691406,
+            242.79812622070312
+          ]
+        },
+        {
+          "id": "p14-b11-ef47098",
+          "kind": "paragraph",
+          "text": "The applied control model of the use case ‘Added value weeding \ndata’ is shown in Fig. 10. The main farming processes are sourcing and \nplanting young lettuce plants, producing lettuce in the field, harvesting \nlettuce which is ready for consumption and delivering it to the market. \nThe main physical objects involved are planting machines and young \nplants, fields containing weeds and growing lettuce, weeding machines, \nharvesting machines and harvested lettuces. \nThe Digital Twins of this use case are used for monitoring weed \npressure and crop growth, controlling the weeds to be removed and \npredicting the optimal moment of harvesting. To do so, the sensor \nfunction uses processed camera images to calculate crop parameters \nsuch as size. Furthermore, crop growth sensing adds weather data and \nfield properties, including temperature, relative humidity, wind speed \nand direction, solar radiation and soil moisture (3 levels). The data \nacquisition function also includes external weather data. \nThese data are then transformed into Digital Twins. The virtualisa­\ntion in this use focusses on the field, which implies that the main Digital \nTwin is a high-precision and actual heat map of a field. A field map \ncomprises weed density and the number and size of crops (present), and \nthe expected final weight and crop size of the lettuce (future). Planting \nseedlings are excluded. The Digital Twins of the individual lettuce crops \nand weeds are used by farmers during the weeding activity and after­\nwards the calculated parameters of every plant in the field are also \navailable remotely. Furthermore, Digital Twins of the weeding machine \nis used to optimize machine settings afterwards (past). \nThe discriminator function uses the Digital Twins of weeds and \ngrowing lettuces to monitor weed pressure and crop growth, i.e. crop \nsize and crop distance. The decision maker function translates the weed \npressure into a planning of the weeding activities. A lettuce growth \nmodel is used to predict the crop weight and size per field section. The \nuser sets a target value for crop weight and then the optimal harvest \nmoment is determined. Based on this information the optimal moment \nof harvesting is determined and the harvesting is planned. For lettuce, \ngrowers get paid by lettuce head in the right weight class. \nFinally, the effector function executes the planned weeding task. The \nweeds are automatically removed, controlled by the actuators in the \nweeding machine that apply machine instructions based on Digital Twin \nof the weeds. Because of the high-precision weed density maps, fields \ncan be weeded partially, only where needed. Also the planned har­\nvesting activities are executed by harvesting machines but they do not \nuse customised machine instructions. \nThe control cycle partly takes place on-site within the weeding ma­\nchine. Camera data are directly processed into local Digital Twins that \ndistinguish crops and weeds. These Digital Twins are then instantly \ntranslated to actuator instructions and the weeds are removed without \nhuman involvement. However, all other control activities are done \nremotely by farmers who interact with the Digital Twins via cloud-based",
+          "bbox": [
+            306.5925598144531,
+            250.68614196777344,
+            560.0179443359375,
+            744.9224243164062
+          ]
+        },
+        {
+          "id": "p14-b12-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-14.png"
+    },
+    {
+      "number": 15,
+      "blocks": [
+        {
+          "id": "p15-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p15-b1-e629fa6",
+          "kind": "paragraph",
+          "text": "15",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p15-b2-648274a",
+          "kind": "paragraph",
+          "text": "systems. The next section elaborates on how this is technically \nimplemented.",
+          "bbox": [
+            37.587398529052734,
+            466.291748046875,
+            291.0294189453125,
+            489.7541198730469
+          ]
+        },
+        {
+          "id": "p15-b3-03e40ad",
+          "kind": "heading",
+          "text": "5.4. Application of the implementation model to the weeding data use case",
+          "bbox": [
+            37.587398529052734,
+            501.781005859375,
+            285.02789306640625,
+            514.8121337890625
+          ]
+        },
+        {
+          "id": "p15-b4-f53681e",
+          "kind": "paragraph",
+          "text": "The technical implementation of the use case is visualized in Fig. 11. \nThe Device layer includes sensors (especially the camera’s) and ac­\ntuators that are embedded in the weeding machine, a weather station, \nand GPS connected to the tractor terminal. The data are directly pro­\ncessed and stored on the terminals on the weeder and harvester ma­\nchine. The processed parameters such as GPS-coordinates, time stamp, \ncrop size, distance, and weed pressure, are logged and uploaded to cloud \ndatabases after having weeded a field. \nThe Communication layer includes wired (CANBUS) interfaces and a \nwireless local farm network (LAN) for connecting the weeding machine, \ntractor and harvester and wireless network a for communication of \nmachines and sensors with cloud systems (UMTS: 3G). \nThe Digital Twin Management layer combines, stores, processes and \nupdates all data related to the Digital Twins of fields, weeds, growing \nlettuce, lettuce to be harvested, and weeding machines. It provides ac­\ncess to these twins for the farmer and machine vendor applications. The \ndata storage and processing of the weeds and crops is done locally on the \nweeding machine. This layer also includes services needed to determine \ncrop growth, to predict expected yield and to define optimal machine \nsettings. \nThe Application layer allows users to interact with Digital Twins. Via",
+          "bbox": [
+            37.587398529052734,
+            522.7001342773438,
+            291.03021240234375,
+            744.9264526367188
+          ]
+        },
+        {
+          "id": "p15-b5-bdee914",
+          "kind": "paragraph",
+          "text": "the weeder user terminal, farmers can monitor weeds and growing let­\ntuce in real-time and intervene if necessary (Fig. 12). Via cloud dash­\nboards, farmers can monitor weed pressure, crop growth and expected \nyield on field level. For this purpose the use cases integrates with \nexisting solutions for geo information and farm management. Fig. 13 \nshows a crop growth example of the Akkerweb dashboard and Fig. 14 \nshows a weed pressure example in 365FarmNet. Furthermore, a ma­\nchine vendor’s dashboard can be used to configure and optimize ma­\nchine settings. This is of crucial importance among others to correctly \ndistinguish crops and weeds for different crop growth phases and light \ncircumstances. \nThe other layers comprise generic technical functions that are similar \nto other use cases and that are already introduced previously (in Section \n5.1).",
+          "bbox": [
+            306.5926208496094,
+            466.291748046875,
+            560.013916015625,
+            615.2704467773438
+          ]
+        },
+        {
+          "id": "p15-b6-ff7d303",
+          "kind": "heading",
+          "text": "6. Discussion and conclusions",
+          "bbox": [
+            306.5926208496094,
+            623.1592407226562,
+            425.60052490234375,
+            636.1903686523438
+          ]
+        },
+        {
+          "id": "p15-b7-fc573d5",
+          "kind": "heading",
+          "text": "6.1. Discussion",
+          "bbox": [
+            306.5926208496094,
+            644.078369140625,
+            361.5982360839844,
+            657.1094970703125
+          ]
+        },
+        {
+          "id": "p15-b8-6d295c7",
+          "kind": "paragraph",
+          "text": "Digital Twins can be seen as a new phase in smart farming. Using \nDigital Twins as central means for farm management enables the \ndecoupling of physical flows from its planning and control. As a \nconsequence, farmers can manage operations remotely based on (near) \nreal-time digital information instead of having to rely on direct obser­\nvation and manual tasks on-site. This allows them to act immediately in \ncase of (expected) deviations and to simulate the effect of interventions",
+          "bbox": [
+            306.5926208496094,
+            664.998291015625,
+            560.0091552734375,
+            740.8441772460938
+          ]
+        },
+        {
+          "id": "p15-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p15-figure1.png",
+          "alt": "Original source page 15, graphic 1",
+          "caption": "原文第15页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p15-b10-72da97e",
+          "kind": "paragraph",
+          "text": "Fig. 11. Digital Twin implementation model of the use case ‘Added Value Weeding Data’.",
+          "bbox": [
+            152.39100646972656,
+            444.7950744628906,
+            447.11090087890625,
+            456.52294921875
+          ]
+        },
+        {
+          "id": "p15-b11-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-15.png"
+    },
+    {
+      "number": 16,
+      "blocks": [
+        {
+          "id": "p16-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p16-b1-b17ef6d",
+          "kind": "paragraph",
+          "text": "16",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p16-b2-23c0682",
+          "kind": "paragraph",
+          "text": "based on real-life data. \nThe main contribution of the paper is that it has proposed a con­\nceptual framework for designing and implementing Digital Twins for \nsmart farming. The framework builds on an analysis of literature and a \nclarification of the concept of Digital Twins, which is still developing. An \nimportant novelty of the framework is that it adds a typology of Digital \nTwins based on the life cycle phases of the objects being virtualised. \nDepending on the perspective, the emphasis is currently often on \nmonitoring or predictive Digital Twins. However, Digital Twins can \nalready be created in the design phase of a life cycle and support the \ncreation of its physical, real-life sibling. During operational usage, \nDigital Twins can not only be used to monitor and simulate the effects of \ninterventions, but also to remotely control an object by using actuators. \nFinally, Digital Twins are also very valuable after disposal of a physical \nobject e.g. for traceability, compliance and learning. So far, these \ndistinct Digital Twin types are not explicitly addressed in the literature, \nwhich results in conceptual confusion. This paper has contributed to \navoid this by introducing a typology and by defining the distinct control \ncapabilities of each type in a control model. \nThe case studies show that there are already applications in the \nagricultural domain that are not framed as Digital Twins. This is not \nsurprising, since Digital Twins are building upon existing technologies \nespecially for precision farming, internet of things and simulation. \nHowever, especially more advanced applications, including e.g. pre­\ndictive and prescriptive capabilities across the lifecycle, are still in an \nearly stage of development. The designed framework was useful to",
+          "bbox": [
+            37.587398529052734,
+            469.4667663574219,
+            291.03021240234375,
+            744.0191650390625
+          ]
+        },
+        {
+          "id": "p16-b3-0afa625",
+          "kind": "paragraph",
+          "text": "explicitly describe and analyze how Digital Twins are used in practice. \nAs such, it has provided a new perspective on the cases that originally \nfocused on the innovative application of Internet of Things technologies \nto farming. It also showed the value of not yet applied Digital Twin \ntypes, which inspired the use cases about potential redesign scenarios. \nFor this reason, we expect that applying the Digital Twin concept, as \ndescribed in our framework, can accelerate the development and \nadoption of Digital Twin solutions for smart farming. However, future \nresearch is needed to provide evidence for this hypothesis. \nFurthermore, the implementation model of our framework only deals \nwith implementing the enabling information technology. We did not \ntake into account organisational and behavioural issues, such as the \nimpact on supply chain collaboration, data ownership and governance, \nthe potential emergence of disruptive business models based on Digital \nTwins, ethical considerations, and so forth. We would like to encourage \nresearchers in these disciplines to also study Digital Twins, since these \nnon-technical issues might be decisive for the success of Digital Twins. \nOur intended follow-up work is related to the further development of \nthe framework. In particular, we plan to elaborate the conceptual \nframework into an information architecture framework, which will \ncomprise a consistent set of architectural viewpoints for modelling \nDigital Twin-based software systems (Tekinerdogan and Verdouw, \n2020). This architectural framework will be the basis for developing \nDigital Twin applications that cover the entire life cycle.",
+          "bbox": [
+            306.5926208496094,
+            469.4667663574219,
+            560.017822265625,
+            723.10009765625
+          ]
+        },
+        {
+          "id": "p16-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p16-figure1.png",
+          "alt": "Original source page 16, graphic 1",
+          "caption": "原文第16页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p16-b5-a60bffa",
+          "kind": "paragraph",
+          "text": "Fig. 12. Digital Twins of the growing lettuce and weeds as a presentation in the user terminal of the weeder application.",
+          "bbox": [
+            102.21700286865234,
+            448.02606201171875,
+            497.2276611328125,
+            459.7539367675781
+          ]
+        },
+        {
+          "id": "p16-b6-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-16.png"
+    },
+    {
+      "number": 17,
+      "blocks": [
+        {
+          "id": "p17-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p17-b1-4523540",
+          "kind": "paragraph",
+          "text": "17",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p17-b2-29111d2",
+          "kind": "heading",
+          "text": "6.2. Conclusions",
+          "bbox": [
+            37.587398529052734,
+            423.48876953125,
+            97.56637573242188,
+            436.5198669433594
+          ]
+        },
+        {
+          "id": "p17-b3-3643be9",
+          "kind": "paragraph",
+          "text": "This paper has analysed how Digital Twins can advance smart \nfarming. More specifically, it addressed the three objectives as \nmentioned in the introduction as follows. \nFirstly, the paper has defined a Digital Twin as “a dynamic repre­\nsentation of a real-life object that mirrors its states and behaviour across \nits lifecycle and that can be used to monitor, analyze and simulate \ncurrent and future states of and interventions on these objects, using \ndata integration, artificial intelligence and machine learning.” Taking \ninto account the role in the life cycle, six distinct Digital Twins are \nidentified:",
+          "bbox": [
+            37.587398529052734,
+            444.40789794921875,
+            291.0166320800781,
+            551.60498046875
+          ]
+        },
+        {
+          "id": "p17-b4-4cba4c0",
+          "kind": "paragraph",
+          "text": "1. Imaginary Digital Twins: conceptual entities that depict and simulate \nreference objects that are not yet connected to objects that physically \nexist in the real-world;  \n2. Monitoring Digital Twins: digital representations of the (near) real- \ntime state and behaviour of real-life physical objects, including its \ntrajectory;  \n3. Predictive Digital Twins: digital projections of the future state and \nbehaviour of physical objects using predictive analytics and based on \n(near) real-time data of the physical twins;  \n4. Prescriptive Digital Twins: smart digital objects that add intelligence \nfor recommending corrective and preventive actions on the real-life \nobjects;",
+          "bbox": [
+            39.2308349609375,
+            559.4937744140625,
+            291.0373840332031,
+            687.5533447265625
+          ]
+        },
+        {
+          "id": "p17-b5-226cb0e",
+          "kind": "paragraph",
+          "text": "5. Autonomous Digital Twins: operate autonomously and fully control \nthe behaviour of real-life objects without on-site or remote inter­\nvention by humans;  \n6. Recollection Digital Twins: maintain the complete history of physical \nobjects, which no longer exist in real-life.",
+          "bbox": [
+            308.1794738769531,
+            423.48876953125,
+            560.0010986328125,
+            478.3581237792969
+          ]
+        },
+        {
+          "id": "p17-b6-0a97a1d",
+          "kind": "paragraph",
+          "text": "Secondly, the paper has proposed a conceptual framework for \ndesigning and implementing Digital Twins in farm management. The \nframework comprises a control model based on a general systems \napproach and an implementation model for Digital Twin systems based \non the Internet of Things—Architecture (IoT-A), a reference architecture \nfor IoT systems. The control model defines the control functions and \ninformation flows among these functions for control systems based on \nDigital Twins. The implementation model classifies technical function­\nalities, from device layer until to application layer, needed to implement \nDigital Twin based systems. \nFinally, the framework is applied to and validated in five smart \nfarming use cases of the European IoF2020 project, focussing on arable \nfarming, dairy farming, greenhouse horticulture, organic vegetable \nfarming and livestock farming. The case-specific control models have \nprovided concrete insights in how Digital Twins could enhanced the \nsmart farming systems of the use cases. Similarly, the case-specific \nimplementation models have been useful to identity improvements of \nthe technical architecture.",
+          "bbox": [
+            306.5926208496094,
+            486.2469177246094,
+            560.0162963867188,
+            677.1220703125
+          ]
+        },
+        {
+          "id": "p17-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p17-figure1.png",
+          "alt": "Original source page 17, graphic 1",
+          "caption": "原文第17页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p17-b8-a4e9102",
+          "kind": "paragraph",
+          "text": "Fig. 13. Crop growth view on Field Digital Twin in Akkerweb a.k.a. FarmMaps.",
+          "bbox": [
+            168.66099548339844,
+            401.9910583496094,
+            430.84912109375,
+            413.71893310546875
+          ]
+        },
+        {
+          "id": "p17-b9-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-17.png"
+    },
+    {
+      "number": 18,
+      "blocks": [
+        {
+          "id": "p18-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p18-b1-4ec9599",
+          "kind": "paragraph",
+          "text": "18",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p18-b2-8feb861",
+          "kind": "paragraph",
+          "text": "Declaration of Competing Interest",
+          "bbox": [
+            37.587398529052734,
+            405.4597473144531,
+            169.79383850097656,
+            418.4908447265625
+          ]
+        },
+        {
+          "id": "p18-b3-5f4cebb",
+          "kind": "paragraph",
+          "text": "The authors declare that they have no known competing financial \ninterests or personal relationships that could have appeared to influence \nthe work reported in this paper.",
+          "bbox": [
+            37.587398529052734,
+            426.3788757324219,
+            291.0062561035156,
+            460.3291015625
+          ]
+        },
+        {
+          "id": "p18-b4-c9015d5",
+          "kind": "heading",
+          "text": "Acknowledgements",
+          "bbox": [
+            37.587398529052734,
+            470.59857177734375,
+            113.76560974121094,
+            483.6296691894531
+          ]
+        },
+        {
+          "id": "p18-b5-72032bd",
+          "kind": "paragraph",
+          "text": "This work was supported by the European Union’s Horizon 2020 \nresearch and innovation programme under grant agreement no. 731884. \nThe authors greatly acknowledge the valuable contributions from col­\nleagues of the IoF2020 consortium.",
+          "bbox": [
+            37.587398529052734,
+            491.51849365234375,
+            291.0278015136719,
+            535.9008178710938
+          ]
+        },
+        {
+          "id": "p18-b6-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            37.587398529052734,
+            546.16943359375,
+            81.13601684570312,
+            559.2005615234375
+          ]
+        },
+        {
+          "id": "p18-b7-68c7f91",
+          "kind": "paragraph",
+          "text": "Lockeretz, W., 2007. Organic Farming: An International History. CAB International, \nWallingford/ Cambridge, p. 281. \nAIOTI, 2018. High Level Architecture (HLA) Release 4.0. Alliance for Internet of Things \nInnovation. AIOTI WG03 – loT Standardisation. \nAlam, K.M., Saddik, A.E., 2017. C2PS: a Digital Twin architecture reference model for the \ncloud-based cyber-physical systems, 5. IEEE Access, pp. 2050–2062. \nAlves, R.G., Souza, G., Maia, R.F., Tran, A.L.H., Kamienski, C., Soininen, J.-P., Aquino- \nJr, P.T., Lima, F., 2019. A Digital Twin for Smart Farming. IEEE Global Humanitarian \nTechnology Conference Seattle - USA. \nAtzori, L., Iera, A., Morabito, G., 2010. The internet of things: a survey. Comput. Netw. \n54 (15), 2787–2805. \nBalafoutis, A.T., et al., 2017. Smart farming technologies – Description, taxonomy and \neconomic impact. In: Lind, K. (Ed.), Pedersen S. Technology and Economic \nPerspectives. Progress in Precision Agriculture. Springer, Cham, Precision \nAgriculture.  \nBauer, M., Bui, N., De Loof, J., Magerkurth, C., Nettstr¨ater, A., Stefa, J., Walewski, J.W., \n2013. IoT reference model. In: Bassi, A., Bauer, M., Fiedler, M., Kramp, T., van \nKranenburg, R., Lange, S., Meissner, S. (Eds.), Enabling Things to Talk: Designing IoT \nSolutions with the IoT Architectural Reference Model. Springer Berlin Heidelberg, \nBerlin, Heidelberg, pp. 113–162. \nBenbasat, I., Goldstein, D.K., Mead, M., 1987. The case research Stratey in studies of \ninformation systems. MIS Q. 11 (3), 369–385.",
+          "bbox": [
+            37.587398529052734,
+            566.4474487304688,
+            288.5600280761719,
+            744.2272338867188
+          ]
+        },
+        {
+          "id": "p18-b8-b6d4c54",
+          "kind": "paragraph",
+          "text": "Boschert, S., Rosen, R., 2016. Digital twin—The simulation aspect. In: Hehenberger, P., \nBradley, D. (Eds.), Mechatronic Futures: Challenges and Solutions for Mechatronic \nSystems and their Designers. Springer International Publishing, Cham, pp. 59–74. \nCanedo, A., 2016. Industrial iot lifecycle via Digital Twins, Proceedings of the 11th IEEE/ \nACM/IFIP International Conference on Hardware/Software Codesign and System \nSynthesis, CODES 2016. \nCarrez, F., Bauer, M., Boussard, M., Bui, N., Carrez, F., Jardak, C., Loof, J.D., \nMagerkurth, C., Meissner, S., Nettstr¨ater, A., Olivereau, A., Thoma, M., Walewski, J. \nW., Stefa, J., (UniWue), A.S, 2013. Internet of Things – Architecture IoT-A, \nDeliverable D1.5 – Final architectural reference model for the IoT v3.0. European \nCommission. \nClements, P., Bachmann, F., Bass, L., Garlan, D., Ivers, J., Little, R., Merson, P., Nord, R., \nStafford, J., 2010. Documenting Software Architectures: Views and Beyond, second \ned. Addison-Wesley. \nDur˜ao, L.F.C.S., Haag, S., Anderl, R., Schützer, K., Zancul, E., 2018. Digital twin \nrequirements in the context of industry 4.0. In: Chiabert, P., Bouras, A., No¨el, F., \nRíos, J. (Eds.), Product Lifecycle Management to Support Industry 4.0. Springer \nInternational Publishing, Cham, pp. 204–214. \nEisenhardt, K.M., 1989. Building theories from case-study research. Acad. Manag. Rev. \n14 (4), 532–550. \nFountas, S., Sørensen, C.G., Vatsanidou, A., Liakos, V., Tsiropoulos, Z., Cavalaris, C., \nCanavari, M., Gemtos, T., Blackmore, S., 2013. Farm management information \nsystems: current situation and future perspectives. Comput. Electron. Agric. 115, \n40–50. \nFuller, A., Fan, Z., Day, C., Barlow, C., 2020. Digital twin: enabling technologies, \nchallenges and open research. IEEE Access 8, 108952–108971. \nGlaessgen, E., Stargel, D., 2012. The Digital Twin Paradigm for Future NASA and U.S. Air \nForce Vehicles. In: 53rd AIAA/ASME/ASCE/AHS/ASC Structures, Structural \nDynamics and Materials Conference. American Institute of Aeronautics and \nAstronautics. \nGrieves, M.W., 2005. Product lifecycle management: the new paradigm for enterprises. \nInt. J. Prod. Dev. 2 (1–2), 71–84. \nGrieves, M., Vickers, J., 2016. Digital twin: Mitigating unpredictable, undesirable \nemergent behaviour in complex systems. In: Kahlen, F.J., Flumerfelt, S., Alves, A. \n(Eds.), Transdisciplinary Perspectives on Complex Systems: New Findings and \nApproaches. Springer, pp. 85–113. \nGrieves, M., Vickers, J., 2017. Digital twin: Mitigating unpredictable, undesirable \nemergent behaviour in complex systems. In: Kahlen, F.-J., Flumerfelt, S., Alves, A. \n(Eds.), Transdisciplinary Perspectives on Complex Systems. Springer International \nPublishing.",
+          "bbox": [
+            306.59234619140625,
+            406.2918395996094,
+            557.5643310546875,
+            727.5599975585938
+          ]
+        },
+        {
+          "id": "p18-figure1",
+          "kind": "image",
+          "path": "library/verdouw-2021/6cd910d4ac59/p18-figure1.png",
+          "alt": "Original source page 18, graphic 1",
+          "caption": "原文第18页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p18-b10-88cf0cd",
+          "kind": "paragraph",
+          "text": "Fig. 14. Weed pressure view on Field Digital Twin in 365Farmnet.",
+          "bbox": [
+            189.75100708007812,
+            384.02008056640625,
+            409.7110595703125,
+            395.7479553222656
+          ]
+        },
+        {
+          "id": "p18-b11-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            501.5129699707031,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-18.png"
+    },
+    {
+      "number": 19,
+      "blocks": [
+        {
+          "id": "p19-b0-8dd1999",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 189 (2021) 103046",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p19-b1-9400f1b",
+          "kind": "paragraph",
+          "text": "19",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p19-b2-ce157bc",
+          "kind": "paragraph",
+          "text": "Gubbi, J., Buyya, R., Marusic, S., Palaniswami, M., 2013. Internet of things (IoT): a \nvision, architectural elements, and future directions. Futur. Gener. Comput. Syst. 29 \n(7), 1645–1660. \nHagerty, J., 2016. 2017. Planning Guide for Data and Analytics. Gartner. \nHevner, A.R., March, S.T., Park, J., Ram, S., 2004. Design science in information systems \nresearch. MIS Q. 28 (1), 75–105. \nITU-T, 2016. Recommendation ITU-T Y. Overview of the Internet of Things. \nTelecommunication Standardization sector of ITU, IoT Reference Model, p. 2060. \nJanssen, S.J.C., et al., 2017. Towards a new generation of agricultural system data, \nmodels and knowledge products: information and communication technology. Agric. \nSyst. 155, 200–212. \nJo, S.K., Park, D.H., Park, H., Kim, S.H., 2018. Smart livestock farms using Digital Twin: \nfeasibility study. In: 2018 International Conference on Information and \nCommunication Technology Convergence (ICTC), pp. 1461–1463. https://doi.org/ \n10.1109/ICTC.2018.8539516. \nJones, D., Snider, C., Nassehi, A., Yon, J., Hicks, B., 2020. Characterising the Digital \nTwin: a systematic literature review. CIRP J. Manuf. Sci. Technol. 29 (A), 36–52. \nKamilaris, A., Prenafeta-Boldú, F.X., 2018. Deep learning in agriculture: a survey. \nComput. Electron. Agric. 147, 70–90. \nKampker, A., Stich, V., Jussen, P., Moser, B., Kuntz, J., 2019. Business models for \nindustrial smart services - the example of a Digital Twin for a product-service-system \nfor potato harvesting. 11th CIRP conference on industrial product-service systems. \nProcedia CIRP 82, 534–540. \nKnibbe, W.J., Ridder, D.D., Ritzer, S., 2019. Kick-off Digital Twins: Let’s find answers \ntogether accessed.  \nKovacs, Z., Le Goff, J.M., McClatchey, R., 1998. Support for product data from design to \nproduction. Comput. Integr. Manuf. Syst. 11 (4), 285–290. \nKritzinger, W., Karner, M., Traar, G., Henjes, J., Sihn, W., 2018. Digital twin in \nmanufacturing: a categorical literature review and classification. IFAC-PapersOnLine \n51 (11), 1016–1022. \nde Leeuw, A.C.J., 1997. Organisaties: Management, analyse, ontwerp en verandering; \neen systeemvisie. Van Gorcum, Assen.  \nLepenioti, K., Bousdekis, A., Apostolou, D., Mentzas, G., 2020. Prescriptive analytics: \nliterature review and research challenges. Int. J. Inf. Manag. 50, 57–70. \nLinz, A., Hertzberg, J., Roters, J., Ruckelshausen, A., 2019. Digitale Zwillinge als \nWerkzeug für die Entwicklung von Feldrobotern in landwirtschaftlichen Prozessen. \nIn: Al, M.A.E. (Ed.), Digitalisierung in kleinstrukturierten Regionen. Gesellschaft für \nInformatik, Bonn, pp. 125–130. \nMaaß, W., Pier, M., Moser, B., 2018. In: Al, K.M.E. (Ed.), Smart Services in der \nLandwirtschaft. Service Engineering. Springer, pp. 167–181. \nMarch, S.T., Storey, V.C., 2008. Design science in the information systems discipline: an \nintroduction to the special issue on design science research. MIS Q. 32 (4), 725–730. \nMarr, B., 2017. What is Digital Twin technology - and why is it so important? Forbes. htt \nps://www.forbes.com/sites/bernardmarr/2017/03/06/what-is-digital-twin-techn \nology-and-why-is-it-so-important/. \nMike Shafto, C., Conroy, M., Doyle, R., Glaessgen, E., Kemp, C., LeMoigne, J., Wang, L., \n2012. Modeling, Simulation, Information Technology & Processing Roadmap \nTechnology Area 11. NASA, Washington, DC, p. 33. \nMikell, M., Clark, J., 2018. Cheat sheet: What is Digital Twin?, https://www.ibm.com/ \nblogs/internet-of-things/iot-cheat-sheet-digital-twin/. \nMonteiro, J., Barata, J., Veloso, M., Veloso, L., Nunes, J., 2018. Towards sustainable \nDigital Twins for vertical farming. 2018 Thirteenth International Conference on \nDigital Information Management (ICDIM), Berlin, Germany 234–239. \nPark, K.T., Nam, Y.W., Lee, H.S., Im, S.J., Noh, S.D., Son, J.Y., Kim, H., 2019. Design and \nimplementation of a Digital Twin application for a connected micro smart factory. \nInt. J. Comput. Integr. Manuf. 32 (6), 596–614. \nPhilpotts, M., 1996. An introduction to the concepts, benefits and terminology of product \ndata management. Industrial Management &amp; Data Systems 96 (4), 11–17. \nPorter, M.E., Heppelmann, J.E., 2014. How Smart Connected Objects Are Transforming \nCompetition. Harvard Business Review, November, pp. 65–88. \nRedelinghuys, A., Basson, A., Kruger, K., 2019. A six-layer Digital Twin architecture for a \nmanufacturing cell. In: Borangiu, T., Trentesaux, D., Thomas, A., Cavalieri, S. (Eds.), \nService Orientation in Holonic and Multi-Agent Manufacturing. Springer \nInternational Publishing, Cham, pp. 412–423. \nRuneson, P., H¨ost, M., 2008. Guidelines for conducting and reporting case study research \nin software engineering. Empir. Softw. Eng. 14 (2), 131.",
+          "bbox": [
+            37.587398529052734,
+            52.12942886352539,
+            288.5689392089844,
+            580.6079711914062
+          ]
+        },
+        {
+          "id": "p19-b3-14b4188",
+          "kind": "paragraph",
+          "text": "Saddik, A.E., 2018. Digital twins: the convergence of Multimedia technologies. IEEE \nMultiMedia 25 (2), 87–92. \nSchleich, B., Anwer, N., Mathieu, L., Wartzack, S., 2017. Shaping the Digital Twin for \ndesign and production engineering. CIRP Ann. 66 (1), 141–144. \nShaw, K., Fruhlinger, J., 2019. What Is a Digital Twin and why it’s Important to IoT. \nNetwork World. https://www.networkworld.com/article/3280225/what-is-digit \nal-twin-technology-and-why-it-matters.html. \nSkobelev, P., Laryukhin, V., Simonova, E., Goryanin, O., Yalovenko, V., Yalovenko, O., \n2020. Developing a smart cyber-physical system based on Digital Twins of plants. In: \nFourth World Conference on Smart Trends in Systems, 2020. Security and \nSustainability (WorldS4), London, United Kingdom, pp. 522–527. \nSørensen, C.G., Fountas, S., Nash, E., Pesonen, L., Bochtis, D., Pedersen, S.M., Basso, B., \nBlackmore, S.B., 2010. Conceptual model of a future farm management information \nsystem. Comput. Electron. Agric. 72 (1), 37–47. \nSreedevi, T.R., Santosh Kumar, M.B., 2020. Digital twin in smart farming: a categorical \nliterature review and exploring possibilities in hydroponics. Advanced Computing \nand Communication Technologies for High Performance Applications (ACCTHPA), \nCochin, India 2020, 120–124. \nSudarsan, R., Fenves, S.J., Sriram, R.D., Wang, F., 2005. A product information modeling \nframework for product lifecycle management. Comput. Aided Des. 37 (13), \n1399–1411. \nSundmaeker, H., Guillemin, P., Friess, P., Woelffl´e, S., 2010. Vision and Challenges for \nRealising the Internet of Things. European Union, Brussels.  \nInt Veld, J., 2002. Analyse van organisatieproblemen. 8th edition ed. In: Stenfert Kroese. \nTao, F., Cheng, J., Qi, Q., Zhang, M., Zhang, H., Sui, F., 2018. Digital twin-driven product \ndesign, manufacturing and service with big data. Int. J. Adv. Manuf. Technol. 94 (9), \n3563–3576. \nTekinerdogan, B., Verdouw, C., 2020. Systems architecture design pattern Catalog for \ndeveloping Digital Twins. Sensors 20, 5103. https://doi.org/10.3390/s20185103. \nTrienekens, J.H., van der Vorst, J.G.A.J., Verdouw, C.N., 2014. Global food supply \nchains. In: van Alfen, N.K. (Ed.), Encyclopedia of Agriculture and Food Systems, 2nd \nedition. Academic Press, pp. 499–517. \nTzounis, A., Katsoulas, N., Bartzanas, T., Kittas, C., 2017. Internet of things in \nagriculture, recent advances and future challenges. Biosyst. Eng. 164, 31–48. \nUckelmann, D., Harrison, M., Michahelles, F., 2011. An architectural approach towards \nthe future internet of things. In: Uckelmann, D., Harrison, M., Michahelles, F. (Eds.), \nArchitecting the Internet of Things. Springer-Verlag, Berlin Heidelberg, pp. 1–24. \nVan Aken, J.E., 2004. Management research based on the paradigm of the design \nsciences: the quest for field-tested and grounded technological rules. J. Manag. Stud. \n41 (2), 219–246. \nVerdouw, C.N., Kruize, J.W., 2017. Digital Twins in Farm Management : Illustrations \nfrom the FIWARE Accelerators SmartAgriFood and Fractals. PA17 - the International \ntri-Conference for Precision Agriculture in 2017 Hamilton. \nVerdouw, C.N., Beulens, A.J.M., van der Vorst, J.G.A.J., 2013. Virtualisation of \nfloricultural supply chains: a review from an internet of things perspective. Comput. \nElectron. Agric. 99 (1), 160–175. \nVerdouw, C.N., Beulens, A.J.M., Reijers, H.A., Vorst, J.G.A.J.v.d., 2015. A control model \nfor object virtualization in supply chain management. Comput. Ind. 68, 116–131. \nVerdouw, C., Wolfert, S., Tekinerdogan, B., 2016a. Internet of things in agriculture. CAB \nReviews 11 (35), 1–12. \nVerdouw, C.N., Wolfert, J., Beulens, A.J.M., Rialland, A., 2016b. Virtualization of food \nsupply chains with the internet of things. J. Food Eng. 176, 128–136. \nVerdouw, C.N., Wolfert, J., Beers, G., Sundmaeker, Harald, Chatzikostas, Grigoris, 2017. \nFostering business and software ecosystems for large-scale uptake of IoT in food and \nfarming, PA17 - the international tri-conference for precision agriculture in 2017. \nHamilton 1–7. \nVerdouw, C., Sundmaeker, H., Tekinerdogan, B., Conzon, D., Montanaro, T., 2019. \nArchitecture framework of IoT-based food and farm systems: a multiple case study. \nComput. Electron. Agric. 165, 104939. \nWolfert, S., Ge, L., Verdouw, C., Bogaardt, M.-J., 2017. Big data in smart farming – a \nreview. Agric. Syst. 153, 69–80. \nYin, R.K., 2002. Case Study Research: Design and Methods. Sage Publications, Inc, \nNewbury Park, Third Edition ed.  \nZhai, Z., Martínez, J.F., Beltran, V., Martínez, N.L., 2020. Decision support systems for \nagriculture 4.0: survey and challenges. Comput. Electron. Agric. 170, 105256.",
+          "bbox": [
+            306.59234619140625,
+            52.12942886352539,
+            557.5598754882812,
+            572.6713256835938
+          ]
+        },
+        {
+          "id": "p19-b4-6312572",
+          "kind": "paragraph",
+          "text": "C. Verdouw et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64824295043945,
+            501.5129699707031,
+            44.072837829589844
+          ]
+        }
+      ],
+      "snapshot": "library/verdouw-2021/6cd910d4ac59/page-19.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 19,
+    "pageSnapshots": 19,
+    "allTextBlocksRetained": true,
+    "textCharacters": 96344,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 17,
+    "sourceSHA256": "6cd910d4ac59ed97e78b6df405d14a08a7265c69e08575f5ab37f013d1f45ca9",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

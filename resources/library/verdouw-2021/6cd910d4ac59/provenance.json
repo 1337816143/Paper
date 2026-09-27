@@ -1,0 +1,26 @@
+{
+  "id": "verdouw-2021",
+  "title": "Digital twins in smart farming",
+  "citation": "Verdouw, C., et al. (2021). Agricultural Systems, 189, 103046.",
+  "sourceURL": "https://doi.org/10.1016/j.agsy.2020.103046",
+  "checkedAt": "2026-09-27T22:26:07Z",
+  "status": "licensed",
+  "attempts": [],
+  "metadataURL": "https://research.wur.nl/en/publications/digital-twins-in-smart-farming/",
+  "downloadURL": "https://edepot.wur.nl/541204",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Agricultural Systems 189 (2021) 103046 Available online 28 January 2021 0308-521X/© 2020 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Digital twins in smart farming Cor Verdouw a,b,*, Bedir Tekinerdogan a, Adrie Beulens a, Sjaak Wolfert a,c a Information Technology Group, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands b Mprise, P.O. Box 598, 3900, AN, Veenendaal, the Netherlands c Wageni",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "pages": 19,
+  "sha256": "6cd910d4ac59ed97e78b6df405d14a08a7265c69e08575f5ab37f013d1f45ca9",
+  "bytes": 9532472,
+  "textCharacters": 100876,
+  "aliases": [
+    "https://doi.org/10.1016/j.agsy.2020.103046",
+    "https://edepot.wur.nl/541204",
+    "https://research.wur.nl/en/publications/digital-twins-in-smart-farming/"
+  ]
+}

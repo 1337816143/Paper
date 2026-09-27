@@ -1,0 +1,1678 @@
+Sustainable Production and Consumption 40 (2023) 532–544
+
+Available online 17 July 2023
+2352-5509/© 2023 The Authors. Published by Elsevier Ltd on behalf of Institution of Chemical Engineers. This is an open access article under the CC BY-NC-ND
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+Designing diversified crop rotations to advance sustainability: A method 
+and an application
+
+Zhengyuan Liang a,b,c,*, Zhan Xu b,c, Jiali Cheng a,b,c, Bowen Ma a,b, Wen-Feng Cong b,**, 
+Chaochun Zhang b, Fusuo Zhang b, Wopke van der Werf c, Jeroen C.J. Groot a
+
+a Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands 
+b College of Resources and Environmental Science, National Academy of Agriculture Green Development, China Agricultural University, Beijing 100193, China 
+c Centre for Crop Systems Analysis, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands
+
+A R T I C L E  I N F O
+
+Editor: Dr. Tomas Balezentis
+
+Keywords: 
+Crop diversification 
+Pareto optimality 
+Profitability 
+Human nutrition 
+Groundwater depletion 
+Greenhouse gas emission
+
+A B S T R A C T
+
+Diversified crop rotations are considered key to solving sustainability issues with modern farming but trade-offs 
+often occur among different sustainability objectives. It remains a challenge to design rotations that reach 
+compromises across multiple sustainability domains. Here we propose a methodological framework for sys­
+tematic design of compromise rotations in terms of a set of sustainability indicators, which for the first time 
+combines a rotation generator model (ROTAT), Pareto-based decision-aid tools, and a multi-criteria character­
+ization process. We exemplify this framework by exploring promising diversified rotations in terms of 11 sus­
+tainability indicators for Quzhou, a typical cereal-growing county in the North China Plain. ROTAT generated 
+3011 agronomically feasible rotations but none of them outperformed the currently dominant wheat-maize 
+system in all indicators. Then 125 rotations (4 %) were selected as compromise rotations using the Pareto- 
+based decision-aid methods. Finally, these compromise rotations were divided into eight clusters representing 
+contrasting sustainability patterns, including two profitability-oriented, two nutrition-oriented, and two 
+environment-oriented clusters, as well as two clusters that achieved balance across sustainability domains. We 
+conclude that no single alternative rotation can solve all conflicting sustainability issues, but compromise al­
+ternatives could serve diverse stakeholder demands and provide well-planned options for future agricultural 
+landscapes. The crop rotation design method showcased here could also be used in other specialized agricultural 
+regions to inform stakeholders and policy-makers about possibilities and trade-offs when improving sustain­
+ability of crop production.
+
+1. Introduction
+
+Sustainable crop production is expected to be agronomically pro­
+ductive as well as environmentally sound and socio-economically viable 
+(Deytieux et al., 2016). Since the Green Revolution, crop production has 
+been highly intensified and specialized in many agricultural regions 
+around the world (Ickowitz et al., 2019) so that a few calorie-dense 
+cereal species dominate farmlands in short rotations with high 
+resource inputs such as fertilizers, pesticides, and freshwater. In the past 
+decades, such agricultural intensification and specialization has 
+contributed to satisfying the dietary energy demand of the increasing 
+global population but it has also caused negative environmental con­
+sequences (Foley et al., 2011; Pellegrini and Fern´andez, 2018), for
+
+instance, water overexploitation and eutrophication (Withers et al., 
+2014; Pei et al., 2015), greenhouse gas (GHG) emissions (Bennetzen 
+et al., 2016), and biodiversity loss (Beckmann et al., 2019). Moreover, 
+with the pursuit of economic well-being and nutritional security, cereal- 
+dominated agriculture offers limited scope for increased farm profit and 
+micro-nutrient production (Garibaldi et al., 2017). All of these socio- 
+economic, human-nutrition, and eco-environmental sustainability is­
+sues need to be addressed with equal importance and urgency. There­
+fore, it is crucial to redesign the current intensified and specialized 
+cropping systems to advance agricultural sustainability. 
+Well-planned crop rotations, particularly the longer and more 
+species-diverse ones, are thought to enhance agricultural sustainability 
+for specialized cropping regions. Crop rotation is used to break the life
+
+* Correspondence to: Z. Liang, Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands. 
+** Corresponding author. 
+E-mail addresses: zhengyuan.liang@wur.nl (Z. Liang), wenfeng.cong@cau.edu.cn (W.-F. Cong).
+
+Contents lists available at ScienceDirect
+
+Sustainable Production and Consumption
+
+journal homepage: www.elsevier.com/locate/spc
+
+https://doi.org/10.1016/j.spc.2023.07.018 
+Received 4 April 2023; Received in revised form 8 July 2023; Accepted 15 July 2023
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+533
+
+cycle of pests and to improve soil fertility and resource use efficiency 
+(Ouda et al., 2018). In modern agriculture, it further helps to handle 
+socio-economic, human-nutrition, and environmental challenges. From 
+a socio-economic perspective, crop rotation can enhance financial 
+profitability by introducing high-value crops (S´anchez et al., 2022), and 
+it can attenuate economic risks by combining crops with different 
+temporal patterns of price volatility (Rosa-Schleich et al., 2019). From a 
+nutritional perspective, diversifying crop rotations with pulses or veg­
+etables could increase the production of dietary micronutrients such as 
+minerals and vitamins to combat hidden hunger (Dwivedi et al., 2017). 
+Diversified crop rotations may also serve to solve resource and envi­
+ronmental concerns. Previous studies reported that rotations with water- 
+use-efficient species and a decreased cropping intensity could mitigate 
+groundwater table decline (Yang et al., 2021). Furthermore, low-input 
+rotations, for instance with legumes, reduce the reliance on synthetic 
+fertilizers, thereby lowering associated pollution and GHG emission (Liu 
+et al., 2022). Additionally, diversified crop rotations could be used as a 
+measure to revive farmland biodiversity (Sietz et al., 2022). However, 
+when multiple sustainability objectives are concurrently considered, 
+trade-offs among objectives are often observed (Kanter et al., 2018), 
+which increases the complexity and difficulty of crop rotation planning. 
+In this situation, it is preferable to implement diversified crop rotations 
+with compromises across sustainability domains while catering to 
+various sustainability demands. However, there is a lack of a method to 
+systematically design such promising rotations. 
+The North China Plain is one of the major specialized and intensified 
+crop production regions in China and around the world. Here, the 
+intensive wheat-maize double cropping system covers approximately 60 
+% of arable land area (Li and Lei, 2021). The widespread cultivation of 
+the wheat-maize system has given rise to issues including low farm in­
+come, groundwater table decline, high nutrient losses, and pesticide 
+risks to human and ecosystem health (Zhang et al., 2016; Wang et al., 
+2019; Mu et al., 2022). Moreover, local policies emphasize food and 
+nutritional security, GHG emission abatement, and biodiversity con­
+servation (MARA, 2022a). Thus, this region serves as an example of the 
+arable farming areas that need to address multiple sustainability issues 
+resulting from crop specialization while fulfilling diverse sustainability 
+demands from agricultural policies and stakeholders. Since the wheat- 
+maize system in itself cannot handle all of these challenges, the North 
+China Plain presents an ideal case study area to explore diversified ro­
+tations that can achieve compromises across multiple sustainability 
+objectives. Several previous studies evaluated a few expert-designed 
+alternative rotations in the field trials but accounted for only a few 
+sustainability indicators, e.g., grain and economic output, water con­
+sumption, and carbon emission (Zhao et al., 2021; Xiao et al., 2022), and 
+overlooked others and potential trade-offs. So far, there have been 
+limited efforts on systematic design of rotations with compromises 
+across a comprehensive set of sustainability indicators for a given 
+region. 
+The main objective of this study is to present a novel methodological 
+framework for designing promising diversified rotations in terms of 
+multiple sustainability attributes, which for the first time combines the 
+rotation generator model with the multi-criteria decision-aid and char­
+acterization processes. Then, taking Quzhou, a typical cereal-dominated 
+agricultural county in the North China Plain, as a case study area, we 
+illustrated this framework to 1) design the rotations that represent 
+compromises across the entire indicator set, and 2) systematically 
+characterize those compromise rotations to understand their potential 
+contribution to multi-attribute sustainability. These compromise rota­
+tions serve as the basis for local stakeholders’ discussion on enhancing 
+farming sustainability. This illustration shows how the presented 
+method can be applied in a given area, thus helping to facilitate the 
+broader application of this method to design well-performing rotations 
+in any other specialized cropping regions that encounter various sus­
+tainability challenges.
+
+2. Literature review
+
+2.1. Model-based crop rotation generation and evaluation
+
+Multiple crop rotation generator models have been devised to 
+explore alternative rotations. This type of model generates all agro­
+nomically feasible rotations based on a list of candidate crops and a set 
+of agronomic rules (Dury et al., 2012; Hern´andez-Ochoa et al., 2022). 
+The agronomic, economic, and environmental performance of the 
+generated rotations can be assessed ex-ante in an empirical way. For 
+example, the ROTAT model was used to design rotations that enhance 
+farm income and soil organic matter accumulation while lowering soil 
+erosion for the vegetable-pasture farms in Uruguay (Dogliotti et al., 
+2004, 2014). Bachinger and Zander (2007) developed the ROTOR model 
+to generate desirable rotations for organic farming systems in terms of 
+operating profits, soil N balance, and weed infestation risks. Reckling 
+et al. (2016) proposed a methodological framework for designing and 
+evaluating feasible rotations in two European regions, highlighting the 
+benefits of legume-inclusive rotations in economic gains, N emission 
+mitigation, and phytosanitary effects. Compared with experience-based 
+rotation design, the model-based design has three advantages: 1) it uses 
+an explicit, systematic, and reproducible procedure, 2) it assesses to 
+what extent each sustainability domain may benefit from improved ro­
+tations, and 3) it allows the analysis of synergies and trade-offs among 
+sustainability domains (Dury et al., 2012; Carof et al., 2013). 
+However, rotation generator models are likely to produce large sets 
+of feasible alternatives, which may overwhelm stakeholders and 
+complicate decision-making, particularly when there are trade-offs 
+among assessment indicators. Previous studies with rotation generator 
+models often resort to thresholds for certain indicators to identify ro­
+tations for adoption (Dogliotti et al., 2004; Bachinger and Zander et al., 
+2007), but these threshold values are often arbitrarily defined and may 
+not be available for all indicators. Furthermore, trade-offs among some 
+indicators are overlooked in these studies. Hence it is crucial to integrate 
+rotation generator models with threshold-free multi-criteria decision- 
+aid tools to efficiently select well-performing solutions. Nevertheless, 
+this integration remains under investigated yet.
+
+2.2. Multi-criteria decision-aid methods on cropping systems
+
+Previous studies on the ex-post assessment of cropping systems have 
+often harnessed various quantitative decision-aid tools to choose desir­
+able options in terms of multiple sustainability indicators (Deytieux 
+et al., 2016; Cicciù et al., 2022). This is because, in most cases, there is 
+no single system that performs best in all indicators. Most of these 
+studies aggregate multiple elementary indicators into a composite one 
+and recommend the crop sequence and/or management strategy with 
+the highest overall sustainability score. This aggregation can be 
+accomplished by calculating the additive sum or weighted average of 
+normalized values of each indicator (Talukder et al., 2018; Ben Abdallah 
+et al., 2022) or by quantifying the production efficiency such as data 
+envelopment analysis (Pokhrel and Soni, 2017; Yang et al., 2022), eco- 
+efficiency (Saber et al., 2021), and environmental footprints (Ankathi 
+et al., 2019; Xian et al., 2023). While these methods can identify the 
+‘best’ cropping system based on the composite indicator, they may 
+conceal the potential trade-offs among elementary indicators during the 
+aggregation process. Therefore, the derived single optimal system 
+perhaps cannot fit all kinds of sustainability demands. 
+Pareto-based decision-aid methods offer promise in addressing the 
+aforementioned issue and thus have garnered increasing attention in 
+multi-criteria assessment studies regarding agricultural systems (Adel­
+hart Toorop et al., 2020; Liang et al., 2022; Ulukan et al., 2022). These 
+methods use Pareto-based metrics to select the superior systems in the 
+multi-criteria term. For instance, Liang et al. (2022) used the Pareto rank 
+metric with seven socio-economic and eco-environmental indicators to 
+select Pareto-optimal systems among a group of wheat-maize farmers in
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+534
+
+the North China Plain. In another study, Groot et al. (2010) employed 
+the Pareto efficiency metric to design agricultural landscapes that ach­
+ieved better compromises across seven objectives related to economics, 
+environment, and landscape characters. These methods take into ac­
+count trade-offs among indicators during the selection process and ul­
+timately maintain a diversity of promising options catering to different 
+priorities. However, such metrics have not yet been utilized to support 
+the systematic design of crop rotations that reconcile different sustain­
+ability domains.
+
+3. Methods
+
+3.1. Methodological framework
+
+The present methodological framework contains three steps to sys­
+tematically explore alternative crop rotations that reach compromises 
+across multiple sustainability attributes for a given agricultural region 
+(Fig. 1).
+
+3.1.1. STEP1: Crop rotation generation & evaluation 
+All agronomically feasible rotations were generated by the ROTAT 
+model using a list of locally cultivated crops and a set of rotation rules 
+(Section 3.3). Simultaneously, ROTAT evaluated each rotation’s sus­
+tainability performance based on crop input-output data collected from 
+farmers’ survey (Section 3.4).
+
+3.1.2. STEP2: Crop rotation selection 
+This step helped to select compromise rotations across all indicators 
+from the set of generated rotations (Section 3.5). Based on the indicator 
+performance, we identified Pareto-optimal rotations using the Pareto 
+ranking procedure and then filtered out Pareto-optimal rotations that 
+had unacceptable trade-offs across indicators using Pareto efficiency 
+score ordination.
+
+3.1.3. STEP3: Crop rotation characterization 
+We finally applied a clustering technique to divide the whole set of 
+compromise rotations into several clusters with contrasting sustain­
+ability patterns (Section 3.6). The outcome of this step would inform 
+stakeholders to choose rotations tailored to given sustainability 
+objectives.
+
+3.2. Case study area
+
+We applied the proposed methodological framework to design 
+compromise rotations for Quzhou County, Hebei Province, China 
+(114◦50′E–115◦13′E, 36◦35′N–36◦57′N, Fig. S1), which is a representa­
+tive agricultural county in the North China Plain. Quzhou has a 
+temperate continental monsoon climate with four distinct seasons. The 
+mean annual temperature is 13.1 ◦C, and the mean annual precipitation 
+is 500 mm, 60 % of which occurs from July to August. The soil type is 
+calcareous alluvial, with a loamy texture, a pH of 7.5, and a soil organic 
+matter content of 1.38 % (Li et al., 2022). Crop production in Quzhou is 
+highly specialized and intensified because the winter wheat-summer
+
+Fig. 1. The three-step methodological framework about the systematic exploration of crop rotation set representing compromises across multiple sustainability 
+domains. PCA and HCA are the principal component analysis and the hierarchical clustering analysis respectively. Var. means variability. GHG means green­
+house gas.
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+535
+
+maize double cropping system dominates local croplands, to which 
+farmers apply considerable quantities of fertilizers and water (Liang 
+et al., 2022). On the other hand, the pedo-climatic conditions are 
+favorable for cultivation of various non-cereal crops such as grain le­
+gumes, cotton, stevia, and vegetables. Currently, this county is one of the 
+pilot areas of The National Agriculture Green Development Strategy in 
+China (MARA, 2022b), emphasizing the agricultural transition towards 
+socio-economic, 
+human-nutrition, 
+and 
+eco-environmental 
+sustainability.
+
+3.3. Crop rotation generation
+
+We used the ROTAT model to explore alternative crop rotations for 
+Quzhou based on ten local major crops (Section 3.3.2) and expert- 
+defined agronomic rules (Section 3.3.3).
+
+3.3.1. Model description 
+ROTAT is a static and rule-based model that generates agronomically 
+feasible rotations at the field scale from a list of candidate crops 
+(Dogliotti et al., 2003). The feasibility of generated rotations is ensured 
+by obeying a set of pre-defined agronomic rules, which remove unfea­
+sible rotations from the full factorial set of candidate crop combinations. 
+These rules include crop-timing constraints (e.g., sowing and harvesting 
+dates), sequence and frequency constraints (e.g., disallowed crop suc­
+cessions and the maximum frequency of each crop or crop group), and 
+context-specific constraints (e.g., minimum and maximum rotation 
+length). With such explicit rules, ROTAT-aided rotation generation is 
+viewed as an objective and transparent process.
+
+3.3.2. Candidate crops and their parameterization 
+To determine the list of candidate crops, we conducted a county- 
+wide cropping system survey with 525 randomly selected farmers in 
+2020 and collected agronomic and input-output information on each 
+crop that farmers cultivated (Liang et al., 2022; Supplementary Survey 
+Questionnaire). We chose the ten most widely cultivated crop species for 
+consideration, whereby the same crop species grown in a different 
+growing season was considered a different crop (Table 1; Table S1). 
+There were three candidate maize crops and two candidate foxtail millet 
+crops, respectively, due to differences in growing season. We parame­
+terized these crops in ROTAT based on the agronomic information and 
+an inventory of inputs and outputs of each crop, which corresponded to 
+the mean or mode values of observations from the survey. We used the 
+average input-output data to ensure an accurate representation of the 
+baseline performance of each candidate crop and avoid both over- and 
+under-estimation. Using the survey information ensured that these 
+candidate crops can be broadly grown in the focus region and reflect the
+
+locally proven input-output relations.
+
+3.3.3. Agronomic rules of crop rotation 
+By consulting with multiple local agronomists, we defined rules for 
+the maximum frequency of crops and crop groups, the minimum period 
+between repeated cultivation of crops and crop groups (Table 1), dis­
+allowed crop successions (Table S2), and the minimum and maximum 
+rotation length. We set the minimum rotation length as one year and the 
+maximum as four years because longer rotations are less practical for 
+local farmers. The meaning of agronomic rules used in ROTAT is elab­
+orated in Table S3. Following the rules would prevent abiotic and biotic 
+stresses leading to substantial yield loss and it would also avoid long 
+fallow periods between two successive crops for a rotation. Rotational 
+constraints in this study were looser than those in other studies 
+(Dogliotti et al., 2004; Reckling et al., 2016). For instance, maize and 
+wheat were allowed to be planted every year and continuous cultivation 
+of cotton was accepted, to reflect existing farmer practices because these 
+crops have limited susceptibility to stresses induced by high-frequency 
+cropping at current input levels according to local observations.
+
+3.4. Crop rotation evaluation
+
+We chose 11 indicators relevant to local sustainability challenges to 
+comprehensively assess the performance of crop rotations by ROTAT. 
+These indicators fell into the socio-economic, human-nutrition, and eco- 
+environmental domains.
+
+3.4.1. Model assumptions 
+The empirical assessment in ROTAT was based on crop input-output 
+data representing locally common crop management. We found that 
+farmers in Quzhou used high rates of inputs for candidate crops (Table 
+S1). In this context of intensive management, we did not consider the 
+effects of interactions between successive crops on crop yield in a 
+rotation because high use of agricultural inputs, e.g., fertilizers, pesti­
+cides, and water, would mask the potential effects of preceding crops on 
+nutrient and water turnover, and the prevalence of diseases, pests, and 
+weeds (Zhao et al., 2020; MacLaren et al., 2022). For example, the crop 
+yield of a certain crop species would be a fixed value independent of the 
+preceding crop species in this study. This assumption was agreed upon 
+by local agronomists according to their observations.
+
+3.4.2. Sustainability indicators
+
+3.4.2.1. Socio-economic domain
+
+Table 1 
+Candidate crops and their basic information and rotation rules.
+
+Crop No. 
+Crop name 
+Botanical family 
+Planting date 
+Harvest date 
+Max. Freq.a 
+Min. Rep.b (yrs)
+
+1 
+Winter wheat 
+Graminae 
+Oct.15 
+Jun.1  
+1  
+0 
+2 
+Summer maize_normal 
+Graminae 
+Jun.10 
+Oct.1  
+1  
+0 
+3 
+Summer maize_late 
+Graminae 
+Jul.5 
+Nov.15  
+1  
+0 
+4 
+Spring maize 
+Graminae 
+May.20 
+Oct.1  
+1  
+0 
+5 
+Foxtail millet_normalc 
+Graminae 
+Jun.5 
+Oct.1  
+0.5  
+1.5 
+6 
+Foxtail millet_latec 
+Graminae 
+Jul.5 
+Nov.15  
+0.5  
+1.5 
+7 
+Spring mung beand 
+Fabaceae 
+Mar.31 
+Jul.1  
+0.5  
+1.5 
+8 
+Spring peanutd 
+Fabaceae 
+Apr.15 
+Aug.25  
+0.5  
+1.5 
+9 
+Cotton 
+Malvaceae 
+Apr.20 
+Oct.28  
+1  
+0 
+10 
+Stevia 
+Asteraceae 
+Apr.15 
+Aug.30  
+0.5  
+1.5 
+11 
+Chili pepper 
+Solanaceae 
+Apr.5 
+Sep.5  
+0.5  
+1.5 
+12 
+Cabbage 
+Cruciferae 
+Aug.1 
+Oct.1  
+0.5  
+1.5 
+13 
+Garlic 
+Amaryllidaceae 
+Oct.5 
+Jun.3  
+0.5  
+1.5
+
+a Max. Freq. means the maximum frequency of the given crop in a rotation. 
+b Min. Rep. means the minimum period before repeated cultivation of the given crop in a rotation. 
+c Max. Freq. and Min. Rep. for the crop group of foxtail millets are 0.5 and 1.5 years, respectively. 
+d Max. Freq. and Min. Rep. for the crop group of legumes are 0.5 and 1.5 years, respectively.
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+536
+
+• Gross margin (GM, USD/ha/yr) was calculated by dividing the sum 
+of the gross margin of component crops of a rotation by the rotation 
+length measured in years. To reduce the influence of price fluctua­
+tion, here we calculated the average gross margin of a rotation across 
+15 price settings corresponding to prices of harvested commodities 
+and agricultural inputs over 15 years (2006–2020). Accounting for a 
+15-year period of price fluctuation aims to capture the full range of 
+price fluctuation of agricultural commodities and materials, which 
+are known to be highly volatile in Chinese and world markets 
+(Headey and Fan, 2008).
+
+GM = 1
+15
+
+(∑
+
+k
+
+GMk
+
+)
+(1)
+
+GMk =
+(∑n
+
+i Ycom,i × PRi,k −Ci,k
+
+)/
+RL
+/
+CPIk
+(2)
+
+Where k (=2006, 2007, …, 2020) is the price setting index, i (=1, 2, 
+…, n) is the component crop, and n is the total number of component 
+crops in a rotation. GMk (USD/ha/yr) is the gross margin of a rotation 
+in the price setting k. For crop i, Ycom,i (Mg/ha) is the harvested 
+commodity yield, and PRi,k (USD/Mg) is the market price of the 
+harvested commodity in year k. Ci,k (USD/ha) indicates the variable 
+cost of crop i with input prices in year k, which includes costs of seeds 
+or seedlings, plastic films, inorganic fertilizers, animal manures, 
+electricity for irrigation, pesticides, and hired agricultural machin­
+ery. CPIk is the consumer price index of year k, which was used to 
+correct for the inflation across years so that the gross margins of 
+different years were standardized to the year 2020. RL (years) de­
+notes the rotation length. The price data and CPI across 15 price 
+settings were obtained from the local market and statistical yearbook 
+(HPBS, 2021). We assume the prices of crop input and output as 
+exogenous so these would not vary with the prospective changes in 
+crop rotation pattern at the county scale. The economic performance 
+of candidate crops is shown in Table S4.
+
+• Gross margin variability (GMV, USD/ha/yr) is the standard devi­
+
+ation of the gross margin of a rotation across 15 price settings (Smith 
+et al., 2017):
+
+GMV = SD(GMk)
+(3)
+
+• Labor requirement (L, h/ha/yr) is the annual mean labor input 
+required by the component crops of a rotation:
+
+L =
+∑n
+
+i Li
+
+/
+RL
+(4)
+
+Where Li (h/ha/yr) represents the labor requirement for crop i 
+covering labor consumed for seeding or transplanting, fertilization, 
+irrigation, crop protection, pruning, and harvesting.
+
+3.4.2.2. Human-nutrition domain
+
+• Dietary energy yield, zinc yield, and vitamin C yield (Yj, persons/ 
+ha/yr). These three indicators reflect how many persons have their 
+nutrient requirement met by crop products of a rotation in terms of 
+dietary energy, zinc, and vitamin C respectively (DeFries et al., 
+2015). These were calculated by dividing the sum of the mass output 
+of a given nutrient of all component crops in a rotation by the 
+rotation length and associated recommended nutrient intake for a 
+reference person:
+
+Yj =
+∑n
+
+i Ycom,i × Fj,i
+
+/
+RAIj
+
+/
+RL
+(5)
+
+Where j (=Energy, Zinc, Vitamin C) is the index of the dietary 
+nutrient. Fj,i (Gcal or g/Mg) represents the fraction of nutrient j in the 
+harvested commodity of crop i. RAIj (Gcal or g/person/yr) means the 
+recommended annual intake of nutrient j of a reference person (an 
+18-year-old male with a medium intensity of physical work). Fj,i and 
+RAIj are listed in Table S5.
+
+3.4.2.3. Eco-environment domain
+
+• Groundwater depletion (GWD, mm/yr) was estimated by empir­
+
+ical equations (Yang et al., 2021):
+
+GWD =
+[(∑n
+
+i IRi
+
+)
+−D
+]/
+RL
+(6)
+
+Where IRi (mm) denotes the irrigation water amount used for crop i, 
+and D (mm) means the deep infiltration during a rotation, calculated 
+as:
+
+D = α ×
+[(∑n
+
+i IRi
+
+)
++ P × RL
+]
+(7)
+
+Where P (mm/yr) is the annual precipitation in Quzhou. α represents 
+the unitless recharge coefficient calibrated in the study area (0.2).
+
+• Eutrophication potential (EUP, kg PO4 eq./ha/yr) was used to 
+quantify the life-cycle environmental influence of a rotation on the 
+water bodies (ISO, 2006). The system boundary includes the pre- 
+farm period, i.e., the production and transportation of agricultural 
+inputs, and the on-farm period, i.e., fertilizer application on the 
+arable field. The eutrophication potential of a rotation was calcu­
+lated by using the below equation:
+
+EUP =
+∑n
+
+i
+
+(
+EUPpre,i + EUPon,i
+
+)/
+RL
+(8)
+
+Where EUPpre,i and EUPon,i (kg PO4 eq./ha) denote the eutrophica­
+tion potential of component crop i during the pre- and on-farm 
+period, respectively. Detailed calculation of EUPpre,i and EUPon,i is 
+specified in the section S1.1–1.2 of the Supplementary Materials.
+
+• Net GHG emission (GHGnet, kg CO2 eq./ha/yr) from the life-cycle 
+perspective was used to assess the effects of a rotation on global 
+warming (ISO, 2006):
+
+GHGnet =
+∑n
+
+i
+
+(
+GHGpre,i + GHGon,i −QSOC
+
+)/
+RL
+(9)
+
+Where GHGpre,i and GHGon,i (Mg CO2 eq./ha) represent GHG emis­
+sion during the pre- and on-farm period for crop i, respectively. Their 
+calculation was specified in S1.1 and S1.3 of Supplementary Mate­
+rials. QSOC (Mg CO2 eq./ha) is the soil carbon stock change over a 
+crop rotation cycle, estimated by ROTSOM model, which has been 
+locally validated (see S1.3 of Supplementary Materials).
+
+• Pesticide input is the annual mean of the amount of active in­
+
+gredients (AI) of pesticides applied to all component crops in a 
+rotation, expressed in kg AI/ha/yr. Pesticides in our study include 
+insecticides, herbicides, and fungicides.
+
+• Agrobiodiversity (DIV, unitless). Crop rotational diversity is highly 
+associated 
+with 
+below- 
+and 
+above-ground 
+biodiversity 
+in
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+537
+
+agroecosystems (Beillouin et al., 2021) so it can be a proxy indicator 
+to quantify agrobiodiversity performance of a rotation. Referring to 
+Socolar et al. (2021), we quantified crop rotational diversity by 
+taking the geometric mean of species number and length of each 
+rotation:
+
+DIV =
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+SN × RL
+√
+(10)
+
+Where SN is the number of crop species with different ecological 
+characteristics in a rotation. Wheat and foxtail millet were treated as 
+species with the same characteristics as they have similar functional 
+traits, e.g., they are both short-statured, deep-rooting, and tillering 
+cereal crops.
+
+3.5. Crop rotation selection
+
+Selecting the outperforming rotations among a large set of generated 
+rotations in terms of multiple indicators requires multi-attribute deci­
+sion-making tools. In this study, we used two Pareto-based metrics to 
+identify rotations that reached compromises across the entire indicator 
+set.
+
+3.5.1. Pareto rank-based selection 
+Pareto ranking is an efficient procedure to identify the better- 
+performing individuals from a population of cases. Its major advan­
+tage is avoiding the application of weights, so an objective selection 
+might be achieved (Adelhart Toorop et al., 2020). Here, we performed 
+Pareto ranking using 11 sustainability indicators. In the ranking process, 
+rotations were assigned rank “1” (i.e., Pareto-optimality) if none of the 
+objectives was improved by another rotation without these other rota­
+tions being inferior in at least one of the other objectives (Groot et al., 
+2012). This process was conducted by pareto_rank function of “eaf” 
+package in R. Here we kept only Pareto-rank-1 rotations for further 
+selection.
+
+3.5.2. Pareto efficiency-based selection 
+The power of Pareto ranking to narrow down the solution space 
+becomes weaker when there are many indicators so that a large pro­
+portion of cases from a set would be identified as Pareto-optimal. More 
+importantly, Pareto optimal cases include those that stand out in only 
+one or a few indicators while performing unacceptably in others (Das, 
+1999). Given the above limitations, we also used Pareto efficiency score 
+ordination to further select rotations with compromises across indicators 
+from the Pareto-optimal set. 
+To do so, using the combn and pareto_rank function in R, we deter­
+mined the Pareto efficiency score for each Pareto-optimal rotation ac­
+cording to the following principle: When the size of the whole indicator 
+set is n, the Pareto efficiency score of a given case would be k (1 ≤k ≤n) 
+if this case was Pareto-optimal for any of all possible k-element subsets 
+of n indicators (Das, 1999). The lower the Pareto efficiency score is, the 
+more compromise a rotation achieves across the indicator set (Fig. 2). 
+We classified a rotation as a compromise rotation when its Pareto effi­
+ciency score was not higher than that of wheat-maize; that is: such 
+compromise rotations had a trade-off across indicators that was at most 
+as strong as that of the currently dominant wheat-maize system. We did 
+not select only rotations with the lowest Pareto efficiency score, the 
+number of which tends to be limited, because we deemed it necessary to 
+maintain a diversity of solutions to meet different sustainability 
+demands.
+
+3.6. Crop rotation characterization
+
+Systematically characterizing the sustainability profiles of the 
+compromise rotations allows stakeholders to choose rotations that fit 
+their sustainability demands. However, it can be expected that the 
+performance of these promising rotations was heterogeneous. Therefore, 
+we performed a multivariate clustering (Groot and Yang, 2022) to 
+partition all compromise rotations into several clusters with contrasting 
+sustainability patterns.
+
+Fig. 2. Conceptual diagram of the determination of 
+Pareto efficiency score for rotations. G1, G2, and G3 
+indicate three sustainability goals that are maximized. 
+Circles filled with red, yellow, blue, purple, and green 
+are Pareto-optimal rotations with respect to three 
+goals (G1, G2, and G3), while grey circles are non- 
+Pareto-optimal rotations, i.e., inferior rotations. Out 
+of the five Pareto-optimal cases, only the green case is 
+Pareto-optimal for all two-indicator subsets of G1, G2, 
+and G3, which is therefore assigned a Pareto effi­
+ciency score of two, whereas the red, yellow, blue, 
+and purple circles are assigned a Pareto efficiency 
+score of three. The rotation with the lower Pareto 
+efficiency score (2; green point) represents a better 
+compromise across the entire indicator set.
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+538
+
+This clustering method entailed a principal component analysis 
+(PCA) and a hierarchical clustering analysis (HCA). With 11 sustain­
+ability indicators being response variables, we first conducted PCA using 
+the dudi-pca function of the “ade4” R package to obtain principal com­
+ponents. Subsequently, we used HCA to classify all compromise rota­
+tions into different clusters in terms of principal components by using 
+function hclus and cutree in R. The number of clusters was decided ac­
+cording to the bend position of the elbow plot (Kassambara, 2017). 
+These rotation clusters served different patterns of sustainability 
+performance. 
+Finally, we characterized the crop composition of compromise ro­
+tations in terms of the frequency (Freq) of four crop subsets, including 
+cereals (wheat, maize, foxtail millet), legumes (peanut and mung bean), 
+fiber crops (cotton) and cash crops (stevia, cabbage, chili pepper, and 
+garlic). This frequency metric can be used to analyze the relations be­
+tween crop choice and sustainability attributes of a rotation, which was 
+calculated as follows:
+
+Freq = Ns/RL
+(11)
+
+Where s is the index for crop subsets and Ns is the number of times crops 
+from subset s were included in a rotation.
+
+4. Results
+
+4.1. Generated alternative rotations versus the currently dominant system
+
+ROTAT generated 3011 feasible rotations with a length of 1–4 years 
+for Quzhou, including the locally common wheat-maize double cropping 
+system. Alternative rotations showed a wide range of performance in all 
+indicators but none of them outperformed the wheat-maize system in all 
+11 indicators (Table 2). That is because the wheat-maize system had the 
+highest dietary energy and zinc output. Furthermore, it had the fourth 
+lowest labor requirement and a gross margin variability that was 48 % 
+lower than the mean of alternatives. However, compared with the 
+wheat-maize system, many alternative rotations attained large im­
+provements in gross margin, vitamin C yield, and eco-environmental
+
+indicators such as groundwater depletion, eutrophication potential, 
+net GHG emission, and agrobiodiversity.
+
+4.2. Pareto-optimal rotations and relationships among indicators
+
+Among the 3011 generated rotations, 1298 rotations (43 %) were 
+Pareto-optimal. 
+An indicator biplot matrix of the Pareto-optimal set shows relation­
+ships among sustainability indicators (Fig. 3). Within the socio- 
+economic domain, there were strong trade-offs between gross margin 
+and gross margin variability or labor requirement. As for the human 
+nutrition domain, dietary energy and zinc yield correlated positively, 
+whereas vitamin C yield was highest at the intermediate levels of energy 
+and zinc yield. In general, the eco-environmental indicators were posi­
+tively associated with one another, while biodiversity tended to be 
+highest for rotations with intermediate performance for other indicators. 
+Pesticide use had a three-modal distribution within the set of indicators. 
+This distribution was related to the cultivation frequency of chili pepper, 
+the most pesticide-intensive crop among the candidate crops (Table S1). 
+When analyzing relationships among indicators in different sus­
+tainability domains, trade-offs mainly occurred in these pairs: gross 
+margin versus dietary energy yield, gross margin versus environmental 
+indicators, and nutritional yield versus environmental indicators. On the 
+other hand, synergies existed between gross margin and vitamin C yield, 
+and between gross margin variability or labor requirement and most 
+environmental indicators.
+
+4.3. Pareto efficiency-based selection: compromise rotations
+
+Within the Pareto-optimal set of 1298 rotations, 1173 had higher 
+Pareto efficiency score (10 or 11) than the currently dominant wheat- 
+maize double cropping system which has a Pareto efficiency score of 9 
+(Table S6). The remaining 125 rotations, having a score of 9 or less, were 
+selected as compromise rotations. This subset excluded extremely 
+underperforming rotations in terms of gross margin variability, labor 
+use, energy and zinc yield, and all eco-environmental indicators (Fig. 3). 
+These compromise rotations were distributed widely across the indica­
+tor space (Fig. 3), indicating a great heterogeneity in indicator 
+performance. 
+There were 109 rotations with a Pareto efficiency score of 9, equal to 
+wheat-maize, but only sixteen with a Pareto efficiency score lower than 
+9 (Table S6): fourteen rotations with Pareto efficiency score of 8 and two 
+rotations with Pareto efficiency score of 7. These sixteen alternatives 
+had high frequencies of cereals (wheat, maize, and foxtail millet), le­
+gumes (peanut and mung bean), and garlic. The lowest score of 7 was 
+attained by two four-year rotations: (Spring maize)-(Spring peanut)- 
+(Spring maize)-(Spring mung bean)-(Foxtail millet_late) and (Spring 
+maize)-(Spring peanut)-(Spring maize)-(Garlic)-(Foxtail millet_normal). 
+While these rotations are well-performing in many respects, they did not 
+meet all sustainability needs. For instance, compared with the wheat- 
+maize system, these rotations resulted in 22–67 % lower groundwater 
+depletion, eutrophication potential, GHG emission, and pesticide input 
+but at the cost of 28 % lower gross margin for the former one, and a three 
+times higher labor use for the latter one, and half dietary energy yield for 
+both (Table S7).
+
+4.4. Characterization of compromise rotations
+
+Based on the PCA and HCA with 11 sustainability indicators, all 125 
+compromise rotations were divided into eight clusters (C1-C8; Fig. 4, 
+Fig. S2). 
+C1 and C2 were characterized by a high frequency of cash crops. 
+Rotations in these clusters delivered the greatest mean gross margin 
+(4706–4748 USD/ha/yr) but resulted in the highest economic instability 
+(981 USD/ha/yr) and labor requirement (1568 h/ha/yr), respectively. 
+These profitable clusters generated relatively high environmental costs,
+
+Table 2 
+Indicator performance of the wheat-maize system and alternative rotations (n =
+3010), and the number of rotations outperforming the wheat-maize system.
+
+Indicator 
+Unit 
+Wheat- 
+maize 
+system
+
+Alternative 
+rotationsa
+
+Number of 
+outperformersb
+
+Gross margin 
+USD/ha/ 
+yr 
+2654 
+4446 
+(1641–8944) 
+2871
+
+Gross margin 
+variability 
+USD/ha/ 
+yr 
+392 
+755 
+(207–1677) 
+174
+
+Labor 
+requirement 
+h/ha/yr 
+247 
+1389 
+(189–3415) 
+3
+
+Dietary energy 
+yield 
+persons/ 
+ha/yr 
+57 
+28 (0–56) 
+0
+
+Zinc yield 
+persons/ 
+ha/yr 
+69 
+36 (0–69) 
+0
+
+Vitamin C yield 
+persons/ 
+ha/yr 
+0 
+184 (0–725) 
+2649
+
+Groundwater 
+depletion 
+mm/yr 
+284 
+223 (44–364) 
+2583
+
+Eutrophication 
+potential 
+kg PO4 
+eq./ha/yr 
+28.9 
+32.2 
+(12.3–60.0) 
+1012
+
+Net GHG 
+emission 
+Mg CO2 
+eq./ha/yr 
+6.64 
+7.52 
+(3.19–12.82) 
+850
+
+Pesticide input 
+kg AI/ha/ 
+yr 
+6.64 
+9.77 
+(3.21–23.94) 
+895
+
+Agrobiodiversity 
+unitless 
+1.41 
+4.16 
+(1.00–4.90) 
+3009
+
+a Data were shown as “mean (minimum-maximum)” across all alternative 
+rotations.
+
+b Outperformers means the rotations that outperformed wheat-maize double 
+cropping in the focus indicator.
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+539
+
+including groundwater depletion, eutrophication potential, and net 
+GHG emission, while they supplied more dietary macro- and micro- 
+nutrients and facilitated higher agrobiodiversity on average. Further­
+more, C2 had the highest pesticide input. 
+C3 (which included the wheat-maize system) and C4 were clusters of 
+cereal-dominated rotations. They were the most productive sets of ro­
+tations in terms of energy yield (49 persons/ha/yr) and zinc output (58 
+persons/ha/yr) across all clusters. On average, C3 had a low gross 
+margin but with a low economic risk and labor use as well, whereas C4 
+obtained intermediate gross margin but at the cost of a higher economic
+
+risk and labor use. Both C3 and C4 caused high groundwater depletion. 
+The eutrophication potential and GHG emission of C4 were on average 
+the third highest while those of C3 were intermediate among all clusters. 
+C3 performed poorly in terms of agrobiodiversity (2.71). 
+Clusters C5 and C6 both had a high cultivation frequency of legumes 
+and negligible vegetable production. C5 showed the highest frequency 
+of cotton while C6 planted cereals instead of cotton. These two clusters 
+had superior environmental performance. C5 resulted in the lowest 
+groundwater depletion (65 mm/yr), eutrophication potential (13.0 kg 
+PO4 eq./ha/yr), and GHG emission (3.46 Mg CO2 eq./ha/yr) while
+
+Fig. 3. Indicator biplot matrix for the entire set of Pareto-optimal rotations divided into two groups with Pareto efficiency score ≤9 (blue dots) and > 9 (grey dots). 
+Rotations with Pareto efficiency score ≤9 were defined as compromise rotations. The yellow square denotes the currently dominant system (the wheat-maize 
+system), for which Pareto efficiency score is 9. Margin, gross margin (USD/ha/yr); GMV, gross margin variability (USD/ha/yr); DE, dietary energy yield; Zn, zinc 
+yield; VC, vitamin C yield (above three expressed in persons/ha/yr); GWD, groundwater depletion (mm/yr); Pesti, pesticide input (kg AI/ha/yr); EUP, eutrophication 
+potential (kg PO4 eq./ha/yr); GHGn, net greenhouse gas emission (Mg CO2 eq./ha/yr); DIV, agrobiodiversity (unitless).
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+540
+
+markedly sacrificing economic and nutritional outputs. C6 was charac­
+terized by the second lowest groundwater depletion, eutrophication 
+pollution, and GHG emission, as well as the third lowest pesticide use, 
+but with the lowest gross margin. 
+C7 and C8 had high shares of legumes and intermediate shares of 
+cereals and high-input cash crops. In contrast to the abovementioned 
+clusters, these two clusters reached balanced performance across the 
+indicator set. That means they performed at an intermediate level in 
+nearly all indicators.
+
+5. Discussion
+
+In this study, we presented a methodological framework for sys­
+tematic design of diversified crop rotations featuring compromises 
+across multiple competing sustainability attributes. This is the first 
+rotation design framework that combines a rotation generator model 
+with Pareto-based decision-aid methods, to efficiently suggest options to 
+advance sustainability. We illustrated this framework with data from a 
+highly specialized and intensified cropping region (Quzhou county in 
+the North China Plain) to explore promising rotations in terms of 11 
+sustainability indicators. Although there was no one-size-fits-all rotation 
+that outperformed the locally dominant wheat-maize system for all in­
+dicators concurrently, this analysis identified a set of compromise ro­
+tations, i.e., rotations with trade-offs across indicators not stronger than 
+that of the wheat-maize system. These compromise rotations also rep­
+resented contrasting sustainability profiles, with different rotations 
+satisfying to different extents objectives related to economic-value cre­
+ation, human nutrition, and environmental conservation, or all of these 
+in a balanced manner, depending on the crop species composition of the 
+rotation. The diversity of compromise rotations could serve to meet 
+diverse sustainability demands for stakeholders and complement the 
+locally dominant cropping system in the future.
+
+5.1. The future role and implementation of compromise rotations in 
+specialized cropping regions
+
+Intensified cereal-based systems in short crop rotations are wide­
+spread in many agricultural regions globally such as the North China 
+Plain, the Indo-Gangetic Plain, and the Great Plain and Midwest of the 
+US. Such systems are widely cultivated to maximize staple grain pro­
+duction with the supportive institutions and policies. For example, sta­
+ple cereal production in China is promoted by policy instruments for the 
+minimum procurement price, and grain and input subsidies (Kimura 
+et al., 2019; Song et al., 2021; OECD, 2022), which provide a safety net 
+for farmers. With the extensive cultivation of cereals, social institutions 
+are increasingly prone to grain production accordingly. For instance, 
+many agricultural markets and most technological innovations target 
+staple cereals. Hence there is a socio-technical lock-in of cereal crop 
+specialization (Meynard et al., 2018). However, cereal monoculture has 
+rendered 
+lots 
+of 
+socio-economic, 
+human-nutrition, 
+and 
+eco- 
+environmental issues so a cropping system redesign towards diversifi­
+cation is deemed necessary to enhance farming sustainability in these 
+specialized cropping regions (Davis et al., 2019; Hunt et al., 2019; Yang 
+et al., 2021). In China, the government has partially relaxed the food 
+self-sufficiency policy (Ito and Li, 2023) and enacted various policies on 
+Agriculture Green Development to foster multi-attribute agricultural 
+sustainability (MARA, 2022a, 2022b) with a focus on the establishment 
+of innovative cropping systems, which offer great opportunities for 
+future application of diversified crop rotations. 
+As trade-offs among competing objectives are normally inevitable 
+(Hegwood et al., 2022), promising cropping systems should reach 
+compromises across sustainability domains. In our case study, with the 
+help of the Pareto efficiency-based selection, our compromise rotations 
+did not include extreme alternatives included in the Pareto-optimal set, 
+for example, the most profitable system [a two-year rotation of (cab­
+bage)-(chili pepper)-(garlic)] and the most groundwater-friendly system
+
+Fig. 4. Sustainability performance (a-k) and crop subset composition (l) of clusters (C1-C8) of compromise rotations. The yellow rhombus indicates the average value 
+of a cluster, and the dashed line indicates the performance of the wheat-maize system. EUP means eutrophication potential and GHGn means net greenhouse gas 
+emission. Data for planting frequency of crop subsets are the mean values of rotations in a cluster. “HI cash crops” means high-input cash crops. For members of each 
+crop subset, see Section 3.6 in the main text.
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+541
+
+(continuous cotton cropping), because these alternatives strongly 
+sacrificed other sustainability indicators. We also found that compro­
+mise rotations comprised mainly wheat and maize supplemented with 
+other candidate species, rather than rotations of pure vegetables or le­
+gumes. This implies that shifting from the wheat-maize system to these 
+compromise rotations would not be a radical process, thus conducive to 
+their acceptability to practitioners from the technical perspective. 
+Compromise rotations could be chosen and implemented tailored to 
+the production contexts and stakeholders’ interests because these rota­
+tions could deliver contrasting patterns of sustainability services ac­
+cording to multi-criteria characterization (Fig. 4; Fig. 5). Taking the 
+North China Plain as an example, rotations from the profitability- 
+oriented cluster (C1&C2) could be recommended to villages where 
+boosting farmers’ income is prioritized. These profitable rotations could 
+act as a measure in policies on rural poverty reduction while policy­
+makers could provide accompanying measures, e.g., agricultural insur­
+ance, to hedge against market risks of vegetables (Feliciano, 2019). 
+Stevia is now promoted in Quzhou to increase farm profits but is not 
+included in any compromise rotation because it does not produce nu­
+trients for human diets and has a high environmental burden, suggesting 
+that non-edible and high-input cash crops might be not a reasonable 
+choice when multiple objectives are considered. Nutrition-oriented ro­
+tations (C3&C4) could be practiced in villages that still shoulder the 
+responsibility for food provisioning allocated by the Chinese govern­
+ment. Compared with wheat-maize, most rotations from C3 could 
+reduce the environmental burden while those from C4 could enhance 
+gross margin, at the cost of calorie production to some degree for both. 
+The final decision can be made based on local stakeholders’ preferences. 
+The environmentally sound rotations can play a role in ecologically 
+fragile villages with, for instance, severe groundwater overdrafts or 
+nutrient pollution. Some of these rotations had a comparable or higher 
+gross margin than wheat-maize owing to the inclusion of peanut and 
+cotton, while others were less profitable thus requiring subsidies to 
+incentive implementation. Rotations from balanced clusters are suitable
+
+for areas without overriding priorities for specific sustainability do­
+mains. Relative to wheat-maize, these systems can improve gross margin 
+and environmental performance with intermedium dietary nutrient 
+supply by rotating cereals, legumes, and garlic. This result indicates that 
+the balanced planting frequency of crops from different functional 
+groups could balance trade-offs among conflicting sustainability in­
+dicators. Furthermore, as nearly all alternative rotations require more 
+labor than wheat-maize, machinery for non-cereal crops could be 
+devised and promoted to substantially reduce labor use thus facilitating 
+the application of these compromise rotations. Taken together, through 
+rational crop species arrangement, compromise rotations could act as a 
+range of well-planned options to address different sustainability con­
+cerns in specialized cropping regions (Fig. 5; Table S8). 
+As mentioned before, trade-offs among indicators exist within clus­
+ters of rotations that had the same sustainability orientation, although 
+softer than those among rotations with contrasting orientations. 
+Therefore, stakeholder discussion might be needed to make a final 
+choice for the rotations most suitable for adoption. The arable farming 
+system involves several stakeholders, including crop farmers, govern­
+mental departments, and the public, with differing preferences for 
+agricultural sustainability. Farmers primarily seek to maximize profits 
+while minimizing market risks and labor inputs. On the other hand, the 
+government and the public focus on securing food supply and reducing 
+agriculture-induced resource and environmental costs. The set of 
+compromise rotations could serve as a basis for evaluation and discus­
+sion among stakeholders, which would facilitate identifying the “middle 
+ground” of competing interests while offering prioritized options for 
+specific stakeholders’ interests. Furthermore, as the compromise rota­
+tions were identified by inter-comparing all possible rotations, it is 
+crucial to check and judge the specific quantities of each indicator of 
+rotations during the stakeholders’ decision-making process, allowing for 
+better understanding of their potential benefits and drawbacks before 
+implementation. 
+Improved management practices for candidate crops in crop
+
+Fig. 5. The examples of compromise rotations (a) and comparison of their sustainability performance (b). Each donut plot represents a rotation, in which the length 
+of each section indicates the proportion of crop growth and land fallowing period in the length of one rotation cycle. In subplot (b), values of each indicator were 
+rescaled to 0–1 using Min-Max normalization. “0” and “1” correspond to the worst and best performance of each indicator across all generated rotations respectively, 
+i.e., all indicators have the same optimization direction. Margin, gross margin; GMV, gross margin variability; DE, dietary energy yield; Zn, zinc yield; VC, vitamin C 
+yield; GWD, groundwater depletion; Pesti, pesticide input; EUP, eutrophication potential; GHGn, net greenhouse gas emission; DIV, agrobiodiversity. Specific in­
+dicator values of each example rotation were listed in Table S8.
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+542
+
+rotations could further ameliorate agricultural sustainability in the 
+future. As we based our input-output relations on survey data, the 
+farmer management for the candidate crops in this study may not be 
+agronomically optimal. Further improvements might reduce yield gaps 
+and resource inputs (Table S1; Table S9). If those crops are managed 
+with efficient cultivation practices such as optimized nutrient and water 
+management, the crop performance would accordingly improve, and, 
+more importantly, crop interactions between consecutive crops in a 
+rotation could perhaps function to additionally enhance system perfor­
+mance (Lambers and Cong, 2022), for instance, increased grain yield of 
+cereals when preceded by N-fixing legumes in the rotation (Zhao et al., 
+2022; Xia et al., 2023).
+
+5.2. Improved method for model-aided multi-objective crop rotation 
+design
+
+Model-aided rotation planning is a powerful approach in the field of 
+multi-objective farming system redesign. Several studies used rule-based 
+rotation generator models with multi-indicator assessment to offer a 
+large set of all agronomically feasible alternative rotations and their 
+performance but normally ended up analyzing the co-benefits or trade- 
+offs among indicators or selecting preferred alternatives based on sub­
+jectively defined threshold values for some of the indicators (Dogliotti 
+et al., 2004; Bachinger and Zander, 2007; Reckling et al., 2016). Here, 
+our methodological framework introduces the Pareto-based multi- 
+criteria decision-aid tools to select promising alternatives, where the 
+performance features compromises in trade-off frontiers across objec­
+tives and is subsequently characterized by a clustering technique. Such 
+clustering results could help stakeholders to choose alternatives fitting 
+their demands in the follow-up decision-making process. Our framework 
+integrates the advantages of the rotation generator and Pareto-based 
+trade-off analysis, which can design rotations that are agronomically 
+viable and better performing in terms of multiple attributes. 
+Our methodological framework suggests a set of promising rotations 
+using Pareto-based metrics, rather than a single ‘optimal’ rotation using 
+other decision-making methods such as aggregated sustainability in­
+dicators or data envelopment analysis (Cicciù et al., 2022). We think the 
+method of rotation design should not aim to recommend a single solu­
+tion for broader adoption but it should offer a range of solutions for 
+different sustainability demands for a given agricultural region. The first 
+reason is, as mentioned in Section 5.1, that trade-offs among sustain­
+ability indicators are normally unavoidable across solution space when a 
+large number of indicators are considered (Hegwood et al., 2022). This 
+makes it impossible to identify a solution that excels in all respects. It 
+would be more practical to give a set of promising alternatives with an 
+appropriate size to inform stakeholders’ decision-making based on their 
+demands and preference. The other reason why a range of solutions 
+should be offered is that promoting a single rotation across a region is 
+not ecologically desirable. It can be expected that a wide application of a 
+certain rotation, even if it is highly temporally diversified, would lead to 
+homogenous agricultural landscapes, which could adversely affect the 
+delivery of multiple ecosystem services (Sirami et al., 2019). Conversely, 
+adoption of a range of alternative rotations within a region could help to 
+construct more diversified landscapes. 
+The presented framework can be applied in other intensified and 
+specialized cropping regions to advance agricultural sustainability with 
+some adaptations. Firstly, sustainability indicators should be adjusted to 
+align with region-specific objectives. For example, energy depletion for 
+fossil fuel-scarce areas (Nemecek et al., 2015), soil acidification rate for 
+acid-soil areas (Zhu et al., 2018), and soil erosion for the hilly areas 
+(Dogliotti et al., 2004). The human-nutrition indicators can also be 
+determined according to specific nutrient deficiency issues, e.g., sele­
+nium, iron, and vitamin A. Next, the candidate crop list and related 
+input-output data for indicator assessment can be compiled based on 
+local farmers’ survey, statistical materials, or expert knowledge. Using a 
+survey dataset provides updated and detailed information on crop
+
+production patterns within a given region and researchers can gain 
+many insights on cropping system innovation during the interview with 
+farmers. Furthermore, the rotation rules can be formulated with 
+agronomists, advisors, or experienced farmers in the study region or 
+extracted from relevant literature. By incorporating these adaptations, 
+researchers or practitioners can effectively apply the framework to 
+design promising diversified rotations elsewhere.
+
+5.3. Limitation and outlook
+
+The limitation of this study mainly lies in the uncertainty of the ex- 
+ante sustainability assessment of generated rotations. First, the candi­
+date crop dataset was compiled based on the farmer survey in 2020, so 
+we did not consider the interannual variations in crop input and output, 
+which might be affected by different weather conditions. Although 
+having only one-year data, we found the temperature and precipitation 
+in the year 2020 in Quzhou were close to average conditions so our 
+dataset represents the baseline of local crop production. In the future, 
+crop input and output data from several years could be collected and 
+analyzed to increase the representativeness of the results. Second, the 
+environmental impact assessment of candidate crops was based on 
+numerous empirical models rather than field measurements. To make 
+our results closer to reality, we chose widely-used models and used crop 
+and environmental parameters that match the local situation (Supple­
+mentary Materials S1.1–1.3). In the economic assessment we took prices 
+to be exogenous, which is defensible as the agricultural markets operate 
+on a larger scale than the studied county while Quzhou is relatively well 
+connected to those markets. However, when applying this methodo­
+logical framework in regions with more localized markets, endogeneity 
+of price variables may arise, particularly in relation to some region- 
+specific crops or locally scarce agricultural inputs. 
+Future efforts could focus on field testing, regional planning, and 
+implementing new scenarios. Some of the compromise rotations could 
+be tested in the field experimental station or on farm. The rotations for 
+testing are supposed to be from different rotation clusters, for example, 
+those in Fig. 5. This would allow us to compare outcomes between the 
+ex-ante and ex-post assessment, and help to adjust the parameters used in 
+the design approach and gain more insight in system functioning (Cong 
+et al., 2021). Next, we could investigate how those promising alternative 
+rotations would be spatially allocated to cropping landscape within the 
+study region to pursue agricultural sustainability at the regional scale. 
+The allocation needs to consider the potential biophysical and socio- 
+economic barriers for adoption of those alternatives in a given land 
+parcel and could account for interactions with surrounding fields and 
+other landscape elements. Lastly, we could also explore alternative ro­
+tations towards better farming sustainability with new scenarios con­
+cerning, for instance, improvement in management practices and 
+inclusion of locally underutilized crop species.
+
+6. Conclusion
+
+This study presented a new crop rotation design framework aiming 
+to enhance multi-attribute sustainability for intensified and specialized 
+cropping regions. The framework consists of a rotation generator model, 
+Pareto-based decision-aid tools, and a multi-criteria characterization 
+process, able to offer a set of diversified rotations with compromises 
+across multiple sustainability attributes. We illustrated this framework 
+with data from Quzhou county in the North China Plain, a region with 
+double cropping of cereals as the dominant land use, and successfully 
+proposed a manageable size of compromise rotations in the end. The 
+currently dominant cropping system, wheat-maize double cropping, 
+contributed most to dietary energy provisioning while the compromise 
+alternatives improved gross margin, vitamin C production, and a range 
+of environmental indicators. The resulting rotations were grouped into 
+multiple clusters with contrasting sustainability profiles fitting corre­
+sponding production contexts and stakeholders’ preferences. Thus, with
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+543
+
+this framework, we provided a proper diversity of solutions that might 
+become important elements of the future farming landscape to support 
+stakeholders’ decision-making. With adaptations to contrasting condi­
+tions, this rotation design framework could also be applied in other 
+specialized and intensified agricultural areas to combat sustainability 
+challenges. 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.spc.2023.07.018.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+
+Acknowledgment
+
+We thank local agronomists who participated in the discussion of 
+agronomic rules. We acknowledge Dr. Nico Heerink for his suggestions 
+on the socio-economic aspects of this manuscript. This research was 
+financed through the China Scholarship Council (No.201913043), 
+Hainan University, and the Program of Advanced Discipline Construc­
+tion in Beijing (Agriculture Green Development).
+
+References
+
+Adelhart Toorop, R., Ceccarelli, V., Bijarniya, D., Jat, M.L., Jat, R.K., Lopez-Ridaura, S., 
+Groot, J.C.J., 2020. Using a positive deviance approach to inform farming systems 
+redesign: A case study from Bihar, India. Agric. Syst. 185, 102942 https://doi.org/ 
+10.1016/j.agsy.2020.102942. 
+Ankathi, S.K., Long, D.S., Gollany, H.T., Das, P., Shonnard, D., 2019. Life cycle 
+assessment of oilseed crops produced in rotation with dryland cereals in the inland 
+Pacific Northwest. Int. J. Life Cycle Assess. 24, 627–641. https://doi.org/10.1007/ 
+s11367-018-1488-y. 
+Bachinger, J., Zander, P., 2007. ROTOR, a tool for generating and evaluating crop 
+rotations for organic farming systems. Eur. J. Agron. 26, 130–143. https://doi.org/ 
+10.1016/j.eja.2006.09.002. 
+Beckmann, M., Gerstner, K., Akin-Fajiye, M., Ceaușu, S., Kambach, S., Kinlock, N.L., 
+Phillips, H.R.P., Verhagen, W., Gurevitch, J., Klotz, S., Newbold, T., Verburg, P.H., 
+Winter, M., Seppelt, R., 2019. Conventional land-use intensification reduces species 
+richness and increases production: A global meta-analysis. Glob. Chang. Biol. 25, 
+1941–1956. https://doi.org/10.1111/gcb.14606. 
+Beillouin, D., Ben-Ari, T., Mal´ezieux, E., Seufert, V., Makowski, D., 2021. Positive but 
+variable effects of crop diversification on biodiversity and ecosystem services. Glob. 
+Chang. Biol. 27, 4697–4710. https://doi.org/10.1111/gcb.15747. 
+Ben Abdallah, S., Parra-L´opez, C., Elfkih, S., Su´arez-Rey, E.M., Romero-G´amez, M., 2022. 
+Sustainability assessment of traditional, intensive and highly-intensive olive growing 
+systems in Tunisia by integrating Life Cycle and Multicriteria Decision analyses. 
+Sustain. Prod. Consum. 33, 73–87. https://doi.org/10.1016/j.spc.2022.06.022. 
+Bennetzen, E.H., Smith, P., Porter, J.R., 2016. Agricultural production and greenhouse 
+gas emissions from world regions—The major trends over 40 years. Glob. Environ. 
+Chang. 37, 43–55. https://doi.org/10.1016/j.gloenvcha.2015.12.004. 
+Carof, M., Colomb, B., Aveline, A., 2013. A guide for choosing the most appropriate 
+method for multi-criteria assessment of agricultural systems according to decision- 
+makers’ expectations. Agric. Syst. 115, 51–62. https://doi.org/10.1016/j. 
+agsy.2012.09.011. 
+Cicciù, B., Schramm, F., Schramm, V.B., 2022. Multi-criteria decision making/aid 
+methods for assessing agricultural sustainability: A literature review. Environ. Sci. 
+Pol. 138, 85–96. https://doi.org/10.1016/j.envsci.2022.09.020. 
+Cong, W.-F., Zhang, C., Li, C., Wang, G., Zhang, F., 2021. Designing diversified cropping 
+systems in China: Theory, approaches and implementation. Front. Agric. Sci. Eng. 8 
+(3), 362–372. https://doi.org/10.15302/J-FASE-2021392. 
+Das, I., 1999. A preference ordering among various Pareto optimal alternatives. Struct. 
+Optim. 18, 30–35. https://doi.org/10.1007/BF01210689. 
+Davis, K.F., Chhatre, A., Rao, N.D., Singh, D., Ghosh-Jerath, S., Mridul, A., Poblete- 
+Cazenave, M., Pradhan, N., DeFries, R., 2019. Assessing the sustainability of post- 
+Green Revolution cereals in India. Proc. Natl. Acad. Sci. 116, 25034–25041. https:// 
+doi.org/10.1073/pnas.1910935116. 
+DeFries, R., Fanzo, J., Remans, R., Palm, C., Wood, S., Anderman, T.L., 2015. Metrics for 
+land-scarce agriculture. Science 349, 238–240. https://doi.org/10.1126/science. 
+aaa5766. 
+Deytieux, V., Munier-Jolain, N., Caneill, J., 2016. Assessing the sustainability of cropping 
+systems in single- and multi-site studies. A review of methods. Eur. J. Agron. 72, 
+107–126. https://doi.org/10.1016/j.eja.2015.10.005. 
+Dogliotti, S., Rossing, W.A.H., van Ittersum, M.K., 2003. ROTAT, a tool for systematically 
+generating crop rotations. Eur. J. Agron. 19, 239–250. https://doi.org/10.1016/ 
+S1161-0301(02)00047-3.
+
+Dogliotti, S., Rossing, W.A.H., van Ittersum, M.K., 2004. Systematic design and 
+evaluation of crop rotations enhancing soil conservation, soil fertility and farm 
+income: a case study for vegetable farms in South Uruguay. Agric. Syst. 80, 277–302. 
+https://doi.org/10.1016/j.agsy.2003.08.001. 
+Dogliotti, S., García, M.C., Peluffo, S., Dieste, J.P., Pedemonte, A.J., Bacigalupe, G.F., 
+Scarlato, M., Alliaume, F., Alvarez, J., Chiappe, M., Rossing, W.A.H., 2014. Co- 
+innovation of family farm systems: A systems approach to sustainable agriculture. 
+Agric. Syst. 126, 76–86. https://doi.org/10.1016/j.agsy.2013.02.009. 
+Dury, J., Schaller, N., Garcia, F., Reynaud, A., Bergez, J.E., 2012. Models to support 
+cropping plan and crop rotation decisions. A review. Agron. Sustain. Dev. 32, 
+567–580. https://doi.org/10.1007/s13593-011-0037-x. 
+Dwivedi, S.L., Lammerts van Bueren, E.T., Ceccarelli, S., Grando, S., Upadhyaya, H.D., 
+Ortiz, R., 2017. Diversifying food systems in the pursuit of sustainable food 
+production and healthy diets. Trends Plant Sci. 22, 842–856. https://doi.org/ 
+10.1016/j.tplants.2017.06.011. 
+Feliciano, D., 2019. A review on the contribution of crop diversification to Sustainable 
+Development Goal 1 “No poverty” in different world regions. Sustain. Dev. 27, 
+795–808. https://doi.org/10.1002/sd.1923. 
+Foley, J.A., Ramankutty, N., Brauman, K.A., Cassidy, E.S., Gerber, J.S., Johnston, M., 
+Mueller, N.D., O’Connell, C., Ray, D.K., West, P.C., Balzer, C., Bennett, E.M., 
+Carpenter, S.R., Hill, J., Monfreda, C., Polasky, S., Rockstr¨om, J., Sheehan, J., 
+Siebert, S., Tilman, D., Zaks, D.P.M., 2011. Solutions for a cultivated planet. Nature 
+478, 337–342. https://doi.org/10.1038/nature10452. 
+Garibaldi, L.A., Gemmill-Herren, B., D’Annolfo, R., Graeub, B.E., Cunningham, S.A., 
+Breeze, T.D., 2017. Farming approaches for greater biodiversity, livelihoods, and 
+food security. Trends Ecol. Evol. 32, 68–80. https://doi.org/10.1016/j. 
+tree.2016.10.001. 
+Groot, J.C.J., Yang, X., 2022. Trade-offs in the design of sustainable cropping systems at 
+a regional level: a case study on the North China Plain. Front. Agr. Sci. Eng. 9 (2), 
+295–308. https://doi.org/10.15302/J-FASE-2021434. 
+Groot, J.C.J., Jellema, A., Rossing, W.A.H., 2010. Designing a hedgerow network in a 
+multifunctional agricultural landscape: Balancing trade-offs among ecological 
+quality, landscape character and implementation costs. Eur. J. Agron. 32, 112–119. 
+https://doi.org/10.1016/j.eja.2009.07.002. 
+Groot, J.C.J., Oomen, G.J.M., Rossing, W.A.H., 2012. Multi-objective optimization and 
+design of farming systems. Agric. Syst. 110, 63–77. https://doi.org/10.1016/j. 
+agsy.2012.03.012. 
+Headey, D., Fan, S., 2008. Anatomy of a crisis: the causes and consequences of surging 
+food prices. Agric. Econ. 39, 375–391. https://doi.org/10.1111/j.1574- 
+0862.2008.00345.x. 
+Hegwood, M., Langendorf, R.E., Burgess, M.G., 2022. Why win–wins are rare in complex 
+environmental management. Nat. Sustain. 5, 674–680. https://doi.org/10.1038/ 
+s41893-022-00866-z. 
+Hern´andez-Ochoa, I.M., Gaiser, T., Kersebaum, K.-C., Webber, H., Seidel, S.J., 
+Grahmann, K., Ewert, F., 2022. Model-based design of crop diversification through 
+new field arrangements in spatially heterogeneous landscapes. A review. Agron. 
+Sustain. Dev. 42, 74. https://doi.org/10.1007/s13593-022-00805-4. 
+HPBS (Hebei Provincial Bureau of Statistics), 2021. Hebei Rural Statistical Yearbook. 
+China Statistics Press, Beijing (in Chinese).  
+Hunt, N.D., Hill, J.D., Liebman, M., 2019. Cropping system diversity effects on nutrient 
+discharge, soil erosion, and agronomic performance. Environ. Sci. Technol. 53, 
+1344–1352. https://doi.org/10.1021/acs.est.8b02193. 
+Ickowitz, A., Powell, B., Rowland, D., Jones, A., Sunderland, T., 2019. Agricultural 
+intensification, dietary diversity, and markets in the global food security narrative. 
+Glob. Food Secur. 20, 9–16. https://doi.org/10.1016/j.gfs.2018.11.002. 
+ISO (International Organization for Standardization), 2006. Environmental management: 
+life cycle assessment; requirements and guidelines. ISO Geneva, Switzerland.  
+Ito, J., Li, X., 2023. Interplay between China’s grain self-sufficiency policy shifts and 
+interregional, intertemporal productivity differences. Food Policy 117, 102446. 
+https://doi.org/10.1016/j.foodpol.2023.102446. 
+Kanter, D.R., Musumba, M., Wood, S.L.R., Palm, C., Antle, J., Balvanera, P., Dale, V.H., 
+Havlik, P., Kline, K.L., Scholes, R.J., Thornton, P., Tittonell, P., Andelman, S., 2018. 
+Evaluating agricultural trade-offs in the age of sustainable development. Agric. Syst. 
+163, 73–88. https://doi.org/10.1016/j.agsy.2016.09.010. 
+Kassambara, A., 2017. Practical Guide to Cluster Analysis in R. Unsupervised Machine 
+Learning (Edition 1). STHDA. http://www.sthda.com. 
+Kimura, S., Gay, S.H., Yu, W., 2019. China’s grains policy: impacts of alternative reform 
+options. In: OECD Food, Agriculture and Fisheries Papers. No. 129. OECD 
+Publishing, Paris. https://doi.org/10.1787/aed5174b-en. 
+Lambers, H., Cong, W.-F., 2022. Challenges providing multiple ecosystem benefits for 
+sustainable managed systems. Front. Agric. Sci. Eng. 9 (2), 170–176. https://doi. 
+org/10.15302/J-FASE-2022444. 
+Li, J., Lei, H., 2021. Tracking the spatio-temporal change of planting area of winter 
+wheat-summer maize cropping system in the North China Plain during 2001–2018. 
+Comput. Electron. Agric. 187, 106222 https://doi.org/10.1016/j. 
+compag.2021.106222. 
+Li, K., Wang, C., Zhang, H., Zhang, J., Jiang, R., Feng, G., Liu, X., Zuo, Y., Yuan, H., 
+Zhang, C., Gai, J., Tian, J., Li, H., Sun, Y., Yu, B., 2022. Evaluating the effects of 
+agricultural inputs on the soil quality of smallholdings using improved indices. 
+CATENA 209, 105838. https://doi.org/10.1016/j.catena.2021.105838. 
+Liang, Z., van der Werf, W., Xu, Z., Cheng, J., Wang, C., Cong, W.-F., Zhang, C., Zhang, F., 
+Groot, J.C.J., 2022. Identifying exemplary sustainable cropping systems using a 
+positive deviance approach: Wheat-maize double cropping in the North China Plain. 
+Agric. Syst. 201, 103471 https://doi.org/10.1016/j.agsy.2022.103471. 
+Liu, C., Plaza-Bonilla, D., Coulter, J.A., Kutcher, H.R., Beckie, H.J., Wang, L., Floc’h, J.- 
+B., Hamel, C., Siddique, K.H.M., Li, L., Gan, Y., 2022. Diversifying crop rotations
+
+Z. Liang et al.
+
+Sustainable Production and Consumption 40 (2023) 532–544
+
+544
+
+enhances agroecosystem services and resilience. In: Advances in Agronomy. Elsevier. 
+https://doi.org/10.1016/bs.agron.2022.02.007 (p. S0065211322000347).  
+MacLaren, C., Mead, A., van Balen, D., Claessens, L., Etana, A., de Haan, J., Haagsma, W., 
+J¨ack, O., Keller, T., Labuschagne, J., Myrbeck, Å., Necpalova, M., Nziguheba, G., 
+Six, J., Strauss, J., Swanepoel, P.A., Thierfelder, C., Topp, C., Tshuma, F., 
+Verstegen, H., Walker, R., Watson, C., Wesselink, M., Storkey, J., 2022. Long-term 
+evidence for ecological intensification as a pathway to sustainable agriculture. Nat. 
+Sustain. https://doi.org/10.1038/s41893-022-00911-x. 
+MARA (Ministry of Agriculture and Rural Affairs of the People’s Republic of China), 
+2022a. Implementation Plan for Establishing National Agricultural Green 
+Development Pilot Areas and Promoting Comprehensive Green Transformation in 
+Agricultural Modernization Demonstration Areas (In Chinese).  
+MARA (Ministry of Agriculture and Rural Affairs of the People’s Republic of China), 
+2022b. The Plan of National Crop Production Development for the 14th Five-Year (In 
+Chinese).  
+Meynard, J.-M., Charrier, F., Fares, M., Le Bail, M., Magrini, M.-B., Charlier, A., 
+Mess´ean, A., 2018. Socio-technical lock-in hinders crop diversification in France. 
+Agron. Sustain. Dev. 38, 54. https://doi.org/10.1007/s13593-018-0535-1. 
+Mu, H., Wang, K., Yang, X., Xu, W., Liu, X., Ritsema, C.J., Geissen, V., 2022. Pesticide 
+usage practices and the exposure risk to pollinators: A case study in the North China 
+Plain. Ecotoxicol. Environ. Saf. 241, 113713 https://doi.org/10.1016/j. 
+ecoenv.2022.113713. 
+Nemecek, T., Hayer, F., Bonnin, E., Carrou´ee, B., Schneider, A., Vivier, C., 2015. 
+Designing eco-efficient crop rotations using life cycle assessment of crop 
+combinations. Eur. J. Agron. 65, 40–51. https://doi.org/10.1016/j.eja.2015.01.005. 
+OECD, 2022. Agricultural Policy Monitoring and Evaluation 2022: Reforming 
+Agricultural Policies for Climate Change Mitigation. OECD Publishing, Paris. https:// 
+doi.org/10.1787/7f4542bf-en.  
+Ouda, S., Zohry, A.E.-H., Noreldin, T., 2018. Crop Rotation: An Approach to Secure 
+Future Food. Springer International Publishing, Cham. https://doi.org/10.1007/ 
+978-3-030-05351-2.  
+Pei, H., Scanlon, B.R., Shen, Y., Reedy, R.C., Long, D., Liu, C., 2015. Impacts of varying 
+agricultural intensification on crop yield and groundwater resources: comparison of 
+the North China Plain and US High Plains. Environ. Res. Lett. 10, 044013 https:// 
+doi.org/10.1088/1748-9326/10/4/044013. 
+Pellegrini, P., Fern´andez, R.J., 2018. Crop intensification, land use, and on-farm energy- 
+use efficiency during the worldwide spread of the green revolution. Proc. Natl. Acad. 
+Sci. 115, 2335–2340. https://doi.org/10.1073/pnas.1717072115. 
+Pokhrel, A., Soni, P., 2017. Performance analysis of different rice-based cropping systems 
+in tropical region of Nepal. J. Environ. Manag. 197, 70–79. https://doi.org/ 
+10.1016/j.jenvman.2017.03.035. 
+Reckling, M., Hecker, J.-M., Bergkvist, G., Watson, C.A., Zander, P., Schl¨afke, N., 
+Stoddard, F.L., Eory, V., Topp, C.F.E., Maire, J., Bachinger, J., 2016. A cropping 
+system assessment framework—Evaluating effects of introducing legumes into crop 
+rotations. Eur. J. Agron. 76, 186–197. https://doi.org/10.1016/j.eja.2015.11.005. 
+Rosa-Schleich, J., Loos, J., Mußhoff, O., Tscharntke, T., 2019. Ecological-economic trade- 
+offs of diversified farming systems – a review. Ecol. Econ. 160, 251–263. https://doi. 
+org/10.1016/j.ecolecon.2019.03.002. 
+Saber, Z., Van Zelm, R., Pirdashti, H., Schipper, A.M., Esmaeili, M., Motevali, A., Nabavi- 
+Pelesaraei, A., Huijbregts, M.A.J., 2021. Understanding farm-level differences in 
+environmental impact and eco-efficiency: The case of rice production in Iran. 
+Sustain. Prod. Consum. 27, 1021–1029. https://doi.org/10.1016/j.spc.2021.02.033. 
+S´anchez, A.C., Kamau, H.N., Grazioli, F., Jones, S.K., 2022. Financial profitability of 
+diversified farming systems: A global meta-analysis. Ecol. Econ. 201, 107595 
+https://doi.org/10.1016/j.ecolecon.2022.107595. 
+Sietz, D., Klimek, S., Dauber, J., 2022. Tailored pathways toward revived farmland 
+biodiversity can inspire agroecological action and policy to transform agriculture. 
+Commun. Earth Environ. 3, 211. https://doi.org/10.1038/s43247-022-00527-1. 
+Sirami, C., Gross, N., Baillod, A.B., Bertrand, C., Carri´e, R., Hass, A., Henckel, L., 
+Miguet, P., Vuillot, C., Alignier, A., Girard, J., Bat´ary, P., Clough, Y., Violle, C., 
+Giralt, D., Bota, G., Badenhausser, I., Lefebvre, G., Gauffre, B., Vialatte, A., 
+Calatayud, F., Gil-Tena, A., Tischendorf, L., Mitchell, S., Lindsay, K., Georges, R., 
+Hilaire, S., Recasens, J., Sol´e-Senan, X.O., Roble˜no, I., Bosch, J., Barrientos, J.A., 
+Ricarte, A., Marcos-Garcia, M.´A., Mi˜nano, J., Mathevet, R., Gibon, A., Baudry, J., 
+Balent, G., Poulin, B., Burel, F., Tscharntke, T., Bretagnolle, V., Siriwardena, G., 
+Ouin, A., Brotons, L., Martin, J.-L., Fahrig, L., 2019. Increasing crop heterogeneity
+
+enhances multitrophic diversity across agricultural regions. Proc. Natl. Acad. Sci. 
+116, 16442–16447. https://doi.org/10.1073/pnas.1906419116. 
+Smith, A., Snapp, S., Chikowo, R., Thorne, P., Bekunda, M., Glover, J., 2017. Measuring 
+sustainable intensification in smallholder agroecosystems: A review. Glob. Food 
+Secur. 12, 127–138. https://doi.org/10.1016/j.gfs.2016.11.002. 
+Socolar, Y., Goldstein, B.R., de Valpine, P., Bowles, T.M., 2021. Biophysical and policy 
+factors predict simplified crop rotations in the US Midwest. Environ. Res. Lett. 16, 
+054045 https://doi.org/10.1088/1748-9326/abf9ca. 
+Song, X., Wang, X., Li, X., Zhang, W., Scheffran, J., 2021. Policy-oriented versus market- 
+induced: Factors influencing crop diversity across China. Ecol. Econ. 190, 107184 
+https://doi.org/10.1016/j.ecolecon.2021.107184. 
+Talukder, B., Hipel, K.W., vanLoon, G.W., 2018. Using multi-criteria decision analysis for 
+assessing sustainability of agricultural systems. Sustain. Dev. 26, 781–799. https:// 
+doi.org/10.1002/sd.1848. 
+Ulukan, D., Grillot, M., Benoit, M., Bernes, G., Dumont, B., Magne, M.-A., Monteiro, L., 
+Parsons, D., Veysset, P., Ryschawy, J., Steinmetz, L., Martin, G., 2022. Positive 
+deviant strategies implemented by organic multi-species livestock farms in Europe. 
+Agric. Syst. 201, 103453 https://doi.org/10.1016/j.agsy.2022.103453. 
+Wang, S., Hu, Y., Yuan, R., Feng, W., Pan, Y., Yang, Y., 2019. Ensuring water security, 
+food security, and clean water in the North China Plain – conflicting strategies. Curr. 
+Opin. Environ. Sustain. 40, 63–71. https://doi.org/10.1016/j.cosust.2019.09.008. 
+Withers, P., Neal, C., Jarvie, H., Doody, D., 2014. Agriculture and eutrophication: where 
+do we go from here? Sustainability 6, 5853–5875. https://doi.org/10.3390/ 
+su6095853. 
+Xia, H., Qiao, Y., Li, X., Xue, Y., Wang, N., Yan, W., Xue, Y., Cui, Z., van der Werf, W., 
+2023. Moderation of nitrogen input and integration of legumes via intercropping 
+enable sustainable intensification of wheat-maize double cropping in the North 
+China Plain: A four-year rotation study. Agric. Syst. 204, 103540 https://doi.org/ 
+10.1016/j.agsy.2022.103540. 
+Xian, Y., Cai, G., Lin, J., Chen, Y., Wang, X., 2023. Comparison of crop productivity, 
+economic benefit and environmental footprints among diversified multi-cropping 
+systems in South China. Sci. Total Environ. 874, 162407 https://doi.org/10.1016/j. 
+scitotenv.2023.162407. 
+Xiao, H., van Es, H.M., Amsili, J.P., Shi, Q., Sun, J., Chen, Y., Sui, P., 2022. Lowering soil 
+greenhouse gas emissions without sacrificing yields by increasing crop rotation 
+diversity in the North China Plain. Field Crop Res. 276, 108366 https://doi.org/ 
+10.1016/j.fcr.2021.108366. 
+Yang, X., Steenhuis, T.S., Davis, K.F., Werf, W., Ritsema, C.J., Pacenka, S., Zhang, F., 
+Siddique, K.H.M., Du, T., 2021. Diversified crop rotations enhance groundwater and 
+economic sustainability of food production. Food Energy Secur. 10 https://doi.org/ 
+10.1002/fes3.311. 
+Yang, L., Zhou, Y., Meng, B., Li, H., Zhan, J., Xiong, H., Zhao, H., Cong, W., Wang, X., 
+Zhang, W., Lakshmanan, P., Deng, Y., Shi, X., Chen, X., Zhang, F., 2022. Reconciling 
+productivity, profitability and sustainability of small-holder sugarcane farms: A 
+combined life cycle and data envelopment analysis. Agric. Syst. 199, 103392 https:// 
+doi.org/10.1016/j.agsy.2022.103392. 
+Zhang, W., Cao, G., Li, X., Zhang, H., Wang, C., Liu, Q., Chen, X., Cui, Z., Shen, J., 
+Jiang, R., Mi, G., Miao, Y., Zhang, F., Dou, Z., 2016. Closing yield gaps in China by 
+empowering smallholder farmers. Nature 537, 671–674. https://doi.org/10.1038/ 
+nature19368. 
+Zhao, J., Yang, Y., Zhang, K., Jeong, J., Zeng, Z., Zang, H., 2020. Does crop rotation yield 
+more in China? A meta-analysis. Field Crop Res. 245, 107659 https://doi.org/ 
+10.1016/j.fcr.2019.107659. 
+Zhao, Y., Wang, L., Lei, X., Wang, B., Cui, J., Xu, Y., Chen, Y., Sui, P., 2021. Reducing 
+carbon footprint without compromising grain security through relaxing cropping 
+rotation system in the North China Plain. J. Clean. Prod. 318, 128465 https://doi. 
+org/10.1016/j.jclepro.2021.128465. 
+Zhao, J., Chen, J., Beillouin, D., Lambers, H., Yang, Y., Smith, P., Zeng, Z., Olesen, J.E., 
+Zang, H., 2022. Global systematic review with meta-analysis reveals yield advantage 
+of legume-based rotations and its drivers. Nat. Commun. 13, 4926. https://doi.org/ 
+10.1038/s41467-022-32464-0. 
+Zhu, Q., De Vries, W., Liu, X., Hao, T., Zeng, M., Shen, J., Zhang, F., 2018. Enhanced 
+acidification in Chinese croplands as derived from element budgets in the period 
+1980–2010. Sci. Total Environ. 618, 1497–1505. https://doi.org/10.1016/j. 
+scitotenv.2017.09.289.
+
+Z. Liang et al.

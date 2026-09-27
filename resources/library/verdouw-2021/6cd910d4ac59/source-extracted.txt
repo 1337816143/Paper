@@ -1,0 +1,2002 @@
+Agricultural Systems 189 (2021) 103046
+
+Available online 28 January 2021
+0308-521X/© 2020 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+Digital twins in smart farming
+
+Cor Verdouw a,b,*, Bedir Tekinerdogan a, Adrie Beulens a, Sjaak Wolfert a,c
+
+a Information Technology Group, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands 
+b Mprise, P.O. Box 598, 3900, AN, Veenendaal, the Netherlands 
+c Wageningen Economic Research, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands
+
+A R T I C L E  I N F O
+
+Keywords: 
+Smart agriculture 
+Internet of things 
+Farm management systems 
+Remote sensing and control 
+Virtualization
+
+A B S T R A C T
+
+Digital Twins are very promising to bring smart farming to new levels of farming productivity and sustainability. 
+A Digital Twin is a digital equivalent of a real-life object of which it mirrors its behaviour and states over its 
+lifetime in a virtual space. Using Digital Twins as a central means for farm management enables the decoupling of 
+physical flows from its planning and control. As a consequence, farmers can manage operations remotely based 
+on (near) real-time digital information instead of having to rely on direct observation and manual tasks on-site. 
+This allows them to act immediately in case of (expected) deviations and to simulate effects of interventions 
+based on real-life data. This paper analyses how Digital Twins can advance smart farming. It defines the concept, 
+develops a typology of different types of Digital Twins, and proposes a conceptual framework for designing and 
+implementing Digital Twins. The framework comprises a control model based on a general systems approach and 
+an implementation model for Digital Twin systems based on the Internet of Things—Architecture (IoT-A), a 
+reference architecture for IoT systems. The framework is applied to and validated in five smart farming use cases 
+of the European IoF2020 project, focussing on arable farming, dairy farming, greenhouse horticulture, organic 
+vegetable farming and livestock farming.
+
+1. Introduction
+
+Modern agricultural production is not possible without reliable and 
+up-to-date information about farm operations. Farms increasingly have 
+to rely on digital technologies such as sensing and monitoring devices, 
+advanced analytics, and smart equipment. Agricultural production is 
+changing fast towards smart farming systems, driven by the rapid pace 
+of technology development like cloud computing, the Internet of Things, 
+big data, machine learning, augmented reality and robotics (Janssen 
+et al., 2017; Tzounis et al., 2017; Wolfert et al., 2017; Kamilaris and 
+Prenafeta-Boldú, 2018; Zhai et al., 2020). Smart Farming can be seen as 
+the next phase of Precision Agriculture, in which management tasks not 
+only are based on precise location data but also on context data, situa­
+tional awareness and event triggers (Balafoutis et al., 2017; Wolfert 
+et al., 2017). A smart farming system can be viewed as a cyber-physical 
+control cycle that seamlessly integrates sensing and monitoring, smart 
+analyses & planning and smart control of farm operations for all relevant 
+farm processes (‘whole farm management perspective’). 
+In smart farming systems, farmers can monitor and control opera­
+tions remotely, based on (near) real-time digital information instead of
+
+direct observation and manual tasks on-site. Consequently, farmers are 
+automatically informed if there is a problem, or anything is expected to 
+go wrong. Behind their desk or smartphone, they can check the situation 
+in the field or stable by viewing a rich digital image of the plant, animal 
+or machine concerned. At the same time, machine learning algorithms 
+augment the digital view with object-specific analyses and advices. 
+Farmers can simulate corrective and preventive actions and evaluate its 
+impact on the digital representation. Finally, the chosen intervention 
+can be executed remotely and the farmer can use the digital view again 
+to verify if the (expected) problem is solved. It can also be expected that 
+this smart farm management cycle increasingly becomes autonomous, 
+without manual intervention of the farmer anymore. In conclusion, you 
+could say that every object in the farm (e.g. crop, field, cow, equipment) 
+is being virtualized and can be more and more remotely controlled. A 
+Digital Twin is an appealing metaphor to characterize this development. 
+Although there are several definitions of a Digital Twin - as will be 
+dealt with later on –a Digital Twin basically is a digital equivalent of a 
+real-life object of which it mirrors its behaviour and its states over its 
+lifetime in a virtual space (Boschert and Rosen, 2016; Grieves and 
+Vickers, 2017). Using Digital Twins as a central means for farm
+
+* Corresponding author at: Information Technology Group, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands. 
+E-mail address: cor.verdouw@wur.nl (C. Verdouw).
+
+Contents lists available at ScienceDirect
+
+Agricultural Systems
+
+journal homepage: www.elsevier.com/locate/agsy
+
+https://doi.org/10.1016/j.agsy.2020.103046 
+Received 8 May 2020; Received in revised form 19 December 2020; Accepted 23 December 2020
+
+Agricultural Systems 189 (2021) 103046
+
+2
+
+management allows for the decoupling of physical flows from its plan­
+ning and control. A Digital Twin removes fundamental constraints 
+concerning place, time, and human observation (Verdouw et al., 2015; 
+Verdouw et al., 2016b). Farming would no longer require physical 
+proximity, which enables remote and automated execution, monitoring, 
+control, and coordination of farm operations. This allows for the 
+decoupling of physical flows from information aspects of farm processes. 
+Digital Twins can also be enriched with information that cannot be 
+observed (or not accurately) by the human senses (e.g. sensor and sat­
+ellite data) or data that are provided by other information owners. 
+Moreover, a crucial aspect of a Digital Twin is that it can add intelligence 
+using advanced analytics. As such, Digital Twins do not only represent 
+actual states, but can also analyze historical states and simulate future 
+behaviour. As a consequence, applications based on Digital Twins, if 
+properly synchronized, enable farmers and other stakeholders to act 
+immediately in case of (expected) deviations. 
+Digital Twins are very promising to bring smart farming to new 
+levels of farming productivity and sustainability. Although Digital Twins 
+have recently received a lot of interest, a sound basis for development 
+and implementation is still in progress (Schleich et al., 2017; Jones et al., 
+2020). Especially the application to the domain of smart farming is in its 
+infancy (Monteiro et al., 2018; Sreedevi and Santosh Kumar, 2020). 
+There are some explorative studies and cases about Digital Twins in farm 
+management (such as Verdouw and Kruize, 2017; Jo et al., 2018; 
+Monteiro et al., 2018; Kampker et al., 2019; Linz et al., 2019; Sreedevi 
+and Santosh Kumar, 2020; Skobelev et al., 2020), but especially the 
+management aspects of using Digital Twins to plan, monitor, control and 
+optimize farm processes need to be further studied. 
+This paper aims to contribute to resolve this gap by analysing how 
+Digital Twins can advance smart farming. More specifically, the objec­
+tives are threefold:
+
+1. To define the concept and introduce a typology of Digital Twins;
+
+2. To propose a conceptual framework, i.e. a systematic classification of 
+concepts, for designing and implementing Digital Twins;  
+3. To apply and validate the conceptual framework to smart farming in 
+a multiple case study of the European IoF2020 project.
+
+In the remainder of this paper we first introduce the research 
+methodology in Section 2. The next chapters describe the results of our 
+study. The domain analysis in Section 3 defines the concept of Digital 
+Twins, develops a typology of Digital Twins including distinct control 
+capabilities, and introduces the usage of Digital Twins in the context of 
+smart farming. Section 4 describes the conceptual framework devel­
+oped, which comprises a control model based on a general systems 
+approach and an enabling information architecture for Digital Twin 
+systems. Section 5 describes the application of the conceptual frame­
+work to five smart farming use cases of the European IoF2020 project. 
+The control model and implementation model of one of these use cases 
+are described in more detail. Finally, the main findings are summarized 
+and discussed in Section 6.
+
+2. Methodology
+
+The development of a conceptual framework is typically a design- 
+oriented methodology that aims at solving a certain type of problem 
+by constructing a new artefact (Hevner et al., 2004; Van Aken, 2004; 
+March and Storey, 2008). The design artefact developed in this paper is a 
+conceptual framework for the design and implementation of Digital 
+Twins in farm management. The concept of Digital Twins is relatively 
+new and complex. A case study is a good approach to get a better un­
+derstanding of such complex phenomena, which cannot be studied 
+outside their rich, real-world context (Benbasat et al., 1987; Eisenhardt, 
+1989; Yin, 2002). Hence, a multi-case study approach is adopted to 
+evaluate the applicability of the presented framework in the context of 
+smart farming.
+
+Fig. 1. Adopted Research Methodology.
+
+Table 1 
+Overview of the use cases.
+
+Trial/ 
+sector 
+Use Case (# and name 
+IoF2020) 
+Use case challenge 
+Focal 
+country 
+Chain role 
+Adopter type 
+Conventional/ 
+Organic
+
+Arable 
+1.1 Within-field 
+management zoning 
+defining specific field management zones by developing and 
+linking sensing- and actuating devices with external data 
+NL 
+Farming, 
+Logistics 
+Early adopters 
+and majority 
+Both
+
+Dairy 
+2.2 Happy Cow 
+improving dairy farm productivity through 3D cow activity 
+sensing and cloud machine learning technologies 
+NL 
+Farming 
+Early 
+Adopters 
+Both
+
+Vegs 
+4.2 Chain-integrated 
+greenhouse production 
+integrating the value chain and quality innovation by 
+developing a full sensor-actuator-based system in tomato 
+greenhouses
+
+SP 
+Farming, 
+Logistics, 
+Consumption
+
+Majority 
+Both
+
+Vegs 
+4.3 Added value weeding 
+data 
+boosting the value chain by harvesting weeding data of 
+organic vegetables obtained by advanced visioning systems 
+NL, AT 
+Farming 
+Majority 
+Organic
+
+Meat 
+5.1 Pig farm management 
+optimizing pig production management by interoperable on- 
+farm sensors and slaughterhouse data 
+BE, NL 
+Farming, 
+Processing, 
+Consumption
+
+Both 
+Both
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+3
+
+The case study was carried out as part of the European IoF2020 
+project in close interaction with involved business partners (Verdouw 
+et al., 2017). The project included 19 IoT use cases that were organized 
+in five coherent trials that aim to address the most relevant challenges 
+for the concerned sub sector (Verdouw et al., 2019). We have selected 
+cases that were expected to be appropriate for illustrating the use of the 
+Digital Twin concept, especially due to including dynamic mirroring of 
+real and virtual objects by using IoT technologies. In total five cases were 
+selected as being representative for different agricultural sub-sectors 
+(Table 1). 
+More specifically, the research was organized in three phases 
+(Fig. 1): (i) domain analysis, (ii) framework design and (iii) application 
+to the cases (Fig. 1). 
+Firstly, the research started with a domain analysis to develop key 
+concepts based on a narrative literature review in the Scopus database 
+and Google Scholar. We first searched for papers that include Digital 
+Twin or Digital Twins in the title. We selected papers that thoroughly 
+define the concept and review papers. Case studies that only mention 
+Digital Twin without a more elaborate definition were excluded from 
+the study. The concept of Digital Twins is relatively new and as a 
+consequence it is used in different meanings. The definition study has 
+therefore identified main perspectives and definitions on Digital Twins 
+in literature, especially in the Product Lifecycle Management and 
+Internet of Things domain. Based on this analysis, we have developed a 
+typology of Digital Twins, including distinct control capabilities. Finally, 
+the domain analysis has reviewed existing literature on the usage of 
+Digital Twins in the context of smart farming. At this, we searched for 
+papers that on the one hand include Digital Twin in the title and on the 
+other hand agriculture or farming in the title, abstract or the keywords
+
+section. Non-English and non-accessible papers were excluded from the 
+study. 
+Secondly, a conceptual framework was developed for designing and 
+implementing Digital Twins in farm management. This paper focuses on 
+providing a sound conceptual basis for the implementation of Digital 
+Twins in smart farming, including the management aspects of using 
+Digital Twins to plan, monitor, control and optimize farm processes. It is 
+beyond the scope of this paper to develop a detailed reference archi­
+tecture that can be used to model and realize Digital Twin-based infor­
+mation systems. For this reason, the framework includes two model 
+types that represent the essence of a Digital Twin from a management 
+viewpoint (control model) and from an information technology view­
+point (implementation model). The control model is based on a general 
+systems approach. A control model represents the control functions 
+needed to ensure that a system’s objectives are achieved, even if dis­
+turbances occur, and information flows among these functions. Based on 
+the literature review, the control model for object virtualization of 
+Verdouw et al. (2015) was selected as a basis of this view. The imple­
+mentation model classifies technical functionalities into different tech­
+nical layers ranging from device layer to application layer, as such it 
+provides an overview of the technical architecture. Based on the liter­
+ature review, the IoT-A reference architecture was selected as a basis of 
+this view (Carrez et al., 2013). 
+Thirdly, the conceptual framework was applied to cases. We have 
+adopted the case study empirical evaluation protocol as discussed by 
+Runeson and H¨ost (2008). The protocol consists of the following steps: 
+(1) case study design (2) preparation for data collection (3) execution 
+with data collection on the studied case (4) analysis of collected data (5) 
+reporting. Table 2 presents the case study design steps for the selected 
+cases. The primary purpose of the case study is to understand the 
+applicability of the presented Digital Twin framework in smart farming. 
+The data were collected by desk research of use case documentation and 
+interviews with the lead architect of every use case. The interviews were 
+conducted based on a semi-structured questionnaire comprising ques­
+tions in three categories: i) use case definition, including the problem 
+context, core idea, objective, development status, etc.; ii) use case 
+mapping, including main business processes targeted, objects addressed, 
+main actors using the envisaged system; and iii) use case information 
+architecture, including the main functionalities/services to be provided 
+to end-users, non-functional requirements, technology components 
+envisioned, reusability, privacy/security, standards usage and available 
+documentation. Subsequently, the researchers designed case-specific
+
+Fig. 2. Role of Digital Twins during the Product Life Cycle.
+
+Table 2 
+Case study design.
+
+Case study design 
+activity 
+Case study
+
+Goal 
+Assessing the applicability of the Digital Twin framework 
+in smart farming 
+Research Questions 
+How applicable is the adopted Digital Twin design 
+approach? 
+Background and 
+source 
+Meetings and interviews; technical reports; official project 
+deliverables 
+Data Collection 
+Independent data collection based on document analysis 
+Data Analysis 
+Qualitative data analysis
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+4
+
+control model and technical layer models for the use cases by using the 
+conceptual framework as designed in phase 2. The resulting case- 
+specific models were reviewed by the use case leader and iteratively 
+refined by the research analyst. Finally, generic implications were 
+abstracted from the case study findings and incorporated in the 
+framework. 
+The remainder of the paper introduces the results following the 
+research steps as described above.
+
+3. Definition and typology of Digital Twins
+
+3.1. What is a Digital Twin?
+
+The principles behind the Digital Twin vision origin from the Product 
+Lifecycle Management domain (Grieves, 2005). From this perspective, 
+there is a strong need to integrate all product-related information in a 
+comprehensive product management system that can be accessed by any 
+user in any stage of the Product Life Cycle, for example for through-life 
+performance information, design optimization and manufacturing sys­
+tem improvement (Philpotts, 1996; Kovacs et al., 1998; Sudarsan et al., 
+2005; Schleich et al., 2017). It was proposed to use a digital counterpart 
+of each physical product as a central means to manage product data 
+along the product life cycle. In the beginning of the century, Michael 
+Grieves argued in a presentation to industry that a digital informational 
+construct about a physical system could be created as an entity on its 
+own (Grieves and Vickers, 2017). This virtual system contains all in­
+formation about the physical system and it is linked with that physical 
+system through the entire lifecycle of the system (Grieves and Vickers, 
+2017). NASA introduced the concept Digital Twin for this idea (Mike 
+Shafto et al., 2012), which was an ultra-high fidelity simulation of the 
+space vehicle that would allow the engineers on earth to mirror the 
+precise and actual conditions of the real vehicle during the mission 
+(Glaessgen and Stargel, 2012; Boschert and Rosen, 2016). 
+In essence, Digital Twins are virtual, digital equivalents of physical 
+objects (Grieves and Vickers, 2017; Fuller et al., 2020). They are real- 
+time and remotely connected to real objects and provide rich repre­
+sentations of these objects and its context. Such Digital Twins go beyond 
+static product designs, like CAD models, but comprise dynamic behav­
+iour (Boschert and Rosen, 2016; Grieves and Vickers, 2017). This dy­
+namic nature of Digital Twins may include the representation of current 
+behaviour of real-life objects, but also the simulation or prediction of 
+future behaviour and the recollection of historical behaviour (Verdouw 
+et al., 2015; Boschert and Rosen, 2016).
+
+A Digital Twin can already be created in the design phase of an ob­
+ject’s lifecycle, enhancing the creative phase of inventing new products 
+and elaborating it into a detailed product model (see Fig. 2). In this 
+stage, a Digital Twin allows early and efficient assessment of conse­
+quences of design decisions on the quality and function of products 
+reducing the need to develop costly physical prototypes (Grieves and 
+Vickers, 2017; Schleich et al., 2017). After the design phase, a physical 
+stage is entered, in which the Digital Twin comes into existence. A 
+physical object is produced based on the designed Digital Twin, which is 
+updated in case of any deviations. During operational usage, the current 
+and historical state and conditions of a physical product are monitored 
+by using sensors and AutoID devices. Moreover, the Digital Twin can be 
+used to remotely control an object by using actuators. Finally, the 
+disposal phase takes place, in which the physical object is disposed, but 
+the conceptual object may remain for some period e.g. for traceability, 
+compliance and learning. 
+While originating from Product Lifecycle literature, a key technology 
+for realizing Digital Twins is the Internet of Things (Marr, 2017). The 
+interaction between real/physical and digital/virtual objects is an 
+essential concept behind the Internet of Things. In the IoT, physical 
+entities have digital counterparts; things themselves become context- 
+aware and they can sense, communicate, act, interact with their digi­
+tal counterparts and others, exchange data, information and knowledge 
+(Sundmaeker et al., 2010). These counterparts are twins of the physical 
+objects and can be linked to and synchronized with the physical object 
+throughout their lifecycle (Verdouw et al., 2015; Canedo, 2016; Grieves 
+and Vickers, 2016). The Internet acts as a storage and communication 
+infrastructure that holds a virtual representation of things linking rele­
+vant information with the object (Uckelmann et al., 2011). As such, 
+Digital Twins serve as central hubs of object information, which 
+combine and update data continuously from a wide range of sources, as 
+illustrated in Fig. 3 (Verdouw et al., 2013). 
+The emergence of Digital Twins in literature has resulted in various 
+definitions both from a Product Life Cycle (PLC) and an Internet of 
+Things (IoT) perspective (see Table 3) and is discussed below. 
+In the IoT literature, the digital representation of physical objects 
+using sensing technologies is highlighted. In the PLC literature, the 
+emphasis is on mirroring real-life objects across their lifecycle, including 
+simulation of expected object behaviour. In this paper we combine both 
+perspectives and use the following definition: “A Digital Twin is a dy­
+namic representation of a real-life object that mirrors its states and 
+behaviour across its lifecycle and that can be used to monitor, analyze 
+and simulate current and future states of and interventions on these
+
+Fig. 3. Digital Twin in the Internet of Things.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+5
+
+objects, using data integration, artificial intelligence and machine 
+learning.” More specifically, based on literature as listed in Table 3, the 
+following essential characteristics of Digital Twins can be addressed:
+
+• Timeliness: a Digital Twin reflects its physical twin in (near) real- 
+time, which means that state changes of the physical object are 
+(immediately) detected and synchronized with its Digital Twin 
+(Verdouw et al., 2015; Dur˜ao et al., 2018; Mikell and Clark, 2018; 
+Tao et al., 2018; Knibbe et al., 2019; Park et al., 2019); 
+• Fidelity: the reliability and security of a Digital Twin must be un­
+
+questionable, allowing to blindly trust Digital Twins for decision 
+making (Verdouw et al., 2015; Dur˜ao et al., 2018; Tao et al., 2018);  
+• Integration: a Digital Twin integrates data from different aspects of 
+the physical object and ensures convergence in a consistent format 
+(Schleich et al., 2017; Kritzinger et al., 2018; Tao et al., 2018; Park 
+et al., 2019);  
+• Intelligence: Digital Twins do not only depict object data, but also 
+include algorithms that describe, analyze or predict the behaviour of 
+their physical twins (Glaessgen and Stargel, 2012; Schleich et al., 
+2017; Dur˜ao et al., 2018; Kritzinger et al., 2018; Knibbe et al., 2019; 
+Park et al., 2019; Shaw and Fruhlinger, 2019); 
+• Complexity: Digital Twins can mirror different types of physical ob­
+
+jects, including products, components, living and non-living re­
+sources, components and processes (Marr, 2017; Saddik, 2018). 
+Moreover, Digital Twins may consider multiple interdependent ob­
+jects as well as sub systems at different levels of granularity 
+(Glaessgen and Stargel, 2012; Verdouw et al., 2016b; Grieves and 
+Vickers, 2017).
+
+3.2. Digital Twin typology
+
+The focus of Digital Twins is on the usage phase of the lifecycle 
+(Fig. 2) in which Digital Twins are connected to their real-life physical 
+twins. During that phase, Digital Twins can be used to monitor the actual 
+state of objects, prescribe desired states, predict future states, and to 
+remotely correct the state of real-life objects. Before the usage stage, 
+Digital Twins can already be created to define and simulate the states 
+and behaviour of its real-life twins that are not yet born. Last, after the 
+usage phase, Digital Twins will remain conceptually alive and can be 
+used to recollect the historical states of real-life objects. As a result, we 
+defined a typology of six distinct Digital Twins (based on Porter and 
+Heppelmann, 2014; Verdouw et al., 2015; Hagerty, 2016; Verdouw 
+et al., 2016b; Grieves and Vickers, 2017; Redelinghuys et al., 2019; 
+Lepenioti et al., 2020):
+
+• Imaginary Digital Twin: a conceptual entity that depicts an object that 
+does not yet exist in real-life. It defines the information needed to 
+materialize its physical twin including for example functional re­
+quirements, 3D product models, material and resource specifica­
+tions, production models, and disposal and recycling specifications 
+(Verdouw et al., 2015; Grieves and Vickers, 2017). Imaginary twins
+
+Table 3 
+Digital Twin definitions classified into two perspectives: Internet of Things (IoT) 
+and Product Life Cycle (PLC); further discussion in text.
+
+Source 
+Definition Digital Twin 
+Main 
+perspective
+
+Boschert and 
+Rosen, 2016
+
+A Digital Twin is a comprehensive physical 
+and functional description of a component, 
+product or system, which includes more or 
+less all information which could be useful in 
+all—the current and subsequent—lifecycle 
+phases.
+
+PLC
+
+Dur˜ao et al., 
+2018
+
+Digital Twin is a multi-physical, multi-scale 
+and probabilistic simulation model of a 
+complex product. It uses updated sensors and 
+physical models to mirror physical life in the 
+digital world and vice versa.
+
+PLC
+
+Glaessgen and 
+Stargel, 2012
+
+A Digital Twin is an integrated multi-physics, 
+multiscale, probabilistic simulation of an as- 
+built vehicle or system that uses the best 
+available physical models, sensor updates, 
+fleet history, etc., to mirror the life of its 
+corresponding flying twin.
+
+PLC
+
+Fuller et al., 2020 
+The effortless integration of data between a 
+physical and virtual machine in either 
+direction.
+
+IoT
+
+Grieves and 
+Vickers, 2017
+
+The Digital Twin is a set of virtual 
+information constructs that fully describes a 
+potential or actual physical manufactured 
+product from the micro atomic level to the 
+macro geometrical level. At its optimum, any 
+information that could be obtained from 
+inspecting a physical manufactured product 
+can be obtained from its Digital Twin.
+
+PLC
+
+Knibbe et al., 
+2019
+
+Digital Twins are computational 
+representations of both living and non-living 
+objects and processes. They can be used to 
+describe, analyze and simulate current and 
+future states of and interventions in these 
+objects, using data integration, artificial 
+intelligence and machine learning.
+
+IoT
+
+Marr, 2017 
+A Digital Twin is a virtual model of a process, 
+product or service. This pairing of the virtual 
+and physical worlds allows analysis of data 
+and monitoring of systems to head off 
+problems before they even occur, prevent 
+downtime, develop new opportunities and 
+even plan for the future by using simulations.
+
+IoT
+
+Mikell and Clark, 
+2018
+
+The Digital Twin is the virtual representation 
+of a physical object or system across its life- 
+cycle. It uses real-time data and other sources 
+to enable learning, reasoning, and 
+dynamically recalibrating for improved 
+decision making.
+
+PLC/IoT
+
+Saddik, 2018 
+A Digital Twin is a digital replica of a living or 
+non-living physical entity. By bridging the 
+physical and the virtual world, data is 
+transmitted seamlessly allowing the virtual 
+entity to exist simultaneously with the 
+physical entity.
+
+IoT
+
+Schleich et al., 
+2017
+
+The Digital Twin is not one complete model 
+of the physical product, but a set of linked 
+operation data artefacts and simulation 
+models, which are of suitable granularity for 
+their intended purpose and evolve 
+throughout the product life-cycle. Thus, the 
+Digital Twin not only serves representation 
+purposes but is also applicable for making 
+predictions about the expected product 
+behaviour, while the granularity of the 
+simulation models fits to their purpose and 
+evolves from early design stages, where 
+simple product models are used to decide 
+about product concepts, to detail design, 
+where sophisticated simulation models 
+support the dimensioning and design of parts 
+and subassemblies.
+
+PLC
+
+Table 3 (continued)
+
+Source 
+Definition Digital Twin 
+Main 
+perspective
+
+Shaw and 
+Fruhlinger, 
+2019
+
+A Digital Twin is a computer program that 
+takes real-world data about a physical object 
+or system as inputs and produces as outputs 
+predications or simulations of how that 
+physical object or system will be affected by 
+those inputs.
+
+IoT
+
+Verdouw et al., 
+2015
+
+A virtual object can be defined as ‘a digital 
+representation of an object, with a unique 
+identification, that can be trusted, possesses 
+the property of integrity, is timely available, 
+and can be used for the intended purpose’.
+
+IoT
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+6
+
+can also simulate the behaviour of designed, not yet existing, objects 
+between tolerance norms (Grieves and Vickers, 2017).  
+• Monitoring Digital Twin: a digital representation of the actual state, 
+behaviour and trajectory of a real-life physical object. It is connected 
+(near) real-time to its physical twin and is used to monitor its con­
+dition, operation, and external environment. A monitoring Digital 
+Twin can be both descriptive, providing insight in what happens or 
+happened with the connected real-life object, and diagnostic, 
+explaining why it happens or happened by relating the object to 
+contextual data.  
+• Predictive Digital Twin: a digital projection of the future states and 
+behaviour of physical objects using predictive analytics, such as 
+statistical forecasting, simulation and machine learning methods. 
+Prediction is done dynamically based on (near) real-time data of the 
+physical twin.  
+• Prescriptive Digital Twin: a smart digital object that adds intelligence 
+for recommending corrective and preventive actions on the real-life 
+objects usually based on optimization algorithms and expert heu­
+ristics. Prescriptive twins use the output of monitoring and predictive 
+twins as an input to suggest which courses of action need to be taken 
+to reach a favourable outcome (Hagerty, 2016). The decisions on the 
+recommended actions still are taken by humans, who also trigger the 
+remote or on-site execution of interventions.  
+• Autonomous Digital Twin: operates autonomously and fully controls 
+the behaviour of real-life objects without on-site or remote inter­
+vention by humans. Autonomous twins also can become self- 
+adaptive systems that are able to learn about their environment, 
+self-diagnose their own service needs, and adapt to users’ prefer­
+ences (Porter and Heppelmann, 2014; Verdouw et al., 2016b).  
+• Recollection Digital Twin: maintains the complete history of the 
+physical object, which no longer exists in real-life. As such, recol­
+lection twins form the digital memory of e.g. a farm. This type of 
+Digital Twins is often neglected in literature, but it is increasingly 
+important for reducing the environmental impact of disposals and for 
+optimization of the next generation objects (Grieves and Vickers, 
+2017). In the context of farming, recollection twins are also of crucial 
+importance for tracing products to its source in case of food safety 
+issues and for sustainability compliance.
+
+One should notice that the above listed properties are not indepen­
+dent and a Digital Twin do not necessarily belong to one category but 
+may combine features of different types. For example, Digital Twins 
+during the usage phase build upon each other’s capabilities. An auton­
+omous Digital Twin will typically also be a prescriptive Digital Twin, a 
+predictive twin usually also includes predictive capabilities, and a pre­
+dictive twin can also include a monitoring Digital Twin. 
+So far we have defined the concept of Digital Twins and introduced a 
+typology of Digital Twins based on generic literature in the Product Life 
+Cycle and IoT domain. In the remainder of this section we introduce the 
+usage of Digital Twins in the context of smart farming.
+
+3.3. Digital Twins in farm management
+
+Farming is a highly complex and dynamic domain. Production pro­
+cesses are inherently dynamic because they depend on natural condi­
+tions, such as weather, diseases, soil conditions, seasonability and 
+climate (Fountas et al., 2013; Trienekens et al., 2014). Moreover, 
+farmers have to deal with critical demands from consumers and society 
+concerning food security, food safety, sustainability and health. As a 
+consequence, farms should not only be very efficient, but also have to 
+meet high quality and environmental standards and should adapt to 
+changing market conditions. This imposes high requirements on the 
+managerial tasks of farmers (Sørensen et al., 2010; Fountas et al., 2013). 
+They constantly have to reassess production strategies and to reschedule 
+planned activities based on timely monitoring of farm operations in 
+order to achieve their goals.
+
+As argued in the introduction section, Digital Twins can significantly 
+enhance the needed control capabilities by enabling the decoupling of 
+physical and information aspects of farm management (Fig. 4). How­
+ever, implementing Digital Twins in farm management is a challenging 
+task for (at least) three reasons (Verdouw et al., 2016b). 
+First of all, the highly dynamic production system in agriculture 
+(process dynamics) poses requirements that go beyond many other 
+sectors concerning the capabilities of Digital Twins to mirror dynamic 
+behaviour. In such a dynamic environment, it is really challenging to get 
+seamless access to object data while ensuring the integrity of data and 
+respecting usage rights, safety and security. Furthermore, real-time 
+synchronization can be complicated in rural areas, which often have 
+limited coverage and bandwidth. 
+Second, agricultural products are living objects that inherently are 
+diverse and are characterized by complex behaviour. Moreover, farms 
+don’t have one Digital Twin of concern for smart farming, but they are 
+composed of a large variety of interrelated objects (object complexity). 
+Main objects are i) inputs including seeds, feed, fertilizers or pesticides, 
+ii) throughputs including objects in production (e.g. growing crops or 
+animals) and resources including fields, stables, machinery and 
+personnel, and iii) agricultural output including harvested (lots of) 
+crops, animals ready to be slaughtered, etc. Digital Twins of a fine 
+granularity level, e.g. up to individual plants or animals, would add 
+more value, but are also more difficult to implement, which results in 
+higher costs. In case of a fine granularity, a key challenge is to manage 
+the interdependences between (sub) Digital Twins at different granu­
+larity levels. 
+Third, farms are part of a dynamic network and share data with many 
+stakeholders including customers, input suppliers, farmer cooperatives, 
+advisors, contractors, and certification and inspection organizations 
+(network dynamics). These stakeholders may also have access to the 
+farmer’s Digital Twins, but limited to the information that they need. 
+This implies that there must be interoperable solutions for providing 
+external access to specific views on Digital Twins in a secure and trusted 
+way. Vice versa, external stakeholders can enrich farm Digital Twins 
+with a wealth of (3rd party) archives such as historical and forecasted 
+meteorological data, satellite data, soil-, water- and air-analyses, etc. 
+There should be proper mechanisms in place to dynamically integrate 
+these data in farm Digital Twins. 
+Digital Twins can be seen as a new phase in smart farming. It is 
+building upon existing technologies especially for precision farming, 
+Internet of Things and simulation. As a consequence, there are multiple 
+applications in the agricultural domain, although often not framed as 
+Digital Twins. However, most of these applications are still rather basic 
+forms of Digital Twins, focusing for example on digital representation in 
+a cloud dashboard. More advanced applications, including e.g. predic­
+tive and prescriptive capabilities across the lifecycle, are still in an early
+
+Fig. 4. Virtual control of farming enabled by Digital Twins.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+7
+
+stage of development. In our literature review, we only found a few 
+explorative studies and some case studies that frame an IoT-based sys­
+tem as a Digital Twin, without a detailed motivation or definition of the 
+concept. These papers, which are discussed below, are all congress pa­
+pers, except one book chapter. 
+To the best of our knowledge, Verdouw and Kruize (2017) were the 
+first who explored the application of Digital Twins in farm management. 
+The paper considers Digital Twins from an Internet of Things perspec­
+tive, in which physical objects have virtual, digital equivalents that are 
+real-time and remotely connected. Illustrated by six cases of the FIWARE 
+Accelerator program, the paper shows that Digital Twins are already 
+implicitly used in smart farming, but existing applications mostly focus 
+on basic monitoring capabilities. The authors argue that these capabil­
+ities establish a basis for optimization, simulation and decision support 
+based on on-line Digital Twins.
+
+Jo et al. (2018) conducted a feasibility study on using Digital Twins 
+in pig farms to improve animal welfare. They introduce thre so-called 
+Digital Twin platforms (Prefix, Ditto and Watson) and proposed a 
+design smart livestock farming system using such a Digital Twin plat­
+form. The paper states that a Digital Twin is the digital replica of the real 
+world, but it does not further elaborate on the concept, neither it de­
+scribes how the designed system supports Digital Twins.
+
+Monteiro et al. (2018) present a technical IoT-based model and a 
+prototype to implement Digital Twins in vertical farming. Digital Twins 
+are defined as digital mirrors of physical objects. The Digital Twin 
+designed in the paper is envisioned to support the lifecycle of planning, 
+operation, monitoring, and optimization of vertical farms. The focus of 
+the prototype is on sensing and controlling the conditions via light and 
+misting.
+
+Alves et al. (2019) developed an IoT-based prototype to sense field 
+conditions including soil moisture, air temperature and humidity, and to 
+visualize this information in a dashboard. This prototype is called a 
+Digital Twin, in which data flows automatically between a physical and 
+a digital object. The authors argue that a Digital Twin enables farmers to 
+make better decisions and to decrease the environmental impact in 
+water, land and soil resources. 
+In the research of Kampker et al. (2019), a Digital Twin is an artificial 
+potato, which is planted in the field and harvested just as real potatoes. 
+The ‘digital’ potato is equipped with sensors that measure its treatment, 
+especially shocks, blows and rotation speed, etc. This information is used 
+to adjust the settings of the harvesting machine, thus minimizing dam­
+age to the potatoes. Subsequently, the digital potato is synchronized 
+with a cloud platform to enable smart services like potato price and field 
+revenue estimations (Maaß et al., 2018).
+
+Linz et al. (2019) applied Digital Twins in the development of field 
+robots, for example for phenotyping and crop treatments in vineyards. 
+They simulate the autonomous behaviour of robots in a 3D environment 
+using real-time data and mirror the simulated Digital Twin to operate 
+the real-life robot. This results in shorter lead times of development, 
+better evaluation of sensor behaviour and reducing the needed field 
+experiments to evaluate phenotypes or test the effects of crop 
+treatments.
+
+Skobelev et al. (2020) propose a multi-agent approach to develop­
+ment of Digital Twins of plants. A plant Digital Twin is defined as “a 
+computer model that imitates its life cycle and synchronizes with the 
+living plant using examinations by agronomists and data on environ­
+mental conditions (weather, soil, etc.)”. 
+Finally, Sreedevi and Santosh Kumar (2020) argue that there are 
+relatively few studies about Digital Twins in agriculture compared to 
+other domains. Furthermore, they discuss the potential contribution of 
+Digital Twins in hydroponics farming, especially for predicting probable 
+failures and optimizing the whole farming system, including the man­
+agement of nutrients, pH values, pathogens and weeds. 
+Based on the domain analysis introduced above, the next section 
+describes the conceptual framework developed for designing and 
+implementing Digital Twins.
+
+4. Conceptual framework Digital Twins
+
+The conceptual framework of this paper should provide a sound 
+conceptual basis for implementation of Digital Twins in smart farming, 
+including the management aspects of using Digital Twin to plan, 
+monitor, control and optimize farm processes. More specifically, the 
+following basic requirements are defined based on the literature study of 
+the previous section:
+
+1. The framework must address the cyber-physical control cycle of 
+smart farming that seamlessly integrates sensing and monitoring, 
+smart analyses & planning and smart control of farm operations for 
+all relevant farm processes (‘whole farm management perspective’);  
+2. The framework must support the entire life cycle of farm objects and 
+consequently it must include the six distinct Digital Twins defined, i. 
+e. Imaginary, Monitoring, Predictive, Prescriptive, Autonomous and 
+Recollection Digital Twins; 
+3. The framework must support the implementation of essential char­
+
+acteristics of Digital Twins, i.e. timeliness, fidelity, integration, in­
+telligence, and complexity;  
+4. The framework must address the specific challenges of implementing 
+Digital Twins in farm management, i.e. farm object complexity, farm 
+network dynamics and farm process dynamics.
+
+The designed framework includes two model types that represent the 
+essence of a Digital Twin from a management viewpoint and from an 
+information technology viewpoint. This section introduces both models: 
+i) a control model for Digital Twins based on a general systems approach 
+and ii) an implementation model that provides an overview of the 
+technical architecture for implementing Digital Twins.
+
+4.1. Control model
+
+4.1.1. Farm control from a systems perspective 
+Control is a basic concept in system dynamics. It ensures that the 
+system’s objectives are achieved, even if disturbances occur. The basic 
+idea of control is the introduction of a controller that measures system 
+behaviour and corrects if measurements are not compliant with system 
+objectives (de Leeuw, 1997). Farm processes are ‘in control’ if the per­
+formance of its operations remain in a steady state. Therefore, the ac­
+tivities of these processes must include the cybernetic control functions 
+necessary to demonstrate ‘cybernetic validity’. Basically, this implies 
+that they must have a feedback loop in which a norm, sensor,
+
+Fig. 5. Basic control model.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+8
+
+discriminator, decision maker, and effector are present (de Leeuw, 1997; 
+Int Veld, 2002). Fig. 5 depicts these control functions in a basic control 
+model. The object system executes activities that transform input into 
+the desired output. In farming systems these are the business processes 
+of the involved actors that transform input material to final products at 
+the end customer’s location. The sensor function measures the actual 
+performance of the object system. The discriminator function compares 
+the measured performance with the norms that specify the desired 
+performance (system objectives concerning e.g. quantity, quality and 
+lead time aspects) and signals deviations to the decision-making func­
+tion. Based on a control model of the object system, the decision-making 
+function selects the appropriate intervention to remove the signalled 
+disturbances. Finally, the effector implements the chosen intervention to 
+correct the object system’s performance.
+
+4.1.2. Farm control with Digital Twins 
+Digital Twins allow farmers to decouple the physical flows from in­
+formation aspects of farm operations (Verdouw and Kruize, 2017). 
+Decoupling of control means that the measurements of the object sys­
+tem’s state are translated into a Digital Twin as visualized in Fig. 6. The 
+control cycle starts with measuring the object system’s state by the 
+sensor function and with acquiring relevant external data (Verdouw 
+et al., 2015). These data are then translated into a virtual representation 
+of the controlled object system (model-based transformation) on the 
+basis of a meta model. The Digital Twin includes all information relevant 
+for the supported purposes of usage (i.e. control objectives) as specified 
+in a meta model. Dependent on a specific purpose of usage, a virtual 
+view may then filter irrelevant information and present it in such a way 
+that it can be processed optimally by specific users (model-based
+
+Fig. 6. Conceptual model for control based on Digital Twins, based on Verdouw et al. (2015).
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+9
+
+transformation) on the basis of a meta model. The next control function 
+is the decision-making function, which compares a virtual view on the 
+object system with a specific control norm. Next, the decision-making 
+function selects appropriate interventions for deviations based on its 
+Decision Support Model, similarly as in conventional control systems. 
+Lastly, the selected intervention is communicated with the effector 
+function, either directly or via the Digital Twin using remote actuator 
+systems.
+
+4.1.3. Impact Digital Twin typology on control model 
+The distinct categories of Digital Twins as introduced previously 
+serve different control purposes. Fig. 7 provides a summarized overview 
+of the main differences in the control model (adapted from (Verdouw 
+et al., 2015). 
+Imaginary Digital Twins represent the state and simulate the behav­
+iour of reference objects that are not yet connected to objects that 
+physically exist in the real-world. A reference object is a conceptual 
+entity that specifies a typical object from the perspective of defining user 
+requirements. Usually it is a combination of desired features that can be 
+based on past experiences or they can be the result of a design process. It 
+is also possible to select and depict a representative physical object 
+(typical objects). Moreover, scenario data can be used to simulate the 
+expected behaviour of reference objects based on prediction models. 
+Monitoring Digital Twins represent the current and historic state and 
+behaviour of objects that exist physically in the real-world. The physical 
+objects are equipped with tags for identification, usually barcodes or 
+RFID transponders, and with sensors that measure dynamic properties of 
+physical things. The virtual object uses these sensor data to generate a 
+representation of the object based on a meta model, which might be 
+implicit. Usually, the sensor data are combined with external data to
+
+enrich the virtual representation. 
+Predictive Digital Twins project the future state and behaviour of real- 
+life physical objects. The future states are forecasted by using a predic­
+tion model and subsequently a future projection of its behaviour is 
+generated in conformance to a meta model. The prediction model uses 
+information of the current and historic state of the objects, measured by 
+sensors and AutoID devices, usually in combination with external data, 
+e.g. weather forecasts or congestion information. 
+Prescriptive Digital Twins: represent the effects of interventions in a 
+present Digital Twin on a future Digital Twin. The interventions can 
+either correct a current issue as identified by a monitoring twin (reac­
+tive) or an expected future issue as forecasted by a predictive twin 
+(proactive). Simulation of interventions in prescriptive twins allow for 
+precise and realistic evaluation of corrective and preventive measure 
+before implementation. The decision still is taken by humans and also 
+the intervention is done without using a Digital Twin. 
+Autonomous Digital Twins: go beyond prescriptive twins because also 
+the decision and implementation is done autonomously via digital rep­
+resentations. Prescriptive twins identify control issues based on moni­
+toring and predictive twins and decide on optimal interventions based 
+on prescriptive twins. Subsequently the selected intervention is trans­
+lated into actuator instructions, that are implemented remotely. As such, 
+autonomous twins run the complete control loop without any human 
+involvement, but based on decision support models and control norms of 
+humans. Autonomous twins can also be self-learning, which means that 
+decision algorithms are optimized based on the measured response of 
+real objects on control measures. 
+Recollection Digital Twins: represent the past state and behaviour of 
+objects that no longer exist in the real-world. Like imaginary twins they 
+represent reference objects, i.e. conceptual entities, but the nature of the
+
+Fig. 7. Simplified Control Models of the Digital Twin Typology (excluding the Discriminator and Decision Making control functions).
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+10
+
+representation is completely different since there has been a connected 
+real object in the past. Recollection twins have to depict this historical 
+object in an accurate and reliable way, and as such they use all relevant 
+data about this object.
+
+4.1.4. Integrated control model for Digital Twins 
+The previous sections have defined distinct control mechanisms of 
+six Digital Twin categories. Fig. 8 incorporates these mechanisms into 
+the control model. This model integrates all six Digital Twin defined 
+categories, but not all elements will be relevant if less categories are 
+applied. The integrated control model especially adds different types of 
+the representation, i.e. imaginary, present, future and past digital ob­
+jects. Imaginary digital objects represent reference objects that do not 
+yet exist. Present digital objects represent the current state and behav­
+iour of real-life, physical objects. Future digital objects project the
+
+expected state and behaviour of objects. Past digital objects represent 
+the historical state and behaviour of real-life objects or objects that no 
+longer exist in the real-world. Furthermore a reference object is added to 
+allow for the representation of conceptual entities that come into exis­
+tence in the design phase of the product life cycle. Once the conceptual 
+entity is materialized, the real object can be connected to the virtual 
+object. This conceptual entity remains after the disposal of the real-life 
+object at the end of the lifecycle. Reference object can also be relevant 
+during the usage phase. An example is the usage of imaginary resources 
+for planning purposes, which specify the type of resources and the 
+properties necessary to do the job. Think of, for example, a virtual 
+harvest machine having a certain capacity in specific weather and soil 
+conditions. When the harvesting schedule becomes actual, a physical 
+machine is chosen to do the job for the virtual one (having at least 
+properties that match required ones).
+
+Fig. 8. Integrated control model for Digital Twins.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+11
+
+Finally, the interaction between the decision-maker function and the 
+Digital Twins is elaborated. In prescriptive Digital Twins, intervention 
+proposals based on decision support models are transformed into future 
+Digital Twins. As such, the expected object changes of virtual in­
+terventions are simulated. The decision maker uses this simulated in­
+terventions to decide on the final intervention. Autonomous Digital 
+Twins also translate this intervention decision into planned object 
+changes and subsequently into actuator instructions. Autonomous twins 
+remotely control the effector function that executes these instructions. 
+So far, the concept of Digital Twins and its underlying complexity 
+were defined. The next section will present a technical model that is 
+designed to implement this concept.
+
+4.2. Implementation model
+
+This section proposes a technical model for the implementation of 
+Digital Twins. A technical architecture describes the components of a 
+system, interactions among components, and the interaction of a system 
+as a whole with its environment (Trienekens et al., 2014). It is usually 
+not drawn in one diagram but separated in multiple so-called architec­
+ture views each of which describes an architecture according to specific 
+stakeholders’ concerns (Clements et al., 2010). 
+For the purpose of this paper, we focus on visualizing main func­
+tionalities that are needed to implement the control model as developed 
+in the previous section. Several technical architectures for Digital Twins 
+are introduced recently. Schleich et al. (2017) proposed an abstract 
+reference architecture that addresses some basic modelling principles 
+for ‘twinning’ between the physical and virtual world properties, such as 
+model scalability, interoperability, expansibility, and fidelity. Alam and 
+Saddik (2017) developed a specific a Digital Twin architecture, that 
+analytically describes key properties of cloud-based cyber-physical 
+systems. Redelinghuys et al. (2019) designed an architecture for Digital 
+Twins of manufacturing cells comprising six layers, including local data, 
+gateways, cloud-based databases and a layer for emulations and 
+simulations. 
+These authors consider Digital Twins as a next step in IoT-based
+
+cyber-physical systems. As a consequence the proposed architectures 
+are similar to reference architectures developed in the IoT domain, in 
+which virtual representation of objects have an important role. Impor­
+tant IoT reference architectures include IoT-A, ITU-T and AIOTI (Ver­
+douw et al., 2019). The Internet of Things—Architecture (IoT-A) 
+provides a very in-depth definition of IoT’s information technology as­
+pects (Carrez et al., 2013; Gubbi et al., 2013). The International Tele­
+coms Unions (ITU) has developed an IoT Reference Model which 
+provides a high level capability view of an IoT infrastructure (ITU-T, 
+2016). The Alliance for IoT Innovation has defined a High Level IoT 
+Architecture to achieve IoT semantic interoperability (AIOTI, 2018). In 
+the present paper we adopted the IoT-A reference architecture because it 
+most explicitly addresses virtual entities as a core element of the ar­
+chitecture. The remainder of this section will introduce the IOT-A 
+reference architecture and how it supports the implementation of Dig­
+ital Twins.
+
+4.2.1. The IoT-A reference model 
+The Architectural Reference Model for the Internet of Things is 
+developed by the European project IoT-A (Gubbi et al., 2013). Besides 
+establishing a common understanding of the IoT domain, IoT-A aimed to 
+provide essential building blocks and design choices for developing 
+interoperable IoT system architectures. The reference model includes 
+five different sub models: an IoT domain model, IoT information model, 
+IoT functional model, IoT communication model and an IoT trust, se­
+curity and privacy model (Bauer et al., 2013; Carrez et al., 2013). 
+The ontological foundation is formed by the IoT Domain Model, 
+which defines main concepts of the Internet of Things like Devices, IoT 
+Services and Virtual Entities (VE), and how these concepts are related. 
+Building upon these concepts, the IoT information model defines the 
+structure (e.g. relations, attributes) of IoT related information in an IoT 
+system on an abstract level. The Functional Model decomposes the main 
+functionalities of IoT-based systems into groups in a layered view. The 
+IoT Communication Model elaborates the technical communication for 
+connecting the different elements of an IoT-based system, including a 
+reference set of communication rules to build interoperable stacks. The
+
+Fig. 9. Implementation model for Digital Twins, adopted from IoT-A (Carrez et al., 2013), Virtual Entity is replaced by Digital Twin Management.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+12
+
+sub models are elaborated in very detailed architectural views and 
+accompanied by guidelines. 
+It can be concluded that the IoT-A is a very in-depth and rigorous 
+reference model. It is beyond the scope of this paper to describe it into 
+detail, but we focus on its IoT functional model (Fig. 9). For more details 
+and the further technical implementation we refer to Bauer et al. (2013) 
+and Carrez et al. (2013).
+
+4.2.2. Digital Twin implementation model 
+Basically, a Digital Twin architecture is composed of a physical ob­
+ject in real space, a digital representation of this object in the virtual 
+space and the connection between the virtual and real space for trans­
+ferring data and information (Grieves and Vickers, 2017; Redelinghuys 
+et al., 2019). As argued previously, IoT technologies enable this syn­
+chronization of the physical and virtual worlds. The implementation 
+model of our conceptual framework, based on the IoT-A functional 
+model, addresses eight layers (Fig. 9). These layers range from a device
+
+layer, which is attached to physical objects, to an application layer, 
+which includes interaction with Digital Twin Users (based on Atzori 
+et al., 2010; Bauer et al., 2013; Carrez et al., 2013; and Verdouw et al., 
+2016a). 
+The Device layer provides the hardware components that are attached 
+to and directly interact with physical objects such as tags for unique 
+identification, sensors and actuators. Important identification technol­
+ogies used in agriculture include (multi-dimensional) barcodes and RFID 
+tags (Verdouw et al., 2016a). Furthermore, a multitude of different 
+sensors is used to measure dynamic properties of physical things 
+including temperature, crop size, humidity, light, moisture, CO2, 
+ammonia and pH values. Object sensing is also supported by mobile 
+devices such as barcode/RFID readers and smartphones, which enable 
+farmers to perform additional actions such as visual quality inspections. 
+Furthermore, this layer includes remote sensing by satellites, aerial ve­
+hicles, and ground based platforms. Small unmanned aerial systems (i.e. 
+drones) are increasingly used to realize a high spatial and temporal
+
+Table 5 
+Implementation model overview of the investigated cases.
+
+Case 
+Within-field management 
+zoning 
+Happy Cow 
+Chain-integrated 
+greenhouse production 
+Added value weeding data 
+Pig farm management
+
+Device layer 
+Soil, crop and weather 
+sensors, GPS tracker, 
+actuators
+
+Accelerometer sensor 
+(neck mounted 
+behaviour sensor)
+
+Crop, Climate and Irrigation 
+Sensors, Ventilation, 
+Climate, Lighting and 
+Fertigation Actuators
+
+Weeder Sensors, Weeder 
+Actuators, Weeder Terminal, 
+Tractor 
+Terminal GPS, Weather Station, 
+Harvester Terminal
+
+RFID tags and readers, water 
+consumption, feed sensors 
+consumption sensors, barn 
+climate sensors
+
+Communication 
+layer 
+ISOBUS Channel, LoRa 
+Network 
+Custom Farm LAN, Base 
+Stations, Field Access 
+Points
+
+Wifi, GPRS/3G/4G Cellular, 
+ethernet, Serial Bus 
+Farm WLAN, Farm LAN, 
+CANbus 
+WIFI, GPRS, XMPP
+
+IoT service layer 
+ISOBUS Task Controller, 
+ISOBUS 
+VPN Concentrator 
+Fog Computing Services, 
+FIWARE IoT 
+FireWire, SSD 
+IoT Adapters, local IoT 
+middleware 
+IoT Process 
+management 
+layer
+
+Modelling Services 
+n/a 
+n/a 
+n/a 
+n/a
+
+Service 
+organisation 
+Service Composition, 
+Orchestration and 
+Choreography
+
+Service Composition, 
+Orchestration and 
+Choreography
+
+Service Composition, 
+Orchestration and 
+Choreography
+
+Service Composition, 
+Orchestration and 
+Choreography
+
+Service Composition, 
+Orchestration and 
+Choreography 
+Digital Twin 
+management 
+layer
+
+Soil Map Service, Variable 
+Rate Application Map, 
+FIWARE Orion Context 
+Broker
+
+Fertility Prediction 
+Service 
+Health Prediction 
+Service 
+Herd Monitoring Service 
+Data Fusion and Cloud 
+Data Storage
+
+Climate and Irrigation 
+Setpoints Estimation 
+Service, Diseases and 
+Condensation 
+Crop Monitoring Service, 
+Dynamic Lighting Control 
+Service, FIWARE Cloud Data 
+Storage
+
+Crop Growth Service, Yield 
+Prediction Service, Machine 
+Setup and Maintenance Service, 
+Data Storage and Processing
+
+Fusion Engine Service, Cloud 
+Data Storage
+
+Security layer 
+Identity Management, 
+Authorization, 
+Authentication, Network 
+Security
+
+Identity Management, 
+Authorization, 
+Authentication, Network 
+Security
+
+Identity Management, 
+Authorization, 
+Authentication, Network 
+Security
+
+Identity Management, 
+Authorization, Authentication, 
+Network Security
+
+Identity Management, 
+Authorization, 
+Authentication, Network 
+Security 
+Management layer 
+Configuration, Fault, 
+Reporting, Member, State 
+Configuration, Fault, 
+Reporting, Member, 
+State
+
+Configuration, Fault, 
+Reporting, Member, State 
+Configuration, Fault, Reporting, 
+Member, State 
+Configuration, Fault, 
+Reporting, Member, State
+
+Application layer 
+Akkerweb/FarmMaps, 
+365FarmNet, 
+Configurable Dashboard,
+
+IDA App, several FMIS’s 
+Greenhouse Management 
+Dashboard 
+Farmer Tractor Application, 
+Steketee Dashboard, Akkerweb/ 
+FarmMaps, 365 FarmNet, 
+AgLeader 
+SMS Basic
+
+IoT Dashboard, Business 
+Intelligence Dashboard
+
+Table 4 
+Control model overview of the investigated cases.
+
+Case 
+Within-field management 
+zoning 
+Happy cow 
+Chain-integrated greenhouse 
+production 
+Added value weeding data 
+Pig farm 
+management
+
+Main objects 
+Potato Crops, Field, 
+Harvested Potatoes 
+Cow, Herd, Field 
+Tomato Crop, Greenhouse, 
+Harvested Tomatoes, Truck 
+Weeds, Lettuce Crops, Field, Weeding 
+Machine, Harvested Lettuce 
+Pig, Farm, 
+Slaughterhouse 
+Time 
+dimension 
+Present, Future 
+Present, Future 
+Present, Future 
+Present, Future, Past 
+Present, Future
+
+Main farm 
+processes 
+Grow and Harvest Potatoes 
+Produce Milk 
+Grow, Harvest and Distribute 
+Tomatoes 
+Grow and Harvest Lettuce 
+Fatten and Slaughter 
+Pigs 
+Digital Twin 
+types 
+Monitoring, Predictive, 
+Prescriptive 
+Monitoring, 
+Predictive 
+Monitoring, Predictive, Prescriptive 
+Monitoring, Predictive, Prescriptive, 
+Recollection 
+Monitoring, 
+Predictive
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+13
+
+resolution and a high flexibility in image acquisition. Finally, in the 
+device layer actuators are used to remotely operate objects such as 
+tractor implements, climate control, irrigation, coolers, and lights. 
+The Communication layer manages the interactions between different 
+components and enables the communication from the devices to the IoT 
+services. It provides capabilities for networking, connectivity and data 
+transport and enables end-to-end communication that crosses different 
+networking environments. 
+The IoT Service layer contains services and functionalities for dis­
+covery, look-up and name resolution of IoT Services. It can be used to get 
+information retrieved from a sensor device or to deliver information to 
+control actuator devices. 
+The Digital Twin Management layer contains functions for interacting
+
+with the IoT System on basis of virtual entities. It can give access to all 
+the information about the Digital Twin, from sensor devices, databases 
+or applications. Furthermore, it contains all the functionality needed for 
+managing associations with the physical objects and monitoring their 
+validity. 
+The IoT Process Management layer provides an environment for the 
+modelling and execution of IoT-aware processes. Deployment of process 
+models to the execution environments is achieved by utilizing IoT Ser­
+vices that are orchestrated in the Service Organisation layer. This layer 
+acts as a communication hub between several other layers by composing 
+and orchestrating services of different levels of abstraction. 
+The Security layer is responsible for the security and privacy of the 
+systems and its users. It includes components like authorization,
+
+Fig. 10. Simplified control model of the weeding use case.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+14
+
+authentication and identity management. 
+The Management layer is focussed on the configuration of the system. 
+It also reports faults and determines the overall state of the system. 
+Finally, the Application layer provides the intelligence for specific 
+control tasks based on virtual objects. It includes capabilities for usage of 
+Digital Twins across its lifecycle. The different categories of Digital 
+Twins are enabled by diverse technologies, including simulation and 
+optimization tools, statistical forecasting, simulation and machine 
+learning. This layer also includes the user interface for interacting with 
+Digital Twins. The types of user interfaces can vary from 2D graphical 
+user interfaces, as commonly used in personal computers, smartphones 
+and tablets, to advanced 3D interfaces for Virtual and Augmented Re­
+ality glasses. 
+The remainder of this paper will illustrate the application of Digital 
+Twins in agriculture by some cases of the IoF2020 project.
+
+5. Application of Digital Twins in smart farming
+
+5.1. Illustrative cases from IoF2020
+
+The framework as presented in the previous sections is applied to five 
+smart farming use cases of the IoF2020 project (Table 1). It is beyond the 
+scope of this paper to exhaustively deal with the applied models for all 
+cases. Therefore, we provide in Table 4 an overview of the applied 
+control models and in Table 5 the applied implementation models. The 
+models of the use case ‘Added value weeding data’ are described in more 
+details as an illustrative example.
+
+Table 4 provides an overview of the applied control models. Point of 
+departure in all use cases is a particular farm crop or animal, i.e. potato, 
+tomato, lettuce, cow or pig. These objects are nested in high-level ob­
+jects, such as fields, greenhouses and stables. The plant use cases all also 
+predict the expected output of the farming process, i.e. potatoes, to­
+matoes or lettuce to be harvested. Two use cases also virtualize equip­
+ment used, i.e. a weeding machine or truck. All use cases analysed 
+combine multiple types of Digital Twins, starting with monitoring the 
+actual state of objects and then predicting future states e.g. expected 
+yields or animal health. Most of the use cases also include intelligence to 
+advice interventions. The crop farming use cases also process these ad­
+vices into prescriptive Digital Twins, e.g. by defining task maps. Most 
+use cases focus on the usage phase of a lifecycle and do not include 
+imaginary or recollection Digital Twins. Only the use case ‘Added value 
+weeding data’ applies a recollection Digital Twin for optimisation of 
+machine settings based on historical data about machine behaviour. 
+None of the use cases have implemented yet autonomous Digital Twins.
+
+Table 5 lists the main technical components that are used to imple­
+ment the layers of the Digital Twin technical architecture. It shows that 
+in the Device Layer all use cases apply domain-specific sensors and three 
+use cases also use specific actuators. Most technologies for technical 
+communication are based on standardized protocols of both conven­
+tional technology such as wired networks and recent wireless IoT net­
+works such as LoraNet. The use case ‘Happy cow’ has chosen to apply a 
+custom-built network consisting of distributed access points that enable 
+communication up to several kilometers. Also in the IoT Service layer a 
+combination of technologies is used. Process-based orchestration of 
+services is not yet addressed. Only the first use case ‘Within-field man­
+agement zoning’ includes some Modelling Services. In the Digital Twin 
+Management Layer all use cases provide services that combine and store 
+data from diverse data sources and represent harmonized virtual en­
+tities. These services also include intelligence for simulation or decision 
+support dependent on the supported control functions (see Table 4). In 
+the application layer, all use cases provide dedicated dashboards for the 
+interaction with users and three of the use cases also integrate with 
+existing farm management systems (e.g. Akkerweb/FarmMaps, 
+365FarmNet, AgLeader). Finally, all use cases comprise some generic 
+technical functions for the service organisation, security and 
+management.
+
+5.2. Overview of the use case ‘Added Value Weeding Data’
+
+When growing organic vegetables, weeding is one of the most 
+important and frequent activities to control both the quality of the field 
+and its produce (Lockeretz, 2007). In recent years, automated intra-row 
+weeding machines have entered the market, enhancing the weeding 
+process significantly. The most advanced weeding machines use ma­
+chine vision applications to distinguish crops from weeds. These camera 
+data can not only be used for automated control of the weeding task, but 
+also as a valuable information source for farm management. This use 
+case uses these location-specific camera data of a weeding machine as a 
+main data source to provide actual insights into the number of lettuce 
+heads growing on the field, the plants’ growth status, weed prevalence 
+and best harvesting moment. As such it creates Digital Twins of a field, 
+plants and weeds to monitor crop growth and to predict the crop weight 
+and size of lettuce.
+
+5.3. Application of the control model
+
+The applied control model of the use case ‘Added value weeding 
+data’ is shown in Fig. 10. The main farming processes are sourcing and 
+planting young lettuce plants, producing lettuce in the field, harvesting 
+lettuce which is ready for consumption and delivering it to the market. 
+The main physical objects involved are planting machines and young 
+plants, fields containing weeds and growing lettuce, weeding machines, 
+harvesting machines and harvested lettuces. 
+The Digital Twins of this use case are used for monitoring weed 
+pressure and crop growth, controlling the weeds to be removed and 
+predicting the optimal moment of harvesting. To do so, the sensor 
+function uses processed camera images to calculate crop parameters 
+such as size. Furthermore, crop growth sensing adds weather data and 
+field properties, including temperature, relative humidity, wind speed 
+and direction, solar radiation and soil moisture (3 levels). The data 
+acquisition function also includes external weather data. 
+These data are then transformed into Digital Twins. The virtualisa­
+tion in this use focusses on the field, which implies that the main Digital 
+Twin is a high-precision and actual heat map of a field. A field map 
+comprises weed density and the number and size of crops (present), and 
+the expected final weight and crop size of the lettuce (future). Planting 
+seedlings are excluded. The Digital Twins of the individual lettuce crops 
+and weeds are used by farmers during the weeding activity and after­
+wards the calculated parameters of every plant in the field are also 
+available remotely. Furthermore, Digital Twins of the weeding machine 
+is used to optimize machine settings afterwards (past). 
+The discriminator function uses the Digital Twins of weeds and 
+growing lettuces to monitor weed pressure and crop growth, i.e. crop 
+size and crop distance. The decision maker function translates the weed 
+pressure into a planning of the weeding activities. A lettuce growth 
+model is used to predict the crop weight and size per field section. The 
+user sets a target value for crop weight and then the optimal harvest 
+moment is determined. Based on this information the optimal moment 
+of harvesting is determined and the harvesting is planned. For lettuce, 
+growers get paid by lettuce head in the right weight class. 
+Finally, the effector function executes the planned weeding task. The 
+weeds are automatically removed, controlled by the actuators in the 
+weeding machine that apply machine instructions based on Digital Twin 
+of the weeds. Because of the high-precision weed density maps, fields 
+can be weeded partially, only where needed. Also the planned har­
+vesting activities are executed by harvesting machines but they do not 
+use customised machine instructions. 
+The control cycle partly takes place on-site within the weeding ma­
+chine. Camera data are directly processed into local Digital Twins that 
+distinguish crops and weeds. These Digital Twins are then instantly 
+translated to actuator instructions and the weeds are removed without 
+human involvement. However, all other control activities are done 
+remotely by farmers who interact with the Digital Twins via cloud-based
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+15
+
+systems. The next section elaborates on how this is technically 
+implemented.
+
+5.4. Application of the implementation model to the weeding data use case
+
+The technical implementation of the use case is visualized in Fig. 11. 
+The Device layer includes sensors (especially the camera’s) and ac­
+tuators that are embedded in the weeding machine, a weather station, 
+and GPS connected to the tractor terminal. The data are directly pro­
+cessed and stored on the terminals on the weeder and harvester ma­
+chine. The processed parameters such as GPS-coordinates, time stamp, 
+crop size, distance, and weed pressure, are logged and uploaded to cloud 
+databases after having weeded a field. 
+The Communication layer includes wired (CANBUS) interfaces and a 
+wireless local farm network (LAN) for connecting the weeding machine, 
+tractor and harvester and wireless network a for communication of 
+machines and sensors with cloud systems (UMTS: 3G). 
+The Digital Twin Management layer combines, stores, processes and 
+updates all data related to the Digital Twins of fields, weeds, growing 
+lettuce, lettuce to be harvested, and weeding machines. It provides ac­
+cess to these twins for the farmer and machine vendor applications. The 
+data storage and processing of the weeds and crops is done locally on the 
+weeding machine. This layer also includes services needed to determine 
+crop growth, to predict expected yield and to define optimal machine 
+settings. 
+The Application layer allows users to interact with Digital Twins. Via
+
+the weeder user terminal, farmers can monitor weeds and growing let­
+tuce in real-time and intervene if necessary (Fig. 12). Via cloud dash­
+boards, farmers can monitor weed pressure, crop growth and expected 
+yield on field level. For this purpose the use cases integrates with 
+existing solutions for geo information and farm management. Fig. 13 
+shows a crop growth example of the Akkerweb dashboard and Fig. 14 
+shows a weed pressure example in 365FarmNet. Furthermore, a ma­
+chine vendor’s dashboard can be used to configure and optimize ma­
+chine settings. This is of crucial importance among others to correctly 
+distinguish crops and weeds for different crop growth phases and light 
+circumstances. 
+The other layers comprise generic technical functions that are similar 
+to other use cases and that are already introduced previously (in Section 
+5.1).
+
+6. Discussion and conclusions
+
+6.1. Discussion
+
+Digital Twins can be seen as a new phase in smart farming. Using 
+Digital Twins as central means for farm management enables the 
+decoupling of physical flows from its planning and control. As a 
+consequence, farmers can manage operations remotely based on (near) 
+real-time digital information instead of having to rely on direct obser­
+vation and manual tasks on-site. This allows them to act immediately in 
+case of (expected) deviations and to simulate the effect of interventions
+
+Fig. 11. Digital Twin implementation model of the use case ‘Added Value Weeding Data’.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+16
+
+based on real-life data. 
+The main contribution of the paper is that it has proposed a con­
+ceptual framework for designing and implementing Digital Twins for 
+smart farming. The framework builds on an analysis of literature and a 
+clarification of the concept of Digital Twins, which is still developing. An 
+important novelty of the framework is that it adds a typology of Digital 
+Twins based on the life cycle phases of the objects being virtualised. 
+Depending on the perspective, the emphasis is currently often on 
+monitoring or predictive Digital Twins. However, Digital Twins can 
+already be created in the design phase of a life cycle and support the 
+creation of its physical, real-life sibling. During operational usage, 
+Digital Twins can not only be used to monitor and simulate the effects of 
+interventions, but also to remotely control an object by using actuators. 
+Finally, Digital Twins are also very valuable after disposal of a physical 
+object e.g. for traceability, compliance and learning. So far, these 
+distinct Digital Twin types are not explicitly addressed in the literature, 
+which results in conceptual confusion. This paper has contributed to 
+avoid this by introducing a typology and by defining the distinct control 
+capabilities of each type in a control model. 
+The case studies show that there are already applications in the 
+agricultural domain that are not framed as Digital Twins. This is not 
+surprising, since Digital Twins are building upon existing technologies 
+especially for precision farming, internet of things and simulation. 
+However, especially more advanced applications, including e.g. pre­
+dictive and prescriptive capabilities across the lifecycle, are still in an 
+early stage of development. The designed framework was useful to
+
+explicitly describe and analyze how Digital Twins are used in practice. 
+As such, it has provided a new perspective on the cases that originally 
+focused on the innovative application of Internet of Things technologies 
+to farming. It also showed the value of not yet applied Digital Twin 
+types, which inspired the use cases about potential redesign scenarios. 
+For this reason, we expect that applying the Digital Twin concept, as 
+described in our framework, can accelerate the development and 
+adoption of Digital Twin solutions for smart farming. However, future 
+research is needed to provide evidence for this hypothesis. 
+Furthermore, the implementation model of our framework only deals 
+with implementing the enabling information technology. We did not 
+take into account organisational and behavioural issues, such as the 
+impact on supply chain collaboration, data ownership and governance, 
+the potential emergence of disruptive business models based on Digital 
+Twins, ethical considerations, and so forth. We would like to encourage 
+researchers in these disciplines to also study Digital Twins, since these 
+non-technical issues might be decisive for the success of Digital Twins. 
+Our intended follow-up work is related to the further development of 
+the framework. In particular, we plan to elaborate the conceptual 
+framework into an information architecture framework, which will 
+comprise a consistent set of architectural viewpoints for modelling 
+Digital Twin-based software systems (Tekinerdogan and Verdouw, 
+2020). This architectural framework will be the basis for developing 
+Digital Twin applications that cover the entire life cycle.
+
+Fig. 12. Digital Twins of the growing lettuce and weeds as a presentation in the user terminal of the weeder application.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+17
+
+6.2. Conclusions
+
+This paper has analysed how Digital Twins can advance smart 
+farming. More specifically, it addressed the three objectives as 
+mentioned in the introduction as follows. 
+Firstly, the paper has defined a Digital Twin as “a dynamic repre­
+sentation of a real-life object that mirrors its states and behaviour across 
+its lifecycle and that can be used to monitor, analyze and simulate 
+current and future states of and interventions on these objects, using 
+data integration, artificial intelligence and machine learning.” Taking 
+into account the role in the life cycle, six distinct Digital Twins are 
+identified:
+
+1. Imaginary Digital Twins: conceptual entities that depict and simulate 
+reference objects that are not yet connected to objects that physically 
+exist in the real-world;  
+2. Monitoring Digital Twins: digital representations of the (near) real- 
+time state and behaviour of real-life physical objects, including its 
+trajectory;  
+3. Predictive Digital Twins: digital projections of the future state and 
+behaviour of physical objects using predictive analytics and based on 
+(near) real-time data of the physical twins;  
+4. Prescriptive Digital Twins: smart digital objects that add intelligence 
+for recommending corrective and preventive actions on the real-life 
+objects;
+
+5. Autonomous Digital Twins: operate autonomously and fully control 
+the behaviour of real-life objects without on-site or remote inter­
+vention by humans;  
+6. Recollection Digital Twins: maintain the complete history of physical 
+objects, which no longer exist in real-life.
+
+Secondly, the paper has proposed a conceptual framework for 
+designing and implementing Digital Twins in farm management. The 
+framework comprises a control model based on a general systems 
+approach and an implementation model for Digital Twin systems based 
+on the Internet of Things—Architecture (IoT-A), a reference architecture 
+for IoT systems. The control model defines the control functions and 
+information flows among these functions for control systems based on 
+Digital Twins. The implementation model classifies technical function­
+alities, from device layer until to application layer, needed to implement 
+Digital Twin based systems. 
+Finally, the framework is applied to and validated in five smart 
+farming use cases of the European IoF2020 project, focussing on arable 
+farming, dairy farming, greenhouse horticulture, organic vegetable 
+farming and livestock farming. The case-specific control models have 
+provided concrete insights in how Digital Twins could enhanced the 
+smart farming systems of the use cases. Similarly, the case-specific 
+implementation models have been useful to identity improvements of 
+the technical architecture.
+
+Fig. 13. Crop growth view on Field Digital Twin in Akkerweb a.k.a. FarmMaps.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+18
+
+Declaration of Competing Interest
+
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+
+Acknowledgements
+
+This work was supported by the European Union’s Horizon 2020 
+research and innovation programme under grant agreement no. 731884. 
+The authors greatly acknowledge the valuable contributions from col­
+leagues of the IoF2020 consortium.
+
+References
+
+Lockeretz, W., 2007. Organic Farming: An International History. CAB International, 
+Wallingford/ Cambridge, p. 281. 
+AIOTI, 2018. High Level Architecture (HLA) Release 4.0. Alliance for Internet of Things 
+Innovation. AIOTI WG03 – loT Standardisation. 
+Alam, K.M., Saddik, A.E., 2017. C2PS: a Digital Twin architecture reference model for the 
+cloud-based cyber-physical systems, 5. IEEE Access, pp. 2050–2062. 
+Alves, R.G., Souza, G., Maia, R.F., Tran, A.L.H., Kamienski, C., Soininen, J.-P., Aquino- 
+Jr, P.T., Lima, F., 2019. A Digital Twin for Smart Farming. IEEE Global Humanitarian 
+Technology Conference Seattle - USA. 
+Atzori, L., Iera, A., Morabito, G., 2010. The internet of things: a survey. Comput. Netw. 
+54 (15), 2787–2805. 
+Balafoutis, A.T., et al., 2017. Smart farming technologies – Description, taxonomy and 
+economic impact. In: Lind, K. (Ed.), Pedersen S. Technology and Economic 
+Perspectives. Progress in Precision Agriculture. Springer, Cham, Precision 
+Agriculture.  
+Bauer, M., Bui, N., De Loof, J., Magerkurth, C., Nettstr¨ater, A., Stefa, J., Walewski, J.W., 
+2013. IoT reference model. In: Bassi, A., Bauer, M., Fiedler, M., Kramp, T., van 
+Kranenburg, R., Lange, S., Meissner, S. (Eds.), Enabling Things to Talk: Designing IoT 
+Solutions with the IoT Architectural Reference Model. Springer Berlin Heidelberg, 
+Berlin, Heidelberg, pp. 113–162. 
+Benbasat, I., Goldstein, D.K., Mead, M., 1987. The case research Stratey in studies of 
+information systems. MIS Q. 11 (3), 369–385.
+
+Boschert, S., Rosen, R., 2016. Digital twin—The simulation aspect. In: Hehenberger, P., 
+Bradley, D. (Eds.), Mechatronic Futures: Challenges and Solutions for Mechatronic 
+Systems and their Designers. Springer International Publishing, Cham, pp. 59–74. 
+Canedo, A., 2016. Industrial iot lifecycle via Digital Twins, Proceedings of the 11th IEEE/ 
+ACM/IFIP International Conference on Hardware/Software Codesign and System 
+Synthesis, CODES 2016. 
+Carrez, F., Bauer, M., Boussard, M., Bui, N., Carrez, F., Jardak, C., Loof, J.D., 
+Magerkurth, C., Meissner, S., Nettstr¨ater, A., Olivereau, A., Thoma, M., Walewski, J. 
+W., Stefa, J., (UniWue), A.S, 2013. Internet of Things – Architecture IoT-A, 
+Deliverable D1.5 – Final architectural reference model for the IoT v3.0. European 
+Commission. 
+Clements, P., Bachmann, F., Bass, L., Garlan, D., Ivers, J., Little, R., Merson, P., Nord, R., 
+Stafford, J., 2010. Documenting Software Architectures: Views and Beyond, second 
+ed. Addison-Wesley. 
+Dur˜ao, L.F.C.S., Haag, S., Anderl, R., Schützer, K., Zancul, E., 2018. Digital twin 
+requirements in the context of industry 4.0. In: Chiabert, P., Bouras, A., No¨el, F., 
+Ríos, J. (Eds.), Product Lifecycle Management to Support Industry 4.0. Springer 
+International Publishing, Cham, pp. 204–214. 
+Eisenhardt, K.M., 1989. Building theories from case-study research. Acad. Manag. Rev. 
+14 (4), 532–550. 
+Fountas, S., Sørensen, C.G., Vatsanidou, A., Liakos, V., Tsiropoulos, Z., Cavalaris, C., 
+Canavari, M., Gemtos, T., Blackmore, S., 2013. Farm management information 
+systems: current situation and future perspectives. Comput. Electron. Agric. 115, 
+40–50. 
+Fuller, A., Fan, Z., Day, C., Barlow, C., 2020. Digital twin: enabling technologies, 
+challenges and open research. IEEE Access 8, 108952–108971. 
+Glaessgen, E., Stargel, D., 2012. The Digital Twin Paradigm for Future NASA and U.S. Air 
+Force Vehicles. In: 53rd AIAA/ASME/ASCE/AHS/ASC Structures, Structural 
+Dynamics and Materials Conference. American Institute of Aeronautics and 
+Astronautics. 
+Grieves, M.W., 2005. Product lifecycle management: the new paradigm for enterprises. 
+Int. J. Prod. Dev. 2 (1–2), 71–84. 
+Grieves, M., Vickers, J., 2016. Digital twin: Mitigating unpredictable, undesirable 
+emergent behaviour in complex systems. In: Kahlen, F.J., Flumerfelt, S., Alves, A. 
+(Eds.), Transdisciplinary Perspectives on Complex Systems: New Findings and 
+Approaches. Springer, pp. 85–113. 
+Grieves, M., Vickers, J., 2017. Digital twin: Mitigating unpredictable, undesirable 
+emergent behaviour in complex systems. In: Kahlen, F.-J., Flumerfelt, S., Alves, A. 
+(Eds.), Transdisciplinary Perspectives on Complex Systems. Springer International 
+Publishing.
+
+Fig. 14. Weed pressure view on Field Digital Twin in 365Farmnet.
+
+C. Verdouw et al.
+
+Agricultural Systems 189 (2021) 103046
+
+19
+
+Gubbi, J., Buyya, R., Marusic, S., Palaniswami, M., 2013. Internet of things (IoT): a 
+vision, architectural elements, and future directions. Futur. Gener. Comput. Syst. 29 
+(7), 1645–1660. 
+Hagerty, J., 2016. 2017. Planning Guide for Data and Analytics. Gartner. 
+Hevner, A.R., March, S.T., Park, J., Ram, S., 2004. Design science in information systems 
+research. MIS Q. 28 (1), 75–105. 
+ITU-T, 2016. Recommendation ITU-T Y. Overview of the Internet of Things. 
+Telecommunication Standardization sector of ITU, IoT Reference Model, p. 2060. 
+Janssen, S.J.C., et al., 2017. Towards a new generation of agricultural system data, 
+models and knowledge products: information and communication technology. Agric. 
+Syst. 155, 200–212. 
+Jo, S.K., Park, D.H., Park, H., Kim, S.H., 2018. Smart livestock farms using Digital Twin: 
+feasibility study. In: 2018 International Conference on Information and 
+Communication Technology Convergence (ICTC), pp. 1461–1463. https://doi.org/ 
+10.1109/ICTC.2018.8539516. 
+Jones, D., Snider, C., Nassehi, A., Yon, J., Hicks, B., 2020. Characterising the Digital 
+Twin: a systematic literature review. CIRP J. Manuf. Sci. Technol. 29 (A), 36–52. 
+Kamilaris, A., Prenafeta-Boldú, F.X., 2018. Deep learning in agriculture: a survey. 
+Comput. Electron. Agric. 147, 70–90. 
+Kampker, A., Stich, V., Jussen, P., Moser, B., Kuntz, J., 2019. Business models for 
+industrial smart services - the example of a Digital Twin for a product-service-system 
+for potato harvesting. 11th CIRP conference on industrial product-service systems. 
+Procedia CIRP 82, 534–540. 
+Knibbe, W.J., Ridder, D.D., Ritzer, S., 2019. Kick-off Digital Twins: Let’s find answers 
+together accessed.  
+Kovacs, Z., Le Goff, J.M., McClatchey, R., 1998. Support for product data from design to 
+production. Comput. Integr. Manuf. Syst. 11 (4), 285–290. 
+Kritzinger, W., Karner, M., Traar, G., Henjes, J., Sihn, W., 2018. Digital twin in 
+manufacturing: a categorical literature review and classification. IFAC-PapersOnLine 
+51 (11), 1016–1022. 
+de Leeuw, A.C.J., 1997. Organisaties: Management, analyse, ontwerp en verandering; 
+een systeemvisie. Van Gorcum, Assen.  
+Lepenioti, K., Bousdekis, A., Apostolou, D., Mentzas, G., 2020. Prescriptive analytics: 
+literature review and research challenges. Int. J. Inf. Manag. 50, 57–70. 
+Linz, A., Hertzberg, J., Roters, J., Ruckelshausen, A., 2019. Digitale Zwillinge als 
+Werkzeug für die Entwicklung von Feldrobotern in landwirtschaftlichen Prozessen. 
+In: Al, M.A.E. (Ed.), Digitalisierung in kleinstrukturierten Regionen. Gesellschaft für 
+Informatik, Bonn, pp. 125–130. 
+Maaß, W., Pier, M., Moser, B., 2018. In: Al, K.M.E. (Ed.), Smart Services in der 
+Landwirtschaft. Service Engineering. Springer, pp. 167–181. 
+March, S.T., Storey, V.C., 2008. Design science in the information systems discipline: an 
+introduction to the special issue on design science research. MIS Q. 32 (4), 725–730. 
+Marr, B., 2017. What is Digital Twin technology - and why is it so important? Forbes. htt 
+ps://www.forbes.com/sites/bernardmarr/2017/03/06/what-is-digital-twin-techn 
+ology-and-why-is-it-so-important/. 
+Mike Shafto, C., Conroy, M., Doyle, R., Glaessgen, E., Kemp, C., LeMoigne, J., Wang, L., 
+2012. Modeling, Simulation, Information Technology & Processing Roadmap 
+Technology Area 11. NASA, Washington, DC, p. 33. 
+Mikell, M., Clark, J., 2018. Cheat sheet: What is Digital Twin?, https://www.ibm.com/ 
+blogs/internet-of-things/iot-cheat-sheet-digital-twin/. 
+Monteiro, J., Barata, J., Veloso, M., Veloso, L., Nunes, J., 2018. Towards sustainable 
+Digital Twins for vertical farming. 2018 Thirteenth International Conference on 
+Digital Information Management (ICDIM), Berlin, Germany 234–239. 
+Park, K.T., Nam, Y.W., Lee, H.S., Im, S.J., Noh, S.D., Son, J.Y., Kim, H., 2019. Design and 
+implementation of a Digital Twin application for a connected micro smart factory. 
+Int. J. Comput. Integr. Manuf. 32 (6), 596–614. 
+Philpotts, M., 1996. An introduction to the concepts, benefits and terminology of product 
+data management. Industrial Management &amp; Data Systems 96 (4), 11–17. 
+Porter, M.E., Heppelmann, J.E., 2014. How Smart Connected Objects Are Transforming 
+Competition. Harvard Business Review, November, pp. 65–88. 
+Redelinghuys, A., Basson, A., Kruger, K., 2019. A six-layer Digital Twin architecture for a 
+manufacturing cell. In: Borangiu, T., Trentesaux, D., Thomas, A., Cavalieri, S. (Eds.), 
+Service Orientation in Holonic and Multi-Agent Manufacturing. Springer 
+International Publishing, Cham, pp. 412–423. 
+Runeson, P., H¨ost, M., 2008. Guidelines for conducting and reporting case study research 
+in software engineering. Empir. Softw. Eng. 14 (2), 131.
+
+Saddik, A.E., 2018. Digital twins: the convergence of Multimedia technologies. IEEE 
+MultiMedia 25 (2), 87–92. 
+Schleich, B., Anwer, N., Mathieu, L., Wartzack, S., 2017. Shaping the Digital Twin for 
+design and production engineering. CIRP Ann. 66 (1), 141–144. 
+Shaw, K., Fruhlinger, J., 2019. What Is a Digital Twin and why it’s Important to IoT. 
+Network World. https://www.networkworld.com/article/3280225/what-is-digit 
+al-twin-technology-and-why-it-matters.html. 
+Skobelev, P., Laryukhin, V., Simonova, E., Goryanin, O., Yalovenko, V., Yalovenko, O., 
+2020. Developing a smart cyber-physical system based on Digital Twins of plants. In: 
+Fourth World Conference on Smart Trends in Systems, 2020. Security and 
+Sustainability (WorldS4), London, United Kingdom, pp. 522–527. 
+Sørensen, C.G., Fountas, S., Nash, E., Pesonen, L., Bochtis, D., Pedersen, S.M., Basso, B., 
+Blackmore, S.B., 2010. Conceptual model of a future farm management information 
+system. Comput. Electron. Agric. 72 (1), 37–47. 
+Sreedevi, T.R., Santosh Kumar, M.B., 2020. Digital twin in smart farming: a categorical 
+literature review and exploring possibilities in hydroponics. Advanced Computing 
+and Communication Technologies for High Performance Applications (ACCTHPA), 
+Cochin, India 2020, 120–124. 
+Sudarsan, R., Fenves, S.J., Sriram, R.D., Wang, F., 2005. A product information modeling 
+framework for product lifecycle management. Comput. Aided Des. 37 (13), 
+1399–1411. 
+Sundmaeker, H., Guillemin, P., Friess, P., Woelffl´e, S., 2010. Vision and Challenges for 
+Realising the Internet of Things. European Union, Brussels.  
+Int Veld, J., 2002. Analyse van organisatieproblemen. 8th edition ed. In: Stenfert Kroese. 
+Tao, F., Cheng, J., Qi, Q., Zhang, M., Zhang, H., Sui, F., 2018. Digital twin-driven product 
+design, manufacturing and service with big data. Int. J. Adv. Manuf. Technol. 94 (9), 
+3563–3576. 
+Tekinerdogan, B., Verdouw, C., 2020. Systems architecture design pattern Catalog for 
+developing Digital Twins. Sensors 20, 5103. https://doi.org/10.3390/s20185103. 
+Trienekens, J.H., van der Vorst, J.G.A.J., Verdouw, C.N., 2014. Global food supply 
+chains. In: van Alfen, N.K. (Ed.), Encyclopedia of Agriculture and Food Systems, 2nd 
+edition. Academic Press, pp. 499–517. 
+Tzounis, A., Katsoulas, N., Bartzanas, T., Kittas, C., 2017. Internet of things in 
+agriculture, recent advances and future challenges. Biosyst. Eng. 164, 31–48. 
+Uckelmann, D., Harrison, M., Michahelles, F., 2011. An architectural approach towards 
+the future internet of things. In: Uckelmann, D., Harrison, M., Michahelles, F. (Eds.), 
+Architecting the Internet of Things. Springer-Verlag, Berlin Heidelberg, pp. 1–24. 
+Van Aken, J.E., 2004. Management research based on the paradigm of the design 
+sciences: the quest for field-tested and grounded technological rules. J. Manag. Stud. 
+41 (2), 219–246. 
+Verdouw, C.N., Kruize, J.W., 2017. Digital Twins in Farm Management : Illustrations 
+from the FIWARE Accelerators SmartAgriFood and Fractals. PA17 - the International 
+tri-Conference for Precision Agriculture in 2017 Hamilton. 
+Verdouw, C.N., Beulens, A.J.M., van der Vorst, J.G.A.J., 2013. Virtualisation of 
+floricultural supply chains: a review from an internet of things perspective. Comput. 
+Electron. Agric. 99 (1), 160–175. 
+Verdouw, C.N., Beulens, A.J.M., Reijers, H.A., Vorst, J.G.A.J.v.d., 2015. A control model 
+for object virtualization in supply chain management. Comput. Ind. 68, 116–131. 
+Verdouw, C., Wolfert, S., Tekinerdogan, B., 2016a. Internet of things in agriculture. CAB 
+Reviews 11 (35), 1–12. 
+Verdouw, C.N., Wolfert, J., Beulens, A.J.M., Rialland, A., 2016b. Virtualization of food 
+supply chains with the internet of things. J. Food Eng. 176, 128–136. 
+Verdouw, C.N., Wolfert, J., Beers, G., Sundmaeker, Harald, Chatzikostas, Grigoris, 2017. 
+Fostering business and software ecosystems for large-scale uptake of IoT in food and 
+farming, PA17 - the international tri-conference for precision agriculture in 2017. 
+Hamilton 1–7. 
+Verdouw, C., Sundmaeker, H., Tekinerdogan, B., Conzon, D., Montanaro, T., 2019. 
+Architecture framework of IoT-based food and farm systems: a multiple case study. 
+Comput. Electron. Agric. 165, 104939. 
+Wolfert, S., Ge, L., Verdouw, C., Bogaardt, M.-J., 2017. Big data in smart farming – a 
+review. Agric. Syst. 153, 69–80. 
+Yin, R.K., 2002. Case Study Research: Design and Methods. Sage Publications, Inc, 
+Newbury Park, Third Edition ed.  
+Zhai, Z., Martínez, J.F., Beltran, V., Martínez, N.L., 2020. Decision support systems for 
+agriculture 4.0: survey and challenges. Comput. Electron. Agric. 170, 105256.
+
+C. Verdouw et al.

@@ -1,0 +1,402 @@
+{
+  "schema": "paper.sources.acquisition.v1",
+  "records": [
+    {
+      "id": "liang-2022",
+      "title": "Identifying exemplary sustainable cropping systems using a positive deviance approach: Wheat-maize double cropping in the North China Plain",
+      "citation": "Liang, Z., et al. (2022). Agricultural Systems, 201, 103471.",
+      "sourceURL": "https://doi.org/10.1016/j.agsy.2022.103471",
+      "checkedAt": "2026-09-27T22:25:31Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/identifying-exemplary-sustainable-cropping-systems-using-a-positi/",
+      "downloadURL": "https://edepot.wur.nl/575567",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence": "Agricultural Systems 201 (2022) 103471 Available online 30 July 2022 0308-521X/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Identifying exemplary sustainable cropping systems using a positive deviance approach: Wheat-maize double cropping in the North China Plain Zhengyuan Liang a,b,c,*, Wopke van der Werf c, Zhan Xu b,c, Jiali Cheng a,b,c, Chong Wang b, Wen-Feng Cong b,**, Chaochun Zhang b, Fusuo Zhang b, Jeroen C.J",
+        "pageScope": "first/last pages of acquired article"
+      },
+      "pages": 15,
+      "sha256": "bfbde3ef50d61598c5aa73a5ff6d02141f1d7473ae446b0f73f88e6bbef0ef47",
+      "bytes": 4737361,
+      "textCharacters": 83557
+    },
+    {
+      "id": "liang-2023",
+      "title": "Designing diversified crop rotations to advance sustainability: A method and an application",
+      "citation": "Liang, Z., et al. (2023). Sustainable Production and Consumption, 40, 532–544.",
+      "sourceURL": "https://doi.org/10.1016/j.spc.2023.07.018",
+      "checkedAt": "2026-09-27T22:25:31Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/designing-diversified-crop-rotations-to-advance-sustainability-a-/",
+      "downloadURL": "https://edepot.wur.nl/636239",
+      "license": {
+        "name": "CC BY-NC-ND 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence": "Sustainable Production and Consumption 40 (2023) 532–544 Available online 17 July 2023 2352-5509/© 2023 The Authors. Published by Elsevier Ltd on behalf of Institution of Chemical Engineers. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/). Designing diversified crop rotations to advance sustainability: A method and an application Zhengyuan Liang a,b,c,*, Zhan Xu b,c, Jiali Cheng a,b,c, Bowen Ma a,b, Wen-Feng Cong b,**, Chaochun Zhang b, Fusuo Zhang b, Wopke van der Werf c, Jeroen C.J. Groot a a Farming Systems Ecology, Wageningen ",
+        "pageScope": "first/last pages of acquired article"
+      },
+      "pages": 13,
+      "sha256": "9fa29543ce29ae322554168dc64965aedf34826024d1e8e8a497b3dff6d3a043",
+      "bytes": 7509718,
+      "textCharacters": 86381
+    },
+    {
+      "id": "farmsteps-2026",
+      "title": "FarmSTEPS, a model for spatial-temporal exploration of diversified and sustainable crop sequence plans for crop farms",
+      "citation": "Liang, Z., et al. (2026). Agronomy for Sustainable Development, 46, 23.",
+      "sourceURL": "https://doi.org/10.1007/s13593-026-01097-8",
+      "checkedAt": "2026-09-27T22:25:31Z",
+      "status": "rights-review",
+      "attempts": [
+        {
+          "url": "https://edepot.wur.nl/713946",
+          "error": "license-not-confirmed"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf",
+          "error": "license-not-confirmed"
+        }
+      ],
+      "metadataURL": "https://research.wur.nl/en/publications/farmsteps-a-model-for-spatial-temporal-exploration-of-diversified/",
+      "candidateURL": "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf",
+      "pages": 20,
+      "reason": "No explicit article-wide CC redistribution license found; file not stored."
+    },
+    {
+      "id": "cheng-2023",
+      "title": "Farmers perceive diminishing ecosystem services, but overlook dis-services in intensively used agricultural landscapes in the North China Plain",
+      "citation": "Cheng, J., et al. (2023). Journal of Environmental Management, 347, 119060.",
+      "sourceURL": "https://doi.org/10.1016/j.jenvman.2023.119060",
+      "checkedAt": "2026-09-27T22:25:31Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/farmers-perceive-diminishing-ecosystem-services-but-overlook-dis-/",
+      "downloadURL": "https://edepot.wur.nl/640654",
+      "license": {
+        "name": "CC BY-NC-ND 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by- nc-nd/4.0/). Research article Farmers perceive diminishing ecosystem services, but overlook dis-services in intensively used agricultural landscapes in the North China Plain Jiali Cheng a,b,c,*, Zhan Xu b,c, Zhengyuan Liang a,b,c, Fan Li e,f, Wen-Feng Cong b,**, Chaochun Zhang b, Lei Song g, Chong Wang b, Fusuo Zhang b, Andries Richter d, Wopke van der Werf c, Jeroen C.J. Groot a a Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands b State Key Laboratory of Nutrient Use and Management, College of Resources and ",
+        "page": 1
+      },
+      "pages": 14,
+      "sha256": "7b8cf2416ee8d64979e58d9fe0cf569d5415d640a87f280ab1c28965c67cc305",
+      "bytes": 10458771,
+      "textCharacters": 75054
+    },
+    {
+      "id": "cheng-2025",
+      "title": "Stakeholder perspectives on ecosystem services in agricultural landscapes: A case study in the North China Plain",
+      "citation": "Cheng, J., et al. (2025). Agricultural Systems, 223, 104187. Online 29 November 2024.",
+      "sourceURL": "https://doi.org/10.1016/j.agsy.2024.104187",
+      "checkedAt": "2026-09-27T22:25:45Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/stakeholder-perspectives-on-ecosystem-services-in-agricultural-la/",
+      "downloadURL": "https://edepot.wur.nl/680477",
+      "license": {
+        "name": "CC BY-NC-ND 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence": "This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by- nc-nd/4.0/ ). ",
+        "page": 1
+      },
+      "pages": 14,
+      "sha256": "f21e6a1550fef48f92aee382657a1ac00931c1df1e87e46bfdf40457e56a7162",
+      "bytes": 4407489,
+      "textCharacters": 86492
+    },
+    {
+      "id": "xu-2024",
+      "title": "Comparing the sustainability of smallholder and business farms in the North China Plain; a case study in Quzhou",
+      "citation": "Xu, Z., et al. (2024). Agricultural Systems, 216, 103896.",
+      "sourceURL": "https://doi.org/10.1016/j.agsy.2024.103896",
+      "checkedAt": "2026-09-27T22:25:50Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/comparing-the-sustainability-of-smallholder-and-business-farms-in/",
+      "downloadURL": "https://edepot.wur.nl/651956",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence": "Agricultural Systems 216 (2024) 103896 Available online 22 February 2024 0308-521X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Comparing the sustainability of smallholder and business farms in the North China Plain; a case study in Quzhou Zhan Xu a,b,c,*, Zhengyuan Liang a,b,c, Jiali Cheng a,b,c, Jeroen C.J. Groot b, Chaochun Zhang c,*, Wen-Feng Cong c, Fusuo Zhang c, Wopke van der Werf a a Centre for Crop Systems Analy",
+        "pageScope": "first/last pages of acquired article"
+      },
+      "pages": 14,
+      "sha256": "5c1568888f1c72eb2e61e30e8a4b1f9c2582c4f11c4ccae064b34a1bb333be4e",
+      "bytes": 6281973,
+      "textCharacters": 71237
+    },
+    {
+      "id": "xu-data-2024",
+      "title": "Survey data on livelihoods and inputs and outputs of crop production in Quzhou county on the North China Plain",
+      "citation": "Xu, Z., et al. (2024). Data in Brief. Dataset DOI: 10.17632/jp3v9859cx.1.",
+      "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10964062/",
+      "checkedAt": "2026-09-27T22:25:52Z",
+      "status": "licensed",
+      "attempts": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10964062/pdf/main.pdf",
+          "error": "Not a PDF response"
+        },
+        {
+          "url": "https://europepmc.org/articles/PMC10964062?pdf=render",
+          "error": "403 Client Error: Forbidden for url: https://europepmc.org/articles/PMC10964062?pdf=render"
+        }
+      ],
+      "metadataURL": "https://research.wur.nl/en/publications/survey-data-on-livelihoods-and-inputs-and-outputs-of-crop-product/",
+      "downloadURL": "https://edepot.wur.nl/652815",
+      "license": {
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "evidence": "es belonging to seven vil- lage types (ﬁve for each type) were selected for stratiﬁed random sampling to collect information on farm character- istics and cropping practices. We surveyed these 35 villages, interviewing ﬁfteen farmer households per village (525 in to- ∗Corresponding author. E-mail address: zhan.xu@wur.nl (Z. Xu) . https://doi.org/10.1016/j.dib.2024.110269 2352-3409/© 2024 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by-nc/4.0/ ) 2 Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269 tal) in 2020. The interviewees represented two farm man- agement models: smallholder farms and business farms. The resulting household dataset provides farm-level data, includ- ing demograph",
+        "pageScope": "first/last pages of acquired article"
+      },
+      "pages": 16,
+      "sha256": "962a50daab8d15b0976a0e5119b44f1059cb99848774a30d6e973385a0bc8504",
+      "bytes": 2584841,
+      "textCharacters": 40618
+    },
+    {
+      "id": "farmdesign-2012",
+      "title": "Multi-objective optimization and design of farming systems",
+      "citation": "Groot, J. C. J., Oomen, G. J. M., & Rossing, W. A. H. (2012). Agricultural Systems, 110, 63–77.",
+      "sourceURL": "https://doi.org/10.1016/j.agsy.2012.03.012",
+      "checkedAt": "2026-09-27T22:25:55Z",
+      "status": "unavailable",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/multi-objective-optimization-and-design-of-farming-systems/",
+      "metadataTitle": "Multi-objective optimization and design of farming systems"
+    },
+    {
+      "id": "landscape-2018",
+      "title": "Exploring ecosystem services trade-offs in agricultural landscapes with a multi-objective programming approach",
+      "citation": "Groot, J. C. J., Yalew, S. G., & Rossing, W. A. H. (2018). Landscape and Urban Planning, 172, 29–36.",
+      "sourceURL": "https://doi.org/10.1016/j.landurbplan.2017.12.008",
+      "checkedAt": "2026-09-27T22:25:56Z",
+      "status": "rights-review",
+      "attempts": [
+        {
+          "url": "https://edepot.wur.nl/445630",
+          "error": "license-not-confirmed"
+        }
+      ],
+      "metadataURL": "https://research.wur.nl/en/publications/exploring-ecosystem-services-trade-offs-in-agricultural-landscape/",
+      "candidateURL": "https://edepot.wur.nl/445630",
+      "pages": 20,
+      "reason": "No explicit article-wide CC redistribution license found; file not stored."
+    },
+    {
+      "id": "landscape-2007",
+      "title": "Exploring multi-scale trade-offs between nature conservation, agricultural profits and landscape quality—A methodology to support discussions on land-use perspectives",
+      "citation": "Groot, J. C. J., et al. (2007). Agriculture, Ecosystems & Environment, 120, 58–69.",
+      "sourceURL": "https://doi.org/10.1016/j.agee.2006.03.037",
+      "checkedAt": "2026-09-27T22:25:57Z",
+      "status": "unavailable",
+      "attempts": [],
+      "metadataTitle": "Exploring multi-scale trade-offs between nature conservation, agricultural profits and landscape quality—A methodology to support discussions on land-use perspectives"
+    },
+    {
+      "id": "novotny-2024",
+      "title": "Exploring nutrient-sensitive landscape configurations for rural communities in southern Mexico",
+      "citation": "Novotny, I. P., et al. (2024). Landscape and Urban Planning, 246, 105041.",
+      "sourceURL": "https://doi.org/10.1016/j.landurbplan.2024.105041",
+      "checkedAt": "2026-09-27T22:25:57Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/exploring-nutrient-sensitive-landscape-configurations-for-rural-c/",
+      "downloadURL": "https://edepot.wur.nl/651948",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence": "Landscape and Urban Planning 246 (2024) 105041 Available online 22 February 2024 0169-2046/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Exploring nutrient-sensitive landscape configurations for rural communities in southern Mexico Ivan P. Novotny a,b,c,*, Walter A.H. Rossing b, Pablo Tittonell d,e,f, Mariela Fuentes-Ponce c, Jeroen C.J. Groot b a Ecosystems Management, Department of Environmental Systems Science, Institute of Te",
+        "pageScope": "first/last pages of acquired article"
+      },
+      "pages": 18,
+      "sha256": "3549e6d02b39f329c80d4d2caeb76b584eda198ac413f810fd214cf59b4a0c4b",
+      "bytes": 10551440,
+      "textCharacters": 83113
+    },
+    {
+      "id": "ditzler-2019",
+      "title": "A model to examine farm household trade-offs and synergies with an application to smallholders in Vietnam",
+      "citation": "Ditzler, L., et al. (2019). Agricultural Systems, 173, 49–63.",
+      "sourceURL": "https://doi.org/10.1016/j.agsy.2019.02.008",
+      "checkedAt": "2026-09-27T22:26:00Z",
+      "status": "unavailable",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/a-model-to-examine-farm-household-trade-offs-and-synergies-with-a/",
+      "metadataTitle": "A model to examine farm household trade-offs and synergies with an application to smallholders in Vietnam"
+    },
+    {
+      "id": "qu-2025",
+      "title": "Improved manure management moves trade-off and synergy relationships among environmental indicators in desirable directions",
+      "citation": "Qu, Q., Groot, J. C. J., & Zhang, K. (2025). Agricultural Systems, 222, 104170.",
+      "sourceURL": "https://doi.org/10.1016/j.agsy.2024.104170",
+      "checkedAt": "2026-09-27T22:26:01Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/improved-manure-management-moves-trade-off-and-synergy-relationsh/",
+      "downloadURL": "https://edepot.wur.nl/677886",
+      "license": {
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "evidence": "This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by- nc/4.0/ ). ",
+        "page": 1
+      },
+      "pages": 11,
+      "sha256": "7e69eb40dc235c56e72cddc615d123cb8b8679999727d499127a08b0cb2b2769",
+      "bytes": 6138489,
+      "textCharacters": 65315
+    },
+    {
+      "id": "breure-2024",
+      "title": "A systematic review of the methodology of trade-off analysis in agriculture",
+      "citation": "Breure, T. S., et al. (2024). Nature Food, 5, 211–220.",
+      "sourceURL": "https://doi.org/10.1038/s43016-024-00926-x",
+      "checkedAt": "2026-09-27T22:26:02Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/a-systematic-review-of-the-methodology-of-trade-off-analysis-in-a/",
+      "downloadURL": "https://edepot.wur.nl/652132",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence": "This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted ",
+        "page": 10
+      },
+      "pages": 14,
+      "sha256": "766abe34a78ec2fc630ba474fb035879c398600884bd5676bca435b05aed9bc4",
+      "bytes": 1841264,
+      "textCharacters": 67572
+    },
+    {
+      "id": "toorop-2023",
+      "title": "Analyzing antifragility among smallholder farmers in Bihar, India: An assessment of farmers’ vulnerability and the strengths of positive deviants",
+      "citation": "Adelhart Toorop, R., et al. (2023). Experimental Agriculture, 59, e4.",
+      "sourceURL": "https://doi.org/10.1017/S0014479723000017",
+      "checkedAt": "2026-09-27T22:26:03Z",
+      "status": "licensed",
+      "attempts": [
+        {
+          "url": "https://research.wur.nl/en/publications/analyzing-antifragility-among-smallholder-farmers-in-bihar-india-a/",
+          "error": "404 Client Error: Not Found for url: https://research.wur.nl/en/publications/analyzing-antifragility-among-smallholder-farmers-in-bihar-indi"
+        }
+      ],
+      "metadataTitle": "Analyzing antifragility among smallholder farmers in Bihar, India: An assessment of farmers’ vulnerability and the strengths of positive deviants",
+      "downloadURL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/66B2E61F9C8263919091FEE52C1B877C/S0014479723000017a.pdf/div-class-title-analyzing-antifragility-among-smallholder-farmers-in-bihar-india-an-assessment-of-farmers-vulnerability-and-the-strengths-of-positive-deviants-div.pdf",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence": " this way, connected systems can be developed which are socioeconomically and bio- physically adaptive. When practices, knowledge, and skills are continuously developed, an antifragile sys- tem with ample stocks and optionality may evolve over time. Keywords: Autonomy; Adaptive capacity; Smallholder farmers; Policy; Bihar © The Author(s), 2023. Published by Cambridge University Press. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution and reproduction, provided the original article is properly cited. Experimental Agriculture (2023), vol. 59, e4, 1–17 doi:10.1017/S0014479723000017 https://www.cambridge.org/core/terms. https://doi.org/10.1017/S00",
+        "pageScope": "first/last pages of acquired article"
+      },
+      "pages": 17,
+      "sha256": "e4c7cc912b38aaa08b5a262a7592dfd917ae3bd5ca24dc1981928beaef131c36",
+      "bytes": 781676,
+      "textCharacters": 64719
+    },
+    {
+      "id": "mixed-2026",
+      "title": "Systems-oriented Innovation towards Sustainable Smallholder Mixed Farming",
+      "citation": "Martínez-Ramón, V., et al. (2026). Perspective. DOI: 10.1038/s44264-025-00114-9.",
+      "sourceURL": "https://doi.org/10.1038/s44264-025-00114-9",
+      "checkedAt": "2026-09-27T22:26:07Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataTitle": "Systems-oriented Innovation towards Sustainable Smallholder Mixed Farming",
+      "downloadURL": "https://www.nature.com/articles/s44264-025-00114-9.pdf",
+      "license": {
+        "name": "CC BY-NC-ND 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence": "This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modiﬁed the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the mat",
+        "page": 9
+      },
+      "pages": 9,
+      "sha256": "1847ca3bcdced1f671eb5a4c41472b2510921d3aa63d7980e5d9de505c4dc346",
+      "bytes": 986188,
+      "textCharacters": 54095
+    },
+    {
+      "id": "verdouw-2021",
+      "title": "Digital twins in smart farming",
+      "citation": "Verdouw, C., et al. (2021). Agricultural Systems, 189, 103046.",
+      "sourceURL": "https://doi.org/10.1016/j.agsy.2020.103046",
+      "checkedAt": "2026-09-27T22:26:07Z",
+      "status": "licensed",
+      "attempts": [],
+      "metadataURL": "https://research.wur.nl/en/publications/digital-twins-in-smart-farming/",
+      "downloadURL": "https://edepot.wur.nl/541204",
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence": "Agricultural Systems 189 (2021) 103046 Available online 28 January 2021 0308-521X/© 2020 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Digital twins in smart farming Cor Verdouw a,b,*, Bedir Tekinerdogan a, Adrie Beulens a, Sjaak Wolfert a,c a Information Technology Group, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands b Mprise, P.O. Box 598, 3900, AN, Veenendaal, the Netherlands c Wageni",
+        "pageScope": "first/last pages of acquired article"
+      },
+      "pages": 19,
+      "sha256": "6cd910d4ac59ed97e78b6df405d14a08a7265c69e08575f5ab37f013d1f45ca9",
+      "bytes": 9532472,
+      "textCharacters": 100876
+    },
+    {
+      "id": "liang-thesis",
+      "title": "Exploring sustainable and diversified crop production systems for the North China Plain",
+      "citation": "Liang, Z. (2024). PhD thesis, Wageningen University. Awarded 18 December 2024.",
+      "sourceURL": "https://doi.org/10.18174/677384",
+      "checkedAt": "2026-09-27T22:26:11Z",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://edepot.wur.nl/677384",
+          "error": "400 Client Error: Bad Request for url: https://library.wur.nl/WebQuery/edepot/677384"
+        }
+      ],
+      "metadataURL": "https://research.wur.nl/en/publications/exploring-sustainable-and-diversified-crop-production-systems-for/"
+    },
+    {
+      "id": "cheng-thesis",
+      "title": "Multifunctional and stakeholder-informed agricultural: Landscape redesign in the north China plain",
+      "citation": "Cheng, J. (2026). PhD thesis, Wageningen University. Awarded 9 January 2026. Title follows the WUR portal record.",
+      "sourceURL": "https://doi.org/10.18174/681106",
+      "checkedAt": "2026-09-27T22:26:14Z",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://edepot.wur.nl/681106",
+          "error": "400 Client Error: Bad Request for url: https://library.wur.nl/WebQuery/edepot/681106"
+        }
+      ],
+      "metadataURL": "https://research.wur.nl/en/publications/multifunctional-and-stakeholder-informed-agricultural-landscape-r/"
+    },
+    {
+      "id": "xu-thesis",
+      "title": "Exploring options for a more sustainable crop production on the North China Plain",
+      "citation": "Xu, Z. (2025). PhD thesis, Wageningen University. Awarded 4 September 2025.",
+      "sourceURL": "https://doi.org/10.18174/681150",
+      "checkedAt": "2026-09-27T22:26:14Z",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://edepot.wur.nl/681150",
+          "error": "Resource exceeds 40MB"
+        }
+      ],
+      "metadataURL": "https://research.wur.nl/en/publications/exploring-options-for-a-more-sustainable-crop-production-on-the-n/"
+    },
+    {
+      "id": "groot-2017",
+      "title": "Integrated systems research in nutrition-sensitive landscapes: A theoretical methodological framework",
+      "citation": "Groot, J. C. J., et al. (2017). Chapter 18 in Sustainable Intensification in Smallholder Agriculture. Routledge.",
+      "sourceURL": "https://research.wur.nl/en/publications/integrated-systems-research-in-nutrition-sensitive-landscapes-a-t/",
+      "checkedAt": "2026-09-27T22:26:16Z",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://research.wur.nl/en/publications/integrated-systems-research-in-nutrition-sensitive-landscapes-a-t/",
+          "error": "404 Client Error: Not Found for url: https://api.crossref.org/works/https://research.wur.nl/en/publications/integrated-systems-research-in-n"
+        }
+      ]
+    }
+  ]
+}

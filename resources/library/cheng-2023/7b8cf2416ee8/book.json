@@ -1,0 +1,1905 @@
+{
+  "schema": "paper.original.v2",
+  "id": "cheng-2023",
+  "lessonId": "cheng-2023",
+  "title": "Farmers perceive diminishing ecosystem services, but overlook dis-services in intensively used agricultural landscapes in the North China Plain",
+  "citation": "Cheng, J., et al. (2023). Journal of Environmental Management, 347, 119060.",
+  "origin": "https://doi.org/10.1016/j.jenvman.2023.119060",
+  "sourceHash": "7b8cf2416ee8d64979e58d9fe0cf569d5415d640a87f280ab1c28965c67cc305",
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "evidence": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by- nc-nd/4.0/). Research article Farmers perceive diminishing ecosystem services, but overlook dis-services in intensively used agricultural landscapes in the North China Plain Jiali Cheng a,b,c,*, Zhan Xu b,c, Zhengyuan Liang a,b,c, Fan Li e,f, Wen-Feng Cong b,**, Chaochun Zhang b, Lei Song g, Chong Wang b, Fusuo Zhang b, Andries Richter d, Wopke van der Werf c, Jeroen C.J. Groot a a Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands b State Key Laboratory of Nutrient Use and Management, College of Resources and ",
+    "page": 1
+  },
+  "originalPath": "library/cheng-2023/7b8cf2416ee8/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/cheng-2023/7b8cf2416ee8/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            202.86798095703125,
+            33.45158004760742,
+            391.6612548828125,
+            45.17943572998047
+          ]
+        },
+        {
+          "id": "p1-b2-577f638",
+          "kind": "paragraph",
+          "text": "Available online 3 October 2023\n0301-4797/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-\nnc-nd/4.0/).",
+          "bbox": [
+            37.51798629760742,
+            714.7015991210938,
+            557.5695190429688,
+            744.0894165039062
+          ]
+        },
+        {
+          "id": "p1-b3-da9446c",
+          "kind": "heading",
+          "text": "Research article",
+          "bbox": [
+            37.587398529052734,
+            143.73046875,
+            108.2883071899414,
+            159.3675994873047
+          ]
+        },
+        {
+          "id": "p1-b4-3bb9e05",
+          "kind": "heading",
+          "text": "Farmers perceive diminishing ecosystem services, but overlook dis-services \nin intensively used agricultural landscapes in the North China Plain",
+          "bbox": [
+            37.587398529052734,
+            161.02340698242188,
+            487.87127685546875,
+            200.24752807617188
+          ]
+        },
+        {
+          "id": "p1-b5-1e8d56b",
+          "kind": "paragraph",
+          "text": "Jiali Cheng a,b,c,*, Zhan Xu b,c, Zhengyuan Liang a,b,c, Fan Li e,f, Wen-Feng Cong b,**, \nChaochun Zhang b, Lei Song g, Chong Wang b, Fusuo Zhang b, Andries Richter d, \nWopke van der Werf c, Jeroen C.J. Groot a",
+          "bbox": [
+            37.587398529052734,
+            205.80409240722656,
+            434.5931091308594,
+            249.83297729492188
+          ]
+        },
+        {
+          "id": "p1-b6-2fd2375",
+          "kind": "paragraph",
+          "text": "a Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands \nb State Key Laboratory of Nutrient Use and Management, College of Resources and Environmental Sciences, China Agricultural University, Beijing 100193, China \nc Centre for Crop Systems Analysis, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands \nd Environmental Economics and Natural Resources Group, Wageningen University, P.O. Box 8130, 6700, EW, Wageningen, the Netherlands \ne College of Economics and Management, Huazhong Agricultural University, Wuhan, 430070, China \nf Macro Agriculture Research Institute, Huazhong Agricultural University, Wuhan, 430070, China \ng Quzhou County Agricultural Bureau, Quzhou County, 057250, Handan City, China",
+          "bbox": [
+            37.587398529052734,
+            251.17739868164062,
+            475.18670654296875,
+            315.8580017089844
+          ]
+        },
+        {
+          "id": "p1-b7-19af77a",
+          "kind": "paragraph",
+          "text": "A R T I C L E  I N F O",
+          "bbox": [
+            37.587398529052734,
+            337.71343994140625,
+            126.12201690673828,
+            349.1154479980469
+          ]
+        },
+        {
+          "id": "p1-b8-d40b7e1",
+          "kind": "paragraph",
+          "text": "Keywords: \nSimplified agricultural landscape \nLandscape management \nFarming \nStakeholder \nPerception \nSocio-ecological",
+          "bbox": [
+            37.587398529052734,
+            356.9664001464844,
+            133.23736572265625,
+            418.75396728515625
+          ]
+        },
+        {
+          "id": "p1-b9-c0671f4",
+          "kind": "paragraph",
+          "text": "A B S T R A C T",
+          "bbox": [
+            201.9969940185547,
+            337.71343994140625,
+            269.1467590332031,
+            349.1154479980469
+          ]
+        },
+        {
+          "id": "p1-b10-650bc25",
+          "kind": "paragraph",
+          "text": "The UN sustainable development goals ask countries to advance sustainable production methods in agriculture. \nWhile the need for a transition to sustainable agricultural production is widely felt, there is little insight into local \nstakeholders’ perceptions regarding agroecosystem (dis)services in areas with intensive production methods. The \nNorth China Plain is an agricultural production area with intensive production systems and simplified agricul­\ntural landscapes. We conducted a survey with 267 farmers in Quzhou county in the North China Plain in 2020 to \nmeasure the perceived level of agroecosystem (dis)services supply and the changes therein between 2015 and \n2020. We analyzed which explanatory factors were associated with farmers’ perceptions. Provisioning services \nwere at a high level, while the regulating and supporting ecosystem services were considered to be in low supply, \nas evidenced by low scores for the presence of natural enemies and earthworms, and for natural habitats such as \nhedgerows and windbreaks. Most of the participants did not perceive dis-services from agriculture. Differences in \nperception between villages with contrasting biophysical and socio-economic conditions highlight the relevance \nof contextualized policy development for agricultural landscape composition and configuration to manage \necosystem (dis)services.",
+          "bbox": [
+            201.9969940185547,
+            356.9770812988281,
+            559.7905883789062,
+            483.5066833496094
+          ]
+        },
+        {
+          "id": "p1-b11-6e62ee8",
+          "kind": "heading",
+          "text": "1. Introduction",
+          "bbox": [
+            37.587398529052734,
+            510.45574951171875,
+            100.17181396484375,
+            523.4868774414062
+          ]
+        },
+        {
+          "id": "p1-b12-67fd47a",
+          "kind": "paragraph",
+          "text": "The global call for action on United Nations’ 2030 Sustainable \nDevelopment Goals (SDGs) emphasizes the urgent need for environ­\nmental sustainability and responsible resource management, especially \nin agricultural systems (DeClerck et al., 2016; UN General Assembly, \n2015). The global concerns have triggered various initiatives in China. \nIn 2016, the China central government’s No. 1 Document proposed the \nconcept of “Agriculture Green Development” as a point of departure for \nsustainable intensification in agricultural landscapes (State Council, \n2016). This was made actionable with the Rural Revitalization Strategy",
+          "bbox": [
+            37.587398529052734,
+            531.3748779296875,
+            291.02862548828125,
+            628.0841064453125
+          ]
+        },
+        {
+          "id": "p1-b13-e43ee40",
+          "kind": "paragraph",
+          "text": "of 2017 and the “14th Five-Year National Agriculture Green Develop­\nment Plan” published in 2021 (Ministry of Agriculture and Rural Affairs, \n2021). One of the main goals of Agriculture Green Development is to \ndeliver balanced multiple agroecosystem services, reduce dis-services \nand improve human well-being (Shen et al., 2020). Assessment of the \nsupply of multiple agroecosystem (dis)services is the benchmark to­\nwards integrating ecosystem services into agricultural landscape plan­\nning, management, and decision-making (de Groot et al., 2010). \nWe zoomed in on the North China Plain as a case study area because \nit is an intensive crop production area that is critical to China’s food \nsecurity, producing approximately a quarter of China’s grain (NBSC,",
+          "bbox": [
+            306.5926208496094,
+            510.45574951171875,
+            560.0203247070312,
+            628.0841064453125
+          ]
+        },
+        {
+          "id": "p1-b14-52a47ea",
+          "kind": "paragraph",
+          "text": "* Corresponding author. Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands. \n** Corresponding author. State Key Laboratory of Nutrient Use and Management, College of Resources and Environmental Sciences, China Agricultural University, \nBeijing 100193, China. \nE-mail addresses: jiali.cheng@wur.nl, jialicheng11@gmail.com (J. Cheng), wenfeng.cong@cau.edu.cn (W.-F. Cong).",
+          "bbox": [
+            37.58750915527344,
+            649.4560546875,
+            559.7703857421875,
+            690.3801879882812
+          ]
+        },
+        {
+          "id": "p1-b16-b0658ce",
+          "kind": "paragraph",
+          "text": "Contents lists available at ScienceDirect",
+          "bbox": [
+            228.41600036621094,
+            59.29375076293945,
+            371.40277099609375,
+            72.32485961914062
+          ]
+        },
+        {
+          "id": "p1-b17-7d6892e",
+          "kind": "heading",
+          "text": "Journal of Environmental Management",
+          "bbox": [
+            176.76800537109375,
+            80.03680419921875,
+            424.8005676269531,
+            102.84097290039062
+          ]
+        },
+        {
+          "id": "p1-b18-723eb07",
+          "kind": "paragraph",
+          "text": "journal homepage: www.elsevier.com/locate/jenvman",
+          "bbox": [
+            196.83799743652344,
+            118.17890930175781,
+            402.9416198730469,
+            126.14900970458984
+          ]
+        },
+        {
+          "id": "p1-b20-5aad2a7",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1016/j.jenvman.2023.119060 \nReceived 7 April 2023; Received in revised form 4 July 2023; Accepted 30 August 2023",
+          "bbox": [
+            37.587398529052734,
+            695.66064453125,
+            327.7467041015625,
+            716.9127807617188
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure3",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p1-figure3.png",
+          "alt": "Original source page 1, graphic 3",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p2-b1-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p2-b2-150bda5",
+          "kind": "paragraph",
+          "text": "2019). Double cropping of winter wheat (grown from October to June) \nand summer maize (from June to October) is one of the main cropping \nsystems in the North China Plain. This cropping system has high yearly \ngrain output, but has relatively low performance regarding regulating, \nsupporting, and cultural services (Zhou et al., 2017). Moreover, there is \na high risk of dis-services, for instance, water pollution by nitrogen \nlosses (Meng et al., 2022), high greenhouse gas emissions (Zhao et al., \n2021) and groundwater table decline (Zhang et al., 2003). \nPrevious work, using the methods of emergy (Odum, 1996) and life \ncycle assessment has indicated unsustainable agroecosystem conditions \nin the North China Plain (Cui et al., 2021; Ma et al., 2015). However, key \nscientific information is missing on essential multiple agroecosystem \n(dis)services at the landscape level like biological control and cultural \nservices. Conducting quantitative biophysical assessment on multiple \necosystem (dis)services is costly and time-consuming, and survey \nmethods offer an attractive low-cost alternative. For cultural services, \nsurveys might even be a more appropriate instrument to collect the in­\nformation because such services are intrinsically based on stakeholder \nperceptions. It stands to reason to ask local actors about the current state \nand recent historic trends in agroecosystem services and dis-services in \ntheir region, to capitalize on local knowledge, which can be accom­\nplished with relatively limited costs for a broad suite of services. \nAnother advantage of using stakeholder surveys is that an agricul­\ntural green development transition can only be realized with the support \nof local stakeholders. Hence, it is necessary to also explore farmers’ \nperceptions about the main agroecosystem (dis)services and the tem­\nporal change in their supply. Farmers shape agroecosystem (dis)services \nas decision-makers, influenced by landscape features and policies (de",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0334167480469,
+            346.77203369140625
+          ]
+        },
+        {
+          "id": "p2-b3-a3f634b",
+          "kind": "paragraph",
+          "text": "Snoo et al., 2013). Their perceptions, reflecting local knowledge, com­\nplement biophysical measurements, particularly for cultural (dis)ser­\nvices (Dawoe et al., 2012; de Groot et al., 2002). Perception-based \nsurveys have the potential to efficiently gather local-specific informa­\ntion on agroecosystem (dis)services (Chen et al., 2017; Liu et al., 2022), \naiding policymakers and managers in implementing context-specific \npolicies (Vrebos et al., 2015). \nVillages in China vary in ecological and social-economic conditions \n(Wang et al., 2021), which may impact agroecosystem (dis)services \n(Yang and Wang, 2022) and eventually rural development (Cao et al., \n2020; Domon, 2011). Socioecological conditions and landscape patterns \naffect agroecosystem (dis)services and thus people’s perceptions (Wang \net al., 2021; W. Zhang et al., 2016; Zoderer et al., 2019). While agri­\ncultural policies are typically implemented at the village level, there is \nlittle information on contextual factors at the village level for enhancing \nagroecosystem (dis)services in the North China Plain. \nIn intensively managed agricultural landscapes, we expect that the \nregulating and supporting services would be low and there should be \nsigns of dis-services. We also expect that farmers’ perceptions could be \nassociated with socio-economic factors and biophysical characteristics \nof villages. In this paper, we aim to assess the perception of farmers \nregarding the delivery of agroecosystem services and dis-services in a \nlandscape dominated by intensive cropping systems in Quzhou county \nwithin the North China Plain. We quantified the perceived supply of \nthese services and the changes therein during 2015~2020. To investi­\ngate how village characteristics affect the perception of agroecosystem \n(dis)services, we further analyzed the relations between explanatory \nfactors and multiple agroecosystem (dis)services. Finally, we compared",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            560.020263671875,
+            346.77203369140625
+          ]
+        },
+        {
+          "id": "p2-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p2-figure1.png",
+          "alt": "Original source page 2, graphic 1",
+          "caption": "原文第2页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p2-b5-4dd423f",
+          "kind": "paragraph",
+          "text": "Fig. 1. Location of the North China Plain (a) and Quzhou county (b) and of sampled villages within Quzhou County (c). The elevation is derived from 12.5 m Digital \nElevation Model (DEM) topographic data (https://search.asf.alaska.edu/).",
+          "bbox": [
+            37.587398529052734,
+            723.2702026367188,
+            559.7366333007812,
+            744.5223388671875
+          ]
+        },
+        {
+          "id": "p2-b6-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p3-b1-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p3-b2-a638df4",
+          "kind": "paragraph",
+          "text": "agroecosystem (dis)services in different village types.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            228.60043334960938,
+            64.33084106445312
+          ]
+        },
+        {
+          "id": "p3-b3-a77f4aa",
+          "kind": "heading",
+          "text": "2. Materials and methods",
+          "bbox": [
+            37.587398529052734,
+            73.52275848388672,
+            139.68597412109375,
+            86.55387115478516
+          ]
+        },
+        {
+          "id": "p3-b4-a030405",
+          "kind": "heading",
+          "text": "2.1. Case study area",
+          "bbox": [
+            37.587398529052734,
+            94.44187927246094,
+            111.58578491210938,
+            107.47299194335938
+          ]
+        },
+        {
+          "id": "p3-b5-d828b97",
+          "kind": "paragraph",
+          "text": "The case study area is Quzhou county, an affiliated administrative \nregion of Handan City, Heibei Province, located in the middle of the \nNorth China Plain (Fig. 1). As a representative area in the North China \nPlain, Quzhou has been selected as a National Agriculture Green \nDevelopment Pilot Demonstration Zone in 2019. Since 2020, the Quz­\nhou government has formulated policies to transform the county to­\nwards sustainable agricultural development in the context of the \nAgricultural Green Development program. \nThe surface area of Quzhou is 676.7 km2 including 525.2 km2 of \ncropland (NBSC, 2017). The landscapes in Quzhou County are for the \nmost part homogenized agricultural landscapes with arable cropping \nand little area of non-crop habitat. The soil in Quzhou is calcareous al­\nluvial with loamy texture, high soil pH, relatively low soil organic \nmatter, and historically high salt content (K. Li et al., 2022; Liang et al., \n2022). There are three main rivers (Fuyang River, Zhizhang River, and \nLaosha River). Quzhou is located in a semi-humid continental monsoon \nclimate zone, with an average annual temperature of 13.1 ◦C and an \naverage annual average precipitation of 534.9 mm, while most precip­\nitation occurs between July and September. Winter wheat, summer \nmaize and cotton are the main crops. The tree cover area in Quzhou \ncounty is 86.7 km2, mainly consisting of linear windbreaks (Li, 2014; \nNBSC, 2017). Since 2015, Quzhou has enacted a fallow policy that \ndiscourages the winter wheat-summer maize cropping system to save \ngroundwater. Around 2300 ha of winter wheat-summer maize system \nwas replaced by spring maize, spring cotton or other water-saving sys­\ntems (Quzhou County Government, 2020). \nQuzhou County consists of 10 townships and 342 administrative \nvillages. According to NBSC (2017), 85.5% of the population in Quzhou \nCounty is rural. The total agricultural revenue amounted to 1.03 billion \nCNY 2017 (around 0.15 billion USD), which comprises 7.6% of the \ncounty’s total economic output.",
+          "bbox": [
+            37.587398529052734,
+            115.3617935180664,
+            291.0332336425781,
+            442.18804931640625
+          ]
+        },
+        {
+          "id": "p3-b6-c63ad4b",
+          "kind": "heading",
+          "text": "2.2. Methodological framework",
+          "bbox": [
+            37.58894348144531,
+            455.4622802734375,
+            147.59146118164062,
+            468.4933776855469
+          ]
+        },
+        {
+          "id": "p3-b7-12ae71c",
+          "kind": "paragraph",
+          "text": "The ecosystem services and dis-services framework used in this study",
+          "bbox": [
+            49.55046844482422,
+            476.38140869140625,
+            290.9879150390625,
+            489.4125061035156
+          ]
+        },
+        {
+          "id": "p3-b8-cd7be21",
+          "kind": "paragraph",
+          "text": "(Fig. 2) is based on the four common categories of provisioning services, \nregulating services, supporting services, and cultural services (MEA, \n2005). The framework is adapted to include dis-services (Zhang et al., \n2007) as well as locally relevant interactions between agroecosystem \n(dis)services and the agricultural landscape (Fig. 2). Crop production \nbenefits from supporting and regulating services, but can be negatively \naffected by dis-services. In turn, the cropping activities result in provi­\nsioning services and contribute to non-material services, but they also \ndeliver dis-services to the agroecosystem. This framework and a litera­\nture review were used to create a list of proxy indicators for relevant \nagroecosystem (dis)services and to formulate a questionnaire to assess \nperceptions of the state of agroecosystem (dis)services in 2020 and the \nperceived trend of change in the period between 2015 and 2020. \nThe survey targeted farmers within 35 villages in 2020. The selection \nof villages was based upon a pre-defined village typology in order to \ncover the diversity of villages (see Section 2.3). A redundancy analysis \n(RDA) was done to investigate relationships between village character­\nistics and the perceived supply of agroecosystem (dis)services in 2020. \nFinally, we analyzed differences in agroecosystem (dis)services among \nvillage types.",
+          "bbox": [
+            306.5933532714844,
+            51.3024787902832,
+            560.0218505859375,
+            263.0975036621094
+          ]
+        },
+        {
+          "id": "p3-b9-36153b7",
+          "kind": "heading",
+          "text": "2.3. Selection of villages and farmers",
+          "bbox": [
+            306.5933532714844,
+            277.6190490722656,
+            435.7942810058594,
+            290.650146484375
+          ]
+        },
+        {
+          "id": "p3-b10-d0dc548",
+          "kind": "paragraph",
+          "text": "Participants were selected using a stratified sampling approach, \nbased on a village typology (see Supplementary Materials S2). This ty­\npology classified the villages of Quzhou county into eight different types \nbased on biophysical, socioeconomic, and agricultural production \ncharacteristics from previous survey data and yearbook data. The seven \nvillage types which had agricultural production were selected for further \nresearch (thus excluding the village type without agricultural produc­\ntion), and five villages were randomly selected from each village type, \nresulting in 35 selected villages in total. In each village, we selected for \nparticipation in the survey five smallholder farmers, up to two leader \nfarmers and the village head. The smallholder farmers had experience in \ncrop production and were randomly selected per village. Leader farmers \nare defined as farmers running comparatively professional farms, or had \nparticipated in professional farmers’ training. If no leader farmers who \nmet the criteria were available, we interviewed additional smallholder \nfarmers instead (coded as smallholder farmers). Leader farmers were \nidentified with the help of the village heads. The 35 village heads were \nalso participating in agricultural production, so that all survey",
+          "bbox": [
+            306.5933532714844,
+            298.5381774902344,
+            560.0090942382812,
+            489.4125061035156
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b12-48d9ba2",
+          "kind": "paragraph",
+          "text": "Fig. 2. Main interrelations between agroecosystem services and dis-services, and crop production in the agricultural landscape of Quzhou county. Agroecosystem \n(dis)services in orange boxes affect the agricultural landscape, while services and dis-services in blue boxes are affected by agriculture. The green arrows indicate \nservices, whereas the red arrows indicate dis-services (adapted from Zhang et al., 2007).",
+          "bbox": [
+            37.587398529052734,
+            713.6890869140625,
+            559.7366943359375,
+            744.522216796875
+          ]
+        },
+        {
+          "id": "p3-b13-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p4-b1-4b22777",
+          "kind": "paragraph",
+          "text": "4",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p4-b2-7b0100a",
+          "kind": "paragraph",
+          "text": "respondents can be regarded as farmers. In total, 267 people completed \nthe survey, including 187 smallholders, 45 leader farmers and 35 village \nheads.",
+          "bbox": [
+            37.587398529052734,
+            202.38572692871094,
+            290.9975280761719,
+            236.33596801757812
+          ]
+        },
+        {
+          "id": "p4-b3-47985df",
+          "kind": "heading",
+          "text": "2.4. Survey",
+          "bbox": [
+            37.587398529052734,
+            248.9295196533203,
+            80.66976928710938,
+            261.96063232421875
+          ]
+        },
+        {
+          "id": "p4-b4-fde0850",
+          "kind": "paragraph",
+          "text": "The survey was conducted in December 2020 using a structured \nquestionnaire, consisting of three parts: 1) demographic and personal \ninformation of participants, e.g., age, gender, and education; 2) crop \nproduction information such as total planting area of each crop, annual \naverage revenue (price times production) of each crop; and 3) percep­\ntions of agroecosystem services and dis-services. Perceptions were \nquantified by scoring proxy indicators of supply and changes in the \nperiod between 2015 and 2020 on a Likert Scale from 1 to 5 (Table S1). \nDue to the length of the questionnaire, we were not able to ask for all \nkinds of costs explicitly for calculating the net revenue. Therefore, we \nhad to rely on gross revenue, ignoring the costs of planting crops, which \nis an obvious limitation of our study. The questionnaire was tested \nthrough 3 rounds of pilot surveys with local experts and farmers from \nOctober to November 2020. This resulted in elimination of indicators \nthat were considered not locally relevant, such as soil erosion. During \nthe pilot surveys, we iteratively revised the questionnaire to ensure that \nthe questions would be understandable for the respondents. During the \ninterview, the meaning of each ecosystem (dis)service was explained. \nThe interviewer team of 9 persons was trained before going into the field \nand had background knowledge of survey methods and familiarity with \nthe local dialect. After the entire survey was completed, the quality of",
+          "bbox": [
+            37.587398529052734,
+            269.8494567871094,
+            291.03179931640625,
+            492.074951171875
+          ]
+        },
+        {
+          "id": "p4-b5-f1af566",
+          "kind": "paragraph",
+          "text": "each questionnaire was examined. Details of the questionnaire in­\ndicators used in this study are listed in Table S1 in Supplementary \nMaterials.",
+          "bbox": [
+            306.5926208496094,
+            202.38572692871094,
+            560.01708984375,
+            236.33596801757812
+          ]
+        },
+        {
+          "id": "p4-b6-5ce5edb",
+          "kind": "heading",
+          "text": "2.5. Data on explanatory factors",
+          "bbox": [
+            306.5926208496094,
+            246.54884338378906,
+            421.6649169921875,
+            259.5799560546875
+          ]
+        },
+        {
+          "id": "p4-b7-5f805e9",
+          "kind": "paragraph",
+          "text": "Multiple data sources were used to describe the characteristics of \neach village (Table 1).",
+          "bbox": [
+            306.5926208496094,
+            267.4679870605469,
+            559.9788208007812,
+            290.98773193359375
+          ]
+        },
+        {
+          "id": "p4-b8-df12ef6",
+          "kind": "heading",
+          "text": "2.6. Data analysis",
+          "bbox": [
+            306.5926208496094,
+            301.1998291015625,
+            372.5674743652344,
+            314.2309265136719
+          ]
+        },
+        {
+          "id": "p4-b9-c6bf7b4",
+          "kind": "paragraph",
+          "text": "Indicator scores were visualized using the “Likert” (Bryer et al., \n2016) and “ggplot2” packages (Wickham et al., 2016) in R (R Core \nTeam, 2021). To analyze how village-level characteristics were associ­\nated with the perceived agroecosystem services and dis-services supply \nin 35 villages, a redundancy analysis (RDA) was conducted using \nvillage-averaged indicator scores and village-specific biophysical and \nsocio-economic variables. RDA is a widely used analysis to explore the \ncorrelation between multiple response variables (agroecosystem ser­\nvices and dis-services supply in this case) and a set of explanatory var­\niables (socio-ecological factors in this case). Prior to the RDA, the \nindicator values of agroecosystem (dis)services supply and variables \nrepresenting village characteristics were standardized to zero mean and \nunit variance. A Monte Carlo permutation test (1000 permutations) was \nperformed to determine the significance of the associations between \nvillage characteristics and (dis)services. The RDA and the data trans­\nformation were done using the “vegan” package in R (Oksanen et al.,",
+          "bbox": [
+            306.5926208496094,
+            322.1197509765625,
+            560.020263671875,
+            492.074951171875
+          ]
+        },
+        {
+          "id": "p4-b10-447f8a2",
+          "kind": "paragraph",
+          "text": "Box 1 \nThe terms used in this paper.",
+          "bbox": [
+            48.07550048828125,
+            68.08073425292969,
+            155.75314331054688,
+            90.5787353515625
+          ]
+        },
+        {
+          "id": "p4-b11-2a6e88b",
+          "kind": "paragraph",
+          "text": "• Agroecosystem services and dis-services: Ecosystem services are “the benefits people obtain from ecosystems” (MEA, 2005). They entail \nthe products (for profit) or the (non)material goods (for use) that people gain from agroecosystems. Dis-services are negative impacts on \nagroecosystems or humans.  \n• Agroecosystems: Ecosystems used for agricultural production.  \n• Ecosystem services supply: The provisioning of a specific bundle of ecosystem goods and services within a given time period in an area.  \n• Perceived ecosystem services supply: Flow of ecosystem (dis)services from certain ecosystems (provider) as experienced by people \n(receiver).  \n• Trend of ecosystem service supply: Temporal changes of ecosystem services supply during the time period of 2015–2020.",
+          "bbox": [
+            48.18867492675781,
+            97.4473648071289,
+            549.5479125976562,
+            176.75144958496094
+          ]
+        },
+        {
+          "id": "p4-b12-b55201b",
+          "kind": "paragraph",
+          "text": "Table 1 \nExplanatory factors describing the characteristics of villages involved in the survey.",
+          "bbox": [
+            37.587398529052734,
+            502.6780700683594,
+            308.087646484375,
+            523.9868774414062
+          ]
+        },
+        {
+          "id": "p4-b13-e218b47",
+          "kind": "paragraph",
+          "text": "Factors \nUnit \nData sources and/or calculation method",
+          "bbox": [
+            43.5968017578125,
+            526.3654174804688,
+            330.6327819824219,
+            536.7899780273438
+          ]
+        },
+        {
+          "id": "p4-b14-b77f65e",
+          "kind": "paragraph",
+          "text": "Soil properties  \nSoil survey data in 2018 (Li et al., 2022b) \nSOM (soil organic matter) \ng/kg \nInverse distance weighted method to calculate the village average in ArcMap 10.8. (https://www.esri.com/en-us/arcgis/ \nproducts/arcgis-desktop) \nTN (soil total nitrogen) \ng/kg \nEC (electrical conductivity) \ndS/m",
+          "bbox": [
+            43.5968017578125,
+            539.5176391601562,
+            553.5616455078125,
+            575.6236572265625
+          ]
+        },
+        {
+          "id": "p4-b15-c275cef",
+          "kind": "paragraph",
+          "text": "Agricultural inputs  \nHousehold survey data in 2020 (Liang et al., 2022). \nFertilizer use amount \nkg N ha−1",
+          "bbox": [
+            43.5968017578125,
+            578.3519287109375,
+            370.1595458984375,
+            597.3367919921875
+          ]
+        },
+        {
+          "id": "p4-b16-3450a2a",
+          "kind": "paragraph",
+          "text": "year−1",
+          "bbox": [
+            161.23500061035156,
+            594.9304809570312,
+            181.25790405273438,
+            605.8989868164062
+          ]
+        },
+        {
+          "id": "p4-b17-d950f69",
+          "kind": "paragraph",
+          "text": "See Section S5 in Supplementary Materials for the calculation method.",
+          "bbox": [
+            215.26300048828125,
+            586.9134521484375,
+            417.0047607421875,
+            597.3380126953125
+          ]
+        },
+        {
+          "id": "p4-b18-4df779b",
+          "kind": "paragraph",
+          "text": "Pesticide use frequency \nTFI \nCalculation method is based on Liang et al. (2022)",
+          "bbox": [
+            43.598907470703125,
+            604.0339965820312,
+            360.3835754394531,
+            614.4585571289062
+          ]
+        },
+        {
+          "id": "p4-b19-e8b4fa4",
+          "kind": "paragraph",
+          "text": "Main crop type proportion  \nVillage head survey data, 2020 \nCereals \n% \nWinter wheat-Summer maize area or spring maize area/total crop production area \nFiber crops \n% \nCotton area/total crop production area \nFruit trees \n% \nFruit trees area/total crop production area \nSugar crops \n% \nStevia area/total crop production area \nVegetables \n% \nVegetables area/total crop production area",
+          "bbox": [
+            43.598907470703125,
+            617.1868896484375,
+            450.73516845703125,
+            670.4708862304688
+          ]
+        },
+        {
+          "id": "p4-b20-5e3dd0c",
+          "kind": "paragraph",
+          "text": "Location advantages  \nLULC map and administrative map \nDistance to the county center (Quzhou \ncity) \nkm \nMethods of spatial join (closet) in ArcGIS Pro 2.8.0 (https://support.esri.com/en/products/desktop/arcgis-desktop/ \narcgis-pro/2-8) \nDistance to the nearest river \nkm",
+          "bbox": [
+            43.598907470703125,
+            673.198486328125,
+            544.1702270507812,
+            709.30517578125
+          ]
+        },
+        {
+          "id": "p4-b21-12fbff4",
+          "kind": "paragraph",
+          "text": "Socio-economic factors   \nNon-agricultural labor \n% \nVillage head survey data in 2018. See Section S4 for more information in Supplementary Materials. \nPopulation \nCapita \nYearbook data (NBSC, 2017)",
+          "bbox": [
+            43.598907470703125,
+            712.0328369140625,
+            505.6979675292969,
+            739.6353149414062
+          ]
+        },
+        {
+          "id": "p4-b22-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.589630126953125,
+            33.65109634399414,
+            500.5981140136719,
+            44.07569122314453
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p5-b1-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p5-b2-fb12dac",
+          "kind": "paragraph",
+          "text": "2013). \nWe used the parameter-free Kruskal-Wallis test to compare agro­\necosystem (dis)services supply among the different village types. If the \noverall Kruskal-Wallis test was significant, comparisons between two \nvillage types were performed with Wilcoxon Rank Sum Tests. These \nparameter free tests do not assume any particular distribution for the \ndata and do not require a normality assumption. The mean scores of the \nagroecosystem services and dis-services were plotted as bubble plots \nusing the package ‘ggplot2’ (Wickham et al., 2016) in R (R Core Team, \n2021). \nA recoding of indicators was done for the RDA and Kruskal-Wallis \nanalysis. In the case of natural enemies (frogs, ground beetles, lady­\nbeetles), water sufficiency (river water, deep well water and shallow \nwell water), semi-natural habitats, and dis-services to agriculture, we \ntreated the “No occurrence” or “Not applicable” responses as a true zero \nobservation (no presence of this service or disservice). Furthermore, for \ndisservices to or from agriculture, if respondents provided a score, we \nrecoded the Likert scores 1–5 into a single rating of 1 (dis-service pre­\nsent). See Table S1 in Supplementary Materials for detailed scales after \nsuch recoding. If the farmers do not have any insect-pollinated crops, \nthey were excluded from the analysis. If respondents gave a score of \n“Don’t know” (seen as the true missing value) in the cases of cultural \nservices, soil moisture, air quality and temperature change (in total 2% \nof the respondents), we used for the RDA and Kruskal-Wallis analysis the \nvillage average as a response for these respondents, assuring that in \nthese cases the response would not affect the calculated mean (Roth, \n1994).",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.03179931640625,
+            336.3407897949219
+          ]
+        },
+        {
+          "id": "p5-b3-c3fea71",
+          "kind": "heading",
+          "text": "3. Results",
+          "bbox": [
+            37.587398529052734,
+            345.36297607421875,
+            79.67271423339844,
+            358.3940734863281
+          ]
+        },
+        {
+          "id": "p5-b4-16efaf0",
+          "kind": "heading",
+          "text": "3.1. Provisioning ecosystem services",
+          "bbox": [
+            37.587398529052734,
+            366.2820739746094,
+            161.9886932373047,
+            379.31317138671875
+          ]
+        },
+        {
+          "id": "p5-b5-b4d226b",
+          "kind": "paragraph",
+          "text": "The agricultural landscape of Quzhou is dominated by five crop \ntypes: cereals (mostly winter wheat, Triticum aestivum, spring and \nsummer maize, Zea mays), vegetables (cabbage, Brassica oleracea var. \nCapitata, chillis, Capsicum frutescens, etc.), fruit trees (apple, Malus \ndomestica, pear, Pyrus L., etc.), sugar crops (Stevia, Stevia rebaudiana), \nand fiber crops (cotton, Gossypium hirsutum). Vegetables and fruit trees \nhad the highest average annual revenue, of 73,000 and 87,700 CNY per \nha, respectively, although the variation was large (Table 2). More than \nhalf of the respondents perceived a reduction (scored as ‘weak decline’ \nor ‘strong decline’ in Table 2) in the revenue from fiber and sugar crops \nover the last 5 years, while fruit trees and vegetables were considered by \nmost farmers to have become more remunerative.",
+          "bbox": [
+            37.587398529052734,
+            387.2019958496094,
+            291.0278015136719,
+            515.3181762695312
+          ]
+        },
+        {
+          "id": "p5-b6-41524bc",
+          "kind": "heading",
+          "text": "3.2. Regulating ecosystem services",
+          "bbox": [
+            37.587398529052734,
+            528.082275390625,
+            156.26296997070312,
+            541.1134033203125
+          ]
+        },
+        {
+          "id": "p5-b7-5c8b961",
+          "kind": "paragraph",
+          "text": "Most participants were aware of the state of regulating services and \nthe changes therein (Fig. 3 c and d). Between 51% and 79% of the \nparticipants scored the presence of natural enemies (ladybugs, frogs, \nground beetles) as ‘low’ to ‘very low’ (Fig. 3a), and 61–75% of the re­\nspondents perceived a ‘weak decline’ or ‘strong decline’ in the numbers \nof these organisms in the period 2015 to 2020 (Fig. 3b). Most farmers \n(64%) scored the soil moisture condition as ‘poor’ to ‘very poor’, but",
+          "bbox": [
+            37.587398529052734,
+            549.002197265625,
+            291.0150451660156,
+            624.7914428710938
+          ]
+        },
+        {
+          "id": "p5-b8-8e06bee",
+          "kind": "paragraph",
+          "text": "47% observed an improvement from 2015 to 2020 (Fig. 3). Half of the \nfarmers were planting insect-pollinated crops (Fig. 3c), and forty percent \nof them thought the effectiveness of pollination was ‘poor’ to ‘very poor’ \n(Fig. 3a). Forty-seven percent of the respondents perceived an increase \nin temperature from 2015 to 2020 (Fig. 3a). More than 80% of the \npeople assessed the air quality as good and improving (Fig. 3). In sum, \nsome services were provided at an adequate level (air quality) while \nothers were low (frogs, ground beetles, ladybugs, and soil moisture) \nwhile some were intermediate (pollination). Frogs, ladybugs, and \nground beetles showed a declining trend, while air quality and soil \nmoisture were improving, and pollination was stable. As a robustness \ncheck, we analyzed our data also with only smallholder farmers \n(excluding village heads and leader farmers) and obtained very similar \npatterns (see Fig. S5). However, village heads had on average higher \nratings than the other interviewees for pollination (Table S5).",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            560.013916015625,
+            210.76707458496094
+          ]
+        },
+        {
+          "id": "p5-b9-83cf583",
+          "kind": "heading",
+          "text": "3.3. Supporting ecosystem services",
+          "bbox": [
+            306.5926208496094,
+            221.71640014648438,
+            425.9488525390625,
+            234.7475128173828
+          ]
+        },
+        {
+          "id": "p5-b10-a2cd7bf",
+          "kind": "paragraph",
+          "text": "The scorings provided by the participants indicate a shortage of \nsupporting ecosystem services (Fig. 4). A minority of the participants \nindicated that natural habitats (windbreaks, wildflowers, hedgerows, \nfield islets, diversified cropping, and ditches) were present in their vil­\nlages (Fig. 4c). Where these elements were present, less than half of the \nrespondents thought the presence of natural habitats was abundant as \nindicated with a score of ‘high’ or ‘very high’ (Fig. 4a). The abundance of \nearthworms, as an indicator of soil fertility and biodiversity, was \nperceived as ‘low’ or ‘very low’ by 64% of participants (Fig. 4a), and \nmore than half of the participants thought the number of earthworms \nshowed a ‘weak decline’ or ‘strong decline’ between 2015 and 2020 \n(Fig. 4b). More than half of the participants perceived a declining \ngroundwater sufficiency (both in shallow wells and deep wells) between \n2015 and 2020 providing a score of ‘decline’ or ‘strong decline’. On the \nother hand, fifty-nine percent of the participants perceived an \nimprovement in the river water supply, by scoring either ‘weak increase’ \nor ‘strong increase’ (Fig. 4b). Thus, the state of half of the supporting \nservices (length of hedgerows, earthworms, windbreaks, diversified \ncropping systems, wild flowers) was rated by the majority of re­\nspondents as low or very low, but only three services were rated by a \nmajority as declining (earthworms, and deep and shallow wells) while \nfor other services no strong tendency to decline was indicated. The re­\nsults are mostly similar across different farmer groups, though small­\nholders tend to report less sufficient river waters, fewer diversified \ncropping systems, and less rich field islets than leader farmers and \nvillage heads while village head gave higher scores of those services (see \nTable S5).",
+          "bbox": [
+            306.5926208496094,
+            242.63632202148438,
+            560.0115966796875,
+            527.620849609375
+          ]
+        },
+        {
+          "id": "p5-b11-daaddfc",
+          "kind": "heading",
+          "text": "3.4. Cultural ecosystem services",
+          "bbox": [
+            306.5926208496094,
+            538.5135498046875,
+            417.614501953125,
+            551.544677734375
+          ]
+        },
+        {
+          "id": "p5-b12-4571e75",
+          "kind": "paragraph",
+          "text": "Most participants (58%) perceived the beauty of the landscape as a \ncultural service and 44% scored the suitability for agrotourism as ‘good’ \nto ‘very good’ (Fig. 5a). Improvements in these cultural services \noccurred in the years 2015–2020, as 63% and 66% of the respondents \nscored ‘increased’ or ‘strongly increased’ for these indicators (Fig. 5b). \nThe involvement in science and education was rated as ‘low’ to ‘very",
+          "bbox": [
+            306.5926208496094,
+            559.4334716796875,
+            559.9932250976562,
+            624.7914428710938
+          ]
+        },
+        {
+          "id": "p5-b13-8c38f46",
+          "kind": "paragraph",
+          "text": "Table 2 \nProvisioning services supply expressed in revenue of different crop types in 2020 and perceived trend in revenue between 2015 and 2020.",
+          "bbox": [
+            37.587398529052734,
+            635.3960571289062,
+            482.9338073730469,
+            656.7048950195312
+          ]
+        },
+        {
+          "id": "p5-b14-8288968",
+          "kind": "paragraph",
+          "text": "Crop Types \nCrop revenue (Unit: 103 CNY/ha, 1 CNY ≈0.15 USD) \nTrend of crop revenue from 2015 to 2020 (Percentage of the respondents)",
+          "bbox": [
+            43.5968017578125,
+            658.5394897460938,
+            500.6064758300781,
+            669.5079956054688
+          ]
+        },
+        {
+          "id": "p5-b15-48f3b6a",
+          "kind": "paragraph",
+          "text": "Na \nMean (±sd) \nRange \nStrong decline \nWeak decline \nStable \nWeak increase \nStrong increase",
+          "bbox": [
+            97.17271423339844,
+            671.6354370117188,
+            553.5671997070312,
+            682.60400390625
+          ]
+        },
+        {
+          "id": "p5-b16-4174463",
+          "kind": "paragraph",
+          "text": "Cereals \n459 \n17.7 (±5.6) \n5.3–97.0 \n7.2% \n19.2% \n30.7% \n32.7% \n10.2% \nFiber crops \n140 \n23.3 (±6.4) \n0.2–47.9 \n22.9% \n40.7% \n17.1% \n15.7% \n3.6% \nVegetables \n128 \n73.0 (±75.4) \n3.6–450.0 \n7.8% \n17.2% \n19.5% \n36.7% \n18.8% \nSugar crops \n36 \n37.1 (±14.9) \n13.5–66.8 \n30.6% \n22.2% \n16.7% \n19.4% \n11.1% \nFruit trees \n19 \n87.7 (±52.2) \n9.1–150.0 \n10.5% \n10.5% \n15.8% \n47.4% \n15.8%",
+          "bbox": [
+            43.597816467285156,
+            685.3316650390625,
+            530.0776977539062,
+            730.0553588867188
+          ]
+        },
+        {
+          "id": "p5-b17-2005745",
+          "kind": "paragraph",
+          "text": "a N is the number of records for each crop type.",
+          "bbox": [
+            43.20000076293945,
+            729.6197509765625,
+            198.78025817871094,
+            744.5223999023438
+          ]
+        },
+        {
+          "id": "p5-b18-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p6-b1-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p6-b2-4b3c636",
+          "kind": "paragraph",
+          "text": "low’ by 79% of the participants (Fig. 5a), but 33% mentioned \nimprovement in this (Fig. 5b). Awareness about cultural services was \nrelatively high (Fig. 5 c and d). The beauty of the landscape and scien­\ntific value was rated significantly lower for smallholders compared to \nvillage heads and leader farmers (see Table S5).",
+          "bbox": [
+            37.587398529052734,
+            445.541748046875,
+            291.0285949707031,
+            500.4111022949219
+          ]
+        },
+        {
+          "id": "p6-b3-ebc3eec",
+          "kind": "heading",
+          "text": "3.5. Dis-services",
+          "bbox": [
+            37.587398529052734,
+            512.2116088867188,
+            96.25927734375,
+            525.2427368164062
+          ]
+        },
+        {
+          "id": "p6-b4-0c4a5a1",
+          "kind": "paragraph",
+          "text": "Two types of dis-services were distinguished: dis-services that affect \nagricultural production (natural hazards and salinization), and dis- \nservices generated by agricultural production (eutrophication, water \npollution, and air pollution). The latter were observed by only 14–22% \nof the farmers (Fig. 6c), and if these were observed, the severity was \nconsidered to be mostly ‘mild’ or ‘very mild’ (Fig. 6a). Natural hazards \n(except hail) were reported to have caused yield damage according to \nmore than 40% of the participants (Fig. 6c). Sixty-three percent of the \nparticipants claimed that waterlogging was severe or very severe and \nfifty-six percent rated salinization as severe or very severe (Fig. 6a). Pest \ndamage was not considered to be problematic with 83% of participants \nscoring ‘mild’ or ‘very mild’ effects. Most respondents (ranging from \n54% for water logging to 93% for pest damage scoring ‘strong decline’, \n‘decline’ or ‘no change’) indicated that impacts of natural hazards to \nagriculture did not become worse from 2015 to 2020 (Fig. 6b). Three of \nthe most serious natural hazards indicated by respondents were thus \nrelated to extreme weather (waterlogging, heat and drought) while \nsalinization was also frequently indicated. Ratings for trend indicate that \nthere are more dis-services with an improving trend than dis-services \nwith a trend towards more serious dis-service. Smallholders were less",
+          "bbox": [
+            37.587398529052734,
+            533.1307373046875,
+            291.03021240234375,
+            744.92578125
+          ]
+        },
+        {
+          "id": "p6-b5-6b254bd",
+          "kind": "paragraph",
+          "text": "likely to report air pollution and salinization than village heads and \nleader farmers while village heads had higher scores for those dis- \nservices. The village heads also had overall lower scores for several \ndis-services of natural hazards, such as coldness, drought, dry-hot wind \n(see Table S5).",
+          "bbox": [
+            306.5926208496094,
+            445.541748046875,
+            559.9995727539062,
+            500.4111022949219
+          ]
+        },
+        {
+          "id": "p6-b6-56458e7",
+          "kind": "heading",
+          "text": "3.6. The relations between agroecosystem (dis)services supply and \nexplanatory factors",
+          "bbox": [
+            306.5926208496094,
+            512.2116088867188,
+            532.6190795898438,
+            535.7305908203125
+          ]
+        },
+        {
+          "id": "p6-b7-972ea48",
+          "kind": "paragraph",
+          "text": "We used RDA to assess associations between village characteristics \nand the supply of agroecosystem services and dis-services. The associ­\nations between the agroecosystem (dis)services supply and explanatory \nfactors were significant (p-value <0.001) in permutation tests, and 21% \nof the total variance in agroecosystem (dis)services supply was \nexplained by the selected explanatory factors (Fig. 7). Among all the \nvariables, the crop area proportion (Vegetables, Fiber crops, Sugar \ncrops, Fruit trees) and distance to the city center (Distance to city) had \nthe most impact on agroecosystem (dis)services supply. \nThe first axis of the RDA explained 11.7% of the variance (Fig. 7) and \nwas positively correlated with the area proportion of cotton (Fiber \ncrops) but negatively correlated with the area proportion of vegetables. \nAreas with more vegetables were closer to the city center and rivers \n(Distance to city, Distance to rivers). The area proportion of vegetables \n(Vegetables) was positively correlated with higher fertilizer and pesti­\ncide application (variables N_input and TFI), higher soil organic matter \ncontent (SOM), and electrical conductivity (EC) and it had a positive \nrelation with some of the provisioning services, supporting and regu­\nlating services (Revenue, Earthworms, Pollination, and Shallow well",
+          "bbox": [
+            306.5926208496094,
+            543.619384765625,
+            560.0139770507812,
+            744.92578125
+          ]
+        },
+        {
+          "id": "p6-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p6-figure1.png",
+          "alt": "Original source page 6, graphic 1",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p6-b9-d5958ff",
+          "kind": "paragraph",
+          "text": "Fig. 3. Perceived supply in 2020 (Fig. 3a) and changes in supply between 2015 and 2020 (Fig. 3b) of regulating ecosystem services. Results in panels a and b are for \nthe respondents who provided a scoring, while panels c and d present the percentage of respondents not providing a scoring. Note: 49% of farmers did not have \ninsect-pollinated crops and hence did not provide a score for pollination effectiveness. See Table S1 in supplementary material for further information about the \nindicators used in the questionnaire.",
+          "bbox": [
+            37.587398529052734,
+            395.3580627441406,
+            559.78173828125,
+            435.7721862792969
+          ]
+        },
+        {
+          "id": "p6-b10-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p7-b1-7902699",
+          "kind": "paragraph",
+          "text": "7",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p7-b2-259847d",
+          "kind": "paragraph",
+          "text": "water) (Fig. 7). These features were negatively correlated with the area \nproportion of cotton (Fiber crops). In addition, the area percentage of \ncotton is also positively related to greater severity of dis-services (Pests,",
+          "bbox": [
+            37.587398529052734,
+            706.6128540039062,
+            291.0246276855469,
+            740.5631103515625
+          ]
+        },
+        {
+          "id": "p7-b3-bf5ca26",
+          "kind": "paragraph",
+          "text": "Drought, etc.). \nThe second axis of the RDA explained 9.4% of the variance (Fig. 7) \nand was negatively related to the area ratio of Stevia (Sugar crops) and",
+          "bbox": [
+            306.5926208496094,
+            706.6128540039062,
+            560.0186767578125,
+            740.5631103515625
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b5-3ae2f2e",
+          "kind": "paragraph",
+          "text": "Fig. 4. Perceived supply in 2020 (Fig. 4a) and changes in supply between 2015 and 2020 (Fig. 4b) of supporting ecosystem services. Results in panels a and b are for \nthe respondents who provided a scoring, while panels c and d present the percentage of respondents not providing a scoring. “Not applicable” denotes the absence of \nspecific ecosystem services in village or farm level. For example, some of the villages had no rivers nearby or the farmers did not use certain water resources \nfor irrigation.",
+          "bbox": [
+            37.587398529052734,
+            405.16607666015625,
+            559.7587890625,
+            445.5802001953125
+          ]
+        },
+        {
+          "id": "p7-figure2",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p7-figure2.png",
+          "alt": "Original source page 7, graphic 2",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b7-02bb2c0",
+          "kind": "paragraph",
+          "text": "Fig. 5. Perceived supply in 2020 (Fig. 5a) and changes in supply between 2015 and 2020 (Fig. 5b) of cultural ecosystem services. Results in panels a and b are for the \nrespondents who provided a scoring, while panels c and d present the percentage of respondents not providing a scoring.",
+          "bbox": [
+            37.587398529052734,
+            675.5350952148438,
+            559.7637939453125,
+            696.8439331054688
+          ]
+        },
+        {
+          "id": "p7-b8-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p8-b1-2c62423",
+          "kind": "paragraph",
+          "text": "8",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p8-b2-95132da",
+          "kind": "paragraph",
+          "text": "fruit trees (Fruit trees), which were grown in areas with relatively low \npopulation (Population) and closer to the city center (Distance to city). \nThese less diversified cropping systems (negative correlation with var­\niable ‘Diversified cropping system’) had high cultural value (Tourism), \ndespite signs of dis-services of water and air pollution (Fig. 7).",
+          "bbox": [
+            37.587398529052734,
+            480.6917724609375,
+            291.03021240234375,
+            535.5611572265625
+          ]
+        },
+        {
+          "id": "p8-b3-b300e7e",
+          "kind": "heading",
+          "text": "3.7. Differences in agroecosystem (dis)services supply among village types",
+          "bbox": [
+            37.587398529052734,
+            543.449951171875,
+            285.0334777832031,
+            556.4810791015625
+          ]
+        },
+        {
+          "id": "p8-b4-9509851",
+          "kind": "paragraph",
+          "text": "Village types are mainly different in landscape composition, i.e., the \narea proportion of different crop types (Table S3). Villages with wide­\nspread vegetable cultivation (Village type 5) had generally better pro­\nvisioning services (Revenue), regulating services (Ladybugs, etc.), and \nsupporting services (Earthworms, etc.). Villages with widespread cotton \ncultivation (Village type 6), had relatively lower services deliveries \nespecially cultural services (Fig. 8a), but higher dis-services like hail \ndamage (Fig. 8b). The delivery of agroecosystem services was close to \naverage in village types with widespread cereal cultivation (Village \ntypes 3 and 4) (Fig. 8a). Farmers in village type 4 reported few natural \nhabitats (Ditches and Field islets) and ladybugs (Fig. 8a), but more dis- \nservices to agriculture (Wind) and more dis-services from agriculture \n(Water pollution) (Fig. 8b). In the diversified village type 7, dis-services \nwere lower than in other village types (Fig. 8b).",
+          "bbox": [
+            37.587398529052734,
+            564.3690795898438,
+            291.0325927734375,
+            713.3485717773438
+          ]
+        },
+        {
+          "id": "p8-b5-54c664c",
+          "kind": "heading",
+          "text": "4. Discussion",
+          "bbox": [
+            306.5926208496094,
+            480.6917724609375,
+            361.413330078125,
+            493.7228698730469
+          ]
+        },
+        {
+          "id": "p8-b6-fef4f5b",
+          "kind": "paragraph",
+          "text": "Farmers in Quzhou County perceived that regulating and supporting \nservices were in poor condition or declining due to groundwater \ndepletion, scarcity of natural habitats and loss of natural enemies, but \nthey did not think pests were serious (Fig. 3, Figs. 4 and 6). Dis-services \ngenerated by agricultural production were observed by only few farmers \n(Fig. 6). We investigated the relationship between perceived agro­\necosystem (dis)services and biophysical and socioeconomic conditions \nin villages, and found that the perceived agroecosystem (dis)services \nsupply was associated with cultivated crop types and the distance to the \ncity center (Fig. 7). Among different village types in Quzhou, the villages \nwith a large proportion of fiber crops (cotton) had the worst perfor­\nmance in terms of agroecosystem (dis)services supply among the village \ntypes, while the villages with more vegetable production performed \nbetter (Fig. 8).",
+          "bbox": [
+            306.5926208496094,
+            501.61090087890625,
+            560.0075073242188,
+            650.5903930664062
+          ]
+        },
+        {
+          "id": "p8-b7-4139d44",
+          "kind": "heading",
+          "text": "4.1. What can be learnt from farmers’ perception of agroecosystem (dis) \nservices?",
+          "bbox": [
+            306.5926208496094,
+            658.64892578125,
+            554.0108642578125,
+            682.16796875
+          ]
+        },
+        {
+          "id": "p8-b8-efd3101",
+          "kind": "paragraph",
+          "text": "Farmers in Quzhou county perceived a scarcity or a decline of \nregulating and supporting services. Consistent with previous studies, the \nfarmers participating in this study acknowledged several issues, \nincluding ground water depletion (Zhao et al., 2019), climate warming \nand heat stress (Chen and Whalen, 2016; Wu et al., 2021), a scarcity of",
+          "bbox": [
+            306.5926208496094,
+            690.0567626953125,
+            560.0011596679688,
+            744.9260864257812
+          ]
+        },
+        {
+          "id": "p8-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p8-figure1.png",
+          "alt": "Original source page 8, graphic 1",
+          "caption": "原文第8页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p8-b10-65a96e9",
+          "kind": "paragraph",
+          "text": "Fig. 6. Perceived damage level in 2020 (Fig. 6a) and changes in the damage between 2015 and 2020 (Fig. 6b) of ecosystem dis-services. Results in panels a and b are \nfor the respondents who provided a scoring, while panels c and d present the percentage of respondents not providing a scoring. “No awareness” means that the dis- \nservices are not easily visible, and the respondents may not be aware of them. “No occurrence” means that the respondents were able to observe the dis-service but \ndid not observe it.",
+          "bbox": [
+            37.587398529052734,
+            430.508056640625,
+            559.7767944335938,
+            470.92218017578125
+          ]
+        },
+        {
+          "id": "p8-b11-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p9-b1-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p9-b2-7b21994",
+          "kind": "paragraph",
+          "text": "natural habitats (Li, 2014) and loss of biodiversity in the simplified \nagricultural landscape (Liu et al., 2006, 2010). \nAlthough the input of pesticides has been decreased by 35% and \nfertilizer was reduced by 9% from 2015 to 2020 in Quzhou County \n(NBSC, 2015–2020) under the “Zero Growth of Chemical Fertilizer and \nPesticide Use Policy” that started in 2015 (Jin and Zhou, 2018), farmers \nstill perceived a decline in the presence of natural enemies during this \nperiod. However, the actual dynamics between pests and natural en­\nemies and the effects of (scarcity of) natural habitats would be hard to \npredict for farmers (W. Zhang et al., 2016). Stronger reductions in \nchemical inputs and the frequency and severity of mechanical opera­\ntions (Bianchi, 2022) and the development of semi-natural habitats \n(Ricci et al., 2019) may be required to turn the agricultural landscape \ninto “source habitats” for natural enemies (Dreyer and Gratton, 2014) to \nprovide more effective pest control. \nTombs in traditional croplands can serve as less-disturbed habitat \nislets that could act as hotspots of biodiversity in the agricultural land­\nscape of Quzhou (Li, 2014). They can function as refuges to host",
+          "bbox": [
+            37.587398529052734,
+            544.5277709960938,
+            291.0285949707031,
+            735.4028930664062
+          ]
+        },
+        {
+          "id": "p9-b3-a0264de",
+          "kind": "paragraph",
+          "text": "farmland organisms and potentially natural enemies (Li, 2014; Xiao, \n2014). The tombs hamper mechanical operations but have an important \ncultural value. Farmers indicated that removing the tombs from the \nfields for the purpose of land consolidation would cause resistance and \nresentment among farmers, especially among older people. This in­\ndicates the importance of considering the cultural values embedded in \nagricultural landscapes in the assessment and planning of landscape \nchanges. \nA striking result is the reported absence of dis-services from agri­\ncultural production. Most farmers reported to be unaware that overuse \nof agronomic inputs could cause ecosystem dis-services like air and \nwater pollution. However, other research conducted in Quzhou county \nreveals that more than half of the farmers in the case study area \nextensively used pesticides, particularly in vegetables and orchards \nproduction (Mu et al., 2022a). This widespread pesticide usage led to \nhealth risks for farmers due to the presence of pesticides in indoor dust, \nwhich can be considered as a form of dis-service (Mu et al., 2022b). So \nwhy are dis-services reported to be so low? Three potential explanations",
+          "bbox": [
+            306.5926208496094,
+            544.5277709960938,
+            560.0186157226562,
+            735.4028930664062
+          ]
+        },
+        {
+          "id": "p9-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p9-figure1.png",
+          "alt": "Original source page 9, graphic 1",
+          "caption": "原文第9页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p9-b5-ee7a849",
+          "kind": "paragraph",
+          "text": "Fig. 7. Redundancy analysis of associations of village characteristics and the provisioning of agroecosystem services and dis-services. Dots with different colors \nrepresent different categories of agroecosystem services and dis-services. Lines with labels represent explanatory variables (Village characteristics. Definitions of each \nvariable can be found in Table 1). Longer vectors indicate that a variable more strongly drives the variation of agroecosystem (dis)services among the villages. Angles \nbetween variables reflect their correlation (line to line, line to dot, and dot to dot) (Borcard et al., 2011). Lines or dots pointing in the same directions have a positive \nrelationship.",
+          "bbox": [
+            37.587398529052734,
+            484.7630615234375,
+            559.7832641601562,
+            534.7581176757812
+          ]
+        },
+        {
+          "id": "p9-b6-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p10-b1-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p10-figure1",
+          "kind": "image",
+          "path": "library/cheng-2023/7b8cf2416ee8/p10-figure1.png",
+          "alt": "Original source page 10, graphic 1",
+          "caption": "原文第10页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p10-b3-cfd27b7",
+          "kind": "paragraph",
+          "text": "Fig. 8. Differences in ecosystem services (a) and dis-services (b) among village types. Village type 1 had relatively widespread fruit trees and was nearest to the city \ncenter. Village type 2 had more widespread cultivation of sugar crops. Land use in village type 3 was dominated by cereals and this village had high population \ndensity. Village type 4 was also cereal dominated. Village type 5 was vegetable dominated. Village type 6 had a large area proportion of cotton and was furthest to the \ncity center. Village type 7 was relatively diversified. See Table S4 in supplementary material for additional information.",
+          "bbox": [
+            37.587398529052734,
+            651.9500732421875,
+            559.7637939453125,
+            692.4208374023438
+          ]
+        },
+        {
+          "id": "p10-b4-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p11-b1-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p11-b2-da782c5",
+          "kind": "paragraph",
+          "text": "come to mind. First, many ecosystem (dis)services are difficult to \nobserve even for knowledgeable and experienced observers (Lima and \nBastos, 2019), so farmers are simply unable to perceive and interpret \nthem (cf. Pan et al., 2021). Input suppliers were important sources of \ninformation of agricultural inputs application for farmers in the absence \nof a local extension system (Jin et al., 2015). However, those suppliers \nmay not be able or willing to fully inform the farmers about the potential \nharm of chemical inputs, and some of them may amplify the recom­\nmended amount of pesticide use to gain profit or trust (Zhang et al., \n2015). Second, many farmers in our survey attributed pollution to in­\ndustrial and household waste, suggesting that farmers may not want to \nperceive or may not want to admit their contribution to environmental \nproblems. A well-known caveat of self-reported assessment is that re­\nspondents tend to give socially desirable answers and/or show \nself-deception (Milfont, 2009). There could also be strategic motives \ninvolved to keep problems ‘under the rug’, for example anticipation of \nstricter regulation. Third, we may also observe a ‘shifting baseline syn­\ndrome’ (Soga and Gaston, 2018) where farmers are over time exposed to \nincreasing levels of pesticides, and those levels are then perceived to be \nperfectly normal and seen as benign. Our research was not designed to \ndisentangle or test the relevance of these three channels, but investi­\ngating the mechanisms and motives of underreporting of dis-services is \ncertainly a fruitful avenue for further research.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0285949707031,
+            294.4451599121094
+          ]
+        },
+        {
+          "id": "p11-b3-d89c24e",
+          "kind": "heading",
+          "text": "4.2. Agroecosystem (dis)services and village characteristics",
+          "bbox": [
+            37.587398529052734,
+            303.0138244628906,
+            239.5345916748047,
+            316.044921875
+          ]
+        },
+        {
+          "id": "p11-b4-cc9f139",
+          "kind": "paragraph",
+          "text": "Previous studies have considered the effect of landscape features on \nthe perceptions of ecosystem services, for example, non-crop habitats \n(Zhang et al., 2018), forest and agroforest (Muhamad et al., 2014), and \nmultiple natural and semi-natural landscapes (Zoderer et al., 2019). In \nthe context of agricultural landscapes, we are not aware of any research \non the relations between people’s perceptions and landscape composi­\ntion. This study provides evidence that the crop type composition in \nlandscapes is strongly associated with farmers’ perception of agro­\necosystem (dis)services (Fig. 7). Socioeconomic and demographic fac­\ntors also determine the ecosystem (dis)services and the perceptions, e.g., \nlocation advantages (Zhang et al., 2021), population density (Fei et al., \n2016), and type of stakeholders (Bernues et al., 2016). Similar to pre­\nvious studies (Wang et al., 2021), we also found that the distance to the \ncity is associated with agroecosystem (dis)services delivery. \nVillages with predominantly market-oriented crops (vegetables, \nfruits, Stevia) and located closer to the city center tended to have better \nsoil and availability of irrigation. These advantages and the vicinity of \nmarkets provide those villages more options to develop cash crop pro­\nduction. Agrotourism also benefits villages with more fruit orchards and \nnear cities by increasing their profit through activities like fruit-picking \nor flower-viewing. Previous studies indicated that excessive amounts of \npesticide were used in vegetables and orchards production in Quzhou, \nwhich imperiled the pollinators (Mu et al., 2022a). Our survey was \ndesigned to measure farmers’ assessment of insect pollination services \nprovided by naturally occurring insects and managed honeybees. The \nresults showed the farmers in these vegetable-dominated villages \nperceived effective pollination. From our field visits, we know that \nfarmers in these villages may nevertheless use hand pollination (e.g., in \nmelons) indicating that they still invest in measures to assure their yield. \nSuch pollination measures require additional input and investment \ncompared to natural insect-induced pollination, and assessing the so­\ncioeconomic impacts of those seems like a natural avenue for further \nresearch. \nRemote villages tend to utilize a larger proportion of the area for \ncotton cultivation, which may result from the fallow policy that was \nintroduced in 2015. The government encouraged farmers to grow single \nseason cotton instead of winter wheat-summer maize double cropping to \nreduce groundwater depletion. Farmers adopting fallow policies \nreceived subsidy equivalent to the profit of one season grain production. \nDespite the extensification of land-use due to the following, which is",
+          "bbox": [
+            37.587398529052734,
+            323.9329528808594,
+            291.03338623046875,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p11-b5-b3d46b4",
+          "kind": "paragraph",
+          "text": "expected to deliver more services (e.g., save more underground water), \nthese farmers perceived more dis-services compared to beneficial \nservices.",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            559.9907836914062,
+            85.24996185302734
+          ]
+        },
+        {
+          "id": "p11-b6-d00e088",
+          "kind": "heading",
+          "text": "4.3. Limitations and outlook",
+          "bbox": [
+            306.5926208496094,
+            93.81861877441406,
+            406.8062744140625,
+            106.8497314453125
+          ]
+        },
+        {
+          "id": "p11-b7-bc6d449",
+          "kind": "paragraph",
+          "text": "Perception-based evaluation can be an effective scanning tool to \nelucidate locally relevant constraints, challenges and patterns of obser­\nvations and beliefs regarding agroecosystem (dis)services (Chen et al., \n2018; Smith and Sullivan, 2014). The survey-based assessment of \nagroecosystem (dis)services could be used to rapidly identify issues and \nchallenges experienced by stakeholders in relation to agricultural pro­\nduction in a bottom-up approach (Dawoe et al., 2012), but there are \nimportant caveats. Perceptions are inherently subjective and dependent \non the respondents’ ability and willingness to acknowledge problems \n(Bennett, 2016). In addition, multiple factors like visibility of (dis)ser­\nvices, knowledge, experience, biophysical environment, personality \ntraits, demographic characteristics, etc. also make the interpretation of \nperception-based agroecosystem (dis)services assessment complex \n(Chen et al., 2018; Lima and Bastos, 2019; Martín-L´opez et al., 2012; \nZhang et al., 2018; Zoderer et al., 2019). Knowing to what extent \nstakeholders can precisely characterize the real agroecosystem (dis) \nservices and their trend over time is challenging. The results from \nperception-based evaluation of agroecosystem (dis)services can provide \nvaluable bottom to up information, but policymakers should always be \nmindful of their limitations. \nQuzhou is a representative county in the North China Plain, but \nperception-based evaluation is still context-dependent. As Quzhou \nbecame a test area for China’s policy for Agriculture Green Development \nin 2020, the perception of ecosystem services in this area could change \nwith time. Therefore, quantitative assessment with measurable (proxy) \nindicators is needed. Survey-based assessments are most valuable when \ncomplementing – rather than substituting – an indicator–cased bio­\nphysical assessment. The interpretation of our study results is to some \nextent constrained by the absence of ground-truthing data. Nevertheless, \nthe current survey results set a useful baseline for future monitoring and \nmeasurement programs, and for evaluating the temporal development \nof stakeholder perceptions. \nThere are several important considerations to bear in mind when \ncomparing perceptions with biophysical assessment through ground- \ntruthing in future research. Firstly, relying solely on biophysical evalu­\nations may not adequately capture the subjective cognitions and expe­\nriences of individuals concerning cultural services. Secondly, \nrespondents may not fully align their understanding of certain (dis) \nservices with the definitions used in biophysical assessment. Thirdly, \nsome (dis)services, such as air pollution, are invisible and require a \ntheoretical understanding to fully comprehend their impact. In such \ncases of people’s non-recognition of certain (dis)services, ground- \ntruthing can yield more reliable results. In conclusion, the process of \nground-truthing holds value for verifying perceptions of agroecosystem \n(dis)services. However, it is crucial to approach ground-truthing with \ncareful consideration of the unique characteristics of each (dis)service \nand to be mindful of potential reasons for discrepancies between peo­\nple’s perceptions and biophysical assessments. By addressing these \nfactors during ground-truthing, researchers can obtain more reliable and \ncomprehensive insights into the true nature of agroecosystem (dis) \nservices. \nThe results in this study are based on a sample of interviewees \nconsisting of 187 smallholder farmers, 35 village heads and 45 leader \nfarmers. We interviewed all the village heads in the sample of 35 vil­\nlages, all the leader farmers that could be reached, and a proportion of \nthe smallholders accounting for 100–800 households per village. Results \npresented are for the pooled data, but some differences between the \nthree groups of interviewees were identified (Table S5). We chose to \nanalyze the pooled data of the whole sample because on the whole, the \nthree farmer groups of interviewees gave scores that are consistent in the",
+          "bbox": [
+            306.5926208496094,
+            114.73773193359375,
+            560.020263671875,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p11-b8-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            500.5948486328125,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p12-b1-6b51d43",
+          "kind": "paragraph",
+          "text": "12",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p12-b2-9addc02",
+          "kind": "paragraph",
+          "text": "sense that they would qualify as low, medium or high across all the \ngroups, even in the cases in which significant differences between the \ngroups were detected (Table S5). While these differences are acknowl­\nedged, the analysis of this paper is not focused on comparing different \nstakeholders but on an overall assessment of ecosystem services provi­\nsioning in the study area. For an assessment, the point of view of leader \nfarmers and village heads cannot be ignored because they are generally \nwell informed on the local situation and in any future societal discourse, \nsuch stakeholder will tend to have a voice. Overall, the ratings of \nsmallholders (187 interviewees out of a total of 267 interviewees; 70%) \nstill determine to a large extent the overall outcome of the survey. \nSupplementary material provides Figs. S5–S8, based on the smallholders \nonly, showing broadly the same patterns as those represented in the \nmain text, so the conclusions drawn are robust to this selection of the \nsample. \nThe redundancy analysis (RDA) explained only a small proportion of \nthe variance in this study. RDA can only reveal linear relationships be­\ntween explanatory factors and agroecosystem (dis)services, while for the \necological processes underlying agroecosystem (dis)services provision­\ning non-linear relations could be expected. Therefore, the RDA cannot \naddress the complex nature of the socio-ecological systems and pro­\ncesses occurring at multiple temporal-spatial scales. Nevertheless, RDA \ncan still give an impression of the direction of relations since it captures \nthe key factors that influence the agroecosystem (dis)services and allows \nto visualize the relationship among the variables. The robustness of the \nrelationships needs to be further tested at multiple temporal and spatial \nscales. \nThe village-based analysis suggests that agroecosystem (dis)services \nare context-specific and should therefore be linked to socioeconomic \nand biophysical factors that are likely to vary between villages in the \nsame county or city. Accordingly, Chinese government policy proposed \nin 2019 encourages using a village typology for rural planning and \ndevelopment (Ministry of Agriculture and Rural Affairs, 2019). More­\nover, participation of farmers and other local actors in the planning and \ndevelopment process is stimulated. In that sense, the farmers’ perception \nof agroecosystem (dis)services could be embedded within these wider \npolicy development processes. This would create an interface between \nthe top-down and bottom-up planning approaches which can help to \nmake policy implementation more effective (Martínez-Sastre et al., \n2020; Pradhan et al., 2017). Farmers could benefit from their involve­\nment as they would receive more professional knowledge, information, \nand guidance for nature-positive farming practices. This could be com­\nbined with existing interface platforms like the science and technology \nbackyards (STBs), which support agricultural innovation within villages \n(J. Li et al., 2022).",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.03021240234375,
+            524.6160888671875
+          ]
+        },
+        {
+          "id": "p12-b3-c6e7582",
+          "kind": "heading",
+          "text": "5. Conclusions",
+          "bbox": [
+            37.587398529052734,
+            533.128173828125,
+            97.85250854492188,
+            546.1593017578125
+          ]
+        },
+        {
+          "id": "p12-b4-e562d08",
+          "kind": "paragraph",
+          "text": "Here we describe the current state and recent trends in agro­\necosystem services and dis-services perceived by farmers in the simpli­\nfied agricultural landscapes of Quzhou county in the North China Plain. \nThe study shows that while Quzhou exhibits relatively good provision­\ning services, farmers perceived a scarcity and vulnerability of regulating \nand supporting services and had limited awareness of dis-services. The \nlack of awareness of dis-services is surprising, as several dis-services \nhave been documented on the basis of quantitative measurements in \nother studies. This suggests that farmers’ perception can complement \nbut not substitute agroecosystem services assessments based on bio­\nphysical quantification. The farmers’ perception can be used to effec­\ntively search for the knowledge gaps of ecosystem services assessment \nand where extension and awareness raising are needed. Verification of \nfarmers’ perceptions by ground-truthing could further contribute to \nhaving a baseline for monitoring the progress of ‘Agriculture Green \nDevelopment’ in the future. The findings of the relations between \nperceived supply and village characteristics emphasize the need for \ntargeted interventions and policies to enhance agroecosystem service",
+          "bbox": [
+            37.587398529052734,
+            554.0472412109375,
+            291.0342102050781,
+            744.92236328125
+          ]
+        },
+        {
+          "id": "p12-b5-f62493b",
+          "kind": "paragraph",
+          "text": "provision at the village scale. Stimulating nature-positive farm practices \nand improving the agroecosystem services requires consideration of \nspecific socioecological conditions of different villages and engagement \nof different stakeholder groups.",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            559.9932250976562,
+            95.7378158569336
+          ]
+        },
+        {
+          "id": "p12-b6-d8da8c5",
+          "kind": "paragraph",
+          "text": "Credit author statement",
+          "bbox": [
+            306.5926208496094,
+            104.93052673339844,
+            400.4540710449219,
+            117.96163940429688
+          ]
+        },
+        {
+          "id": "p12-b7-3348f3b",
+          "kind": "paragraph",
+          "text": "Jiali Cheng: Investigation, Data curation, Formal analysis, Visuali­\nzation, Writing – original draft, Writing – review & editing. Zhan Xu: \nData curation, Formal analysis. Zhengyuan Liang: Investigation, Data \ncuration. Fan Li: Investigation, Resources, Writing – review & editing. \nWen-Feng Cong: Supervision, Writing – review & editing, Funding \nacquisition. Chaochun Zhang: Supervision, Resources. Lei Song: Inves­\ntigation, Resources. Chong Wang: Data curation, Resources. Fusuo \nZhang: Supervision, Resources, Project administration. Andries Richter: \nSupervision, Writing – review & editing. Wopke van der Werf: \nConceptualization, Supervision, Writing – review & editing. Jeroen C.J. \nGroot: Conceptualization, Supervision, Writing – review & editing.",
+          "bbox": [
+            306.5926208496094,
+            125.84965515136719,
+            560.0219116210938,
+            243.47877502441406
+          ]
+        },
+        {
+          "id": "p12-b8-9c53d09",
+          "kind": "paragraph",
+          "text": "Declaration of competing interest",
+          "bbox": [
+            306.5926208496094,
+            256.8095703125,
+            437.5142517089844,
+            269.8406677246094
+          ]
+        },
+        {
+          "id": "p12-b9-5f4cebb",
+          "kind": "paragraph",
+          "text": "The authors declare that they have no known competing financial \ninterests or personal relationships that could have appeared to influence \nthe work reported in this paper.",
+          "bbox": [
+            306.5926208496094,
+            277.7852783203125,
+            560.0115966796875,
+            311.7362976074219
+          ]
+        },
+        {
+          "id": "p12-b10-188a992",
+          "kind": "heading",
+          "text": "Data availability",
+          "bbox": [
+            306.5926208496094,
+            319.62432861328125,
+            372.4368591308594,
+            332.6554260253906
+          ]
+        },
+        {
+          "id": "p12-b11-2889f11",
+          "kind": "paragraph",
+          "text": "Data will be made available on request.",
+          "bbox": [
+            318.5541687011719,
+            340.5442199707031,
+            461.20538330078125,
+            353.5753173828125
+          ]
+        },
+        {
+          "id": "p12-b12-791552f",
+          "kind": "paragraph",
+          "text": "Acknowledgment",
+          "bbox": [
+            306.5926208496094,
+            362.7672424316406,
+            375.0079345703125,
+            375.79833984375
+          ]
+        },
+        {
+          "id": "p12-b13-4795616",
+          "kind": "paragraph",
+          "text": "We acknowledge colleagues who participated in the survey and data \nentry. This study was financially supported by the National Key \nResearch and Development Program of China (2022YFD1900200), \nHainan University, the Program of Advanced Discipline Construction in \nBeijing (Agriculture Green Development), China Scholarship Council \n(No. 201913043), and Fundamental Research Funds for the Central \nUniversities of Huazhong Agricultural University (2662022JGQD002).",
+          "bbox": [
+            306.5926208496094,
+            383.68719482421875,
+            560.0083618164062,
+            459.4764404296875
+          ]
+        },
+        {
+          "id": "p12-b14-c09b53c",
+          "kind": "paragraph",
+          "text": "Appendix A. Supplementary data",
+          "bbox": [
+            306.5926208496094,
+            468.6683654785156,
+            437.4959411621094,
+            481.699462890625
+          ]
+        },
+        {
+          "id": "p12-b15-65fd6da",
+          "kind": "paragraph",
+          "text": "Supplementary data to this article can be found online at https://doi. \norg/10.1016/j.jenvman.2023.119060.",
+          "bbox": [
+            306.5926208496094,
+            489.5882873535156,
+            560.0011596679688,
+            513.0506591796875
+          ]
+        },
+        {
+          "id": "p12-b16-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            306.5926208496094,
+            522.243408203125,
+            350.1412048339844,
+            535.2745361328125
+          ]
+        },
+        {
+          "id": "p12-b17-62620ea",
+          "kind": "paragraph",
+          "text": "Bennett, N.J., 2016. Using perceptions as evidence to improve conservation and \nenvironmental management. Conserv. Biol. 30, 582–592. https://doi.org/10.1111/ \ncobi.12681. \nBernues, A., Tello-Garcia, E., Rodriguez-Ortega, T., Ripoll-Bosch, R., Casasus, I., 2016. \nAgricultural practices, ecosystem services and sustainability in High Nature Value \nfarmland: unraveling the perceptions of farmers and nonfarmers. Land Use Pol. 59, \n130–142. https://doi.org/10.1016/j.landusepol.2016.08.033. \nBianchi, F.J.J.A., 2022. From pattern to process: towards mechanistic design principles \nfor pest suppressive landscapes. Basic Appl. Ecol. 64, 157–171. https://doi.org/ \n10.1016/j.baae.2022.09.002. \nBorcard, D., Gillet, François, Legendre, P., 2011. Canonical ordination. In: Borcard, D., \nGillet, Francois, Legendre, P. (Eds.), Numerical Ecology with R, Use R. Springer, New \nYork, NY, pp. 153–225. https://doi.org/10.1007/978-1-4419-7976-6_6. \nBryer, J., Speerschneider, K., Bryer, M.J., 2016. Package ‘likert.’ Likert: analysis and \nvisualization Likert items (1.3. 5. Available online at: https://CRAN. R-project. \norg/package= likert. accessed April 6th, 2023).  \nCao, Y., Cao, Y., Li, G., Tian, Y., Fang, X., Li, Y., Tan, Y., 2020. Linking ecosystem services \ntrade-offs, bundles and hotspot identification with cropland management in the \ncoastal Hangzhou Bay area of China. Land Use Pol. 97, 104689. \nChen, D., Whalen, J.K., 2016. Climate change in the North China plain: smallholder \nfarmer perceptions and adaptations in Quzhou county, Hebei province. Clim. Res. \n69, 261–273. https://doi.org/10.3354/cr01407. \nChen, Y., Yu, Z., Li, X., Li, P., 2018. How agricultural multiple ecosystem services \nrespond to socioeconomic factors in Mengyin County, China. Sci. Total Environ. 630, \n1003–1015. https://doi.org/10.1016/j.scitotenv.2018.02.187.",
+          "bbox": [
+            306.5950012207031,
+            542.5224609375,
+            557.5510864257812,
+            744.2265625
+          ]
+        },
+        {
+          "id": "p12-b18-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.590057373046875,
+            33.651676177978516,
+            500.5985107421875,
+            44.076271057128906
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p13-b1-3fdba35",
+          "kind": "paragraph",
+          "text": "13",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p13-b2-f9b5ec1",
+          "kind": "paragraph",
+          "text": "Chen, Y., Zhang, Q., Liu, W., Yu, Z., 2017. Analyzing farmers’ perceptions of ecosystem \nservices and PES schemes within agricultural landscapes in Mengyin county, China: \ntransforming trade-offs into synergies. Sustainability 9, 1459. https://doi.org/ \n10.3390/su9081459. \nCui, J., Sui, P., Wright, D.L., Wang, D., Yang, J., Lv, Z., Chen, Y., 2021. A revised \nintegrated framework to evaluate the sustainability of given cropping systems. \nJ. Clean. Prod. 289, 125716 https://doi.org/10.1016/j.jclepro.2020.125716. \nDawoe, E.K., Quashie-Sam, J., Isaac, M.E., Oppong, S.K., 2012. Exploring farmers’ local \nknowledge and perceptions of soil fertility and management in the Ashanti Region of \nGhana, 180 Geoderma 179, 96–103. https://doi.org/10.1016/j. \ngeoderma.2012.02.015. \nDeClerck, F., Jones, S., Attwood, S., Bossio, D., Girvetz, E., Chaplin-Kramer, B., Enfors, E., \nFremier, A., Gordon, L., Kizito, F., Lopez Noriega, I., Matthews, N., McCartney, M., \nMeacham, M., Noble, A., Quintero, M., Remans, R., Soppe, R., Willemen, L., \nWood, S., Zhang, W., 2016. Agricultural ecosystems and their services: the vanguard \nof sustainability? Curr. Opin. Environ. Sustain., Open Issue, part I 23, 92–99. https:// \ndoi.org/10.1016/j.cosust.2016.11.016. \nde Groot, R.S., Alkemade, R., Braat, L., Hein, L., Willemen, L., 2010. Challenges in \nintegrating the concept of ecosystem services and values in landscape planning, \nmanagement and decision making. Ecol. Complex. 7, 260–272. https://doi.org/ \n10.1016/j.ecocom.2009.10.006. \nde Groot, R.S., Wilson, M.A., Boumans, R.M.J., 2002. A typology for the classification, \ndescription and valuation of ecosystem functions, goods and services. Ecol. Econ. 41, \n393–408. https://doi.org/10.1016/S0921-8009(02)00089-7. \nde Snoo, G.R., Herzon, I., Staats, H., Burton, R.J.F., Schindler, S., van Dijk, J., \nLokhorst, A.M., Bullock, J.M., Lobley, M., Wrbka, T., Schwarz, G., Musters, C.J.M., \n2013. Toward effective nature conservation on farmland: making farmers matter. \nConserv. Lett. 6, 66–72. https://doi.org/10.1111/j.1755-263X.2012.00296.x. \nDomon, G., 2011. Landscape as resource: consequences, challenges and opportunities for \nrural development. Landsc. Urban Plann. 100, 338–340. https://doi.org/10.1016/j. \nlandurbplan.2011.02.014. \nDreyer, J., Gratton, C., 2014. Habitat linkages in conservation biological control: lessons \nfrom the land–water interface. Biol. Control 75, 68–76. https://doi.org/10.1016/j. \nbiocontrol.2013.11.006. \nFei, L., Shuwen, Z., Jiuchun, Y., Kun, B., Qing, W., Junmei, T., Liping, C., 2016. The \neffects of population density changes on ecosystem services value: a case study in \nWestern Jilin, China. Ecol. Indicat. 61, 328–337. https://doi.org/10.1016/j. \necolind.2015.09.033. \nJin, S., Bluemling, B., Mol, A.P.J., 2015. Information, trust and pesticide overuse: \ninteractions between retailers and cotton farmers in China. NJAS - Wageningen J. \nLife Sci. 72–73, 23–32. https://doi.org/10.1016/j.njas.2014.10.003. \nJin, S., Zhou, F., 2018. Zero growth of chemical fertilizer and pesticide use: China’s \nobjectives, progress and challenges. J. Resour. Ecol. 9, 50–58. https://doi.org/ \n10.5814/j.issn.1674-764x.2018.01.006. \nLi, J., Leeuwis, C., Heerink, N., Zhang, W., 2022a. The science and technology backyard \nas a local level innovation intermediary in rural China. Front. Agric. Sci. Eng. 9, \n558–576. https://doi.org/10.15302/J-FASE-2022465. \nLi, K., Wang, C., Zhang, H., Zhang, J., Jiang, R., Feng, G., Liu, X., Zuo, Y., Yuan, H., \nZhang, C., Gai, J., Tian, J., Li, H., Sun, Y., Yu, B., 2022b. Evaluating the effects of \nagricultural inputs on the soil quality of smallholdings using improved indices. \nCatena 209, 105838. https://doi.org/10.1016/j.catena.2021.105838. \nLi, L., 2014. Distribution Pattern of Plant Diversity and Vegetation Construction in Field \nMargins and Home Gardens (PhD Thesis). China Agricultural University, Beijing.  \nLiang, Z., van der Werf, W., Xu, Z., Cheng, J., Wang, C., Cong, W.-F., Zhang, C., Zhang, F., \nGroot, J.C.J., 2022. Identifying exemplary sustainable cropping systems using a \npositive deviance approach: wheat-maize double cropping in the North China Plain. \nAgric. Syst. 201, 103471 https://doi.org/10.1016/j.agsy.2022.103471. \nLima, F.P., Bastos, R.P., 2019. Perceiving the invisible: Formal education affects the \nperception of ecosystem services provided by native areas. Ecosyst. Serv. 40, 101029 \nhttps://doi.org/10.1016/j.ecoser.2019.101029. \nLiu, Q., Sun, X., Wu, W., Liu, Z., Fang, G., Yang, P., 2022. Agroecosystem services: a \nreview of concepts, indicators, assessment methods and future research perspectives. \nEcol. Indicat. 142, 109218 https://doi.org/10.1016/j.ecolind.2022.109218. \nLiu, Y., Axmacher, J.C., Wang, C., Li, L., Yu, Z., 2010. Ground beetles (Coleoptera: \nCarabidae) in the intensively cultivated agricultural landscape of Northern China – \nimplications for biodiversity conservation. Insect. Conserv. Divers. 3, 34–43. https:// \ndoi.org/10.1111/j.1752-4598.2009.00069.x. \nLiu, Y., Yu, Z., Gu, W., Axmacher, J.C., 2006. Diversity of carabids (Coleoptera, \nCarabidae) in the desalinized agricultural landscape of Quzhou county, China. Agric. \nEcosyst. Environ. 113, 45–50. https://doi.org/10.1016/j.agee.2005.08.035. \nMa, F., Eneji, A.E., Liu, J., 2015. Assessment of ecosystem services and dis-services of an \nagro-ecosystem based on extended emergy framework: a case study of Luancheng \ncounty, North China. Ecol. Eng. 82, 241–251. https://doi.org/10.1016/j. \necoleng.2015.04.100. \nMartínez-Sastre, R., García, D., Mi˜narro, M., Martín-L´opez, B., 2020. Farmers’ \nperceptions and knowledge of natural enemies as providers of biological control in \ncider apple orchards. J. Environ. Manag. 266, 110589 https://doi.org/10.1016/j. \njenvman.2020.110589. \nMartín-L´opez, B., Iniesta-Arandia, I., García-Llorente, M., Palomo, I., Casado-Arzuaga, I., \nAmo, D.G.D., G´omez-Baggethun, E., Oteros-Rozas, E., Palacios-Agundez, I., \nWillaarts, B., Gonz´alez, J.A., Santos-Martín, F., Onaindia, M., L´opez-Santiago, C., \nMontes, C., 2012. Uncovering ecosystem service bundles through social preferences. \nPLoS One, e38970. https://doi.org/10.1371/journal.pone.0038970. \nMEA, 2005. Current State and Trends. Wash. DC.  \nMeng, F., Wang, M., Strokal, M., Kroeze, C., Ma, L., Li, Y., Zhang, Q., Wei, Z., Hou, Y., \nLiu, X., Xu, W., Zhang, F., 2022. Nitrogen losses from food production in the North",
+          "bbox": [
+            37.587398529052734,
+            52.12942886352539,
+            288.5721130371094,
+            740.0265502929688
+          ]
+        },
+        {
+          "id": "p13-b3-d36e5c8",
+          "kind": "paragraph",
+          "text": "China Plain: a case study for Quzhou. Sci. Total Environ. 816, 151557 https://doi. \norg/10.1016/j.scitotenv.2021.151557. \nMilfont, T.L., 2009. The effects of social desirability on self-reported environmental \nattitudes and ecological behaviour. Environmentalist 29, 263–269. https://doi.org/ \n10.1007/s10669-008-9192-2. \nMinistry of Agriculture and Rural Affairs, 2021. 14th Five-Year Plan\" National \nAgricultural Green Development Plan. Ministry of Agriculture and Rural Affairs.  \nMinistry of Agriculture and Rural Affairs, 2019. Suggestions for Coordinating and \nAdvancing Village Planning. Ministry of Agriculture and Rural Affairs. \nMu, H., Wang, K., Yang, X., Xu, W., Liu, X., Ritsema, C.J., Geissen, V., 2022a. Pesticide \nusage practices and the exposure risk to pollinators: a case study in the North China \nPlain. Ecotoxicol. Environ. Saf. 241, 113713 https://doi.org/10.1016/j. \necoenv.2022.113713. \nMu, H., Zhang, J., Yang, X., Wang, K., Xu, W., Zhang, H., Liu, X., Ritsema, C.J., \nGeissen, V., 2022b. Pesticide screening and health risk assessment of residential dust \nin a rural region of the North China Plain. Chemosphere 303, 135115. https://doi. \norg/10.1016/j.chemosphere.2022.135115. \nMuhamad, D., Okubo, S., Harashina, K., Parikesit Gunawan, B., Takeuchi, K., 2014. \nLiving close to forests enhances people’s perception of ecosystem services in a forest- \nagricultural landscape of West Java, Indonesia. Ecosyst. Serv. 8, 197–206. \nNBSC, 2019. China Statistical Yearbook 2019. China Statistics Press, Beijing.  \nNBSC, 2015-2020. Handan City Statistical Yearbooks from 2015 to 2020. China Statistics \nPress, Beijing.  \nNBSC, 2017. Quzhou County Statistical Yearbook of 2017. China Statistics Press, Beijing.  \nOdum, H.T., 1996. Environmental Accounting: EMERGY and Environmental Decision \nMaking. John Wiley, New York (USA.  \nOksanen, J., Blanchet, F.G., Kindt, R., Legendre, P., Minchin, P.R., O’hara, R.B., \nSimpson, G.L., Solymos, P., Stevens, M.H.H., Wagner, H., 2013. Package ‘vegan.’ \nCommunity ecol. Package Version 2, 1–295. \nPan, Y., Ren, Y., Luning, P.A., 2021. Factors influencing Chinese farmers’ proper \npesticide application in agricultural products – a review. Food Control 122, 107788. \nhttps://doi.org/10.1016/j.foodcont.2020.107788. \nPradhan, N.S., Fu, Y., Zhang, L., Yang, Y., 2017. Farmers’ perception of effective drought \npolicy implementation: a case study of 2009–2010 drought in Yunnan province, \nChina. Land Use Pol. 67, 48–56. https://doi.org/10.1016/j.landusepol.2017.04.051. \nQuzhou County Government, 2020. The construction plan for the supporting system of \nAgricultural Green Development Zone of Quzhou County (2020-2022). Quzhou \nCounty Government, Quzhou.  \nR Core Team, 2021. R: A Language and Environment for Statistical Computing. R \nFoundation for Statistical Computing, Vienna, Austria. URL. https://www.R-project. \norg/.  \nRoth, P.L., 1994. Missing data: a conceptual review for applied psychologists. Person. \nPsychol. 47, 537–560. https://doi.org/10.1111/j.1744-6570.1994.tb01736.x. \nRicci, B., Lavigne, C., Alignier, A., Aviron, S., Biju-Duval, L., Bouvier, J.C., Choisis, J.-P., \nFranck, P., Joannon, A., Ladet, S., Mezerette, F., Plantegenest, M., Savary, G., \nThomas, C., Vialatte, A., Petit, S., 2019. Local pesticide use intensity conditions \nlandscape effects on biological pest control. Proc. R. Soc. B-Biol. Sci. 286, 20182898 \nhttps://doi.org/10.1098/rspb.2018.2898. \nShen, J., Zhu, Q., Jiao, X., Ying, H., Wang, H., Wen, X., Xu, W., Li, T., Cong, W., Liu, X., \nHou, Y., Cui, Z., Oenema, O., Davies, W.J., Zhang, F., 2020. Agriculture green \ndevelopment: a model for China and the world. Front. Agr. Sci. Eng. 7 (1), 5–13. \nhttps://doi.org/10.15302/J-FASE-2019300. \nSoga, M., Gaston, K.J., 2018. Shifting baseline syndrome: causes, consequences, and \nimplications. Front. Ecol. Environ. 16, 222–230. https://doi.org/10.1002/fee.1794. \nSmith, H.F., Sullivan, C.A., 2014. Ecosystem services within agricultural landscapes- \nFarmers’ perceptions. Ecol. Econ. 98, 72–80. https://doi.org/10.1016/j. \necolecon.2013.12.008. \nState Council, 2016. Central Document No. 1 of China. Central Committee and the State \nCouncil of the People’s Republic of China. \nUN General Assembly, 2015. Transforming Our World: the 2030 Agenda for Sustainable \nDevelopment. General Assembly, NY USA.  \nVrebos, D., Staes, J., Vandenbroucke, T., D׳Haeyer, T., Johnston, R., Muhumuza, M., \nKasabeke, C., Meire, P., 2015. Mapping ecosystem service flows with land cover \nscoring maps for data-scarce regions. Ecosyst. Serv. 13, 28–40. https://doi.org/ \n10.1016/j.ecoser.2014.11.005. \nWang, J., Cao, Y., Fang, X., Li, G., Cao, Y., 2021. Identification of the trade-offs/synergies \nbetween rural landscape services in a spatially explicit way for sustainable rural \ndevelopment. J. Environ. Manag. 300, 113706 https://doi.org/10.1016/j. \njenvman.2021.113706. \nWickham, H., Chang, W., Wickham, M.H., 2016. Package ‘ggplot2.’ Create elegant data \nvisualisations using the grammar of graphics. Versiones 2, 1–189. \nWu, X., Wang, L., Yao, R., Luo, M., Li, X., 2021. Identifying the dominant driving factors \nof heat waves in the North China Plain. Atmos. Res. 252, 105458 https://doi.org/ \n10.1016/j.atmosres.2021.105458. \nXiao, H., 2014. Evaluation and Planning Methods Research of Rural Ecological \nLandscape on Different Scales (PhD Thesis). China Agricultural University, Beijing.  \nYang, X., Wang, M., 2022. Diversification and spatial differentiation of villages’ \nfunctional types in the new period of China: results from Hierarchical urban-rural \nspatial relations and townships size. Land 11, 171. https://doi.org/10.3390/ \nland11020171. \nZhang, C., Hu, R., Shi, G., Jin, Y., Robson, M.G., Huang, X., 2015. Overuse or underuse? \nAn observation of pesticide use in China. Sci. Total Environ. 538, 1–6. https://doi. \norg/10.1016/j.scitotenv.2015.08.031. \nZhang, G., Zheng, D., Xie, L., Zhang, X., Wu, H., Li, S., 2021. Mapping changes in the \nvalue of ecosystem services in the yangtze river middle reaches Megalopolis, China. \nEcosyst. Serv. 48, 101252 https://doi.org/10.1016/j.ecoser.2021.101252.",
+          "bbox": [
+            306.59234619140625,
+            52.13070297241211,
+            559.4025268554688,
+            740.02783203125
+          ]
+        },
+        {
+          "id": "p13-b4-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64824295043945,
+            500.5948486328125,
+            44.072837829589844
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-89b686f",
+          "kind": "paragraph",
+          "text": "Journal of Environmental Management 347 (2023) 119060",
+          "bbox": [
+            397.35797119140625,
+            33.65479278564453,
+            558.2943725585938,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p14-b1-8527a89",
+          "kind": "paragraph",
+          "text": "14",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p14-b2-5150e85",
+          "kind": "paragraph",
+          "text": "Zhang, W., Kato, E., Bhandary, P., Nkonya, E., Ibrahim, H.I., Agbonlahor, M., Ibrahim, H. \nY., Cox, C., 2016. Awareness and perceptions of ecosystem services in relation to \nland use types: evidence from rural communities in Nigeria. Ecosyst. Serv. 22, \n150–160. https://doi.org/10.1016/j.ecoser.2016.10.011. \nZhang, W., Kato, E., Bianchi, F., Bhandary, P., Gort, G., van der Werf, W., 2018. Farmers’ \nperceptions of crop pest severity in Nigeria are associated with landscape, agronomic \nand socio-economic factors. Agric. Ecosyst. Environ. 259, 159–167. https://doi.org/ \n10.1016/j.agee.2018.03.004. \nZhang, W., Ricketts, T.H., Kremen, C., Carney, K., Swinton, S.M., 2007. Ecosystem \nservices and dis-services to agriculture. Ecol. Econ. 64, 253–260. https://doi.org/ \n10.1016/j.ecolecon.2007.02.024. \nZhang, X., Pei, D., Hu, C., 2003. Conserving groundwater for irrigation in the North \nChina plain. Irrigat. Sci. 21, 159–166. https://doi.org/10.1007/s00271-002-0059-x.",
+          "bbox": [
+            37.5873908996582,
+            52.12942886352539,
+            288.5638427734375,
+            158.1938018798828
+          ]
+        },
+        {
+          "id": "p14-b3-64cb5b7",
+          "kind": "paragraph",
+          "text": "Zhao, Q., Zhang, B., Yao, Y., Wu, W., Meng, G., Chen, Q., 2019. Geodetic and \nhydrological measurements reveal the recent acceleration of groundwater depletion \nin North China Plain. J. Hydrol. 575, 1065–1072. https://doi.org/10.1016/j. \njhydrol.2019.06.016. \nZhao, Y., Wang, L., Lei, X., Wang, B., Cui, J., Xu, Y., Chen, Y., Sui, P., 2021. Reducing \ncarbon footprint without compromising grain security through relaxing cropping \nrotation system in the North China Plain. J. Clean. Prod. 318, 128465 https://doi. \norg/10.1016/j.jclepro.2021.128465. \nZhou, S., Wu, J., Wang, G., 2017. Evaluation of agro-ecosystem services and analysis of \nirrigation benefit in the North China Plain. Chin. J. Eco-Agric. 25, 1360–1370. \nhttps://doi.org/10.13930/j.cnki.cjea.170203. \nZoderer, B.M., Tasser, E., Carver, S., Tappeiner, U., 2019. Stakeholder perspectives on \necosystem service supply and ecosystem service demand bundles. Ecosyst. Serv. 37, \n100938 https://doi.org/10.1016/j.ecoser.2019.100938.",
+          "bbox": [
+            306.5923767089844,
+            52.12942886352539,
+            557.5574340820312,
+            166.18727111816406
+          ]
+        },
+        {
+          "id": "p14-b4-a809ec8",
+          "kind": "paragraph",
+          "text": "J. Cheng et al.",
+          "bbox": [
+            37.58757019042969,
+            33.648250579833984,
+            500.5950012207031,
+            44.072845458984375
+          ]
+        }
+      ],
+      "snapshot": "library/cheng-2023/7b8cf2416ee8/page-14.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 14,
+    "pageSnapshots": 14,
+    "allTextBlocksRetained": true,
+    "textCharacters": 71804,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 12,
+    "sourceSHA256": "7b8cf2416ee8d64979e58d9fe0cf569d5415d640a87f280ab1c28965c67cc305",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

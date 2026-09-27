@@ -1,0 +1,1397 @@
+Agricultural Systems 216 (2024) 103896
+
+Available online 22 February 2024
+0308-521X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+Comparing the sustainability of smallholder and business farms in the 
+North China Plain; a case study in Quzhou
+
+Zhan Xu a,b,c,*, Zhengyuan Liang a,b,c, Jiali Cheng a,b,c, Jeroen C.J. Groot b, Chaochun Zhang c,*, 
+Wen-Feng Cong c, Fusuo Zhang c, Wopke van der Werf a
+
+a Centre for Crop Systems Analysis Group, Wageningen University & Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands 
+b Farming Systems Ecology Group, Wageningen University & Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands 
+c State Key Laboratory of Nutrient Use and Management; College of Resources and Environmental Sciences, China Agricultural University, Beijing 100193, China
+
+H I G H L I G H T S  
+G R A P H I C A L  A B S T R A C T
+
+• Smallholder farming in China is being 
+replaced by business farming, but con­
+sequences for sustainability are not 
+known. 
+• We evaluate farm characteristics and 
+crop management of smallholder and 
+business farms on the North China Plain. 
+• Smallholder farms had greater cereal 
+production, 
+while 
+business 
+farms 
+focused on crops generating greater 
+revenue. 
+• Business farming resulted in improve­
+
+ment of some environmental character­
+istics, e.g. lower water use and N 
+surplus. 
+• Improved practices are needed to 
+further enhance sustainability of both 
+farm types.
+
+A R T I C L E  I N F O
+
+Editor: Kairsty Topp
+
+Keywords: 
+Business farm 
+Smallholder farm 
+Sustainability performance 
+Crop allocation 
+Cropping system
+
+A B S T R A C T
+
+CONTEXT: With labour migration to cities, Chinese agriculture is witnessing the emergence of business farming 
+and an enlargement in farm sizes. Farm size enlargement triggers a wide range of managerial adjustments that 
+may affect the sustainability of crop production practices. There is little empirical information on cropping 
+practices and the sustainability of crop production of business farms as compared to traditional smallholder 
+farms. 
+OBJECTIVE: Here, we made a comparison of cropping activities and sustainability performances between 
+smallholder farms and business farms. 
+METHODS: Data on cropping activities and crop management were obtained by a survey among 486 smallholder 
+farms and 19 business farms in 35 villages across Quzhou county on the North China Plain. After collecting data, 
+we calculated sustainability indicators at the crop and farm scales. 
+RESULTS AND CONCLUSIONS: Business farms were about 15 times as large as smallholder farms (14.6 ha versus 
+0.8 ha) and they had more self-owned machinery. There was no significant difference in the number of crop 
+species cultivated on smallholder or business farms. However, business farms allocated less area to grains and
+
+* Corresponding authors at: Centre for Crop Systems Analysis Group, Wageningen University & Research, P.O. Box 430, 6700 AK Wageningen, The Netherlands 
+E-mail addresses: zhan.xu@wur.nl (Z. Xu), zhangcc@cau.edu.cn (C. Zhang).
+
+Contents lists available at ScienceDirect
+
+Agricultural Systems
+
+journal homepage: www.elsevier.com/locate/agsy
+
+https://doi.org/10.1016/j.agsy.2024.103896 
+Received 13 October 2023; Received in revised form 1 January 2024; Accepted 4 February 2024
+
+Agricultural Systems 216 (2024) 103896
+
+2
+
+more area to cash crops with high economic benefit, such as stevia and vegetables, than smallholder farms did. 
+Business farms showed some environmental benefits, e.g., business farms used 21% less irrigation water and had 
+28% lower N surplus. However, there were also trade-offs with business farms having 32% lower dietary energy 
+output per unit area per year than smallholder farms. These differences were associated with better management 
+and lower cropping index (number of crops per year) on business farms as compared to smallholder farms. These 
+results indicate that business farms achieved improvements with respect to environmental externalities of 
+agricultural production, when compared to smallholder farms, but the contribution to grain production was 
+comparatively low. 
+SIGNIFICANCE: This study shows that scale enlargement of farming in a Chinese context is no panacea for 
+achieving improved crop production sustainability.
+
+1. Introduction
+
+With a growing world population, there is an increasing demand for 
+food, but agriculture's negative environmental impacts need to be 
+mitigated (Foley et al., 2011). Farm size is a key variable in discussions 
+on food security, environmental externalities of agriculture and socio­
+economic viability of farms (Meyfroidt, 2017). It is estimated that 
+smallholder farms produce 40% of all global food production (Samberg 
+et al., 2016), and it is thought that they will remain an essential source 
+for food production and poverty eradication (Giller et al., 2021; Ric­
+ciardi et al., 2021). However, to enhance and stabilize agricultural 
+production there is a strong pressure to intensify, homogenize and scale 
+up farming enterprises to benefit from economies of scale and to allow 
+larger investments into ‘rationalization’ of the production process, for 
+instance by mechanization (Woodhouse, 2010). Farm consolidation and 
+size enlargement aims to enhance productivity, resource use efficiency 
+and economic performance (Rada and Fuglie, 2019), but could also 
+affect the diversity of production activities and the flexibility to adapt 
+when faced with variability, change and disturbances (Koirala et al., 
+2022). Farms of different sizes may make contrasting choices regarding 
+management practices, such as chemical versus organic inputs or the 
+intensity of use of inputs such as water, fertilizers and pesticides. This 
+could strongly affect the environmental impact of farms (Ren et al., 
+2019; Liebert et al., 2022). Several studies compare larger and small­
+holder farms in some sustainability aspects, but much remains unknown 
+about whether differences in farm size are associated with trade-offs 
+among sustainability indicators. 
+Some Asian areas are experiencing a growth in number of large 
+business farms, where farm sizes have traditionally been small and la­
+bour wages have been rising (Otsuka et al., 2016a). One of the best 
+examples is China, which is home to almost 40% of the world's small­
+holder farms (<2 ha per farm) (Huang et al., 2012). One of the reasons 
+for the small farm size in China is the collective ownership of the land 
+which is allocated to rural households on a pro rata basis, i.e., propor­
+tional to the number of people in each household. With rising rural 
+population, the average farm size has been falling in China, from 0.73 ha 
+in 1985 to 0.61 ha in 2013 (Ji et al., 2016). It is very difficult to earn a 
+living on these small farms, and younger people are hence moving to the 
+cities where a higher wage can be obtained, thereby reducing labour 
+availability in rural areas. Accordingly, there has not been enough la­
+bour available for farming. As a result, there is a rapid emergence of 
+business farms (>3 ha per farm) (Huang and Ding, 2016). Such farms are 
+run by a manager, and she or he hires labour as needed. Business farms 
+have a reduced requirement for labour by investment in equipment, 
+which is not cost effective at the scale of smallholder farms. The Chinese 
+government believes that consolidation, combining fragmented and 
+scattered land parcels into larger and more cohesive units, will prevent 
+cropland abandonment and promote agricultural mechanization (Shen 
+and Shen, 2018). 
+There are three types of business farms in China: family farms1,
+
+cooperative farms2, and agricultural companies3 (see Appendix A1 for 
+details). Approximately 60% of the people having land use rights work 
+off-farm and rent out their cropland to one of these three types of 
+business farms (Deininger et al., 2014). The Chinese government 
+introduced several policies to speed up business farm establishment, 
+including granting farmers the right to lease land, providing loan gua­
+rantees, subsidizing investment in storage infrastructure, and providing 
+direct subsidies for purchasing large machinery (Rada et al., 2015). It is 
+timely to know to what extent the newly emerging business farms 
+develop more sustainable practices than smallholders in China. 
+The North China Plain (NCP) is a key agricultural production area in 
+China, which is responsible for 59% of the national production of wheat, 
+26% of maize, 7% of cotton and 29% of vegetables (National Bureau of 
+Statistics of China (NBSC, 2020). High levels of agricultural input, such 
+as fertilizers, pesticides and water, are used to support high and stable 
+crop production (Ju et al., 2009; Niu et al., 2021). However, the 
+intensive production methods have caused a series of sustainability is­
+sues, such as high nitrogen (N) losses, pesticide contamination of surface 
+water (Brauns et al., 2018), and overexploitation of shallow and deep 
+groundwater resources (Holst et al., 2014). From 2003 to 2013, the 
+cultivated land share by business farms increased by 30% in the NCP 
+(NBSC, 2013), and the number of business farms in the NCP is expected 
+to rise further (Duan et al., 2021). There is a need to elucidate to what 
+extent business farms in the NCP contribute to solving the above sus­
+tainability problems. 
+Farmers select their crops on the basis of their production objectives, 
+resources, and constraints (Aouadi et al., 2015). Smallholder farmers 
+choose crops that allow them to maximize their total farm plus off-farm 
+income (Zhang et al., 2018). They prefer growing labour-saving crops, 
+like grain crops, allowing them more time to work off-farm. At the other 
+side of the spectrum, business farms prioritize economic benefits from 
+marketing their farm produce (Yu et al., 2021). It is anticipated that 
+business farms would emphasize growing crop species with high gross 
+margin to compensate for the cost of land rent (Huang, 2014; Zhao et al., 
+2017). Furthermore, we expect an emphasis on crops that can be culti­
+vated with low labour input by using machinery (Qiu et al., 2020). There 
+is concern that changing from smallholder farms to business farms might 
+result in a focus on few profitable and mechanizable crop species, while 
+other crops might be lost, resulting in a reduced dietary diversity (Ric­
+ciardi et al., 2021). There is little empirical evidence on effects of 
+business farming on crop choice and farming practices in the NCP. 
+The heat sum in the North China Plain is sufficient to grow two crops 
+per year, e.g., wheat in the spring and maize in the summer. Such double 
+cropping results in high production per unit area per year. However, 
+inappropriately increasing cropping intensity (understood here as the 
+number of crops harvested per year) increases groundwater use and may
+
+1 In China, a family farm is defined as a farm that is run by a family and hires 
+seasonal labour, and the farm size is mostly larger than 50 mu (3.3 ha).
+
+2 A cooperative farm typically consists of at least five family farms investing 
+together in machinery and wages.
+
+3 Agricultural companies have the largest farm size among all business farm 
+types. Such farms work with capital from investors. Agricultural companies are 
+interested in employing professional managers for marketing and sales (Yu 
+et al., 2021). Some agricultural companies have their own processing facilities.
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+3
+
+result in groundwater overexploitation (Yang et al., 2021). The 
+declining availability of groundwater is a serious issue in the NCP (van 
+Oort et al., 2016). Hence, a reduction in cropping intensity (from two 
+crops per year to one crop per year) has been proposed as a necessary 
+mitigation to make cropping systems groundwater-neutral (van Oort 
+et al., 2016). The Chinese government provides subsidies to farmers in 
+areas with excessive groundwater extraction, including some areas of 
+the NCP, to abandon winter wheat cultivation and keep land fallow in 
+the winter from 2016 onwards. In Zhejiang province, a shift from double 
+cropping to single cropping of rice has been observed in business farms 
+compared to smallholder farms (van den Berg et al., 2007). There is no 
+information on the effect of farm management models (i.e., smallholder 
+farms and business farms) on cropping intensity in the NCP. 
+In this study we used survey data to characterize differences between 
+smallholder farms and business farms in terms of farm features, decision 
+makers' attributes, crop species and cropping systems. We determined 
+whether smallholder farms and business farms differed in terms of 
+productivity per unit of area, economic sustainability and environ­
+mental sustainability of crop production and we examined how crop 
+management and cropping intensity were related to farm sustainability. 
+With this we aimed to elucidate the implications of the emerging farm 
+management model of business farms on the crop production sustain­
+ability in the NCP.
+
+2. Materials and methods
+
+2.1. Study area
+
+We surveyed 505 households within Quzhou county in the NCP, 
+located in southern Hebei (Fig. 1a). Quzhou's population is 527,304, 
+distributed over ten townships with in total 342 villages. The total land 
+area is 66,700 ha, of which 78% was arable land in 2017 (NBSC, 2017). 
+As Quzhou is part of the Beijing-Tianjin-Hebei metropolitan region
+
+(Fig. 1a), which has experienced rapid economic growth over the last 30 
+years, local farmers can find employment in urban areas. The region has 
+a continental warm and semi-humid monsoon climate featuring high 
+temperatures and rainfall in summer and dry-cold weather in winter. 
+Approximately 60% of the annual precipitation of 556 mm comes from 
+rainfall in July and August. Wheat, maize and cotton are the dominant 
+crops, while high-value crops have increased recently (Yang et al., 
+2021a). Crop allocation varies between townships (Meng et al., 2021).
+
+2.2. Stratified data collection
+
+We developed a typology to group villages with similar crop pro­
+duction and socio-economic characteristics in order to be able to collect 
+a representative sample of farms in Quzhou using stratified random 
+sampling. In this typology, we used demographic and economic vari­
+ables, such as number of households per village and average household 
+income, with data originating from yearbook data and unpublished 
+survey information (Xu et al., 2024). In total, eight village types were 
+identified, including one with a high level of urbanization and little or 
+no crop production in the village, one with a sizeable arable land area 
+and multiple farm management models, one with a sizeable arable land 
+area but occupied by only smallholder farms, three with cereal domi­
+nance, one with vegetable dominance, and one with diversified crop 
+production. In the three village types with cereal dominance, one had 
+relatively high vegetable production, one had small arable land area, 
+and one had medium arable land area and population. Detailed de­
+scriptions of the eight clusters can be found in Appendix A3. The village 
+with heavy urbanization and nearly no crop production was excluded 
+from the survey. In each of the remaining seven clusters, five villages 
+were randomly selected (Fig. 1b). A total of fifteen farms were identified 
+from each selected village. Business farms were always included if they 
+were present in a village. The remaining smallholder farms were 
+randomly selected to obtain a sample of 15 farms per village. A total of
+
+Fig. 1. North China Plain, comprising the provinces Hebei, Henan and Shandong, and the urban districts of Beijing and Tianjin (a). Location of Quzhou county in 
+southern Hebei (a) and geographic distribution of surveyed village types in Quzhou county (b). Quzhou is the green area indicated in panel (a) and shown enlarged in 
+panel (b). The village typology shown in (b) was based on yearbook data (NBSC, 2017) and unpublished survey data on land-use. Black filled circles indicate the 
+surveyed villages. Geographic data were provided by the county government. ‘NA’ means that the village data was excluded from the yearbook and ‘Outlier’ indicates 
+inconsistent data in the yearbook, i.e., area of cropland was larger than the total area of the village. (For interpretation of the references to colour in this figure 
+legend, the reader is referred to the web version of this article.)
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+4
+
+505 valid questionnaires were collected, covering 486 smallholder 
+farms, 14 family farms, and five cooperative farms. We merged family 
+farms and cooperative farms as business farms because there was a 
+limited number of each. There were business farms in all village types, 
+with village types 1–2 having the most (5), followed by village types 2 
+and 3 (Table S1). 
+We interviewed smallholder farmers and business farmers with the 
+same structured questionnaire. Each questionnaire collected basic in­
+formation at farm level, including farm size, the area of each one-year 
+cropping system on the farm, and the age, schooling years, and years 
+of farming experience of the decision maker. For each land parcel of the 
+farm >0.5 mu (15 mu = 1 ha) we collected the inputs and outputs of the 
+cultivated arable crops in a one-year cropping cycle (June 2019 – June 
+2020). It took twenty minutes to collect the input-output inventory for 
+each crop in each plot, so if multiple crops were grown in a plot in a year, 
+collecting this information could take 40 or 60 min, depending on how 
+many different crops were grown. Inputs were chemical fertilizers, 
+manure, labour, and costs. Outputs included crop product outputs and 
+farm-gate prices. Perennial crops and greenhouse crops were not com­
+mon in Quzhou, so we did not collect information on them. Since veg­
+etables and melons were frequently grown in tunnels, we did include in 
+our survey tunnel-grown crops. We did the survey with six trained 
+enumerators.
+
+2.3. Cropping systems and calculation of multiple cropping index
+
+The multiple cropping index for a plot (MCIp) was defined as the 
+number of crops grown in the plot during the whole year, and the 
+multiple cropping index for farm (MCIf) was calculated as the area- 
+weighted average MCIp of all the plots larger than 0.5 mu on the farm. 
+We identified five types of cropping systems based on the temporal and 
+spatial patterns in which crop species were combined (Fig. 2 and Ap­
+pendix A4). First of all, there are single crops (e.g., cotton) with only one 
+crop per plot per year (MCIp = 1). There are also relay intercropping 
+systems (e.g., cotton/mung bean) in which two crop species that cover a 
+portion of the plot area in strips, with still only one crop on each area 
+unit of land during the season (MCIp = 1). In double cropping (e.g., 
+wheat-maize), two crops are grown after each other on the same plot in 
+one year (MCIp = 2). In triple cropping (e.g. cabbage-cabbage-cabbage) 
+the MCIp is 3. Finally, some cases of relay double cropping were found in 
+which one species covers part of the area for a long period of time (in 
+strips) while two other species are grown in other strips in a double 
+cropping sequence after each other. In this case the multiple cropping 
+index is 1.5. We did not collect data on multi-year crop rotations and 
+cover crops were not found during the survey.
+
+2.4. Calculations
+
+2.4.1. Farm attributes and decision-maker attributes 
+Farm size and ownership of machinery were used to characterize 
+farms. We only counted the self-powered (diesel, gasoline and electric) 
+machinery. In contrast, hand tools without an engine and tools meant for 
+animal traction were excluded from the survey. Age, schooling years and 
+cropping experience years were used to characterize farm decision 
+makers' attributes.
+
+2.4.2. Crop diversity 
+We counted the number of crop species grown across all smallholder 
+farms and all business farms to assess whether there was a difference in 
+crop diversity between the two types of farm management models. As 
+the number and total land area of smallholder farms and business farms 
+were different, we used rarefaction (Gotelli, 2008) to standardize the 
+diversity of crop species for the area. We randomly sampled 1000 times 
+smallholder farms from the set of 486 smallholder farms until their total 
+area was equal to that of the 19 business farms in the sample. We then 
+generated a 95% confidence interval for the number of crops in the 
+sample, using the 2.5 and 97.5 percentiles of the 1000 generated crop 
+numbers.
+
+2.4.3. Sustainability indicators 
+In this study, six sustainability indicators were chosen to evaluate 
+business farms and smallholder farms' performance from the environ­
+mental, societal and economic domains (Table 1). 
+The temporal scale of all indicators was one year, and all indicators 
+were assessed at two spatial levels, plot and farm. All indicators were 
+first estimated for each plot >0.5 mu and then an average or total for the 
+whole farm was calculated from the plot level data. The average indi­
+cator value was calculated as an area-weighted average:
+
+Xi =
+∑n
+
+j
+
+Aij
+∑Aij
+
+Xij
+(1)
+
+where Xi is the average indicator value for farm i and Aij
+∑
+
+Aijrepresents the
+
+area of plot j on farm i as a proportion of total farm size. Xij is the in­
+dicator value in plot j on farm i and n is the number of plots in farm i. If a 
+total for the whole farm was required, such as for total N surplus, this 
+total was obtained as a weighted sum:
+
+Xi =
+∑n
+
+j AijXij
+(2)
+
+where Aij is the area for plot i in farm j, Xij is the indicator value for this 
+plot, and Xi is the weighted sum.
+
+Fig. 2. Classification of one-year annual cropping system types. Different coloured boxes represent different annual crop species.
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+5
+
+In order to assess the contribution of cropping frequency to the 
+sustainability indicators, we divided the farm level indicator value by 
+the multiple cropping index for the farm:
+
+Xi,corrected =
+Xi
+MCIf,i
+
+(3)
+
+If MCIf,i = 1 there is no difference between Xi,corrected and Xi. 
+In the case of relay intercropping and double relay intercropping, the 
+values of inputs and outputs (except irrigation input) were obtained per 
+crop species and expressed per unit area of the whole plot, either 
+because the farmer expressed inputs and outputs immediately for the 
+whole plot, or the farmer expressed the inputs and outputs per unit area 
+of the species as well as the area proportion of each species within the 
+plot.
+
+2.4.4. Irrigation 
+Farmers in Quzhou do not need to pay for irrigation water, but they 
+do need to pay for the electrical power required to pump irrigation water 
+from wells or rivers to the plot. The volume of irrigation water used in a 
+plot was calculated using Eq. (4) (Di et al., 2019):
+
+Irrigation = Costirrigation × Qpump × η
+
+Priceelectricity × Ppump × 10 × NI
+(4)
+
+where Irrigation is the amount of irrigation water for a plot in one year 
+(mm year−1) and NI is the number of irrigation events. Costirrigation is the 
+paid amount for electricity per event (CNY ha−1), Qpump is the pump flow 
+(m3 h−1), η is the transformer efficiency (85% in Quzhou), Priceelectricity is 
+the price of per unit of electricity (CNY (kW h)−1), and Ppump is the pump 
+power (kW). Ten is the conversion coefficient between mm and m3 ha−1.
+
+2.4.5. Pesticide use 
+Treatment Frequency Index (TFI) was used to characterize pesticide 
+use frequency. A single TFI was determined in aggregate for all types of 
+biocides, including insecticides, fungicides and herbicides. TFI was 
+calculated as the number of full doses applied (Lechenet et al., 2014). If 
+two pesticide products were applied as a mixture of two full doses in one 
+spray, this is counted as two applications in the calculation of TFI. In our 
+survey, farmers usually did not recall the name of the pesticide that they 
+used in the last year, but they remembered how many tanks (of 20 l) 
+with protectant they applied in a plot for each type of pesticide each 
+time.
+
+2.4.6. N surplus 
+N surplus (kg N ha−1 year−1) was calculated as the difference be­
+tween input and output:
+
+Nsurplus = Nin −Nout
+(5)
+
+where Nin and Nout indicate the crop-specific amount of N input (kg N 
+ha−1 year−1) and N output (kg N ha−1 year−1). N output includes N from 
+yield and stover removed from the field and the calculation is further 
+elaborated in Appendices A5 and A6.
+
+2.4.7. Dietary energy yield 
+The production of dietary energy (Gcal ha−1 year−1) was calculated 
+as:
+
+Dietary energy yield = Y × EP × EC
+(6)
+
+where Y (Mg ha−1 year−1) is the dry matter yield for cereals, legume 
+crops, sunflower, and oilseed and the fresh yield for vegetables, tuber 
+crops and watermelon. The EP and EC indicate edible proportion and 
+energy content (Gcal Mg−1) and the values are in Table S5.
+
+2.4.8. Labour use 
+We summed up the time farmers spent on manual cropping activities 
+to quantify annual labour use (h ha−1 year−1). This included time for soil 
+preparation, sowing, mineral fertilizer and manure application, pesti­
+cide use, irrigation, weeding and harvesting, and also some special 
+measures for specific crops, like top removal of cotton. Labor input was 
+zero if the activity was done by a hired machinery service. The time 
+spent operating the machinery was recorded if the machinery was self- 
+owned. 
+Gross margin (CNY ha−1 year−1) was calculated as the sum of gross 
+revenue (CNY ha−1 year−1) and subsidies (Appendix A2) minus costs 
+(CNY ha−1 year−1). Gross revenue was calculated from the product of 
+crop yield and the farmgate price. The costs included variable costs and 
+cropland lease fees. Variable costs covered all costs of agricultural ma­
+terial inputs, including seeds, (plastic) mulch, fertilizer, manure, pesti­
+cides, irrigation and purchased service (machinery and labour).
+
+2.5. Statistical analysis
+
+We used the Kolmogorov-Smirnov test to compare attributes and 
+performance metrics of the two farm management models. RStudio 
+(RStudio team, 2021) and R Version 4.1.0 (R Core Team, 2021) were 
+used for statistical analysis and data visualization.
+
+3. Results
+
+3.1. Farm and decision maker attributes
+
+The average size of business farms was 14.61 ha (range 1.86–40.00 
+ha) while the average size of smallholder farms was 0.78 ha (range 
+0.06–2.00 ha) (Table 2). Business farms had on average 2.32 self-owned 
+self-powered machines, e.g., for sowing, combine harvesting or weed­
+ing, whereas smallholder farms had on average 0.04 self-powered ma­
+chines per farm (p < 0.05) (Table 2). Smallholder farms relied mostly on 
+machinery services rather than own equipment. The decision makers of 
+business farms were younger and better educated but had less cropping 
+experience compared to smallholder farms (Table 2).
+
+3.2. Crops and cropping systems
+
+Eleven crop species were grown on both business farms and small­
+holder farms, including three species of cereal (wheat, maize, and mil­
+let), four vegetables (cabbage, cauliflower, chili and spinach), cotton, 
+stevia and two other crops (chrysanthemum, for use as a herbal tea, and 
+watermelon). Five crops were only grown on business farms, and 13
+
+Table 1 
+List of sustainability indicators.
+
+Indicator 
+Unit 
+Rationale
+
+Environmental   
+Irrigation input 
+mm year−1 
+Groundwater table has declined in 
+the NCP over 30 years (Yang et al., 
+2021b) 
+Pesticide treatment 
+frequency index 
+(TFI)
+
+Number of full 
+pesticide doses 
+plot−1 year−1
+
+Excessive and improper pesticide 
+use is a sustainability threat in 
+China (Mu et al., 2022). 
+N surplus 
+kg N ha−1 year−1 
+The NCP is an area with high N 
+surpluses (Meng et al., 2021) so N 
+surplus should be reduced. 
+Societal   
+Dietary energy yield 
+Gcal ha−1 year−1 
+The Chinese central government 
+attaches high importance to 
+national food self-sufficiency. 
+Labour use 
+h ha−1 year−1 
+Rural population migration to 
+cities causes agricultural labour 
+shortage in China (Xu et al., 2019). 
+Economic   
+Gross margin 
+CNY ha−1 year−1 
+High profitability is the major 
+interest of farmers (Fletcher, 
+2019).
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+6
+
+were only grown on smallholder farms, with cash crops making up most 
+of the non-shared crops (Table 3). 
+Approximately 60% of smallholder farms and business farms pro­
+duced maize and wheat (Figs. 3a,b). On smallholder farms, wheat and 
+maize made up 70% of farm area, while business farms cultivated wheat 
+and maize on only 33% of their land (Figs. 3c,d). Approximately 24% of
+
+the farm area was dedicated to cotton cultivation on both smallholder 
+and business farms (Figs. 3c,d). However, the proportion of farms 
+cultivating cotton was larger among smallholder farms than business 
+farms. A greater proportion of business farms than smallholder farms 
+grew vegetables and stevia, with almost 50% and 37% of business farms 
+producing vegetables and stevia, respectively, but fewer than 10% of 
+smallholder farms growing these crops (Figs. 3a-3d). Few smallholder 
+and business farms planted legumes on their farms, but the cultivated 
+species differed significantly between the two management models, 
+with soybean being cultivated mostly on business farms (in 3/19 farms) 
+and mung bean (20/486) and peanut (9/486) on smallholder farms 
+(Table 2). Business farms tended to have higher crop diversity per farm 
+than smallholder farms (Fig. 3e). Using rarefaction to correct for the 
+larger land area on business farms than smallholder farms, the data point 
+for the business farms was within the confidence zone of the rarefaction 
+curve for smallholder farms; hence there was no significant difference in 
+the overall number of crop species per farm type when the larger total 
+area of smallholder farms was taken into account. Business farms 
+showed a greater evenness of land use than smallholder farms (Fig. 3c, 
+d). 
+The multiple cropping index was 1.73 ± 0.02 for smallholder farms 
+and 1.42 ± 0.06 for business farms (Figs. 4a,b). Smallholder farms had 
+68% double cropping and 31% single cropping, while business farms 
+had 61% single cropping and 36% double cropping (Figs. 4c,d). Relay- 
+intercropping was not conducted on business farms, and covered 0.5% 
+of the total cropland area on smallholder farms. Other cropping systems
+
+Table 2 
+Farm characteristics and farmer attributes of smallholder farms and business 
+farms in Quzhou. Values represent mean ± standard error of the mean for each 
+variable. The p values result from Kolmogorov-Smirnov tests comparing small­
+holder farms and business farms.
+
+Variable 
+Unit 
+Smallholder farms 
+(n = 486) 
+Business 
+farms 
+(n = 19)
+
+p- 
+value
+
+Farm attributes     
+Farm size 
+ha 
+0.78 ± 0.03 
+14.61 ±
+2.32 
+<0.01
+
+Self-owned 
+machinery 
+number 
+farm−1
+
+0.04 ± 0.01 
+2.32 ±
+0.70 
+<0.01
+
+Decision maker 
+attributes     
+Age 
+years 
+60.1 ± 0.4 
+46.4 ± 1.7 
+<0.01 
+Schooling years 
+years 
+5.84 ± 0.20 
+9.94 ±
+0.30 
+<0.01
+
+Cropping 
+experience 
+years 
+37.0 ± 0.5 
+16.8 ± 2.9 
+<0.05
+
+Table 3 
+List of crop species and frequency of cultivation on smallholder and business farms. Salmon pink 
+colour indicates that crops are grown on both farm management models; the green indicates the crops 
+are only produced on smallholder farms; and the yellow indicates the crops are only cultivated on 
+business farms. Crops are ordered according to their frequency from top to bottom.
+
+Group
+Crop name
+Latin name
+Smallholder farms
+Business farms
+
+(n=486)
+(n=19)
+
+Cereals
+Maize
+Zea mays
+439
+15
+
+Wheat
+Triticum aestivum
+414
+12
+
+Millet
+Setaria italica
+9
+4
+
+Fiber crop
+Cotton
+Gossypium hirsutum
+235
+7
+
+Industrial crop Stevia
+Stevia rebaudiana
+31
+7
+
+Vegetables
+Chili
+Capsicum frutescens
+31
+3
+
+Cabbage
+Brassica oleracea var. capitata
+24
+7
+
+Spinach
+Spinacia oleracea
+6
+1
+
+Cauliflower
+Brassica oleracea var. botrytis
+4
+1
+
+Kidney bean
+Phaseolus vulgaris
+10
+
+Eggplant
+Solanum melongena
+8
+
+Garlic
+Allium sativum
+7
+
+Chinese cabbage Brassica pekinensis
+3
+
+Scallion
+Allium fistulosum
+2
+
+Onion
+Allium cepa
+1
+
+Zucchini
+Cucurbita pepo
+1
+
+Kohlrabi
+Brassica oleracea var. gongylodes
+1
+
+Broccoli
+Brassica oleracea var. italica
+1
+
+Squash
+Cucurbita moschata
+1
+
+Legumes
+Mung bean
+Phaseolus radiatus
+7
+
+Peanut
+Arachis hypogaea
+9
+
+Soybean
+Glycine max
+4
+
+Other crops
+Watermelon
+Citrullus lanatus
+2
+2
+
+Chrysanthemum
+Chrysanthemum indicum L.
+1
+2
+
+Sunflower
+Helianthus annuus
+2
+
+Oilseed
+Brassica chinensis
+1
+
+Tuber crops
+Potato
+Solanum tuberosum
+1
+
+Sweet potato
+Ipomoea batatas
+2
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+7
+
+(caption on next page)
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+8
+
+were rarely found (Appendix A4).
+
+3.3. Cropping system sustainability indicators
+
+We compared sustainability indicators of seven crops with more than 
+three observations in both business and smallholder farms (Fig. 5). 
+Maize and stevia had 19% and 18% greater N output (in product), 
+respectively, on business farms than on smallholder farms, resulting in a 
+24% and 37% lower N surplus. Business farms had 53% and 85% lower
+
+N surplus than smallholder farms for chili and millet, respectively. The 
+higher nitrogen use efficiency on business farms resulted from 21% and 
+57% lower N input for growing chili and millet as well as a 34% higher N 
+output of chili on business farms (Figs. S1d,e). There was no difference 
+in pesticide use if a crop was grown on a business farm or a smallholder 
+farm. The irrigation water used by business and smallholder farms was 
+nearly identical, except in cotton where business farms used less irri­
+gation water in cotton than smallholder farms did (on average, 1.6 
+irrigation events per crop on business farms and 2.2 irrigation events on
+
+Fig. 3. Percentage of farms cultivating certain crops (a, b) and percentage of the farm area cultivated with different crops (c, d) on smallholder farms (a, c) and 
+business farms (b, d). The number of crop species per farm on smallholder (cyan) and business farms (salmon pink) (e). Rarefaction of the number of crop species 
+across all smallholder farms with given cumulative area and the number of crop species across all business farms (red dot) (f). In panels c and d the total percentage is 
+larger than 100% due to multiple cropping and the total percentage value divided by 100 is equal to the multiple cropping index. In panel e, the white point denotes 
+the mean. The grey zone in panel f indicates a 95% confidence interval for the rarified number of crop species, based on bootstrapping. The actual number of crop 
+species on smallholder farms was 23 (Table 3). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of 
+this article.)
+
+Fig. 4. The multiple cropping index (MCI) per farm (a, b) and types of cropping systems (c, d) of smallholder farms (a, c) and business farms (b, d) on average across 
+all farms. The dashed lines in panels a and b indicate the mean MCI for each farm management model.
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+9
+
+smallholder farms). Business farms had 1.7 Mg ha−1 greater maize yield 
+than smallholder farms, 0.9 Mg ha−1 greater yield of stevia, and 19.4 Mg 
+ha−1 greater yield of chili, while yields of other crops did not differ 
+significantly among the two farm types. Business farms used less labour 
+than smallholder farms for growing the same crop. Compared to 
+smallholder farms, business farms had 40% lower labour consumption in 
+maize, 24% lower labour consumption in cotton, and 96% lower labour 
+consumption in millet. Business farms used machinery for sowing and 
+harvesting millet while smallholder farmers did this by hand. Gross 
+revenue in business farms exceeded that in smallholder farms by 24% in 
+maize, 10% in wheat and 27% in stevia, but there was no significant 
+difference in gross margin per ha due to higher costs in business farms.
+
+3.4. Farm sustainability indicators
+
+Three out of six sustainability indicators differed significantly be­
+tween smallholder farms and business farms, and for two out of these 
+three indicators, the sustainability performance of business farms was 
+better than that of smallholder farms (Figs. 6,S2 and Table S8). Business 
+farms had significantly lower N surplus and irrigation water use per ha 
+per year than smallholder farms. While spending less on pesticides due 
+to business farms obtaining lower prices, business farms had the same 
+pesticide use as smallholder farms. Gross revenue per ha per year of 
+business farms was 2.2 times that of smallholder farms, but business 
+farms had 75% greater costs per ha per year than smallholder farms, 
+mainly due to the cost of hired labour and renting cropland, which were 
+approximately ten times higher than for smallholder farms, which used 
+mainly their own labour (Fig. S3). As a result, there was no significant 
+difference in gross margin per ha per year between business farms and
+
+smallholder farms (when not accounting for the cost of own labour on 
+both farm types). The mean dietary energy yield per ha per year of 
+business farms was 33% lower than that of smallholder farms. The la­
+bour consumption per ha per year did not differ between business farms 
+and smallholder farms. 
+Some of the differences in indicators between smallholder and 
+business farms were due to the greater use of double cropping on 
+smallholder farms. Only two out of six indicators were different between 
+business farms and smallholder farms after correcting for MCI. Cor­
+recting for MCI means that indicators are expressed per crop rather than 
+per year (Figs. 7,S4 and Table S9). There was no significant difference 
+between business farms and smallholder farms in N input and N output 
+per ha per year but business farms had nevertheless 27% lower N surplus 
+per crop, indicating higher N use efficiency. There was also no signifi­
+cant difference between business farms and smallholder farms in pesti­
+cide usage and labour consumption after correcting for MCI. No 
+significant difference was found in irrigation input per crop between 
+business farms and smallholder farms. Correcting for MCI enlarged the 
+gross margin gap between business farms and smallholder farms and the 
+difference was significant (Table S8,9). On the one hand, business farms 
+grew more high-value crops than smallholder farms. On the other hand, 
+higher MCI helped smallholder farmers close the gross margin gap per 
+ha per year between them and business farms. There was no difference 
+between business farms and smallholder farms regarding dietary energy 
+yield per ha per crop (Fig. 7). Thus the lower dietary energy yield on 
+business farms per ha per year was entirely due to the lower use of 
+double cropping and the lower land allocation to cereals.
+
+Fig. 5. Sustainability indicators for shared crops with more than three observations on smallholder and business farms: N surplus (a); pesticide use (b); irrigation (c); 
+yield (d,e); labour consumption (f) and gross margin (g). Large coloured circles represent the means, while the error bars represent the standard error of the mean. 
+Small grey circles represent individual observations and n is the number of observations. The salmon pink colour represents business farms while cyan colour 
+represents smallholder farms. Kolmogorov-Smirnov tests were done to compare distributions, and the star sign represents a significant differences (P<0.05). Crop 
+order is according to the number of observations from top to bottom. (For interpretation of the references to colour in this figure legend, the reader is referred to the 
+web version of this article.)
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+10
+
+4. Discussion
+
+4.1. Crop diversity and crop allocation
+
+We found no difference between smallholder and business farms in 
+the number of crops across all farms, but the crop allocation differed. 
+Business farms grew more vegetables, and smallholder farms grew more 
+grains. A major reason for low allocation to vegetables on smallholder 
+farms is that the farmers prefer growing labour-saving crops, like grains, 
+as they hold part-time jobs (Wang et al., 2017a, 2017b). As a result of 
+aging agricultural labor in rural areas and the ongoing trend of migra­
+tion to urban areas (Ren et al., 2023), smallholder farms are less able to 
+cultivate labour-intensive crops such as vegetables. Business farms, on 
+the other hand, can mitigate the issue through mechanization or hiring 
+labour. On business farms, crops with high economic value are priori­
+tized (Otsuka et al., 2016b). Crop and dietary diversity may be main­
+tained with the expansion of business farms. However, food systems may 
+be influenced by the expansion of business farms; more vegetables are 
+provided to consumers, but the production of feed is reduced as the land 
+allocation to maize was lower on business farms while about 60% of 
+maize is utilized for animal feed in China (Ely et al., 2016). 
+Business farms produced less dietary energy per ha than smallholder 
+farms, not because of different yields, but because of different crop 
+allocation. Business farms had 20% higher maize yield than smallholder
+
+farms, and the same wheat and millet yield. However, there was a 
+smaller area of land allocated to maize and wheat cultivation in business 
+farms and a lower cropping intensity in maize and wheat cultivation. For 
+instance, on business farms, maize and millet were grown as single crops 
+(one crop per year) while on smallholder farms, maize was usually 
+grown as part of the wheat-maize double cropping system. This resulted 
+in lower dietary energy yields on business farms per unit area compared 
+to smallholder farms since maize and wheat contributed the most to 
+dietary energy production and smallholders overwhelmingly cultivated 
+these crops using double cropping (Table S7). To boost grain production, 
+the Chinese central government subsidizes grain farmers (Song et al., 
+2021). However, the subsidies and the net return from grain production 
+cannot cover land rental costs, and business farmers are therefore less 
+interested in grain production than smallholders. If no other in­
+terventions are made in the current context, business farm expansion 
+may result in cash crops substituting grains. This would run against the 
+government's objective to maintain grain production area in the NCP 
+(Ministry of Agriculture and Rural Affiairs of the People’s Republic of 
+China, 2022).
+
+4.2. Effect of farm size on crop production sustainability
+
+We compared the crop sustainability performance of smallholder and 
+business farmers at two scales: the crop scale and the farm scale.
+
+Fig. 6. Sustainability indicators of smallholder and business farms: N surplus (a); pesticides use (b); irrigation (c); dietary energy yield (d); labour use (e) and gross 
+margin (f). The salmon pink lines represent business farms and the cyan lines represent smallholder farms. D is the Kolmogorov-Smirnov test statistic and p is the 
+associated p value. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+11
+
+Business farms outperformed in two environmental indicators (N sur­
+plus and irrigation water use) but underperformed in dietary energy 
+yield (Fig. 6 and Table S8). 
+Better management helps business farms achieve lower N surplus 
+than smallholder farms. Lower N input and higher N output in some 
+crops (maize, stevia, chili and millet) were the reasons for business farms 
+achieving low N surplus, which is consistent with Yu et al. (2021). 
+Business farms reduce fertilizer costs as much as possible and therefore 
+reduce fertilizer inputs (Ju et al., 2016). Conversely, it is common for 
+smallholder farmers to overapply fertilizer to try and compensate for 
+suboptimal management and to reach yield targets (Ren et al., 2021). 
+Despite their lower N surplus of 206 kg N ha−1 year,−1 business farms 
+still exceed the target surplus of 90 kg N ha−1 year−1 (Zhang et al., 2019) 
+and have a risk of N pollution. 
+Lower farm MCI contributed to lower irrigation input per ha at the 
+farm scale in business farms. Business farms neither reduced irrigation 
+frequency (except in cotton) nor used modern irrigation equipment to 
+save irrigation water consumption. In Northwestern China, larger farms 
+are more likely to use drip irrigation (Feike et al., 2017). However, only 
+one business farm in our sample used modern irrigation equipment; 
+most business farms showed a strong willingness to use water-saving 
+irrigation equipment, but had not done so yet. Besides, in our study, 
+business farms did not try modern irrigation practices, like shortening
+
+the duration of irrigation events, as American business farms did (Skaggs 
+and Samani, 2005). Simply having low cropping intensity without 
+improving irrigation practices or techniques in business farms cannot 
+address groundwater depletion. 
+We expected business farms to use less pesticide than smallholder 
+farms because the managers are better educated and younger and may 
+optimize their pesticide use better than smallholders did. However, in 
+our study, there was no difference in pesticide use between business and 
+smallholder farms. 
+Business farms are expected to have diversified sales channels to gain 
+higher farm gate prices than smallholder farms (Hao et al., 2018), such 
+as directly selling products to processing firms or improving the quality 
+of products to meet the requirements of high-value-added markets (Yu 
+et al., 2021). Apart from stevia, in our survey, business farms sold their 
+crops to intermediaries at low prices during the harvest season, much 
+like smallholder farms did (Fig. S1a). Although business farms received 
+higher subsidies than smallholder farms (Appendix A2) and allocated a 
+larger proportion of their area to high economic value crops than 
+smallholders did, significant expenditures on leased cropland and hired 
+labour (Fig. S3) offset these gains, which resulted in a gross margin per 
+ha that was similar to that achieved on smallholder farms. 
+More self-owned machinery helps business farms to have lower labor 
+consumption in maize, cotton, and millet cultivation. Purchased
+
+Fig. 7. MCI-corrected sustainability indicators of smallholder and business farms: N surplus (a); pesticide use(b); irrigation (c); dietary energy yield (d); labour use 
+(e) and gross margin (f). The salmon pink lines represent business farms and the cyan lines represent smallholder farms. D is the Kolmogorov-Smirnov test statistic 
+and p is the associated p value. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+12
+
+machinery services help smallholder farms without self-owned ma­
+chinery save labour consumption. However, there are also some limi­
+tations in purchased machinery services. On the one hand, the cost of 
+purchased machinery service leads smallholder farmers to abandon 
+machinery and use labour to control the costs of input, such as har­
+vesting maize and sowing cotton. On the other hand, purchased ma­
+chinery services are not always available. In Quzhou, millet harvest 
+machinery is rarely provided by rental companies, so smallholder 
+farmers harvested millet by hand, but business farms harvested millet 
+using their self-owned machinery. There are no differences in labour 
+consumption per unit area between farm management models at the 
+farm scale due to the lack of picking machinery for vegetables and 
+stevia. 
+Robust off-farm economic growth facilitates more non-farm 
+employment opportunities for family labour, which in turn contributes 
+to merging small farms into large-sized businesses and substitute ma­
+chinery for family labour. This trend is ongoing in many Asian countries 
+undergoing rapid economic growth, including Vietnam (Duong and 
+Thanh, 2019), India (Kumar and Moharaj, 2023), Indonesia (Yamauchi, 
+2016), Nepal (Ghimire and Huang, 2016) and China. Better education 
+contributes to business farms being more willing to spend time and 
+money studying in technical school and adopting more sustainable 
+farming practices than smallholder farms (Woodhouse, 2010; Duan and 
+Zhou, 2014; Wang et al., 2017a, 2017b), which contributes significantly 
+to sustainability differences between business and smallholder farms 
+(Sheng et al., 2014). However, it depends on the context which sus­
+tainable practices business farmers adopt, which leads to a variation in 
+the sustainability advantage of business farms over smallholder farms. 
+Business farms may face disadvantages in some sustainability di­
+mensions depending on their cultivated crops and adoptions of prac­
+tices. Therefore, it is crucial to design policies and education programs 
+targeting large-sized business farmers and to induce them to facilitate 
+positive changes in practices.
+
+4.3. Limitations and outlook
+
+Our research has shown multiple differences between business and 
+smallholder farms in crop allocation, management practices, cropping 
+intensity (MCI), and sustainability performance of crop production in 
+the NCP. However, some limitations are worth noting. Farm sustain­
+ability depends on crop management, cropping intensity, and crop 
+choice (Aouadi et al., 2015). We identified how management practices 
+and cropping intensity affected sustainability differences within farm 
+management models. We did not discuss the influence of the area of non- 
+shared crops on smallholder farms and business farms on sustainability 
+in the study, because the area of such crops that are only planted in one 
+of the farm management models occupied relatively small proportions 
+on smallholder farms (2%) and business farms (14%) (Table S6). 
+Therefore, non-shared crops have a limited impact on sustainability 
+performance. 
+Another limitation of our study is the sample size of business farms 
+(19 observations). Although business farms' share of the total land area 
+increases rapidly (area proportion from negligible in 2008 to nearly 20% 
+in 2013 (Huang and Ding, 2016)), business farms are still a small frac­
+tion of the total population of farms. In Quzhou, there were about 199 
+business farms in 342 villages in 2020. The results of statistical analysis 
+indicate that the sample size of 19 business farms in 35 villages in our 
+study is sufficient to draw conclusions and find significant differences. 
+We did not assess heterogeneity between different types of business 
+farm. Yu et al. (2021) reported that there was significant heterogeneity 
+in management practices and sustainability within business farm types 
+in Zhejiang province, including family farms, cooperative farms and 
+agricultural companies. The sample size of business farms could be 
+increased in future work to analyze heterogeneity among business farm 
+types, which can deepen our understanding of the impact of business 
+farms on crop production in the NCP. An advantage of our sampling
+
+approach is that location factors such as soil type and access to water are 
+likely to be similar among these two farm types since business farms and 
+smallholder farms originated from the same villages; hence there is little 
+risk of bias in this respect. 
+Recent findings suggest that the benefits of farm size expansion are 
+affected by topography and local economic development (Duan et al., 
+2021; Ricciardi et al., 2021). So far, the hypothesis that business farms 
+are more sustainable than smallholder farms in China has been inves­
+tigated primarily in the plains, such as the Northeast and the NCP (Wang 
+et al., 2017a, 2017b; Zhang et al., 2021; Zou et al., 2022). Further work 
+is needed in mountainous areas. It is also interesting to do this com­
+parison of business farms and smallholder farms in areas with different 
+economic development within China. Such an analysis may help to 
+determine in which production situation the development of business 
+farming as a farm management model is most promising. Also, future 
+studies could compare in detail management practices of a crop between 
+business farms and smallholder farms, like crop varieties, sowing and 
+harvest date, the type of fertilizers and pesticide. Such information can 
+give further insight how business farms achieve certain improvements 
+compared to smallholder farms. Finally, product quality may be 
+compared between the two farm management models.
+
+5. Conclusion
+
+We comprehensively compared smallholder and business farms 
+regarding farm attributes, decision-maker attributes, crop allocation, 
+and sustainability performance in the North China Plain. Compared to 
+smallholder farms, business farms were operated by younger and better- 
+educated decision-makers than smallholder farms. They had larger farm 
+sizes and more self-owned machinery. The shift from smallholder farms 
+to business farms did not cause a loss in crop diversity across all farms 
+but reoriented crop production by substituting grains with cash crops. 
+Business farms allocated less area to grain production and had a lower 
+cropping intensity (less double cropping) than smallholder farms. 
+Compared with smallholder farms, business farms had better environ­
+mental sustainability performance, including lower N surplus and irri­
+gation input, due to better management practices and lower cropping 
+intensity. However, trade-offs existed; business farms had lower dietary 
+energy yield than smallholder farms. In terms of sustainability, our re­
+sults show that business farms are not a panacea solving all challenges in 
+Chinese farming. Furthermore, about 30% of cropland in China is in 
+mountainous regions, making it challenging to expand farm size and 
+develop business farms in such areas. Instead of only focusing on the 
+expansion of business farming, pathways need to be identified for sus­
+tainable farming for all farm management models. Business farms may 
+be given more guidance to optimize their resource allocation to mitigate 
+the trade-offs, i.e., reduced dietary energy yield. Smallholder farms 
+should not be neglected since smallholder farms are a key contributor to 
+grain production. The main challenge for smallholder farms is earning a 
+decent income on a small farm size.
+
+CRediT authorship contribution statement
+
+Zhan Xu: Data curation, Formal analysis, Investigation, Visualiza­
+tion, Writing – original draft, Writing – review & editing. Zhengyuan 
+Liang: Data curation, Investigation. Jiali Cheng: Data curation, Inves­
+tigation. Jeroen C.J. Groot: Supervision, Writing – review & editing. 
+Chaochun Zhang: Funding acquisition, Resources, Supervision, Writing 
+– review & editing. Wen-Feng Cong: Funding acquisition, Supervision. 
+Fusuo Zhang: Project administration, Resources. Wopke van der Werf: 
+Conceptualization, Supervision, Writing – review & editing.
+
+Declaration of Competing Interest
+
+None.
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+13
+
+Data availability
+
+Data will be made available on request.
+
+Acknowledgements
+
+This work received financial support from the Cooperative Project of 
+Chinese Academy of Engineering (2020-FJ-XZ-8) and China Scholarship 
+Council (CSC) (grant number is No.201913043) and Hainan University. 
+In particular, we would like to thank Nico Heerink and Fan Li for their 
+valuable suggestions. We thank Dongsheng Li, Shuai Han, Yingying 
+Wang and Jiahui Ji for their contribution to farm survey data collection.
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.agsy.2024.103896.
+
+References
+
+Aouadi, N., Aubertot, J.N., Caneill, J., Munier-Jolain, N., 2015. Analyzing the impact of 
+the farming context and environmental factors on cropping systems: a regional case 
+study in Burgundy. Eur. J. Agron. 66, 21–29. 
+Brauns, B., Jakobsen, R., Song, X., Bjerg, P.L., 2018. Pesticide use in the wheat-maize 
+double cropping systems of the North China plain: assessment, field study, and 
+implications. Sci. Total Environ. 616, 1307–1316. 
+Deininger, K., Jin, S., Xia, F., 2014. Moving off the farm: land institutions to facilitate 
+structural transformation and agricultural productivity growth in China. World Dev. 
+59, 505–520. 
+Di, Z., Yang, L., Xu, X., Gou, W., 2019. Study on irrigation water price and the impact of 
+hydrological year on project incomes in pumping irrigation district. J. Tianjin Agric. 
+Coll. 2, 80–84 (in Chinese).  
+Duan, Y., Zhou, G., 2014. Promoting Development of New Management Model for Grain 
+Production. China Agriculture Press, Beijing.  
+Duan, J., Ren, C., Wang, S., Zhang, X., Reis, S., Xu, J., Gu, B., 2021. Consolidation of 
+agricultural land can contribute to agricultural sustainability in China. Nat. Food 2, 
+1014–1022. 
+Duong, P., Thanh, P., 2019. Adoption and effects of modern rice varieties in Vietnam: 
+Micro-econometric analysis of household surveys. Econ. Anal. Policy 64, 282–292. 
+Ely, A., Geall, S., Song, Y., 2016. Sustainable maize production and consumption in 
+China: practices and poltics in transition. J. Clean. Prod. 259, 268. 
+Feike, T., Khor, L.Y., Mamitimin, Y., Ha, N., Li, L., Abdusalih, N., Xiao, H., Doluschitz, R., 
+2017. Determinants of cotton farmers’ irrigation water management in arid 
+northwestern China. Agric Water Manag 187, 1–10. 
+Fletcher, A., 2019. Benchmarking break-crops with wheat reveals higher risk may limit 
+on farm adoption. Eur. J. Agron. 109, 125921. 
+Foley, J.A., Ramankutty, N., Brauman, K.A., Cassidy, E.S., Gerber, J.S., Johnston, M., 
+Mueller, N.D., O’Connell, C., Ray, D.K., West, P.C., Balzer, C., Bennett, E.M., 
+Carpenter, S.R., Hill, J., Monfreda, C., Polasky, S., Rockstrom, J., Sheehan, J., 
+Siebert, S., Tilman, D., Zaks, D.P.M., 2011. Solutions for a cultivated planet. Nature 
+478, 337–342. 
+Ghimire, R., Huang, W., 2016. Adoption pattern and welfare impact of agricultural 
+technology: empirical evidence from rice farmers in Nepal. J. S. Asian. Dev. 11, 
+113–137. 
+Giller, K.E., Delaune, T., Silva, J.V., Descheemaeker, K., van de Ven, G., Schut, A.G.T., 
+van Wijk, M., Hammond, J., Hochman, Z., Taulya, G., Chikowo, R., Narayanan, S., 
+Kishore, A., Bresciani, F., Teixeira, H.M., Andersson, J.A., van Ittersum, M.K., 2021. 
+The future of farming: who will produce our food? Food Secur. 13, 1073–1099. 
+Gotelli, N.J., 2008. A Primer of Ecology, fourth edition. Sinauer Associates, 
+Massachusetts.  
+Hao, J., Bijman, J., Gardebroek, C., Heerink, N., Heijman, W., Huo, Xuexi, 2018. 
+Cooperative membership and farmers’ choice of marketing channels- evidence from 
+apple farmers in Shanxi and Shandong provinces, China. Food Policy 74, 53–64. 
+Holst, J., Liu, W., Zhang, Q., Doluschitz, R., 2014. Crop evapotranspiration, arable 
+cropping systems and water sustainability in southern Hebei, P.R. China. Agric. 
+Water Manag. 141, 47–54. 
+Huang, W., 2014. The non-agricultural and the non-grain oriented risk and it’s 
+circumventions in agricultural land transfer. Contemp. Econ. Manag. 36, 39–43 (in 
+Chinese).  
+Huang, J., Ding, J., 2016. Institutional innovation and policy support to facilitate small- 
+scale farming transformation in China. Agric. Econ. 47, 227–237. 
+Huang, J., Wang, X., Qiu, H., 2012. Small-Scale Farmers in China in the Face of 
+Modernization and Globalization. IIED/HIVOS, London/The Hague.  
+Ji, X., Rozelle, S., Huang, J., Zhang, L., Zhang, T., 2016. Are China's farms growing? 
+China World Econ. 24, 41–62. 
+Ju, X., Xing, G., Chen, X., Zhang, S., Zhang, L., Liu, X., Cui, Z., Yin, B., Christie, P., 
+Zhu, Z., Zhang, F., 2009. Reducing environmental risk by improving N management 
+in intensive Chinese agricultural systems. PNAS 106, 3041–3046. 
+Ju, X., Gu, B., Wu, Y., Galloway, J.N., 2016. Reducing China’s fertilizer use by increasing 
+farm size. Glob. Environ. Change 41, 26–32.
+
+Koirala, P., Kotani, K., Managi, S., 2022. How do farm size and perceptions matter for 
+farmers’ adaptation responses to climate change in a developing country? Evidence 
+from Nepal. Econ. Anal. Policy 74, 188–204. 
+Kumar, K.K., Moharaj, P., 2023. Farm size nad productivity relationship among the 
+farming communities in India. Outlook Agric. 52, 212–227. 
+Lechenet, M., Bretagnolle, V., Bockstaller, C., Boissinot, F., Petit, M.S., Munier-Jolain, N. 
+M., 2014. Reconciling pesticide reduction with economic and environmental 
+sustainability in arable farming. PloS One 9, e97922. 
+Liebert, J., Benner, R., Bezner Kerr, R., Bjorkman, T., De Master, K.T., Gennet, S., 
+Gomez, M.I., Hart, A.K., Kremen, C., Power, A.G., Ryan, M.R., 2022. Farm size 
+affects the use of agroecological practices on organic farms in the United States. Nat. 
+Plants 8, 897–905. 
+Meng, F., Wang, M., Strokal, M., Kroeze, C., Ma, L., Li, Y., Zhang, Q., Wei, Z., Hou, Y., 
+Liu, X., Xu, W., Zhang, F., 2021. Nitrogen losses from food production in the North 
+China plain: a case study for Quzhou. Sci. Total Environ. 816, 151557. 
+Meyfroidt, P., 2017. Mapping Farm size globally: benchmarking the smallholders debate. 
+Environ. Res. Lett. 12, 10–13. 
+Ministry of Agriculture and Rural Affiairs of the People’s Republic of China, 2022. The 
+Plan of National Crop Production Development for the 14th Five-Year (in Chinese).  
+Mu, H., Zhang, J., Yang, X., Wang, K., Xu, W., Zhang, H., Liu, X., Risema, C., Geissen, V., 
+2022. Pesticide screening and health risk assessment of residential dust in a rural 
+region of the North China plain. Chemosphere 303, 135115. 
+National Bureau of Statistics of China (NBSC), 2013. China Statistics Yearbook. Chinese 
+Statistics Press, Beijing (in Chinese).  
+National Bureau of Statistics of China (NBSC), 2017. China Statistics Yearbook. Chinese 
+Statistics Press, Beijing (in Chinese).  
+National Bureau of Statistics of China (NBSC), 2020. China Statistics Yearbook. Chinese 
+Statistics Press, Beijing (in Chinese).  
+Niu, Y., Xie, G., Xiao, Y., Liu, J., Wang, Y., Luo, Q., Zou, H., Gan, S., Qin, K., Huang, M., 
+2021. Spatiotemporal patterns and determinants of grain self-sufficiency in China. 
+Foods 10, 747. 
+Otsuka, K., Liu, Y., Yamauchi, F., 2016a. The future of small farms in Asia. Dev. Policy 
+Rev. 34, 441–461. 
+Otsuka, K., Liu, Y., Yamauchi, F., 2016b. Growing advantage of large farms in Asia and 
+its implications for global food security. Glob. Food Sec. 11, 5–10. 
+Qiu, T., Boris Choy, S.T., Li, S., He, Q., Luo, B., 2020. Does land renting-in reduce grain 
+production? Evidence from rural China. Land Use Policy 90, 104311. 
+R Core Team, 2021. R: A Language and Environment for Statistical Computing. R 
+Foundation for Statistical Computing, Vienna, Austria.  
+Rada, N., Fuglie, K., 2019. New perspectives on farm size and productivity. Food Policy 
+84, 147–152. 
+Rada, N., Wang, C., Qin, L., 2015. Subsidy or market reform? Rethinking China’s farm 
+consolidation strategy. Food Policy 57, 93–103. 
+Ren, C., Liu, S., van Grinsven, H., Reis, S., Jin, S., Liu, H., Gu, B., 2019. The impact of 
+farm size on agricultural sustainability. J. Clean. Prod. 220, 357–367. 
+Ren, C., Jin, S., Wu, Y., Zhang, B., Kanter, D., Wu, B., Xi, X., Zhang, X., Chen, D., Xu, J., 
+Gu, B., 2021. Fertilizer overuse in Chinese smallholders due to lack of fixed inputs. 
+J. Environ. Manage. 293, 112913. 
+Ren, C., Zhou, X., Wang, C., Guo, Y., Diao, Y., Shen, S., Reis, S., Li, W., Xu, J., Gu, B., 
+2023. Aging threatens sustainability of smallholder farming in China. Nature 616, 
+96–103. 
+Ricciardi, V., Mehrabi, Z., Wittman, H., James, D., Ramankutty, N., 2021. Higher yields 
+and more biodiversity on smaller farms. Nat. Sustain. 4, 651–657. 
+RStudio Team, 2021. RStudio: Integrated Development Environment for R. RStudio, PBC, 
+Boston.  
+Samberg, L.H., Gerber, J.S., Ramankutty, N., Herrero, M., West, P.C., 2016. Subnational 
+distribution of average farm size and smallholder contributions to global food 
+production. Environ. Res. Lett. 11, 124010. 
+Shen, M., Shen, J., 2018. Evaluating the cooperative and family farm programs in China: 
+a rural governance perspective. Land Use Policy 79, 240–250. 
+Sheng, Y., Zhao, S., Nossal, K., Zhang, D., 2014. Productivity and farm size in Australian 
+agriculture: reinvestigating the returns to scale. Aust. J. Agric. Resour. Econ. 59, 
+16–38. 
+Song, X., Wang, X., Li, X., Zhang, W., Scheffran, J., 2021. Policy-oriented versus market- 
+induced: factors influencing crop diversity across China. Ecol. Econ. 190, 107184. 
+van den Berg, M.M., Hengsdijk, H., Wolf, J., van Ittersum, M.K., Guanghuo, W., 
+Roetter, P.R., 2007. The impact of increasing farm size and mechanization on rural 
+income and rice production in Zhejiang province. China. Agric. Syst. 94, 841–850. 
+van Oort, P.A.J., Wang, G., Vos, J., Meinke, H., Li, B., Huang, J., van der Werf, W., 2016. 
+Towards groundwater neutral cropping systems in the alluvial fans of the North 
+China plain. Agri. Water Manag. 165, 131–140. 
+Wang, X., Chen, P., Sui, P., Yan, X., Gao, W., 2017a. Preliminary analysis on economic 
+and environmental consequences of grain production on different farm sizes in North 
+China plain. Agric. Syst. 153, 181–189. 
+Wang, X., Li, Z., Long, P., Yan, L., Gao, W., Chen, Y., Sui, P., 2017b. Sustainability 
+evaluation of recycling in agricultural systems by emergy accounting. Resour. 
+Conserv. Recycl. 117, 114–124. 
+Woodhouse, P., 2010. Beyond industrial agriculture? Some questions about farm size, 
+productivity and sustainability. J. Agrar. Change 10, 437–453. 
+Xu, D., Deng, X., Guo, S., Liu, F., 2019. Labour migration and farmland abandonment in 
+rural China: empirical results and policy implimications. J. Environ. Manage. 232, 
+738–750. 
+Xu, Z., Li, F., Cheng, J., Liang, Z., Groot, C.J., van der Werf, W., 2024. Survey data on 
+livelihoods and inputs and outputs of crop prodcution activitives in Quzhou county 
+on the North China Plain (Manuscript in preparation).
+
+Z. Xu et al.
+
+Agricultural Systems 216 (2024) 103896
+
+14
+
+Yamauchi, F., 2016. Rising real wages, mechanization and growing advantage of large 
+farms: evidence from Indonesia. Food Policy 58, 62–69. 
+Yang, R., Luo, X., Xu, Q., Zhang, X., Wu, J., 2021. Measuring the impact of the multiple 
+cropping index of cultivated land during continuous and rapid rise of urbanization in 
+China: a study from 2000 to 2015. Land 10, 491. 
+Yang, X., Xue, X., Zhang, Y., Ren, S., Zhang, C., 2021a. Planting structure changes and 
+the driving factors in North China plain from 1971 to 2015 - taking Quzhou county 
+as an example. Chin. J. Agri. Res. Regional Planning 42, 90–98 (in Chinese).  
+Yang, X., Steenhuis, T.S., Davis, K.F., van der Werf, W., Ritsema, C.J., Pacenka, S., 
+Zhang, F.S., Siddique, K.H.M., Du, T.S., 2021b. Diversified crop rotations enhance 
+groundwater and economic sustainability of food production. Food Energy Secur. 10, 
+e311. 
+Yu, Y., Hu, Y., Gu, B., Reis, S., Yang, L., 2021. Reforming smallholder farms to mitigate 
+agricultural pollution. Environ. Sci. Pollut. Res. Int. 29, 13869–13880.
+
+Zhang, L., Dong, Y., Liu, C., Bai, Y., 2018. Off-farm employment over the past four 
+decades in rural China. China Agric. Econ. Rev. 10, 190–214. 
+Zhang, C., Ju, X., Powlson, D., Oenema, O., Smith, P., 2019. Nitrogen surplus 
+benchmarks for controlling N pollution in the main cropping systems of China. 
+Environ. Sci. Technol. 53, 6678–6687. 
+Zhang, W., Qian, C., Carlson, K.M., Ge, X., Wang, X., Chen, X., 2021. Increasing farm size 
+to improve energy use efficiency and sustainability in maize production. Food 
+Energy Secur. 10, E271. 
+Zhao, X., Zheng, Y., Huang, X., Kwan, M.P., Zhao, Y., 2017. The effect of urbanization 
+and farmland transfer on the spatial patterns of non-grain farmland in China. 
+Sustainability 9, 1438. 
+Zou, J., Yang, Y., Shi, S., Li, W., Zhao, X., Huang, J., Zhang, H., Liu, K., Harrison, M.T., 
+Chen, F., Yin, X., 2022. Farm-scale practical strategies to reduce carbon footprint and 
+energy while increasing economic benefits in crop production in the North China 
+plain. J. Clea. Prod. 283, 108526.
+
+Z. Xu et al.

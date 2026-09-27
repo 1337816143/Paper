@@ -1,0 +1,35 @@
+{
+  "id": "xu-data-2024",
+  "title": "Survey data on livelihoods and inputs and outputs of crop production in Quzhou county on the North China Plain",
+  "citation": "Xu, Z., et al. (2024). Data in Brief. Dataset DOI: 10.17632/jp3v9859cx.1.",
+  "sourceURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10964062/",
+  "checkedAt": "2026-09-27T22:25:52Z",
+  "status": "licensed",
+  "attempts": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10964062/pdf/main.pdf",
+      "error": "Not a PDF response"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC10964062?pdf=render",
+      "error": "403 Client Error: Forbidden for url: https://europepmc.org/articles/PMC10964062?pdf=render"
+    }
+  ],
+  "metadataURL": "https://research.wur.nl/en/publications/survey-data-on-livelihoods-and-inputs-and-outputs-of-crop-product/",
+  "downloadURL": "https://edepot.wur.nl/652815",
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "evidence": "es belonging to seven vil- lage types (ﬁve for each type) were selected for stratiﬁed random sampling to collect information on farm character- istics and cropping practices. We surveyed these 35 villages, interviewing ﬁfteen farmer households per village (525 in to- ∗Corresponding author. E-mail address: zhan.xu@wur.nl (Z. Xu) . https://doi.org/10.1016/j.dib.2024.110269 2352-3409/© 2024 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by-nc/4.0/ ) 2 Z. Xu, F. Li and J. Cheng et al. / Data in Brief 53 (2024) 110269 tal) in 2020. The interviewees represented two farm man- agement models: smallholder farms and business farms. The resulting household dataset provides farm-level data, includ- ing demograph",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "pages": 16,
+  "sha256": "962a50daab8d15b0976a0e5119b44f1059cb99848774a30d6e973385a0bc8504",
+  "bytes": 2584841,
+  "textCharacters": 40618,
+  "aliases": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10964062/",
+    "https://edepot.wur.nl/652815",
+    "https://research.wur.nl/en/publications/survey-data-on-livelihoods-and-inputs-and-outputs-of-crop-product/"
+  ]
+}

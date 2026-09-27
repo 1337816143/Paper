@@ -1,0 +1,1904 @@
+Nature Food | Volume 5 | March 2024 | 211–220
+211
+
+nature food
+
+https://doi.org/10.1038/s43016-024-00926-x
+Article
+A systematic review of the methodology of 
+trade-off analysis in agriculture
+
+Timo S. Breure 
+  1, Natalia Estrada-Carmona 
+  2, Athanasios Petsakos 
+  3, 
+Elisabetta Gotor 
+  3, Boris Jansen 
+  4 & Jeroen C. J. Groot 
+  1
+
+Trade-off analysis (TOA) is central to policy and decision-making aimed at 
+promoting sustainable agricultural landscapes. Yet, a generic methodological 
+framework to assess trade-offs in agriculture is absent, largely due to the wide 
+range of research disciplines and objectives for which TOA is used. In this 
+study, we systematically reviewed 119 studies that have implemented TOAs in 
+landscapes and regions dominated by agricultural systems around the world. 
+Our results highlight that TOAs tend to be unbalanced, with a strong emphasis 
+on productivity rather than environmental and socio-cultural services. TOAs 
+have mostly been performed at farm or regional scales, rarely considering 
+multiple spatial scales simultaneously. Mostly, TOAs fail to include 
+stakeholders at study development stage, disregard recommendation 
+uncertainty due to outcome variability and overlook risks associated with 
+the TOA outcomes. Increased attention to these aspects is critical for TOAs to 
+guide agricultural landscapes towards sustainability.
+
+Contemporary agriculture should not only provide food, fibre, feed 
+and fuel but also environmental and socio-economic benefits for rural 
+communities and beyond1. To ensure that agriculture delivers multi-
+ple services while minimizing its negative impacts, society must be 
+aware of the trade-offs and synergies that may arise. The nature of 
+these trade-offs depends on location-specific natural, social and cul-
+tural conditions that place constraints on the inputs and outputs of an 
+agricultural system. For example, market-based farmers are concerned 
+with enhancing commodity production, whereas the priority of subsist-
+ence farmers lies with improving food security2. The global imperative 
+to achieve the United Nations Sustainable Development Goals (SDGs) 
+underscores the need to reduce the environmental impact of land use 
+practices and strengthen equitable social outcomes at both landscape 
+and community levels. However, achieving the SDGs might require 
+sacrifices to primary productivity and economic revenues. Thus, to 
+reconcile the demands of agriculture and inform decision-making, an 
+analysis is required of potential trade-offs measured against agronomic, 
+environmental, economic and social indicators3.
+Trade-off analysis (TOA) was established as a concept to gen-
+erate quantitative information on competing (trade-offs) or
+
+complementary (synergies) indicators that can be used to guide 
+policy and decision-making4. A typical TOA project starts with three 
+preparatory steps: formulation of the research question, identifica-
+tion of which indicators to assess, and formulation of hypotheses 
+about the relationships between the indicators and the associated 
+trade-offs and synergies. Subsequently, the management, policy or 
+technological changes that affect the TOA indicators can be identi-
+fied and included in the analysis framework. Then, the trade-offs and 
+synergies under changing conditions or scenarios can be quantified 
+and, finally, the results are communicated to relevant stakeholders 
+to inform decision-making and policy4. Since its first implementation 
+in the context of agriculture, a wide range of methods have been used 
+to conduct TOAs, including optimization, simulations, qualitative, 
+econometric and narrative-based approaches. In some cases, these 
+approaches are deployed in a spatially explicit manner with the support 
+of geographic information systems (GIS)5.
+Although important advances have been made regarding TOA 
+in agricultural contexts, researchers have expressed concerns about 
+the scope and methodological limitations of published studies. These 
+concerns relate to the limited transfer of the academic knowledge
+
+Received: 25 August 2022
+
+Accepted: 15 January 2024
+
+Published online: 5 March 2024
+
+Check for updates
+
+1Farming Systems Ecology, Wageningen University and Research, Wageningen, The Netherlands. 2Bioversity International, Montpellier, France.
+
+3Bioversity International, Rome, Italy. 4Institute for Biodiversity and Ecosystem Dynamics, University of Amsterdam, Amsterdam, The Netherlands.
+
+e-mail: jeroen.groot@wur.nl
+
+Nature Food | Volume 5 | March 2024 | 211–220
+212
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+(1) indicators relevant to environmental and socio-economic services, 
+(2) multiple spatial scales and their interactions, (3) the comprehensive 
+involvement of stakeholders, and (4) the validity of trade-offs and 
+recommendations in the context of associated uncertainties and risks 
+(see Table 1 for further details). Finally, a cluster analysis shows which 
+indicators were frequently studied together and which TOA methods 
+were associated with each cluster.
+The aim of this study was thus to provide an overview of the 
+peer-reviewed literature on TOA in the context of agriculture using 
+a systematic approach. For this purpose, we sought to define how 
+trade-offs in agriculture are conceptualized, characterized and ana-
+lysed in the TOA literature. Based on these findings, we have identified 
+common gaps in the implementation of TOA.
+
+Results
+The distribution of publication dates for the articles in the sample was 
+mainly centred in the years 2015–2021 (Extended Data Fig. 1a). Specifi-
+cally, 73% of the articles were published after 2014, which indicates an 
+increasing research effort directed towards TOAs in an agricultural 
+context (Extended Data Fig. 1b).
+
+Common interrelationships and co-occurrences among TOA 
+indicators
+The articles examined included a median of 3.8 ± 1.9 (s.d.) TOA indi-
+cators, ranging from 1 to 10. Based on the cumulative distribution, 
+52% of the articles included three or fewer TOA indicators, while 90% 
+included six or fewer TOA indicators (Extended Data Fig. 2a). The most 
+prevalent indicators across all articles were ‘profitability’ (57%, eco-
+nomic), ‘yield’ (44%, agronomic) and ‘water quantity’ (34%, sustainable 
+resource management). The second most common set of indicators 
+encompassed a selection of biophysical (for example, ‘water quality’ 
+and ‘greenhouse gases’), agronomic (for example, ‘input efficiency’ and 
+‘land use efficiency’) and economic indicators (for example, ‘assets’),
+
+generated by TOA into decision- and policy-making due to the inability 
+to take into account social and cultural factors6, the sparsity of multi- 
+and cross-scale assessments3,5–7, and the limited representation of 
+uncertainty8,9 and risk analysis5.
+The concerns reported in the literature on the limitations of TOA 
+analysis can indeed have important implications. First, failure to rec-
+ognize the importance of scale (spatial, temporal, jurisdictional and 
+legislative) in TOA may lead to erroneous inferences on how the rela-
+tionships between trade-offs and indicators develop across scales. 
+Multiple scales can be analysed without interactions between them or 
+a cross-scale analysis can be performed that accounts for interactions 
+between scales10. Furthermore, adverse effects appearing outside the 
+TOA case study area (off-site effects) may offset any gains stemming 
+from a TOA-informed policy11. Second, recognition of social interac-
+tions and cultural values is needed to assure representation of ben-
+eficiaries and non-beneficiaries relevant to the topic at hand, that is, 
+distributional justice9,10. Representation among stakeholders and their 
+involvement in the design and implementation of a TOA can increase 
+the legitimacy of its findings, assure that the data used are relevant to 
+the context and thus enhance adoption of a study’s findings12. Third, 
+validation and acknowledgement of uncertainty in both data and model 
+estimates increase the robustness of a TOA and can facilitate risk-based 
+decision-making13–15.
+Previous literature reviews on TOA in agriculture adopted a ‘story-
+telling’ approach, where key studies were selected from the literature 
+to discuss research trends. However, given the wide scope of TOAs 
+applied in the context of agriculture, a systematic review could reveal 
+the variety of approaches used and potential knowledge gaps, as well 
+as the indicators that were studied and by which methods, ultimately 
+facilitating the comparability of results.
+Here we report on the TOA indicators, methodology and analysis 
+used in 119 peer-reviewed articles. Descriptive statistics are used to 
+characterize articles based on the extent to which they considered
+
+Table 1 | A generic description of the criteria that were logged during this systematic review
+
+Criterion
+Generic description
+
+TOA method
+The method (spatially explicit simulation (M1), simulation (M2), optimization (M3), cost–benefit analysis (M4), econometrics (M5), 
+qualitative (M6), literature review (M7), GIS (M8) and other (M9)) applied in the case study
+
+TOA scale
+The spatial scale (field, farm, regional, national, multi-country and global) of the case study area for which the TOA is performed
+
+Discipline
+The spatial scale (the same spatial scales as for the TOA criterion) at which modelling was performed or data were collected in the 
+six disciplines relevant to agricultural production and the provision of services (crop, livestock, economic, environment, fisheries 
+and forestry)
+
+TOA indicators
+Indicators that were assessed in the TOA: 24 indicators were logged within the generic classes of agronomic (A: yield, yield 
+stability, self-sufficiency, land use efficiency and input efficiency), economic (E: profitability, poverty, market supply or demand, 
+labour productivity and assets), human health (H: nutrition, health, gender equity, food security and empowerment) and 
+sustainable resource management (S: water quantity, water quality, soil nutrients, soil erosion, soil organic carbon, land use, 
+greenhouse gases, energy and biodiversity)
+
+Stakeholder type inclusion
+Whether, and if so which, stakeholders were included in the case study (local beneficiaries and non-beneficiaries (Lb), experts 
+(Ex), government (Gv), farmers (Fm), distant beneficiaries and non-beneficiaries (Db), academics (Ac), private sector (Pv) and 
+environmental organizations (Eo))
+
+Stakeholder implementation
+How the stakeholders were included in the case study (validation (Vd), valuation (Va), co-development (Cd) and consultation (Co))
+
+Scenario
+Whether a scenario was considered in the case study and, if so, which type of scenario (climate (1), policy (2), behavioural (3), 
+demographic (4), economic (5), resource use (6), other (7) and none (8))
+
+System border
+Whether biophysical or administrative boundaries were used to define the TOA case study area
+
+Off-site
+Whether off-site effects (those occurring outside the case study area) were considered in the TOA
+
+Uncertainty
+Whether uncertainty has been acknowledged and accounted for
+
+Validation
+Whether a validation was performed of the results obtained by data collection, the modelling procedure or the outcomes and 
+recommendations from the TOA
+
+Risk analysis
+Whether the inference from the TOA and associated recommendations account for risk
+
+Cross-scale analysis
+Whether models address cross-scale TOA by summing or aggregation from lower to higher levels (aggregative) or by 
+simultaneous quantification at multiple levels (interactive)
+
+For further details, see Supplementary Table 1.
+
+Nature Food | Volume 5 | March 2024 | 211–220
+213
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+ranging between 13% and 21% (Fig. 1). The remaining TOA indicators 
+were used less frequently and related to economic (that is, ‘labour pro-
+ductivity’ and ‘poverty’), human health (for example, ‘nutrition’, ‘health’ 
+or ‘food security’) and agronomic (that is, ‘self-sufficiency’) aspects, 
+representing a share of 5–6% (Fig. 1). Rarely considered TOA indica-
+tors (less than 5%) included ‘market supply or demand’ (economic), 
+‘yield stability’ (agronomic), ‘empowerment’ and ‘gender equity’ (both 
+human health; Fig. 1).
+The articles were grouped into 11 clusters, depending on which 
+TOA indicators were assessed (left y-axis dendrogram in Fig. 2). These 
+clusters show a dominant theme based on the co-occurrence of TOA 
+indicators (right y-axis in Fig. 2). For example, in cluster 7, ‘poverty’ 
+was studied in conjunction with ‘soil nutrients’, whereas in cluster 5, 
+‘poverty’ was studied in conjunction with ‘profitability’, ‘food security’ 
+and ‘nutrition’. The clustering of articles by TOA indicator reveals which 
+TOA indicators are often studied together. Indicators of ‘profitability’ 
+and ‘yield’ were the most commonly used (Figs. 1 and 2) and were gener-
+ally combined with case-specific environmental and social indicators 
+(Fig. 2). This suggests that agronomic and economic viability are con-
+ditional for the exploration of improvements in agricultural system 
+sustainability. The cluster with the largest number of articles (cluster 6, 
+Fig. 2) concerned agricultural production and water quality. This high-
+lights the strong focus on solving pressing issues related to pollution 
+by surplus nutrients from fertilizers and manure.
+The clustering of TOA indicators (top x-axis dendrogram in Fig. 2) 
+shows that for 50% of the indicators, the indicator closest in the den-
+drogram belongs to the same category (sustainable resource manage-
+ment, agronomic, economic or human health). In particular, four out
+
+of five human health indicators were studied in isolation from other 
+indicators, forming closely paired branches (top x-axis dendrogram, 
+orange colour, in Fig. 2).
+The application of TOA methods varied across different TOA indi-
+cators and clusters. For example, the TOA indicators ‘labour productiv-
+ity’, ‘empowerment’, ‘gender equity’ and ‘yield stability’ lacked cases 
+involving spatially explicit methods (M1 or M8; Fig. 1). This same obser-
+vation applies to the clusters in which these TOA indicators belong 
+(Fig. 3). While the absence of spatially explicit methods for social indi-
+cators such as ‘empowerment’ and ‘gender equity’ is expected, given 
+that their spatial dimension is often disregarded, it is worth noting 
+that gender and empowerment may relate to the spatial distribution 
+of fields and resources in the landscape. For instance, their distance 
+from the location of the homestead or decision-making processes 
+regarding the (distribution of) use and ownership of these resources. 
+Clusters of articles associated with ‘yield’, ‘energy’, ‘biodiversity’ and 
+‘land use’ exhibited a high use of GIS (M8), qualitative (M6) and other 
+(M9) methods, with fewer articles applying optimization methods (M3; 
+Fig. 3). Lastly, an interesting anomaly is the ‘health’ indicator, where 
+methods M1–M3, encompassing (spatially explicit) simulations and 
+optimization methods, were conspicuously absent (Fig. 1).
+
+Frequency of criteria levels
+The majority of TOAs were conducted at regional (65%) and farm 
+(17%) scales, followed by field (7%) and national (6%) scales. The TOAs 
+conducted at multi-country (4%) and global scales, along with ‘other’, 
+accounted for only a small proportion of the analyses (Fig. 4a). The 
+spatial scales for TOAs differed from the scales at which modelling
+
+H3: Gender equity
+
+H5: Empowerment
+
+A2: Yield stability
+
+E3: Market supply or demand
+
+H4: Food security
+
+A3: Self-suﬀiciency
+
+H2: Health
+
+H1: Nutrition
+
+E2: Poverty
+
+E4: Labour productivity
+
+E5: Assets
+
+S4: Soil erosion
+
+A4: Land use eﬀiciency
+
+A5: Input eﬀiciency
+
+S9: Biodiversity
+
+S8: Energy
+
+S3: Soil nutrients
+
+S5: Soil organic carbon
+
+S6: Land use
+
+S7: Greenhouse gases
+
+S2: Water quality
+
+S1: Water quantity
+
+A1: Yield
+
+E1: Profitability
+
+0
+25
+50
+75
+100
+
+Percentage of articles
+
+TOA method
+M1
+M2
+M3
+M4
+M5
+M6
+M7
+M8
+M9
+
+Fig. 1 | Articles that include TOA indicators. Percentage of articles that include 
+a TOA indicator (black dotted line and circles) and the share of each TOA method 
+M1–M9 used to study that indicator (coloured bars). The prefixes of the TOA
+
+indicators refer to their class association (A, E, H, S) and number of occurrence 
+within that class as provided in Table 1. Table 1 also describes the TOA methods 
+M1–M9.
+
+Nature Food | Volume 5 | March 2024 | 211–220
+214
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+was performed or data were collected, with the farm and field scale 
+contributing to a combined share of 48%. Of the articles considered, 
+12% implemented cross-scale analyses and 17% considered off-site 
+effects (Fig. 4a). Case study areas were predominantly delineated using 
+administrative borders (54%), followed by biophysical delineation 
+(24%), with 18% of the articles using both methods (Fig. 4b).
+Including a scenario in the TOA allows investigation of the effect 
+of a postulated event or driver on the TOA indicators. In our analysis, 
+scenarios focusing on climate, behavioural or demographic change 
+accounted for 14% of the articles, while scenarios involving alterna-
+tive intensities of resource use constituted 37% of the articles. Sce-
+narios were absent in 25% of the articles (Fig. 4b). Over half of the 
+articles included stakeholders in their analysis, with a relatively equal 
+spread across stakeholder types, except for ‘distant beneficiaries and 
+non-beneficiaries’, which were under-represented. Farmers and experts 
+constituted a larger share (48%) compared to other categories (Fig. 4c). 
+Stakeholders were mainly involved in consultation and valuation, with 
+co-development and validation implemented in less than 25% of the 
+articles considered (Fig. 4c). Overall, the robustness of the TOA results 
+was not widely considered, as the criteria ‘uncertainty’ and ‘validation’ 
+were logged for less than 50% of the articles. Articles incorporating risk 
+analysis constituted 12% of the sample (Fig. 4d).
+
+Links between spatial scales and criteria
+Of the articles considered, ‘livestock’, ‘fisheries’ and ‘forestry’ accounted 
+for a relatively small share (16%) compared with ‘crop’, ‘economic’ 
+and ‘environmental’ disciplines. For the livestock discipline, model-
+ling and data collection were predominantly carried out at the farm 
+scale, while for forestry, they were primarily conducted at the field or 
+regional scale (Fig. 4e). For the economic discipline, modelling and 
+data collection were evenly distributed between the farm (n = 34) and
+
+regional (n = 34) scales (Fig. 4e), in contrast to the overall share of these 
+scales across all of the articles, where ‘regional’ constituted 65% and 
+‘farm’ constituted 17% of the articles (Fig. 4a). In general, for a large 
+share of the reviewed articles, data were collected and modelling was 
+performed at the field and farm scales, but the TOA was conducted 
+at the regional scale. These findings show that, before the TOA, some 
+form of aggregation occurs in the majority of the reviewed articles. 
+Regarding the spatial scale at which the TOA was conducted for articles 
+including a scenario, two observations can be made. First, all of the 
+scenarios (except the resource use scenario) were rarely studied at 
+scales larger than the national scale. Second, the climate, behavioural 
+and demographic change scenarios were almost exclusively studied at 
+the regional scale (Fig. 4f). These results show that few studies inves-
+tigated how scenarios unfolding at smaller or larger scales affect the 
+indicators at the TOA scale.
+
+Multi-scale, cross-scale and robustness criteria
+Figure 5 shows the percentage of articles that include a TOA indica-
+tor (black line, the same as shown in Fig. 1). The articles were then 
+divided into subsets according to whether they included a cross-scale, 
+multi-scale or robustness criterion. The coloured lines represent the 
+percentage of articles in the subset that include a specific TOA indi-
+cator. With the exception of indicators rarely included in all articles 
+(for example, those related to nutrition or health), most TOA indica-
+tors were present in articles adopting a cross-scale modelling frame-
+work (Fig. 5a). These findings occur despite the overall low number 
+of articles (<20%) reporting cross-scale analyses (Fig. 5a). Notably, 
+articles applying an interactive modelling framework did not include 
+‘water quality’, ‘soil erosion’, ‘soil organic carbon’ and ‘biodiversity’, 
+despite these indicators having a relatively high frequency across 
+all articles (Fig. 5a).
+
+Profitability
+
+Yield
+
+Water quantity
+
+Energy
+
+GHG
+
+SOC
+
+Soil nutrients
+
+Land use eﬀiciency
+
+Input eﬀiciency
+
+Market supp./dem.
+
+Land use
+
+Biodiversity
+
+Water quality
+
+Labour productivity
+
+Soil erosion
+
+Self-suﬀiciency
+
+Assets
+
+Yield stability
+
+Food security
+
+Nutrition
+
+Poverty
+
+Gender equity
+
+Empowerment
+
+Health
+
+TOA indicator clusters
+
+Articles clustered by TOA indicators
+
+TOA indicator category
+
+Agronomic
+
+Economic
+
+Human health
+Sustainable resources
+
+Soil nutrients, poverty
+
+Profitability, food security,
+nutrition, poverty
+Profitability, GHG, nutrients,
+assets
+
+Agricultural eﬀiciency,
+productivity, profitability
+
+Profitability, water quantity,
+biodiversity
+
+Profitability, yield, land use,
+water quality
+
+Water quantity and quality,
+yield, SOC, soil erosion
+
+Agricultural eﬀiciency and
+productivity, GHG, SOC
+
+Yield, energy,
+market supp./dem., assets
+
+Land use, biodiversity,
+water quality
+
+Water quantity, energy,
+market supp./dem., land use
+
+E1
+A1
+S1
+S8
+S7
+S5
+S3
+A4
+A5
+E3
+S6
+S9
+S2
+H2
+E4
+S4
+A3
+E5
+A2
+H4
+H1
+E2
+H3
+H5
+7
+
+5
+
+1
+
+10
+
+11
+
+6
+
+2
+
+8
+
+9
+
+4
+
+3
+
+Fig. 2 | Clustering of articles. The articles were clustered by TOA indicator 
+(row-wise) and TOA indicator clusters (column-wise). The associations of articles 
+with clusters are indicated by the colours and labels on the left of the figure; the 
+colours are arbitrary. TOA indicator clusters (top x axis) are specified by colour, 
+corresponding to the main indicator categories (legend in top left of the figure),
+
+and their name (bottom x axis). The matrix indicates whether a TOA indicator 
+has been included in an article (red) or not (beige). The labels on the right list the 
+main TOA indicators included in each cluster. GHG, greenhouse gases; SOC, soil 
+organic carbon; supp./dem., supply or demand.
+
+Nature Food | Volume 5 | March 2024 | 211–220
+215
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+Across all articles, 17% considered off-site effects (Fig. 4a). Nota-
+bly, the ‘poverty’ and ‘soil erosion’ indicators were under-represented 
+in articles considering off-site effects (Fig. 5b). Eight indicators were 
+excluded in articles considering multiple spatial scales in modelling or 
+data collection (‘discipline’ in Fig. 5b). This finding is particularly strik-
+ing for ‘biodiversity’, given that it constitutes a large share of spatially 
+explicit TOA methods (Fig. 1).
+Thirteen per cent of articles reported TOA on multiple spatial 
+scales, with seven indicators excluded in these cases (‘TOA’ in Fig. 5b). 
+Among the excluded indicators, those related to human health domi-
+nated (except for ‘nutrition’). For certain indicators, these findings are 
+to be expected. For instance, market supply or demand (economic) 
+is irrelevant at low geographical scales (field and farm) as prices are 
+determined at the regional (local), national or international scale. The 
+articles that included a risk analysis showed stark contrasts between 
+TOA indicators with respect to their representation relative to all 
+articles. Economic and human health indicators were particularly 
+over-represented, while ‘yield’, ‘input efficiency’ and a set of biophysi-
+cal indicators were under-represented (Fig. 5c). For articles in which 
+uncertainty was acknowledged or validation was performed, no indica-
+tors were over- or under-represented relative to their inclusion across 
+all articles (Fig. 5c).
+
+Discussion
+Limitations on the inclusion of TOA indicators
+Recent reviews on TOA have stated that there is little to no represen-
+tation of indicators related to social interactions, justice and gender 
+issues in TOAs for agricultural systems5,6. These studies referred in 
+particular to intra-household equity, asset ownership, health, education 
+and nutrition. Our results also demonstrate that social and cultural TOA 
+indicators are largely absent, mostly considered in isolation and studied 
+by statistical approaches. These findings are probably a result of the 
+limited data availability and the inability of TOA methods to include
+
+socio-cultural indicators for features and processes that are difficult 
+to capture quantitatively16,17. We further note a similarly low frequency 
+for the following indicators: food security, self-sufficiency and yield 
+stability. These findings raise questions about the rationale behind the 
+selection of TOA indicators. That is, the prevalent use of profitability 
+and crop yield as primary indicators reflects the focus on profit and 
+crop yield maximization in the literature5. The outcomes and priorities 
+of a TOA depend on the chosen objectives and indicators. Alternative 
+indicators might therefore facilitate a more comprehensive analysis of 
+the delivery of environmental, economic and socio-cultural services 
+from agriculture. One illustrative example is the metric ‘nutritional 
+yield’, defined as “the number of hectares required to provide sufficient 
+quantity to fulfil 100% of dietary reference intake for a nutrient for 
+one adult”2. Nutritional yield thus allows the assessment of land use 
+efficiency in both agronomic and social terms. Integrating nutritional 
+yield into TOA in the context of subsistence agriculture could unveil 
+the need for changes in farmers’ crop plans to balance food security 
+and economic profitability objectives.
+
+TOA methodologies
+The formulation of research objectives, questions and methodology 
+determines the information base that a TOA can provide16,18. Decisions 
+regarding TOA objectives and methodology determine the degree 
+to which scales, disciplines and indicators are compartmentalized. 
+In addition, these decisions influence the range of interventions and 
+scenarios explored for alternative agro-environmental management of 
+land, resources and technologies7,18. The results of our analysis reveal 
+associations between TOA methods and indicators, indicating com-
+mon gaps, such as the absence of articles reporting the use of spatially 
+explicit methods to study the indicators ‘human health’ and ‘yield sta-
+bility’. Studying these indicators in a spatially explicit manner could 
+allow for targeted land use planning at the local scale. For instance, 
+Prestele and Verburg demonstrated that spatially explicit analysis
+
+Cluster 3
+(n = 12)
+
+Cluster 4
+(n = 10)
+
+Cluster 9
+(n = 10)
+
+Cluster 8
+(n = 13)
+
+Cluster 2
+(n = 11)
+
+Cluster 6
+(n = 17)
+
+Cluster 11
+(n = 12)
+
+Cluster 1
+(n = 12)
+
+Cluster 10
+(n = 8)
+
+Cluster 5
+(n = 9)
+
+Cluster 7
+(n = 5)
+
+0
+25
+50
+75
+100
+Percentage of articles
+
+TOA method
+M1
+M2
+M3
+M4
+M5
+M6
+M7
+M8
+M9
+
+Fig. 3 | The share of each TOA method by cluster. Cluster associations are as per Fig. 2 and the number of articles within each cluster is given by n.
+
+Nature Food | Volume 5 | March 2024 | 211–220
+216
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+of climate-smart agriculture adoptions unveils local-scale trade-offs 
+affecting yield and soil carbon sequestration at an aggregated scale19. 
+Our results also underscore expected patterns, with socio-economic 
+indicators predominantly studied through statistical approaches and 
+qualitative methods. These methods, static and based on existing data-
+sets, differ from mechanistic models, which allow extrapolation and ex 
+ante assessment under alternative future scenarios. Simulations based 
+on mechanistic models hold the potential to explore scenarios that 
+minimize trade-offs between indicators3,7. However, the validity of this 
+kind of optimization depends on having sufficient understanding of 
+relevant processes and feedbacks in the socio-environmental system3. 
+For example, while crop models vary in their capacity to assess climate 
+change impacts, they share common limitations, such as inadequate 
+representation of low-intensity agricultural systems20. We found that 
+a description of study limitations in the context of the TOA framework, 
+for example, excluded aspects, was often absent. Ideally, models and 
+associated uncertainties would be assessed in the design phase of the 
+TOA. This could ensure the availability of adequate information for 
+quantifying all desired parameters at the desired resolution, allow-
+ing the study to comprehensively represent the agricultural system.
+
+Such an approach is crucial to guide planning in future management 
+decisions aligned with research objectives17.
+
+Involvement of stakeholders and practical application of TOA 
+results
+One recurring concern in the literature is the frequent omission of 
+stakeholders at the onset of the TOA, potentially limiting the prac-
+tical application of TOA results6,8. Our findings partially support 
+these concerns, given that co-development with stakeholders was 
+observed in only 10% of the articles. However, making a definitive 
+statement on equal representation among stakeholders proved 
+challenging as there was generally an absence of a systematic 
+inventory outlining the relevance of different stakeholders to the 
+decision-making process based on their interests and influence21. 
+Our analysis shows that farmers and experts were the primary stake-
+holders included in the articles. Nonetheless, the omission of distant 
+beneficiaries and non-beneficiaries is noteworthy as they are likely 
+to be relevant to the decision-making process in numerous cases, 
+especially when off-site effects are considered in TOAs conducted 
+on multiple scales.
+
+0
+25
+50
+
+Percentage of articles
+
+75
+100
+
+Cross-scale
+
+Discipline
+
+Oﬀ-site
+
+TOA
+
+Scenario
+
+System border
+
+TOA method
+
+Implementation
+
+Inclusion
+
+Type
+
+Risk analysis
+
+Uncertainty
+
+Validation
+
+0
+0
+0
+
+0
+0
+4
+
+27
+25
+47
+6
+3
+0
+
+3
+15
+6
+
+13
+34
+34
+5
+4
+1
+
+26
+24
+55
+6
+3
+1
+
+1
+1
+0
+
+11
+1
+14
+4
+1
+0
+
+Crop
+
+Economic
+
+Environmental
+
+Fisheries
+
+Forestry
+
+Livestock
+
+Field
+Farm
+Regional
+National Multi–country
+Global
+
+Scale
+
+Discipline
+
+0
+
+0
+
+11
+
+1
+
+0
+
+0
+
+0
+
+1
+
+5
+
+18
+
+2
+
+0
+
+1
+
+0
+
+0
+
+0
+
+3
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+6
+
+1
+
+0
+
+0
+
+0
+
+1
+
+6
+
+16
+
+1
+
+0
+
+0
+
+0
+
+3
+
+13
+
+43
+
+5
+
+1
+
+1
+
+0
+
+0
+
+0
+
+2
+
+0
+
+0
+
+0
+
+0
+
+5
+
+7
+
+25
+
+3
+
+5
+
+0
+
+1
+
+Field
+
+Farm
+
+Regional
+
+National
+
+Multi–country
+
+Global
+
+Other
+
+1
+2
+3
+4
+5
+6
+7
+8
+Scenario
+
+TOA scale
+
+e
+
+f
+
+3
+4
+5 6
+
+3
+
+1
+2
+
+1
+2
+
+1
+2
+3
+4
+56
+
+3
+4
+5
+
+3 4
+5
+
+1
+2
+6
+7
+8
+9
+
+1
+2
+6
+7
+8
+
+No
+Yes
+
+No
+Yes
+
+No
+Yes
+
+No
+Yes
+
+No
+Yes
+
+Administrative
+Biophysical
+Both
+
+Other
+
+Lb
+Ex
+Gv
+Fm
+Db
+Ac
+Pv
+Eo
+
+Co
+Cd
+Va
+Vd
+
+Scale
+a
+
+TOA framework
+b
+
+Stakeholder
+c
+
+TOA robustness
+d
+
+Fig. 4 | The relative frequency of each level within a criterion. a, Criteria 
+related to the scale of the analysis. TOA: the spatial scale at which the TOA was 
+conducted. The numbers refer to the spatial scales of field (1), farm (2), regional 
+(3), national (4), multi-country (5) and global (6). Off-site: whether off-site effects 
+have been considered in the TOA. Discipline: the spatial scale at which modelling 
+or data collection was performed for a discipline. The numbers refer to the spatial 
+scales detailed above for TOA. Cross-scale: whether aggregative (1), interactive 
+(2) or no cross-scale modelling was performed (3). b, Criteria related to the TOA 
+framework. TOA method: the methods used to perform the TOAs. The numbers 
+refer to the TOA methods M1–M9 defined in Table 1. System border: which 
+boundaries were used to define the TOA case study area. Scenario: whether the 
+article considered a scenario and, if so, which type of scenario. The numbers refer
+
+to the scenarios 1–8 defined in Table 1. c, Criteria related to stakeholders. Type: 
+whether local beneficiaries and non-beneficiaries, experts, government, farmers, 
+distant beneficiaries and non-beneficiaries, academics, private organizations 
+or environmental organizations were involved. Inclusion: whether the study 
+included stakeholders. Implementation: whether stakeholders were involved 
+in consultation, co-development, valuation or validation. d, Criteria related 
+to TOA robustness: whether the article performed a validation, risk analysis 
+or acknowledged uncertainty. e, The frequency (shown in the circles) for each 
+spatial scale at which the modelling or data collection was performed for a given 
+discipline. f, The frequency (shown in the circles) at which an article considered 
+a given scenario in TOA for each spatial scale. The scenario numbers 1–8 are 
+defined in Table 1.
+
+Nature Food | Volume 5 | March 2024 | 211–220
+217
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+Multi- and cross-scale analysis
+Depending on the research objectives, the TOA literature underscores 
+the importance of acknowledging processes across scales and includ-
+ing them in research3,6–9,22. In many of the articles, data were collected 
+or modelling was performed at field and farm scales, yet the TOA was 
+conducted at the regional scale. This highlights an opportunity for 
+multi-scale TOA analysis, potentially enhancing the relevance of TOA 
+studies to policy. For example, bilevel optimization is a promising 
+approach to facilitating nested decision-making processes at different 
+scales. In this approach, the solution at the higher level (for example, 
+larger spatial scale) depends on the solution at the lower level (for exam-
+ple, smaller spatial scale). Bostian et al. demonstrated the application 
+of this methodology in recognizing multiple spatial scales inherent to 
+non-point pollution regulation23. However, the restricted application 
+of cross-scale analysis in our sample (12%) shows the limited extent to 
+which TOA in agriculture captures the hierarchical nature of social, 
+cultural, environmental, economic and agronomic processes.
+Furthermore, 17% of the articles considered effects outside the TOA 
+case study area, considering off-site effects in a diverse array of subjects, 
+including transnational emission permits, water trading and increased 
+demand for scarce resources, anticipated to influence their shadow 
+prices24–26. However, off-site effects might have feedbacks, such as 
+dependencies between alternative production systems within a supply
+
+chain27. In such cases, the delineation of the system boundary must be 
+considered in the context of these feedbacks to ensure their inclusion 
+within the system. In cases where off-site effects do not have feedbacks, 
+these can be classified as ‘teleconnections’, denoting processes whose 
+cause and effect are widely separated28. A case in point is a study of the 
+water quality of the Danube River, in which distant beneficiaries and 
+non-beneficiaries, represented by an international committee, were 
+considered in the TOA29. The results also show that climate, behavioural 
+and demographic scenarios were rarely assessed at lower or higher 
+scales (compared to the regional scale). This underscores that the extent 
+to which these scales are relevant to TOA is understudied and merits 
+further research. For example, generic methods, such as the carbon30 
+or water31 footprint, can provide a broad assessment of which off-site 
+effects at larger scales are relevant to TOA outcomes. These approaches 
+may facilitate the inclusion of underlying causes, the involvement of 
+more inclusive stakeholders and account for leakage effects, such as 
+the expansion of agricultural lands beyond the TOA case study area32.
+Ideally, a TOA methodological framework is conceptualized such 
+that (1) it recognizes multi- and cross-scale interactions where appli-
+cable, (2) the system boundary aligns with substantiated biophysical 
+and relevant socio-institutional boundaries, and (3) it recognizes the 
+heterogeneity in which scales and associated consequences are per-
+ceived as well as valued by different stakeholders10.
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+Cross-scale
+
+All articles
+Aggregative
+(n = 9)
+Interactive
+(n = 6)
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+Multi-scale
+
+All articles
+TOA
+(n = 16)
+Discipline
+(n = 12)
+Oﬀ-site
+(n = 20)
+
+a
+
+b
+
+c
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+E1: Profitability
+
+A1: Yield
+
+S1: Water quantity
+
+S2: Water quality
+
+S7: Greenhouse gases
+
+S6: Land use
+
+S5: Soil organic carbon
+
+S3: Soil nutrients
+
+S8: Energy
+
+S9: Biodiversity
+
+A5: Input eﬀiciency
+
+A4: Land use eﬀiciency
+
+S4: Soil erosion
+
+E5: Assets
+
+E4: Labour productivity
+
+E2: Poverty
+
+H1: Nutrition
+
+H2: Health
+
+A3: Self-suﬀiciency
+
+H4: Food security
+
+E3: Market supply or demand
+
+A2: Yield stability
+
+H5: Empowerment
+
+H3: Gender equity
+
+Robustness
+
+All articles
+Risk analysis
+(n = 14)
+Uncertainty
+(n = 55)
+Validation
+(n = 50)
+
+Percentage of articles
+Percentage of articles
+Percentage of articles
+
+TOA indicator
+
+Fig. 5 | Percentage of articles that include a TOA indicator. The percentages 
+of all reviewed articles and subsets of articles that include specific TOA 
+indicators. a–c, The subsets comprise articles that included cross-scale (a), 
+multi-scale (b) and robustness (c) criteria. In b, TOA refers to articles in which
+
+the TOA was conducted on multiple spatial scales, ‘Discipline’ refers to articles 
+that considered multiple spatial scales for modelling or data collection, and 
+‘Off-site’ refers to articles in which effects outside the TOA case study area were 
+considered.
+
+Nature Food | Volume 5 | March 2024 | 211–220
+218
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+Robustness of TOA results
+The risk associated with TOA extends across spatial, temporal and 
+jurisdictional scales, carrying implications for the dissemination of 
+TOA results13. The under-representation of ‘yield’ in articles considering 
+risk analysis highlights the dichotomy between yield and profitability 
+as the most prominent indicators. That is, risk analysis appears to be 
+mainly associated with the economic domain5. However, it is impor-
+tant to recognize that the evaluation of risk and the formulation of 
+relevant strategies (risk aversion, mitigation or offsetting) are criti-
+cal for farmers adopting system transformations, such as alternative 
+forms of land use to mitigate inputs and associated greenhouse gas 
+emissions. Integrating risk into TOA enables the study of the policies 
+and incentives necessary for achieving whole-system transformations 
+towards sustainable agricultural practices13,14. Decision-making under 
+uncertainty becomes interpretable when recommendations are accom-
+panied by an assessment of associated risks. Ideally, these risks are 
+context-specific. For example, Hochman et al. provided TOA results 
+on crop rotations alongside a minimum risk threshold quantified as 
+the highest gross margin for the poorest 20% of years33.
+While a moderate number of the articles considered uncertainty, 
+only a few articles quantified changes in trade-offs as a function of 
+uncertainty. The inclusion of stochastic components and the associated 
+uncertainty inherent in biological systems could facilitate a more real-
+istic description of outcomes, proving valuable for decision-making13,15. 
+Varying input data or model parameterization within an expected 
+range could reveal the sensitivity of results. For instance, when climate 
+scenarios are used, realizations of these scenarios can be used to assess 
+the stochasticity of the objectives for which the TOA is implemented34. 
+This approach enables the acknowledgement of both the frequency 
+and pattern of stochastic events, including extreme weather events, 
+and their impact on TOA outcomes. Consequently, an analysis of the 
+adaptability of a farming system would not solely rely on optimal solu-
+tions given the mean output but would also account for associated vari-
+ability and unexpected events15. However, it is crucial to contextualize 
+the effect of stochasticity. For example, the relative impact of model or 
+parameter uncertainty on optimization outcomes has been shown to 
+vary depending on the prioritization of objectives and site conditions35.
+
+Limitations of this study
+An important limitation of our review lies in the use of ‘trade-off analysis’ 
+as a single term in our Web of Science search string. There are research 
+areas that address trade-offs and synergies across various disciplines, 
+scales and methods without explicitly using the term ‘trade-off analy-
+sis’ to describe their research objectives. Examples include the ‘food–
+energy–water nexus’ literature36, as well as research under the auspices 
+of the Agricultural Model Intercomparison and Improvement Project 
+(AgMIP) (https://agmip.org/) and the Food, Agriculture, Biodiversity, 
+Land-Use and Energy (FABLE) Consortium37. Both AgMIP and FABLE 
+are particularly concerned with the relevance of TOA to policy. AgMIP 
+explicitly states the use of “multiple scenarios and models to assess 
+and probabilistically manage risk”38. Given the focus of these studies 
+on global and regional assessments, we anticipate that our findings 
+for those spatial scales could be affected. Indeed, the identified gaps 
+in TOA implementation need to be viewed in the context of our sample, 
+which mostly comprises studies in which modelling or data analysis 
+was performed up to the regional level and TOA at the regional scale.
+The method used to log the occurrence of pre-set criteria not only 
+affects the variance within a criterion but also influences its abundance. 
+For example, Sanon et al. included a large number of TOA indicators that 
+were all classified under ‘biodiversity’29. Thus, binary criteria logging does 
+not capture the intensity with which a criterion is considered, a well-known 
+phenomenon in the field of ecology39. This limitation may have resulted in 
+the underestimation of both the intensity with which certain TOA indica-
+tors and their classes have been studied (Fig. 1) and the total number of 
+TOA indicators considered per article (Extended Data Fig. 2).
+
+Conclusions
+Based on our analysis, it is possible to identify some actions that 
+would increase the contribution of TOAs to SDG-aligned agricultural 
+landscapes.
+For instance, future studies should include multi- and cross-scale 
+effects when relevant to the research objectives. We have identified an 
+opportunity for multi-scale analysis, given that many studies aggre-
+gated farm- or field-scale data before performing TOA at a regional 
+scale. As the inclusion of multiple scales, indicators and methods 
+may in some cases reduce the generalizability of results and make 
+them more context-specific, an alternative would be to discuss the 
+anticipated implications of multi- and cross-scale effects on the 
+study findings.
+Furthermore, the relevance of TOA to society and policy can be 
+improved by formulating research objectives such that TOA indicators 
+lie within the scope of frameworks such as the SDGs. The most frequent 
+indicators were biophysical or informed by profit maximization theory 
+(for example, profitability and yield). However, indicators relevant to 
+human well-being, security and farm resilience (for example, empow-
+erment, nutrition and yield stability) occurred less frequently. To 
+aid the interpretation of TOA results, the rationale behind the TOA 
+methodology that is used to assess indicators should be listed together 
+with a critical review of how the agricultural system under study is 
+represented and what is excluded as a consequence.
+In the reviewed articles, the most consulted stakeholders were 
+farmers and experts, stakeholder co-development and validation were 
+rare, and scenarios were predominantly based on resource use with lit-
+tle consideration of off-site effects. These findings suggest that TOAs 
+mostly explore alternative management across a set of farms rather 
+than policies and incentives that would facilitate whole landscape and 
+food system transformations.
+Agricultural policy- and decision-making carry an inherent risk. 
+TOAs will become more operational when they evaluate associated risks 
+and list strategies to manage these risks. This process could promote 
+the robustness of quantified trade-offs with respect to the associated 
+uncertainty of data and variability in outcomes. Finally, an inventory 
+of stakeholders that are relevant to the decision-making process and 
+their respective roles in the study would provide legitimacy of results. 
+While this element has already been recognized in the literature12,29, 
+some of the shortcomings that we have identified here would probably 
+occur less frequently, particularly the lack of stakeholder inclusion and 
+the over-representation of specific stakeholder types and methods of 
+stakeholder engagement.
+Closer adherence to these guidelines could enhance the relevance 
+of TOA to the scientific community, policy-makers and farmers.
+
+Methods
+We followed the approach of Lautenbach et al. and Seppelt et al. in 
+their systematic review of the literature on ecosystem services9,22. 
+The generic structure involved (1) the identification, screening and 
+selection of relevant peer-reviewed literature from a global repository, 
+(2) formulation of the criteria against which to evaluate each article 
+(Table 1 and Supplementary Table 1), and (3) descriptive statistics and 
+cluster analysis to assess common interrelationships between criteria 
+and identify knowledge gaps.
+We used the following search string “ALL=agricultur* AND (“trade 
+off* analysis” OR “trade-off* analysis” OR “tradeoff* analysis”)” in the 
+Web of Science (on 14 September 2021) to identify peer-reviewed arti-
+cles in English reporting TOA. We found 153 articles with publication 
+dates spanning from 1993 to 2021. We excluded studies that mentioned 
+the existence of trade-offs but did not assess relationships between 
+indicators. For this reason, review and opinion papers were considered 
+off-topic and were excluded from the search results. Furthermore, 
+methodological papers that did not involve a case study were also 
+excluded, leading to a total sample of 119 articles.
+
+Nature Food | Volume 5 | March 2024 | 211–220
+219
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+We selected criteria based on current TOA research5–9,16,22 and 
+recorded information on these criteria that were relevant to the con-
+ceptualization, characterization and analysis of trade-offs in agri-
+culture (research objective 1). Briefly, the criteria included the type 
+of TOA methods used, the spatial scales at which the analyses were 
+performed and/or data collected, the indicators assessed in the TOA, 
+which stakeholder types were included as well as how the stakehold-
+ers were engaged in the case study, whether the case study included 
+alternative scenarios and of what type, how the case study area was 
+delineated, whether effects outside the case study area were consid-
+ered, and whether the case study acknowledged and accounted for 
+uncertainty, validated results or performed a risk analysis. To assess 
+whether cross-scale analyses were performed in case studies, we 
+adopted the definition of Kanter et al., who distinguished between 
+model frameworks that aggregate outputs at lower scales to use as 
+inputs at higher scales (aggregative) and model frameworks that 
+have submodels operating at different spatial and temporal resolu-
+tions (interactive)6. Thus, whereas an aggregative model framework 
+follows a sequential approach, an interactive model framework per-
+forms analysis across scales simultaneously, allowing for interactions 
+between scales and emergent indicators at higher levels. Furthermore, 
+descriptive information was collected for three criteria: the agricultural 
+system(s) studied, agricultural activities and knowledge gaps reported 
+in the discussion section of the article. All of the criteria are listed in 
+Table 1 with a generic description. We refer the reader to Supplementary 
+Table 1 for more detailed information on the criteria. Based on these 
+criteria, knowledge gaps were then assessed through descriptive sta-
+tistics and cluster analysis (research objective 2).
+The decision of which TOA indicators to include is a major 
+methodological decision in TOA as it determines which interrelations 
+are considered and analysed, and therefore which trade-offs and syner-
+gies can be identified. We anticipated thematic clusters of TOA indica-
+tors based on the discipline, scale, geography and method considered. 
+To identify co-occurrences between TOA indicators, we performed 
+hierarchical Ward clustering to group articles by TOA indicators as well 
+as the TOA indicators themselves based on the Jaccard similarity coef-
+ficient40. Through the use of the Jaccard similarity metric, we accounted 
+for the double-zero problem. Namely, the absence of a TOA indicator in 
+two articles does not indicate a similarity, whereas its presence does9. 
+For the clustering of articles by the TOA indicators used, the number of 
+clusters to be retained was decided by the ‘elbow’ method based on the 
+Mantel correlation between the data for each cluster and the raw dis-
+tance matrix40. For the clustering of TOA indicators, the dendrogram was 
+not cut to visualize common co-occurrences for all of the TOA indicators.
+Criteria were logged in a Microsoft Office Excel (2021) spreadsheet 
+(Supplementary Data 1). The data collected during this systematic 
+review were further analysed and visualized in R (ref. 41). Data handling, 
+visualizations and analysis were performed using the following R pack-
+ages: tidyverse42, dendextend43, cluster44, vegan45 and pheatmap46.
+
+Reporting summary
+Further information on research design is available in the Nature 
+Portfolio Reporting Summary linked to this article.
+
+Data availability
+The dataset created has been made available as extended data.
+
+Code availability
+The code created for data handling, analysis and visualizations is 
+available on request.
+
+References
+1.	
+Renting, H. et al. Exploring multifunctional agriculture. A review 
+of conceptual approaches and prospects for an integrative 
+transitional framework. J. Environ. Manag. 90, 112–123 (2009).
+
+2.	
+DeFries, R. et al. Synergies and trade-offs for sustainable 
+agriculture: nutritional yields and climate-resilience for cereal 
+crops in Central India. Glob. Food Sec. 11, 44–53 (2016).
+3.	
+Seppelt, R., Lautenbach, S. & Volk, M. Identifying trade-offs 
+between ecosystem services, land use, and biodiversity: a plea for 
+combining scenario analysis and optimization on different spatial 
+scales. Curr. Opin. Environ. Sustain. 5, 458–463 (2013).
+4.	
+Stoorvogel, J. J., Antle, J. M., Crissman, C. C. & Bowen, W. The tradeoff 
+analysis model: integrated bio-physical and economic modeling 
+of agricultural production systems. Agric. Syst. 80, 43–66 (2004).
+5.	
+Antle, J. M. & Valdivia, R. O. Trade-off analysis of agri-food systems 
+for sustainable research and development. Q Open https://doi.
+org/10.1093/qopen/qoaa005 (2021).
+6.	
+Kanter, D. R. et al. Evaluating agricultural trade-offs in the age of 
+sustainable development. Agric. Syst. 163, 73–88 (2018).
+7.	
+Groot, J. C. J. et al. On the contribution of modelling to 
+multifunctional agriculture: learning from comparisons.  
+J. Environ. Manag. 90, 147–160 (2009).
+8.	
+Klapwijk, C. J. et al. Analysis of trade-offs in agricultural systems: 
+current status and way forward. Curr. Opin. Environ. Sustain. 6, 
+110–115 (2014).
+9.	
+Lautenbach, S. et al. Blind spots in ecosystem services research 
+and challenges for implementation. Reg. Environ. Change 19, 
+2151–2172 (2019).
+10.	 Cash, D. W. et al. Scale and cross-scale dynamics: governance 
+and information in a multilevel world. Ecol. Soc. https://www.jstor.
+org/stable/26265993 (2006).
+11.	
+Gibson, R. B. Sustainability assessment: basic components of a 
+practical approach. Impact Assess. Proj. Apprais. 24, 170–182 (2006).
+12.	 Cash, D. W. et al. Knowledge systems for sustainable 
+development. Proc. Natl Acad. Sci. USA 100, 8086–8091 (2003).
+13.	 Anderson, J. R. Risk in rural development: challenges for 
+managers and policy makers. Agric. Syst. 75, 161–197 (2003).
+14.	 Hardaker, J. B., Lien, G., Anderson, J. R. & Huirne, R. B. Coping with 
+Risk in Agriculture: Applied Decision Analysis (Cabi, 2015).
+15.	 Uusitalo, L., Lehikoinen, A., Helle, I. & Myrberg, K. An overview 
+of methods to evaluate uncertainty of deterministic models in 
+decision support. Environ. Model. Softw. 63, 24–31 (2015).
+16.	 Thornton, P. K. et al. A framework for priority-setting in climate 
+smart agriculture research. Agric. Syst. 167, 161–175 (2018).
+17.	 Jones, J. W. et al. Toward a new generation of agricultural system 
+data, models, and knowledge products: state of agricultural 
+systems science. Agric. Syst. 155, 269–288 (2017).
+18.	 Morrison-Saunders, A. & Pope, J. Conceptualising and managing 
+trade-offs in sustainability assessment. Environ. Impact Assess. 
+Rev. 38, 54–63 (2013).
+19.	 Prestele, R. & Verburg, P. H. The overlooked spatial dimension of 
+climate‐smart agriculture. Glob. Change Biol. 26, 1045–1054 (2020).
+20.	 Ewert, F. et al. Crop modelling for integrated assessment of risk to 
+food production from climate change. Environ. Model. Softw. 72, 
+287–303 (2015).
+21.	 Norström, A. V. et al. Principles for knowledge co-production in 
+sustainability research. Nat. Sustain. 3, 182–190 (2020).
+22.	 Seppelt, R., Dormann, C. F., Eppink, F. V., Lautenbach, S. & 
+Schmidt, S. A quantitative review of ecosystem service studies: 
+approaches, shortcomings and the road ahead. J. Appl. Ecol. 48, 
+630–636 (2011).
+23.	 Bostian, M., Whittaker, G., Barnhart, B., Fare, R. & Grosskopf, S. 
+Valuing water quality tradeoffs at different spatial scales: an 
+integrated approach using bilevel optimization. Water Res. Econ. 
+11, 1–12 (2015).
+24.	 Popp, A. et al. The economic potential of bioenergy for climate 
+change mitigation with special attention given to implications for 
+the land system. Environ. Res. Lett. https://doi.org/10.1088/1748-
+9326/6/3/034017 (2011).
+
+Nature Food | Volume 5 | March 2024 | 211–220
+220
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+25.	 Hayha, T., Franzese, P. P., Paletto, A. & Fath, B. D. Assessing, 
+valuing, and mapping ecosystem services in Alpine forests. 
+Ecosyst. Serv. 14, 12–23 (2015).
+26.	 Maraseni, T., An-Vo, D. A., Mushtaq, S. & Reardon-Smith, K. 
+Carbon smart agriculture: an integrated regional approach offers 
+significant potential to increase profit and resource use efficiency, 
+and reduce emissions. J. Clean. Prod. https://doi.org/10.1016/j.
+jclepro.2020.124555 (2021).
+27.	 Modongo, O. & Kulshreshtha, S. N. Economics of mitigating 
+greenhouse gas emissions from beef production in western 
+Canada. Agric. Syst. 162, 229–238 (2018).
+28.	 Kinzig, A. P. in The Princeton Guide to Ecology (eds Levin, S. A. 
+et al.) 573–670 (Princeton Univ. Press, 2012).
+29.	 Sanon, S., Hein, T., Douven, W. & Winkler, P. Quantifying 
+ecosystem service trade-offs: the case of an urban floodplain in 
+Vienna, Austria. J. Environ. Manag. 111, 159–172 (2012).
+30.	 Wright, L. A., Kemp, S. & Williams, I. ‘Carbon footprinting’: towards 
+a universally accepted definition. Carbon Manag. 2, 61–72 (2011).
+31.	 Chapagain, A. K. & Hoekstra, A. Y. The water footprint of Morocco and 
+the Netherlands: global water use as a result of domestic consumption 
+of agricultural commodities. Ecol. Econ. 64, 109–118 (2007).
+32.	 Lambin, E. F. & Meyfroidt, P. Global land use change, economic 
+globalization, and the looming land scarcity. Proc. Natl Acad. Sci. 
+USA 108, 3465–3472 (2011).
+33.	 Hochman, Z. et al. Cropping system yield gaps can be narrowed 
+with more optimal rotations in dryland subtropical Australia. 
+Agric. Syst. 184, 102896 (2020).
+34.	 Karner, K., Schmid, E., Schneider, U. A. & Mitter, H. Computing 
+stochastic Pareto frontiers between economic and environmental 
+goals for a semi-arid agricultural production region in Austria. 
+Ecol. Econ. https://doi.org/10.1016/j.ecolecon.2021.107044 (2021).
+35.	 Holzkämper, A., Klein, T., Seppelt, R. & Fuhrer, J. Assessing the 
+propagation of uncertainties in multi-objective optimization for 
+agro-ecosystem adaptation to climate change. Environ. Model. 
+Softw. 66, 27–35 (2015).
+36.	 D’Odorico, P. et al. The global food–energy–water nexus. Rev. 
+Geophys. 56, 456–531 (2018).
+37.	 FABLE Consortium. Pathways to Sustainable Land-Use and Food 
+Systems. 2020 Report of the FABLE Consortium (International 
+Institute of Applied Systems Analysis and Sustainable Development 
+Solutions Network, 2020); https://doi.org/10.22022/ESM/ 
+12-2020.16896
+38.	 Agricultural Model Intercomparison and Improvement Project. 
+Approach. Track 2: Climate change multi-model assessment 
+AgMIP https://agmip.org/approach-4/ (2023).
+39.	 Royle, J. A. & Nichols, J. D. Estimating abundance from repeated 
+presence–absence data or point counts. Ecology 84, 777–790 
+(2003).
+40.	 Legendre, P. & Legendre, L. Numerical Ecology (Elsevier, 2012).
+41.	 R Core Team. R: A language and environment for statistical 
+computing. R package version 4.1.2. https://www.R-project.org/ 
+(2021).
+42.	 Wickham, H. et al. Welcome to the tidyverse. J. Open Source 
+Softw. https://doi.org/10.21105/joss.01686 (2019).
+43.	 Galili, T. dendextend: an R package for visualizing, adjusting, and 
+comparing trees of hierarchical clustering. Bioinformatics 31, 
+3718–3720 (2015).
+44.	 Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M. & Hornik, K. 
+cluster: Cluster analysis basics and extensions. R package version 
+2.1.2 (2021).
+45.	 Oksanen, J. et al. vegan: Community ecology package. R package 
+version 2.5-7 https://CRAN.R-project.org/package=vegan (2020).
+
+46.	 Kolde, R. pheatmap: Pretty heatmaps. R package version 1.0.12
+
+https://CRAN.R-project.org/package=pheatmap (2019).
+
+Acknowledgements
+We acknowledge R. Seppelt for his comments on the initial 
+methodology. This work was made possible by the CGIAR Research 
+Program on Roots, Tubers and Bananas (RTB) and the One CGIAR 
+Initiatives ‘Nexus Gains—Realizing Multiple Benefits Across Water, 
+Energy, Food and Ecosystems’ and ‘Nature Positive Solutions’, 
+together with all of the donors who supported this research through 
+their contributions to the CGIAR and One CGIAR Fund. For a list of One 
+CGIAR Fund donors, please see http://www.cgiar.org/our-funders. 
+This research was partly funded by the United States Agency for 
+International Development (USAID; AID-BFS-G-11-00002) as part of the 
+US government’s Feed the Future Initiative. The contents of this Article 
+are the responsibility of the producing organizations and do not 
+necessarily reflect the opinion of USAID or the US government.
+
+Author contributions
+T.S.B. conceived and designed the study, led and performed the 
+review and data analyses, interpretations and writing. N.E.-C. 
+contributed to the study’s design, interpretations and writing. A.P., E.G. 
+and B.J. contributed to interpretations and writing. J.C.J.G. contributed 
+to the study’s design, analysis, interpretations and writing.
+
+Competing interests
+The authors declare no competing interests.
+
+Additional information
+Extended data is available for this paper at  
+https://doi.org/10.1038/s43016-024-00926-x.
+
+Supplementary information The online version contains supplementary 
+material available at https://doi.org/10.1038/s43016-024-00926-x.
+
+Correspondence and requests for materials should be addressed to 
+Jeroen C. J. Groot.
+
+Peer review information Nature Food thanks John Antle and Emma 
+Stephens for their contribution to the peer review of this work.
+
+Reprints and permissions information is available at  
+www.nature.com/reprints.
+
+Publisher’s note Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.
+
+Open Access This article is licensed under a Creative Commons 
+Attribution 4.0 International License, which permits use, sharing, 
+adaptation, distribution and reproduction in any medium or format, 
+as long as you give appropriate credit to the original author(s) and the 
+source, provide a link to the Creative Commons licence, and indicate 
+if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless 
+indicated otherwise in a credit line to the material. If material is not 
+included in the article’s Creative Commons licence and your intended 
+use is not permitted by statutory regulation or exceeds the permitted 
+use, you will need to obtain permission directly from the copyright 
+holder. To view a copy of this licence, visit http://creativecommons.
+org/licenses/by/4.0/.
+
+© The Author(s) 2024
+
+Nature Food
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+Extended Data Fig. 1 | Articles per year of publication. Number of articles by publication year (a) and its cumulative distribution (b).
+
+Nature Food
+
+Article
+https://doi.org/10.1038/s43016-024-00926-x
+
+Extended Data Fig. 2 | Figures on the number of trade-off analysis (TOA) indicators considered. Cumulative distribution of articles per number of TOA indicators 
+included within an article (a). Frequency (%) of the number of TOA indicators included within an article, color-coded by cluster as specified in Fig. 2 in the main text (b).
+
+1
+
+nature research  |  reporting summary
+April 2020
+
+Corresponding author(s):
+JCJ Groot, jeroen.groot@wur.nl
+
+Last updated by author(s): Feb 14, 2024
+
+Reporting Summary
+
+Nature Research wishes to improve the reproducibility of the work that we publish. This form provides structure for consistency and transparency 
+in reporting. For further information on Nature Research policies, see our Editorial Policies and the Editorial Policy Checklist.
+
+Statistics
+
+For all statistical analyses, confirm that the following items are present in the figure legend, table legend, main text, or Methods section.
+
+n/a Confirmed
+
+The exact sample size (n) for each experimental group/condition, given as a discrete number and unit of measurement
+
+A statement on whether measurements were taken from distinct samples or whether the same sample was measured repeatedly
+
+The statistical test(s) used AND whether they are one- or two-sided 
+Only common tests should be described solely by name; describe more complex techniques in the Methods section.
+
+A description of all covariates tested
+
+A description of any assumptions or corrections, such as tests of normality and adjustment for multiple comparisons
+
+A full description of the statistical parameters including central tendency (e.g. means) or other basic estimates (e.g. regression coefficient) 
+AND variation (e.g. standard deviation) or associated estimates of uncertainty (e.g. confidence intervals)
+
+For null hypothesis testing, the test statistic (e.g. F, t, r) with confidence intervals, effect sizes, degrees of freedom and P value noted 
+Give P values as exact values whenever suitable.
+
+For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo settings
+
+For hierarchical and complex designs, identification of the appropriate level for tests and full reporting of outcomes
+
+Estimates of effect sizes (e.g. Cohen's d, Pearson's r), indicating how they were calculated
+
+Our web collection on statistics for biologists contains articles on many of the points above.
+
+Software and code
+
+Policy information about availability of computer code
+
+Data collection
+Criteria were logged within a Microsoft Office Excel (2021) sheet which has been made available under as a supplementary dataset.
+
+Data analysis
+The data collected during the systematic review has been further analyzed and visualized in R. Data handling, visualizations and analysis were 
+done using the following R packages: tidyverse, dendextend, cluster, vegan and pheatmap. Please see the last paragraph in the methodology 
+section and references section for further details.
+
+For manuscripts utilizing custom algorithms or software that are central to the research but not yet described in published literature, software must be made available to editors and 
+reviewers. We strongly encourage code deposition in a community repository (e.g. GitHub). See the Nature Research guidelines for submitting code & software for further information.
+
+Data
+
+Policy information about availability of data
+
+All manuscripts must include a data availability statement. This statement should provide the following information, where applicable:
+
+- Accession codes, unique identifiers, or web links for publicly available datasets 
+- A list of figures that have associated raw data 
+- A description of any restrictions on data availability
+
+The dataset created has been made available as a supplementary dataset.
+
+2
+
+nature research  |  reporting summary
+April 2020
+
+Field-specific reporting
+
+Please select the one below that is the best fit for your research. If you are not sure, read the appropriate sections before making your selection.
+
+Life sciences
+Behavioural & social sciences
+ Ecological, evolutionary & environmental sciences
+
+For a reference copy of the document with all sections, see nature.com/documents/nr-reporting-summary-flat.pdf
+
+Ecological, evolutionary & environmental sciences study design
+
+All studies must disclose on these points even when the disclosure is negative.
+
+Study description
+A systematic review on trade-off analysis within agriculture.
+
+Research sample
+The research sample consisted of all peer-reviewed articles from the Web of Science database that corresponded to our search 
+string.
+
+Sampling strategy
+We used the following search string: “ALL=agricultur* AND ("trade off* analysis" OR "trade-off* analysis" OR "tradeoff* analysis")” in 
+the Web of Science (on 14/09/2021) to identify peer-reviewed articles in English conducting TOA. We found 153 articles with 
+publication dates spanning from 1993 to 2021.
+
+Data collection
+Criteria to evaluate for each article were defined prior to the review. TB read and evaluated all articles based on criteria. (See meta 
+data in data file). Decisions made during evaluation were also logged in the 'Rules' tab in the data file.
+
+Timing and spatial scale
+Data collection took place from 15-09-2021 up till 31-01-2022, the date at which all articles had been read and logged.
+
+Data exclusions
+Review- and opinion papers were considered off-topic and were excluded from the search results. Furthermore, methodological 
+papers that did not involve a case-study were also excluded, leading to a total sample of 119 articles.
+
+Reproducibility
+Reproducibility has been facilitated through making the data file accessible together with the notes and decision-making in the data 
+file, if required we can also publish the R code used to analyze the data and visualize results.
+
+Randomization
+After downloading all the articles, they were evaluated in alphabetical order based on author names.
+
+Blinding
+We did not consider blinding applicable to our study. One way in which it could have been would be to blind the authors and their 
+affiliation. However, we also wanted to use this information to investigate geographic trends between the author's affiliation and the 
+location of the case-study (see suppl. material).
+
+Did the study involve field work?
+Yes
+No
+
+Reporting for specific materials, systems and methods
+
+We require information from authors about some types of materials, experimental systems and methods used in many studies. Here, indicate whether each material, 
+system or method listed is relevant to your study. If you are not sure if a list item applies to your research, read the appropriate section before selecting a response.
+
+Materials & experimental systems
+
+n/a Involved in the study
+
+Antibodies
+
+Eukaryotic cell lines
+
+Palaeontology and archaeology
+
+Animals and other organisms
+
+Human research participants
+
+Clinical data
+
+Dual use research of concern
+
+Methods
+
+n/a Involved in the study
+
+ChIP-seq
+
+Flow cytometry
+
+MRI-based neuroimaging

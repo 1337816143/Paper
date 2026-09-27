@@ -1,0 +1,1280 @@
+Journal of Environmental Management 347 (2023) 119060
+
+Available online 3 October 2023
+0301-4797/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+
+Research article
+
+Farmers perceive diminishing ecosystem services, but overlook dis-services 
+in intensively used agricultural landscapes in the North China Plain
+
+Jiali Cheng a,b,c,*, Zhan Xu b,c, Zhengyuan Liang a,b,c, Fan Li e,f, Wen-Feng Cong b,**, 
+Chaochun Zhang b, Lei Song g, Chong Wang b, Fusuo Zhang b, Andries Richter d, 
+Wopke van der Werf c, Jeroen C.J. Groot a
+
+a Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands 
+b State Key Laboratory of Nutrient Use and Management, College of Resources and Environmental Sciences, China Agricultural University, Beijing 100193, China 
+c Centre for Crop Systems Analysis, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands 
+d Environmental Economics and Natural Resources Group, Wageningen University, P.O. Box 8130, 6700, EW, Wageningen, the Netherlands 
+e College of Economics and Management, Huazhong Agricultural University, Wuhan, 430070, China 
+f Macro Agriculture Research Institute, Huazhong Agricultural University, Wuhan, 430070, China 
+g Quzhou County Agricultural Bureau, Quzhou County, 057250, Handan City, China
+
+A R T I C L E  I N F O
+
+Keywords: 
+Simplified agricultural landscape 
+Landscape management 
+Farming 
+Stakeholder 
+Perception 
+Socio-ecological
+
+A B S T R A C T
+
+The UN sustainable development goals ask countries to advance sustainable production methods in agriculture. 
+While the need for a transition to sustainable agricultural production is widely felt, there is little insight into local 
+stakeholders’ perceptions regarding agroecosystem (dis)services in areas with intensive production methods. The 
+North China Plain is an agricultural production area with intensive production systems and simplified agricul­
+tural landscapes. We conducted a survey with 267 farmers in Quzhou county in the North China Plain in 2020 to 
+measure the perceived level of agroecosystem (dis)services supply and the changes therein between 2015 and 
+2020. We analyzed which explanatory factors were associated with farmers’ perceptions. Provisioning services 
+were at a high level, while the regulating and supporting ecosystem services were considered to be in low supply, 
+as evidenced by low scores for the presence of natural enemies and earthworms, and for natural habitats such as 
+hedgerows and windbreaks. Most of the participants did not perceive dis-services from agriculture. Differences in 
+perception between villages with contrasting biophysical and socio-economic conditions highlight the relevance 
+of contextualized policy development for agricultural landscape composition and configuration to manage 
+ecosystem (dis)services.
+
+1. Introduction
+
+The global call for action on United Nations’ 2030 Sustainable 
+Development Goals (SDGs) emphasizes the urgent need for environ­
+mental sustainability and responsible resource management, especially 
+in agricultural systems (DeClerck et al., 2016; UN General Assembly, 
+2015). The global concerns have triggered various initiatives in China. 
+In 2016, the China central government’s No. 1 Document proposed the 
+concept of “Agriculture Green Development” as a point of departure for 
+sustainable intensification in agricultural landscapes (State Council, 
+2016). This was made actionable with the Rural Revitalization Strategy
+
+of 2017 and the “14th Five-Year National Agriculture Green Develop­
+ment Plan” published in 2021 (Ministry of Agriculture and Rural Affairs, 
+2021). One of the main goals of Agriculture Green Development is to 
+deliver balanced multiple agroecosystem services, reduce dis-services 
+and improve human well-being (Shen et al., 2020). Assessment of the 
+supply of multiple agroecosystem (dis)services is the benchmark to­
+wards integrating ecosystem services into agricultural landscape plan­
+ning, management, and decision-making (de Groot et al., 2010). 
+We zoomed in on the North China Plain as a case study area because 
+it is an intensive crop production area that is critical to China’s food 
+security, producing approximately a quarter of China’s grain (NBSC,
+
+* Corresponding author. Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700, AK, Wageningen, the Netherlands. 
+** Corresponding author. State Key Laboratory of Nutrient Use and Management, College of Resources and Environmental Sciences, China Agricultural University, 
+Beijing 100193, China. 
+E-mail addresses: jiali.cheng@wur.nl, jialicheng11@gmail.com (J. Cheng), wenfeng.cong@cau.edu.cn (W.-F. Cong).
+
+Contents lists available at ScienceDirect
+
+Journal of Environmental Management
+
+journal homepage: www.elsevier.com/locate/jenvman
+
+https://doi.org/10.1016/j.jenvman.2023.119060 
+Received 7 April 2023; Received in revised form 4 July 2023; Accepted 30 August 2023
+
+Journal of Environmental Management 347 (2023) 119060
+
+2
+
+2019). Double cropping of winter wheat (grown from October to June) 
+and summer maize (from June to October) is one of the main cropping 
+systems in the North China Plain. This cropping system has high yearly 
+grain output, but has relatively low performance regarding regulating, 
+supporting, and cultural services (Zhou et al., 2017). Moreover, there is 
+a high risk of dis-services, for instance, water pollution by nitrogen 
+losses (Meng et al., 2022), high greenhouse gas emissions (Zhao et al., 
+2021) and groundwater table decline (Zhang et al., 2003). 
+Previous work, using the methods of emergy (Odum, 1996) and life 
+cycle assessment has indicated unsustainable agroecosystem conditions 
+in the North China Plain (Cui et al., 2021; Ma et al., 2015). However, key 
+scientific information is missing on essential multiple agroecosystem 
+(dis)services at the landscape level like biological control and cultural 
+services. Conducting quantitative biophysical assessment on multiple 
+ecosystem (dis)services is costly and time-consuming, and survey 
+methods offer an attractive low-cost alternative. For cultural services, 
+surveys might even be a more appropriate instrument to collect the in­
+formation because such services are intrinsically based on stakeholder 
+perceptions. It stands to reason to ask local actors about the current state 
+and recent historic trends in agroecosystem services and dis-services in 
+their region, to capitalize on local knowledge, which can be accom­
+plished with relatively limited costs for a broad suite of services. 
+Another advantage of using stakeholder surveys is that an agricul­
+tural green development transition can only be realized with the support 
+of local stakeholders. Hence, it is necessary to also explore farmers’ 
+perceptions about the main agroecosystem (dis)services and the tem­
+poral change in their supply. Farmers shape agroecosystem (dis)services 
+as decision-makers, influenced by landscape features and policies (de
+
+Snoo et al., 2013). Their perceptions, reflecting local knowledge, com­
+plement biophysical measurements, particularly for cultural (dis)ser­
+vices (Dawoe et al., 2012; de Groot et al., 2002). Perception-based 
+surveys have the potential to efficiently gather local-specific informa­
+tion on agroecosystem (dis)services (Chen et al., 2017; Liu et al., 2022), 
+aiding policymakers and managers in implementing context-specific 
+policies (Vrebos et al., 2015). 
+Villages in China vary in ecological and social-economic conditions 
+(Wang et al., 2021), which may impact agroecosystem (dis)services 
+(Yang and Wang, 2022) and eventually rural development (Cao et al., 
+2020; Domon, 2011). Socioecological conditions and landscape patterns 
+affect agroecosystem (dis)services and thus people’s perceptions (Wang 
+et al., 2021; W. Zhang et al., 2016; Zoderer et al., 2019). While agri­
+cultural policies are typically implemented at the village level, there is 
+little information on contextual factors at the village level for enhancing 
+agroecosystem (dis)services in the North China Plain. 
+In intensively managed agricultural landscapes, we expect that the 
+regulating and supporting services would be low and there should be 
+signs of dis-services. We also expect that farmers’ perceptions could be 
+associated with socio-economic factors and biophysical characteristics 
+of villages. In this paper, we aim to assess the perception of farmers 
+regarding the delivery of agroecosystem services and dis-services in a 
+landscape dominated by intensive cropping systems in Quzhou county 
+within the North China Plain. We quantified the perceived supply of 
+these services and the changes therein during 2015~2020. To investi­
+gate how village characteristics affect the perception of agroecosystem 
+(dis)services, we further analyzed the relations between explanatory 
+factors and multiple agroecosystem (dis)services. Finally, we compared
+
+Fig. 1. Location of the North China Plain (a) and Quzhou county (b) and of sampled villages within Quzhou County (c). The elevation is derived from 12.5 m Digital 
+Elevation Model (DEM) topographic data (https://search.asf.alaska.edu/).
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+3
+
+agroecosystem (dis)services in different village types.
+
+2. Materials and methods
+
+2.1. Case study area
+
+The case study area is Quzhou county, an affiliated administrative 
+region of Handan City, Heibei Province, located in the middle of the 
+North China Plain (Fig. 1). As a representative area in the North China 
+Plain, Quzhou has been selected as a National Agriculture Green 
+Development Pilot Demonstration Zone in 2019. Since 2020, the Quz­
+hou government has formulated policies to transform the county to­
+wards sustainable agricultural development in the context of the 
+Agricultural Green Development program. 
+The surface area of Quzhou is 676.7 km2 including 525.2 km2 of 
+cropland (NBSC, 2017). The landscapes in Quzhou County are for the 
+most part homogenized agricultural landscapes with arable cropping 
+and little area of non-crop habitat. The soil in Quzhou is calcareous al­
+luvial with loamy texture, high soil pH, relatively low soil organic 
+matter, and historically high salt content (K. Li et al., 2022; Liang et al., 
+2022). There are three main rivers (Fuyang River, Zhizhang River, and 
+Laosha River). Quzhou is located in a semi-humid continental monsoon 
+climate zone, with an average annual temperature of 13.1 ◦C and an 
+average annual average precipitation of 534.9 mm, while most precip­
+itation occurs between July and September. Winter wheat, summer 
+maize and cotton are the main crops. The tree cover area in Quzhou 
+county is 86.7 km2, mainly consisting of linear windbreaks (Li, 2014; 
+NBSC, 2017). Since 2015, Quzhou has enacted a fallow policy that 
+discourages the winter wheat-summer maize cropping system to save 
+groundwater. Around 2300 ha of winter wheat-summer maize system 
+was replaced by spring maize, spring cotton or other water-saving sys­
+tems (Quzhou County Government, 2020). 
+Quzhou County consists of 10 townships and 342 administrative 
+villages. According to NBSC (2017), 85.5% of the population in Quzhou 
+County is rural. The total agricultural revenue amounted to 1.03 billion 
+CNY 2017 (around 0.15 billion USD), which comprises 7.6% of the 
+county’s total economic output.
+
+2.2. Methodological framework
+
+The ecosystem services and dis-services framework used in this study
+
+(Fig. 2) is based on the four common categories of provisioning services, 
+regulating services, supporting services, and cultural services (MEA, 
+2005). The framework is adapted to include dis-services (Zhang et al., 
+2007) as well as locally relevant interactions between agroecosystem 
+(dis)services and the agricultural landscape (Fig. 2). Crop production 
+benefits from supporting and regulating services, but can be negatively 
+affected by dis-services. In turn, the cropping activities result in provi­
+sioning services and contribute to non-material services, but they also 
+deliver dis-services to the agroecosystem. This framework and a litera­
+ture review were used to create a list of proxy indicators for relevant 
+agroecosystem (dis)services and to formulate a questionnaire to assess 
+perceptions of the state of agroecosystem (dis)services in 2020 and the 
+perceived trend of change in the period between 2015 and 2020. 
+The survey targeted farmers within 35 villages in 2020. The selection 
+of villages was based upon a pre-defined village typology in order to 
+cover the diversity of villages (see Section 2.3). A redundancy analysis 
+(RDA) was done to investigate relationships between village character­
+istics and the perceived supply of agroecosystem (dis)services in 2020. 
+Finally, we analyzed differences in agroecosystem (dis)services among 
+village types.
+
+2.3. Selection of villages and farmers
+
+Participants were selected using a stratified sampling approach, 
+based on a village typology (see Supplementary Materials S2). This ty­
+pology classified the villages of Quzhou county into eight different types 
+based on biophysical, socioeconomic, and agricultural production 
+characteristics from previous survey data and yearbook data. The seven 
+village types which had agricultural production were selected for further 
+research (thus excluding the village type without agricultural produc­
+tion), and five villages were randomly selected from each village type, 
+resulting in 35 selected villages in total. In each village, we selected for 
+participation in the survey five smallholder farmers, up to two leader 
+farmers and the village head. The smallholder farmers had experience in 
+crop production and were randomly selected per village. Leader farmers 
+are defined as farmers running comparatively professional farms, or had 
+participated in professional farmers’ training. If no leader farmers who 
+met the criteria were available, we interviewed additional smallholder 
+farmers instead (coded as smallholder farmers). Leader farmers were 
+identified with the help of the village heads. The 35 village heads were 
+also participating in agricultural production, so that all survey
+
+Fig. 2. Main interrelations between agroecosystem services and dis-services, and crop production in the agricultural landscape of Quzhou county. Agroecosystem 
+(dis)services in orange boxes affect the agricultural landscape, while services and dis-services in blue boxes are affected by agriculture. The green arrows indicate 
+services, whereas the red arrows indicate dis-services (adapted from Zhang et al., 2007).
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+4
+
+respondents can be regarded as farmers. In total, 267 people completed 
+the survey, including 187 smallholders, 45 leader farmers and 35 village 
+heads.
+
+2.4. Survey
+
+The survey was conducted in December 2020 using a structured 
+questionnaire, consisting of three parts: 1) demographic and personal 
+information of participants, e.g., age, gender, and education; 2) crop 
+production information such as total planting area of each crop, annual 
+average revenue (price times production) of each crop; and 3) percep­
+tions of agroecosystem services and dis-services. Perceptions were 
+quantified by scoring proxy indicators of supply and changes in the 
+period between 2015 and 2020 on a Likert Scale from 1 to 5 (Table S1). 
+Due to the length of the questionnaire, we were not able to ask for all 
+kinds of costs explicitly for calculating the net revenue. Therefore, we 
+had to rely on gross revenue, ignoring the costs of planting crops, which 
+is an obvious limitation of our study. The questionnaire was tested 
+through 3 rounds of pilot surveys with local experts and farmers from 
+October to November 2020. This resulted in elimination of indicators 
+that were considered not locally relevant, such as soil erosion. During 
+the pilot surveys, we iteratively revised the questionnaire to ensure that 
+the questions would be understandable for the respondents. During the 
+interview, the meaning of each ecosystem (dis)service was explained. 
+The interviewer team of 9 persons was trained before going into the field 
+and had background knowledge of survey methods and familiarity with 
+the local dialect. After the entire survey was completed, the quality of
+
+each questionnaire was examined. Details of the questionnaire in­
+dicators used in this study are listed in Table S1 in Supplementary 
+Materials.
+
+2.5. Data on explanatory factors
+
+Multiple data sources were used to describe the characteristics of 
+each village (Table 1).
+
+2.6. Data analysis
+
+Indicator scores were visualized using the “Likert” (Bryer et al., 
+2016) and “ggplot2” packages (Wickham et al., 2016) in R (R Core 
+Team, 2021). To analyze how village-level characteristics were associ­
+ated with the perceived agroecosystem services and dis-services supply 
+in 35 villages, a redundancy analysis (RDA) was conducted using 
+village-averaged indicator scores and village-specific biophysical and 
+socio-economic variables. RDA is a widely used analysis to explore the 
+correlation between multiple response variables (agroecosystem ser­
+vices and dis-services supply in this case) and a set of explanatory var­
+iables (socio-ecological factors in this case). Prior to the RDA, the 
+indicator values of agroecosystem (dis)services supply and variables 
+representing village characteristics were standardized to zero mean and 
+unit variance. A Monte Carlo permutation test (1000 permutations) was 
+performed to determine the significance of the associations between 
+village characteristics and (dis)services. The RDA and the data trans­
+formation were done using the “vegan” package in R (Oksanen et al.,
+
+Box 1 
+The terms used in this paper.
+
+• Agroecosystem services and dis-services: Ecosystem services are “the benefits people obtain from ecosystems” (MEA, 2005). They entail 
+the products (for profit) or the (non)material goods (for use) that people gain from agroecosystems. Dis-services are negative impacts on 
+agroecosystems or humans.  
+• Agroecosystems: Ecosystems used for agricultural production.  
+• Ecosystem services supply: The provisioning of a specific bundle of ecosystem goods and services within a given time period in an area.  
+• Perceived ecosystem services supply: Flow of ecosystem (dis)services from certain ecosystems (provider) as experienced by people 
+(receiver).  
+• Trend of ecosystem service supply: Temporal changes of ecosystem services supply during the time period of 2015–2020.
+
+Table 1 
+Explanatory factors describing the characteristics of villages involved in the survey.
+
+Factors 
+Unit 
+Data sources and/or calculation method
+
+Soil properties  
+Soil survey data in 2018 (Li et al., 2022b) 
+SOM (soil organic matter) 
+g/kg 
+Inverse distance weighted method to calculate the village average in ArcMap 10.8. (https://www.esri.com/en-us/arcgis/ 
+products/arcgis-desktop) 
+TN (soil total nitrogen) 
+g/kg 
+EC (electrical conductivity) 
+dS/m
+
+Agricultural inputs  
+Household survey data in 2020 (Liang et al., 2022). 
+Fertilizer use amount 
+kg N ha−1
+
+year−1
+
+See Section S5 in Supplementary Materials for the calculation method.
+
+Pesticide use frequency 
+TFI 
+Calculation method is based on Liang et al. (2022)
+
+Main crop type proportion  
+Village head survey data, 2020 
+Cereals 
+% 
+Winter wheat-Summer maize area or spring maize area/total crop production area 
+Fiber crops 
+% 
+Cotton area/total crop production area 
+Fruit trees 
+% 
+Fruit trees area/total crop production area 
+Sugar crops 
+% 
+Stevia area/total crop production area 
+Vegetables 
+% 
+Vegetables area/total crop production area
+
+Location advantages  
+LULC map and administrative map 
+Distance to the county center (Quzhou 
+city) 
+km 
+Methods of spatial join (closet) in ArcGIS Pro 2.8.0 (https://support.esri.com/en/products/desktop/arcgis-desktop/ 
+arcgis-pro/2-8) 
+Distance to the nearest river 
+km
+
+Socio-economic factors   
+Non-agricultural labor 
+% 
+Village head survey data in 2018. See Section S4 for more information in Supplementary Materials. 
+Population 
+Capita 
+Yearbook data (NBSC, 2017)
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+5
+
+2013). 
+We used the parameter-free Kruskal-Wallis test to compare agro­
+ecosystem (dis)services supply among the different village types. If the 
+overall Kruskal-Wallis test was significant, comparisons between two 
+village types were performed with Wilcoxon Rank Sum Tests. These 
+parameter free tests do not assume any particular distribution for the 
+data and do not require a normality assumption. The mean scores of the 
+agroecosystem services and dis-services were plotted as bubble plots 
+using the package ‘ggplot2’ (Wickham et al., 2016) in R (R Core Team, 
+2021). 
+A recoding of indicators was done for the RDA and Kruskal-Wallis 
+analysis. In the case of natural enemies (frogs, ground beetles, lady­
+beetles), water sufficiency (river water, deep well water and shallow 
+well water), semi-natural habitats, and dis-services to agriculture, we 
+treated the “No occurrence” or “Not applicable” responses as a true zero 
+observation (no presence of this service or disservice). Furthermore, for 
+disservices to or from agriculture, if respondents provided a score, we 
+recoded the Likert scores 1–5 into a single rating of 1 (dis-service pre­
+sent). See Table S1 in Supplementary Materials for detailed scales after 
+such recoding. If the farmers do not have any insect-pollinated crops, 
+they were excluded from the analysis. If respondents gave a score of 
+“Don’t know” (seen as the true missing value) in the cases of cultural 
+services, soil moisture, air quality and temperature change (in total 2% 
+of the respondents), we used for the RDA and Kruskal-Wallis analysis the 
+village average as a response for these respondents, assuring that in 
+these cases the response would not affect the calculated mean (Roth, 
+1994).
+
+3. Results
+
+3.1. Provisioning ecosystem services
+
+The agricultural landscape of Quzhou is dominated by five crop 
+types: cereals (mostly winter wheat, Triticum aestivum, spring and 
+summer maize, Zea mays), vegetables (cabbage, Brassica oleracea var. 
+Capitata, chillis, Capsicum frutescens, etc.), fruit trees (apple, Malus 
+domestica, pear, Pyrus L., etc.), sugar crops (Stevia, Stevia rebaudiana), 
+and fiber crops (cotton, Gossypium hirsutum). Vegetables and fruit trees 
+had the highest average annual revenue, of 73,000 and 87,700 CNY per 
+ha, respectively, although the variation was large (Table 2). More than 
+half of the respondents perceived a reduction (scored as ‘weak decline’ 
+or ‘strong decline’ in Table 2) in the revenue from fiber and sugar crops 
+over the last 5 years, while fruit trees and vegetables were considered by 
+most farmers to have become more remunerative.
+
+3.2. Regulating ecosystem services
+
+Most participants were aware of the state of regulating services and 
+the changes therein (Fig. 3 c and d). Between 51% and 79% of the 
+participants scored the presence of natural enemies (ladybugs, frogs, 
+ground beetles) as ‘low’ to ‘very low’ (Fig. 3a), and 61–75% of the re­
+spondents perceived a ‘weak decline’ or ‘strong decline’ in the numbers 
+of these organisms in the period 2015 to 2020 (Fig. 3b). Most farmers 
+(64%) scored the soil moisture condition as ‘poor’ to ‘very poor’, but
+
+47% observed an improvement from 2015 to 2020 (Fig. 3). Half of the 
+farmers were planting insect-pollinated crops (Fig. 3c), and forty percent 
+of them thought the effectiveness of pollination was ‘poor’ to ‘very poor’ 
+(Fig. 3a). Forty-seven percent of the respondents perceived an increase 
+in temperature from 2015 to 2020 (Fig. 3a). More than 80% of the 
+people assessed the air quality as good and improving (Fig. 3). In sum, 
+some services were provided at an adequate level (air quality) while 
+others were low (frogs, ground beetles, ladybugs, and soil moisture) 
+while some were intermediate (pollination). Frogs, ladybugs, and 
+ground beetles showed a declining trend, while air quality and soil 
+moisture were improving, and pollination was stable. As a robustness 
+check, we analyzed our data also with only smallholder farmers 
+(excluding village heads and leader farmers) and obtained very similar 
+patterns (see Fig. S5). However, village heads had on average higher 
+ratings than the other interviewees for pollination (Table S5).
+
+3.3. Supporting ecosystem services
+
+The scorings provided by the participants indicate a shortage of 
+supporting ecosystem services (Fig. 4). A minority of the participants 
+indicated that natural habitats (windbreaks, wildflowers, hedgerows, 
+field islets, diversified cropping, and ditches) were present in their vil­
+lages (Fig. 4c). Where these elements were present, less than half of the 
+respondents thought the presence of natural habitats was abundant as 
+indicated with a score of ‘high’ or ‘very high’ (Fig. 4a). The abundance of 
+earthworms, as an indicator of soil fertility and biodiversity, was 
+perceived as ‘low’ or ‘very low’ by 64% of participants (Fig. 4a), and 
+more than half of the participants thought the number of earthworms 
+showed a ‘weak decline’ or ‘strong decline’ between 2015 and 2020 
+(Fig. 4b). More than half of the participants perceived a declining 
+groundwater sufficiency (both in shallow wells and deep wells) between 
+2015 and 2020 providing a score of ‘decline’ or ‘strong decline’. On the 
+other hand, fifty-nine percent of the participants perceived an 
+improvement in the river water supply, by scoring either ‘weak increase’ 
+or ‘strong increase’ (Fig. 4b). Thus, the state of half of the supporting 
+services (length of hedgerows, earthworms, windbreaks, diversified 
+cropping systems, wild flowers) was rated by the majority of re­
+spondents as low or very low, but only three services were rated by a 
+majority as declining (earthworms, and deep and shallow wells) while 
+for other services no strong tendency to decline was indicated. The re­
+sults are mostly similar across different farmer groups, though small­
+holders tend to report less sufficient river waters, fewer diversified 
+cropping systems, and less rich field islets than leader farmers and 
+village heads while village head gave higher scores of those services (see 
+Table S5).
+
+3.4. Cultural ecosystem services
+
+Most participants (58%) perceived the beauty of the landscape as a 
+cultural service and 44% scored the suitability for agrotourism as ‘good’ 
+to ‘very good’ (Fig. 5a). Improvements in these cultural services 
+occurred in the years 2015–2020, as 63% and 66% of the respondents 
+scored ‘increased’ or ‘strongly increased’ for these indicators (Fig. 5b). 
+The involvement in science and education was rated as ‘low’ to ‘very
+
+Table 2 
+Provisioning services supply expressed in revenue of different crop types in 2020 and perceived trend in revenue between 2015 and 2020.
+
+Crop Types 
+Crop revenue (Unit: 103 CNY/ha, 1 CNY ≈0.15 USD) 
+Trend of crop revenue from 2015 to 2020 (Percentage of the respondents)
+
+Na 
+Mean (±sd) 
+Range 
+Strong decline 
+Weak decline 
+Stable 
+Weak increase 
+Strong increase
+
+Cereals 
+459 
+17.7 (±5.6) 
+5.3–97.0 
+7.2% 
+19.2% 
+30.7% 
+32.7% 
+10.2% 
+Fiber crops 
+140 
+23.3 (±6.4) 
+0.2–47.9 
+22.9% 
+40.7% 
+17.1% 
+15.7% 
+3.6% 
+Vegetables 
+128 
+73.0 (±75.4) 
+3.6–450.0 
+7.8% 
+17.2% 
+19.5% 
+36.7% 
+18.8% 
+Sugar crops 
+36 
+37.1 (±14.9) 
+13.5–66.8 
+30.6% 
+22.2% 
+16.7% 
+19.4% 
+11.1% 
+Fruit trees 
+19 
+87.7 (±52.2) 
+9.1–150.0 
+10.5% 
+10.5% 
+15.8% 
+47.4% 
+15.8%
+
+a N is the number of records for each crop type.
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+6
+
+low’ by 79% of the participants (Fig. 5a), but 33% mentioned 
+improvement in this (Fig. 5b). Awareness about cultural services was 
+relatively high (Fig. 5 c and d). The beauty of the landscape and scien­
+tific value was rated significantly lower for smallholders compared to 
+village heads and leader farmers (see Table S5).
+
+3.5. Dis-services
+
+Two types of dis-services were distinguished: dis-services that affect 
+agricultural production (natural hazards and salinization), and dis- 
+services generated by agricultural production (eutrophication, water 
+pollution, and air pollution). The latter were observed by only 14–22% 
+of the farmers (Fig. 6c), and if these were observed, the severity was 
+considered to be mostly ‘mild’ or ‘very mild’ (Fig. 6a). Natural hazards 
+(except hail) were reported to have caused yield damage according to 
+more than 40% of the participants (Fig. 6c). Sixty-three percent of the 
+participants claimed that waterlogging was severe or very severe and 
+fifty-six percent rated salinization as severe or very severe (Fig. 6a). Pest 
+damage was not considered to be problematic with 83% of participants 
+scoring ‘mild’ or ‘very mild’ effects. Most respondents (ranging from 
+54% for water logging to 93% for pest damage scoring ‘strong decline’, 
+‘decline’ or ‘no change’) indicated that impacts of natural hazards to 
+agriculture did not become worse from 2015 to 2020 (Fig. 6b). Three of 
+the most serious natural hazards indicated by respondents were thus 
+related to extreme weather (waterlogging, heat and drought) while 
+salinization was also frequently indicated. Ratings for trend indicate that 
+there are more dis-services with an improving trend than dis-services 
+with a trend towards more serious dis-service. Smallholders were less
+
+likely to report air pollution and salinization than village heads and 
+leader farmers while village heads had higher scores for those dis- 
+services. The village heads also had overall lower scores for several 
+dis-services of natural hazards, such as coldness, drought, dry-hot wind 
+(see Table S5).
+
+3.6. The relations between agroecosystem (dis)services supply and 
+explanatory factors
+
+We used RDA to assess associations between village characteristics 
+and the supply of agroecosystem services and dis-services. The associ­
+ations between the agroecosystem (dis)services supply and explanatory 
+factors were significant (p-value <0.001) in permutation tests, and 21% 
+of the total variance in agroecosystem (dis)services supply was 
+explained by the selected explanatory factors (Fig. 7). Among all the 
+variables, the crop area proportion (Vegetables, Fiber crops, Sugar 
+crops, Fruit trees) and distance to the city center (Distance to city) had 
+the most impact on agroecosystem (dis)services supply. 
+The first axis of the RDA explained 11.7% of the variance (Fig. 7) and 
+was positively correlated with the area proportion of cotton (Fiber 
+crops) but negatively correlated with the area proportion of vegetables. 
+Areas with more vegetables were closer to the city center and rivers 
+(Distance to city, Distance to rivers). The area proportion of vegetables 
+(Vegetables) was positively correlated with higher fertilizer and pesti­
+cide application (variables N_input and TFI), higher soil organic matter 
+content (SOM), and electrical conductivity (EC) and it had a positive 
+relation with some of the provisioning services, supporting and regu­
+lating services (Revenue, Earthworms, Pollination, and Shallow well
+
+Fig. 3. Perceived supply in 2020 (Fig. 3a) and changes in supply between 2015 and 2020 (Fig. 3b) of regulating ecosystem services. Results in panels a and b are for 
+the respondents who provided a scoring, while panels c and d present the percentage of respondents not providing a scoring. Note: 49% of farmers did not have 
+insect-pollinated crops and hence did not provide a score for pollination effectiveness. See Table S1 in supplementary material for further information about the 
+indicators used in the questionnaire.
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+7
+
+water) (Fig. 7). These features were negatively correlated with the area 
+proportion of cotton (Fiber crops). In addition, the area percentage of 
+cotton is also positively related to greater severity of dis-services (Pests,
+
+Drought, etc.). 
+The second axis of the RDA explained 9.4% of the variance (Fig. 7) 
+and was negatively related to the area ratio of Stevia (Sugar crops) and
+
+Fig. 4. Perceived supply in 2020 (Fig. 4a) and changes in supply between 2015 and 2020 (Fig. 4b) of supporting ecosystem services. Results in panels a and b are for 
+the respondents who provided a scoring, while panels c and d present the percentage of respondents not providing a scoring. “Not applicable” denotes the absence of 
+specific ecosystem services in village or farm level. For example, some of the villages had no rivers nearby or the farmers did not use certain water resources 
+for irrigation.
+
+Fig. 5. Perceived supply in 2020 (Fig. 5a) and changes in supply between 2015 and 2020 (Fig. 5b) of cultural ecosystem services. Results in panels a and b are for the 
+respondents who provided a scoring, while panels c and d present the percentage of respondents not providing a scoring.
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+8
+
+fruit trees (Fruit trees), which were grown in areas with relatively low 
+population (Population) and closer to the city center (Distance to city). 
+These less diversified cropping systems (negative correlation with var­
+iable ‘Diversified cropping system’) had high cultural value (Tourism), 
+despite signs of dis-services of water and air pollution (Fig. 7).
+
+3.7. Differences in agroecosystem (dis)services supply among village types
+
+Village types are mainly different in landscape composition, i.e., the 
+area proportion of different crop types (Table S3). Villages with wide­
+spread vegetable cultivation (Village type 5) had generally better pro­
+visioning services (Revenue), regulating services (Ladybugs, etc.), and 
+supporting services (Earthworms, etc.). Villages with widespread cotton 
+cultivation (Village type 6), had relatively lower services deliveries 
+especially cultural services (Fig. 8a), but higher dis-services like hail 
+damage (Fig. 8b). The delivery of agroecosystem services was close to 
+average in village types with widespread cereal cultivation (Village 
+types 3 and 4) (Fig. 8a). Farmers in village type 4 reported few natural 
+habitats (Ditches and Field islets) and ladybugs (Fig. 8a), but more dis- 
+services to agriculture (Wind) and more dis-services from agriculture 
+(Water pollution) (Fig. 8b). In the diversified village type 7, dis-services 
+were lower than in other village types (Fig. 8b).
+
+4. Discussion
+
+Farmers in Quzhou County perceived that regulating and supporting 
+services were in poor condition or declining due to groundwater 
+depletion, scarcity of natural habitats and loss of natural enemies, but 
+they did not think pests were serious (Fig. 3, Figs. 4 and 6). Dis-services 
+generated by agricultural production were observed by only few farmers 
+(Fig. 6). We investigated the relationship between perceived agro­
+ecosystem (dis)services and biophysical and socioeconomic conditions 
+in villages, and found that the perceived agroecosystem (dis)services 
+supply was associated with cultivated crop types and the distance to the 
+city center (Fig. 7). Among different village types in Quzhou, the villages 
+with a large proportion of fiber crops (cotton) had the worst perfor­
+mance in terms of agroecosystem (dis)services supply among the village 
+types, while the villages with more vegetable production performed 
+better (Fig. 8).
+
+4.1. What can be learnt from farmers’ perception of agroecosystem (dis) 
+services?
+
+Farmers in Quzhou county perceived a scarcity or a decline of 
+regulating and supporting services. Consistent with previous studies, the 
+farmers participating in this study acknowledged several issues, 
+including ground water depletion (Zhao et al., 2019), climate warming 
+and heat stress (Chen and Whalen, 2016; Wu et al., 2021), a scarcity of
+
+Fig. 6. Perceived damage level in 2020 (Fig. 6a) and changes in the damage between 2015 and 2020 (Fig. 6b) of ecosystem dis-services. Results in panels a and b are 
+for the respondents who provided a scoring, while panels c and d present the percentage of respondents not providing a scoring. “No awareness” means that the dis- 
+services are not easily visible, and the respondents may not be aware of them. “No occurrence” means that the respondents were able to observe the dis-service but 
+did not observe it.
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+9
+
+natural habitats (Li, 2014) and loss of biodiversity in the simplified 
+agricultural landscape (Liu et al., 2006, 2010). 
+Although the input of pesticides has been decreased by 35% and 
+fertilizer was reduced by 9% from 2015 to 2020 in Quzhou County 
+(NBSC, 2015–2020) under the “Zero Growth of Chemical Fertilizer and 
+Pesticide Use Policy” that started in 2015 (Jin and Zhou, 2018), farmers 
+still perceived a decline in the presence of natural enemies during this 
+period. However, the actual dynamics between pests and natural en­
+emies and the effects of (scarcity of) natural habitats would be hard to 
+predict for farmers (W. Zhang et al., 2016). Stronger reductions in 
+chemical inputs and the frequency and severity of mechanical opera­
+tions (Bianchi, 2022) and the development of semi-natural habitats 
+(Ricci et al., 2019) may be required to turn the agricultural landscape 
+into “source habitats” for natural enemies (Dreyer and Gratton, 2014) to 
+provide more effective pest control. 
+Tombs in traditional croplands can serve as less-disturbed habitat 
+islets that could act as hotspots of biodiversity in the agricultural land­
+scape of Quzhou (Li, 2014). They can function as refuges to host
+
+farmland organisms and potentially natural enemies (Li, 2014; Xiao, 
+2014). The tombs hamper mechanical operations but have an important 
+cultural value. Farmers indicated that removing the tombs from the 
+fields for the purpose of land consolidation would cause resistance and 
+resentment among farmers, especially among older people. This in­
+dicates the importance of considering the cultural values embedded in 
+agricultural landscapes in the assessment and planning of landscape 
+changes. 
+A striking result is the reported absence of dis-services from agri­
+cultural production. Most farmers reported to be unaware that overuse 
+of agronomic inputs could cause ecosystem dis-services like air and 
+water pollution. However, other research conducted in Quzhou county 
+reveals that more than half of the farmers in the case study area 
+extensively used pesticides, particularly in vegetables and orchards 
+production (Mu et al., 2022a). This widespread pesticide usage led to 
+health risks for farmers due to the presence of pesticides in indoor dust, 
+which can be considered as a form of dis-service (Mu et al., 2022b). So 
+why are dis-services reported to be so low? Three potential explanations
+
+Fig. 7. Redundancy analysis of associations of village characteristics and the provisioning of agroecosystem services and dis-services. Dots with different colors 
+represent different categories of agroecosystem services and dis-services. Lines with labels represent explanatory variables (Village characteristics. Definitions of each 
+variable can be found in Table 1). Longer vectors indicate that a variable more strongly drives the variation of agroecosystem (dis)services among the villages. Angles 
+between variables reflect their correlation (line to line, line to dot, and dot to dot) (Borcard et al., 2011). Lines or dots pointing in the same directions have a positive 
+relationship.
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+10
+
+Fig. 8. Differences in ecosystem services (a) and dis-services (b) among village types. Village type 1 had relatively widespread fruit trees and was nearest to the city 
+center. Village type 2 had more widespread cultivation of sugar crops. Land use in village type 3 was dominated by cereals and this village had high population 
+density. Village type 4 was also cereal dominated. Village type 5 was vegetable dominated. Village type 6 had a large area proportion of cotton and was furthest to the 
+city center. Village type 7 was relatively diversified. See Table S4 in supplementary material for additional information.
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+11
+
+come to mind. First, many ecosystem (dis)services are difficult to 
+observe even for knowledgeable and experienced observers (Lima and 
+Bastos, 2019), so farmers are simply unable to perceive and interpret 
+them (cf. Pan et al., 2021). Input suppliers were important sources of 
+information of agricultural inputs application for farmers in the absence 
+of a local extension system (Jin et al., 2015). However, those suppliers 
+may not be able or willing to fully inform the farmers about the potential 
+harm of chemical inputs, and some of them may amplify the recom­
+mended amount of pesticide use to gain profit or trust (Zhang et al., 
+2015). Second, many farmers in our survey attributed pollution to in­
+dustrial and household waste, suggesting that farmers may not want to 
+perceive or may not want to admit their contribution to environmental 
+problems. A well-known caveat of self-reported assessment is that re­
+spondents tend to give socially desirable answers and/or show 
+self-deception (Milfont, 2009). There could also be strategic motives 
+involved to keep problems ‘under the rug’, for example anticipation of 
+stricter regulation. Third, we may also observe a ‘shifting baseline syn­
+drome’ (Soga and Gaston, 2018) where farmers are over time exposed to 
+increasing levels of pesticides, and those levels are then perceived to be 
+perfectly normal and seen as benign. Our research was not designed to 
+disentangle or test the relevance of these three channels, but investi­
+gating the mechanisms and motives of underreporting of dis-services is 
+certainly a fruitful avenue for further research.
+
+4.2. Agroecosystem (dis)services and village characteristics
+
+Previous studies have considered the effect of landscape features on 
+the perceptions of ecosystem services, for example, non-crop habitats 
+(Zhang et al., 2018), forest and agroforest (Muhamad et al., 2014), and 
+multiple natural and semi-natural landscapes (Zoderer et al., 2019). In 
+the context of agricultural landscapes, we are not aware of any research 
+on the relations between people’s perceptions and landscape composi­
+tion. This study provides evidence that the crop type composition in 
+landscapes is strongly associated with farmers’ perception of agro­
+ecosystem (dis)services (Fig. 7). Socioeconomic and demographic fac­
+tors also determine the ecosystem (dis)services and the perceptions, e.g., 
+location advantages (Zhang et al., 2021), population density (Fei et al., 
+2016), and type of stakeholders (Bernues et al., 2016). Similar to pre­
+vious studies (Wang et al., 2021), we also found that the distance to the 
+city is associated with agroecosystem (dis)services delivery. 
+Villages with predominantly market-oriented crops (vegetables, 
+fruits, Stevia) and located closer to the city center tended to have better 
+soil and availability of irrigation. These advantages and the vicinity of 
+markets provide those villages more options to develop cash crop pro­
+duction. Agrotourism also benefits villages with more fruit orchards and 
+near cities by increasing their profit through activities like fruit-picking 
+or flower-viewing. Previous studies indicated that excessive amounts of 
+pesticide were used in vegetables and orchards production in Quzhou, 
+which imperiled the pollinators (Mu et al., 2022a). Our survey was 
+designed to measure farmers’ assessment of insect pollination services 
+provided by naturally occurring insects and managed honeybees. The 
+results showed the farmers in these vegetable-dominated villages 
+perceived effective pollination. From our field visits, we know that 
+farmers in these villages may nevertheless use hand pollination (e.g., in 
+melons) indicating that they still invest in measures to assure their yield. 
+Such pollination measures require additional input and investment 
+compared to natural insect-induced pollination, and assessing the so­
+cioeconomic impacts of those seems like a natural avenue for further 
+research. 
+Remote villages tend to utilize a larger proportion of the area for 
+cotton cultivation, which may result from the fallow policy that was 
+introduced in 2015. The government encouraged farmers to grow single 
+season cotton instead of winter wheat-summer maize double cropping to 
+reduce groundwater depletion. Farmers adopting fallow policies 
+received subsidy equivalent to the profit of one season grain production. 
+Despite the extensification of land-use due to the following, which is
+
+expected to deliver more services (e.g., save more underground water), 
+these farmers perceived more dis-services compared to beneficial 
+services.
+
+4.3. Limitations and outlook
+
+Perception-based evaluation can be an effective scanning tool to 
+elucidate locally relevant constraints, challenges and patterns of obser­
+vations and beliefs regarding agroecosystem (dis)services (Chen et al., 
+2018; Smith and Sullivan, 2014). The survey-based assessment of 
+agroecosystem (dis)services could be used to rapidly identify issues and 
+challenges experienced by stakeholders in relation to agricultural pro­
+duction in a bottom-up approach (Dawoe et al., 2012), but there are 
+important caveats. Perceptions are inherently subjective and dependent 
+on the respondents’ ability and willingness to acknowledge problems 
+(Bennett, 2016). In addition, multiple factors like visibility of (dis)ser­
+vices, knowledge, experience, biophysical environment, personality 
+traits, demographic characteristics, etc. also make the interpretation of 
+perception-based agroecosystem (dis)services assessment complex 
+(Chen et al., 2018; Lima and Bastos, 2019; Martín-L´opez et al., 2012; 
+Zhang et al., 2018; Zoderer et al., 2019). Knowing to what extent 
+stakeholders can precisely characterize the real agroecosystem (dis) 
+services and their trend over time is challenging. The results from 
+perception-based evaluation of agroecosystem (dis)services can provide 
+valuable bottom to up information, but policymakers should always be 
+mindful of their limitations. 
+Quzhou is a representative county in the North China Plain, but 
+perception-based evaluation is still context-dependent. As Quzhou 
+became a test area for China’s policy for Agriculture Green Development 
+in 2020, the perception of ecosystem services in this area could change 
+with time. Therefore, quantitative assessment with measurable (proxy) 
+indicators is needed. Survey-based assessments are most valuable when 
+complementing – rather than substituting – an indicator–cased bio­
+physical assessment. The interpretation of our study results is to some 
+extent constrained by the absence of ground-truthing data. Nevertheless, 
+the current survey results set a useful baseline for future monitoring and 
+measurement programs, and for evaluating the temporal development 
+of stakeholder perceptions. 
+There are several important considerations to bear in mind when 
+comparing perceptions with biophysical assessment through ground- 
+truthing in future research. Firstly, relying solely on biophysical evalu­
+ations may not adequately capture the subjective cognitions and expe­
+riences of individuals concerning cultural services. Secondly, 
+respondents may not fully align their understanding of certain (dis) 
+services with the definitions used in biophysical assessment. Thirdly, 
+some (dis)services, such as air pollution, are invisible and require a 
+theoretical understanding to fully comprehend their impact. In such 
+cases of people’s non-recognition of certain (dis)services, ground- 
+truthing can yield more reliable results. In conclusion, the process of 
+ground-truthing holds value for verifying perceptions of agroecosystem 
+(dis)services. However, it is crucial to approach ground-truthing with 
+careful consideration of the unique characteristics of each (dis)service 
+and to be mindful of potential reasons for discrepancies between peo­
+ple’s perceptions and biophysical assessments. By addressing these 
+factors during ground-truthing, researchers can obtain more reliable and 
+comprehensive insights into the true nature of agroecosystem (dis) 
+services. 
+The results in this study are based on a sample of interviewees 
+consisting of 187 smallholder farmers, 35 village heads and 45 leader 
+farmers. We interviewed all the village heads in the sample of 35 vil­
+lages, all the leader farmers that could be reached, and a proportion of 
+the smallholders accounting for 100–800 households per village. Results 
+presented are for the pooled data, but some differences between the 
+three groups of interviewees were identified (Table S5). We chose to 
+analyze the pooled data of the whole sample because on the whole, the 
+three farmer groups of interviewees gave scores that are consistent in the
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+12
+
+sense that they would qualify as low, medium or high across all the 
+groups, even in the cases in which significant differences between the 
+groups were detected (Table S5). While these differences are acknowl­
+edged, the analysis of this paper is not focused on comparing different 
+stakeholders but on an overall assessment of ecosystem services provi­
+sioning in the study area. For an assessment, the point of view of leader 
+farmers and village heads cannot be ignored because they are generally 
+well informed on the local situation and in any future societal discourse, 
+such stakeholder will tend to have a voice. Overall, the ratings of 
+smallholders (187 interviewees out of a total of 267 interviewees; 70%) 
+still determine to a large extent the overall outcome of the survey. 
+Supplementary material provides Figs. S5–S8, based on the smallholders 
+only, showing broadly the same patterns as those represented in the 
+main text, so the conclusions drawn are robust to this selection of the 
+sample. 
+The redundancy analysis (RDA) explained only a small proportion of 
+the variance in this study. RDA can only reveal linear relationships be­
+tween explanatory factors and agroecosystem (dis)services, while for the 
+ecological processes underlying agroecosystem (dis)services provision­
+ing non-linear relations could be expected. Therefore, the RDA cannot 
+address the complex nature of the socio-ecological systems and pro­
+cesses occurring at multiple temporal-spatial scales. Nevertheless, RDA 
+can still give an impression of the direction of relations since it captures 
+the key factors that influence the agroecosystem (dis)services and allows 
+to visualize the relationship among the variables. The robustness of the 
+relationships needs to be further tested at multiple temporal and spatial 
+scales. 
+The village-based analysis suggests that agroecosystem (dis)services 
+are context-specific and should therefore be linked to socioeconomic 
+and biophysical factors that are likely to vary between villages in the 
+same county or city. Accordingly, Chinese government policy proposed 
+in 2019 encourages using a village typology for rural planning and 
+development (Ministry of Agriculture and Rural Affairs, 2019). More­
+over, participation of farmers and other local actors in the planning and 
+development process is stimulated. In that sense, the farmers’ perception 
+of agroecosystem (dis)services could be embedded within these wider 
+policy development processes. This would create an interface between 
+the top-down and bottom-up planning approaches which can help to 
+make policy implementation more effective (Martínez-Sastre et al., 
+2020; Pradhan et al., 2017). Farmers could benefit from their involve­
+ment as they would receive more professional knowledge, information, 
+and guidance for nature-positive farming practices. This could be com­
+bined with existing interface platforms like the science and technology 
+backyards (STBs), which support agricultural innovation within villages 
+(J. Li et al., 2022).
+
+5. Conclusions
+
+Here we describe the current state and recent trends in agro­
+ecosystem services and dis-services perceived by farmers in the simpli­
+fied agricultural landscapes of Quzhou county in the North China Plain. 
+The study shows that while Quzhou exhibits relatively good provision­
+ing services, farmers perceived a scarcity and vulnerability of regulating 
+and supporting services and had limited awareness of dis-services. The 
+lack of awareness of dis-services is surprising, as several dis-services 
+have been documented on the basis of quantitative measurements in 
+other studies. This suggests that farmers’ perception can complement 
+but not substitute agroecosystem services assessments based on bio­
+physical quantification. The farmers’ perception can be used to effec­
+tively search for the knowledge gaps of ecosystem services assessment 
+and where extension and awareness raising are needed. Verification of 
+farmers’ perceptions by ground-truthing could further contribute to 
+having a baseline for monitoring the progress of ‘Agriculture Green 
+Development’ in the future. The findings of the relations between 
+perceived supply and village characteristics emphasize the need for 
+targeted interventions and policies to enhance agroecosystem service
+
+provision at the village scale. Stimulating nature-positive farm practices 
+and improving the agroecosystem services requires consideration of 
+specific socioecological conditions of different villages and engagement 
+of different stakeholder groups.
+
+Credit author statement
+
+Jiali Cheng: Investigation, Data curation, Formal analysis, Visuali­
+zation, Writing – original draft, Writing – review & editing. Zhan Xu: 
+Data curation, Formal analysis. Zhengyuan Liang: Investigation, Data 
+curation. Fan Li: Investigation, Resources, Writing – review & editing. 
+Wen-Feng Cong: Supervision, Writing – review & editing, Funding 
+acquisition. Chaochun Zhang: Supervision, Resources. Lei Song: Inves­
+tigation, Resources. Chong Wang: Data curation, Resources. Fusuo 
+Zhang: Supervision, Resources, Project administration. Andries Richter: 
+Supervision, Writing – review & editing. Wopke van der Werf: 
+Conceptualization, Supervision, Writing – review & editing. Jeroen C.J. 
+Groot: Conceptualization, Supervision, Writing – review & editing.
+
+Declaration of competing interest
+
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+
+Data availability
+
+Data will be made available on request.
+
+Acknowledgment
+
+We acknowledge colleagues who participated in the survey and data 
+entry. This study was financially supported by the National Key 
+Research and Development Program of China (2022YFD1900200), 
+Hainan University, the Program of Advanced Discipline Construction in 
+Beijing (Agriculture Green Development), China Scholarship Council 
+(No. 201913043), and Fundamental Research Funds for the Central 
+Universities of Huazhong Agricultural University (2662022JGQD002).
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.jenvman.2023.119060.
+
+References
+
+Bennett, N.J., 2016. Using perceptions as evidence to improve conservation and 
+environmental management. Conserv. Biol. 30, 582–592. https://doi.org/10.1111/ 
+cobi.12681. 
+Bernues, A., Tello-Garcia, E., Rodriguez-Ortega, T., Ripoll-Bosch, R., Casasus, I., 2016. 
+Agricultural practices, ecosystem services and sustainability in High Nature Value 
+farmland: unraveling the perceptions of farmers and nonfarmers. Land Use Pol. 59, 
+130–142. https://doi.org/10.1016/j.landusepol.2016.08.033. 
+Bianchi, F.J.J.A., 2022. From pattern to process: towards mechanistic design principles 
+for pest suppressive landscapes. Basic Appl. Ecol. 64, 157–171. https://doi.org/ 
+10.1016/j.baae.2022.09.002. 
+Borcard, D., Gillet, François, Legendre, P., 2011. Canonical ordination. In: Borcard, D., 
+Gillet, Francois, Legendre, P. (Eds.), Numerical Ecology with R, Use R. Springer, New 
+York, NY, pp. 153–225. https://doi.org/10.1007/978-1-4419-7976-6_6. 
+Bryer, J., Speerschneider, K., Bryer, M.J., 2016. Package ‘likert.’ Likert: analysis and 
+visualization Likert items (1.3. 5. Available online at: https://CRAN. R-project. 
+org/package= likert. accessed April 6th, 2023).  
+Cao, Y., Cao, Y., Li, G., Tian, Y., Fang, X., Li, Y., Tan, Y., 2020. Linking ecosystem services 
+trade-offs, bundles and hotspot identification with cropland management in the 
+coastal Hangzhou Bay area of China. Land Use Pol. 97, 104689. 
+Chen, D., Whalen, J.K., 2016. Climate change in the North China plain: smallholder 
+farmer perceptions and adaptations in Quzhou county, Hebei province. Clim. Res. 
+69, 261–273. https://doi.org/10.3354/cr01407. 
+Chen, Y., Yu, Z., Li, X., Li, P., 2018. How agricultural multiple ecosystem services 
+respond to socioeconomic factors in Mengyin County, China. Sci. Total Environ. 630, 
+1003–1015. https://doi.org/10.1016/j.scitotenv.2018.02.187.
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+13
+
+Chen, Y., Zhang, Q., Liu, W., Yu, Z., 2017. Analyzing farmers’ perceptions of ecosystem 
+services and PES schemes within agricultural landscapes in Mengyin county, China: 
+transforming trade-offs into synergies. Sustainability 9, 1459. https://doi.org/ 
+10.3390/su9081459. 
+Cui, J., Sui, P., Wright, D.L., Wang, D., Yang, J., Lv, Z., Chen, Y., 2021. A revised 
+integrated framework to evaluate the sustainability of given cropping systems. 
+J. Clean. Prod. 289, 125716 https://doi.org/10.1016/j.jclepro.2020.125716. 
+Dawoe, E.K., Quashie-Sam, J., Isaac, M.E., Oppong, S.K., 2012. Exploring farmers’ local 
+knowledge and perceptions of soil fertility and management in the Ashanti Region of 
+Ghana, 180 Geoderma 179, 96–103. https://doi.org/10.1016/j. 
+geoderma.2012.02.015. 
+DeClerck, F., Jones, S., Attwood, S., Bossio, D., Girvetz, E., Chaplin-Kramer, B., Enfors, E., 
+Fremier, A., Gordon, L., Kizito, F., Lopez Noriega, I., Matthews, N., McCartney, M., 
+Meacham, M., Noble, A., Quintero, M., Remans, R., Soppe, R., Willemen, L., 
+Wood, S., Zhang, W., 2016. Agricultural ecosystems and their services: the vanguard 
+of sustainability? Curr. Opin. Environ. Sustain., Open Issue, part I 23, 92–99. https:// 
+doi.org/10.1016/j.cosust.2016.11.016. 
+de Groot, R.S., Alkemade, R., Braat, L., Hein, L., Willemen, L., 2010. Challenges in 
+integrating the concept of ecosystem services and values in landscape planning, 
+management and decision making. Ecol. Complex. 7, 260–272. https://doi.org/ 
+10.1016/j.ecocom.2009.10.006. 
+de Groot, R.S., Wilson, M.A., Boumans, R.M.J., 2002. A typology for the classification, 
+description and valuation of ecosystem functions, goods and services. Ecol. Econ. 41, 
+393–408. https://doi.org/10.1016/S0921-8009(02)00089-7. 
+de Snoo, G.R., Herzon, I., Staats, H., Burton, R.J.F., Schindler, S., van Dijk, J., 
+Lokhorst, A.M., Bullock, J.M., Lobley, M., Wrbka, T., Schwarz, G., Musters, C.J.M., 
+2013. Toward effective nature conservation on farmland: making farmers matter. 
+Conserv. Lett. 6, 66–72. https://doi.org/10.1111/j.1755-263X.2012.00296.x. 
+Domon, G., 2011. Landscape as resource: consequences, challenges and opportunities for 
+rural development. Landsc. Urban Plann. 100, 338–340. https://doi.org/10.1016/j. 
+landurbplan.2011.02.014. 
+Dreyer, J., Gratton, C., 2014. Habitat linkages in conservation biological control: lessons 
+from the land–water interface. Biol. Control 75, 68–76. https://doi.org/10.1016/j. 
+biocontrol.2013.11.006. 
+Fei, L., Shuwen, Z., Jiuchun, Y., Kun, B., Qing, W., Junmei, T., Liping, C., 2016. The 
+effects of population density changes on ecosystem services value: a case study in 
+Western Jilin, China. Ecol. Indicat. 61, 328–337. https://doi.org/10.1016/j. 
+ecolind.2015.09.033. 
+Jin, S., Bluemling, B., Mol, A.P.J., 2015. Information, trust and pesticide overuse: 
+interactions between retailers and cotton farmers in China. NJAS - Wageningen J. 
+Life Sci. 72–73, 23–32. https://doi.org/10.1016/j.njas.2014.10.003. 
+Jin, S., Zhou, F., 2018. Zero growth of chemical fertilizer and pesticide use: China’s 
+objectives, progress and challenges. J. Resour. Ecol. 9, 50–58. https://doi.org/ 
+10.5814/j.issn.1674-764x.2018.01.006. 
+Li, J., Leeuwis, C., Heerink, N., Zhang, W., 2022a. The science and technology backyard 
+as a local level innovation intermediary in rural China. Front. Agric. Sci. Eng. 9, 
+558–576. https://doi.org/10.15302/J-FASE-2022465. 
+Li, K., Wang, C., Zhang, H., Zhang, J., Jiang, R., Feng, G., Liu, X., Zuo, Y., Yuan, H., 
+Zhang, C., Gai, J., Tian, J., Li, H., Sun, Y., Yu, B., 2022b. Evaluating the effects of 
+agricultural inputs on the soil quality of smallholdings using improved indices. 
+Catena 209, 105838. https://doi.org/10.1016/j.catena.2021.105838. 
+Li, L., 2014. Distribution Pattern of Plant Diversity and Vegetation Construction in Field 
+Margins and Home Gardens (PhD Thesis). China Agricultural University, Beijing.  
+Liang, Z., van der Werf, W., Xu, Z., Cheng, J., Wang, C., Cong, W.-F., Zhang, C., Zhang, F., 
+Groot, J.C.J., 2022. Identifying exemplary sustainable cropping systems using a 
+positive deviance approach: wheat-maize double cropping in the North China Plain. 
+Agric. Syst. 201, 103471 https://doi.org/10.1016/j.agsy.2022.103471. 
+Lima, F.P., Bastos, R.P., 2019. Perceiving the invisible: Formal education affects the 
+perception of ecosystem services provided by native areas. Ecosyst. Serv. 40, 101029 
+https://doi.org/10.1016/j.ecoser.2019.101029. 
+Liu, Q., Sun, X., Wu, W., Liu, Z., Fang, G., Yang, P., 2022. Agroecosystem services: a 
+review of concepts, indicators, assessment methods and future research perspectives. 
+Ecol. Indicat. 142, 109218 https://doi.org/10.1016/j.ecolind.2022.109218. 
+Liu, Y., Axmacher, J.C., Wang, C., Li, L., Yu, Z., 2010. Ground beetles (Coleoptera: 
+Carabidae) in the intensively cultivated agricultural landscape of Northern China – 
+implications for biodiversity conservation. Insect. Conserv. Divers. 3, 34–43. https:// 
+doi.org/10.1111/j.1752-4598.2009.00069.x. 
+Liu, Y., Yu, Z., Gu, W., Axmacher, J.C., 2006. Diversity of carabids (Coleoptera, 
+Carabidae) in the desalinized agricultural landscape of Quzhou county, China. Agric. 
+Ecosyst. Environ. 113, 45–50. https://doi.org/10.1016/j.agee.2005.08.035. 
+Ma, F., Eneji, A.E., Liu, J., 2015. Assessment of ecosystem services and dis-services of an 
+agro-ecosystem based on extended emergy framework: a case study of Luancheng 
+county, North China. Ecol. Eng. 82, 241–251. https://doi.org/10.1016/j. 
+ecoleng.2015.04.100. 
+Martínez-Sastre, R., García, D., Mi˜narro, M., Martín-L´opez, B., 2020. Farmers’ 
+perceptions and knowledge of natural enemies as providers of biological control in 
+cider apple orchards. J. Environ. Manag. 266, 110589 https://doi.org/10.1016/j. 
+jenvman.2020.110589. 
+Martín-L´opez, B., Iniesta-Arandia, I., García-Llorente, M., Palomo, I., Casado-Arzuaga, I., 
+Amo, D.G.D., G´omez-Baggethun, E., Oteros-Rozas, E., Palacios-Agundez, I., 
+Willaarts, B., Gonz´alez, J.A., Santos-Martín, F., Onaindia, M., L´opez-Santiago, C., 
+Montes, C., 2012. Uncovering ecosystem service bundles through social preferences. 
+PLoS One, e38970. https://doi.org/10.1371/journal.pone.0038970. 
+MEA, 2005. Current State and Trends. Wash. DC.  
+Meng, F., Wang, M., Strokal, M., Kroeze, C., Ma, L., Li, Y., Zhang, Q., Wei, Z., Hou, Y., 
+Liu, X., Xu, W., Zhang, F., 2022. Nitrogen losses from food production in the North
+
+China Plain: a case study for Quzhou. Sci. Total Environ. 816, 151557 https://doi. 
+org/10.1016/j.scitotenv.2021.151557. 
+Milfont, T.L., 2009. The effects of social desirability on self-reported environmental 
+attitudes and ecological behaviour. Environmentalist 29, 263–269. https://doi.org/ 
+10.1007/s10669-008-9192-2. 
+Ministry of Agriculture and Rural Affairs, 2021. 14th Five-Year Plan" National 
+Agricultural Green Development Plan. Ministry of Agriculture and Rural Affairs.  
+Ministry of Agriculture and Rural Affairs, 2019. Suggestions for Coordinating and 
+Advancing Village Planning. Ministry of Agriculture and Rural Affairs. 
+Mu, H., Wang, K., Yang, X., Xu, W., Liu, X., Ritsema, C.J., Geissen, V., 2022a. Pesticide 
+usage practices and the exposure risk to pollinators: a case study in the North China 
+Plain. Ecotoxicol. Environ. Saf. 241, 113713 https://doi.org/10.1016/j. 
+ecoenv.2022.113713. 
+Mu, H., Zhang, J., Yang, X., Wang, K., Xu, W., Zhang, H., Liu, X., Ritsema, C.J., 
+Geissen, V., 2022b. Pesticide screening and health risk assessment of residential dust 
+in a rural region of the North China Plain. Chemosphere 303, 135115. https://doi. 
+org/10.1016/j.chemosphere.2022.135115. 
+Muhamad, D., Okubo, S., Harashina, K., Parikesit Gunawan, B., Takeuchi, K., 2014. 
+Living close to forests enhances people’s perception of ecosystem services in a forest- 
+agricultural landscape of West Java, Indonesia. Ecosyst. Serv. 8, 197–206. 
+NBSC, 2019. China Statistical Yearbook 2019. China Statistics Press, Beijing.  
+NBSC, 2015-2020. Handan City Statistical Yearbooks from 2015 to 2020. China Statistics 
+Press, Beijing.  
+NBSC, 2017. Quzhou County Statistical Yearbook of 2017. China Statistics Press, Beijing.  
+Odum, H.T., 1996. Environmental Accounting: EMERGY and Environmental Decision 
+Making. John Wiley, New York (USA.  
+Oksanen, J., Blanchet, F.G., Kindt, R., Legendre, P., Minchin, P.R., O’hara, R.B., 
+Simpson, G.L., Solymos, P., Stevens, M.H.H., Wagner, H., 2013. Package ‘vegan.’ 
+Community ecol. Package Version 2, 1–295. 
+Pan, Y., Ren, Y., Luning, P.A., 2021. Factors influencing Chinese farmers’ proper 
+pesticide application in agricultural products – a review. Food Control 122, 107788. 
+https://doi.org/10.1016/j.foodcont.2020.107788. 
+Pradhan, N.S., Fu, Y., Zhang, L., Yang, Y., 2017. Farmers’ perception of effective drought 
+policy implementation: a case study of 2009–2010 drought in Yunnan province, 
+China. Land Use Pol. 67, 48–56. https://doi.org/10.1016/j.landusepol.2017.04.051. 
+Quzhou County Government, 2020. The construction plan for the supporting system of 
+Agricultural Green Development Zone of Quzhou County (2020-2022). Quzhou 
+County Government, Quzhou.  
+R Core Team, 2021. R: A Language and Environment for Statistical Computing. R 
+Foundation for Statistical Computing, Vienna, Austria. URL. https://www.R-project. 
+org/.  
+Roth, P.L., 1994. Missing data: a conceptual review for applied psychologists. Person. 
+Psychol. 47, 537–560. https://doi.org/10.1111/j.1744-6570.1994.tb01736.x. 
+Ricci, B., Lavigne, C., Alignier, A., Aviron, S., Biju-Duval, L., Bouvier, J.C., Choisis, J.-P., 
+Franck, P., Joannon, A., Ladet, S., Mezerette, F., Plantegenest, M., Savary, G., 
+Thomas, C., Vialatte, A., Petit, S., 2019. Local pesticide use intensity conditions 
+landscape effects on biological pest control. Proc. R. Soc. B-Biol. Sci. 286, 20182898 
+https://doi.org/10.1098/rspb.2018.2898. 
+Shen, J., Zhu, Q., Jiao, X., Ying, H., Wang, H., Wen, X., Xu, W., Li, T., Cong, W., Liu, X., 
+Hou, Y., Cui, Z., Oenema, O., Davies, W.J., Zhang, F., 2020. Agriculture green 
+development: a model for China and the world. Front. Agr. Sci. Eng. 7 (1), 5–13. 
+https://doi.org/10.15302/J-FASE-2019300. 
+Soga, M., Gaston, K.J., 2018. Shifting baseline syndrome: causes, consequences, and 
+implications. Front. Ecol. Environ. 16, 222–230. https://doi.org/10.1002/fee.1794. 
+Smith, H.F., Sullivan, C.A., 2014. Ecosystem services within agricultural landscapes- 
+Farmers’ perceptions. Ecol. Econ. 98, 72–80. https://doi.org/10.1016/j. 
+ecolecon.2013.12.008. 
+State Council, 2016. Central Document No. 1 of China. Central Committee and the State 
+Council of the People’s Republic of China. 
+UN General Assembly, 2015. Transforming Our World: the 2030 Agenda for Sustainable 
+Development. General Assembly, NY USA.  
+Vrebos, D., Staes, J., Vandenbroucke, T., D׳Haeyer, T., Johnston, R., Muhumuza, M., 
+Kasabeke, C., Meire, P., 2015. Mapping ecosystem service flows with land cover 
+scoring maps for data-scarce regions. Ecosyst. Serv. 13, 28–40. https://doi.org/ 
+10.1016/j.ecoser.2014.11.005. 
+Wang, J., Cao, Y., Fang, X., Li, G., Cao, Y., 2021. Identification of the trade-offs/synergies 
+between rural landscape services in a spatially explicit way for sustainable rural 
+development. J. Environ. Manag. 300, 113706 https://doi.org/10.1016/j. 
+jenvman.2021.113706. 
+Wickham, H., Chang, W., Wickham, M.H., 2016. Package ‘ggplot2.’ Create elegant data 
+visualisations using the grammar of graphics. Versiones 2, 1–189. 
+Wu, X., Wang, L., Yao, R., Luo, M., Li, X., 2021. Identifying the dominant driving factors 
+of heat waves in the North China Plain. Atmos. Res. 252, 105458 https://doi.org/ 
+10.1016/j.atmosres.2021.105458. 
+Xiao, H., 2014. Evaluation and Planning Methods Research of Rural Ecological 
+Landscape on Different Scales (PhD Thesis). China Agricultural University, Beijing.  
+Yang, X., Wang, M., 2022. Diversification and spatial differentiation of villages’ 
+functional types in the new period of China: results from Hierarchical urban-rural 
+spatial relations and townships size. Land 11, 171. https://doi.org/10.3390/ 
+land11020171. 
+Zhang, C., Hu, R., Shi, G., Jin, Y., Robson, M.G., Huang, X., 2015. Overuse or underuse? 
+An observation of pesticide use in China. Sci. Total Environ. 538, 1–6. https://doi. 
+org/10.1016/j.scitotenv.2015.08.031. 
+Zhang, G., Zheng, D., Xie, L., Zhang, X., Wu, H., Li, S., 2021. Mapping changes in the 
+value of ecosystem services in the yangtze river middle reaches Megalopolis, China. 
+Ecosyst. Serv. 48, 101252 https://doi.org/10.1016/j.ecoser.2021.101252.
+
+J. Cheng et al.
+
+Journal of Environmental Management 347 (2023) 119060
+
+14
+
+Zhang, W., Kato, E., Bhandary, P., Nkonya, E., Ibrahim, H.I., Agbonlahor, M., Ibrahim, H. 
+Y., Cox, C., 2016. Awareness and perceptions of ecosystem services in relation to 
+land use types: evidence from rural communities in Nigeria. Ecosyst. Serv. 22, 
+150–160. https://doi.org/10.1016/j.ecoser.2016.10.011. 
+Zhang, W., Kato, E., Bianchi, F., Bhandary, P., Gort, G., van der Werf, W., 2018. Farmers’ 
+perceptions of crop pest severity in Nigeria are associated with landscape, agronomic 
+and socio-economic factors. Agric. Ecosyst. Environ. 259, 159–167. https://doi.org/ 
+10.1016/j.agee.2018.03.004. 
+Zhang, W., Ricketts, T.H., Kremen, C., Carney, K., Swinton, S.M., 2007. Ecosystem 
+services and dis-services to agriculture. Ecol. Econ. 64, 253–260. https://doi.org/ 
+10.1016/j.ecolecon.2007.02.024. 
+Zhang, X., Pei, D., Hu, C., 2003. Conserving groundwater for irrigation in the North 
+China plain. Irrigat. Sci. 21, 159–166. https://doi.org/10.1007/s00271-002-0059-x.
+
+Zhao, Q., Zhang, B., Yao, Y., Wu, W., Meng, G., Chen, Q., 2019. Geodetic and 
+hydrological measurements reveal the recent acceleration of groundwater depletion 
+in North China Plain. J. Hydrol. 575, 1065–1072. https://doi.org/10.1016/j. 
+jhydrol.2019.06.016. 
+Zhao, Y., Wang, L., Lei, X., Wang, B., Cui, J., Xu, Y., Chen, Y., Sui, P., 2021. Reducing 
+carbon footprint without compromising grain security through relaxing cropping 
+rotation system in the North China Plain. J. Clean. Prod. 318, 128465 https://doi. 
+org/10.1016/j.jclepro.2021.128465. 
+Zhou, S., Wu, J., Wang, G., 2017. Evaluation of agro-ecosystem services and analysis of 
+irrigation benefit in the North China Plain. Chin. J. Eco-Agric. 25, 1360–1370. 
+https://doi.org/10.13930/j.cnki.cjea.170203. 
+Zoderer, B.M., Tasser, E., Carver, S., Tappeiner, U., 2019. Stakeholder perspectives on 
+ecosystem service supply and ecosystem service demand bundles. Ecosyst. Serv. 37, 
+100938 https://doi.org/10.1016/j.ecoser.2019.100938.
+
+J. Cheng et al.

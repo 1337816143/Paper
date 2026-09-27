@@ -1,0 +1,2443 @@
+{
+  "schema": "paper.original.v2",
+  "id": "xu-2024",
+  "lessonId": "xu-2024",
+  "title": "Comparing the sustainability of smallholder and business farms in the North China Plain; a case study in Quzhou",
+  "citation": "Xu, Z., et al. (2024). Agricultural Systems, 216, 103896.",
+  "origin": "https://doi.org/10.1016/j.agsy.2024.103896",
+  "sourceHash": "5c1568888f1c72eb2e61e30e8a4b1f9c2582c4f11c4ccae064b34a1bb333be4e",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Agricultural Systems 216 (2024) 103896 Available online 22 February 2024 0308-521X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Comparing the sustainability of smallholder and business farms in the North China Plain; a case study in Quzhou Zhan Xu a,b,c,*, Zhengyuan Liang a,b,c, Jiali Cheng a,b,c, Jeroen C.J. Groot b, Chaochun Zhang c,*, Wen-Feng Cong c, Fusuo Zhang c, Wopke van der Werf a a Centre for Crop Systems Analy",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "originalPath": "library/xu-2024/5c1568888f1c/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/xu-2024/5c1568888f1c/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            232.34799194335938,
+            33.45158004760742,
+            362.1792907714844,
+            45.17943572998047
+          ]
+        },
+        {
+          "id": "p1-b2-5c3bbfa",
+          "kind": "paragraph",
+          "text": "Available online 22 February 2024\n0308-521X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+          "bbox": [
+            37.51798629760742,
+            714.7015991210938,
+            557.573486328125,
+            736.0494384765625
+          ]
+        },
+        {
+          "id": "p1-b3-563293b",
+          "kind": "heading",
+          "text": "Comparing the sustainability of smallholder and business farms in the \nNorth China Plain; a case study in Quzhou",
+          "bbox": [
+            37.587398529052734,
+            160.96640014648438,
+            463.1551513671875,
+            200.19052124023438
+          ]
+        },
+        {
+          "id": "p1-b4-72a2668",
+          "kind": "heading",
+          "text": "Zhan Xu a,b,c,*, Zhengyuan Liang a,b,c, Jiali Cheng a,b,c, Jeroen C.J. Groot b, Chaochun Zhang c,*, \nWen-Feng Cong c, Fusuo Zhang c, Wopke van der Werf a",
+          "bbox": [
+            37.587398529052734,
+            205.74708557128906,
+            487.03411865234375,
+            236.85000610351562
+          ]
+        },
+        {
+          "id": "p1-b5-67a327d",
+          "kind": "paragraph",
+          "text": "a Centre for Crop Systems Analysis Group, Wageningen University & Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands \nb Farming Systems Ecology Group, Wageningen University & Research, P.O. Box 430, 6700 AK Wageningen, the Netherlands \nc State Key Laboratory of Nutrient Use and Management; College of Resources and Environmental Sciences, China Agricultural University, Beijing 100193, China",
+          "bbox": [
+            37.587398529052734,
+            238.19540405273438,
+            478.4693603515625,
+            268.63201904296875
+          ]
+        },
+        {
+          "id": "p1-b6-1db2276",
+          "kind": "paragraph",
+          "text": "H I G H L I G H T S  \nG R A P H I C A L  A B S T R A C T",
+          "bbox": [
+            37.587398529052734,
+            290.0344543457031,
+            333.2054138183594,
+            301.43646240234375
+          ]
+        },
+        {
+          "id": "p1-b7-c2afb5e",
+          "kind": "paragraph",
+          "text": "• Smallholder farming in China is being \nreplaced by business farming, but con­\nsequences for sustainability are not \nknown. \n• We evaluate farm characteristics and \ncrop management of smallholder and \nbusiness farms on the North China Plain. \n• Smallholder farms had greater cereal \nproduction, \nwhile \nbusiness \nfarms \nfocused on crops generating greater \nrevenue. \n• Business farming resulted in improve­",
+          "bbox": [
+            37.587398529052734,
+            309.3550720214844,
+            172.9598388671875,
+            427.8343811035156
+          ]
+        },
+        {
+          "id": "p1-b8-335eea4",
+          "kind": "paragraph",
+          "text": "ment of some environmental character­\nistics, e.g. lower water use and N \nsurplus. \n• Improved practices are needed to \nfurther enhance sustainability of both \nfarm types.",
+          "bbox": [
+            37.587398529052734,
+            425.6308288574219,
+            172.96414184570312,
+            485.6602478027344
+          ]
+        },
+        {
+          "id": "p1-b10-19af77a",
+          "kind": "paragraph",
+          "text": "A R T I C L E  I N F O",
+          "bbox": [
+            37.587398529052734,
+            506.3744201660156,
+            126.12201690673828,
+            517.7764282226562
+          ]
+        },
+        {
+          "id": "p1-b11-b2b9409",
+          "kind": "paragraph",
+          "text": "Editor: Kairsty Topp",
+          "bbox": [
+            37.587398529052734,
+            525.6854248046875,
+            98.99559783935547,
+            536.1099853515625
+          ]
+        },
+        {
+          "id": "p1-b12-28644b7",
+          "kind": "paragraph",
+          "text": "Keywords: \nBusiness farm \nSmallholder farm \nSustainability performance \nCrop allocation \nCropping system",
+          "bbox": [
+            37.587398529052734,
+            544.1666259765625,
+            115.75720977783203,
+            597.3938598632812
+          ]
+        },
+        {
+          "id": "p1-b13-c0671f4",
+          "kind": "paragraph",
+          "text": "A B S T R A C T",
+          "bbox": [
+            201.9969940185547,
+            506.3744201660156,
+            269.1467590332031,
+            517.7764282226562
+          ]
+        },
+        {
+          "id": "p1-b14-169265e",
+          "kind": "paragraph",
+          "text": "CONTEXT: With labour migration to cities, Chinese agriculture is witnessing the emergence of business farming \nand an enlargement in farm sizes. Farm size enlargement triggers a wide range of managerial adjustments that \nmay affect the sustainability of crop production practices. There is little empirical information on cropping \npractices and the sustainability of crop production of business farms as compared to traditional smallholder \nfarms. \nOBJECTIVE: Here, we made a comparison of cropping activities and sustainability performances between \nsmallholder farms and business farms. \nMETHODS: Data on cropping activities and crop management were obtained by a survey among 486 smallholder \nfarms and 19 business farms in 35 villages across Quzhou county on the North China Plain. After collecting data, \nwe calculated sustainability indicators at the crop and farm scales. \nRESULTS AND CONCLUSIONS: Business farms were about 15 times as large as smallholder farms (14.6 ha versus \n0.8 ha) and they had more self-owned machinery. There was no significant difference in the number of crop \nspecies cultivated on smallholder or business farms. However, business farms allocated less area to grains and",
+          "bbox": [
+            201.9969940185547,
+            525.695068359375,
+            559.789794921875,
+            652.16796875
+          ]
+        },
+        {
+          "id": "p1-b15-12171ac",
+          "kind": "paragraph",
+          "text": "* Corresponding authors at: Centre for Crop Systems Analysis Group, Wageningen University & Research, P.O. Box 430, 6700 AK Wageningen, The Netherlands \nE-mail addresses: zhan.xu@wur.nl (Z. Xu), zhangcc@cau.edu.cn (C. Zhang).",
+          "bbox": [
+            42.632999420166016,
+            669.0720825195312,
+            559.7710571289062,
+            690.3809204101562
+          ]
+        },
+        {
+          "id": "p1-b17-b0658ce",
+          "kind": "paragraph",
+          "text": "Contents lists available at ScienceDirect",
+          "bbox": [
+            228.41600036621094,
+            59.29375076293945,
+            371.40277099609375,
+            72.32485961914062
+          ]
+        },
+        {
+          "id": "p1-b18-fb1fca0",
+          "kind": "heading",
+          "text": "Agricultural Systems",
+          "bbox": [
+            234.65199279785156,
+            80.03680419921875,
+            366.96075439453125,
+            102.84097290039062
+          ]
+        },
+        {
+          "id": "p1-b19-a2a80ca",
+          "kind": "paragraph",
+          "text": "journal homepage: www.elsevier.com/locate/agsy",
+          "bbox": [
+            204.3780059814453,
+            118.17890930175781,
+            395.4212951660156,
+            126.14900970458984
+          ]
+        },
+        {
+          "id": "p1-b21-c2e4550",
+          "kind": "paragraph",
+          "text": "https://doi.org/10.1016/j.agsy.2024.103896 \nReceived 13 October 2023; Received in revised form 1 January 2024; Accepted 4 February 2024",
+          "bbox": [
+            37.587398529052734,
+            695.66064453125,
+            355.52630615234375,
+            716.9127807617188
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure3",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p1-figure3.png",
+          "alt": "Original source page 1, graphic 3",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure4",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p1-figure4.png",
+          "alt": "Original source page 1, graphic 4",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p2-b1-d4735e3",
+          "kind": "paragraph",
+          "text": "2",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p2-b2-c410893",
+          "kind": "paragraph",
+          "text": "more area to cash crops with high economic benefit, such as stevia and vegetables, than smallholder farms did. \nBusiness farms showed some environmental benefits, e.g., business farms used 21% less irrigation water and had \n28% lower N surplus. However, there were also trade-offs with business farms having 32% lower dietary energy \noutput per unit area per year than smallholder farms. These differences were associated with better management \nand lower cropping index (number of crops per year) on business farms as compared to smallholder farms. These \nresults indicate that business farms achieved improvements with respect to environmental externalities of \nagricultural production, when compared to smallholder farms, but the contribution to grain production was \ncomparatively low. \nSIGNIFICANCE: This study shows that scale enlargement of farming in a Chinese context is no panacea for \nachieving improved crop production sustainability.",
+          "bbox": [
+            201.9969940185547,
+            52.2530632019043,
+            559.7761840820312,
+            150.03968811035156
+          ]
+        },
+        {
+          "id": "p2-b3-6e62ee8",
+          "kind": "heading",
+          "text": "1. Introduction",
+          "bbox": [
+            37.587398529052734,
+            177.0447235107422,
+            100.17181396484375,
+            190.07583618164062
+          ]
+        },
+        {
+          "id": "p2-b4-a69fc8b",
+          "kind": "paragraph",
+          "text": "With a growing world population, there is an increasing demand for \nfood, but agriculture's negative environmental impacts need to be \nmitigated (Foley et al., 2011). Farm size is a key variable in discussions \non food security, environmental externalities of agriculture and socio­\neconomic viability of farms (Meyfroidt, 2017). It is estimated that \nsmallholder farms produce 40% of all global food production (Samberg \net al., 2016), and it is thought that they will remain an essential source \nfor food production and poverty eradication (Giller et al., 2021; Ric­\nciardi et al., 2021). However, to enhance and stabilize agricultural \nproduction there is a strong pressure to intensify, homogenize and scale \nup farming enterprises to benefit from economies of scale and to allow \nlarger investments into ‘rationalization’ of the production process, for \ninstance by mechanization (Woodhouse, 2010). Farm consolidation and \nsize enlargement aims to enhance productivity, resource use efficiency \nand economic performance (Rada and Fuglie, 2019), but could also \naffect the diversity of production activities and the flexibility to adapt \nwhen faced with variability, change and disturbances (Koirala et al., \n2022). Farms of different sizes may make contrasting choices regarding \nmanagement practices, such as chemical versus organic inputs or the \nintensity of use of inputs such as water, fertilizers and pesticides. This \ncould strongly affect the environmental impact of farms (Ren et al., \n2019; Liebert et al., 2022). Several studies compare larger and small­\nholder farms in some sustainability aspects, but much remains unknown \nabout whether differences in farm size are associated with trade-offs \namong sustainability indicators. \nSome Asian areas are experiencing a growth in number of large \nbusiness farms, where farm sizes have traditionally been small and la­\nbour wages have been rising (Otsuka et al., 2016a). One of the best \nexamples is China, which is home to almost 40% of the world's small­\nholder farms (<2 ha per farm) (Huang et al., 2012). One of the reasons \nfor the small farm size in China is the collective ownership of the land \nwhich is allocated to rural households on a pro rata basis, i.e., propor­\ntional to the number of people in each household. With rising rural \npopulation, the average farm size has been falling in China, from 0.73 ha \nin 1985 to 0.61 ha in 2013 (Ji et al., 2016). It is very difficult to earn a \nliving on these small farms, and younger people are hence moving to the \ncities where a higher wage can be obtained, thereby reducing labour \navailability in rural areas. Accordingly, there has not been enough la­\nbour available for farming. As a result, there is a rapid emergence of \nbusiness farms (>3 ha per farm) (Huang and Ding, 2016). Such farms are \nrun by a manager, and she or he hires labour as needed. Business farms \nhave a reduced requirement for labour by investment in equipment, \nwhich is not cost effective at the scale of smallholder farms. The Chinese \ngovernment believes that consolidation, combining fragmented and \nscattered land parcels into larger and more cohesive units, will prevent \ncropland abandonment and promote agricultural mechanization (Shen \nand Shen, 2018). \nThere are three types of business farms in China: family farms1,",
+          "bbox": [
+            37.587398529052734,
+            197.96385192871094,
+            291.03021240234375,
+            702.6361694335938
+          ]
+        },
+        {
+          "id": "p2-b5-9a4bd08",
+          "kind": "paragraph",
+          "text": "cooperative farms2, and agricultural companies3 (see Appendix A1 for \ndetails). Approximately 60% of the people having land use rights work \noff-farm and rent out their cropland to one of these three types of \nbusiness farms (Deininger et al., 2014). The Chinese government \nintroduced several policies to speed up business farm establishment, \nincluding granting farmers the right to lease land, providing loan gua­\nrantees, subsidizing investment in storage infrastructure, and providing \ndirect subsidies for purchasing large machinery (Rada et al., 2015). It is \ntimely to know to what extent the newly emerging business farms \ndevelop more sustainable practices than smallholders in China. \nThe North China Plain (NCP) is a key agricultural production area in \nChina, which is responsible for 59% of the national production of wheat, \n26% of maize, 7% of cotton and 29% of vegetables (National Bureau of \nStatistics of China (NBSC, 2020). High levels of agricultural input, such \nas fertilizers, pesticides and water, are used to support high and stable \ncrop production (Ju et al., 2009; Niu et al., 2021). However, the \nintensive production methods have caused a series of sustainability is­\nsues, such as high nitrogen (N) losses, pesticide contamination of surface \nwater (Brauns et al., 2018), and overexploitation of shallow and deep \ngroundwater resources (Holst et al., 2014). From 2003 to 2013, the \ncultivated land share by business farms increased by 30% in the NCP \n(NBSC, 2013), and the number of business farms in the NCP is expected \nto rise further (Duan et al., 2021). There is a need to elucidate to what \nextent business farms in the NCP contribute to solving the above sus­\ntainability problems. \nFarmers select their crops on the basis of their production objectives, \nresources, and constraints (Aouadi et al., 2015). Smallholder farmers \nchoose crops that allow them to maximize their total farm plus off-farm \nincome (Zhang et al., 2018). They prefer growing labour-saving crops, \nlike grain crops, allowing them more time to work off-farm. At the other \nside of the spectrum, business farms prioritize economic benefits from \nmarketing their farm produce (Yu et al., 2021). It is anticipated that \nbusiness farms would emphasize growing crop species with high gross \nmargin to compensate for the cost of land rent (Huang, 2014; Zhao et al., \n2017). Furthermore, we expect an emphasis on crops that can be culti­\nvated with low labour input by using machinery (Qiu et al., 2020). There \nis concern that changing from smallholder farms to business farms might \nresult in a focus on few profitable and mechanizable crop species, while \nother crops might be lost, resulting in a reduced dietary diversity (Ric­\nciardi et al., 2021). There is little empirical evidence on effects of \nbusiness farming on crop choice and farming practices in the NCP. \nThe heat sum in the North China Plain is sufficient to grow two crops \nper year, e.g., wheat in the spring and maize in the summer. Such double \ncropping results in high production per unit area per year. However, \ninappropriately increasing cropping intensity (understood here as the \nnumber of crops harvested per year) increases groundwater use and may",
+          "bbox": [
+            306.5948791503906,
+            175.85543823242188,
+            560.0244750976562,
+            660.7923583984375
+          ]
+        },
+        {
+          "id": "p2-b6-bc2c4f1",
+          "kind": "heading",
+          "text": "1 In China, a family farm is defined as a farm that is run by a family and hires \nseasonal labour, and the farm size is mostly larger than 50 mu (3.3 ha).",
+          "bbox": [
+            37.58790588378906,
+            722.6726684570312,
+            290.76751708984375,
+            744.5790405273438
+          ]
+        },
+        {
+          "id": "p2-b7-ddd6a85",
+          "kind": "heading",
+          "text": "2 A cooperative farm typically consists of at least five family farms investing \ntogether in machinery and wages.",
+          "bbox": [
+            306.5953063964844,
+            684.4053344726562,
+            559.780029296875,
+            706.3109130859375
+          ]
+        },
+        {
+          "id": "p2-b8-f464261",
+          "kind": "paragraph",
+          "text": "3 Agricultural companies have the largest farm size among all business farm \ntypes. Such farms work with capital from investors. Agricultural companies are \ninterested in employing professional managers for marketing and sales (Yu \net al., 2021). Some agricultural companies have their own processing facilities.",
+          "bbox": [
+            306.5953063964844,
+            703.567138671875,
+            559.7864379882812,
+            744.5787963867188
+          ]
+        },
+        {
+          "id": "p2-b9-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p3-b1-4e07408",
+          "kind": "paragraph",
+          "text": "3",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p3-b2-b7580b6",
+          "kind": "paragraph",
+          "text": "result in groundwater overexploitation (Yang et al., 2021). The \ndeclining availability of groundwater is a serious issue in the NCP (van \nOort et al., 2016). Hence, a reduction in cropping intensity (from two \ncrops per year to one crop per year) has been proposed as a necessary \nmitigation to make cropping systems groundwater-neutral (van Oort \net al., 2016). The Chinese government provides subsidies to farmers in \nareas with excessive groundwater extraction, including some areas of \nthe NCP, to abandon winter wheat cultivation and keep land fallow in \nthe winter from 2016 onwards. In Zhejiang province, a shift from double \ncropping to single cropping of rice has been observed in business farms \ncompared to smallholder farms (van den Berg et al., 2007). There is no \ninformation on the effect of farm management models (i.e., smallholder \nfarms and business farms) on cropping intensity in the NCP. \nIn this study we used survey data to characterize differences between \nsmallholder farms and business farms in terms of farm features, decision \nmakers' attributes, crop species and cropping systems. We determined \nwhether smallholder farms and business farms differed in terms of \nproductivity per unit of area, economic sustainability and environ­\nmental sustainability of crop production and we examined how crop \nmanagement and cropping intensity were related to farm sustainability. \nWith this we aimed to elucidate the implications of the emerging farm \nmanagement model of business farms on the crop production sustain­\nability in the NCP.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.03021240234375,
+            294.4451599121094
+          ]
+        },
+        {
+          "id": "p3-b3-a77f4aa",
+          "kind": "heading",
+          "text": "2. Materials and methods",
+          "bbox": [
+            37.587398529052734,
+            302.33319091796875,
+            139.68597412109375,
+            315.3642883300781
+          ]
+        },
+        {
+          "id": "p3-b4-aa7eeb8",
+          "kind": "heading",
+          "text": "2.1. Study area",
+          "bbox": [
+            37.587398529052734,
+            323.3096923828125,
+            94.52180480957031,
+            336.3407897949219
+          ]
+        },
+        {
+          "id": "p3-b5-c8317f6",
+          "kind": "paragraph",
+          "text": "We surveyed 505 households within Quzhou county in the NCP, \nlocated in southern Hebei (Fig. 1a). Quzhou's population is 527,304, \ndistributed over ten townships with in total 342 villages. The total land \narea is 66,700 ha, of which 78% was arable land in 2017 (NBSC, 2017). \nAs Quzhou is part of the Beijing-Tianjin-Hebei metropolitan region",
+          "bbox": [
+            37.587398529052734,
+            344.22882080078125,
+            291.03021240234375,
+            399.09893798828125
+          ]
+        },
+        {
+          "id": "p3-b6-c6af53f",
+          "kind": "paragraph",
+          "text": "(Fig. 1a), which has experienced rapid economic growth over the last 30 \nyears, local farmers can find employment in urban areas. The region has \na continental warm and semi-humid monsoon climate featuring high \ntemperatures and rainfall in summer and dry-cold weather in winter. \nApproximately 60% of the annual precipitation of 556 mm comes from \nrainfall in July and August. Wheat, maize and cotton are the dominant \ncrops, while high-value crops have increased recently (Yang et al., \n2021a). Crop allocation varies between townships (Meng et al., 2021).",
+          "bbox": [
+            306.5926208496094,
+            51.29973220825195,
+            560.020263671875,
+            137.57684326171875
+          ]
+        },
+        {
+          "id": "p3-b7-b08b029",
+          "kind": "heading",
+          "text": "2.2. Stratified data collection",
+          "bbox": [
+            306.5926208496094,
+            150.2843780517578,
+            409.3973388671875,
+            163.31549072265625
+          ]
+        },
+        {
+          "id": "p3-b8-bb36b46",
+          "kind": "paragraph",
+          "text": "We developed a typology to group villages with similar crop pro­\nduction and socio-economic characteristics in order to be able to collect \na representative sample of farms in Quzhou using stratified random \nsampling. In this typology, we used demographic and economic vari­\nables, such as number of households per village and average household \nincome, with data originating from yearbook data and unpublished \nsurvey information (Xu et al., 2024). In total, eight village types were \nidentified, including one with a high level of urbanization and little or \nno crop production in the village, one with a sizeable arable land area \nand multiple farm management models, one with a sizeable arable land \narea but occupied by only smallholder farms, three with cereal domi­\nnance, one with vegetable dominance, and one with diversified crop \nproduction. In the three village types with cereal dominance, one had \nrelatively high vegetable production, one had small arable land area, \nand one had medium arable land area and population. Detailed de­\nscriptions of the eight clusters can be found in Appendix A3. The village \nwith heavy urbanization and nearly no crop production was excluded \nfrom the survey. In each of the remaining seven clusters, five villages \nwere randomly selected (Fig. 1b). A total of fifteen farms were identified \nfrom each selected village. Business farms were always included if they \nwere present in a village. The remaining smallholder farms were \nrandomly selected to obtain a sample of 15 farms per village. A total of",
+          "bbox": [
+            306.5926208496094,
+            171.20350646972656,
+            560.0162963867188,
+            403.9176940917969
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b10-fd82aec",
+          "kind": "paragraph",
+          "text": "Fig. 1. North China Plain, comprising the provinces Hebei, Henan and Shandong, and the urban districts of Beijing and Tianjin (a). Location of Quzhou county in \nsouthern Hebei (a) and geographic distribution of surveyed village types in Quzhou county (b). Quzhou is the green area indicated in panel (a) and shown enlarged in \npanel (b). The village typology shown in (b) was based on yearbook data (NBSC, 2017) and unpublished survey data on land-use. Black filled circles indicate the \nsurveyed villages. Geographic data were provided by the county government. ‘NA’ means that the village data was excluded from the yearbook and ‘Outlier’ indicates \ninconsistent data in the yearbook, i.e., area of cropland was larger than the total area of the village. (For interpretation of the references to colour in this figure \nlegend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            37.587398529052734,
+            685.0020751953125,
+            559.7890014648438,
+            744.521484375
+          ]
+        },
+        {
+          "id": "p3-b11-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p4-b1-4b22777",
+          "kind": "paragraph",
+          "text": "4",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p4-b2-382f23b",
+          "kind": "paragraph",
+          "text": "505 valid questionnaires were collected, covering 486 smallholder \nfarms, 14 family farms, and five cooperative farms. We merged family \nfarms and cooperative farms as business farms because there was a \nlimited number of each. There were business farms in all village types, \nwith village types 1–2 having the most (5), followed by village types 2 \nand 3 (Table S1). \nWe interviewed smallholder farmers and business farmers with the \nsame structured questionnaire. Each questionnaire collected basic in­\nformation at farm level, including farm size, the area of each one-year \ncropping system on the farm, and the age, schooling years, and years \nof farming experience of the decision maker. For each land parcel of the \nfarm >0.5 mu (15 mu = 1 ha) we collected the inputs and outputs of the \ncultivated arable crops in a one-year cropping cycle (June 2019 – June \n2020). It took twenty minutes to collect the input-output inventory for \neach crop in each plot, so if multiple crops were grown in a plot in a year, \ncollecting this information could take 40 or 60 min, depending on how \nmany different crops were grown. Inputs were chemical fertilizers, \nmanure, labour, and costs. Outputs included crop product outputs and \nfarm-gate prices. Perennial crops and greenhouse crops were not com­\nmon in Quzhou, so we did not collect information on them. Since veg­\netables and melons were frequently grown in tunnels, we did include in \nour survey tunnel-grown crops. We did the survey with six trained \nenumerators.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.0301818847656,
+            294.4451599121094
+          ]
+        },
+        {
+          "id": "p4-b3-8ec4f46",
+          "kind": "heading",
+          "text": "2.3. Cropping systems and calculation of multiple cropping index",
+          "bbox": [
+            37.587398529052734,
+            302.33319091796875,
+            259.9508056640625,
+            315.3642883300781
+          ]
+        },
+        {
+          "id": "p4-b4-cd8ea55",
+          "kind": "paragraph",
+          "text": "The multiple cropping index for a plot (MCIp) was defined as the \nnumber of crops grown in the plot during the whole year, and the \nmultiple cropping index for farm (MCIf) was calculated as the area- \nweighted average MCIp of all the plots larger than 0.5 mu on the farm. \nWe identified five types of cropping systems based on the temporal and \nspatial patterns in which crop species were combined (Fig. 2 and Ap­\npendix A4). First of all, there are single crops (e.g., cotton) with only one \ncrop per plot per year (MCIp = 1). There are also relay intercropping \nsystems (e.g., cotton/mung bean) in which two crop species that cover a \nportion of the plot area in strips, with still only one crop on each area \nunit of land during the season (MCIp = 1). In double cropping (e.g., \nwheat-maize), two crops are grown after each other on the same plot in \none year (MCIp = 2). In triple cropping (e.g. cabbage-cabbage-cabbage) \nthe MCIp is 3. Finally, some cases of relay double cropping were found in \nwhich one species covers part of the area for a long period of time (in \nstrips) while two other species are grown in other strips in a double \ncropping sequence after each other. In this case the multiple cropping \nindex is 1.5. We did not collect data on multi-year crop rotations and \ncover crops were not found during the survey.",
+          "bbox": [
+            37.58832550048828,
+            323.3096923828125,
+            291.0313415527344,
+            524.6197509765625
+          ]
+        },
+        {
+          "id": "p4-b5-3086f20",
+          "kind": "heading",
+          "text": "2.4. Calculations",
+          "bbox": [
+            306.5927429199219,
+            51.30339431762695,
+            368.1737365722656,
+            64.33450317382812
+          ]
+        },
+        {
+          "id": "p4-b6-1c448fd",
+          "kind": "paragraph",
+          "text": "2.4.1. Farm attributes and decision-maker attributes \nFarm size and ownership of machinery were used to characterize \nfarms. We only counted the self-powered (diesel, gasoline and electric) \nmachinery. In contrast, hand tools without an engine and tools meant for \nanimal traction were excluded from the survey. Age, schooling years and \ncropping experience years were used to characterize farm decision \nmakers' attributes.",
+          "bbox": [
+            306.5927429199219,
+            72.22334289550781,
+            560.0125122070312,
+            148.01260375976562
+          ]
+        },
+        {
+          "id": "p4-b7-707fcce",
+          "kind": "paragraph",
+          "text": "2.4.2. Crop diversity \nWe counted the number of crop species grown across all smallholder \nfarms and all business farms to assess whether there was a difference in \ncrop diversity between the two types of farm management models. As \nthe number and total land area of smallholder farms and business farms \nwere different, we used rarefaction (Gotelli, 2008) to standardize the \ndiversity of crop species for the area. We randomly sampled 1000 times \nsmallholder farms from the set of 486 smallholder farms until their total \narea was equal to that of the 19 business farms in the sample. We then \ngenerated a 95% confidence interval for the number of crops in the \nsample, using the 2.5 and 97.5 percentiles of the 1000 generated crop \nnumbers.",
+          "bbox": [
+            306.5927429199219,
+            155.90138244628906,
+            560.0076293945312,
+            284.0175476074219
+          ]
+        },
+        {
+          "id": "p4-b8-c2dcc30",
+          "kind": "paragraph",
+          "text": "2.4.3. Sustainability indicators \nIn this study, six sustainability indicators were chosen to evaluate \nbusiness farms and smallholder farms' performance from the environ­\nmental, societal and economic domains (Table 1). \nThe temporal scale of all indicators was one year, and all indicators \nwere assessed at two spatial levels, plot and farm. All indicators were \nfirst estimated for each plot >0.5 mu and then an average or total for the \nwhole farm was calculated from the plot level data. The average indi­\ncator value was calculated as an area-weighted average:",
+          "bbox": [
+            306.5927429199219,
+            291.9063720703125,
+            560.0084838867188,
+            388.6155700683594
+          ]
+        },
+        {
+          "id": "p4-b9-b759dbb",
+          "kind": "paragraph",
+          "text": "Xi =\n∑n",
+          "bbox": [
+            306.5927429199219,
+            391.7792053222656,
+            338.042236328125,
+            408.47900390625
+          ]
+        },
+        {
+          "id": "p4-b10-189f400",
+          "kind": "paragraph",
+          "text": "j",
+          "bbox": [
+            335.4519958496094,
+            405.6075134277344,
+            336.8921813964844,
+            410.78802490234375
+          ]
+        },
+        {
+          "id": "p4-b11-964c290",
+          "kind": "paragraph",
+          "text": "Aij\n∑Aij",
+          "bbox": [
+            338.57000732421875,
+            394.3314208984375,
+            356.0203857421875,
+            413.67913818359375
+          ]
+        },
+        {
+          "id": "p4-b12-0c426bd",
+          "kind": "paragraph",
+          "text": "Xij\n(1)",
+          "bbox": [
+            356.4849853515625,
+            396.1627502441406,
+            562.3511962890625,
+            409.19384765625
+          ]
+        },
+        {
+          "id": "p4-b13-9aa73c2",
+          "kind": "paragraph",
+          "text": "where Xi is the average indicator value for farm i and Aij\n∑",
+          "bbox": [
+            306.59783935546875,
+            422.15374755859375,
+            503.4268798828125,
+            437.0052795410156
+          ]
+        },
+        {
+          "id": "p4-b14-aa0bb6c",
+          "kind": "paragraph",
+          "text": "Aijrepresents the",
+          "bbox": [
+            502.1860046386719,
+            423.48876953125,
+            559.9872436523438,
+            439.475341796875
+          ]
+        },
+        {
+          "id": "p4-b15-efefa87",
+          "kind": "paragraph",
+          "text": "area of plot j on farm i as a proportion of total farm size. Xij is the in­\ndicator value in plot j on farm i and n is the number of plots in farm i. If a \ntotal for the whole farm was required, such as for total N surplus, this \ntotal was obtained as a weighted sum:",
+          "bbox": [
+            306.59686279296875,
+            438.3417663574219,
+            559.9974365234375,
+            482.7232360839844
+          ]
+        },
+        {
+          "id": "p4-b16-b759dbb",
+          "kind": "paragraph",
+          "text": "Xi =\n∑n",
+          "bbox": [
+            306.59686279296875,
+            482.99822998046875,
+            338.042236328125,
+            499.6980285644531
+          ]
+        },
+        {
+          "id": "p4-b17-1bbf53a",
+          "kind": "paragraph",
+          "text": "j AijXij\n(2)",
+          "bbox": [
+            335.4519958496094,
+            487.38177490234375,
+            562.3511962890625,
+            502.7044372558594
+          ]
+        },
+        {
+          "id": "p4-b18-447c046",
+          "kind": "paragraph",
+          "text": "where Aij is the area for plot i in farm j, Xij is the indicator value for this \nplot, and Xi is the weighted sum.",
+          "bbox": [
+            306.5968017578125,
+            509.77459716796875,
+            560.0244750976562,
+            533.3780517578125
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-b20-7da506a",
+          "kind": "paragraph",
+          "text": "Fig. 2. Classification of one-year annual cropping system types. Different coloured boxes represent different annual crop species.",
+          "bbox": [
+            90.08499908447266,
+            732.7945556640625,
+            509.3984680175781,
+            744.5223999023438
+          ]
+        },
+        {
+          "id": "p4-b21-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p5-b1-ef2d127",
+          "kind": "paragraph",
+          "text": "5",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p5-b2-df7c792",
+          "kind": "paragraph",
+          "text": "In order to assess the contribution of cropping frequency to the \nsustainability indicators, we divided the farm level indicator value by \nthe multiple cropping index for the farm:",
+          "bbox": [
+            37.58807373046875,
+            285.8377685546875,
+            290.9862365722656,
+            319.7879943847656
+          ]
+        },
+        {
+          "id": "p5-b3-f3d7f18",
+          "kind": "paragraph",
+          "text": "Xi,corrected =\nXi\nMCIf,i",
+          "bbox": [
+            37.58807373046875,
+            325.33642578125,
+            96.38186645507812,
+            344.6841125488281
+          ]
+        },
+        {
+          "id": "p5-b4-46f789d",
+          "kind": "paragraph",
+          "text": "(3)",
+          "bbox": [
+            278.1919860839844,
+            327.2237548828125,
+            291.0079040527344,
+            340.2548522949219
+          ]
+        },
+        {
+          "id": "p5-b5-a8f3dd7",
+          "kind": "paragraph",
+          "text": "If MCIf,i = 1 there is no difference between Xi,corrected and Xi. \nIn the case of relay intercropping and double relay intercropping, the \nvalues of inputs and outputs (except irrigation input) were obtained per \ncrop species and expressed per unit area of the whole plot, either \nbecause the farmer expressed inputs and outputs immediately for the \nwhole plot, or the farmer expressed the inputs and outputs per unit area \nof the species as well as the area proportion of each species within the \nplot.",
+          "bbox": [
+            37.58927917480469,
+            348.7661437988281,
+            291.012939453125,
+            435.04486083984375
+          ]
+        },
+        {
+          "id": "p5-b6-01aa8aa",
+          "kind": "paragraph",
+          "text": "2.4.4. Irrigation \nFarmers in Quzhou do not need to pay for irrigation water, but they \ndo need to pay for the electrical power required to pump irrigation water \nfrom wells or rivers to the plot. The volume of irrigation water used in a \nplot was calculated using Eq. (4) (Di et al., 2019):",
+          "bbox": [
+            37.58927917480469,
+            442.9337158203125,
+            291.0312805175781,
+            497.8038330078125
+          ]
+        },
+        {
+          "id": "p5-b7-967ae5c",
+          "kind": "paragraph",
+          "text": "Irrigation = Costirrigation × Qpump × η",
+          "bbox": [
+            37.58927917480469,
+            503.0469970703125,
+            159.17283630371094,
+            516.8197021484375
+          ]
+        },
+        {
+          "id": "p5-b8-a89460e",
+          "kind": "paragraph",
+          "text": "Priceelectricity × Ppump × 10 × NI\n(4)",
+          "bbox": [
+            79.5968017578125,
+            505.29718017578125,
+            293.3420715332031,
+            523.1119384765625
+          ]
+        },
+        {
+          "id": "p5-b9-331ef0b",
+          "kind": "paragraph",
+          "text": "where Irrigation is the amount of irrigation water for a plot in one year \n(mm year−1) and NI is the number of irrigation events. Costirrigation is the \npaid amount for electricity per event (CNY ha−1), Qpump is the pump flow \n(m3 h−1), η is the transformer efficiency (85% in Quzhou), Priceelectricity is \nthe price of per unit of electricity (CNY (kW h)−1), and Ppump is the pump \npower (kW). Ten is the conversion coefficient between mm and m3 ha−1.",
+          "bbox": [
+            37.58875274658203,
+            530.5807495117188,
+            291.0358581542969,
+            597.3570556640625
+          ]
+        },
+        {
+          "id": "p5-b10-7a5c89b",
+          "kind": "paragraph",
+          "text": "2.4.5. Pesticide use \nTreatment Frequency Index (TFI) was used to characterize pesticide \nuse frequency. A single TFI was determined in aggregate for all types of \nbiocides, including insecticides, fungicides and herbicides. TFI was \ncalculated as the number of full doses applied (Lechenet et al., 2014). If \ntwo pesticide products were applied as a mixture of two full doses in one \nspray, this is counted as two applications in the calculation of TFI. In our \nsurvey, farmers usually did not recall the name of the pesticide that they \nused in the last year, but they remembered how many tanks (of 20 l) \nwith protectant they applied in a plot for each type of pesticide each \ntime.",
+          "bbox": [
+            37.58985900878906,
+            605.244873046875,
+            291.0334777832031,
+            722.9298095703125
+          ]
+        },
+        {
+          "id": "p5-b11-4f03e62",
+          "kind": "heading",
+          "text": "2.4.6. N surplus \nN surplus (kg N ha−1 year−1) was calculated as the difference be­\ntween input and output:",
+          "bbox": [
+            306.59429931640625,
+            51.3045539855957,
+            557.6804809570312,
+            85.2501449584961
+          ]
+        },
+        {
+          "id": "p5-b12-f48fde2",
+          "kind": "paragraph",
+          "text": "Nsurplus = Nin −Nout\n(5)",
+          "bbox": [
+            306.59686279296875,
+            88.03672790527344,
+            562.3511962890625,
+            101.06784057617188
+          ]
+        },
+        {
+          "id": "p5-b13-fa92d1d",
+          "kind": "paragraph",
+          "text": "where Nin and Nout indicate the crop-specific amount of N input (kg N \nha−1 year−1) and N output (kg N ha−1 year−1). N output includes N from \nyield and stover removed from the field and the calculation is further \nelaborated in Appendices A5 and A6.",
+          "bbox": [
+            306.5960693359375,
+            107.82170104980469,
+            560.00927734375,
+            152.20401000976562
+          ]
+        },
+        {
+          "id": "p5-b14-6589b0e",
+          "kind": "heading",
+          "text": "2.4.7. Dietary energy yield \nThe production of dietary energy (Gcal ha−1 year−1) was calculated \nas:",
+          "bbox": [
+            306.5975341796875,
+            160.09201049804688,
+            560.0007934570312,
+            194.04415893554688
+          ]
+        },
+        {
+          "id": "p5-b15-39be352",
+          "kind": "paragraph",
+          "text": "Dietary energy yield = Y × EP × EC\n(6)",
+          "bbox": [
+            306.59783935546875,
+            196.82969665527344,
+            562.3504028320312,
+            209.86080932617188
+          ]
+        },
+        {
+          "id": "p5-b16-a508b98",
+          "kind": "paragraph",
+          "text": "where Y (Mg ha−1 year−1) is the dry matter yield for cereals, legume \ncrops, sunflower, and oilseed and the fresh yield for vegetables, tuber \ncrops and watermelon. The EP and EC indicate edible proportion and \nenergy content (Gcal Mg−1) and the values are in Table S5.",
+          "bbox": [
+            306.5955505371094,
+            215.20040893554688,
+            560.0112915039062,
+            260.7718811035156
+          ]
+        },
+        {
+          "id": "p5-b17-5e24e98",
+          "kind": "paragraph",
+          "text": "2.4.8. Labour use \nWe summed up the time farmers spent on manual cropping activities \nto quantify annual labour use (h ha−1 year−1). This included time for soil \npreparation, sowing, mineral fertilizer and manure application, pesti­\ncide use, irrigation, weeding and harvesting, and also some special \nmeasures for specific crops, like top removal of cotton. Labor input was \nzero if the activity was done by a hired machinery service. The time \nspent operating the machinery was recorded if the machinery was self- \nowned. \nGross margin (CNY ha−1 year−1) was calculated as the sum of gross \nrevenue (CNY ha−1 year−1) and subsidies (Appendix A2) minus costs \n(CNY ha−1 year−1). Gross revenue was calculated from the product of \ncrop yield and the farmgate price. The costs included variable costs and \ncropland lease fees. Variable costs covered all costs of agricultural ma­\nterial inputs, including seeds, (plastic) mulch, fertilizer, manure, pesti­\ncides, irrigation and purchased service (machinery and labour).",
+          "bbox": [
+            306.5960388183594,
+            268.659912109375,
+            560.0139770507812,
+            438.6161193847656
+          ]
+        },
+        {
+          "id": "p5-b18-62e8a30",
+          "kind": "heading",
+          "text": "2.5. Statistical analysis",
+          "bbox": [
+            306.5961608886719,
+            447.808837890625,
+            388.89862060546875,
+            460.8399353027344
+          ]
+        },
+        {
+          "id": "p5-b19-902e94d",
+          "kind": "paragraph",
+          "text": "We used the Kolmogorov-Smirnov test to compare attributes and \nperformance metrics of the two farm management models. RStudio \n(RStudio team, 2021) and R Version 4.1.0 (R Core Team, 2021) were \nused for statistical analysis and data visualization.",
+          "bbox": [
+            306.5961608886719,
+            468.72796630859375,
+            560.0111083984375,
+            513.1668701171875
+          ]
+        },
+        {
+          "id": "p5-b20-c3fea71",
+          "kind": "heading",
+          "text": "3. Results",
+          "bbox": [
+            306.5961608886719,
+            521.338623046875,
+            348.6249084472656,
+            534.3697509765625
+          ]
+        },
+        {
+          "id": "p5-b21-1baddcf",
+          "kind": "heading",
+          "text": "3.1. Farm and decision maker attributes",
+          "bbox": [
+            306.5961608886719,
+            542.2584838867188,
+            446.18450927734375,
+            555.2896118164062
+          ]
+        },
+        {
+          "id": "p5-b22-05d3f04",
+          "kind": "paragraph",
+          "text": "The average size of business farms was 14.61 ha (range 1.86–40.00 \nha) while the average size of smallholder farms was 0.78 ha (range \n0.06–2.00 ha) (Table 2). Business farms had on average 2.32 self-owned \nself-powered machines, e.g., for sowing, combine harvesting or weed­\ning, whereas smallholder farms had on average 0.04 self-powered ma­\nchines per farm (p < 0.05) (Table 2). Smallholder farms relied mostly on \nmachinery services rather than own equipment. The decision makers of \nbusiness farms were younger and better educated but had less cropping \nexperience compared to smallholder farms (Table 2).",
+          "bbox": [
+            306.5961608886719,
+            563.1776123046875,
+            560.024658203125,
+            659.8868408203125
+          ]
+        },
+        {
+          "id": "p5-b23-3293585",
+          "kind": "heading",
+          "text": "3.2. Crops and cropping systems",
+          "bbox": [
+            306.5961608886719,
+            669.1361083984375,
+            419.77557373046875,
+            682.167236328125
+          ]
+        },
+        {
+          "id": "p5-b24-d59adc4",
+          "kind": "paragraph",
+          "text": "Eleven crop species were grown on both business farms and small­\nholder farms, including three species of cereal (wheat, maize, and mil­\nlet), four vegetables (cabbage, cauliflower, chili and spinach), cotton, \nstevia and two other crops (chrysanthemum, for use as a herbal tea, and \nwatermelon). Five crops were only grown on business farms, and 13",
+          "bbox": [
+            306.5961608886719,
+            690.0552368164062,
+            560.0294799804688,
+            744.9254150390625
+          ]
+        },
+        {
+          "id": "p5-b25-5c258c9",
+          "kind": "paragraph",
+          "text": "Table 1 \nList of sustainability indicators.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            141.6956024169922,
+            73.84491729736328
+          ]
+        },
+        {
+          "id": "p5-b26-e1ea6c4",
+          "kind": "paragraph",
+          "text": "Indicator \nUnit \nRationale",
+          "bbox": [
+            43.5968017578125,
+            76.22341918945312,
+            213.17469787597656,
+            86.64801788330078
+          ]
+        },
+        {
+          "id": "p5-b27-20d0feb",
+          "kind": "paragraph",
+          "text": "Environmental   \nIrrigation input \nmm year−1 \nGroundwater table has declined in \nthe NCP over 30 years (Yang et al., \n2021b) \nPesticide treatment \nfrequency index \n(TFI)",
+          "bbox": [
+            43.5968017578125,
+            89.37562561035156,
+            284.5736083984375,
+            151.21983337402344
+          ]
+        },
+        {
+          "id": "p5-b28-3b7a864",
+          "kind": "paragraph",
+          "text": "Number of full \npesticide doses \nplot−1 year−1",
+          "bbox": [
+            118.94304656982422,
+            123.617919921875,
+            162.94696044921875,
+            151.2210235595703
+          ]
+        },
+        {
+          "id": "p5-b29-aa8975d",
+          "kind": "paragraph",
+          "text": "Excessive and improper pesticide \nuse is a sustainability threat in \nChina (Mu et al., 2022). \nN surplus \nkg N ha−1 year−1 \nThe NCP is an area with high N \nsurpluses (Meng et al., 2021) so N \nsurplus should be reduced. \nSocietal   \nDietary energy yield \nGcal ha−1 year−1 \nThe Chinese central government \nattaches high importance to \nnational food self-sufficiency. \nLabour use \nh ha−1 year−1 \nRural population migration to \ncities causes agricultural labour \nshortage in China (Xu et al., 2019). \nEconomic   \nGross margin \nCNY ha−1 year−1 \nHigh profitability is the major \ninterest of farmers (Fletcher, \n2019).",
+          "bbox": [
+            43.59904479980469,
+            123.61843872070312,
+            284.54046630859375,
+            271.1265563964844
+          ]
+        },
+        {
+          "id": "p5-b30-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.589752197265625,
+            33.65042495727539,
+            499.7935791015625,
+            44.07501983642578
+          ]
+        },
+        {
+          "id": "p5-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p5-figure1.png",
+          "alt": "Original source page 5, graphic 1",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p5-figure2",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p5-figure2.png",
+          "alt": "Original source page 5, graphic 2",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p5-figure3",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p5-figure3.png",
+          "alt": "Original source page 5, graphic 3",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p6-b1-e7f6c01",
+          "kind": "paragraph",
+          "text": "6",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p6-b2-2fc07fe",
+          "kind": "paragraph",
+          "text": "were only grown on smallholder farms, with cash crops making up most \nof the non-shared crops (Table 3). \nApproximately 60% of smallholder farms and business farms pro­\nduced maize and wheat (Figs. 3a,b). On smallholder farms, wheat and \nmaize made up 70% of farm area, while business farms cultivated wheat \nand maize on only 33% of their land (Figs. 3c,d). Approximately 24% of",
+          "bbox": [
+            37.587398529052734,
+            254.5437469482422,
+            291.03021240234375,
+            319.9017639160156
+          ]
+        },
+        {
+          "id": "p6-b3-0f5a788",
+          "kind": "paragraph",
+          "text": "the farm area was dedicated to cotton cultivation on both smallholder \nand business farms (Figs. 3c,d). However, the proportion of farms \ncultivating cotton was larger among smallholder farms than business \nfarms. A greater proportion of business farms than smallholder farms \ngrew vegetables and stevia, with almost 50% and 37% of business farms \nproducing vegetables and stevia, respectively, but fewer than 10% of \nsmallholder farms growing these crops (Figs. 3a-3d). Few smallholder \nand business farms planted legumes on their farms, but the cultivated \nspecies differed significantly between the two management models, \nwith soybean being cultivated mostly on business farms (in 3/19 farms) \nand mung bean (20/486) and peanut (9/486) on smallholder farms \n(Table 2). Business farms tended to have higher crop diversity per farm \nthan smallholder farms (Fig. 3e). Using rarefaction to correct for the \nlarger land area on business farms than smallholder farms, the data point \nfor the business farms was within the confidence zone of the rarefaction \ncurve for smallholder farms; hence there was no significant difference in \nthe overall number of crop species per farm type when the larger total \narea of smallholder farms was taken into account. Business farms \nshowed a greater evenness of land use than smallholder farms (Fig. 3c, \nd). \nThe multiple cropping index was 1.73 ± 0.02 for smallholder farms \nand 1.42 ± 0.06 for business farms (Figs. 4a,b). Smallholder farms had \n68% double cropping and 31% single cropping, while business farms \nhad 61% single cropping and 36% double cropping (Figs. 4c,d). Relay- \nintercropping was not conducted on business farms, and covered 0.5% \nof the total cropland area on smallholder farms. Other cropping systems",
+          "bbox": [
+            306.5926208496094,
+            51.30221939086914,
+            560.01953125,
+            325.8546142578125
+          ]
+        },
+        {
+          "id": "p6-b4-901635a",
+          "kind": "paragraph",
+          "text": "Table 2 \nFarm characteristics and farmer attributes of smallholder farms and business \nfarms in Quzhou. Values represent mean ± standard error of the mean for each \nvariable. The p values result from Kolmogorov-Smirnov tests comparing small­\nholder farms and business farms.",
+          "bbox": [
+            37.587398529052734,
+            52.53608322143555,
+            290.7785339355469,
+            102.53117370605469
+          ]
+        },
+        {
+          "id": "p6-b5-e9739a3",
+          "kind": "paragraph",
+          "text": "Variable \nUnit \nSmallholder farms \n(n = 486) \nBusiness \nfarms \n(n = 19)",
+          "bbox": [
+            43.5968017578125,
+            104.91043090820312,
+            245.58401489257812,
+            132.45559692382812
+          ]
+        },
+        {
+          "id": "p6-b6-1d2f668",
+          "kind": "paragraph",
+          "text": "p- \nvalue",
+          "bbox": [
+            263.84588623046875,
+            104.91043090820312,
+            280.9779357910156,
+            123.89530944824219
+          ]
+        },
+        {
+          "id": "p6-b7-2cff32d",
+          "kind": "paragraph",
+          "text": "Farm attributes     \nFarm size \nha \n0.78 ± 0.03 \n14.61 ±\n2.32 \n<0.01",
+          "bbox": [
+            43.5968017578125,
+            135.183837890625,
+            283.1775817871094,
+            162.7296600341797
+          ]
+        },
+        {
+          "id": "p6-b8-938985b",
+          "kind": "paragraph",
+          "text": "Self-owned \nmachinery \nnumber \nfarm−1",
+          "bbox": [
+            49.54934310913086,
+            160.86532592773438,
+            131.2883758544922,
+            179.90696716308594
+          ]
+        },
+        {
+          "id": "p6-b9-dae5e79",
+          "kind": "paragraph",
+          "text": "0.04 ± 0.01 \n2.32 ±\n0.70 \n<0.01",
+          "bbox": [
+            151.6540069580078,
+            160.86642456054688,
+            283.17926025390625,
+            179.90806579589844
+          ]
+        },
+        {
+          "id": "p6-b10-58a1768",
+          "kind": "paragraph",
+          "text": "Decision maker \nattributes     \nAge \nyears \n60.1 ± 0.4 \n46.4 ± 1.7 \n<0.01 \nSchooling years \nyears \n5.84 ± 0.20 \n9.94 ±\n0.30 \n<0.01",
+          "bbox": [
+            43.599090576171875,
+            178.04373168945312,
+            283.17926025390625,
+            222.71075439453125
+          ]
+        },
+        {
+          "id": "p6-b11-668695c",
+          "kind": "paragraph",
+          "text": "Cropping \nexperience \nyears \n37.0 ± 0.5 \n16.8 ± 2.9 \n<0.05",
+          "bbox": [
+            49.55162811279297,
+            220.846435546875,
+            285.0473937988281,
+            239.88868713378906
+          ]
+        },
+        {
+          "id": "p6-b12-cd26eb8",
+          "kind": "paragraph",
+          "text": "Table 3 \nList of crop species and frequency of cultivation on smallholder and business farms. Salmon pink \ncolour indicates that crops are grown on both farm management models; the green indicates the crops \nare only produced on smallholder farms; and the yellow indicates the crops are only cultivated on \nbusiness farms. Crops are ordered according to their frequency from top to bottom.",
+          "bbox": [
+            138.8979949951172,
+            336.9650573730469,
+            458.49749755859375,
+            386.9601745605469
+          ]
+        },
+        {
+          "id": "p6-b13-f64dd49",
+          "kind": "paragraph",
+          "text": "Group\nCrop name\nLatin name\nSmallholder farms\nBusiness farms",
+          "bbox": [
+            141.66949462890625,
+            392.7278137207031,
+            452.73333740234375,
+            399.7418212890625
+          ]
+        },
+        {
+          "id": "p6-b14-29be173",
+          "kind": "paragraph",
+          "text": "(n=486)\n(n=19)",
+          "bbox": [
+            362.57598876953125,
+            404.06768798828125,
+            440.0108947753906,
+            411.0816955566406
+          ]
+        },
+        {
+          "id": "p6-b15-36d4ac0",
+          "kind": "paragraph",
+          "text": "Cereals\nMaize\nZea mays\n439\n15",
+          "bbox": [
+            141.66949462890625,
+            415.50677490234375,
+            433.7517395019531,
+            422.6744079589844
+          ]
+        },
+        {
+          "id": "p6-b16-c590bf6",
+          "kind": "paragraph",
+          "text": "Wheat\nTriticum aestivum\n414\n12",
+          "bbox": [
+            191.91558837890625,
+            426.4267883300781,
+            433.7517395019531,
+            433.4498596191406
+          ]
+        },
+        {
+          "id": "p6-b17-8e6dac7",
+          "kind": "paragraph",
+          "text": "Millet\nSetaria italica\n9\n4",
+          "bbox": [
+            191.91558837890625,
+            437.7666015625,
+            431.9949645996094,
+            444.7896728515625
+          ]
+        },
+        {
+          "id": "p6-b18-67798a0",
+          "kind": "paragraph",
+          "text": "Fiber crop\nCotton\nGossypium hirsutum\n235\n7",
+          "bbox": [
+            141.66949462890625,
+            449.8202819824219,
+            431.9949645996094,
+            456.9879150390625
+          ]
+        },
+        {
+          "id": "p6-b19-9fefd19",
+          "kind": "paragraph",
+          "text": "Industrial crop Stevia\nStevia rebaudiana\n31\n7",
+          "bbox": [
+            141.66949462890625,
+            461.8739929199219,
+            431.9949645996094,
+            469.0415954589844
+          ]
+        },
+        {
+          "id": "p6-b20-7cb58e9",
+          "kind": "paragraph",
+          "text": "Vegetables\nChili\nCapsicum frutescens\n31\n3",
+          "bbox": [
+            141.66949462890625,
+            473.4657897949219,
+            431.9949645996094,
+            480.6344299316406
+          ]
+        },
+        {
+          "id": "p6-b21-464c91a",
+          "kind": "paragraph",
+          "text": "Cabbage\nBrassica oleracea var. capitata\n24\n7",
+          "bbox": [
+            191.91558837890625,
+            484.3863830566406,
+            431.9949645996094,
+            491.4094543457031
+          ]
+        },
+        {
+          "id": "p6-b22-947cf75",
+          "kind": "paragraph",
+          "text": "Spinach\nSpinacia oleracea\n6\n1",
+          "bbox": [
+            191.91558837890625,
+            495.3204040527344,
+            431.9949645996094,
+            502.3434753417969
+          ]
+        },
+        {
+          "id": "p6-b23-618dc45",
+          "kind": "paragraph",
+          "text": "Cauliflower\nBrassica oleracea var. botrytis\n4\n1",
+          "bbox": [
+            191.91558837890625,
+            506.2403869628906,
+            431.9949645996094,
+            513.2634887695312
+          ]
+        },
+        {
+          "id": "p6-b24-8f75ee1",
+          "kind": "paragraph",
+          "text": "Kidney bean\nPhaseolus vulgaris\n10",
+          "bbox": [
+            191.91558837890625,
+            517.160400390625,
+            377.6400146484375,
+            524.1834716796875
+          ]
+        },
+        {
+          "id": "p6-b25-fb7c8ab",
+          "kind": "paragraph",
+          "text": "Eggplant\nSolanum melongena\n8",
+          "bbox": [
+            191.91558837890625,
+            528.0803833007812,
+            375.8829650878906,
+            535.1034545898438
+          ]
+        },
+        {
+          "id": "p6-b26-5a1e826",
+          "kind": "paragraph",
+          "text": "Garlic\nAllium sativum\n7",
+          "bbox": [
+            191.91558837890625,
+            539.0014038085938,
+            375.8829650878906,
+            546.0244750976562
+          ]
+        },
+        {
+          "id": "p6-b27-aed7c7f",
+          "kind": "paragraph",
+          "text": "Chinese cabbage Brassica pekinensis\n3",
+          "bbox": [
+            191.91558837890625,
+            549.92041015625,
+            375.8829650878906,
+            556.9434814453125
+          ]
+        },
+        {
+          "id": "p6-b28-fa02305",
+          "kind": "paragraph",
+          "text": "Scallion\nAllium fistulosum\n2",
+          "bbox": [
+            191.91558837890625,
+            560.8394165039062,
+            375.8829650878906,
+            567.8624877929688
+          ]
+        },
+        {
+          "id": "p6-b29-1548668",
+          "kind": "paragraph",
+          "text": "Onion\nAllium cepa\n1",
+          "bbox": [
+            191.91558837890625,
+            571.7604370117188,
+            375.8829650878906,
+            578.7835083007812
+          ]
+        },
+        {
+          "id": "p6-b30-877bfd1",
+          "kind": "paragraph",
+          "text": "Zucchini\nCucurbita pepo\n1",
+          "bbox": [
+            191.91558837890625,
+            582.680419921875,
+            375.8829650878906,
+            589.7034912109375
+          ]
+        },
+        {
+          "id": "p6-b31-9768a55",
+          "kind": "paragraph",
+          "text": "Kohlrabi\nBrassica oleracea var. gongylodes\n1",
+          "bbox": [
+            191.91558837890625,
+            593.6004028320312,
+            375.8829650878906,
+            600.6234741210938
+          ]
+        },
+        {
+          "id": "p6-b32-16e0ea8",
+          "kind": "paragraph",
+          "text": "Broccoli\nBrassica oleracea var. italica\n1",
+          "bbox": [
+            191.91558837890625,
+            604.5204467773438,
+            431.9949645996094,
+            611.5435180664062
+          ]
+        },
+        {
+          "id": "p6-b33-45d27a2",
+          "kind": "paragraph",
+          "text": "Squash\nCucurbita moschata\n1",
+          "bbox": [
+            191.91558837890625,
+            615.8604125976562,
+            431.9949645996094,
+            622.8834838867188
+          ]
+        },
+        {
+          "id": "p6-b34-c8ecb87",
+          "kind": "paragraph",
+          "text": "Legumes\nMung bean\nPhaseolus radiatus\n7",
+          "bbox": [
+            141.66949462890625,
+            627.4944458007812,
+            375.8829650878906,
+            634.6629638671875
+          ]
+        },
+        {
+          "id": "p6-b35-03f221f",
+          "kind": "paragraph",
+          "text": "Peanut\nArachis hypogaea\n9",
+          "bbox": [
+            191.91558837890625,
+            638.4144287109375,
+            375.8829650878906,
+            645.4375
+          ]
+        },
+        {
+          "id": "p6-b36-2d9a621",
+          "kind": "paragraph",
+          "text": "Soybean\nGlycine max\n4",
+          "bbox": [
+            191.91558837890625,
+            649.75439453125,
+            431.9949645996094,
+            656.7774658203125
+          ]
+        },
+        {
+          "id": "p6-b37-eecfe30",
+          "kind": "paragraph",
+          "text": "Other crops\nWatermelon\nCitrullus lanatus\n2\n2",
+          "bbox": [
+            141.66949462890625,
+            661.388427734375,
+            431.9949645996094,
+            668.5559692382812
+          ]
+        },
+        {
+          "id": "p6-b38-3a42811",
+          "kind": "paragraph",
+          "text": "Chrysanthemum\nChrysanthemum indicum L.\n1\n2",
+          "bbox": [
+            191.91558837890625,
+            672.3084106445312,
+            431.9949645996094,
+            679.3314819335938
+          ]
+        },
+        {
+          "id": "p6-b39-01715e8",
+          "kind": "paragraph",
+          "text": "Sunflower\nHelianthus annuus\n2",
+          "bbox": [
+            191.91558837890625,
+            683.242431640625,
+            375.8829650878906,
+            690.2655029296875
+          ]
+        },
+        {
+          "id": "p6-b40-7817a3c",
+          "kind": "paragraph",
+          "text": "Oilseed\nBrassica chinensis\n1",
+          "bbox": [
+            191.91558837890625,
+            694.5823974609375,
+            431.9949645996094,
+            701.60546875
+          ]
+        },
+        {
+          "id": "p6-b41-395ebd0",
+          "kind": "paragraph",
+          "text": "Tuber crops\nPotato\nSolanum tuberosum\n1",
+          "bbox": [
+            141.66949462890625,
+            706.1734008789062,
+            375.8829650878906,
+            713.3410034179688
+          ]
+        },
+        {
+          "id": "p6-b42-8b929e2",
+          "kind": "paragraph",
+          "text": "Sweet potato\nIpomoea batatas\n2",
+          "bbox": [
+            191.91558837890625,
+            717.514404296875,
+            431.9949645996094,
+            724.5374755859375
+          ]
+        },
+        {
+          "id": "p6-b43-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p6-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p6-figure1.png",
+          "alt": "Original source page 6, graphic 1",
+          "caption": "原文第6页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p7-b1-7902699",
+          "kind": "paragraph",
+          "text": "7",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p7-b3-71f2c83",
+          "kind": "paragraph",
+          "text": "(caption on next page)",
+          "bbox": [
+            488.75,
+            730.0165405273438,
+            559.7835083007812,
+            741.744384765625
+          ]
+        },
+        {
+          "id": "p7-b4-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p8-b1-2c62423",
+          "kind": "paragraph",
+          "text": "8",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p8-b2-841e7ba",
+          "kind": "paragraph",
+          "text": "were rarely found (Appendix A4).",
+          "bbox": [
+            37.587398529052734,
+            643.7407836914062,
+            159.7204132080078,
+            656.7719116210938
+          ]
+        },
+        {
+          "id": "p8-b3-36275be",
+          "kind": "heading",
+          "text": "3.3. Cropping system sustainability indicators",
+          "bbox": [
+            37.587398529052734,
+            669.1383056640625,
+            194.27000427246094,
+            682.16943359375
+          ]
+        },
+        {
+          "id": "p8-b4-a73d083",
+          "kind": "paragraph",
+          "text": "We compared sustainability indicators of seven crops with more than \nthree observations in both business and smallholder farms (Fig. 5). \nMaize and stevia had 19% and 18% greater N output (in product), \nrespectively, on business farms than on smallholder farms, resulting in a \n24% and 37% lower N surplus. Business farms had 53% and 85% lower",
+          "bbox": [
+            37.587398529052734,
+            690.0582275390625,
+            291.0222473144531,
+            744.9284057617188
+          ]
+        },
+        {
+          "id": "p8-b5-560b957",
+          "kind": "paragraph",
+          "text": "N surplus than smallholder farms for chili and millet, respectively. The \nhigher nitrogen use efficiency on business farms resulted from 21% and \n57% lower N input for growing chili and millet as well as a 34% higher N \noutput of chili on business farms (Figs. S1d,e). There was no difference \nin pesticide use if a crop was grown on a business farm or a smallholder \nfarm. The irrigation water used by business and smallholder farms was \nnearly identical, except in cotton where business farms used less irri­\ngation water in cotton than smallholder farms did (on average, 1.6 \nirrigation events per crop on business farms and 2.2 irrigation events on",
+          "bbox": [
+            306.5926208496094,
+            643.7407836914062,
+            560.0067138671875,
+            740.44921875
+          ]
+        },
+        {
+          "id": "p8-b6-e79c4af",
+          "kind": "paragraph",
+          "text": "Fig. 3. Percentage of farms cultivating certain crops (a, b) and percentage of the farm area cultivated with different crops (c, d) on smallholder farms (a, c) and \nbusiness farms (b, d). The number of crop species per farm on smallholder (cyan) and business farms (salmon pink) (e). Rarefaction of the number of crop species \nacross all smallholder farms with given cumulative area and the number of crop species across all business farms (red dot) (f). In panels c and d the total percentage is \nlarger than 100% due to multiple cropping and the total percentage value divided by 100 is equal to the multiple cropping index. In panel e, the white point denotes \nthe mean. The grey zone in panel f indicates a 95% confidence interval for the rarified number of crop species, based on bootstrapping. The actual number of crop \nspecies on smallholder farms was 23 (Table 3). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of \nthis article.)",
+          "bbox": [
+            37.587398529052734,
+            51.7420768737793,
+            559.783935546875,
+            120.84246063232422
+          ]
+        },
+        {
+          "id": "p8-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p8-figure1.png",
+          "alt": "Original source page 8, graphic 1",
+          "caption": "原文第8页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p8-b8-c44d03f",
+          "kind": "paragraph",
+          "text": "Fig. 4. The multiple cropping index (MCI) per farm (a, b) and types of cropping systems (c, d) of smallholder farms (a, c) and business farms (b, d) on average across \nall farms. The dashed lines in panels a and b indicate the mean MCI for each farm management model.",
+          "bbox": [
+            37.587398529052734,
+            612.6620483398438,
+            559.7488403320312,
+            633.9708862304688
+          ]
+        },
+        {
+          "id": "p8-b9-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p9-b1-19581e2",
+          "kind": "paragraph",
+          "text": "9",
+          "bbox": [
+            296.2080078125,
+            754.454833984375,
+            299.7976989746094,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p9-b2-7b03344",
+          "kind": "paragraph",
+          "text": "smallholder farms). Business farms had 1.7 Mg ha−1 greater maize yield \nthan smallholder farms, 0.9 Mg ha−1 greater yield of stevia, and 19.4 Mg \nha−1 greater yield of chili, while yields of other crops did not differ \nsignificantly among the two farm types. Business farms used less labour \nthan smallholder farms for growing the same crop. Compared to \nsmallholder farms, business farms had 40% lower labour consumption in \nmaize, 24% lower labour consumption in cotton, and 96% lower labour \nconsumption in millet. Business farms used machinery for sowing and \nharvesting millet while smallholder farmers did this by hand. Gross \nrevenue in business farms exceeded that in smallholder farms by 24% in \nmaize, 10% in wheat and 27% in stevia, but there was no significant \ndifference in gross margin per ha due to higher costs in business farms.",
+          "bbox": [
+            37.587398529052734,
+            430.1234130859375,
+            291.0306701660156,
+            559.4288330078125
+          ]
+        },
+        {
+          "id": "p9-b3-292d8bc",
+          "kind": "heading",
+          "text": "3.4. Farm sustainability indicators",
+          "bbox": [
+            37.58787536621094,
+            574.9705200195312,
+            157.36410522460938,
+            588.0016479492188
+          ]
+        },
+        {
+          "id": "p9-b4-10d9e44",
+          "kind": "paragraph",
+          "text": "Three out of six sustainability indicators differed significantly be­\ntween smallholder farms and business farms, and for two out of these \nthree indicators, the sustainability performance of business farms was \nbetter than that of smallholder farms (Figs. 6,S2 and Table S8). Business \nfarms had significantly lower N surplus and irrigation water use per ha \nper year than smallholder farms. While spending less on pesticides due \nto business farms obtaining lower prices, business farms had the same \npesticide use as smallholder farms. Gross revenue per ha per year of \nbusiness farms was 2.2 times that of smallholder farms, but business \nfarms had 75% greater costs per ha per year than smallholder farms, \nmainly due to the cost of hired labour and renting cropland, which were \napproximately ten times higher than for smallholder farms, which used \nmainly their own labour (Fig. S3). As a result, there was no significant \ndifference in gross margin per ha per year between business farms and",
+          "bbox": [
+            37.58787536621094,
+            595.8895874023438,
+            291.0306701660156,
+            744.9257202148438
+          ]
+        },
+        {
+          "id": "p9-b5-7f89da3",
+          "kind": "paragraph",
+          "text": "smallholder farms (when not accounting for the cost of own labour on \nboth farm types). The mean dietary energy yield per ha per year of \nbusiness farms was 33% lower than that of smallholder farms. The la­\nbour consumption per ha per year did not differ between business farms \nand smallholder farms. \nSome of the differences in indicators between smallholder and \nbusiness farms were due to the greater use of double cropping on \nsmallholder farms. Only two out of six indicators were different between \nbusiness farms and smallholder farms after correcting for MCI. Cor­\nrecting for MCI means that indicators are expressed per crop rather than \nper year (Figs. 7,S4 and Table S9). There was no significant difference \nbetween business farms and smallholder farms in N input and N output \nper ha per year but business farms had nevertheless 27% lower N surplus \nper crop, indicating higher N use efficiency. There was also no signifi­\ncant difference between business farms and smallholder farms in pesti­\ncide usage and labour consumption after correcting for MCI. No \nsignificant difference was found in irrigation input per crop between \nbusiness farms and smallholder farms. Correcting for MCI enlarged the \ngross margin gap between business farms and smallholder farms and the \ndifference was significant (Table S8,9). On the one hand, business farms \ngrew more high-value crops than smallholder farms. On the other hand, \nhigher MCI helped smallholder farmers close the gross margin gap per \nha per year between them and business farms. There was no difference \nbetween business farms and smallholder farms regarding dietary energy \nyield per ha per crop (Fig. 7). Thus the lower dietary energy yield on \nbusiness farms per ha per year was entirely due to the lower use of \ndouble cropping and the lower land allocation to cereals.",
+          "bbox": [
+            306.5923156738281,
+            431.3126220703125,
+            560.0096435546875,
+            716.2963256835938
+          ]
+        },
+        {
+          "id": "p9-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p9-figure1.png",
+          "alt": "Original source page 9, graphic 1",
+          "caption": "原文第9页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p9-b7-f509df2",
+          "kind": "paragraph",
+          "text": "Fig. 5. Sustainability indicators for shared crops with more than three observations on smallholder and business farms: N surplus (a); pesticide use (b); irrigation (c); \nyield (d,e); labour consumption (f) and gross margin (g). Large coloured circles represent the means, while the error bars represent the standard error of the mean. \nSmall grey circles represent individual observations and n is the number of observations. The salmon pink colour represents business farms while cyan colour \nrepresents smallholder farms. Kolmogorov-Smirnov tests were done to compare distributions, and the star sign represents a significant differences (P<0.05). Crop \norder is according to the number of observations from top to bottom. (For interpretation of the references to colour in this figure legend, the reader is referred to the \nweb version of this article.)",
+          "bbox": [
+            37.587398529052734,
+            362.0230712890625,
+            559.7904052734375,
+            421.54248046875
+          ]
+        },
+        {
+          "id": "p9-b8-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p10-b1-4a44dc1",
+          "kind": "paragraph",
+          "text": "10",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p10-b2-54c664c",
+          "kind": "heading",
+          "text": "4. Discussion",
+          "bbox": [
+            37.587398529052734,
+            490.6127624511719,
+            92.4647216796875,
+            503.64385986328125
+          ]
+        },
+        {
+          "id": "p10-b3-f36e71b",
+          "kind": "heading",
+          "text": "4.1. Crop diversity and crop allocation",
+          "bbox": [
+            37.587398529052734,
+            511.5318603515625,
+            172.4980926513672,
+            524.56298828125
+          ]
+        },
+        {
+          "id": "p10-b4-2f91a11",
+          "kind": "paragraph",
+          "text": "We found no difference between smallholder and business farms in \nthe number of crops across all farms, but the crop allocation differed. \nBusiness farms grew more vegetables, and smallholder farms grew more \ngrains. A major reason for low allocation to vegetables on smallholder \nfarms is that the farmers prefer growing labour-saving crops, like grains, \nas they hold part-time jobs (Wang et al., 2017a, 2017b). As a result of \naging agricultural labor in rural areas and the ongoing trend of migra­\ntion to urban areas (Ren et al., 2023), smallholder farms are less able to \ncultivate labour-intensive crops such as vegetables. Business farms, on \nthe other hand, can mitigate the issue through mechanization or hiring \nlabour. On business farms, crops with high economic value are priori­\ntized (Otsuka et al., 2016b). Crop and dietary diversity may be main­\ntained with the expansion of business farms. However, food systems may \nbe influenced by the expansion of business farms; more vegetables are \nprovided to consumers, but the production of feed is reduced as the land \nallocation to maize was lower on business farms while about 60% of \nmaize is utilized for animal feed in China (Ely et al., 2016). \nBusiness farms produced less dietary energy per ha than smallholder \nfarms, not because of different yields, but because of different crop \nallocation. Business farms had 20% higher maize yield than smallholder",
+          "bbox": [
+            37.587398529052734,
+            532.4509887695312,
+            291.03021240234375,
+            744.24609375
+          ]
+        },
+        {
+          "id": "p10-b5-1bf8997",
+          "kind": "paragraph",
+          "text": "farms, and the same wheat and millet yield. However, there was a \nsmaller area of land allocated to maize and wheat cultivation in business \nfarms and a lower cropping intensity in maize and wheat cultivation. For \ninstance, on business farms, maize and millet were grown as single crops \n(one crop per year) while on smallholder farms, maize was usually \ngrown as part of the wheat-maize double cropping system. This resulted \nin lower dietary energy yields on business farms per unit area compared \nto smallholder farms since maize and wheat contributed the most to \ndietary energy production and smallholders overwhelmingly cultivated \nthese crops using double cropping (Table S7). To boost grain production, \nthe Chinese central government subsidizes grain farmers (Song et al., \n2021). However, the subsidies and the net return from grain production \ncannot cover land rental costs, and business farmers are therefore less \ninterested in grain production than smallholders. If no other in­\nterventions are made in the current context, business farm expansion \nmay result in cash crops substituting grains. This would run against the \ngovernment's objective to maintain grain production area in the NCP \n(Ministry of Agriculture and Rural Affiairs of the People’s Republic of \nChina, 2022).",
+          "bbox": [
+            306.5926208496094,
+            490.6127624511719,
+            560.020263671875,
+            691.919189453125
+          ]
+        },
+        {
+          "id": "p10-b6-8505f69",
+          "kind": "heading",
+          "text": "4.2. Effect of farm size on crop production sustainability",
+          "bbox": [
+            306.5926208496094,
+            700.48779296875,
+            501.2821960449219,
+            713.5189208984375
+          ]
+        },
+        {
+          "id": "p10-b7-e400244",
+          "kind": "paragraph",
+          "text": "We compared the crop sustainability performance of smallholder and \nbusiness farmers at two scales: the crop scale and the farm scale.",
+          "bbox": [
+            306.5926208496094,
+            721.4069213867188,
+            560.0194702148438,
+            744.9266967773438
+          ]
+        },
+        {
+          "id": "p10-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p10-figure1.png",
+          "alt": "Original source page 10, graphic 1",
+          "caption": "原文第10页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p10-b9-b206ac7",
+          "kind": "paragraph",
+          "text": "Fig. 6. Sustainability indicators of smallholder and business farms: N surplus (a); pesticides use (b); irrigation (c); dietary energy yield (d); labour use (e) and gross \nmargin (f). The salmon pink lines represent business farms and the cyan lines represent smallholder farms. D is the Kolmogorov-Smirnov test statistic and p is the \nassociated p value. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            37.587398529052734,
+            450.01007080078125,
+            559.7637939453125,
+            480.8432312011719
+          ]
+        },
+        {
+          "id": "p10-b10-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p11-b1-4fc82b2",
+          "kind": "paragraph",
+          "text": "11",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p11-b2-f70e502",
+          "kind": "paragraph",
+          "text": "Business farms outperformed in two environmental indicators (N sur­\nplus and irrigation water use) but underperformed in dietary energy \nyield (Fig. 6 and Table S8). \nBetter management helps business farms achieve lower N surplus \nthan smallholder farms. Lower N input and higher N output in some \ncrops (maize, stevia, chili and millet) were the reasons for business farms \nachieving low N surplus, which is consistent with Yu et al. (2021). \nBusiness farms reduce fertilizer costs as much as possible and therefore \nreduce fertilizer inputs (Ju et al., 2016). Conversely, it is common for \nsmallholder farmers to overapply fertilizer to try and compensate for \nsuboptimal management and to reach yield targets (Ren et al., 2021). \nDespite their lower N surplus of 206 kg N ha−1 year,−1 business farms \nstill exceed the target surplus of 90 kg N ha−1 year−1 (Zhang et al., 2019) \nand have a risk of N pollution. \nLower farm MCI contributed to lower irrigation input per ha at the \nfarm scale in business farms. Business farms neither reduced irrigation \nfrequency (except in cotton) nor used modern irrigation equipment to \nsave irrigation water consumption. In Northwestern China, larger farms \nare more likely to use drip irrigation (Feike et al., 2017). However, only \none business farm in our sample used modern irrigation equipment; \nmost business farms showed a strong willingness to use water-saving \nirrigation equipment, but had not done so yet. Besides, in our study, \nbusiness farms did not try modern irrigation practices, like shortening",
+          "bbox": [
+            37.587398529052734,
+            493.6177673339844,
+            291.0308837890625,
+            736.7640380859375
+          ]
+        },
+        {
+          "id": "p11-b3-e106166",
+          "kind": "paragraph",
+          "text": "the duration of irrigation events, as American business farms did (Skaggs \nand Samani, 2005). Simply having low cropping intensity without \nimproving irrigation practices or techniques in business farms cannot \naddress groundwater depletion. \nWe expected business farms to use less pesticide than smallholder \nfarms because the managers are better educated and younger and may \noptimize their pesticide use better than smallholders did. However, in \nour study, there was no difference in pesticide use between business and \nsmallholder farms. \nBusiness farms are expected to have diversified sales channels to gain \nhigher farm gate prices than smallholder farms (Hao et al., 2018), such \nas directly selling products to processing firms or improving the quality \nof products to meet the requirements of high-value-added markets (Yu \net al., 2021). Apart from stevia, in our survey, business farms sold their \ncrops to intermediaries at low prices during the harvest season, much \nlike smallholder farms did (Fig. S1a). Although business farms received \nhigher subsidies than smallholder farms (Appendix A2) and allocated a \nlarger proportion of their area to high economic value crops than \nsmallholders did, significant expenditures on leased cropland and hired \nlabour (Fig. S3) offset these gains, which resulted in a gross margin per \nha that was similar to that achieved on smallholder farms. \nMore self-owned machinery helps business farms to have lower labor \nconsumption in maize, cotton, and millet cultivation. Purchased",
+          "bbox": [
+            306.5941162109375,
+            493.6194152832031,
+            560.0170288085938,
+            736.7640380859375
+          ]
+        },
+        {
+          "id": "p11-figure1",
+          "kind": "image",
+          "path": "library/xu-2024/5c1568888f1c/p11-figure1.png",
+          "alt": "Original source page 11, graphic 1",
+          "caption": "原文第11页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p11-b5-0240316",
+          "kind": "paragraph",
+          "text": "Fig. 7. MCI-corrected sustainability indicators of smallholder and business farms: N surplus (a); pesticide use(b); irrigation (c); dietary energy yield (d); labour use \n(e) and gross margin (f). The salmon pink lines represent business farms and the cyan lines represent smallholder farms. D is the Kolmogorov-Smirnov test statistic \nand p is the associated p value. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+          "bbox": [
+            37.587398529052734,
+            453.01507568359375,
+            559.773193359375,
+            483.8482360839844
+          ]
+        },
+        {
+          "id": "p11-b6-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p12-b1-6b51d43",
+          "kind": "paragraph",
+          "text": "12",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p12-b2-ead2351",
+          "kind": "paragraph",
+          "text": "machinery services help smallholder farms without self-owned ma­\nchinery save labour consumption. However, there are also some limi­\ntations in purchased machinery services. On the one hand, the cost of \npurchased machinery service leads smallholder farmers to abandon \nmachinery and use labour to control the costs of input, such as har­\nvesting maize and sowing cotton. On the other hand, purchased ma­\nchinery services are not always available. In Quzhou, millet harvest \nmachinery is rarely provided by rental companies, so smallholder \nfarmers harvested millet by hand, but business farms harvested millet \nusing their self-owned machinery. There are no differences in labour \nconsumption per unit area between farm management models at the \nfarm scale due to the lack of picking machinery for vegetables and \nstevia. \nRobust off-farm economic growth facilitates more non-farm \nemployment opportunities for family labour, which in turn contributes \nto merging small farms into large-sized businesses and substitute ma­\nchinery for family labour. This trend is ongoing in many Asian countries \nundergoing rapid economic growth, including Vietnam (Duong and \nThanh, 2019), India (Kumar and Moharaj, 2023), Indonesia (Yamauchi, \n2016), Nepal (Ghimire and Huang, 2016) and China. Better education \ncontributes to business farms being more willing to spend time and \nmoney studying in technical school and adopting more sustainable \nfarming practices than smallholder farms (Woodhouse, 2010; Duan and \nZhou, 2014; Wang et al., 2017a, 2017b), which contributes significantly \nto sustainability differences between business and smallholder farms \n(Sheng et al., 2014). However, it depends on the context which sus­\ntainable practices business farmers adopt, which leads to a variation in \nthe sustainability advantage of business farms over smallholder farms. \nBusiness farms may face disadvantages in some sustainability di­\nmensions depending on their cultivated crops and adoptions of prac­\ntices. Therefore, it is crucial to design policies and education programs \ntargeting large-sized business farmers and to induce them to facilitate \npositive changes in practices.",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            291.03179931640625,
+            399.09893798828125
+          ]
+        },
+        {
+          "id": "p12-b3-d00e088",
+          "kind": "heading",
+          "text": "4.3. Limitations and outlook",
+          "bbox": [
+            37.587398529052734,
+            407.61102294921875,
+            137.80105590820312,
+            420.6421203613281
+          ]
+        },
+        {
+          "id": "p12-b4-1a3dcfb",
+          "kind": "paragraph",
+          "text": "Our research has shown multiple differences between business and \nsmallholder farms in crop allocation, management practices, cropping \nintensity (MCI), and sustainability performance of crop production in \nthe NCP. However, some limitations are worth noting. Farm sustain­\nability depends on crop management, cropping intensity, and crop \nchoice (Aouadi et al., 2015). We identified how management practices \nand cropping intensity affected sustainability differences within farm \nmanagement models. We did not discuss the influence of the area of non- \nshared crops on smallholder farms and business farms on sustainability \nin the study, because the area of such crops that are only planted in one \nof the farm management models occupied relatively small proportions \non smallholder farms (2%) and business farms (14%) (Table S6). \nTherefore, non-shared crops have a limited impact on sustainability \nperformance. \nAnother limitation of our study is the sample size of business farms \n(19 observations). Although business farms' share of the total land area \nincreases rapidly (area proportion from negligible in 2008 to nearly 20% \nin 2013 (Huang and Ding, 2016)), business farms are still a small frac­\ntion of the total population of farms. In Quzhou, there were about 199 \nbusiness farms in 342 villages in 2020. The results of statistical analysis \nindicate that the sample size of 19 business farms in 35 villages in our \nstudy is sufficient to draw conclusions and find significant differences. \nWe did not assess heterogeneity between different types of business \nfarm. Yu et al. (2021) reported that there was significant heterogeneity \nin management practices and sustainability within business farm types \nin Zhejiang province, including family farms, cooperative farms and \nagricultural companies. The sample size of business farms could be \nincreased in future work to analyze heterogeneity among business farm \ntypes, which can deepen our understanding of the impact of business \nfarms on crop production in the NCP. An advantage of our sampling",
+          "bbox": [
+            37.58736801147461,
+            428.5301208496094,
+            291.0357971191406,
+            744.9224853515625
+          ]
+        },
+        {
+          "id": "p12-b5-4aa2527",
+          "kind": "paragraph",
+          "text": "approach is that location factors such as soil type and access to water are \nlikely to be similar among these two farm types since business farms and \nsmallholder farms originated from the same villages; hence there is little \nrisk of bias in this respect. \nRecent findings suggest that the benefits of farm size expansion are \naffected by topography and local economic development (Duan et al., \n2021; Ricciardi et al., 2021). So far, the hypothesis that business farms \nare more sustainable than smallholder farms in China has been inves­\ntigated primarily in the plains, such as the Northeast and the NCP (Wang \net al., 2017a, 2017b; Zhang et al., 2021; Zou et al., 2022). Further work \nis needed in mountainous areas. It is also interesting to do this com­\nparison of business farms and smallholder farms in areas with different \neconomic development within China. Such an analysis may help to \ndetermine in which production situation the development of business \nfarming as a farm management model is most promising. Also, future \nstudies could compare in detail management practices of a crop between \nbusiness farms and smallholder farms, like crop varieties, sowing and \nharvest date, the type of fertilizers and pesticide. Such information can \ngive further insight how business farms achieve certain improvements \ncompared to smallholder farms. Finally, product quality may be \ncompared between the two farm management models.",
+          "bbox": [
+            306.5925598144531,
+            51.29985427856445,
+            560.0203247070312,
+            273.5252380371094
+          ]
+        },
+        {
+          "id": "p12-b6-e64fd69",
+          "kind": "heading",
+          "text": "5. Conclusion",
+          "bbox": [
+            306.5925598144531,
+            283.2280578613281,
+            363.25439453125,
+            296.2591552734375
+          ]
+        },
+        {
+          "id": "p12-b7-0c64eb1",
+          "kind": "paragraph",
+          "text": "We comprehensively compared smallholder and business farms \nregarding farm attributes, decision-maker attributes, crop allocation, \nand sustainability performance in the North China Plain. Compared to \nsmallholder farms, business farms were operated by younger and better- \neducated decision-makers than smallholder farms. They had larger farm \nsizes and more self-owned machinery. The shift from smallholder farms \nto business farms did not cause a loss in crop diversity across all farms \nbut reoriented crop production by substituting grains with cash crops. \nBusiness farms allocated less area to grain production and had a lower \ncropping intensity (less double cropping) than smallholder farms. \nCompared with smallholder farms, business farms had better environ­\nmental sustainability performance, including lower N surplus and irri­\ngation input, due to better management practices and lower cropping \nintensity. However, trade-offs existed; business farms had lower dietary \nenergy yield than smallholder farms. In terms of sustainability, our re­\nsults show that business farms are not a panacea solving all challenges in \nChinese farming. Furthermore, about 30% of cropland in China is in \nmountainous regions, making it challenging to expand farm size and \ndevelop business farms in such areas. Instead of only focusing on the \nexpansion of business farming, pathways need to be identified for sus­\ntainable farming for all farm management models. Business farms may \nbe given more guidance to optimize their resource allocation to mitigate \nthe trade-offs, i.e., reduced dietary energy yield. Smallholder farms \nshould not be neglected since smallholder farms are a key contributor to \ngrain production. The main challenge for smallholder farms is earning a \ndecent income on a small farm size.",
+          "bbox": [
+            306.5924987792969,
+            304.1471862792969,
+            560.0106811523438,
+            578.7003784179688
+          ]
+        },
+        {
+          "id": "p12-b8-75794fc",
+          "kind": "paragraph",
+          "text": "CRediT authorship contribution statement",
+          "bbox": [
+            306.5926208496094,
+            588.3465576171875,
+            470.8659362792969,
+            601.377685546875
+          ]
+        },
+        {
+          "id": "p12-b9-827327b",
+          "kind": "paragraph",
+          "text": "Zhan Xu: Data curation, Formal analysis, Investigation, Visualiza­\ntion, Writing – original draft, Writing – review & editing. Zhengyuan \nLiang: Data curation, Investigation. Jiali Cheng: Data curation, Inves­\ntigation. Jeroen C.J. Groot: Supervision, Writing – review & editing. \nChaochun Zhang: Funding acquisition, Resources, Supervision, Writing \n– review & editing. Wen-Feng Cong: Funding acquisition, Supervision. \nFusuo Zhang: Project administration, Resources. Wopke van der Werf: \nConceptualization, Supervision, Writing – review & editing.",
+          "bbox": [
+            306.5925598144531,
+            609.2657470703125,
+            560.00439453125,
+            695.5436401367188
+          ]
+        },
+        {
+          "id": "p12-b10-8feb861",
+          "kind": "paragraph",
+          "text": "Declaration of Competing Interest",
+          "bbox": [
+            306.5926208496094,
+            710.97216796875,
+            438.7990417480469,
+            724.0032958984375
+          ]
+        },
+        {
+          "id": "p12-b11-903ea50",
+          "kind": "paragraph",
+          "text": "None.",
+          "bbox": [
+            318.5541687011719,
+            731.8912963867188,
+            341.6275939941406,
+            744.9224243164062
+          ]
+        },
+        {
+          "id": "p12-b12-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.64743423461914,
+            499.79022216796875,
+            44.07202911376953
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p13-b1-3fdba35",
+          "kind": "paragraph",
+          "text": "13",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p13-b2-188a992",
+          "kind": "heading",
+          "text": "Data availability",
+          "bbox": [
+            37.587398529052734,
+            51.29973220825195,
+            103.4307861328125,
+            64.33084106445312
+          ]
+        },
+        {
+          "id": "p13-b3-2889f11",
+          "kind": "paragraph",
+          "text": "Data will be made available on request.",
+          "bbox": [
+            49.54892349243164,
+            72.2188491821289,
+            192.2567596435547,
+            85.24996185302734
+          ]
+        },
+        {
+          "id": "p13-b4-c9015d5",
+          "kind": "heading",
+          "text": "Acknowledgements",
+          "bbox": [
+            37.5873908996582,
+            94.38529205322266,
+            113.76560974121094,
+            107.4164047241211
+          ]
+        },
+        {
+          "id": "p13-b5-dce1acb",
+          "kind": "paragraph",
+          "text": "This work received financial support from the Cooperative Project of \nChinese Academy of Engineering (2020-FJ-XZ-8) and China Scholarship \nCouncil (CSC) (grant number is No.201913043) and Hainan University. \nIn particular, we would like to thank Nico Heerink and Fan Li for their \nvaluable suggestions. We thank Dongsheng Li, Shuai Han, Yingying \nWang and Jiahui Ji for their contribution to farm survey data collection.",
+          "bbox": [
+            37.587398529052734,
+            115.30520629882812,
+            291.03021240234375,
+            180.6632080078125
+          ]
+        },
+        {
+          "id": "p13-b6-c09b53c",
+          "kind": "paragraph",
+          "text": "Appendix A. Supplementary data",
+          "bbox": [
+            37.5874137878418,
+            189.74195861816406,
+            168.5473175048828,
+            202.7730712890625
+          ]
+        },
+        {
+          "id": "p13-b7-d6599c2",
+          "kind": "paragraph",
+          "text": "Supplementary data to this article can be found online at https://doi. \norg/10.1016/j.agsy.2024.103896.",
+          "bbox": [
+            37.5874137878418,
+            210.661865234375,
+            290.9959411621094,
+            234.18084716796875
+          ]
+        },
+        {
+          "id": "p13-b8-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            37.5874137878418,
+            243.31617736816406,
+            81.13603210449219,
+            256.3472900390625
+          ]
+        },
+        {
+          "id": "p13-b9-f4e4bb5",
+          "kind": "paragraph",
+          "text": "Aouadi, N., Aubertot, J.N., Caneill, J., Munier-Jolain, N., 2015. Analyzing the impact of \nthe farming context and environmental factors on cropping systems: a regional case \nstudy in Burgundy. Eur. J. Agron. 66, 21–29. \nBrauns, B., Jakobsen, R., Song, X., Bjerg, P.L., 2018. Pesticide use in the wheat-maize \ndouble cropping systems of the North China plain: assessment, field study, and \nimplications. Sci. Total Environ. 616, 1307–1316. \nDeininger, K., Jin, S., Xia, F., 2014. Moving off the farm: land institutions to facilitate \nstructural transformation and agricultural productivity growth in China. World Dev. \n59, 505–520. \nDi, Z., Yang, L., Xu, X., Gou, W., 2019. Study on irrigation water price and the impact of \nhydrological year on project incomes in pumping irrigation district. J. Tianjin Agric. \nColl. 2, 80–84 (in Chinese).  \nDuan, Y., Zhou, G., 2014. Promoting Development of New Management Model for Grain \nProduction. China Agriculture Press, Beijing.  \nDuan, J., Ren, C., Wang, S., Zhang, X., Reis, S., Xu, J., Gu, B., 2021. Consolidation of \nagricultural land can contribute to agricultural sustainability in China. Nat. Food 2, \n1014–1022. \nDuong, P., Thanh, P., 2019. Adoption and effects of modern rice varieties in Vietnam: \nMicro-econometric analysis of household surveys. Econ. Anal. Policy 64, 282–292. \nEly, A., Geall, S., Song, Y., 2016. Sustainable maize production and consumption in \nChina: practices and poltics in transition. J. Clean. Prod. 259, 268. \nFeike, T., Khor, L.Y., Mamitimin, Y., Ha, N., Li, L., Abdusalih, N., Xiao, H., Doluschitz, R., \n2017. Determinants of cotton farmers’ irrigation water management in arid \nnorthwestern China. Agric Water Manag 187, 1–10. \nFletcher, A., 2019. Benchmarking break-crops with wheat reveals higher risk may limit \non farm adoption. Eur. J. Agron. 109, 125921. \nFoley, J.A., Ramankutty, N., Brauman, K.A., Cassidy, E.S., Gerber, J.S., Johnston, M., \nMueller, N.D., O’Connell, C., Ray, D.K., West, P.C., Balzer, C., Bennett, E.M., \nCarpenter, S.R., Hill, J., Monfreda, C., Polasky, S., Rockstrom, J., Sheehan, J., \nSiebert, S., Tilman, D., Zaks, D.P.M., 2011. Solutions for a cultivated planet. Nature \n478, 337–342. \nGhimire, R., Huang, W., 2016. Adoption pattern and welfare impact of agricultural \ntechnology: empirical evidence from rice farmers in Nepal. J. S. Asian. Dev. 11, \n113–137. \nGiller, K.E., Delaune, T., Silva, J.V., Descheemaeker, K., van de Ven, G., Schut, A.G.T., \nvan Wijk, M., Hammond, J., Hochman, Z., Taulya, G., Chikowo, R., Narayanan, S., \nKishore, A., Bresciani, F., Teixeira, H.M., Andersson, J.A., van Ittersum, M.K., 2021. \nThe future of farming: who will produce our food? Food Secur. 13, 1073–1099. \nGotelli, N.J., 2008. A Primer of Ecology, fourth edition. Sinauer Associates, \nMassachusetts.  \nHao, J., Bijman, J., Gardebroek, C., Heerink, N., Heijman, W., Huo, Xuexi, 2018. \nCooperative membership and farmers’ choice of marketing channels- evidence from \napple farmers in Shanxi and Shandong provinces, China. Food Policy 74, 53–64. \nHolst, J., Liu, W., Zhang, Q., Doluschitz, R., 2014. Crop evapotranspiration, arable \ncropping systems and water sustainability in southern Hebei, P.R. China. Agric. \nWater Manag. 141, 47–54. \nHuang, W., 2014. The non-agricultural and the non-grain oriented risk and it’s \ncircumventions in agricultural land transfer. Contemp. Econ. Manag. 36, 39–43 (in \nChinese).  \nHuang, J., Ding, J., 2016. Institutional innovation and policy support to facilitate small- \nscale farming transformation in China. Agric. Econ. 47, 227–237. \nHuang, J., Wang, X., Qiu, H., 2012. Small-Scale Farmers in China in the Face of \nModernization and Globalization. IIED/HIVOS, London/The Hague.  \nJi, X., Rozelle, S., Huang, J., Zhang, L., Zhang, T., 2016. Are China's farms growing? \nChina World Econ. 24, 41–62. \nJu, X., Xing, G., Chen, X., Zhang, S., Zhang, L., Liu, X., Cui, Z., Yin, B., Christie, P., \nZhu, Z., Zhang, F., 2009. Reducing environmental risk by improving N management \nin intensive Chinese agricultural systems. PNAS 106, 3041–3046. \nJu, X., Gu, B., Wu, Y., Galloway, J.N., 2016. Reducing China’s fertilizer use by increasing \nfarm size. Glob. Environ. Change 41, 26–32.",
+          "bbox": [
+            37.58734130859375,
+            263.5373840332031,
+            288.57403564453125,
+            744.2241821289062
+          ]
+        },
+        {
+          "id": "p13-b10-a63d2e1",
+          "kind": "paragraph",
+          "text": "Koirala, P., Kotani, K., Managi, S., 2022. How do farm size and perceptions matter for \nfarmers’ adaptation responses to climate change in a developing country? Evidence \nfrom Nepal. Econ. Anal. Policy 74, 188–204. \nKumar, K.K., Moharaj, P., 2023. Farm size nad productivity relationship among the \nfarming communities in India. Outlook Agric. 52, 212–227. \nLechenet, M., Bretagnolle, V., Bockstaller, C., Boissinot, F., Petit, M.S., Munier-Jolain, N. \nM., 2014. Reconciling pesticide reduction with economic and environmental \nsustainability in arable farming. PloS One 9, e97922. \nLiebert, J., Benner, R., Bezner Kerr, R., Bjorkman, T., De Master, K.T., Gennet, S., \nGomez, M.I., Hart, A.K., Kremen, C., Power, A.G., Ryan, M.R., 2022. Farm size \naffects the use of agroecological practices on organic farms in the United States. Nat. \nPlants 8, 897–905. \nMeng, F., Wang, M., Strokal, M., Kroeze, C., Ma, L., Li, Y., Zhang, Q., Wei, Z., Hou, Y., \nLiu, X., Xu, W., Zhang, F., 2021. Nitrogen losses from food production in the North \nChina plain: a case study for Quzhou. Sci. Total Environ. 816, 151557. \nMeyfroidt, P., 2017. Mapping Farm size globally: benchmarking the smallholders debate. \nEnviron. Res. Lett. 12, 10–13. \nMinistry of Agriculture and Rural Affiairs of the People’s Republic of China, 2022. The \nPlan of National Crop Production Development for the 14th Five-Year (in Chinese).  \nMu, H., Zhang, J., Yang, X., Wang, K., Xu, W., Zhang, H., Liu, X., Risema, C., Geissen, V., \n2022. Pesticide screening and health risk assessment of residential dust in a rural \nregion of the North China plain. Chemosphere 303, 135115. \nNational Bureau of Statistics of China (NBSC), 2013. China Statistics Yearbook. Chinese \nStatistics Press, Beijing (in Chinese).  \nNational Bureau of Statistics of China (NBSC), 2017. China Statistics Yearbook. Chinese \nStatistics Press, Beijing (in Chinese).  \nNational Bureau of Statistics of China (NBSC), 2020. China Statistics Yearbook. Chinese \nStatistics Press, Beijing (in Chinese).  \nNiu, Y., Xie, G., Xiao, Y., Liu, J., Wang, Y., Luo, Q., Zou, H., Gan, S., Qin, K., Huang, M., \n2021. Spatiotemporal patterns and determinants of grain self-sufficiency in China. \nFoods 10, 747. \nOtsuka, K., Liu, Y., Yamauchi, F., 2016a. The future of small farms in Asia. Dev. Policy \nRev. 34, 441–461. \nOtsuka, K., Liu, Y., Yamauchi, F., 2016b. Growing advantage of large farms in Asia and \nits implications for global food security. Glob. Food Sec. 11, 5–10. \nQiu, T., Boris Choy, S.T., Li, S., He, Q., Luo, B., 2020. Does land renting-in reduce grain \nproduction? Evidence from rural China. Land Use Policy 90, 104311. \nR Core Team, 2021. R: A Language and Environment for Statistical Computing. R \nFoundation for Statistical Computing, Vienna, Austria.  \nRada, N., Fuglie, K., 2019. New perspectives on farm size and productivity. Food Policy \n84, 147–152. \nRada, N., Wang, C., Qin, L., 2015. Subsidy or market reform? Rethinking China’s farm \nconsolidation strategy. Food Policy 57, 93–103. \nRen, C., Liu, S., van Grinsven, H., Reis, S., Jin, S., Liu, H., Gu, B., 2019. The impact of \nfarm size on agricultural sustainability. J. Clean. Prod. 220, 357–367. \nRen, C., Jin, S., Wu, Y., Zhang, B., Kanter, D., Wu, B., Xi, X., Zhang, X., Chen, D., Xu, J., \nGu, B., 2021. Fertilizer overuse in Chinese smallholders due to lack of fixed inputs. \nJ. Environ. Manage. 293, 112913. \nRen, C., Zhou, X., Wang, C., Guo, Y., Diao, Y., Shen, S., Reis, S., Li, W., Xu, J., Gu, B., \n2023. Aging threatens sustainability of smallholder farming in China. Nature 616, \n96–103. \nRicciardi, V., Mehrabi, Z., Wittman, H., James, D., Ramankutty, N., 2021. Higher yields \nand more biodiversity on smaller farms. Nat. Sustain. 4, 651–657. \nRStudio Team, 2021. RStudio: Integrated Development Environment for R. RStudio, PBC, \nBoston.  \nSamberg, L.H., Gerber, J.S., Ramankutty, N., Herrero, M., West, P.C., 2016. Subnational \ndistribution of average farm size and smallholder contributions to global food \nproduction. Environ. Res. Lett. 11, 124010. \nShen, M., Shen, J., 2018. Evaluating the cooperative and family farm programs in China: \na rural governance perspective. Land Use Policy 79, 240–250. \nSheng, Y., Zhao, S., Nossal, K., Zhang, D., 2014. Productivity and farm size in Australian \nagriculture: reinvestigating the returns to scale. Aust. J. Agric. Resour. Econ. 59, \n16–38. \nSong, X., Wang, X., Li, X., Zhang, W., Scheffran, J., 2021. Policy-oriented versus market- \ninduced: factors influencing crop diversity across China. Ecol. Econ. 190, 107184. \nvan den Berg, M.M., Hengsdijk, H., Wolf, J., van Ittersum, M.K., Guanghuo, W., \nRoetter, P.R., 2007. The impact of increasing farm size and mechanization on rural \nincome and rice production in Zhejiang province. China. Agric. Syst. 94, 841–850. \nvan Oort, P.A.J., Wang, G., Vos, J., Meinke, H., Li, B., Huang, J., van der Werf, W., 2016. \nTowards groundwater neutral cropping systems in the alluvial fans of the North \nChina plain. Agri. Water Manag. 165, 131–140. \nWang, X., Chen, P., Sui, P., Yan, X., Gao, W., 2017a. Preliminary analysis on economic \nand environmental consequences of grain production on different farm sizes in North \nChina plain. Agric. Syst. 153, 181–189. \nWang, X., Li, Z., Long, P., Yan, L., Gao, W., Chen, Y., Sui, P., 2017b. Sustainability \nevaluation of recycling in agricultural systems by emergy accounting. Resour. \nConserv. Recycl. 117, 114–124. \nWoodhouse, P., 2010. Beyond industrial agriculture? Some questions about farm size, \nproductivity and sustainability. J. Agrar. Change 10, 437–453. \nXu, D., Deng, X., Guo, S., Liu, F., 2019. Labour migration and farmland abandonment in \nrural China: empirical results and policy implimications. J. Environ. Manage. 232, \n738–750. \nXu, Z., Li, F., Cheng, J., Liang, Z., Groot, C.J., van der Werf, W., 2024. Survey data on \nlivelihoods and inputs and outputs of crop prodcution activitives in Quzhou county \non the North China Plain (Manuscript in preparation).",
+          "bbox": [
+            306.59197998046875,
+            52.132999420166016,
+            559.4152221679688,
+            732.0359497070312
+          ]
+        },
+        {
+          "id": "p13-b11-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587059020996094,
+            33.65178298950195,
+            499.7898864746094,
+            44.076377868652344
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-8457091",
+          "kind": "paragraph",
+          "text": "Agricultural Systems 216 (2024) 103896",
+          "bbox": [
+            446.87799072265625,
+            33.65479278564453,
+            558.279296875,
+            44.079551696777344
+          ]
+        },
+        {
+          "id": "p14-b1-8527a89",
+          "kind": "paragraph",
+          "text": "14",
+          "bbox": [
+            294.41796875,
+            754.454833984375,
+            301.5973815917969,
+            764.8795776367188
+          ]
+        },
+        {
+          "id": "p14-b2-6862e9b",
+          "kind": "paragraph",
+          "text": "Yamauchi, F., 2016. Rising real wages, mechanization and growing advantage of large \nfarms: evidence from Indonesia. Food Policy 58, 62–69. \nYang, R., Luo, X., Xu, Q., Zhang, X., Wu, J., 2021. Measuring the impact of the multiple \ncropping index of cultivated land during continuous and rapid rise of urbanization in \nChina: a study from 2000 to 2015. Land 10, 491. \nYang, X., Xue, X., Zhang, Y., Ren, S., Zhang, C., 2021a. Planting structure changes and \nthe driving factors in North China plain from 1971 to 2015 - taking Quzhou county \nas an example. Chin. J. Agri. Res. Regional Planning 42, 90–98 (in Chinese).  \nYang, X., Steenhuis, T.S., Davis, K.F., van der Werf, W., Ritsema, C.J., Pacenka, S., \nZhang, F.S., Siddique, K.H.M., Du, T.S., 2021b. Diversified crop rotations enhance \ngroundwater and economic sustainability of food production. Food Energy Secur. 10, \ne311. \nYu, Y., Hu, Y., Gu, B., Reis, S., Yang, L., 2021. Reforming smallholder farms to mitigate \nagricultural pollution. Environ. Sci. Pollut. Res. Int. 29, 13869–13880.",
+          "bbox": [
+            37.587398529052734,
+            52.12942886352539,
+            288.5721740722656,
+            166.18727111816406
+          ]
+        },
+        {
+          "id": "p14-b3-c44c364",
+          "kind": "paragraph",
+          "text": "Zhang, L., Dong, Y., Liu, C., Bai, Y., 2018. Off-farm employment over the past four \ndecades in rural China. China Agric. Econ. Rev. 10, 190–214. \nZhang, C., Ju, X., Powlson, D., Oenema, O., Smith, P., 2019. Nitrogen surplus \nbenchmarks for controlling N pollution in the main cropping systems of China. \nEnviron. Sci. Technol. 53, 6678–6687. \nZhang, W., Qian, C., Carlson, K.M., Ge, X., Wang, X., Chen, X., 2021. Increasing farm size \nto improve energy use efficiency and sustainability in maize production. Food \nEnergy Secur. 10, E271. \nZhao, X., Zheng, Y., Huang, X., Kwan, M.P., Zhao, Y., 2017. The effect of urbanization \nand farmland transfer on the spatial patterns of non-grain farmland in China. \nSustainability 9, 1438. \nZou, J., Yang, Y., Shi, S., Li, W., Zhao, X., Huang, J., Zhang, H., Liu, K., Harrison, M.T., \nChen, F., Yin, X., 2022. Farm-scale practical strategies to reduce carbon footprint and \nenergy while increasing economic benefits in crop production in the North China \nplain. J. Clea. Prod. 283, 108526.",
+          "bbox": [
+            306.5924377441406,
+            52.12942886352539,
+            557.5344848632812,
+            174.12399291992188
+          ]
+        },
+        {
+          "id": "p14-b4-2ea26c7",
+          "kind": "paragraph",
+          "text": "Z. Xu et al.",
+          "bbox": [
+            37.587398529052734,
+            33.648250579833984,
+            499.79022216796875,
+            44.072845458984375
+          ]
+        }
+      ],
+      "snapshot": "library/xu-2024/5c1568888f1c/page-14.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 14,
+    "pageSnapshots": 14,
+    "allTextBlocksRetained": true,
+    "textCharacters": 67870,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 15,
+    "sourceSHA256": "5c1568888f1c72eb2e61e30e8a4b1f9c2582c4f11c4ccae064b34a1bb333be4e",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}
