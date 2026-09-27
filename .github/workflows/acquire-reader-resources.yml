@@ -4,6 +4,7 @@ on:
     branches: [reader-offline-v2]
     paths:
       - scripts/acquire_sources.py
+      - scripts/refine_sources.py
       - .github/workflows/acquire-reader-resources.yml
   workflow_dispatch:
 permissions:
@@ -28,7 +29,7 @@ jobs:
       - name: Install acquisition tools
         run: pip install PyMuPDF==1.26.4 requests==2.32.5
       - name: Acquire only sources with confirmed redistribution permission
-        run: python scripts/acquire_sources.py
+        run: python scripts/refine_sources.py
       - name: Vendor PDF.js parser without viewer, CDN or font files
         run: |
           mkdir -p /tmp/pdf-dep vendor/pdfjs
