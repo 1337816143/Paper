@@ -62,3 +62,31 @@ jobs:
       - name: Publish tested site
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify public release and reading entry
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          verified=false
+          for attempt in $(seq 1 12); do
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['paperEntries']>=21; print(d)"; then
+              verified=true
+              break
+            fi
+            sleep 5
+          done
+          test "$verified" = true
+          curl --fail --silent --show-error "${PAGE_URL%/}/" -o live-home.html
+          grep -q 'Paper Lab' live-home.html
+          curl --fail --silent --show-error "${PAGE_URL%/}/read/liang-2022.html" -o live-first-reading.html
+          grep -q 'MIDIP' live-first-reading.html
+      - name: Save live verification evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-live-verification
+          path: |
+            live-release.json
+            live-home.html
+            live-first-reading.html
+          retention-days: 30
