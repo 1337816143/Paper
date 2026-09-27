@@ -1,0 +1,64 @@
+name: Test and publish Paper Lab
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: paper-pages-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build and check teaching algorithms
+        run: |
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          node --check src/app.js
+          python examples/pareto_lab.py --test
+          python examples/sequence_lab.py
+      - name: Install browser test runtime
+        run: |
+          pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Test desktop, mobile, navigation, data and offline
+        run: python scripts/test_browser.py
+      - name: Save build and test artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-site-and-tests
+          path: |
+            dist/site
+            test-results
+          retention-days: 30
+      - name: Upload GitHub Pages artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/site
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Read Pages configuration
+        uses: actions/configure-pages@v5
+      - name: Publish tested site
+        id: deployment
+        uses: actions/deploy-pages@v4

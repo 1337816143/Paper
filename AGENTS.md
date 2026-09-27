@@ -1,0 +1,22 @@
+# Paper Lab maintenance contract
+
+## Sources and privacy
+Paper is the upstream for public academic reading content. Preserve all verified learning content; do not overwrite with summaries. Never publish private chats, recordings, contact details, offer letters, signatures, application documents, credentials or unauthorized PDFs. User-uploaded copyrighted sources may support original explanatory notes, not wholesale redistribution.
+
+Every claim must distinguish article evidence, teaching explanation, synthetic exercise, inference and research-transfer proposal. Preserve original terminology; document errors/contradictions rather than silently reconciling them. Do not label abstract-only reading as full-text close reading. Cite primary sources and exact Methods/figure/section locations when available. Article license does not imply software license.
+
+## After each relevant tutoring conversation
+1. Read current content and this contract. Update the relevant paper/method lesson, quiz and cross-links with the new explanation; do not dump raw chat.
+2. Store private notes only outside public repositories or keep them on the user's device.
+3. Add a dated learning change entry in content/session-log.json (schema: array of ordinary guide documents) when substantive content changes.
+4. Run python scripts/build.py and python examples/pareto_lab.py --test, then browser checks. Commit only intended source files. Never force push or delete unrelated work.
+5. Wait for the Paper build/deploy workflow. Report exact status; a commit alone is not a deployed website.
+6. My-Evolution is the sole editable upstream of Evolution. Synchronize through its pinned Paper source and standard tests/publish workflow. Never edit Evolution directly.
+
+ChatGPT has no general after-conversation webhook exposed here. The agent must perform a real commit; GitHub Actions deploys submitted content, not unsubmitted conversations. Do not claim autonomous access to future chat. A scheduled checker may repair or report missed repository synchronization, but must not invent lessons or infer user progress.
+
+## Architecture
+content/*.json -> scripts/build.py -> dist/site. All browser assets are local. Static pages support full-site indexing. Service-worker caches are scoped per path and content version. Offline single HTML embeds lessons/scripts; website ZIP includes examples. No browser tokens, analytics, CDN or write APIs. Reading progress and notes are local, exportable, and must survive application updates.
+
+## Validation
+Check internal links, metadata evidence states, mathematical examples, accessibility, mobile overflow, exact back-position restoration, offline refresh and notes export/import. On failure fix the source rather than weakening tests.

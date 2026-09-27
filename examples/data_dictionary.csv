@@ -1,0 +1,8 @@
+variable,entity,unit,time_boundary,source_type,direction,missing_policy,notes
+farm_id,farm,identifier,not_applicable,assigned,not_applicable,not_allowed,Stable pseudonymous key
+plot_area,plot,ha,survey_date,measured,not_applicable,flag_missing,Do not mix ha and mu
+activity_id,plot_activity,identifier,season,assigned,not_applicable,not_allowed,Unique joint plot-season-activity identifier
+nitrogen_input,plot_activity,kg_N_per_ha,season,reported_or_measured,context_dependent,do_not_replace_with_zero,Separate source and uncertainty
+water_input,plot_activity,m3_per_ha,season,reported_or_measured,context_dependent,do_not_replace_with_zero,Not automatically groundwater depletion
+labour_use,plot_activity,h_per_ha,season,reported,context_dependent,flag_missing,Distinguish family hired and machinery services
+net_revenue,farm,currency_per_year,year,calculated,maximize,flag_missing,Specify rent family labour and subsidies boundary
