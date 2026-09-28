@@ -12,14 +12,14 @@
           "p4-b11-3589661"
         ],
         "bbox": [
-          32.59014892578125,
-          509.12213134765625,
-          298.3431396484375,
-          542.6670532226562
+          34.59014892578125,
+          511.12213134765625,
+          296.3431396484375,
+          540.6670532226562
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-e5e537cbf9e1.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "GMtotal = ∑ i Yi × PRi −VCi (1)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-404280d83121.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "GMtotal =\n∑\ni\nYi × PRi −VCi\n(1)"
       },
       {
         "id": "liang-2022-b0894af981c3",
@@ -31,14 +31,14 @@
           "p4-b17-72a1d64"
         ],
         "bbox": [
-          32.59046936035156,
-          711.0623779296875,
-          298.3431396484375,
-          744.607177734375
+          34.59046936035156,
+          713.0623779296875,
+          296.3431396484375,
+          742.607177734375
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-b0894af981c3.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "DEYtotal = ∑ i Yi × Ei (2)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-816d646b1e2c.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "DEYtotal =\n∑\ni\nYi × Ei\n(2)"
       },
       {
         "id": "liang-2022-edca96a26d4c",
@@ -52,14 +52,14 @@
           "p4-b24-dd0eec8"
         ],
         "bbox": [
-          301.5981140136719,
-          137.2158966064453,
-          567.3511962890625,
-          170.76112365722656
+          303.5981140136719,
+          139.2158966064453,
+          565.3511962890625,
+          168.76112365722656
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-edca96a26d4c.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "LUtotal = ∑ i ∑ j Lj,i × Nj,i (3)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-2f4620617411.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "LUtotal =\n∑\ni\n∑\nj\nLj,i × Nj,i\n(3)"
       },
       {
         "id": "liang-2022-e4f48c575ce0",
@@ -71,14 +71,14 @@
           "p4-b30-76fda88"
         ],
         "bbox": [
-          301.5955810546875,
-          350.66400146484375,
-          567.3494262695312,
-          384.2101135253906
+          303.5955810546875,
+          352.66400146484375,
+          565.3494262695312,
+          382.2101135253906
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-e4f48c575ce0.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "GWD = ∑ i IRi −D (4)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-fd6003f48e0b.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "GWD =\n∑\ni\nIRi −D\n(4)"
       },
       {
         "id": "liang-2022-ef403a3780d1",
@@ -94,14 +94,14 @@
           "p4-b38-97ce612"
         ],
         "bbox": [
-          301.5975036621094,
-          457.7579345703125,
-          567.3485107421875,
-          497.3131103515625
+          303.5975036621094,
+          459.7579345703125,
+          565.3485107421875,
+          495.3131103515625
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-ef403a3780d1.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "D = α × ( P + ∑ i IRi ) (5)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-93df174c00e8.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "D = α ×\n(\nP +\n∑\ni\nIRi\n)\n(5)"
       },
       {
         "id": "liang-2022-0a4fc02ffbab",
@@ -114,14 +114,14 @@
           "p4-b44-4826d47"
         ],
         "bbox": [
-          301.59539794921875,
-          593.1981811523438,
-          567.3493041992188,
-          626.7421264648438
+          303.59539794921875,
+          595.1981811523438,
+          565.3493041992188,
+          624.7421264648438
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-0a4fc02ffbab.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "NLtotal = ∑ i ( NLNH3,i + NLNO3,i + NLN2O,i ) (6)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-428153f2f558.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "NLtotal =\n∑\ni\n(\nNLNH3,i + NLNO3,i + NLN2O,i\n)\n(6)"
       },
       {
         "id": "liang-2022-bdb5d6d25805",
@@ -131,14 +131,14 @@
           "p5-b3-84652dd"
         ],
         "bbox": [
-          32.59014892578125,
-          124.87571716308594,
-          298.3431396484375,
-          147.90682983398438
+          34.59014892578125,
+          126.87571716308594,
+          296.3431396484375,
+          145.90682983398438
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-bdb5d6d25805.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "GHGnet = GHGemi −QSOC (7)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-d65999c7c188.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "GHGnet = GHGemi −QSOC\n(7)"
       },
       {
         "id": "liang-2022-e0bc0e6b5ce7",
@@ -148,40 +148,57 @@
           "p5-b6-c31afa1"
         ],
         "bbox": [
-          32.589385986328125,
-          307.65374755859375,
-          298.3431396484375,
-          330.6848449707031
+          34.589385986328125,
+          309.65374755859375,
+          296.3431396484375,
+          328.6848449707031
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-e0bc0e6b5ce7.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "PUtotal = IUtotal + HUtotal + FUtotal (8)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-3ed21ae5d0cd.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "PUtotal = IUtotal + HUtotal + FUtotal\n(8)"
+      },
+      {
+        "id": "liang-2022-separate-equation-9",
+        "page": 5,
+        "number": "9",
+        "blocks": [
+          "p5-b12-b73a8c6",
+          "p5-b13-d782dcd",
+          "p5-b14-9b19467",
+          "p5-b15-855c2a4",
+          "p5-b16-7a7170f"
+        ],
+        "bbox": [
+          303.5926513671875,
+          584.992919921875,
+          565.3485717773438,
+          620.8864135742188
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-aebe1ab38d3c.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "MIDIPc =\n̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\n∑\nn\nk=1\ndk,c\n2\n√\n(9)",
+        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>MIDIP</mi><mrow><mi>c</mi></mrow></msub><mo>=</mo><msqrt><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mn>2</mn></msup></mrow></msqrt></mrow></math>"
       },
       {
         "id": "liang-2022-49821bf5da5e",
         "page": 5,
         "number": "10",
         "blocks": [
-          "p5-b12-b73a8c6",
-          "p5-b13-d782dcd",
-          "p5-b14-9b19467",
-          "p5-b15-855c2a4",
-          "p5-b16-7a7170f",
           "p5-b17-60f1c21",
           "p5-b18-4092c3d",
           "p5-b19-3d60d48",
           "p5-b20-a6046ce"
         ],
         "bbox": [
-          301.5926513671875,
-          582.992919921875,
-          567.3572998046875,
-          654.068115234375
+          303.5952453613281,
+          620.1988525390625,
+          565.3572998046875,
+          652.068115234375
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-49821bf5da5e.png",
-        "method": "source-linked MathML transcription; original crop retained",
-        "rawEvidence": "MIDIPc = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n k=1 dk,c 2 √ (9) dk,c = ⃒⃒⃒⃒ pk,c −qk mdk ⃒⃒⃒⃒ (10)",
-        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>=</mo><mo>|</mo><mfrac><mrow><msub><mi>p</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mi>q</mi><mi>k</mi></msub></mrow><msub><mi>md</mi><mi>k</mi></msub></mfrac><mo>|</mo></math>"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-f60c5b441786.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "dk,c =\n⃒⃒⃒⃒\npk,c −qk\nmdk\n⃒⃒⃒⃒\n(10)",
+        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>=</mo><mrow><mo>|</mo><mfrac><mrow><msub><mi>p</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mi>q</mi><mrow><mi>k</mi></mrow></msub></mrow><msub><mi>md</mi><mrow><mi>k</mi></mrow></msub></mfrac><mo>|</mo></mrow></mrow></math>"
       },
       {
         "id": "liang-2022-585dfc7d97f5",
@@ -191,15 +208,15 @@
           "p5-b21-f6a9eac"
         ],
         "bbox": [
-          301.59600830078125,
-          651.77978515625,
-          567.359375,
-          674.8109130859375
+          303.59600830078125,
+          653.77978515625,
+          565.359375,
+          672.8109130859375
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-585dfc7d97f5.png",
-        "method": "source-linked MathML transcription; original crop retained",
-        "rawEvidence": "mdk = maximumk −minimumk (11)",
-        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>md</mi><mi>k</mi></msub><mo>=</mo><msub><mi>maximum</mi><mi>k</mi></msub><mo>−</mo><msub><mi>minimum</mi><mi>k</mi></msub></math>"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-912ebab65332.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "mdk = maximumk −minimumk\n(11)",
+        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>md</mi><mrow><mi>k</mi></mrow></msub><mo>=</mo><msub><mi>maximum</mi><mrow><mi>k</mi></mrow></msub><mo>−</mo><msub><mi>minimum</mi><mrow><mi>k</mi></mrow></msub></mrow></math>"
       },
       {
         "id": "liang-2022-b9efd2ac21d2",
@@ -215,15 +232,15 @@
           "p6-b9-23012b8"
         ],
         "bbox": [
-          32.587398529052734,
-          80.69348907470703,
-          298.349365234375,
-          123.81946563720703
+          34.587398529052734,
+          82.69348907470703,
+          296.349365234375,
+          121.81946563720703
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-b9efd2ac21d2.png",
-        "method": "source-linked MathML transcription; original crop retained",
-        "rawEvidence": "HDIPc = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n k=1 ( dk,c −dc )2 n −1 √ √ √ √ (12)",
-        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>HDIP</mi><mi>c</mi></msub><mo>=</mo><msqrt><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mrow><mo>(</mo><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mover><mi>d</mi><mo>¯</mo></mover><mi>c</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac></msqrt></math>"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-b6521515d4bc.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "HDIPc =\n̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\n∑\nn\nk=1\n(\ndk,c −dc\n)2\nn −1\n√\n√\n√\n√\n(12)",
+        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>HDIP</mi><mrow><mi>c</mi></mrow></msub><mo>=</mo><msqrt><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mrow><mo>(</mo><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mover><mi>d</mi><mo>¯</mo></mover><mi>c</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac></msqrt></mrow></math>"
       },
       {
         "id": "liang-2022-55bda7df841c",
@@ -233,23 +250,71 @@
           "p6-b13-66a3b9c"
         ],
         "bbox": [
-          32.589874267578125,
-          266.040771484375,
-          298.3513488769531,
-          289.0718688964844
+          34.589874267578125,
+          268.040771484375,
+          296.3513488769531,
+          287.0718688964844
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-55bda7df841c.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "SGk = MPexem,k −MPother,k (13)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-bf430bc5f0c3.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "SGk = MPexem,k −MPother,k\n(13)"
+      },
+      {
+        "id": "liang-2022-separate-equation-14",
+        "page": 6,
+        "number": "14",
+        "blocks": [
+          "p6-b15-c4fce6e"
+        ],
+        "bbox": [
+          34.588706970214844,
+          376.77874755859375,
+          296.3513488769531,
+          395.8098449707031
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-631c06827eb4.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "ELP = GMtotal/LUtotal\n(14)"
+      },
+      {
+        "id": "liang-2022-separate-equation-15",
+        "page": 6,
+        "number": "15",
+        "blocks": [
+          "p6-b16-6c94304"
+        ],
+        "bbox": [
+          34.5892333984375,
+          396.4507751464844,
+          296.3513488769531,
+          415.48187255859375
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-b96004554cf1.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "NF = NLtotal/DEYtotal\n(15)"
+      },
+      {
+        "id": "liang-2022-separate-equation-16",
+        "page": 6,
+        "number": "16",
+        "blocks": [
+          "p6-b17-917efa8"
+        ],
+        "bbox": [
+          34.5892333984375,
+          416.1227722167969,
+          296.3513488769531,
+          435.15386962890625
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-ca89ed7572be.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "CF = GHGnet/DEYtotal\n(16)"
       },
       {
         "id": "liang-2022-d7ee6e2c88a8",
         "page": 6,
         "number": "17",
         "blocks": [
-          "p6-b15-c4fce6e",
-          "p6-b16-6c94304",
-          "p6-b17-917efa8",
           "p6-b18-d055c42",
           "p6-b19-de7d1b7",
           "p6-b20-5904d87",
@@ -257,14 +322,14 @@
           "p6-b22-6de649b"
         ],
         "bbox": [
-          32.588706970214844,
-          374.77874755859375,
-          298.3513488769531,
-          470.7801208496094
+          34.5892333984375,
+          433.2259216308594,
+          294.0160827636719,
+          468.7801208496094
         ],
-        "path": "library/liang-2022/bfbde3ef50d6/math-v3-d7ee6e2c88a8.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "ELP = GMtotal/LUtotal (14) NF = NLtotal/DEYtotal (15) CF = GHGnet/DEYtotal (16) BWF = ∑ i IRi / DEYtotal (17)"
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-0927238b6da2.png",
+        "method": "independently source-checked equation region; source text and original block IDs preserved",
+        "rawEvidence": "BWF =\n∑\ni\nIRi\n/\nDEYtotal\n(17)"
       },
       {
         "id": "liang-2022-86c3737ddae0",
