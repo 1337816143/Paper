@@ -37,7 +37,7 @@ def main():
     byid={d['id']:d for d in documents}
     if len(byid)!=len(documents):raise ValueError('Duplicate content ID')
     d=byid['liang-2022'];d['sections'][2][3]='§2.5.1–2.5.2；§3.1–3.2';d['sections'][3][3]='§2.5.2，公式9–12；零范围处理为实现补充'
-    aliases={'home','library','methods','notes','offline','search','lab'}|set(byid)
+    aliases={'home','library','methods','notes','offline','search','lab','discover','my-library','workbook','glossary'}|set(byid)
     for d in documents:
         if not re.fullmatch('[a-z0-9-]+',d['id']) or not d.get('sections'):raise ValueError('Invalid document')
         refs=re.findall(r'\[\[([a-z0-9-]+)\|',json.dumps(d,ensure_ascii=False))+(d.get('related') or [])+(d.get('sources') or [])

@@ -30,7 +30,7 @@ def main():
  patch('src/reader.js','<div class="actions"><button class="primary" id="import-original">','<div class="actions"><a href="#/discover">通过DOI／题名检索与导入</a><a href="#/my-library">我的文献库</a><button class="primary" id="import-original">')
  # Rebuild alias matcher without changing any original characters or annotation offsets.
  p=ROOT/'src/study.js';s=p.read_text()
- start=s.index('const aliases=[];');end=s.index('function decorate(root)',start)
+ start=s.index('const aliases=[];') if 'const aliases=[];' in s else s.index('let termRE=');end=s.index('function decorate(root)',start)
  replacement=r'''let termRE=null;const aliases=[],byAlias=new Map();
 const escRE=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const canonical=s=>s.normalize('NFKC').toLowerCase().replace(/[\s\u00ad\-‐‑‒–—]/g,'');
