@@ -1,0 +1,7417 @@
+{
+  "liang-2022": {
+    "sourceHash": "bfbde3ef50d61598c5aa73a5ff6d02141f1d7473ae446b0f73f88e6bbef0ef47",
+    "groups": [
+      {
+        "id": "liang-2022-e5e537cbf9e1",
+        "page": 4,
+        "number": "1",
+        "blocks": [
+          "p4-b9-d5a020b",
+          "p4-b10-de7d1b7",
+          "p4-b11-3589661"
+        ],
+        "bbox": [
+          32.59014892578125,
+          509.12213134765625,
+          298.3431396484375,
+          542.6670532226562
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-e5e537cbf9e1.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "GMtotal = ∑ i Yi × PRi −VCi (1)"
+      },
+      {
+        "id": "liang-2022-b0894af981c3",
+        "page": 4,
+        "number": "2",
+        "blocks": [
+          "p4-b15-374962b",
+          "p4-b16-de7d1b7",
+          "p4-b17-72a1d64"
+        ],
+        "bbox": [
+          32.59046936035156,
+          711.0623779296875,
+          298.3431396484375,
+          744.607177734375
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-b0894af981c3.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "DEYtotal = ∑ i Yi × Ei (2)"
+      },
+      {
+        "id": "liang-2022-edca96a26d4c",
+        "page": 4,
+        "number": "3",
+        "blocks": [
+          "p4-b20-70e0261",
+          "p4-b21-de7d1b7",
+          "p4-b22-be27c71",
+          "p4-b23-189f400",
+          "p4-b24-dd0eec8"
+        ],
+        "bbox": [
+          301.5981140136719,
+          137.2158966064453,
+          567.3511962890625,
+          170.76112365722656
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-edca96a26d4c.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "LUtotal = ∑ i ∑ j Lj,i × Nj,i (3)"
+      },
+      {
+        "id": "liang-2022-e4f48c575ce0",
+        "page": 4,
+        "number": "4",
+        "blocks": [
+          "p4-b28-c96490b",
+          "p4-b29-de7d1b7",
+          "p4-b30-76fda88"
+        ],
+        "bbox": [
+          301.5955810546875,
+          350.66400146484375,
+          567.3494262695312,
+          384.2101135253906
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-e4f48c575ce0.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "GWD = ∑ i IRi −D (4)"
+      },
+      {
+        "id": "liang-2022-ef403a3780d1",
+        "page": 4,
+        "number": "5",
+        "blocks": [
+          "p4-b32-5af3f24",
+          "p4-b33-32ebb1a",
+          "p4-b34-16fd171",
+          "p4-b35-de7d1b7",
+          "p4-b36-5904d87",
+          "p4-b37-ba5ec51",
+          "p4-b38-97ce612"
+        ],
+        "bbox": [
+          301.5975036621094,
+          457.7579345703125,
+          567.3485107421875,
+          497.3131103515625
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-ef403a3780d1.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "D = α × ( P + ∑ i IRi ) (5)"
+      },
+      {
+        "id": "liang-2022-0a4fc02ffbab",
+        "page": 4,
+        "number": "6",
+        "blocks": [
+          "p4-b41-19cf79b",
+          "p4-b42-de7d1b7",
+          "p4-b43-f636d15",
+          "p4-b44-4826d47"
+        ],
+        "bbox": [
+          301.59539794921875,
+          593.1981811523438,
+          567.3493041992188,
+          626.7421264648438
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-0a4fc02ffbab.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "NLtotal = ∑ i ( NLNH3,i + NLNO3,i + NLN2O,i ) (6)"
+      },
+      {
+        "id": "liang-2022-bdb5d6d25805",
+        "page": 5,
+        "number": "7",
+        "blocks": [
+          "p5-b3-84652dd"
+        ],
+        "bbox": [
+          32.59014892578125,
+          124.87571716308594,
+          298.3431396484375,
+          147.90682983398438
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-bdb5d6d25805.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "GHGnet = GHGemi −QSOC (7)"
+      },
+      {
+        "id": "liang-2022-e0bc0e6b5ce7",
+        "page": 5,
+        "number": "8",
+        "blocks": [
+          "p5-b6-c31afa1"
+        ],
+        "bbox": [
+          32.589385986328125,
+          307.65374755859375,
+          298.3431396484375,
+          330.6848449707031
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-e0bc0e6b5ce7.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "PUtotal = IUtotal + HUtotal + FUtotal (8)"
+      },
+      {
+        "id": "liang-2022-49821bf5da5e",
+        "page": 5,
+        "number": "10",
+        "blocks": [
+          "p5-b12-b73a8c6",
+          "p5-b13-d782dcd",
+          "p5-b14-9b19467",
+          "p5-b15-855c2a4",
+          "p5-b16-7a7170f",
+          "p5-b17-60f1c21",
+          "p5-b18-4092c3d",
+          "p5-b19-3d60d48",
+          "p5-b20-a6046ce"
+        ],
+        "bbox": [
+          301.5926513671875,
+          582.992919921875,
+          567.3572998046875,
+          654.068115234375
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-49821bf5da5e.png",
+        "method": "source-linked MathML transcription; original crop retained",
+        "rawEvidence": "MIDIPc = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n k=1 dk,c 2 √ (9) dk,c = ⃒⃒⃒⃒ pk,c −qk mdk ⃒⃒⃒⃒ (10)",
+        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>=</mo><mo>|</mo><mfrac><mrow><msub><mi>p</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mi>q</mi><mi>k</mi></msub></mrow><msub><mi>md</mi><mi>k</mi></msub></mfrac><mo>|</mo></math>"
+      },
+      {
+        "id": "liang-2022-585dfc7d97f5",
+        "page": 5,
+        "number": "11",
+        "blocks": [
+          "p5-b21-f6a9eac"
+        ],
+        "bbox": [
+          301.59600830078125,
+          651.77978515625,
+          567.359375,
+          674.8109130859375
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-585dfc7d97f5.png",
+        "method": "source-linked MathML transcription; original crop retained",
+        "rawEvidence": "mdk = maximumk −minimumk (11)",
+        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>md</mi><mi>k</mi></msub><mo>=</mo><msub><mi>maximum</mi><mi>k</mi></msub><mo>−</mo><msub><mi>minimum</mi><mi>k</mi></msub></math>"
+      },
+      {
+        "id": "liang-2022-b9efd2ac21d2",
+        "page": 6,
+        "number": "12",
+        "blocks": [
+          "p6-b3-e4fdddc",
+          "p6-b4-e05812e",
+          "p6-b5-9b19467",
+          "p6-b6-0bf8671",
+          "p6-b7-eb88c8b",
+          "p6-b8-2d73ad0",
+          "p6-b9-23012b8"
+        ],
+        "bbox": [
+          32.587398529052734,
+          80.69348907470703,
+          298.349365234375,
+          123.81946563720703
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-b9efd2ac21d2.png",
+        "method": "source-linked MathML transcription; original crop retained",
+        "rawEvidence": "HDIPc = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n k=1 ( dk,c −dc )2 n −1 √ √ √ √ (12)",
+        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>HDIP</mi><mi>c</mi></msub><mo>=</mo><msqrt><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mrow><mo>(</mo><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mover><mi>d</mi><mo>¯</mo></mover><mi>c</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac></msqrt></math>"
+      },
+      {
+        "id": "liang-2022-55bda7df841c",
+        "page": 6,
+        "number": "13",
+        "blocks": [
+          "p6-b13-66a3b9c"
+        ],
+        "bbox": [
+          32.589874267578125,
+          266.040771484375,
+          298.3513488769531,
+          289.0718688964844
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-55bda7df841c.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "SGk = MPexem,k −MPother,k (13)"
+      },
+      {
+        "id": "liang-2022-d7ee6e2c88a8",
+        "page": 6,
+        "number": "17",
+        "blocks": [
+          "p6-b15-c4fce6e",
+          "p6-b16-6c94304",
+          "p6-b17-917efa8",
+          "p6-b18-d055c42",
+          "p6-b19-de7d1b7",
+          "p6-b20-5904d87",
+          "p6-b21-8a5edab",
+          "p6-b22-6de649b"
+        ],
+        "bbox": [
+          32.588706970214844,
+          374.77874755859375,
+          298.3513488769531,
+          470.7801208496094
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-d7ee6e2c88a8.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "ELP = GMtotal/LUtotal (14) NF = NLtotal/DEYtotal (15) CF = GHGnet/DEYtotal (16) BWF = ∑ i IRi / DEYtotal (17)"
+      },
+      {
+        "id": "liang-2022-86c3737ddae0",
+        "page": 7,
+        "number": "",
+        "blocks": [
+          "p7-b12-89c08c3"
+        ],
+        "bbox": [
+          38.5968017578125,
+          70.67945861816406,
+          535.8803100585938,
+          91.64801788330078
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-86c3737ddae0.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Indicator Unit All observations (na=344) Positive deviants (n = 56) Dominated systems (n = 288)"
+      },
+      {
+        "id": "liang-2022-919bf9ed4b52",
+        "page": 11,
+        "number": "",
+        "blocks": [
+          "p11-b9-1cb6f64"
+        ],
+        "bbox": [
+          38.5968017578125,
+          99.91043090820312,
+          284.9010314941406,
+          128.8953094482422
+        ],
+        "path": "library/liang-2022/bfbde3ef50d6/math-v3-919bf9ed4b52.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Contextual variable Unit XS (n = 9) OS (n = 335) p- value"
+      }
+    ],
+    "inline": {
+      "p1-b4-021ad72": [
+        {
+          "start": 16,
+          "end": 17,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 57,
+          "end": 58,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 72,
+          "end": 73,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 73,
+          "end": 74,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 74,
+          "end": 75,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 75,
+          "end": 76,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 76,
+          "end": 77,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 90,
+          "end": 91,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 107,
+          "end": 108,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 108,
+          "end": 109,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 109,
+          "end": 111,
+          "tag": "sup",
+          "text": "**"
+        },
+        {
+          "start": 128,
+          "end": 129,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 143,
+          "end": 144,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 164,
+          "end": 165,
+          "tag": "sup",
+          "text": "a"
+        }
+      ],
+      "p3-b8-3c1ce7b": [
+        {
+          "start": 55,
+          "end": 56,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 58,
+          "end": 59,
+          "tag": "sup",
+          "text": "′"
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 67,
+          "end": 68,
+          "tag": "sup",
+          "text": "′"
+        },
+        {
+          "start": 73,
+          "end": 74,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 76,
+          "end": 77,
+          "tag": "sup",
+          "text": "′"
+        },
+        {
+          "start": 81,
+          "end": 82,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 84,
+          "end": 85,
+          "tag": "sup",
+          "text": "′"
+        }
+      ],
+      "p3-b9-697dc72": [
+        {
+          "start": 154,
+          "end": 155,
+          "tag": "sup",
+          "text": "◦"
+        }
+      ],
+      "p4-b8-037e5d5": [
+        {
+          "start": 154,
+          "end": 159,
+          "tag": "sub",
+          "text": "total"
+        }
+      ],
+      "p4-b12-83a7f4d": [
+        {
+          "start": 48,
+          "end": 49,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 145,
+          "end": 146,
+          "tag": "sub",
+          "text": "i"
+        }
+      ],
+      "p4-b14-f9e0859": [
+        {
+          "start": 56,
+          "end": 61,
+          "tag": "sub",
+          "text": "total"
+        },
+        {
+          "start": 322,
+          "end": 323,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 353,
+          "end": 354,
+          "tag": "sub",
+          "text": "i"
+        }
+      ],
+      "p4-b19-a1da0a3": [
+        {
+          "start": 270,
+          "end": 275,
+          "tag": "sub",
+          "text": "total"
+        }
+      ],
+      "p4-b25-bebef67": [
+        {
+          "start": 180,
+          "end": 183,
+          "tag": "sub",
+          "text": "j,i"
+        },
+        {
+          "start": 231,
+          "end": 234,
+          "tag": "sub",
+          "text": "j,i"
+        },
+        {
+          "start": 411,
+          "end": 414,
+          "tag": "sub",
+          "text": "j,i"
+        },
+        {
+          "start": 499,
+          "end": 502,
+          "tag": "sub",
+          "text": "j,i"
+        }
+      ],
+      "p4-b31-e43de45": [
+        {
+          "start": 8,
+          "end": 9,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 257,
+          "end": 258,
+          "tag": "sub",
+          "text": "i"
+        }
+      ],
+      "p4-b40-1a79b71": [
+        {
+          "start": 217,
+          "end": 222,
+          "tag": "sub",
+          "text": "total"
+        }
+      ],
+      "p4-b45-8e951a2": [
+        {
+          "start": 8,
+          "end": 12,
+          "tag": "sub",
+          "text": "NH3,"
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 17,
+          "end": 21,
+          "tag": "sub",
+          "text": "NO3,"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 30,
+          "end": 34,
+          "tag": "sub",
+          "text": "N2O,"
+        },
+        {
+          "start": 34,
+          "end": 35,
+          "tag": "sub",
+          "text": "i"
+        }
+      ],
+      "p5-b2-5b4f8e0": [
+        {
+          "start": 337,
+          "end": 340,
+          "tag": "sub",
+          "text": "net"
+        },
+        {
+          "start": 347,
+          "end": 348,
+          "tag": "sub",
+          "text": "2"
+        },
+        {
+          "start": 390,
+          "end": 393,
+          "tag": "sub",
+          "text": "emi"
+        },
+        {
+          "start": 400,
+          "end": 401,
+          "tag": "sub",
+          "text": "2"
+        },
+        {
+          "start": 442,
+          "end": 445,
+          "tag": "sub",
+          "text": "SOC"
+        },
+        {
+          "start": 452,
+          "end": 453,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p5-b4-c0804c3": [
+        {
+          "start": 9,
+          "end": 12,
+          "tag": "sub",
+          "text": "emi"
+        },
+        {
+          "start": 149,
+          "end": 152,
+          "tag": "sub",
+          "text": "SOC"
+        }
+      ],
+      "p5-b5-dff7994": [
+        {
+          "start": 533,
+          "end": 538,
+          "tag": "sub",
+          "text": "total"
+        }
+      ],
+      "p5-b7-7378e5a": [
+        {
+          "start": 8,
+          "end": 13,
+          "tag": "sub",
+          "text": "total"
+        },
+        {
+          "start": 17,
+          "end": 22,
+          "tag": "sub",
+          "text": "total"
+        },
+        {
+          "start": 30,
+          "end": 35,
+          "tag": "sub",
+          "text": "total"
+        }
+      ],
+      "p5-b22-606f8cb": [
+        {
+          "start": 137,
+          "end": 140,
+          "tag": "sub",
+          "text": "k,c"
+        },
+        {
+          "start": 206,
+          "end": 209,
+          "tag": "sub",
+          "text": "k,c"
+        },
+        {
+          "start": 232,
+          "end": 233,
+          "tag": "sub",
+          "text": "k"
+        },
+        {
+          "start": 244,
+          "end": 245,
+          "tag": "sub",
+          "text": "k"
+        }
+      ],
+      "p6-b10-b86934f": [
+        {
+          "start": 38,
+          "end": 39,
+          "tag": "sub",
+          "text": "c"
+        },
+        {
+          "start": 61,
+          "end": 64,
+          "tag": "sub",
+          "text": "k,c"
+        },
+        {
+          "start": 316,
+          "end": 319,
+          "tag": "sub",
+          "text": "k,c"
+        }
+      ],
+      "p6-b12-d4f5343": [
+        {
+          "start": 100,
+          "end": 101,
+          "tag": "sub",
+          "text": "k"
+        }
+      ],
+      "p6-b14-1e288f3": [
+        {
+          "start": 8,
+          "end": 13,
+          "tag": "sub",
+          "text": "exem,"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sub",
+          "text": "k"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "tag": "sub",
+          "text": "other,"
+        },
+        {
+          "start": 27,
+          "end": 28,
+          "tag": "sub",
+          "text": "k"
+        },
+        {
+          "start": 410,
+          "end": 411,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p6-b32-fe54e33": [
+        {
+          "start": 541,
+          "end": 542,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p7-b3-e16aacd": [
+        {
+          "start": 219,
+          "end": 220,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p7-b13-402f3d7": [
+        {
+          "start": 7,
+          "end": 8,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 11,
+          "end": 12,
+          "tag": "sup",
+          "text": "c"
+        }
+      ],
+      "p7-b14-b30d352": [
+        {
+          "start": 22,
+          "end": 23,
+          "tag": "sup",
+          "text": "d"
+        }
+      ],
+      "p11-b4-c05463c": [
+        {
+          "start": 629,
+          "end": 630,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 698,
+          "end": 699,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 1075,
+          "end": 1076,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p11-b10-7d51a1d": [
+        {
+          "start": 39,
+          "end": 40,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 175,
+          "end": 176,
+          "tag": "sup",
+          "text": "a"
+        }
+      ],
+      "p14-b2-85c63e9": [
+        {
+          "start": 2779,
+          "end": 2781,
+          "tag": "sup",
+          "text": "15"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "liang-2023": {
+    "sourceHash": "9fa29543ce29ae322554168dc64965aedf34826024d1e8e8a497b3dff6d3a043",
+    "groups": [
+      {
+        "id": "liang-2023-ee96f4555e1a",
+        "page": 5,
+        "number": "1",
+        "blocks": [
+          "p5-b3-6c1ce87",
+          "p5-b4-305b1ae",
+          "p5-b5-8254c32",
+          "p5-b6-af40693",
+          "p5-b7-2087277"
+        ],
+        "bbox": [
+          44.49241638183594,
+          153.77088928222656,
+          298.3418273925781,
+          191.1140899658203
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-ee96f4555e1a.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "GM = 1 15 (∑ k GMk ) (1)"
+      },
+      {
+        "id": "liang-2023-5ae7c747ed7e",
+        "page": 5,
+        "number": "2",
+        "blocks": [
+          "p5-b8-8baf68a",
+          "p5-b9-2da6ca2",
+          "p5-b10-d9e5ec9"
+        ],
+        "bbox": [
+          44.49425506591797,
+          188.57980346679688,
+          298.3431396484375,
+          221.971435546875
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-5ae7c747ed7e.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "GMk = (∑n i Ycom,i × PRi,k −Ci,k )/ RL / CPIk (2)"
+      },
+      {
+        "id": "liang-2023-4631a87a5c40",
+        "page": 5,
+        "number": "3",
+        "blocks": [
+          "p5-b14-73ace46"
+        ],
+        "bbox": [
+          44.49323654174805,
+          461.00775146484375,
+          305.34698486328125,
+          484.0388488769531
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-4631a87a5c40.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "GMV = SD(GMk) (3)"
+      },
+      {
+        "id": "liang-2023-e2399620d59e",
+        "page": 5,
+        "number": "4",
+        "blocks": [
+          "p5-b16-cab94af",
+          "p5-b17-7b34f2b",
+          "p5-b18-aa83056"
+        ],
+        "bbox": [
+          44.49371337890625,
+          531.0601196289062,
+          298.34112548828125,
+          560.7684326171875
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-e2399620d59e.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "L = ∑n i Li / RL (4)"
+      },
+      {
+        "id": "liang-2023-e6410776af1a",
+        "page": 5,
+        "number": "5",
+        "blocks": [
+          "p5-b22-6460382",
+          "p5-b23-520237a",
+          "p5-b24-f4b7057",
+          "p5-b25-bb41f69"
+        ],
+        "bbox": [
+          313.49981689453125,
+          54.16117477416992,
+          567.34912109375,
+          83.868408203125
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-e6410776af1a.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Yj = ∑n i Ycom,i × Fj,i / RAIj / RL (5)"
+      },
+      {
+        "id": "liang-2023-b9dd446065f2",
+        "page": 5,
+        "number": "6",
+        "blocks": [
+          "p5-b29-82d1849",
+          "p5-b30-209a9e9",
+          "p5-b31-4062abd",
+          "p5-b32-18d1996"
+        ],
+        "bbox": [
+          313.5016174316406,
+          190.8092041015625,
+          567.3486938476562,
+          239.8304443359375
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-b9dd446065f2.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "ical equations (Yang et al., 2021): GWD = [(∑n i IRi ) −D ]/ RL (6)"
+      },
+      {
+        "id": "liang-2023-274d0b60f6fb",
+        "page": 5,
+        "number": "7",
+        "blocks": [
+          "p5-b34-2e0eab4",
+          "p5-b35-4062abd",
+          "p5-b36-041a905"
+        ],
+        "bbox": [
+          313.50091552734375,
+          276.1138610839844,
+          567.3496704101562,
+          307.1244201660156
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-274d0b60f6fb.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "D = α × [(∑n i IRi ) + P × RL ] (7)"
+      },
+      {
+        "id": "liang-2023-dc8a4c17939d",
+        "page": 5,
+        "number": "8",
+        "blocks": [
+          "p5-b39-669371e",
+          "p5-b40-de7d1b7",
+          "p5-b41-91bdd17",
+          "p5-b42-a379df4"
+        ],
+        "bbox": [
+          313.50189208984375,
+          417.6756286621094,
+          567.3495483398438,
+          446.68603515625
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-dc8a4c17939d.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "EUP = ∑n i ( EUPpre,i + EUPon,i )/ RL (8)"
+      },
+      {
+        "id": "liang-2023-2da1505950d2",
+        "page": 5,
+        "number": "9",
+        "blocks": [
+          "p5-b45-5cc5d11",
+          "p5-b46-de7d1b7",
+          "p5-b47-d39402a",
+          "p5-b48-5ef3a3b"
+        ],
+        "bbox": [
+          313.5023193359375,
+          541.1541748046875,
+          567.34912109375,
+          570.1629638671875
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-2da1505950d2.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "GHGnet = ∑n i ( GHGpre,i + GHGon,i −QSOC )/ RL (9)"
+      },
+      {
+        "id": "liang-2023-d5557fa47b5c",
+        "page": 6,
+        "number": "10",
+        "blocks": [
+          "p6-b3-940736b"
+        ],
+        "bbox": [
+          44.49290084838867,
+          101.78278350830078,
+          298.3492431640625,
+          128.63076782226562
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-d5557fa47b5c.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "DIV = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ SN × RL √ (10)"
+      },
+      {
+        "id": "liang-2023-e5010ac807e2",
+        "page": 7,
+        "number": "11",
+        "blocks": [
+          "p7-b3-6516095"
+        ],
+        "bbox": [
+          32.58807373046875,
+          229.53074645996094,
+          298.349365234375,
+          252.56185913085938
+        ],
+        "path": "library/liang-2023/9fa29543ce29/math-v3-e5010ac807e2.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Freq = Ns/RL (11)"
+      }
+    ],
+    "inline": {
+      "p1-b3-db38990": [
+        {
+          "start": 16,
+          "end": 17,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 34,
+          "end": 35,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 50,
+          "end": 51,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 51,
+          "end": 52,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 53,
+          "end": 54,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 66,
+          "end": 67,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 67,
+          "end": 68,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 68,
+          "end": 69,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 85,
+          "end": 86,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 86,
+          "end": 87,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 87,
+          "end": 89,
+          "tag": "sup",
+          "text": "**"
+        },
+        {
+          "start": 106,
+          "end": 107,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 121,
+          "end": 122,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 143,
+          "end": 144,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 164,
+          "end": 165,
+          "tag": "sup",
+          "text": "a"
+        }
+      ],
+      "p3-b10-155d078": [
+        {
+          "start": 125,
+          "end": 126,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 134,
+          "end": 135,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 143,
+          "end": 144,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 151,
+          "end": 152,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 357,
+          "end": 358,
+          "tag": "sup",
+          "text": "◦"
+        }
+      ],
+      "p4-b15-80cff4c": [
+        {
+          "start": 73,
+          "end": 74,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 84,
+          "end": 85,
+          "tag": "sup",
+          "text": "b"
+        }
+      ],
+      "p4-b16-ae84fce": [
+        {
+          "start": 199,
+          "end": 200,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 251,
+          "end": 252,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 301,
+          "end": 302,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 348,
+          "end": 349,
+          "tag": "sup",
+          "text": "d"
+        }
+      ],
+      "p5-b11-6039e51": [
+        {
+          "start": 160,
+          "end": 161,
+          "tag": "sub",
+          "text": "k"
+        },
+        {
+          "start": 245,
+          "end": 249,
+          "tag": "sub",
+          "text": "com,"
+        },
+        {
+          "start": 249,
+          "end": 250,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 299,
+          "end": 302,
+          "tag": "sub",
+          "text": "i,k"
+        },
+        {
+          "start": 371,
+          "end": 374,
+          "tag": "sub",
+          "text": "i,k"
+        },
+        {
+          "start": 628,
+          "end": 629,
+          "tag": "sub",
+          "text": "k"
+        }
+      ],
+      "p5-b19-00b9d80": [
+        {
+          "start": 7,
+          "end": 8,
+          "tag": "sub",
+          "text": "i"
+        }
+      ],
+      "p5-b21-373f074": [
+        {
+          "start": 58,
+          "end": 59,
+          "tag": "sub",
+          "text": "j"
+        }
+      ],
+      "p5-b26-713f804": [
+        {
+          "start": 74,
+          "end": 77,
+          "tag": "sub",
+          "text": "j,i"
+        },
+        {
+          "start": 172,
+          "end": 173,
+          "tag": "sub",
+          "text": "j"
+        },
+        {
+          "start": 333,
+          "end": 336,
+          "tag": "sub",
+          "text": "j,i"
+        },
+        {
+          "start": 344,
+          "end": 345,
+          "tag": "sub",
+          "text": "j"
+        }
+      ],
+      "p5-b33-de051bf": [
+        {
+          "start": 8,
+          "end": 9,
+          "tag": "sub",
+          "text": "i"
+        }
+      ],
+      "p5-b38-e64ef1f": [
+        {
+          "start": 38,
+          "end": 39,
+          "tag": "sub",
+          "text": "4"
+        }
+      ],
+      "p5-b43-74e71d6": [
+        {
+          "start": 9,
+          "end": 12,
+          "tag": "sub",
+          "text": "pre"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 22,
+          "end": 24,
+          "tag": "sub",
+          "text": "on"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "tag": "sub",
+          "text": "4"
+        },
+        {
+          "start": 178,
+          "end": 181,
+          "tag": "sub",
+          "text": "pre"
+        },
+        {
+          "start": 182,
+          "end": 183,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 191,
+          "end": 193,
+          "tag": "sub",
+          "text": "on"
+        },
+        {
+          "start": 194,
+          "end": 195,
+          "tag": "sub",
+          "text": "i"
+        }
+      ],
+      "p5-b44-ba16d27": [
+        {
+          "start": 23,
+          "end": 26,
+          "tag": "sub",
+          "text": "net"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p5-b49-2e965dc": [
+        {
+          "start": 9,
+          "end": 12,
+          "tag": "sub",
+          "text": "pre"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 22,
+          "end": 24,
+          "tag": "sub",
+          "text": "on"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "tag": "sub",
+          "text": "2"
+        },
+        {
+          "start": 209,
+          "end": 212,
+          "tag": "sub",
+          "text": "SOC"
+        },
+        {
+          "start": 219,
+          "end": 220,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p7-b4-3be77b3": [
+        {
+          "start": 43,
+          "end": 44,
+          "tag": "sub",
+          "text": "s"
+        }
+      ],
+      "p7-b17-9b2213f": [
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "a"
+        }
+      ],
+      "p7-b18-ce6a02c": [
+        {
+          "start": 23,
+          "end": 24,
+          "tag": "sup",
+          "text": "b"
+        }
+      ],
+      "p7-b30-dc9c433": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "a"
+        }
+      ],
+      "p8-b3-0c584b1": [
+        {
+          "start": 615,
+          "end": 616,
+          "tag": "sub",
+          "text": "4"
+        },
+        {
+          "start": 657,
+          "end": 658,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p8-b5-e2b9419": [
+        {
+          "start": 661,
+          "end": 662,
+          "tag": "sub",
+          "text": "4"
+        },
+        {
+          "start": 715,
+          "end": 716,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p13-b2-7d68998": [
+        {
+          "start": 4746,
+          "end": 4747,
+          "tag": "sup",
+          "text": "´"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "cheng-2023": {
+    "sourceHash": "7b8cf2416ee8d64979e58d9fe0cf569d5415d640a87f280ab1c28965c67cc305",
+    "groups": [],
+    "inline": {
+      "p1-b5-1e8d56b": [
+        {
+          "start": 12,
+          "end": 13,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 31,
+          "end": 32,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 50,
+          "end": 51,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 51,
+          "end": 52,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 53,
+          "end": 54,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "tag": "sup",
+          "text": "e"
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 66,
+          "end": 67,
+          "tag": "sup",
+          "text": "f"
+        },
+        {
+          "start": 83,
+          "end": 84,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 84,
+          "end": 85,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 85,
+          "end": 87,
+          "tag": "sup",
+          "text": "**"
+        },
+        {
+          "start": 104,
+          "end": 105,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 116,
+          "end": 117,
+          "tag": "sup",
+          "text": "g"
+        },
+        {
+          "start": 130,
+          "end": 131,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 145,
+          "end": 146,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 164,
+          "end": 165,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 186,
+          "end": 187,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 207,
+          "end": 208,
+          "tag": "sup",
+          "text": "a"
+        }
+      ],
+      "p3-b5-d828b97": [
+        {
+          "start": 549,
+          "end": 550,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 569,
+          "end": 570,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 1125,
+          "end": 1126,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 1352,
+          "end": 1353,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p4-b15-c275cef": [
+        {
+          "start": 101,
+          "end": 102,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 102,
+          "end": 103,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p4-b16-3450a2a": [
+        {
+          "start": 4,
+          "end": 5,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b14-8288968": [
+        {
+          "start": 33,
+          "end": 34,
+          "tag": "sup",
+          "text": "3"
+        }
+      ],
+      "p5-b15-48f3b6a": [
+        {
+          "start": 1,
+          "end": 2,
+          "tag": "sup",
+          "text": "a"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "cheng-2025": {
+    "sourceHash": "f21e6a1550fef48f92aee382657a1ac00931c1df1e87e46bfdf40457e56a7162",
+    "groups": [],
+    "inline": {
+      "p1-b1-f6a9fd3": [
+        {
+          "start": 12,
+          "end": 13,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 37,
+          "end": 38,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 67,
+          "end": 68,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 68,
+          "end": 69,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 69,
+          "end": 70,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 88,
+          "end": 89,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 89,
+          "end": 90,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 90,
+          "end": 91,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 91,
+          "end": 92,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 92,
+          "end": 93,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 110,
+          "end": 111,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 125,
+          "end": 126,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 147,
+          "end": 148,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 168,
+          "end": 169,
+          "tag": "sup",
+          "text": "a"
+        }
+      ],
+      "p3-b3-b3fbc50": [
+        {
+          "start": 140,
+          "end": 141,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 160,
+          "end": 161,
+          "tag": "sup",
+          "text": "2"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "xu-2024": {
+    "sourceHash": "5c1568888f1c72eb2e61e30e8a4b1f9c2582c4f11c4ccae064b34a1bb333be4e",
+    "groups": [
+      {
+        "id": "xu-2024-b634c0135170",
+        "page": 4,
+        "number": "1",
+        "blocks": [
+          "p4-b9-b759dbb",
+          "p4-b10-189f400",
+          "p4-b11-964c290",
+          "p4-b12-0c426bd"
+        ],
+        "bbox": [
+          301.5927429199219,
+          386.7792053222656,
+          567.3511962890625,
+          418.67913818359375
+        ],
+        "path": "library/xu-2024/5c1568888f1c/math-v3-b634c0135170.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Xi = ∑n j Aij ∑Aij Xij (1)"
+      },
+      {
+        "id": "xu-2024-efa809bb9f19",
+        "page": 4,
+        "number": "2",
+        "blocks": [
+          "p4-b16-b759dbb",
+          "p4-b17-1bbf53a"
+        ],
+        "bbox": [
+          301.59686279296875,
+          477.99822998046875,
+          567.3511962890625,
+          507.7044372558594
+        ],
+        "path": "library/xu-2024/5c1568888f1c/math-v3-efa809bb9f19.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Xi = ∑n j AijXij (2)"
+      },
+      {
+        "id": "xu-2024-5139f618612b",
+        "page": 5,
+        "number": "3",
+        "blocks": [
+          "p5-b3-f3d7f18",
+          "p5-b4-46f789d"
+        ],
+        "bbox": [
+          32.58807373046875,
+          320.33642578125,
+          296.0079040527344,
+          349.6841125488281
+        ],
+        "path": "library/xu-2024/5c1568888f1c/math-v3-5139f618612b.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Xi,corrected = Xi MCIf,i (3)"
+      },
+      {
+        "id": "xu-2024-680afb27c60f",
+        "page": 5,
+        "number": "4",
+        "blocks": [
+          "p5-b7-967ae5c",
+          "p5-b8-a89460e"
+        ],
+        "bbox": [
+          32.58927917480469,
+          498.0469970703125,
+          298.3420715332031,
+          528.1119384765625
+        ],
+        "path": "library/xu-2024/5c1568888f1c/math-v3-680afb27c60f.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Irrigation = Costirrigation × Qpump × η Priceelectricity × Ppump × 10 × NI (4)"
+      },
+      {
+        "id": "xu-2024-e49232ea057b",
+        "page": 5,
+        "number": "5",
+        "blocks": [
+          "p5-b12-f48fde2"
+        ],
+        "bbox": [
+          301.59686279296875,
+          83.03672790527344,
+          567.3511962890625,
+          106.06784057617188
+        ],
+        "path": "library/xu-2024/5c1568888f1c/math-v3-e49232ea057b.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Nsurplus = Nin −Nout (5)"
+      },
+      {
+        "id": "xu-2024-8b28caa972ab",
+        "page": 5,
+        "number": "6",
+        "blocks": [
+          "p5-b15-39be352"
+        ],
+        "bbox": [
+          301.59783935546875,
+          191.82969665527344,
+          567.3504028320312,
+          214.86080932617188
+        ],
+        "path": "library/xu-2024/5c1568888f1c/math-v3-8b28caa972ab.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Dietary energy yield = Y × EP × EC (6)"
+      },
+      {
+        "id": "xu-2024-b3b4310d8b79",
+        "page": 6,
+        "number": "",
+        "blocks": [
+          "p6-b5-e9739a3",
+          "p6-b6-1d2f668"
+        ],
+        "bbox": [
+          38.5968017578125,
+          99.91043090820312,
+          285.9779357910156,
+          137.45559692382812
+        ],
+        "path": "library/xu-2024/5c1568888f1c/math-v3-b3b4310d8b79.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Variable Unit Smallholder farms (n = 486) Business farms (n = 19) p- value"
+      },
+      {
+        "id": "xu-2024-0ec9e552388e",
+        "page": 6,
+        "number": "",
+        "blocks": [
+          "p6-b14-29be173"
+        ],
+        "bbox": [
+          357.57598876953125,
+          399.06768798828125,
+          445.0108947753906,
+          416.0816955566406
+        ],
+        "path": "library/xu-2024/5c1568888f1c/math-v3-0ec9e552388e.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(n=486) (n=19)"
+      }
+    ],
+    "inline": {
+      "p1-b4-72a2668": [
+        {
+          "start": 8,
+          "end": 9,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 9,
+          "end": 10,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 11,
+          "end": 12,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 34,
+          "end": 35,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 36,
+          "end": 37,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 37,
+          "end": 38,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 53,
+          "end": 54,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 77,
+          "end": 78,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 95,
+          "end": 96,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 96,
+          "end": 97,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 97,
+          "end": 98,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 114,
+          "end": 115,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 129,
+          "end": 130,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 151,
+          "end": 152,
+          "tag": "sup",
+          "text": "a"
+        }
+      ],
+      "p1-b5-67a327d": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 126,
+          "end": 127,
+          "tag": "sup",
+          "text": "b"
+        }
+      ],
+      "p2-b4-a69fc8b": [
+        {
+          "start": 3281,
+          "end": 3282,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p2-b5-9a4bd08": [
+        {
+          "start": 17,
+          "end": 18,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 46,
+          "end": 47,
+          "tag": "sup",
+          "text": "3"
+        }
+      ],
+      "p2-b6-bc2c4f1": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p2-b7-ddd6a85": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p2-b8-f464261": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "3"
+        }
+      ],
+      "p4-b4-cd8ea55": [
+        {
+          "start": 43,
+          "end": 44,
+          "tag": "sub",
+          "text": "p"
+        },
+        {
+          "start": 167,
+          "end": 168,
+          "tag": "sub",
+          "text": "f"
+        },
+        {
+          "start": 218,
+          "end": 219,
+          "tag": "sub",
+          "text": "p"
+        },
+        {
+          "start": 514,
+          "end": 515,
+          "tag": "sub",
+          "text": "p"
+        },
+        {
+          "start": 738,
+          "end": 739,
+          "tag": "sub",
+          "text": "p"
+        },
+        {
+          "start": 856,
+          "end": 857,
+          "tag": "sub",
+          "text": "p"
+        },
+        {
+          "start": 921,
+          "end": 922,
+          "tag": "sub",
+          "text": "p"
+        }
+      ],
+      "p4-b13-9aa73c2": [
+        {
+          "start": 7,
+          "end": 8,
+          "tag": "sub",
+          "text": "i"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "tag": "sup",
+          "text": "A"
+        },
+        {
+          "start": 56,
+          "end": 58,
+          "tag": "sup",
+          "text": "ij"
+        }
+      ],
+      "p4-b14-aa0bb6c": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sub",
+          "text": "A"
+        },
+        {
+          "start": 1,
+          "end": 3,
+          "tag": "sub",
+          "text": "ij"
+        }
+      ],
+      "p4-b15-efefa87": [
+        {
+          "start": 62,
+          "end": 64,
+          "tag": "sub",
+          "text": "ij"
+        }
+      ],
+      "p4-b18-447c046": [
+        {
+          "start": 7,
+          "end": 9,
+          "tag": "sub",
+          "text": "ij"
+        },
+        {
+          "start": 45,
+          "end": 47,
+          "tag": "sub",
+          "text": "ij"
+        },
+        {
+          "start": 91,
+          "end": 92,
+          "tag": "sub",
+          "text": "i"
+        }
+      ],
+      "p5-b9-331ef0b": [
+        {
+          "start": 82,
+          "end": 83,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 83,
+          "end": 84,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 133,
+          "end": 143,
+          "tag": "sub",
+          "text": "irrigation"
+        },
+        {
+          "start": 196,
+          "end": 197,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 197,
+          "end": 198,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 202,
+          "end": 206,
+          "tag": "sub",
+          "text": "pump"
+        },
+        {
+          "start": 226,
+          "end": 227,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 229,
+          "end": 230,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 230,
+          "end": 231,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 288,
+          "end": 299,
+          "tag": "sub",
+          "text": "electricity"
+        },
+        {
+          "start": 351,
+          "end": 352,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 352,
+          "end": 353,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 361,
+          "end": 365,
+          "tag": "sub",
+          "text": "pump"
+        },
+        {
+          "start": 440,
+          "end": 441,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 444,
+          "end": 445,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 445,
+          "end": 446,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b11-4f03e62": [
+        {
+          "start": 35,
+          "end": 36,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 36,
+          "end": 37,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 42,
+          "end": 43,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 43,
+          "end": 44,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b13-fa92d1d": [
+        {
+          "start": 7,
+          "end": 9,
+          "tag": "sub",
+          "text": "in"
+        },
+        {
+          "start": 15,
+          "end": 18,
+          "tag": "sub",
+          "text": "out"
+        },
+        {
+          "start": 72,
+          "end": 73,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 73,
+          "end": 74,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 79,
+          "end": 80,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 80,
+          "end": 81,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 104,
+          "end": 105,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 105,
+          "end": 106,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 111,
+          "end": 112,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 112,
+          "end": 113,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b14-6589b0e": [
+        {
+          "start": 69,
+          "end": 70,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 70,
+          "end": 71,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 76,
+          "end": 77,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 77,
+          "end": 78,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b16-a508b98": [
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 231,
+          "end": 232,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 232,
+          "end": 233,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b17-5e24e98": [
+        {
+          "start": 119,
+          "end": 120,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 120,
+          "end": 121,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 126,
+          "end": 127,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 127,
+          "end": 128,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 537,
+          "end": 538,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 538,
+          "end": 539,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 544,
+          "end": 545,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 545,
+          "end": 546,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 598,
+          "end": 599,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 599,
+          "end": 600,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 605,
+          "end": 606,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 606,
+          "end": 607,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 656,
+          "end": 657,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 657,
+          "end": 658,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 663,
+          "end": 664,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 664,
+          "end": 665,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b27-20d0feb": [
+        {
+          "start": 38,
+          "end": 39,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 39,
+          "end": 40,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b28-3b7a864": [
+        {
+          "start": 35,
+          "end": 36,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 36,
+          "end": 37,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 42,
+          "end": 43,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 43,
+          "end": 44,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b29-aa8975d": [
+        {
+          "start": 109,
+          "end": 110,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 110,
+          "end": 111,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 116,
+          "end": 117,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 117,
+          "end": 118,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 249,
+          "end": 250,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 250,
+          "end": 251,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 256,
+          "end": 257,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 257,
+          "end": 258,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 365,
+          "end": 366,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 366,
+          "end": 367,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 372,
+          "end": 373,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 373,
+          "end": 374,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 504,
+          "end": 505,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 505,
+          "end": 506,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 511,
+          "end": 512,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 512,
+          "end": 513,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p6-b8-938985b": [
+        {
+          "start": 32,
+          "end": 33,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p9-b2-7b03344": [
+        {
+          "start": 48,
+          "end": 49,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 49,
+          "end": 50,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 104,
+          "end": 105,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 105,
+          "end": 106,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 146,
+          "end": 147,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 147,
+          "end": 148,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p11-b2-f70e502": [
+        {
+          "start": 767,
+          "end": 768,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 768,
+          "end": 769,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 775,
+          "end": 776,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 776,
+          "end": 777,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 838,
+          "end": 839,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 839,
+          "end": 840,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 845,
+          "end": 846,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 846,
+          "end": 847,
+          "tag": "sup",
+          "text": "1"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "xu-data-2024": {
+    "sourceHash": "962a50daab8d15b0976a0e5119b44f1059cb99848774a30d6e973385a0bc8504",
+    "groups": [
+      {
+        "id": "xu-data-2024-8d1a00b61bdd",
+        "page": 8,
+        "number": "",
+        "blocks": [
+          "p8-b14-511f0c8"
+        ],
+        "bbox": [
+          167.96200561523438,
+          348.44940185546875,
+          328.08917236328125,
+          364.927490234375
+        ],
+        "path": "library/xu-data-2024/962a50daab8d/math-v3-8d1a00b61bdd.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "1 ( n = 228) 2 ( n = 212) 3 ( n = 45)"
+      },
+      {
+        "id": "xu-data-2024-907a516c80fc",
+        "page": 8,
+        "number": "",
+        "blocks": [
+          "p8-b15-518c524"
+        ],
+        "bbox": [
+          340.5639953613281,
+          339.88140869140625,
+          379.5063781738281,
+          364.92767333984375
+        ],
+        "path": "library/xu-data-2024/962a50daab8d/math-v3-907a516c80fc.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "> 3 ( n = 20)"
+      }
+    ],
+    "inline": {
+      "p1-b9-6e5010d": [
+        {
+          "start": 8,
+          "end": 9,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "∗"
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 32,
+          "end": 33,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 34,
+          "end": 35,
+          "tag": "sup",
+          "text": "e"
+        },
+        {
+          "start": 50,
+          "end": 51,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 58,
+          "end": 59,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 78,
+          "end": 79,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 80,
+          "end": 81,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 82,
+          "end": 83,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 84,
+          "end": 85,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 86,
+          "end": 87,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 108,
+          "end": 109,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 131,
+          "end": 132,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 150,
+          "end": 151,
+          "tag": "sup",
+          "text": "d"
+        }
+      ],
+      "p1-b10-cc965aa": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 126,
+          "end": 127,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 242,
+          "end": 243,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 359,
+          "end": 360,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 516,
+          "end": 517,
+          "tag": "sup",
+          "text": "e"
+        }
+      ],
+      "p1-b17-84b100f": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "∗"
+        }
+      ],
+      "p6-b5-95acfb1": [
+        {
+          "start": 219,
+          "end": 220,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 291,
+          "end": 292,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p6-b9-c6476ab": [
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p6-b10-3450a2a": [
+        {
+          "start": 4,
+          "end": 5,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p6-b16-6a43465": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p6-b19-03bab75": [
+        {
+          "start": 1113,
+          "end": 1114,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 1129,
+          "end": 1130,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p6-b20-60669ce": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p6-b21-f3e9a6d": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p7-b3-497983e": [
+        {
+          "start": 17,
+          "end": 18,
+          "tag": "sup",
+          "text": "3"
+        }
+      ],
+      "p7-b6-3a8c2c8": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "3"
+        }
+      ],
+      "p10-b3-59bfc76": [
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": "4"
+        }
+      ],
+      "p10-b7-ee6c051": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "4"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "novotny-2024": {
+    "sourceHash": "3549e6d02b39f329c80d4d2caeb76b584eda198ac413f810fd214cf59b4a0c4b",
+    "groups": [
+      {
+        "id": "novotny-2024-18fd83fa441f",
+        "page": 4,
+        "number": "",
+        "blocks": [
+          "p4-b3-8b8be7e",
+          "p4-b4-3ae1783",
+          "p4-b5-140db28"
+        ],
+        "bbox": [
+          32.58904266357422,
+          612.5869140625,
+          137.47402954101562,
+          648.2290649414062
+        ],
+        "path": "library/novotny-2024/3549e6d02b39/math-v3-18fd83fa441f.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "NSYj,p = ∑n m=1CYj,m × NCp,m Rp"
+      },
+      {
+        "id": "novotny-2024-2f8538bc8d69",
+        "page": 4,
+        "number": "",
+        "blocks": [
+          "p4-b7-7ef5f42",
+          "p4-b8-6ef413a"
+        ],
+        "bbox": [
+          301.59381103515625,
+          587.2463989257812,
+          360.8094177246094,
+          616.5950927734375
+        ],
+        "path": "library/novotny-2024/3549e6d02b39/math-v3-2f8538bc8d69.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "NSSj,p = NSYj,p Popj"
+      },
+      {
+        "id": "novotny-2024-95eba54f78ce",
+        "page": 7,
+        "number": "",
+        "blocks": [
+          "p7-b3-cde5b3c",
+          "p7-b4-5187d6d",
+          "p7-b5-c00742d"
+        ],
+        "bbox": [
+          32.587398529052734,
+          74.45816802978516,
+          106.71654510498047,
+          108.05844116210938
+        ],
+        "path": "library/novotny-2024/3549e6d02b39/math-v3-95eba54f78ce.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Pi,j = ∑ n l=1 Pi,l × Aj,l"
+      }
+    ],
+    "inline": {
+      "p1-b4-5b98635": [
+        {
+          "start": 16,
+          "end": 17,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 45,
+          "end": 46,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 66,
+          "end": 67,
+          "tag": "sup",
+          "text": "e"
+        },
+        {
+          "start": 67,
+          "end": 68,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 68,
+          "end": 69,
+          "tag": "sup",
+          "text": "f"
+        },
+        {
+          "start": 93,
+          "end": 94,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 114,
+          "end": 115,
+          "tag": "sup",
+          "text": "b"
+        }
+      ],
+      "p1-b5-f49e794": [
+        {
+          "start": 139,
+          "end": 140,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 257,
+          "end": 258,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 417,
+          "end": 418,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 639,
+          "end": 640,
+          "tag": "sup",
+          "text": "e"
+        }
+      ],
+      "p2-b2-749cab8": [
+        {
+          "start": 604,
+          "end": 605,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p3-b4-f040d05": [
+        {
+          "start": 747,
+          "end": 748,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 748,
+          "end": 749,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 1238,
+          "end": 1239,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 1239,
+          "end": 1240,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 1345,
+          "end": 1348,
+          "tag": "sub",
+          "text": "j,p"
+        },
+        {
+          "start": 1360,
+          "end": 1361,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 1361,
+          "end": 1362,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p3-b5-f9f3f2e": [
+        {
+          "start": 4,
+          "end": 5,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p4-b2-3fd7e15": [
+        {
+          "start": 55,
+          "end": 58,
+          "tag": "sub",
+          "text": "j,p"
+        },
+        {
+          "start": 137,
+          "end": 140,
+          "tag": "sub",
+          "text": "j,p"
+        },
+        {
+          "start": 168,
+          "end": 171,
+          "tag": "sub",
+          "text": "j,p"
+        }
+      ],
+      "p4-b6-680df2e": [
+        {
+          "start": 87,
+          "end": 88,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 88,
+          "end": 89,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 111,
+          "end": 114,
+          "tag": "sub",
+          "text": "p,m"
+        },
+        {
+          "start": 218,
+          "end": 219,
+          "tag": "sub",
+          "text": "p"
+        },
+        {
+          "start": 400,
+          "end": 403,
+          "tag": "sub",
+          "text": "j,p"
+        }
+      ],
+      "p4-b9-c934c7f": [
+        {
+          "start": 9,
+          "end": 10,
+          "tag": "sub",
+          "text": "j"
+        }
+      ],
+      "p5-b2-2ebbeca": [
+        {
+          "start": 1095,
+          "end": 1096,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 1410,
+          "end": 1411,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 1443,
+          "end": 1444,
+          "tag": "sup",
+          "text": "◦"
+        },
+        {
+          "start": 1683,
+          "end": 1684,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b5-88f0dc6": [
+        {
+          "start": 44,
+          "end": 45,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b7-6f54e2c": [
+        {
+          "start": 64,
+          "end": 65,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b10-5ea9da2": [
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b11-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b12-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b13-e997bae": [
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b14-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b15-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b16-0832eb5": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b17-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b18-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b19-3852b91": [
+        {
+          "start": 19,
+          "end": 20,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b20-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b21-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b22-37be368": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b23-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b24-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b25-337c5cc": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b26-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b27-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b28-bf7111f": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b29-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b30-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b31-f8fd748": [
+        {
+          "start": 23,
+          "end": 24,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b32-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b33-5e72ec7": [
+        {
+          "start": 40,
+          "end": 41,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b34-1c229b5": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b35-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b36-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b37-831f1b9": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b38-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b39-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b40-0aa7a27": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b41-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b42-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b43-d948cfc": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b44-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b45-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b46-1cf37c0": [
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b47-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b48-5e72ec7": [
+        {
+          "start": 40,
+          "end": 41,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b49-fbb0ac7": [
+        {
+          "start": 23,
+          "end": 24,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b50-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b51-daaa9ce": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b52-43d3b04": [
+        {
+          "start": 38,
+          "end": 39,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 39,
+          "end": 40,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b55-56aaa2b": [
+        {
+          "start": 7,
+          "end": 8,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b56-625212b": [
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b57-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b58-69df088": [
+        {
+          "start": 91,
+          "end": 92,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 92,
+          "end": 93,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b59-30d7a81": [
+        {
+          "start": 2,
+          "end": 3,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b60-863e6d2": [
+        {
+          "start": 86,
+          "end": 87,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 87,
+          "end": 88,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b61-f06687f": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p5-b62-e19bbe0": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p7-b6-bfa6f88": [
+        {
+          "start": 7,
+          "end": 10,
+          "tag": "sub",
+          "text": "i,j"
+        },
+        {
+          "start": 111,
+          "end": 114,
+          "tag": "sub",
+          "text": "i,l"
+        },
+        {
+          "start": 162,
+          "end": 165,
+          "tag": "sub",
+          "text": "j,l"
+        }
+      ],
+      "p8-b4-4623740": [
+        {
+          "start": 543,
+          "end": 544,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 544,
+          "end": 545,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 550,
+          "end": 551,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 551,
+          "end": 552,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b11-60cb2e8": [
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b12-e975b4d": [
+        {
+          "start": 23,
+          "end": 24,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b16-5ea9da2": [
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b18-e997bae": [
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b20-0832eb5": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b22-3852b91": [
+        {
+          "start": 19,
+          "end": 20,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b24-37be368": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b26-337c5cc": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b28-bf7111f": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b30-f8fd748": [
+        {
+          "start": 23,
+          "end": 24,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b32-1c229b5": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b34-831f1b9": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b36-0aa7a27": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b38-d948cfc": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b40-1cf37c0": [
+        {
+          "start": 25,
+          "end": 26,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b42-fbb0ac7": [
+        {
+          "start": 23,
+          "end": 24,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b47-625212b": [
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b48-53b4752": [
+        {
+          "start": 7,
+          "end": 8,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p8-b50-3a9b662": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p11-b3-4445d66": [
+        {
+          "start": 271,
+          "end": 272,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 272,
+          "end": 273,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p13-b18-27ad2f4": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 86,
+          "end": 87,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 87,
+          "end": 88,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 141,
+          "end": 142,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 142,
+          "end": 143,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 201,
+          "end": 202,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 202,
+          "end": 203,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 256,
+          "end": 257,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 257,
+          "end": 258,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 315,
+          "end": 316,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 316,
+          "end": 317,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 370,
+          "end": 371,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 371,
+          "end": 372,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 429,
+          "end": 430,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 430,
+          "end": 431,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 480,
+          "end": 481,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 481,
+          "end": 482,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 540,
+          "end": 541,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 541,
+          "end": 542,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 600,
+          "end": 601,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 601,
+          "end": 602,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 661,
+          "end": 662,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 662,
+          "end": 663,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 716,
+          "end": 717,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 717,
+          "end": 718,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 760,
+          "end": 761,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 761,
+          "end": 762,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 808,
+          "end": 809,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 809,
+          "end": 810,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 846,
+          "end": 847,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 847,
+          "end": 848,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 937,
+          "end": 938,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 938,
+          "end": 939,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p13-b19-2bda146": [
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 86,
+          "end": 87,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 87,
+          "end": 88,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 144,
+          "end": 145,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 145,
+          "end": 146,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 204,
+          "end": 205,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 205,
+          "end": 206,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p14-b5-bc22046": [
+        {
+          "start": 19,
+          "end": 20,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 78,
+          "end": 79,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 79,
+          "end": 80,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 133,
+          "end": 134,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 134,
+          "end": 135,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 192,
+          "end": 193,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 193,
+          "end": 194,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 243,
+          "end": 244,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 244,
+          "end": 245,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 303,
+          "end": 304,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 304,
+          "end": 305,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 363,
+          "end": 364,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 364,
+          "end": 365,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 424,
+          "end": 425,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 425,
+          "end": 426,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 478,
+          "end": 479,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 479,
+          "end": 480,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 525,
+          "end": 526,
+          "tag": "sup",
+          "text": "−"
+        },
+        {
+          "start": 526,
+          "end": 527,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p17-b8-a6d6f02": [
+        {
+          "start": 3415,
+          "end": 3416,
+          "tag": "sup",
+          "text": "´"
+        }
+      ],
+      "p17-b9-105c647": [
+        {
+          "start": 2597,
+          "end": 2598,
+          "tag": "sup",
+          "text": "¨"
+        }
+      ],
+      "p18-b2-9e6cb79": [
+        {
+          "start": 939,
+          "end": 940,
+          "tag": "sup",
+          "text": "´"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "qu-2025": {
+    "sourceHash": "7e69eb40dc235c56e72cddc615d123cb8b8679999727d499127a08b0cb2b2769",
+    "groups": [
+      {
+        "id": "qu-2025-e5b41ed43620",
+        "page": 4,
+        "number": "",
+        "blocks": [
+          "p4-b1-f10aded",
+          "p4-b2-791a7b3",
+          "p4-b3-b8d58ab",
+          "p4-b4-d781d07"
+        ],
+        "bbox": [
+          32.58781814575195,
+          90.6722183227539,
+          253.05294799804688,
+          125.30921173095703
+        ],
+        "path": "library/qu-2025/7e69eb40dc23/math-v3-e5b41ed43620.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "DMManure = ∑ p=1 DMAnimalFeed,p × ( 1 −FL,p ) × DMDp + DMBedding"
+      },
+      {
+        "id": "qu-2025-0113faad9327",
+        "page": 4,
+        "number": "",
+        "blocks": [
+          "p4-b6-7721232",
+          "p4-b7-791a7b3",
+          "p4-b8-c114844",
+          "p4-b9-d7b12f3"
+        ],
+        "bbox": [
+          32.58807373046875,
+          174.06716918945312,
+          257.2315979003906,
+          208.70423889160156
+        ],
+        "path": "library/qu-2025/7e69eb40dc23/math-v3-0113faad9327.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "NManure = ∑ p=1 ( DMAnimalFeed,p × FN,p × ( 1 −FL,p ) ) −NAnimalProducts"
+      }
+    ],
+    "inline": {
+      "p1-b1-82948b0": [
+        {
+          "start": 10,
+          "end": 11,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 11,
+          "end": 12,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 37,
+          "end": 38,
+          "tag": "sup",
+          "text": "c"
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "tag": "sup",
+          "text": "d"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "tag": "sup",
+          "text": "e"
+        },
+        {
+          "start": 57,
+          "end": 58,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 58,
+          "end": 59,
+          "tag": "sup",
+          "text": "*"
+        }
+      ],
+      "p3-b10-0675359": [
+        {
+          "start": 75,
+          "end": 81,
+          "tag": "sub",
+          "text": "Manure"
+        },
+        {
+          "start": 151,
+          "end": 161,
+          "tag": "sub",
+          "text": "AnimalFeed"
+        }
+      ],
+      "p4-b0-1a9da9d": [
+        {
+          "start": 7,
+          "end": 10,
+          "tag": "sub",
+          "text": "L,p"
+        },
+        {
+          "start": 142,
+          "end": 149,
+          "tag": "sub",
+          "text": "Bedding"
+        }
+      ],
+      "p4-b17-3c2633d": [
+        {
+          "start": 487,
+          "end": 488,
+          "tag": "sub",
+          "text": "2"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "breure-2024": {
+    "sourceHash": "766abe34a78ec2fc630ba474fb035879c398600884bd5676bca435b05aed9bc4",
+    "groups": [
+      {
+        "id": "breure-2024-afcc8b374e55",
+        "page": 5,
+        "number": "",
+        "blocks": [
+          "p5-b6-9e017d8",
+          "p5-b7-fccbc8e",
+          "p5-b8-42ada3f",
+          "p5-b9-21bf1a5",
+          "p5-b10-b7ba625",
+          "p5-b11-ac03f9a"
+        ],
+        "bbox": [
+          112.2439956665039,
+          182.90386962890625,
+          150.07701110839844,
+          321.6689147949219
+        ],
+        "path": "library/breure-2024/766abe34a78e/math-v3-afcc8b374e55.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Cluster 3 (n = 12) Cluster 4 (n = 10) Cluster 9 (n = 10) Cluster 8 (n = 13) Cluster 2 (n = 11) Cluster 6 (n = 17)"
+      },
+      {
+        "id": "breure-2024-af490ddcded5",
+        "page": 5,
+        "number": "",
+        "blocks": [
+          "p5-b12-1eb5609",
+          "p5-b13-6279a7a",
+          "p5-b14-e2decfc",
+          "p5-b15-461c248",
+          "p5-b16-21575a5"
+        ],
+        "bbox": [
+          109.260498046875,
+          70.811279296875,
+          150.07701110839844,
+          187.1578369140625
+        ],
+        "path": "library/breure-2024/766abe34a78e/math-v3-af490ddcded5.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Cluster 11 (n = 12) Cluster 1 (n = 12) Cluster 10 (n = 8) Cluster 5 (n = 9) Cluster 7 (n = 5)"
+      },
+      {
+        "id": "breure-2024-8f6b0a9f448c",
+        "page": 7,
+        "number": "",
+        "blocks": [
+          "p7-b11-318c828"
+        ],
+        "bbox": [
+          500.968994140625,
+          67.7190170288086,
+          542.6105346679688,
+          112.89143371582031
+        ],
+        "path": "library/breure-2024/766abe34a78e/math-v3-8f6b0a9f448c.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "All articles Aggregative (n = 9) Interactive (n = 6)"
+      },
+      {
+        "id": "breure-2024-cf00dc73cb40",
+        "page": 7,
+        "number": "",
+        "blocks": [
+          "p7-b19-c0ba089"
+        ],
+        "bbox": [
+          501.9638977050781,
+          167.70960998535156,
+          539.282470703125,
+          226.63197326660156
+        ],
+        "path": "library/breure-2024/766abe34a78e/math-v3-cf00dc73cb40.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "All articles TOA (n = 16) Discipline (n = 12) Oﬀ-site (n = 20)"
+      },
+      {
+        "id": "breure-2024-07c8569a6799",
+        "page": 7,
+        "number": "",
+        "blocks": [
+          "p7-b57-cd67fc2",
+          "p7-b58-dcbf28c"
+        ],
+        "bbox": [
+          488.310791015625,
+          257.3153076171875,
+          543.4945068359375,
+          326.52703857421875
+        ],
+        "path": "library/breure-2024/766abe34a78e/math-v3-07c8569a6799.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Robustness All articles Risk analysis (n = 14) Uncertainty (n = 55) Validation (n = 50)"
+      },
+      {
+        "id": "breure-2024-2a7390dda62c",
+        "page": 10,
+        "number": "",
+        "blocks": [
+          "p10-b4-b86a26c"
+        ],
+        "bbox": [
+          318.1810302734375,
+          52.48424530029297,
+          527.2752075195312,
+          73.40424346923828
+        ],
+        "path": "library/breure-2024/766abe34a78e/math-v3-2a7390dda62c.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "https://CRAN.R-project.org/package=pheatmap (2019)."
+      }
+    ],
+    "inline": {
+      "p1-b3-f53b25c": [
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 42,
+          "end": 43,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 85,
+          "end": 86,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 101,
+          "end": 102,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 124,
+          "end": 125,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p1-b5-4be4ef2": [
+        {
+          "start": 159,
+          "end": 160,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 669,
+          "end": 670,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 1215,
+          "end": 1216,
+          "tag": "sup",
+          "text": "3"
+        }
+      ],
+      "p1-b6-f45db76": [
+        {
+          "start": 89,
+          "end": 90,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 708,
+          "end": 709,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 1055,
+          "end": 1056,
+          "tag": "sup",
+          "text": "5"
+        }
+      ],
+      "p1-b12-980f537": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 91,
+          "end": 92,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p1-b13-f79b3c5": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 40,
+          "end": 41,
+          "tag": "sup",
+          "text": "4"
+        }
+      ],
+      "p2-b5-93a11f9": [
+        {
+          "start": 119,
+          "end": 120,
+          "tag": "sup",
+          "text": "6"
+        },
+        {
+          "start": 172,
+          "end": 173,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 173,
+          "end": 174,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 174,
+          "end": 175,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 175,
+          "end": 176,
+          "tag": "sup",
+          "text": "–"
+        },
+        {
+          "start": 176,
+          "end": 177,
+          "tag": "sup",
+          "text": "7"
+        },
+        {
+          "start": 224,
+          "end": 225,
+          "tag": "sup",
+          "text": "8"
+        },
+        {
+          "start": 225,
+          "end": 226,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 226,
+          "end": 227,
+          "tag": "sup",
+          "text": "9"
+        },
+        {
+          "start": 245,
+          "end": 246,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 747,
+          "end": 749,
+          "tag": "sup",
+          "text": "10"
+        },
+        {
+          "start": 897,
+          "end": 899,
+          "tag": "sup",
+          "text": "11"
+        },
+        {
+          "start": 1104,
+          "end": 1105,
+          "tag": "sup",
+          "text": "9"
+        },
+        {
+          "start": 1105,
+          "end": 1106,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1106,
+          "end": 1108,
+          "tag": "sup",
+          "text": "10"
+        },
+        {
+          "start": 1354,
+          "end": 1356,
+          "tag": "sup",
+          "text": "12"
+        },
+        {
+          "start": 1522,
+          "end": 1524,
+          "tag": "sup",
+          "text": "13"
+        },
+        {
+          "start": 1524,
+          "end": 1525,
+          "tag": "sup",
+          "text": "–"
+        },
+        {
+          "start": 1525,
+          "end": 1527,
+          "tag": "sup",
+          "text": "15"
+        }
+      ],
+      "p5-b3-c9552b0": [
+        {
+          "start": 240,
+          "end": 241,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 241,
+          "end": 242,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 242,
+          "end": 243,
+          "tag": "sup",
+          "text": "6"
+        }
+      ],
+      "p5-b4-cbdace0": [
+        {
+          "start": 97,
+          "end": 99,
+          "tag": "sup",
+          "text": "16"
+        },
+        {
+          "start": 99,
+          "end": 100,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 100,
+          "end": 102,
+          "tag": "sup",
+          "text": "17"
+        },
+        {
+          "start": 475,
+          "end": 476,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 939,
+          "end": 940,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p5-b5-f6ccf8c": [
+        {
+          "start": 138,
+          "end": 140,
+          "tag": "sup",
+          "text": "16"
+        },
+        {
+          "start": 140,
+          "end": 141,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 141,
+          "end": 143,
+          "tag": "sup",
+          "text": "18"
+        },
+        {
+          "start": 454,
+          "end": 455,
+          "tag": "sup",
+          "text": "7"
+        },
+        {
+          "start": 455,
+          "end": 456,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 456,
+          "end": 458,
+          "tag": "sup",
+          "text": "18"
+        }
+      ],
+      "p6-b2-ca53032": [
+        {
+          "start": 138,
+          "end": 140,
+          "tag": "sup",
+          "text": "19"
+        },
+        {
+          "start": 594,
+          "end": 595,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 595,
+          "end": 596,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 596,
+          "end": 597,
+          "tag": "sup",
+          "text": "7"
+        },
+        {
+          "start": 762,
+          "end": 763,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 955,
+          "end": 957,
+          "tag": "sup",
+          "text": "20"
+        }
+      ],
+      "p6-b3-3098107": [
+        {
+          "start": 109,
+          "end": 111,
+          "tag": "sup",
+          "text": "17"
+        }
+      ],
+      "p6-b4-abaee2b": [
+        {
+          "start": 238,
+          "end": 239,
+          "tag": "sup",
+          "text": "6"
+        },
+        {
+          "start": 239,
+          "end": 240,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 240,
+          "end": 241,
+          "tag": "sup",
+          "text": "8"
+        },
+        {
+          "start": 656,
+          "end": 658,
+          "tag": "sup",
+          "text": "21"
+        }
+      ],
+      "p7-b2-4111639": [
+        {
+          "start": 189,
+          "end": 190,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 190,
+          "end": 191,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 191,
+          "end": 192,
+          "tag": "sup",
+          "text": "6"
+        },
+        {
+          "start": 192,
+          "end": 193,
+          "tag": "sup",
+          "text": "–"
+        },
+        {
+          "start": 193,
+          "end": 194,
+          "tag": "sup",
+          "text": "9"
+        },
+        {
+          "start": 194,
+          "end": 195,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 195,
+          "end": 197,
+          "tag": "sup",
+          "text": "22"
+        },
+        {
+          "start": 912,
+          "end": 914,
+          "tag": "sup",
+          "text": "23"
+        },
+        {
+          "start": 1441,
+          "end": 1443,
+          "tag": "sup",
+          "text": "24"
+        },
+        {
+          "start": 1443,
+          "end": 1444,
+          "tag": "sup",
+          "text": "–"
+        },
+        {
+          "start": 1444,
+          "end": 1446,
+          "tag": "sup",
+          "text": "26"
+        }
+      ],
+      "p7-b3-ee05057": [
+        {
+          "start": 5,
+          "end": 7,
+          "tag": "sup",
+          "text": "27"
+        },
+        {
+          "start": 324,
+          "end": 326,
+          "tag": "sup",
+          "text": "28"
+        },
+        {
+          "start": 520,
+          "end": 522,
+          "tag": "sup",
+          "text": "29"
+        },
+        {
+          "start": 847,
+          "end": 849,
+          "tag": "sup",
+          "text": "30"
+        },
+        {
+          "start": 858,
+          "end": 860,
+          "tag": "sup",
+          "text": "31"
+        },
+        {
+          "start": 1198,
+          "end": 1200,
+          "tag": "sup",
+          "text": "32"
+        },
+        {
+          "start": 1594,
+          "end": 1596,
+          "tag": "sup",
+          "text": "10"
+        }
+      ],
+      "p8-b2-7105be4": [
+        {
+          "start": 173,
+          "end": 175,
+          "tag": "sup",
+          "text": "13"
+        },
+        {
+          "start": 421,
+          "end": 422,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 905,
+          "end": 907,
+          "tag": "sup",
+          "text": "13"
+        },
+        {
+          "start": 907,
+          "end": 908,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 908,
+          "end": 910,
+          "tag": "sup",
+          "text": "14"
+        },
+        {
+          "start": 1257,
+          "end": 1259,
+          "tag": "sup",
+          "text": "33"
+        },
+        {
+          "start": 1606,
+          "end": 1608,
+          "tag": "sup",
+          "text": "13"
+        },
+        {
+          "start": 1608,
+          "end": 1609,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1609,
+          "end": 1611,
+          "tag": "sup",
+          "text": "15"
+        },
+        {
+          "start": 1893,
+          "end": 1895,
+          "tag": "sup",
+          "text": "34"
+        },
+        {
+          "start": 2269,
+          "end": 2271,
+          "tag": "sup",
+          "text": "15"
+        },
+        {
+          "start": 2522,
+          "end": 2524,
+          "tag": "sup",
+          "text": "35"
+        }
+      ],
+      "p8-b3-c029ef8": [
+        {
+          "start": 422,
+          "end": 424,
+          "tag": "sup",
+          "text": "36"
+        },
+        {
+          "start": 639,
+          "end": 641,
+          "tag": "sup",
+          "text": "37"
+        },
+        {
+          "start": 838,
+          "end": 840,
+          "tag": "sup",
+          "text": "38"
+        },
+        {
+          "start": 1477,
+          "end": 1479,
+          "tag": "sup",
+          "text": "29"
+        },
+        {
+          "start": 1627,
+          "end": 1629,
+          "tag": "sup",
+          "text": "39"
+        }
+      ],
+      "p8-b4-26cc810": [
+        {
+          "start": 2453,
+          "end": 2455,
+          "tag": "sup",
+          "text": "12"
+        },
+        {
+          "start": 2455,
+          "end": 2456,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 2456,
+          "end": 2458,
+          "tag": "sup",
+          "text": "29"
+        }
+      ],
+      "p8-b5-de578eb": [
+        {
+          "start": 139,
+          "end": 140,
+          "tag": "sup",
+          "text": "9"
+        },
+        {
+          "start": 140,
+          "end": 141,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 141,
+          "end": 143,
+          "tag": "sup",
+          "text": "22"
+        }
+      ],
+      "p9-b2-889a18a": [
+        {
+          "start": 50,
+          "end": 51,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 51,
+          "end": 52,
+          "tag": "sup",
+          "text": "–"
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "tag": "sup",
+          "text": "9"
+        },
+        {
+          "start": 53,
+          "end": 54,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 54,
+          "end": 56,
+          "tag": "sup",
+          "text": "16"
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 57,
+          "end": 59,
+          "tag": "sup",
+          "text": "22"
+        },
+        {
+          "start": 1166,
+          "end": 1167,
+          "tag": "sup",
+          "text": "6"
+        },
+        {
+          "start": 2465,
+          "end": 2467,
+          "tag": "sup",
+          "text": "40"
+        },
+        {
+          "start": 2673,
+          "end": 2674,
+          "tag": "sup",
+          "text": "9"
+        },
+        {
+          "start": 2902,
+          "end": 2904,
+          "tag": "sup",
+          "text": "40"
+        },
+        {
+          "start": 3332,
+          "end": 3334,
+          "tag": "sup",
+          "text": "42"
+        },
+        {
+          "start": 3346,
+          "end": 3348,
+          "tag": "sup",
+          "text": "43"
+        },
+        {
+          "start": 3357,
+          "end": 3359,
+          "tag": "sup",
+          "text": "44"
+        },
+        {
+          "start": 3366,
+          "end": 3368,
+          "tag": "sup",
+          "text": "45"
+        },
+        {
+          "start": 3381,
+          "end": 3383,
+          "tag": "sup",
+          "text": "46"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "toorop-2023": {
+    "sourceHash": "e4c7cc912b38aaa08b5a262a7592dfd917ae3bd5ca24dc1981928beaef131c36",
+    "groups": [
+      {
+        "id": "toorop-2023-b3a6169b1991",
+        "page": 8,
+        "number": "",
+        "blocks": [
+          "p8-b2-a82e164"
+        ],
+        "bbox": [
+          127.8885498046875,
+          119.3154067993164,
+          254.00123596191406,
+          145.43267822265625
+        ],
+        "path": "library/toorop-2023/e4c7cc912b38/math-v3-b3a6169b1991.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Part-time farmer (n = 17) Wealthy farmer (n = 19)"
+      },
+      {
+        "id": "toorop-2023-5e78aec09dae",
+        "page": 8,
+        "number": "",
+        "blocks": [
+          "p8-b3-a26e938"
+        ],
+        "bbox": [
+          262.7029724121094,
+          110.7549819946289,
+          320.5013122558594,
+          145.4326171875
+        ],
+        "path": "library/toorop-2023/e4c7cc912b38/math-v3-5e78aec09dae.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Small-scale crop-livestock farmer (n = 20)"
+      },
+      {
+        "id": "toorop-2023-e626ae37d4ad",
+        "page": 8,
+        "number": "",
+        "blocks": [
+          "p8-b4-e5b940a"
+        ],
+        "bbox": [
+          326.255615234375,
+          110.75492095947266,
+          445.9633483886719,
+          145.43255615234375
+        ],
+        "path": "library/toorop-2023/e4c7cc912b38/math-v3-e626ae37d4ad.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "Medium-scale cereal crop farmer (n = 17) Resource-poor farmers (n = 20)"
+      }
+    ],
+    "inline": {
+      "p1-b2-275691b": [
+        {
+          "start": 20,
+          "end": 21,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 48,
+          "end": 49,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 66,
+          "end": 67,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 67,
+          "end": 68,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 88,
+          "end": 89,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 107,
+          "end": 108,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 124,
+          "end": 125,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 147,
+          "end": 148,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 148,
+          "end": 149,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 149,
+          "end": 150,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 150,
+          "end": 151,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 151,
+          "end": 152,
+          "tag": "sup",
+          "text": "6"
+        }
+      ],
+      "p1-b3-7013e23": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 113,
+          "end": 114,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 335,
+          "end": 336,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 481,
+          "end": 482,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 595,
+          "end": 596,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 688,
+          "end": 689,
+          "tag": "sup",
+          "text": "6"
+        }
+      ],
+      "p6-b0-134e19b": [
+        {
+          "start": 1781,
+          "end": 1782,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p6-b2-146666c": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p9-b2-8144365": [
+        {
+          "start": 2711,
+          "end": 2712,
+          "tag": "sup",
+          "text": "2"
+        }
+      ],
+      "p9-b3-72fd4fb": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "2"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "mixed-2026": {
+    "sourceHash": "1847ca3bcdced1f671eb5a4c41472b2510921d3aa63d7980e5d9de505c4dc346",
+    "groups": [],
+    "inline": {
+      "p1-b4-c7f40c4": [
+        {
+          "start": 24,
+          "end": 25,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 50,
+          "end": 53,
+          "tag": "sup",
+          "text": "2,3"
+        },
+        {
+          "start": 71,
+          "end": 72,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 89,
+          "end": 90,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 113,
+          "end": 114,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 130,
+          "end": 131,
+          "tag": "sup",
+          "text": "6"
+        },
+        {
+          "start": 148,
+          "end": 149,
+          "tag": "sup",
+          "text": "7"
+        },
+        {
+          "start": 169,
+          "end": 170,
+          "tag": "sup",
+          "text": "8"
+        },
+        {
+          "start": 193,
+          "end": 194,
+          "tag": "sup",
+          "text": "9"
+        },
+        {
+          "start": 211,
+          "end": 213,
+          "tag": "sup",
+          "text": "10"
+        },
+        {
+          "start": 229,
+          "end": 231,
+          "tag": "sup",
+          "text": "11"
+        },
+        {
+          "start": 251,
+          "end": 253,
+          "tag": "sup",
+          "text": "12"
+        },
+        {
+          "start": 273,
+          "end": 275,
+          "tag": "sup",
+          "text": "13"
+        },
+        {
+          "start": 295,
+          "end": 297,
+          "tag": "sup",
+          "text": "14"
+        },
+        {
+          "start": 310,
+          "end": 311,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 332,
+          "end": 333,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 351,
+          "end": 352,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 366,
+          "end": 367,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 382,
+          "end": 383,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 402,
+          "end": 403,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 415,
+          "end": 416,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 435,
+          "end": 437,
+          "tag": "sup",
+          "text": "14"
+        },
+        {
+          "start": 460,
+          "end": 462,
+          "tag": "sup",
+          "text": "14"
+        },
+        {
+          "start": 476,
+          "end": 478,
+          "tag": "sup",
+          "text": "15"
+        },
+        {
+          "start": 495,
+          "end": 496,
+          "tag": "sup",
+          "text": "2"
+        },
+        {
+          "start": 517,
+          "end": 518,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p1-b6-a4cf113": [
+        {
+          "start": 364,
+          "end": 365,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 668,
+          "end": 669,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 669,
+          "end": 670,
+          "tag": "sup",
+          "text": "–"
+        },
+        {
+          "start": 670,
+          "end": 671,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 1078,
+          "end": 1079,
+          "tag": "sup",
+          "text": "4"
+        }
+      ],
+      "p1-b7-f2cb10d": [
+        {
+          "start": 43,
+          "end": 44,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 45,
+          "end": 46,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 46,
+          "end": 47,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 47,
+          "end": 48,
+          "tag": "sup",
+          "text": "6"
+        },
+        {
+          "start": 236,
+          "end": 237,
+          "tag": "sup",
+          "text": "7"
+        },
+        {
+          "start": 237,
+          "end": 238,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 238,
+          "end": 239,
+          "tag": "sup",
+          "text": "8"
+        },
+        {
+          "start": 473,
+          "end": 474,
+          "tag": "sup",
+          "text": "9"
+        },
+        {
+          "start": 670,
+          "end": 671,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 671,
+          "end": 672,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 672,
+          "end": 674,
+          "tag": "sup",
+          "text": "10"
+        },
+        {
+          "start": 674,
+          "end": 675,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 675,
+          "end": 677,
+          "tag": "sup",
+          "text": "11"
+        },
+        {
+          "start": 904,
+          "end": 905,
+          "tag": "sup",
+          "text": "1"
+        }
+      ],
+      "p1-b8-e113d3e": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 157,
+          "end": 158,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 251,
+          "end": 252,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 320,
+          "end": 321,
+          "tag": "sup",
+          "text": "5"
+        },
+        {
+          "start": 386,
+          "end": 387,
+          "tag": "sup",
+          "text": "6"
+        }
+      ],
+      "p1-b9-a922ea0": [
+        {
+          "start": 0,
+          "end": 1,
+          "tag": "sup",
+          "text": "7"
+        },
+        {
+          "start": 192,
+          "end": 194,
+          "tag": "sup",
+          "text": "10"
+        },
+        {
+          "start": 260,
+          "end": 262,
+          "tag": "sup",
+          "text": "11"
+        },
+        {
+          "start": 329,
+          "end": 331,
+          "tag": "sup",
+          "text": "12"
+        },
+        {
+          "start": 420,
+          "end": 422,
+          "tag": "sup",
+          "text": "13"
+        },
+        {
+          "start": 485,
+          "end": 487,
+          "tag": "sup",
+          "text": "14"
+        },
+        {
+          "start": 576,
+          "end": 578,
+          "tag": "sup",
+          "text": "15"
+        }
+      ],
+      "p2-b0-d83c0c5": [
+        {
+          "start": 58,
+          "end": 60,
+          "tag": "sup",
+          "text": "12"
+        },
+        {
+          "start": 234,
+          "end": 236,
+          "tag": "sup",
+          "text": "13"
+        },
+        {
+          "start": 532,
+          "end": 534,
+          "tag": "sup",
+          "text": "14"
+        },
+        {
+          "start": 646,
+          "end": 648,
+          "tag": "sup",
+          "text": "15"
+        },
+        {
+          "start": 1156,
+          "end": 1158,
+          "tag": "sup",
+          "text": "16"
+        },
+        {
+          "start": 1158,
+          "end": 1159,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1159,
+          "end": 1161,
+          "tag": "sup",
+          "text": "17"
+        },
+        {
+          "start": 1372,
+          "end": 1374,
+          "tag": "sup",
+          "text": "18"
+        },
+        {
+          "start": 1572,
+          "end": 1574,
+          "tag": "sup",
+          "text": "19"
+        },
+        {
+          "start": 1835,
+          "end": 1837,
+          "tag": "sup",
+          "text": "10"
+        }
+      ],
+      "p2-b1-8dad99f": [
+        {
+          "start": 161,
+          "end": 163,
+          "tag": "sup",
+          "text": "16"
+        },
+        {
+          "start": 506,
+          "end": 508,
+          "tag": "sup",
+          "text": "20"
+        },
+        {
+          "start": 824,
+          "end": 826,
+          "tag": "sup",
+          "text": "21"
+        },
+        {
+          "start": 826,
+          "end": 827,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 827,
+          "end": 829,
+          "tag": "sup",
+          "text": "22"
+        },
+        {
+          "start": 1351,
+          "end": 1353,
+          "tag": "sup",
+          "text": "16"
+        },
+        {
+          "start": 1391,
+          "end": 1393,
+          "tag": "sup",
+          "text": "23"
+        },
+        {
+          "start": 1623,
+          "end": 1625,
+          "tag": "sup",
+          "text": "24"
+        },
+        {
+          "start": 1625,
+          "end": 1626,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1626,
+          "end": 1628,
+          "tag": "sup",
+          "text": "25"
+        }
+      ],
+      "p2-b3-0bcdccb": [
+        {
+          "start": 171,
+          "end": 173,
+          "tag": "sup",
+          "text": "69"
+        }
+      ],
+      "p3-b0-9573f25": [
+        {
+          "start": 341,
+          "end": 343,
+          "tag": "sup",
+          "text": "26"
+        }
+      ],
+      "p4-b0-0094bae": [
+        {
+          "start": 512,
+          "end": 514,
+          "tag": "sup",
+          "text": "27"
+        }
+      ],
+      "p4-b1-a3e9f8d": [
+        {
+          "start": 982,
+          "end": 983,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 983,
+          "end": 984,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 984,
+          "end": 985,
+          "tag": "sup",
+          "text": "5"
+        }
+      ],
+      "p4-b3-3512829": [
+        {
+          "start": 272,
+          "end": 274,
+          "tag": "sup",
+          "text": "28"
+        }
+      ],
+      "p4-b4-1f00382": [
+        {
+          "start": 196,
+          "end": 198,
+          "tag": "sup",
+          "text": "13"
+        },
+        {
+          "start": 864,
+          "end": 866,
+          "tag": "sup",
+          "text": "29"
+        },
+        {
+          "start": 989,
+          "end": 991,
+          "tag": "sup",
+          "text": "30"
+        },
+        {
+          "start": 1181,
+          "end": 1183,
+          "tag": "sup",
+          "text": "16"
+        },
+        {
+          "start": 1466,
+          "end": 1468,
+          "tag": "sup",
+          "text": "31"
+        },
+        {
+          "start": 1759,
+          "end": 1761,
+          "tag": "sup",
+          "text": "32"
+        },
+        {
+          "start": 1761,
+          "end": 1762,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1762,
+          "end": 1764,
+          "tag": "sup",
+          "text": "33"
+        },
+        {
+          "start": 2048,
+          "end": 2050,
+          "tag": "sup",
+          "text": "34"
+        }
+      ],
+      "p4-b8-789e272": [
+        {
+          "start": 129,
+          "end": 131,
+          "tag": "sup",
+          "text": "60"
+        }
+      ],
+      "p4-b9-7e56704": [
+        {
+          "start": 65,
+          "end": 67,
+          "tag": "sup",
+          "text": "61"
+        }
+      ],
+      "p4-b10-1523700": [
+        {
+          "start": 93,
+          "end": 95,
+          "tag": "sup",
+          "text": "62"
+        }
+      ],
+      "p4-b11-bc7a713": [
+        {
+          "start": 90,
+          "end": 92,
+          "tag": "sup",
+          "text": "33"
+        }
+      ],
+      "p4-b12-e1b533a": [
+        {
+          "start": 79,
+          "end": 81,
+          "tag": "sup",
+          "text": "63"
+        }
+      ],
+      "p4-b13-9400fb4": [
+        {
+          "start": 103,
+          "end": 105,
+          "tag": "sup",
+          "text": "64"
+        }
+      ],
+      "p4-b14-3750987": [
+        {
+          "start": 89,
+          "end": 91,
+          "tag": "sup",
+          "text": "65"
+        }
+      ],
+      "p4-b15-aa991e8": [
+        {
+          "start": 160,
+          "end": 162,
+          "tag": "sup",
+          "text": "22"
+        }
+      ],
+      "p4-b16-7703e80": [
+        {
+          "start": 80,
+          "end": 82,
+          "tag": "sup",
+          "text": "66"
+        }
+      ],
+      "p4-b17-9610990": [
+        {
+          "start": 236,
+          "end": 238,
+          "tag": "sup",
+          "text": "67"
+        }
+      ],
+      "p4-b19-e080330": [
+        {
+          "start": 201,
+          "end": 203,
+          "tag": "sup",
+          "text": "68"
+        }
+      ],
+      "p5-b0-035adab": [
+        {
+          "start": 155,
+          "end": 157,
+          "tag": "sup",
+          "text": "35"
+        },
+        {
+          "start": 157,
+          "end": 158,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 158,
+          "end": 160,
+          "tag": "sup",
+          "text": "36"
+        }
+      ],
+      "p5-b2-43ff0c7": [
+        {
+          "start": 349,
+          "end": 351,
+          "tag": "sup",
+          "text": "37"
+        },
+        {
+          "start": 351,
+          "end": 352,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 352,
+          "end": 354,
+          "tag": "sup",
+          "text": "38"
+        },
+        {
+          "start": 1747,
+          "end": 1749,
+          "tag": "sup",
+          "text": "39"
+        },
+        {
+          "start": 1972,
+          "end": 1974,
+          "tag": "sup",
+          "text": "40"
+        },
+        {
+          "start": 1974,
+          "end": 1975,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1975,
+          "end": 1977,
+          "tag": "sup",
+          "text": "41"
+        }
+      ],
+      "p5-b3-94c24ca": [
+        {
+          "start": 126,
+          "end": 128,
+          "tag": "sup",
+          "text": "40"
+        },
+        {
+          "start": 128,
+          "end": 129,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 129,
+          "end": 131,
+          "tag": "sup",
+          "text": "42"
+        }
+      ],
+      "p5-b5-6078063": [
+        {
+          "start": 530,
+          "end": 532,
+          "tag": "sup",
+          "text": "43"
+        },
+        {
+          "start": 663,
+          "end": 665,
+          "tag": "sup",
+          "text": "44"
+        },
+        {
+          "start": 1070,
+          "end": 1072,
+          "tag": "sup",
+          "text": "45"
+        },
+        {
+          "start": 1072,
+          "end": 1073,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1073,
+          "end": 1075,
+          "tag": "sup",
+          "text": "46"
+        }
+      ],
+      "p6-b1-2e603f5": [
+        {
+          "start": 244,
+          "end": 246,
+          "tag": "sup",
+          "text": "47"
+        },
+        {
+          "start": 246,
+          "end": 247,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 247,
+          "end": 249,
+          "tag": "sup",
+          "text": "48"
+        },
+        {
+          "start": 618,
+          "end": 620,
+          "tag": "sup",
+          "text": "49"
+        },
+        {
+          "start": 847,
+          "end": 849,
+          "tag": "sup",
+          "text": "17"
+        },
+        {
+          "start": 849,
+          "end": 850,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 850,
+          "end": 852,
+          "tag": "sup",
+          "text": "21"
+        },
+        {
+          "start": 1120,
+          "end": 1121,
+          "tag": "sup",
+          "text": "3"
+        },
+        {
+          "start": 1263,
+          "end": 1265,
+          "tag": "sup",
+          "text": "22"
+        },
+        {
+          "start": 1585,
+          "end": 1587,
+          "tag": "sup",
+          "text": "17"
+        }
+      ],
+      "p6-b2-36d7cf7": [
+        {
+          "start": 209,
+          "end": 211,
+          "tag": "sup",
+          "text": "50"
+        },
+        {
+          "start": 587,
+          "end": 589,
+          "tag": "sup",
+          "text": "51"
+        },
+        {
+          "start": 1025,
+          "end": 1027,
+          "tag": "sup",
+          "text": "52"
+        },
+        {
+          "start": 1686,
+          "end": 1688,
+          "tag": "sup",
+          "text": "22"
+        }
+      ],
+      "p6-b3-687001b": [
+        {
+          "start": 564,
+          "end": 566,
+          "tag": "sup",
+          "text": "53"
+        },
+        {
+          "start": 566,
+          "end": 567,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 567,
+          "end": 569,
+          "tag": "sup",
+          "text": "54"
+        }
+      ],
+      "p6-b4-49e76e2": [
+        {
+          "start": 16,
+          "end": 18,
+          "tag": "sup",
+          "text": "55"
+        },
+        {
+          "start": 779,
+          "end": 781,
+          "tag": "sup",
+          "text": "26"
+        },
+        {
+          "start": 781,
+          "end": 782,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 782,
+          "end": 784,
+          "tag": "sup",
+          "text": "56"
+        },
+        {
+          "start": 1421,
+          "end": 1423,
+          "tag": "sup",
+          "text": "26"
+        },
+        {
+          "start": 1423,
+          "end": 1424,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1424,
+          "end": 1426,
+          "tag": "sup",
+          "text": "42"
+        },
+        {
+          "start": 1426,
+          "end": 1427,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 1427,
+          "end": 1429,
+          "tag": "sup",
+          "text": "57"
+        },
+        {
+          "start": 1742,
+          "end": 1744,
+          "tag": "sup",
+          "text": "58"
+        },
+        {
+          "start": 2008,
+          "end": 2010,
+          "tag": "sup",
+          "text": "26"
+        },
+        {
+          "start": 2010,
+          "end": 2011,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 2011,
+          "end": 2013,
+          "tag": "sup",
+          "text": "33"
+        },
+        {
+          "start": 2013,
+          "end": 2014,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 2014,
+          "end": 2016,
+          "tag": "sup",
+          "text": "56"
+        },
+        {
+          "start": 2715,
+          "end": 2717,
+          "tag": "sup",
+          "text": "56"
+        },
+        {
+          "start": 2717,
+          "end": 2718,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 2718,
+          "end": 2720,
+          "tag": "sup",
+          "text": "59"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
+  "verdouw-2021": {
+    "sourceHash": "6cd910d4ac59ed97e78b6df405d14a08a7265c69e08575f5ab37f013d1f45ca9",
+    "groups": [],
+    "inline": {
+      "p1-b4-f98b69c": [
+        {
+          "start": 12,
+          "end": 13,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "tag": "sup",
+          "text": "b"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "tag": "sup",
+          "text": "*"
+        },
+        {
+          "start": 38,
+          "end": 39,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 72,
+          "end": 73,
+          "tag": "sup",
+          "text": "a"
+        },
+        {
+          "start": 73,
+          "end": 74,
+          "tag": "sup",
+          "text": ","
+        },
+        {
+          "start": 74,
+          "end": 75,
+          "tag": "sup",
+          "text": "c"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  }
+}

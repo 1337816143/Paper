@@ -66,8 +66,8 @@
     },
     {
       "path": "vendor/translation/transformers.web.min.js",
-      "bytes": 469931,
-      "sha256": "a8413eff44e055305b2028885b94caf591ce961b421e83b6d9f39fe8f29bda67"
+      "bytes": 891774,
+      "sha256": "b642c0b08a3f132e4eaed1448c3eb0886826cbe31f41dfbbf785274d6917d098"
     },
     {
       "path": "vendor/translation/wasm/ort-wasm-simd-threaded.jsep.mjs",
@@ -90,5 +90,6 @@
       "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     }
   ],
-  "totalBytes": 152786304
+  "totalBytes": 153208147,
+  "bundler": "esbuild@0.25.10; all JavaScript imports bundled for native module worker"
 }

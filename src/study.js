@@ -38,7 +38,7 @@ function showTerm(el){const t=termsById.get(el.dataset.studyTerm);if(!t)return;i
 document.addEventListener('pointerdown',e=>{if(!e.target.closest('.term-popover,[data-study-term]'))hideTerm();},true);
 document.addEventListener('click',e=>{const el=e.target.closest('[data-study-term]');if(!el||el.closest('mark[data-annotation]'))return;if(getSelection()?.toString().trim())return;e.preventDefault();e.stopImmediatePropagation();showTerm(el);},true);
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){hideTerm();return;}const el=e.target.closest('[data-study-term]');if(el&&['Enter',' '].includes(e.key)){e.preventDefault();showTerm(el);}});
-addEventListener('resize',hideTerm);addEventListener('scroll',hideTerm,{passive:true});
+addEventListener('resize',hideTerm);addEventListener('wheel',hideTerm,{passive:true});addEventListener('touchmove',hideTerm,{passive:true});
 
 /* Frameworks retain every existing detail section, anchor and annotation ID. */
 function mountLesson(id){const root=$('#view .reader');if(!root)return;const frame=data.frameworks[id];
@@ -61,9 +61,10 @@ function mountLesson(id){const root=$('#view .reader');if(!root)return;const fra
 }
 
 /* The English source stays byte-for-byte unchanged in the archive. Layout is an overlay. */
-function mountEquations(b){const layout=layouts[b.id];if(!layout||layout.sourceHash!==b.sourceHash)return;
+function mountInline(b){const entry=layouts[b.id];if(!entry||entry.sourceHash!==b.sourceHash)return;for(const [id,ranges] of Object.entries(entry.inline||{})){const el=document.getElementById(id);if(!el||!el.closest('#original-text')||el.dataset.inlineRestored)continue;el.dataset.inlineRestored='v3';for(const r of [...ranges].sort((a,b)=>b.start-a.start)){if(el.textContent.slice(r.start,r.end)!==r.text||!['sup','sub'].includes(r.tag))continue;const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);let n=0,nodes=[];while(walker.nextNode()){const t=walker.currentNode;nodes.push([t,n,n+t.length]);n+=t.length;}for(const [t,a,z] of nodes.reverse()){const start=Math.max(a,r.start)-a,end=Math.min(z,r.end)-a;if(end<=start)continue;const range=document.createRange();range.setStart(t,start);range.setEnd(t,end);const tag=document.createElement(r.tag);tag.className='source-inline-script';range.surroundContents(tag);}}}}
+function mountEquations(b){mountInline(b);const layout=layouts[b.id];if(!layout||layout.sourceHash!==b.sourceHash)return;
  for(const g of layout.groups||[]){const first=document.getElementById(g.blocks[0]);if(!first||!first.closest('#original-text')||document.getElementById('equation-'+g.id))continue;
-  const box=document.createElement('figure');box.className='study-equation';box.id='equation-'+g.id;box.innerHTML=`<div class="equation-display">${g.mathml||`<img src="${E(safePath(g.path))}" alt="原文第${g.page}页公式${E(g.number||'')}，保持原符号">`}<span class="equation-number">${g.number?'('+E(g.number)+')':''}</span></div><figcaption>原文第${g.page}页 · ${g.mathml?'公式结构重排，符号按原文':'原式保真排版，不猜测符号'} <button type="button" class="formula-note">公式便签</button></figcaption><details class="formula-raw"><summary>核对原式与原始提取文字</summary><img src="${E(safePath(g.path))}" alt="原式核对图"></details>`;first.before(box);const raw=$('.formula-raw',box);for(const blockId of g.blocks){const el=document.getElementById(blockId);if(el){el.dataset.formulaPart='true';raw.append(el);}}
+  const box=document.createElement('figure');box.className='study-equation';box.id='equation-'+g.id;box.innerHTML=`<div class="equation-display">${g.mathml||`<img src="${E(safePath(g.path))}" alt="原文第${g.page}页公式${E(g.number||'')}，保持原符号">`}<span class="equation-number">${g.number&&g.mathml?'('+E(g.number)+')':''}</span></div><figcaption>原文第${g.page}页 · ${g.mathml?'公式结构重排，符号按原文':'原式保真排版，不猜测符号'} <button type="button" class="formula-note">公式便签</button></figcaption><details class="formula-raw"><summary>核对原式与原始提取文字</summary><img src="${E(safePath(g.path))}" alt="原式核对图"></details>`;first.before(box);const raw=$('.formula-raw',box);for(const blockId of g.blocks){const el=document.getElementById(blockId);if(el){el.dataset.formulaPart='true';raw.append(el);}}
   $('.formula-note',box).onclick=()=>window.PaperReader.editNote(null,{docId:b.id,docTitle:b.title,sourceHash:b.sourceHash,block:box.id,quote:'原文第'+g.page+'页公式 '+(g.number||''),type:'note'});
  }
 }

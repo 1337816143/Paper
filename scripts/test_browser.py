@@ -14,11 +14,13 @@ with sync_playwright() as p:
     page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto('http://127.0.0.1:8765/#/home');page.wait_for_selector('.hero')
     page.screenshot(path=str(RES/'desktop.png'),full_page=True)
-    page.locator('a.btn[href="#/liang-2022"]').click();page.wait_for_selector('#note')
+    page.locator('a.btn[href="#/research-framework"]').click();page.wait_for_selector('.journey-map');page.goto('http://127.0.0.1:8765/#/liang-2022');page.wait_for_selector('#note')
     page.evaluate('window.scrollTo(0,850)');page.wait_for_timeout(350);before=page.evaluate('scrollY')
     # Navigate without scrolling the link into view; use a real link click event.
     page.evaluate("document.querySelector('a[href=\"#/ideal-distance\"]').click()")
-    page.wait_for_selector('h1');page.wait_for_timeout(150);page.locator('#back').click();page.wait_for_timeout(400)
+    
+    if page.locator('#study-term-popover').count():page.evaluate("document.querySelector('#study-term-popover a[href=\"#/ideal-distance\"]').click()")
+    page.wait_for_function("location.hash==='#/ideal-distance'");page.wait_for_timeout(150);page.locator('#back').click();page.wait_for_timeout(400)
     assert abs(page.evaluate('scrollY')-before)<8,(before,page.evaluate('scrollY'))
     checks.append('cross-link back restores exact reading position')
     page.locator('#note').fill('TEST NOTE: preserved across navigation and reload')

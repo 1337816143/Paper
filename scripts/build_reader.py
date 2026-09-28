@@ -1,48 +1,50 @@
 #!/usr/bin/env python3
-"""Build the tutorial and licensed reflow reader without network access."""
+"""Installed as build_reader.py. Ordinary builds use only reviewed local assets."""
 from pathlib import Path
 import sys,subprocess,argparse,shutil,json,hashlib,html
 from package_reader import pack
 ROOT=Path(__file__).resolve().parents[1]
+def js(name,obj):return 'window.'+name+'='+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+';\n'
 def main():
  subprocess.run([sys.executable,str(ROOT/'scripts/build_tutorials.py'),*sys.argv[1:]],check=True)
  ap=argparse.ArgumentParser();ap.add_argument('--out',default='dist/site');ap.add_argument('--source-commit',default='local');ap.add_argument('--date');a=ap.parse_args();out=Path(a.out).resolve()
- catalog=json.loads((ROOT/'resources/catalog.json').read_text())
+ catalog=json.loads((ROOT/'resources/catalog.json').read_text());study=json.loads((ROOT/'resources/study-v3.json').read_text());layouts=json.loads((ROOT/'resources/study-layouts.json').read_text());model=json.loads((ROOT/'vendor/translation/manifest.json').read_text())
  for r in catalog['records']:
   if not r.get('bookPath'):continue
   assert r.get('license',{}).get('url','').startswith('https://creativecommons.org/licenses/'),'Unlicensed source'
   p=(ROOT/'resources'/r['originalPath']).resolve();assert p.is_relative_to((ROOT/'resources/library').resolve())
   assert hashlib.sha256(p.read_bytes()).hexdigest()==r['sha256'],'Source integrity mismatch'
- shutil.copytree(ROOT/'resources/library',out/'library',dirs_exist_ok=True)
- shutil.copytree(ROOT/'vendor',out/'vendor',dirs_exist_ok=True)
- for n in ['reader.js','reader.css']:shutil.copyfile(ROOT/'src'/n,out/n)
- resources='window.PAPER_SOURCES='+json.dumps(catalog,ensure_ascii=False).replace('<','\\u003c')+';\n';(out/'resources.js').write_text(resources)
- data=json.loads((out/'data.json').read_text());oldversion=data['version']
- version=hashlib.sha256((oldversion+json.dumps(catalog,sort_keys=True)).encode()).hexdigest()[:12];data['version']=version
- (out/'data.js').write_text('window.PAPER_DATA='+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+';\n')
- (out/'data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
+ for f in model['files']:
+  p=(ROOT/f['path']).resolve();assert p.is_relative_to((ROOT/'vendor/translation').resolve())
+  assert p.stat().st_size==f['bytes'] and hashlib.sha256(p.read_bytes()).hexdigest()==f['sha256'],'Translation asset hash mismatch'
+ shutil.copytree(ROOT/'resources/library',out/'library',dirs_exist_ok=True);shutil.copytree(ROOT/'vendor',out/'vendor',dirs_exist_ok=True)
+ for n in ['reader.js','reader.css','study.js','study.css','translation-worker.js']:shutil.copyfile(ROOT/'src'/n,out/n)
+ (out/'resources.js').write_text(js('PAPER_SOURCES',catalog));(out/'study-data.js').write_text(js('PAPER_STUDY',study));(out/'study-layouts.js').write_text(js('PAPER_LAYOUTS',layouts))
+ data=json.loads((out/'data.json').read_text());oldversion=data['version'];digest=hashlib.sha256(oldversion.encode())
+ for name in ['resources/catalog.json','resources/study-v3.json','resources/study-layouts.json','vendor/translation/manifest.json','src/reader.js','src/study.js','src/study.css','src/translation-worker.js']:
+  digest.update(name.encode());digest.update((ROOT/name).read_bytes())
+ version=digest.hexdigest()[:12];data['version']=version
+ (out/'data.js').write_text(js('PAPER_DATA',data));(out/'data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
  for p in (out/'read').glob('*.html'):
   h=p.read_text()
   for r in catalog['records']:
    for u in set(r.get('aliases',[])+[r.get('sourceURL',''),r.get('downloadURL','')]):
     if u:h=h.replace('href="'+html.escape(u,quote=True)+'"','href="../index.html#/original/'+r['id']+'"')
   p.write_text(h)
- # Embed the reader interface only; original assets belong to full cache/source volumes.
+ # The lightweight HTML includes study content/tooltips, but not model weights/originals.
  single=(out/'downloads/Paper-Lab-offline.html').read_text().replace(oldversion,version)
- single=single.replace('<link rel="stylesheet" href="reader.css">','<style>'+(out/'reader.css').read_text()+'</style>')
- single=single.replace('<script src="resources.js"></script>','<script>'+resources+'</script>')
- single=single.replace('<script src="reader.js"></script>','<script>'+(out/'reader.js').read_text().replace('</script','<\\/script')+'</script>')
- single=single.replace('href="downloads/','href="./').replace('href="read/index.html"','href="../read/index.html"')
- (out/'downloads/Paper-Lab-offline.html').write_text(single)
- release=json.loads((out/'release.json').read_text())
- release.update(version=version,externalPDFsCached=True,reader='reflow-v2',originalResourcesIncludedInFullCache=True,archivedOriginals=sum(bool(r.get('bookPath')) for r in catalog['records']),pendingOriginals=sum(not bool(r.get('bookPath')) for r in catalog['records']),originalBytes=sum(p.stat().st_size for p in (out/'library').rglob('*') if p.is_file()))
- (out/'release.json').write_text(json.dumps(release,ensure_ascii=False,indent=2))
- (out/'downloads/Paper-Lab-offline.zip').unlink(missing_ok=True);(out/'sw.js').unlink(missing_ok=True)
- files=[p for p in out.rglob('*') if p.is_file() and p.name not in ['.nojekyll','data.json','offline-manifest.json']]
- core=sorted('./'+p.relative_to(out).as_posix() for p in files if not p.relative_to(out).as_posix().startswith(('library/','downloads/')))
- lib=sorted('./'+p.relative_to(out).as_posix() for p in files if p.relative_to(out).as_posix().startswith(('library/','downloads/')))
- books={r['id']:[p for p in lib if p.startswith('./'+str(Path(r['bookPath']).parent)+'/')] for r in catalog['records'] if r.get('bookPath')}
+ for css in ['reader.css','study.css']:single=single.replace('<link rel="stylesheet" href="'+css+'">','<style>'+(out/css).read_text()+'</style>')
+ for name in ['resources.js','study-data.js','study-layouts.js','study.js','reader.js']:single=single.replace('<script src="'+name+'"></script>','<script>'+(out/name).read_text().replace('</script','<\\/script')+'</script>')
+ single=single.replace('href="downloads/','href="./').replace('href="read/index.html"','href="../read/index.html"');(out/'downloads/Paper-Lab-offline.html').write_text(single)
+ release=json.loads((out/'release.json').read_text());release.update(version=version,externalPDFsCached=True,reader='reflow-study-v3',originalResourcesIncludedInFullCache=True,archivedOriginals=sum(bool(r.get('bookPath')) for r in catalog['records']),pendingOriginals=sum(not bool(r.get('bookPath')) for r in catalog['records']),originalBytes=sum(p.stat().st_size for p in (out/'library').rglob('*') if p.is_file()),studyFrameworks=len(study['frameworks']),glossaryTerms=len(study['terms']),translation={'mode':'on-device private machine translation; not a pre-reviewed full translation library','offlineModelIncluded':True,'assetBytes':model['totalBytes'],'model':model['model'],'modelRevision':model['revision']},math={'sourceEquationGroups':sum(len(x['groups']) for x in layouts.values()),'mathmlTranscriptions':sum('mathml' in g for x in layouts.values() for g in x['groups']),'sourceTextUnchanged':True})
+ (out/'release.json').write_text(json.dumps(release,ensure_ascii=False,indent=2));(out/'downloads/Paper-Lab-offline.zip').unlink(missing_ok=True);(out/'sw.js').unlink(missing_ok=True)
+ files=[p for p in out.rglob('*') if p.is_file() and p.name not in ['.nojekyll','data.json','offline-manifest.json'] and p.suffix!='.zip']
+ large=('library/','downloads/','vendor/translation/')
+ core=sorted('./'+p.relative_to(out).as_posix() for p in files if not p.relative_to(out).as_posix().startswith(large))
+ lib=sorted('./'+p.relative_to(out).as_posix() for p in files if p.relative_to(out).as_posix().startswith(large))
+ books={r['id']:[p for p in lib if p.startswith('./'+str(Path(r['bookPath']).parent)+'/')] for r in catalog['records'] if r.get('bookPath')};books['translation-engine']=[p for p in lib if p.startswith('./vendor/translation/')]
  (out/'offline-manifest.json').write_text(json.dumps({'core':core,'library':lib,'books':books,'bytes':sum(p.stat().st_size for p in files)},ensure_ascii=False,indent=2))
  pack(out)
+ # Capture compact build evidence; no notes or private translations included.
  print(json.dumps(release,ensure_ascii=False))
 if __name__=='__main__':main()
