@@ -1,0 +1,94 @@
+{
+  "schema": "paper.translation.assets.v1",
+  "model": "Xenova/opus-mt-en-zh",
+  "revision": "046f55aec303cdee3e0318604406d4df20f1e8ea",
+  "baseModel": "Helsinki-NLP/opus-mt-en-zh",
+  "baseRevision": "408d9bc410a388e1d9aef112a2daba955b945255",
+  "modelLicense": "Apache-2.0",
+  "runtime": "@huggingface/transformers@3.8.1",
+  "onnxRuntime": "1.22.0-dev.20250409-89f8206ba4",
+  "scope": "Browser-only private machine translation. No public translation of NoDerivatives originals. No remote inference.",
+  "files": [
+    {
+      "path": "vendor/translation/BASE-MODEL-CARD.md",
+      "bytes": 2670,
+      "sha256": "83eee2a6598751f746a057e10d5c9dfd71d6b0cf0146f9e6c1bb3ebd6e90959b"
+    },
+    {
+      "path": "vendor/translation/MODEL-CARD.md",
+      "bytes": 571,
+      "sha256": "4aeb4d31c2b0ab8dd06aaa6c8705f8bdada6869ca67def9c2e1f5475ff007530"
+    },
+    {
+      "path": "vendor/translation/MODEL-LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "vendor/translation/TRANSFORMERS-LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "vendor/translation/models/opus-mt-en-zh/config.json",
+      "bytes": 1503,
+      "sha256": "4727d1229a04f95bf6f39abf949d8080615433d99d6ebd85f81c09edd247d5fa"
+    },
+    {
+      "path": "vendor/translation/models/opus-mt-en-zh/generation_config.json",
+      "bytes": 293,
+      "sha256": "b743baabb7da4c1a2f19fe558bd6b4c0c7c3b0762fcb5ca7a48fe5a2c2219803"
+    },
+    {
+      "path": "vendor/translation/models/opus-mt-en-zh/onnx/decoder_model_merged_quantized.onnx",
+      "bytes": 60212804,
+      "sha256": "023be4f841f4c47cd65fffcbaa81c0d99d7f7e0138f7ba0e03fa220a4e688aff"
+    },
+    {
+      "path": "vendor/translation/models/opus-mt-en-zh/onnx/encoder_model_quantized.onnx",
+      "bytes": 52899742,
+      "sha256": "d3b7912bf6a9bd27e4c074c2df91d4ff3d5b4bc5f7f6c8d7cc9c805c98fbafee"
+    },
+    {
+      "path": "vendor/translation/models/opus-mt-en-zh/special_tokens_map.json",
+      "bytes": 74,
+      "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723"
+    },
+    {
+      "path": "vendor/translation/models/opus-mt-en-zh/tokenizer.json",
+      "bytes": 6380952,
+      "sha256": "d0c7da27056e8f42adce9e76d8e792e5daa64e15f5acd2e7aabf0121877dd4c1"
+    },
+    {
+      "path": "vendor/translation/models/opus-mt-en-zh/tokenizer_config.json",
+      "bytes": 282,
+      "sha256": "a914596e6bff113a8428d4793b586da87cd0b95697a0e72aba90cc1d95858481"
+    },
+    {
+      "path": "vendor/translation/transformers.web.min.js",
+      "bytes": 469931,
+      "sha256": "a8413eff44e055305b2028885b94caf591ce961b421e83b6d9f39fe8f29bda67"
+    },
+    {
+      "path": "vendor/translation/wasm/ort-wasm-simd-threaded.jsep.mjs",
+      "bytes": 44484,
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9"
+    },
+    {
+      "path": "vendor/translation/wasm/ort-wasm-simd-threaded.jsep.wasm",
+      "bytes": 21596019,
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    },
+    {
+      "path": "vendor/translation/wasm/ort-wasm-simd-threaded.mjs",
+      "bytes": 20856,
+      "sha256": "43c25054b6b9ac000f786c65545ff83a45f871e0e310e8c2f4d48a363bb66db4"
+    },
+    {
+      "path": "vendor/translation/wasm/ort-wasm-simd-threaded.wasm",
+      "bytes": 11133407,
+      "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
+    }
+  ],
+  "totalBytes": 152786304
+}
