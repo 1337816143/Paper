@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-28T15:06:55.901620+00:00",
+  "checkedAt": "2026-09-28T15:18:04.050994+00:00",
   "authenticated": false,
   "noPrivateCredentialsUsed": true,
   "scope": "Public source reachability only, not a new public redistribution license",
@@ -23,13 +23,6 @@
             "10.1007/s13593-026-01097-8"
           ],
           "licenseMarkers": []
-        },
-        {
-          "url": "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf",
-          "authenticated": false,
-          "http": 200,
-          "finalURL": "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf",
-          "status": "landing-page-not-pdf"
         }
       ]
     },
@@ -37,7 +30,14 @@
       "id": "farmdesign-2012",
       "title": "Multi-objective optimization and design of farming systems",
       "publicArchive": false,
-      "routes": []
+      "routes": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0308521X12000558",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
     },
     {
       "id": "landscape-2018",
@@ -71,7 +71,14 @@
       "id": "ditzler-2019",
       "title": "A model to examine farm household trade-offs and synergies with an application to smallholders in Vietnam",
       "publicArchive": false,
-      "routes": []
+      "routes": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0308521X18307340/pdfft",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
     },
     {
       "id": "liang-thesis",
@@ -95,7 +102,7 @@
           "url": "https://edepot.wur.nl/681106",
           "authenticated": false,
           "status": "request-failed",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ]
     },
@@ -107,9 +114,8 @@
         {
           "url": "https://edepot.wur.nl/681150",
           "authenticated": false,
-          "http": 200,
-          "finalURL": "https://edepot.wur.nl/681150",
-          "status": "size-limit"
+          "status": "request-failed",
+          "error": "The read operation timed out"
         }
       ]
     },

@@ -94,7 +94,7 @@
       "accessStatus": "public-pdf-readable",
       "accessNote": "本轮无需登录即可读取此来源的完整PDF（20页）。全文访问和本站公开转载分别处理：可从来源下载并导入个人阅读库；未将许可待确认的原件公开镜像。 WUR官方记录标注Taverne。",
       "accessEvidence": "https://research.wur.nl/en/publications/farmsteps-a-model-for-spatial-temporal-exploration-of-diversified/",
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/713946",
@@ -110,13 +110,6 @@
             "10.1007/s13593-026-01097-8"
           ],
           "licenseMarkers": []
-        },
-        {
-          "url": "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf",
-          "authenticated": false,
-          "http": 200,
-          "finalURL": "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf",
-          "status": "landing-page-not-pdf"
         }
       ]
     },
@@ -271,9 +264,17 @@
         "https://doi.org/10.1016/j.agsy.2012.03.012",
         "https://research.wur.nl/en/publications/multi-objective-optimization-and-design-of-farming-systems/"
       ],
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
-      "accessAttempts": [],
-      "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
+      "accessAttempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0308521X12000558",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "accessNote": "出版商记录提供机构访问入口；WUR公开记录当前未列出独立仓储PDF。可通过机构订阅获取后导入，不把未取得原件写成全文不存在。",
+      "candidateURL": "https://www.sciencedirect.com/science/article/pii/S0308521X12000558"
     },
     {
       "id": "landscape-2018",
@@ -296,7 +297,7 @@
         "https://doi.org/10.1016/j.landurbplan.2017.12.008",
         "https://research.wur.nl/en/publications/exploring-ecosystem-services-trade-offs-in-agricultural-landscape/"
       ],
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/445630",
@@ -329,7 +330,7 @@
       "aliases": [
         "https://doi.org/10.1016/j.agee.2006.03.037"
       ],
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [],
       "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
     },
@@ -379,9 +380,18 @@
         "https://doi.org/10.1016/j.agsy.2019.02.008",
         "https://research.wur.nl/en/publications/a-model-to-examine-farm-household-trade-offs-and-synergies-with-a/"
       ],
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
-      "accessAttempts": [],
-      "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
+      "accessAttempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0308521X18307340/pdfft",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "accessNote": "WUR官方记录标注CC BY，出版商页面提供View PDF入口。此前没有归档不等于没有开放全文；可打开出版商下载，直链仍可能受跨域或平台访问限制。",
+      "candidateURL": "https://www.sciencedirect.com/science/article/pii/S0308521X18307340/pdfft",
+      "accessStatus": "open-access-reported"
     },
     {
       "id": "qu-2025",
@@ -566,7 +576,7 @@
         "https://research.wur.nl/en/publications/exploring-sustainable-and-diversified-crop-production-systems-for/"
       ],
       "candidateURL": "https://edepot.wur.nl/677384",
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/677384",
@@ -575,7 +585,7 @@
           "error": "HTTP Error 400: Bad Request"
         }
       ],
-      "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
+      "accessNote": "WUR官方学位论文记录提供Download PDF入口。本轮服务器直读曾返回HTTP 400；这是一次技术请求失败，不等于你没有权限，也不代表无全文。可从官方记录进入下载后导入本机。"
     },
     {
       "id": "cheng-thesis",
@@ -597,16 +607,16 @@
         "https://research.wur.nl/en/publications/multifunctional-and-stakeholder-informed-agricultural-landscape-r/"
       ],
       "candidateURL": "https://edepot.wur.nl/681106",
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/681106",
           "authenticated": false,
           "status": "request-failed",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
-      "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
+      "accessNote": "WUR官方学位论文记录提供Download PDF入口。本轮服务器直读曾返回HTTP 400；这是一次技术请求失败，不等于你没有权限，也不代表无全文。可从官方记录进入下载后导入本机。"
     },
     {
       "id": "xu-thesis",
@@ -628,17 +638,16 @@
         "https://research.wur.nl/en/publications/exploring-options-for-a-more-sustainable-crop-production-on-the-n/"
       ],
       "candidateURL": "https://edepot.wur.nl/681150",
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/681150",
           "authenticated": false,
-          "http": 200,
-          "finalURL": "https://edepot.wur.nl/681150",
-          "status": "size-limit"
+          "status": "request-failed",
+          "error": "The read operation timed out"
         }
       ],
-      "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
+      "accessNote": "已知WUR原件入口有响应，但本轮访问审计在45MB检测上限处停止，未归类为权限问题。个人PDF导入支持单文件120MB和最多400页；超过限制请分卷。"
     },
     {
       "id": "groot-2017",
@@ -656,7 +665,7 @@
       "aliases": [
         "https://research.wur.nl/en/publications/integrated-systems-research-in-nutrition-sensitive-landscapes-a-t/"
       ],
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [],
       "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
     },
@@ -669,7 +678,7 @@
       "aliases": [
         "https://data.mendeley.com/datasets/jp3v9859cx/1"
       ],
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [],
       "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
     },
@@ -682,7 +691,7 @@
       "aliases": [
         "https://git.wur.nl/jeroen.groot/farmsteps.package"
       ],
-      "accessCheckedAt": "2026-09-28T15:06:55.901620+00:00",
+      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [],
       "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
     }
