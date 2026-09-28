@@ -7,12 +7,22 @@ for name in ['scripts/build_reader.py','scripts/build_study.py']:
 p=ROOT/'scripts/test_study.py';s=p.read_text()
 needle="checks.append('Original source text and anchors unchanged; display math reconstructed from verified source layout')"
 addition='''
-  # A native display must represent every numbered expression in its source region.
-  # Regression: Liang equations 9 and 10 share one region and must BOTH remain visible.
-  assert page.evaluate("""()=>Object.values(PAPER_LAYOUTS).every(item=>item.groups.every(g=>!g.mathml||JSON.stringify(g.numbers)===JSON.stringify([...new DOMParser().parseFromString(g.mathml,'text/html').querySelectorAll('[data-equation-number]')].map(e=>e.dataset.equationNumber)))))""")
+  # Native presentation must cover every expression in a source region, not just the last.
+  assert page.evaluate("""() => {
+    for (const item of Object.values(PAPER_LAYOUTS)) {
+      for (const group of item.groups) {
+        if (!group.mathml) continue;
+        const document = new DOMParser().parseFromString(group.mathml, 'text/html');
+        const numbers = [...document.querySelectorAll('[data-equation-number]')]
+          .map(element => element.getAttribute('data-equation-number'));
+        if (JSON.stringify(group.numbers) !== JSON.stringify(numbers)) return false;
+      }
+    }
+    return true;
+  }""")
   for equation,label in [('9','MIDIP'),('10','d'),('11','maximum'),('12','HDIP')]:
    formula=page.locator('.equation-display [data-equation-number="'+equation+'"]');assert formula.count()==1
-   assert label in formula.inner_text()
+   assert label in formula.text_content()
    assert formula.evaluate("e=>e.getBoundingClientRect().height>0&&!e.closest('details:not([open])')")
   checks.append('All four Liang ideal-point equations, including adjacent 9 and 10, are visible with source-number coverage')
 '''
