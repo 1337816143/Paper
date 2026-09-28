@@ -1,0 +1,141 @@
+{
+  "checkedAt": "2026-09-28T15:18:04.050994+00:00",
+  "authenticated": false,
+  "noPrivateCredentialsUsed": true,
+  "scope": "Public source reachability only, not a new public redistribution license",
+  "records": [
+    {
+      "id": "farmsteps-2026",
+      "title": "FarmSTEPS, a model for spatial-temporal exploration of diversified and sustainable crop sequence plans for crop farms",
+      "publicArchive": false,
+      "routes": [
+        {
+          "url": "https://edepot.wur.nl/713946",
+          "authenticated": false,
+          "http": 200,
+          "finalURL": "https://edepot.wur.nl/713946",
+          "status": "public-pdf-readable",
+          "pages": 20,
+          "bytes": 6615319,
+          "sha256": "d17dce19f85b1c0277e0158275de034a75ad62472ef37ee3741c2f4208b9bc33",
+          "identityCheck": "DOI/title evidence retained as brief matching metadata only",
+          "detectedDOIs": [
+            "10.1007/s13593-026-01097-8"
+          ],
+          "licenseMarkers": []
+        }
+      ]
+    },
+    {
+      "id": "farmdesign-2012",
+      "title": "Multi-objective optimization and design of farming systems",
+      "publicArchive": false,
+      "routes": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0308521X12000558",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "id": "landscape-2018",
+      "title": "Exploring ecosystem services trade-offs in agricultural landscapes with a multi-objective programming approach",
+      "publicArchive": false,
+      "routes": [
+        {
+          "url": "https://edepot.wur.nl/445630",
+          "authenticated": false,
+          "http": 200,
+          "finalURL": "https://edepot.wur.nl/445630",
+          "status": "public-pdf-readable",
+          "pages": 20,
+          "bytes": 1217417,
+          "sha256": "e62d878870685323d79d3b8d185e4747b854d26b7a4ebaf158af4019f3be3e6f",
+          "identityCheck": "DOI/title evidence retained as brief matching metadata only",
+          "detectedDOIs": [
+            "10.1016/j.landurbplan.2017.12.008"
+          ],
+          "licenseMarkers": []
+        }
+      ]
+    },
+    {
+      "id": "landscape-2007",
+      "title": "Exploring multi-scale trade-offs between nature conservation, agricultural profits and landscape quality—A methodology to support discussions on land-use perspectives",
+      "publicArchive": false,
+      "routes": []
+    },
+    {
+      "id": "ditzler-2019",
+      "title": "A model to examine farm household trade-offs and synergies with an application to smallholders in Vietnam",
+      "publicArchive": false,
+      "routes": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0308521X18307340/pdfft",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "id": "liang-thesis",
+      "title": "Exploring sustainable and diversified crop production systems for the North China Plain",
+      "publicArchive": false,
+      "routes": [
+        {
+          "url": "https://edepot.wur.nl/677384",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "HTTP Error 400: Bad Request"
+        }
+      ]
+    },
+    {
+      "id": "cheng-thesis",
+      "title": "Multifunctional and stakeholder-informed agricultural: Landscape redesign in the north China plain",
+      "publicArchive": false,
+      "routes": [
+        {
+          "url": "https://edepot.wur.nl/681106",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "<urlopen error timed out>"
+        }
+      ]
+    },
+    {
+      "id": "xu-thesis",
+      "title": "Exploring options for a more sustainable crop production on the North China Plain",
+      "publicArchive": false,
+      "routes": [
+        {
+          "url": "https://edepot.wur.nl/681150",
+          "authenticated": false,
+          "status": "request-failed",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
+    {
+      "id": "groot-2017",
+      "title": "Integrated systems research in nutrition-sensitive landscapes: A theoretical methodological framework",
+      "publicArchive": false,
+      "routes": []
+    },
+    {
+      "id": "quzhou-dataset",
+      "title": "曲周原始CSV数据及数据字典",
+      "publicArchive": false,
+      "routes": []
+    },
+    {
+      "id": "farmsteps-software",
+      "title": "FarmSTEPS官方代码与说明",
+      "publicArchive": false,
+      "routes": []
+    }
+  ]
+}
