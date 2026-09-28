@@ -1,0 +1,54 @@
+{
+  "schema": "paper.translation.index.v3",
+  "records": [
+    {
+      "id": "liang-2022",
+      "sourceHash": "bfbde3ef50d61598c5aa73a5ff6d02141f1d7473ae446b0f73f88e6bbef0ef47",
+      "path": "translations/liang-2022/bfbde3ef50d6.zh.json",
+      "visibility": "public-adaptation"
+    },
+    {
+      "id": "xu-2024",
+      "sourceHash": "5c1568888f1c72eb2e61e30e8a4b1f9c2582c4f11c4ccae064b34a1bb333be4e",
+      "path": "translations/xu-2024/5c1568888f1c.zh.json",
+      "visibility": "public-adaptation"
+    },
+    {
+      "id": "xu-data-2024",
+      "sourceHash": "962a50daab8d15b0976a0e5119b44f1059cb99848774a30d6e973385a0bc8504",
+      "path": "translations/xu-data-2024/962a50daab8d.zh.json",
+      "visibility": "public-adaptation"
+    },
+    {
+      "id": "novotny-2024",
+      "sourceHash": "3549e6d02b39f329c80d4d2caeb76b584eda198ac413f810fd214cf59b4a0c4b",
+      "path": "translations/novotny-2024/3549e6d02b39.zh.json",
+      "visibility": "public-adaptation"
+    },
+    {
+      "id": "qu-2025",
+      "sourceHash": "7e69eb40dc235c56e72cddc615d123cb8b8679999727d499127a08b0cb2b2769",
+      "path": "translations/qu-2025/7e69eb40dc23.zh.json",
+      "visibility": "public-adaptation"
+    },
+    {
+      "id": "breure-2024",
+      "sourceHash": "766abe34a78ec2fc630ba474fb035879c398600884bd5676bca435b05aed9bc4",
+      "path": "translations/breure-2024/766abe34a78e.zh.json",
+      "visibility": "public-adaptation"
+    },
+    {
+      "id": "toorop-2023",
+      "sourceHash": "e4c7cc912b38aaa08b5a262a7592dfd917ae3bd5ca24dc1981928beaef131c36",
+      "path": "translations/toorop-2023/e4c7cc912b38.zh.json",
+      "visibility": "public-adaptation"
+    },
+    {
+      "id": "verdouw-2021",
+      "sourceHash": "6cd910d4ac59ed97e78b6df405d14a08a7265c69e08575f5ab37f013d1f45ca9",
+      "path": "translations/verdouw-2021/6cd910d4ac59.zh.json",
+      "visibility": "public-adaptation"
+    }
+  ],
+  "policy": "ND translations are personal imports, not public adaptations"
+}

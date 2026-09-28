@@ -1,0 +1,1238 @@
+{
+  "schema": "paper.translations.v3",
+  "docId": "toorop-2023",
+  "sourceHash": "e4c7cc912b38aaa08b5a262a7592dfd917ae3bd5ca24dc1981928beaef131c36",
+  "language": "zh-CN",
+  "engine": {
+    "model": "Helsinki-NLP/opus-mt-en-zh",
+    "revision": "c8ce7d3af8eb15938be419f1c4c177dc724ab8ec",
+    "runtime": "CTranslate2 int8 CPU",
+    "review": "machine-draft-with-explicit-curated-overrides"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": " this way, connected systems can be developed which are socioeconomically and bio- physically adaptive. When practices, knowledge, and skills are continuously developed, an antifragile sys- tem with ample stocks and optionality may evolve over time. Keywords: Autonomy; Adaptive capacity; Smallholder farmers; Policy; Bihar © The Author(s), 2023. Published by Cambridge University Press. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution and reproduction, provided the original article is properly cited. Experimental Agriculture (2023), vol. 59, e4, 1–17 doi:10.1017/S0014479723000017 https://www.cambridge.org/core/terms. https://doi.org/10.1017/S00",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "sourceCitation": "Adelhart Toorop, R., et al. (2023). Experimental Agriculture, 59, e4.",
+  "sourceURL": "https://doi.org/10.1017/S0014479723000017",
+  "visibility": "public-adaptation",
+  "blocks": {
+    "p1-b0-a6260a3": {
+      "zh": "研究条款",
+      "sourceTextHash": "a6260a36a6a34b7e158a5dae8443c2e0e69f6c59ee3aa3b3f53cd99e237df447",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b1-963671f": {
+      "zh": "分析印度比哈尔省小农户的抗脆弱性:评估农民的脆弱性和积极反动者的长处",
+      "sourceTextHash": "e8434dbdb7306d840581b3e9176553f2b848756f938ca9ecf8115b9cc18a5173",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b2-275691b": {
+      "zh": "Roos Adelhart Toorop1*、Santiago Lopez-Ridaura2、Mangi Lal Jat3、Pauline Eichenseer1、Deepak Bijarniya3、Raj Kumar Jat5和Jeroen C.J.Groot1、2、6",
+      "sourceTextHash": "274e4429fe082b0bfdd099e6c870ebd1f841faf7316041035a85fe5d79caa9b6",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b3-7013e23": {
+      "zh": "1 武器系统生态学,Wageningen大学和研究,P.O.方框430、6700 AK Wageningen、荷兰、2个国际玉米和小麦改良中心、可持续农粮系统方案和农研组气候变化、农业和粮食安全研究方案,Apdo、6-641 06600、Mexico、D.F.、墨西哥、3个国际玉米和小麦改良中心、可持续农业食品系统方案、NASC综合体、DPS Marg、新德里1/1112、印度、4个半干旱热带作物研究所(ICRISAT)、Patancheru、海得拉巴-502324、印度、5Borlaug南亚研究所(BISA)、CIMMYT、Pusa、Samastipur、Bihar、848125、印度和6Bioverity International、Viale dei Tre Denari、472/a、00054 Maccarse (Fionicino),意大利*Corrapondominging作者。电子邮件:roos.dieelharttorop@wur.nl",
+      "sourceTextHash": "ea3f464b0a9a67ad014eb81cd078be808efa9e139f0510c0b18ec29d393b2647",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b4-6cf3da4": {
+      "zh": "(2022年1月25日收到;2022年10月20日修订;2023年1月03日接受)",
+      "sourceTextHash": "6cf3da4fc69af2e97d4d4d12c7f7c73a2ad6569de6e247f9e3ef6d668f0b4bb6",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b5-c815d0a": {
+      "zh": "全世界的简易农民越来越容易受到伤害:气候多变性被确定为主要压力因素,但社会经济领域(实验室动态和价格波动)的不利生物物理环境和扰动也影响到农场管理和生产。 为了应对这些扰乱症,适应性被认为是不可或缺的。 抗脆弱性承认适应性和波动是复杂系统的固有特征,并放弃回归暴动前系统状态的想法。 相反,抗脆弱性承认干扰可以引发重组,导致抽取和移除薄弱系统功能,并使系统向更好的状态发展。 在这项研究中,我们评估了印度比哈尔省不同类型小农户的脆弱性,并探讨了在动乱后能够“反弹得更好”的更具抗脆弱农业体系的范围。我们与总共92个农夫进行了重点小组讨论,发现大多数农夫都表明自己很脆弱:他们面临挑战,但改变处境的适应能力有限;他们大多作出了短期决定来应付或克服紧迫的挑战,但没有参与长期目标驱动的战略规划;相反,他们等待政府支持以改善生计;尽管面对类似的挑战,4个积极的异常农民表现出更加抗脆弱性:他们多样化的耕作制度充斥着库存和可选性,农民在自主性、共性以及与同龄人、社区和市场的联系方面有所区别。为支持正规农民的抗脆弱性,可能需要在政策层面进行适应性调整,例如从自上而下转向鼓励主动和合作的自下而上的适应和创新制度。 随着更加自主的定向,农民的内在动机有望增加,从而有利于农场一级的转型。 这样可以开发具有社会经济和生物物理适应性的连通系统。 当做法、知识和技能不断得到发展时,富足库存和可选性的抗脆弱体系可能随时间演变。",
+      "sourceTextHash": "45092721a40b309796d3ace69df91511362296eb5b3ec7cabb0d4bbbd9ac1480",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 3,
+      "flags": []
+    },
+    "p1-b6-03ace67": {
+      "zh": "关键词:自主;适应能力;小农户;政策;Bihar",
+      "sourceTextHash": "03ace67e7621698f5a41e3eafc62da8a9f3ca6838288e323d3e5103af6c9c37f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b7-33929fd": {
+      "zh": "作者,2023年,由剑桥大学出版社出版,这是一篇公开查阅的文章,根据《创意共同归属许可证》(http://creativecommons.org/licenses/by/4.0/)分发,允许不受限制地重新使用、分发和复制,但必须适当引用原始文章。",
+      "sourceTextHash": "075033f85aafd5221051bebc55e7af1d60d7e74ba17f968efe2ddb36b26d6d3e",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b8-e03fb3a": {
+      "zh": "实验农业(2023年),第59卷,e4, 1-17 doi:10.1017/S0014479723000017",
+      "sourceTextHash": "4f72a7ad6bd98a26cff986a08450b726d217eb3c4f8967f14a8bbcd2c7298c3b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b11-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b0-6e51782": {
+      "zh": "突出重点",
+      "sourceTextHash": "6e517828c3d88ea3e62b2169a626c32e39be2e7cf52e99f7e9d764af6859bbd0",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b1-3d34e34": {
+      "zh": "• 挑战往往没有危及农场的连续性,而是限制了业绩。",
+      "sourceTextHash": "3ed832e479715a4f3c90231c8a9fdc2d10601de9337025b6baf3c327ac1acfe7",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b2-3a11554": {
+      "zh": "20世纪后半叶,南亚农业实践发生了根本变化:由绿色革命政策目标驱动的机械化、强化和专业化以及技术进步导致农场管理发生重大变化(Behera和法国,2016年;Davis等人,2019年)。 引进化肥、改良作物品种和动物品种、灌溉和机械化都引发了生物物理和社会经济环境的变化,目的是提高产量、利润或劳动生产率。 尽管生产量增加,经济也因这些努力而增长(Jat等人,2020年),但成果分配不均。 如今,贫困和营养不足仍是印度人口最多的邦之一比哈尔的现实。连续的密集种植导致土壤退化和自然资源的过度开发,这与生物物理和气候环境的变化、农场高度支离破碎、零四度基础设施、薄弱机构和市场相结合,对小农户维持生计构成挑战(Aryal等人,2018年;Lopez-Ridaura等人,2018年)。 气候变异被确定为主要压力因素(Singh等人,2020年),但社会经济领域不利的生物物理环境和扰动(例如劳动力动态和价格波动)影响农业管理并可能影响生产。 农耕活动往往受到不可预测的干扰,例如洪水、劳动冲击或近期无法预料的COVID-19大流行。 行动起来表达 \" 未预见到的影响 \" ,变革和适应的能力被视为至关重要。由于农业受到复杂系统动态的制约,重点应放在农场管理上,使其适应能力达到适应能力,创造能够生产、但大多未说明的未来状态的条件;界定适应性体系的条件,使之从动乱中获益并演变而来(Darnhofer,2020年;Taleb,2012年);优化生产体系的目标是推动向高产出机械化农业的发展方向,往往以资本密集型投入为基础,使小农户越来越依赖外部投入、机械和融资等。结果就是这些体系的优化、统一化和功能化:该系统在次最佳情况下受到损害(Altirii等人,2015年;Meynard等人,2018年;Urruty等人,2016年)。虽然这些系统在加强强健(站立)和复原力(恢复、回击)方面受到越来越大的社会和政治压力,但可以质疑目前的系统是否需要强化或彻底改造(Hendrickson,2015年;Rivera-Ferre等人,2021年)。 我们提议调查如何成为抗脆弱性:与脆弱相反。当一个系统从动乱中得益时,它具有抗脆弱性(Taleb,2012年);一个抗脆弱系统的平均性能随着扰动触发选择和消除缺陷系统特征而增加,而最强的特征继续存在。 应对干扰的办法可以是暂时性地衰退,然后是超过系统最初每个形式的复苏。 在所有系统中(自然、人文、财务、金融等)都可发展抗脆弱性。",
+      "sourceTextHash": "e6c5e789c34404c8ddd380e1028da0847d573357d276f1ead20db611fec86128",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 4,
+      "flags": []
+    },
+    "p2-b3-27d3340": {
+      "zh": "2 Roos Adelhart Toorop等人。",
+      "sourceTextHash": "0aa109590f9198193cdfbc6ae5271ac95e22a1c8eec8eb52ba55a377a86176db",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b4-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b0-cf1bc16": {
+      "zh": "本文着重论述比哈尔省小农户的脆弱性,并探讨各种办法,使之更能抵御脆弱性,目标是:(一) 确定他们的主要挑战和应对战略;(二) 评估抗脆弱程度的范围;以及(三) 从已经将其耕作系统转变为更多抗脆弱系统的积极的叛逆者中吸取教训。在讨论中,我们阐述了加强比哈尔省农民抗脆弱程度的注意。",
+      "sourceTextHash": "adf969310a89a495bc591e1361b856846eacd10ead884b01bbbc5cfdfd2042d2",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b1-71ea24a": {
+      "zh": "在过去几十年中,脆弱性、稳健性和复原力等概念被用来更好地掌握社会生态系统的可持续性并了解其动态(Folke等人,2021年;Meuwissen等人,2019年) 农耕系统的脆弱性可被概念化,因为受风险影响和敏感地注意不断变化的条件以及应对这些条件的内在适应能力(Adger,2006年;Smit和Wandel,2006年);在出现动乱后,脆弱的系统的每个形式受到损害,该系统无法恢复到原有状态(图1a);相比之下,一个强大的系统抵御冲击,并在平均值(图1b)周围正常变化的范围内保持性能(图1b),而一个具有复原力的系统受到影响,但随着时间的推移又恢复了(图1c)。 在这项研究中,我们增加了这些概念的抗脆弱性。与脆弱的应对相反,抗脆弱系统(图1d)由于在动乱后重组而随着时间的推移改善了绩效(Taleb,2012年)。随后的干扰引发了实地或农场甚至更高层次的重组,从而导致选择和去除适应性差的系统特征。 除了扰动后的适应外,Taleb (2012年)描述进化改进的不易状态,这种改善可以通过 \" 连接 \" 和 \" 巴贝尔战略 \" 等流程触发。 牵引是指根据知识和长期积累的超常(职业生涯、一生或代代代)知识和超常积累而经历的试验和错误过程。在其商业战略中,农民可以应用 \" 巴贝尔战略 \" ,这意味着将一系列低风险活动(成功情况下的收益有限,但失败时的损失也较低)与少数高风险活动(成功时可能导致巨大收益的高风险活动)结合起来。 这些战略提高了适应性(即变革能力),而适应性(即变革能力)是进化改进的必要条件,也是发生意外骚乱时的宝贵资产。 我们在这里提出了抗脆弱性,而不是作为一套能够进行抗脆弱反应而非“可测试理论”的特征。 在Taleb (2012年)的基础上,我们确定三个特点对于允许农耕系统采取抗脆弱反应至关重要:",
+      "sourceTextHash": "56a77f44769548e05923b92eb32ef4a41e74a7631d16126c81a259c77a2128ae",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 3,
+      "flags": []
+    },
+    "p3-b3-8534a9c": {
+      "zh": "图1. 系统性能(绿线)对随时间推移而变化的驱动变量(蓝色线)的反应,箭头表示扰动。",
+      "sourceTextHash": "64a539cb7ac82932d464d136e717b79fec16272b0539bc35ec0ccb5d8177cd3a",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b4-d66963f": {
+      "zh": "实验农业 3",
+      "sourceTextHash": "095cedc578cf74aa702205d4c0e671efee4b7973d2ff211743c4db9db9d50da7",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b5-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p4-b0-9081299": {
+      "zh": "• 积累储备:储备或储存能力,以便在需要时能够使用资源,但对于系统来说是多余的;这些储备在系统发生动乱后重组时可能有用;积累储备还意味着债务(负储备)相对于农场资产保持在较低水平上;创造可选性(即有多种选择):利用多种活动和技能(例如作物种植的多样性、生物多样性、收入和信息的多种来源以及资源的多样性),以提供新的机会;必须进行试验,以发展新技能和尝试可以升级的新做法,如果这些做法证明成功的话。",
+      "sourceTextHash": "3d6df6a6a17880a9b8a9046503d9ec4201b345166c5848da08c05382c45aab53",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b1-c711128": {
+      "zh": "表S1载有所有术语的词汇表。",
+      "sourceTextHash": "c71112834788e96bd710be41a0877d5c915eeeda031d6c6c586259bd91aa150f",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b2-49e3bfb": {
+      "zh": "这项研究侧重于位于北比哈尔省的Chaundali村(Samastipur区)和Nirpur村(Vaishali裂谷)的农民(补充材料图S1),这两个村于2020年1月和2月进行了比较研究,同一研究小组以前对这些村庄进行的研究(Adelhart Toorop等人,2020年a,2020年b),并建立了强有力的联系,这些村庄彼此相隔20公里,在耕作系统、土壤和气候方面被认为相当,两个村庄距离最近的市场约6公里,道路简陋,在Samastipur的Pusa气象站(距研究地点 < 20公里),2007年至2017年期间每年降雨量为787至2390毫米,平均为1344毫米/年。7月至9月通常是最热的(33.5至38.5摄氏度 ) , 大多数潮湿月份的年降前气温高达70 % , 而1月份记录的最低温度是平均气温从7°C到10°C(Jat等人,2018年 ) 。 主要种植模式是哈里夫(蒙森,6月至10月)大米,其次是拉比小麦(11月至4月 ) , 以及扎伊德(夏季,4月至6月/7月 ) , 这一研究的数据是在这一年相对平静的农业季节(1月和2月)中收集的。",
+      "sourceTextHash": "c44173295bebe344c44ee7ae7c53fad5bd19cd68e622994ef527864710641a27",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b3-dc51f20": {
+      "zh": "方法框架图2概述了方法框架。两个核心问题是迟到的:1) 比哈尔省不同类型小农户的脆弱程度如何,2) 在提高小农户的抗脆弱性方面哪些要点?这些问题导致采取三步办法,首先确定农民的挑战和应对战略,以评估其脆弱性;随后,在与农民的焦点小组讨论(FGDs)中探讨了成为更多抗脆弱性的选择,并与政策告发者进行了访谈(步骤2),并与积极的异常农民互动(步骤3)。最后两步构成了一个迭代周期,从积极偏离趋势中学到的经验教训可以与农民讨论并受到农民重视。积极的偏离趋势被定义为尽管拥有同样的资源和制约,但取得比同行更好的成果的个人(Pant和Odame,2009年)。农民、积极的反动蚂蚁和政策线人士的观点使得人们能够形成关注点,从而提高农民的抗软性。为了明确起见:在本研究报告中,我们指的是农民和积极的反动分子。农民是普通农民,而积极的反动分子则是被专门选为示范性的农民,其农作制度更具有抗脆弱性。积极的反动分子不能归为农场类型之一,因为他们的农业结构和管理与平均水平大相径庭。农民和积极的反动分子都是小农。",
+      "sourceTextHash": "c817f6c790207c595581ee1f863715e62c323f29293b5a42dbaa4f0763f29bec",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b4-631e573": {
+      "zh": "4 Roos Adelhart Toorop等人。",
+      "sourceTextHash": "b5e26608c11901bf39c14c7dc9aab2e0674625c6026e272b30469cffec099550",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b5-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b0-9d78cbb": {
+      "zh": "根据参与研究的意愿和农种类型,为FGD招聘了参加FGD的农民;采用了Lopez-Ridaura等人(2018年)所建立的一种类型,因为他们对北比哈尔省269户家庭中的耕作系统和生计追求的广泛住户调查适合将同一地区这项研究中的农民分类;根据传统和结构特点,区分了五类小农农场:非全日制农民、富裕农民、小规模作物和畜牧农民、中等规模谷物作物农民和资源贫乏农民(每种农业类型的说明见补充材料表S2);在FGD之前的几天里,进行了快速调查,指定农民使用一种类型(补充材料表S3)。 在五个农场类别中,每类都组织了两次FGDD,一次在Chaundali,一次在Nirpur,每次有大约10名农民参加。总共有92名农民参加了FGDs。为了了解决策和传播,我们的目标是在案例研究领域围绕农业的各级社会-机构环境与 \" 政策举报人 \" 进行访谈;政策通报人可以是政府和非政府人员,并往往通过咨询作用参与政策制定工作;雪球技术(1961年,古德曼)用于接触从村庄到州一级的人;总共采访了13名政策举报人;每次面谈结束时,都请与会者积极提名他们认为在自主、可选性和储存方面杰出的农民,即反脆弱性的特点。这些农民作为积极的偏离者被访问。这里我们详细介绍了4个积极异常者的实践和轨迹。",
+      "sourceTextHash": "3167ee2ed8b8cd84d58543d557a3df589361f449ab70abff1a225a12bce01d05",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 2,
+      "flags": []
+    },
+    "p5-b1-71339d7": {
+      "zh": "在FGDs中,要求农民列出在维持生计方面所面临的所有挑战,然后进行讨论,让农民分享其应对战略和潜在解决办法(关于FGD格式的说明,见补充材料表S4)。 每项答复都配有标签 \" 范围界定 \" 、 \" 缓冲 \" 或 \" 适应 \" 。 答复得到的标签是: \" 范围界定 \" ,这意味着继续一切照旧地运作(即不需要新的技能或知识); \" 缓冲 \" ,因为调整管理以缓解影响;以及 \" 适应 \" ,因为反应需要系统一级的新知识和技能及隐含的改革。 为了减少观念偏见,两位研究人员独立指定了标签。这样,我们回答了问题:(a) 农民在维持生计方面面临哪些挑战/限制? (b) 农民如何应付、缓冲或适应这些挑战? 和(c) 为改进这种状况还可采取什么行动?",
+      "sourceTextHash": "a2b1774161230155bb13c90948f082269d3523527c56049ca178cd92782bd46c",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 2,
+      "flags": []
+    },
+    "p5-b3-9abb6e5": {
+      "zh": "图2. 方法框架,包括主要研究问题(纯粹的破折号框),随后通过三个步骤(蓝箱)以及相应的次问题(绿箱)和方法(红箱)回答。",
+      "sourceTextHash": "6918b8e7d639c2ab23c016ab9a5a527f62556e9db01eeeeb53c1bca332c8838b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b4-c217b20": {
+      "zh": "实验农业 5",
+      "sourceTextHash": "8fef3099dd1ef6dc8bb6d1b9ae2232a40fb5d558037afbf713af858641c8787c",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b5-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b0-134e19b": {
+      "zh": "在FGD和访谈中,农民(n=92)和政策告密者(n=13)都引入了抗脆弱性概念( \" 从不幸情况中逐渐得来 \" )和三种斯特拉特神经。 他们被要求根据重要性对以下五种声明进行排序: \" 我的目标是实现多样化收入 \" ; \" 我依赖咨询意见 \" ; \" 限制化肥和投入的使用是不切实际的 \" ; \" 水储存在干旱情况下至关重要 \" ; \" 储存农产品的设施是不切实际的,无法在市场上获得良好价格 \" 。 为确保所有受访者了解这项工作,他们作了个别解释,并用印地语写下每份声明,并在卡上贴上图标。每份声明都被用来引发关于自治、可选性和库存的讨论,我们用Kruskal-Wallis测试来比较农民与政策人士之间的差异,如果Dunn的测试后出现重大差异,则使用Kruskal-Wallis测试来评估不同类型(农民和政策人士)之间的事后差别。 对于所有分析,我们使用了R软件并在P-value < 0.05中考虑了统计意义。 在可视化中使用了类似比例的数据R-包(http://www.bryer.org/project/lishrt/)。为了了解农民如何在决策中得到支持和指导,我们相互看待在制定政策方面有利害关系的人(被称为`政策人士 ' )。图3展示了比哈尔的政策结构以及绿色和政府政策体系中的研究、培训和扩展器官化(`知识产生者 ' )和灰色的政府政策系统。知识生成者向政策系统提供信息,并与农民直接接触,以此作为研究的一部分,并通过他们指导下的KVKS1的推广工作。 在政策体系中,我们区分了“视觉制造者 ” , 谁计划和设计开发计划,谁通过推广服务传播这些计划。 我们与13个半结构化访谈了知识生成者(4) 、 视力设计者(3) 、 手表操作者(4) 、 推广工作者(2) , 要求他们的责任、目标和脆弱性( \" 最坏的情况会发生什么 ” ) 。 我们从受访者的位置和他们所工作的组织的角度讨论了这个问题。 采访之后,对每个战略的抗软性进行了排序和阐述。作为这一排名的一部分,我们讨论了他们的工作在多大程度上有助于在农场一级制定这三项战略(即库存、可选性和自主性)以及未来5—10年他们对农业的看法。 最后,我们询问他们是否能够提名一个积极的异常型农场,在这三个战略上表现良好。 我们通过与农民的融资GD和采访政策告密者,探讨了问题:(a) 农民和政策告发者如何解释抗脆弱性战略? (b) 目前他们在农民生活中的代表性如何? (c) 是否还有余地制定这些战略?",
+      "sourceTextHash": "25cf4c81c8f668bc9fc85fbb21b597f21e377984c6a9bbeb2dd579dcec80a59a",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 4,
+      "flags": []
+    },
+    "p6-b1-5aa2532": {
+      "zh": "根据政策人士的提名,对积极的异常农民进行了访问;在一次农业巡视期间,列出了农场的结构(农业资产和资源)和功能性(生计追求)性格偏移(补充材料表S5)清单(补充材料表S5);随后进行的半结构式访谈,要求农民了解变化轨迹并思考三种抗脆弱性战略;这些农业考察揭示了信息,以回答以下问题:(a) 是什么使积极的异常农民能够改变其耕作制度? (b) 是什么使其耕作制度更加脆弱? (c) 三种抗脆弱性战略如何体现?",
+      "sourceTextHash": "155c521640b8d8c35343b14a02f0528e7b5660f35075df2e51187b717f8b773b",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b2-146666c": {
+      "zh": "1KVK代表Krishi Vigyan Kendra,意思是“农业科学中心 ” 。 他们充当农业推广中心。 KVK通常与当地一所农业大学有联系,并充当印度农业研究理事会(ICAR)和农民之间的联系。",
+      "sourceTextHash": "9064cbfddd3815a92280656f120ad8f39f2d8e3d92f104f46c1690d80b94277f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b3-cff8532": {
+      "zh": "6 Roos Adelhart Toorop等人。",
+      "sourceTextHash": "67efb514aca931fed118dc2d6903e35da7ab99a704aeb76413ae9f0a6101b78f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b4-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b0-04ec15c": {
+      "zh": "所有类型农场的农民都列举了维持生计的一系列挑战:水和劳动力短缺;低市场价格;以及低质量和获得投入的机会(表1)。 农民通过承担更高的成本、留下土地落地或种植后农场管理做法应对了大部分挑战。 指出政府要支持是常见的。 不同类型农场的挑战和操控空间的后果各不相同。 对于非全日制农户和富裕农户而言,水资源或劳动力稀缺主要导致较高的耕种成本:他们有能力支付更高的柴油价格来使用椰子井或机械。 来自其他农业类型的农民往往不得不“呼喊”用一个社区水井或者雇用工人。 这些农民最终还要承担因降低农业生产率而拖延实践的代价。高品质的投入价格昂贵且稀缺,导致无法获得信贷的农民(通常是中等规模的作物和畜牧农以及资源贫乏的农民)不可避免地受到收成惩罚,他们要么购买低质量种子,要么迟于购买种子,因为他们在上个季节收获之前得不到信贷。",
+      "sourceTextHash": "0bfc46e03180ba2cbc120b75f4dd1e3a0d1e0dd971a2610584269ed39d9a3115",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 2,
+      "flags": []
+    },
+    "p7-b2-baa5eba": {
+      "zh": "图3. 决策者机构网络,包括知识生成者、视觉设计者、实施者和推广工作者,灰色职能是政府政策系统的一部分,绿色职能是研究、培训和推广组织。",
+      "sourceTextHash": "de3b0d39ceb4d249336731fcaff10a97704c74bbefe02fda446f66982a5b9307",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b3-bed4ecf": {
+      "zh": "实验农业 7",
+      "sourceTextHash": "ee36436c2d400c46714a6d3553fa63b9f822f450f5ddf77bd41c564345f8c8dc",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b4-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b0-3ca023d": {
+      "zh": "表1. 最经常提到的有潜在应对战略的挑战,斜体对已经(广泛)实施的战略进行分类,颜色将应对措施归类为应对(广域)、缓冲(黄)或适应(绿),对于白细胞而言,挑战并非(一致)为农场类型所认识。",
+      "sourceTextHash": "2c70d94a23c10483efe02da7182b9d4544ec12f067864aa665cdfd770cf1ae3a",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b1-66eee80": {
+      "zh": "应对挑战战略",
+      "sourceTextHash": "42b148303f530b103affd55a174363f4e97b18a2c5682a6b7e31785c20dbe9cc",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b2-a82e164": {
+      "zh": "非全日制农民(n=17)富农(n=19)",
+      "sourceTextHash": "684a00999a86f733c7f4bd0c9017759e425fed61cac0b88da1a0d59a5d2ca40c",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b3-a26e938": {
+      "zh": "小规模作物-牲畜饲养农民(n=20)",
+      "sourceTextHash": "07defd12ed4bb915188e6ec0a1ef9f520cee2b32a807f688d04118469b45fc32",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b4-e5b940a": {
+      "zh": "中等规模谷物作物农民(n=17)资源贫乏农民(n=20)",
+      "sourceTextHash": "d396f0dae2af9bf9ce12917d9f4c68250c9b355d007008970b33c0dc8477178b",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b5-60c62e2": {
+      "zh": "政府应该投资钻井和池塘。",
+      "sourceTextHash": "83cb3bf76b3b8ac6e012c4643550c75d6bada83253b1f6f564420bf90975a8f6",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b6-1327a2b": {
+      "zh": "Deepen bearwell. Gov. 应该投资社区thewwell",
+      "sourceTextHash": "dcec311a247022ce111b91b619e048af38df58f0f4be76060ed3b7ebfb51e675",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b7-2774ca4": {
+      "zh": "政府应投资于社区水井和池塘,替代蔬菜和大米",
+      "sourceTextHash": "c9586706e02f7cb9f51c9ead8b5fd4f215d960b40e03c1ac43cd4d92a34e03b7",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b8-7d15c1a": {
+      "zh": "改为绿色饲料",
+      "sourceTextHash": "264b6d1b7bd9a29c7996563fd77b90c20fd7be7e96f9a7bbcaee813974c35279",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b9-d1732cf": {
+      "zh": "改变为短期品种",
+      "sourceTextHash": "90642599755154298bdb1320d8873b206fe8e280e67d1603716044b54ec954fd",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b10-efe250d": {
+      "zh": "留下落地",
+      "sourceTextHash": "efe250de50094338bfeb00f271aaf7eed60114dc349894233e3f922c696d41fe",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b11-775020b": {
+      "zh": "切换到绿色肥料或esbania",
+      "sourceTextHash": "362dd3e90c8d6ec1c5b4f4ea2a4084dd33095e73508dbb0eac6b7089246c6b6e",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b12-8b82790": {
+      "zh": "切换到绿色饲料",
+      "sourceTextHash": "4ce277329833d4ec84b561c91eebfef8703d83ca8646baa4a9f5272e7b425a25",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b13-98095ad": {
+      "zh": "推迟播种短缺 延迟播种 休假 土地落叶 休假 土地落叶 工资 高价 提高劳动 加大工作力度",
+      "sourceTextHash": "83b3bde937ae005922df48e013db782534bfb3d8a90ff7c057769305f5a8bb45",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b14-5a30554": {
+      "zh": "将家庭劳动包括在内,用sesbania延缓播种取代稻田",
+      "sourceTextHash": "58972a04e571cdf7400f84d788331dd11f7e2c4d2c79142c38fd8db717b912f7",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b15-7d7030d": {
+      "zh": "包括家庭劳力 开始合作机械 包括家庭劳力",
+      "sourceTextHash": "a57d157ca407bbe50b9c623dcd7ad68fc09bf68e33ec9a2ac2f63a079140cbfe",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b16-8b5e95b": {
+      "zh": "低质量和获得投入(种子、肥料和杀虫剂)的机会",
+      "sourceTextHash": "9ae18938d6f8317920358ec5d1e6498bfaa2f8b96b23fc25ad09c0accf4e3d45",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b17-239a503": {
+      "zh": "政府应拥有拥有有执照产品的商店",
+      "sourceTextHash": "820c918643fe1deb504a63c212ea14f2170ddd1f2b86caeb5b638e5737d2ba57",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b18-239a503": {
+      "zh": "政府应拥有拥有有执照产品的商店",
+      "sourceTextHash": "820c918643fe1deb504a63c212ea14f2170ddd1f2b86caeb5b638e5737d2ba57",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b19-afa4ac2": {
+      "zh": "承受更高的成本和较低的产量",
+      "sourceTextHash": "fc2457cab43238852f7bd58f23de1dbdf3c55ef9998e4853a63b9932d5abf508",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b20-881325b": {
+      "zh": "利用有机肥肥,提高价格以获得稀缺的优质投入",
+      "sourceTextHash": "0df8a4f3323c179243ec9102d37196bb9f4d207d27508ecbbdf003c7750b87ac",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b21-4c7140f": {
+      "zh": "使用 vermicommapet 语法",
+      "sourceTextHash": "4c7140f75e30ebd2ffee77b0eb95ffe2ee00ef9828bbad342cd8d8db0cd409ca",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b22-fcfd4fa": {
+      "zh": "拯救小麦种子",
+      "sourceTextHash": "909704dc5e20040328d884872d256a46e9a91a3c37cb1b0d49c65fb4e8b4d1f5",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b23-cbcda22": {
+      "zh": "蔬菜应当有最低支持价格",
+      "sourceTextHash": "dabc17c2e84b734a8a52039e52577713af39191635d19b04338d31811c89b131",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b24-cb913cd": {
+      "zh": "政府应投资储存蔬菜",
+      "sourceTextHash": "3d3324f742e7983c0ff4e3f57ac433cc1c13866695e9905a9413a8ebc82ae30f",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b25-88a3c3d": {
+      "zh": "政府应投资储存蔬菜",
+      "sourceTextHash": "3d3324f742e7983c0ff4e3f57ac433cc1c13866695e9905a9413a8ebc82ae30f",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b26-1994111": {
+      "zh": "仅种植家用",
+      "sourceTextHash": "8479801e42d2771d62b348d9f09c98648ffb719dc1fa300b619472a73aa65cb0",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b27-e87b75e": {
+      "zh": "改变经济作物,使其在市场上有利",
+      "sourceTextHash": "afe5c0707c95799d40bc980c8da550ccf164137f39a62ae2f1a50f507a08d58b",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b28-679ac30": {
+      "zh": "只有一部分收入进入市场",
+      "sourceTextHash": "e543a6529f7a639be85d30f582e378278093845b4cb33de221cf84ceaad8f360",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b29-30fd82f": {
+      "zh": "蔬菜应该有最低支持价格",
+      "sourceTextHash": "a475d82216117eff35e8c9cc8915326f5c2c0ab0779718cf6266fab9ea9d4bf5",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b30-b23bd99": {
+      "zh": "邻居、研究人员和呼叫中心",
+      "sourceTextHash": "a28ef4d97ef0614782a0f05ed1060fc489025833a67c8308900077579c49dd5c",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b31-0cf60c5": {
+      "zh": "接近邻居、研究人员和呼叫中心",
+      "sourceTextHash": "acd3dbd3c39ef92cdb655db5d7b8c0c619418557ea516706072ae51986fa4ed6",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b32-47f4cd8": {
+      "zh": "避免池塘的田地水平 将泥土从低地移动到贫瘠高地",
+      "sourceTextHash": "a7ca73cfb86976d4799b8b0deea559ded92746f9e7e9f2a44dd6236b2a7230ce",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b33-1863d4b": {
+      "zh": "使用有机化肥",
+      "sourceTextHash": "1bf3509e95ab44eff7fed6f63489b00adcc0dfeb9f91620c5e3fcedafc48b4ce",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b34-39eadec": {
+      "zh": "银行应提供信贷 拯救种子 做更多的农场外工作",
+      "sourceTextHash": "7242a886a7e66c3e7137fe72432682108bbd57eec366bad65590284110b99ade",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b35-8ff1a25": {
+      "zh": "没有合适的机械化机制",
+      "sourceTextHash": "46e78d8259d4f2085eae683c1aca262cd8605af9aabd5a7e5b8b3a8613fb2696",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b36-6e030f1": {
+      "zh": "未及时播种时的熊损失",
+      "sourceTextHash": "333a2f4f77afce7abee55fcba49ca2691c91f29e004985333c08ae133dd1e657",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b37-9a7a4a8": {
+      "zh": "获得更好的种子",
+      "sourceTextHash": "51fc5dee33c67fdf8352b967ac58af2e72d24a8fb6e9e555a4cc1497e9568c38",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b38-6ee3a03": {
+      "zh": "8 Roos Adelhart Toorop等人。",
+      "sourceTextHash": "f0ae9b6e2a7683c1af57b227d76cf12c4c4d7af146fbe9e89a1d5f534d78fc94",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b39-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p9-b0-e686ae3": {
+      "zh": "在某些情况下,这个问题的影响通过偏离一切照旧的方式得到缓冲;劳动力短缺可以通过包括家庭劳动或使用机械化而不是雇用劳力来缓冲;缺乏种子部分地因节省小麦种子而解决;低市场价格在生产主要为自食其力时问题较少;除了应对和缓冲反应外,一些解决办法意味着系统转型,即调整耕作制度及其管理;农民提到转口作物(特别是替代蔬菜和稻米)、使用有机肥代替人工肥料以及启动机械合作作为克服限制的潜在选择;但是,除了使用有机肥料之外,这些变革性变化并未在FGD的参与者中实施。 除了表1概述的限制之外,土地分割、野生动物的破坏、农场外工作机会的缺乏和水质差被列举为prob-lems,但没有提出解决方案。关于解决办法,农民们指出政府要采取行动。",
+      "sourceTextHash": "29ce710cfbbabf0e3118b1079f6238401f94344f0cd7bbfc6f81aa8b432eeaf1",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b1-2bf833b": {
+      "zh": "抗脆弱度范围",
+      "sourceTextHash": "2bf833b6ef492f97dc55911a1ce3ec728735785e8f69f78351290b004caf02ed",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b2-8144365": {
+      "zh": "农民们的洞察力将任择性解释为可销售作物的多样化,而这一特征被看做是在发生气候灾害时传播风险的一种方式。尽管大多数农民没有被承认为可选择性,但他们拥有牛和生产奶制品、作物(谷物)和水果供家庭消费。特别是,谷类生产受到所有类型农业的高度重视,无论是家庭消费还是销售都如此。由于劳动力需求高以及粮食与饲料作物之间的竞争,畜牧业具有从属作用。只有以牲畜作为生计战略的农种(小规模作物和畜牧农)才提到牛奶是一种持续收入来源,价格低但稳定。他们指出,非全日制农民和资源贫乏的农民依赖非农业活动的收入来维持耕作方式,而且资源贫乏的农民缺乏农场以外的就业机会。对于其他农业类型而言,非农种工作是不可取的,但在必要时被视为继续耕种的一种选择。所有类型的农民都希望未来有后代的农业以外的未来。对市场高峰价格几乎没有什么反应。农民认为其他农民会作出更快的反应,而一年后好的价格并不能保证下一年的良好价格。此外,人们普遍不愿意改变:实验并不常见,在其他人(例如邻居)显示成功之后又实施了一些变化。这种保守态度也在表1中表现出来,农民应付了大多数挑战。库存大多被解释为产品储存能力,被认为对于更好地调节供求很重要。虽然农民理解雨水储存和土壤有机物储存等储存的好处,但这些都不是优先事项。村庄有公共水池,但是由于这些水池是富裕农民用来抽水的,因此他们不被视为库存。农场储存仅限于用于家庭消费的谷物和小麦种子。 在谈论自治时,农民提到自由对顾问和店主说“不”的自由。 尽管有这种自由的感觉,但农民表达了被锁起来的感觉。他们承认需要改变,但没有采取任何行动,因为他们期望政府以正确的技术和财政支持来支持他们。 总的来说,与其他各州的农民相比,他们感到处于不利地位,认为他们的政府支持不如邻国政府的支持重要。 他们提到在比哈尔州,小型母亲支持的价格2没有起作用,而且他们没有获得“良好”市场的市场。",
+      "sourceTextHash": "cda983c0425eb63928aeb820bb141ee76eec0b8e7760737eb10cfd53702ef8a2",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 3,
+      "flags": []
+    },
+    "p9-b3-72fd4fb": {
+      "zh": "2 根据农业成本和价格委员会的建议,印度政府农业和合作部宣布22种作物在播种季节之前的最低支助价格。",
+      "sourceTextHash": "934766c19e93a01e5d75ef5fbf4f10323dc235aaca922edd2d206c4898bca196",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b4-a75ef99": {
+      "zh": "实验农业 9",
+      "sourceTextHash": "af9e007d427c893259119443aff41c07bfc89bdf9cf5e013db0368357731eb4e",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b5-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p10-b0-ebc328f": {
+      "zh": "在讨论集体关系与独立问题时,农民表达了一种强烈的社区意识,即与邻居和家人共同过日常生活,但农耕仅限于家庭;在村会议上,讨论了与农场有关的问题,并就政府的项目和计划进行了信息交流;尽管举行了这些村会议,但解决手头挑战的(集体)权力却微乎其微;农民严重依赖各种投入,认为这些投入为获得可达到的最高收益提供了最佳机会。有了这些高产量,高昂的种植成本就会得到回报。",
+      "sourceTextHash": "13bd1bf71018715848f3169078ac0c9f4ba0fab0682a110325dbdda149b50e08",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b1-c696c71": {
+      "zh": "保护性农业和综合耕作系统经常被提到为能够全面解决当前问题的一种创举方向。在谈论反脆弱性时,所有政策人士都承认需要有选择性,并特别强调各种活动对分散风险的重要性。然而,谷物,特别是稻米,仍然被视为最重要的作物,需要通过改进技术加强种植;增加水和土壤质量库存被认为是农业制度可持续发展的关键环节;减少投入并不紧迫;提倡使用vermicompos和粪肥,但人工肥料、杀虫剂和购买种子仍被视为不可避免;政策人士不太熟悉自主和独立的概念,这些特点不被视为积极资产。提高农民的生计被视为政府的责任,正如一位愿景制定者所说 : “ 我们有责任改变农民的行为并改善其收入和生活质量。 ”作为政府组织的成功意味着让农民采用推广的做法。 政策制订者大多对以抗脆弱性概念为概念持怀疑态度,特别是在发生冲击的情况下。 他们认为农业系统应该足够强大,不会受到温和和中等规模动荡的影响,大骚乱是不受欢迎的。",
+      "sourceTextHash": "894321545176b2fcdb558054609036e15b514ac5643e37bd436eee3da23655c9",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 2,
+      "flags": []
+    },
+    "p10-b2-d397d13": {
+      "zh": "抗脆弱农民和政策制订者在被要求对抗脆弱特征进行排名时,并没有表明发展方向的明确优先事项(图4)。 没有发现农民与政策制定者之间有重大差别(补充材料方法S1)。所有声明都得到了低级别和高级别,表明利益相关者在群体内部和群体之间有分歧。访谈和融资促进小组显示,低级别表明其重要性较低,但并不被视为不重要。唯一一项声明是农民和政策实施者对投入的使用进行限制以获得独立,但一般认为,增加可选性和库存对于农民进一步发展十分重要,但自主性和独立性不被视为支持有效应对动乱的重要特点。",
+      "sourceTextHash": "1fdff1496ae2fb2c1d163f8fe7dc69ad9d5a521e3c83c1a3de304607230f4d1b",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b3-284db6f": {
+      "zh": "表2概述了接受访谈的政策信息员提名的四个农业制度,这些制度根据这三项战略积极偏离了农民人口; 农民指出,结构性的长期挑战和制约因素而不是无法预测的冲击促使他们改变农场管理; 机会来自他们的亲生育网络,这种网络有助于他们获得知识和技能; 这些积极的反政府行为始于一个低成本试验阶段,在这一阶段中,在一切照旧的基础上发展了新的做法。",
+      "sourceTextHash": "3112e382b2092372494e9fb2ad0425fa3f28d11204f39ade850faf165d6ecda4",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b4-b72bf15": {
+      "zh": "10 Roos Adelhart Toorop等人。",
+      "sourceTextHash": "9398c43ec3680277a11b1d3da430f22cd3a172e1b87393033a00ae4eb0d82497",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b5-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p11-b0-317eda1": {
+      "zh": "只有在成功的情况下,才推广这种做法;产品(如蘑菇、鱼和有机蔬菜)可以在一个特殊市场销售,市场价格良好;四个积极的异端农民特别通过活动多样化,故意选择增加其可选性;他们表现出独立性,例如直接销售,但仍然依赖种子等投入;在补充材料框S1中,两个积极的反常者简短描述了他们的变革轨迹。",
+      "sourceTextHash": "df6012a483653ca6e3f6c4075b7759959a95e89e8710e015186bf4000ffbdcbf",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b1-d4b8e6a": {
+      "zh": "在这项研究中,我们评估了比哈尔省不同类型小农户的脆弱性,并探讨了更多抗脆弱耕作制度的范围。我们的结果表明,所有各类农场农户都处于弱势地位,为改善自身状况的适应能力有限(表1)。 由于适应能力和面临挑战取决于天赋资源,因此不同类型农户的脆弱程度各不相同。许多挑战隐含着增加耕种成本或推迟作物管理做法导致收成处罚。拥有较高资源的农民(非全日制农民、富裕农民和中等规模的谷物种植农)可以承担较高的费用,而资源较少的农民(小规模农作物饲养场)则能够承担更高的费用。",
+      "sourceTextHash": "b3855918f2f455597dfd396313e312969e05ceacf1d62e0ad7ac913212ce829e",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b3-b831392": {
+      "zh": "图4. 从不太重要的(1)至非常重要的(5)五点 \" 相似 \" 规模的结果,其中农民被问及他们考虑抗脆弱性特征的重要性,百分比表示较不重要(接收1或2左)、中性(接收3、中间)和重要(接收4或5右)的答复比例。",
+      "sourceTextHash": "f63f9203bb03117e44437f7e796398182681aba10fc2f2eed906107be3944a07",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b4-a64420e": {
+      "zh": "实验农业 11",
+      "sourceTextHash": "ffd810c5c27256f803fd37ede0f8be41d941186d5d1bf96cb3442db4af5aab9a",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b5-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p12-b0-8c335a1": {
+      "zh": "金融GD和对政策人士的访谈揭示了强有力的自上而下的社区治理和政策结构。 现有的财政资源和信息被转化为农民可以采纳的具体系统方案。 以统一为重点,发展方案往往不鼓励抗脆弱性所需的所有特征。 特别是,本研究报告中拥有较高资源的农民表现出有限的主动性和自主性。 采取主动行动的能力(即决策和机构)并不是纯粹合理的过程(Moller等人,2006年;Pacilly等人,2016年;Rietveld等人,2020年)。 采用和调整新的做法和技术与农民的动机有关,这种动机在他们的自主权和控制程度上可能很广(Janbo等人,2019年;Moller等人,2006年)。自决理论,将自主、能力和关联作为建立动机的基础",
+      "sourceTextHash": "1a12872e5747aa15f5d6ae6406de3dd2d0b30f54cc65fdbbe81d45e2093748a2",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 2,
+      "flags": []
+    },
+    "p12-b1-8a32b7b": {
+      "zh": "表2. 抗脆弱实例的生产和管理体系说明",
+      "sourceTextHash": "8a32b7b7f337c9a4548fdb70f35f3377b0ae1debbab1bc604c65599ca735da3d",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b2-83bedad": {
+      "zh": "独立说明",
+      "sourceTextHash": "ad779ec48ca2bbb78690f12e528e642154669414b7e8c8ac50460ee3a87a5392",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b3-619762b": {
+      "zh": "有机农场,多样化生产",
+      "sourceTextHash": "e80b05313cb89448f70fbd2ca729a130de2dbb6ebd66565f6d9c08c3fae3f3df",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b4-475286e": {
+      "zh": "200棵树木用于木材,必要时砍伐,通常在15年之后;辣椒可以储存;用马铃薯进行土壤改良导致灌溉需求减少。",
+      "sourceTextHash": "93aeb850b54409ab17b821548f6e09c96b6748a854941301aa980877c0ef2172",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b5-efe3ab0": {
+      "zh": "作物种类繁多(包括鲜见的鲜花和药用草药);",
+      "sourceTextHash": "93f1222adf5e68c56086baa109ac0b6f80ddf1d7fbfd3d230bfef1326d753d0d",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b6-eeaa0e0": {
+      "zh": "直接销售;主要使用有机肥料;家用谷物",
+      "sourceTextHash": "99112e3d97bbc211154f00b85af67f6e95ea6f3851f4d90e5ba5f03af7bae96b",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b7-b3d3bdf": {
+      "zh": "目前还没有有机农产品市场,但预计很快会从头开始受益。 已经有30个附近的农民受到启发,他们现在也是(部分)有机的。 对收入感到满意。",
+      "sourceTextHash": "b4cd406a175dcbf39676ff1c801357aa3b589320846ee4a91fff5138867fa0f3",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b8-94a110d": {
+      "zh": "蘑菇生产",
+      "sourceTextHash": "342c8877fe69dfb2e3b8364e5962e03af974381c3daf528a2af82cfa12dfe06b",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b9-1bf9a74": {
+      "zh": "蘑菇残留物流入土壤;马铃薯石灰效果良好",
+      "sourceTextHash": "cc91e8971f4c8857e4259de69d3869cb849d7f7e342a36be6469e6201f2f2b6f",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b10-2d421a9": {
+      "zh": "直接销售; \" 创新农民 \" 知识交流网络",
+      "sourceTextHash": "eae1930115c46625b62ac30f4c138a82015b439786ed6362955ca5755a9990bd",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b11-f53663a": {
+      "zh": "对收入和耕作方式的满意 学习从实践中学习:如果实验成功,他就会增加面积。现在用上限进行试验。",
+      "sourceTextHash": "b2b541b02d43304c15fe1f121971bc2662d19d3215a5cd9a134cd9708a687361",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b12-d26b25a": {
+      "zh": "蘑菇(Yoster spuries)、沼气、鱼、服务供应商、租出管井*",
+      "sourceTextHash": "816ae4e87a141380a3df481638bf229b73128a357051ab9e31b172ed13f560eb",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b13-1c8ccdf": {
+      "zh": "粪便是沼气的来源,消化剂用作肥料;有沼气库存;谷物库存;将蘑菇储存干燥;家庭成员都在农场工作并相互替换。",
+      "sourceTextHash": "9097111cb34970eb95dad8bf5241371dcb79a0df06b76bc04b12c8551dfbbbe6",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b14-bbfe4c9": {
+      "zh": "不同的农业 \" 企业 \" 全年创收。",
+      "sourceTextHash": "d09397d8cc35cdc5a73f496d984fe352f0ffc0616597233a99e113ea86b6c448",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b15-b646bf0": {
+      "zh": "直接销售——与来到农场的顾客谈判价格。",
+      "sourceTextHash": "8d2d56d114b8ee12e6833c8f4c9ac0087da0aa373cf958264bbe59845e13dcbf",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b16-2d7fb01": {
+      "zh": "接受过培训,但没有/很少得到金钱支持。 骄傲地成为蘑菇种植的教师。",
+      "sourceTextHash": "6573e235dcad949c4c769c581a50e2723ea6fb3ff70dc9e9008731a82ce5cdeb",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b17-67123ca": {
+      "zh": "鱼群* 总是生产;增加成员(更多人监视/守卫)的安全性提高;",
+      "sourceTextHash": "3b24c1a7ef1c78878bfcb4176e33049e5ff2835c8a2413f70f8b8745ca7f14cd",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b18-9070608": {
+      "zh": "不同类型的鱼类;集体成员的各种水果和蔬菜;劳动分工",
+      "sourceTextHash": "d0bf99086fc452e523bae835b8a31ae026da73d016c33de83b0a3f8480bfd477",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b19-ff40c10": {
+      "zh": "直接销售;没有雇员,必要时雇用临时劳工。",
+      "sourceTextHash": "c072d350ddb8b2ebee919d173c22455110c9a05aa931f6157a1eee74034033b8",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b20-80fd6b3": {
+      "zh": "所有集体成员都有自己的农业活动,作为集体,他们拥有更大的权力,政府提供电力。",
+      "sourceTextHash": "0ac66a79db5330e17a67e189c280b66b7fba6d366a62e56059512007da4504cb",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b21-e97fb7b": {
+      "zh": "* 补充材料方框S1对这些农民的变化轨迹作了简短说明。",
+      "sourceTextHash": "e97fb7b4a602b441f63fb3667fec42b59242375d9cef8088152bcc364f3d314b",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b22-f7e8aca": {
+      "zh": "12 Roos Adelhart Toorop等人。",
+      "sourceTextHash": "c8329310adec93bf46c88943f4977102c2de65d1137ff5b706dcf55e90432d16",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b23-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p13-b0-6d48414": {
+      "zh": "在我们的研究中,这些特征与FGD的农民有不同的积极差异。尽管农场类型中的农场在资源和生计战略上具有可比性,但是没有集体权力或机构(即关联性)过头而不能分享知识或实际工作。相反,积极的脱节者在生产和营销方面与其他人建立了强有力的联系,这刺激了对农业系统管理的学习和不断调整。它们表明对其系统、日常活动和收入的接触和满意程度。自决理论解释说,胁迫性和外部压力往往会尽量减少(疯狂的)动力(Moller等人,2006年;Ryan和Deci,2000年)。我们注意到,政府干预的强烈依赖和期待。触发农民本身的动机和关联对于提高自主功能至关重要(Stobbelaar等人,2009年)。图5显示了最终可能导致农场一级更大抗脆弱性的理由。更大的自主性将促进主动性和能力发展(Moller等人,2006年),例如,通过双管齐下的战略,即以已知和安全的活动(Barbell战略)或试验、错误和选择(`牵引 ' )来对新事物进行模拟和隐蔽的探索。 当做法、知识和技能不断发展时,两面性会随时间而变化(Clancy,2010年;Urruty等人,2016年),可选性和存量也会增加(Altieri等人,2015年;Gliessman,2015年)。由于这些资产(即适应耕作习惯和耕种选择的能力)的增加,可能需要支持政策的变化、转型和调整。例如,这可以从制定旨在促进合作的目标导向和适应性政策开始(Stobbelaar等人,2009年)。通过这种方式,社会经济和生物物理适应的连接系统可以有针对性地发展。在解释本文所介绍的结果时,应考虑研究背景的局限性。我们组织了FGD,以确定小农户种中的脱产农民的挑战和应对策略。为了让农民能够参加,FGD计划发生在今年相对平静的Rabi季节中(1月和2月),我们的成果和分析基于时间的概况,对挑战的看法可能是动态的(Nikolaski等人,2018年)。表1所列的挑战可被确定为结构问题或长期压力因素。尽管Bihar以其脆弱性而著称。",
+      "sourceTextHash": "a6be1bffea84733db6b6e83638226d4826008d9c8f0c5795f9eedc3cc94d6276",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 3,
+      "flags": []
+    },
+    "p13-b2-ca4f345": {
+      "zh": "图5. 自主能力与开发可选性和存量的能力之间的关系,以便在发生扰动时加强适应性。",
+      "sourceTextHash": "c06502fd4323244844be30f03f1062baca6c9aab37acb1cc7b8fd0992e928828",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b3-6194101": {
+      "zh": "实验农业 13",
+      "sourceTextHash": "a2dcf6dfc05cfeffcad5696ccbadebb1184fd153a16886b5dc0e3a65ee2290c7",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b4-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p14-b0-626ad34": {
+      "zh": "与日常挑战的持续压力和参与者的年龄相比,冲击的激烈程度较低(Chabra和Haris,2015年;Lopez-Ridaura等人,2018年;Shirsath等人,2017年),突如其来的骚乱和冲击几乎没有被提及。这可以解释为什么与每天的挑战和参与者年龄的持续压力相比,震荡的程度较低。 列出的只是所有FGD参与者共同面对的挑战,而年轻的农民可能不会遭受更频繁的冲击。 尽管Chal-enges清单也许不是详尽无遗的,但了解压力因素是提高系统对冲击的脆弱性的不可或缺的第一步(Tendall等人,2015年 )。 四个积极的反常农场显示,偏离主导性小麦 — — 大米生产体系是可行的。 我们没有收集到关于它们业绩指标的数据,而且无法显示相对于普通农民的数量(统计)差异。由于积极的异常农民表现出了可选性、库存和自主性,我们期望他们更能防止脆弱性,但我们没有直接证据表明他们的农场与普通农场之间在系统动态上的差异;此外,很难用这个小型和规范选择的积极异常农民样本来挑选成功的因素;为了超越本研究的探索性质,应该更好地理解社会和农艺表现以及不同类型积极的异常农业制度的发展;然后应制定明确的积极异常指标;这些积极的异常者从亲克政府那里得到了帮助,这或许是提名他们的人所知道的原因。虽然他们表现出更高的自治程度,似乎并不依赖他们得到的额外关注,但他们的旗舰地位也可能帮助他们发展。在此研究中,我们详细阐述了Taleb(2012年)首次作为社会生态系统中动态系统属性而引入的`抗脆弱性 ' 一词。科学文献中并非新颖的能促进抗脆弱性的特点。几个例子:可选性,特别是多样性形式的可选性,被广泛认可以促进适应。 促进了生态、社会和政治多样性以增加选项和减少风险(Altieri等人,2015年;Hoy,2015年;Lade等人,2020年)。 各种形式的储存有助于缓冲失败、冗余和多样性,避免关键系统组成部分的丧失引发系统动态的急剧变化(Altiri等人,2015年;Hodbod和Eakin,2015年)。 Fraser等人(2015年)以及Stave和Kopainsky(2015年)将库存的重要性与粮食安全联系起来。生物、社会和生态系统的自主或自我组织应该避免自上而下的抑制和依赖,并支持地方规模不同实体的自我组织特性(Berkes,2007年;Hoy,2015年),抗脆弱性与描述适应性管理、适应性调整、复原力和转型的科学文献重叠:例如,这需要适应性和转变从扰动和演变中受益。但抗脆弱性的目的是利用干扰来改进系统并提高其绩效。它的目的不是稳定、应对或恢复;相反,它需要长期学习、试验和适应,以从“混乱”中获取结构性收益(如快速和不可预测的变化 ) 。 例如,达尔诺费尔(2021年)(即意外冲击后的转型)和坦德尔等人(2021年)所描述的具有弹性的系统动态。此外,农业生态学和有机农业等运动声称要降低脆弱性并增强抗御力,这是因为注意作物和动物多样化、保持当地遗传多样性、作物轮作以及有机物和营养循环(Altieri等人,2015年),而这些系统往往有抗脆弱反应。不过,与复原力思维概念相似,抗脆弱性仍然是一个模式而非可测试的概念。还需要制定一个框架来收集农业生态系统抗脆弱性的经验证据。这项研究探索了提高农场一级抗脆弱性的范围,但农民作为初级生产者受到商业(商人、育种者和金融家)和公共部门的抗脆弱性反应(图3)的影响,其目标都具有自己的目的(Pacilly等人,2016年)。近期关于COVID-19对粮食系统的影响的研究发现,长期供应链更加脆弱(Kumar等人,2021年;Mouwissen等人,2019年;Rivera-Ferre等人,2021年),整个供应链的关联性、灵活性和多样性",
+      "sourceTextHash": "1dd32426ef4edbc9451ee5e9f155155600c64625e56f77037dd462144c6496c4",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 6,
+      "flags": []
+    },
+    "p14-b1-fa1f706": {
+      "zh": "14 Roos Adelhart Toorop等人。",
+      "sourceTextHash": "8bb1dda3f6746ec58f0b8fa82f62056acb2c3c575e10d16c3d32bd5e6493dd11",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b2-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p15-b0-08ea634": {
+      "zh": "这些研究表明,在农场一级朝向更能抵御脆弱性的方向发展最好与严格重新思考食物系统的等级结构结构和适当规模齐头并进。",
+      "sourceTextHash": "6f88edcceac3024ce22bd3b8223750222b20f5d0a9bfddf70272da0ec36a9c99",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b1-e7aee2c": {
+      "zh": "农耕系统日益暴露于无法预测的扰动中。抗脆弱系统在这种情况下蓬勃发展,因为其配置和特征使其能够在必要时改变和适应。 抗脆弱概念可以为农业领域的`持续能力 ' 提供新的视角,尽管应当开发一个收集经验证据的框架。这项研究使用案例研究方法探索农场一级的抗脆弱概念。 印度比哈尔两个村庄的所有类型农场农民似乎都处于弱势地位,并被困在应对当前挑战的适应能力有限的情况下。 在可选性和库存方面更加自主、更丰富的四种正向偏离预计会更具抗脆弱性,从而能够更好地应对意外冲击和干扰。 我们一致认为支持农场一级抗脆弱需要政策层面的变化。这可以从制定旨在促进合作和农场主自主决策的目标导向性和适应性政策开始,这可能导致一种更积极的态度,有利于能力开发,导致更多的任择性和股票。 而这反过来又会提高农民和农场企业的适应性。",
+      "sourceTextHash": "ab889c1ff076ff0708bb311c272a6525bf8db538e4476b15ec456d691417e74c",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 2,
+      "flags": []
+    },
+    "p15-b2-d0a47e9": {
+      "zh": "补充材料:关于本文件所附的补充材料,请查阅https://doi.org/10.1017/S001479723000017。",
+      "sourceTextHash": "814a96e5fc2b99ca376285f7a65497ae191f9442e01bfc0a0ed2d20dc3f4a8cc",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p15-b3-1906d6f": {
+      "zh": "鸣谢:我们感谢农民花时间交流经验和专门知识。",
+      "sourceTextHash": "1906d6f472b4709d8b4de9375a5a494309f6b2d31daafbf440b168642969f374",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b4-cac1c63": {
+      "zh": "我们感谢农研组气候变化、农业和粮食安全研究方案、小麦农业食品系统研究方案、印度农业研究理事会以及所有通过向农研组基金捐款支持这一研究的捐助方提供的财政和技术支助,关于基金捐助者名单,请见http://www.cgiar.org/our-funders/。荷兰科学理事会高级专家方案(第17222号赠款)为JCJG的捐款提供了支助。",
+      "sourceTextHash": "03c293903d394231f5690e68490ed5ce96321a51d9adc0d221cb89b79b656cac",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b5-437e6e4": {
+      "zh": "提交人宣布不存在利益冲突。",
+      "sourceTextHash": "437e6e41d341a35b88372e1a25edc4ff065bb91032a4b07055d7db62b6f728b3",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b6-69824d3": {
+      "zh": "参考参考资料",
+      "sourceTextHash": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b7-eb5dfd0": {
+      "zh": "Adelhart Toorop R., Ceccarelli V., Bijarniya D., Jat M.L., Jat R.K., Lopez-Ridaura S.和Groot J.C.J. (2020a) 利用积极的偏离方法为农业系统重新设计提供信息:印度Bihar的案例研究;农业系统185, 102942. doi: 10.1016/j.agsy.20102942;Adelhart Toorp R., Lopez-Ridaura S., Bijarniya D., Kalawantawanit E., Jat R.K., Prusty A.K., Jat M.L.和Groot J.C.J.(2020b) 农场一级对东印地-加热平原持续强化稻米作物捕捉系统的经济和环境影响的探索。欧洲农艺学期刊121, 126157. doi: 10.1016/j.eja.2020. 126157. Adger W.N.(2006年):脆弱性。全球环境变化16, 268-281. doi: 10.1016/j.gloenvcha.2006.02.006. Altieri M.A.、Nicholls C.I.、Henao A.和Lana M.A. (2015)。农业生态学与气候变化抗御耕作系统的设计。农业可持续发展农业学,Springer-Verlag 法国, pp.869-890. doi: 11007/s13593-015-0285-2.Ary J.P.、Jat M.L.、Sapkota T.B.、Khatri-Chetri A.、Kassie M.、Rahut D.B.和Maharjan S.(2018)。印度比哈尔平原采用多种气候智能农业做法,《国际气候变化战略和管理期刊》,Doi:10.1108/ijccsm-02-2017-0025;Behera U.K.和France J.(2016);印度和其他发展中国家小型和边缘农民的综合耕作制度和生计保障。 农艺进步138,235-282。 Doi:10.1016/b.agron.206.04.001.Berkes F.(2007)。了解不确定性和减少脆弱性:从抗御力思维中汲取的教训。自然危害41、283-295. doi:11007/s11069-006-9036-7。 Chhabra V.和Haris A.A.A.(2015)。",
+      "sourceTextHash": "f5f02808502748468d235a4ed3ed50a3c43d8236f8eff0769c3f4b48d415317f",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p15-b8-879d092": {
+      "zh": "实验农业 15",
+      "sourceTextHash": "768ecb87bcdbc4344615d9d9b38dd43531dd218e531302c8c1027b2c2e58b975",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b9-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p16-b0-a407731": {
+      "zh": "Clancy T.R. (2010年):粗糙钻石:积极的偏离和复杂性;护理管理局杂志40, 53-56. doi: 10.1097/NNA.0b013 e3181cb97d9.Darnhofer I. (2020年);农场面对意外灾难的复原力:COVID-19大流行的经验教训;农业和人类价值37, 605-606. doi: 11007/s10460-020-10053-5。 Davis K.F., Chhatre A., Rao N.D., Singh D., Ghosh-Jerath S., Mridul A., Poblete-Cazenave M., Pradhan N.和DeFries R. (2019年)。评估印度绿色革命后谷物的可持续性。美利坚合众国国家科学院记录:116、25034-25041.doi:10.1073/pnas.1910935116. Folke C., Haider L.J., Lade S.J.,Norström A.V.和Rocha J. (2021年),评注:《复原力和社会生态系统:一小撮疆界》,全球环境变化 71. doi: 10.1016/j.gloenvcha.20211.2400. Fraser E.D.G., Legwegoh A.和KC K.K.(2015年)。 粮食储备和谷物储备:评估储存食物是否创造了具有弹性的食物系统。 《环境研究和科学杂志》,5, 445-48. doi: 1007/s1341-0215-0276-2. Gliesman S.R. (2015年)。Engles,Ed.),第3版,Santa Cruz:CRC Press Taylor & Francis Group。检索来自https://books.google.nl/pooks?hl=nl&lid=AVI3BGAAQBAJ&oi=fnd & pg=PP1&dq=Gliessmançagraecology, éecology 可持续食物系统与Ots=YnNos30GXT &sig=wvU0z LAXLGI8bLFLFIKuIIYp0j4#v=onepage&q=Gliessmanagroecolology%2Ctheelogyolog of Sustainfoods Goodman L.A.(1961年):雪球取样,数学统计年鉴32,148-170。亨德里克森 M.K. (2015)。《环境研究和科学杂志》,5,418-4311. doi:10.1007/s1341-015-0292-2.Hodbod J.和Eakin H.(2015年),《调整食物系统的社会生态复原力框架》,《环境研究和科学期刊》,5,474-484.doi:10107/s1341-02115-0280-6.Hoy C.W.(2015年),《农业生态系统健康、农业生态系统复原力和粮食安全》,《环境研究与科学期刊》,5,623-635. doi:10707/s1341-0215-0322-02-00.Jambo I.J.、Groot J.C.J.、Descheemaeker K.、Bekunda M.和Tittonell P. (2019年),《坦桑尼亚和马拉维小农户采用可持续强化做法的动态》。NJAS - 《生命科学工资杂志》89, 100306. doi: 10.1016/j.njas.2019.10306. Jat M.L., Chakraborty D., Ladha J.K., Rana D. S., Gathala M. K., Mcaldal A. 和Gerard B. (2020年); 养护农业促进南亚可持续集约化; 自然可持续性3, 336-343。 自然可持续性3, 336-343。 Doi: 10.1038/s41893-020-0500-2. Jat R. K., Singh R. G., Kumar M., Jat M. L., Parihar C. M., Bijarniya D., Sutalyiya J. M., Jat M., Parihar M., Kakarraliya S.和Gupta R. K. (2018年)。10年的养护性农业,印度东部的东农村平原在水稻上轮作:Yield趋势、水生产率和经济盈利能力。实地作物研究232、1至10. doi:10.1016/j.fcr.2018.12.004.Kumar P.S.、Singh S.、Pandey A.K.、Singh R.K.、Srivastava P.K.、Kumar M.、Dupey S. K.、Sah U.、Nandan R.、Singh S.K.、Agrawal P.、Kushwaha A.、Rani M.、Biswas J.K.和Drew M. (2021年)。CVI-19封锁印度农业系统多层次的影响:Uttar Pradesh案。农业系统187、103027. doi:10.1016/j.agsy.203027。Lade S.J., Steffen W., de Vries W., Carpenter S.R., Donges J.F., Gerten D., Hoff H., Newbold., T., Richardson K.和 Rockström J. (2020年),地球系统相互作用扩大的人类对地球边界的影响。自然可持续性3, 119-128. doi: 10.1038/s41893-019-0454-4。Lopez-Ridaura S., Frelat R., Van Wijk M.T., Valbuena D., Krupnik T.J. 和Jat M. L.(2018年)。气候智能农业、农户类型和粮食安全:印度东部农业系统的一项前安全评估159, 57-68. Doi: 10.1016/j.agsy.2017.007。穆威森·M.M.、费恩特·P.H.、斯皮耶格尔·A.、终结者C.J.A.M.、马蒂伊斯·E.、德梅伊Y.、手指R.、巴尔曼·A.、瓦特斯·E.、厄克哈尔特·J.、维吉尼·M.、扎瓦利因斯卡·K.、赫雷拉·H.、尼古拉斯-达维斯·P.、汉森·H.、帕亚斯·W.、斯利耶珀·T.、科普曼斯、希考姆斯卡·A.、阿卡蒂诺·F.、科潘斯基·B.、普罗特夫利特·P.M.、坎德尔·J.L.、梅迪D.、塞韦里尼·S.、森尼·S.、索里亚诺·B.、拉热尔克维斯特·杰茨、佩涅瓦·M.,Gavrilescu C. 和Reidsma P. 先生(美利坚合众国)农业系统176, 10266. doi: 10.1016/j.agsy.2019.10265. Meynard J.M.、Charrier F.、Fares M.、Le Bail M.、Magrini M.B.、Charlier A.和Messéan A. (2018年),社会技术锁住法妨碍了法国的作物多样化。可持续发展农艺38.doi: 11007/S13593-018-0535-1.Moller A.C.、Ryan R.M.和Deci E.L.(2006年)。自决理论和公共政策:在不使用胁迫的情况下提高共同决定的质量。《公共政策与营销杂志》25、104-116. doi: 10.1509/jppm.25.1.104.Nikolaski Z.Christianesen L.和Hill R.(2018年)。从http://eprints.lse.ac.uk/85313/1/Pages from Africa_Bookfinal.pdf Pacilly F.C.A.、Groot J.C.J.、Hofsstedete G.J.、Schaap B.F.和van Bueren E.T.L. (2017年11月),123-134。 利用模糊的认知图解分析土豆迟发芽控制作为一种社会生态系统。 可持续发展农业学:11007/s13593-016-0370-1. Pant L.和Odame H.H.(2009年)。《知识管理促进发展杂志》第5期,160-172. doi:10.1080/ 187163409003201504。",
+      "sourceTextHash": "2fe6b4cff1535df63e560ed6d0ded63c466b71e9bb5ca5431348f3f42fe02daf",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 12,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p16-b1-3e21031": {
+      "zh": "16 Roos Adelhart Toorop等人。",
+      "sourceTextHash": "891fd566b99953da24e548e0a92d1509d1b4356137f62243dcf762895935e4cc",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 1,
+      "flags": []
+    },
+    "p16-b2-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p17-b0-b4e4d72": {
+      "zh": "Rietveld A., Van Der Burg M.和Groot J.C.J.(2020),《在乌干达中部进行青年和性别研究以分析农村青年男女的生活道路》,《农村研究杂志》,0-1, doi: 10.1016/j.jrurstud.2020.010.020.Rivera-Ferre M.G., López-i-Gelats F., Ravera F., Oteros-Rozas E., di Masso M., Binimelis R. 和El Bilali H. (2021),《粮食系统与COVID19大流行病的双向关系:原因与后果》,农业系统191、103134. Doi: 10.1016/j.agsy.20134.Ryan M.和Deci E.L.(2000年)。美国心理学家55、68-78. doi:10.1037/0003-066x.55.1.68. Shilsath P.B., Aggarwal P.K., Thornton P.K.和Dunnett A. (2017年),将气候智能型农业土地使用选择列为区域优先事项。 农业系统151, 174-183. Doi: 10.1016/J.AGSY.2016.09.018. Singh R.K., Singh A., Kumar S., Sheoran P., Sharma D. K., Stringer L.C., Quinn C.H., Kumar A. 和 Singh D. (2020年)。 可见的气候变异性和复合压力:对小农农用人生计的影响。环境管理, 1-19. doi: 11007/s 0026-0201.345-x. Smit B.和Wandel J.(2006年)。《全球环境变化》16、282-292. doi:10.1016/j.gloenvcha.2006.03.03.008. Stave K.A.和Kopainsky B.(2015年),审查粮食供应脆弱性的机制和途径的系统动态方法。《环境研究和科学杂志》5、321-336.doi:10107/s1341-2-015-0289-x.Stobbelaar D.J.、Groot J.C.J.、Bishop C.、Hall J. 和Preaty J.(2009年)。《农业环境政策内部化和机构的作用》,《环境管理期刊》90、S-175-S.184. doi:10.16/j.jenvman.2008.11.019. Taleb N.N.2012年。《从混乱中得益的反脆弱物品》,伦敦:企鹅图书有限公司。D.M.、Joerin J.、Kopainsky B.、Edwards P.、Shreck A.、Le Q.B.、Kruetli P.、Grant M.和6 J. (2015年). 粮食系统的复原力:定义这一概念,全球粮食安全6、17-23. doi:10.1016/j.gfs.2015.08. 001.Urruty N.、Taillieez-Lefebvre D.和Huyghe C.(2016年). 农业系统的稳定、稳健性、脆弱性和复原力。",
+      "sourceTextHash": "5bb516c88ad2c460e677ec5d4db155c0f3558024a742594a70ae030881c5c182",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 4,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p17-b1-64e9cce": {
+      "zh": "引用这篇文章:Adelhart Toorop R、Lopez-Ridaura S、Jat ML、Eichenseer P、Bijarniya D、Jat RK和Groot JCJ。 分析印度比哈尔省小农户的抗脆弱性:评估农民的脆弱性和积极的偏离者的优势,实验农业,https://doi.org/10.1017/S0014479723000017。",
+      "sourceTextHash": "3cf86543eb7bb1f3c569f6327e48cf803543f7718ff1bd721f96f0f3eb343905",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b2-c87ef0c": {
+      "zh": "实验农业 17",
+      "sourceTextHash": "a3f767263da1a3ff9e88fa50a5b3df2de214e5069ac9ab75900197ca0c9251e0",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b3-262a6f5": {
+      "zh": "http://www.cambridge.org/core/terms.https://doi.org/10.1017/S0014479723000017,从https://www.cambridge.org/core下载。",
+      "sourceTextHash": "15024d41cd87ee095ca0e16272844e2b61775e7e1bf6b14e31658e13a1b051c0",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    }
+  },
+  "coverage": {
+    "translatedTextBlocks": 145,
+    "totalTextBlocks": 145,
+    "untranslatedTextBlocks": 0,
+    "symbolsRetainedBlocks": 0,
+    "manuallyReviewedBlocks": 0,
+    "machineDraftBlocks": 145,
+    "allNumericClaimsManuallyVerified": false
+  }
+}

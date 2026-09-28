@@ -1,0 +1,1811 @@
+{
+  "schema": "paper.translations.v3",
+  "docId": "liang-2022",
+  "sourceHash": "bfbde3ef50d61598c5aa73a5ff6d02141f1d7473ae446b0f73f88e6bbef0ef47",
+  "language": "zh-CN",
+  "engine": {
+    "model": "Helsinki-NLP/opus-mt-en-zh",
+    "revision": "c8ce7d3af8eb15938be419f1c4c177dc724ab8ec",
+    "runtime": "CTranslate2 int8 CPU",
+    "review": "machine-draft-with-explicit-curated-overrides"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Agricultural Systems 201 (2022) 103471 Available online 30 July 2022 0308-521X/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Identifying exemplary sustainable cropping systems using a positive deviance approach: Wheat-maize double cropping in the North China Plain Zhengyuan Liang a,b,c,*, Wopke van der Werf c, Zhan Xu b,c, Jiali Cheng a,b,c, Chong Wang b, Wen-Feng Cong b,**, Chaochun Zhang b, Fusuo Zhang b, Jeroen C.J",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "sourceCitation": "Liang, Z., et al. (2022). Agricultural Systems, 201, 103471.",
+  "sourceURL": "https://doi.org/10.1016/j.agsy.2022.103471",
+  "visibility": "public-adaptation",
+  "blocks": {
+    "p1-b6-1db2276": {
+      "zh": "H I G H L I G H T S G R A P H I C A L A B S T R A C T",
+      "sourceTextHash": "71439e2905b727175b140723a220190a62f17b44ba6057faff843b2390f1ecfc",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b9-19af77a": {
+      "zh": "A R T I C L E I N F O",
+      "sourceTextHash": "26585e7990e438d9ef3743295abff1f571d8950a5722ef380dad26976ff0a03a",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b12-c0671f4": {
+      "zh": "A B S T R A C T",
+      "sourceTextHash": "c0671f4edc5af3c59d4e363459c009dcbcf8d91e09e0e06c138219ded7f82d22",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p2-b1-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 2,
+      "flags": []
+    },
+    "p3-b1-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 3,
+      "flags": []
+    },
+    "p4-b1-4b22777": {
+      "zh": "4",
+      "sourceTextHash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b10-de7d1b7": {
+      "zh": "i",
+      "sourceTextHash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b11-3589661": {
+      "zh": "Yi × PRi −VCi (1)",
+      "sourceTextHash": "5fd75cd333a33b42a069ff073aa41554ffe52a399b9641b9e7d4cab46fee9096",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b16-de7d1b7": {
+      "zh": "i",
+      "sourceTextHash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b17-72a1d64": {
+      "zh": "Yi × Ei (2)",
+      "sourceTextHash": "c197901e0dd6b59011e534c8fb7c780149b53a96cd8d782fd976547074ee7eff",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b21-de7d1b7": {
+      "zh": "i",
+      "sourceTextHash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b22-be27c71": {
+      "zh": "∑",
+      "sourceTextHash": "be27c7179a6108737e79a0601f504aff2a4c13ada630a418051e95457fcfa0f9",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b23-189f400": {
+      "zh": "j",
+      "sourceTextHash": "189f40034be7a199f1fa9891668ee3ab6049f82d38c68be70f596eab2e1857b7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b24-dd0eec8": {
+      "zh": "Lj,i × Nj,i (3)",
+      "sourceTextHash": "1111350d46b88d713f8c11a254fb60b1e9ed83428231831fde741cde0e6c7259",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b28-c96490b": {
+      "zh": "GWD = ∑",
+      "sourceTextHash": "3f1fbc90238e95ef948a72f0c4aa9145886e1422cf2c1e20b8e03cf73e65e77a",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b29-de7d1b7": {
+      "zh": "i",
+      "sourceTextHash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b30-76fda88": {
+      "zh": "IRi −D (4)",
+      "sourceTextHash": "fb5ea167a96d21be0fd786be6237baab2b904e390238ffa81a073355d45d9baf",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b32-5af3f24": {
+      "zh": "D = α ×",
+      "sourceTextHash": "5af3f24fb757165d4709ec641e05e033af9119497b2b7117d60a7fb1eaeb1f91",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b33-32ebb1a": {
+      "zh": "(",
+      "sourceTextHash": "32ebb1abcc1c601ceb9c4e3c4faba0caa5b85bb98c4f1e6612c40faa528a91c9",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b34-16fd171": {
+      "zh": "P + ∑",
+      "sourceTextHash": "fd7fa5fdf35df74507ccbddcf0ed7ec0ec9e98d60da3ce12f4a6b07e38249431",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b35-de7d1b7": {
+      "zh": "i",
+      "sourceTextHash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b36-5904d87": {
+      "zh": "IRi",
+      "sourceTextHash": "5904d87864006cd380a178d37593d41b23a21aff40517c8fac5b0fd4ca092517",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b37-ba5ec51": {
+      "zh": ")",
+      "sourceTextHash": "ba5ec51d07a4ac0e951608704431d59a02b21a4e951acc10505a8dc407c501ee",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b38-97ce612": {
+      "zh": "(5)",
+      "sourceTextHash": "97ce6126f9bad63aac5ddf4679f0612cefe3e29045a0c685838526b952c8150d",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b42-de7d1b7": {
+      "zh": "i",
+      "sourceTextHash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b44-4826d47": {
+      "zh": ") (6)",
+      "sourceTextHash": "aa372bc98c7f70a9a9cb9c14c47a76efcfd4492fed3589cfe19ce81b96756a7e",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p5-b1-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b13-d782dcd": {
+      "zh": "̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n",
+      "sourceTextHash": "3df0f78937e6aca0de04c775a194ec1c9cb65473d59ea35dcaffad8615b18b13",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b14-9b19467": {
+      "zh": "k=1",
+      "sourceTextHash": "9b19467654aed1a261602ee60a4b124c5705be464c4fe4f2c71f651fe15fac97",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b15-855c2a4": {
+      "zh": "dk,c 2 √",
+      "sourceTextHash": "5e91b0f1e4405543855ba37c5c1720d6b8ca7a1c67353a04cedae6c7871a5405",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b16-7a7170f": {
+      "zh": "(9)",
+      "sourceTextHash": "7a7170fab8cc10cdf154841d6022a9f16e22c78ea17cc854d00f4f3b353d1e02",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b17-60f1c21": {
+      "zh": "dk,c = ⃒⃒⃒⃒",
+      "sourceTextHash": "698577e9c3295023cdf3a4ccd50e61b66db0760063972b8c25b716e59121e409",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b18-4092c3d": {
+      "zh": "pk,c −qk",
+      "sourceTextHash": "4092c3d3ab61dadb53f46125161c56e6bbf107328247b04178951c718baa8c12",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b19-3d60d48": {
+      "zh": "mdk",
+      "sourceTextHash": "3d60d48af1569781193fe75f308aec04d8dbb570e00c4dbbd62671fb1d199664",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b20-a6046ce": {
+      "zh": "⃒⃒⃒⃒ (10)",
+      "sourceTextHash": "d5ed966a401b923273d71f85af3420ae9d63a38f6ebe8a1e30382131da12573f",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p6-b1-e7f6c01": {
+      "zh": "6",
+      "sourceTextHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b4-e05812e": {
+      "zh": "̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n",
+      "sourceTextHash": "8f630fd20c36f26d6c65cc388871d923549847aa4ed8e2d8165ab5098fbc4158",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b5-9b19467": {
+      "zh": "k=1",
+      "sourceTextHash": "9b19467654aed1a261602ee60a4b124c5705be464c4fe4f2c71f651fe15fac97",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b6-0bf8671": {
+      "zh": "( dk,c −dc",
+      "sourceTextHash": "3d51ce76214d5c4afd4fb2d4ee931144ef27ee0a611c46e63530ad62a342f6c0",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b7-eb88c8b": {
+      "zh": ")2",
+      "sourceTextHash": "eb88c8b55d8607aaa4a40dcc62e7d2e617f99138620c8d02a5a6f23b408b88d2",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b8-2d73ad0": {
+      "zh": "n −1",
+      "sourceTextHash": "2d73ad004c8ad6dffb35bb2b440b7e8ecdb5e5fdaee0f0a7506f0aceea16f9e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b9-23012b8": {
+      "zh": "√ √ √ √ (12)",
+      "sourceTextHash": "2b4ee1ce717f735fbbf23a72b5e097765b1132002c3459a44757a8dce2be2b88",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b18-d055c42": {
+      "zh": "BWF = ∑",
+      "sourceTextHash": "e1c95a0cf6edb03f011ac27460da1fec53e34b58f3f2cecee4d361422030a52f",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b19-de7d1b7": {
+      "zh": "i",
+      "sourceTextHash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b20-5904d87": {
+      "zh": "IRi",
+      "sourceTextHash": "5904d87864006cd380a178d37593d41b23a21aff40517c8fac5b0fd4ca092517",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b21-8a5edab": {
+      "zh": "/",
+      "sourceTextHash": "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p7-b1-7902699": {
+      "zh": "7",
+      "sourceTextHash": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p8-b1-2c62423": {
+      "zh": "8",
+      "sourceTextHash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p9-b1-19581e2": {
+      "zh": "9",
+      "sourceTextHash": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "status": "verbatim-symbols",
+      "page": 9,
+      "flags": []
+    },
+    "p10-b1-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 10,
+      "flags": []
+    },
+    "p11-b1-4fc82b2": {
+      "zh": "11",
+      "sourceTextHash": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+      "status": "verbatim-symbols",
+      "page": 11,
+      "flags": []
+    },
+    "p12-b1-6b51d43": {
+      "zh": "12",
+      "sourceTextHash": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+      "status": "verbatim-symbols",
+      "page": 12,
+      "flags": []
+    },
+    "p13-b1-3fdba35": {
+      "zh": "13",
+      "sourceTextHash": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+      "status": "verbatim-symbols",
+      "page": 13,
+      "flags": []
+    },
+    "p14-b1-8527a89": {
+      "zh": "14",
+      "sourceTextHash": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+      "status": "verbatim-symbols",
+      "page": 14,
+      "flags": []
+    },
+    "p15-b1-e629fa6": {
+      "zh": "15",
+      "sourceTextHash": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
+      "status": "verbatim-symbols",
+      "page": 15,
+      "flags": []
+    },
+    "p1-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b2-094a208": {
+      "zh": "2022年7月30日 0308-521X/ ' 2022 《作者》,Elsevier Ltd出版。 这是根据《CC BY许可法》(http://creativecommons.org/licenses/by/4.0/)公开查阅的文章。",
+      "sourceTextHash": "dfe09a3568f5fea6bff623a47ad4144de3ee50601671389e591b5d1ca9a4bf8e",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b3-1045ff7": {
+      "zh": "采用积极的偏离方法,确定示范性可持续作物种植制度:在北华平原使用小麦和双作物",
+      "sourceTextHash": "42750060954bf96e1d1c38c9241a3dabc4117251dc51f1826a826f1035528a26",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b4-021ad72": {
+      "zh": "Zhengyuan Liang a,b,c,*, Wopke van der Werf c, Zhan Xu b,c, Jiali Cheng a,b,c, Chong Wang b, Wen-Feng Cong b,**, Chaochun Zhang b, Fusuo Zhang b, Jeroen C.J. Groot a",
+      "sourceTextHash": "a3daed4e2421ed2c877dc8f5fdb6398bacd12237a3fa1596c241798960e6d69c",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "language-check"
+      ]
+    },
+    "p1-b5-1d28ea1": {
+      "zh": "a 农业系统生态学,Wageningen大学和研究,P.O.Box 430,6700,AK,Wageningen,荷兰b资源与环境学院,国家农业绿色发展学院,中国农业大学,北京100193,中国作物系统分析中心,Wageningen大学和研究中心,P.O.Box 430,6700,AK,荷兰Wageningen",
+      "sourceTextHash": "d167a1fad799e717edf268d09344c934b212d8285f26ea7f2b36ece7450f91c6",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b7-08bd684": {
+      "zh": "• 采用积极的偏离方法来确定示范性可持续耕作制度。",
+      "sourceTextHash": "59a6a5243c55c1601c99b26b699f075e741e1c5f819fbb8a849202c6459bc94f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b10-cc509a8": {
+      "zh": "编辑:纪尧姆·马丁",
+      "sourceTextHash": "cc509a847357a6ee0d0e399a8c85f6b52ff3cb6bd7ea6719cbad708e88733b84",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b11-d4675af": {
+      "zh": "关键词:将Pareto的等级组群划分为Pareto将饮食能源产量排在膳用能源总产值的前列",
+      "sourceTextHash": "1d2292294b438f7aeef20b297aa0dd6b507b07e6a1ec2ae888b32e9d304875c9",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b13-5a00eb0": {
+      "zh": "可持续作物种植系统需要平衡生产力和利润与资源及环境保护之间的平衡。在大规模作物种植系统观测中,在可持续性方面可能有一些积极的偏差,优于其他的偏差,而可持续性可以作为未来发展的“示范系统”发挥功能。麦地制双作物生产是北华平原的主要系统,它面临着多种经济、社会和环境可持续性挑战。从众多小麦产量观测中找出一些堪称典范的正向偏离,可能会为加强整体可持续性提供解决办法。目标:我们的目标是:(1) 确定在七个可持续性指标中达到最佳性能的典型小麦产量系统;(2) 确定哪些管理做法和耕作环境因素导致了模范系统和其他系统之间的可持续性差距;(3) 提出一个可持续的小麦农业原型。方法:根据农民调查数据集(n=344),我们制定了耕作系统一级的积极偏离办法,包括多标准评估、积极的异常识别(Pareto分级)和正面",
+      "sourceTextHash": "1b5e88146f706b9b3bc89480d5bb2b58cf4279e9e8651228cc1bf797ccc0ba37",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": []
+    },
+    "p1-b14-aefbfff": {
+      "zh": "缩略语:NCP,北中国平原;N,氮;Group,温室气体;C,碳;MIDIP,向理想点的多指标距离;HIDAP,向全套指标的理想点的距离差异性。 * 相应作者:农业系统生态学,Wageningen大学和研究,P.O. Box 430,6700,AK,Wageningen,荷兰。 **对应作者:电子邮件地址:zhengyuan.liang@wur.nl(Z. Liang),Wenfeng.cong@cau.edu.cn(W.-F.Cong)。",
+      "sourceTextHash": "4179f151007b45d913b06fefe3b0282caae87a127f077b422dc8fd95eaecc0f6",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b16-b0658ce": {
+      "zh": "在 ScienceDirect 上可用的内容列表",
+      "sourceTextHash": "b0658ce9dccc0acba9a472c2bb992cc9ba72c28f2ffb7146782e56fa3025b55b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b17-fb1fca0": {
+      "zh": "农业农业系统",
+      "sourceTextHash": "fb1fca0791ac2c307fb3dbd5dc6c9b3440cf2b289b649eaf98034c7bae6e0f8c",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b18-a2a80ca": {
+      "zh": "网址:www.elsenvier.com/locate/agsy",
+      "sourceTextHash": "a2a80caaa46d1d9359df4afce09f99beea9dc58f3c926fb68777d35d627f139f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b20-9955de4": {
+      "zh": "收到:2022年5月24日;收到:订正格式为2022年7月20日;接受:2022年7月22日",
+      "sourceTextHash": "229696846c6f5e8b30561c22aee5ad2ee167155303da2589b2192a58d2201fb9",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b2-4a4cc8b": {
+      "zh": "成果与结论:小麦产量的16%是最佳帕雷托,被归类为积极的偏离物。 这些分类分为7个组群,代表了不同的可持续性模式。 在这些组群中,1个组群包括示范性系统,原因是在指标集上取得了最佳妥协。 与其余的小麦产量相比,示范性系统平均导致毛差49%和17 % , 饮食能量产出下降33-51%,劳动力使用率下降、地下水耗竭、N损失、温室气体净排放和杀虫剂使用率降低33-51%。 授予示范性系统绩效的主要做法包括提高玉米播种密度、降低小麦肥料投入、部分替代无机化肥用粪肥、减少灌溉事件以及降低农药和杀草剂应用频率。示范制度和其他制度之间在耕作环境方面没有明显区别。",
+      "sourceTextHash": "eaf1be432a3e6f2edb6f1f354907b765e28c857e6c1b0f1176742e47dff43c11",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 2,
+      "flags": []
+    },
+    "p2-b3-6e62ee8": {
+      "zh": "1. 导言",
+      "sourceTextHash": "6e62ee82e3df2a7dfcaba91e18eab2a77c9c7f7b4a5dceb49528346078b636d2",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b4-60cfcb1": {
+      "zh": "随着世界人口的增长和农业造成的广泛环境损害,全球作物生产必须满足粮食安全、资源养护、环境稳健和社会经济可行性方面的联合可持续需求(Foley等人,2011年),因此,全球大多数农业地区需要探索适当途径,提高作物生产的多层面可持续性(Lechenet等人,2017年;Spiegal等人,2018年;Davis等人,2019年),尽管各区域面临的挑战不同(Zhang等人,2021年)。北中平原是中国的面包篮,分别占全国小麦和玉米产量的59%和26%(中国国家统计局,2020年)。该区域农业将高生产率列为优先事项,支持在过去几十年内增加国内消费(Niu等人,2021年)。1980年至2019年,小麦的平均谷物产量从2.0兆克/公顷增至6.4兆克/公顷(Triticum aestivum L.),玉米平均产量从3.7兆克/公顷增至6.1兆克/公顷(Zea mays L.),水、肥料和杀虫剂等农业投入大幅增加(中国国家统计局,2020年)。然而,从经济、社会和环境角度看,地方作物种植系统目前面临一系列可持续性挑战。一方面,需要提高生产率和盈利能力,以确保国家粮食自给自足,并在农村劳动力短缺的情况下促进农村经济繁荣(Ghose,2014年;Xu等人,2019年)。另一方面,由于小农户对农作物的密集管理,作物生产是造成当地环境恶化的一个主要因素。Kong等人,2016年)、肥料氮(N)相关水和大气污染(Meng等人,2018年a;Wang等人,2019年)、高温室气体排放(Xu和Lan,2017年)以及土壤和水的农药污染(Brauns等人,2018年),所有挑战都迫在眉睫,因此地方耕作系统需要追求多维的可持续性,小麦和玉米是最大的作物种植系统,覆盖全国种植方案可耕地总面积的60%左右(Li和Lei,2021年)。因此,改善小麦种植系统的多层面可持续性将对提高该地区的农业可持续性做出巨大贡献,在提高小麦种植系统的可持续性方面确实有着巨大的潜力。例如,国家清洁生产方案的许多实地试验证明,N损失、温室气体排放或地下水表下降可以减少,而不会通过优化管理技术,如基于土壤测试的肥沃化、提高肥料和先进灌溉制度等优化管理技术,牺牲谷物产量(Ju等人,2009年;Sun等人,2015年;Zheng等人,2020年)。",
+      "sourceTextHash": "2485bc7474c780a0c305679a8bae7f3e7decd9967cafe3793e35eb15febe86bc",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 4,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b5-7026ddf": {
+      "zh": "研究人员很难以“自上而下”的方法提供务实的解决办法,加强耕作系统可持续性业绩的所有领域。这是因为可持续性领域之间的权衡通常发生在农业系统中(Kanter等人,2018年;Li等人,2019年)和挑战涉及多个学科。此外,这些解决办法可能不符合特定地点的条件,因此对农民来说在当地不可行(Liu等人,2018年)。迄今为止,对于全国生产大会中的小麦-玉米系统缺乏全面的可持续性评估,而且仍然不清楚当地农民如何协调小麦和玉米生产的不同可持续性领域。一个农业区域内的作物种植系统由于农户不同的耕作做法和不同生产环境,往往具有异种性农业、环境和社会经济状况(Aouadi等人,2015年)。积极的偏离方法可用于调查人口(Herington和van de Feliert,2018年)中表现最佳的个人(即积极偏离者)的特点和做法;这里,积极的偏离方法是指在拥有类似环境、资源和障碍的情况下实现优于社区内其他人业绩的案例;积极偏离方法是在人类营养和公共卫生领域启动并广泛应用的(Albanna和Heeks,2019年),例如,通过在资源贫乏情况下对有更健康子女的积极的异常家庭进行研究,建议采取饮食干预措施,防止儿童营养不良;这一方法还扩大到农业领域,以研究积极的异常农场及其驱动做法(Savikurki,2013年;Dumont等人,2020年)。近期关于农业系统积极偏离的研究通过系统和定量方法,如Pareto最佳化(Modernel等人,2018年;Steinke等人,2019年;Adelhart Toorop等人,2020年)等,从多重评估指标中查明了积极的偏离因素,这些研究还捕捉了积极的偏离因素的多样性,排除了使用每项指标基准值在某些指标方面表现不佳的积极偏离因素,基准值可被确认为临界值(Modernel等人,2018年)或人口平均值(Adelhart Toorop等人,2020年)也可用作基准,然而,使用这类基准在某种程度上是任意的,采用一种办法选择无基准的积极偏离因素将很有意义。此外,大多数以农业为导向的研究都侧重于农场规模,而为了解作物生产多方面可持续性改善作物产量的多方面可持续性改进而进行的耕作系统一级的积极偏离分析仍然没有得到充分的研究。",
+      "sourceTextHash": "c77df1ac30cee0ca58fe8f92bae43c2fc159861240c4096e3ea4c28bd0073804",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 4,
+      "flags": []
+    },
+    "p2-b6-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b2-e640739": {
+      "zh": "在所有可持续性领域,在一套有效的管理做法的支持下,以及可能的话在有利的耕作环境的支持下,可以达到相对优异和平衡业绩的偏差。我们在这里对全国大的一个县的小麦-玉米观测采用了嵌套的积极偏离方法。研究目标为:(1) 在不使用基准的情况下,确定示范性积极的非异常小麦分析系统;(2) 查明示范性系统和其他系统之间多维的可持续性差距是否是由于管理或耕作背景的差异所致;(3) 提出以示范性系统为基础的可持续小麦定性原型。",
+      "sourceTextHash": "642c61533310fac9bbe1dc9a2f07023693d3b61969886666a2c2b70c90709a11",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b3-a77f4aa": {
+      "zh": "2. 材料和方法",
+      "sourceTextHash": "a77f4aaf906d38849e11e41a6e44e589cb63ae7d507ea1af9799731e28579ee6",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b4-9a5389b": {
+      "zh": "2.1. 嵌套积极偏离方针的方法框架",
+      "sourceTextHash": "9a5389b67e565fac0a51319b4de69925807dafd1a4b792c00dc3717bea758eca",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b5-769ac8b": {
+      "zh": "我们采用四步方法,确定积极的偏离和示范作物种植制度,并提取提高作物种植制度可持续性的措施(图1)。STEP1:数据收集和多标准评估;进行实地调查,收集关于生产投入产出以及作物种植制度的生物物理和社会经济背景的数据(见第2.3节);然后我们利用数据集,从与地方可持续性挑战有关的指标方面量化耕作系统一级的绩效(见第2.4节)。STEP2:查明积极的偏离和示范系统。通过从基于指标性能的一套办法中选择最佳作物种植制度(在第2.5.1节中解释)来确定积极的偏离;接着,将所有积极偏离分成几个组群,形成不同的可持续模式;随后,将距离最短至理想点的积极异常组群(见第2.5.2节)选为包含代表整个整套指标的最佳妥协的模范系统的集群。",
+      "sourceTextHash": "b84f3feb69f592a4636738b236c35b3e0f45458f8fc241f924c82a60796cf734",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b6-bf5b538": {
+      "zh": "STEP 3: 量化和解释可持续性差距; 我们比较了示范性系统和其他系统之间的可持续性指标,以计算多层面的可持续性差距; 然后,我们利用一系列解释性变量,描述作物管理、生物物理和社会经济背景,分析与可持续性差距相关的因素; STEP 4: 建立可持续的耕作制度原型; 最后,根据上述三个步骤,建立了一个可持续原型,该原型概述并描述了作物管理和示范性系统的预期可持续性成果; 这个本地可行的原型可以作为地方利益相关者促进小麦产量可持续性的模型。",
+      "sourceTextHash": "bcd92aed0d4665ee9560931436a548b900fe92ad990d3c01f6f02fb0520028cf",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b7-658e195": {
+      "zh": "2.2. 研究地区说明",
+      "sourceTextHash": "658e1956059c53da4de1ca21d7b9191f2888e478fa3dd64ef17398fa435fc811",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b8-3c1ce7b": {
+      "zh": "奎州是全国大的一个典型的农业县(中国河北省为11450E-11513′E,3635′N-3657′N),被选为研究区(图S1)。",
+      "sourceTextHash": "f4e533db0d0d8218a1227d422b1fa45693fdb5e974666832880834950267c8ca",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b9-697dc72": {
+      "zh": "1) 气候环境:1°-气候环境:1:Quzhone县的气温和季风气候是全国大所特有的典型。年平均温度为13.1°C,夏季炎热、冬季寒冷,年平均降水量为500毫米,其中60%发生在6月底至10月底;农业土壤是岩浆冲积层,其特点是粘土质质素、高土壤pH值( > 7.5)和低土壤有机物含量(在大多数耕地地区为 < 2%)。 2)耕作模式:与全国大区大多数农业县相似,奎州农田以小麦和玉米的双种为主,10月播种小麦,明年6月收获,6月种植玉米,6月小麦收割后立即耕种,10月采伐。大部分小麦作物系统由小农户管理,他们的平均农场面积为0.6公顷。",
+      "sourceTextHash": "361f6280c8fc8a8e7a60be4163ff7aa055087e3267dde92c1cb7b8345608dd50",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b11-730ce76": {
+      "zh": "图1. 方法框架中嵌套步骤的示意图,流程图外的方框显示相应步骤使用的方法:边距、DEY、GWD、GHD、GHEN和Pesti.分别表示总差值、膳食能源产量、地下水枯竭、温室气体净排放量和杀虫剂的使用。MIDIP是通往理想点的多指标距离(见第2.5.2节)。",
+      "sourceTextHash": "82d5f2bba2c806aa4c653f2bc5f8d5f3c16417dde2ae410a42a23bfaa24860d5",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b12-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b2-415f26e": {
+      "zh": "(3) 可持续性挑战:奎州面临多种经济、社会等挑战",
+      "sourceTextHash": "9c0855f0f1d1a112e33e02763f482b99eafd9156382ac5868fd2bf8dcc7ba437",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b3-e681167": {
+      "zh": "国家联络中心特有的胎儿挑战和环境挑战:农业收入低、农村劳动力短缺、地下水位下降和高N损失(Zhang等人,2016年;Xu等人,2018年;Meng等人,2021年;Feng等人,2022年)此外,目前的农业环境政策旨在减少目前杀虫剂使用率高和温室气体排放量高的情况(中华人民共和国农业和农村事务部,2022年)。",
+      "sourceTextHash": "e04d8fb846746ba1d214680d85a671a87ab7d175f08cd015c7be7ff40ff2b52d",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b4-6733a1d": {
+      "zh": "2.3. 农业户口调查和数据集建立",
+      "sourceTextHash": "6733a1dd393d1513432080dea38c45236e3f63ca47c2f5bdcbbf1763437ff332",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b5-963c8f4": {
+      "zh": "2020年7月,我们对奎州525个农户进行了调查。调查在25个村庄进行,每个村庄有15个随机选定的家庭(图S1)。 对于每户家庭,我们亲自与户主面谈,通过一个结构化的问卷来收集关于以下数据:住户状况(如劳动力供应情况)、种植作物系统(如小麦-成色双种作物)以及一年耕种周期(2019年6月至2020年6月)中每种作物的投入和产出(如肥料使用和产量)。 我们发现344户家庭(66%)种植小麦,用地下水灌溉进行双种作物。我们提取了与这些小麦-玉米观测有关的数据,包括作物投入-产出清单和家庭特征(表S1),以便为这项研究建立一套新的数据集。我们使用了奎州最新的土壤网数据集(2018年抽样);利用ArcMap 10.8中的逆距离加权法(https://www.esri.com/en-us/arcgis/products/arcgis-desktop),在村庄一级取得平均土壤特性(2022年,Li等人),最终,我们有一个数据集,包含Quhou所有地下水灌溉小麦的作物投入、作物产量以及生物物理和社会经济背景(即土壤特性和家庭特征)等变量。",
+      "sourceTextHash": "b0cb11dee8ec2d49ef62e87a83e51738e4355ed8ab14be785865864a4272d500",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b6-98a8ad5": {
+      "zh": "2.4. 多标准评估",
+      "sourceTextHash": "98a8ad543b69da98aa67fcbf5abe0d1526b08498c53535770e63166e6dc92714",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b7-d793468": {
+      "zh": "在这项研究中,可持续性指标被选定为需要应对的地方挑战,可分为三个领域,即可持续性的经济、社会和环境方面,所有指标的时间尺度是一个双重种植周期(一年)。",
+      "sourceTextHash": "706e76dfe4a9641ddaf953d769b19d505bf917fca06eaf8a4548642d6ec67cd6",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b8-037e5d5": {
+      "zh": "2.4.1. 经济领域 -- -- 农民的主要利益是使种植系统的利润最大化的毛差,年毛差(GM总数,美元/公顷/年)用来表示每次小麦产量观察的经济业绩,计算如下:",
+      "sourceTextHash": "ad5cb5a8216121788bc5740965ac493663a451ebd49c3bd49e0fb9139378e3c2",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b9-d5a020b": {
+      "zh": "全球机制总计=_____________________________",
+      "sourceTextHash": "baba406d2392e58ff72aca115c61ad0160e7c6a786d0213e97632a1d059b3b3d",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b12-83a7f4d": {
+      "zh": "Yi(兆克/公顷)和Pri(美元/吨)分别表示粮食产量和农场大门价格。可变成本(VCi, $/公顷/年)包括农业材料投入的所有费用(包括种子、肥料、粪肥、电力、杀虫剂和增长调节器)以及根据应用率或申请数量和相应价格而雇用的机械使用(用于耕种、播种、收获和稻草返回)。",
+      "sourceTextHash": "3418dad94b13d7d5075af965d6a013dc37d62807308102157df933b4138deb96",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b13-d5b9b1d": {
+      "zh": "2.4.2. 社会领域",
+      "sourceTextHash": "d5b9b1d7cbd2a491d13947816fd9a6599510d49b8c76e6c927452858c5e8ee11",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b14-f9e0859": {
+      "zh": "2.4.2.2.1. 饮食能源产量. 膳食能源产量(食用能源总量,GCal/ha/年)是广泛使用的食品供给能力代用指标,与社会粮食安全需求相关联。",
+      "sourceTextHash": "a079b72419f7c491ed78d0593350031d7c61baf1b41a827ebf39619fd9cde1c4",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p4-b15-374962b": {
+      "zh": "总计=___________________________",
+      "sourceTextHash": "54ad6562085ae1d26f7bb1ab9572e3bb95173605c8df69c2e9b68ce5dabccfc0",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b18-814df8a": {
+      "zh": "小麦和玉米谷物的饮食能量含量分别为3.17GCal/Mg和3.35GCal/Mg(Yang等人,2018年)。",
+      "sourceTextHash": "bd65cc29d1ff495ea4c9d25e4f911a7a87fa1f2ea0676a1b4c634d7c813972f5",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b19-a1da0a3": {
+      "zh": "2.4.2.2.2. 劳动力使用:鉴于全国大农村劳动力日益短缺,可持续作物种植系统需要尽量减少劳动力投入。",
+      "sourceTextHash": "901e72dcf403d6d8ee4de94020012181be4b15bd19f18f0eeec2f058bc3ed562",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b20-70e0261": {
+      "zh": "总计=_________________",
+      "sourceTextHash": "41c1b8240fde826c23664cd4147dfad6e33f1cc0983e5bc6a1a6ffaf061a6b97",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b25-bebef67": {
+      "zh": "j (=1, 2, 3, ......)是指人工耕作活动,包括矿物肥料和粪肥施用、杀虫剂和除草剂的使用、灌溉、除草和收获。Lj,i为活动j的劳力消耗时间,Nj,i指在作物种生长季节从事的活动j的次数。i 由于一些农民无法准确记得他们的劳动投入,而且发现Lj,i在各住户中相对同质,我们使用Lj,i(除粪便使用和除草外)的固定价值,与所有能够报告这些活动的家庭的平均价值相等(表S3)。",
+      "sourceTextHash": "8aba561fd949be5a37d5a980678eb13e737393d19dc7299c1a60878c0a136c17",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b26-51bdac1": {
+      "zh": "2.4.3. 环境领域",
+      "sourceTextHash": "51bdac1cda8643c9463c661d9f20fdc829223b8d2ba181217744ef21ffb106e3",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b27-e569563": {
+      "zh": "2.4.3.1.3. 地下水枯竭. 可持续的小麦丰收系统应有助于减轻全国饮用水方案地下水位的下降。 地下水耗竭(GWD,mm/年)是评估在耕作系统一级地下水使用的可持续性的一个有用指标(Yang等人,2021年)。",
+      "sourceTextHash": "2926adc8dc695da0cd2346250d300bee46f200f96bf2f4d476c14ab35f7776d9",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b31-e43de45": {
+      "zh": "IRi(mm)是作物一的地下水灌溉量,D(mm/年)是在小麦种植年份深入渗透的。GWD正值反映地下水枯竭,而负值表示地下水补给量。IRi是根据经验公式(补充材料第1.1节)从抽水用电中估算出来的,而D则计算为:",
+      "sourceTextHash": "31b985e5b05ca71b188ae743da22fa24d2cc7600ef4b0269d70269fe8750bf88",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b39-58315bf": {
+      "zh": "P是年度降水量(mm/年)。 α表示无尺寸补给系数,该系数被定为为案例研究区0.2的校准值(Yang等人,2021年)。",
+      "sourceTextHash": "bdf32fb3ff9e15c100f7c64e505530cfa9d598a6562cd48554e23b7d33fa3c64",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b40-1a79b71": {
+      "zh": "2.4.3.2. 氮的流失。由于环境而丧失的化肥氮(N)导致水富营养化和PM2.5(微粒物质)污染(Huang等人,2017年;Meng等人,2018年a)。",
+      "sourceTextHash": "200cd5587c954d2c39bd807f1f11ecf593f79bb58fd6ffb2d52be01ef75ebfce",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b41-19cf79b": {
+      "zh": "总计=____________________",
+      "sourceTextHash": "a36cab2e3ca1792232965ca5684c31ea607fd3ba63060fb502c9bf8ae42cab56",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b43-f636d15": {
+      "zh": "(NLNH3,i + NLNO3,i + NLN2O,i)",
+      "sourceTextHash": "495ce8a38d53577fe6c91b9983e6ba04e8ecf856a651e10bb96de16b3f5efe20",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b45-8e951a2": {
+      "zh": "NLNH3、i、NLNO3、i和NLN2O,i 分别表明通过氨挥发、硝酸盐沥滤和一氧化二氮排放途径损失的作物具体数量(千克N/公顷),这些是使用为NCP校准的经验方程式(补充材料第1.2节)根据N化肥投入计算的。",
+      "sourceTextHash": "da1396af3642dfeda0f0cd431ed3c4b4eda44e05963517b282f708f13596ed95",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b46-c91606a": {
+      "zh": "2.4.3.3. 温室气体净排放量:碳(C)减排已被公认为中国作物生产的一个关键目标(中华人民共和国农业和农村事务部,2022年)。",
+      "sourceTextHash": "5619124f0d014343f34ca664f3d823ea11decdf1799b59d7dabfdf0c2d49d1a6",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b47-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b2-5b4f8e0": {
+      "zh": "系统边界包括农业投入的制造和运输、农田耕作做法和土壤碳储量变化(包括耕前阶段和耕前阶段),温室气体净排放量(GHnet、Mg CO2当量/公顷/年)取决于温室气体排放(GHemi、Mg CO2当量/公顷/年)和土壤固存(QSOC、Mg CO2当量/公顷/年):",
+      "sourceTextHash": "e08835421963183f2d66048ea7e81e61d9275f0c94d51cdb8ee8c31836793f1d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b3-84652dd": {
+      "zh": "温室气体网络 = 温室气体 = SOC(7)",
+      "sourceTextHash": "c27a0dc7739bf54983fafc20ce5896e1fb4b8be083faba7bc8f81d7d703d2377",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b4-c0804c3": {
+      "zh": "其中温室气体占农前温室气体排放、N化肥引起的直接和间接一氧化二氮排放和土壤C退化,而QSOC则考虑了草原回报、根残留物和动物粪肥的碳投入。 所有这些都是用补充材料第1.3至1.4节中规定的实证方程式量化的。",
+      "sourceTextHash": "b73a2294daa964e34bd67843c05b9f2a812d45e387cfaf4eaa1fbe37c8840cff",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b5-dff7994": {
+      "zh": "2.4.3.4. 农药的使用:减少对化学杀虫剂的依赖是可持续耕作制度的一个重要因素;农药包括杀虫剂、除草剂和杀真菌剂,我们的研究中包括杀虫剂、除草剂和杀真菌剂;由于农民很难报告确切产品成分和应用的活性成份,因此我们根据标签建议(通常每毫克20升、1/15公顷、1罐作为一剂量使用),根据充分剂量的应用数量对农药投入进行量化。",
+      "sourceTextHash": "04db38d39c5736391ab567abcf2bf386cbb5ff5e53948a9faa0b5cf8835c7e49",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b6-c31afa1": {
+      "zh": "PU总计 = IU总计 + HU总计 + FUT (8)",
+      "sourceTextHash": "a3dd5dc97a1e9b336afe84380db2160b6d0540ebffbf2d5639264623bb4aa27b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b7-7378e5a": {
+      "zh": "其中IU总计、HU总计和FU总计分别表示杀虫剂的使用、除草剂使用和一年作物周期的杀真菌剂使用(均以剂量/年表示),《补充材料》第1.5节进一步阐述了计算方法。",
+      "sourceTextHash": "dc16a0317ead5a15080a8bcc9ccab797d840459d8badd3fe22a63f28a0c1e2f4",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b8-fd923e6": {
+      "zh": "2.5. 确定积极的偏离和示范制度",
+      "sourceTextHash": "fd923e67723e52b4ed3cd50bb1c85ea5ac419ab8373d60e45f3d9b2e20674dc5",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b9-acabc38": {
+      "zh": "这一步骤旨在根据上述可持续性指标,从奎州所有小麦产量观测结果中选择示范性系统。 这些指标可被视为可持续小麦产量的“模式”(图2)。",
+      "sourceTextHash": "aaf48758400a9661f362c2ed1bcbc8139643f7e919575d7d3562cf3cfd2b5b15",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b10-bb23bff": {
+      "zh": "2.5.1 Pareto基于排名的Pareto选择Pareto排名是一种方法,可以从整个人口中发现业绩良好的个人,又称Pareto-最优性,而不给多重指标分配主观权重(Groot和Rossing,2011年),我们在此使用Pareto排名作为标准,根据七项可持续性指标(图1)确定小麦产量案例中的积极偏离情况,在排列过程中,当所有指标都不比任何其他指标低时,案件被排为“1”(即Pareto-opatim或非主导) (Groot等人,2012年);Pareto排名是通过使用R一揽子“eaf”中的pareto-rank功能进行的;在本研究中,我们将Pareto-rank-1案例视为积极的偏离,而其余系统则被称为受支配系统。",
+      "sourceTextHash": "84f8a9d4255dcde460eeabdd200f1966b8c5d1d913db9bac23fc9c11e23ced74",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b11-9ec7732": {
+      "zh": "2.5.2. 在一套积极的偏离指标中,可能有一些极端情况优于某些指标,但在其他指标中表现仍然较差,如果指标之间存在重大权衡取舍(Adelhart Toorop等人,2020年),在面临多重挑战而未预先确定优先次序时,我们需要查明在整个指标集中达成可接受的妥协的积极偏离趋势,这些积极偏离趋势被称作“示范系统”,而其余的积极偏离和所有占主导地位的系统则被称为“其他系统”。这种集群方法使用对离子不敏感的曼哈顿距离,以测量不同案例的差异,并使用“Ward.D2”联系法尽量减少分组内部差异(Kassambara,2017年)。我们利用R软件中的功能封隔进行集群。关于组内数量的决定应使指标性能方面的群落变化保持足够小的程度,从而使每个组群都能够被视为具有一定可持续性模式的耕作系统组。在这里,我们用功能fviz_nblust做了一个肘图,并根据肘圈弯曲的位置确定了组群的数量。然后,将正偏差分配给了使用功能切割的群集。随后,为了评价各种指标之间的折中程度,对每个积极的异常组群适用了两个衡量标准:多指标距离到理想点(MIDIP)和距离到全套指标集的理想点(HDIP)的异质性。理想点被定义为性能空间的一个点,每个指标的坐标相当于观测人群中观察到的最佳指标值。MIDIP的定义是从某一组群的中间体到理想点的尺度范围内的Euclidean距离。我们随后将最佳的正反差组群界定为在缩放指标空间方面拥有最短MIDIP的一组(每个指标从0到1缩放)。",
+      "sourceTextHash": "16ae1d58da0dfc30d0df3a5ccfbb1937aeea6892c08346e9e3739eabf865c8e7",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 3,
+      "flags": []
+    },
+    "p5-b12-b73a8c6": {
+      "zh": "MIDIPc=",
+      "sourceTextHash": "b73a8c6d1e922a90d8f7f2b57f4e0aa370e70bb44164e1f5c8b1ae8c43999fa0",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b21-f6a9eac": {
+      "zh": "mdk = 最大值-最小值(11)",
+      "sourceTextHash": "918589d4324bb8427c2e7f56848da2d8cf920fdea81608f4e8cb19e118a8c6e6",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b22-606f8cb": {
+      "zh": "c (= 1, 2, ......, 7) 代表正异变群, k (= 1, 2, ., n) 表示可持续性指标。对于指标 k, dk, c 指从 c (pk, c) 组的中子体到理想点(qk) 之间的距离幅度,而 mdk 是整个人口的最大差异。 在极少数情况下,最接近理想点的组群可能仍然保持距离。",
+      "sourceTextHash": "0fcff360399ce689d34909ffce264fa2f0aab8725c610638c8fdf5e3cdf1c392",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b24-4e3fa02": {
+      "zh": "图2. 正面变异物(黄、浅蓝色和绿色填充的螺旋)、主导系统(灰色填充的螺旋)和模范系统(光蓝填满的螺旋)的视觉表现,每个圆圈代表一个作物系统观测。G1和G2表示两个相竞的系统目标,而固态箭头则表示各自的优化方向。每个有破碎边界的椭圆表示一个正异常群;蓝色方形是理想的系统,在所有指标中对应所有指标,其最高值为整个案例的观察值。红箭头显示从集成百分解到理想系统的多指标距离(MIDIP)。积极变异物(又称Pareto-optimal系统)不由任何其他系统支配。特例系统的定义是在多个目标之间达成最佳妥协的积极变异体,其组合以最短的MIDIP为特征。(关于图例中颜色引用的解释,请查阅本条的网络版本。 )",
+      "sourceTextHash": "067f77672d3144c3bdf98111e8087b313e262762e332260cb2aaa757f3f9f278",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 2,
+      "flags": []
+    },
+    "p5-b25-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b2-c4f5bd7": {
+      "zh": "作为这种情况发生的一个指标,人的发展行动方案被定义为与所有指标理想点距离的标准偏差,对每一组也加以量化:",
+      "sourceTextHash": "b471c7249961e75fe58f5b519b769efffcddf3575669b4aba2a603a89266df6e",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b3-e4fdddc": {
+      "zh": "人类发展指数c=",
+      "sourceTextHash": "e4fdddc9970310ad49015cd607f55153fb37bd23d581c17038159bc70e2b95ef",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b10-b86934f": {
+      "zh": "在 n 指指标数目。 dc 表示整个C组指标集的dk,c的平均值。示范系统组群还应具有相对较低的人类发展指数以确保最均衡的业绩。当一个组群拥有最低的MIDIP而不是最低的人类发展指数时,需要为所有组群的每个指标明确列出dk,c。这可以帮助确定如此高的人类发展指数是否可以接受。",
+      "sourceTextHash": "b8fecfb8e0a4b2e9454ab226ef6d1a61c505f7257525a20de3fc976077ed664b",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b11-47ccc6b": {
+      "zh": "2.6. 可持续性差距的量化和解释",
+      "sourceTextHash": "47ccc6b5e6dd83ced8222cb52e1eff22c69d02915faede7d44303b5303a64ca5",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b12-d4f5343": {
+      "zh": "2.6.1. 指标k(SGk)的可持续性差距被定义为示范系统与其他系统的中值性能差异,其表述如下:",
+      "sourceTextHash": "a77741b4bf1be7ebb47163c5b63c4734510eb822d6f7f66bb2875b6d7fc5af00",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b13-66a3b9c": {
+      "zh": "SGK=MPexem,k-MPother,k(13)",
+      "sourceTextHash": "714555dd84da88c2ea321d1acace6a17f15c72b713e451dccd4a55656f877249",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b14-1e288f3": {
+      "zh": "除了上述个人可持续性指标之外,我们还从效率指标(经济劳动生产率、ELP、美元/成份)和包括N足迹(NF、千克N/GCal)、C足迹(CF、Mg CO2当量/GCal)和蓝水足迹(BWF、mm/GCal)在内的三项足迹衡量标准的角度对示范系统和其他系统进行了比较。",
+      "sourceTextHash": "887823bd9d215e775fd55a05292592edf087b23ce5d64c063e8709cc3bea18d9",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b15-c4fce6e": {
+      "zh": "ELP=GM总计/LU总计(14)",
+      "sourceTextHash": "e372eb0ac5ce66e9ca4e14a0e3834347d2ecac78a62407d3b4584e0f62bea842",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b16-6c94304": {
+      "zh": "NF = NL 总计/DEY 总计(15)",
+      "sourceTextHash": "d9fff78feb946064ba766ef506e46ee8a7977afbeef656c32429592e0740c8c4",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b17-917efa8": {
+      "zh": "CF = 温室气体网/DEY总计(16)",
+      "sourceTextHash": "4f97c06949222e1f55be3bc95cc72836d127e3dd24f0b37e6db15a4734f75b60",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b22-6de649b": {
+      "zh": "总计(17)",
+      "sourceTextHash": "b76c298e117a47130b3f6b3074078dea8a3667d883f989794004d339f31d4ac7",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b23-2f8d327": {
+      "zh": "示范性和其他系统之间所有指标的平均值差异通过t-测试进行测试,测试时使用R.中函数 t. t. t. 测试的数值在0.05的临界值水平上出现相等的差异。",
+      "sourceTextHash": "19391e692148607bd0f61437a6c53e1ad53e52cbb323cdfcde40098f00406f6c",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b24-76f0700": {
+      "zh": "2.6.2 在对示范系统和其他系统之间的可持续性差距进行量化之后,我们分析了哪些因素可能导致指标方面的这些差异;在这一步骤中,我们比较了描述管理做法的各种解释性变量(例如播种密度、N应用率、灌溉事件数目等)、生物物理背景(例如土壤有机物含量、土壤散装密度)以及示范系统与其他系统之间的社会经济背景(例如户主的教育经验、家庭劳动力的可用性)(表S7)。",
+      "sourceTextHash": "d36cf69f7923eb6f4cec47e06744fb04510aace43728177cd2180cab4ecca100",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b25-fb2b681": {
+      "zh": "2.7. 建立可持续的耕作制度原型",
+      "sourceTextHash": "fb2b68163905da57fbdd727bff4ea3da1db3a7235a89e6cce195f1f697cdbf07",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b26-b548b00": {
+      "zh": "概述了作为示范性制度特征的可持续性业绩和解释性变量,以建立可持续的小麦产量生产原型。原型的价值是所有示范性案例的平均数。还介绍了一些示范性案例中的灵活备选办法。这个原型可以向包括农业当局、推广工作人员和其他生产者在内的有关利益攸关者通报目前小麦产量制度的可持续性差距,以及适合其需要的相关可行的改进措施。",
+      "sourceTextHash": "11acf82658b31b2f73d974c3e8fa603ed72c43122daa636a339aadfa09d57cb8",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b27-072c8a2": {
+      "zh": "当地条件。",
+      "sourceTextHash": "072c8a26d6a40a08c9f08044b3b01977a5dc9e18941de4ad53aa372ec32911ee",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b28-c3fea71": {
+      "zh": "3. 结果",
+      "sourceTextHash": "c3fea7138f4bb51688359fa370115de73c95fc2601dbf4e5411368aa2da343c0",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b29-82317f3": {
+      "zh": "3.1. 指标性业绩、积极的偏差和占主导地位的制度",
+      "sourceTextHash": "82317f30ac9a2eb2537ed92f067e2232012c9d3588c8dad79843119ec4de1d84",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b30-8ddb11d": {
+      "zh": "我们发现,在所有小麦质量观察人口中,每个可持续性指标都有很大差异,变化系数为0.12-053(表1),这表明奎州家庭小麦质量系统的表现差别很大。 使用帕雷托排名,16%的病例(n=56)被归类为Pareto排第1级的积极偏离(Pareto-optimes ) , 而其余则被归类为占主导地位的体系(次最佳案例 ) 。 因此,正反常者比主导体系表现得更好。 比如,正反常者的平均毛差和饮食能量产量比主导体系高出24%和10%。 与此同时,地下水枯竭、N损失、温室气体净排放以及积极反常者的农药使用率分别比受控体系低26 % 、 32 % 、 34 % 和 13% 。然而,每项正偏差指标的变异系数仍然很高(0.14-0.50),这意味着正偏差与可持续性业绩模式形成对比,不同指标之间可能取舍。",
+      "sourceTextHash": "d1f855b21d4cecad6cf0630ea3a0fff250a5f8a03716988e23b829e3164a441b",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b31-2e9e8a8": {
+      "zh": "3.2. 积极的异常群和示范系统识别特征",
+      "sourceTextHash": "249cf9dc879c06479560825f7c009ace358512271c678d779a5e7444847de89f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b32-fe54e33": {
+      "zh": "使用等级分组,我们将积极的偏离因素分为七组:PD1-PD7(图3;图S2),PD1-PD4组的平均经济和饮食能量产出高于PD5-PD7和占主导地位的系统。PD1-PD3在劳动力和环境指标方面表现不佳。在这三组中,PD1的农药投入(每年15.4剂量)和劳动力投入(每年388公顷)非常高,而PD2的特点是地下水大量枯竭(281毫米/年)、N损失(137千克N/ha/年)和温室气体净排放(6.1兆克CO2当量/年),PD3的地下水消耗(269毫米/年)和使用杀虫剂(8.6剂量/年)。另一方面,PD5-PD7导致平均总利润率和饮食能量产量明显低于PD1-PD4,甚至高于占主导地位的系统,尽管其表现最优于其他一些指标,即地下水耗竭PD5、N损耗PD6和PD7,以及劳动力使用PD7。 相反,PD4在所有指标中取得了最佳妥协,在七个组别中最低值为MIDIP和HIDP(图3)。因此,我们选择了PD4作为示范性系统,其中含有9项意见(2.6%)的人口),其耕作做法可能有资格被其他农民采用。",
+      "sourceTextHash": "5c2af17dbc52f3621ef2143360c1756818566bd45458d30824a3447f5edf76cf",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 2,
+      "flags": []
+    },
+    "p6-b33-34d3ece": {
+      "zh": "3.3. 示范系统和其他系统之间可持续性差距",
+      "sourceTextHash": "34d3eceae91736a63eb0e1ce0d2757b4819cd5b09cec6e93809f9d12ded8c80d",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b34-f4ce50d": {
+      "zh": "对示范性和其他系统之间多方面指标的比较表明,Quzhou(图4;表S9)小麦和双作物种植在小麦产量上存在巨大的可持续性差距(图4;表S9)。 示范性系统的平均总差值和膳食能源产量比其他系统的平均数(p < 0.05)高出49%和17%(p < 0.05),与此同时,与其他系统相比,从环境角度看,示范性系统导致地下水耗减31%、69%和46%,净温室气体排放和农药使用(p < 0.05),平均损失为34%(p = 0.058),示范性系统的平均劳动力消耗量比其他系统低17%(p = 0.050),尽管这一指标对示范性系统来说差异很大,但示范性系统也提高了47%的经济劳动生产率,与其他系统相比,分别导致44%、59%和38%较低的N足迹、C足迹和蓝水足迹(p < 0.05;Fig.5)。",
+      "sourceTextHash": "7b286851b35bd22a5768fecf1bc0f4b38be1c991be400c6267709c4f8af2b4a5",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b35-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b2-bdf489e": {
+      "zh": "3.4. 示范性制度所依据的解释变量",
+      "sourceTextHash": "bdf489eae78586ff41d8e7081410c4738cf40b49a288b20bbce332758d7c2b03",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b3-e16aacd": {
+      "zh": "有关作物管理的变量在示范性和其他系统之间进行了比较(图6)。 首先,示范性系统的玉米种植密度往往高于其他系统(7.8对6.8植物/平方米;第 < 0.05页),与其他系统相比,示范性系统的年N应用率低24%,主要原因是小麦的N投入量较低(203对288千克N/ha/seson;第 < 0.05页),本研究中通过了14个小麦放大案例,采纳了动物粪肥修正案,但只有1个案例,其中N投入总量最低(表S.10)。 由于小麦(3对4)和玉米(1对2)灌溉活动减少,示范性系统的每年灌溉总量比其他系统低27%(均为P< 0.05)(均为p< 0.05)。此外,示范系统使用杀虫剂和除草剂的剂量分别比其他系统少43%和38%(p < 0.05),但在杀真菌剂的使用方面没有重大差别;小麦播种密度、磷和钾投入以及柴油的使用在示范系统和其他系统之间没有显著区别;我们还比较了示范系统和其他系统之间生物物理和社会经济背景的变量(表2)。 包括土壤有机物、土壤散装密度、土壤奥森-P以及土壤电传能力在内的四种土壤特性在示范系统和其他系统之间没有差别;同样,在家庭劳动力供应、人均收入、户主教育和耕作经验等方面,示范系统与其他系统之间也没有很大差别。",
+      "sourceTextHash": "456e2720ecdfcd9b11a688d9c4e0e7027bbe7c82594d7ba4533d69040cb7ebfa",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b4-be4deb3": {
+      "zh": "3.5. 以示范系统为基础的小麦丰收系统示范系统原型",
+      "sourceTextHash": "be4deb3f3cccdcec59474b8d18d027fced0c88034a8500afd7a91923eeea7301",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b5-13f5d4c": {
+      "zh": "根据在示范系统方面的上述成果,建立了一个可实现的可持续小麦产量双重作物种植制度原型(图7)。这一原型在经济、社会和环境指标方面都取得了最佳的妥协。与代表非示范系统的传统的小麦产量制度相比,可持续原型的特点是玉米种植密度增加、小麦N投入减少、肥料修正不增加总N投入,小麦和玉米灌溉用水和杀虫剂(特别是杀虫剂和除草剂)的投入减少。",
+      "sourceTextHash": "786caa320115b08b6d87c4accb5856477f78fdf55150324a276d2dd99c261583",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b6-54c664c": {
+      "zh": "4. 讨论",
+      "sourceTextHash": "54c664ce8062f3812d51572c3ccda3547491a3d7290297d6101285c373d7fc49",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b7-6705310": {
+      "zh": "我们发现,在奎州州县344个小麦以二种双作物种植中,7个经济、社会和环境指标(表1)中的指标绩效差异很大(表1),我们查明了积极的偏离(最佳帕雷托-最佳),然后将其分为7组(PD1-PD7),与可持续性模式形成对比(表1;图3;图S2);构成PD4的9个案例(2.6%)被归类为“示范系统”,这是最好的。",
+      "sourceTextHash": "cc4131048d19f1834918581527b8a7941bf24fe9aab241f3da45721a74cdf874",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b8-1e484d7": {
+      "zh": "相对于指标集而言,我们确定了可以缩小示范性系统与其他系统之间可持续性差距的做法:玉米种植密度提高、小麦肥料使用率降低、无机化肥用粪肥部分替代、灌溉和杀虫剂及除草剂应用频率较低(图5)。 最后,我们建议建立一个具有示范性的、系统知情的可持续小麦产量原型(图6),供当地农民采用,以协调农业可持续性的多个领域。",
+      "sourceTextHash": "0c74e438191c7444a18a5637a43e090e5667efe39f9e288b0afc88b4f115068b",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b9-684778b": {
+      "zh": "4.1. 确定可持续生产示范性小麦产量制度",
+      "sourceTextHash": "9dd179353365661ce783c9253b9c58960e5096235ebdfbbf4ac80c3ab6a7bc81",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b10-272e14b": {
+      "zh": "现有小麦丰收系统中的多种可持续性表现为查明其他可持续案例提供了一种机会,“自下而上”的观点确定了可持续的小麦丰收系统,这种观点比“自上而下”方法所确定的指标(例如作物专家建议(Xiao等人,2019年)和机械模型模拟(Xin和Tao,2019年))更适合当地情况,更好地处理多重(三个以上)指标,因为“自下而上”的做法提供了在当地情况下实施的解决办法,并以已经采用并实践证明的方式交换不同的可持续性特征,因此我们通过调查实际农民种植小麦丰收品种的多样性,确定了模范制度。这项研究采用了一种积极的偏离方法,将Pareto排名、积极的异常群集和远程协调(MIDIP和IDAP)结合起来,选择在七个指标(即模范系统)中达成最佳妥协的小麦放大系统;Pareto的排名确定了积极偏离,占所有观测结果的16%;Pareto-最优化可能包括一些指数以高成本在一些其他指数中表现良好的案例;当我们同样强调所有可持续性领域时,这些不平衡的积极偏离是无法接受的,因此需要排除。为了做到这一点,我们利用这种组合技术将正偏差分为七个组,其中每个小麦放大案例具有类似的可持续模式。随后,MIDIP和HIDP对集群的协调最终帮助我们确定了包含九个示范(复合)系统的群集(DD4)。与常规方法相比,这一方法具有三个好处:(1) 比所有观测的象限和群集分析等常规组合法(Ha等人,2015年;Chen等人,2020年);(2) 排除不平衡案例并选择达成最佳妥协的无基准方法,不同于门槛值或人口平均选择(Modernel等人,2018年;Adelhart Toorop等人,2020年;江等人,20211年);(3) 查明的示范系统在当地是可行的,而外部制定的解决办法可能不符合当地情况。",
+      "sourceTextHash": "cd74c626efdca559c883dac164a70312a0b156b8388e4885520dd3c6b31b6f1e",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b11-564f432": {
+      "zh": "表1 奎州小麦产量双重作物种植系统业绩指标。",
+      "sourceTextHash": "7ad0312200612b2f5ca92049ecf3d678b174c95e4a28c96910999a48ff937025",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b12-89c08c3": {
+      "zh": "所有观测(na=344)阳性变异物(n = 56)",
+      "sourceTextHash": "4c11059d0f10080f598486bb3f264c46eee1cf1b0f986856c1b9857962280e3a",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b13-402f3d7": {
+      "zh": "SD B 平均SD CV",
+      "sourceTextHash": "3f718d7685275620b448aee49dfa392ece47f4ac7c89cbbc261c9f1cdc5ec410",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b14-b30d352": {
+      "zh": "总差值 $2215 689 031 2779 706 0.25 2105 630 0.30 膳用能源产量 GCal/ha/yr 52.3 6.00.12 56.9 7.7 0.14 51.6 5.4.0.10 劳工使用 h/ha/yr 253 79 031 79 031 23 78 033 78 031 283 69 024 232 62 027 293 66 023 N/ha/yr 135 71 053 96 23 024 24 142 75 052 温室气体净排放量Mg CO2当量/ha/yr 7.40 2.12 0.29 1.18 1.13 0.22 7.83 2.00 0.26 农药使用剂量/yr 9.0 4.04 8.0 4.0 0.0 0.50 9.0 9.0 0.0.40 0.03",
+      "sourceTextHash": "9e99e93ed085aa32653b5742e2223f924a5db44f6c301d3c41114c37105113e8",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b15-db97fcd": {
+      "zh": "b SD表示标准差。 c CV表示变异系数。 d yr是年份的缩略语。",
+      "sourceTextHash": "fb429a6e40730e1f1d64603decbbd5da847985005c410fad61652c3bdf4add59",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b16-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b3-d2ee976": {
+      "zh": "图3. Quzhou小麦丰收双作物制的指标性能(a-g)和与距离有关的结果(h),所有案例都归为正异常群集(PD1-PD7)和主导系统(DS,n=288)。蓝色点表示小麦丰收观察。黑点代表组内所有观测的平均值,而误差栏则代表标准错误。PD1-PD7的样本大小分别为5、5、10、9、8、8和11。MIDIIP表示到理想点的多指标距离,而人类发展指数则表示距离所有指标的理想点的不同程度。 (关于对图解中提及颜色之处的解释,请读者查阅这一条的网络版本)。",
+      "sourceTextHash": "b859f7916abab6fa73a8a952e19df639c2f52c20ebaa038fab179f748087f617",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b4-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b3-a267afa": {
+      "zh": "图4. Quhou的模范系统(XS, n=9)和其他系统(OS, n=335)的可持续性性能(a-g)。蓝色点表示小麦质量观测。黑色点代表一组中所有观测的平均值,而错误栏则表示标准误差。p值是对比XS和OS指标值的T-测试结果。 (关于对图解中的颜色引用的解释,请参见本条的网络版本。 )",
+      "sourceTextHash": "bea320c490c906461172a2984b46690eb59a4133249b74c8e0e7bd0c9734a17c",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b5-1315a09": {
+      "zh": "图5. Quhou的模范系统(XS,n=9)和其他系统(OS,n=335)的经济劳动生产率(a)和环境足迹(b-d) (xS,n=9)及其他系统(OS,n=335) 。蓝色点表示小麦放大观察。黑色点代表一组中所有观测的平均值,而错误栏则表示标准误差。p值是对比XS和OS指标值的T-测试结果。(关于对图例中颜色引用的解释,请读者查阅这一条的网络版本)。",
+      "sourceTextHash": "b08774ba86677845b88d5027c1f90f4b5e5de4a95c9b08005eb1d32899d6f06c",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b6-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b3-2aba3ce": {
+      "zh": "Fig. 6. 描述Quhou地区示范(XS,n=9)和其他系统(OS,n=335)的作物管理(a-o)的变量。绿色点表示小麦质量观测。黑色点代表一组中所有观察的平均值,而错误栏则表示标准误差。p值是对比XS和OS可变值的t-测试结果。单位中的yr为年份缩略语。 (关于对图例中颜色引用的解释,请查阅本文的网络版本。 )",
+      "sourceTextHash": "0738a92f5c35649b00304ad5f690117e3a6fc1c7477952e4684ac12b3b99c609",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b4-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b2-a54dd18": {
+      "zh": "我们的研究显示,如果当地小麦-玉米案例能够采用示范性体系的做法,那么奎州小麦-玉米系统的整体可持续性就可以大大改善。 积极的偏离方法是一种充满希望的数据驱动方法,为作物系统的多维可持续性提供信息。",
+      "sourceTextHash": "901861e1fb20a83a254a10b8c178e6138bf20d66f9b2ff6aae7cb4cadd4f15a7",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b3-c6741f4": {
+      "zh": "4.2. 可持续性差距背后的解释变量",
+      "sourceTextHash": "c6741f43cb69bece3c02971d266495ae416ddf8543835ae96bc94b7d32ca1c62",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b4-c05463c": {
+      "zh": "作物种植系统的可持续性绩效一般取决于管理做法和耕作环境(Deytieux等人,2016年);我们选择了通常用于小麦产量系统特征的管理和背景变量(表S7),并确定了可能与示范性系统和其他系统之间可持续性差距有关的关键变量;结果显示,示范性系统主要依靠一些更可持续的做法,而不是更有利的环境(图6;表2)。 典型系统的特点是玉米种植密度较高(7.8个植物/平方米);以前的研究表明,种植密度为7.5-9个植物/平方米对于玉米更好地利用光和热资源至关重要,从而在NCP建立高产系统(Meng等人,2018b;Ren等人,2021年)。因此,这种做法有利于饮食能源生产和经济价值创造。奎州大多数接受调查的农民使用现代玉米栽培品种,但仍采用传统种植率(6-7种植物/平方米),使那些容易居住在密集人口中的过时耕种品种适合居住。这一知识差距需要填补,以便利农民采取这种生产做法。 至于养分管理,在示范系统(表S10)中观察到小麦N投入较低(204千克/公顷)和适当肥料使用(部分以最佳N速度替代化肥 ) ( 表S10 ) 。 奎州农民往往过度使用小麦N肥料(平均为286牛/公顷/年)作为营养缺乏和产量损失的保险。 模范系统的小麦N比率接近高产小麦(165千克N/公顷;楚安等人,2013年),从而避免了大规模N损失和温室气体排放,同时不损害作物产量。在对肥料进行修正的14个小麦中,大多数非示范系统(250-660公斤N/ha,表S10)过度使用无机化肥(250-660千克N/ha,表S10),抵消了粪肥投入的有益影响(例如减少温室气体排放)。",
+      "sourceTextHash": "e1e6e97ccb6c00f8761c0f4c37d3e3a1427b1f0decc0dadfd22b1f28c8eb64fc",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p11-b5-1ca4cf6": {
+      "zh": "否则,粪肥投入将导致额外的N损失以及经济和劳动力成本。此外,示范系统通过取消某些非水关键增长阶段的灌溉活动(如小麦和玉米的重新绿化阶段和玉米季节的某些降水密集期),减少了灌溉活动(分别为小麦和玉米的3和1),从而减少了灌溉活动的数量。 这种做法不仅可以缓解地下水耗竭现象,还可以降低劳动力使用和电力造成的经济成本以及温室气体排放,同时又不造成农艺产出的损失。 以往的研究显示,合理减少灌溉刺激了根基开发,以提高水摄取率,延长了作物谷物填充时间,从而维持或提高了小麦灌溉系统中的粮食产量,从而支持了我们的调查结果(Xu等人,2016年;Wang等人,2018年)。示范系统在杀虫剂和除草剂方面的应用也少于其他系统,这些系统可能与选择更有针对性的农药类型、适当的施药时间以及中度营养和水投入有关。 在Quhou的作物生产中广泛存在滥用化学杀虫剂的现象。例如,重复使用同样的杀虫剂产品、在最佳时机之前喷洒除草剂(如除草爆发后),以及防治目标害虫或杂草,导致过度使用,有时甚至损害作物(Li等人,2014年;Zhang等人,2015年)。此外,最佳养分和水投入可以促进植物质量和生长,从而增加对虫害的抗药性(M ' edi 'ene等人,2011年)以及对杂草的竞争力(Kaur等人,2018年),这可以减少对外部杀虫剂的依赖。在示范系统中使用杀虫剂和除草剂的情况需要进一步调查,以评估奎州更有效作物保护的范围(表2)。在生物物理和社会经济背景方面,示范系统与其他系统之间没有统计差异(表2)。土壤数据集显示,整个Quhone的土壤特性范围很窄(Li等人,2022年)。例如,小麦玉米田中的土壤有机物含量为1-2%,不足以影响高营养和水投入下的作物生长(Oelofsse等人,2015年)。示范系统的家庭背景变化很大,表明这些示范系统是由农民在对比社会经济农业情况时开发的。这一结果证明可以假设所确定的示范系统是可转让的,并且可以在奎州更广泛地采用。",
+      "sourceTextHash": "ede4e3c988600aa7da3f0b487da77a463a824bf72a55e9e596de069280346972",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 3,
+      "flags": []
+    },
+    "p11-b6-1fd8860": {
+      "zh": "4.3. 可持续原型的开发和今后实施",
+      "sourceTextHash": "1fd8860ecc189f9e6be7c0cad39b66faf5cd7e5b826d2261cf26c17bfc7f121d",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b7-eda01cb": {
+      "zh": "在这项研究中,开发了一个可持续小麦玉米生产原型,以促进已查明的示范系统(图6)。 这个原型代表了9个典型案例的平均价值,因为这些案例之间的差别很小,因为整个一套小麦产量案例中表现广泛;在原型中也捕捉出一个示范案例特有的粪肥替代方法,作为灵活选择。之后,我们与几个当地农业学家讨论了原型,他们根据他们的知识和经验确定了原型的可行性。如果与我们的调查结果相反,选定组内的变异很大,因此无法将集成到某种类型的作物种植系统中来,研究人员可以提出与个别示范案例相对应的多种可持续的原型。进一步的工作需要与拥有亚最佳小麦产量系统的农民一起工作,采用可持续原型的做法,并核实其性能是否如预期的那样得到改进。我们可以在这个原型上向参与的农民提供技术培训,并组织这些农民访问具有示范系统的家庭。 这个原型的实施很容易为农民所接受,因为它在当地证明有助于获得更多的农业收入。 地方政府也可以向参与者提供补贴,以便进一步鼓励更广泛的推广活动,因为这个原型可以大大降低环境成本,从而改善公共福利。 此外,如果一些次优的系统得到改善的话。",
+      "sourceTextHash": "ce03fc4fa89f90ed8a204a9389f9f6670a66020f1f346ea4e4cc2a4b63ff3062",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 2,
+      "flags": []
+    },
+    "p11-b8-a7b3ae1": {
+      "zh": "表2 描述Quzhou地区示范(XS)系统和其他系统的农作背景的变量,数据显示为每个环境变量“平均值的标准错误”。P值是对比 XS 和 OS 可变值的t-测试结果。",
+      "sourceTextHash": "71675bd7c0c6ac5693cbf4c0d038196c050edd69fe29db55b6d1346cad57c8e2",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b9-1cb6f64": {
+      "zh": "XS(n=9) OS(n=335) p-值",
+      "sourceTextHash": "8fd8d5fb1ed11d76736bc084bbd04bbf384a53d8da75ce4dbfcce63675c200d4",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b10-7d51a1d": {
+      "zh": "土壤特性:土壤散积密度 g/cm3 1.07 + 0.04 1.11 + 0.00 022 土壤有机物 g/kg 12.4 + 0.7 13.9 + + 0.2. 0.2.08 土壤奥森-P毫克/千克 21.6 + 1.7 20.6 + 0.31 0.61 土壤ECa ds/m 4.36 + 0.25 4.18 + 0.04 0.48 家庭背景:劳动力可用性 人均/公顷 3.16 + 0.83 3.21 + 0.15 0.96",
+      "sourceTextHash": "3d729ca677198d6e468870afb52fa06125919f024efc516e89ebafdddd2b5ff0",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p11-b11-dc96fc0": {
+      "zh": "人均收入 美元/卡比塔/年3109 + 1546 2199 + 134 028 教育年 6.7 + 1.45.9 + 0.27 作物经验年 39 + 2 37 + 1 0.67",
+      "sourceTextHash": "ff8eb9762d97d086d2785dd7802ac38cc56cae151979d8c31750e3edd6d3ffc3",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p11-b12-c77d3c0": {
+      "zh": "a EC:电子导电。",
+      "sourceTextHash": "c77d3c01e8c83d000b42838297fc4c9518e0e880a9a35d90c2f90916ea807ace",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b13-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b3-c7767b7": {
+      "zh": "图7. 示范性系统了解小麦-磁质系统向多方面可持续性改善过渡的示意图图:传统小麦丰度系统和可持续小麦丰度原型的价值分别是其他系统(OS)和示范系统(XS)特征变量的平均值;IF指无机肥;IN、HE和FU分别代表杀虫剂、除草剂和杀真菌剂;DEY、GWD、Gognan和Pesti分别表示饮食能量产量、地下水耗竭、温室气体净排放量和农药使用。",
+      "sourceTextHash": "f90b76741471be1a880003147880ca9ce6bc0e224e308364dd1066a621bb8dac",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b4-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b2-34f91d6": {
+      "zh": "在这种情况下,反复采用积极的偏离方法重新设计作物系统可能会有助于当地整套耕作制度逐步朝着所期望的方向发展。",
+      "sourceTextHash": "997333a2e06941eeb3b57fea893dfa33282c3e1e0f23083b06ed8f0a101e4d15",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b3-6022d58": {
+      "zh": "4.4. 限制和展望",
+      "sourceTextHash": "6022d5822930854ef157ac7ee24a2e85502f76e4721dddcbe40d92d8fe69e5dc",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b4-d84c7a5": {
+      "zh": "在介绍的多标准评估中存在不确定性,因为使用许多参数、特别是环境领域的参数对我们的指标进行了实证量化;为了尽量减少结果不确定性的影响,我们使用了公认的方法来计算指标(地下水耗竭:Yang等人,2021年;N损失:Cui等人,2018年;温室气体净排放量:Xu和Lan,2017年;农药使用:Lechenet等人,2017年),然后从一系列出版物、统计数据和专家知识中提取了根据当地条件校准的参数(见表S2-S6);我们还将我们的经验结果与在当地实验中测量的结果进行了比较,例如,土壤C存量变化的估计量(土壤固存减去退化)接近先前现场测量结果(Cui等人,2022年);这项研究的平均地下水损耗和N损失也与NCP实地试验的结果(Yang等人,2015年);Song等人,2018年;Sha等人,2020年;Zheng等人,2020年),这表明我们的多标准评估是合理和可靠的,尽管不如现场测量数据准确。可以在未来的分析中包括计量数据,以提高现有结果的确定性。我们认为与小麦产量业绩有关的最重要的管理变量是解释性的。然而,由于数据的可获取性,一些管理做法仍然没有被采纳,例如农民不记得他们使用的耕种者的名字,也没有给我们确切的播种和收割日期。 在我们的调查工作中,我们发现各种选择(主要是小麦的Jimai 22和Luyuuan 502;玉米的Denghai 605)和作物种植日历(小麦和玉米的Oct.5-Oct.10和Jun.1-10)在小麦和玉米播种的观测中非常一致。因此,品种或播种日期的差异可能不会明显影响种植系统的业绩。 在未来的研究中,监测整个耕作系统期间实施的所有作物活动的跟踪调查可以有效避免缺少农民无法准确回顾的信息(Fumagalli等人,2011年)。同样,本研究没有记录的一些相关变数可能会影响小麦玉米系统的可持续性表现。例如,获得技术培训和动物粪肥来源可以发挥作用。这些未观察到的农场特征将影响农民对与耕种系统业绩高度相关的耕作做法的决定,比如,肥料修正。未来研究可考虑农作背景方面的一系列更广泛的变量。 通过对实行示范系统的农民进行回馈调查,可以进一步制定范例制度。可以预期,后续的重新审视会有助于我们更好地了解其成功之处,例如作物管理和耕作背景的详细信息(Steinke等人,2019年),这将使可持续原型更加实用;今后,在存在多种可持续性挑战的其他主要作物系统也可以采用这种嵌套的积极偏离做法;可以根据当地现实和利益相关者的偏好选择可持续性指标和堪称楷模的积极偏离。如果更广泛地应用积极的偏离方法,全球作物种植系统将具有巨大的潜力来提高其可持续性,有助于实现联合国倡导的可持续发展目标。",
+      "sourceTextHash": "07a30613572515f959213df84ebd357cd71a70c835bed436b1eb6152ba3df977",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 4,
+      "flags": []
+    },
+    "p13-b5-e64fd69": {
+      "zh": "5. 结论",
+      "sourceTextHash": "e64fd6903471d1a0cd05b25a68bb47f595c395f2403cdd16b570d67fd9cacb98",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b6-ff11c48": {
+      "zh": "我们建议采取一种嵌巢式的积极偏离做法,以寻找可行的办法",
+      "sourceTextHash": "ff11c48aa019d839d7ac5ed824fa0b39ad36ba5d9712451b83e5f023ea8777b8",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b7-8fc74df": {
+      "zh": "以小麦为例,我们实证地评估了与地方可持续性挑战有关的经济、社会和环境指标,并确定了在所有积极偏离指标中达成最佳妥协的模范系统;然后,量化了多方面的可持续性差距,并确定了解释这些差距的关键因素;我们发现小麦合成系统的可持续性表现在各家庭之间差别很大;大多数积极的偏离代表了各种指标之间的重大取舍,而9个案例则可以作为堪称典范的体系,因为它们在指标之间达成了可接受的折衷;结果还表明,如果其他农民实施示范系统的关键管理做法,小麦合成系统的可持续性差距是可以弥合的;这些可持续的做法包括增加玉米种植密度、适度N投入、减少灌溉活动的数量以及杀虫剂和除草剂的使用;与此同时,在农业方面没有观察到示范系统和其他案例之间存在系统性差异。这项研究显示,提出的积极偏离做法是一种实用方法,可以找出当地可行的解决办法,通过破译农民的多种做法,提高耕作制度的可持续性。",
+      "sourceTextHash": "c94b5a0f928fee606c210d8fde2a8aed87f7bbb93d97f9666d631d00356162ed",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 2,
+      "flags": []
+    },
+    "p13-b8-75794fc": {
+      "zh": "CREediT 作者贡献声明",
+      "sourceTextHash": "75794fc7a639181c4b67897c71910444e5b8ebcbd0f51648ce8e59a2b166c896",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b9-f084c07": {
+      "zh": "Zhengyuan Liang: 调查、数据整理、正式分析、可视化、写作-原始草案、书面-审查和编辑。Wopke van der Werf: 监督、写作-审查和编辑。Zhan Xu: 调查、数据整理。Jiali Cheng: 调查、数据整理。 Chong Wang: 数据整理、资源。Wen-Feng Cong: 监督、写作-审查与编辑、筹资获取。Chaochun Zhang: 监督、资源、资金获取。 Fususuo Zhang: 监督、资源、项目管理。 Jeroen C.J.Groot:概念化、监督、写作-审查与编辑。",
+      "sourceTextHash": "0991290b6dcf73647de02c95c9bd5d7ced726e0d2fd93056dc320ce3dfdbc645",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b10-8feb861": {
+      "zh": "利益冲突声明",
+      "sourceTextHash": "8feb861e18c1f92ff541410539c6ee323dc625a04f9eb03328a60234bd726d3d",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b11-903ea50": {
+      "zh": "无。",
+      "sourceTextHash": "903ea500e7ccf842c1312b6c2f964e3e98ff146456cecec717e9a0e122bf735f",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b12-188a992": {
+      "zh": "数据可用性",
+      "sourceTextHash": "188a992e372fe88d4d545fa96883a56c2aada07802d61a1332853f2ea664c1ed",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b13-b4f5a55": {
+      "zh": "分析中使用的数据和R脚本可应合理要求从相应作者处获得。",
+      "sourceTextHash": "8d66e2751f8884e783591f549d4758dd728cc522ac80b4d5de62ba0a0bbd625f",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b14-791552f": {
+      "zh": "致谢",
+      "sourceTextHash": "791552fd3a59d0351cd4ba3654c650f88465a378b7672d827f3b2da473d4e5eb",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b15-3c7001a": {
+      "zh": "这项研究得到了中国奖学金委员会(第201913043号)、海南大学、中国国家自然科学基金会方案(第32072676号)和北京高级纪律建设方案(农业绿色发展)的资助。",
+      "sourceTextHash": "7a1898f72cc917da55b23f4b0b065236aabdc79fe68a983a4506e765298cb474",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b16-c09b53c": {
+      "zh": "A. 补充数据",
+      "sourceTextHash": "c09b53c645c5c5f3fea4e3d403dd2a8297689c61d66975929fe2db2531fc00dc",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b17-72c9ee3": {
+      "zh": "本条的补充数据可在网上https://doi.org/10.101016/j.agsy.2022.103471查阅。",
+      "sourceTextHash": "9111a96dae401d80c6eb394ace3bcb6d51ccc20ca842957e73666a89575b2a86",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p13-b18-69824d3": {
+      "zh": "参考参考资料",
+      "sourceTextHash": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b19-8a4161b": {
+      "zh": "Adelhart Toorop, R., Ceccarelli, V., Bijarniya, D., Jat, M.L., Jat, R.K., Lopez-Ridaura, S., Groot, J.C.J., 2020. 采用积极的偏离方法为农业系统重新设计提供信息:印度Bihar的案例研究,Agric. Syst.185, 102942 https://doi.org/ 10.1016/j.agsy.20102942. Albanna, B., Heeks, R., 2019. 积极偏离、大数据和发展:系统的文献审查,Elegencen, J. Inf. Syst. Dev. Ctries. 85, e12063 https://doi.org/11002/isd2.12063。Aouadi、N.、Aubertot、J.N.、Caneill、J.、Munier-Jolain、N.,2015年。 分析农业环境和环境因素对耕作系统的影响:一个区域案例",
+      "sourceTextHash": "5f430e54d7d15cf9ba962929df806bd5f7c6a71b6a2f6a8851f50431a2a3375f",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p13-b20-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b2-85c63e9": {
+      "zh": "2018. Chen, X. X. X. X. Xu. Xu. Xu. Xu. Xu. Xu. X. Xu. Y. Wang, X., Zhou. S. Li, Y., Wang, J. J. J., Hou. Y., Wang, X., Zhou., S. S. Li, Y., Wu. L., Zhang, F., 2020。根据农业调查数据,中国典型的波梅罗生产区的碳足迹。 J. Clean. Prod. 277, 124041 https://doi.org/10.1016/j.jclepro.2020124041.Chuan、L. He、P. 金、J. 李、S. Grant、C.、Xu、X.、Qiu、S.、Zhao、S.、Zhou、W.,2013年:估计中国小麦的营养摄入要求。、Z.、Z.、Zhang、H.、H.、Chen、X.、Zhang、C.、Ma、W.、Huang、C.、Zhang、W.、W.、Mi、G.、Mio、Y.、L.、L.、L.、J.、Z.、Y.、Guo、S.、Lu、J.、黄、J.、Lv、S.、S.、S.、S.、S.、S.、Deng、X.、Shi、X、Zhang、Qiang、Y.、Z.、Tang、L.、L.、Wei、C、J.、J.、Y.、Y.、Guo、S.、S.、S.、L.、L、J.、J.、Y.、Y.、Tang、J.、J.、Y.、Y.、Y.、Y.、Tang、Q、Z.、X、J.、J.、L.、X.、L.、L.、L.、L.、L.曹、N.、高、C.、Ying、H.、Y.、Jiao、X.、Zhang、Qingsong、Fan、M.、江、R.、Zhang、F.、Dou、Z.,2018年。与数以百万计的小农户一起追求可持续的生产力。大自然 555, 363-366。https://doi.org/10.1038/nature25785. Cui, H., Luo, Y., Chen, J. J., Jin, M., Li, Y., Wang, Z., 2022. 在冬季小麦 -- -- 夏季玉米作物种植制度下改善土壤特性和作物生产率的回草战略。Eur. J. Agron.133, 126436 https://doi.org/10.101016/j. eja.2021126466.Davis, K.F., Chhatre, A., Rao, N. D. Singh, D., Ghosh-Jerath, S., Mridul, A., A., Poblete-Cazenave, M., Pradhan, N., Defries, R., 2019。评估印度绿色革命后谷物的可持续性,Proc. Natl. Acad. Sci. 116、25034-25041。https://doi.org/10.1073/pnas.1910935116.Deytieux、V.、Munier-Jolain、N.、Canell、J.,2016年。在单一和多地点研究中评估作物种植系统的可持续性。审查方法:Eur. J. Agron. 72、107-126。https://doi.org/1016/j.eja.2015.10.005. Dumont,B. Momortel、P.、Benoit、M.、Ruggia、A. Soca、P.、Dernat、S.、Tournadre、H.、Dogliottti、S.、Rosking、W.A.H.,2020。调动生态过程促进草药生产:农民和研究人员一起学习;Front.Sustainable. Food Syst.4 544828 https://doi.org/10.3389/fsufs.2020.544828.Feng、S、Xu、W、Cheng、M、Ma、Y、Wu、L.、Kang、J、Wang、K、Tang、A、Colett、J.L.、Fang、Y.、Goulding、K、刘、X、Zhang、F.,2022。 中国北平原Quzhou县过度关注非农业和冬季农业NH3排放:15N稳定同位素的证据。 Environ.Sci. Technol. Lett.9、127-133。https://doi.org/10.1021/acs.ast1.00935。福里、J.A.、拉曼库蒂、N.、布劳曼、K.A.、卡西迪、E.S.、Gerber、J.S.、Johnston、M.、穆勒、N.D.、O ' Connell、C.、Ray、D.K.、West、P.C.、Balzer、C.、Bennett、E.M.、Carpenter、S.R.、Hill、J.、Monfreda、C.、Polasky、S.、Rockstr om、J.、Sheehan、J.、Siebert、S.、Tilman、D.、Zaks、D.P.M.,2011年。Fumagalli, M., Acutis, M., Mazzzetto, F., Vidotto, F., Sali, G., Bechini, L., 2011年:对密集耕种的平原可耕地和奶制品农场农业可持续性的分析,Eur. J. Agron. 34, 71-82. https://doi.org/10.1016/j. eja. 2010.11. 001. Ghose, B., 2014年:中国粮食安全和粮食自给自足:从过去到2050年;食品能源保障3,86-95;https://doi.org/10.1002/fes3.48. Groot, J.C.J., Rossing, W.A.H., 2011年。Evol. 2, 643-650. https://doi.org/10.1111/j.2041-210X2011.00114.x.Groot, J.C.J., Oomen, G.J.M., Rossing, W.A.H., 2012, 多目标优化和农耕系统的设计, Agric. Syst. 110, 63-77, https://doi.org/10.1016/j. agsy.2012.03.012.012. Ha, N., Feike, T., Angenendt, E., Xiao, H., Bahrs, E., 2015, 农业管理多样性对北华平原小麦-玉米种植系统的环境和经济绩效的影响,Int. J. Agric. Sustain. 13, 350-366. https://doi.org/1080/1473590.2015.1004856。Herington, M.J., van de Feliert, E., 2018. 在理论和实践上的积极偏离:概念审查。 Deviant Behav. 39, 664-678。https://doi.org/10.1080/01639625.2012184. 黄, J., Xu, C., Ridoutt, B.G., Wang, X., Ren, P., 2017。氮和磷损失以及与中国耕地施肥有关的富营养化潜力。J. Cleanry.Prod. 159, 171-179。 https://doi.org/10.1016/j.jclepro.2017.05.008. 国际标准化组织(标准化组织),2006年。环境管理:生命周期评估;要求和准则。ISO 日内瓦,瑞士。江, W., Zhu, A., Wang, C., Zhang, F., Jiao, X., 2021. 通过科学家与农民的接触优化小麦生产并减少环境影响:北中国平原的经验教训;食品能源保障10 https://doi.org/10.1002/fes3.255. Ju, X., Xing, G., Chen, X., Zhang, S., Zhang, L., Liu, X., Cui, Z., Yin, B., Christie, P., Zhu, Z., Zhang, F., 2009年;通过改进中国密集农业系统的管理减少环境风险。 Proc. Natl. Acad. Sci. 106, 3041-30466. https://doi.org/101073/pnas.0813417106。Kanter、D.R.、Musumba、M.、Wood、S.L.R.、Palm、C.、Antle、J.、Balvanera、P.、Dale、V.H.、Havlik、P.、Kline、K.L.、Scholes、R.J.、Thornton、P.、Tittonell、P.、Andelman、S.,2018年。评估可持续发展时代的农业取舍。Agric. Syst.163、73-88.https://doi.org/10.1016/j.agsy.2016.09.010.Kassambara、A.2017;R.Unvisurved 机器学习的分组分析实用指南(第1版)。",
+      "sourceTextHash": "ccc8798e1a1855122f75785f59f908b22d61066e38250fd7946fee8203f1b06e",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 13,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p14-b3-89c8654": {
+      "zh": "Kaur, S., Kaur, R., Chauhan, B.S., 2018年。了解作物-杂草-肥料-水的相互作用及其对农业系统杂草管理的影响。Crop Prot. 103, 65-72。 https://doi.org/10.1016/j.cropro.2017.09.011. Kong, X., Zhang, X. X., Lal, R., Zhang, F., Chen, X., Niu, Z., Han, L., Song, W., 2016。《1980年代以来中国HHHH平原农业密集化导致地下水枯竭》,载于:《农学进步》,Elsevier,第59-106页。https://doi.org/10.1016/bs.agron.2015.09.003)。Lechenet, M., Dessaint, F., Py, G., Makowski, D., Munier-Jolain, N., 2017年,《在保持可耕地的作物生产力和利润的同时减少杀虫剂的使用》,Nat. Plants 3, 17008, https://doi.org/10.1038/nplants.2017.8. Li, J., Lei, H., 2021。 2001-2018年期间,跟踪中国北部平原冬季小麦和夏季玉米种植系统的播种面积发生时空变化的情况。33,963-971。 https://doi.org/10.1002/etc.2549。Li, S., Lei, Y., Zhang, Y., Liu, J., Shii, X., Jia, H., Wang, C., Chen, F., Chu, Q., 2019。 提高产量与化肥投入之间的合理交易对于可持续强化至关重要:对中国小麦的种植系统进行个案研究。Sci,Total Environ. 679, org.101016/j.scitotenv.205.05。Li, K., Wang, C., Zhang, H., H., Zhang, J., J., Jiang, R., Feng, G., Lui, X., Zuo, Y., Y. 元, H. H., Hang, K., K., K., Wang, C., Zhang, H., H., H., Zhang, J., J., J., Jiang, R., Feng, G., G., Liu, X., X., Zuo, Y., Y., Y., Zu., H., Hung, Kai, C. Kai, J., J., Tian, J., J., Li, H., H., H., Sun, Yy., Yu, B., 2022. 使用改良的指数评估农业投入对小农土壤质量的影响 的影响,CATENA 209, 10, 105838, http://doi. org/su 100/20432。M ' edi ' ene, S., Valantin-Morison, M., Sarthou, J.-P., de Tourdonnet, S., Gosme, M., Bertrand, M., J., Roger-Estrade, J., Aubertot, J.-N., Rusch, A., Motisi, N., Pelosi, C., Dor , Dor , T., 2011, 2011, 《农业生态系统管理和生物互动:评论》,Agorn. 可持续性。 Dev. 31, 491-514。https://doi.org/10.1007/s13593-011-009-1。Meng, Z., Z., Xu, X., Lin, W., Ge, B., 谢、 Y., Song, B., Jia, S., Zhang, R., Peng, W., W. 王、 Y., Cheng, H., Yang, W., Zhao, H., H., 2018a. 环氨在北华平原农村地区颗粒铵形成中的作用,Atmos. Chem. Phys. 18,167-184. https://doi.org/10.5194/acp-187-2018. Mung, Q. Cui, Z., Yang, H., Zhang, F., Chen, X., X., 2018b. 建立高产玉米制度,促进中国可持续的强化。https://doi.org/10.1016/bs.agron.2017.11.004.Meg、F.、Wang、M.、Strokal、M.、Kroeze、C.、Ma、L、L、L、Y.、Zhang、Q.、Wei、Z.、Hou、Y、Liu、X、Xu、W.、Zhang、F.,2021。 北华平原粮食生产的氮损失:Quzhou.Sci.Total Environ.151557 https://doi.org/ 10.1016/j.scitotenv.2021-151577. 中华人民共和国农业和农村事务部(MARA),2022。《第14个五年全国作物生产发展计划》(中文)。现代、P.、多利奥蒂、S.、阿尔瓦雷斯、S.、Corbeels、M.、毕加索、V.、提托内尔、P.、罗斯京、W.A.H.,2018年;查明在经济和环境表现方面突出的潘帕斯和坎波斯地区的牛肉生产农场。 Ecol. Indic. 89、755-770. https://doi.org/10.1016/j.ecolind.2011.038.中国国家统计局(NBSC),2020年。《中国统计年鉴》,中国统计局出版社,北京(中文)。中国谷物自给自足的斯帕托时间模式和决定因素;Foods 10, 747。https://doi.org/10.3390/foods10040747.Oelofsse,M.,Markussen,B.,Knudsen,L.,Sclade,K.,Olesen,J.E.,Jensen,L.S.,Bruun,S.,2015年。土壤有机碳水平是否影响潜在产量和氮使用效率?对冬季小麦和春季大麦田试验的分析。Eur.J.Agorn.66,62-73。https://doi.org/10.1016/j.eja.2015/02009。Ren, H., Han, K., Liu, Y., Y., Zhang, L., He, Q., Li, Z., Zhang, Jibo, Liu, P., Wang, H., Zhang, Jiwang, Zhao, B., 2021. 在北中国平原可持续的作物密集化下提高小农户的玉米产量和经济效益。Sci, Total Environ. 763, 143035, https://doi.org/10.101016/j.scitotenv.20143035. Savikurki, A., 2013年在加纳北部小型持有者作物 -- -- 牲畜耕作系统中的积极偏离,Thesis. Helsingfors Universitet.http://urn.fi/URN:fi:hulib-2015072072。Sha、Z、Ma、X、Loick、N.、Lv、T、Cardenas、L.M.、Ma、Y.、Liu、X、Misselbrook、T.,2020年。氮稳定剂减轻了北华平原可耕地上反应性N和温室气体排放:实地调查和实验室调查。J. Clean、Prod.258、12102525 https://doi.org/10.1016/j.jclepro.2020121025.宋、X、刘、M.、Ju、X、Gao、B.、Su、F、Chen、X.、Rees、R.M.,2018年。当北中国平原超过最佳氮肥率时,氧化物排放量会急剧增加。Technol. 52, 12504-12513。https://doi.org/10.1021/acs.est.8b03931.Spiegal, S., Bestelmeyer, B.T., Archer, D.W., Augustine, D.J., Boughton, E.H., Boughton, R.K., Cavigelli, M.A., Clark, P.E., Derner, J.D., Duncan, E.W., Hapeman, C., C.J., Harmel, R.D., Heilman, P., Holly, M.A., Huggins, D.R., K., K., Kleinman, P.J.A., Liibig, M.A., Locke, M.A., McCarty, G.W., Millar, N., Mirsky, S.B., Moorman, T.B., Pierson, F.B., Rigby, J.R., Robertson, G.P., Steiner, J.L., Strickland, T. C., Swain, H. M., Wienholder, Wilfhorst, J., Yost, M. A., Walthalll, C., C.L., 2018。 评价通过长期农业生态系统研究网络持续加强美国农业的战略。 Environ.第13、034031号决议 https://doi.org/ 10.1088/1748-9326/aaa779. Steinke、J.、Mgimilko、M.G.、Graef、F.、Hammond、J.、van Wijk、M.T.、van Etten、J.,2019年。",
+      "sourceTextHash": "2e590b85078e06ec907be9ee1cee9e3a57d419a4a85e9e7d2e5279dfc351480c",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 14,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p14-b4-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b0-3c257be": {
+      "zh": "农业系统201 (2022) 103471",
+      "sourceTextHash": "3c257beaafd808f4e9d93e767cad67bcc24135aefd485413fa3caf844f8f84b3",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b2-9bbca59": {
+      "zh": "PLOS One 14, e0212926。https://doi.org/10.1371/journal.pone.0212926. Sun, H., Zhang, X., Wang, E. Chen, S., Shao, L., 2015, 量化灌溉对地下水储备和作物生产的影响 -- -- 这是在北中国平原进行的一项案例研究。Eur. J. Agron. 70, 48-56。https://doi.org/10.101016/j.eja.2015.07.001. 王、Y.张、张、R. 李、J.、张、M., Zhou、S. 王、Z., 2018. 减少灌溉提高了北中国平原冬季小麦-夏季玉米轮作的用水效率和生产力。Environ. 618、112-120。https://doi.org/10.1016/j.scitotenv.2017.10284。Wang,S.,Hu,Y.,Y.,Y.,Yuu,R.,Feng,W.,Pan,Y.,Y.,Y.,Y.,2019.确保北华平原的水安全、粮食安全和清洁饮水,这些战略相互冲突。Curr.Opin.Environ. Sustainable. 40,63-71。https://doi.org/10.1016/j.cosust.2019.09.008. Xiao,G.,Z.,L.、Meng、F.W.W.,Guo,Y.,2019.利用优化农耕方法提高北中国平原小麦地轮用系统的氮和用水效率。Agric.Agric。212、172-180. https://doi.org/ 10.1016/j.agwat.2018.09.011. Xin, Y., Tao, F., 2019. 优化基因型-环境-管理互动,以提高生产率和生态效率,促进北华平原小麦的旋转。Sci, Total Environ. 654, 480-492。 https://doi.org/10/1016/j. scitenv.2018.11.11.126. Xu, Lan, Y., 2017. 中国谷物作物碳足迹的空间和时间形态。J. Clean. Prod. 146, 2187. https://doi.org/10.1016/j.jclepro.2016.181。Xu, C., Tao, H., Tian, B., Gao, Y., Ren, J., Wang, P., 2016年。有限灌溉通过调节冬季小麦的根茎生长来提高用水效率和土壤蓄水能力。Field Crop Res.196, 268-275。https://doi.org/10.1016/j. fcr.2016.07.009.Xu, T. Yan, D., Weng, B., B. B. B., W., Do., P., Liu, F., Wang, Y., Ma. J., 2018年。水10, 874。https://doi.org/10.3390/w10070874. Xu, D., Deng, X., Guo, S., Liu, S. 2019。中国农村的劳工移徙和放弃农田:经验结果和政策影响。 J. Environ.Manag. 232、738-750,https://doi.org/10.1016/j.jenvman.2018.11.136。",
+      "sourceTextHash": "f08ec34adeae34ebc7ee15ee950d27830c226f13aa706ca111958cfab016e4fd",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 5,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p15-b3-d080265": {
+      "zh": "Yang, X., Chen, Y., Pacenka, S., Gao, W., Ma, L., Wang, G., Yan, P., Sui, P., Steenhuis, T. S., 2015年,《中国北部平原作物多样化轮作对地下水水平和作物用水生产率的影响》,J. Hyldol. 522, 428-438。https://doi.org/ 10.1016/j.jhydral.2015.01.010。Y. Y., Wang, G., He., M., Pan, X., Wang, Z., 2018. 中国食品构成表,中国北京北京(中文)。Yang、X、Steenhuis、T.S.、Davis、K.F.、Werf、W.、Ritsema、C.J.、Pacenka、S.、Zhang、F.、Siddique、K.H.M.、Du、T.、2021.多样化的作物轮作加强了地下水和粮食生产的经济可持续性。粮食能源保障10 https://doi.org/10102/fes3.311.张、C.、Hu、R.、Shi、G.、Jin、Y.、Robson、M.G.、黄、X.2015年:过度使用或未充分利用?中国杀虫剂使用情况的观察。Zhang, W., Cao, G., Li、 X., Zhang, H., Wang, C., Li, Q., Chen, X., Cui, Z., Shen, J., J., Jiang, R. Mi, G., Mio, Yao, Y., Zhang, F., F., Dou, Z., 2016年。通过赋予小农户权力来缩小中国的产量差距。自然537, 671-674。https://doi.org/10.1038/nal 19368. 张, X. Fang, Q., Zhang, T., Ma. W., Velthof, G. L., Hou, Y. Oenema, O., Zhang, F., 2020年。用牲畜肥料替代人工化肥在中国生产的好处和好处:一种元分析。Glob. Chang。生物26、888-900. https://doi.org/10.1111/11/gcb.14826. Zhang,X., Yao, G., Vishwakarma, S., Dalin, C., Komarek, A.M., Kanter, D.R., Davis, K.F., Pfeifer, K., Zhao, J., Zou, T., D'Odorico, P., Folberth, C., Rodriguez, F. G., Fanzo, J., Rosa, L., Dennison, W., Musumba, M., Heyman, A., Davidson, E.A., 2021. 对农业可持续性的定量评估显示各国的优先事项各不相同。Zheng、W.、Wan、Y.、Li、Y.、Li、Y.、Liu、Z.、Chen、J.、Zhou、H.、Gao、Y.、Chen、B.、Zhang,M.,2020年。 制定使用自动称重淋巴的麦地旋转系统的水和氮预算:混合应用受控释放和非涂层尿素的影响。Environ. Polut.263、114383 https://doi.org/10.1016/j.envpol.20.114383。",
+      "sourceTextHash": "dfbb2f1706caabc37fe8d588c486381e1ab0cc35694d4c8c473ae11dcfacce0e",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 5,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p15-b4-5413519": {
+      "zh": "Z. Liang等人",
+      "sourceTextHash": "54135199665873c85065a6723f8714481f0e8c88dd395d7f901899df3fb6d62d",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    }
+  },
+  "coverage": {
+    "translatedTextBlocks": 169,
+    "totalTextBlocks": 224,
+    "untranslatedTextBlocks": 0,
+    "symbolsRetainedBlocks": 55,
+    "manuallyReviewedBlocks": 0,
+    "machineDraftBlocks": 169,
+    "allNumericClaimsManuallyVerified": false
+  }
+}

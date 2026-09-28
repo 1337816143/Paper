@@ -1,0 +1,2231 @@
+{
+  "schema": "paper.translations.v3",
+  "docId": "novotny-2024",
+  "sourceHash": "3549e6d02b39f329c80d4d2caeb76b584eda198ac413f810fd214cf59b4a0c4b",
+  "language": "zh-CN",
+  "engine": {
+    "model": "Helsinki-NLP/opus-mt-en-zh",
+    "revision": "c8ce7d3af8eb15938be419f1c4c177dc724ab8ec",
+    "runtime": "CTranslate2 int8 CPU",
+    "review": "machine-draft-with-explicit-curated-overrides"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Landscape and Urban Planning 246 (2024) 105041 Available online 22 February 2024 0169-2046/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Exploring nutrient-sensitive landscape configurations for rural communities in southern Mexico Ivan P. Novotny a,b,c,*, Walter A.H. Rossing b, Pablo Tittonell d,e,f, Mariela Fuentes-Ponce c, Jeroen C.J. Groot b a Ecosystems Management, Department of Environmental Systems Science, Institute of Te",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "sourceCitation": "Novotny, I. P., et al. (2024). Landscape and Urban Planning, 246, 105041.",
+  "sourceURL": "https://doi.org/10.1016/j.landurbplan.2024.105041",
+  "visibility": "public-adaptation",
+  "blocks": {
+    "p1-b6-557615b": {
+      "zh": "H I G H L I G H T S",
+      "sourceTextHash": "557615bfb62e59bfddb0f910311f72261958382596394e81e92890eb943fe500",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b8-19af77a": {
+      "zh": "A R T I C L E I N F O",
+      "sourceTextHash": "26585e7990e438d9ef3743295abff1f571d8950a5722ef380dad26976ff0a03a",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b10-c0671f4": {
+      "zh": "A B S T R A C T",
+      "sourceTextHash": "c0671f4edc5af3c59d4e363459c009dcbcf8d91e09e0e06c138219ded7f82d22",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p2-b1-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 2,
+      "flags": []
+    },
+    "p3-b1-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 3,
+      "flags": []
+    },
+    "p4-b1-4b22777": {
+      "zh": "4",
+      "sourceTextHash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b4-3ae1783": {
+      "zh": "∑n m=1CYj,m × NCp,m",
+      "sourceTextHash": "a505dff529fc5dd6b08ed30f603a5799eb41b99f64356d489a709b22c53c1dc4",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b5-140db28": {
+      "zh": "Rp",
+      "sourceTextHash": "140db284a0033d52ce6a6c3b859e32890ea97b9bfa2e23d1f1221947008a78e1",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p5-b1-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b11-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b14-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b17-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b20-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b23-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b26-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b29-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b32-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b35-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b38-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b41-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b44-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b47-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b50-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b57-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b59-30d7a81": {
+      "zh": "ha−1",
+      "sourceTextHash": "30d7a810ef4f23e5929e5fc18798d0dc0ce84690cb1e5f221d033daaa9cd36d5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p6-b1-e7f6c01": {
+      "zh": "6",
+      "sourceTextHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p7-b1-7902699": {
+      "zh": "7",
+      "sourceTextHash": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b3-cde5b3c": {
+      "zh": "Pi,j = ∑ n",
+      "sourceTextHash": "9083eb3246e5bf627cd55f7c441e4e063a08965a84f86d07bb7f0ae73e3942fb",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b4-5187d6d": {
+      "zh": "l=1",
+      "sourceTextHash": "5187d6d62d49656a56a419e4bd833c575f96d6930ea664655cde36f3802f9e58",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b5-c00742d": {
+      "zh": "Pi,l × Aj,l",
+      "sourceTextHash": "c00742d5dd57ffa449cecb2fc04b89bcf23adaeec34c9be8ad3525f976c79985",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p8-b1-2c62423": {
+      "zh": "8",
+      "sourceTextHash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b17-c4bb18a": {
+      "zh": "1,992 (293%) 860 (85%)",
+      "sourceTextHash": "2e6a1203af9a166a45ca3d1820d91c8ba763928cc129d2e9e7c7e4710b5b2f80",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b19-09e1b1e": {
+      "zh": "2,734 (402%) 1,508 (150%)",
+      "sourceTextHash": "da65c246223467c6711821ca0e871bdce25ca5b502d6a53b8baac8f4d7ef61d0",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b21-8c5494a": {
+      "zh": "1,523 (224%) 595 (59%)",
+      "sourceTextHash": "50016f04e3fb2d271a480986838967e9f881594ceee2f68ebd8a64cb0dc46595",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b23-319e357": {
+      "zh": "2,851 (419%) 1,488 (148%)",
+      "sourceTextHash": "224da3ad80383691ecbdcb77899130eb272cd7b4a0fbaef8eb90b26181fdd1e5",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b25-b7bffa5": {
+      "zh": "1,601 (235%) 826 (82%)",
+      "sourceTextHash": "8c00e7613c96045d8dee78e3336f5445e342992c07968e7a36958604030bedf8",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b27-28b2f96": {
+      "zh": "3,398 (500%) 1,350 (134%)",
+      "sourceTextHash": "7211f7c8792956df824e9e8d76678aedbc6d09eea9648ed3c1bc7382aa400105",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b29-21f1222": {
+      "zh": "1,054 (155%) 827 (82%)",
+      "sourceTextHash": "b5247af848247022a801a5ce9ba6d8bf4a70887a7047ae4c3de0ec76e9a681c1",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b31-868ce75": {
+      "zh": "102 (15%) 73 (7%)",
+      "sourceTextHash": "f45197d89382171433cfafd5f8b404d25ec81eacc7e7880365b9d53dd8bd6305",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b33-5e0e74b": {
+      "zh": "1,992 (293%) 1,058 (105%)",
+      "sourceTextHash": "d43b31dca1dcc9a13620da455b9c5e7f2b3b78b7993b1a722ab6f4dc48d9166e",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b35-658e9de": {
+      "zh": "2,421 (356%) 1,290 (128%)",
+      "sourceTextHash": "b00b7490b6ab6789871e2a679a699ae02c318033a8cea6489244cf64473c5de8",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b37-4d90afe": {
+      "zh": "3,124 (459%) 1,356 (135%)",
+      "sourceTextHash": "db970f8aabc0b2ec14a4d992b7dfbff6527e260c615975397b437b103e047918",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b39-f424707": {
+      "zh": "898 (132%) 860 (86%)",
+      "sourceTextHash": "9c958d9dcbe8b7a1b8c6723023e301cb438db181ac507277cb0f9f205b237aa9",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b41-6db6261": {
+      "zh": "1,367 (201%) 1,488 (148%)",
+      "sourceTextHash": "19bd5953587a9ada730f7d7292dfe7dfaa81e932cfd335ded885d957d386ad49",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b43-710320a": {
+      "zh": "117 (17%) 86 (8%)",
+      "sourceTextHash": "860586c04a95d03ffa5175e7ff18969b6f787f604ce20c04b64ab31b95082a2a",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b48-53b4752": {
+      "zh": "(USD yr−1)",
+      "sourceTextHash": "dbece51ecf69116db2610ba7eae5c574c401a9e49905831b59b244ac34a1bbbc",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b49-60cc043": {
+      "zh": "5,709,818 (285,490) 5,717,113 (285,855)",
+      "sourceTextHash": "547c8e78676fd1704514f64fd019057ba674e14798caf572ebd7b0319ce15bf5",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p9-b1-19581e2": {
+      "zh": "9",
+      "sourceTextHash": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "status": "verbatim-symbols",
+      "page": 9,
+      "flags": []
+    },
+    "p10-b1-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 10,
+      "flags": []
+    },
+    "p11-b1-4fc82b2": {
+      "zh": "11",
+      "sourceTextHash": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+      "status": "verbatim-symbols",
+      "page": 11,
+      "flags": []
+    },
+    "p12-b1-6b51d43": {
+      "zh": "12",
+      "sourceTextHash": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+      "status": "verbatim-symbols",
+      "page": 12,
+      "flags": []
+    },
+    "p13-b1-3fdba35": {
+      "zh": "13",
+      "sourceTextHash": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+      "status": "verbatim-symbols",
+      "page": 13,
+      "flags": []
+    },
+    "p14-b1-8527a89": {
+      "zh": "14",
+      "sourceTextHash": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+      "status": "verbatim-symbols",
+      "page": 14,
+      "flags": []
+    },
+    "p15-b1-e629fa6": {
+      "zh": "15",
+      "sourceTextHash": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
+      "status": "verbatim-symbols",
+      "page": 15,
+      "flags": []
+    },
+    "p16-b1-b17ef6d": {
+      "zh": "16",
+      "sourceTextHash": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+      "status": "verbatim-symbols",
+      "page": 16,
+      "flags": []
+    },
+    "p17-b1-4523540": {
+      "zh": "17",
+      "sourceTextHash": "4523540f1504cd17100c4835e85b7eefd49911580f8efff0599a8f283be6b9e3",
+      "status": "verbatim-symbols",
+      "page": 17,
+      "flags": []
+    },
+    "p18-b1-4ec9599": {
+      "zh": "18",
+      "sourceTextHash": "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a",
+      "status": "verbatim-symbols",
+      "page": 18,
+      "flags": []
+    },
+    "p1-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b2-e1fd748": {
+      "zh": "2024年2月22日 0169-2046/ 2024 《作者》,由Elsevier B.V出版。 这是根据《CC BY许可法》(http://creativecommons.org/licenses/by/4.0/)公开查阅的文章。",
+      "sourceTextHash": "e966ff2e356c47b2ce0e91e8899784717043443553baf7eccf9afa882d92020f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b3-83f27fd": {
+      "zh": "为墨西哥南部农村社区探索对养分敏感的景观组合",
+      "sourceTextHash": "cec9c7eac1aac666056a84494f3c1e6cc84fa1456787ca91ddde978a491b0ddd",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b4-5b98635": {
+      "zh": "Ivan P. Novottny a,b,c,*,Walter A.H. Rossing b, Pablo Tittonell d,e,f, Mariela Fuentes-Ponce c, Jeroen C.J. Groot b , Walter A. H. Rossing b, Pablo Tittonell d,e,f, Marila Fuentes-Ponce c, Jeroen C. J. Groot b.",
+      "sourceTextHash": "5ec3af1ea1f811fc6428bf6d211ee93ec87c66a416339da01bcb735dbad0eeb7",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "language-check"
+      ]
+    },
+    "p1-b5-f49e794": {
+      "zh": "a 生态系统管理、环境系统科学系、陆地生态系统研究所环境系统科学系、瑞士苏黎世州苏黎世州韦索大学和研究、Wageningen农业系统生态小组、P.O. Box 430、6700 AK、Wageningen、荷兰的动物和作物生产部、Aut'onoma Mitulitaina-Xochimilco大学、Calzada del Hueso 1100,Col. O. Box 430、6700 AK、Wageningen、荷兰的动物和作物生产部。Villa Quiquiud, 04960, 墨西哥城、墨西哥农业生态学、环境和系统小组、巴里洛切森林和农牧业研究所(IFAB)、INTA-CONICET、Modesta Victoria 4450 - CC 277 (8400),San Carlos de Bariloche、Río Negro、阿根廷农业与生态和增强可持续性(AïDA)、国际农业研究与发展中心(CIRAD)、蒙彼利埃大学、34000 Montpillier、法国格罗宁根大学Groningen进化生命科学研究所、P.O11103、9700 CC Groningen,荷兰",
+      "sourceTextHash": "9744887393413093a8ee158d19d9d82c2207f32dff9be367207eb10d28798f92",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b7-4431dc1": {
+      "zh": "• 探讨各种指标之间的取舍和协同作用表明,在规划进程中可以灵活行事。",
+      "sourceTextHash": "de82896bbb66929882cfac096bc79144580dc2e66c85c4671bfcc6c7484fe1cd",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b9-bacf52c": {
+      "zh": "关键词:景观设计",
+      "sourceTextHash": "4126684fe9e60269d98972843623e247936adfd158aba44e6012fcbff0bdbdd7",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b11-acdfcc4": {
+      "zh": "在墨西哥,传统的MILPA多元种植系统正被玉米单种种植所取代,影响到小农户的营养多样性和生态系统服务不断减少。这项研究探讨了提高农村社区营养自足和环境绩效的景观替代办法,比较了没有(S1)和与(S2)创新耕作系统的情景;在瓦哈卡的两个城市(Santa Catarina Tayata (SCT) 和 San Crist `obal Amoltepec (SCA))),利用LandfoIMAGES模型框架对创新、玉米-夸什和MIAF(MILPA与果树的变异)进行了评价。评估考虑了营养要素、生态系统服务代用品、劳动力要求以及与各种土地使用选择有关的收入。在S1假设中,营养自足在SCT是可以实现的,但在SCA中则无法实现,即使农业扩大到森林和草原地区达17%。这项研究强调创新作物种植制度,为加强小农的福祉和在农业趋势不断演变的情况下促进可持续土地使用做法提供了积极的解决办法。",
+      "sourceTextHash": "f25bac12f8b20c94c574b1ce71f3e80175bb477b21796a2613cddf8b9b3c4ee7",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": []
+    },
+    "p1-b12-6e62ee8": {
+      "zh": "1. 导言",
+      "sourceTextHash": "6e62ee82e3df2a7dfcaba91e18eab2a77c9c7f7b4a5dceb49528346078b636d2",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b13-2c4e446": {
+      "zh": "在过去几十年中,农业生产成功地跟上了人口增长(Willett等人,2019年)。",
+      "sourceTextHash": "00ab3cc85ac33f44fc98bad4f92df8a1f64376613b6b7f9402d3de7f9b188906",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b14-d80628f": {
+      "zh": "根据联合国最近的秘书长古特雷斯(2022年),自二战以来,粮食无保障人民经历了前所未有的增长。 粮食无保障的加剧可归因于重大事件,如布雷斯特、COVID-19流行病、中美贸易战争和中国-美国贸易战争。",
+      "sourceTextHash": "d80adb798914827ef58c1abe81b7a8d902dc0d7c19d55f7de6b2e03f03c4302b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b15-7a57fd5": {
+      "zh": "* 通讯作者:瑞士苏黎世大学,地址:ivan.novotny@usys.ethz.ch(I.P. Novotny),Walter.rossing@wur.nl(W.A.H. Rossing),p.a.tittonell@rug.nl(P. Tittonell),mfponce@correo.xoc.uam.mx(M. Fuentes-Ponce),jeren.groot@wur.nl(J.J.Groot)。",
+      "sourceTextHash": "26ad5826ecf66b2c4b4dd484439a90f1ddb13cb65e4ce8f98b803e44a85a5e6f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b17-b0658ce": {
+      "zh": "在 ScienceDirect 上可用的内容列表",
+      "sourceTextHash": "b0658ce9dccc0acba9a472c2bb992cc9ba72c28f2ffb7146782e56fa3025b55b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b18-86f4ec9": {
+      "zh": "景观和城市规划",
+      "sourceTextHash": "86f4ec93fa9a21984cbf5e814f4137cd772c9c7eeaaff1ece92eea74167f305e",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b19-a07a70b": {
+      "zh": "日记主页:www.elsevier.com/locate/landurbplan",
+      "sourceTextHash": "a07a70b2238ec72532c6353848cbea68d3810342da8fa36a2feae5f93b6ca67a",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b21-ef825cb": {
+      "zh": "收到2023年2月20日;收到2024年1月10日修订表格;接受2024年2月16日。",
+      "sourceTextHash": "5880aeb5539f7943a8a81347c91c007ea34901866d16fc90eb2a65f3b60061e2",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b2-749cab8": {
+      "zh": "乌克兰-俄罗斯战争扰乱了全球市场(Carriquiry, Dumortier, & Elobeid, 2022)。这些重大事件的连锁效应促使各国重新考虑自给自足的作用(Bisoffi等人,2021年;Mottaleb, Kruseman, & Snapp,2022年)。与此同时,粮食系统排放了三分之一的温室气体(GHG)(Geyik, Hadjikakou, & Bryan, 2022年);气专委(2022年)预测气候变化对粮食安全的负面影响将加剧。农业与诸如持续的粮食不安全、增加二氧化碳排放量和自然服务退化等全球性问题之间的相互联系提出了如何在恢复环境的同时为不断增加的人口生产更可持续和多样化的食物的问题(Ickowitz等人,2022年;鲍威尔等人,2015年)。因此,考虑到粮食系统社会经济和环境复杂性的地貌规划方法至关重要;在拉丁美洲,两大类粮食生产系统并存:强化的技术中心单一作物种植系统和传统的多样化生产系统(Parraguez-Vergara等人,2018年);前者尽管通过改善遗传材料和大量投入的使用提高了产量,但证明对饥饿没有效果,与失业、移徙和生态系统退化有关(Altiri & Nicholls,2008年;粮农组织,2014年;de Gordillo,2004年;Jokisch,2002年)。 尽管如此,公共奖励和劳动力短缺迫使小农户从作物多样性转向简化系统(Parraguez-Vergara等人,2018年),这可能会对农村地区的粮食安全产生负面影响(Isakson,2009年)。农业系统过于简单化是一个全球性问题,因为全世界粮食系统无法生产足够的作物品种,以确保健康和均衡的饮食,只有三种作物(稻米、玉米和小麦)提供了48%的每日人类卡路里消耗量(粮农组织,2018年);传统的墨西哥作物系统MILPA中心围绕玉米,它与其他物种如普通豆类(Cecholus clugis)、fava豆(Vicia faba)和壁球(Cucurbita spp.)相结合;这一作物系统具有促进营养自给自足的巨大潜力,其定义是当地生产的产品的营养素和维生素供应与建议摄入这些营养素和维生素的平均比例之间的关系(Sioen、Sekiyama、Terada和Yokohari,2017年)。在墨西哥南部(Novotny, Fuentes-Ponce, Tittonell, Lopez-Ridaura, & Rossing, 2021年)观察到,尽管有诸多优势,但MILPA正在被单一文化所取代,导致以牺牲维生素A和C的生产和消费为代价为非农业活动腾出劳动力,从而导致该国粮食进口增加65%(Senado de la Republicana, 2017年);拟议了营养敏感景观框架,用于分析地貌生态系统服务和营养绩效(Biovernity International,2014年;Groot等人,2017年;Kennedy等人,2017年)。在墨西哥,粮食安全和环境保护框架的应用特别与墨西哥相关,因为墨西哥经常单独审议粮食保障和环境保护问题,而在国家一级而不是在地方一级(Galeana-Piza na、Couturier、以及Monsivaiis-Huertero,2018年),过去几年来对营养敏感农业和景观规划的研究越来越具有吸引力,探讨各种专题,例如缩小全球养分差距与温室气体排放之间的关系(Geyik等人,2022年)和探索改善农业生产和营养的农场规模管理备选方案(Timler等人,2020年)。然而,据我们了解,目前没有一项研究评估改善粮食生产和提供生态系统服务的中层地貌管理选项。为此原因,本研究报告侧重于墨西哥南部的两个城市。我们选择了市一级作为行政单位。",
+      "sourceTextHash": "ba41d7b114cfd1236fd40d888b3c9a3f6dce3757463b214e6709120d1d366178",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 5,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b3-3b12368": {
+      "zh": "如Novotny、Tittonell、Fuentes-Ponce、L'opez-Ridaura和Rossing(2021年)所示,这一决策过程可能对地貌景观产生重大的积极或消极影响。我们选择瓦哈卡州为墨西哥最边缘化的州之一(2016年,CONAPO),并展示了很大程度的土地退化情况。通过地貌重新设计改善营养自足状况有利于那些从市场上获取粮食受到限制的边缘化社区(Galeana-Piza na等人,2018年)。粮食安全不仅取决于粮食的供应,而且取决于获得、稳定和利用(粮农组织,1996年)。这里,我们侧重于从当地生产和食物利用中获取粮食的情况,通过实地调查、土地使用/土地覆盖地图以及若干营养素和维生素的饮食参考摄入量的综合估计。为这项研究选定的两个城市的社会经济背景不同,第一个城市是San Cristobal Amoltepec,其特点是作物产量低、人口密度高,对土地造成压力;第二个社区是Santa Catarina Tayata,其特点是大量放弃农业和负人口增长;这两个社区共同代表墨西哥其他城市(Novotny等人,2021年);我们的目标是在粮食生产和营养多样性方面比较这两个社区目前的地貌表现;随后,我们探讨了通过下列途径改善营养、社会经济和环境景观绩效的方法:(一) 扩大现有的LULC和作物种植系统,或(二) 采用替代的多样化作物系统。",
+      "sourceTextHash": "f53f0c2f23c64f1361d25242ec587d31a100cbe79aa9eda5dc8c5bdd23042ef7",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 2,
+      "flags": []
+    },
+    "p2-b4-a77f4aa": {
+      "zh": "2. 材料和方法",
+      "sourceTextHash": "a77f4aaf906d38849e11e41a6e44e589cb63ae7d507ea1af9799731e28579ee6",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b5-6ce1f26": {
+      "zh": "2.1. 研究地区和生产系统",
+      "sourceTextHash": "6ce1f26f23c9584b69c7af3166bcd9a361bf940ebc556cdbe682a89cd65f09af",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b6-9b673b0": {
+      "zh": "这项研究在墨西哥瓦哈卡州的两个相邻城市,Santa Catarina Tayata(SCT)和San Cristobal Amortepec(SCA)(图1)。 这两个社区在气候条件、耕作制度和社区景观管理(Novotny等人,2021年)方面情况相似,但在人口统计、作物绩效和LULC配置方面有所不同。该地区的三大主要作物系统是玉米单一种植、普通豆类和MILPA。这个区域的MILPA系统包括玉米以及以下一种或多种作物:普通豆类、fava Bean和壁岩。随后的播种期通常为一年,但可能长达五年。畜牧业是最常见的动物生产类型。与墨西哥其他城市一样,SCT和SCA的土地被划分为公用和私有土地(图1)。 种植活动完全在私人土地上进行,尽管在其他城市中情况并非如此。共同土地由Bienes Comunales(BC)管理,Bienes Comunales(BC)是一个地方机构,负责执行市议会决定的地方法规;森林和草地是普通土地上最常见的LULCs;定居区由于没有社区管理而被排除在分析之外(CONAPO,2016年)。两个社区都被视为处于边缘地位(CONAPO,2016年);SCT能够满足比SCA更多的营养素和维生素,但两个社区都没有完全自给自足(Novottny等人,2021年)。过去三十年来,SCT和SCA增加了森林覆盖,并通过一系列地方法规(Novottny等人,2021年)。",
+      "sourceTextHash": "5f309cf48653c0248713408a05427e6b629630d10874ed62a0591168bef834c0",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 2,
+      "flags": []
+    },
+    "p2-b7-67c2e55": {
+      "zh": "2.2. 营养敏感地貌景观和建模框架",
+      "sourceTextHash": "67c2e5565385aa064a4180457498f2c54d85e7db578479801965240fc13d6ff9",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b8-15b747e": {
+      "zh": "Kennedy等人(2017年)建立了NSL框架,将儿童基金会的营养概念框架与生态系统服务功能结合起来。",
+      "sourceTextHash": "07bfa7af4799dba3cd26943aee8a21c0a83bd93642a61422f0f31a7514695cea",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b9-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b2-cbd770f": {
+      "zh": "在这项研究中,采用了“景观互动-多目标农业生态系统生成和评估系统-LI、Groot等人,2007年)”,这一框架有助于利用基于Pareto的多目标演进(P-MODE)算法评估地貌的现状和替代性表现,目的是探索土壤侵蚀、食品供应、生境连通性和碳固存等各种景观绩效指标之间的取舍和协同作用(Groot等人,2007年)。如果某一指标方面的景观表现在特定指标方面的业绩不能改善而不损害一个或多个其他指标(Groot、Yerew、 & Rossing, 2018年)的绩效,就实现了最佳 Pareto最佳性;这项研究采用了五步方法来应用模型(图2),详见随后各分节。第一,收集数据并计算生产、社会经济和环境指标。第二,对不同的LULC进行了分类。第三,采用综合LULC分类和指标来评估地貌业绩。第四,确定了利益相关者的目标和可能的替代情景。最后,确定了利益相关者的目标。",
+      "sourceTextHash": "252023f68a34273597e83813c3078b46ec107b217773c1e5674778d4b885add1",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b3-65e6d63": {
+      "zh": "将基于Pareto的差异演化方法转化为6个指标,用于评价这些指标之间的取舍和协同作用。",
+      "sourceTextHash": "b49208d9b4c907e48cab20db5b5323e5ef0d0bf354694fe2be6b7872c4d042a4",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b4-f040d05": {
+      "zh": "2.2.1. 数据收集和指标量化 为全面评估营养、社会经济因素和环境方面,采用了一套多种多样的数据来源和计量技术(表1)。 主要数据收集方法包括2017年12月进行的住户调查,有60个答卷人(30个在SCT,30个在SCA)参加,从157块地中得出洞见(Novotny等人,2021年)。该调查从战略角度选择了地域多样性参与者,涵盖家庭结构、生产系统、劳动力分配和经济业绩等关键方面。根据调查数据得出的作物产量和羊产量估计表明,两个城市的羊群保持一贯的放牧率(3.5绵羊公顷-1个草原),尽管平均作物产量相似,但SCA一直表现出较低的可实现产量(观测到的最高产量)(表3)。为了说明MILPA的多种文化性质、土地等价比(LER;Mead & Willey,1980年),利用这两个城市的平均和最高观察到的产量进行了计算。苏夸斯生产(不包括单片作物)使用格雷罗州的平均壁球产量(10兆克公顷-1;亚太统计所,2017年)估计是具有相关壁球数据的最接近的格雷罗州。",
+      "sourceTextHash": "94df41945ca37c4e4e26cd866e5bac8e5c25e37506df83874bd4d3e09edb9e90",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 2,
+      "flags": []
+    },
+    "p3-b5-f9f3f2e": {
+      "zh": "计及各种作物,量化营养和维生素产量",
+      "sourceTextHash": "f9f3f2eb9c3b56ee873d97ae8ed36fc2bfbd62384a1f26c38983816750e81ec6",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b7-aaa3429": {
+      "zh": "图1. 案例研究城市Santa Catarina Tayata和San Crist'obal Amoltepec位于瓦哈卡州。",
+      "sourceTextHash": "aaa342909ea7c5724e51b95281848078f84791f0159cf50bf7a6398a72cf7c0d",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b8-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b2-3fd7e15": {
+      "zh": "城市每种营养或维生素的营养自足(NSSj,p)计算方法是将NSYjp除以人口规模。",
+      "sourceTextHash": "6049b9c6a224919901690206efb1581d76c108e5f9166ded69d7c141a919b38f",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b3-8b8be7e": {
+      "zh": "NSYj,p=",
+      "sourceTextHash": "8b8be7ef330fe1b93b09b9903bb2c188c15915ee6457115d9f6cb54ac697e607",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b6-680df2e": {
+      "zh": "在p为养分或维生素的地方,CY是j.NCPp市Mg/ha-1的单种作物m的产量,在j. NCPP市为Mg/ha-1,m 是按m.m.m.m.m. m.m.m. m.m.m. 营养或维他命p(单位取决于营养或维他命)的含量。 Rp是每年人均饮食参考摄入量(DRI,国家科学院,2011年),用于营养(来自Timler等人,2020年)。",
+      "sourceTextHash": "350483e784ebe1b76ded80f3918fe3034d6db65948130bc6f9d3a47613235185",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b7-7ef5f42": {
+      "zh": "NSSj,p = NSYj,p = NSYj,p",
+      "sourceTextHash": "7ef5f42cc679d6e2116478a083b853253544ab7bc63b109e1121067b1a27ba27",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b8-6ef413a": {
+      "zh": "Popj 贾",
+      "sourceTextHash": "6ef413ac1a1b88b1ce2b3f919dbe2f746f25c71d854aca6fa61e3685049145b0",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b9-c934c7f": {
+      "zh": "Popj是J市的人口规模,该市人口为680人,SCT为1 005人,SCA为1 005人(INEGI,2015年);使用31至50岁人口的饮食参考摄入量,因为这一范围代表了两个社区的平均人口;此处不考虑孕妇和儿童的需求,因为他们的特殊饮食需求需要具体分析;根据在该地区进行的一项研究(Naranjo等人,2021年)估计了侵蚀程度,这项研究在39次森林、玉米和39次降水事件之后收集了被侵蚀的土壤。",
+      "sourceTextHash": "59f3880173b32d9dad8ad3ee7c7c304f6ed2aee968c1570c1ccdefdba520aca1",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p4-b11-ea33d3d": {
+      "zh": "图2. 方法框架,包括数据采集和建模办法的步骤;箭头显示为收集和分析数据而采取的不同步骤之间的联系;彩色行是数据收集和分析的主要阶段。",
+      "sourceTextHash": "e4d7e1128f479ad8c1dcb3a53eb7508372b1f0df2a2693c14bb3e4c7b7c9ce84",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b12-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b2-2ebbeca": {
+      "zh": "从各种活动(草原、玉米、豆类和MILPA)产生的收入(绵绵的草地、玉米、豆类和MILPA)是通过从产品价格中减去生产成本(例如劳动力、投入)计算的,根据INEGI (2010年) 确定当地可用的劳动力,考虑到15至60岁人口和8小时工作日;只考虑5月和6月的劳动要求并与当地现有的劳动力进行比较。这个时间框架优于年度需求,因为5月和6月是本地可提供劳动力最多的月份。为了确定每个LULC的碳储量,分析考虑了土壤有机物(SOM)和地面生物量(AGB)。SOM数据来自64个分层随机土壤样本,占了大宗密度。对于AGB来说,重点是牧场和森林类别,不包括没有植被和作物残渣的裸土。森林AGB的计算涉及查明14个林地覆盖200平方米表面的胸高直径超过7厘米的树木(DBH),将树高信息纳入量化生物量的对称公式(N'avar,2009年);从AGB树(Mokany,Raison, & Prokushkin,2006年);另外,通过在1米2方块收集非木质材料、在70°C时为48小时干燥和体重(Bartholom ee,Grigulis, Colace,Arnoldi, & Lavorel,2018年)评估了底部生物量;结合树木和底层生物量提供了全部AGB。牧场的地下生物量(BGB)是通过将AGB乘以1.6系数得出的(Eggleston,2006年);另外三个景观指标——营养平衡、佐山指数和生境连通性——是根据LULC空间分布计算的(图3)。 通过香农指数评估的营养平衡,衡量每个城市的食物丰富性和公平性(Remans等人,2011年)。营养更加均衡表明饮食更为平衡和多样化的潜力,对于减轻与隐藏饥饿有关的问题至关重要(Bamji, Murty, & Sudhir,2021年)。 Satoyama指数是采用Kadoya和Washitani(2011年)的方法计算出来的,其中纳入了辛普逊的多样性指数和化合物指数,其价值范围从0(富饶性的单一文化景观)到1(高度多样的景观)。生境连通性,表明森林的空间毗连性和生物多样性潜力(Groot等人,2018年),是用城市和Keitt(2001年)的方法计算的。",
+      "sourceTextHash": "5e170de46b24ff357a20c5486245c51283d903592287542e12ee6669dfca0d99",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 4,
+      "flags": []
+    },
+    "p5-b3-5674431": {
+      "zh": "2.2.2. LULC的地理信息系统分类多边形是一个强有力的工具,用来说明农业景观的结构组成部分,包括田野、边界、道路、河流等等;用地理信息系统线条元素代表了实地边界和对冲地带等线性特征;每个地貌要素的具体信息都作为内部属性表纳入地理信息系统档案中;关于植被类型和土地使用等替代特性以及景观要素管理的其他细节储存在MS Access/SQLite数据库表格中;LI收集了地理信息系统文件属性表中每种景观要素的信息(Groot等人,2018年);在该研究中,关键的地貌要素包含各种LULC类别,包括森林、农田和牧场。为了对这些元素进行分类,使用2017年10月拍摄的大地遥感卫星8号图像进行了LULC分类,空间分辨率为30米(https://earthexplorer.usgs.gov),根据最小云层覆盖率和LULCs之间的高对比仔细选择。应用暗天物体大气减缩校正方法(2008年,Ellis & Porter-Bolland),采用了半监督分类法。它结合了受监督和不受监督的分类要素,利用谷歌地球高分辨率地图(WorldView-2,0.5m 分辨率)抽样的少量标签数据(监督学习),并采用最大可能性算法对其余未取样的数据进行分类(未经监督、未经监测、未经审查、未经审查、未经审查、未经审查、未经审查、未经审查、未经审查、未经审查、未经审查、未经核准的数据)。",
+      "sourceTextHash": "1e9b9013ac9056d1e71cf15b081f1491d610f0797663cda2cdfc910859c18f4e",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 2,
+      "flags": []
+    },
+    "p5-b4-1413fae": {
+      "zh": "表1 营养、社会经济和环境指标和来源,作为每个LULC的投入。",
+      "sourceTextHash": "ca22e536f7f0f3ddbfcade48ff8df3f4e073804ead97ede73f2c73e03172192f",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b5-88f0dc6": {
+      "zh": "指标型指标型指标单位1",
+      "sourceTextHash": "5b4c19336dbe7dac1a15009b50f4bb6e8474f06cc7cb19f017eda2f40618cae0",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b6-0e570ca": {
+      "zh": "来源来源",
+      "sourceTextHash": "0e570ca6fabe24f94e52c1833f3ffd25567022beb826fa16891f3322051bc221",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b7-6f54e2c": {
+      "zh": "营养营养平衡 -- -- 指标调查+文献2",
+      "sourceTextHash": "7205a31e375e6a8924979b5bf0c05fc3318b21568e168f92fe0ffd1e470e1798",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b8-4e43136": {
+      "zh": "神经分裂症",
+      "sourceTextHash": "4e4313643bc022a3fdb7a5d83d0943b4c83eacdf5c3a0311516b45cb2cab7024",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b9-381cfb6": {
+      "zh": "能源能",
+      "sourceTextHash": "381cfb6e1e428419d5d6b5d113be06a9023d6407ebe388791ec3d59100d87ec5",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b10-5ea9da2": {
+      "zh": "供食人口-1",
+      "sourceTextHash": "29efd79b7bb16b36ea794b58ff191c183b6db1e978aca7a19ec41776ce54b62e",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b12-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b13-e997bae": {
+      "zh": "食用y-1的NSY蛋提因人",
+      "sourceTextHash": "df747561f75f37466138b262e320e5584e9f84120de33c2bd425d8e288a13c83",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b15-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b16-0832eb5": {
+      "zh": "NSYCa 供餐人口",
+      "sourceTextHash": "41533dd878134ff4cdb7842c82ead522b9b694db2e9c5b7e7a985967fbf863f7",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b18-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b19-3852b91": {
+      "zh": "NSYP 供养人口",
+      "sourceTextHash": "9c9acd1ab7b8d4b7a63b7984e1dad0c1010bc93a755466ca52e25a69dd4f4d26",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b21-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b22-37be368": {
+      "zh": "NSYFe 供食人口",
+      "sourceTextHash": "13dc7396445acada3c85462c402d76be6fdedff92015fe07256d5bffcbd00dfc",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b24-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b25-337c5cc": {
+      "zh": "NSYMg 供养人口",
+      "sourceTextHash": "96eb17c8b117abc584830f9ce5923edaf93104791e9bb714b866eb61071eb43e",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b27-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b28-bf7111f": {
+      "zh": "NSYZn人喂养1y-1",
+      "sourceTextHash": "90031ba75ded62e42838b22a33d80c5fb462ccb76fbcc929647568bd60b85c4d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b30-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b31-f8fd748": {
+      "zh": "NSYVit.A 供养人口",
+      "sourceTextHash": "f6022201f625e827dc9247be7ad2573705de077a7204a13226f09e92a3afc22c",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b33-5e72ec7": {
+      "zh": "目标(增加)调查+文献2",
+      "sourceTextHash": "f3a277007529d525f8004c48ba050d6c899543e4c0e741cb5cd22cb00900f92b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b34-1c229b5": {
+      "zh": "NSYVit.B2 供餐人口",
+      "sourceTextHash": "dfab7a1ad83df22837f8cdc39ad9e33f489e6932df0ed9ee221f6cb0be4e45c8",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b36-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b37-831f1b9": {
+      "zh": "NSYVit.B3 供餐人口",
+      "sourceTextHash": "30b0540e972b3b69ec2fdcd1d27e2aa58dbbfdc12a71e7fe0246f2e593377341",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b39-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b40-0aa7a27": {
+      "zh": "NSYVit.B6 供餐人口",
+      "sourceTextHash": "84903c801fa80e362b397ff7dd2d1a2e77bcdf435155ce1e2118d0f0f84105e1",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b42-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b43-d948cfc": {
+      "zh": "NSYVit.B9 供餐人口",
+      "sourceTextHash": "1e9e22bed4257ab7b4b3bf8b301aa92f98120702be75fc21f93c72858a6087c8",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b45-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b46-1cf37c0": {
+      "zh": "NSYVit.B12 供餐人口",
+      "sourceTextHash": "3cd4a69a9d6738996833e5c9e7d431254ee6c9e004c7040bd2b3c67ff016e027",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b48-5e72ec7": {
+      "zh": "目标(增加)调查+文献2",
+      "sourceTextHash": "f3a277007529d525f8004c48ba050d6c899543e4c0e741cb5cd22cb00900f92b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b49-fbb0ac7": {
+      "zh": "NSYVIT.C 供餐人口",
+      "sourceTextHash": "d745f81e2561d1c92c4a7d95f115a302cc07fdf0fb4223bfd21d20e4a65d8c9d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b51-daaa9ce": {
+      "zh": "指标调查+文献2",
+      "sourceTextHash": "c8f43c102ad95167785e34b414fd24d6849251267ff9f6a9d859a32c2353980b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b52-43d3b04": {
+      "zh": "目标(减少)",
+      "sourceTextHash": "bbd2e7d57a92c7ccd8914e1431fbdc9eff56abb06f2b0c7f1748d1f62aa83645",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b53-e34b837": {
+      "zh": "Reyna等人,",
+      "sourceTextHash": "e34b8370c562e49bca8a42a98e8885da22f7199094096cb6bded7a5c4615ec22",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b54-adbb94c": {
+      "zh": "本地可用劳动力",
+      "sourceTextHash": "6eb4d7a05a13e4e3a54c8b798e000f9bc4d69b80f992c0b33994bf8275b32120",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b55-56aaa2b": {
+      "zh": "计算指标(Inegi,2010年)",
+      "sourceTextHash": "727cdee53d015d9dd5f003d8fdceca3aa4dd1c399c0e0108434b005b7f27dcbc",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b56-625212b": {
+      "zh": "收入MXNy-1",
+      "sourceTextHash": "d9c97a377c07f7d84310451d33cc7bd5151f67bb9b7d54ce3e28d4e2094a1ba1",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b58-69df088": {
+      "zh": "目标(增加)调查+ (Cadena-I niguez等人,2018年)环境土壤损失Mgyr-1",
+      "sourceTextHash": "f68cd4749d7039d394baaaba5e6d7e15fcb8bf0f2a020095a537e797e53ee942",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b60-863e6d2": {
+      "zh": "目标(减少)(Etchevers等人,2004年;Naranjo-Macias,2019年)从土壤样本+(Bos,2020年;Etchewers等人,2004年)计算的总碳-1目标(增加)(Bos,2020年;Etchevers等人,2004年)计算出的 \" 生境连通性公顷指标 \" (Urban & Keitt,2001年);Satoyama指数 -- -- 指标计算(Kadoya & Washitani,2011年)。",
+      "sourceTextHash": "9bb5dfae657dfb1e6f93fdd789e053265130d8d03fefad981360446b4dc894f3",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b61-f06687f": {
+      "zh": "1 “在LI中使用的”是指在“景观指标”中某一指标是否被界定为多目标优化的“目标”,未作为目标使用的指标被称为“指标”。",
+      "sourceTextHash": "f97523f25fee6cd784d58183f165290e0a2323c91cf27e618fb02dac51f46ee5",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b62-e19bbe0": {
+      "zh": "2 使用的文献有:Bressani(2015年);Cadena-I niguez等人(2018年);Incap(2006年);Jim'enez、Gad'amez、Aguilar、Hern'andez和Solis(2019年);USDA(2010年)。",
+      "sourceTextHash": "331be393fe87aefd01b7b916e63e4732426040cc6bbc774c32bcc4d7dd29b69e",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b63-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b2-e6be715": {
+      "zh": "Mekasha、Gerard、Tesfaye、Nigatu、和Duncan,2014年;Tolessa、Senbeta、和Kidane,2017年)使用的三个LULC标签是森林、耕地/草地和裸土,总体分类精确度达到88%(附录D)。 耕地和草地被合并在半监督分类标签之下,因为这些标签产生的光谱特征非常相似。考虑到草地对动物生产和种植作物的耕地很重要,必须进一步加以区分。这首先使用了含有SCT和SCA土地所有权信息的形状文件,分为三类土地所有权:私有土地、公用土地和定居(RAN,2019年)。为了将耕地与草地区分开来,我们用我们的LULC的分类图覆盖了包含土地所有权的形状文件。我们的区别标准是:如果一个分类的耕地/草原象素与私人地块相重叠,那么它就被归类为耕地。",
+      "sourceTextHash": "4e2b88763993a97739b4f84921e79b9d5569944c1741876a00fcde2dd2eee68c",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 2,
+      "flags": []
+    },
+    "p6-b3-2bef9b5": {
+      "zh": "该调查的结果显示,SCT20%的耕地面积被玉米、豆类、MILPA或落地占用,7 % 的豆类、33%的豆类、4 % 的蜜蜂和40 % 的秋滴。 CAS 26%的耕地面积被玉米、4 % 的豆类、50 % 的米帕和20 % 的秋滴占据。 这些比例被用来随机在所有分类农田中分配这些作物。 QGIS(3.4版)半自动分类插件(6.4.2版)促进了LULC的分类过程,有助于研究基于地理信息系统的景观特征的稳健性。",
+      "sourceTextHash": "96d27388f1f3b6670b2b245544c3c376a39671e6fb75e8a1cda38ee3fafd8439",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b4-22a6177": {
+      "zh": "2.2.3. 除了佐藤山指数、生境连通性和营养平衡性以外,大多数指标都是按每个LULC等级的面积计算的。",
+      "sourceTextHash": "0bf2f17a840319846253ffeb05609d163242b52fd3d3c150ed02e1bbf4c4b1fd",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b6-555f531": {
+      "zh": "图3. Santa Catarina Tayata和San Cristobal Amoltepec的当前地貌布局。 豆类、落地、玉米和MILPA等LULCs按各LULC目前的比例随机分配给LULC类耕地。",
+      "sourceTextHash": "4574d09c175a745c4cca186bcfe543e699c3d9bc4861a3748d0155daa0e326b8",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b7-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b2-73a1f6b": {
+      "zh": "这些指标储存在LI所使用的地理信息系统档案中。",
+      "sourceTextHash": "55b7b2e71bfd37f7c2f04624553b622bdef4104bd6eb3a81804ccad74679d354",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b6-bfa6f88": {
+      "zh": "Pi,j 是j市(如SCT或SCA)指标i(单位取决于该指标)的数值;Pi,l是LULC l.Aj,l 社区j(ha)中LULCl领域指标i/公顷值。",
+      "sourceTextHash": "9af3d757bb5d3e8aaf091ab431b715c62ad2afdccbda35cc686a4b2293cf2873",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b7-24b0fd3": {
+      "zh": "2.2.4. 确定利益相关者目标和备选设想情景 可使用各种指标作为指导探索替代景观组合的目标(表1)。 为界定与地方相关的目标,请各城市的三大利益相关者类别提出意见:农民、地方官员和ENLACE(一个当地非政府组织),ENLACE力求促进可持续农业做法和改善农村基础设施。在2015年和2017年举行的讲习班上确定了ENLACE和地方官员的目标。这些讲习班包括查明利益相关者对案例研究领域重大问题及其政策议程目标的看法。ENLACE的代表表示,其优先目标是改善粮食安全、尽量减少土壤损失和增加森林覆盖。除了ENLACE的目标外,地方官员还希望保护河流和溪流免受土壤沉积物的影响。在前面描述的同一住户调查中,农民被问及他们的目标。农民最经常表达的目标是提高作物绩效、最大限度地减少劳动力和改善收入。两个社区的目标相似。我们把作物绩效和粮食安全目标转化为生产维生素A和B12的最大化目标。选择维生素A是因为实现了营养自给自足也保证了其他养分和维他命的最低要求,但维生素B12除外(Novotny等人,2021年)。维生素B12来自自由牧场生产。羊产量与草原有关。将碳储量最大化作为一个目标使用,因为这一指标直接关系到ENLACE和地方官员增加固碳量的目标。Bienes社区颁布的社区条例作为限制措施在LI中实施:1)没有在共同地区清除森林;2)每条河流和溪水应至少由15米的森林缓冲区保护每一边;3)耕地被允许变成贫瘠地。本研究考虑了两种情况。第一个设想方案(S1)用于探索如何利用目前的LULCs和作物种植系统重新设计地貌来改善利益相关者的目标,这一设想方案特别适用于高度边缘化的地方,如SCT和SCA,在这些地方,种植系统的革新不太可能发生。 森林、瀑布、草地、玉米、豆类和MILPA被定义为LI的LULC选项,并进行了多目标优化来评估这一假设方案。第二个设想方案(S2)旨在调查提高营养自足的机会,同时提供新的经济机会。 因此,选择了墨西哥其他地方开发的两种新型作物种植系统。 选定的创新项目是玉米与壁球(这里称为玉米藻类)和农林业的MILPA系统(当地也称为MIAF)交织在一起。玉米夸斯制度之所以被选定,是因为农民熟悉这两种物种,与传统的MILPA相比劳动力需求减少,以及它有可能改善维生素A和C(该地区最受限制的维他命;)的生产。 制定MIAF制度是为了在瓦哈卡高原等山地地区减少贫困和环境破坏(卡德纳-伊·尼格斯、卡马斯-戈麦斯、L'opez-B 'aez、L'opez-G 'omez、以及Gonz 'alez-Cifuentes,2018年)。 MIAF考虑进行这项研究的是玉米与豆类和桃子交织。 其组成是根据墨西哥一个类似农业生态地区的系统经验选定的(卡迪纳-I niguez等人,2018年)。",
+      "sourceTextHash": "1493a46389068c511118aa2633bc49ae98f2d4a4b65d56344b03e62d8aa800a4",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 4,
+      "flags": []
+    },
+    "p7-b8-5220b6c": {
+      "zh": "2.2.5. 多种目标优化 进化算法差异演化(Strade & Price,1997年)用于基于Pareto的多目标优化:Groot等人(2018年)介绍了LI使用的相应公式的完整数学解释(2018年),这里我们简要总结了优化过程;DE算法产生两个解决方案群,代表显示地图多边形上分配的LULC决定变量的决定变量;这些人群创造的机会空间是多种多样的;决策变量(基因类型)的多样性创造了以指标(phenotypes)测量的景观性能多样性。第一组`父母 ' 具有迭接式改进的结果集,而第二组则由 \" 竞争者 \" 组成,后者是由每个迭代中三个选定的`亲 ' 解决方案的统一交叉产生的。DE算法的参数是交叉重叠概率(CR = 0.85)和突变幅度(F = 0.15),每个人口由1000个解决方案组成。两种人群的解决方案都采用Pareto-最优化原则(Groot、Oomen、 & Rossing,2012年)排列顺序,机会空间解决方案之间的欧几里德距离则根据标准化指标值计算,该指标值有助于量化拥挤度。排序后,选择过程通过对比进行:结果定型人群的解决方案被竞争人群的个人所取代,如果后者拥有更好的Pareto排名或位于更拥挤的机会空间的一部分。基于等级的选择的结果是`居民 ' 向贸易边框(或地表)移动,而以人群为基础的选择则确保沿边境(或地表)蔓延。这一过程进行了1000次迭代。",
+      "sourceTextHash": "f1ae6b98bae84ea4331fb8c29d72a5ad5bfcaa8a49c7a4e08a648559e1093865",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 3,
+      "flags": []
+    },
+    "p7-b9-c3fea71": {
+      "zh": "3. 结果",
+      "sourceTextHash": "c3fea7138f4bb51688359fa370115de73c95fc2601dbf4e5411368aa2da343c0",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b10-08079c5": {
+      "zh": "3.1. 当前地貌景观绩效",
+      "sourceTextHash": "08079c524b0196ec1f7ef82be7232d2e818e0159f258f83be1862830de8f7d84",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b11-82e79c6": {
+      "zh": "森林和草原是这两个城市中最常用的LULC类型,分别占SCT总面积的50%和30%,占SCA总面积的40%和35%(图3)。作物占每个城市总面积的20%,玉米种植面积分别占SCT和SCA耕地面积的70%和55%左右,Bean约占25%和30%,MILPA占SCT和SCA耕地面积的5%和15%。在SCT营养素和维生素足以供养679人,但维生素A和C除外(表2)。除了维生素A和C不足外,SCA没有达到人口对维他命B9、饮食能量、钙、铁和锌的需求(表2)。 SCA的营养和维生素系统产量较低的原因是作物产量下降,与SCT相比,耕地面积减少。 5月和6月,SCA(41 280天)的当地可用劳动力数量是SCT的两倍(表2)。 这两个社区都无法用当地可用的劳动力满足这些月的所需劳动要求。因此,两个社区雇用外部劳动力来解决这一短缺问题。各城市的地块分布影响了生境连通性。 SCT(图3)中段农田的集中通过将社区西部和东部的森林分开,减少了森林栖息地的连接性。 在SCA地区,森林覆盖在农田之间,导致更大的生境连通性。由于森林面积较大,SCT在碳储量方面表现优于SCA,每个市的Satoyama指数值相似(SCT为0.9, SCA为0.91),这意味着两个城市的地貌都具有高度多样性的LULCs和零散模式。",
+      "sourceTextHash": "13629b06d3902e3d903cf1e20d613e575a9569308d433a72bcf37758cfb2a770",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b12-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b2-365d04c": {
+      "zh": "3.2. 探索景观组合备选方案",
+      "sourceTextHash": "365d04c48035901117c641667d63e438e1d4722ba3adf631c8aed915b6c49ffa",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b3-7e790e8": {
+      "zh": "3.2.1. 设想S1 -- -- 重新分配现有LULC备选方案约40%和30%的替代地貌,这些地貌都是由SCT和SCA的多目标优化产生的,满足了人口对维生素A的需求(红线图4上点)。 在LI产生的其他景观组合中,维生素A的供应与收入、土壤侵蚀和劳动力需求(图4和附录B)有着积极的联系。 更多的碳储存通常与更多的维生素B12产量有关。 维生素B12产量和维生素A产量之间的权衡是存在的。 在维生素B12产量减少和维生素A产量增加的同时,草原也有所减少,MILPA也有所增加(附录B)。 SCT的不同地形配置可以实现维生素A的营养自足(图4)。在SCT中,达到维生素A自给自足需要10%的土地与MILPA(红线图5)共同占有(红线图5)。对于SCA来说,维生素A最有生产力的景观替代方案能够养活1005人中的968人;要达到这一水平,作物种植面积必须扩大17%(青线横向黑线);在情景S1中,通过MILPA增加维生素A自给自足的代价是森林和草地表面减少(图5)。由于森林和草地是LULC,土壤侵蚀较少,因此减少这些土地将增加整个景观的土壤流失。",
+      "sourceTextHash": "b643646ebf7f7cfcbf72a0fb7f38b93c08fce0818c794c4ce52097e4da59d47e",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 2,
+      "flags": []
+    },
+    "p8-b4-4623740": {
+      "zh": "3.2.2. 设想S2:重新定位,包括新的LULCF备选方案; 在假设S2中引入玉米夸斯和MIAF系统,大大改变了与第一种情景相比的解决方案空间(图4)。 值得注意的是,两个社区在改善维生素A生产和创收方面的机会之窗要大得多,然而,碳储量和维生素B12可达到的水平比S1方案低,没有玉米夸斯和MIAF的情景。 同样,在假设S1中,S2侵蚀不能低于2.7兆克公顷-1-1年-1年。 这归因于分配给作物的土地比例较大,与S1相比,S2方案减少了森林和草原在情景S2中的份额。达到维生素A自给自足需要的耕地面积至少分别占单一氯三联苯和单一氯三联苯总领土面积的19%和20%,这尤其与商品共同市场有关,因为如果没有作物系统创新,没有其他景观可以实现自给自足;尽管引入玉米夸斯和MIAF系统可能带来好处,但这些系统将增加劳动力需求并减少维生素B12的生产。",
+      "sourceTextHash": "272658c0a2abee07c648523713ca32e1ca0e002aab0865aad13888f64cf471c4",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 2,
+      "flags": []
+    },
+    "p8-b5-fb88181": {
+      "zh": "图6显示每个城市的四种景观配置选项,它们根据利益相关者的目标提供地貌组合如何变化的洞察力。 在尽量扩大维生素A产量时,重点是玉米水浆生产。 创造更多收入的景观增加了MIAF产量。",
+      "sourceTextHash": "17c0e4e9e98ebc4fd70cd4fc1f08dee636dda8d68e27d7fb6c3d175067bbc640",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b6-54c664c": {
+      "zh": "4. 讨论",
+      "sourceTextHash": "54c664ce8062f3812d51572c3ccda3547491a3d7290297d6101285c373d7fc49",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b7-9111636": {
+      "zh": "4.1. 实现营养敏感景观",
+      "sourceTextHash": "9111636200afdc2575ab39163f82b55d899c28bc5f543efab6624833bbf6747e",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b8-dc60169": {
+      "zh": "我们的研究显示,通过重组不同的LULCs以优化营养自给自足,同时增加碳储量,如何改善地貌业绩;在目前的作物种植制度中,多样化的MILPA在维持和改善营养自给自足方面发挥明显作用(Novotny等人,2021年)。 采用玉米夸斯和MIAF等作物种植制度可以提高维生素A产量,为农民创造更多收入。然而,将玉米夸斯和MIAF扩大到草原和林地可导致土壤侵蚀率上升和碳储存减少。",
+      "sourceTextHash": "5d72b7dde68b0cee7b28f7a03296dbfc2d1d2d41eaea7b8c537c4fc307d1cb50",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b9-ef93007": {
+      "zh": "表2 Santa Catarina Tayata和San Cristobal Amoltepec目前的营养、社会经济和环境表现。",
+      "sourceTextHash": "577541425a979dd9a4d999ef74d98b9cd615502101e7c9748a676a99e4096bff",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b10-d724941": {
+      "zh": "指标型指标型指标单位",
+      "sourceTextHash": "3724cc0a220cb7131fdecfde8ec43ffb78d69b978b840c3c8365e8f20161f320",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b11-60cb2e8": {
+      "zh": "圣卡塔琳娜·塔亚塔1",
+      "sourceTextHash": "607247c4a92a081702ce046763e326115bfaa4b5e1febbc139f63e4fb486d039",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b12-e975b4d": {
+      "zh": "圣克里斯托巴·阿莫特佩克1",
+      "sourceTextHash": "d1c8440be093d5b8be7ae8b1bb4005f02789bfe748bcf30e4824e0306fc9447f",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b13-b38864c": {
+      "zh": "营养营养平衡 - 3.53 4.07",
+      "sourceTextHash": "6ea5a2dc134d584b5037786dde4d057b95539c374bb4aa9d68088bd07b21561e",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b14-4e43136": {
+      "zh": "神经分裂症",
+      "sourceTextHash": "4e4313643bc022a3fdb7a5d83d0943b4c83eacdf5c3a0311516b45cb2cab7024",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b15-381cfb6": {
+      "zh": "能源能",
+      "sourceTextHash": "381cfb6e1e428419d5d6b5d113be06a9023d6407ebe388791ec3d59100d87ec5",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b16-5ea9da2": {
+      "zh": "供食人口-1",
+      "sourceTextHash": "29efd79b7bb16b36ea794b58ff191c183b6db1e978aca7a19ec41776ce54b62e",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b18-e997bae": {
+      "zh": "食用y-1的NSY蛋提因人",
+      "sourceTextHash": "df747561f75f37466138b262e320e5584e9f84120de33c2bd425d8e288a13c83",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b20-0832eb5": {
+      "zh": "NSYCa 供餐人口",
+      "sourceTextHash": "41533dd878134ff4cdb7842c82ead522b9b694db2e9c5b7e7a985967fbf863f7",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b22-3852b91": {
+      "zh": "NSYP 供养人口",
+      "sourceTextHash": "9c9acd1ab7b8d4b7a63b7984e1dad0c1010bc93a755466ca52e25a69dd4f4d26",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b24-37be368": {
+      "zh": "NSYFe 供食人口",
+      "sourceTextHash": "13dc7396445acada3c85462c402d76be6fdedff92015fe07256d5bffcbd00dfc",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b26-337c5cc": {
+      "zh": "NSYMg 供养人口",
+      "sourceTextHash": "96eb17c8b117abc584830f9ce5923edaf93104791e9bb714b866eb61071eb43e",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b28-bf7111f": {
+      "zh": "NSYZn人喂养1y-1",
+      "sourceTextHash": "90031ba75ded62e42838b22a33d80c5fb462ccb76fbcc929647568bd60b85c4d",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b30-f8fd748": {
+      "zh": "NSYVit.A 供养人口",
+      "sourceTextHash": "f6022201f625e827dc9247be7ad2573705de077a7204a13226f09e92a3afc22c",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b32-1c229b5": {
+      "zh": "NSYVit.B2 供餐人口",
+      "sourceTextHash": "dfab7a1ad83df22837f8cdc39ad9e33f489e6932df0ed9ee221f6cb0be4e45c8",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b34-831f1b9": {
+      "zh": "NSYVit.B3 供餐人口",
+      "sourceTextHash": "30b0540e972b3b69ec2fdcd1d27e2aa58dbbfdc12a71e7fe0246f2e593377341",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b36-0aa7a27": {
+      "zh": "NSYVit.B6 供餐人口",
+      "sourceTextHash": "84903c801fa80e362b397ff7dd2d1a2e77bcdf435155ce1e2118d0f0f84105e1",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b38-d948cfc": {
+      "zh": "NSYVit.B9 供餐人口",
+      "sourceTextHash": "1e9e22bed4257ab7b4b3bf8b301aa92f98120702be75fc21f93c72858a6087c8",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b40-1cf37c0": {
+      "zh": "NSYVit.B12 供餐人口",
+      "sourceTextHash": "3cd4a69a9d6738996833e5c9e7d431254ee6c9e004c7040bd2b3c67ff016e027",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b42-fbb0ac7": {
+      "zh": "NSYVIT.C 供餐人口",
+      "sourceTextHash": "d745f81e2561d1c92c4a7d95f115a302cc07fdf0fb4223bfd21d20e4a65d8c9d",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b44-510917e": {
+      "zh": "社会经济要求劳动日 55 855 49 268",
+      "sourceTextHash": "d4c6219692a74f4810be9f6402a31356822fb92899f6447be470faef11f12513",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b45-adbb94c": {
+      "zh": "本地可用劳动力",
+      "sourceTextHash": "6eb4d7a05a13e4e3a54c8b798e000f9bc4d69b80f992c0b33994bf8275b32120",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b46-4a11ae4": {
+      "zh": "20,520天 41,280天",
+      "sourceTextHash": "382c4972c0a2b901c4850c1c0f91c2dcfc8e81dc5cd607655a592bca59d1ab05",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b47-625212b": {
+      "zh": "收入MXNy-1",
+      "sourceTextHash": "d9c97a377c07f7d84310451d33cc7bd5151f67bb9b7d54ce3e28d4e2094a1ba1",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b50-3a9b662": {
+      "zh": "碳总量 T 283,929 239 398",
+      "sourceTextHash": "6a9df6824ba88b0507fe0a7c073bda0366ed3dc17f9955f47a555f69b9931c75",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b51-4ee4aa7": {
+      "zh": "佐山指数 - 0.90 0.91",
+      "sourceTextHash": "9eb215054edc3f20e481d980cd147a5440578e615e7b7a81762045d88dd5f3c5",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b52-24dfc85": {
+      "zh": "1 括号外的数值是营养系统产量,而括号之间的百分比值代表特定营养或维生素在营养方面的自给自足。",
+      "sourceTextHash": "43e9449f6af94f44d75bd7691d2ba9d85b5d9ee24fb289bd186eff2838b5c4d4",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b53-9c00636": {
+      "zh": "表3 不同耕作系统中平均和最高玉米、普通豆类和壁球产量以及MILPA的计算土地当量比率。",
+      "sourceTextHash": "fe17edf7f8e59e599368a1a2290045134feb303f2a64c664304bb27d0b197beb",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b54-bdf45bb": {
+      "zh": "圣克里斯托巴·阿莫尔特佩克",
+      "sourceTextHash": "4ddb56b38a4177b35cdaee0ce34ef32ce203c57bbd61a2eb0d755d653e72a10b",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b55-dfcad40": {
+      "zh": "平均(毫克/公顷)",
+      "sourceTextHash": "4c99d1d7abf71ff109748df2c712e8ee049f5bdc3e33cb9ef72e6b1c3366ac75",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b56-08b6ead": {
+      "zh": "观察到的最高产量(兆克/公顷)平均(毫克/公顷)",
+      "sourceTextHash": "00cbd28ea543b1466ddaba55e12f0052e518d5d73273f8d29d85b87dbb27c233",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b57-c45f6dc": {
+      "zh": "观察到的最高产量(兆克/公顷)",
+      "sourceTextHash": "87b8a1a0136921d44f11d5008b46287750a9f2f3276e0eafde984bc8f45e0e90",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b58-e639f95": {
+      "zh": "MILPA 0.04 1.62 1.02 1.04 1.56 普通豆类 0.15 0.45 0.12 2.25 MILPA 0.05 0.22 0.04.0.04 0.04 0.04",
+      "sourceTextHash": "c343dfd9147b72c69f1c5b3edd24ed5d8028352b88b1ff3ffc3d1606345aad76",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b59-7a182e4": {
+      "zh": "MILPA中的泥浆 0.45 1.00 0.22 1.00 土地等值比率MILPA 042 1.40 0.47 1.22",
+      "sourceTextHash": "17691c42eacb51ac9d9ddbc9516adb7f639ff613cc72318b578e629c6da3ee47",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b60-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b2-3666657": {
+      "zh": "我们的研究旨在回答Ickowitz等人(2022年)和鲍威尔等人(2015年)提出的关于景观如何在维持或甚至改善生态系统服务的同时维持健康粮食生产的问题,此外,国际组织呼吁采取注重营养的景观解决办法,以改善粮食和营养安全,同时促进自然资源的可持续利用和保护(国际联盟,2014年;国际粮食政策研究所,2014年)。",
+      "sourceTextHash": "935bfc3760a6e03b72445979f6e724a7ed23a658b66949b6cf744e9ede4bd1e4",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b3-ea94d06": {
+      "zh": "Broegaard等人(2017年)采取NSL方法,研究森林、山丘和农田等多种系统,以证明野生食物与减少蛋白质差距的相关性。 类似Broegaard等人(2017年)的研究一样,我们的研究根据不同的LULCs评估了粮食生产情况。然而,我们的研究是第一个在分析中纳入营养成分并将营养自给自足与生态系统服务联系起来的研究。 由于偏爱玉米单一种植而不是MILPA,维生素。",
+      "sourceTextHash": "1fb5e8116197f07158ca1939f4ef5da8cdad0b60ced465b724a34101f4a3b998",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b5-d5d548b": {
+      "zh": "图4. 方案S1和S2的多目标优化所产生的替代性Pareto最佳景观的表现,表现为五个目标:维他命A、维生素B12、收入、碳储量和侵蚀;红点代表目前的景观业绩;红线表示维生素A的营养自足阈值。 (关于对图解中提到的颜色的解释,请参看本条的网络版本。 )",
+      "sourceTextHash": "4d7bc14f23d283bbfeb249b4dddaf54da93c78a06e1da74f85f02daa1eb06cd7",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b6-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b3-c0fdded": {
+      "zh": "图5. 千幅景观配置(在Y轴上显示的不同LULCs的百分比),按维生素A的性能和土壤侵蚀(低高X轴)排列,圣卡塔琳娜·塔亚塔(SCT)和圣克里斯托巴·阿莫特佩克(SCA)没有(scionario S1)和(scanio S2),采用玉米-夸斯和MIAF。横向黑线表明允许农业开发的土地的法律限制。垂直红线代表营养自给自足的门槛。黑箭代表目前的LULC比例。 LULC的百分数线使用LOSS方法进行平稳调整,以更好地解释。 (关于对图中的颜色引用,读者参考了本文的网络版本。 )",
+      "sourceTextHash": "3e255835b2fbf5369aa19718e3a1ad15b5bc03a7c2aa61fb69098585c9ca1a79",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b4-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b2-d18769c": {
+      "zh": "维生素A缺乏症是墨西哥的一个常见问题(Leatherman, Goodman, & Stillman, 2020年;Mora, Gueri和Mora, 1998年),儿童严重缺乏症的病例令人震惊(Brito等人,2015年);拉丁美洲其他地区(Brito等人,2015年;Mora等人,1998年)和世界其他区域(Laillou等人,2012年;Timler等人,2020年),维生素A缺乏症被报告为人类营养问题,圣克里斯托瓦尔安托佩克市证明特别难以实现维生素A自给自足。鉴于目前的LULCs和生产力水平(S1,设想值),SCA将需要扩大其耕地以接近当地对维生素A的需求,从而减少能够改善碳储量并减少侵蚀的LULCs(如森林和草原),通过作物系统选项多样化(S2,设想值),MILPA可以提供足够的营养素和维他命,以获得足够的人类营养(Novotny等人,2021年)。尽管MILPA有营养方面的惠益,但这些多种文化的生产率相对较低(表3),研究地区的劳动力需求也很高。除了增加从事非农业活动外(Novottny,2020年),农民可能不太愿意种植MILPA,这也比玉米单种作物需要更多体力劳动。墨西哥其他地方也表现出类似单一种植系统的倾向(Birol、Villalba、Smal,2009年);Guti'errez-Carbajal & Maga na-Maga na,2017年;Kontoleon,Pascual,Smale,2009年;Otero-prevost,Gurri-García,Mariaca-M 'éndez, & Guízar-V'Azquez,2018年;Richard,2008年;Rodríguez & Arias,2014年。",
+      "sourceTextHash": "f5a7fa9efbde3b0d0f612ca76bda53af272a76f73f39a4e63f6e44c71c9cdf76",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 3,
+      "flags": []
+    },
+    "p11-b3-4445d66": {
+      "zh": "技术干预措施应旨在缩小这一差距。在墨西哥的德斯科科试验条件下,MILPA多种文化分别生产了4.5、0.9和6.2 Mg ha-1玉米、豆类和壁球(Ebel、Pozas、Soria、 & Cruz, 2017年);这相当于我们研究地区平均产量的110-、6和10倍。另一个选择是提高MILPA的南瓜密度,以有利于维生素A和C的生产,尽管应当进行实验性试验以提出有关植物密度的更好建议。 在政策层面,应该努力刺激MILPA生产,而不是像过去十年那样引导农民转向单一种植(S 'anchez & Hern 'andez,2014年)。考虑到扩大MILPA以提供更好的营养、替代生产管理或作物种植系统的挑战,如本研究报告建议的那些挑战,也应该考虑。结果显示玉米夸斯和MIAF系统可以改变所评估指标的地貌表现。Maize-squash可以增加维生素A,而正如其他研究(Cadena-I niguez等人,2018年;Cort 'es等人,2007年;Etchevers等人,2004年)所示,MIA系统可以提高维生素A自给自足率,同时增加生态系统服务,例如碳储量和减少土壤侵蚀),而MIA则可以提供更好的经济业绩。相比之下,如果不大大损害这些生态系统服务,那么用目前的耕作系统实现维生素A自给自足是不可能的。",
+      "sourceTextHash": "95b7cc15e66fe61d119413d2c82d4cf1b671633dce58e125a72d6f986cf55949",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 2,
+      "flags": []
+    },
+    "p11-b5-509032e": {
+      "zh": "图6. 实现维生素A生产、收入和碳储量最大化以及土壤血清最小化的景观配置。",
+      "sourceTextHash": "509032e313ffff46f367d0811a139bba3a3666c4c5dd4a31c1e39d70f6a1a332",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b6-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b2-0e7c639": {
+      "zh": "4.2. 社会生态景观",
+      "sourceTextHash": "0e7c63912a52fd4bde38127951a3c5f591d3c11a9f4a0e99536ac0f35fccb744",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b3-d1acc7c": {
+      "zh": "对只考虑目前的LULCs和作物种植系统的设想进行的评估表明,在作物种植系统可能不会发生变化的情况下,改善地貌的社会经济、营养和环境绩效的潜力有限,这与高度边缘化的地方尤其相关,如瓦哈卡州(CONAPO,2016年),这项研究的结果显示,景观替代物可以改善碳储量和维生素A生产,并减少土壤侵蚀(图4)。 将这种潜力与墨西哥社区拥有自主管理其土地的自主权(Novottny等人,2021年)相结合,为改进地貌提供了前景。尽管这一研究是在非生产性和边缘化地区开展的,但我们方法的稳健性可以在不同的环境下复制。景观管理往往涉及由利益相冲突的社会行为者助长的社会-经济和生态复杂性引起的邪恶问题。将这些行为者的目标和愿望纳入分析并探索潜在的景观替代方案及其相关的协同增效和权衡,可以为讨论这些替代方案提供一个透明和包容的平台。 实现粮食区域自给自足对食品市场有几种影响。 更本地化的粮食生产可以刺激农村经济、减轻价格波动的影响并降低旅行成本(Clapp, 2017年;Puma, Bose, Chon, & Cook,2015年;Suweis, Carr, Maritan, Rynaldo, & D'Odorico,2015年 ) 。 相反,也应考虑几个负面点。 提高粮食自足可能无法实现,这取决于环境的农业能力能否维持人口足够的粮食供应(Fader,2015年)。",
+      "sourceTextHash": "7b6606a2abbf94def6f9e1d14eeb6c354aedb2461690f7c1da155e291ff2621a",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 2,
+      "flags": []
+    },
+    "p12-b4-e3267d3": {
+      "zh": "Gerten, Krause, Lucht, & Cramer, 2013年。 此外,在面临作物歉收、虫害爆发或极端天气事件的情况下,减少对外部市场的依赖可能会消除获取额外粮食的保证。",
+      "sourceTextHash": "e11d1f8877483c21c3e5eb107de1aa711c55a800608770e384f691f0f1082341",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b5-5fb0b9e": {
+      "zh": "4.3. 限制和未来研究",
+      "sourceTextHash": "5fb0b9e1b8675fbeaaf6fa6684ea200fc26d07b3aed9082701ee933062013585",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b6-1fdfc69": {
+      "zh": "首先,研究的重点是营养自足问题,评估农业和粮食利用的粮食供应情况。虽然两者对粮食安全评估都很重要,但为了更全面地了解粮食安全状况,都需要关于获得食物和粮食生产稳定的数据;这项研究探讨了两个城市的替代景观,以及如何在区域景观规划一级扩大和纳入这些调查结果的问题;然而,即使存在高度边缘化、营养差距和土地退化的地区,地貌业绩也可以得到改善;因此,从这项研究中汲取的教训可以在类似的社会经济环境中进行。第三,增加两种作物种植制度的目的并不是要详尽无遗地说明现有的可能性。相反,它被用作一个例子,说明替代性制度如何能够改变地貌表现并为生产和可持续的景观创造新的机会。可以而且应该考虑其他耕作制度和管理来改进地貌绩效。虽然这项研究评估了取决于土地使用空间配置(Satoyama指数和生境连通性)的绩效指标目前的执行情况,但利益相关者不认为这些指标是优化的关键变量,然而,我们建议今后的研究不仅要考虑每个土地利用面积的数量,而且要考虑在地貌中如何分配和相互联系。",
+      "sourceTextHash": "d0a7a42637550ed439c010a742e89c0d3ee90da77024415c2f68aaf72387a127",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 2,
+      "flags": []
+    },
+    "p12-b8-fe7ef4e": {
+      "zh": "图6.(续)。",
+      "sourceTextHash": "fe7ef4e494a898872be2789efcc0470577c255557055e0c05bf7765c101a87d7",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b9-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b2-92b4fe5": {
+      "zh": "最后,本研究通过讨论替代景观组合的利弊,为激励利益相关者之间进一步合作提供了一种途径。 通过多样化和强化(无论是否在作物种植系统中进行创新)改善地貌表现的潜力是存在的。 尽管如此,由于目前的产量水平和劳动力需求,传统的MILPA系统正在失去农民的兴趣。 因此,为了适应经济和社会文化背景,需要从农业角度振兴这一标志性混合耕作体系背后的农业生态概念。",
+      "sourceTextHash": "8748cc2f6de5bb5d51624eaab39882a2c3d0595f02e8b54933c7311eed5a7209",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b3-c6e7582": {
+      "zh": "5. 结论",
+      "sourceTextHash": "c6e75828c3ee1b37ede67476927d6411427bf9a8c9bf5e5943eca3a83d3e8c3a",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b4-47a1d20": {
+      "zh": "通过注重营养的景观方法,我们制作并展示了几种景观配置,以改善在收入、营养自足、碳储量和减少土壤侵蚀方面的地貌绩效。 这项研究表明,只有重新排列目前的LULCs,才能改善营养、经济和环境绩效。 然而,引入新的作物种植系统可能会有助于打破僵局,甚至进一步提高地貌绩效。 纳入玉米瓜间植系统将极大地改善维生素A的供应,而MIAF农林业系统将为农民提供增加收入的机会。 但是,这些好处是以劳动力需求增加和土壤侵蚀风险增加为代价的,因为种植系统活动开始取代森林和草原。 这里使用的多目标模式是基于利益相关者的目标,提供了评估无风险环境中地貌结构的有力方法。这增加了每个参与各方在设计过程中表达自己的声音的机会,并预知地貌景观不断变化的方面如何影响其业绩。 利用这一框架与当地社区和其他利益相关者共同进行地貌景观重新设计的参与性活动,有可能为讨论提供信息,以寻求更公平、可持续和营养敏感的方式",
+      "sourceTextHash": "1b23de4cca21f2796d94c2f77bef366e8762526cdfd8c7858c477e3e27fb45c7",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 2,
+      "flags": []
+    },
+    "p13-b5-93f7906": {
+      "zh": "风景。",
+      "sourceTextHash": "93f7906959826f9999a47b1a682eca733576bacf22efc52b876b5e8adfc63e5b",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b6-75794fc": {
+      "zh": "CREediT 作者贡献声明",
+      "sourceTextHash": "75794fc7a639181c4b67897c71910444e5b8ebcbd0f51648ce8e59a2b166c896",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b7-aa1a274": {
+      "zh": "Ivan P. Novotny:概念化、数据整理、正式分析、调查、方法、项目管理、软件、视觉化、写作——原始草案、写作——审查和编辑。 Walter A.H. Rossing:概念化、方法、监督、写作——审查和编辑。 Pablo Tittonell:筹资获得、监督、写作——审查和编辑。Mariela Fuentes-Ponce:概念化、监督、写作——审查和编辑。Jeroen C.J.Groot:方法、软件、写作——审查和编辑。",
+      "sourceTextHash": "2551e9a0a696a132ed7ad0dbdcba738555b8f2f2efb7ebbb0624e361f4b4fd8a",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b8-9c53d09": {
+      "zh": "竞合利益声明",
+      "sourceTextHash": "9c53d09d763e52c3bd982dc5e59f78546b18e21413f6d9ef7815e4ca3546c239",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b9-5f4cebb": {
+      "zh": "作者声明,他们没有已知的相互竞争的经济利益或个人关系,这些利益和个人关系可能似乎影响本文件所报告的工作。",
+      "sourceTextHash": "7c01408011bc89f908a3ec18505dcdda8e1ce7a1c2476ad72a4b8f9a0cffb422",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b10-188a992": {
+      "zh": "数据可用性",
+      "sourceTextHash": "188a992e372fe88d4d545fa96883a56c2aada07802d61a1332853f2ea664c1ed",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b11-2889f11": {
+      "zh": "将应要求提供数据。",
+      "sourceTextHash": "2889f11dc03e8c8b6e955150844095aedbb24a16b3914abd920260117e73e4d9",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b12-4be0f86": {
+      "zh": "致谢",
+      "sourceTextHash": "4be0f860ee3560910d50596233fe802eeecf0972c7a9de427a76ae9a622e2ea1",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b13-5cd1074": {
+      "zh": "提交人要感谢以下人士和组织:Sergio Naranjo在该地区土壤侵蚀方面所做的宝贵工作;Tim Bos、Erick Rebollo和Dulce Zu niga的献身精神,如果没有他们的奉献精神,我们就无法估计碳储量;Samuel Ding提供宝贵的协助,对管理景观模型的用户界面进行微调;国际农业研究磋商小组提供支持,为该项目提供资金, \" 农业生态系统多样性以及加强基于谷物系统的轨迹和取舍 \" (ATTIC,赠款协议:A4032.09.20)。",
+      "sourceTextHash": "418ed53c15d829ee794a824d7160826ab3e3ee3f81bb91c62d195aa58346049e",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b14-2d4b3e2": {
+      "zh": "附录附录附录附录",
+      "sourceTextHash": "2d4b3e2813c6058b5f056f91316db8c83f4d685cc5596bc61e4bb14d4b4b1680",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b15-eb3fa64": {
+      "zh": "附录A. Santa Catarina Tayata和San Cristobal Amoltepec的每个LULC单位生产量",
+      "sourceTextHash": "eb3fa64c870d80e20108645a1a1c5a600f563dfca94bd1dc5ee403bb0fd8f913",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b16-2b54805": {
+      "zh": "圣卡塔琳娜塔达塔LULC",
+      "sourceTextHash": "2b548050e669b6c619df85b8628a508bc1e99e36f45c001085f9971965613fb5",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b17-d0952e8": {
+      "zh": "单位 森林草原马伊泽 Bean MILPA",
+      "sourceTextHash": "b3490704679cb03a1abdf908c8a13c038faed764549e60264d64732c4a02f485",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b18-27ad2f4": {
+      "zh": "6.9 4.91 6.27 6.62 1.62 1.69 维生素A 人 - 1 0 0 0 0 0.9 0.49 0.64 1.06 2.07 1.62 4.99 维生素A 人 - 1 0 0 0 0 0 0 0.96 7.83 7.83 Vitamin B2 人 - 1 0 0 0.27 2.68 3.63 8.84 5.28 5.38 Vitamin B3 人 - 1 0 0 0.59 3.22 0.58 0.58 4.4 4.119.896.19 Vitamin B6人喂养公顷-1 0 0 0 014 4.96 1.69 14.23 14.23 8.23 维生素B9人喂养公顷-1 0 0 4.82 1.99 1.97 3.37 Vitamin B12人喂养公顷-1 01.45 0 0 0 0 0 0 0 0 0.0 0 Vitamin C人喂养公顷- 1 0 0 0 0 0 0 2.01 8.25 5.55 法定劳动日 1- 60 69 90 125 90 170 收入MXN 公顷-1 0 4615 3050 3050 - 1900 5245 18 881 18 450 土壤损失 Mg/ha 1 15 15 15 5 总碳公顷-1 121.1 23.8 26.8 在圣克里斯托巴氨酸亚的森林区Beizan MILPA Maiz-MACF",
+      "sourceTextHash": "929d46ab988d521d89e07ee45d4676325e24904995ebea5829f8d12eb4c753ad",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p13-b19-2bda146": {
+      "zh": "4.91 蛋白质喂养公顷-1 00.48 1.46 1.50 2.99 10.31 6.27 6.27 钙人喂养公顷-1.02 1.06 1.05 1.79 7.25 4.08 硫磷人喂养公顷-1 00.33 1.51 2.00 13.76 13.73 6.40",
+      "sourceTextHash": "f3673bd2e4446d90cd1b6f201657d5660925e8c0f19d0f7df53d70a9f59eeff6",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p13-b20-154d159": {
+      "zh": "(接下页)",
+      "sourceTextHash": "154d15911f12ed2b5105611f3e353a6fd98bad5220a36c981e4cf2074f28c85e",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b21-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b2-4455fc4": {
+      "zh": "(续)",
+      "sourceTextHash": "4455fc44438c7bb51846ff9ba74efe528076536c739bd64a271673f3a60e3145",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b3-2b54805": {
+      "zh": "圣卡塔琳娜塔达塔LULC",
+      "sourceTextHash": "2b548050e669b6c619df85b8628a508bc1e99e36f45c001085f9971965613fb5",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b4-d0952e8": {
+      "zh": "单位 森林草原马伊泽 Bean MILPA",
+      "sourceTextHash": "b3490704679cb03a1abdf908c8a13c038faed764549e60264d64732c4a02f485",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b5-bc22046": {
+      "zh": "1.33 2.11 7.37 3.99 供养1 0.08 2.36 0.51 4.54 19.75 8.22 Zinc 人供养1 0.049 0.26 0.85 1.22 4.62 1.99 维生素A 人供养1 公顷喂养 0 0 0 0 0 0.95 7.83 0.63 Vitamin B2 人供养1 -0 0 0.27 1.09 1.02 8.28 5.38 5.38 维他min B3 人供养1 公顷喂养1 0 0 0.59 1.03 0.47 1.29 9.89 6.19 Vitamin B6 人供养1 0 0 014.40.01 1.37 14.23 8.23 8.23 Vitamin B9 供养1 - 1 0 0 0.3.65 1.97 3.37 维他丁 B12 人供养1 1.045 01.44 0.44 0 Vitamin C 供养1 8.255.55 所需工作日 0 60 69 90 125 90 170 收入 MXN 0 4615 - 700 - 645 500 18 881 18 450 土壤损失Mg/ha 1 1 15 15 15 15 15 5 碳总量 t 12.1.1 78.7 23 23.8 23 26.8",
+      "sourceTextHash": "f01ad49264992937637911c68262a778a35c852938c11f17d40711c1d655c3c1",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p14-b6-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b3-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p16-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 1,
+      "flags": []
+    },
+    "p16-b2-87d94b1": {
+      "zh": "附录B. 以6个目标(收入、维生素B12、侵蚀、碳储量、维他命A和劳动力)表示的替代性Pareto最佳景观表现:收入、维生素B12、侵蚀、碳储存、维生素A和劳动。黑方代表当前地貌业绩。黑方代表着目前的地貌表现。分层线显示了维生素自给自足的门槛值。蓝色:San Cristobal Amoltepec,红色:Santa Catarina de Tayata。为了便于比较各城市,在解决云周围添加了电荷。",
+      "sourceTextHash": "8030fac93cecac693570deaead19d8aa55aec243f8615a599a61fbdf533dca46",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 1,
+      "flags": []
+    },
+    "p16-b4-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b2-7ac5227": {
+      "zh": "附录C. 圣卡塔丽娜·塔亚塔(SCT)和圣克里斯托巴勒·阿莫特佩克(SCA)按6个目标(低高、x轴)的绩效排列的千幅景观图(y-ax-axis),无论是否采用玉米夸斯和MIAF。横向黑线显示目前允许私人农业开发的最大面积。垂直红线代表营养自给自足临界值。黑箭代表目前的LULC比例。数字线使用LESS方法进行顺利调整,以更好地解释。",
+      "sourceTextHash": "5d3a57dd90ae48c6f5607f2f5d98ae9aabdca04b08f0d88551225c8e56802665",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b3-dceb563": {
+      "zh": "附录D. 地区误差矩阵表",
+      "sourceTextHash": "dceb563960b6630245d993a8e9b1da7118b5bc969541b2ba484490cc32220a03",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b4-71bf909": {
+      "zh": "参考参考资料",
+      "sourceTextHash": "71bf90935fc231d20126e2087eeb583c6aa419fc3dd1b6847bfe376b9200eaa0",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b5-b189e6a": {
+      "zh": "划分的林业农业",
+      "sourceTextHash": "0931a99e1d48f7fcec681bcaad49691142969969f248bcf3a2ed3cb19d3889e7",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b6-e4cc298": {
+      "zh": "估计面积 1 453 422 220 500 2 096 100 标准误差0.0051 0.0059 003 标准误差 10724.32 12359.2 6275.52 95% CI区 21019.67 2422.24.04 12300.03 生产者准确度 [%]",
+      "sourceTextHash": "9e610cd54210f8664b51b0ffb6e444a14e6f0cff2683c68167c78a7ccc73cfe4",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p17-b7-69824d3": {
+      "zh": "参考参考资料",
+      "sourceTextHash": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b8-a6d6f02": {
+      "zh": "Altieri, M. A., & Nicholls, C. I. (2008年),《扩大农业生态方法促进拉丁美洲粮食主权》,发展,51(4),472-480。https://doi.org/101057/Dev.2008.68Bamji,M.S.,Murty,P.V.V.S.,和Sudhir,P.D.(2021)。营养敏感农业——减少隐性饥饿的方法。欧洲临床营养杂志,75(7),1001-1009。 https://doi.org/10.1038/s41430-020-070-00360-x Bartholom 'ee,O.,Grigulis,K.,Colace,M.-P.,Arnoldi,C.和Lavorel,S. (2018年)。在估算温带森林和草原碳储存方面的方法不确定性。生态指标,95, 331-342。生态指标,95, 331-342。 https://doi.org/10.101016/j.ecolind.2018.80.07.54 Bioversity International.(2014年),概念说明:对营养敏感的景观,生物多样性国际和地球研究所:哥伦比亚大学,https://www.bioversityinternational.org/fileadmin/user_upload/research/research_portfolio/Dive_disclement_Nutrition_Sensitive_Landscaps_Concept_paper_March_2014.pdf.Birol,E.、Villalba、E.R.和Smale、M.(2009年)。墨西哥农民对谷物多样性和转基因玉米的偏好选择:一种潜在的阶级方法。环境和发展经济学,14(4)、521-540。https://doi.org/10.101017/S1355770X08004944 Bisoffi, S., Ahrn 'e, L., Aschemann-Witzel, J., B'aldi, A., Cuhls, K., Declerck, F., ...... Brunori, G. (2021),COVID-19和可持续粮食系统:在下一次紧急情况发生之前我们应该学到什么。可持续粮食系统中的前沿, 第5条,第650987条。https://doi.org/10.3389/fsufs.20299.87 Bos, T.(2020) 制定空间明确的土地使用管理方法:Santa Catarina Tayata案例研究。 瓦哈卡,墨西哥:Wageningen大学和研究[进展中的硕士]。Bressani, R. (2015)。危地马拉山谷大学,http://168.234.106.70/library/images/c/c.7/FODECYT_2008.23.pdf.Brito, A., Mujica-Coopman, M. F., Olivares, M., L'opez de Roma na, D., Cori, H., & Allen, L. H.H. (2015年)。《粮食与营养公报》,36(2_suppl),S109-S118。https://doi.org/ 10.177/0379572115585772 Broegaard、R.B.、拉斯穆森、L.V.、道森、N.、Mertz、O.、Vongvisouk、T.和Grogan、K.(2017年)。农业 -- -- 森林景观商业农业扩展范围内的野生食品收集和营养。森林政策和经济学,84、92-101。https://doi.org/10.1016/j.forpol.2016.12.012 Cadena-I niguez、P.、Camas-G 'omez、R.、L 'opez-B 'aez、W.、L 'opez-G 'omez、H.D。C., & Gonz `alez-Cifuentes, J.H. (2018年),El MIAF, una evative para lateras laderas del m'exico: Caso de estudio en Chapas, Revista Mexica de Ciencias Agrícolas, 9(7), 1351-1361. https://doi.org/10.29312/ remexca.v9i7.1670 Carriquiry, M., Dumortier, J., & Elobeid, A. (2022年)。对俄罗斯和乌克兰停止小麦和玉米出口的贸易补偿方案增加了碳排放,而没有缓解粮食不安全。自然食品,3(310), 847-850。https://doi.org/ 10.1038/S 43016-0260600-0Clapp, J. (2017年)。《粮食政策》,66、88-96。https://doi.org/10.1016/j.foodpol.2016.12.001 CONAPO.(2016).001。 1990-2015年,“Federaltiva Por entidad por enterativa, Consejo Nacional de Poblaci'on,http://www.conapo.gob.mx/es/CONAPO/Datos_Abiertos_del_Indice_de_Marginacion。",
+      "sourceTextHash": "98b33fbd0515c596ac9a57d3b2f32326987091e3c29131f1a34c6e3ecc628c09",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 7,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p17-b9-105c647": {
+      "zh": "Cort'es, J., Turrent, A., Díaz, P., Clararo, P., Hern Andez, E., Aceves, E., & Mendoza, R.(2007年)。《墨西哥的森林和佩斯克罗:Gordillo de Gordillo, G.de. A. (2004年),熟悉的粮食与农业。Ebel, R., Pozas, J. G. C., Soria, F. M., & Cruz, J. G. (2017年)。Manejo org ' anico de la milpa: Rendimiento de maíz, frijol y calabaza en 单产业和政治化。 Terra Latinamericana, 35, 149-160. Eggleston, H. S. (Ed.)(2006年)。 2006年气专委国家温室气体清单编制指南。全球环境战略研究所。社区森林管理是否比保护区更有效?森林生态和管理,256(11),1971-1983年。https://doi.org/10.1016/j.foreco.2008.07.736 Etchevers,J.Prat,C.,Balbontin,C.,Bravo,M.,M.,Martinez,M., & Ortiz,C.(2004年)。《土地使用对墨西哥和中美洲碳固存和侵蚀的影响》。《Du R 'eseau Erosion》杂志,23,284-310。Fader,M.Gerten,D.、Krause,M.,Lucht,W.和Cramer,W.(2013)。农业生产和消费的空间脱钩:量化各国因国内土地和水资源限制而依赖粮食进口的情况。环境研究信函,8(1),第014046条,https://doi.org/10.1088/1748-9326/8/1/014046粮农组织(1996年),罗马宣言和世界粮食首脑会议行动计划,罗马:联合国粮食及农业组织,http://www.fao.org/3/w3613e/w3613e/ w3613e00.htm.FAO.(2018),可持续农业促进生物多样性 -- -- 生物多样性促进可持续农业,联合国粮食及农业组织,Rome.https/www.fao.org/documents/card/en/c/85baf9c5-ea7f-4e25-812f-737755 a8b320/.FAO.(2014),营养敏感的农业,联合国粮食及农业组织,罗马,http://www.fao.org/3/a-as601e.pdf.Galeana-Pizana,J.。M.,Couturier, S., & Monsivais-Huertero, A. (2018年),用基于地理信息系统的粮食环境效率指数评估墨西哥的粮食安全和环境保护情况。《土地使用政策》,76,442-454。 https://doi.org/ 10.1016/j.landusepol Geyik, O., Hadjikaku, M., & Bryan, B.A. (2022年)。气候友好型和营养敏感型干预措施可以缩小全球食物营养差距,同时减少温室气体排放。《自然食品》,4(1),61-73。 https://doi.org/10.1038/s 43016-020648-y Groot, J. C.J., Oomen, G. J. M., & Rossing, W. A. H. (2012年)。https://doi.org/ 10.1016/j.agsy.2012.03.012 Groot, J.C.J., Remans, R., Estrada-Carmona, N., Raneri, J., Declerck, F. Alvarez, S., ... Descheemaeker, K. (2017年),营养敏感景观的综合系统研究:理论方法框架。在I. Oborn, B. Vanlauwe, M. Phillips, R. Thomas, W. Broijmans, & K. Atta-Krah(Eds),《小农农业的可持续集约化:综合系统研究办法》(第259-274页)。J.J.,Renting, H., & Van Ittersum, M.K.(2007年)。 探讨自然养护、农业利润和地貌景观质量之间的多重权衡取舍——一种支持方法",
+      "sourceTextHash": "1c40c311405eb91c6530f436184ef3a237e5933f56e1d0c2924e2e7ab08f25a2",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 7,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p17-b10-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b0-ec6f84c": {
+      "zh": "景观与城市规划 246 (2024) 105041",
+      "sourceTextHash": "ec6f84c7d7a4dc955d29b96b3874ed3660fe139637283c7ad330281671264b77",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b2-9e6cb79": {
+      "zh": "关于土地使用观点的讨论:农业、生态系统和环境,120(1)、58-69。https://doi.org/10.1016/j.agee.2006.2006.03.03.030.37 Groot, J.C.J.Rossing, W.A.H., Tichit, M., Turpin, N., Jellema, A., Baudry, J., Van de Ven, G.W. J. (2009)。关于建模对多功能农业的贡献:从比较中学习。《环境管理杂志》,90, S147-S160。https://doi.org/10.101016/j.j.envman.2008.11.030 Groot, J.C.J., Yerew, S.G. & Russing, W. A. H. (2018年)。探讨以多目标方案编制方法在农业景观进行生态系统服务贸易的问题。《景观与城市规划》,172、29-36。https://doi.org/10.101016/j.landurbplan.2017.120.008 Guterres,A.(2022),《乌克兰的战争:对发展中世界的无声攻击》,https://www.un.org/africrenewal/magazine/april-2022/ \"-war-ukraine-silent-attack-developing-world \" ,Guti `errez-Carbajal,M.G., & Maga na-Maga na, M.A.(2017). Migraci'on e influencia en el consumoto de alimentos en comunidades Mayas de Yucat 'an. Estudios Sociales。27(50). https://doi.org/10.24836/es.v27i50.429 Ickowitz, A., McMullin, S., Rosenstock, T., Dawson, I., Rowland, D., Powell, B., Nasi, R. (2022). 用树木和森林改造粮食系统;Lancet行星健康, 6(7), e632-e639。 https://doi.org/10.1016/S2542-5196(2200091-2 IFPRI.(2014))。 2014年全球营养报告:加速世界营养进步的行动和问责制。国际粮食政策研究所。Tabala de commonicicios à amentos oon for Centraum'erica ((第2版) 。 ) 研究中心和泛纳马研究所,INEGI(2010年)。 《太平洋和维温达的环境与管理》,http://www.beta.inegi.org.mx/datos/?init=2.INEGI.(2015年)。 Encuesta Intercensal 2015 [Census],国家统计与地理研究所,https://www.inegi.org.mx/programas/ccpv/2010/. IPCC(2022年)。《气候变化与土地:气专委关于气候变化、荒漠化、土地退化、可持续土地管理、粮食安全和陆地生态系统温室气体流动的特别报告》(第1版)。剑桥大学出版社,https://doi.org/10.1017/97810909157988.Isakson,S.R.(2009).No hay ganencia en la milpa:农业问题、粮食主权和危地马拉高地农业生物多样性的农场养护。《农民研究杂志》,36(4),725-759。 https://doi.org/10.1080/ 0306615003353876 Jim 'enez, C. E. A., Gad àamez, J. G., Aguilar, F. B. M., Hern ’andez, F. G. & Solis, H. V. (2019年)。7(3)、64-72.Jokisch,B.D.(2002)。移徙和农业变化:高地小农户农业的例子:人类生态学,30(4)、523-550。https://doi.org/1010.23/A:102198023769 Kadoya,T., & Washitani,I.(2011)。Satoyama指数:农业景观生物多样性指标。农业、生态系统和环境,140(1-2),20-26。https://doi.org/10.1016/j.agee.2010.11.007 Kennedy,G.,Raneri,J.,Termote,C.,Nowak,V.,Remans,R.,Groot,J.C.J. & Thilsted,S.H.(2017)。对营养敏感的景观:评估食物供应和饮食多样化的方法与方法。 在I. Oborn、B. Vanlauwe、M. Phillips、R. Thomas、K. AttaKrah、 & W. Brooijmans (Eds),《小农农业的可持续强化:综合系统研究办法》(pp.247-258)。 Taylor and Francis Inc. Kontoleon, A., Pascual, U., & Smale, M.(Eds.)(2009年),《农业生物多样性养护和经济发展》,Routledge. Laillou, A., Pham, T. V., Tran, N. T., Le, H. T., Wiringa, F., Rohner, F., ... Berger, J. (2012年)。 微营养素不足仍然是越南妇女和幼儿的公共卫生问题。Leatherman, T., Goodman, A. H., & Stillman, J. T. (2020年),关于尤卡坦旅游和营养过渡的至关重要的生物文化观点,载于H. Azcorra, & F. Dickinson(编辑),《尤卡坦半岛的文化、环境和健康》(第97-120页);Springer International Publishment, https://doi.org/10.101007/978-3-030-2701-8001-8_6. Mead, R. & Willey,R. W. (1980年)。 \" 土地等值比率 \" 的概念和内植收益的好处。实验农业,16(3)、217-228。 https://doi.org/10.1017/S0014479700010978 Mekasha, A.,Gerard, B., Tesfaye, K., Nigatu, L., & Duncan, A. J.(2014)。 土地使用/土地覆盖变化与牧民/农民牲畜饲料资源管理战略之间的相互联系:埃塞俄比亚三个生态环境的案例研究。农业、生态系统与环境,188,150-162. https://doi.org/10.1016/j.agee.2014.02022 Mokany, K., Raison, R.J. & Prokushkin, A. S.(2006年)。《全球变化生物学》,12(1)、84-96。https://doi.org/ 10.1111/j.1365-2486.2005.001043.x摩拉、J.O.、Gueri、M.和Mora、O.L.(1998年)。《美洲和加勒比的维生素A缺陷:概览》,Panamerica de Salud Pública,4(3)。 https://doi.org/101590/S1020-498919980009005 Mottaleb、K.A.、Kruseman、G.、 & Snapp、S. (2022). 乌克兰-俄罗斯武装冲突对全球小麦粮食安全的潜在影响:定量探索。《全球粮食安全》,35条,第100659条。https://doi.org/10.1016/j.gfs.2022.100659 Naranjo、S.、Rodrigues,F。Cadisch, G., Lopez-Ridaura, S., Fuentes Ponce, M., & Marohn, C. (2021年),《墨西哥瓦哈卡州地形模型的空间分辨率对模拟排泄和土壤流失的影响》,水文和地球系统科学,25(10), 5561-5588,https://doi.org/10.5194/hes-25-5561-2021。",
+      "sourceTextHash": "e78bd342c421337e1db67e41ab3cd8a6ba418ffcf68cf1aca872a8e078f6b290",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 11,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p18-b3-1c18446": {
+      "zh": "Naranjo-Macias, S.A. (2019年),《评估不同空间分辨率在土壤侵蚀模型中的影响——墨西哥东南部高地热带流域案例研究》,霍亨海姆大学[硕士论文],国家科学院(2011年)。 营养建议:饮食参考摄入量(DRI),https://ods.od.nih.gov/Health_Information/Dietary_Reference_Incesses.aspx.N ' avar,J.(2009)。 墨西哥西北部森林树种和碳储量的全方程式,森林生态学和管理,257(2),427-434,https://doi.org/10.1016/j.foreco.2008.09.028 Novotny, I.P.(2020年)。评估墨西哥南部[瓦根宁大学]改善生态系统服务和营养自足的家庭和景观轨迹,https://doi.org/10.1818174/516608.Novotny、I.P.、Fuentes-Ponce、M.H.、Tittonell、P.、Lopez-Ridaura、S.、 & Rossing、W.A.H.(2021). 回到人民:社区对策在塑造瓦哈卡墨西哥地貌轨迹方面的作用。土地利用政策,100,第104912条。https://doi.org/10.1016/j.landusepol.2020101912 Novotny、I.P.、Tittonell、P.Fuentes-Ponce、M.H.、L 'opez-Ridaura、S.和Rosking、W.A.H.。2021. 墨西哥瓦哈卡州高地传统牛奶在粮食安全和营养自给自足方面的重要性。 SPLOS 1, 16(2), e0246281. Otero-Prevost, D. E., Gurri-García, F.D., Mariaca-M ' endez, R., & Guízar-V ' azquez, F., Jr. (2018年),《农村生计的下层文化的弃置问题》。Cuadernos de Desarrollo Rural, 14(80). https://doi.org/10.11144/Javeriana.cdr14-80.iaoa Parraguez-Vergara, E., Contreras, B., Clavijo, N., Villegas, V., Paucar, N., & Ther, F. (2018). 土著和农民传统农业对拉丁美洲粮食主权有任何贡献吗?智利、秘鲁、厄瓜多尔、哥伦比亚、危地马拉和墨西哥的证据;《国际农业可持续性期刊》,16(4-5), 326-341。《粮食安全》,7(3),535-554。 https://doi.org/10.1007/s12571-015-0466-5Puma、M.J.Bose、S.Chon、S.Y. & Cook、B.I.(2015),《评估全球粮食系统不断变化的脆弱性》,《环境研究通讯》,10(2),第024007条,https://doi.org/10.1088/1748-9326/10/2/024007RAN.(2019)。评估非洲村庄作物系统的营养多样性。 PLOS 1, 6(6), e21235. Reyna, C., Fuentes-Ponce, M., Rossing, W., Groot, J. & L'opez-Ridaura, S.(未公布),Mixteca-Oaxaque na地区混合作物 -- -- 活性小农场的可持续强化实验和基于模型的重新设计,墨西哥,Richard, A.(2008年)。《拉丁美洲和加勒比人类学期刊》,13(2)、387-413。 https://doi.org/10.1111/j.1935-4940.2008.00043.x Rodríguez,A., & Arias, L. M. (2014)。 La milpa y el maizal: Retos al desarrolloo fural en M'exico y Perú. Etnobiología, 12(3),76-89。S 'anchez, P., & Hern  'andez, P.(2014)。 Sistema MILPA: Elemento de Identidadesina e Indígena(第24页)。亚太统计所 (2017年):《农业与农牧业信息服务》,https://nube.siap.gob.mx/cierreagricola/.Sioen、G.B.、Sekiyama、M.、Terada、T.和Yokohari、M.(2017年);《城市农业的灾后食物和营养:Nerima Ward的自给自足分析》,东京;《国际环境研究和公共卫生杂志》,14(7)。 https://doi.org/10.3390/ijerph1400748 Sratch,R. & Price,K.(1997年)。《全球最佳化期刊》,11(4)、341-359。 https://doi.org/10.101023/A:10082028211328 Suweis,S.,Carr,J.A.,Maritan,A.,Rinaldo,A.,D'Odorico,P.(2015年)。《全球粮食安全的恢复力和回弹性》国家科学院会议记录,112(22),6902-6907。https://doi.org/10.1073/pnas.1507366112 Timler,C.,Alvarez,S.,DeCleck,F.,Remans,R.,R.,Raneri,J.,Estrada Carmona,N.,...Groot,J.C.J.(2020年)。《肯尼亚和越南营养敏感农业探索解决方案空间》。农业系统,180,第102774条。https://doi.org/101016/j.agsy.2019102774 Tolessa、T.、Senbeta、F.和Kidane,M.(2017年),土地使用/土地覆盖变化对埃塞俄比亚中部高地生态系统服务的影响,生态系统服务,23、47-54, 生态系统服务, 23、47-54, https://doi.org/10.1016/j.ecoser.2016.11.010Unicef.(1991),改善发展中国家儿童和妇女营养的战略,《印度儿科杂志》,58(1)、13-24。https://doi.org/10.7/BF0281040202,城市、D. & Keitt, T.(2001年)。生态学,82(5)、1205-1188. https://doi.org/10.1890/0012-9658(2001)082[1205:LCGTP]2.0.CO;2USDA.(2010年),食品数据中央[数据基],https://fdc.nal.usda.gov/.Willett、W.、Rockstr-om、J.、Loken、B.、Springmann、M.、Lang、T.、Vermeulen、S.、......Murray、C.J.L.(2019),人类圈中的食品:EAT - Lancet可持续食物系统健康饮食委员会,Lancet,393(1070),447-492。",
+      "sourceTextHash": "6d0a0c2ba63f4644ba869e54135f4c222067b63d9bd04ac47b12b4397f54db18",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 11,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p18-b4-b1cbc64": {
+      "zh": "I.P. Novottny等人案",
+      "sourceTextHash": "b1cbc641a2074f26674d5fc34494556ea64fbfeac1ae649f46bd73abb2c3396a",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    }
+  },
+  "coverage": {
+    "translatedTextBlocks": 214,
+    "totalTextBlocks": 271,
+    "untranslatedTextBlocks": 0,
+    "symbolsRetainedBlocks": 57,
+    "manuallyReviewedBlocks": 0,
+    "machineDraftBlocks": 214,
+    "allNumericClaimsManuallyVerified": false
+  }
+}

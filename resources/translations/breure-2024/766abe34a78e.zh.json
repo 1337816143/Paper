@@ -1,0 +1,3488 @@
+{
+  "schema": "paper.translations.v3",
+  "docId": "breure-2024",
+  "sourceHash": "766abe34a78ec2fc630ba474fb035879c398600884bd5676bca435b05aed9bc4",
+  "language": "zh-CN",
+  "engine": {
+    "model": "Helsinki-NLP/opus-mt-en-zh",
+    "revision": "c8ce7d3af8eb15938be419f1c4c177dc724ab8ec",
+    "runtime": "CTranslate2 int8 CPU",
+    "review": "machine-draft-with-explicit-curated-overrides"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted ",
+    "page": 10
+  },
+  "sourceCitation": "Breure, T. S., et al. (2024). Nature Food, 5, 211–220.",
+  "sourceURL": "https://doi.org/10.1038/s43016-024-00926-x",
+  "visibility": "public-adaptation",
+  "blocks": {
+    "p3-b29-c828fe6": {
+      "zh": "0 25 50 75 100",
+      "sourceTextHash": "80e6e578f521dbbb0730df46ee1e8dde08b782ac27396db2ae3a126a46b49378",
+      "status": "verbatim-symbols",
+      "page": 3,
+      "flags": []
+    },
+    "p4-b10-375112e": {
+      "zh": "GHG",
+      "sourceTextHash": "375112e092d067b33f884fd1da38dd05115bd751cc1c2cca89a2074915ab8d03",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b11-14da29c": {
+      "zh": "SOC",
+      "sourceTextHash": "14da29c4716bedc35da5bd7e2e1feb8f48c398ddd548ebfe555e40002dfe5005",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b46-688b572": {
+      "zh": "E1 A1 S1 S8 S7 S5 S3 A4 A5 E3 S6 S9 S2 H2 E4 S4 A3 E5 A2 H4 H1 E2 H3 H5 7",
+      "sourceTextHash": "58329dcb49567961e23844b613510fa07e9a5a2ad2cefacbcce99af555c12721",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b47-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b48-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b49-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b50-4fc82b2": {
+      "zh": "11",
+      "sourceTextHash": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b51-e7f6c01": {
+      "zh": "6",
+      "sourceTextHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b52-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b53-2c62423": {
+      "zh": "8",
+      "sourceTextHash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b54-19581e2": {
+      "zh": "9",
+      "sourceTextHash": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b55-4b22777": {
+      "zh": "4",
+      "sourceTextHash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b56-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p6-b5-838c589": {
+      "zh": "0 25 50",
+      "sourceTextHash": "ae7184a03792e82a5285f08b76f7225e2624276a73e0b1bc8cdf827771020e0f",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b7-015af6f": {
+      "zh": "75 100",
+      "sourceTextHash": "a43e60e96727ede33a79100afec8a2f33c6c739fc4d2df3bc9fb1636437ed341",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b11-be40717": {
+      "zh": "TOA",
+      "sourceTextHash": "be40717b2a86e1e277adf0bb86d990c1fcdb1e9666cfe5d8d3b5bab2046293c1",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b21-cffb57f": {
+      "zh": "0 0 0",
+      "sourceTextHash": "4a31f3538925bbcbda013611e7e88a16a04e1c6b4247892ef7b91168949d83f0",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b22-e28e81d": {
+      "zh": "0 0 4",
+      "sourceTextHash": "f182c0a52189e49d22bd3a681578a3f27e6f9164b0a01e7eacdba83190541089",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b23-843ac3e": {
+      "zh": "27 25 47 6 3 0",
+      "sourceTextHash": "d3af4f5a0c79a9bccc3af878d69fd3d542599c143956383f5864e3d3f341c915",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b24-949e38b": {
+      "zh": "3 15 6",
+      "sourceTextHash": "e3549c66ea52bdffa768f58c5f1ba9c37448821474ac89b52a0641ece0b77002",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b25-58a025b": {
+      "zh": "13 34 34 5 4 1",
+      "sourceTextHash": "f1fbe1aace13f9e97626cc25c0d11ca56c6f60424913833ab9d78f9fd3cd57e6",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b26-6d28019": {
+      "zh": "26 24 55 6 3 1",
+      "sourceTextHash": "b8d7234dfaec3f18e9a1f675a5f74c22b37befbd3634e681eb879bdc563df455",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b27-907152a": {
+      "zh": "1 1 0",
+      "sourceTextHash": "b8d40bd75b3d39e965bd6bd5704d5453892ed155b447746ce4758e1f9aefda77",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b28-a5ff6de": {
+      "zh": "11 1 14 4 1 0",
+      "sourceTextHash": "95344d87e0f7a48f369494fe760c574799c9334db260ae0cec53ae388107a29a",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b38-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b39-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b40-4fc82b2": {
+      "zh": "11",
+      "sourceTextHash": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b41-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b42-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b43-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b44-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b45-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b46-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b47-4ec9599": {
+      "zh": "18",
+      "sourceTextHash": "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b48-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b49-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b50-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b51-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b52-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b53-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b54-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b55-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b56-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b57-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b58-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b59-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b60-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b61-e7f6c01": {
+      "zh": "6",
+      "sourceTextHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b62-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b63-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b64-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b65-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b66-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b67-e7f6c01": {
+      "zh": "6",
+      "sourceTextHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b68-b17ef6d": {
+      "zh": "16",
+      "sourceTextHash": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b69-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b70-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b71-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b72-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b73-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b74-3fdba35": {
+      "zh": "13",
+      "sourceTextHash": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b75-44cb730": {
+      "zh": "43",
+      "sourceTextHash": "44cb730c420480a0477b505ae68af508fb90f96cf0ec54c6ad16949dd427f13a",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b76-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b77-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b78-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b79-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b80-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b81-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b82-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b83-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b84-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b85-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b86-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b87-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b88-7902699": {
+      "zh": "7",
+      "sourceTextHash": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b89-b7a5687": {
+      "zh": "25",
+      "sourceTextHash": "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b90-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b91-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b92-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b93-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b103-3f79bb7": {
+      "zh": "e",
+      "sourceTextHash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b104-252f10c": {
+      "zh": "f",
+      "sourceTextHash": "252f10c83610ebca1a059c0bae8255eba2f95be4d1d7bcfa89d7248a82d9f111",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b105-0aed5d7": {
+      "zh": "3 4 5 6",
+      "sourceTextHash": "f7dd434d09a4ac739aab2048d3487570965c21bdf1bf8223ca1bcce1b99a8c0c",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b106-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b107-b598b3a": {
+      "zh": "1 2",
+      "sourceTextHash": "f71998fe363b9c29116c80b5eecf33a2fedca3b6159724384485804b71651029",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b108-b598b3a": {
+      "zh": "1 2",
+      "sourceTextHash": "f71998fe363b9c29116c80b5eecf33a2fedca3b6159724384485804b71651029",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b109-0960890": {
+      "zh": "1 2 3 4 56",
+      "sourceTextHash": "ed41daade5fc58d3dbf33e9589079f061fef6b035f915ae4732d67c365a018f0",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b110-9b6498d": {
+      "zh": "3 4 5",
+      "sourceTextHash": "ea833ec338087463594840580c551f0637cb0a631009e1ec47bc9739a7da287b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b111-99e7772": {
+      "zh": "3 4 5",
+      "sourceTextHash": "ea833ec338087463594840580c551f0637cb0a631009e1ec47bc9739a7da287b",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b112-a39d2d2": {
+      "zh": "1 2 6 7 8 9",
+      "sourceTextHash": "da0548e8d7c90164ade7f4ebf249f441e2b877068fae1d1ec5478a62eed5a5f5",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b113-d8d3cf4": {
+      "zh": "1 2 6 7 8",
+      "sourceTextHash": "d09f189a7c7d1e273513a0a73b40a72d53e78061814a6575ff9c19104443ef8c",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b114-f83c1be": {
+      "zh": "No Yes",
+      "sourceTextHash": "1ac66dde64cf0d37e23ee6b54cec664dea7d7543016d414776bd266974ed6b4a",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b115-f83c1be": {
+      "zh": "No Yes",
+      "sourceTextHash": "1ac66dde64cf0d37e23ee6b54cec664dea7d7543016d414776bd266974ed6b4a",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b116-f83c1be": {
+      "zh": "No Yes",
+      "sourceTextHash": "1ac66dde64cf0d37e23ee6b54cec664dea7d7543016d414776bd266974ed6b4a",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b117-f83c1be": {
+      "zh": "No Yes",
+      "sourceTextHash": "1ac66dde64cf0d37e23ee6b54cec664dea7d7543016d414776bd266974ed6b4a",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b118-f83c1be": {
+      "zh": "No Yes",
+      "sourceTextHash": "1ac66dde64cf0d37e23ee6b54cec664dea7d7543016d414776bd266974ed6b4a",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b121-9706d40": {
+      "zh": "Lb Ex Gv Fm Db Ac Pv Eo",
+      "sourceTextHash": "eadd4886c964ce89b074d7964527fb92f8008cd810b45dd36067566d39d63a25",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b122-43927be": {
+      "zh": "Co Cd Va Vd",
+      "sourceTextHash": "62eea44face06eda0bc235a7d7eb6685d616aa2bd74868a08dd962edf3168833",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p7-b4-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b5-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b6-f5ca38f": {
+      "zh": "20",
+      "sourceTextHash": "f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b7-624b60c": {
+      "zh": "30",
+      "sourceTextHash": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b8-d59eced": {
+      "zh": "40",
+      "sourceTextHash": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b9-1a65625": {
+      "zh": "50",
+      "sourceTextHash": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b12-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b13-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b14-f5ca38f": {
+      "zh": "20",
+      "sourceTextHash": "f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b15-624b60c": {
+      "zh": "30",
+      "sourceTextHash": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b16-d59eced": {
+      "zh": "40",
+      "sourceTextHash": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b17-1a65625": {
+      "zh": "50",
+      "sourceTextHash": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b20-ca97811": {
+      "zh": "a",
+      "sourceTextHash": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b21-3e23e81": {
+      "zh": "b",
+      "sourceTextHash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b22-2e7d2c0": {
+      "zh": "c",
+      "sourceTextHash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b23-5feceb6": {
+      "zh": "0",
+      "sourceTextHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b24-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b25-f5ca38f": {
+      "zh": "20",
+      "sourceTextHash": "f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b26-624b60c": {
+      "zh": "30",
+      "sourceTextHash": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b27-d59eced": {
+      "zh": "40",
+      "sourceTextHash": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b28-1a65625": {
+      "zh": "50",
+      "sourceTextHash": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b29-39fa9ec": {
+      "zh": "60",
+      "sourceTextHash": "39fa9ec190eee7b6f4dff1100d6343e10918d044c75eac8f9e9a2596173f80c9",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b30-ff5a1ae": {
+      "zh": "70",
+      "sourceTextHash": "ff5a1ae012afa5d4c889c50ad427aaf545d31a4fac04ffc1c4d03d403ba4250a",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b31-48449a1": {
+      "zh": "80",
+      "sourceTextHash": "48449a14a4ff7d79bb7a1b6f3d488eba397c36ef25634c111b49baf362511afc",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b32-69f59c2": {
+      "zh": "90",
+      "sourceTextHash": "69f59c273b6e669ac32a6dd5e1b2cb63333d8b004f9696447aee2d422ce63763",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p13-b0-6b86b27": {
+      "zh": "1",
+      "sourceTextHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "status": "verbatim-symbols",
+      "page": 13,
+      "flags": []
+    },
+    "p14-b0-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 14,
+      "flags": []
+    },
+    "p1-b0-a2c127f": {
+      "zh": "自然食物 2024年3月5日 211-220 211",
+      "sourceTextHash": "44f3eada93561b68b1df180a00c0ea7c2be104340f82dd9c694543751bbaea51",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b1-f0d4d0e": {
+      "zh": "粮食、食物和食品",
+      "sourceTextHash": "f0d4d0ee2ce01911aef936d1105c06178e6f50297f39e455cc9f1519fde2617a",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b2-14038d5": {
+      "zh": "对农业交易分析方法的系统审查",
+      "sourceTextHash": "febd41847bb24b12760bc692274f04a124830973673c9472a6b68f0479c34edd",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b3-f53b25c": {
+      "zh": "Timo S. Breure 1, Natalia Estrada-Carmona 2, Athanasios Pettsakos 3, Elisababetta Petsaks 3, Elisabetta Gotor 3, Boris Jansen 4 & Jeroen C. J. Groot 1",
+      "sourceTextHash": "e47d651864c45cd900b257a935b6afa55d30d851941287bd0ce36e695d7d74a5",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "language-check"
+      ]
+    },
+    "p1-b4-602fcc6": {
+      "zh": "贸易权衡分析(TOA)是旨在促进可持续农业景观的政策和决策的核心;然而,缺乏评估农业取舍的通用方法框架,主要原因是使用TOA的研究学科和目标范围很广;在本研究报告中,我们系统地审查了119项研究,这些研究在世界各地以农业系统为主的地貌和地区实施了TOA;我们的结果突出表明,TOA往往不平衡,重点强调生产力而不是环境和社会文化服务;TOA大多在农场或区域规模上进行,很少同时考虑多个空间尺度。大多数TOA没有将利益相关者纳入研究阶段,忽视由于结果变化造成的建议不确定性以及忽略与TOA成果相关的风险。更多地注意这些方面对于TOA指导农业景观走向可持续性至关重要。",
+      "sourceTextHash": "6296ef986ae00c7f5b13998388fa7774f3c7c091ab210314e487ba0d5ef64171",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b5-4be4ef2": {
+      "zh": "当代农业不仅应提供粮食、纤维、饲料和燃料,还应为农村社区及以外地区提供环境和社会经济效益。 为确保农业提供多种服务,同时尽量减少其负面影响,社会必须认识到可能产生的权衡和协同作用,这些权衡的性质取决于特定地点的自然、社会和文化条件,这些条件对农业系统的投入和产出造成限制,例如,以市场为基础的农民关心的是提高商品生产,而自给农的优先事项是改善粮食安全。 2 实现联合国可持续发展目标(SDGs)的全球当务之急强调,需要减少土地使用做法对环境的影响,加强景观和社区各级的公平社会成果,但要实现SDGs可能需要牺牲初级生产力和经济收入。因此,为了调和农业需求并为决策提供信息,需要对照农艺、环境、经济和社会指标对可能的权衡取舍加以分析。 3 将权衡取舍分析确定为一种概念,即关于竞争(权衡)或竞争的基因时代定量信息的概念。",
+      "sourceTextHash": "63999bd114ac245c9db527b864dd0d6ea1c0c937772bf7b22155e8fb9b652f76",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": []
+    },
+    "p1-b6-f45db76": {
+      "zh": "4. 一个典型的TOA项目以三个筹备步骤为起点:研究问题的拟订,确定评估指标的特征,以及就指标与相关的取舍和协同作用之间的关系提出假设;随后,影响TOA指标的管理、政策或技术变化可以确定成碎片并纳入分析框架;然后,在不断变化的条件或情景下进行的权衡和协同作用可以量化,最后,将结果通报给有关的利益相关者,为决策和政策提供信息;4 自首次在农业领域实施以来,采用多种方法开展TOA,包括优化、模拟、定性、计量经济和叙述性办法;在有些情况下,这些办法是在地理信息系统的支持下,以空间明确的方式部署的。尽管在农业方面的TOA取得了重要进展,但研究人员对已出版的研究报告的范围和方法限制表示关切。",
+      "sourceTextHash": "db79010fdefd483b4292c1478525e3cdf154e1a47d4e4b65e4d8fb909b8c42e8",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b7-a651117": {
+      "zh": "收到:2022年8月25日",
+      "sourceTextHash": "a651117cb831f31a9475e46186ec95815da50e7b0fcc5b103a40380768db74b5",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b8-815d207": {
+      "zh": "接受日期:2024年1月15日",
+      "sourceTextHash": "815d20750d08eb6539d82971dcfc22c8dc147caf1878dc586e6b101233b98c5b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b9-6dfdabb": {
+      "zh": "发表于2024年3月5日",
+      "sourceTextHash": "6dfdabbcecc0029e24fa8156957fc8556cb58a8ea041f2cc71074d15f1fd15f2",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b11-f26f327": {
+      "zh": "检查更新",
+      "sourceTextHash": "f26f3275e735bdf6268532ca7cbea3887c9adad21d8df74e84b2bc7791475c0d",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b12-980f537": {
+      "zh": "1 武器系统生态学,瓦格宁根大学和研究,荷兰瓦格宁根。 2 Bioversity International,法国蒙彼利埃。",
+      "sourceTextHash": "980f5375f99ac10157f9b145206c4bec842ea56d0100448d58b6230244b3d576",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b13-f79b3c5": {
+      "zh": "4 荷兰阿姆斯特丹阿姆斯特丹大学生物多样性和生态系统动态研究所。",
+      "sourceTextHash": "f79b3c5d4a9da20795ae18d992f0c80ae343ce3109bcd6233237fbeefebd4bfb",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b14-8e0a92c": {
+      "zh": "电子邮件:jeroen.groot@wur.nl",
+      "sourceTextHash": "8e0a92cc6a44769ff24f609e1b5535c3c8343bb941ff51e6c7529c731880daf3",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b0-fe3a4ed": {
+      "zh": "2024年3月5日 自然食物211 -220 212",
+      "sourceTextHash": "a39469da9399125e265dfde5b0678d74dc71d5d3b234db5932ae6471a9505baa",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b2-2aa093f": {
+      "zh": "最后,一项分组分析显示,经常共同研究哪些指标,哪些方法与每一组相关联,因此本项研究的目的是利用系统办法概述在农业方面经同行审查的关于TOA的文献。为此目的,我们设法确定农业方面的权衡如何概念化、特点化和在TOA文献中加以分析。根据这些调查结果,我们查明了实施TOA方面的共同差距。",
+      "sourceTextHash": "4fd2a7dd07d2d04b9d88f56aecd591683e212ab2a0434505b4f95a37c51a8932",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b3-9503bd3": {
+      "zh": "样本中文章出版日期的发布结果分布主要集中在2015-2021年(扩展数据图1a),73%的文章在2014年后发表,这表明农业领域针对TOA的研究努力日益增加(扩展数据图1b)。",
+      "sourceTextHash": "c8f53b09d1200acb2fd5a1f002bdc11f14a2f20c0cc59373b8ea654f2af84ae0",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b4-df397c5": {
+      "zh": "所审查的条款包括3.8 + 1.9 (s.d) TOA Indi-cators的中位数,范围从1到10不等。 根据累计分布,52%的条款包含3个或更少TOA指标,90%包含6个或更少TOA指标(扩展数据图2a)。所有条款中最常用的指标是 \" 盈利性 \" (57%,生态诺米)、 \" 收益性 \" (44%,农艺学)和 \" 水量 \" (34%,可持续资源管理)。第二组最常见的指标包括生物物理选择(例如, \" 水质 \" 和 \" 温室气体 \" )、农艺学(例如, \" 投入效率 \" 和 \" 土地使用效率 \" )和经济指标(例如,`资产 ' ),",
+      "sourceTextHash": "46061a1dabbcefc636ffb57a9313a81187c4d7c9c3df23829562e61563102015",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b5-93a11f9": {
+      "zh": "有机农业协会在决策和决策中产生的关切确实可以产生重要的影响。 首先,由于不能考虑到社会和文化因素6、多重和跨规模评估的广度3-5-7以及不确定性8、9和风险分析的代表性有限,文献中对有机农业分析局限性的关切确实会产生重要影响。 第一,不将TOA的规模(空间、时间、管辖和立法)的重要性考虑在内可能导致错误推论如何发展跨尺度的取舍与指标之间的重置。 不进行互动或进行跨规模的分析,就可以对比额表之间的互动进行多尺度分析,10此外,在TOA案例研究领域之外出现的不利影响(外部效应)可能抵消托阿知情政策产生的任何收益11。第二,需要承认社会间联系和文化价值,以确保与手头专题有关的受益者和非受益者的代表性,即分配正义9、10 利益有关者之间的代表性及其参与TOA的设计和执行可以增加其调查结果的合法性,确保所使用的数据与背景有关,从而加强研究结果的通过。 第三,验证和确认数据和模型估计中的不确定性可增强TOA的稳健性,并可促进基于风险的决策13-15。 以前关于农业TOA的文献审查采取了`讲故事 ' 的方法,从文献中挑选了关键研究来讨论研究趋势。然而,鉴于在农业领域应用的TOAA范围广泛,系统审查可以揭示各种采用的方法和潜在的知识差距,以及研究过的指标和方法,从而最终便利了结果的可比性。这里我们报告了119个经同行审查的条款中使用的TOA指标、方法和分析。",
+      "sourceTextHash": "ba823e06a900395289282ab11f02fa5d7c8113a0c80aac694fbb98c66a36e845",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b6-603cf45": {
+      "zh": "表1. 系统审评期间记录的标准的一般说明",
+      "sourceTextHash": "603cf457bd09383c6373f500dea5f9cbad83e6cddb550ed5b108d78a0a34499c",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b7-21915da": {
+      "zh": "标准通用说明",
+      "sourceTextHash": "11fc68aee1c8015f804987d1ea1459fdd03af564627e020c5bc77184c24b550a",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b8-3a740a3": {
+      "zh": "案例研究中采用的方法(表面模拟(M1)、模拟(M2)、优化(M3)、成本效益分析(M4)、计量经济学(M5)、定性(M6)、文献审查(M7)、地理信息系统(M8)和其他(M9))",
+      "sourceTextHash": "d4fd8874819e36d272cc91e445cbf5abcae00d9c56341e945918d766c352f9df",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b9-a302a92": {
+      "zh": "进行TOA的案例研究领域的空间规模(实地、农场、区域、国家、多国和全球)",
+      "sourceTextHash": "aa04657dd877d8c7cf3621fd218266da02749c2dd996ffd403499430b53734a8",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b10-d67299a": {
+      "zh": "在与农业生产和提供服务有关的六个学科(作物、牲畜、经济、环境、渔业和林业)进行建模或收集数据的空间尺度(与TOA标准相同的空间尺度)",
+      "sourceTextHash": "94d7a71b631f40a1cc048b9221233e493b465438c1aa93f1b11cae87d582aff7",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b11-5fbaad2": {
+      "zh": "TOA评估的指标:24项指标记录在农艺(A:产量、产量稳定、自给自足、土地使用效率和投入效率)、经济(E:利润率、贫困、市场供求、劳动生产率和资产)、人类健康(H:营养、健康、性别平等、粮食安全和赋权)和可持续资源管理(S:水量、水质、土壤养分、土壤侵蚀、土壤有机碳、土地利用、温室气体、能源和生物多样性)等通用类别中。",
+      "sourceTextHash": "af2b3cba5a5565b524419cf3af2c99460a310bb33792ea9bc5506f96c688180b",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b12-5a0c053": {
+      "zh": "案例研究是否将利害关系方(地方受益人和非受益者(Lb)、专家(Ex)、政府(Gv)、农民(Fm)、遥远受益人和非受益者(Db)、学术界(Ac)、私营部门(Pv)和环境组织(Eo))纳入案例研究",
+      "sourceTextHash": "b88bad99cf39c72146e116b7955d0caab51af6486067b755bc1242c3d42c2ad3",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b13-32baeee": {
+      "zh": "如何将利益相关者纳入案例研究(验证(Vd)、估价(Va)、共同发展(Cd)和协商(Co))",
+      "sourceTextHash": "8d567fa4e507f527e9be49bad61267f95f201fcfaf2d3e628db85e86781a6876",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b14-5439c30": {
+      "zh": "案例研究是否考虑了一种假设情况,如果是的话,哪种情景(气候(1)、政策(2)、行为(3)、人口(4)、经济(5)、资源使用(6)、其他(7)和无(8))",
+      "sourceTextHash": "54635d8655e8fa3bb5ba7123cf9c9423f233e667ebfb7cfdc1e9475437cca167",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b15-ea03701": {
+      "zh": "是否使用生物物理或行政边界来界定TOA案例研究领域",
+      "sourceTextHash": "82e6fd1d33879239abe17493b204ddb4bc897b941a9991bc9a7c285b6e23b8d1",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b16-52a544d": {
+      "zh": "外部效应(在案例研究地区以外发生的效应)是否在《技术评估》中加以考虑",
+      "sourceTextHash": "fc3dcf6c1f58a5c0797f99433b7976acb33b6ab3d8006fcc6b9bedc2ac1a56d4",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b17-d7ec4cb": {
+      "zh": "不确定性是否得到承认和说明",
+      "sourceTextHash": "cb6b4092af56da473594ab28cbe30bcda175f10df88a9657c8e7c5df07cc391a",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b18-1457e8b": {
+      "zh": "是否对通过数据收集取得的结果、建模程序或技术评估组的结果和建议进行了审定",
+      "sourceTextHash": "e438fe08ba174be43c96dc2d0ef00ca8a2cdae614b47f49ca5712d1d051b6aca",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b19-231a52a": {
+      "zh": "风险分析 风险分析 是否根据来自技术评估的推论和相关建议而考虑到风险",
+      "sourceTextHash": "b79c65eebac3adeeb32284d5ceb5a90728ff41c2c49ef23b0d1c8a28fc85cd01",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b20-e6a90bf": {
+      "zh": "模型是针对跨尺度的TOA,是通过从下层到上层(汇总)的合并或聚合,还是通过在多个级别同时进行量化(互动)处理的",
+      "sourceTextHash": "9b0add3cee9a99dbe898480f63ec91d90ba2e27ee3ca85a7ce8822934367da23",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b21-639080f": {
+      "zh": "进一步详情见补充表1。",
+      "sourceTextHash": "639080fea7eafc5623d529b00ba5e3138af2b73ffa8609801d1790bce0c59d4c",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b0-bc8c5b2": {
+      "zh": "自然食物 2024年3月5日211-220 213",
+      "sourceTextHash": "baba93bfab4e45c4d9a1f248a29d9d899061e52ddf77f42f2e6793620525b708",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b2-de5d6c7": {
+      "zh": "其余TOA指标的使用频率较低,涉及经济(即 \" 劳动促进营养 \" 和 \" 贫穷 \" )、人类健康(例如, \" 营养 \" 、 \" 健康 \" 或 \" 粮食安全 \" )和农艺学(即 \" 自给自足 \" )方面,占5-6%(图1)的比例。例如,在第7组中, \" 贫穷 \" 与 \" 土壤营养素 \" 一起研究,而在第5组中, \" 贫穷 \" 与 \" 盈利性 \" 、 \" 粮食安全 \" 和 \" 营养 \" 一起研究。 TOA指标对文章的分组表明,往往将哪些TOA指标放在一起研究。 \" 赢利性 \" 和 \" 收益 \" 的指标是最常用的指标(图1和2),它们与具体环境指标和社会指标(图2)。 这说明,农艺和经济可行性是探索改善农业系统可持续性的条件。高光显示,这种高度注重解决与肥料和粪肥剩余营养素污染有关的紧迫问题。 TOA指标的组合(图2中的顶部x轴轴密度)表明,50%的指标最接近的硬体干重图指标属于同一类别(可持续资源管理-月经、农艺、经济或人类健康)。",
+      "sourceTextHash": "48bf9e60bbaaa916cab4b8463ba417a245f8b2c886f9a6587a6de153ec54380b",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b3-f31410d": {
+      "zh": "与其他指标分开研究五种人类健康指标,形成紧密对应的分支(Top x-axis dendrogram、橙色,图2),不同TOA Indi cators和组别使用TOA方法的情况各异。例如,TOA指标 \" 劳动生产 -- -- Ity \" 、 \" 增强能力 \" 、 \" 性别公平 \" 和 \" 实际稳定 \" 缺乏涉及空间清晰方法的案例(M1或M8;Fig. 1)。 这同样模糊的推论也适用于TOA指标所属的集群(图3)。 虽然预计社会二分立器没有空间明确的方法,如 \" 赋予权力 \" 和 \" 性别平等 \" ,因为其空间层面往往被忽视,值得注意的是,性别和赋权可能与地貌和资源的空间分布有关。例如,与这些资源的(分配)使用和拥有权有关的地产或决策过程距离很远,与`当量 ' 、`能源 ' 、`生物多样性 ' 和`土地使用 ' 有关的物品群显示大量使用了地理信息系统(M8)、定性(M6)和其他(M9)方法,采用优化方法的物品较少(M3;图3)。 最后,一个有趣的反常现象是 \" 健康 \" 指标,其中明显缺乏M1-M3方法,包括(相当明确的)模拟和优化方法(图1)。",
+      "sourceTextHash": "bd58fa4a635ed07ea9a5b96219414c04576623a4593ef72c7c83d3bc6716277d",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 2,
+      "flags": []
+    },
+    "p3-b4-6694dd6": {
+      "zh": "大多数TOA在区域(65%)和农场(17%)尺度上进行,其次是实地(7%)和国家(6%)尺度。 在多国(4%)和全球规模上以及 \" 其他 \" 级别上进行的TOA在分析中只占很小的比例(图4a)。",
+      "sourceTextHash": "f5f34218c879c7f35621c41fb344ce982a9face3423a171a9b545f2e1408dc96",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b5-1de850d": {
+      "zh": "H3:性别平等",
+      "sourceTextHash": "1de850d1055a53dfee5b27f5c497c0ec8e0eaf237908ce296118026dc810590d",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b6-aee490c": {
+      "zh": "H5:赋予权力",
+      "sourceTextHash": "aee490c30d02c1d1b547444962f0c2f5fe37ae3ae4bb69ca0797d9d4241d9133",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b7-4263572": {
+      "zh": "A2:低效稳定",
+      "sourceTextHash": "4263572ab59da4348180c73c645934b6853f75d850d0c555f003d462f24451e2",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b8-f694203": {
+      "zh": "E3:市场供求",
+      "sourceTextHash": "f6942039b2d019be66c2502889bfe70e970e6aaefc5d0cfd033e3d4f5b82bfa4",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b9-7e88ebe": {
+      "zh": "H4:粮食安全",
+      "sourceTextHash": "7e88ebe6cf444db597d057a39be844a88d0e36a57ab0c8f4bd3be0cb916bd0d4",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b10-76baa28": {
+      "zh": "A3:自给自足",
+      "sourceTextHash": "76baa2852d1e48a4e45d6691c4caab98a1c8bc0c4531b0e70b886c52e3317b35",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b11-d4531c3": {
+      "zh": "H2:健康",
+      "sourceTextHash": "d4531c3d1427104e8c4cf140e5085c9613d692b01dc97612127b96b7dca4a8f7",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b12-866d372": {
+      "zh": "H1:营养",
+      "sourceTextHash": "866d372a303a2b74c9ece7b0db0dfaae6cca83b5bd33fa1165f99e1519729a00",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b13-d8ddef1": {
+      "zh": "E2:贫困",
+      "sourceTextHash": "d8ddef1fb17ad7b850ae31d43e22113fe75f2aa088e539a887542e432b7bdc72",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b14-e9b05bd": {
+      "zh": "E4:劳动生产率",
+      "sourceTextHash": "e9b05bd638f545ca6ba6f628283c76b599b3e4139693d57cf373598731e3c90f",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b15-696237c": {
+      "zh": "E5:资产",
+      "sourceTextHash": "696237c7a18db58d409643f566d53606d00016a12eb77b465fc8a19a93a252cd",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b16-e243cd8": {
+      "zh": "S4:土壤侵蚀",
+      "sourceTextHash": "e243cd83c3ceec3ca8804d7c009bec4860f0848de74b8654a079d8f7442cd7d7",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b17-a088596": {
+      "zh": "A4:土地使用效率",
+      "sourceTextHash": "a088596787e48aeedb680b59b4379885fa027df5d6a0dfdfd4582a0918cf600b",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b18-3ece547": {
+      "zh": "A5:投入效率",
+      "sourceTextHash": "3ece5476c453f03265f766d51fc5aa49eb45cafebebbce57fb9a2494a8e76fb8",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b19-6fa45d9": {
+      "zh": "S9:生物多样性",
+      "sourceTextHash": "6fa45d92251b0b74209d6a1777f277fc2d0622dc244c806e75650bf2eeb16a6c",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b20-dace168": {
+      "zh": "S8:能源",
+      "sourceTextHash": "dace168d948a4867502531e1ac02abecffdc597d1ac823e28d6ec7ffea7cb4ad",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b21-849ed9d": {
+      "zh": "S3:土壤养分",
+      "sourceTextHash": "849ed9d294a3e85b7b7cd07e04d6923d9f750ba50d411173d3ba61529bcf2a0f",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b22-8b22be5": {
+      "zh": "S5:土壤有机碳",
+      "sourceTextHash": "8b22be5bce83553785fcc1a074762095dd8f3ee85e9694f56988d3c3ba4f18c8",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b23-7d9f99b": {
+      "zh": "S6:土地利用",
+      "sourceTextHash": "7d9f99beddd5c6d204057521d92529d62b48f8953897fa38f6eb898c0cffa4e1",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b24-3e2d35e": {
+      "zh": "S7:温室气体",
+      "sourceTextHash": "3e2d35e7ef6fcc282a483d24dd7569b254158b918d27165c5b3f9e94eeb54549",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b25-6057040": {
+      "zh": "S2:水质",
+      "sourceTextHash": "605704083cd3aa3990da967ccf391233427f315c609c3d733f3629048da88131",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b26-c0a18fe": {
+      "zh": "S1:水量",
+      "sourceTextHash": "c0a18fe0ba38e6a3134b9a960440a77c305b18666ea2381c7563757d8e13d277",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b27-0ab9f6a": {
+      "zh": "A1:放弃",
+      "sourceTextHash": "0ab9f6afae3d7b72148c0f99445754fa490a7119b9cacb502b16b3649da08521",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b28-6571709": {
+      "zh": "E1:利润",
+      "sourceTextHash": "6571709b8802e9f5c17eb6302e04cfce75ac9e21f7d1c3a9f067dadc844ba345",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b30-66b8717": {
+      "zh": "占条款百分比",
+      "sourceTextHash": "66b87175c28a4043d7957f9eae5585373f9343a054c91a9d41d21efc1626df2f",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b31-51bb6dd": {
+      "zh": "TOA方法M1 M2 M3 M3 M4 M5 M5 M6 M7 M7 M8 M9",
+      "sourceTextHash": "a5043207b151dd9c643c5a9dffbd573171e39719af3d35c3a0aa98c6f5f4c880",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b32-9474d1a": {
+      "zh": "图1 - 包括TOA指标的条款:包含TOA指标(黑点形线和圆圈)的条款所占百分比,以及每个TOA方法M1-M9用于研究该指标(彩色条)的比例。",
+      "sourceTextHash": "dcedfb5e05b33de5a5864c572e3c4d81e0ae62d045347d59b74e7566886deccd",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b33-55c93ec": {
+      "zh": "如表1所示,表1还说明了TOA方法M1-M9。",
+      "sourceTextHash": "43929c0ff10a27a1362790ade89ac034b9bfbc3f48c6faba014447d92468fbcb",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b0-4d61c35": {
+      "zh": "2024年3月5日 211-220 214",
+      "sourceTextHash": "dcf79b078f92956a849de026dad3fb93827d0778d7881c8bc050cc18409810bd",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b2-75b4c80": {
+      "zh": "在考虑的物品中,12%进行了跨规模分析,17%考虑了场外影响(图4a);案例研究领域主要通过行政边界划定(54%),其次是生物物理划界(24%),18%的条款采用两种方法(图4b);在TOA中包括一个假设情况,允许对假定事件或驱动因素对TOA指标的影响进行调查;在我们的分析中,侧重于气候、行为或人口变化的设想占到文章的14%,而涉及资源使用变化性动力强度的情况占条款的37%;25%的条款没有Sce-narios(图4b)。半数以上的文章在分析中包括了利益相关者,各利益相关方类型分布相对平等,但代表人数不足的 \" 远方受益人和非受益人 \" 除外。 农民和专家与其他类别(图4c)相比所占比例较大(48%)。 利益相关者主要参与协商和估值,在所审议条款中只有不到25%(图4c)实施共同开发和验证。 总体而言,没有广泛考虑TOA结果的稳健性,因为标准 \" 不确定性 \" 和 \" 有效性 \" 被记录为低于50%的条款,纳入风险分析的条款占抽样的12%(图4d)。",
+      "sourceTextHash": "952ca81212c904bdbf3a8666b7640d2ad39c7120030238cc3ce8d6843ed80084",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b3-a22e641": {
+      "zh": "在所审议的条款中,与 \" 作物 \" 、 \" 经济 \" 和 \" 环境 \" 学科相比, \" 牲畜 \" 、 \" 渔业 \" 和 \" 森林 \" 占相对小的比例(16%),而 \" 作物 \" 、 \" 经济 \" 和 \" 环境 \" 学科的比例则相对较小。 就畜牧业纪律而言,模型制作和数据收集主要在农场规模上进行,而林业则主要在外地或区域范围进行(图4e)。",
+      "sourceTextHash": "dd0b80a752e8bfdbd5e32ebe137e49911fb709672b86bd3b4073570bb1d16e07",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p4-b4-677c00c": {
+      "zh": "区域(n=34)尺度(图4e),与这些尺度在所有条款中所占总比重相比(图4a), \" 区域 \" 占65%, \" 农场 \" 占17%(图4a),一般而言,大部分审查条款是在实地和农场一级收集数据并进行建模的,但TOA是在区域一级进行的。这些研究结果表明,在TOA之前,大多数经审查的条款都存在某种形式的集合。关于就包括设想情况在内的条款开展TOA的空间尺度,可以提出两点意见。首先,所有情景(资源使用假设除外)很少以比国家规模大的规模加以研究。第二,气候、行为和人口变化情景几乎完全在区域范围进行研究(图4f)。这些结果表明,很少有研究表明小规模或较大规模的情景是如何影响TOA尺度指标的。",
+      "sourceTextHash": "468b06b15106af7c54e08d46e6fbfd56bf61bcc57f1c2195e15744a3bdd6990c",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b5-ede138a": {
+      "zh": "多尺度、跨尺度和稳健性标准图5显示含有TOA indica-tor(黑线,与图1所示相同)的文章的百分比。然后根据是否包含跨尺度、多尺度或稳健性标准将条款分为子集。彩色线表示子集中包括特定TOA Indi-cator的条款的百分比。除了所有条款很少列入指标(例如与营养或健康有关的指标)外,大多数TOA indica-tor出现在通过跨尺度建模框架工作的文章中(图5a)。尽管报告跨尺度分析的条款总数( < 20%)较少(图5a),但这些结果还是发生了。值得注意的是,应用交互式建模框架的文章没有包括 \" 水质 \" 、 \" 土壤侵蚀 \" 、 \" 土壤有机碳 \" 和 \" 生物多样性 \" ,尽管这些指标在所有条款中都比较频繁(图5a)。",
+      "sourceTextHash": "503413bfdab132587a091a4f32c6dfdea2c2c693724ec53e987e5b9369e6499d",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b6-c93edfb": {
+      "zh": "利润能力",
+      "sourceTextHash": "c93edfb100079c7dc5141de8312739e762741e13d0649daacfbcff521b375e2b",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b7-347de0e": {
+      "zh": "产量d",
+      "sourceTextHash": "347de0eefc8c2b9846f039c1b03f978427529139614c9a94d24b24977e6f9acd",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b8-aba74fc": {
+      "zh": "水量数量",
+      "sourceTextHash": "aba74fc876dcd35e06bbf69190d3f85a11a947aa66b03d88f9db4ce5c5851852",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b9-f2fcd3f": {
+      "zh": "能源能源",
+      "sourceTextHash": "f2fcd3f7dccadd194c4c5a54a5102c9559487743ac236a6236301e4418d0dd7c",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b12-1adf884": {
+      "zh": "土壤养分",
+      "sourceTextHash": "1adf884bd177349457e70981ac45185914a1b3bae7a846b18d8ec6806a9899b2",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b13-be4bb92": {
+      "zh": "土地利用效率",
+      "sourceTextHash": "be4bb9298e9e86f94791ee80cf64ba7a3573eaec64060b87d155a5333ef9cf0c",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b14-8bcee0c": {
+      "zh": "投入投入效率",
+      "sourceTextHash": "8bcee0c8491c588b8e40ce7c10adbbbdddb8213c8c5081eced52efb0823986f6",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b15-4907275": {
+      "zh": "Supp./dem. 市场",
+      "sourceTextHash": "49072754151ee7a0c855acef91f8fd188a5f819fda8835fdf6bbce144fa993e3",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b16-feef7e8": {
+      "zh": "土地利用",
+      "sourceTextHash": "feef7e8b12a963b36f185cd1e9eb0a2ff333c0d5a95d48f6d2aaed4157e55121",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b17-05a53e5": {
+      "zh": "生物多样性生物多样性",
+      "sourceTextHash": "05a53e525211faec8f8d6c58bdd36ff6b6bf61e74ec88ae774e2951de834973b",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b18-b8b9cc0": {
+      "zh": "水质",
+      "sourceTextHash": "b8b9cc012bb4d5ddf017ba64ef203fb1a336533f3cc5c258e39e23cc20fca403",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b19-e3c3b88": {
+      "zh": "劳动生产率",
+      "sourceTextHash": "e3c3b88627cadb33c8b46230095151a361cfc69e2e3405f258ec4d6127421c18",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b20-ce56ce5": {
+      "zh": "土壤侵蚀",
+      "sourceTextHash": "ce56ce5db0dad5e41d9cd11dd4709054aa0f9d40e18e570dc5fc8766de8fb9df",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b21-cbf7276": {
+      "zh": "自给自足",
+      "sourceTextHash": "cbf72761053e5b1cea2c087fa94efaad97447cb56c3c9517a7bc1199ec829892",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b22-bd12731": {
+      "zh": "资产资产",
+      "sourceTextHash": "bd12731d7bc9b843d8523e654ae92abe735ee95f0777e46e77ee286b17833acd",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b23-e52c2de": {
+      "zh": "产量稳定",
+      "sourceTextHash": "e52c2de2e2e05ec3d63206cc73eb2bcf48c47215c98097a30e57916c8da96907",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b24-5e2d482": {
+      "zh": "粮食安全粮食安全",
+      "sourceTextHash": "5e2d482e885d977d3f0976d19dc365c7d4562f24bbf2a0ef0c08b9d88ea1cb2d",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b25-7ab78b7": {
+      "zh": "营养营养",
+      "sourceTextHash": "7ab78b7058dd1c098c1fd7ab18b0cd29f29ac846c87ee5430514461d57511d33",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b26-7a25174": {
+      "zh": "贫穷贫穷贫穷贫穷贫穷贫穷贫穷贫穷贫穷贫穷贫穷贫穷",
+      "sourceTextHash": "7a25174140f58dab3e00de5a7e9a3fb0328acc62c3cd295a484feeb0532e0abc",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b27-765d1ae": {
+      "zh": "两性公平",
+      "sourceTextHash": "765d1ae2cc3eee82637194e422250f2bfb503ba22bee589e08aa6525b14fa281",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b28-0d8615f": {
+      "zh": "赋予权能",
+      "sourceTextHash": "0d8615fb4c4f410a628d6fcb0b51e2e85eff32e25e691708fc417cb75507d7d8",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b29-5589844": {
+      "zh": "健康 卫生 卫生",
+      "sourceTextHash": "55898449eb74fb2e348d13e5a5d84ab019bb87ea92687b50b3d3302eb409b784",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b30-b419d86": {
+      "zh": "TOA 指标组",
+      "sourceTextHash": "b419d86415f350adfbe4a7e37040615637a97be887554cff01bf35159b24ea95",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b31-337ba54": {
+      "zh": "由有机农业评估指标分组的条款",
+      "sourceTextHash": "337ba54a8da9c9a47a5697616f0ae349f00aaac5744609102bedf4624d184836",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b32-d184130": {
+      "zh": "TOA 指标类别",
+      "sourceTextHash": "d18413054a618aa9ffa4c99aafcd0a04b4e84ecc7a197591c39526a2e9f7b202",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b33-3d698c1": {
+      "zh": "农艺学",
+      "sourceTextHash": "3d698c15fc87540ca83f0e7e664b9bf7e2ee98be5386c3028793495cef32b7c3",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b34-b39b734": {
+      "zh": "经济经济",
+      "sourceTextHash": "b39b7346f4c1529be9cff5ce25e26318cc7b4c89abba9e97c4081149efc827e1",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b35-738cf04": {
+      "zh": "可持续人力资源",
+      "sourceTextHash": "957d3fdbc996ee6c93593280d14b2fcdf9c62f12b5759c048066014b0cb5f65b",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b36-a9cf0bf": {
+      "zh": "土壤养分、贫困",
+      "sourceTextHash": "a9cf0bfbfceed0ce3d0650b444e421fe218b4f5acd99306819535d959ce64381",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b37-39680ff": {
+      "zh": "利润、粮食安全、营养、贫穷、利润、温室气体、养分、资产",
+      "sourceTextHash": "28066395310b6a651e8d451a0c855f32b421c301740bea7e05cbd5da32c94559",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b38-663f59d": {
+      "zh": "农业效率、生产力、利润",
+      "sourceTextHash": "12e7f3e27f843efee70fde03f15bd1cb52e64c991893ea244d46e3bc1cd56877",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b39-0c02d4d": {
+      "zh": "利润、水量、生物多样性",
+      "sourceTextHash": "90e460c79239a19c6107c356df28c68346aa53ce2c33f0416824a3555c549673",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b40-6b1330d": {
+      "zh": "利润、产量、土地利用、水质",
+      "sourceTextHash": "82932c9f8aff1874a17a8b9c391d4632866605062030290317ddfc159506e499",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b41-1da24d8": {
+      "zh": "水的数量和质量、产量、SOC、土壤侵蚀",
+      "sourceTextHash": "58fa676d2281ab35d0d480677df9fe208a4f462a1f82ab2a29c4726cfa00042e",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b42-408b3bf": {
+      "zh": "农业效率和生产力、温室气体、SOC",
+      "sourceTextHash": "420334af83486f8c91080120ec06b9f36c3aad092a61c88b5b6afe9df6e3cb54",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b43-89755fa": {
+      "zh": "产量、能源、市场供应/债务、资产",
+      "sourceTextHash": "3aebbb019d5c65ed81cd2fdb3631c6db8b4e39602d0e856544b5407af61afbba",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b44-7025d80": {
+      "zh": "土地利用、生物多样性、水质",
+      "sourceTextHash": "cf14ce7ac7c224e924d21c2f3dc4a46b85badd76a4fb6aa3f42e7e5ec1e2a980",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b45-c300e17": {
+      "zh": "水量、能源、市场供应/水、土地使用",
+      "sourceTextHash": "f7cc335ba2ea881583b17ef8d9437343066b32d6937541f3afb0dff7d4f63206",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b57-6b0acfb": {
+      "zh": "图2  条类集:条款按TOA指标(滚动)和TOA指标组群(栏目)分组,文章组群的组合以图左侧的颜色和标签表示;颜色是任意的。TOA指标组群(上方x轴)按与主要指标类别相对应的颜色(图左上端的梯子)指定,",
+      "sourceTextHash": "222e5e20d8a654f61599334b2f40caee6158672930b06ed7dfdcff7da4059838",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b58-aac705c": {
+      "zh": "矩阵表示是否将TOA指标列入某条(红)或未列入(网点),正确列表上的标签列出每一组中包括的主要TOA指标。温室气体、温室气体、SOC、土壤有机碳、供应或需求。",
+      "sourceTextHash": "2c1dfda2d146b1b488c4a78d11880d45ae59ef5df11ddcbca12d22453e145f83",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b0-90cc2b3": {
+      "zh": "自然食物 卷5 2024年3月 211-220 215",
+      "sourceTextHash": "538881969c7c13151764dfc9f7ab1e7b74941d2c2bc867ce39ea8af397ab0477",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b2-c346744": {
+      "zh": "在所有文章中,17%考虑了场外影响(图4a)。 在考虑场外影响的文章中, \" 贫穷 \" 和 \" 土壤侵蚀 \" 指标的代表性不足(图5b)。 8项指标在考虑建模或数据收集的多种空间尺度的条款中被排除在外(图5b中的 \" 纪律 \" )。 这一结论特别倾向于 \" 生物多样性 \" ,因为它构成空间清晰的TOA方法的一大部分(图1)。 13%的报告涉及多个空间尺度的TOA条款,在这些案例中排除了7项指标(图5b中的 \" TOA \" )。 在被排除在外的指标中,与人类健康有关的指标被淡化(图5b中的`营养 ' 除外 ) 。 对于某些指标,这些结果是预期的。例如,市场供求(经济)在低地理范围(实地和农场)无关紧要,因为价格是由区域(地方)、国家或国际规模决定的,包括风险分析在内的条款表明,就所有条款而言,TOA指标的代表性与TOA指标存在鲜明对比。 经济和人类健康指标所占比例特别高,而 \" 收益率 \" 、 \" 投入效率 \" 和一套生物物理质量指标代表性不足(图5c)。对于承认或确认不确定性的条款来说,没有因数托运者在所有条款中的比例过高或不足(图5c)。",
+      "sourceTextHash": "14e6a9a1289de068477a871d52ef6474cff5dcd3bcd0a47d5993ec6de5ce8ed0",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 2,
+      "flags": []
+    },
+    "p5-b3-c9552b0": {
+      "zh": "最近对TOA的审查表明,在农业系统中的TOA中,与社会互动、司法和性别问题有关的指标几乎没有甚至根本没有重新说明,5 这些研究特别提到家庭内部公平、资产所有权、保健、教育和营养。我们的结果还显示,社会和文化TOA指标基本上缺乏,大多是孤立地考虑和通过统计方法研究的。这些研究结果可能是由于数据可得性有限以及TOA方法无法包括的原因。",
+      "sourceTextHash": "2b70da84463e702a83442f3567c3c8cfba23697fcd50eda789e58b14e2e643a2",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b4-cbdace0": {
+      "zh": "我们还注意到以下指标的频率同样低:粮食安全、自给自足和产量稳定,这些结论对选择TOA指标的理由提出了疑问,即利润和作物产量作为主要指标的普遍使用反映了文献中对利润和作物产量最大化的重视。5 TOA的成果和优先事项取决于选定的目标和指标,因此其他指标可能有助于更全面地分析农业提供的环境、经济和社会-文化服务的情况,一个实例是`营养产量 ' 指标,该指标被定义为“为满足一个成年人的营养素100%膳食参考摄入量所需的公顷数量”。2 因此,营养产量使得能够从农艺和社会角度评估土地使用效率。在维持生计的农业中将营养收益纳入TOA可以表明需要改变农民的作物计划,以平衡粮食安全和经济盈利目标。",
+      "sourceTextHash": "4a2d46c24314d04602357524031e904a786ebba98add44e9c4e15b9c32190a46",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b5-f6ccf8c": {
+      "zh": "研究目的、问题和方法的制定 研究目的、问题和方法的制订 确定一个TOA能够提供16.18的信息基础 有关TOA目标和方法的决定决定了规模、学科和指标被分割的程度;此外,这些决定还影响到为土地、资源和技术的替代性农业-环境管理而探索的各种干预措施和设想情况7,18 我们的分析结果表明,TOA方法和指标之间有联系,表明存在差距,例如没有条款报告使用空间明确的方法来研究 \" 人类健康 \" 和 \" 自然恒定能力 \" 的指标。",
+      "sourceTextHash": "d254a73ba99b1002646bfe1ad12f4e260912066771fa3ca39dcfc520ee55afee",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b6-9e017d8": {
+      "zh": "组群3(n=12)",
+      "sourceTextHash": "3a732eb4398f296a5195dabbc19fdbffce118eb4c8739d8e2a764546897a9f10",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b7-fccbc8e": {
+      "zh": "组群4(n=10)",
+      "sourceTextHash": "51819960dbba2995ac09e0e93fcbe4420ff9177a300d23fc503e3ba6b3b8d084",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b8-42ada3f": {
+      "zh": "组群 9 (n = 10)",
+      "sourceTextHash": "ed6fb2c35b977c3edd8787c72fcc04b0ef27fabbce7147d7dafb0bcbbd053725",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b9-21bf1a5": {
+      "zh": "组群 8 (n = 13)",
+      "sourceTextHash": "0cceb501d314184a5f361965c266cd80534bc93f683cf557caa170e813a65971",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b10-b7ba625": {
+      "zh": "组群2(n=11)",
+      "sourceTextHash": "b4400431a003f8e605d294ab9dcbd5c4d61fe80eeb1250e83985b513569b8ee1",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b11-ac03f9a": {
+      "zh": "组群6(n=17)",
+      "sourceTextHash": "8873dd536f9d45aada8c154dcc60c6206655ebe5b0fcb32702194048ed64af2c",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b12-1eb5609": {
+      "zh": "组群11(n=12)",
+      "sourceTextHash": "fc0d6dfc34727fb26225572417878201c1178e04273819b6645e40634199657d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b13-6279a7a": {
+      "zh": "组群 1 (n = 12)",
+      "sourceTextHash": "b8317519aa8193ffb038a2bf6879b074250fcc34e6db4b2ea6cae4db117926a9",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b14-e2decfc": {
+      "zh": "组群10(n=8)",
+      "sourceTextHash": "37973fb1e1b4bc7835b3ac9454fcfd4cb9142f2270052ea9f54d271738bce665",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b15-461c248": {
+      "zh": "组群5(n=9)",
+      "sourceTextHash": "b7e27ee14be7c5b188a1e14a2bba4f619ca5ddd25d774c388e8d9a90f17e8aab",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b16-21575a5": {
+      "zh": "组群7(n=5)",
+      "sourceTextHash": "01ba5fc274688be8893735afa32bab33186b234547d4341dbbd34c18e068c127",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b17-c4adf9a": {
+      "zh": "0 25 50 50 75 75 100 物品百分比",
+      "sourceTextHash": "a9efe4e9d452cc876c763b2a9f19d12d2a3780664b1949eafeddc93a4cebc8c1",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b18-51bb6dd": {
+      "zh": "TOA方法M1 M2 M3 M3 M4 M5 M5 M6 M7 M7 M8 M9",
+      "sourceTextHash": "a5043207b151dd9c643c5a9dffbd573171e39719af3d35c3a0aa98c6f5f4c880",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b19-0ef4bef": {
+      "zh": "图3-按组别分列的每种TOA方法的比例,分组协会与图2相同,每个组内的条款数量由n.提供。",
+      "sourceTextHash": "0ef4bef7ab3402501bddd814807dfca79f5b629ce1a89e0bec219531529bb80a",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b0-9163c84": {
+      "zh": "自然食物 2024年3月5日 211-220 216",
+      "sourceTextHash": "ed01da8ad623bf1a75f89a0311fd379c4c079e5e04b52564ae58da44de68252a",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b2-ca53032": {
+      "zh": "采用气候智能型农业的做法揭示了影响产量和土壤碳固存的局部规模权衡办法,19 我们的结果也强调了预期模式,主要通过统计方法和定性方法研究社会经济指标,这些静态方法和基于现有数据集的方法不同于机械模型,机械模型允许在替代性未来假设情景下进行外推和事先评估;基于机械模型的模拟有可能探索尽量减少指标3、7. 然而,这种优化的有效性取决于对社会-环境系统中的相关进程和反馈的充分理解。 3 例如,作物模型虽然在评估气候变化影响的能力上各不相同,但具有共同的局限性,例如低强度农业系统的代表性不足20。 我们发现,往往没有描述在TOA框架内的研究局限性,例如被排除在外的各个方面。理想的情况是,模型和相关不确定性将在TOA的设计阶段得到评估,这样可以确保提供充分的信息,以便按照预期的分辨率量化所有理想参数,使研究能够全面代表农业系统。",
+      "sourceTextHash": "625448911a0bab67e606030d2dfe98b93d2844dd886123d56b189511d4e8188d",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b3-3098107": {
+      "zh": "这种方法对于指导今后与研究目标17一致的管理决定的规划至关重要。",
+      "sourceTextHash": "2a3df16fa6c3167c58c6f1fafaf51825ffd74a7ca0028250b2e2cdad5dffc6fd",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b4-abaee2b": {
+      "zh": "8. 文献中反复出现的一个关切问题是,在TOA开始时利益相关者经常遗漏,有可能限制TOA结果的彻底应用,68我们的调查结果部分地支持这些关切,因为只有10%的条款与利益相关者共同发展;然而,关于利益相关者之间平等代表性的明确声明证明具有挑战性,因为普遍缺乏系统清单,概述不同利益相关者根据自身利益和影响对决策进程的相关性21。 我们的分析表明,农民和专家是条款包括的主要利害相关者。 尽管如此,疏远受益人和非利害相关者的疏漏值得注意,因为它们可能在许多案件中与决策过程有关,特别是在以多种尺度进行的TOA中考虑到场外影响的情况下。",
+      "sourceTextHash": "920e161bb7d5d500f30e93bfc5e9f8baa2c4d1251dd6bb52cbf023715f7b48c2",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b6-66b8717": {
+      "zh": "占条款百分比",
+      "sourceTextHash": "66b87175c28a4043d7957f9eae5585373f9343a054c91a9d41d21efc1626df2f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b8-24ee11d": {
+      "zh": "跨规模",
+      "sourceTextHash": "24ee11df98488b98a3796df155d549fd40da13daa496a0b96b92117852a06c95",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b9-a1b14db": {
+      "zh": "纪律纪律纪律",
+      "sourceTextHash": "a1b14db94434084b789c0069291250652a46b455cbb2b5c347c9231af8ac51b5",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b10-0ed8cce": {
+      "zh": "场外",
+      "sourceTextHash": "0ed8cce3bcd98ca23a593e7b8547695543e0dd98813f24411d7038de46157edf",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b12-2fcb5d3": {
+      "zh": "假设情景",
+      "sourceTextHash": "2fcb5d374697f5ff760c860bf0cc9e89b27daeef4e404cb74a5ea11c2af02d50",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b13-1777a81": {
+      "zh": "边境系统边界",
+      "sourceTextHash": "1777a819b9f64b11d2980d825d86e5b9662c62a2897a7ee034581e56b94349ac",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b14-dbc3617": {
+      "zh": "TOA 方法",
+      "sourceTextHash": "dbc36170f5b933722af17244b4c9262a0095677afedf741596be020ed959e739",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b15-1cff771": {
+      "zh": "执行 执行情况",
+      "sourceTextHash": "1cff7713912f5d538506c1ba82db75b7caabcd0ee2dc4abee6bbd4db5878233e",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b16-16f5ce6": {
+      "zh": "包容包容",
+      "sourceTextHash": "16f5ce6eb12fe5c749c260b72f413e5b581693ce712643eba8b04b681502a876",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b17-baaddf7": {
+      "zh": "类型类型",
+      "sourceTextHash": "baaddf70fb5d432b8bd948ef91d6f910124a6d138edae4d5f000c4610ddc8eae",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b18-7c9e8ef": {
+      "zh": "风险分析",
+      "sourceTextHash": "7c9e8ef1baf0377449c3a317d39bfe08444be102dabd82edfed26b8a53022564",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b19-77b9ebf": {
+      "zh": "不确定性",
+      "sourceTextHash": "77b9ebf987ea64c6c250fa553f2377c314292279180aaff1242e7f2787a382b8",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b20-68e1ca5": {
+      "zh": "审定",
+      "sourceTextHash": "68e1ca575295bb5604fea711b5d2eff44006ce4bd985481083a76b71fce0daef",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b29-98caf7c": {
+      "zh": "作物作物",
+      "sourceTextHash": "98caf7c43c6f2c35cbc0376c937d27f67edad50c0d3e98dbc451c272c02ce479",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b30-b39b734": {
+      "zh": "经济经济",
+      "sourceTextHash": "b39b7346f4c1529be9cff5ce25e26318cc7b4c89abba9e97c4081149efc827e1",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b31-84e85ef": {
+      "zh": "环境环境",
+      "sourceTextHash": "84e85efd4c001b6a897f25124ad5f1c9eeddc09db0bd4efd8904208595802daf",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b32-4d8c7c9": {
+      "zh": "渔业渔业",
+      "sourceTextHash": "4d8c7c9906c5f2c9242328eb95053bc040ed9ec702438fbf289b7676eb1f3bea",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b33-a033c55": {
+      "zh": "林业",
+      "sourceTextHash": "a033c55d3ed4b26b265b70d65ebace53124d7c63a7d09d245552b20b69ceb374",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b34-bb63d87": {
+      "zh": "家畜",
+      "sourceTextHash": "bb63d8718ecd871f3b1ffec0b4eb1a1d78baf79c2fc961e202b924ef59298869",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b35-c02bf71": {
+      "zh": "区域国家多国多国全球",
+      "sourceTextHash": "7a83dabe07202cc746ab8459fccc0150eef9956ecb6247cddb713c926249023f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b36-f102986": {
+      "zh": "比例比",
+      "sourceTextHash": "f102986b39effb31080ae442f61febe7ed58df1515c0711ccfadfe0311ccec81",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b37-a1b14db": {
+      "zh": "纪律纪律纪律",
+      "sourceTextHash": "a1b14db94434084b789c0069291250652a46b455cbb2b5c347c9231af8ac51b5",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b94-f45fc1d": {
+      "zh": "外地",
+      "sourceTextHash": "f45fc1dfdc96db2761a434542f105c04d1e15cf96f410656460051efd33ea5b6",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b95-3457b16": {
+      "zh": "农场",
+      "sourceTextHash": "3457b1617fe56912104fc55806c28dfca8a70a42ac40e6569982a79a71141365",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b96-299a03b": {
+      "zh": "区域",
+      "sourceTextHash": "299a03b1d559b695ba3adba8b5a7b6d6e5b583f26bd0ea57f9d99caafe2596e8",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b97-865b30e": {
+      "zh": "本国",
+      "sourceTextHash": "865b30e2fae6d778db9b748c30705b8ea7ec051a61182126f110d484c4347055",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b98-2b3cddd": {
+      "zh": "多国",
+      "sourceTextHash": "2b3cddd960ac1c66f0cefc5e11b0bfad34d2da1899eb6b0add0beaa87875dfb6",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b99-a258b30": {
+      "zh": "全球全球",
+      "sourceTextHash": "a258b30f88c30650e73073d5bdde5cfcc6987100ae62d37789e5c46a0d85b7c6",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b100-f97e9da": {
+      "zh": "其他",
+      "sourceTextHash": "f97e9da0e3b879f0a9df979ae260a5f7e1371edb127c1862d4f861981166cdc1",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b101-51d34f0": {
+      "zh": "1. 设想情况",
+      "sourceTextHash": "6f0048294ca186cb15197522fbce490312026f91ef5a7fc97c836d9456f86743",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b102-cba5200": {
+      "zh": "TOA 比例",
+      "sourceTextHash": "cba5200c871f45296bab28d28e12f25ea2262336a8f418aba47a228fa55784f5",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b119-6100987": {
+      "zh": "行政生物物理",
+      "sourceTextHash": "6c0f3761454872f26e778dc3462ff34d5b6ab87edb1e039f36ffdced4e22905c",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b120-f97e9da": {
+      "zh": "其他",
+      "sourceTextHash": "f97e9da0e3b879f0a9df979ae260a5f7e1371edb127c1862d4f861981166cdc1",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b123-2a50c64": {
+      "zh": "比额表 a a",
+      "sourceTextHash": "0e8afb417744fd1acc37bd0b9c92504dd5f84422bfa902285f62fdace17633ca",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b124-e1ffc1a": {
+      "zh": "TOA 框架b",
+      "sourceTextHash": "95998b2b89473510d9518683a26322677305a7c41644c7b90dabce11bfac0b8a",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b125-75e7685": {
+      "zh": "利益相关者c",
+      "sourceTextHash": "08bcb3f7f3e5194d6a6a588e847e2cd28660f56382cc7e6919f94480a50992ba",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b126-effc393": {
+      "zh": "ATOA 稳健度 d",
+      "sourceTextHash": "a9bd8fe4b0680867152e5f15bfc6dd19130fe87d872d0d5f3447190b6c1c774c",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b127-61264e2": {
+      "zh": "a. 与分析规模有关的标准。TOA:进行TOA的空间尺度;数字是指实地(1)、农场(2)、区域(3)、国家(4)、多国(5)和全球(6)的空间尺度。",
+      "sourceTextHash": "e66234ca1322b25ec69de92aeb8736da8a8151c8ec3b4c42b3037f9d1ccdc953",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b128-bbbf37a": {
+      "zh": "类型:是否涉及当地受益者和非受益者、专家、政府、农民、远方受益人和非受益者、学术界、私人组织或环境组织。纳入:研究是否包括利害关系方。执行:利益相关者是否参与协商、共同开发、估值或鉴定。 d. 与安全性有关的标准:条款是否进行了审定、风险分析或承认的不确定性。 e,为某一学科进行建模或数据收集的每个空间尺度(在圆圈中)的频率。 f. 文章为每一空间尺度考虑TOA特定情景的频度(在圆圈中),表1对设想数字1-8作了界定。",
+      "sourceTextHash": "0fe4f6a840104fa72a5bfe26e25ff7bcfae7750582849b70c32d1cd859d5498f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b0-4c8552d": {
+      "zh": "2024年3月5日211-220 217",
+      "sourceTextHash": "bed5a93308f0fbcb956cb12d5d7728a6558b01716792321a82ce2e4e47493dcc",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b2-4111639": {
+      "zh": "根据研究目标,TOA文献强调承认跨尺度进程并将其纳入研究的重要性3、6至9、22。在许多文章中,收集数据或建模是在现场和农场规模进行,但TOA是在区域一级进行的。这突出表明了多尺度TOA分析的机会,有可能提高TOA研究与政策的相关性。例如,双级优化是在不同尺度上促进嵌套决策进程的一种有希望的方法。在这种方法中,较高层次(如较大的空间规模)的解决方案取决于较低级别的解决方案(关于考试、较小空间规模)。Bostian等人展示了这一方法在承认非点污染条例所固有的多重空间尺度时的应用情况。然而,在我们样本中有限应用跨规模分析(12% ) 表明农业TOA在农业中的TOA捕捉社会、文化、环境、经济以及农艺过程的等级性质的程度有限。 此外,17%的条款考虑了TOA案例研究领域以外的影响,考虑到不同学科的外部影响,包括跨国排放许可、水交易和对稀缺资源需求增加等预计将影响其影子价格的外部影响24 - 26。 但是,场外影响可能会有反馈,例如供应范围内替代生产系统之间的依赖性。",
+      "sourceTextHash": "3a3ce5652d90f6ac3c75ef8818b2b0f7f9db46f6787bda8866b73f8950d41586",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b3-ee05057": {
+      "zh": "27. 在这种情况下,必须结合这些反馈考虑系统边界的划定问题,以确保将其纳入系统;如果场外效应没有反馈,则可以归类为 \" 远程连接 \" ,标明其原因和后果大相径庭的过程28。这方面的一个例子是对多瑙河水质的研究,其中由国际委员会代表的远方受益者和非受益人在TOA29中进行了审议;结果还表明,很少对气候、行为和人口假设情况进行更低或更高的评估(与区域规模相比),这突出表明,这些尺度在多大程度上与TOA相关值得进一步研究,例如碳30或水31足迹等通用方法可以广泛评估较广范围的场外影响与TOA结果有关。这些办法可能有助于纳入根本原因,让更具包容性的利害关系方参与进来,并顾及渗漏影响,例如将农田扩大到TOA案例研究领域之外32。 理想的情况是,对TOA方法框架进行概念化,以便:(1) 在应用电缆的情况下承认多种和跨规模的互动;(2) 系统边界与经证实的生物物理和有关社会-机构边界相一致;(3) 承认尺度和相关后果的异质性,不同利益相关者既了解又估价10。",
+      "sourceTextHash": "0f4fe47b5b53fbb3da430bde4ba8bad0d211243ae4167f1aab7096bd527b7cfe",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b10-8761833": {
+      "zh": "60 跨规模",
+      "sourceTextHash": "9f46bafdc828e1bdcc4d06e0a94ea53d73d5c867cffa10689f9efb1b3debeb98",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b11-318c828": {
+      "zh": "所有文章(n=9)",
+      "sourceTextHash": "357b4fe80b6cc5eb698606539a6abc779b9170fa39310e916225b38491c2fd4e",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b18-958e640": {
+      "zh": "60 多规模",
+      "sourceTextHash": "3cc2fdf3907f922a8f75abb89fdfdaa211085d0648f5391e48f9cb6994fbcb05",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b19-c0ba089": {
+      "zh": "(n) 场外(n=20)",
+      "sourceTextHash": "39565643aa96c4fd4a2e6bf0d6f012d761cbc5712013dc659326cf0715d0de84",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b33-6571709": {
+      "zh": "E1:利润",
+      "sourceTextHash": "6571709b8802e9f5c17eb6302e04cfce75ac9e21f7d1c3a9f067dadc844ba345",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b34-0ab9f6a": {
+      "zh": "A1:放弃",
+      "sourceTextHash": "0ab9f6afae3d7b72148c0f99445754fa490a7119b9cacb502b16b3649da08521",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b35-c0a18fe": {
+      "zh": "S1:水量",
+      "sourceTextHash": "c0a18fe0ba38e6a3134b9a960440a77c305b18666ea2381c7563757d8e13d277",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b36-6057040": {
+      "zh": "S2:水质",
+      "sourceTextHash": "605704083cd3aa3990da967ccf391233427f315c609c3d733f3629048da88131",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b37-3e2d35e": {
+      "zh": "S7:温室气体",
+      "sourceTextHash": "3e2d35e7ef6fcc282a483d24dd7569b254158b918d27165c5b3f9e94eeb54549",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b38-7d9f99b": {
+      "zh": "S6:土地利用",
+      "sourceTextHash": "7d9f99beddd5c6d204057521d92529d62b48f8953897fa38f6eb898c0cffa4e1",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b39-8b22be5": {
+      "zh": "S5:土壤有机碳",
+      "sourceTextHash": "8b22be5bce83553785fcc1a074762095dd8f3ee85e9694f56988d3c3ba4f18c8",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b40-849ed9d": {
+      "zh": "S3:土壤养分",
+      "sourceTextHash": "849ed9d294a3e85b7b7cd07e04d6923d9f750ba50d411173d3ba61529bcf2a0f",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b41-dace168": {
+      "zh": "S8:能源",
+      "sourceTextHash": "dace168d948a4867502531e1ac02abecffdc597d1ac823e28d6ec7ffea7cb4ad",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b42-6fa45d9": {
+      "zh": "S9:生物多样性",
+      "sourceTextHash": "6fa45d92251b0b74209d6a1777f277fc2d0622dc244c806e75650bf2eeb16a6c",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b43-3ece547": {
+      "zh": "A5:投入效率",
+      "sourceTextHash": "3ece5476c453f03265f766d51fc5aa49eb45cafebebbce57fb9a2494a8e76fb8",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b44-a088596": {
+      "zh": "A4:土地使用效率",
+      "sourceTextHash": "a088596787e48aeedb680b59b4379885fa027df5d6a0dfdfd4582a0918cf600b",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b45-e243cd8": {
+      "zh": "S4:土壤侵蚀",
+      "sourceTextHash": "e243cd83c3ceec3ca8804d7c009bec4860f0848de74b8654a079d8f7442cd7d7",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b46-696237c": {
+      "zh": "E5:资产",
+      "sourceTextHash": "696237c7a18db58d409643f566d53606d00016a12eb77b465fc8a19a93a252cd",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b47-e9b05bd": {
+      "zh": "E4:劳动生产率",
+      "sourceTextHash": "e9b05bd638f545ca6ba6f628283c76b599b3e4139693d57cf373598731e3c90f",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b48-d8ddef1": {
+      "zh": "E2:贫困",
+      "sourceTextHash": "d8ddef1fb17ad7b850ae31d43e22113fe75f2aa088e539a887542e432b7bdc72",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b49-866d372": {
+      "zh": "H1:营养",
+      "sourceTextHash": "866d372a303a2b74c9ece7b0db0dfaae6cca83b5bd33fa1165f99e1519729a00",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b50-d4531c3": {
+      "zh": "H2:健康",
+      "sourceTextHash": "d4531c3d1427104e8c4cf140e5085c9613d692b01dc97612127b96b7dca4a8f7",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b51-76baa28": {
+      "zh": "A3:自给自足",
+      "sourceTextHash": "76baa2852d1e48a4e45d6691c4caab98a1c8bc0c4531b0e70b886c52e3317b35",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b52-7e88ebe": {
+      "zh": "H4:粮食安全",
+      "sourceTextHash": "7e88ebe6cf444db597d057a39be844a88d0e36a57ab0c8f4bd3be0cb916bd0d4",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b53-f694203": {
+      "zh": "E3:市场供求",
+      "sourceTextHash": "f6942039b2d019be66c2502889bfe70e970e6aaefc5d0cfd033e3d4f5b82bfa4",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b54-4263572": {
+      "zh": "A2:低效稳定",
+      "sourceTextHash": "4263572ab59da4348180c73c645934b6853f75d850d0c555f003d462f24451e2",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b55-aee490c": {
+      "zh": "H5:赋予权力",
+      "sourceTextHash": "aee490c30d02c1d1b547444962f0c2f5fe37ae3ae4bb69ca0797d9d4241d9133",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b56-1de850d": {
+      "zh": "H3:性别平等",
+      "sourceTextHash": "1de850d1055a53dfee5b27f5c497c0ec8e0eaf237908ce296118026dc810590d",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b57-cd67fc2": {
+      "zh": "强力",
+      "sourceTextHash": "cd67fc2a9b3cd706742a1e476535a2c617339e2f1a6b4b5572c6ab0693b3d140",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b58-dcbf28c": {
+      "zh": "风险分析(n=14)不确定性(n=55)验证(n=50)",
+      "sourceTextHash": "6d58a81d1a55d60b42c2fee353551b8b9cb0a973694ef51e24d74b99829e1413",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b59-8b44b82": {
+      "zh": "占各条款百分比",
+      "sourceTextHash": "bbec8de9f614f3af460007a7ba132ae62ec00d6890374102a8698efe6d5b35ed",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b60-8a4b129": {
+      "zh": "TOA指标",
+      "sourceTextHash": "8a4b129b98fcc35c58d052198930c0507ce73a456687f678069da13442751433",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b61-a3392ef": {
+      "zh": "图5-图 5-百分比 包含TOA指标的条款的百分比。所有经审查的条款的百分比和包括具体TOA指标的条款子集的百分比。 a-c,这些子集包括跨尺度(a)、多尺度(b)和稳健性(c)标准等条款。",
+      "sourceTextHash": "c5f1e94fefe780659dcc44fd5f6080b040c8209f7eedbeb1d039a03948004a43",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b62-72095f8": {
+      "zh": "TOA是在多个空间尺度上进行的, \" 碎片 \" 是指在建模或数据收集方面考虑多种空间尺度的文章,而 \" 非现场 \" 则是指在TOA案例研究领域以外审议效果的文章。",
+      "sourceTextHash": "936e2b962285c8b086c6603e6900491a096f696a1ccfc16ecba3c4a9468b0ef7",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b0-126e1a7": {
+      "zh": "自然食物 卷5 2024年3月 211-220 218",
+      "sourceTextHash": "bb4faca519af0c65bd3e03dd5030e9bf2ce6b05a97705fa60c4c19b0f5916ff4",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b2-7105be4": {
+      "zh": "与TOA有关的风险跨越空间、时间和管辖范围,对TOA结果的传播产生影响。 在考虑风险分析的条款中,`当量 ' 代表不足,突出表明收益和利润是最重要的指标。也就是说,风险分析似乎主要与经济领域相关。5 然而,认识到风险评估和相关战略(风险规避、缓解或抵消)的制定对于农民来说是极具说服力的,因为农民采用系统转型,例如土地使用的替代形式来减少投入和相关的温室气体排放。将风险纳入TOA使得能够研究必要的政策和奖励措施,以实现向可持续农业做法的全系统转变13、14 在不确定性下的决策在评估有关风险时可以解释。理想的情况是,这些风险是针对具体情况的。例如,Hoghman等人提供了作物轮作的TOA结果,同时提供了一个最低风险阈值,量化为最穷20%的年份中最高总差值33。虽然有少量条款审议了不确定性问题,但只有少数条款将权衡交易的变化作为不确定因素的一种函数加以量化,纳入随机成分和生物系统中固有的相关不确定性可有助于更真实地描述结果,证明对决策很有价值13、15。在预期范围内的不同输入数据或模型参数化可揭示结果的敏感性。例如,在使用气候假设时,这些情景的实现可用于评估TOA执行目标的随机性34 这种方法有助于承认包括极端天气事件在内的随机事件的频率和模式及其对TOA结果的影响。因此,对耕作系统的适应性进行分析不仅取决于平均产出的最佳溶液,而且还会考虑到相关的变差能力和意外事件15 但是,必须结合具体情况来分析随机性的影响,例如,模型或参数不确定性对优化结果的相对影响因目标和地点条件的优先次序35 不同而有所变化。",
+      "sourceTextHash": "dde8bd89e04bfd4c18d2baf3ac6be0bf81ea390f4144f13cc34d1386fa459cfd",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b3-c029ef8": {
+      "zh": "本研究的局限性是我们审查的一个重要限制,即在我们的科学搜索网中将`权衡分析 ' 作为单词使用。有些研究领域处理不同学科、规模和方法之间的权衡和协同作用问题,而没有明确使用`交换分析论文 ' 来描述其研究目标。 例如,`粮食-能源-水关系 ' 文献36,以及在农业模型相互比较和改进项目(https://agmip.org/)和粮食、农业、生物多样性、土地使用和能源联合会37 主持下进行的研究。 AgMIP和FEB都特别关注TOA与政策的相关性。 AGMIP明确指出了“多种情景和模式用于评估和以概率管理风险”38。鉴于这些研究的重点是全球和区域评估,我们预计我们对这些空间尺度的研究结果可能会受到影响。事实上,需要从我们的样本的角度来看待TOA执行中查明的差距,其中主要包括在区域一级和区域一级进行建模或数据分析的研究,以及在区域一级进行TOA的研究。用于记录预先设定标准的出现情况的方法不仅影响标准范围内的差异,而且也影响其丰度。例如,Sanon等人(Sanon et al.)包含大量TOA指标,全部列在“生物多样性”29之下。 因此,二元标准记录并不反映考虑标准强度、生态领域众所周知的现象39 。这一限制可能导致低估了研究某些TOA Indica-tors及其分类的强度(图1)和按条款考虑的TOA指标总数(扩展数据图2)。",
+      "sourceTextHash": "f410f40403b802f6fe380131e99759ac67b81892d9798e1e98daeaab9d3de397",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b4-26cc810": {
+      "zh": "根据我们的分析,可以确定一些行动来增加TOA对SDG一致农业景观的贡献;例如,未来的研究应包括与研究目标有关的多层次和跨规模影响;我们已经查明了进行多尺度分析的机会,因为许多研究在区域范围执行TOA之前先是填入的农场或实地数据;由于纳入多个尺度、指标和方法在某些情况下可能会减少结果的可概括性,使其更符合具体情况,因此一种替代办法将是讨论多重和跨规模影响对研究结果的预期影响;此外,通过制定研究目标,如TOA指标属于SDG等框架的范围,可以提高TOA对社会和政策的相关性;最经常使用的指标是生物物理指标或利用利润最大化理论(例如利润和收益)。然而,与人类福祉、安全和农业抗御能力有关的指标(例如空投、营养和产量稳定)发生频率较低,为了帮助解释TOA结果,应列出用于评估指标的TOA方法背后的理由,同时对正在研究的农业系统如何体现以及由此而排除哪些因素进行严格审查;在所审查的条款中,咨询最多的利益相关者是农民和专家、利益相关者共同开发和鉴定很少,设想方案主要基于资源利用以及对场外效应的简单考虑,这些结果表明,TOA大多探索一套农场的替代管理,而不是有助于整个景观和粮食系统转型的政策和奖励办法;农业政策和决策具有内在风险;在评估相关风险并列出管理这些风险的战略时,TOA将更加可行。这一过程可促进量化权衡的稳健性,以应对相关的数据不确定性和结果的变异性; 最后,对与决策过程有关的利益相关者及其在研究中各自作用进行清点将提供结果的合法性; 虽然文献12、29已经认识到这一要素,但我们在此查明的一些缺点可能不会经常出现,特别是缺乏纳入利益相关者的机会以及特定利益相关者类型和利益相关者参与方法的过多代表性;更严格遵守这些准则可以提高TOA对科学界、决策者和农民的相关性。",
+      "sourceTextHash": "4c3385fadaf74d1824c7aba8d785723b84db69a3e871c093b8cac5f32ff90f5b",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b5-de578eb": {
+      "zh": "在系统审查关于生态系统服务的文献时,我们采用了Lautenbach等人和Seppelt等人的方法, 22 该通用结构涉及:(1) 从一个全球资料库中确定、筛选和选择经过同行审查的相关文献;(2) 制定评价每一条款的标准(表1和补充表1),(3) 进行描述性统计和群集分析,以评估标准之间的共同相互关系并查明知识差距。我们在科学网络(2021年9月14日)中使用了以下搜索字符串“ALL=农业家 * 和(“交换分析”或“交易*分析”或“交易分析”),以确定经同行审查的阿耳蒂-Cles,在报告TOA的英文中。 我们发现153篇文章的出版日期为1993年至2021年。我们排除了提到存在权衡关系但没有评估指标之间关系的研究。因此,审查文件和意见文件被视为非专题文件,被排除在搜索结果之外,此外,不涉及案例研究的方法文件也被排除在外,导致共抽样列出119条。",
+      "sourceTextHash": "155cb3cd11467aa189265bc6554c1e8ae694b7d95aaa6a9d912b705838728e13",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 2,
+      "flags": []
+    },
+    "p9-b0-efd36bc": {
+      "zh": "自然食物 2024年3月5日 211-220 219",
+      "sourceTextHash": "b7c2759da5e9ea11b744a0913a586bdaf9bc07f2b7a1c9f8e9d94cbf1870568b",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b2-889a18a": {
+      "zh": "我们根据目前的TOA研究5 - 9,16.22选择了标准,并记录了与农业文化中权衡取舍的概念化、定性和分析有关的这些标准(研究目标1)。 简而言之,标准包括所用TOA方法的类型、进行分析的空间尺度和/或收集的数据、在TOA中评估的指标、包括哪些利益相关者类型的指标以及利害相关方如何参与案例研究、案例研究是否包括替代情景和何种类型、案例研究领域如何划定、案例研究领域以外的影响是否相互融合、案例研究是否承认并计入不确定性、验证的结果或进行了风险分析。为了评估在案例研究中是否进行了跨规模分析,我们通过了Kanter等人的定义,他们区分了以较低尺度汇总产出、用作更高尺度(综合)投入的模型框架和以不同空间和时间重复用途运作的次级模型(互动)6 的示范框架。因此,虽然一个合并模式框架遵循的是顺序方法,但采用交互模式框架,对各尺度进行互动式的每个格式分析,允许在较高层次上在尺度和新指标之间相互作用;此外,为以下三个标准收集了描述性信息:所研究的农业系统、农业活动和该条讨论一节所报告的知识差距。所有标准都列于表1,并附有一般性说明。我们请读者参考补充表1,了解关于这些标准的更详细信息。根据这些标准,随后通过描述性统计学和群集分析(研究目标2)评估了知识差距。TOA指标中包含TOA指标的决定是TOA的一项主要方法决定,因为它决定了考虑和分析哪些相互关系,从而可以确定哪些取舍和类比。我们根据所考虑的学科、规模、地理和方法预计TOA指数的主题群集。为了查明TOA指标之间共同发生的情况,我们按照TOA指标对分组文章进行了等级分级分类,并根据Cardality coef-faist40确定了TOA指标本身。我们通过使用记名相似度度度量来计算二零点问题。也就是说,在两条中没有TOA指标并不表示相似性,而其存在则表明类似性9。就按TOA指标对文章进行分组而言,拟保留的组群数目是根据基于每组数据与原始脱轨矩阵40 之间曼特尔相关性的 \" 螺旋 \" 方法决定的。关于TOA指标的集群,没有削减斜体阵列,以设想所有TOA指标的共同共发情况。标准登录在微软办公室Excel(2021年)电子表格中(补充数据1)。这次系统审查期间收集的数据在R(参考文件41)中得到进一步分析和可视化。数据的处理、可视化和分析使用以下R包龄进行:Rmtyverse42、 dendextend43、Crob44、Vegan45和pheatmap46。",
+      "sourceTextHash": "0cf0a329b48c20f92add23553cd1cb7ba911e836b60680cf2e1e897a84b15657",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 4,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p9-b3-3c6163d": {
+      "zh": "关于研究设计的进一步资料见与本条相关的《自然组合报告摘要》。",
+      "sourceTextHash": "baabbef09266a33698e90ee7c0984402b56a5d36f3f8dd29f88d23439345a062",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b4-e039230": {
+      "zh": "所创建的数据集已作为扩展数据提供。",
+      "sourceTextHash": "9dfa5d05b60963a7044a922bb87504976130711d7397e5e4396bcf87a0a8d815",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b5-b57ab45": {
+      "zh": "为数据处理、分析和可视化所创建的代码可根据请求提供。",
+      "sourceTextHash": "400fe9f19b2dc07ff962ca6150efa670a1103e6aea4569bb21cefe57913e27c3",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b6-7624b43": {
+      "zh": "1. 租赁,H.等人,《探索多功能农业:综合过渡框架的概念方法和前景审查》,J. Environ.Manag. 90、112-123(2009年)。",
+      "sourceTextHash": "b9f4a0e36d6c31cdd627263d9b9cce8404db0f5cc85701046dd738940bc9463d",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b7-b42d2de": {
+      "zh": "2. DeFries, R. et al. 《可持续农业的协同作用和权衡:印度中部谷物作物的营养产量和气候抗御能力》Glob. Food Sec. 11、44-53(2016)。 3. Seppelt、R.、Lautenbach、S. & Volk、M. Seppelt、R.、Lautenbach、S. & Volk、M.查明生态系统服务、土地使用和生物多样性之间的权衡:请求在不同空间尺度上将情景分析和优化结合起来。 Curr. Opin. Environ. Sustain. 5, 458-463(2013)。 4. Stooorvogel、J. J.、Antle、J. M.、Crissman、C. C. & Bowen、W. 交易分析模型:农业生产系统的综合生物物理和经济建模。 Agric. Syst. 80、43-66(2004) 5. Antle、J. M. & Valdivivia、R. O.对促进可持续研究和发展的农产食品系统的权衡分析。 Q Open https://doi.org/10.1093/qopen/qoaaa005 (2021))。 6. Kanter, D. R. et al. 评价可持续发展时代农业交易情况。 Agric. Syst. 163, 73-88 (2018). 7. Groot, J. C. J. J. 等人。 关于建模对多功能农业的贡献:从比较中学习:J. Environ. Manag. 90,147-160 (2009)。 8. Klapwijk, C. J. et al. 分析农业系统中的取舍:现状和前进的道路。 Curr. Opin. Environ. Sustain. 6, 110-115(2014)。 9. Lautenbach, S. et al. Lautenbach, S. et al. Loyvenbach, 在生态系统服务研究和执行方面的挑战中的盲点。Reg. Environ。10. Cash、D.W.et al.和跨规模动态:多层次世界的治理和信息。Ecol. Soc. https://www.jstor.org/stable26265993(2006年)。 11. Gibson、R.B. 可持续性评估:实用方法的基本组成部分。《影响评估》,Proj. Apprais. 24,170-182(2006年)。 12. Cash、D.W等人等可持续发展知识系统。 Natl Acad. Sci. 美国100,8086-8091(2003年)。 13. Anderson, J. R. R. 农村发展风险:管理人员和决策者的挑战。 Agric. Syst. 75, 161-197 (2003年)。 14.Hardaker, J. B., Lien, G., Anderson, J. R. & Huernne, R. B。应对农业风险:应用决策分析(Cabi,2015年)。 15. Uusitalo, L., Lehikoinen, A., Helle, I. & Myrberg, K. 《决定支持中确定性模型不确定性评估方法概览》, Environ, Model. Softw. 63, 24-31 (2015年)。 16. Thornton, P.K.等人. 气候智能农业研究优先事项制定框架。 Agric. Syst. 167, 161-175 (2018年)。 17. Jones, J. W. et al. 努力开发新一代的农业系统数据、模型和知识产品:农业系统科学现状。 Agric. Syst. 155, 269-288 (2017年)。Prestele, R. & Verburg, P. H. 被忽略的气候智能农业的空间层面。Glob. Change Biol.26, 1045-1054 (2020年). 20. Ewert, F.等人等人,为综合评估气候变化对粮食生产造成的风险而进行的作物建模。Environ, Model. Softw. 72, 287-303(2015年)。 21. Norström, A. V.等人, 等人。 可持续研究知识共同生产原则。 Nat. Sustainable. 3, 182-190 (2020年)。 22. Seppelt, R., Dormann, C.F., Eppink, F. V., Lautenbach, S. & Schmicht, S. Lautenbach, S. and Schmict, S., L. 生态系统服务研究的数量审查:方法、缺陷和前面的道路。J. Appl. Ecol. 48, 630-636 (2011年)。Bostian, M., Whittaker, G., Barnhart, B., Fare, R. & Grosskopf, S. 重视不同空间尺度的水质取舍:采用双层优化的综合方法;Water Res. Econ.11, 1-12(2015年)。 24. Popp, A.等人. 生物能源在减缓气候变化方面的经济潜力,特别注意对土地系统的影响。 Environ, Res. Lett, https://doi.org/10.1088/1748-9326/6/3/034017(2011)。",
+      "sourceTextHash": "d7cfa6c9f228f949ed6bec43ec41765b15408402f1fb6e07605769a80fb31740",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 6,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p10-b0-d1ef6d3": {
+      "zh": "自然食物 2024年3月5日211 -220",
+      "sourceTextHash": "2612986c27d7713780a5b2fb00b49fc3e9bda1c2b0131d34bde00dc49e421918",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b2-bd59267": {
+      "zh": "25. Hayha, T., Franzese, P. P., Paletto, A. & Fath, B. D. 评估、估价和绘制阿尔卑斯森林生态系统服务图。 Ecosyst. Serv. 14, 12-23(2015年)。 26. Maraseni, T. An-Vo, D. A., Mushtaq, S. & Reardon-Smith, K. 碳智能农业:综合区域办法为增加利润和资源使用效率及减少排放提供了巨大潜力。《普林斯顿生态指南》(编辑:Levin, S. A.等人)第573-670页(Princeton Univin. Press, 2012)。 29. Sanon, S., Hein, T., Douven, W. & Winkler, P.量化生态系统服务权衡:维也纳城市洪泛的案例,奥地利。 J. Environ. Manag. 111, 159-172 (2012)。 30. Wright, L. A., Kemp, S. & Williams, I. \" Carbon足迹 \" :走向一个普遍接受的定义。Carbon Manag. 2, 61-72 (2011). 31. Chapagain, A. K. & Hoekstra, A. Y. 摩洛哥和荷兰的水资源足迹:农业商品国内消费造成的全球用水问题。F. & Meyfroidt, P. 全球土地使用变化、经济全球化和迫在眉睫的土地稀缺状况。 Proc. Natl Acad. Sci. 美国108, 3465-3472 (2011)。 33. Hoghman, Z.等人. Hoghman, Z.等人. Croping系统产量差距可以通过在亚热带澳大利亚旱地地区进行更优化的轮换来缩小。 Agric. Syst. 184, 102896 (2020年)。36. D ' Odorico, P. et al. 《全球粮食-能源-水的关联》,Rev. Gephy. 56, 456-531(2018年)。 37. Fibly Consortium, 《可持续土地使用和粮食系统的途径》,2020年《Fible Consortium的报告》(国际应用系统分析和可持续发展解决方案网络研究所,2020年);https://doi.org/10.22022/ESM/12-20201689638。传说,P. & Luntingre,L. Nummerical Echology(Elsevier,2012年)。 R核心小组:用于统计计算的语言和环境。R套件4.1.2。https://www.R-project.org/(2021)。 42. Wickham, H. et al. 欢迎来到整洁世界。J. OpenSource Softw.https://doi.org/10.21105/jos.01686 (2019年)。 43. Galili, T. dendextend:关于可视化、调整和比较等级分组树木的R套件。生物信息学31、3718-3720(2015年)。 44.Maechler、M.、Rousseeuew、P. Struyf、A.、Hubert、M. & Hornik、K. C组群集:集群分析基础和扩展。R包件 2.1.2 (2021年) 45。Oksanen, J. et al. vegan:社区生态一揽子方案,R包2.5-7版本,https://CRAN.R-project.org/package=vegan(2020年)。",
+      "sourceTextHash": "0612ffbd667d57bd16bbd3ea0159eb2c9622d15bd42b99a2794103a2d4925f85",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 6,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p10-b3-8830e1f": {
+      "zh": "46. Kolde, R. pheatmap: 漂亮的热图,R包件1.0.12版本",
+      "sourceTextHash": "ccc61ce4ee08bf27bfdac774d2aabdd25723b0a80778204643618fc99ebc4848",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b4-b86a26c": {
+      "zh": "http://CRAN.R-project.org/package=pheatmap(2019年)。",
+      "sourceTextHash": "b86a26c2108544dba812b4f4cd317d07a0387c2d7d8a32e8f19e77db6cec1a94",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b5-1492852": {
+      "zh": "我们感谢R.Seppelt先生对初步方法的评论。这项工作是国际农业研究磋商小组的根、土伯尔斯和香蕉研究方案(RTB)以及国际农业研究磋商小组的一个倡议 \" Nexus Gaines -- -- 实现水、能源、粮食和生态系统等多重惠益 \" 和 \" 自然积极解决办法 \" ,以及所有通过向国际农业研究磋商小组和一个国际农业研究小组基金捐款支持这一研究的捐助者一起完成的。关于一个国际农业研究小组基金的捐助方名单,请见http://www.cgiar.org/our-funders。这项研究部分由美国国际开发署(美援署;AID-BFS-G-11-0002)资助,作为美国政府为未来倡议提供食物的一部分。本条款的内容是生产组织的责任,不一定反映美援署或美国政府的意见。",
+      "sourceTextHash": "61fd0df412ad56ae2cd781e6cf205d532f24c9d9459e08094c9700829e4bdb68",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p10-b6-6db84bf": {
+      "zh": "作者T.S.B.构想和设计了这项研究,领导并进行了审查和数据分析、解释和写作。 N.E.-C.为研究的设计、解释和写作作出了贡献。 A.P., E.G.和B.J.对解释和写作作出了贡献。 J.C.J.G.为研究的设计、分析、解释和写作作出了贡献。",
+      "sourceTextHash": "23cfd4231cbd8d28cdcd7a0e48cf9cc2ded77e70dcce0b847f7227f2a30e1381",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b7-3a3ef11": {
+      "zh": "来文人宣布,没有相互竞争的利益。",
+      "sourceTextHash": "13079032e104034409c32971cd48831f02da6ef91c16002d3596ef3c34629dab",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b8-ecf34e7": {
+      "zh": "本文可在https://doi.org/10.1038/s43016-024-00926-x查阅扩充数据。",
+      "sourceTextHash": "79cdf5a9fe49854a2a822237d2ffdb7a3751aba1c77d71366cfba8b9f74ee564",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b9-f97e10a": {
+      "zh": "在线版载有补充材料,可在https://doi.org/10.1038/s43016-024-00926-x上查阅。",
+      "sourceTextHash": "2382584621024ef26e41e03bae8c2290c96f1224eccc3bea073d88fba8432ff4",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b10-f11c442": {
+      "zh": "信函和索取材料的请求应向Jeroen C. J. Groot提出。",
+      "sourceTextHash": "b95d27921ababc5a1ea2f7aeeea1cc80ab6caf95cc029f0d3d97b51a913c9994",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b11-1240ba6": {
+      "zh": "同行审议信息 \" 自然粮食 \" 感谢John Atle和Emma Stephens对这项工作的同行审议所作的贡献。",
+      "sourceTextHash": "9e85b23d2a547fb3a7e8774dc3b7c544f540e11c9d84dcc55a55e421d5b7d120",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b12-1797dc3": {
+      "zh": "可在www.nature.com/reprints上查阅重印和许可信息。",
+      "sourceTextHash": "890c78ec81896094970809fc9b972d1c54161a42dc132bc175f55b6a51f336f0",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b13-444b3f1": {
+      "zh": "出版商的《Springer Nature》说明对已公布的地图和机构附属关系中的管辖要求保持中立。",
+      "sourceTextHash": "1ed8c6ffcc95634401f21620f358412fdd155f4e7cdeba80337d7ef7033f6b34",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b14-daa974e": {
+      "zh": "本文是根据创用CC授权4.0国际许可证获得许可的,该许可证允许以任何媒介或格式使用、分享、修改、分发和复制,只要您给予原作者和来源适当的信用,提供与创用公共许可的链接,并注明是否作了改动。本条款中的图像或其他第三方材料被列入文章的创意公共许可中,除非在材料的信贷额度中另有说明。如果物品的创用公共许可中没有列入材料,且法定条例不允许或超出允许的使用范围,则您需要直接从版权持有者那里获得许可。查看该许可的副本,请访问http://creativecommons.org/licenses/by/4.0/。",
+      "sourceTextHash": "a8ece392640b1bc02f84bd996af2749911de7be2232414e8bd7e5accf5c69ce4",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b15-a233c8c": {
+      "zh": "作者 2024年",
+      "sourceTextHash": "a233c8c9186f2a0328c609a418fa3ee8131e895c09591101d712416a914474a4",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b0-bc0946c": {
+      "zh": "自然食品",
+      "sourceTextHash": "bc0946c6e6ef4b1412cbd888465d5b2b54f2c39527ea9b08be66aa54958ef083",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b3-66d8ab7": {
+      "zh": "按出版年份(a)及其累积分布(b)分列的文章数量。",
+      "sourceTextHash": "66d8ab7f2e9379b6e0c7861316354862cc5513fbb956b2cf4e55997885b4d4f6",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p12-b0-bc0946c": {
+      "zh": "自然食品",
+      "sourceTextHash": "bc0946c6e6ef4b1412cbd888465d5b2b54f2c39527ea9b08be66aa54958ef083",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b1-47eb228": {
+      "zh": "http://doi.org/10.1038/s43016-024-00926-x",
+      "sourceTextHash": "58266aaa62d9f31eb7e2e86d2e2bec896555022f898a82de92af9d1a56c60f91",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b3-ea5cbf4": {
+      "zh": "考虑的取舍分析指标数字,文章按(a)项所列TOA指标数逐条累计分布情况。 按图2所述主要案文(b)按类别分类的TOA指标数的频率(%)。",
+      "sourceTextHash": "b30e0425fddeba6ddb26ff6f3097f25c66febea31f414e586eb0adb784dc6855",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b1-04a6d9f": {
+      "zh": "2020年4月的报告摘要",
+      "sourceTextHash": "5b22652d6bd987ffcf0ddc1584b26cc754ae6f9f8c47fb2b36514d2941513df1",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b3-776457f": {
+      "zh": "相应作者: JCJ Groot, jeroen.groot@wur.nl",
+      "sourceTextHash": "f57bb6fc77d19b72ca0315297f3cdb38516f4dcd405083f6806964d6f970de5e",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b4-c593311": {
+      "zh": "作者最后一次更新:2024年2月14日",
+      "sourceTextHash": "c59331171cf88e0467b3c9b78b6ae420ae039f712f5ff88a27536afac6ed541d",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b5-9b41cf5": {
+      "zh": "报告摘要",
+      "sourceTextHash": "9b41cf5d1eb00bd7ad17290b11d2d6dd6e9bc00e9aa1fbb030f0d63eaa9982ed",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b6-e903f81": {
+      "zh": "自然研究希望改进我们出版的作品的可复制性,该表格提供了报告的一致性和透明度结构,关于自然研究政策的进一步资料见我们的编辑政策和编辑政策核对表。",
+      "sourceTextHash": "ee22caecffc1747c677b7a61b7de851d877b306717f2bc56b946e7e8b169f658",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b7-a656107": {
+      "zh": "统计统计统计",
+      "sourceTextHash": "a656107e99c71dea1ba101ea816e3886370b68ca9f9ac8e5b2d79c6ffddd70a1",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b8-397c12d": {
+      "zh": "对所有统计分析,确认图例、表格图例、正文或方法一节中列有下列项目。",
+      "sourceTextHash": "397c12d817b50ccd2383af4d05db2fca3128fc9ff449e0e6cb4236b3327d6dd1",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b9-0131431": {
+      "zh": "已确认",
+      "sourceTextHash": "0131431ae750c287f6c534580c0221bb9bb1e71d6e171ffa53b2907c55c93d33",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b10-c0350f4": {
+      "zh": "每种试验组/条件的精确样本大小(n),以离散编号和计量单位表示",
+      "sourceTextHash": "c0350f41b2effe73d78a81572a694fd11ed8676e86b6056d4de55a7b6d4b56ef",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b11-83d55cb": {
+      "zh": "说明是否从不同样本中进行测量,或同一样本是否反复测量",
+      "sourceTextHash": "83d55cb87170b59912e612cca6c50c9ac1683ebf96319d168415f81af9ebe0cc",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b12-9208874": {
+      "zh": "所使用的统计测试以及它们是否是单向的还是双向的。 只有通用的测试应该仅用名称来描述;在方法一节中描述更为复杂的技术。",
+      "sourceTextHash": "cebbffa538037ce7a3e1fa434f4a9b0c3f40ad8257a9baebfefb4bb9b932a407",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b13-9095eee": {
+      "zh": "描述所有测试的共变量",
+      "sourceTextHash": "9095eee57eb59fbfaa12be4822f07b2a49c578c7b35a83c2c366cb962067463e",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b14-9d19f87": {
+      "zh": "说明任何假设或更正,例如正常度测试和调整以进行多次比较",
+      "sourceTextHash": "9d19f873ca5b21542e74bf4241bfdc571ee5b720808580eca4d5ce04882f5ae6",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b15-0842771": {
+      "zh": "全面描述统计参数,包括中心趋势(例如方法)或其他基本估计(例如回归系数)和变异(例如标准差)或相关的不确定性估计数(例如信任期)",
+      "sourceTextHash": "8fe0f64ea1b334ffb8cbff7f670358db58b111bca0d37220bfad1478622f1416",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b16-9c1aae4": {
+      "zh": "就无效假设测试而言,试验统计(如F、t、r)带有互信间隔、影响大小、自由度和P值,在适当时作为准确值注明 \" 给予 \" 的数值。",
+      "sourceTextHash": "b710259aa483e44d5721c7d6bc062a9cc52c37311e09f52d5f2053da290dcac8",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b17-7d4c72d": {
+      "zh": "关于Bayesian分析,关于选择前科和Markov连链Monte Carlo设置的信息",
+      "sourceTextHash": "7d4c72d7463dca00bd639cc09abd234a0e9cf8a06c9a0db5eaf7a0a64141f4ba",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b18-0b1cb8d": {
+      "zh": "对于等级和复杂结构的设计,确定适当的测试水平并全面报告结果",
+      "sourceTextHash": "0b1cb8d8453f199a7f85afd17746de515bbfa47ecb1d5d383dd3eca90679289d",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b19-562ea96": {
+      "zh": "估计效应大小(例如Cohen's d, Pearson's r),说明如何计算",
+      "sourceTextHash": "562ea96e3f679b829d4ab02aa5ba2d24de6221e22428e75260a92bdb1cb8718d",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b20-09f65ab": {
+      "zh": "我们为生物学家收集的网络统计数据载有关于上述许多要点的文章。",
+      "sourceTextHash": "09f65ab7ca81d90d53c1e020cab210d965999934e298a3ed0d0629934a178b6d",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b21-f15be01": {
+      "zh": "软件和代码",
+      "sourceTextHash": "f15be011323336252fd16305c0ba3931eefb5c6aba04e2f87178ecdc6317298d",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b22-385636c": {
+      "zh": "关于计算机代码可用性的政策信息",
+      "sourceTextHash": "385636cd9017b31038caeab4c1b7e29442c532296546ab069195dd7e5ad3afd1",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b23-7cf556d": {
+      "zh": "数据收集标准记录在Microsoft Office Excel(2021年)的表格中,作为补充数据集提供。",
+      "sourceTextHash": "590d410ccb119a428a3277e58e703321a99af5569e43dfe67c333d638292184a",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b24-1b4729c": {
+      "zh": "系统审查期间收集的数据在R.数据处理、可视化和分析中经过进一步分析和可视化,使用了以下R包件:整形、下延伸、集群、素食和热谱,详情请见方法一节最后一段和参考部分。",
+      "sourceTextHash": "e08c6e790c2cc92331f937440afb03f1a03a781a1ff2b458670ae779598786e3",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b25-54df025": {
+      "zh": "对于使用对研究至关重要但尚未在出版的文献中加以描述的定制算法或软件的手稿,必须向编辑和编审提供软件。我们强烈鼓励在一个社区储存库(例如GitHub)进行代码记录。见提交代码和软件以供参考的自然研究准则。",
+      "sourceTextHash": "80a729d5ef72fbc743dc2703aa7614f09b95ec41c9ada266519a7ed3c29c784d",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b26-cec3a9b": {
+      "zh": "数据数据数据数据数据数据数据",
+      "sourceTextHash": "cec3a9b89b2e391393d0f68e4bc12a9fa6cf358b3cdf79496dc442d52b8dd528",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b27-7c646bc": {
+      "zh": "关于提供数据的政策信息",
+      "sourceTextHash": "7c646bcf93e3dba4944759ef096684e99ae9281bc13bf0654cde3f7ac0480484",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b28-3858e98": {
+      "zh": "所有手稿必须包含数据可用性说明。该说明应酌情提供以下信息:",
+      "sourceTextHash": "3858e988de84bd13c958c8e509fc5ee5ea8f9dc8c6973dd12dc80f37bffece63",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b29-73e04a3": {
+      "zh": "- 加入代码、专用识别码或可公开获取的数据集的网络链接 -- -- 具有相关原始数据的数字清单 -- -- 关于对数据提供的任何限制的说明",
+      "sourceTextHash": "09faf7cebb262521c7a282d1211a112b94a43e86c1981a38728e4f5dfa204f26",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b30-2e618a5": {
+      "zh": "所创建的数据集已作为补充数据集提供。",
+      "sourceTextHash": "2e618a58726e6dd71f2f85eca7cada11ae368e1130e8c3c2e555267c8836247b",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b1-04a6d9f": {
+      "zh": "2020年4月的报告摘要",
+      "sourceTextHash": "5b22652d6bd987ffcf0ddc1584b26cc754ae6f9f8c47fb2b36514d2941513df1",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b2-293152a": {
+      "zh": "具体外地报告",
+      "sourceTextHash": "293152acb3aeb7af402afbe5327b2192bc8cd0bee3346513688d7210fc29cc2f",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b3-da124a9": {
+      "zh": "请在下面选择最适合您研究的内容。 如果您不确定, 请在选择前先读读相应的章节 。",
+      "sourceTextHash": "da124a9c94db0918d60a237e0ef78c23471a197a709f0c76b363b143fa442fc0",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b4-249afe4": {
+      "zh": "生物科学 行为和社会科学 生态、进化和环境科学",
+      "sourceTextHash": "c8ad0adc53bc602bbd1d3a1cff452cc93717e66ae8878f8261a756fa27f16927",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b5-2d23e6f": {
+      "zh": "包含所有章节的文件参考副本见Intystand.com/documents/nr-report-summary-place.pdf。",
+      "sourceTextHash": "2d23e6fed79dbe304ea123b3f7d0b1c602b5a05811cee81212f8a74c726c8ee8",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b6-211fca3": {
+      "zh": "生态、进化和环境科学研究设计",
+      "sourceTextHash": "211fca34477e7ad5c861c91887a3929247135b58ac15c9051bc7e22135979dca",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b7-c4eb5f4": {
+      "zh": "所有研究必须披露这些要点,即使披露是否定的。",
+      "sourceTextHash": "c4eb5f400ec9381155efff9406fb00b320a2d5b9c7fc3a35fe66611d97e5b5b1",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b8-121511c": {
+      "zh": "系统审查农业内部的权衡分析。",
+      "sourceTextHash": "2b185371f431f7655f3f2defe9411151cd77cd904f14192f5f9b5058295e8a6d",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b9-5fb4fd2": {
+      "zh": "研究样本包括科学网络数据库中与我们的搜索字符串相对应的所有经同行评审的文章。",
+      "sourceTextHash": "77aabe057d3188fd57f2b3e537508e436da322a7896f56d678df88481754ce46",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b10-53c12a9": {
+      "zh": "我们使用了以下搜索字符串:“ALL=农业家”和“科学网(14/09/2021)中的““交换分析”或“交换分析”或“交换分析”或“交换分析”来识别进行TOA的英文经同行审查的文章。 我们发现153篇文章的出版日期为1993年至2021年。",
+      "sourceTextHash": "547426acfae750bdcdd9a518db2670a93c35bc5db34d36c958f5756fe2a1e799",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b11-417213b": {
+      "zh": "在审查前,界定了每一篇文章的评价标准;结核病根据标准阅读和评价所有文章(见数据档案中的元数据);评价期间作出的决定也记录在数据档案中的“规则”标签中。",
+      "sourceTextHash": "6d1b3b8f1a0ed6b66f09631d9a09c51640fa5c2c44633782b97c14f2bf333c45",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b12-72fe328": {
+      "zh": "数据收集工作从15-09-2021年一直持续到31-01-2022年,所有文章的阅读和记录日期都是该日。",
+      "sourceTextHash": "2f20e712fe660b095633d5a323e7bf88c1b65f4354813a2f8140a676fee63668",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b13-4229ee6": {
+      "zh": "审查与意见文件被视为非专题性文件,被排除在搜索结果之外;此外,不涉及案例研究的方法文件也被排除在外,导致共抽样列出119条。",
+      "sourceTextHash": "8f657b6752148ec7e45d98d87bc8b6f934a9c506dfba12799d309639e827bfae",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b14-2d602cc": {
+      "zh": "通过使数据文件与数据文件中的说明和决策一起可以查阅,便利了数据的可复制性。 如果需要,我们还可以公布用于分析数据和将结果直观化的R代码。",
+      "sourceTextHash": "2f8c05af2b82e0023184c6219a8148be1ff91b628d4afa7155b355c9ad14dddb",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b15-3392fa5": {
+      "zh": "在下载所有文章后,根据作者姓名按字母顺序进行了评价。",
+      "sourceTextHash": "b6e4de9a0b67f9890b12af0ef66251409877b9d36af1df4f5f76b9e28a7457d7",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b16-9e08adc": {
+      "zh": "我们并不认为我们的研究可以盲目,一种本可以使作者及其所属关系蒙上眼睛的方式,但我们也想利用这一信息调查作者的隶属关系和案例研究地点之间的地理趋势(见样板材料)。",
+      "sourceTextHash": "7baa5e86c718b4a9f79be937f1c8c3c0e7a354c16232be7bc9fad004f11429a7",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b17-24557d6": {
+      "zh": "该研究是否涉及实地工作? 是 否",
+      "sourceTextHash": "e074327c974d357d3fcaf6cb5ab5293aa33ae00ec64af818170615ed91936022",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b18-67136b0": {
+      "zh": "具体材料、系统和方法的报告",
+      "sourceTextHash": "67136b05ec9ea028dfa0e79823b854876731bb84c9e4e849e84ff160e8bf47ee",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b19-37d2526": {
+      "zh": "我们要求作者提供关于许多研究中使用的某些类型的材料、实验系统和方法的信息。 请在此说明所列的每一材料、系统或方法是否与您的研究相关。 如果您不确定列表项目是否适用于您的研究, 请在选择回复之前先读读适当的章节 。",
+      "sourceTextHash": "2c36f1734cc138481bb1c3a8953ef827968306a28ff478f8107c978983bcf9c0",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b20-b7261d9": {
+      "zh": "材料和实验系统",
+      "sourceTextHash": "b7261d9fb323dd780c894da5fa04370c07b91ecfcdc8e0539e38ab5a245a8a8b",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b21-53efce7": {
+      "zh": "未参与研究",
+      "sourceTextHash": "53efce791cae0d049d14c61cb30d0d8e7ca1f23a4434ea11ec0d6c2f34aee33b",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b22-5778864": {
+      "zh": "抗体",
+      "sourceTextHash": "57788647fbc372d65aa2766de1c08a8c3f3f2de9fc1945d43279650c0b6b8ff4",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b23-2980388": {
+      "zh": "Eukaryaty 单元格线",
+      "sourceTextHash": "2980388ecd2c4a3ee6c3e239f01411c1e5332be2892f6c5eb27bf8513aef93ac",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b24-29a6761": {
+      "zh": "白龙学和考古学",
+      "sourceTextHash": "29a676138048a3a9af1848814d332f293a1ed2d682815c33687f92fc0eb080e3",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b25-9c748fa": {
+      "zh": "动物和其他生物体",
+      "sourceTextHash": "9c748fa0583a6d1b047db795ea22ac8d2ad9dacf6d8e6ae5e5ef50cd80779f47",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b26-5f205d1": {
+      "zh": "人类研究参与者",
+      "sourceTextHash": "5f205d144b60a4721a274ee9add5bb20ef51ef222457ae8935cda534c22a5fd4",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b27-d89aa76": {
+      "zh": "临床数据",
+      "sourceTextHash": "d89aa768076543424aaa02b783679fab7d2f4a4efe05553553328bcbb8322a6a",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b28-52fbbc6": {
+      "zh": "值得关注的双重用途研究",
+      "sourceTextHash": "52fbbc6809ad6f9dabdaf9936f7e882e8b94896441c4e76c36681933017d82be",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b29-8696622": {
+      "zh": "方法方法",
+      "sourceTextHash": "8696622f344183c4f73993a175acb8daa6418a5cc29099e5d2d762cba2d6f7f2",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b30-53efce7": {
+      "zh": "未参与研究",
+      "sourceTextHash": "53efce791cae0d049d14c61cb30d0d8e7ca1f23a4434ea11ec0d6c2f34aee33b",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b31-b4c9f2c": {
+      "zh": "CHIP- seq",
+      "sourceTextHash": "b4c9f2c940f0615206d85de77c20345f1149bf53920e2aaeac7033e4860f8c4f",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b32-3adc6dc": {
+      "zh": "流动细胞测量",
+      "sourceTextHash": "3adc6dcfad01e2ecbb1752b4971fb1f80067d7e5dacf200d5d10b983542264a6",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b33-245567b": {
+      "zh": "MRI 基神经成像",
+      "sourceTextHash": "245567b6e54aa80532e0ee3458a04a7c71cebbb1e3a4d9241c64c3e7b0c063af",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    }
+  },
+  "coverage": {
+    "translatedTextBlocks": 315,
+    "totalTextBlocks": 441,
+    "untranslatedTextBlocks": 0,
+    "symbolsRetainedBlocks": 126,
+    "manuallyReviewedBlocks": 0,
+    "machineDraftBlocks": 315,
+    "allNumericClaimsManuallyVerified": false
+  }
+}

@@ -1,0 +1,2091 @@
+{
+  "schema": "paper.translations.v3",
+  "docId": "verdouw-2021",
+  "sourceHash": "6cd910d4ac59ed97e78b6df405d14a08a7265c69e08575f5ab37f013d1f45ca9",
+  "language": "zh-CN",
+  "engine": {
+    "model": "Helsinki-NLP/opus-mt-en-zh",
+    "revision": "c8ce7d3af8eb15938be419f1c4c177dc724ab8ec",
+    "runtime": "CTranslate2 int8 CPU",
+    "review": "machine-draft-with-explicit-curated-overrides"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Agricultural Systems 189 (2021) 103046 Available online 28 January 2021 0308-521X/© 2020 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Digital twins in smart farming Cor Verdouw a,b,*, Bedir Tekinerdogan a, Adrie Beulens a, Sjaak Wolfert a,c a Information Technology Group, Wageningen University and Research, P.O. Box 35, 6700, AA, Wageningen, the Netherlands b Mprise, P.O. Box 598, 3900, AN, Veenendaal, the Netherlands c Wageni",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "sourceCitation": "Verdouw, C., et al. (2021). Agricultural Systems, 189, 103046.",
+  "sourceURL": "https://doi.org/10.1016/j.agsy.2020.103046",
+  "visibility": "public-adaptation",
+  "blocks": {
+    "p1-b6-19af77a": {
+      "zh": "A R T I C L E I N F O",
+      "sourceTextHash": "26585e7990e438d9ef3743295abff1f571d8950a5722ef380dad26976ff0a03a",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b8-c0671f4": {
+      "zh": "A B S T R A C T",
+      "sourceTextHash": "c0671f4edc5af3c59d4e363459c009dcbcf8d91e09e0e06c138219ded7f82d22",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p2-b1-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 2,
+      "flags": []
+    },
+    "p3-b1-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 3,
+      "flags": []
+    },
+    "p4-b1-4b22777": {
+      "zh": "4",
+      "sourceTextHash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p5-b1-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b13-ce1d734": {
+      "zh": "PLC",
+      "sourceTextHash": "ce1d73449bd71b54041bdc80b384660873ef5dec872ff613a0a9a291994b15a1",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b14-dea4fbf": {
+      "zh": "Dur˜ao et al., 2018",
+      "sourceTextHash": "d36ad4aed28bd56c4a9182671efcee7e28ea5718b4ed64c8d80a1a42ff1ae2a5",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b16-ce1d734": {
+      "zh": "PLC",
+      "sourceTextHash": "ce1d73449bd71b54041bdc80b384660873ef5dec872ff613a0a9a291994b15a1",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b19-ce1d734": {
+      "zh": "PLC",
+      "sourceTextHash": "ce1d73449bd71b54041bdc80b384660873ef5dec872ff613a0a9a291994b15a1",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b21-5aa5a4a": {
+      "zh": "IoT",
+      "sourceTextHash": "5aa5a4a0e913f4cc927d442bdd747b771629681433ae18f018f05f0c6fa097dd",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b24-ce1d734": {
+      "zh": "PLC",
+      "sourceTextHash": "ce1d73449bd71b54041bdc80b384660873ef5dec872ff613a0a9a291994b15a1",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b27-5aa5a4a": {
+      "zh": "IoT",
+      "sourceTextHash": "5aa5a4a0e913f4cc927d442bdd747b771629681433ae18f018f05f0c6fa097dd",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b29-5aa5a4a": {
+      "zh": "IoT",
+      "sourceTextHash": "5aa5a4a0e913f4cc927d442bdd747b771629681433ae18f018f05f0c6fa097dd",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b32-ae23456": {
+      "zh": "PLC/IoT",
+      "sourceTextHash": "ae2345643989cbe42bfcfa87d956859514f5702bb04866de3398276181f9d10f",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b34-5aa5a4a": {
+      "zh": "IoT",
+      "sourceTextHash": "5aa5a4a0e913f4cc927d442bdd747b771629681433ae18f018f05f0c6fa097dd",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b37-ce1d734": {
+      "zh": "PLC",
+      "sourceTextHash": "ce1d73449bd71b54041bdc80b384660873ef5dec872ff613a0a9a291994b15a1",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b42-5aa5a4a": {
+      "zh": "IoT",
+      "sourceTextHash": "5aa5a4a0e913f4cc927d442bdd747b771629681433ae18f018f05f0c6fa097dd",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b45-5aa5a4a": {
+      "zh": "IoT",
+      "sourceTextHash": "5aa5a4a0e913f4cc927d442bdd747b771629681433ae18f018f05f0c6fa097dd",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p6-b1-e7f6c01": {
+      "zh": "6",
+      "sourceTextHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p7-b1-7902699": {
+      "zh": "7",
+      "sourceTextHash": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p8-b1-2c62423": {
+      "zh": "8",
+      "sourceTextHash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p9-b1-19581e2": {
+      "zh": "9",
+      "sourceTextHash": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "status": "verbatim-symbols",
+      "page": 9,
+      "flags": []
+    },
+    "p10-b1-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 10,
+      "flags": []
+    },
+    "p11-b1-4fc82b2": {
+      "zh": "11",
+      "sourceTextHash": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+      "status": "verbatim-symbols",
+      "page": 11,
+      "flags": []
+    },
+    "p12-b1-6b51d43": {
+      "zh": "12",
+      "sourceTextHash": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+      "status": "verbatim-symbols",
+      "page": 12,
+      "flags": []
+    },
+    "p13-b1-3fdba35": {
+      "zh": "13",
+      "sourceTextHash": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+      "status": "verbatim-symbols",
+      "page": 13,
+      "flags": []
+    },
+    "p14-b1-8527a89": {
+      "zh": "14",
+      "sourceTextHash": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+      "status": "verbatim-symbols",
+      "page": 14,
+      "flags": []
+    },
+    "p15-b1-e629fa6": {
+      "zh": "15",
+      "sourceTextHash": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
+      "status": "verbatim-symbols",
+      "page": 15,
+      "flags": []
+    },
+    "p16-b1-b17ef6d": {
+      "zh": "16",
+      "sourceTextHash": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+      "status": "verbatim-symbols",
+      "page": 16,
+      "flags": []
+    },
+    "p17-b1-4523540": {
+      "zh": "17",
+      "sourceTextHash": "4523540f1504cd17100c4835e85b7eefd49911580f8efff0599a8f283be6b9e3",
+      "status": "verbatim-symbols",
+      "page": 17,
+      "flags": []
+    },
+    "p18-b1-4ec9599": {
+      "zh": "18",
+      "sourceTextHash": "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a",
+      "status": "verbatim-symbols",
+      "page": 18,
+      "flags": []
+    },
+    "p19-b1-9400f1b": {
+      "zh": "19",
+      "sourceTextHash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767",
+      "status": "verbatim-symbols",
+      "page": 19,
+      "flags": []
+    },
+    "p1-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b2-134af46": {
+      "zh": "《作者》,Elsevier Ltd出版。 这是根据《CC BY许可法》(http://creativecommons.org/licenses/by/4.0/)开通的文章。",
+      "sourceTextHash": "d2fe0c82ed9cea32db7a649ae3390d08694538ddb3887f9b1b09e70e5ce4040f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b3-b541509": {
+      "zh": "智能农业数字双胞胎",
+      "sourceTextHash": "b541509c0cfb2047a7b2021c654e3701c5e6ed2df08a3d022ddf240a061c7b33",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b4-f98b69c": {
+      "zh": "Cor Verdouw a,b,* Bedir Tekinerdogan a, Adrie Beulens a, Sjaak Wolffert a, c, c, c, c, c, a, a, a, a, a, a, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, A, B, B, B, B, B, B, B, B, B, B, B, B, B, B, B, A, A, A, A, A, A, A, A, A, A A A A, A A, A, A, A, A, A, A, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, C, A, C, A, S, S, S, S, S, S, S, , S, S, A, A, S, A, A, A, C, S, A, S, , A, A, S, S, , S, S, S, S, S, S, , A, A, S, S, , S, S, S, , , S, S, , S, , , S, , S, S, S, , , S, , , , C, , , C, A, A, C, C, A, C, C, A, A, , , , , A, , , A, A, , , , , , , , , , , A, , , , , , A, A, , , A, A, , , , , , , , , , S, , , , C, S, , , , , , C, , , C, C, C, S, , C, C, , , C, , C, , , , , , , , ,",
+      "sourceTextHash": "f98b69c853c570c3bfd7705d065e5fb57c754122e6cf891a0f5f3c20e35acd27",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b5-828f64c": {
+      "zh": "a 信息技术小组,Wageningen大学和研究,P.O.Box 35,6700,AA,Wageningen,荷兰企业,P.O.Box 598,3900,AN,Veenendaal,荷兰工资经济研究,Wageningen大学和研究,P.O.Box 35,6700,AA,荷兰工资ningen",
+      "sourceTextHash": "d59578c8c2d841bcc991e98d8a5ec08afd22e92988e6eb2cb4ea27abab7843b4",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b7-0bee9fa": {
+      "zh": "关键词:农业管理系统遥感和控制",
+      "sourceTextHash": "b639da3869cc3354c95ec001b910ea2c5d7f6560cd8017e7a7dc0cbf95f73c45",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b9-de7f38d": {
+      "zh": "数字双胞胎非常有希望将智能农业提高到新的农业生产力和可持续性水平。数字双胞胎是真实生命物体的数字等同物,它反映自己的行为并在虚拟空间中说明其一生的状况。把数字双胞胎作为农场管理的核心手段,可以使实物流动与其规划和控制脱钩。因此,农民可以利用(近距离)实时数字信息管理远程操作,而不必依靠现场的直接观察和人工任务。这使得他们能够在(预期的)偏离时立即采取行动,并模拟基于实际生命数据的干预措施的效果。本文分析了数字双胞胎如何推进智能农作。文件界定了这一概念,发展了不同类型的数字双胞胎类型,并为设计和实施“数字双胞胎”提出了概念框架。该框架包括一个基于一般系统方法的控制模式和一个基于物-建筑(IoT-A)互联网的数码双系统实施模式,这是一个国际物-建筑(IoT-A)系统的参考结构,该框架适用于欧洲IoF2020项目的五个智能农作使用案例,并得到了验证,重点是可耕地、奶制品种植、温室园艺、有机蔬菜种植和畜牧业。",
+      "sourceTextHash": "e6ea21bc30a587c7de30d661b5503e1ca9e5be01f036b0382f6e128a16b68640",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": []
+    },
+    "p1-b10-6e62ee8": {
+      "zh": "1. 导言",
+      "sourceTextHash": "6e62ee82e3df2a7dfcaba91e18eab2a77c9c7f7b4a5dceb49528346078b636d2",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b11-8504bf0": {
+      "zh": "如果没有可靠和最新的农业经营信息,现代农业生产是不可能的。农场越来越依赖数字技术,如遥感和监测装置、先进分析器和智能设备。农业生产正在迅速向智能农作系统转变,其驱动因素是云计算、物联网、大数据、机器学习、增强现实和机器人等技术发展的快速步伐(Jansen等人,2017年;Tzounis等人,2017年;Wolfert等人,2017年;Kamilaris和Prennafeta-Boldú,2018年;Zhai等人,2020年)。智能农作可被视为精密农业的下一阶段。 在这一阶段中,管理任务不仅基于准确的地点数据,而且还基于背景数据、情况认识和事件触发(Balafoutis等人,2017年;Wolfert等人,2017年)。智能农耕系统可以被视为一个网络-物理控制循环,它无缝地结合了所有相关农业过程的遥感和监测、智能分析和规划以及农场经营的智能控制。 在智能农耕系统中,农民可以根据(近于)实时数字信息而不是数据信息远程监测和控制操作。",
+      "sourceTextHash": "bb05f0dd02d18e82e39cc309754613db73aae3fa732a9fd5dbc0ba6ea3ff73b1",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": []
+    },
+    "p1-b12-7bc2874": {
+      "zh": "现场直接观察和手动任务。 因此, 如果有问题或预计会出错, 农民会自动获知情况。 在他们的办公桌或智能手机后面, 他们可以通过查看有关植物、动物或机器的丰富数字图像来检查实地状况或稳定局势。 同时, 机器学习算法能通过针对特定对象的分析和咨询来增强数字视图; 农民可以模拟纠正和预防行动并评估其对数字代表的影响。 最后, 选择的干预可以远程执行, 农民也可以使用数字视图再次核实( 预期)问题是否得到解决。 还可以预期这种智能农场管理周期将逐渐变得自主, 没有农民的手工干预。 总之, 你可以说, 农场中的每个物体( 如作物、 田径、牛、设备) 都在虚拟化之中, 并且可以更加远距离地控制。 数字双对描述这一发展具有吸引力的比喻。虽然数字双星有多个定义, 但后文将讨论-a 数字双星基本上是一个真实生命物体的数字等同物, 它反映自己的行为和在虚拟空间中一生的状态(Boschert and Rosen,2016年;Grieves and Vickers,2017年)。",
+      "sourceTextHash": "854c0096316913f1f1f9717fcc6da2d95b5b6be90bc624fe8040b508b7b3e6d6",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": []
+    },
+    "p1-b13-9583383": {
+      "zh": "* 通讯作者:信息技术组,Wageningen大学和研究,P.O. Box 35,6700,AA,Wageningen,荷兰,电子邮件地址:cor.verdouw@wur.nl(C. Verdouw)。",
+      "sourceTextHash": "31c6d7293f313d833d473d870107839cb406f42287312282ed17b6f91a664f0a",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b15-b0658ce": {
+      "zh": "在 ScienceDirect 上可用的内容列表",
+      "sourceTextHash": "b0658ce9dccc0acba9a472c2bb992cc9ba72c28f2ffb7146782e56fa3025b55b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b16-fb1fca0": {
+      "zh": "农业农业系统",
+      "sourceTextHash": "fb1fca0791ac2c307fb3dbd5dc6c9b3440cf2b289b649eaf98034c7bae6e0f8c",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b17-a2a80ca": {
+      "zh": "网址:www.elsenvier.com/locate/agsy",
+      "sourceTextHash": "a2a80caaa46d1d9359df4afce09f99beea9dc58f3c926fb68777d35d627f139f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b19-9b6fb7e": {
+      "zh": "https://doi.org/10.1016/j.agsy.2020.103046 收到2020年5月8日,收到2020年12月19日修订表格;2020年12月23日接受",
+      "sourceTextHash": "fa6622c6e0bb72a76b111449ab2ea0b3e64c1876d2f3bd5beb285a9cabe5e99d",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b2-ff4baf0": {
+      "zh": "数字双胞胎消除了有关地点、时间和人类观察的基本限制(Verdouw等人,2015年;Verdouw等人,2016年b)农业不再需要物理距离,从而可以远程和自动化地执行、监测、控制和协调农场作业。这样就可以将实物流动与农场流程的信息方面脱钩。数字双胞胎还可以用人类感官(例如传感器和卫星数据)或其他信息拥有者提供的数据无法观测(或不准确)的信息来丰富。 此外,数字双胞胎的一个重要方面是它能够利用先进的分析工具增加情报。 因此,数字双胞胎不仅代表实际状态,而且还可以分析历史状况和模拟未来行为。因此,基于数字双胞胎的应用如果适当同步,使农民和其他利益相关者能够在出现(预期的)偏差时立即采取行动。数字双胞胎非常有希望将智能农业提高到新的农业生产力和可持续性水平。虽然数字双胞胎最近受到很大的兴趣,但开发和实施的良好基础仍在发展之中(Schleich等人,2017年;Jones等人,2020年)。特别是智能农业领域的应用尚处于萌芽阶段(Monteiro等人,2018年;Sreedevi和Santosah Kumar,2020年)。在农场管理方面有一些关于数字双胞胎的研究和案例(如Verdouw和Kruize,2017年;Jo等人,2018年;Monteiro等人,2018年;Kampker等人,2019年;Linz等人,2019年;Sreedev和Santosh Kumar,2020年);Skobelev等人(2020年),但尤其需要进一步研究利用数字双胞胎计划、监测、控制和优化农业流程的管理方面。",
+      "sourceTextHash": "b2f1b7805273df5bc7f9af549f177004d5704c4e5949325f77d21978c5d67a93",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 3,
+      "flags": []
+    },
+    "p2-b3-5737f09": {
+      "zh": "1. 界定概念并采用数字双对模式;",
+      "sourceTextHash": "5737f09818e4c2d9e503323016bf91cdc8bb005aef5bed630b60ba5540e87474",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b4-c6ddfe9": {
+      "zh": "2. 提议一个概念框架,即系统分类概念,用于设计和实施 \" 数字双胞胎 \" ;",
+      "sourceTextHash": "390575377c1d03052d68aa9cf02ccba1defb25a590962d1500f97423e655e40c",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b5-8035d4d": {
+      "zh": "在本文件的其余部分,我们首先在第2节介绍研究方法,下几章介绍我们的研究结果:第3节的域分析界定了数字双子的概念,发展了一个数字双子类型,包括不同的控制能力,并在智能农作中引入了数字双子的使用;第4节介绍了所制定的概念框架,其中包括基于一般系统方法和数字双子系统的赋能信息架构的控制模式;第5节说明了概念框架对欧洲IoF2020项目五个智能农作应用案例的适用情况;其中一种使用案例的控制模型和执行模式有更详细的说明;最后,主要结论摘要和第6节讨论。",
+      "sourceTextHash": "8a4233ed0c0758ca9d96d43672975a8547c99f5ef9e6c372759678cc4692c03b",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b6-a5cfb0a": {
+      "zh": "2. 方法方法",
+      "sourceTextHash": "a5cfb0a75c50466abc0d3dd54069c1979bdc4c520dafd0dab33ffed479612c39",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b7-29c3f67": {
+      "zh": "概念框架的制定通常是一种面向设计的方法,目的是通过建造新的人工工艺来解决某类问题(Hevner等人,2004年;Van Aken,2004年;Van Aken,2004年;3月和Storey,2008年)。本文件中开发的设计艺术是在农场管理方面设计和实施数字双体的概念框架。“数字双胞胎”的概念相对较新、较复杂。案例研究是更好地了解这种复杂现象的一个良好方法,不能在它们丰富的现实世界背景之外加以研究(Benbasat等人,1987年;Eisenhardt,1989年;Yin,2002年)。因此,采用了一个多案研究方法来评价所提出的框架在智能农作方面的适用性。",
+      "sourceTextHash": "d0de90debe18410d53cb49f5215672ccb87d691de62a28f5e8a6198994e23dc8",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b8-4cd4c7c": {
+      "zh": "图1. 采用的研究方法。",
+      "sourceTextHash": "4cd4c7c1c3c713bbdc9b7d83d86abd8a86bd262def50da97899ebe215985406f",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b9-806ab8d": {
+      "zh": "表1 使用案例概览。",
+      "sourceTextHash": "7f203adf09930e569d9108538b007aa9f554b3610e8e744441537b5814a83875",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b10-93f2a2f": {
+      "zh": "试验/部门使用案例(#和名称IoF2020)",
+      "sourceTextHash": "162fc82ae3a3129c93e51f783110675b615612722087681477b70be85d6ea5b9",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b11-bed7bf4": {
+      "zh": "1.1 开发遥感和激活装置并将其与外部数据NL农耕、后勤早期采用者及多数",
+      "sourceTextHash": "c95921cc15bb4d17d0f1785bcebe7c88ba9a03ff83052070d5768a2875fccc40",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b12-d427bf1": {
+      "zh": "2.2 通过3D牛活感测和云机学习技术提高奶牛农场生产力",
+      "sourceTextHash": "8f3ec2d15f040fa5f73a92d36c12691e7e991d38523c787c8b1483859bdfc072",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b13-0c1db4d": {
+      "zh": "4.2 结合价值链和质量创新,在番茄温室中开发一个全传感器活动器系统,整合价值链和质量创新的连锁综合温室气体生产",
+      "sourceTextHash": "a8b5f99c063ed7f75f29acbe6b41266a3bc1662880d887d6d7aca8d2507f684c",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b14-8efbb62": {
+      "zh": "SP 农业、物流、消费",
+      "sourceTextHash": "e7a0765bf8c31edef1ea7fb98449a407e5cccc049026ea6a6c1a3ee66fb9b43d",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b15-71ddbf8": {
+      "zh": "多数或多数",
+      "sourceTextHash": "d430715ffdb4da4cdbc1690910fb48192e2802e986efd947e0afae1dd0ce5c28",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b16-0ba7130": {
+      "zh": "4.3 通过收集高级视觉系统NL(AT农业多数有机)获得的有机蔬菜除草数据,增加增值除网数据,促进价值链。",
+      "sourceTextHash": "9917d823e9b570f2bfe7ec1b99d9862bdebd614ce8078d4e179bfcc17c62fffe",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b17-2eea8fd": {
+      "zh": "5.1 猪养殖场管理,通过可互操作的农场传感器和屠宰场BE、NL农耕、加工、消费数据优化猪产量管理",
+      "sourceTextHash": "058b6c6240e3fa3a735f7012b297b181f38efdd0a0406bfeaa82b0a1dd36c91c",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b18-4e746fd": {
+      "zh": "两者",
+      "sourceTextHash": "5520db96869aae3fa4246f6e12acc920da8c547aff42ea58fc6faad809a6caea",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b19-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b2-e06d2c9": {
+      "zh": "作为欧洲IoF2020项目的一部分,与相关商业伙伴密切配合开展了案例研究(Verdouw等人,2017年);该项目包括19个IoT使用案例,在5次连贯的试验中组织这些案例,目的是应对有关分部门最相关的挑战(Verdouw等人,2019年),我们选定了一些案例,预计这些案例适合于说明数字双概念的使用情况,特别是因为利用IoT技术对真实和虚拟物体进行动态反射;共有5个案例被选为不同农业分部门的代表性(表1)。 更具体地说,研究分为三个阶段(图1):域分析、框架设计和(三)案件应用(图1)。首先,从一项领域分析开始,根据Scopus数据库和Google学者的叙述性文献审查制定关键概念。我们首先搜索了标题中包括数字双双或数字双对的论文。我们选择了彻底界定概念和审查文件的文件。只提到没有更详细定义的“数字双”案例研究被排斥在研究之外。数字双的概念相对较新,因此其含义不同。因此,定义研究确定了文献中关于数字双的主要观点和定义,特别是在产品生命周期管理和物业领域互联网上。根据这一分析,我们开发了一个“数字双”类型,包括不同的控制能力。最后,域分析审查了关于智能农作中使用数字双双的现有文献。在此,我们寻找的文件一方面包括标题中的“数字双”,另一方面包括标题、抽象或关键词中的农业或农业。",
+      "sourceTextHash": "05df48952cf7dee21c03f366f6465c7a0320e25a888a1380881e699665f93220",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 2,
+      "flags": []
+    },
+    "p3-b3-b20d80f": {
+      "zh": "研究不包括非英文和不可查阅的文件。第二,为在农场管理中设计和实施数字双胞胎开发了一个概念框架;本文件侧重于为在智能农作中实施数字双胞胎提供一个健全的概念基础,包括利用数字双胞胎计划、监测、控制和优化农业流程的管理方面;本文的范围之外是制定一个详细的参考架构,用于建模和实现数字双胞胎信息系统。为此原因,该框架包括两个模式类型,从管理角度(控制模式)和信息技术角度(执行模式)代表数字双胞胎的实质。控制模式以一般系统方法为基础。一个控制模型代表了确保实现系统目标所需的控制功能,即使出现干扰,以及这些功能之间的信息流动。根据文献审查,Verdouw等人的物体虚拟化控制模式。执行模式将技术功能分为不同的技术层面,从设备层到应用层,从而提供了对技术结构的概述;根据文献审查,选定IoT-A参考架构作为这种观点的基础(Carrez等人,2013年)。第三,概念框架适用于各种案例。我们通过了Runeson和H ost(2008年)讨论的案例研究经验评估程序。协议包括以下步骤:(1) 案例研究设计(2) 数据收集准备工作(3) 与已研究的案例(4)分析所收集数据(5)报告有关的数据收集工作(3) 实施;表2 为选定的案例介绍了案例研究设计步骤。案例研究的主要目的是了解所提出的数字双体框架在智能农作中的适用性。通过案头研究、使用案件文件以及与每个使用案例的主要设计师进行访谈来收集数据。访谈是根据半结构问卷进行的,调查表包含三类问题:(一) 使用案例定义,包括问题背景、核心思想、目标、发展状况等;(二) 使用案例图绘制,包括主要业务流程、目标目标、目标、使用所设想的系统的主要行为者;以及(三) 使用案例信息架构,包括向最终用户提供的主要功能/服务、不起作用的要求、设想的技术组成部分、可恢复性、隐私/安全、标准使用情况和现有文件。",
+      "sourceTextHash": "aeccca48e5c60852c53293b34271afae7a0f52f80a13d7cd772f380f6f0a05c3",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b5-195f917": {
+      "zh": "图2. 数字双胞胎在产品生命周期中的作用。",
+      "sourceTextHash": "195f917045fb814fea8228cf9642efa87628de3cdaf7ad773d72dc2136bccbe8",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b6-0dacbf0": {
+      "zh": "表2 案例研究设计。",
+      "sourceTextHash": "e189bf7164c48bb83debcc2c75328affc72d1cad213c3152bef6231e8be80cbb",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b7-d336d06": {
+      "zh": "案例研究设计活动",
+      "sourceTextHash": "096b78fe90fb74c21cc7d9e583708dc76aee69268980711aeae600ebe9087e96",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b8-079fe64": {
+      "zh": "评估数字双机制框架在智能农耕研究问题中的适用性:采用的数字双设计方法如何适用? 背景和来源会议和访谈;技术报告;正式项目交付成果 数据收集 根据文件分析数据分析定性数据分析独立收集数据",
+      "sourceTextHash": "839c9bd30230b3512a4bd6b78ad472d230529971f169ed10bc4e14da665efd7d",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b9-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b2-2b6fc91": {
+      "zh": "利用第2阶段设计的概念框架,使用使用案例控制模型和技术层模型,用于使用案例的技术模式。由此产生的具体案例模型由使用案例负责人审查,并由研究分析员反复完善;最后,从案例研究结果中抽取了一般性影响,并纳入该框架;文件的其余部分介绍了上述研究步骤之后的结果。",
+      "sourceTextHash": "0c19127d43cbc092ff0cc746b09c4490d6020e86f784e22359b6c08426a090b0",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b3-d94e1a5": {
+      "zh": "3. 数字双对的定义和类型",
+      "sourceTextHash": "d94e1a57c08919accbbb31535bcbb383dfc42376558b8c69c0a994d86244a2e2",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b4-b30c7c2": {
+      "zh": "3.1. 什么是数字双胞胎?",
+      "sourceTextHash": "b30c7c24b1243878e6b0eee9134bc0f745a5901453c5519198723f57c2f598af",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b5-d003305": {
+      "zh": "产品生命周期管理领域的数字双愿景来源原则(Grieves,2005年)背后的原则(Grieves,2005年)。 从这个角度出发,迫切需要将所有与产品相关的信息纳入一个综合产品管理系统,供任何用户在产品生命周期的任何阶段都可以使用,例如终身性能信息、设计优化和制造系统改进(Philpotts,1996年;Kovacs等人,1998年;Sudarsan等人,2005年;Schleich等人,2017年);建议利用每种实物产品的数码对应方作为管理产品生命周期中产品数据的核心手段。本世纪初,Michael Grieves在向业界的演讲中指出,关于实体系统的数字化信息结构可以独立创建(Grives and Vickers,2017年)。这个虚拟系统包含关于物理系统的所有信息,并且通过该系统的整个生命周期(Grieves和Vickers,2017年)与该物理系统相联系。美国航天局为这一想法引入了数字双概念(Mike Shafto等人,2012年)。 这是一个空间飞行器超高忠诚模拟模型,使地球上的工程师能够反映飞行任务期间实际车辆的确切和实际状况(Glaessgen和Stargel,2012年;Boschert和Rosen,2016年)。实质上,数字双是实物虚拟的数字等同物(Grieves和Vickers,2017年;Fuller等人,2020年)。它们实时和远程连接到真实物体,并提供了这些物体及其背景的丰富描述。这类数字双超越了静态产品设计,如CAD模型,但包括动态行为(Boschert和Rosen,2016年;Grives和Vickers,20177)。数字双胞胎的这种动态性质可能包括真实物体当前行为的表述,但也包括对未来行为的模拟或预测以及历史行为的回忆(Verdouw等人,2015年;Boschert和Rosen,2016年)。",
+      "sourceTextHash": "0f7530237c37f24e7f78f86db70368a349adcb63d717800848b3661ccd104da7",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 3,
+      "flags": []
+    },
+    "p4-b6-45002d0": {
+      "zh": "在物体寿命周期的设计阶段,可以创建一个数字双胞胎,加强发明新产品的创造性阶段并将其发展成一个详细的产品模型(见图2)。 在这一阶段,“数字双”允许对设计决定对降低开发昂贵物理原型需求的产品的质量和功能的影响进行早期和高效的评估(Grieves和Vickers,2017年;Schleich等人,2017年)。在设计阶段之后,进入了一个实体阶段,即数字双诞生的物理阶段。根据设计的数字双星制作了实物物品,并在出现任何偏差时加以更新。在操作使用期间,通过传感器和自动识别装置监测实际产品的现状和历史状况及条件。此外,数字双可以使用动作器远程控制物体。最后,处置阶段是处置物理物体的阶段,但概念对象可能保留一段时间,例如可追溯性、合规性和学习。虽然源于产品生命周期文献,实现数字双胞胎的关键技术是物联网(Marr, 2017年),实际/物理和数字/虚拟物体之间的互动是物质因特网背后的一个基本概念。在互联网中,物理实体拥有数字对应物;事物本身具有背景意识,能够感知、交流、行动、与数字对应方及其他方面互动、交换数据、信息和知识(Sundmaeker等人,2010年)。这些对等物是物理物体的双胞胎,可以在整个寿命周期内与物理物体连接并与之同步(Verdouw等人,2015年;Canedo,2016年;Grives和Vickers,2016年)。互联网作为存储和通信基础设施,对将相关信息与天体联系起来的东西进行虚拟描述(Uckelmann等人,2011年),因此,数字双胞胎是物体信息的中心枢纽,如图3所示,从各种来源不断综合和更新数据,如图3所示(Verdouw等人,2013年);文献中的数字双胞胎的出现产生了产品生命周期和物联网视角的不同定义(见表3),下文对此加以讨论;在IoT文献中,强调了使用遥感技术的物理物体的数字表述;在PLC文献中,重点是在整个寿命周期镜像实际物体,包括模拟预期物体行为。在本文中,我们综合了两种观点并使用以下定义:“数字双对是一个反映其整个生命周期的状态和行为的、能够用来监测、分析和模拟目前和未来状况以及针对这些现状和措施的实际生命物体的动态表达方式。",
+      "sourceTextHash": "1dd578b74695c601d7ebf12ac11b9711245544c0065369cf38a2d01717619d65",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 4,
+      "flags": []
+    },
+    "p4-b8-93389ed": {
+      "zh": "图3. 物联网的数字双胞胎。",
+      "sourceTextHash": "93389ed7fa1456ab609b92854cbecb3d709b23085b39db7127428e222420a432",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b9-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b2-f9d942b": {
+      "zh": "更具体地说,根据表3所列文献,可以探讨数字双胞胎的下列基本特征:",
+      "sourceTextHash": "8b96d58e6d972d90d04be1856af20d48a26abe06f60ec13566399dd4e151de7f",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b3-b571727": {
+      "zh": "• 及时性:数字双胞胎反映实时(近距离)的物理双胞胎,这意味着对实物物体的变化进行(立即)检测并与数字双胞胎同步(Verdouw等人,2015年;Dur ao等人,2018年;Mikell和Clark,2018年;Tao等人,2018年;Knibbe等人,2019年;Park等人,2019年);",
+      "sourceTextHash": "78002d532ff54c338254b23e9870a1f63f0d8ce583d42d56dec04b0384a5393c",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b4-daa13b3": {
+      "zh": "允许盲目信任数字双胞胎进行决策(Verdouw等人,2015年;Dur ao等人,2018年;Tao等人,2018年); • 整合:数字双胞胎综合了物理物体不同方面的数据,并以一致的格式确保趋同(Schleich等人,2017年;Kritzinger等人,2018年;Tao等人,2018年;Park等人,2018年;Park等人,2019年;Park等人,2019年;Shaw和Fruhlinger,2019年); • 情报:数字双胞胎不仅描述物体数据,而且还包括描述、分析或预测其身体双胞胎行为的算法(Glaessgen and Stargel,2012年;Schleich等人,201717年;Dur ao等人,2018年;Kritzinger等人,2018年;Knibbe等人,2019年;Park等人,2019年;Shaw and Fruhlinger,2019年);",
+      "sourceTextHash": "7c72a0f490b2f6b217df6457223213e7ac1e8ba338b4e9b28710b87372959729",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b5-e97af96": {
+      "zh": "此外, \" 数字双胞胎 \" 可考虑多个相互依存的物体以及不同颗粒级的子系统(Glaessgen和Stargel,2012年;Verdouw等人,2016年b;Grieves和Vickers,2017年)。",
+      "sourceTextHash": "b515be90d0e8648f1c4de3ea1de3143a2ea665c96d4c7a98575a773d4d573832",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b6-dbf87fd": {
+      "zh": "3.2. 数字双类型",
+      "sourceTextHash": "dbf87fde5801c1d20475ec9ccf0ff631365573b71df571486f3f86a9fe78171e",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b7-012e0b2": {
+      "zh": "数字双胞胎的焦点在于其生命周期的使用阶段(图2),在这个阶段,数字双胞胎与其实际生命中的双胞胎相连。在这个阶段,数字双胞胎可以用来监测物体的实际状况、规定理想状态、预测未来状态和远程纠正真实生命物体的状况。在使用阶段之前,可以创建数字双胞胎来定义和模拟尚未出生的真生双胞胎的状况和行为。最后,在使用阶段之后,数字双胞胎将保持概念上的活力,并可用于重新收集现实物体的历史状态。结果,我们确定了6个不同的数字双胞胎的类型(基于波特和海伯曼,2014年;Verdouw等人,2015年;Hagerty,2016年;Verdouw等人,2016年b;Grieves和Vickers,2017年;Redelinghuys等人,2019年;Lepenioti等人,2020年):",
+      "sourceTextHash": "e6c7d7c3e64586972147309589598e764889422f9cff0eae4dd02b462612f603",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b8-e08fa65": {
+      "zh": "• 想象数字双星:一个概念实体,描述现实生活中尚不存在的物体;它界定实现物理双胞胎所需的信息,包括功能要求、3D产品模型、材料和资源规格、生产模型以及处置和再循环规格(Verdouw等人,2015年;Grieves和Vickers,2017年)。",
+      "sourceTextHash": "dd93b190b6689519668968230d8f41e768395861b05c776575c301a9996f7d94",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b9-e2775ba": {
+      "zh": "表3 数字双人定义分为两个方面:物联网和产品生命周期;进一步讨论案文。",
+      "sourceTextHash": "268bc27a958f218650e9cc9dd044ad12a85d758af9305a539ffff8d17d9cbe8a",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b10-84249b0": {
+      "zh": "数字双元观点",
+      "sourceTextHash": "ccd7e0b80582b7166ed52a1d263bff42988ece8ca0739509b90badf4d34bac0d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b11-b399b5c": {
+      "zh": "博舍特和罗森,2016年",
+      "sourceTextHash": "244c5223132c7f14adc06e6b1eb95811dc36e5a9b2271cc1da44008d2903b795",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b12-e2cf261": {
+      "zh": "“数字双胞胎”是对一个组成部分、产品或系统的全面的物理和功能描述,其中或多或少包含在目前及以后的生命周期阶段所有阶段都可能有用的所有信息。",
+      "sourceTextHash": "37761735b9e0ac5bafc9d042b972fb993f132fe206d47743acb7b337ec95a71d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b15-3228cb5": {
+      "zh": "数字双星是一个复杂产品的多物理、多尺度和概率模拟模型,它使用更新的传感器和物理模型来反映数字世界的实际生活,反之亦然。",
+      "sourceTextHash": "7475774e18df184d59bcbe29d475932c06720e5ec1ae710a6751f41489a6bb76",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b17-f06f486": {
+      "zh": "Glaessgen和Stargel,2012年",
+      "sourceTextHash": "e5930682b080dafc88905b8aa2c33a3617ff595e71781e89be7f3c4002fc9dda",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b18-0ef0d74": {
+      "zh": "\" 数字双胞胎 \" 是一个综合的多物理学、多尺度和概率模拟工具或系统,使用最佳现有物理模型、传感器更新、车队历史等,反映相应的飞行双胞胎的生活。",
+      "sourceTextHash": "4bc46ac60e06a508ea003e7187996757f343355500ff4f2b21743eafc6cf6ad7",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b20-b3fed0e": {
+      "zh": "Fuller等人,2020年 物理机器和虚拟机器之间数据在任一方向的不遗余力整合。",
+      "sourceTextHash": "90c1a11c881a58c6a93f3ca1d80dc87127a38646cc9e098ee410b51719cd9c64",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b22-f860f47": {
+      "zh": "Grieves和Vickers,2017年",
+      "sourceTextHash": "db4ad52d7fd291e88232e8260ad238a6b50384d4dbe6b8f29bf6b94d67ef4466",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b23-1235afa": {
+      "zh": "数字双星是一套虚拟信息结构,它充分描述了从微观原子到宏观几何层次的潜在或实际物理制造产品。 在最佳情况下,任何通过检查有形生产产品获得的信息都可以从其数字双上获取。",
+      "sourceTextHash": "fd8c2e3a88637e3a2a73849c7b3fe8045e60d19adaa139aba470b1742c46ea10",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b25-88acad3": {
+      "zh": "Knibbe等人,2019年",
+      "sourceTextHash": "36abaa12798109ba76eaf8ab12698a09cd3fb2c501bda4ae9362a1c28b16a28d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b26-5143a85": {
+      "zh": "数字双胞胎是生物和非生物物体和过程的计算表示,可用于描述、分析和模拟这些物体目前和未来的状况和干预措施,使用数据集成、人工智能和机器学习。",
+      "sourceTextHash": "22d79a541e38297b54617f2b900c3e55fcd32e529662d157a67a61cd7dadf081",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b28-e818a1a": {
+      "zh": "2017年的Marr, 2017年的“数字双胞胎”是一个过程、产品或服务的虚拟模型。 通过对虚拟世界和物理世界进行配对,可以分析数据并监测系统,从而在问题发生之前就解决,防止故障,开发新的机会,甚至通过模拟来规划未来。",
+      "sourceTextHash": "a2c38e45e84f4d3fb208707c0d46c41a6eaec898ba3a5a0a48ecf0eb319eae7d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b30-a7bfa8d": {
+      "zh": "麦克和克拉克,2018年",
+      "sourceTextHash": "bf471a7e2356c6c25b6b700c6643e3403832e217a8f884165d4654bc39f0d409",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b31-c77a2bf": {
+      "zh": "“数字双胞胎”是物理物体或系统在其整个生命周期的虚拟代表,它利用实时数据和其他来源促进学习、推理和动态调整以改善决策。",
+      "sourceTextHash": "d392c7466d337a7d1aec59e7dd3d89b656bb8fab5e34fdb02f634bc744584353",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b33-23bac87": {
+      "zh": "Saddik, 2018年《数字双胞胎》是一个活体或非活体实体的数字复制品。 通过连接物理世界和虚拟世界,数据被无缝传输,使虚拟实体与实体同时存在。",
+      "sourceTextHash": "eb81d869738eef3a4f5fc3ca7009a87bf4b4af843403e8ad32e081bd1901c57f",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b35-cced42a": {
+      "zh": "Schleich等人,2017年",
+      "sourceTextHash": "f6dfdf41295931d77d1da6651b10a9c6dd8a484eacc87c8056d7ae50d065e326",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b36-f487da9": {
+      "zh": "“数字双”不是物理产品的完整模型,而是一套相互关联的操作数据人工制品和模拟模型,它们具有适合其预定用途的适当颗粒性,并在整个产品生命周期中不断发展,因此,“数字双”不仅服务于表述目的,而且适用于对预期产品行为作出预测,而模拟模型的颗粒性符合其目的,从早期设计阶段开始演变,在最初设计阶段使用简单的产品模型决定产品概念、详细设计、尖端模拟模型支持部件和子组装的尺寸和设计。",
+      "sourceTextHash": "13597d3c4bfccd7ee8f51b02cd84fb956fe079178ba010bd20a857f589216a51",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b38-c42d2ef": {
+      "zh": "表3(续)",
+      "sourceTextHash": "c42d2efa4d3258d0012cf3e5eb8bca047a29d0f7f8d176eecd09accb8cd1c391",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b39-84249b0": {
+      "zh": "数字双元观点",
+      "sourceTextHash": "ccd7e0b80582b7166ed52a1d263bff42988ece8ca0739509b90badf4d34bac0d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b40-a14f64d": {
+      "zh": "Shaw和Fruhlinger,2019年",
+      "sourceTextHash": "e70ed71c11de00aa41f658514e66b90432cea4c157834ff926a25728331cea8a",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b41-a72903b": {
+      "zh": "\" 数字双胞胎 \" 是一个计算机程序,它把关于物理物体或系统的现实世界数据作为投入,并作为产出生成关于物理物体或系统将如何受到这些输入影响的预言或模拟。",
+      "sourceTextHash": "8c412d86d6747a8bae1a7a3acdfba88d97b00ffbfe5ef84dc03c614751e47ae8",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b43-107df1e": {
+      "zh": "Verdouw等人,2015年",
+      "sourceTextHash": "d1a08545dd3fa15878cc429b50c55fe0756c1804301bb6eea3e0ee1f4daaf7f6",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b44-09a999b": {
+      "zh": "虚拟对象可以定义为“一个具有独特识别特征、可信赖、拥有完整性财产、及时可用并可用于预期目的的物体的数字表示”。",
+      "sourceTextHash": "07f2eae15341983c08cb7aac77bc5f951d1a163aa48c45137e509c4a98405664",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b46-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b2-b22d7b2": {
+      "zh": "还可以模拟在容忍规范(Grieves和Vickers,2017年)之间设计出来的、尚不存在的物体的行为。 监测数字双对:一个实际物理物体的实际状态、行为和轨迹的数字表示。它与它的实物双对连接(近于)实时并用来监测其状况、运行和外部环境。监测数字双对可以是描述性的,提供对相关实物物体发生或发生情况的洞察力,以及诊断性,解释该物体为何与上下文数据有关。 预测数字双:利用统计预报、模拟和机器学习等预测分析方法对未来状态和物理物体的行为进行数字预测。动态预测基于(近距离)物理双胞胎的实时数据进行动态预测。 • 指令性数字双胞胎:智能数字天体,增加智慧,建议对现实物体采取纠正和预防行动,通常以优化算法和专家惯性为基础;指令性双胞胎利用监测和预测双胞胎的产出作为投入,以建议需要采取什么行动方针才能取得有利结果(Hagerty,2016年)。关于建议行动的决定仍由人作出,他们也触发远程或现场实施干预。 • 自动数字双胞胎:自主地全面控制真实生命物体的行为,而不受人类的现场或远程干预。自发性的双胞胎还可以成为自我适应系统,能够了解环境、自我诊断自己的服务需求并适应用户的偏好(Porer and Heppelmann,2014年);Verdouw 等人,2016年b) 回忆数字双胞胎:保持物质物体的完整历史(在现实生活中不再存在),因此,回忆双胞胎形成农场等数字记忆,这种数字双胞胎往往在文献中被忽视,但对于减少处置对环境的影响和优化下一代物体而言越来越重要(Grieves和Vickers,2017年);在耕作方面,回忆双胞胎对于追踪产品来源于食品安全问题和可持续性合规至关重要。",
+      "sourceTextHash": "eb5ef034f43064442264346eb87a4e80427a2edcf2c83ffc3e337e8a9a0b544b",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 3,
+      "flags": []
+    },
+    "p6-b3-0a89fe3": {
+      "zh": "人们应该注意到,上面列出的属性并不是独立的,数字双胞胎不一定属于一个类别,而是可以将不同种类的特点结合起来。 比如,在使用阶段的数字双胞胎可以相互利用对方的能力。 自主的数字双胞胎通常也是个指令性的数字双胞胎,预测型双胞胎通常也包括预测能力,预测型双胞胎也可以包括监测式的数字双胞胎。 到目前为止,我们已经定义了数字双胞胎的概念,并引入了基于产品生命周期和IoT域通用文献的数字双胞胎类型。 在这一部分的其余部分中,我们介绍了智能农业中使用数字双胞胎的情况。",
+      "sourceTextHash": "83a25c09013d82bf5d780501fbafef900a7284566a05eb771704c4bd82db3f2e",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b4-7aa4d28": {
+      "zh": "3.3. 农场管理中的数字双对",
+      "sourceTextHash": "7aa4d28f16cee47e615da380729058a21a3f21881da4bbfe8af850eddd42ab2f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b5-cfb3076": {
+      "zh": "农业生产是一个高度复杂和动态的领域,生产过程具有内在活力,因为它们依赖于天气、疾病、土壤条件、适季性和气候等自然条件(Fountas等人,2013年;Trienekens等人,2014年);此外,农民必须满足消费者和社会在粮食安全、食品安全、可持续性和健康方面的关键需求,因此,农场不仅应效率很高,而且必须符合高质量和环境标准,并应适应不断变化的市场条件;这对农民的管理任务提出了很高的要求(Sørensen等人,2010年;Fountas等人,2013年);他们必须不断重新评估生产战略,并根据对农业经营的及时监测重新规划活动,以实现其目标。",
+      "sourceTextHash": "06ddb6078bc6414625709b088d4c2a995e971792d5067942a0abc36359ad4a32",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b6-0f350d1": {
+      "zh": "如导言部分所述,数字双胞胎可以通过使农场管理的物质和信息方面脱钩而大大增强所需的控制能力(图4)。 然而,在农场管理中实施数字双对是一项具有挑战性的任务,原因至少有三个(至少是 Verdouw 等人,2016年b)。 首先,农业高度动态生产系统(流程动态)的要求超越了其他许多部门,涉及数字双胞胎反映动态行为的能力。 在这样一个充满活力的环境中,在确保数据完整性和尊重使用权、安全和安保的同时获得无缝访问目标数据确实具有挑战性。 此外,在农村地区,实时同步可能变得复杂,因为农村地区的覆盖面和带宽往往有限。 其次,农产品是固有多样且具有复杂行为的特征的活体。 此外,农场对于智能农作并没有一个关注的数字组合,但它们由众多相互关联的物体组成(微复杂性 ) 。包括种子、饲料、肥料或杀虫剂在内的投入,二)包括生产物品(例如种植作物或动物)和包括田野、马厩、机械和人员在内的资源在内的产出,以及三)农业产出,包括收获的(谷类)作物、准备宰杀的牲畜等。 微粒级数字双胞胎,如单个植物或动物,将增加价值,但也更难执行,从而导致更高的成本。在细微颗粒化的情况下,关键的挑战是如何管理不同颗粒水平的数字双胞胎之间的相互依存关系。 第三,农场是一个动态网络的一部分,并与许多利益相关者分享数据,其中包括顾客、投入供应商、农民合作社、顾问、承包商、认证和检查组织(网络动力 ) 。 这些利益攸关者还可能有机会接触农民的数字双胞胎,但仅限于他们需要的信息。这意味着必须有一个能够以可靠和可信赖的方式提供外部获取数字双对具体观点的互通性解决方案。反之,外部利益相关者可以用大量历史和预测气象数据、卫星数据、土壤、水和空气分析等丰富的档案(如历史和预报气象数据、卫星数据、土壤、水和空气分析等)丰富农场数字双体。这意味着必须建立适当机制,将这些数据动态地纳入数字双体农场。数字双体可以被视为智能耕作的新阶段。数字双体正在利用现有技术,特别是精密耕种技术、物联网和模拟技术。因此,农业领域存在多种应用,尽管往往不是数字双体。然而,这些应用大多仍然是相当基本的数码双体形式,例如侧重于云仪表中的数字代表。更先进的应用,包括整个生命周期的预测和规范能力,仍然处于早期。",
+      "sourceTextHash": "496cd0c7c282a219f14c439d3bbe8489661fefe16297ecf9fd4591453adf3bd3",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b8-cf377b6": {
+      "zh": "图4. 对数字双胞胎扶持的耕作进行虚拟控制。",
+      "sourceTextHash": "cf377b6b7584113348d1539404974a481f2ead9caa552fa9d116b07b218a5b9d",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b9-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b2-51709fb": {
+      "zh": "在文献审查中,我们只发现了一些探索性研究和一些案例研究,将基于IoT的系统设计成数字双胞胎,没有详细的动机或概念定义。下文讨论的这些文件都是会议文件,只有一本书章除外。据我们所知,Verdouw和Kruize(2017年)是第一个探讨数字双胞胎在农场管理中的应用问题的人。本文从“物联网”的角度看待数字双胞胎,其中物理物体具有虚拟、数字等同器,可以实时和远程连接。根据FIWARE加速器方案的6个案例推理,该文件表明数字双胞胎已经在智能农业中隐含了使用,但现有应用主要侧重于基本监测能力。作者认为这些能力为基于在线数字双胞胎的优化、模拟和决策支持奠定了基础。",
+      "sourceTextHash": "e484af158a4de8839b3433bb97d29219785aa1de79da7abb9586972bbde49076",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b3-6c921be": {
+      "zh": "Jo等人(2018年)进行了一项关于在养猪场使用数字双胞胎以改善动物福利的可行性研究。 他们引入了所谓的数字双胞胎平台(Prefix、Ditto和Watson),并提出了使用这种数字双胞胎平台设计智能牲畜饲养系统的提案。 文件指出“数字双胞胎”是真实世界的数字复制品,但没有进一步阐述这一概念,也没有说明设计的系统如何支持数字双胞胎。",
+      "sourceTextHash": "38b26ea1beaffa8aeed71ec0a12da83ca48472f7f41c049b5e016255c4edb700",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b4-bdef921": {
+      "zh": "Monteiro等人(2018年)提出了一个基于IoT的技术模型和一个在垂直耕作中实施数字双胞胎的原型,数字双胞胎被定义为物理物体的数字镜像,文件中设计的“数字双胞胎”旨在支持纵向农场的规划、运作、监测和优化的生命周期,原型的重点是通过光线和误差来检测和控制条件。",
+      "sourceTextHash": "bafe1655d914000660e7ce67b206fe04b52c6ac8ac517b1f5eaef5eae0d854d6",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b5-c4bb31a": {
+      "zh": "Alves等人(2019年)开发了基于IoT的原型,以感知土壤湿度、空气温度和湿度等田地条件,并在仪表板上将这种信息直观化。这个原型称为数字双星,数据在物理物体和数字物体之间自动流动。作者认为数字双星能使农民做出更好的决定并减少水、土地和土壤资源对环境的影响。Kampker等人的研究(2019年)中,数字双体是一种人工马铃薯,埋在田里,收获与真正的土豆一样。“数字马铃薯”配有传感器,测量其处理情况,特别是冲击、打击和旋转速度等。这一信息被用于调整采集机器的设置,从而尽量减少对土豆的破坏。随后,数字马铃薯与云层平台同步,以便提供像马铃薯价格和实地收入估计(Maaü等人,2018年)。",
+      "sourceTextHash": "777b4c94a4401f341a81d215882ac5bee4e48769f340ee3462ce9f3ea24a24fd",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b6-16f1d17": {
+      "zh": "Linz等人(2019年)在开发野外机器人时应用了数字双体,例如在葡萄园中进行小叶和作物处理,它们利用实时数据模拟3D环境中机器人的自主行为,并模仿模拟数字双来操作实际存在的机器人,从而缩短开发的准备时间,更好地评估传感器的行为,减少评价苯型或测试作物治疗效果所需的实地实验。",
+      "sourceTextHash": "fd4155f6ee552cc9da22d36c7df58511afec43550e29790966e571a94d4577e4",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b7-cc1786a": {
+      "zh": "Skobelev等人(2020年)建议采用多剂方法开发植物的数码双胞胎,将植物数字双胞胎定义为“一种计算机模型,通过农学家的检查和关于环境条件(天气、土壤等)的数据,模仿其生命周期并与活植物同步。” 最后,Sreedevi和Santosah Kumar(202020年)指出,与其他领域相比,有关农业的数字双胞胎的研究相对较少。此外,它们讨论了数字双胞胎在水栽培养方面的潜在贡献,特别是预测可能的失败和优化整个耕作系统,包括营养素、pH值、病原体和杂草的管理。根据上文介绍的领域分析,下一节介绍了为设计和实施数字双胞胎而制定的概念框架。",
+      "sourceTextHash": "4c68a3d19d7057d162c9acdbb76b3460734832976f8cd4dc4159d8774dc82663",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b8-84ec7a6": {
+      "zh": "4. 数字双双概念框架",
+      "sourceTextHash": "84ec7a67a487b2304dda8a0fd8fb9c6e7633c0997eb36abe66fd151196305956",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b9-a299d94": {
+      "zh": "本文件的概念框架应为在智能农业中实施数字双胞胎提供一个健全的概念基础,包括利用数字双胞胎规划、监测、控制和优化农场流程的管理方面。",
+      "sourceTextHash": "fca69be6308cefe10ac2620987c4b7bba48a274d46b93adc031444e092ef11a9",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b10-36691e7": {
+      "zh": "1. 该框架必须处理智能耕作的网络-物理控制循环,这种循环无缝地结合所有相关农业流程( \" 全农场管理视角 \" );2. 这一框架必须支持农用物体的整个生命周期,因此必须包括界定的六个不同的数字双双,即想象、监测、预测、描述、说明、自主和回忆数字双;3. 这一框架必须支持实施基本目录。",
+      "sourceTextHash": "9d615c5078570324f38610db6954a04d0f7d45b336c34d8b0b1b06accce164e4",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b11-4d4d027": {
+      "zh": "4. 该框架必须应对在农场管理中实施数字双胞胎的具体挑战,即农业物品复杂性、农场网络动态和农场流程动态。",
+      "sourceTextHash": "7088fbed675024d896248c8169c94d54ba8397f42d6543cf331bfea428efb34b",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b12-2bb26a6": {
+      "zh": "设计框架包括从管理角度和信息技术角度代表数字双胞胎本质的两种模式,本节介绍这两种模式:(一) 基于一般系统方法的数字双胞胎控制模式;(二) 概述实施数字双胞胎技术结构的执行模式。",
+      "sourceTextHash": "ff0a2e4dbaa05842cdefbb888fd83677394945f13b832ac7afd196f53ea6b6f6",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b13-a7768f3": {
+      "zh": "4.1. 控制模式",
+      "sourceTextHash": "a7768f3d99b06c16b8e3f3c95b3b8469687496bb553d71fbc88ebaf2537379d5",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b14-0f59386": {
+      "zh": "4.1.1. 从系统角度看,农场控制是系统动态中的一个基本概念,它确保系统的目标得以实现,即使出现扰动也如此。控制的基本思想是引入一个控制器,在测量结果不符合系统目标时衡量系统行为和纠正(de Leeuw,1997年)。如果其运行状况保持稳定,农场程序就 \" 处于控制之中 \" 。因此,这些过程的活动必须包括显示 \" 细胞有效性 \" 所必要的网络化控制功能。这基本上意味着它们必须有反馈循环,其中必须有规范、感应器、感应器和感应器。",
+      "sourceTextHash": "42abb3b96c767ad496df3e38fe528d92c7253e5861dc182da8c694ef114c56d6",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b16-d198c95": {
+      "zh": "图5. 基本控制模式。",
+      "sourceTextHash": "d198c95bc46959bd307e11fe84bfc5826c9354a539b41e1766af148fc106772b",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b17-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b2-7b57fca": {
+      "zh": "在农业系统中,这些是将输入材料转换成最终产品的有关行为者的业务流程。传感器功能衡量物体系统的实际性能。歧视者函数比较了测量的性能与具体规定预期性能的准则(系统目标,如数量、质量和周转时间方面)以及指示偏离决策功能的准则(系统目标,如数量、质量和周转时间方面),根据物体系统的控制模式,决策功能选择适当的干预措施来消除所显示的干扰。最后,效果或执行选定的干预来纠正物体系统的性能。",
+      "sourceTextHash": "097285e4b0db43523971cd0eb514eec0c91989d2d436a112f5a92c9acf7fbb5a",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b3-b82610d": {
+      "zh": "4.1.2.2. 农场控制与数字双对数字数字双数字双对子网的农场控制使农民能够将实物流动从农业经营的信息方面(Verdouw和Kruize,2017年)中的信息方面分开(Verdouw和Kruize,2017年)。控制脱钩意味着对物体系统的状态的测量转换成Fig可视化的数字双体。 6. 控制周期首先通过传感器功能测量物体系统的状况,然后获取相关的外部数据(Verdouw等人,2015年)。这些数据随后根据元模型转化为受控物体系统(基于模型的变换)的虚拟表示。数字双体包括元模型中规定的支持使用目的的所有相关信息(即控制目标)。",
+      "sourceTextHash": "5f40cbfd5595245f4aa76bcd309862b3f607ea5b5b68eba0d293522dfb243622",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b5-4c8f8b5": {
+      "zh": "图6. 基于Verdouw等人(2015年)的基于数字双胞胎的概念控制模式。",
+      "sourceTextHash": "4c8f8b51899abf7512c6ad93a9c8161d7f4d0a118d863ec91cb72dbaff5ac607",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b6-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b2-7d97748": {
+      "zh": "下一个控制功能是决策功能,它将对象系统的虚拟视图与特定控制规范进行比较。接下来,决策功能根据其决定支持模式选择了适当的偏差干预措施,类似于常规控制系统。最后,选定的干预用效果函数进行沟通,直接或通过数字双星直接或通过远程驱动器系统进行。",
+      "sourceTextHash": "48b20eedc27dd18b947efb610179555e2fd4f2df8c5943ef474638e43abdef7b",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b3-8a3ff68": {
+      "zh": "4.1.3. 数字双胞胎类型对控制模型的影响 先前引入的不同类别的数字双胞胎类别为不同的控制目的。图7概述了控制模式的主要差异(根据(Verdouw等人,2015年)改编);想象数字双胞胎代表尚未与现实世界中实际存在的物体连接的参照对象状态和模拟其行为;参考对象是一个概念实体,从界定用户要求的角度指定一个典型的对象;通常是根据过去的经验或设计过程的结果组合所需的特征;还有可能选择和描述具有代表性的实物物体(典型物体);此外,还可以利用假想数据模拟预测模型预期的参照对象行为;监测数字双胞胎代表现实世界中实际存在的物体的当前和历史状况和行为。实物物体装有识别标签,通常是条码或RFID转发器,并配有测量物理物质动态特性的传感器。虚拟物体利用这些感应数据根据可能隐含的元模型生成物体的表示表象。传感器数据通常与外部数据相结合。",
+      "sourceTextHash": "a15c4ee7e5dd4e408725cbd8f7c56acb402552e127dd595557b9cc90b4af2d5d",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 2,
+      "flags": []
+    },
+    "p9-b4-3b47eeb": {
+      "zh": "预测数字双胞胎计划现实物理物体的未来状况和行为。预测未来状态是通过使用预测模型预测的,然后根据一个元模型对它的行为进行未来预测。预测模式使用由传感器和自动识别装置测量的物体目前和历史状况的信息,通常与外部数据(如天气预报或拥堵信息)相结合,例如天气预报或拥堵信息。描述性数字双胞胎:代表当前数字双胞胎干预对未来数字双胞胎的影响。干预措施可以纠正监测双胞胎(反应性)确定的当前问题,或者预测双胞胎(主动性)预测的预期未来问题。模拟双胞胎指令式干预措施可以在实施前准确、现实地评价矫正和预防措施。仍然由人类做出决定,并且在不使用数字双胞胎的情况下进行干预。自主数字双胞胎:超越指令性双胞胎,因为决定和执行也是通过数字表达方式自主进行的。定型双胞胎根据监测和预测性双胞胎确定控制问题,并根据双胞胎决定最佳干预措施。随后,选定的干预被转化成启动指令,远程实施。因此,自主双胞胎在没有任何人参与的情况下运行完全的控制环,但以决策支持模式和人类控制规范为基础。自主双胞胎也可以是自学,这意味着根据控制措施上实际物体的计量反应优化决定算法。回忆数字双胞胎:代表现实世界中不再存在的物体的过去状态和行为。像想象中的双胞胎一样,它们代表参照对象,即概念实体,但是它的性质。",
+      "sourceTextHash": "82ddffcf72232e07bfa05bb20e0cf0075c83e3ccb16ce6734c170e0f50cd04c1",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 2,
+      "flags": []
+    },
+    "p9-b6-e5f3d5f": {
+      "zh": "图7. 简化数字双型类型控制模型(不包括区别和决策控制功能)。",
+      "sourceTextHash": "e5f3d5f6621e35ecdc43ab5f8cbef9a0b4eeb7adc20ecc6915e41543871ba354",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b7-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b2-3c9d2a8": {
+      "zh": "记忆双胞胎必须准确可靠地描述这个历史对象,并因此使用有关该物体的所有相关数据。",
+      "sourceTextHash": "88b5c1a344f49f315e01b46612866a3d4a819e3175c2bbbb56ef41e8e2594291",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b3-84f3efc": {
+      "zh": "4.1.4. 数字双胞胎综合控制模式 前几节界定了6个数字双子类别的独特控制机制。图88将这些机制纳入控制模式,这一模式整合了所有6个数字双子定义的类别,但如果适用较少的类别,则并非所有要素都相关。综合控制模式特别增加了不同种类的表示方式,即想象中、目前、未来和过去的数字天体。想象中的数字天体代表尚未存在的参照对象。现有的数字天体代表现实生活物理物体的现状和行为。未来的数字天体预测了现在的数字天体。",
+      "sourceTextHash": "b2adbb47991722f1dfce0aca1b2f1a64df32209a5d4e66a459b2112099a63d1c",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p10-b4-bac2571": {
+      "zh": "过去的数字物体代表现实世界中不再存在的实体物体或物体的历史状态和行为。此外,还添加了一个参考对象,以便代表产品生命周期设计阶段存在的概念实体。一旦概念实体实现后,真实物体可以与虚拟物体连接。这个概念实体在寿命周期终了时仍然处于实际物体处置之后。参照对象也可以与使用阶段有关。一个例子是假想资源用于规划目的,其中具体说明了进行这项工作所需的资源类型和必要的属性。例如,设想一个虚拟采集机器在特定天气和土壤条件下具有一定的能力。当收获时间表生效时,将选择一台物理机器来完成虚拟物体的任务(至少具有符合要求的特性)。",
+      "sourceTextHash": "8172593ea3af788402ade26907337a0dbc316730cf730d600fbde104807a6c41",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b6-19113a8": {
+      "zh": "图8. 数字双胞胎综合控制模式。",
+      "sourceTextHash": "19113a81df4f06f9bfc4c820679c82b6b21a5bc598b6a4c572ded042eb885833",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b7-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b2-1d6dc31": {
+      "zh": "最后,对决策者功能与数字双胞胎之间的相互作用进行了阐述。在指令性的数字双胞胎中,基于决定支持模式的干预建议转变为未来的数字双胞胎。因此,模拟虚拟干预措施的预期目标变化。决策者利用这种模拟干预措施来决定最后干预措施。自动数字双胞胎还将这一干预决定转化为计划对象变化,并随后转化为激励指令。自主双胞胎远程控制执行这些指令的效应器功能。迄今为止,已经确定了“数字双胞胎”的概念及其内在的复杂性。下一节将介绍一个旨在实施这一概念的技术模型。",
+      "sourceTextHash": "c05b9d6ffb434839eac87e78a2af59e4b3fb9a39cba49cf8384f997ccbc703e2",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b3-a37bf10": {
+      "zh": "4.2. 实施模式",
+      "sourceTextHash": "a37bf106ab43266a9c2dc7829e019876ed9d519b94b7ccdf3e57098e2f306d45",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b4-f83da18": {
+      "zh": "本节提出了实施 \" 数字双胞胎 \" 的技术模式。一个技术架构描述了系统的各个组成部分、各组成部分之间的互动以及整个系统与环境的相互作用(Trienekens等人,2014年)。通常不是在一张图表中提取,而是在多个所谓的结构观点中分离,其中每个观点都根据具体利益相关者的关切描述一个架构(Clements等人,2010年)。为了本文件的目的,我们侧重于将执行上一节所开发的控制模式所需的主要功能进行可视化。最近推出了几个 \" 数字双胞胎 \" 技术架构。Schleich等人(2017年)提出了一个抽象参考架构,该架构涉及一些基本建模原则,用于 \" 匹配 \" 世界物理属性和虚拟属性,例如模型可扩展性、互操作性、广性和忠诚性。Alam和Saddik(2017年)开发了一个专门的数字双星结构,分析描述基于云的网络物理系统的主要特性。Redelinghuys等人(2019年)设计了由六层组成的制造细胞数字双星结构,包括当地数据、网关、云基数据库以及模拟和模拟的一层。这些作者认为数字双星是基于IoT的下一个步骤。",
+      "sourceTextHash": "c9f39d8b712c891c5ea363e0dcaf11cf7af31a873d06998f838c5ea13d312634",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 2,
+      "flags": []
+    },
+    "p11-b5-57de5c0": {
+      "zh": "因此,拟议的架构类似于在IoT领域开发的参考结构,其中虚拟地展示物体具有重要作用。重要的IoT参考结构包括IoT-A、ITU-T和AIOTI(Verdouw等人,2019年)。Temples-Archeture(IoT-A)互联网为IoT信息技术方面提供了非常深入的定义(Carrez等人,2013年;Gubbi等人,2013年)。国际电信联盟(ITU)开发了一个IoT参考模型,该模型对IoT基础设施提供高水平的能力观点(ITU-T,2016年)。 IoT创新联盟确定了一个高层次的IoT建筑,以实现IoT语系互操作性(AIOTI,2018年)。在本文件中,我们通过了IoT-A参考架构,因为它最明确地将虚拟实体作为该架构的核心要素,本节的其余部分将介绍IOT-A参考架构及其如何支持实施数字双胞胎。",
+      "sourceTextHash": "94ad7ffe963395db79fd96b12a1752e72fc981407af78359cb4bac7b29d333c7",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 2,
+      "flags": []
+    },
+    "p11-b6-3c4db3e": {
+      "zh": "4.2.1. IoT-A参考模型 欧洲项目IoT-A(Gubbi等人,2013年)开发了物联网建筑参考模型。除了对Iot-A域建立共同理解外,IoT-A旨在为开发可互操作的IoT系统架构提供必要的构件和设计选择,该参考模型包括五个不同的子模型:IoT域模型、IoT信息模型、IoT功能模型、IoT通信模型以及IoT信托、安全和隐私模型(Bauer等人,2013年;Carrez等人,2013年)。由IoT Domain模型构成的肿瘤基础,该模型界定了诸如装置、IoT服务和虚拟实体等事物互联网的主要概念及其关联性。利用这些概念,IoT信息模型抽象地界定了IoT系统中与IoT有关的信息的结构(例如关系、属性等),功能模型将基于IoT系统的主要功能分解成一个多层观点的组群。 IoT通信模型详细阐述了连接基于IoT系统不同要素的技术通信,包括一套用于建立可互操作堆叠的参考通信规则。",
+      "sourceTextHash": "21830c636dbfaf83cd5515447c8cc255949f7e329fb0f5fd8271d8c034d3ec87",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 2,
+      "flags": []
+    },
+    "p11-b8-f5bc67e": {
+      "zh": "图9. 从IoT-A(Carrez等人,2013年)获得的 \" 数字双胞胎 \" 执行模式,由 \" 数字双胞胎管理 \" 取代了虚拟实体。",
+      "sourceTextHash": "f5bc67e9fedd3b582f47981d4f85f20694ecee1b82e8448fcd79b477675eb2b6",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b9-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b2-47d944a": {
+      "zh": "可以得出结论,IoT-A是一个非常深入和严格的参考模型,详细描述它超出了本文件的范围,但我们侧重于其IoT功能模型(图9),关于更多细节和进一步的技术实施,我们提及Bauer等人(2013年)和Carrez等人(2013年)。",
+      "sourceTextHash": "499cc2375434871c22c8c3cc3a9fbb3f71473e3b45846172cdaef90ffb443e10",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b3-3e783fa": {
+      "zh": "4.2.2. 数字双星执行模式基本上是一个数字双星结构,由实体空间的实物物体、虚拟空间中该物体的数字表示以及转让数据和信息的虚拟空间与实际空间之间的联系组成(Grieves和Vickers,2017年;Redelinghuys等人,2019年)。如前所述,IoT技术使物理世界和虚拟世界能够同步。基于IoT-A功能模型的我们概念框架的实施模式涉及8层(图9),这些层来自一个装置。",
+      "sourceTextHash": "39a8d5deb2e8b33b3e5554cfa6666ba5896c044ba338140a65b4a78ef55b5d22",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b4-b6abee2": {
+      "zh": "设备层提供与物理物体相连并直接互动的硬件组件,例如用于独特识别、传感器和导动器的标签;农业中使用的重要识别技术包括(多维)条码和RFID标记(Verdouw等人,2016年a);此外,还使用多种不同的传感器测量物理物质的动态特性,包括温度、作物大小、湿度、光、湿度、水分、CO2、氨和pH值。小型无人驾驶航空系统(即无人驾驶飞机)越来越多地被用于实现高度空间和时间",
+      "sourceTextHash": "956fd740349c91cee77fe508b1e6214d7b9518a03d95b620ba69903009694150",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p12-b5-6236ae0": {
+      "zh": "表5 调查案件执行模式概览。",
+      "sourceTextHash": "c94d96415d0191c9233aa87fd78c6f2a402735f8dae33210064bff3de2b2570d",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b6-0878bdc": {
+      "zh": "快乐牛链综合温室生产 增值除草数据",
+      "sourceTextHash": "8523b2eb409ff5db0d5a8796c4bc8c919717d855a03027df5b0fec4001840ac9",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b7-c8983b7": {
+      "zh": "土壤、作物和天气传感器、全球定位系统跟踪器、启动器",
+      "sourceTextHash": "ace6e480c1e99008e2aa340fec1f87541c4fd94960a8712e50bf7dc872de140d",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b8-a5723b9": {
+      "zh": "加速计感应器(甲壳体行为传感器)",
+      "sourceTextHash": "33ac645a39f3c59333ee9cb86513cc8ac7e57d7ee8f64edd2a67877fe9718f59",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b9-a77c768": {
+      "zh": "作物、气候和灌溉感应器、通风、气候、照明和肥化活动器",
+      "sourceTextHash": "aa9549f2bb1de5412d0ea029f58be62df7969858748ccb8629ea76585570799c",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b10-17301dd": {
+      "zh": "杂草传感器、杂草传感器、杂草启动器、杂草终端、毒草终端、拖拉终端GPS、气象站、收获终端",
+      "sourceTextHash": "e39eb225d5fe9ad64c63be289dd929e4fb7b631b9d8ecfa7c341fd251150a74f",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b11-49fd4fc": {
+      "zh": "RFID标签和阅读器、水消耗、饲料传感器消费传感器、谷仓气候传感器",
+      "sourceTextHash": "a7e9d5e77de6bff26bf27b51ee7f92465410ae40c1d79c3640b226dbe7a2f981",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b12-62e8ce7": {
+      "zh": "ISOBUS频道、Lora网络自定义农场局域网、基地站、外地接入点",
+      "sourceTextHash": "99247dd2dd1c0d6643f77b724778c1e50778af649e6a69152746c502d87a749d",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b13-e2d7ff9": {
+      "zh": "Wifi、GPRS/3G/4G Cellular、Eepernet、Siral Bus Farm WLAN、农场局域网、Canbus WIFI、GPRS、XMPP",
+      "sourceTextHash": "7a6ffcef8382bc5c37d2300a59b86114d02fe11bbe58dabb2864f219fa20e8b5",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b14-f694d3d": {
+      "zh": "IOT 服务层 ISOBUS 任务控制器、ISOBUS VPN 国际标准化组织VPN Centrator 雾化计算服务、FIWARE IoT Fire WirWire、SSD IoT 适应器、本地 IoT 中间软件 IoT 进程管理层",
+      "sourceTextHash": "6b58df4be8e79db455f233670db08d44f1631f930623434e1cfcb4f5b4b86029",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b15-a4686f8": {
+      "zh": "建模服务",
+      "sourceTextHash": "421dcb048f662bba04aa19ce4cb8d302f97d097da95f2860ae1d33e939c72042",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b16-3976f2d": {
+      "zh": "服务组织服务处",
+      "sourceTextHash": "b477f7663cb1f626c94012dd89e1691fe132842c1e4869a97684ae44b9769133",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b17-ff2d483": {
+      "zh": "服务构成、管弦和舞蹈",
+      "sourceTextHash": "b6126d9aaa14aa49ec0cbdfa08ca0a58db8c63732c32fa14aec4b5a44abf7f0c",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b18-ff2d483": {
+      "zh": "服务构成、管弦和舞蹈",
+      "sourceTextHash": "b6126d9aaa14aa49ec0cbdfa08ca0a58db8c63732c32fa14aec4b5a44abf7f0c",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b19-ff2d483": {
+      "zh": "服务构成、管弦和舞蹈",
+      "sourceTextHash": "b6126d9aaa14aa49ec0cbdfa08ca0a58db8c63732c32fa14aec4b5a44abf7f0c",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b20-9908cbb": {
+      "zh": "服务构成、管弦化和编舞数字双层管理层",
+      "sourceTextHash": "d38c72638f4562e55cede2b299f61f53542f5e16ac4b150038bc11cbb5f79548",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b21-664ace3": {
+      "zh": "土壤图服务、可变速率应用地图、FIWARE Oriion环境经纪人",
+      "sourceTextHash": "c8cee44f8ea8b724ce4588e6e561830e2373eaa9e88ada37db1117b96d7cc454",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b22-38c2b5a": {
+      "zh": "生育率预测服务处 健康预测服务 畜群监测服务 数据汇集和云数据储存",
+      "sourceTextHash": "41c9efe6a4a0c486b08b1e434a6fe2d71c0c1cce335f28ecea5819db35ac9acf",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b23-f54fed2": {
+      "zh": "FIWARE Cloud数据存储处,动态照明控制处,疾病和凝聚作物监测处",
+      "sourceTextHash": "8d4a0f428959581101b091b2efb01dfad1557f4ade433d07a105328045c8055e",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b24-fa2ad42": {
+      "zh": "作物增长服务、产量预测服务、机器安装和维修服务、数据存储和处理",
+      "sourceTextHash": "ab0c524c07d7dce0ecd6df67f2d7bc2e0a0448b2373dbf4a949dc70325bf33dc",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b25-d6a80e6": {
+      "zh": "融合引擎服务、云数据存储",
+      "sourceTextHash": "d861d21a950081116c504aac1dae948867e9d0647855966729486d4ee890cf39",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b26-ed5782b": {
+      "zh": "安保层身份管理、授权、认证、网络安全",
+      "sourceTextHash": "2bea38ba71a4fb9c0e5405e502de62fd77d56b15fbc8f1fb5dec72ea32f6a50b",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b27-81e607f": {
+      "zh": "身份管理、授权、认证、网络安全",
+      "sourceTextHash": "569f3527bd87a2c5a479c561eea4e9edb5b324f65d46e3090b0658e26ba3dc77",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b28-81e607f": {
+      "zh": "身份管理、授权、认证、网络安全",
+      "sourceTextHash": "569f3527bd87a2c5a479c561eea4e9edb5b324f65d46e3090b0658e26ba3dc77",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b29-d674dcb": {
+      "zh": "身份管理、授权、认证、网络安全",
+      "sourceTextHash": "569f3527bd87a2c5a479c561eea4e9edb5b324f65d46e3090b0658e26ba3dc77",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b30-72f32eb": {
+      "zh": "身份管理、授权、认证、网络安全管理层配置、过失、报告、成员、会员国配置、过失、报告、会员国配置、过失、报告、会员国",
+      "sourceTextHash": "556a635cdcca2e1e35647bed8d77fc9c4e3c8ad3cef3b1ba95a8f30c4726c1cb",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b31-20097db": {
+      "zh": "配置、过失、报告、会员国、会员国配置、过失、报告、会员国、会员国、会员国、会员国、会员国组合、会员国配置、过失、报告、会员国",
+      "sourceTextHash": "17170e25b162acf2ba900630d40a7ac046085a0ab1f39a554cce77a3c85e3094",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b32-02b3ed7": {
+      "zh": "应用层Akkerweb/FarmMaps、365FarmNet、可配置仪表板",
+      "sourceTextHash": "1f9ecc93eb9c32252e0572d50d1f1996d4a560ca80f147d02bec1bd477270654",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b33-67875c1": {
+      "zh": "开发协会App,若干FMIS温室管理板农民拖拉器应用软件,Steketee Dashboard, Akkerweb/农场马普斯,365 FarmNet, AgLeader SMS Basic",
+      "sourceTextHash": "da9b63d5a3fe1845bb42220c829417bc7c4ee690a28f243dbf8e5fe8e66e3969",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b34-3aab3c1": {
+      "zh": "IT Dashboard,商业情报Dashboard",
+      "sourceTextHash": "ba01b4506a12fe1cd15d893fc82e271250a9843f151dfb6cbed130c420b60001",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b35-37549ed": {
+      "zh": "表4 调查案件控制模式概览。",
+      "sourceTextHash": "bd86b636dc49c4c733980232f85fd25b6e73e2cd01f8f7323f9e859c40ef678b",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b36-801e576": {
+      "zh": "牛链综合温室生产",
+      "sourceTextHash": "23e599c5888f4d69642861eebe763aa2f35ea9852b578238bb2cf525e6467a84",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b37-37e2a51": {
+      "zh": "土豆作物、田地、收获的马铃薯牛、牧群、野番茄作物、温室、收割的番茄、卡车杂草、生菜作物、田地、除草机、收获的生菜猪、农场、屠宰场时间维度现今、未来当下、未来现今、未来、未来、未来、过去、未来",
+      "sourceTextHash": "c464e6026c86bd341a97a4b8035887009b170d5b56fdda8294d37d6e4d766441",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b38-fabe763": {
+      "zh": "主要农场流程 种植和收获主要农业流程 种植和收获马铃薯 生产奶、收获和分配番茄 种植和分配 肥猪和屠宰猪 数字双型监测、预测、规定性监测、预测性监测、预测性监测、预测性监测、说明性监测、预测性监测、预测性监测、描述性监测、记录监测、预测性监测",
+      "sourceTextHash": "c4034c69baa3fb0533d7199636d95595c2ca5193f0e823e7788e9ed917d370fa",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b39-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b2-bd898f4": {
+      "zh": "最后,在设备层驱动器中,用于远程操作拖拉机工具、气候控制、灌溉、冷却器和灯光等物体; 通信层管理不同部件之间的相互作用,使从设备到IoT服务的通信能够从设备到IoT服务的通信; 提供联网、连通性和数据传输能力,并促成跨越不同网络环境的端至端通信。 IoT服务层包含IoT Services的发现、查找和名称分辨率方面的服务和功能。 它可用于从传感器设备检索信息或传送信息以控制动力装置。 数字双层管理包含互动功能。",
+      "sourceTextHash": "15d8c5a6c50b8d3e110d098b7c22e3d392a1a9ef03d6a593538542c5f0dd78fa",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b3-ddbb47e": {
+      "zh": "以虚拟实体为基础,与IoT系统一起使用IoT系统。它能够从传感器装置、数据库或应用程序获取关于数字双子的所有信息。此外,它包含管理与物理物体的联系并监测其有效性所需的所有功能。IoT进程管理层为模拟和执行IoT-aware程序提供了一个环境。通过利用在服务组织层次上设计的IoT服务将流程模型部署到执行环境中。这一层作为其他几层之间的通信中心,组成和安排不同程度的抽象服务。安全层负责系统及其用户的安全和隐私。其中包括授权等组成部分:",
+      "sourceTextHash": "64d3c36eee7ef4d5c85358510d764785dac2139eb1b4bb67cc8e5a9404e635bc",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b5-d969bfb": {
+      "zh": "图10. 简化除草用案控制模式。",
+      "sourceTextHash": "d969bfba058c2d7b528e094eb5c004e31f18d196a4139759bbfa1e88ae8bea3c",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b6-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b2-b1bd3a5": {
+      "zh": "管理层侧重于系统配置,还报告故障并确定系统的总体状况。最后,应用层提供基于虚拟对象的具体控制任务情报,包括在其整个生命周期内使用数字双胞胎的能力。数字双胞胎的不同类别是由多种技术促成的,其中包括模拟和优化工具、统计预测、模拟和机器学习。这一层还包括与数字双胞胎互动的用户界面。用户界面的类型可以从个人计算机、智能手机和平板电脑中常用的2D图形用户界面到高级3D界面用于虚拟和增强现实眼镜。本文的其余部分将用IoF20项目的一些实例来说明数字双胞胎在农业中的应用情况。",
+      "sourceTextHash": "cbe6e486e15c7874ba1badcbd16c058b0e4ea173412465de054e46c2726d69d0",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p14-b3-708424a": {
+      "zh": "5. 在智能农作中应用数字双对",
+      "sourceTextHash": "708424a8ee90425f760753ec5b4b23ebe3003cf47ba14058cbf48b1caea37604",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b4-fd60f9b": {
+      "zh": "5.1. 来自IoF2020的示例案例",
+      "sourceTextHash": "fd60f9bc486dc8a47e6ecaaea5c664f891cbb35e4b1e1657a1d3639960b9c805",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b5-ff1749f": {
+      "zh": "前几节所述框架适用于IoF2020项目的5个智能农作使用案例(表1),本文范围以外,无法详尽无遗地处理所有案例的应用模型,因此,我们在表4中提供了应用控制模型概览,在表5中提供了应用实施模型。",
+      "sourceTextHash": "ce92440e9eac481a95f44d8298133d4645439feefe847438b6fe012e997139ad",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b6-ce5ffa8": {
+      "zh": "表4提供了应用控制模型的概况:所有使用案例的出发点是特定的农场作物或动物,即马铃薯、番茄、生菜、奶牛或猪。这些物体被筑在高层物体中,如田地、温室和马厩。植物使用案例都预测了耕作过程的预期产出,即将收获的土豆、西红柿或生菜。两个使用案例还使所使用的设备(即除草机或卡车)虚拟化。所分析的所有使用案例都结合多种类型的数字双胞胎,首先从监测物体的实际状况开始,然后预测未来的状态,例如预期产量或动物健康等。大多数使用案例还包括咨询干预措施的情报。农作物使用案例还将这些建议纳入规范的数字双胞胎,例如确定任务图。大多数使用案例侧重于生命周期的使用阶段,而不包括想象或回忆的数字双胞胎。 只有“添加值除草数据”的用案例才应用基于机器行为历史数据对机器设置进行优化的重新收集数字双。 这些使用案例都没有实施独立的数字双胞胎(Digital Twins ) 。",
+      "sourceTextHash": "5cf0661936dd173c2f41217716b678af9f136586a87b0c8aa1dff0957bd163cf",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 2,
+      "flags": []
+    },
+    "p14-b7-dceea4c": {
+      "zh": "表5列出了用于实施数字双型技术架构各层的主要技术组成部分,显示在“设备层”中,所有使用的案例都应用特定领域的传感器,三个使用案例也使用特定的启动器。大多数技术通信技术都基于常规技术的标准化协议,例如有线网络和最近的无线IoT网络(如LoraNet)。使用案例“Happy母牛”选择了采用由分布式接入点组成的定制网络,使通信能够达到几公里。在“IoT服务层”中,还使用了各种技术组合。基于过程的服务协调尚未解决。只有第一个使用案例“外地管理区划”包括一些建模服务。在“数字双型管理层”中,所有案例都提供综合和储存来自不同数据源的数据并代表统一的虚拟实体的服务。这些服务还包括根据所支持的控制功能进行模拟或决策支助的情报(见表4)。在应用层,所有使用案例都为与用户的互动提供专用仪表板,其中三个也与现有农场管理系统(如Akkerweb/FarmMaps、365FarmNet、AgLeader)相结合;最后,所有使用案例都包含服务组织、安全和管理的一些通用技术职能。",
+      "sourceTextHash": "fa4be8fc8300ba386a752581dbf079c93997b7f87e142281d95f50329fa9f610",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 2,
+      "flags": []
+    },
+    "p14-b8-2d081d0": {
+      "zh": "5.2. 使用案例 \" 增值加除用数据 \" 概述",
+      "sourceTextHash": "2d081d0af30457aa46e2b4b8088e100b40adfe331a8be6d9acd123403ea77a85",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b9-b243de3": {
+      "zh": "当种植有机蔬菜时,除草是控制田地质量及其产品的最重要和最频繁的活动之一(Lockkeretz, 2007年)。近年来,自动的室内除草机已经进入市场,大大加强了除草过程。 最先进的除草机使用机器视觉应用来区分作物和杂草。 这些相机数据不仅可用于对除草任务进行自动化控制,而且用作农业管理的宝贵信息来源。 这个案例用一台除草机的这些特定地点的照相机数据作为主要的数据来源,以提供实地生长的生料头数量、植物生长状况、杂草普及率和最佳收获时刻的实际洞察力。 因此它创造了一个田地、植物和杂草的数码双,以监测作物增长并预测生菜的作物重量和大小。",
+      "sourceTextHash": "c351975627f555558565fda1d5e030933baa45e5b2bebc6eea774d8aaa11430d",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b10-9009896": {
+      "zh": "5.3. 控制模型的应用",
+      "sourceTextHash": "9009896fbca67498cbf9d856ded5c75dee9bbf9eb795b9b1c5552aec74afd810",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b11-ef47098": {
+      "zh": "10. 主要的耕作过程是采购和种植年轻的生菜植物,在田间生产生菜,收获可供消费的生菜,并将其投放市场,所涉及的主要物理物体包括植树机和年轻植物、含有杂草和生长生菜的田地、除草机、采摘机和采伐生菜。这一用途的数码双胞胎用于监测杂草压力和作物生长,控制要清除的杂草并预测最佳收割时间。为了做到这一点,传感器功能利用加工相机图像计算诸如大小等作物参数。此外,作物生长感测增加了天气数据和野外特性,包括温度、相对湿度、风速和方向、太阳辐射和土壤湿度(3级)。数据采集功能还包括外部气象数据。这些数据随后转化为数字双胞胎。这种使用方式的虚拟化以实地为重点,这意味着主要的数字双对是一个田地的高精度和实际热量图。野地地图包括杂草密度、作物数量和大小(目前)以及预计最后重量和生菜(未来)的作物规模。种苗不包括种植苗头。农民在除草活动期间和之后还远距离使用个别生菜作物和杂草的数码双对。此外,除草机的数字双对以后的机器设置加以优化(past)。区别函数利用杂草和生长生菜的数字双对杂草的压力和作物生长进行监测,即作物大小和作物距离。决策者功能将杂草压力转化为杂草活动的规划。使用生菜生长模型来预测每个田段的作物重量和大小。 用户为作物重量设定一个目标值, 然后确定最佳收获时间。 基于此信息, 决定了最佳收获时刻, 并计划进行收获。 对于生菜, 种植者在右重类中通过生菜头获得报酬。 最后, 效果函数执行计划中的除草任务。 杂草被自动清除, 由使用基于杂草数字双型机器的机器指令的除草机操作器控制。 由于高精度杂草密度地图, 野地只能部分被除草, 仅在必要时才能进行。 此外, 计划进行的采摘活动是由采集机器执行的, 但他们没有使用定制的机器指令。 部分控制周期是在杂草机内现场进行的。 相机数据直接处理到区分作物和杂草的本地数字双上。然而,所有其他控制活动都是由农民通过基于云的“数字双双”与“数字双双”进行远程互动的。",
+      "sourceTextHash": "11c38eaaf4b438af589c45364eacc153e0246b35a7e10cc5f4600e0df32ef9a9",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 4,
+      "flags": []
+    },
+    "p14-b12-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b2-648274a": {
+      "zh": "下一节将详细说明如何在技术上落实这一点。",
+      "sourceTextHash": "32cda57e73bfe54fa29db2eea929ad02467ddc17ef4c5cf59c51847e73856e0d",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b3-03e40ad": {
+      "zh": "5.4. 将执行模式应用于除草数据使用案例",
+      "sourceTextHash": "03e40ad41be91efdfc7aa39df7f7ec46c491dde37567b688a0678a5832052d2a",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b4-f53681e": {
+      "zh": "11. 设备层包括植入除草机、气象站和连接拖拉机终端的全球定位系统中的传感器(特别是照相机)和驱动器。数据直接处理并储存在除草机和收割机上的终端上。GPS坐标、时间戳、作物大小、距离和杂草压力等处理过的参数在除草后登录并上传到云数据库中。通信层包括有线(CANBUS)接口和一个无线本地农场网络(局域网),用于连接除草机、拖拉机和收割机以及同云系统进行机器和传感器通信的无线网络(UMTS:3G)。\" 数字双层管理 \" 组合、储存、处理和更新与田野、杂草、种植生菜、收获的生菜、采摘的生菜和除草机等数字双胞胎有关的所有数据,为农民和机器销售商应用程序提供接触双胞胎的机会。 \" 数字双层管理 \" 的数据存储和加工工作由本地的除草机进行。这一层还包括确定作物生长、预测预期产量和界定最佳机器设置所需的服务。应用层使用户能够与数字双胞胎互动。",
+      "sourceTextHash": "dbf204e329e43bb1a9dea89fd0a0ef2497a83377fcf1085be587708737eda024",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 2,
+      "flags": []
+    },
+    "p15-b5-bdee914": {
+      "zh": "例如,Akkerweb仪表板和Fig. 14的作物生长实例显示Akkerweb仪表板和Fig. 13。此外,机器销售商的仪表板可以用来配置和优化机器设置。除其他外,这对于正确区分不同作物生长阶段和轻度情况下的作物和杂草至关重要。其他各层包括与其他使用案例相似、先前已经引入(第5.1节)的一般技术功能。",
+      "sourceTextHash": "84d05151d70a980898889bc52da398650f614c7a04979d5700e67508712e85d8",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p15-b6-ff7d303": {
+      "zh": "6. 讨论和结论",
+      "sourceTextHash": "ff7d30393753a63b56772f1325f52fcf044b6c289da8f1d1a6681715a8bc6cf2",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b7-fc573d5": {
+      "zh": "6.1. 讨论",
+      "sourceTextHash": "fc573d51707ce749b2f6ed2f564f1ec7a458fa96b30c4f5b769f32c592562d7a",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b8-6d295c7": {
+      "zh": "利用数字双对作为农场管理的核心手段,使实物流动与其规划和控制脱钩,因此,农民可以根据(近近)实时数字信息管理远程操作,而不必依靠现场的直接观察和人工任务,这样他们就可以在出现(预期的)偏差时立即采取行动,模拟干预措施的效果。",
+      "sourceTextHash": "e57a2a07515d589938eb76f9cb181384577bfe72a892a82dddc2afc03a83ed0d",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b10-72da97e": {
+      "zh": "图11. 使用案例 \" 增加的价值除虫数据 \" 的数字双元执行模式。",
+      "sourceTextHash": "72da97e06e0d9c88f911d338d3d6bb2fd6d39eae296de1dec617a1746728bf10",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p15-b11-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 15,
+      "chunks": 1,
+      "flags": []
+    },
+    "p16-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 1,
+      "flags": []
+    },
+    "p16-b2-23c0682": {
+      "zh": "该文件的主要贡献是,它提出了设计和实施数字双胞胎的概念框架,用于智能农作。这个框架基于对文献的分析以及对数字双胞胎概念的澄清,目前仍在发展之中。这个框架的一个重要新颖之处是,它增加了基于虚拟化物体生命周期阶段的数字双胞胎类型;根据观点,现在的重点往往是监测或预测数字双胞胎。然而,数字双胞胎可以在生命周期的设计阶段创建,支持创造其物理、实际和生命的比喻。在操作使用期间,数字双胞胎不仅可用于监测和模拟干预的效果,而且可用于利用动因器远程控制物体。最后,数字双胞胎在处置实物对象(例如追踪、合规和学习)之后也非常有用。迄今为止,文献中没有对这些截然不同的 \" 数字双胞胎 \" 类型作出明确论述,这在概念上造成了混淆;本文件通过采用分类法和确定控制模型中每种类型的不同控制能力,帮助避免了这种情况;案例研究表明,农业领域已有一些应用没有被设计成数字双胞胎。这并不奇怪,因为 \" 数字双胞胎 \" 正在利用现有技术,特别是精密耕作、物联网和模拟方面的技术。然而,尤其是更先进的应用,包括整个生命周期的预测性和规定性能力,仍然处于早期开发阶段。",
+      "sourceTextHash": "754bddd9ec706a0ea14a8a5372c308e52f2cb21ce790b58e2d1bdf9ff83424cf",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 2,
+      "flags": []
+    },
+    "p16-b3-0afa625": {
+      "zh": "因此,它提供了一个新的视角,说明最初侧重于创新地将Things技术互联网应用于耕作的案例;还展示了尚未应用的Digital Twin类型的价值,这些价值激发了潜在重新设计情景的使用案例;为此原因,我们期望如我们框架所描述的那样采用数字双概念可以加快开发和采用智能农耕的数字双解决方案;然而,未来需要开展研究才能为这一假设提供证据;此外,我们框架的执行模式只涉及实施赋能信息技术。我们没有考虑到组织和行为问题,例如供应链协作、数据所有权和治理的影响、基于数字双胞胎的破坏性商业模式的潜在出现、道德考虑等等。我们要鼓励这些学科的研究人员也研究数字双胞胎方案,因为这些非技术性问题对于数字双胞胎的成功可能具有决定性作用。我们打算开展的后续工作与该框架的进一步发展有关,特别是,我们计划将概念框架发展成一个信息架构框架,其中将包括一套一致的建筑观点,用于建模数字双基软件系统(Tekinerdogan和Verdouw,2020年),这一建筑框架将成为开发涵盖整个生命周期的数字双应用程序的基础。",
+      "sourceTextHash": "5a320346f551cfb7a98e4443199c6a363dd00d21ced9b53b799cc357678fd656",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 2,
+      "flags": []
+    },
+    "p16-b5-a60bffa": {
+      "zh": "图12. 不断增长的生菜和杂草的数字双胞胎,在杂草应用软件用户终端上作为演示。",
+      "sourceTextHash": "a60bffafc0333cdf96f35a4c214e9462878e7795aa764a28f8692d25b3842c8b",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 1,
+      "flags": []
+    },
+    "p16-b6-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 16,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b2-29111d2": {
+      "zh": "6.2. 结论",
+      "sourceTextHash": "29111d2dd99dc913264386f56aa10179071b37b1e278a38a4d0ff3ef84022acb",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b3-3643be9": {
+      "zh": "本文件分析了数字双胞胎如何推进智能农作,更具体地说,它涉及导言中提到的三个目标如下:第一,文件将“数字双胞胎”定义为“反映其整个生命周期状况和行为的、可用于监测、分析和模拟这些物体目前和未来的状况以及对这些物体的干预措施的、利用数据集成、人工智能和机器学习的有形物体的动态表示”。",
+      "sourceTextHash": "0af18d60eae0633ba9e7771e54acc4f0b8dac3564bef1eceb9b19d716a5b2319",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b4-4cba4c0": {
+      "zh": "1. 想象数字双胞胎:描述和模拟尚未与现实世界中实际存在的物体连接的参考物体的概念实体;2. 监测数字双胞胎:实时实物物体(近)实时状态和行为包括其轨迹的数字表示;3. 预测数字双胞胎:利用预测分析并基于(近)身体双胞胎实时数据对实物物体未来状况和行为进行数字预测;4. 说明性数字双胞胎:增加情报以建议纠正和预防对实际物体采取行动的智能的智能数字对象;",
+      "sourceTextHash": "a0eba31d95afd0c51b55595c68bd80d2b96b40ee6f0cf522d5fec7c359e4df46",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b5-226cb0e": {
+      "zh": "5. 自主数字双胞胎:在没有人类现场或远程干预的情况下,自主和充分控制真实物体的行为;6. 回忆数字双胞胎:保持物理物体的完整历史,这些物体在现实生活中已经不复存在。",
+      "sourceTextHash": "2fc58ed4079aea36a68143b0da09825594fba78744f71782acb3cdd386ef59c9",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b6-0a97a1d": {
+      "zh": "第二,该文件提出了在农场管理中设计和实施数字双胞胎的概念框架;该框架包括基于一般系统方法的控制模式和基于Times-Architure(IoT-A)互联网(IoT-A)的数码双胞胎系统的执行模式,这是IoT系统的参考架构;控制模式界定了基于Digital Twins的管制系统的这些功能之间的控制功能和信息流动;实施模型将实施数字双胞胎系统所需的从设备层到应用层的技术功能分类为从装置层到应用层的技术功能;最后,该框架适用于欧洲IoF2020项目五个智能农作使用案例并被验证,侧重于可耕地、奶制品种植业、温室园艺、有机蔬菜耕作和牲畜饲养;具体案例控制模式提供了具体见解,说明数字双胞胎如何加强使用案例中的智能耕作系统;同样,具体执行模式有助于技术结构的身份改进。",
+      "sourceTextHash": "ee660a1b0cc86df089c14c8a6691cff334f623c55e82066f2d0f9865307acd81",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b8-a4e9102": {
+      "zh": "图13. Akkerweb a.k.a.农业地图上的实地数字双对的作物生长前景。",
+      "sourceTextHash": "a4e910298122633e89bccc03cc158344b19505000c75f60bb609786e8b6348b4",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p17-b9-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 17,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b2-8feb861": {
+      "zh": "利益冲突声明",
+      "sourceTextHash": "8feb861e18c1f92ff541410539c6ee323dc625a04f9eb03328a60234bd726d3d",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b3-5f4cebb": {
+      "zh": "作者声明,他们没有已知的相互竞争的经济利益或个人关系,这些利益和个人关系可能似乎影响本文件所报告的工作。",
+      "sourceTextHash": "7c01408011bc89f908a3ec18505dcdda8e1ce7a1c2476ad72a4b8f9a0cffb422",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b4-c9015d5": {
+      "zh": "鸣谢",
+      "sourceTextHash": "c9015d53b90846454375a2fdf2829c66fad7a2e52de1e89e73949ca59c905e49",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b5-72032bd": {
+      "zh": "这项工作得到了欧洲联盟第731884号赠款协议下的地平线2020研究和创新方案的支持,作者们高度赞扬IoF2020财团同事的宝贵贡献。",
+      "sourceTextHash": "5ab8ce79626305b61122310d2f62c795515952a22efa4fc1c13769c3f9332c1f",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b6-69824d3": {
+      "zh": "参考参考资料",
+      "sourceTextHash": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b7-68c7f91": {
+      "zh": "Lockeretz, W. 2007年,《有机农业:国际历史》,CAB International,Wallingford/剑桥,第281页。AIOTI,2018年。高级建筑(HLA)版4.0。 \" 创新物互联网联盟 \" 。AIOTI WG03 - LoT 标准化。Alam, K.M., Saddik, A.E., 2017年。C2PS:云基网络物理系统数字双向结构参考模型,5 IEEE访问,pp.2050-2062。 Alves, R.G., Souza, G., Maia,R.F., Tran, A.H., Kamienski, C., Soinen, J.-P., Aquino Jr, P.T., Lima, F., 2019年。智能农场数字双。IEEE全球人道主义技术会议西雅图—美国。Atzori, L., Iera, A., Morabito, G., 2010年。 互联网:调查: 计算 Netw. 54 (15), 2787-2805。 Balafoutis, A.T.等, 2017年。智能农业技术 — 描述、分类学和经济影响。载于Lind, K.(Ed.), Pedersen S. Technology and Economic Views, Precision Agroduction, Springer, Cham, Pricker, Pecision Afactrical. Bauer, M., Buy, N., De Loof, J., Magerkurth, C., Netstr Qater, A., A., Stefa, J., Walewski, J.W., 2013年。IoT参考模型。Bassi, A., Bauer, M., Fiedler, M., Kramp, T., van Kranenburg, R., Lange, S., Meissner, S. (Eds.), 《使事情能够交谈:用IOT建筑参考模型设计IOT解决方案》, Springer Berlin Heiderberg, Berlin, Berling, Heidelberg, pp.113-162. 本巴萨特, I., Goldstein, D.K., Mead, M., 1987年。",
+      "sourceTextHash": "d30af6e8d0422120ae7ec855545b0aebd6a774548e5824718e2d7f891e28c358",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 3,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p18-b8-b6d4c54": {
+      "zh": "Boschert, S., Rosen, R., 2016., 数字双对面——模拟方面。在下列文件中:Henenberger, P., Bradley, D. (Eds.), Mechatronic Futures: Mechatronic Systems及其设计者的挑战和解决办法,Springer International Publishment, Cham, pp. 59-74. Canedo, A., 2016., 通过数字双体的工业同位素生命周期,第11届IEEE/ACM/IFIP硬件/软件编码和系统合成国际会议记录,CODES 2016年。Carrez, F, Bauer, M., Boussard, M., Bui, N., Carrez, F., Jardak, C., Loof, J.D., Magerkurth, C., Meissner, S., Nettstr Eater, A., Olivereau, A., Thoma, M., Walewski, J. W., Stefa, J., (UniWue), A., A., 2013年《东西互联网-建筑、Iot-A,可交付性D1.5 - IoT v3.0最后建筑参考模型》欧盟委员会。 Clements, P., Bachmann, F., Bass, L., Garlan, D. Ivers, J., Little, R., Merson, P., Nord, R., Stafford, J., 2010年。2018年,Dur ao, L.F.C.S., Haag, S., Anderl, R., Schützer, K., Zancul, E., 2018年, 工业方面的数字双要求:4.0。在下列文件中:Chiabert, P., Bouras, A., No el, F., Ríos, J. (Eds.),《产品生命周期管理以支持工业》4.0。 Springer国际出版社, Cham, pp. 204-214。Eisenhardt, K.M., 1989年。从案例研究中建立理论。Acad. Manag. Rev.14(4), 532-550。Fountas, S., Sørensen, C. G., Vatsanidou, A., Liakos, V., Tsiropoulos, Z., Cvalaris, C., C., Canavari, M., Gemtos, T., Blackmore, S., 2013年。农业管理信息系统:当前形势和未来前景。Comput. Electron. Agric. 115, 40-50. Fuller, A., Fan, Z., Day, C., Barlow, C., 2020年。数字双对齐:赋能技术、挑战和开放研究。IEEE访问 8, 108952-108971. Glaessgen, E., Stargel, D., 2012年。未来美国航天局和美国空军车辆的数字双倍组合。见:第53届AIA/AS/ASCE/AHS/ASC结构动态和材料会议。美国航空和航天研究所,Grieves, M.W., 2005年,《产品生命周期管理:企业的新范式》,Int. J. Prod. Dev.2 (1-2) 71-84。Grives, M., Vickers, J., 2016年。数字双对:缓解复杂系统中的不可预测、不受欢迎的突发行为。在Kahlen, F.J., Flumerfelt, S., Alves, A.(Eds),《关于复杂系统的跨学科观点:新发现与方法》,Springer,pp. 85-113。Grives, M. Vickers, J., 2017年。数字双对子:减缓复杂系统中不可预测的、不可取的紧急行为。在Kahlen, F. J., Flumerfelt, S., Alves, A.(Eds.), 《复杂系统跨学科视角》, Springer International出版社。",
+      "sourceTextHash": "c76f8c33e5480198bf74c2fc24e24a15aa136adadab23a52b3568836a1bb7f14",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 5,
+      "flags": []
+    },
+    "p18-b10-88cf0cd": {
+      "zh": "14. Fig 14. 365Farmnet的实地数字双对网上的杂草压力视图。",
+      "sourceTextHash": "88cf0cdf3ed9c687db475ef200596df0719df710025769deaa74c56d8971753f",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p18-b11-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 18,
+      "chunks": 1,
+      "flags": []
+    },
+    "p19-b0-8dd1999": {
+      "zh": "189(2021)103046",
+      "sourceTextHash": "8dd199961c814618d6cccb5788a8783c94a52f1c511b42da492647ca525d824b",
+      "status": "machine-draft",
+      "page": 19,
+      "chunks": 1,
+      "flags": []
+    },
+    "p19-b2-ce157bc": {
+      "zh": "Gubbi, J., Buyya, R., Marusic, S., Palaniswami, M., 2013年。 互联网:视觉、建筑元素和未来方向。 Gener. Gener. Comput. Syst.29(7), 1645-1660。 Hagerty, J., 2016年。《数据和分析规划指南》,Gartner. Hevner, A.R., 3月,S.T., Park, J., Ram, S., 2004年。信息系统研究的设计科学。MISS Q. 28(1), 75-105. IT-T,2016年。建议ITU-T 因特网概览。国际电联电信标准化部门,IoT参考模型,p.2060.Janssen, S.J.C.等人,2017年。新一代农业系统数据、模式和知识产品:信息和通信技术。Agric. Syst. 155, 200-212. Jo, S.K., Park, D.H., Park, H., Kim, S.H., 2018。使用数字双的智能畜牧农场:可行性研究。在2018年信息和通信技术融合国际会议(ICTC)中,第1461-1463页。https://doi.org/10.1109/ICTC.2018.8539516. Jones, D., Snider, C., Nassei, A., Yon, J., Hicks, B., 2020年。数字双体特征:系统性文献审查。CIRP J. Manuf. Sci. Technol. 29 (A), 36-52. Kamillaris, A., Prenafeta-Boldú, F.X., 2018。农业深层学习:调查。 Comput. Electron. Agric. Agric. 147, 70-90. Kampker, A. Stich, V., Jussen, P., Moser, B., Kuntz, J., 2019. 工业智能服务的商业模式 -- -- 土豆收获产品服务系统的数字双体的例子。 CIRP关于工业产品服务系统的第十一次会议。Procedia CIRP 82, 534-540. Knibbe, W.J., Ridder, D. D., Ritzer, S., 2019. 踢开数字双胞胎:让我们一起找到答案。 Kovacs, Z., Le Goff, J. M., McLattachey, R. 1998. 支持从设计到生产的产品数据。 Comput. Integr. Manuf. Syst. 11 (4), 285-290。Kritzinger, W., Karner, M., Traar, G., Henjes, J., Sinhn, W., 2018年。制造业的数字双胞胎:明确的文献审查和分类。IFAC-PappersOn Line 51 (11), 1016 - 1022. de Leeuw, A. C. J. 1997年。有机体:管理、分析、对口、对口;Yyssteemvisie. Van Gorcum, Asen. Lepenioti, K., Bousdekis, A., Apostoloou, D., Mentzas, G., 2020年。描述性分析:文献审查和研究挑战。Int. J. Inf.Manag. 50, 57-70。 Linz, A., Hertzberg, J., Roter, J., Ruckelshauseson, A., 2019。数字Zwillinge als Werkzeug für die Entwicklung von Feldrobotern in Landwirtschaftlichen Prozessen,载于:Al, M.A.E. (Ed), Digitisierung in kleinstrukturierten Regionen, Gesellschaft für Informatik,波恩,pp.125-130。Maaä, W., Pier, M., Moser, B., 2018。 Al, K.M.E. (Ed), der Landwirtschaft. Service Engineer的智能服务公司,Springer,pp.167-181, S.T., Storey, V.C.,2008年。信息系统学科的设计科学:关于设计科学研究特别议题的介绍。MISSQ.32(4),725-730. Marr, B., 2017。数字双胞胎技术为何如此重要? Forbes. htt ps://www.forbes.com/sites/bernardmarr/2017/03/06/What-is-digital-twin-techn logy-and whis-is-it-so-import-importe/.Mike Shafto、C., Conroy, M., Doyle、R.、Glaessgen、E. Kemp、C.、LeMoigne、J.、Wang、L.,2012年;建模、模拟、信息技术和路线图技术领域11美国航天局、华盛顿、第33页。麦克尔、M.、Clark、J.,2018页。2018年第十三届数字信息管理国际会议(ICDIM),柏林,德国234-239. Park, K.T., Nam, Y.W., Lee, H.S., Im, S.J., Noh, S. D. Sons, J.Y., Kim, H., Veloso, L., Nunes, J., 2019. 设计和实施数字双人应用程序,用于一家连接的微型智能工厂。《智能连通物体如何改变竞争》,哈佛商业评论,11月,第65-88页。 Redelinghuys, A., Basson, A., Kruger, K., 2019年。一个制造单元的六层数字双结构,6级数字双结构,Borangiu, T., Trentesaux, D., Thomas, A., Cavaliriari, S. (Eds.),《Holonic和多机构制造业的服务方向》,Springer国际出版社,Cham, 第412-423页。 Runeson, P., H Quost, M., 2008年。软件工程案例研究进行和报告准则。Empir. Softw. Eng. Eng. 14(2),131。",
+      "sourceTextHash": "74627451624e73e200e7fc2a4df5fc0c62369f24404b9f2788dd8ab64a804cae",
+      "status": "machine-draft",
+      "page": 19,
+      "chunks": 8,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p19-b3-14b4188": {
+      "zh": "Saddik, A.E., 2018. 数字双胞胎:多媒体技术的融合。IEE Yulti Media 25(2),87-92. Schleich, B., Anwer, N., Mathieu, L., Wartzack, S., 2017. 设计设计和生产工程的数字双胞胎。CIRP Ann. 66(1),141-144. Shaw, K., Fruhlinger, J., 2019. 数字双胞胎是什么,它为什么对IoT网络世界很重要? https://www.networkworld.com/artic/3280225/What-ex-digital-twin-tech-windeet-wy-hy-hy-matters.html.Skobelev, P., Laryukhin, V. Simonova, E., Goryanin, O., Yalovenko, O., 2020。发展基于植物数字双胞胎的智能网络物理系统。见:第四次世界系统智能趋势会议,2020年。安全与可持续性问题会议(WorldS4),伦敦,联合王国,第522-527页。Sørensen,C.G.,Fountas,S.、Nash,E.,Pesonen,L.,Bochtis,D.,Pedersen,S.M.,Basso,B.,B.,Blackmore,S.B.,2010年。未来农场管理信息系统的概念模型。Comput. Electron. Agric. 72(1),37-47.Sreedevi,T.R.,Santoh Kumar,M.B.,2020年。智能农业的数字组合:绝对的文献审查和探索水力工程的可能性。先进应用计算机和通信技术(ACCTHPA),科钦,印度,2020,120-124。Sudarsan, R., Fenves, S.J., Sriram, R.D., Wang, F., 2005年。产品生命周期管理的产品信息模型框架。计算出:Des. 37(13), 1399-141. Sundmaeker, H., Guillemin, P., Fries, P., Wilfffl 'e, S., 2010年。实现事物互联网的愿景和挑战。欧洲联盟,布鲁塞尔, Int Veld, J., 2002年。分析van organisatiblemen。第八版,载于Stenfert Kroese, Tao, F. Cheng, J., Q., Q., Zhang, H., Sui, F., F., 2018. 数字双驱动产品设计、制造和提供大数据服务。Int. J. Adv. Manuf。Technol. 94(9), 3563-3576. Tekinerdogan, B., Verdouw, C., 2020. 《开发数字双胞胎的系统建筑设计图案目录》, Sensors 20, 5103。https://doi.org/10.3390/s20185103. Trieenekens, J.H.,van der Vorst, J.G.A.J., Verdouw, C.N., 2014年;全球粮食供应链。载于:van Alfen, N.K. (Ed.),《农业和食品系统百科全书》,第二版。学术出版社,第499-517页。Tzounis, A., Katsoulas, N., Bartzanas, T., Kittas, C., 2017. Internet of 农业中的事情、最近的进展和未来的挑战。Biosyst. Eng. 164, 31-48。Uckelmann, D., Harrison, M., M., Michahelles, F., 2011年,2011年。对未来事物互联网的建筑方法。在:Uckelmann, D., Harrison, M., M., Michaheles, F. (Eds.), Springer-Verlag, Berliner Heiderberg, pp.1-244. Van Aken, J. E. 2004年。基于设计科学范式的管理研究:探索实地测试和基础技术规则。J. Manag. Stud. 41(2), 219-246. Verdouw, C.N., Kruizeze, J.W., 2017年。农场管理的数字双胞胎:FIWARE SmartAgrif and Fractals的说明。 PA17 - 2017年Pricision农业国际三次会议。Verdouw, C.N., Beulens, A.J.M., van der Vorst, J.G.A.J.J.2013年。《花卉供应链的虚拟化:从互联网上对事物视角的审查》。C. Wolfert, S., Tekinerdogan, B., 2016a. 农业商品互联网。 CAB评论11 (35), 1 - 12。Verdouw、C.N.、Wolfert、J.、Beulens、A.J.M.、Rialland A.,2016年b.通过互联网将食品供应链虚拟化。 J.Food Eng.176、128-136.Verdow、C.N.、Wolfert、J.、Bers、G.、Sundmaeker、Harald、Chatzikostas、Grigoris,2017年;促进商业和软件生态系统,以便在粮食和农业中大规模吸收IOT,PA17 -- -- 2017年精确农业国际三次会议。汉密尔顿1-7. Verdouw、C.、Sundmaeker、H.、Tekinerdogan、B.、Conzonzon、D. Montanaro、T.,2019年。基于IoT的食品和农场系统的建筑框架:多重案例研究。Agric 165, 104939. Wolfert, S., Ge, L., Verdouw, C., Bogaardt, M.-J., 2017年。智能农业方面的大数据 - 一项评论。 Agric. Syst. 153, 69-80. Yin, R.K., 2002年。案例研究:设计和方法。Sage Publishments, Inc, Newbury Park, 第三版。Zhai, Z., Martínez, J.F., Beltran, V., Martínez, N.L.,2020年。农业决策支持系统4.0:调查与挑战。Comput. Eplicen. Agric. 170, 105256。",
+      "sourceTextHash": "83a096c055c247232f52349c983924b36a1377d54a94705ac3ad35f8d2447460",
+      "status": "machine-draft",
+      "page": 19,
+      "chunks": 8,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p19-b4-6312572": {
+      "zh": "C. Verdouw等人案",
+      "sourceTextHash": "63125723569bc7918b2e895abe1b77211be0eec7b8314a02795b41483f091064",
+      "status": "machine-draft",
+      "page": 19,
+      "chunks": 1,
+      "flags": []
+    }
+  },
+  "coverage": {
+    "translatedTextBlocks": 225,
+    "totalTextBlocks": 258,
+    "untranslatedTextBlocks": 0,
+    "symbolsRetainedBlocks": 33,
+    "manuallyReviewedBlocks": 0,
+    "machineDraftBlocks": 225,
+    "allNumericClaimsManuallyVerified": false
+  }
+}

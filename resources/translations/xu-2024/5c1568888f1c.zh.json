@@ -1,0 +1,1661 @@
+{
+  "schema": "paper.translations.v3",
+  "docId": "xu-2024",
+  "sourceHash": "5c1568888f1c72eb2e61e30e8a4b1f9c2582c4f11c4ccae064b34a1bb333be4e",
+  "language": "zh-CN",
+  "engine": {
+    "model": "Helsinki-NLP/opus-mt-en-zh",
+    "revision": "c8ce7d3af8eb15938be419f1c4c177dc724ab8ec",
+    "runtime": "CTranslate2 int8 CPU",
+    "review": "machine-draft-with-explicit-curated-overrides"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Agricultural Systems 216 (2024) 103896 Available online 22 February 2024 0308-521X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). Comparing the sustainability of smallholder and business farms in the North China Plain; a case study in Quzhou Zhan Xu a,b,c,*, Zhengyuan Liang a,b,c, Jiali Cheng a,b,c, Jeroen C.J. Groot b, Chaochun Zhang c,*, Wen-Feng Cong c, Fusuo Zhang c, Wopke van der Werf a a Centre for Crop Systems Analy",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "sourceCitation": "Xu, Z., et al. (2024). Agricultural Systems, 216, 103896.",
+  "sourceURL": "https://doi.org/10.1016/j.agsy.2024.103896",
+  "visibility": "public-adaptation",
+  "blocks": {
+    "p1-b6-1db2276": {
+      "zh": "H I G H L I G H T S G R A P H I C A L A B S T R A C T",
+      "sourceTextHash": "71439e2905b727175b140723a220190a62f17b44ba6057faff843b2390f1ecfc",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b10-19af77a": {
+      "zh": "A R T I C L E I N F O",
+      "sourceTextHash": "26585e7990e438d9ef3743295abff1f571d8950a5722ef380dad26976ff0a03a",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b13-c0671f4": {
+      "zh": "A B S T R A C T",
+      "sourceTextHash": "c0671f4edc5af3c59d4e363459c009dcbcf8d91e09e0e06c138219ded7f82d22",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p2-b1-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 2,
+      "flags": []
+    },
+    "p2-b9-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 2,
+      "flags": []
+    },
+    "p3-b1-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 3,
+      "flags": []
+    },
+    "p3-b11-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 3,
+      "flags": []
+    },
+    "p4-b1-4b22777": {
+      "zh": "4",
+      "sourceTextHash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b9-b759dbb": {
+      "zh": "Xi = ∑n",
+      "sourceTextHash": "6a28c483ddda45660a2a4ea582973efa43659130e0bf70071ca72eee2d384b2d",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b10-189f400": {
+      "zh": "j",
+      "sourceTextHash": "189f40034be7a199f1fa9891668ee3ab6049f82d38c68be70f596eab2e1857b7",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b11-964c290": {
+      "zh": "Aij ∑Aij",
+      "sourceTextHash": "867152ac1bc8b5b33296a13a93eabd5543b5b4f03866e2b10b47bcb22bc845cf",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b12-0c426bd": {
+      "zh": "Xij (1)",
+      "sourceTextHash": "eefe851e4b148f52f452b95bc763b636c069e3ded51eff9e2993b8fc9ac0ed82",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b16-b759dbb": {
+      "zh": "Xi = ∑n",
+      "sourceTextHash": "6a28c483ddda45660a2a4ea582973efa43659130e0bf70071ca72eee2d384b2d",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b21-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p5-b1-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b4-46f789d": {
+      "zh": "(3)",
+      "sourceTextHash": "46f789d1efeefad080846917a6a4a761d0e1804bb0a4f27fa4634a887ec26265",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b30-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p6-b1-e7f6c01": {
+      "zh": "6",
+      "sourceTextHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b9-dae5e79": {
+      "zh": "0.04 ± 0.01 2.32 ± 0.70 <0.01",
+      "sourceTextHash": "26b380cf590df42254f95ac03c3ccf68517bf36795ada0781f646c7b7ca69375",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b14-29be173": {
+      "zh": "(n=486) (n=19)",
+      "sourceTextHash": "9054c20376a4e7e29d801eefa5d1f543657949725fbfc53058b2e5f4c2d5a48d",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p6-b43-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p7-b1-7902699": {
+      "zh": "7",
+      "sourceTextHash": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p7-b4-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p8-b1-2c62423": {
+      "zh": "8",
+      "sourceTextHash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p8-b9-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p9-b1-19581e2": {
+      "zh": "9",
+      "sourceTextHash": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "status": "verbatim-symbols",
+      "page": 9,
+      "flags": []
+    },
+    "p9-b8-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 9,
+      "flags": []
+    },
+    "p10-b1-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 10,
+      "flags": []
+    },
+    "p10-b10-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 10,
+      "flags": []
+    },
+    "p11-b1-4fc82b2": {
+      "zh": "11",
+      "sourceTextHash": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+      "status": "verbatim-symbols",
+      "page": 11,
+      "flags": []
+    },
+    "p11-b6-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 11,
+      "flags": []
+    },
+    "p12-b1-6b51d43": {
+      "zh": "12",
+      "sourceTextHash": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+      "status": "verbatim-symbols",
+      "page": 12,
+      "flags": []
+    },
+    "p12-b12-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 12,
+      "flags": []
+    },
+    "p13-b1-3fdba35": {
+      "zh": "13",
+      "sourceTextHash": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+      "status": "verbatim-symbols",
+      "page": 13,
+      "flags": []
+    },
+    "p13-b11-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 13,
+      "flags": []
+    },
+    "p14-b1-8527a89": {
+      "zh": "14",
+      "sourceTextHash": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+      "status": "verbatim-symbols",
+      "page": 14,
+      "flags": []
+    },
+    "p14-b4-2ea26c7": {
+      "zh": "Z. Xu et al.",
+      "sourceTextHash": "2ea26c73b3237b24b5c1decb1b2253d082a95c2b52947fa056c579703b37725e",
+      "status": "verbatim-symbols",
+      "page": 14,
+      "flags": []
+    },
+    "p1-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b2-5c3bbfa": {
+      "zh": "2024年2月22日 0308-521X/ ' 2024 《作者》,Elsevier Ltd出版。 这是根据《CC BY许可法》(http://creativecommons.org/licenses/by/4.0/)公开查阅的文章。",
+      "sourceTextHash": "e8266886b3d1e33da4c1fe8670142cb996a7baf5bd7b7d2d7a1d847337a5e34e",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b3-563293b": {
+      "zh": "比较北中平原小农户和企业农场的可持续性;奎州案例研究",
+      "sourceTextHash": "ce3a565092478cd86b098e1a89f74734641b0f80cfcb1c04ac0205ba80d38bf0",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b4-72a2668": {
+      "zh": "Zhan Xu a,b,c,*,Zhengyuan Liang a,b,c, Jiali Cheng a,b,c, Jeroen C.J.Groot b,Chaochun Zh hang c,*, Wen-Feng Cong c, Fusuuo Zhang c, Wopke van der Werf a",
+      "sourceTextHash": "6f847e95cd5e1c40bec0d37ea4f7800c4e5685fe1fa4d3b9d876f88869276b38",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "language-check"
+      ]
+    },
+    "p1-b5-67a327d": {
+      "zh": "a 作物系统分析小组中心、Wageningen大学和研究中心、P.O. Box 430、6700 AK Wageningen、荷兰b农业系统生态组、Wagningen大学和研究、P.O. Box 430、6700 AK Wageningen、荷兰国家营养用和管理关键实验室;中国农业大学资源与环境科学学院,北京100193、中国",
+      "sourceTextHash": "447aa774992ebf7f867672e78af155c05f8d2c197f2601ed0a0a33e8f1d9ef9c",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b7-c2afb5e": {
+      "zh": "● 小农户的谷物产量增加,而以作物为主的农庄收入增加。",
+      "sourceTextHash": "dcd3f20b8f178206091bcd37be89ae36d6aafdd7e894a56e9f871857dba0633d",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b8-335eea4": {
+      "zh": "• 需要改进做法,以进一步提高两种农场的可持续性。",
+      "sourceTextHash": "15138725a0fc9abe9f99fa79e9209113fce1afe2dd27febdcaea3b0864ec6ca8",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b11-b2b9409": {
+      "zh": "编辑:Kairsty Topp",
+      "sourceTextHash": "b2b94099464bc96804201c8006908b3caeffe5628527e4b12d4fb67d90eba05a",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b12-28644b7": {
+      "zh": "关键词:商业农场",
+      "sourceTextHash": "3c98842d64a1cee69145e46773598dc39826b106a65ee982ef34d82561427f5b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b14-169265e": {
+      "zh": "具体内容:随着劳动力向城市的迁移,中国农业正在出现企业耕作和农场规模扩大;农场面积扩大引发了广泛的管理调整,可能影响作物生产做法的可持续性;与传统的小农农场相比,几乎没有关于种植做法和商业农场作物生产可持续性的经验信息;目标:我们在这里比较了小农农场和企业农场之间的耕作活动和可持续性绩效。方法:通过对北中华平原奎州35个村庄的486个小农农场和19个商业农场进行调查,获得了有关作物活动和作物管理的数据。但在收集数据后,我们在作物和农场规模上计算了可持续性指标。成果和结论:商业农场面积大约是小农农场(14.6公顷对0.8公顷)的15倍,它们拥有更多的自有机械。在小农或商业农场种植的作物种类数量方面没有显著差别。但是,商业农场分配给谷物和粮食的面积较少。",
+      "sourceTextHash": "0c5126e8a83dc5f7cade21172be4da6204b97b197c97caa6579b349ae6506d20",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b15-12171ac": {
+      "zh": "* 相应作者:Wageningen大学和研究中心作物系统分析小组中心,P.O. Box 430、6700 AK Wageningen,荷兰电子邮件地址:zhan.xu@wur.nl(Z. Xu)、zhangcc@cau.edu.cn(C. Zhang)。",
+      "sourceTextHash": "ac9fb373b03677cf5f4fa711f10493bc31a8cb241560c830aa8757c77859486c",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b17-b0658ce": {
+      "zh": "在 ScienceDirect 上可用的内容列表",
+      "sourceTextHash": "b0658ce9dccc0acba9a472c2bb992cc9ba72c28f2ffb7146782e56fa3025b55b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b18-fb1fca0": {
+      "zh": "农业农业系统",
+      "sourceTextHash": "fb1fca0791ac2c307fb3dbd5dc6c9b3440cf2b289b649eaf98034c7bae6e0f8c",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b19-a2a80ca": {
+      "zh": "网址:www.elsenvier.com/locate/agsy",
+      "sourceTextHash": "a2a80caaa46d1d9359df4afce09f99beea9dc58f3c926fb68777d35d627f139f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b21-c2e4550": {
+      "zh": "收到:2023年10月13日;收到订正表格,2024年1月1日;接受:2024年2月4日",
+      "sourceTextHash": "4c2dab19557d173bb3931485904cc2b3a3b91f59e3f3793c673331d6a4e84993",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b2-c410893": {
+      "zh": "商业农场显示出一些环境效益,例如商业农场使用灌溉用水减少21%,剩余水量降低28%;然而,与小农场相比,商业农场的膳食能源产量每年比小农场低32%,这些差异与较小农农场更好的管理和小农场的作物生产指数(年作物数量)较低有关,这些结果表明,商业农场在农业生产的环境外差方面比小农农场有所改善,但是对谷物生产的贡献相对较低。",
+      "sourceTextHash": "6bf7ed3009d92225dd4d2a9ac8e3dd11988a8f05246aecfac41e8a974ee502cc",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b3-6e62ee8": {
+      "zh": "1. 导言",
+      "sourceTextHash": "6e62ee82e3df2a7dfcaba91e18eab2a77c9c7f7b4a5dceb49528346078b636d2",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b4-a69fc8b": {
+      "zh": "随着世界人口的增长,对粮食的需求不断增加,但农业对环境的消极影响需要减轻(Foley等人,2011年)。农场面积是粮食安全、农业环境外差因素和农场社会经济生存能力等讨论的一个关键变量(Meyfroidt,2017年 ) 。 据估计,小农户生产了全球全部粮食生产的40%(Samberg等人,2016年 ) , 人们认为它们仍将是粮食生产和消除贫穷的重要来源(Giller等人,2021年;Ricciardi等人,2021年 ) 。 然而,为了提高农业生产并稳定农业生产,人们强烈要求加强、统一和扩大农业企业的规模,以便从规模经济中受益,并允许更多投资于生产过程的`合理化 ' ,例如机械化(Woodhouse,2010年 )。农场合并和面积扩大的目的是提高生产力、资源使用效率和经济业绩(Rada和Fuglie,2019年),但也可能影响生产活动的多样性以及面对变异、变化和动乱时适应的灵活性(Koirala等人,2022年)。不同规模的农场可能会在管理做法方面作出对比性选择,例如化学与有机投入或使用水、肥料和杀虫剂等投入的密集程度。这可能会对农场的环境影响产生强烈的影响(Ren等人,2019年;Liebert等人,2022年)。一些研究比较了某些可持续性方面的大农场和小农户,但对于农场规模的差异是否与可持续性指标之间的取舍有关,仍不清楚。有些亚洲地区正在经历着许多大型农场的增长,那里的农场规模历来很小,劳动工资一直在增加(Otsuka等人,2016年a)。中国是世界上近40%小农户(每个农场 < 2公顷)的所在地(中国,2012年)(Huang等人,2012年);中国农业规模小的原因之一是农村家庭按比例分配土地的集体所有权,即与每户居民人数成正比;随着农村人口的增长,中国平均农场面积从1985年的0.73公顷降至2013年的0.61公顷(Ji等人,2016年);很难在这些小农场上谋生,因此年轻人要搬到能够提高工资的城市,从而减少农村地区劳动力供应量;因此,没有足够的劳动力可用于耕种;结果,商业农场迅速出现( > 3公顷/每家农场)(Huang和Ding,2016年)。中国政府认为,将零散分散的地块合并为更大和更具凝聚力的单位,可以防止农田被弃置并促进农业机械化(Shen和Shen,2018年)。 中国有三种类型的商业农场:家庭农场1。",
+      "sourceTextHash": "fef42316bf2feee5f717bed8823c9ef741e52e6b6644eee00f1b9afda055fe2d",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 4,
+      "flags": []
+    },
+    "p2-b5-9a4bd08": {
+      "zh": "大约60%的拥有土地使用权的人在农场以外工作,并将耕地出租给这三种类型的商业农场之一(Deininger等人,2014年)。中国政府采取了若干政策加快商业农场建设,包括给予农民租赁土地的权利,提供贷款担保,补贴储存基础设施投资,为购买大型机械提供直接补贴(Rada等人,2015年);及时了解新兴商业农场在多大程度上发展了比小农户更可持续的做法。北中平原是中国关键的农业生产区,占全国小麦产量的59%、玉米的26%、棉花的7%和蔬菜的29%(中国国家统计局,2020年)。高水平的农业投入,如肥料、农药和水,被用于支持高稳定作物生产(Ju等人,2009年;Niu等人,2021年)。然而,密集的生产方法引发了一系列可持续性问题,例如氮(N)高流失、地表水农药污染(Brauns等人,2018年)以及浅层和深层地下水资源的过度开发(Holst等人,2014年)。从2003年至2013年,商业农场所占耕地面积增加了30%(NCP)(NBSC,2013年),而国家联络中心的商业农场数目预计将进一步增加(Duan等人,2021年)。需要说明全国联络中心的商场在多大程度上有助于解决上述可持续性问题。农民根据其生产目标、资源和制约因素选择其作物(Aouadi等人,2015年)。小农户选择能够最大限度地增加其农业总产量和农场外收入的作物(Zhang等人,2018年);他们更喜欢种植节省劳力的作物,如谷物作物,使他们有更多的时间从事非农工作;在另一侧,商业农场优先考虑通过销售农产品获得经济利益(Yu等人,2021年);预计商业农场将强调种植毛利高的作物品种,以补偿土地租金成本(Huang,2014年;Zhao等人,2017年);此外,我们期望强调可以使用机械低劳动力投入耕种的作物(Qiu等人,2020年);人们担心从小农场转向商业农场可能会导致对少数有利可图和可机械化作物品种的重视,而其他作物则可能损失,从而导致饮食多样性的减少(Ricciardi等人,2021年)。关于全国大商业耕作对作物选择和农耕做法的影响,经验证据很少,北中平原的热量总和足以每年种植两种作物,例如春季小麦和夏季玉米,这种双种作物每年使单位面积的产量高,然而,不适当地增加作物密集度(这里理解为每年收获的作物数量)增加了地下水的使用量和可能增加地下水的使用量。",
+      "sourceTextHash": "8d07db8e9806264498c90e08802d677891d5c523b2b6b507521be984bd6c300f",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 4,
+      "flags": []
+    },
+    "p2-b6-bc2c4f1": {
+      "zh": "1 在中国,家庭农场的定义是一家家庭经营的和雇用季节性劳力的农场,农场面积大于50毫瓦(3.3公顷)。",
+      "sourceTextHash": "42547281ce6ea449f8e878aeb25b58a273fb5aa3e639cea171190e82b17320a1",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b7-ddd6a85": {
+      "zh": "2 合作社农场通常由至少五个家庭农场组成,共同投资机械和工资。",
+      "sourceTextHash": "57ecf94833afbb6cfce54aa329473c6729c4e83a3683b905941599af158b927b",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b8-f464261": {
+      "zh": "3 农业公司在所有类型的商业农场中规模最大,这些农场与投资者的资本合作;农业公司有兴趣雇用专业经理进行销售和销售(Yu等人,2021年);一些农业公司有自己的加工设施。",
+      "sourceTextHash": "1feabb2e812a20ceab71ac84fef4f53163af76723547580c468d62d953efe663",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b2-b7580b6": {
+      "zh": "因此,已提议将作物密集度降低(从每年2个作物降至每年1个作物),以此作为必要的缓解措施,使作物系统成为地下水中性(van Oort等人,2016年);中国政府向过度抽取地下水地区的农民提供补贴,包括全国大某些地区的农民,以放弃冬季小麦种植,自2016年起保持冬季土地倒塌;在浙江省,与小农农场相比,商业农场从双种作物转向单种稻米(van den Berg等人,2007年)。没有资料说明农业管理模式(即小农农场和企业农场)对全国大豆种植强度的影响。在这项研究中,我们利用调查数据来说明小农农场和企业农场之间在农业特征、决策者的属性、作物物种和作物种植制度方面的差异。我们确定小农场和企业农场是否在单位面积生产力、经济可持续性和作物生产的环境可持续性方面有差异。我们还审查了作物管理和作物种植强度与农业可持续性的关系。我们这样做的目的是阐明新兴的农场管理模式对全国大作物生产可持续性的影响。",
+      "sourceTextHash": "aa1d201bcc92e7559fcd9aab2e1f5a237beb31e87f566c6984b27a4ca6f7fa99",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b3-a77f4aa": {
+      "zh": "2. 材料和方法",
+      "sourceTextHash": "a77f4aaf906d38849e11e41a6e44e589cb63ae7d507ea1af9799731e28579ee6",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b4-aa7eeb8": {
+      "zh": "2.1. 研究领域",
+      "sourceTextHash": "aa7eeb856a848f792aca5ab87915809e6c5b0c63bb3c22bf795c3ed8da8a944e",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b5-c8317f6": {
+      "zh": "我们调查了全国人民大会党Quhone县内505户家庭,位于河北南部(图1a),其人口为527 304人,分布在10个乡镇,共有342个村庄,总面积为66 700公顷,其中78%是2017年可耕地(全国社会理事会,2017年)。",
+      "sourceTextHash": "8b9ef5e42c9d963570ca83b18062650c212a33636d8aa9ae5d698a6d33ff805a",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b6-c6af53f": {
+      "zh": "在过去30年中,当地农民的经济增长迅速(图1a),他们可以在城市地区找到工作;该区域有大陆暖季和半湿季季风气候,夏季气温高、降雨量大,冬季天气寒冷;每年556毫米降水约60%来自7月和8月的降雨;小麦、玉米和棉花是主要作物,而高价值作物最近有所增加(Yang等人,2021aa);各乡镇的作物分配情况不同(Meng等人,2021年)。",
+      "sourceTextHash": "8e6a85cd653f8047139644c84697ea8a734ad2c4050cb11c37bab75fd2902262",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b7-b08b029": {
+      "zh": "2.2. 分层数据收集",
+      "sourceTextHash": "b08b029ffe80d57d9c56a207829190f7a41cbc3798a7f13c4ec7706d8736877e",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b8-bb36b46": {
+      "zh": "我们开发了一种类型,将具有相似作物生产和社会经济特征的村庄分组,以便利用分层随机抽样收集奎州有代表性的农场样本;在这种类型中,我们使用了人口和经济变量,例如每个村庄的家庭数量和平均家庭收入,数据来自年鉴数据和未公布的调查信息(Xu等人,2024年),总共确定了8个村庄类型,其中包括一个城市化程度高、农村几乎没有或根本没有作物产量的村庄,一个拥有相当大面积可耕地面积和多个农业管理模式的村庄,一个拥有相当大的可耕地,但仅由小农场占用,3个以谷物为主,1个以蔬菜为主,1个作物生产多样化。 在3个以谷类为主的村庄中,1个拥有相对较高的蔬菜生产,1个拥有小块可耕地,1个拥有中等可耕地地区和人口。调查不包括城市化程度大、几乎没有作物生产的村庄,在其余7个组群中,每个组群有5个是随机挑选的(图1b),从每个选定村中共确定15个农场,如果一个村中有商业农场,这些农场总是包括在内,其余的小农户则随机挑选,以获得每村15个农场的抽样。",
+      "sourceTextHash": "f370aa250455d2cb4879f8e66edf4290a20da27225cfa1606c6235e5c07eff55",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 2,
+      "flags": []
+    },
+    "p3-b10-fd82aec": {
+      "zh": "图1. 北中平原,由河北、河南和山东三省以及北京和天津市区组成(a) 河北南部Quhone县的位置(a) 和被调查村庄类型地理分布(b). Quhone是小组(a) 所示的绿地,在小组(b) 中显示扩大; (b) 所显示的乡村类型基于年鉴数据(2017年,NBSC)和未公布的土地使用调查数据; 黑环表示被调查的村庄; 地方政府提供了地理数据。 \" NA \" 是指该村的数据被排除在年鉴之外, \" Oterlier \" 表示年鉴中的数据不一致,即耕地面积大于该村总面积。 (关于本图中的颜色引用,读者参考了这一文章的网络版本。",
+      "sourceTextHash": "2be31a222537074f8a0bd0b56d8306019a09a642fdd1bd901d2b8c11356cbc82",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b2-382f23b": {
+      "zh": "收集了505份有效的问卷,涉及486个小农户、14个家庭农场和5个合作农场;我们将家庭农场和合作社农场合并为商业农场,因为每个农场数量有限;所有类型的村庄都有商业农场,1-2类农场最多(5)个,其次是2-3类(表S1)。 我们用同样的结构化问卷采访小农和企业农民;每份调查问卷都收集农场一级的基本信息,包括农场规模、农场中每个一年耕作制度的面积以及决策者的年龄、上学年限和耕种经验。 对于农场的每块土地 > 0.5 mu(15 mu = 1 公顷),我们在一年的作物周期(2019年6月至2020年6月)内收集种植可耕地的投入和产出。收集每个地块每一作物的投入产出清单花费了20分钟时间,因此如果一年中在一块地里种植多种作物,那么收集这一信息可能需要40或60分钟的时间,这取决于种植了多少种不同的作物。投入是化肥、肥料、劳力和成本。产出包括作物产品产出和农场出产价格。常年作物和温室作物在奎州并不常见,所以我们没有收集有关它们的信息。由于蔬菜和瓜经常在隧道中生长,我们确实把地道种植的作物纳入我们的调查范围。我们用六名训练有素的计数员进行了调查。",
+      "sourceTextHash": "b769f330c33358e8658f6c022b20e4e9c4c7513ad4dd91fd8e3e3ed990bad365",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b3-8ec4f46": {
+      "zh": "2.3. 作物种植制度和多种作物种植指数的计算",
+      "sourceTextHash": "8ec4f46ee91e56c54d948019c672349c3434c728e86d30fd8ee66875daacc8bf",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b4-cd8ea55": {
+      "zh": "地块(MCIp)的多种作物指数被界定为整个一年中在地块种植的作物数量,农地多种作物指数(MCIF)被计算为农场面积大于0.5微米的所有地块的区域加权平均MICP;我们根据将作物品种合并在一起的时间和空间模式确定了五类耕作系统(图2和附录A4)。 首先,单种作物(如棉花)每年每片地只种植一个作物(MCIP=1);还有继承间采伐系统(例如棉花/芒青豆),其中两个作物物种覆盖了地带的一部分地块,季节期间每个地区的土地单位仍只有一作物(MCIp=1)。在双种作物(例如小麦 -- -- 玉米)中,同一地块在一年中相继种植两种作物(MCIp=2);在三种作物(如卷心菜 -- -- 咖啡 -- -- 咖啡)中,MCIp为3;最后发现一些继电器重复种植的情况,其中一种物种长期覆盖该地区的一部分地区(条纹),而另外两种物种则在其它地带以两个种顺序相继生长;在这种情况下,多种作物指数是1.5;我们没有收集多年作物轮作数据,调查期间没有发现覆盖作物。",
+      "sourceTextHash": "0ca3fd47836d7661c1dd419c2931da15074ba5aad37591ab63b7891f2d6aa34d",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b5-3086f20": {
+      "zh": "2.4. 计算",
+      "sourceTextHash": "3086f20dcf9fed056dd0cdf80a7ee0b6d9546b2c32ba7f93e439681285033b41",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b6-1c448fd": {
+      "zh": "2.4.1. 农业特征和决策者的属性:农场面积和机械所有权被用来描述农场的特点,我们只计算自力机械(柴油、汽油和电机),而没有用于动物牵引的发动机和工具的手工工具则被排除在调查之外;年龄、上学年数和耕作经验年被用来描述农场决策者的特点。",
+      "sourceTextHash": "f258aad25c81d345634ea5a1effdc312a3940352926ce891209e27e875358e00",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b7-707fcce": {
+      "zh": "2.4.2. 我们计算了所有小农户和所有商业农场种植的作物品种数量,以评估两种类型的农业管理模式之间在作物多样性方面是否有差异。由于小农户和企业农场的数量和土地总面积不同,我们利用稀土行动(Gotelli,2008年)将该地区作物种类的多样性标准化。我们随机抽查了486个小农农场中的1 000倍小农农场,直到其总面积与抽样中19个商业农场的面积相等为止。然后,我们用1,000个生产作物数量的2.5和97.5%来得出样本中作物数量95%的置信区间。",
+      "sourceTextHash": "834358b4602d2b122229a792a8193f6db577dc4d3050333900b23533b03a59af",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p4-b8-c2dcc30": {
+      "zh": "2.4.3. 可持续性指标 在这项研究中,选择了6个可持续性指标来评价商业农场和小农户在环境、社会和经济领域的绩效(表1)所有指标的时间尺度为一年,所有指标都按两个空间层次 -- -- 地块和农场 -- -- 评估。",
+      "sourceTextHash": "050d7467599b5cb4bf9d6a4e61c83f0b8252b6a6f91ca08807b7c7c3d2980717",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p4-b13-9aa73c2": {
+      "zh": "其中习近平是农场i和Aij 的平均指标值。",
+      "sourceTextHash": "7a451a83468bb260d95a60dc6fef5c3183c8eebeed9478df1befb64abbc21152",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b14-aa0bb6c": {
+      "zh": "Aijre 代表",
+      "sourceTextHash": "aa0bb6c06c06d9c9875930a5d4d1e2efa4a1535732ee59bc44ef25bc717db5eb",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b15-efefa87": {
+      "zh": "i. Xij是农场i j 和 n 的j 中指示值,即农场i 和 n 中的地块数量。 如果需要整个农场的总面积,如总净盈余,则这一总数作为加权总额获得:",
+      "sourceTextHash": "e01747dcf48f6970292380770cf79f9f3859e3363c81af3164e2502acbecd50e",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b17-1bbf53a": {
+      "zh": "j AijXij (2)",
+      "sourceTextHash": "fc58c2b51bfe99c45d0d1cabb16a701ec0a1ead16e7509095e5b60528443661c",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b18-447c046": {
+      "zh": "Aij是农场j的地块i的区域,Xij是该地块的指标值,Xi是加权总和。",
+      "sourceTextHash": "4a356ce87deb1abcce792d2e97157af8d644f43b1a72ce0b90c3d728920507c5",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b20-7da506a": {
+      "zh": "图2. 一年年度作物种植系统类型分类:不同彩色盒代表不同的年度作物种类。",
+      "sourceTextHash": "7da506a487b53fcd3114452dc0df149c462168518464be01bfca0c10be4b61de",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b2-df7c792": {
+      "zh": "为了评估作物种植频率对可持续性指标的贡献,我们将农场一级的指标值除以农场的多种作物种植指数:",
+      "sourceTextHash": "08a93b912101c021f5c283d17a0b6fa8d8cf35f468013b0db5afeeab507cb1de",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b3-f3d7f18": {
+      "zh": "Xi, 更正 = Xi MMIFI, i",
+      "sourceTextHash": "ef37c79c5b4987d0e0f4e67ea4ad6a08863072ddd092450c1391cf99a59aa57b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b5-a8f3dd7": {
+      "zh": "如果MCIF,i = 1,那么习近平和习近平之间没有差别。在中继间植和双继互植的情况下,投入和产出值(灌溉投入除外)是按作物种获得的,以整个地块的单位面积表示,原因有二:农民立即为整个地块表示投入和产出,或农民按物种的单位面积表示投入和产出,以及地块内每个物种的面积比例。",
+      "sourceTextHash": "100cfb6788922e7ba7fe332953ca0d4b6875d7f50dbf44133e9c41d61d9b4c09",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b6-01aa8aa": {
+      "zh": "2.4.4. 奎州灌溉农民不需要支付灌溉用水费,但他们需要支付将水井或河流灌溉水泵到地块所需的电力。",
+      "sourceTextHash": "4580af1a6311804054b8581c449dcb69bd2589fc2ab6553ab8936b006d860acf",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b7-967ae5c": {
+      "zh": "灌溉 = 费用灌溉 = Qupump ×",
+      "sourceTextHash": "967ae5cd29cb14b69ce0ec78359fdbcedc85d0bf5b6da277ce960d16d1e669a3",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b8-a89460e": {
+      "zh": "价格电量 × 泵 × 10 × NI(4)",
+      "sourceTextHash": "11f8d99fa5060a43c60ef2dad122e349f92f0c342c6308f01fd8c34ed50a0801",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b9-331ef0b": {
+      "zh": "如果灌溉是一年中(毫米-1)地块的灌溉用水量,而NI是灌溉活动的数量,则费用灌溉是每事件电费(CNY ha-1)、水泵流量(m3 h-1)、水泵()是变压器效率(Quhou85%)、价格发电是每单位电价(CNY (kW h-1)、泵是水泵功率(kW)。十是毫米与立方米之间的转换系数。",
+      "sourceTextHash": "6ceb0401672a3dc137b0f060162ce1b1b5c981ef133dddeaf5c1584adc96ea25",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b10-7a5c89b": {
+      "zh": "2.4.5. 农药使用处理频率指数(TFI)用于确定杀虫剂使用频率,确定了所有类型的生物杀灭剂,包括杀虫剂、杀真菌剂和除草剂的单一TFI总量;计算TFI是全剂量施用量的数量(Lechenet等人,2014年);如果将两种农药产品作为一种喷雾中两剂全剂量的混合物施用,则在计算TFI时算作两种用途;在我们的调查中,农民通常不记得他们去年使用的农药的名称,但他们记得他们每次对每种农药都施用多少罐(20升中的)防护剂。",
+      "sourceTextHash": "729a911e917c58de8a83e17483606cc9f7aebcf6d50b956eb3e2b5d7f81ac977",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b11-4f03e62": {
+      "zh": "2.4.6. 净盈余(千克N公顷-1年-1)是按投入和产出之间的差额计算的:",
+      "sourceTextHash": "d922080f91bb04e7806ffe1e137122ba24d180716b2cfdfb0aa3b0d9fbfd842f",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b12-f48fde2": {
+      "zh": "盈余=Nin-Nout(5)",
+      "sourceTextHash": "9cce76f3233d4c9e26359e5ba72c930312cfa79847028c08895677e7d96c4313",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b13-fa92d1d": {
+      "zh": "Nin和Nout表示具体作物的N投入量(千克N 公顷-1年-1年)和N产出(千克N 公顷-1年-1年/1)。 N产出包括从田间取出的产量和炉灶中的N,计算结果在附录A5和A6中进一步阐述。",
+      "sourceTextHash": "59ef5fcb68f9afb5a45c202d33de8c129a39edc6b90c59dc0596fb403099326a",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b14-6589b0e": {
+      "zh": "2.4.7 饮食能量的生产(Gcal ha-1-1年-1)计算如下:",
+      "sourceTextHash": "90ab6335063b18cfff747a7c9ba5d72345bf0dae780db9b9795df088552a31cb",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b15-39be352": {
+      "zh": "饮食能量产量 = Y × EP × EC (6)",
+      "sourceTextHash": "e14e6a0a9742e69f1b966722f968bb602ac8f57f65e08124bc68a912b462d6da",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b16-a508b98": {
+      "zh": "其中Y(Mg ha-1-1年)是谷物、豆类作物、向日葵和油籽的干物质产量以及蔬菜、管茎作物和西瓜的新鲜产量。",
+      "sourceTextHash": "c2509060a38804233198c93242a8d9a04ca7b26cc345b27251705e0fe39ca781",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b17-5e24e98": {
+      "zh": "2.4.8. 我们总结了农民花在人工耕作活动上的时间,以量化年度劳动力使用(h h-ha-1—1年),其中包括用于土壤准备、播种、矿物肥料和粪肥施用、杀虫剂使用、灌溉、除草和收获的时间,以及针对具体作物的一些特别措施,如棉花的顶部摘除;如果由雇用机械服务部门从事这项活动,则劳动投入为零;如果机器是自有的,则机械的使用时间为零;毛利(CNY ha-1年)和补贴(Appendix A2)减去成本(CNY hi-1年)的总和;从作物产量产品和农场价格中计算的总收入,包括可变成本和耕地租赁费;可变费用涵盖农业材料投入的所有费用,包括种子(塑料)、肥料、肥料、肥料、农药、灌溉和购买的服务(机械和劳力)。",
+      "sourceTextHash": "fd60c5730f41543d8d140eebace71960e4eb13963675b0f36457975be56c1c5f",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b18-62e8a30": {
+      "zh": "2.5. 统计分析",
+      "sourceTextHash": "62e8a301df66a82886c0a682ecbf437335854d6df1092d90bcb7ee34bbda3aaa",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b19-902e94d": {
+      "zh": "我们利用科尔莫戈洛夫-斯米尔诺夫测试来比较两种农场管理模式的属性和性能衡量标准。 Rstudio(RStudio小组,2021年)和R 4.1.0版(R核心小组,2021年)用于统计分析和数据可视化。",
+      "sourceTextHash": "8a5c9b4f882742a184c644a018ef4c62559e622c7a113efe5d9c02710967870e",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b20-c3fea71": {
+      "zh": "3. 结果",
+      "sourceTextHash": "c3fea7138f4bb51688359fa370115de73c95fc2601dbf4e5411368aa2da343c0",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b21-1baddcf": {
+      "zh": "3.1. 农场和决策者的属性",
+      "sourceTextHash": "1baddcf1f280df48658c105707b4d8ce19685080675097995fcf17b985d4c8c0",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b22-05d3f04": {
+      "zh": "商业农场的平均规模为14.61公顷(1.86至4.00公顷),而小农农场的平均规模为0.78公顷(0.06至2.00公顷)(表2)。 商业农场平均拥有2.32台自有自有动力机器,例如用于播种、合并收割或除草的机械,而小农农场每家农场平均拥有0.04台自有机(p < 0.05)(表2)。 小农农场主要依靠机械服务而不是自己的设备。",
+      "sourceTextHash": "c860e6adca78d1f5bc960f575cb524b88f4f7789a6d63c3a04cdd858d9090e76",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b23-3293585": {
+      "zh": "3.2. 作物和耕作制度",
+      "sourceTextHash": "3293585593be4149a7c99ff61694ea01e665b4c8bfe6b3e7fb7aeb5f6ac78b30",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b24-d59adc4": {
+      "zh": "商业农场和小农农场种植了11种作物,包括三种谷物(小麦、玉米和小米)、四种蔬菜(咖啡、菜花、辣菜、辣椒和菠菜)、棉花、斯蒂维亚和其他两种作物(作为草药茶和西瓜的菊花),五种作物仅种植在商业农场,13种只种植在商业农场。",
+      "sourceTextHash": "a12bd0e8ca9719cc9b65a4c22e7cd04ff646a26165806c95ba6937af39012606",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b25-5c258c9": {
+      "zh": "表1 可持续性指标清单。",
+      "sourceTextHash": "f5d381e75ce782f116a77cb8b9727d9a498990375ddf22da4399810e401db7e5",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b26-e1ea6c4": {
+      "zh": "单位指数",
+      "sourceTextHash": "04db05a90ed3b7872e48e63564d17db32cace3ff21835630993efc42238b526b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b27-20d0feb": {
+      "zh": "30多年来,全国农药理事会的地下水表减少了30多年(Yang等人,2021b)农药处理频率指数(TFI)",
+      "sourceTextHash": "57e6b934e4f54fc9fffc8030e66a8fdab671d91d967f6dff727247bedd689de9",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b28-3b7a864": {
+      "zh": "整个杀虫剂剂量地数-1年-1年",
+      "sourceTextHash": "f851e048467d40a948b353f031e7032315f9f2b4baf6bf71ad34446291028b72",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b29-aa8975d": {
+      "zh": "在中国,过度和不当使用杀虫剂是一种可持续性威胁(Mu等人,2022年)。 N剩余公斤Nha-1-1年。 1 国家联络中心是一个有高净盈余的地区(Meng等人,2021年),因此应减少过剩量。 社会饮食能源产量Gcal ha-1年:1 中国中央政府高度重视国家粮食自给自足问题。 劳动力使用h h-ha-1年-1年。 农村人口向城市迁移导致中国农业劳动力短缺(Xu等人,2019年)。 CNY Ha-1年1年的经济总产值是农民的主要利益(Fletcher,2019年)。",
+      "sourceTextHash": "c6e8614754f337a066729e4d60e0a8d0152bfb2481dda82e337a9d31783b4c81",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b2-2fc07fe": {
+      "zh": "仅种植在小农农场,经济作物占非共有作物的大部分(表3)。 大约60%的小农农场和商业农场生产玉米和小麦(图3ab)。 在小农农场、小麦和玉米占农田面积的70%,而商业农场仅在其33%的土地(图3cd)种植小麦和玉米。",
+      "sourceTextHash": "9ef270c6ff20cec469138b94fb3522cbaeb75c6f372dbfb5976af00346a478c5",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b3-0f5a788": {
+      "zh": "种植棉花的农场在小农户和企业农场(图3c,d)中的比例比商业农场大;种植棉花的农场比例高于小农场,种植蔬菜和大麻的商场比例高于小农场,分别几乎50%和37%的商场生产蔬菜和食草,但种植这些作物的小型农场不到10%(图3a-3d);很少小农场和企业农场在其农场种植豆类,但是两种管理模式之间的养殖品种差别很大,大豆主要种植在商业农场(3/19个农场)和小农场(表2)种植(20/486)和花生(9/486)。利用稀有行动纠正商业农场中比小农户更大的土地面积,商业农场的数据点在小农场稀有行动曲线信任区之内;因此,考虑到小农场总面积较大时,每类农场的作物种类总数没有显著差别;商业农场的土地使用比小农场更加平衡(图3c,d)。 多种耕作指数是:小农农场1.73 0.02,商业农场1.42 0.06(图4a,b),小型农场拥有68%的双耕种和31%的单一种植,而商业农场拥有61%的单种作物和36%的双种作物(图4c,d)。",
+      "sourceTextHash": "1b9c64a863266564becc97542274ff749ed27ebcaa6d3c4cf31273abc8647d20",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b4-901635a": {
+      "zh": "表2 Quhou小农场和企业农场的农业特点和农民属性,价值代表每个变量平均值的标准错误,与小农场和企业农场相比,Kolmogorov-Smirnov测试得出的数值。",
+      "sourceTextHash": "f89e8d24bd4870981b118a02740fa0ab0c6c7e4c791c4737f55c19184416132b",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b5-e9739a3": {
+      "zh": "小农户农场(n=486)",
+      "sourceTextHash": "b70c1bbc32803c5fbe0a26a584f461908a5761d730e14cc48a06545d227ca2b0",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b6-1d2f668": {
+      "zh": "p- 值",
+      "sourceTextHash": "4db9c9c9f4cdb32aa4bf9f7db6bbffa7ab05818012f0ea63ab93c53255b7ad75",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b7-2cff32d": {
+      "zh": "农场面积 0.78 + 0.03 14.61 + 2.32 < 0.01",
+      "sourceTextHash": "dde0732624dc3a0acecb0499231e49349e0a2c17e9310d119f2e5bb31d4d7e09",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b8-938985b": {
+      "zh": "农场1号自有机械",
+      "sourceTextHash": "5c9cdaf9318dd4daaeaf868cdea64822ce403f7a7c13b79a9f239d66c447628e",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b10-58a1768": {
+      "zh": "年龄 60.1 + 0.4 46.4 + 1.7 < 0.01 学年 5.84 + 0.20 9.94 + 0.30 < 0.01",
+      "sourceTextHash": "83067864f47f62f9835d71960bda64a731bf0c054168f3643b2949353d668247",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b11-668695c": {
+      "zh": "37.0 + 0.5 16.8 + 2.9 < 0.05",
+      "sourceTextHash": "95abee2351d630c505273c0bfada1d5378b425744a52e231ed2293ea56ab067d",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b12-cd26eb8": {
+      "zh": "表3 小农户和企业农场的作物种类和种植频率清单,鲑粉色显示两种农场管理模式都种植作物;绿色表示作物只生产在小农场;黄色表示作物仅种植在商业农场;作物按其从上到下频率订购。",
+      "sourceTextHash": "883284b37533323175c6a2a9b69b2e1c4269c43351b3eb11ae2a1809094236ea",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b13-f64dd49": {
+      "zh": "集团作物名称 拉丁名",
+      "sourceTextHash": "a03b5c1761e07b2ccfff6acb283abfed5f114cbb8ea3277a5dba3719d8bcc6ee",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b15-36d4ac0": {
+      "zh": "Cereals 玉米Zea可能439 15",
+      "sourceTextHash": "7ec94fe1e130e07bdf90fc1051d377867da5aa746ea0cd9e7c96fd1f374643e0",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b16-c590bf6": {
+      "zh": "四、小麦三季曲子(小麦) 414 12",
+      "sourceTextHash": "c9a0d08a90db65bb2583a94535d7a73153ebdde4f9ede8aa2786c7ebc00ee1a7",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b17-8e6dac7": {
+      "zh": "Setaria意大利意大利面粉 9 4",
+      "sourceTextHash": "53540c6e557ec2458f944e0887597949c633b5cd02259c56f838c34b08ef5ef0",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b18-67798a0": {
+      "zh": "Fib 作物棉花 235 7",
+      "sourceTextHash": "88a6c2f62968796250a03ea808bd47e269da20a6036cba98b6e64bd178bede30",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b19-9fefd19": {
+      "zh": "Stevia Stevia Rebaudiana 31 7",
+      "sourceTextHash": "98ff2893c44affecd65c51de0ba8c00940c2c4f21fffbc40517a444c1ac457a4",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b20-7cb58e9": {
+      "zh": "Chili Capsicum fruterescens 31 3",
+      "sourceTextHash": "c96519c0ab4f25fc8abcf4217a193cf9dbfa8581bb9e4436ae60e8f02e704daf",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b21-464c91a": {
+      "zh": "Brassica Coletraza var. 人均量 24 7",
+      "sourceTextHash": "99274b4884e2eb558d47e5bc9c73ec300b06ca9d2fd99dd64d9daa14074c0375",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b22-947cf75": {
+      "zh": "脊柱性肾上腺素",
+      "sourceTextHash": "b00513617ae18ac9816db7184d56ba63986dee91b5ec59ae29a6c2e6a3aa0636",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b23-618dc45": {
+      "zh": "巴西菜花花 4 1",
+      "sourceTextHash": "8f74bab4e3cb4eee99daf35ca562fb750a9b70841dcdfce3491f92c67c1c8fd0",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b24-8f75ee1": {
+      "zh": "摇头豆",
+      "sourceTextHash": "0a9501cd5bc4814cbff5d2523787b95b62692498e4684bd25dec6079ff22d268",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b25-fb7c8ab": {
+      "zh": "茄子种植 Solanum meloongena 8",
+      "sourceTextHash": "f546c20b9f4e289119ffdfe38233d6cc84f2667dcc5ad7b57de8a9aa6f1789e1",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b26-5a1e826": {
+      "zh": "7",
+      "sourceTextHash": "e92ed4ea6d7760ecd270d4ca5771b9b8574af451aceb160b11cebaa33454db48",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b27-aed7c7f": {
+      "zh": "中国卷心菜",
+      "sourceTextHash": "75bd2c45bb5c98b7b1e635a1b06b0fd416a61a443494cae5438701fd450fe084",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b28-fa02305": {
+      "zh": "2",
+      "sourceTextHash": "4236dacb7958d1783d3e9c7b99fb281eff2c422d4f66b0de63c31f1b42f2bb63",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b29-1548668": {
+      "zh": "1cepa 1",
+      "sourceTextHash": "0ddd190ebb55e93c4b4e51661c690451a0bfb40e7e595e728169184dff940a45",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b30-877bfd1": {
+      "zh": "Zucchini 库尔比塔",
+      "sourceTextHash": "42e8d73f4b04b3108d28fc73c9873afeed372977d79812e2076d72e42ccbc615",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b31-9768a55": {
+      "zh": "Brassica Blassica 单极体 1",
+      "sourceTextHash": "4685f83824946056eba4af6546a4a6cc0d0b983e699051617c1eff285efc67e2",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b32-16e0ea8": {
+      "zh": "亚历山德拉1",
+      "sourceTextHash": "9b30418317e761b4ae09bb36751ae294547f16914feeb98a0bab5bc2beb8e3c3",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b33-45d27a2": {
+      "zh": "Squash 库库尔比塔 Moschata 1",
+      "sourceTextHash": "4056d9fd7c4a43b8f9b8e7a7bd91978694eb8796eedac3854c5017d70e1ae90a",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b34-c8ecb87": {
+      "zh": "Mung bean Phizeolus 7号散射",
+      "sourceTextHash": "63069920396d2f61a0543596094d065b5105840dc75777ccec18b83acbe5d998",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b35-03f221f": {
+      "zh": "花生果",
+      "sourceTextHash": "43bd7b8a7454d4f599bf316a4bb6672623c5ad4c740bfe1b95ff4237721e8187",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b36-2d9a621": {
+      "zh": "最大4个",
+      "sourceTextHash": "40e4ef06dd965851ff1aa93e8d40e65c30fc6b768143e3c562e02ce4c6985b1f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b37-eecfe30": {
+      "zh": "其它作物",
+      "sourceTextHash": "2c19eaf5d50e5fe884ce6b00e25505e4d88ff6f55a061f03104d95d9be187c24",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b38-3a42811": {
+      "zh": "L. 1 2",
+      "sourceTextHash": "dae03e4343bd5b913806ea334002460e7668532f1a6bbd73a8c2bbf787bb7f47",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b39-01715e8": {
+      "zh": "向日葵海莲图2",
+      "sourceTextHash": "be607cfbb4f0d3811235cb13448687614747007a264427503ab0a7bcd1c2338f",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b40-7817a3c": {
+      "zh": "油籽Brasica中国人 1",
+      "sourceTextHash": "e737223e8ce0e1dfc257df4d4bb38936b5ffc34c910186b572ceff16e6dd0cc6",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b41-395ebd0": {
+      "zh": "土豆索拉南管状1",
+      "sourceTextHash": "672a004be9143e0addeebbcd5c98f13854ccfdb7f05ebd752e9a84013f247aed",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b42-8b929e2": {
+      "zh": "甜土豆 Ipomoea Batas 2",
+      "sourceTextHash": "160b0b72a473f7157c21d37c7402289eddf2e0763b9bd3ea223ed1e0213ad875",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b3-71f2c83": {
+      "zh": "(下页内容)",
+      "sourceTextHash": "71f2c83c4c13ed81f477b38430dc700badb722bea0acda3a481d91cf476fadaf",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b2-841e7ba": {
+      "zh": "很少发现(附录A4)。",
+      "sourceTextHash": "841e7ba9c9d4dc86193163cec79ce3ba2aa36dffa6b834a8721c9e713c0228a9",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b3-36275be": {
+      "zh": "3.3. 耕作系统可持续性指标",
+      "sourceTextHash": "36275be68967801f09eb2093ac1c310af9c4250628c25d69499460eae257d5e2",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b4-a73d083": {
+      "zh": "我们比较了7种作物的可持续性指标,在商业和小农农场(图5)。 5)对7种作物的可持续率指标进行了比较,在商业农场和小农农场(图5)中,马泽和施蒂维亚的产量(产品)分别比小农农场高出19%和18%,导致盈余减少24%和37%。",
+      "sourceTextHash": "81c8509c2681a0a4e14262987fdcab140a0673e1abf4c081659c15d39c0b6f0c",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b5-560b957": {
+      "zh": "商业农场的氮使用效率较高,原因是种植辣椒和小米的N投入量比增长辣椒和小小米低21%和57%,以及商业农场(S1d,e.Figs.S1d.Figs)的Chili产量高出34%。如果在商业农场或小农农场种植作物,则杀虫剂的使用没有差别。",
+      "sourceTextHash": "9e62e1fcd44ad9e527e535560cdbd5e0407545e3f756ab81b9135f41ac9ec6e8",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p8-b6-e79c4af": {
+      "zh": "图3. 种植某些作物(a、b)的农场的百分比和种植不同作物(c、d)在小农户(a、c)和商业农场(b、d)中耕种的农场面积百分比(a)、b)和种植不同作物(c、d)在小农场(a、c)和商场(b、d)中耕种的农场面积百分比(b、d)。 小农户(c、c)和商场(salmon粉色)(e)中每个农场的作物种类数目(cyan)和商场(salmon粉色)(e)在所有拥有一定累积面积的小农农场的作物种类数量以及所有商业农场(红点)(f)中的作物品种数目较少。 在小组c和d中,由于多种作物种植,总百分比除以100的总数等于多重作物种植指数。在小组e中,白点表示平均值。在小组f中的灰色区表明,根据伐木作业的作物种类数量有95%的置信度间隔。小农农场的实际作物品种数目为23(表3)。(关于图例中颜色引用的解释,请查阅本条的网络版本。 )",
+      "sourceTextHash": "4dc42cb3e7fe01cdadf2061b157fa6173981e3b647aea5d95c92a63d433ed38d",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 2,
+      "flags": []
+    },
+    "p8-b8-c44d03f": {
+      "zh": "图4. 所有农场平均每个农场(a、b)的多种作物种植指数以及小农农场(a、c)和企业农场(b、d)的耕作制度类型(c、d),A组和b组的破折线表示每个农场管理模式的平均作物种植指标。",
+      "sourceTextHash": "9ee215c473f185adc873d1dcc4cd3734da2ac10b76533564af1c921cc646b8d7",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b2-7b03344": {
+      "zh": "商业农场的玉米产量比小农场高1.7兆公顷-1,玉米产量比小农场大0.9兆公顷-1,玉米产量更大0.9兆公顷-1,辣椒产量增加19.4兆公顷-1,而其他作物产量在两种农业类型之间没有显著差异;商业农场的种植用劳动力少于小农农场,种植同样的作物;与小型农场相比,商业农场的玉米劳动消耗减少40%,棉花劳动消费减少24%,小米劳动消费减少96%;商业农场使用机械播种和收获小米,而小农则亲手这样做;商业农场的毛收入超过小农场的24 % , 玉米为10 % , 斯蒂维亚为27 % ,但由于商业农场的成本较高,人均利润差别不大。",
+      "sourceTextHash": "eab1850c4951a96499064ee1d2ad7377a0c46b23a88efb69779e19ffe77fd725",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b3-292d8bc": {
+      "zh": "3.4. 农业可持续性指标",
+      "sourceTextHash": "292d8bc4752999e4d78caf513cee12c152cc4179e4e3fb4c6e69525ba21fa68b",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b4-10d9e44": {
+      "zh": "6个可持续性指标中有3个指标在小农农场和企业农场之间差别很大,在这3个指标中,有2个指标表明,商业农场的可持续性业绩优于小农场(图6、S2和表S.8),商业农场每年的剩余水和灌溉用水量大大低于小农场;尽管由于商业农场价格较低,对杀虫剂的支出较少,但商业农场与小农农场一样使用农药;商业农场每年的总收入是小农农场的2.2倍,但是商业农场每年每公顷的毛收入比小农农场高75%,这主要是由于雇用劳动力的成本和租用耕地的费用大约是小农农场的10倍以上,小农农场主要使用自己的劳力(图S.3)。",
+      "sourceTextHash": "0440573a353a6ced0d7aea8d3224e21dfa8d0496b3843a923b11b3e4e15da3d3",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b5-7f89da3": {
+      "zh": "小农户和个体农场之间在指标上的差别是:小农户和个体农场更多地使用双作物制;经修正小农场和小农户的6个指标中,只有2个在纠正小农场和小型农场之间有差异。 修改小农场和小型农场是指按作物而不是按年表示指标(图7、S4和表S9)。 在N投入和N产出方面,每年小农场与小农场之间没有显著差别,但商业农场每个作物的剩余率却低27%,表明小农场的使用效率较高。 经修正小农场和小农场在杀虫剂使用和劳动消费方面也没有重大差别。商业农场和小农农场之间在每作物灌溉投入方面没有明显差别,纠正了商业农场与小农农场之间的总差值差距,这一差距很大(表S8.9),一方面,商业农场比小农场种植高价值作物,另一方面,高商业农场帮助小农户缩小他们与商业农场之间每年每公顷的毛差值差距,商业农场和小农农场之间在每公顷作物的饮食能源产量方面没有差异(图7)。 因此,商业农场每年每公顷的膳食能源产量较低完全是由于使用双倍作物减少和谷物土地分配减少造成的。",
+      "sourceTextHash": "fe92be97e68cbb1371596566e9eda52f74ad098a325fad66f1959e3dd93c7e83",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p9-b7-f509df2": {
+      "zh": "图5. 共有作物的可持续性指标,对小农户和企业农场有三点以上观察:剩余(a);农药使用(b);灌溉(c);产量(d),e);劳动力消费(f)和毛差(g)。大彩色圈代表各种手段,而误差条代表了平均值的标准错误。小灰色圈代表个人观察,零是观测次数。红鲑粉色代表的是商业农场,青色代表了小农户。Kolmogorov-Smirnov进行了测试,以比较分配情况,星号代表了一个显著差异(P<0.05)。 作物订单是根据从上到下观察的次数排列的。 (关于图中的颜色描述,请读者查阅本文的网络版本。)",
+      "sourceTextHash": "5c2d7cc28461cbf59ff8de6865bb7c7cab905f61772e31faadc6427ebc7926f5",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b2-54c664c": {
+      "zh": "4. 讨论",
+      "sourceTextHash": "54c664ce8062f3812d51572c3ccda3547491a3d7290297d6101285c373d7fc49",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b3-f36e71b": {
+      "zh": "4.1. 作物多样性和作物分配",
+      "sourceTextHash": "f36e71b586591ae2135ed9aeef9680f1d891a064751b5c0b08e196a99a402725",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b4-2f91a11": {
+      "zh": "我们发现,在所有农场的作物数量中,小农户和企业农场之间没有差别,但作物分配却不同。 商业农场种植更多蔬菜,小农场种植更多的谷物。 小农户对蔬菜拨款较少的主要原因是农民更喜欢种植节省劳力的作物,如谷物,因为他们从事非全日制工作(Wang等人,2017年a、2017年b)。 由于农村地区农业劳动力不断老化以及目前向城市地区移徙的趋势(Ren等人,2023年),小型农场不太有能力种植蔬菜等劳动密集型作物。 另一方面,商业农场可以通过机械化或雇用劳动力来缓解这个问题。 在商业农场,经济价值高的作物被放在优先地位(Otsuka等人,2016年b ) ,随着商业农场的扩张,作物和食物的多样性可以保持下去。然而,粮食系统可能受到商业农场扩大的影响;向消费者提供的蔬菜更多;向消费者提供的蔬菜较多,但饲料生产却减少,因为中国商业农场分配给玉米的土地较少,而大约60%的玉米用于动物饲料(Ely等人,2016年)。 商业农场每公顷生产的饮食能量比小农农场少,原因不是产量不同,而是作物分配不同。",
+      "sourceTextHash": "dcc1625152b6e73894395e05425538cf780c3f1c8f92b04d2e42ed0f8bacfd4d",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p10-b5-1bf8997": {
+      "zh": "然而,在商业农场中,分配用于玉米和小麦种植的土地面积较小,而玉米和小米种植的作物密集度较低,例如,在商业农场、玉米和小米作为单一作物(每年一作物)种植;而在小农农场,玉米通常作为小麦产量加倍种植制度的一部分种植;这导致商业农场每个单位面积的饮食能源产量低于小型农场,因为玉米和小麦对食品能源生产的贡献最大,小农户利用双种作物主要种植这些作物(表S7)。 为促进谷物生产,中国政府补贴粮食农民(松等人,2021年);然而,补贴和粮食生产净收益无法支付土地租赁费用,因此,与小农户相比,商业农户对粮食生产的兴趣较小,如果没有采取其他干预措施,商业农场扩大可能会导致经济作物取代谷物。这将违背政府维持全国大粮食生产区的目标(中华人民共和国农业和农村行政部,2022年)。",
+      "sourceTextHash": "50893381b7be999cdba5c20f63773b766124da946bfbd5093aa3aa5906812123",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 2,
+      "flags": []
+    },
+    "p10-b6-8505f69": {
+      "zh": "4.2. 农场规模对作物生产可持续性的影响",
+      "sourceTextHash": "8505f6931e65fac106f38adaf97de25951043ea45b9d0a1fdee0d2e656253179",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b7-e400244": {
+      "zh": "我们将小农和企业农民的作物可持续性业绩分为两个尺度进行了比较:作物规模和农场规模。",
+      "sourceTextHash": "9502fef66f4ef8cdab2b3105972c53a22e9fc93dfecaa7d4cac7e279d2ca28dd",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b9-b206ac7": {
+      "zh": "图6. 小农户和商业农场的可持续性指标:剩余(a);农药使用(b);灌溉(c);饮食能源产量(d);劳动力使用(e)和总差值(f);红鲑粉色线代表商业农场,青黄线代表小农场。 D是Kolmogorov-Smirnov测试统计数据,p是相关价值。 (关于本图传说中提到的颜色的解释,读者可参阅本条的网络版本。 )",
+      "sourceTextHash": "838f774a718b7d86fe43b4dfc2548a30458b5710f1597d7ec90a737481f85a7d",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b2-f70e502": {
+      "zh": "在两个环境指标(剩余水和灌溉用水)方面,商业农场的业绩高于两个环境指标(剩余水和灌溉用水),但在饮食能源产量方面业绩不佳(图6和表S8)。 更好的管理有助于商业农场实现比小农户低的剩余量。一些作物(玉米、施特维亚、辣椒和小米)的低投入和较高N产出是商业农场达到低净盈余的原因,这与Yu等人(2021年)是一致的。商业农场尽可能降低化肥成本,从而减少肥料投入(Ju等人,2016年)。相反,小农户通常会过度使用化肥来尝试和补偿次最佳管理并达到产量目标(Ren等人,2021年)。尽管其净盈余为206千克N公顷-1年,但1个商业农场仍然超过90公斤N公顷-1年的目标盈余(Zhang等人,2019年),并且存在N污染风险。商业农场既不减少灌溉频率(除棉花以外),也不使用现代灌溉设备来节省灌溉用水消耗。在中国西北部,较大的农场更可能使用滴灌(Feike等人,2017年)。然而,我们样本中只有一个商业农场使用现代灌溉设备;大多数商业农场表现出使用节水灌溉设备的强烈意愿,但还没有这样做。 此外,在我们的研究中,商业农场没有尝试过现代灌溉方法,比如缩短灌溉时间。",
+      "sourceTextHash": "08ee805e35fc0c67f56a3deb8b9078da027d391ab5fb4a3d4f9222bc49a38000",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 2,
+      "flags": []
+    },
+    "p11-b3-e106166": {
+      "zh": "正如美国商业农场所做的那样(Skaggs和Samani,2005年)。在商业农场没有改进灌溉做法或技术的情况下作物密集度低并不能解决地下水耗竭问题。我们期望商业农场使用杀虫剂比小农农场少,因为管理人员受教育程度更高、更年轻,而且可能比小农户更好地优化杀虫剂的使用。然而,在我们的研究中,企业与小农农场在农药使用方面没有差别。预期商业农场有多种销售渠道,以获得高于小农农场的农场大门价格(Hao等人,2018年),例如直接向加工公司出售产品或提高产品质量以满足高增值市场的要求(Yu等人,2021年)。除了我们的调查显示的斯蒂维亚以外,商业农场在收获季节以低价将作物卖给中介商,这与小农场的情况非常相似(Fig S1a)。虽然商业农场得到的补贴比小农户多(附录A2),而且其面积中用于高经济价值作物的比例高于小农户,但租赁耕地和雇用劳动力方面的大量支出(图S3)抵消了这些收益,从而导致每公顷毛利与小农场的相同。 更多的自有机械帮助商业农场降低玉米、棉花和小米种植的劳动消耗。",
+      "sourceTextHash": "a92846fab8d10bcf5f73dbdc6bd8a4f5e64a2f3faaa615c43bc7a561c167ad8c",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 2,
+      "flags": []
+    },
+    "p11-b5-0240316": {
+      "zh": "图7. MCI校正的小农户和经营农场可持续性指标:剩余(a);农药使用(b);灌溉(c);饮食能源产量(d);劳动力使用(e)和总利润率(f);粉红鲑鱼线代表商业农场,青菜线代表小农场;D是Kolmogorov-Smirnov测试统计数据,p是相关价值。 (关于对图解中的颜色引用的解释,请参见本条的网络版本。 )",
+      "sourceTextHash": "367cdb8b8230159e470a8175b4913528673d528eb3247125ee59c901bb8c7671",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b2-ead2351": {
+      "zh": "一方面,购买机械服务的成本导致小农放弃机械,利用劳动力控制投入成本,如收割玉米和播种棉花;另一方面,并非总能获得购买的机械服务;在奎州,小米收获机械很少由出租公司提供,因此小农用手工收获小米,而商业农场则使用自有机械收获小米;由于缺乏蔬菜和斯蒂维亚的采摘机,农场规模的农场管理模式之间没有单位劳动消费差别。农业以外的经济增长促进了家庭劳力更多的非农就业机会,这反过来又有助于将小型农场合并为大型企业和替代家庭劳力的机器。这一趋势正在许多经历快速经济增长的亚洲国家中持续出现,其中包括越南(Duong和Thanh,2019年)、印度(Kumar和Moharaj,2023年)、印度尼西亚(Yamauchi,2016年)、尼泊尔(Ghimire和Huang,2016年)和中国。更好的教育有助于商业农场更愿意在技术学校学习并采用比小农户更可持续的耕作做法(Woodhouse,2010年;Duan和Zhou,2014年;Wang等人,2017年a、2017b),这极大地促进了企业与小农场之间的可持续性差异(Sheng等人,2014年)。然而,这取决于企业农民采取可持续做法的环境,这导致企业农场相对于小农场的可持续性优势发生变化。商业农场在某些可持续性层面可能面临不利状况,取决于其种植作物和采用的做法。因此,必须针对大型商业农民制定政策和教育方案,并促使他们推动积极改变做法。",
+      "sourceTextHash": "9fc7cb03ac97cc27a86e3ad4d2926521bc21d1b6883e0841de08a4ce6032b1a8",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 3,
+      "flags": []
+    },
+    "p12-b3-d00e088": {
+      "zh": "4.3. 局限性和展望",
+      "sourceTextHash": "d00e088354d65f70ec8b145bcb854b2655a8c583a80d16738f33944268887f02",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b4-1a3dcfb": {
+      "zh": "我们的研究显示,企业和小农农场在作物分配、管理做法、作物密集度(MCI)以及全国大作物生产可持续性绩效方面存在多种差异,但值得指出一些限制因素。农业可持续性取决于作物管理、作物密集度和作物选择(Aouadi等人,2015年)。我们查明了管理做法和作物密集度如何影响农场管理模式中的可持续性差异。我们没有在该研究中讨论非共享作物领域对小农农场和企业农场可持续性的影响,因为这些作物的种植面积仅属于小农农场(2%)和商业农场(14%)(表S6)。因此,非共有作物对可持续性绩效的影响有限。我们研究的另一个局限是商业农场的抽样规模(19项观察)。虽然商业农场占土地总面积的比例迅速增加(面积比例从2008年的可忽略不计增至2013年的近20%)(Huang and Ding,2016年),但商业农场仍只占农场总人口的一小部分,在Quhou,2020年在342个村庄有大约199个商业农场;统计分析结果表明,我们的研究中35个村庄19个商业农场的抽样规模足以得出结论并发现显著差异;我们没有评估不同类型商业农场之间的异质性。 Yu等人(2021年)报告说,在浙江省,包括家庭农场、合作农场和农业公司在内的商业农场类型中,管理做法和可持续性差异很大。在今后的工作中,可以扩大商业农场的样本规模,以分析各类商业农场的多样性,从而加深我们对商业农场对NCP作物生产影响的理解。",
+      "sourceTextHash": "aa5b9de34bf101c4eb83ca2c226e160318449fdaef6eab368d823e2bb04477a0",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 2,
+      "flags": []
+    },
+    "p12-b5-4aa2527": {
+      "zh": "最近的调查结果表明,扩大农场规模的好处受到地形学和地方经济发展的影响(Duan等人,2021年;Ricciardi等人,2021年)。 到目前为止,主要在平原地区调查了商业农场比小农户更可持续的假设,如东北地区和NCP(Wang等人,2017年a,2017年b;Zhang等人,2021年;Zou等人,2022年),山区需要进一步开展工作,对中国不同经济发展地区的商业农场和小农场进行比较。这种分析可能有助于确定作为农场管理模式的商业农业发展在哪些生产方面最有希望。此外,今后的研究可以详细比较商业农场和小农场之间的作物管理做法,如作物品种、播种和收割日期、化肥和农药的类型等,这类信息可进一步深入了解商业农场与小农农场相比如何取得某些改善,最后,产品质量可以在两种农业管理模式之间进行比较。",
+      "sourceTextHash": "80205d17c30482c8eea86ca617ce35a57632f109e4f079d4aef9dc1552d61e8a",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 2,
+      "flags": []
+    },
+    "p12-b6-e64fd69": {
+      "zh": "5. 结论",
+      "sourceTextHash": "e64fd6903471d1a0cd05b25a68bb47f595c395f2403cdd16b570d67fd9cacb98",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b7-0c64eb1": {
+      "zh": "我们全面比较了北华平原小农和企业农场的农业属性、决策者属性、作物分配和可持续性绩效。与小农农场相比,商业农场由比小农农场更年轻、教育程度更好的决策者经营,拥有更大的农场规模和更多的自有机械。从小农场转向商业农场并没有在所有农场中造成作物多样性损失,而是通过用经济作物取代粮食来调整作物生产方向。商业农场分配给谷物生产的土地较少,而且耕作强度(无双倍种植)低于小农农场。与小农农场相比,商业农场具有更好的环境可持续性业绩,包括较低的N剩余量和灌溉投入,原因是管理做法更好,作物密集度较低。然而,存在着交易;商业农场的饮食能源产量低于小型农场。在可持续性方面,我们的结果显示,商业农场不是解决中国农业所有挑战的灵丹。此外,中国约30%的耕地位于山地地区,因此扩大农场规模和发展这些地区的商业农场具有挑战性;需要为所有农场管理模式寻找可持续耕作的途径,而不是仅仅侧重于商业农业的扩展;可以向企业提供更多指导,优化资源分配,以缓解取舍,即减少饮食能源产量;不应忽视小农户,因为小农户是谷物生产的关键贡献者;小农户面临的主要挑战是小农场获得体面收入。",
+      "sourceTextHash": "420201ce0bc41fbaef36b87d933c6aeebdb2f493554ea19783a5816f5c28a258",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 2,
+      "flags": []
+    },
+    "p12-b8-75794fc": {
+      "zh": "CREediT 作者贡献声明",
+      "sourceTextHash": "75794fc7a639181c4b67897c71910444e5b8ebcbd0f51648ce8e59a2b166c896",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b9-827327b": {
+      "zh": "Zhan Xu:数据整理、正式分析、调查、视觉化、写作——原始草案、写作——审查和编辑。Zhengyuan Liang:数据整理、调查。Jiali Cheng:数据整理、调查。Jeroen C.J.Groot:监督、写作——审查与编辑。Chaochun Zhang:筹资获取、资源、监督、写作——审查和编辑。Wen-Feng Cong:筹资获取、监督。Fusuo Zhang:项目管理、资源。Wopke van der Werf:概念化、监督、写作——审查和编辑。",
+      "sourceTextHash": "e3e3e757056d909026edddb15e8337afec5fd788fc59d32d670a511de4c3d7f2",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b10-8feb861": {
+      "zh": "利益冲突声明",
+      "sourceTextHash": "8feb861e18c1f92ff541410539c6ee323dc625a04f9eb03328a60234bd726d3d",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p12-b11-903ea50": {
+      "zh": "无。",
+      "sourceTextHash": "903ea500e7ccf842c1312b6c2f964e3e98ff146456cecec717e9a0e122bf735f",
+      "status": "machine-draft",
+      "page": 12,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b2-188a992": {
+      "zh": "数据可用性",
+      "sourceTextHash": "188a992e372fe88d4d545fa96883a56c2aada07802d61a1332853f2ea664c1ed",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b3-2889f11": {
+      "zh": "将应要求提供数据。",
+      "sourceTextHash": "2889f11dc03e8c8b6e955150844095aedbb24a16b3914abd920260117e73e4d9",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b4-c9015d5": {
+      "zh": "鸣谢",
+      "sourceTextHash": "c9015d53b90846454375a2fdf2829c66fad7a2e52de1e89e73949ca59c905e49",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b5-dce1acb": {
+      "zh": "这项工作得到了中国工程学院(2020-FJ-XZ-8)和中国奖学金理事会(赠款号码为201913043)以及海南大学合作项目的财政支助,我们特别要感谢Nico Heerink和范丽的宝贵建议,并感谢李东生、秀义汉、王英英英和佳辉对农业调查数据收集工作的贡献。",
+      "sourceTextHash": "60a45be89f0652d96ed8de31a9216c9f9f8317a973bb9175aa3584fcef9bd3cc",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b6-c09b53c": {
+      "zh": "A. 补充数据",
+      "sourceTextHash": "c09b53c645c5c5f3fea4e3d403dd2a8297689c61d66975929fe2db2531fc00dc",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b7-d6599c2": {
+      "zh": "本条的补充数据可在网上https://doi.org/10.1016/j.agsy.2024.103896查阅。",
+      "sourceTextHash": "276dda71540b3edce0bb9b8b1db570eb05458cf2828d1b9cef7d105a957493be",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b8-69824d3": {
+      "zh": "参考参考资料",
+      "sourceTextHash": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 1,
+      "flags": []
+    },
+    "p13-b9-f4e4bb5": {
+      "zh": "Aouadi, N., Aubertot, J.N., Caneill, J., Munier-Jolain, N., 2015年,《分析耕作环境和环境因素对作物种植系统的影响:Burgundy. Eur. J. Agorn. 66, 21-29. Brauns, B. B., Jakobsen, R. Song, X., Bjerg, P.L., 2018. 农药在北华平原小麦和双作物种植系统中的使用:评估、实地研究及影响。 Sci. Total Environ. 616, 1307-116, Deininger, K. Jin, S., Xia, F., 2014年,离开农场:促进中国结构转型和农业生产力增长的土地机构。世界发展59, 505-520。Di, Z., Yang, L., Xu, X., Gou, W., 2019. 关于灌溉水价和水文年对灌溉区项目收入的影响的研究。 J. Tianjin Agric. Coll. 2, 80-84(中文)。 Duan, Y., Zhou, G., 2014。 《促进谷物生产新管理模式的发展》,中国农业出版社,北京。 中国农业出版社,Duan, J., Ren, C., Wang, S., Zhang, X., Reis, S., X., Xu, J., Gu, B., 2021. 农业土地的集成有助于中国的农业可持续性。 Nat. Food 2, 1014 - 1022. Duong, P. Thanh, P. 2019。 越南现代稻米品种的采用及其影响:住户调查的微观经济协调分析。 Econal. Anal. policy 64, 282-292。Ely, A., Geall, S., S., Song, Y., 2016年。中国的可持续玉米生产和消费:转型过程中的做法和政体。 J. Clean, Prod. 259, 268。 Feike, T. Khor, L.Y., Mamitimin, Y., Ha, N., Li., L., Abdusalih, N., Xiao, H., Doluschitz, R., 2017年。中国西北干旱地区棉花农灌溉水管理的决定因素。Agric Water Manag 187, 1-10。Fletcher, A., 2019年。以小麦为基准的破碎作物可能限制农场收养。Eur. J. Agorn. 109, 125921。福里、J.A.、拉曼库蒂、N.、布劳曼、K.A.、卡西迪、E.S.、Gerber、J.S.、Johnston、M.、Mueller、N.D.、O ' Connell、C.、Ray、D.K.、West、P.C.、Balzer、C.、Bennett、E.M.、Carpenter、S.R.、Hill、J.、Monfreda、C.、Polasky、S.、Rockstrom、J.、Sheehan、J.、Siebert、S.、Tilman、D.Zaks、D.P.M.,2011年。一个耕地的解决方案。自然 478、337-342、Ghimirire、R.、Huang、W.2016年。农业技术的采用模式和福利影响:尼泊尔稻农的经验证据。吉勒、迪劳恩、T、席尔瓦、J.V、德谢梅克、K.、范德文、G.、Schut、A.G.T.、van Wijk、M.、哈蒙德、J、Hoghman、Z、Taulya、G.、Chikowo、R.、Narayanan、S、Kishore、A.、Bresciani、F.、Teixeira、H.M、Andersson、J.A.、van Ittersum、M.K.,2021年。 农业的未来:谁将生产我们的食物?食品安全.13、1073-1099. Gotelli、N.J.2008年,生态学总理,第四版。Hao, J., Bijman, J., Gardebroek, C., Heerink, N., Heijman, W., Hoo, Xuexi, 2018年。合作社成员资格和农民对销售渠道的选择 -- -- 中国山西省和山东省苹果种植者的证据,中国。食品政策74, 53-64。 Holst, J., Liu, W., Zhang, Q., Doluschitz, R.,2014年;河北南部作物蒸发性、可耕地系统及水的可持续性,P.R. 中国。 Agric. Water Manag. 141, 47-54. Huang, W., 2014年。非农业和非农业型风险及其在农业土地转让中的规避行为。Contemp. Manag. 36, 39-43(中文),黄、J. Ding, J. 2016年。中国促进小规模农业转型的体制创新和政策支持。 黄黄、J、Wang、X、Qiu、H.2012年《中国面对现代化和全球化的小农》。 IIED/HIVOS,伦敦/海牙。 Ji、X.、Rozelle、S、Huang、J、Zhang、L.、张、T.2016年《中国农场在增长吗?中国世界经济24、41-62.Ju、X、Xing、G、Chen、X、Zhang、S、Zhang、L、L、L、L、L、L、X、Cui、Z、Yin、B、Christie、P、Zhu、Z.、Zhang、F.2009年《通过加强中国密集农业系统N管理减少环境风险》。PNAS 106, 3041-3046. Ju, X., Gu, B., Wu, Y., Galloway, J.N., 2016年。 通过增加农场规模减少中国化肥的使用。 Glob. Environ. Change 41, 26-32。",
+      "sourceTextHash": "4d7a006b1a1235948a601a509955e616da52ff83e3b5b2970470b14a15f787b5",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 8,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p13-b10-a63d2e1": {
+      "zh": "Koirala, P., Katani, K., Managi, S., 2022。 农业规模和观念对于发展中国家农民适应气候变化的对策有何意义? 来自尼泊尔的证据:Econ. Anal. policy 74, 188-204. Kumar, K.K., Moharaj, P., 2023. 农场面积与印度农耕社区之间的生产力关系脱节。《展望》Agric. 52, 212-227. Lechenet, M., Bretagnolle, V., Bockstaller, C., Boissinot, F., Petit, M.S., Munier-Jolain, N. M.,2014年。 将减少杀虫剂与可耕地的经济和环境可持续性相协调。Liebert, J., Benner, R., Bezner Kerr, R., Bjorkman, T., De Master, K.T., Gennet, S., Gomez, M.I., Hart, A.K., Kremen, C. Power, A. G., Ryan, M.R., 2022. 农业面积影响到在美国有机农场使用农业生态耕作方法。 Nat. Plants 8,897-905, Meng, F., Wang, M., Strokal, M., Kroeze, C., Ma, L., Li. Y., Zhang, Q., Wei, Z., Hou, Y., Liu, X., X., Xu. W., W., Zhang, F., 2021. 北华平原粮食生产造成的氮损失:Quhou州案例研究。Sci. Environ. 816, 151557. Meyfroidt, P., 2017年;绘制全球农场面积图:为小农户辩论制定基准;Environ, Res. 12, 10-13. 中华人民共和国农业和农村行政部, 2022年。 《第14个五年国家作物生产发展计划》(中文)。Mu, H., Zhang, J., Yang, X., Wang, K., K., Xu, W., Zhang, H., Liu, X., Rigma, C., Geissen, V. 2022. 北华平原农村地区住宅灰的农药筛选和健康风险评估。Chemclodum 303, 135115. 中国国家统计局(NBSC),2013年。《中国统计年鉴》,中国统计局出版社,北京(中文)。《中国统计年鉴》,2017年;《中国统计局年鉴》,北京(中文);《中国国家统计局年鉴》,2020年;《中国统计年鉴》,北京(中文);Niu、Y.、Xie、G.、Xiao、Y.、Liu、J.、Wang、Y.、Luo、Q.、Zou、H.、Gan、S.、Qin、K.、Huang、M.、2021。亚洲大农场的日益增长优势及其对全球粮食安全的影响。Glob, Food Sec. 11, 5-10. Qiu, T., Boris Choy, S.T., Li, S., S., He, Q., Luo, B., 2020. 土地租赁减少谷物生产吗?中国农村的证据:土地使用政策90, 104311. R核心小组,2021. R:统计电子学的语言和环境。R 统计计算基金会,维也纳,奥地利。Rada, N., Fuglie, K., 2019. 关于农场规模和生产力的新观点。食品政策84, 147-152. Rada, N., Wang, C. Qin, L., 2015年。补贴还是市场改革?重新思考中国农业巩固战略。粮食政策57, 93-103。Ren, C., Liu, S., van Grinsven, H., Reis, S., Jin, S., Liu, H., H., Gu, B., 2019. 农场规模对农业可持续性的影响。 J. Clean, prod. 220, 357-367. Ren, C., Jin, S., Wu, Y., Zhang, B., Kanter, D., Wu, B., X., X., Zhang, X. X., Chen, D., Xu. J., Gu, B., 2021. 化肥因缺少固定投入而在中国小农户中过度使用。 J. Environ. Mand. 293, 112913。Ren, C., Zhou, X., Wang, C., Guo, Y., Shen, S., Reis, S., Li, W., Xu, J., J., Gu, B., 2023. 老龄化威胁到中国小农耕作的可持续性。自然616, 96-103. Ricciardi, V., Mehrabi, Z., Wittman, H., James, D., Ramankutty, N., 2021. 小型农场的产量和生物多样性提高。Nat. 持续4, 651-657. RStudio小组, 2021. RStudio:R. R. R. Rstudio, PBC, Boston. Samberg, L.H., Gerber, J. S., Ramankutty, N., Herrero, M., West, P. C.,2016。平均农业规模和小农户对全球粮食生产贡献的次国家分布,Environon,Res. 11, 124010. Shen, M., Shen, Shen, J., J., 2018年。评估中国的合作和家庭农场方案:农村治理观点;土地使用政策79, 240-250. Sheng, Y., Zhao, S., Nossal, K., Zhang, D., 2014年。 澳大利亚农业生产力和农场规模:重新调查收益的规模。Aust. J. Agric, Rest. Econ. 59, 16-38. Song, X., Wang, X., Li, X., X., Zhang, W., Scheffran, J., 2021. 政策导向与市场驱动因素:影响全中国作物多样性的因素。Econ.190、107184. van den Berg, M.M., Hengsdijk, H., Wolf, J., van Ittersum, M.K., Guanghuo, W., Rottert, P.R., 2007, 提高农场规模和机械化对浙江省农村收入和稻米生产的影响。中国,Agric. Syst.94,841-850. van Oort, P.A.J., Wang, G., Vos, J., Meinke, H., Li, B., Huang, J., van der Werf, W., 2016年。 北华平原冲积层粉丝带地下水中性作物系统的影响。Wang, X., Chen, P.、P., Sui, P., Yan, X., Gao, W., 2017a. 关于中国北部平原不同农场规模的谷物生产对经济和环境影响的初步分析。 Agric. Syst. 153, 181-189. Wang, X., Li, Z., Long, P., Yan, L., Gao, W., Chen, Y., Sui, P., 2017b. 对农业体系中以合并会计方式进行的回收可持续性评估。Resour, Conserv. Rension. 117, 114-124. Woodhouse, P. 2010年。关于农业规模、生产力和可持续性的一些问题。J. Agrar. Chang. Change 10, 437-453. Xu, D., Deng, X., Guo, S., Liu, F., 2019. 中国农村劳动力迁移和农田荒废:经验结果和政策失。 J.管理环境,管理232、738-750. Xu、Z.、Li、F.、Cheng、J.、Liang、Z.、Groot、C.J.、van der Werf、W.,2024。 关于中国北部平原的Quhone县作物诉讼活动的生计和投入及产出的调查数据(正在编写中)。",
+      "sourceTextHash": "7b649535b2cf8b972b79945c86f68b513caca85ad20db1a5ae9ac61f702f343e",
+      "status": "machine-draft",
+      "page": 13,
+      "chunks": 11,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p14-b0-8457091": {
+      "zh": "农业系统 216 (2024) 103896",
+      "sourceTextHash": "8457091a49686e2eee8a38e72dc9a662b0f12c836878f7ca75c9075cfcfa5325",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 1,
+      "flags": []
+    },
+    "p14-b2-6862e9b": {
+      "zh": "2016年,F.Yamauchi。大型农场的实际工资、机械化和日益增长的优势不断提高:印度尼西亚的证据。 食品政策58, 62-69。 Yang, R., Luo, X., X., Xu, Q., Zhang, X., Wu, J., 2021。 衡量中国城市化持续和迅速上升期间耕地多耕种指数的影响:2000年至2015年的一项研究。土地10, 491, Yang, X., X., Zhang, Y., Ren, S., Zhang, C., 2021a。1971至2015年期间北华平原的种植结构变化和驱动因素 — — 以奎州县为例。 Chin. J. Agri. Res. 区域规划42, 90-98(中文)。Yang、X、Steenhuis、T.S.、Davis、K.F.、van der Werf、W.、Ritsema、C.J.、Pacenka、S.、Zhang、F.S.、Siddique、K.H.M.、Du、T.S.、2021b.多样化的作物轮作加强了地下水和粮食生产的经济可持续性。粮食能源保障 10, e311. Yu、Y. Hu、Y.、Gu、B.、Reis、S.、Yang、L.、2021.改革小农农场以减轻农业污染。 Environ. Sci. Pollut. Int. 29、13869-13880。",
+      "sourceTextHash": "d3e02d639c9c8efedb7b92f4a97185ea8539f939b3189ebe551e5f700cb14b3f",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 2,
+      "flags": []
+    },
+    "p14-b3-c44c364": {
+      "zh": "Zhang, L., L., Dong, Y., Liu, C., Bai, Y., 2018年。过去40年来在中国农村的农场外就业情况。中国农业企业Econ. Rev. 10, 190-214。Zhang, C., Ju, X., Powlson, D., Oenema, O., Smith, P., 2019. 控制中国主要作物系统N污染的氮盈余基准。 Environ, Sci. Technol. 53, 6678-6687。张、W., Qian, C., Carlson, K. M., Ge, X., Wang, X., Chen, X., 2021。扩大农场规模以提高玉米生产中的能源使用效率和可持续性。食品能源安全 10, E271。2017年,中国城市化和农田转移对非谷物农田空间格局的影响。 可持续性9、1438. Zou、J. Yang、Y.、S.、Li、W.、Zhao、X、Huang、J.、Zhang、H.、Li、K.、Harrison、M.T.、Chen、F. Yin、X. 2022. 农业实用战略,以减少碳足迹和能源,同时增加北华平原作物生产的经济效益。",
+      "sourceTextHash": "11688da0d9e1efc92fbce379b9cda094a56a9aa5b114fa34f0e2a5adc1786b0b",
+      "status": "machine-draft",
+      "page": 14,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    }
+  },
+  "coverage": {
+    "translatedTextBlocks": 165,
+    "totalTextBlocks": 202,
+    "untranslatedTextBlocks": 0,
+    "symbolsRetainedBlocks": 37,
+    "manuallyReviewedBlocks": 0,
+    "machineDraftBlocks": 165,
+    "allNumericClaimsManuallyVerified": false
+  }
+}

@@ -1,0 +1,1392 @@
+{
+  "schema": "paper.translations.v3",
+  "docId": "qu-2025",
+  "sourceHash": "7e69eb40dc235c56e72cddc615d123cb8b8679999727d499127a08b0cb2b2769",
+  "language": "zh-CN",
+  "engine": {
+    "model": "Helsinki-NLP/opus-mt-en-zh",
+    "revision": "c8ce7d3af8eb15938be419f1c4c177dc724ab8ec",
+    "runtime": "CTranslate2 int8 CPU",
+    "review": "machine-draft-with-explicit-curated-overrides"
+  },
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "evidence": "This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by- nc/4.0/ ). ",
+    "page": 1
+  },
+  "sourceCitation": "Qu, Q., Groot, J. C. J., & Zhang, K. (2025). Agricultural Systems, 222, 104170.",
+  "sourceURL": "https://doi.org/10.1016/j.agsy.2024.104170",
+  "visibility": "public-adaptation",
+  "blocks": {
+    "p1-b3-70b050c": {
+      "zh": "H I G H L I G H T S G R A P H I C A L A B S T R A C T",
+      "sourceTextHash": "71439e2905b727175b140723a220190a62f17b44ba6057faff843b2390f1ecfc",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b7-19af77a": {
+      "zh": "A R T I C L E I N F O",
+      "sourceTextHash": "26585e7990e438d9ef3743295abff1f571d8950a5722ef380dad26976ff0a03a",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p1-b10-c0671f4": {
+      "zh": "A B S T R A C T",
+      "sourceTextHash": "c0671f4edc5af3c59d4e363459c009dcbcf8d91e09e0e06c138219ded7f82d22",
+      "status": "verbatim-symbols",
+      "page": 1,
+      "flags": []
+    },
+    "p2-b14-d4735e3": {
+      "zh": "2",
+      "sourceTextHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "status": "verbatim-symbols",
+      "page": 2,
+      "flags": []
+    },
+    "p3-b19-4e07408": {
+      "zh": "3",
+      "sourceTextHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "status": "verbatim-symbols",
+      "page": 3,
+      "flags": []
+    },
+    "p4-b2-791a7b3": {
+      "zh": "p=1",
+      "sourceTextHash": "791a7b3a1c84e05cbf520166fc1107eebd36ea5ed05f636222d80d2bf4183966",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b7-791a7b3": {
+      "zh": "p=1",
+      "sourceTextHash": "791a7b3a1c84e05cbf520166fc1107eebd36ea5ed05f636222d80d2bf4183966",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p4-b23-4b22777": {
+      "zh": "4",
+      "sourceTextHash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "status": "verbatim-symbols",
+      "page": 4,
+      "flags": []
+    },
+    "p5-b15-e4d19ea": {
+      "zh": "−6.9 -∞ 0 -∞ 0",
+      "sourceTextHash": "90b2b3d0f2a26e154e32f90c3b15e4b876364d149ca6e0e4a9c962a0f803f826",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b17-03204be": {
+      "zh": "2.2 −5 5 −5 5",
+      "sourceTextHash": "5919ce84721fe257056497c7c2128ee94ab051529b3af8f07a329835ac1a2fc2",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b19-1ea80a9": {
+      "zh": "5.2 0 30 0 30",
+      "sourceTextHash": "044b2d2694e3df7ccb7e1b48c3d1986358612989fc2d38b677ae20350ded2aae",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b21-27125db": {
+      "zh": "159.1 0 ∞ 0 ∞",
+      "sourceTextHash": "27ce7665aac1fdad8bbaa4b1a73504ddef96b79a743f44dd03f4741107897069",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b25-151fad5": {
+      "zh": "1.3 −5 5 −5 5",
+      "sourceTextHash": "677bfaf80ec8b03b10904031b322677e0de58172da0c8e7611302a56e718b563",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p5-b33-ef2d127": {
+      "zh": "5",
+      "sourceTextHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "status": "verbatim-symbols",
+      "page": 5,
+      "flags": []
+    },
+    "p6-b9-e7f6c01": {
+      "zh": "6",
+      "sourceTextHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "status": "verbatim-symbols",
+      "page": 6,
+      "flags": []
+    },
+    "p7-b7-7902699": {
+      "zh": "7",
+      "sourceTextHash": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "status": "verbatim-symbols",
+      "page": 7,
+      "flags": []
+    },
+    "p8-b7-2c62423": {
+      "zh": "8",
+      "sourceTextHash": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "status": "verbatim-symbols",
+      "page": 8,
+      "flags": []
+    },
+    "p9-b13-19581e2": {
+      "zh": "9",
+      "sourceTextHash": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "status": "verbatim-symbols",
+      "page": 9,
+      "flags": []
+    },
+    "p10-b16-4a44dc1": {
+      "zh": "10",
+      "sourceTextHash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "status": "verbatim-symbols",
+      "page": 10,
+      "flags": []
+    },
+    "p11-b3-4fc82b2": {
+      "zh": "11",
+      "sourceTextHash": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+      "status": "verbatim-symbols",
+      "page": 11,
+      "flags": []
+    },
+    "p1-b0-9371f87": {
+      "zh": "改进粪肥管理,使环境指标之间的取舍和协同关系朝着可取的方向发展",
+      "sourceTextHash": "02aa4b77beefdce9e8a1d4b589ae6d86571be8a921b071ad8bf52ec44125a3b9",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b1-82948b0": {
+      "zh": "清博Qua,b,c,d, Jeroen C.J.Groot c, Keqiang Zhang d,e,* 清波Qu a,b,c,d, Jeroen C.J. Groot c, Keqiang Zhang d,e,*",
+      "sourceTextHash": "82948b087c8fa18be169c2dc682d89bdf6086da8b6f4fac2133c44e20e23c678",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b2-5d5e566": {
+      "zh": "a 达利大学农业和生物科学学院,达利达利,云南671003,云南671003,中国哈伊湖流域农业生态学小组b,达利大学,达利,云南671003,中国云南671003,中国农耕系统生态组,Wageningen大学和研究,6700 AK,荷兰d Dali Yunnan,农业生态系统,国家观测和研究站,Dali 671004,中国农业和农村事务部,中国农业环境保护研究所,天津300191,中国",
+      "sourceTextHash": "35c8a62fa12993b92ae45733fc9e4fdb450df21aa65f9e0bca0f4548493e9d21",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b4-a01fcc1": {
+      "zh": "• 改善粪肥管理和作物-乳品一体化,加强密集奶制品农场的养分循环。",
+      "sourceTextHash": "edc6c1764fd1e0ddb0f879848a33ace9ee7149004ead1de0e6b14010dc4fcf94",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b5-ec92ed8": {
+      "zh": "• 仅靠改进粪肥做法不足以解决高密度日产的剩余量。",
+      "sourceTextHash": "d5146cff49b7e280dd8563fdc00dde3fb9085d22090404e5e6ce3c7e53b133f3",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b8-7e7e2d5": {
+      "zh": "编辑:Paul Crosson",
+      "sourceTextHash": "7e7e2d5efd8605088083c83a4f2e815f4bf3083f4d45bf2b712bcf119e873c93",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b9-ee1c122": {
+      "zh": "关键词:粪肥管理",
+      "sourceTextHash": "68c2269ecb2dbc3b9a322019fc2f89d75b0365eae1d9d9e0378b1a0f5a943da9",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b11-71f6dbf": {
+      "zh": "• 方法:整个农场模式(FarmDESIGN)与一个肥料管理模块(FArmM3)被扩大,用于模拟一个由66头奶牛和9.6公顷耕地组成的密集混合农产农场;优化的目的是改善农业环境绩效、提高饲料自给和粮食生产。成果和结论:结果显示,个人肥料管理技术不足以减少粪肥管理链因补偿性损失造成的氮(N)损失,而",
+      "sourceTextHash": "a48556ea19c651ffef6d2e35fbcc56a420c5573ca946afe5753d4f9764b61dfb",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 2,
+      "flags": []
+    },
+    "p1-b12-c429d57": {
+      "zh": "* 通讯作者:Dali Yunnan,农业生态系统、国家观察和研究站,Dali 671004,中国。",
+      "sourceTextHash": "c429d57c590df7192b793cafb2a50a81bab0733f8d04fc9fa1143884fec5e19a",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b13-99b1a1e": {
+      "zh": "电子邮件地址:keqiangzhang68@163.com(K.张)。",
+      "sourceTextHash": "99b1a1ecb34af0998bb37ebab0faa1eea10f2d78519d78323c316e5d9cc6f405",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b15-b0658ce": {
+      "zh": "在 ScienceDirect 上可用的内容列表",
+      "sourceTextHash": "b0658ce9dccc0acba9a472c2bb992cc9ba72c28f2ffb7146782e56fa3025b55b",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b16-fb1fca0": {
+      "zh": "农业农业系统",
+      "sourceTextHash": "fb1fca0791ac2c307fb3dbd5dc6c9b3440cf2b289b649eaf98034c7bae6e0f8c",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b17-a2a80ca": {
+      "zh": "网址:www.elsenvier.com/locate/agsy",
+      "sourceTextHash": "a2a80caaa46d1d9359df4afce09f99beea9dc58f3c926fb68777d35d627f139f",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b19-aa72d0e": {
+      "zh": "收到2024年5月29日;收到2024年9月27日订正表格;接受2024年10月28日。",
+      "sourceTextHash": "2a84c0349ea1d82d3dc3e2c6c7f5f88d70ac57953dec11a9e090fcf8363d11ac",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p1-b20-3df18ec": {
+      "zh": "农业系统 222 (2025) 104170",
+      "sourceTextHash": "3df18ecb45f3c03a9c9facea4c51cfc9fec67dbb00a73b902bb2d87bc0371804",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": []
+    },
+    "p1-b21-c8ae058": {
+      "zh": "2024年11月6日可在网上查阅《作者》,Elsevier Ltd出版。 这是根据CC BY-NC 许可证(http://creativecommons.org/licenses/by-nc/4.0/)公开查阅的文章。",
+      "sourceTextHash": "544b11af54e87fa8ffca370b1b5906992677c9e12e0368be832f866fc7916abb",
+      "status": "machine-draft",
+      "page": 1,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b0-df91a51": {
+      "zh": "改进肥料管理不会影响农场一级总肥料损失,而不会降低牲畜密度。多目标优化表明,改善粪肥管理并没有消除目标之间的权衡或协同作用,但确实影响到目标之间解决办法边界的位置和坡度。 替代性农业配置在N挥发、土壤N损失和土壤有机物(OM)平衡方面的解决方案边界差异表明,可以有效地设计粪肥管理链来优化这些目标。对于土地有限、密集的奶制品农场,今后的研究应侧重于区域规模的作物和奶制品生产重新组合,以建立更可持续和更具复原力的粮食生产系统。",
+      "sourceTextHash": "d9e1ee2af2c7f95e53cc1665ea593a5a0fc7fd907c30130f8904fd2089424bf6",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p2-b1-6e62ee8": {
+      "zh": "1. 导言",
+      "sourceTextHash": "6e62ee82e3df2a7dfcaba91e18eab2a77c9c7f7b4a5dceb49528346078b636d2",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b2-e37bda7": {
+      "zh": "1.1. 强化奶制品生产",
+      "sourceTextHash": "e37bda73ffacde0c2d2a30e17bbd0150aed34e3949f471e108438a013d1ede4a",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b3-03dd386": {
+      "zh": "在过去几十年中,奶制品养殖业的种植率高,外部饲料投入量大(粮农组织,2018年),强化奶制品养殖系统通常具有生产力和盈利性高的特点,但也对特定地点的环境影响不利(Clay等人,2020年);环境问题,如温室气体排放和氨排放、营养过剩和生态系统富营养化等问题,已引起全世界的注意(Rotz等人,2006年;Oenema等人,2007年)。 农业肥料管理和农作物及乳制品农场的空间脱钩,被视为集中产乳品养殖场造成养分损失的主要原因(Bai等人,2013年;Chadwick等人,2020年;Zou等人,2023年)。 由于大量粪肥,但可利用的草地或耕地有限,无法利用生产的肥料,肥料已成为密集产乳田的负担。此外,由于牲畜密度高,这些集约禁产奶制品农场严重依赖外部饲料,导致养分循环和使用效率水平极低,并指出减少养分损失和提高养分使用效率的战略包括改善粪肥管理以及重新组合作物和乳制品生产(Oenema和Tamminga,2005年;Chadwick等人,2020年)。",
+      "sourceTextHash": "fbe6e17b560c78925456586b55a5d055dd2cd6d2bd8a85231b64166e82a71995",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 2,
+      "flags": []
+    },
+    "p2-b4-aef22ee": {
+      "zh": "1.2. 改善粪肥管理",
+      "sourceTextHash": "aef22ee9d844e7cd51fd8fdeb280e63eef8572aeecfe4f357fff4ab3849c3e7d",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b5-73c3474": {
+      "zh": "为减少粪肥管理设施的养分损失,开发了缓解排放措施和粪肥处理技术,例如覆盖粪肥储存、泥浆酸化和稀释以及液体肥料的注入,以减少氨排放量。厌氧消化、固体液分离和堆肥有助于减缓温室气体排放,并通过生产替代粪肥产品,如厌氧消化物、分离的液体和固体碎片以及焦土,促进粪肥管理(Foged等人,2011年;Sommer等人,2013年)。然而,在单一损失路径上制定单一的缓解措施,导致污染转换,其他化合物损失增加(De Vries等人,2015年a),据报告,通过覆盖泥浆贮存和注入液体粪肥减少了氨排放量,导致氧化氮排放量增加(Somer和Hutchings,2001年); 据报,由于减少的氨排放量,造成氧化氮排放增加(Somer and Hutchings,2001年)。此外,在前几个阶段减少气体排放可能会导致后期粪肥管理阶段的损失增加(Shah等人,2013年)。考虑到肥料管理技术和粪肥管理链不同阶段的污染互换、肥料管理技术之间的污染互换和补偿性损失,不同的粪肥管理技术被证明更高效地减少了整个粪肥管理链中的营养损失(Rotz等人,2006年;Hou等人,2015年;Sajeev等人,2018年)。然而,改进肥料管理对农场一级养分使用效率的量化影响很少得到调查。",
+      "sourceTextHash": "aa093529990495a55817a3d92618e7309e7c5bd27f8a7bc9ef2a34b81344bba2",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 2,
+      "flags": []
+    },
+    "p2-b6-71d4caa": {
+      "zh": "为了利用这些养分,可能需要合成肥料和更大面积的作物或草地的投入来利用这些营养物,因此,对于集约禁产乳品农场而言,作物和奶制品生产重新结合可能是减少营养过剩和提高养分循环和使用效率的一个大有希望的解决办法(Peyraud等人,2014年;Schut等人,2021年)。",
+      "sourceTextHash": "13db1da1d2fdb0bb25eb2bd760bdb7f9c3cd2f775cab75cfb589fa8d9a919c43",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b7-1db16b2": {
+      "zh": "1.3. 恢复作物和奶制品生产",
+      "sourceTextHash": "1db16b2d14bb8ed772ee0ae4d89c78badb58ac0b1d30c2dc8916a112e52148f0",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b8-4e74d8b": {
+      "zh": "在综合或重新组合的作物和奶制品系统中,牛生产的粪肥被用作作物肥料的来源,反过来又为牲畜提供饲料,这些闭环系统可以有效地使用营养物,减少合成化肥的需求并限制对进口饲料的需求(Ryschawy等人,2012年;Marton等人,2016年)。尽管已确认综合作物 -- -- 畜牧系统在减少有害环境影响方面的价值,但各项研究强调必须考虑这些系统的粮食生产(Lemaire等人,2014年;Puech等人,2023年),特别是在农场规模上,因为通过作物 -- -- 牲畜一体化增加养分循环的问题提出了农业用地的使用以及粮食作物、饲料和动物产品之间的资源分配问题,特别是诸如饲料用于动物饲料等中间资源的作用(Barbieri等人,2022年)。因此,综合作物 -- -- 牲畜系统的战略计划和设计对于提高养分使用效率和循环性、在不影响粮食生产的情况下提高养分自给自足程度至关重要。",
+      "sourceTextHash": "7fba0deaa830976d902ce8a44013cfa0358e03cb7f8ab92ced6393e2e8a45c50",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 2,
+      "flags": []
+    },
+    "p2-b9-b0b1418": {
+      "zh": "1.4. 整个农场模式",
+      "sourceTextHash": "b0b141832f263d89211386dc3afa34e4c0663ea6fa62f49f8a6622c6887e46ee",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b10-94bfa9a": {
+      "zh": "鉴于综合作物和奶制品农场不同农业组成部分(即动物、肥料、土壤和作物)之间的紧密互动关系,整个农业模式可以成为强有力的手段,重新设计作物和乳品系统,以平衡饲料和粪肥的供需,并事先评估综合作物和奶制品系统的绩效。在这项研究中,我们将采用由Groot等人(2012年)开发的全农业模型,即农产系统模型,通过平衡作物与牲畜的互动来重新设计耕作系统。这一模型可以确定农场各组成部分之间的复杂互动关系,支持利用基于Pareto的多目标优化算法探索替代性农场配置,并提供重新设计计划,以提高农场养分使用效率,提高饲料自给能力,保障粮食生产。此外,还将利用一个相关的外部肥料管理模块(Qu等人,2023年),调查改良肥料管理做法对养分损失和农场养分使用效率的影响。",
+      "sourceTextHash": "4b2025715c8d9cdc26bfa7ce49b33cc0eda944843bc6690ea427f2bbf3207ed9",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b11-d1389db": {
+      "zh": "1.5. 目标",
+      "sourceTextHash": "d1389db728cf578f5077e9db1c1276094f8eb7106a3b2391535e078e6eaaf9bc",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b12-b5cc635": {
+      "zh": "这项研究旨在调查替代性农场管理做法,以提高集中产奶制品农场的养分使用效率。 我们首先利用扩大的FarmDESIGN模式,评估各种改良肥料管理做法对养分损失和农场养分使用效率的影响。然后我们探索替代农场。",
+      "sourceTextHash": "6ac1de0ad3dd444ca6c2fa88848a9a7c783dc1a1422a9deaef6f113e1cbb05f7",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p2-b13-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 2,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b0-6befaac": {
+      "zh": "最后,调查了改良粪肥管理链对设计和优化综合作物和奶制品农场计划的潜在影响。",
+      "sourceTextHash": "c80ee164eeff8b536cbeeeedbfee6eabbbd348fd9254957704b3a69d8e892058",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b1-a77f4aa": {
+      "zh": "2. 材料和方法",
+      "sourceTextHash": "a77f4aaf906d38849e11e41a6e44e589cb63ae7d507ea1af9799731e28579ee6",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b2-c40b2ca": {
+      "zh": "2.1. 案例研究农场",
+      "sourceTextHash": "c40b2ca1d704b66685177f64eb414af28edcd93a01354cfcbc8dcfb5ca6831d0",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b3-231c20a": {
+      "zh": "中国云南省达利农业环境科学观察试验站的一个混合奶制品作物农场被选为案例研究,该区域面临重大的环境挑战,尤其是埃海湖水质退化,这主要是由于化肥的营养径流以及密集乳品养殖的扩大;为了解决这些问题,地方政策日益提倡使用有机肥料,整合作物和奶制品耕作系统,以促进可持续农业做法。",
+      "sourceTextHash": "4240d5abba8f0877e99368ff6d39eb169122bffcb6bf2cf3b3c76f3400396fbc",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b4-0368c6d": {
+      "zh": "在这个农场,奶牛群由66只牲畜组成,包括6头小牛、18头母牛和42头奶牛;在春季、夏季和秋季部分时间,母牛在牧场上放牧245天;全年将奶牛和小牛放在一个露天的谷仓中;在牧场上不收集粪便和尿液;在谷仓里单独收集出产的排泄物,在农场外出售固体肥料,并将液体肥料储存在一个地下水槽中,为期两个月,然后对田地施用。",
+      "sourceTextHash": "acf929aaedbd0ede5b399561d7d94f6e282b7c4df754ffcf004ac0adb0500176",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b5-ffff3d1": {
+      "zh": "耕地总面积为9.5公顷,其中3.5公顷用于饲料和水稻轮作,1.5公顷用于年度黑麦草,1.5公顷用于大麦和玉米轮作,3公顷用于大麦和玉米轮作和强奸轮作,收获的稻米和强奸种子出售,其他作物产品用作动物饲料或床上用具。",
+      "sourceTextHash": "27dcfcebfe11b201cd5a2d9e8820ee40433979e15a38e44b34edce8f5df740cc",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b6-a84b1bb": {
+      "zh": "表1列出原农场每年进口饲料和床上材料的数量,这些数量是根据农民提供的数据估算的。",
+      "sourceTextHash": "dd0d82c9bb7a76c4df2871dfccf27ce5d3a148be2cc62c86c96e1f44de615611",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b7-38ebff4": {
+      "zh": "鉴于放牧面积有限,而且由于沥滤和径流造成养分损失的可能性很大,我们修订了农场结构,不让牛放牧,全年将所有动物保留在露天谷仓中,我们还以25%的速率取代奶牛,从而改进了畜牧结构。 相应地,为了提高养料使用效率和农场内的循环性,我们修改了饲料摄取量以满足动物需求(表1),我们假定所有的肥料都用于农场内,修改后的农场被作为基准农场和农场优化的起点。",
+      "sourceTextHash": "22c17612f470f388d85531f95d67bc0be073bd4b8ad1cae4a1495af86451631f",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b8-cadf53d": {
+      "zh": "2.2. 农业模型",
+      "sourceTextHash": "cadf53dae0550f6471aa6a5dcee73d25deb2d139e1526dd4787a3a50cf720e2d",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b9-50c5481": {
+      "zh": "为了全面评价农场在农艺和环境指标方面的绩效,我们使用农业-农业综合模型,这是一种生物经济整体农业模型,支持以各种农艺、环境和经济指标全面评价混合作物-牲畜农业业绩(Groot等人,2012年),可以用来模拟有机物(OM)、碳(C)、氮(N)、磷(P)和钾(K)每年流向、通过或从农场组成部分(作物-动物-土壤-土壤)流动。根据基于Pareto的多目标优化算法,这一模型还有助于重新设计更可持续的耕作系统,探索平衡不同农业成分相互作用的替代性农场配置。我们使用了经库等人(2023)详细介绍的灵活模块管理模式(FarmM3)。",
+      "sourceTextHash": "8874f18f5d6b8900ebe6eb783c4c1f8372e2d93464a9c03af482fec61fbdc67e",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b10-0675359": {
+      "zh": "FarmDESGINT模型根据向动物供应的饲料干物质数量(每喂养牛的牲畜饲料量;公斤)估计产生的粪肥干物质的数量(DM Manure;公斤),并按饲料损失加以纠正",
+      "sourceTextHash": "77fa42111a98eb90c1b7c9a70b1d8183c14859721a403fd5871eb684eb7fba2e",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b11-fb5ba41": {
+      "zh": "表1 案例研究农场原农场、基准农场、农场设想A(旨在优化9.5公顷作物面积的牲畜数量)和农业假设B(旨在通过合并更多的作物面积增加养分循环)中的变量概览,标有最低和最大值的栏目显示作为决定变量使用的变量的最佳程序允许的差异范围。 \" 外部 \" 一词是指从农场外进口的饲料或贝具。",
+      "sourceTextHash": "1d6f07d3977fb15ce6fd7513a42be62059fdc7392ab786a9fba0692cdedc0d10",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b12-33edf71": {
+      "zh": "原基准设想情况A",
+      "sourceTextHash": "56e9ebff003b60ec5a175a60a8992b50bf18dfe1b7aea14adcfd6e6758cfed16",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b13-bf7b5be": {
+      "zh": "最低最低限",
+      "sourceTextHash": "50ef3939e5f604825cb63a8e6dd91cb241fc8f11c7bf5ba3c1bc73fa675ae432",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b14-f925dc9": {
+      "zh": "农场奶牛养的动物数量 42 42 12 42 — — 更替率 — — 0.25 0.15 0.35 — — 母牛18 10 — — 牛群6 10 — — ——",
+      "sourceTextHash": "6dc0eeae180c889475647d62abc2ca62eea568b92a98dd82e8f61208b1f82006",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b15-f8983d2": {
+      "zh": "轮耕面积,公顷",
+      "sourceTextHash": "f8983d22fffa6eb09ce0460ff99172b1266c7d87aa73af809c81e240f854e369",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p3-b16-8493943": {
+      "zh": "豆类 -- -- 豆类 -- -- 豆类 -- -- 豆类 -- -- 玉米0 0 0 0 0 00 45 0 0 0 0 45 45 45 豆类 -- -- 豆类 -- -- 豆类 -- 豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、豆类、玉米",
+      "sourceTextHash": "8290f0dd1b9977f3d0d604d8104f66e2955e32f3ea8bab7824dbeb4b6a1658b0",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b17-b4e917a": {
+      "zh": "2.5 2.5 2.5 2 2 4 牛 2.5 2.5 2.5 2 5 奶牛4.5 2.5 2.5 2.5 6 6 6 向动物供应的饲料或床上豆汁轮用作物产品百分比(作为饲料)0 0 0 100 100 100 Alfalfa-Rice 轮用稻草 (作为铺设) 0 0 0 0 0 00 100 Bean-Maize 轮用比安草 (作为铺设) 0 0 0 0 00 100 牛奶引以为豪并使用牛奶生产,每头牛每天公斤24 24 30 24 30",
+      "sourceTextHash": "c3e06279e5e7f45346a529e27ce080df876e9fa6e07d04d974b4bd876e97c941",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p3-b18-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 3,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b0-1a9da9d": {
+      "zh": "在谷仓收集的每份饲料(FL,p;kg/kg)和表面干物质可消化性(DMD;kg/kg);以及床铺材料(DBeding;kkg)产生的干物质数量(DBedding;kg)与生产的面孔和尿液混合。",
+      "sourceTextHash": "c0582becc7e9fda078b845d7ffc1e240eea2f7ca240cbad77702aaf3f5b6ca70",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b1-f10aded": {
+      "zh": "DMManure =",
+      "sourceTextHash": "2a1591398a5b3db25cda1001e4e62bf63e33b979103517d4506d92ca796e2f53",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b3-b8d58ab": {
+      "zh": "DM 动物饲料,p x (1 - FL,p)",
+      "sourceTextHash": "0a266b3ac791dd6e372c7354e76a79aae0bc0401dbd8cc2c21184fbc1a40706f",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b4-d781d07": {
+      "zh": "(x) DMDp + DMDBED",
+      "sourceTextHash": "ca24f92d9f46b76c6058264fb1b7b382330feecdca15d8c4d5548108074f1541",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b5-e08dea1": {
+      "zh": "粪肥中的OM和C的含量根据作物和动物产品的灰份含量确定,并假定有机物的C含量为50%。",
+      "sourceTextHash": "d3c90bef729ce1e32341fa6e56099dc51ff64dbb7c2de60d03c6cabf2776b0dd",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b6-7721232": {
+      "zh": "NManure =",
+      "sourceTextHash": "415b79229429e9d5496606ac1b8c9ed008aff108f923f7540f30058883881cf2",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b8-c114844": {
+      "zh": "(DM 动物饲料,p x FN,p x (1 - FL,p)",
+      "sourceTextHash": "0b97a09bcb14f5dfe0141b016ba3f75660b9b685238aad9fa921df2b3bdf24f3",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b9-d7b12f3": {
+      "zh": ") - 初级产品",
+      "sourceTextHash": "da9667bc133fa8962566f09926dcff2b3928ac3fe0c5ca335da6bf4dfb19f45f",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b10-752da54": {
+      "zh": "农业M3模型利用具体损失系数计算了整个粪肥管理链中的OM和C的降解、N、P和K的损失,农业M3的详细计算程序见Qu等人(2023年),可用于应用的粪肥的数量和特点从FarmM3模块反馈到FarmDESGIT模型中。加入农业M3模型作为外部肥料模块提高了Farmedesign模型在用不同的粪肥处理技术估算粪肥管理链中的营养损失方面的灵活性。",
+      "sourceTextHash": "4846abce96899143cb69155bad027adeffac34d263a0e32605d9c40245524205",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b11-4bac231": {
+      "zh": "农场评估结果表明,原农场牲畜密度高,为6.5 LU/ha(LU指牲畜单位等于500公斤活体重),自食用量低,70%以上的饲料是从农场外进口的,由于奶牛数量大,但作物面积有限,该农场拥有高度N值,约为272千克/公顷,77%的N损失归因于粪肥管理造成的N挥发。N自行车率被界定为排出粪肥再生到土壤中的部分,约为37%,而马粪N的30%以上是在农场外出口的。",
+      "sourceTextHash": "0bfa06520f2b7332e44eec52a4a3a770e8f68d532a6d6c7a225905584b2976d1",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b12-df6ef13": {
+      "zh": "2.3. 粪肥管理设想方案",
+      "sourceTextHash": "df6ef135a6b30de23bc7cd6863b30bc4a55f2b7163122cec4c8d8db7c392f9af",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b13-15a0eb5": {
+      "zh": "为了调查不同水平的技术和管理做法如何能提高粪肥管理成果、减少环境影响和提高农场营养使用效率,在农场3号农业模型(表2)中开发并模拟了四种有不同粪肥处理技术的粪肥管理情景(表2),粪肥管理情景M1反映了原有的农场做法,即通过挥发和径流收集和储存粪肥,造成大量养分损失;粪肥管理情景M2为储油罐引入了混凝土覆盖,通过减少对元素的接触,帮助减轻养分损失,从而提高总体养分保留率;粪肥管理情景M3采用更先进的方法,实行固体液体分离,这一技术已证明既具有成本效益,又有利于环境(Aguirre-Villegas等人,2019年;Holly等人,2017年)。在这种假设情况下,固态部分在储存、尽量减少养分损失期间被覆盖,而液体部分则储存在一个封存的罐体中,进一步减少潜在的养分排放;粪肥管理设想M4以M3的进步为基础,纳入了土地应用的最佳做法;固体肥料通过集成来应用,这大大减少了营养径流,而液分则使用尾随管交付,优化作物对养分的摄取和最大限度地减少损失。",
+      "sourceTextHash": "665d354796928ad6fb2c1d892943aa5f7bc9db498a22e4c2fb075222b03c6b56",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b14-4a907d0": {
+      "zh": "2.4. 农业设想和目标",
+      "sourceTextHash": "4a907d02d054da3f2dd87eefd1969cf3628a57d7839ac0c68d8b7ecb30dec4e0",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b15-5d66a68": {
+      "zh": "为了应对营养素损失高和农场养分使用效率低的挑战,提出了两种设想方案。",
+      "sourceTextHash": "bd78f1e51dd6825dab83e0175e001d7ef741ecfc1b06b448ace2b9c266bb794d",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b16-e8f362d": {
+      "zh": "在设想B中,重点是增加养分循环,提高牧群的自给性,通过将更多的作物区合并来扩大粮食生产。由于P盈余对奶制品生产也构成重大挑战,因此我们把整个农场P平衡列为一个关键目标。通过优化N和P平衡,该设想旨在实现农场养分管理更加全面的做法。它打算最大限度地提高整个农场的N使用效率(%)、总饲料供应量(%)、饮食能量生产(人喂养/公顷)和土壤的OM平衡(千克/公顷/年),同时尽量减少N挥发性(千克/公顷)和整个农场P平衡(千克/公顷/年)。",
+      "sourceTextHash": "f310d15bae10a40a452cee509b87b190797e9096f7bc9f60d5128ae69483f405",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b17-3c2633d": {
+      "zh": "• 整个农场N使用效率(%)的计算方法是将N产出量与N投入量进行比较,氮可以通过进口作物产品、进口肥料或粪肥、共生固化、非共生固定和沉积进入农场。N的输出包括从作物产品、动物产品和出口牲畜粪肥中出口的N。 N挥发(kg/ha)估计通过氨排放、一氧化二氮排放和氮(N2)在整个粪肥管理过程中产生的N累计损失总量,包括粪肥排出、储存、处理(如固体液体分解、堆肥、厌氧消化等)和应用。 土壤损耗(kg/ha)通过脱硝、沥滤和土壤径流对N损失总量进行量化。• 整个农场P余额(千克/公顷/年)是按P投入(包括进口饲料、床上材料、进口肥料和大气沉积)与P产出之间的差额计算的,后者包括动物和作物产品中的P以及出口的粪肥。",
+      "sourceTextHash": "b0c6d287678532649319fb085188fa032b919a8b295feda3275b003012a31571",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 3,
+      "flags": []
+    },
+    "p4-b18-5d59225": {
+      "zh": "表2 示范粪肥管理链说明。",
+      "sourceTextHash": "509e0b032676a10c446f4620ff4390c5a2f24d4a5f8f156c7c8bebdfc0acb166",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b19-361ed6b": {
+      "zh": "粪肥管理链(MMCs)",
+      "sourceTextHash": "66377b004172fc482dd47ce9416ef183ff94495a54a2fb1be716c8c412906ccf",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b20-526e008": {
+      "zh": "上下说明",
+      "sourceTextHash": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p4-b21-20fe6f3": {
+      "zh": "M1 谷仓中排出的所有粪便都收集起来,储存在一个没有遮盖的罐子里;在储存了两个月之后,将泥浆放入田地;M2 将谷仓中排出的所有粪便都收集起来并储存在一个有混凝土掩埋的地下箱里;在储存了两个月后,将泥浆放入井里;M3 将谷仓中排出的所有粪便全部收集起来并储存在一个地下箱里,然后将其分解成固体和液体碎片;分离的固态部分储存起来并在储存过程中加以覆盖;液体部分存放在含混凝土的地下箱里;液体部分在储存两个月后,将液和固体碎片放入田里,而未加混凝土。液体碎片储存在含混凝土的地下罐体中,储存后,固体粪肥通过广播应用与集成一起施用田地,液体则通过尾管施用田地。",
+      "sourceTextHash": "2b61e49f7a2ce79be89209985f7f78cbbd0b02b50bd4882108d935f9b19a1857",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 2,
+      "flags": []
+    },
+    "p4-b22-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 4,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b0-e43aa2e": {
+      "zh": "· 饮食能源生产(人喂养/公顷)是衡量粮食生产系统的效率和可持续性的关键尺度,它根据从田地作物、动物饲养和其他生产系统等各种来源获得的每日膳食参考摄入量计算出能够满足其日常饮食需求的人数。",
+      "sourceTextHash": "dd641fde7705b76597b9b18a07a219374be0b92d14479d8e122023d497834eb5",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b1-95e5e97": {
+      "zh": "对于每一种农场情况,我们探索了替代性农场配置,以实现目标目标,并调查了使用不同肥料处理技术的混合机械公司对替代农场配置的影响。",
+      "sourceTextHash": "670dd11dffbc565810a066e98ae30b82bda2d40cbf218945be695e476056487b",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b2-9f415ff": {
+      "zh": "2.5. 决定变量和制约因素",
+      "sourceTextHash": "9f415ff7501f6429fb18f2ee97fb5b132a21389fac8bba759f005e6b6cbe0c69",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b3-0aa37f4": {
+      "zh": "对于每种情况,决定变量包括牲畜群规模、作物分配、农作物目的地、向动物供应的外部饲料和床上材料数量等管理变量(见表1),为在情景A中不应大于9.5公顷、在情景B中应少于45公顷的作物总面积设定了限制(见表3)。 假设B中的扩大农田面积是根据周围作物面积确定的。牲畜单位数目应低于情景A中基准农场的56.2 LU,并保持与情景B中基准农场相同的水平。 饲料中的能源、蛋白质和纤维材料(`结构 ' )的可得性应与动物需求相符,但不应超过摄取能力(饱和装置的调整)。包括沥滤、径流和脱硝化在内的土壤净损失不应少于20千克N/ha/年,以确保系统有足够的N支持作物和草原生产,同时承认不可避免的损失,而土壤P和K损失不应低于0千克/公顷/年以避免采矿。",
+      "sourceTextHash": "a8e6c70f7d70556d1152ea3b2bc2f2752260fc613a131ac69116e815396baf9a",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 2,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b4-39c5b09": {
+      "zh": "2.6. 示范勘探",
+      "sourceTextHash": "39c5b0976c43bcae405c2ccab4eea7e4d5371df3a6116033269ec041145a2e60",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b5-eb47e04": {
+      "zh": "为了进行模型探索,我们用基于Pareto的多目标优化为3000次迭代进行了基于Pareto的多目标优化,以获得每场情景的500种替代性农场配置。 Groot 等人(2012年) 描述了配有相应公式算法的完整的数学解释。 在这里,我们简要总结了优化过程。 DE 算法产生了代表决定变量的两个解决方案群。 这些人群创造的机会空间是多种多样的;决策变量(基因类型)的多样性创造了农业绩效的多样性,通过指标(phenotypes)来衡量。 第一组“父母”作为结果集,并相互改进,而第二组则由“竞争者”组成,后者是由每个迭代中三个选定的“父母”解决方案的统一交叉产生的。",
+      "sourceTextHash": "6488716241db98e8c7106b3268c38f3b2a89909c6e033d6fbc3a2380562b5b7a",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b6-8068bd5": {
+      "zh": "两种人群的解决方案都采用Pareto-优化原则进行排名(Groot等人,2012年),而机会空间中解决方案之间的欧几里德距离则根据标准化指标值计算,该指标值有助于量化拥挤度。 排序后通过对比进行筛选程序:在`父母 ' 人口中的解决方案由与`竞争者 ' 人口配对的个人取而代之,如果后者拥有更好的Pareto等级或等同地位,则其位于机会空间中较不拥挤的部分。基于层级的甄选结果导致`父母 ' 人口向贸易边界(或地表)移动,而以人群为基础的选择则确保沿边境(或表面)蔓延。",
+      "sourceTextHash": "132e21ee48b07cade94c78601c8f6dae11846dadc86fa95e9376e8280b345b61",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b7-9f0bc90": {
+      "zh": "该模型产生的最后一套替代性农场配置代表了一个解决方案空间(Groot和Rossing,2011年)。作为解决方案空间界限的解决方案边界显示了各项目标之间可能的最佳权衡,突出了平衡相竞目标的最佳组合。我们重复了每次优化3次以取得稳定结果。在优化的不同演进算法中统一交叉的参数设置为:变异概率0.85和变异振幅0.15(Groot等人,2007年)。",
+      "sourceTextHash": "22cc629cc5aa8c9e303a5610cd8951c3f9edd810bdc99459bddf4e29a1b810ec",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b8-c3fea71": {
+      "zh": "3. 结果",
+      "sourceTextHash": "c3fea7138f4bb51688359fa370115de73c95fc2601dbf4e5411368aa2da343c0",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b9-32e0c82": {
+      "zh": "3.1. 粪肥管理对粪肥管理链(粪肥管理链)N损失的影响",
+      "sourceTextHash": "96a8b8f7f3c51cacc651c7864d12404337bab87aea2b8eae954a3a0cd3c96c47",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b10-908e49c": {
+      "zh": "如图1所示,MMCs M1和M2 MMCs M3和M4配置MMCs M3和M4在N损失和使用效率方面没有明显的差异,尽管MMCs M1和M2之间在N损失和使用效率方面没有明显差别,但MMCs M3和M4组合可以将N损失减少46至58%并增加",
+      "sourceTextHash": "aff76c189e438354d3e066ae63f124310d6cc91674b1de850280b0c208e13c18",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b11-9cec8c6": {
+      "zh": "表3 案例研究农场不同农业情景制约因素概览。",
+      "sourceTextHash": "0da91df68157c5c8f1e7725a1ffccadb84d5bb1a3ec1bdcaeaa6d2564ca72f91",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b12-f906033": {
+      "zh": "设想情况A 设想情况B",
+      "sourceTextHash": "5e9a1b2c13d54945ba2818e8306d5fc52b2e6aa301eaaeb3774258773779607f",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b13-9e40af1": {
+      "zh": "最低最低限度",
+      "sourceTextHash": "f30914ecdf6bcee0e65b0fd765a72d2955819b6210c7c47e1c329fded544cafc",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b14-6a01bfb": {
+      "zh": "进食平衡摄入量偏差(%)",
+      "sourceTextHash": "d67cad31259ef9628e2559ad1d872ac06bc63bde4b3bee3013a07baf53f537c3",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b16-bcf860f": {
+      "zh": "饲料平衡能量偏差(%)",
+      "sourceTextHash": "798c1508b3c240e738d451196e13921456800cc99bab1fb2d9a38823243a2bcc",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b18-92f7522": {
+      "zh": "饲料平衡蛋白脱差(%)",
+      "sourceTextHash": "a540338bb1d2b15319e76910f850d299c9f3ddb609a55727a70efcfc2dcb92e1",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b20-5a589ed": {
+      "zh": "饲料平衡结构偏差(%)",
+      "sourceTextHash": "055e7f021831deedf00e620027f9728eb6e523131e74857b8c08d1b0d68cc75d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b22-9ba3815": {
+      "zh": "旋转区域(公顷) 9.5 99.9 9.95 9 45",
+      "sourceTextHash": "c1d9ad0c031aef50a11c3e5bd3277283facf58d62b9ab526f8ec6a45537f4c53",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b23-9a51808": {
+      "zh": "牲畜单位 (LU) 56.2 15 57 - -",
+      "sourceTextHash": "39460c8ee33a82da36369a25ad685798e888de362a6e23ba83964ad6299e2bbd",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b24-e3f3690": {
+      "zh": "偏差入床余额(%)",
+      "sourceTextHash": "5c803e726709b761ce895ead3c6b2f2ce330302bbc08477777a6ff1cd788fd9c",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b26-02481b8": {
+      "zh": "土壤氮(N)损失 (kg/ha) 197 20 197-352 a 20 197-352 a",
+      "sourceTextHash": "84d34e0a6a9028a9100bfab133adc27920dcd9310336226e406eb89dd38ddd90",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b27-ad508a6": {
+      "zh": "磷(P)平衡(千克/公顷)",
+      "sourceTextHash": "e924af1da9a4d5bdb70bd11e5e95751583fd4010a746b42788629ffce94d8dfc",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p5-b28-fda2ec9": {
+      "zh": "钾(K)平衡(千克/公顷) 664 0   0",
+      "sourceTextHash": "fd87f0adc4cff2a5cab53f219c44f5115505de10acf8326aa5d3a7c381dd1728",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b29-8b1006e": {
+      "zh": "a 土壤N损失与粪肥管理链不同。",
+      "sourceTextHash": "8b1006ed0934da41c3723e0da85ab8b91c45a857b4cf209ab5b507cf496a979a",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b31-207d4b4": {
+      "zh": "图1. 不同肥料管理链(M1-M4,见表2)下的氮损失和N使用效率(M1-M4),蓝条代表N损失,钻石点表示各种粪肥管理链的N使用效率。 (关于图例中颜色引用的解释,请查阅本条的网络版本。 )",
+      "sourceTextHash": "8b1341ed1699839530f4a76616e4d195e6bb5df9fa4fa88d9c10ac3c09f870a9",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p5-b32-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 5,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b0-6c76712": {
+      "zh": "与M1相比,N使用粪肥效率超过30%。 这意味着采用单一的减排措施(即泥浆覆盖)对MMC和粪肥N使用效率造成的N损失影响有限,而泥浆固体液分解、覆盖固体和液体碎片储存以及改良肥料应用相结合可显著减少N损失并提高粪肥管理N的使用效率。",
+      "sourceTextHash": "545fd1a1155a030422428313be0ee27e4c66fc712c43bdf71666bb75893256f6",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b1-3420fce": {
+      "zh": "3.2. 粪肥管理对整个农场N损失的影响",
+      "sourceTextHash": "3420fcee9c67ea205b8ce5e3a7863788c05b777aac355578f5d0f4a48250aeaa",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b2-6715175": {
+      "zh": "MMC组合M1-M4与基线农场配置之间的差异不会导致减少整个农场的N总损失或提高农耕N使用效率,由于牲畜密度高和在基准农场配置中严重依赖进口饲料,牲畜排出的N型牛超过了N作物生产需求,造成大量剩余。如果不改变奶牛和作物面积的数量,改良粪肥管理所节省的N型牛在土壤施用后将丧失。因此,对于这个密集的混合作物 -- -- 奶制品农场来说,改进了。",
+      "sourceTextHash": "833dc6fa3ecceb83e6f4513a9dc052eb1633ef926b6f813c12c63633edc227b2",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b3-4d56d3d": {
+      "zh": "粪肥管理不影响农牧业使用效率,因为其计算方法是农场N产出(即作物和动物产品)与农场N总投入(即进口饲料、固定和沉积)之比。",
+      "sourceTextHash": "f7da32112685dd623e2dd9ecccfd81b7365a5dc229c35ba2b13eca73fba4e8d7",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b4-7f1445d": {
+      "zh": "3.3. 粪肥管理对农业环境绩效的影响",
+      "sourceTextHash": "7f1445d0ff829844e57e76be1f1ecd3570b048c6f2e18e46b33f107ceb377e86",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b5-6057f1b": {
+      "zh": "农业设想A的多目标优化结果显示,农场情景A的多种目标优化结果表明,在提高整个农耕使用效率与减少N挥发(图2A)之间、在提高整个农耕使用效率和减少土壤挥发(图2A)之间、在提高整个农耕使用效率与减少土壤流失(图2B)之间、在提高整个农耕使用效率与减少土壤流失损失(图2B)之间、在减少土壤流失和减少土壤流失损失(图2F)之间、在减少土壤流失和减少土壤流失损失(图2F)之间、(3)在减少土壤流失损失与N挥发(图2C)之间取得了明显的协同增效。 另一方面,还发现,在整个农场提高牛的使用效率和土壤OM平衡(图2D)、(5)在减少N挥发性和增加土壤管理平衡(图2E)之间、以及(6)在减少土壤流失和改善土壤占用平衡(图2F)之间,取舍的主要因素是农场奶牛的数量。",
+      "sourceTextHash": "9ff94f13cbd8924da4bc389146fe4f387e64c640451573356bd47c35312c6eba",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p6-b7-202b6b0": {
+      "zh": "图2. 整个农场N使用效率、N挥发性、土壤N流失和农业情景A中土壤OM平衡与不同的粪肥管理链(即M1、M2、M3和M4)之间的关系。",
+      "sourceTextHash": "efefee4930c247d6b5306d54707d8eeffef064061694efb15f1ea24fcd7f0362",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p6-b8-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 6,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b0-5cea6ab": {
+      "zh": "减少奶牛数量可以减少奶牛的数量,减少N挥发和土壤流失,同时降低土壤的OM平衡。",
+      "sourceTextHash": "1da7ead2428d51d7cab4061c800006e49f082873c8b83cd5aeaa4e818b8eb323",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b1-1f15303": {
+      "zh": "虽然不同MMC存在目标之间的权衡或协同关系,但在N挥发、土壤N损耗和MMC之间土壤OM平衡方面发现解决办法边界的位置和坡度差异很大(图2)。这些差异主要可归因于粪肥管理技术对N挥发、土壤N损耗和土壤OM平衡的影响。如图2所示,MMCs M1、M2和M3、M4在N挥发和整个农场N使用效率方面的明显距离表明,由于采取了多种N缓解措施(即固体液体分离、覆盖和改进的应用方法),MMCs M3和M4的N挥发性较低。在N挥发和土壤N损失(图2C)和N挥发和土壤OM平衡(图2E)的溶边界也发现了类似的结果。 但在MMCs M3和M4中观察到的土壤N损失和土壤OM平衡高于MMCs M3和M4, 整个农场使用效率相同的MMCs M1和M2, (图2B和D)。 MMCs M3和M4的土壤N损失较高表明粪肥管理和土壤造成的补偿N损失,而MMCs M3和M4(图2A)的N挥发较少,导致N更高的N",
+      "sourceTextHash": "2ab74ba4001ca659e7b460c12b48cef2501eec616c4c60754d22b9d6e37cd058",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 2,
+      "flags": []
+    },
+    "p7-b2-130874c": {
+      "zh": "MMCs M3和M4的土壤湿度平衡高于MMCs M1和M2的泥浆粪肥对土壤湿度的贡献。",
+      "sourceTextHash": "daf392896aed95fcc2c7a709fda53b4b81b4d929dfc56a7b0c7b9ab1521fb001",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p7-b3-8af3a1e": {
+      "zh": "与MMCs M3和M4相比,N挥发和整个农场MMCs M1和M2的N使用效率之间协同作用前沿的斜坡表明,MMCs M1和M2的N挥发率下降幅度更大,以达到整个农场N使用效率的同样提高(图2A),相反,N挥发和MMCs M3和M4的土壤N损失之间的协同作用前沿的斜坡显示,随着N挥发率的同样减少,MMCs M3和M4的土壤N损失可以比M1和M2(图2)。在整个农耕N使用效率与土壤N损失之间,整个农耕N使用效率和土壤OM平衡之间,以及MMCs M3和M4的土壤N损失与土壤OM平衡比M1和M2(图2B和C)。 与基准农场N使用效率相比,MMCs M3和M4的全农N使用效率可以比MMCs M1和M2的提高更大。",
+      "sourceTextHash": "acc469276aa26c3670c6d2905f3bb24b2cf04c5c6acc7c269f56667e678c22bf",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 2,
+      "flags": []
+    },
+    "p7-b5-faae395": {
+      "zh": "图3. 整个农场的N使用效率、自给饲料DM、饮食能源供应、N挥发、整个农场P平衡和农业情景B中土壤OM平衡之间的关系,有两个不同的肥料管理链,较大的符号标志着基线农场配置的业绩。",
+      "sourceTextHash": "07ad36c94edeb5608cc1afdc56dc0bd3515b452f723fa6c08fd48b9ee94bf3dc",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p7-b6-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 7,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b0-243e21d": {
+      "zh": "3.4.4. 粪肥管理对更综合作物-乳品生产的最佳结果的影响",
+      "sourceTextHash": "9e84c4edc7afa116ca55b306dce90e2d73176ecce0d793a2e60e78f044fe2121",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b1-f9d58de": {
+      "zh": "由于MMCs M1和M2之间以及MMCs M3和M4之间在目标的优化结果方面没有明显区别,我们只对农场情景B中两个对比最大的MMCs(M1和M4)进行了农场勘探。 与农场情景A的勘探结果相比,整个农场使用效率目标之间的类似但更多的曲线式权衡和协同作用,由于与饲料自足、饮食能源供应和整个农场平衡等附加目标的互动更为复杂,因此在农场设想B中观察到了N挥发和土壤OM平衡。 对作物和奶制品生产与多目标优化相结合的研究结果表明,改变的农场配置还可以大大提高整个农场的使用效率,减少N挥发性化和改善土壤管理平衡(图3)。 随着MMC M1,整个农场使用N的效率达到65%的最高水平,而MMC M4可以获得高达85%的价值。",
+      "sourceTextHash": "d389dfd4aef3e38c0e4495295193fca7cfcc176978882f2e8db237e76795e483",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b2-3cda4ce": {
+      "zh": "与MMC M1相比,N挥发和整个农场P平衡之间的协同关系明显缩小(图3J)。 与MMC M1相比,MMC M4的N挥发和整个农场P平衡之间的协作边界斜坡表明,MMC M4可实现更大程度的P平衡,而N挥发(图3J)的减少幅度相同。 改进粪肥管理MMC M4还有助于在改善整个农场N使用效率和减少整个农场P平衡(图3G)、增加自给品供应量和减少整个农场P平衡(图3H)之间,以及在改善饮食能源供应和减少整个农场P平衡(图3I)之间,形成更大的解决方案空间,以便在减少整个农场P平衡和改善饲料DM(图3H)的自供应之间,以及在降低整个农场P平衡和改善更理想方向上的土壤OM平衡(图3O)之间,提高协同作用边界(图3)。",
+      "sourceTextHash": "392fd2a62830f16a5c97160cf98752ad841d815903948b86cb3b081f6a6a7d76",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b3-c95f811": {
+      "zh": "改良的MMC M4M4还转移了整个N农场使用效率与自供饲料率(图3A)之间以及整个N农场使用效率和饮食能源供应之间的取舍边界",
+      "sourceTextHash": "c7e53d5d7005b24be15c94cc25f359b78df6e8ec1a12fce8916080e8f1a7d9f2",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b5-4e8c6c0": {
+      "zh": "图4. 示范作物面积分配和每种替代农场组合的进口饲料数量,为实现最大限度地提高养殖区自供应供料率和农场方案B中膳食能源产量的目标而生成。 为每个目标从最低到最高订购了x轴值。",
+      "sourceTextHash": "090e9ba00d0b94b945ab8c3e60b33c85eb6a419941e9dfb442f4e6fa146e8ea4",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p8-b6-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 8,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b0-70d5ed2": {
+      "zh": "(图3B)朝更理想的方向发展。但是,在提高自给自供量和改善膳食能源供应之间出现了明显的平衡(图3C),这表明了案例研究农场的粮食食品竞争情况。图4显示了作物种植模式的变化以及外部饲料投入数量的变化如何界定了饲料自供量与饮食能源生产之间的关系。在农业设想B中,为了实现增加自给量的目标,该模型将饲料生产从外部进口转向农业生产,随后导致种植作物的地区增多,如 falhalfa(图4A和B)。相反,在食物能源供应较多的替代结构中,模型将较大的地区分配给粮食作物(即中国卷心菜和玉米)和较小的地区用于filfalfa。农用光failalfa泥浆产量的减少得到外部光failfa泥浆投入的增加(图4C和D)的补偿。",
+      "sourceTextHash": "7ed10e1488194c4625c2bfea6d6564140caae130bca6d05c24f70059eb90f011",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 2,
+      "flags": []
+    },
+    "p9-b1-54c664c": {
+      "zh": "4. 讨论",
+      "sourceTextHash": "54c664ce8062f3812d51572c3ccda3547491a3d7290297d6101285c373d7fc49",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b2-8df74c3": {
+      "zh": "在这项研究中,我们比较了不同粪肥管理链中的N损失与不同的粪肥管理技术,并探讨了改良粪肥管理链对农场环境绩效优化的影响。结果显示,单项减排措施不足以减少粪肥管理链层面的N损失。然而,综合实施固体液体分离、覆盖固体或液体粪肥储存以及改进粪肥应用(M4),导致整个粪肥管理链中的N损失大幅减少。",
+      "sourceTextHash": "dcf3abab0e0d8a742a79336f7b64a67e31011cff79b1071e0dfc4ae2689c0eea",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b3-67f68ab": {
+      "zh": "鉴于粪肥管理设施的补偿性损失,在粪肥管理链中采用综合粪肥管理技术的重要性已经得到指出(De Vries等人,2015年a,2015年b),鉴于粪肥管理设施中的补偿性损失,先前的研究报告报告说,通过覆盖的固体粪肥储存减少N损失,在粪肥田应用后造成更大的N损失,并着重指出,合并肥料管理做法对于减少总肥肥料损失更为有效(Shah等人,2013年);Rotz等人(2006年)的一项研究认为,在100公顷耕地上种植100头奶牛的农场和在600公顷耕地上种植1 000头奶牛的农场,采用了营养保护技术,包括粪便和尿分解的谷仓、为期六个月的粪肥储存和粪肥注射,将氨排放减少54%至77%,并将农畜总损失减少24%至29%。",
+      "sourceTextHash": "6e7c903b72ddbb9a9475efd1490640605da3314f466c75404fbeed6eb7d1f462",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p9-b4-8906c68": {
+      "zh": "虽然多种缓解措施都表明有可能减少粪肥管理造成的N损失,但我们发现农场的N损失总量没有下降,原因可能是牲畜密度高和案例研究农场进口饲料量大,进口饲料N导致农业系统循环过多。虽然改良的粪肥管理做法在肥料方面保护了更多的N,但有限的耕地无法吸收被养护的N,从而造成更大的土壤损失。这意味着对于土地有限、密集的奶制品农场而言,仅仅通过改进有多重缓解做法的粪肥管理链来减少N损失可能还不够,而且可能需要将更多肥料出口到农场之外或将更多农田并入农场。",
+      "sourceTextHash": "9aefb412cef22ffa434609d456afa2d4d7b4f35e7b93b12c93b063a7b68af499",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b5-c5dc1fd": {
+      "zh": "我们还发现,由于改进粪肥管理做法,整个农场P的平衡情况没有大幅下降,这主要是因为粪肥P主要是在应用后因径流和沥滤而损失的。正如Spears等人(2003年)指出的,大约96%的粪肥P可以在粪肥储存期间得到养护,并在粪肥施用之后在土壤中积累。此外,饲料进口极大地促进了整个农场P的平衡(Ros等人,2023年)。通过将更多的作物区纳入农作饲料生产,我们可以看到整个农场P的平衡大幅度下降。这与Harrison等人(2021年)的调查结果是一致的,该调查结果表明,在牲畜饮食中加入家庭饲料比例较高的耕作系统提高了P的使用效率,P盈余也更低。",
+      "sourceTextHash": "6dec7de35a0a0b825eef7d3945cc4a740a6301b0a9a71bba6bd7b8d6132ace17",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b6-ca3a0bf": {
+      "zh": "案例研究农场环境业绩的多目标优化结果显示,肥料改善",
+      "sourceTextHash": "50c2093d7ba2184eb209eb262658fb6e0e088a12c1dd33846628a82125b7dcc7",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b7-5fdbdc4": {
+      "zh": "采用多种缓解措施的管理可推动N挥发性、土壤净损耗、土壤OM平衡和整个农场N使用效率之间的取舍和协同关系;综合作物 -- -- 乳制品系统为最大限度地减少环境影响提供了进一步的可能性;通过将作物生产和奶制品生产结合起来,实现了N挥发性大幅降低和整个农场N使用效率的提高。",
+      "sourceTextHash": "bdd7424d54fde0cd39cb796e119cb6286ebc447fc6c98537669cb30d6f596b7a",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b8-b306449": {
+      "zh": "综合作物畜牧系统已被确定为增加营养循环和限制负面环境影响的可行战略(Lemaire等人,2014年;Moraine等人,2014年;Peyraud等人,2014年)。 对于高度依赖农场外饲料和大量肥料营养过剩的密集奶制品耕作系统而言,通过在农场和区域规模重新组合作物系统,结束养分和能源循环有助于减少集约农场的环境外部效应并提高其复原力(Garreett等人,2020年;Chen等人,2023年)。 该研究表明,结合改善粪肥管理、作物-乳品一体化,降低了N挥发性、土壤N损失、整个农场P平衡和农业营养使用效率。",
+      "sourceTextHash": "d474afbbe1f0a17a7704761f998c757f86f72defe1e92d2240d0e8752eeb24b0",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b9-c92a1ad": {
+      "zh": "虽然在案例研究农场查明了饲料自足与饮食能源供应之间的明显权衡,但必须指出的是,其他综合作物畜牧系统的情况并非如此,由于储存密度高,本个案研究研究农场分配大部分作物供养,造成食物和饲料生产之间的权衡,将作物区与饲料生产相结合导致对取舍的转变,但没有改变取舍关系。作物与乳品结合的问题引起了为粮食和饲料生产分配资源的问题,特别是对于储存密度高的密集奶制品农场而言(Muscat等人,2020年;Puech和Stark,2023年),我们研究中的粮食食用竞争主要来自耕地的使用,更多的耕地被用来生产牲畜饲料(例如,falfa和整个玉米泥浆),导致粮食生产面积较小。减轻综合作物-奶制品农场粮食饲料竞争的潜在途径可能包括通过优化作物轮作和提高每个地区的作物产量,提高作物种植系统的养分使用效率(Barbieri等人,2021年);在动物和畜牧一级提高牲畜饲料使用效率也是节约饲料资源的重要杠杆(Barbieri等人,2022年);此外,当地作物和乳品农场为直接交换粪肥和副产品进行协作,可以进一步在更大规模上关闭营养循环,提高资源利用效率,促进循环食品系统(Martin等人,2016年;De Boer和Van Ittersum,2018年;Ghimire等人,2021年)。",
+      "sourceTextHash": "000e380153d672f91a4ea7d5f821090969d82cc022d6aec0f50646c61202b843",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 2,
+      "flags": []
+    },
+    "p9-b10-eaa5194": {
+      "zh": "首先,我们探讨了替代性农场结构,重点是优化环境和营养指标,而没有考虑经济指标。尽管一些研究证明作物和牲畜的一体化可以限制对环境的负面影响,同时又不损害农业经济学(Martin等人,2016年),但实际上粪肥管理的成本随处理技术的类型而不同(Hansen, 2019年;Sefeedpari等人,2019年)。更全面的评估考虑到环境、经济和营养指标将有助于更好地了解肥料管理在农场管理中的作用,并有助于农民采用成本效益高的肥料管理技术。第二,我们的研究可能低估粪肥管理对农场养分管理的贡献,因为根据质量平衡计算营养流动的模型没有考虑不同肥料种类作为化肥的营养供应情况,这种肥料高度依赖粪肥处理、储存和处理方法(Rufino等人,2007年;Risbery等人,2017年)。 此外,粪肥管理技术对粪肥质量的影响对于保持土壤生物多样性至关重要,值得调查(K-oninger等人,2021年)。",
+      "sourceTextHash": "e7f28833bf988f8e882f64dfc1fd94f1de2c60f51056b6363caa141c251fd6b8",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 2,
+      "flags": []
+    },
+    "p9-b11-754a85d": {
+      "zh": "农牧业发展综合模型和农牧业M3综合模型提供了一个有用的工具,用以探讨改进粪肥管理如何影响整个农场的养分流动和使用效率。",
+      "sourceTextHash": "2076aa0aed0be9145331f3c1e956bf2f7073c93f0221943f5f0845fb941dadfc",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p9-b12-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 9,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b0-cff1f9a": {
+      "zh": "以Pareto为基础的基于多目标优化算法为基础,可以支持农民自主选择广泛的替代组合,并可作为未来与多个利益相关者共同参与进程的切入点(Groot and Rossing,2011年)。 由于将作物和奶制品生产纳入农场需要更大的工作量以及增加在动物、肥料、土壤和作物管理方面的技能和知识,今后必须研究如何通过奶制品农场和作物农场之间交换肥料和饲料,将作物和奶制品生产纳入农场范围以外,特别是对于集约化和专业化农场而言。 一个区域内的作物和乳制品农场之间的营养“共享”可以提供互补互动和惠益,减少专门农场的外差效应,促进更大规模的近营养循环。",
+      "sourceTextHash": "11c1eace40ab828ac76c8bc8cbd22a0726d6cfd5872a0b86f2353e657d7b5829",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b1-c6e7582": {
+      "zh": "5. 结论",
+      "sourceTextHash": "c6e75828c3ee1b37ede67476927d6411427bf9a8c9bf5e5943eca3a83d3e8c3a",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b2-8dd013c": {
+      "zh": "肥料管理在集中的混合作物和奶制品农场的农场养分管理中发挥着重要作用,由于大量生产的粪肥造成大量的养分损失,以及粪肥管理和土壤及作物之间的复杂相互作用,在设法优化农业配置时也应考虑改进肥料管理对农场养分管理的影响。我们的研究将外部肥料管理模式(FarmM3)纳入整个农场模式(FarmDESIGN),从而能够(一) 评价各种改良肥料管理技术对粪肥管理和整个农耕系统造成的养分损失的影响;(二) 查明改善肥料管理对多目标优化农场配置的潜在影响。",
+      "sourceTextHash": "445b155369cb59d42bd0a6f1a9e945d4c4b68e6541434faa52923cfcb7b73327",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b3-463c3cf": {
+      "zh": "为了减少整个肥料管理链的养分损失,单一粪肥管理技术是不够的,这凸显了减少粪肥管理造成的N损失的综合方法的重要性;在牲畜密度高的情况下,整个农场的N损失总量没有受到改善粪肥管理的影响,因为将粪肥管理节省下来的N在耕地使用后可能会丧失。通过降低牲畜密度,可以进一步减少粪肥管理和土壤方面的N损失,从而提高整个N的使用效率。此外,改进粪肥管理并没有导致整个农场P平衡的下降,主要原因是粪肥P主要因径流和施用后的沥滤而损失。然而,将作物和奶制品生产结合起来以增加农场饲料生产可显著减少整个农场P的平衡。",
+      "sourceTextHash": "2928170215a9c4797cc199bccbdfb64c4ce5c5e5115ea704e04e7c5eb1bce263",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b4-54b7665": {
+      "zh": "尽管各目标之间有取舍和协同作用,但改善粪肥管理并没有改变各项目标之间的关系,而是影响到N挥发化、土壤N损失和土壤OM平衡等目标之间解决办法边界的位置和斜坡;为了实现可持续地加强奶制品生产,有必要通过采取多种缓解措施改进粪肥管理以及农场内部或农场之间的作物和奶制品生产一体化来增加养分循环;鉴于在将储存密度高和严重依赖外部饲料的乳品农场的作物生产结合起来时,粮食吃饱的竞争是相互抵消的,因此在优化农业配置以更可持续的农业生产时,也应考虑粮食生产。",
+      "sourceTextHash": "fa5cf3decf20158cb1144c4f82e7796c900c7a6bb3b7c8f69c825bb87c89cbfc",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b5-75794fc": {
+      "zh": "CREediT 作者贡献声明",
+      "sourceTextHash": "75794fc7a639181c4b67897c71910444e5b8ebcbd0f51648ce8e59a2b166c896",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b6-282113f": {
+      "zh": "清博 Qu:写作 - 审查与编辑,写作 - 原始草案,可视化、方法、调查、正式分析、数据整理、概念化。 Jeroen C.J.Groot:写作 - 审查和编辑、监督、软件、方法、筹资获取、概念化。 Keqiang Zh:写作 - 审查与编辑、监督、资源、资金获取、概念化。",
+      "sourceTextHash": "80d41f1893019c6e91f0b6a5302f436f2439561b3fdbe5f7be32792988edcd0a",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b7-9c53d09": {
+      "zh": "竞合利益声明",
+      "sourceTextHash": "9c53d09d763e52c3bd982dc5e59f78546b18e21413f6d9ef7815e4ca3546c239",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b8-5f4cebb": {
+      "zh": "作者声明,他们没有已知的相互竞争的经济利益或个人关系,这些利益和个人关系可能似乎影响本文件所报告的工作。",
+      "sourceTextHash": "7c01408011bc89f908a3ec18505dcdda8e1ce7a1c2476ad72a4b8f9a0cffb422",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b9-188a992": {
+      "zh": "数据可用性",
+      "sourceTextHash": "188a992e372fe88d4d545fa96883a56c2aada07802d61a1332853f2ea664c1ed",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b10-2889f11": {
+      "zh": "将应要求提供数据。",
+      "sourceTextHash": "2889f11dc03e8c8b6e955150844095aedbb24a16b3914abd920260117e73e4d9",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b11-c9015d5": {
+      "zh": "鸣谢",
+      "sourceTextHash": "c9015d53b90846454375a2fdf2829c66fad7a2e52de1e89e73949ca59c905e49",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b12-f75af88": {
+      "zh": "这项工作得到了 \" 减少大规模乳业农场排放量和增加利用粪肥资源的关键技术研究 \" (赠款编号202402AE090032)、中国农业科学院科技创新方案、中国农业科学院与工资大学研究学院合作中德博士学位方案(赠款编号MOE11NL1A20151701N)和中国奖学金理事会(赠款编号20200325092)的支持。",
+      "sourceTextHash": "f79afdcdaf4c97ced447033daae33b45ea9d25e542ea01e75fb203f589dfaea0",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p10-b13-69824d3": {
+      "zh": "参考参考资料",
+      "sourceTextHash": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p10-b14-882e3f7": {
+      "zh": "Aguirre-Villegas, H.A., Larson, R.A., Sharara, M.A., 2019年。 麻醉消化、固体液体分离和烘干乳粪:测量成分和模型排放。Sci. Notal Environ. 696, 134059. https://doi.org/10.1016/j. scitotenv.2013133059. Bai, Z.H., Ma, L., Oenema, O., Chen, Q., Zhang, F.S., 2013年。中国奶制品生产中使用硝基和磷的效率。J. Environ. Qual. 42, 990-1001. https:// doi.org/102134/jeq2012.0464。2021年,Nat. Food, 2, 363-372。https://doi.org/10.1038/s43016-021-0276-y.Babili,P.,Dumont,B.、Benoit,M.,Nesme,T.,2022。 意见论文:牲畜是减少农业生态食品系统饲料-粮食竞争的相互作用杠杆的核心,动物16,100436,https://doi.org/10.1016/j.animal.20211.0036.Berg,W.Brunsch,R.,Pazsiczki,I.,2006年。https://doi.org/10.1016/j.agee.2005.08.031.Chadwick、D.R.、Williams、J.R.、Lu、Y.L.、Ma、L.、Bai、Z.H.、Hou、Y.、Chen、X.P.、Misselbrook、T.H.2020.《中国减少粪肥管理造成的营养污染的战略》,Agric.Sci.Eng.7、45-55.https://doi.org/10.15302/j-fase-2019293. Chen、X.、Lin、J.、Tan、K.、Pei、Y.Wang、X.2023.地方一级的种植和畜牧农场之间的合作减少了农业系统的碳足迹:南中国重新组合玉米库系统案例研究。Agric, Ecosyst. Environ. 348, 108406. https://doi.org/10.1016/j.agee.2023.108406.Clay, N., Garnett, T., Lorimer, J., 2020., Dairy 集约化:驱动因素、影响和替代办法,Ambio 49, 35-48. https://doi.org/10.1007/s13280-019-0177-y. De Boer, I.J.M., Van Ittersum, M. K., 2018, 《农业生产的通报》,Gageningen大学,https://library.wur.nl/WebQuery/wurpubs/fullte xt/470625(2021年7月23日查阅)。De Vries, J.W., Groenestein, C.M., Schr Quoder, J.J., Hoogmoed, W.B., Sukkel, W., Groot Koerkamp, P.W.G., De Boer, I.J.M., 2015a. 《减少环境影响的综合粪肥管理:二. 战略环境影响评估》, Agr. Syst. 138, 88-99。https://doi.org/10.1016/j.agsy.2015.05.006. de Vries, J.W., Hougmoed, W.B., Groenestein, C.M., Schr Áoder, J. J., Sukkel, W., De Boer, I.J.M., Groot Koramp, P., 2015b.2018年粮农组织,《世界粮食和农业动物遗传资源状况 -- -- 牲畜多样性至关重要》,第2版,联合国粮食及农业组织,Foged, H.L., Flotats, X., Blasi, A.B., Palatsi, J., Magri, A., Scrade, K.M., 2011年,欧洲粪肥加工活动清单。Garrett、R.D.、Ryschawy、J.、Bell、L.W.、Cortner、O.、Ferreira、J.、Garik、A.V.N.、Gil、J.D.B.、Klerkx、L.、Moraine、M.、Peterson、C.A.、Dos Reis、J.C.、Valentim、J.F.,2020. 农场和领土范围内作物和牲畜系统的脱钩和重新组合的驱动因素,Ecol.Soc. 25(1)、24、https://doi.org/10.5751/ES-1112-250124.Ghimir、S.、Wang、J.、Fleck、J.R.、2021.用于氮管理的综合作物储存系统:多尺度空间分析。100. https://doi.org/ 10.3390/ani11010100.Groot, J.C.J., Rossing, W.A.H., 2011年。 《自然资源适应性管理示范辅助学习:进化设计视角》,Ecol. Evol. 2, 643-650. https://doi.org/10.1111/11/j.2041-210X.2011.00114.x. Groot, J.C.J., Rossing, W.A.H., Jellema, A., Stobbelaar, D.J., Rentinging, H., Van Ittersum, M.K., 2007年。",
+      "sourceTextHash": "dda129ced8d2a39e67b710ffb6357adf510b94720379116b64807182eec19e75",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 8,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p10-b15-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 10,
+      "chunks": 1,
+      "flags": []
+    },
+    "p11-b0-395cbd4": {
+      "zh": "Agric. Ecosyst. Environ. 120, 58-69. https://doi.org/ 10.1016/j.agee.2006.03.037. Groot, J.C.J., Oomen, G.J.M., Rossing, W.A.H., 2012年。多目标优化和农业系统设计方法,Agr. Syst. 110, 63-77。https://doi.org/10.10.1016/j. agsy.2012.03.012. Hansen, B.G., 2019. CO2 - Emission, 不同粪肥管理做法的成本和能力 -- -- 来自咨询项目的结果: Agr. Syst.173, 325-334. https://doi.org/1016/j.agsy.20190.03.011.Harrison, B.P., Dorigo, M., Reynolds, C.K., Sinclair, L.A., Dijkstra, J., Ray, P.P., 2021. 各种奶制品耕作系统中磷平衡和使用效率的决定因素,Agr. Syst. 194, 103273, https://doi.org/10.1016/j.agsy.2021.103273. Holly, M. A., Larson, R.A., Powell, J.M., Ruark, M. D., Aguirre-Villegas, H., 2017, 2017. 储存和土地使用后消化和分离乳制品肥料产生的温室气体和氨排放量,Agric. Ecosyst. Environ. 239, 410-419. https://doi.org/ 10.1016/j.agee.2017/02007。Hou, Y., Velthof, G.L., Oenema, O., 2015年,《减轻粪肥管理链中的氨、一氧化二氮和甲烷排放:元分析和综合评估》,Glob, Change Biol. 21(3), 1293-112。 https://doi.org/10.1111/11/gcb.12767。 K óninger, J., Lugato, E., Panagos, P., Kochipillai, M., Orgiazzi, A., Briones, M.J.I., 2021, Manure 管理和土壤生物多样性:走向欧盟更可持续的粮食系统,Agr. Syst. 194, 103251。 https://doi.org/10.1016/j.agsy.20103251。Lemaire, G., Franzluebbers, A., Carvalho, P.C.D.F., Dedieu, B., 2014年。综合作物 -- -- 牲畜系统:实现农业生产和环境质量之间协同作用的战略。Agric. Ecosyst. Environ. 190, 4-8。https://doi.org/10.1016/j.agee.2013.08.009. Martin, G., Moraine, M., Ryschawy, J., Mangle, M.-A., Asai, M., Sarthou, J.-P., Duru, M. Therond, O., 2016年。作物 -- -- 牲畜一体化,Agron. Sustain. 36。 53. https://doi.org/10/1007/s13593-016-0390-x。Marton, S.M.R.R., Zimmermann, A., Kreuzer, M., Gaillard, G., G., 2016年。比较混合和专业化奶牛农场的环境表现:系统层面的作用分析。J. Clean.Prod. 124, 73-83。https://doi.org/10.1016/j.jclepro.2016.02074. Moraine, M., Duru, M., Nicholas, P., Leterme, P., Therond, O., 2014年。欧洲创新作物 -- -- -- 牲畜一体化的农业系统设计。动物8,1204-117 https://doi.org/10.1017/S-17173111401189。马斯喀特, A. de Onede, E.M., de Boer, I.J.M., Ripol-Bosch, R., 2020年。生物量斗争:系统地审查粮食食用燃料竞争。Glob. Food Sec. 25, 100330.https://doi.org/10.1016/j.gfs.2019.100330.Oenema, O., Tamminga, S., 2005, 全球动物生产和管理办法中的氮含量提高氮使用效率,Sci. China. Ser. C. 48, 871-887. https://doi.org/10.1360/062005-279. Oenema, O., Oendendag, D., Velthof, G.L., 2007, 欧洲联盟粪肥管理造成的营养损失。 Sci. 112, 261-272. https://doi.org/ 10.1016/j.livesci.2007.09.007。",
+      "sourceTextHash": "1ae5ac044ecd9224a59e18cca94902d3fe1f7da0b66ac7e68ef067d23237b194",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 6,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p11-b1-e0272ea": {
+      "zh": "Peyraud, J.-L., Taboada, M., Delaby, L., 2014年,《西欧和南美洲综合作物和畜牧系统:评论》,Eur. J. Agronn. 57, 31-42. https://doi.org/10.1016/j.eja.2014.02.005. Puech, T., Stark, F., 2023. 综合作物 -- -- 牲畜系统的多样化:农场规模的农业生态学和粮食生产评估,Agric. Ecosyst. Environ. 344, 108300. https://doi.org/10.1016/j.agee.2022.108300. Quu,Q.,Zhang, K. Groot, J.C., 2023. 确定减少复杂管理链排放的切入点的模式。137787. https://doi.org/ 10.1016/j.jclepro.2023.13777. Ros, M.B.H., Godber, O.F., Olivo, A.J., Reed, K.F., Ketashings, Q.M., 2023. 从奶牛上的农场-大门质量平衡得出的关键氮和磷化物业绩指标。J. Dairy Sci. 106(5), 3268-3286. https://doi.org/103168/jds.2022-22297. Rotz, C.A., Oenemema, J., Van Keulen, H., 2006年, van Keulen, H., 一个模拟研究。 Appl. Eng. Agric. Agric. 22, 773-784。Rufino, M.C., Tittonell, P., van Wijk, M.T., Castellanos-Navarrete, A., Delve, R.J., de Ridder, N., Giller, K. E., 2007年。 作为小农耕作系统的关键资源:分析农耕规模营养循环效率与NUSCS框架的关系;Livest. Sci. 112, 273-287。 https://doi.org/10.1016/j.livsci.2007.09.011.Ryschawy, J., Choisis, N., Choisis, J.P., Joannon, A., Gibon, A., 2012年。 混合作物牲畜系统:一种经济和环境友好的耕作方式?动物6,1722-1730。https://doi.org/10.1017/S17517311212000675.Sajeev、E.P.M.、W.、Amon、B.,2018年;液体粪肥管理链不同阶段的温室气体和氨排放量:减排选项和排放互动。J. Environ. Qual. 47、30-41。https://doi.org/102134/jeq2017.05.0199. Schut、A.G.T.、Couckedge、E.C.、Moraine、M.、Van de Ven、G.W.J.、J. Jones、D.L.、Chadwick、D.R. 2021. 欧洲作物-牲畜系统整合:概览。Eng.8, 111-129. https://doi.org/10.15302/JFASE-2020373. Sefeedpari, P., Vellinga, T., Rafiee, S., Sharifi, M., Shine, P., Pishgar-Kommleh, S.H., 2019. 对粪肥管理链的技术、环境和成本效益评估:大规模奶制品种植案例研究。 J. Clean, prod.233, 857-8688. https://doi. org.1016/jclepro.209.06.146. Shah, G.A., Groot, J.C., Shah, G.M., Lantinga, E.A., 2013., 草地奶养殖系统长期碳和氮动力模拟,以评价营养素损失的减轻战略。PloS One 8, e67279. https://doi.org/ 10.1371/journal.pone.0067279. Sommer, S.G., Hutchings, N.J., 2001, 2001。 来自实地施肥的氨排放及其减少 -- 受邀论文: Eur. J. Agron. 15, 1-15. https://doi.org/10.1016/ S1161-0301(01/0101)00112-5. Sommer, S. G., Christensen, M.L., Schmidt, T., Jensen, L. S., 2013, 《动物粪肥处理和管理》, John Wiley & Sons. Spears, R.A., Young, A. J., Kohn, R.A., 2003。Zou、T.、Meng、F.、Zhou、J.、Ying、H.、Liu、X.、Hou、Y.、Zhao、Z.、Zhang、F.、Xu、W.、2023. 量化中国埃海湖流域作物和牲畜生产和缓解潜力造成的氮和磷损失,Agric. Syst.211、103745,https://doi.org/10.1016/j.agsy.2023.103745。",
+      "sourceTextHash": "0b23cef29adb840fbb5e0c9ab08d6607ca2141ff2f945399fdbee2fa0aff5f04",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 7,
+      "flags": [
+        "numbers-check"
+      ]
+    },
+    "p11-b2-22c6dab": {
+      "zh": "Q. Qu等人,农业系统 222 (2025) 104170",
+      "sourceTextHash": "7d9f2049c8c15ef914424c3ce6cc8db09e5fb413aaa1f6f9578b396a9fdd6d3d",
+      "status": "machine-draft",
+      "page": 11,
+      "chunks": 1,
+      "flags": []
+    }
+  },
+  "coverage": {
+    "translatedTextBlocks": 149,
+    "totalTextBlocks": 169,
+    "untranslatedTextBlocks": 0,
+    "symbolsRetainedBlocks": 20,
+    "manuallyReviewedBlocks": 0,
+    "machineDraftBlocks": 149,
+    "allNumericClaimsManuallyVerified": false
+  }
+}
