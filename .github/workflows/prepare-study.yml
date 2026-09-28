@@ -1,0 +1,77 @@
+name: Prepare and test bilingual study reader
+on:
+  push:
+    branches: [study-bilingual-framework-v3]
+    paths: [.github/workflows/prepare-study.yml, scripts/study-build-trigger.txt]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: paper-study-preparation
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: study-bilingual-framework-v3
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare source-faithful equation layout and integrate study layer
+        run: |
+          pip install PyMuPDF==1.26.4 playwright==1.55.0
+          python scripts/prepare_math_layouts.py
+          python scripts/install_study_v3.py
+          python scripts/prepare_study_tests.py
+          node --check src/study.js
+          node --check src/translation-worker.js
+          node --check src/reader.js
+          node --check src/app.js
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python examples/pareto_lab.py --test
+          python -m playwright install --with-deps chromium > /tmp/browser-install.log 2>&1
+      - name: Existing tutorial acceptance tests
+        run: python scripts/test_browser.py > /tmp/tutorial-tests.log 2>&1 || { tail -100 /tmp/tutorial-tests.log; exit 1; }
+      - name: Existing original and annotation acceptance tests
+        run: python scripts/test_reader.py
+      - name: Real offline translation, framework, terminology and math acceptance
+        run: python scripts/test_study.py
+      - name: Commit only tested source and source-equation overlays
+        run: |
+          git config user.name paper-study-builder
+          git config user.email paper-study-builder@users.noreply.github.com
+          git add src scripts/build_reader.py scripts/package_reader.py scripts/test_browser.py scripts/test_reader.py content/navigation.json content/session-log.json resources/study-layouts.json resources/study-layout-audit.json resources/library AGENTS.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Integrate tested bilingual study reader and source-faithful math overlays"
+            git pull --rebase origin study-bilingual-framework-v3
+            git push origin HEAD:study-bilingual-framework-v3
+          fi
+      - name: Collect public test evidence
+        if: always()
+        run: |
+          mkdir -p test-results
+          cp dist/site/release.json test-results/study-release.json 2>/dev/null || true
+          cp resources/study-layout-audit.json test-results/ 2>/dev/null || true
+          git rev-parse HEAD > test-results/study-source-commit.txt
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          result={}
+          for name in ['report.json','reader-report.json','study-report.json','study-release.json','study-layout-audit.json']:
+              p=Path('test-results')/name
+              if p.exists():result[name]=json.loads(p.read_text())
+          print('STUDY_EVIDENCE='+json.dumps(result,ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: study-v3-acceptance
+          path: test-results
+          retention-days: 30
