@@ -1,0 +1,59 @@
+name: Prepare public bilingual reading assets
+on:
+  push:
+    branches: [reader-study-v3]
+    paths: [.github/workflows/prepare-bilingual.yml, scripts/translation-trigger.txt]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: paper-bilingual-generation
+  cancel-in-progress: false
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: reader-study-v3
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned CPU-only translation tools
+        run: |
+          pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers==4.55.4 ctranslate2==4.6.0 sentencepiece==0.2.1 sacremoses==0.1.1
+      - name: Translate public-adaptation sources without truncation
+        env:
+          HF_HUB_DISABLE_XET: '1'
+          TOKENIZERS_PARALLELISM: 'false'
+          OMP_NUM_THREADS: '4'
+        run: python scripts/translate_originals.py --mode public --threads 4
+      - name: Check license boundaries and non-empty translations
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          for p in Path('resources/translations').rglob('*.zh.json'):
+            t=json.loads(p.read_text());assert '-nd' not in t['license']['url'];assert t['visibility']=='public-adaptation'
+            assert t['coverage']['untranslatedTextBlocks']==0
+            assert all(b['zh'].strip() for b in t['blocks'].values())
+          PY
+      - name: Commit only translations, retaining concurrent source changes
+        run: |
+          git config user.name paper-study-builder
+          git config user.email paper-study-builder@users.noreply.github.com
+          git add resources/translations
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add hash-bound offline Chinese machine drafts for permitted original articles'
+            git pull --rebase origin reader-study-v3
+            git push origin HEAD:reader-study-v3
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-bilingual-coverage
+          path: resources/translations/translation-report.json
+          retention-days: 30
