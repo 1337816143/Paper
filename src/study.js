@@ -1,0 +1,105 @@
+/* Study layer v3. No secrets, external inference, tracking, or public note writes. */
+(()=>{'use strict';
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)],E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const data=window.PAPER_STUDY||{terms:[],frameworks:{}},layouts=window.PAPER_LAYOUTS||{},termsById=new Map(data.terms.map(t=>[t.id,t]));
+let current=null,run=0,observer=null,worker=null,seq=0,busy=false,queue=[],bulk=false,dbp,selectedTerm=null;
+const pending=new Map(),queued=new Set();let cfg={zh:false};
+try{Object.assign(cfg,JSON.parse(localStorage.getItem('paper-study-v3')||'{}'));}catch{}
+const persist=()=>{try{localStorage.setItem('paper-study-v3',JSON.stringify(cfg));}catch{}};
+function db(){return dbp||(dbp=new Promise((ok,no)=>{const q=indexedDB.open('paper-translations-v3',1);q.onupgradeneeded=()=>q.result.createObjectStore('translations',{keyPath:'id'});q.onsuccess=()=>ok(q.result);q.onerror=()=>no(q.error);}));}
+async function io(method,value){const d=await db();return new Promise((ok,no)=>{const t=d.transaction('translations',['get','getAll'].includes(method)?'readonly':'readwrite'),q=t.objectStore('translations')[method](value);let result;q.onsuccess=()=>result=q.result;t.oncomplete=()=>ok(result);t.onabort=t.onerror=()=>no(t.error||Error('本机存储失败'));});}
+const normalized=s=>String(s||'').normalize('NFKC').replace(/\u00ad\s*/g,'').replace(/([a-z])-[ \t]*\n\s*([a-z])/g,'$1$2').replace(/\s+/g,' ').trim();
+const safePath=s=>typeof s==='string'&&!/^(?:https?:|data:|javascript:|\/)/i.test(s)&&!s.split('/').includes('..')?s:'';
+const hashRoute=()=>decodeURIComponent(location.hash.replace(/^#\/?/,''));
+function alertStatus(text){const node=$('#translation-status');if(node)node.textContent=text;}
+function saveDownload(name,text){const u=URL.createObjectURL(new Blob([text],{type:'application/json;charset=utf-8'})),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),60000);}
+
+/* Exact text-preserving term decoration: no replacement of source strings or offsets. */
+const aliases=[];for(const t of data.terms)for(const a of t.aliases||[])aliases.push([a,t.id]);aliases.sort((a,b)=>b[0].length-a[0].length);
+const byAlias=new Map(aliases.map(([a,id])=>[a.toLowerCase(),id]));
+const escRE=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const termRE=aliases.length?new RegExp(aliases.map(([a])=>escRE(a)).join('|'),'giu'):null;
+function matchTerms(text){if(!termRE)return [];termRE.lastIndex=0;const found=[];let m;while((m=termRE.exec(text))){const a=m[0],i=m.index;if(/[A-Za-z]/.test(a[0])&&i>0&&/[A-Za-z0-9_]/.test(text[i-1]))continue;if(/[A-Za-z]/.test(a.at(-1))&&/[A-Za-z0-9_]/.test(text[i+a.length]||''))continue;if(a.length<=5&&/^[a-z]+$/i.test(a)&&a!==a.toUpperCase()&&!['Ward'].includes(a))continue;found.push({start:i,end:i+a.length,id:byAlias.get(a.toLowerCase()),text:a});}return found;}
+function decorate(root){if(!root||!termRE)return;
+  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>{
+    const p=n.parentElement;if(!p||!n.textContent.trim()||p.closest('.term-word,script,style,textarea,input,select,button,pre,code,math,.translation-controls,.term-popover,.source-note,.source-fidelity,.page-proof,.formula-raw,[data-no-terms]'))return NodeFilter.FILTER_REJECT;
+    if(p.closest('a'))return NodeFilter.FILTER_REJECT;
+    return NodeFilter.FILTER_ACCEPT;
+  }});const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+  for(const n of nodes){const ms=matchTerms(n.textContent);if(!ms.length)continue;const fragment=document.createDocumentFragment();let at=0;for(const m of ms){fragment.append(document.createTextNode(n.textContent.slice(at,m.start)));const span=document.createElement('span');span.className='term-word';span.dataset.studyTerm=m.id;span.tabIndex=0;span.setAttribute('role','button');span.setAttribute('aria-label',m.text+'：术语解释');span.textContent=m.text;fragment.append(span);at=m.end;}fragment.append(document.createTextNode(n.textContent.slice(at)));n.replaceWith(fragment);}
+  // Existing concept links keep their destination, now with a quick explanation first.
+  for(const a of $$('a[href^="#/"]',root)){const id=byAlias.get(a.textContent.trim().toLowerCase());if(id&&!a.closest('.source-links,.toc,.mobiletoc,.study-flow,.term-popover')){a.dataset.studyTerm=id;a.classList.add('term-link');}}
+}
+function hideTerm(){if(selectedTerm?.isConnected)selectedTerm.setAttribute('aria-expanded','false');$('#study-term-popover')?.remove();selectedTerm=null;}
+function showTerm(el){const t=termsById.get(el.dataset.studyTerm);if(!t)return;if(selectedTerm===el){hideTerm();return;}hideTerm();selectedTerm=el;el.setAttribute('aria-expanded','true');
+ const box=document.createElement('aside');box.id='study-term-popover';box.className='term-popover';box.setAttribute('role','dialog');box.setAttribute('aria-label',t.zh+'：术语解释');box.innerHTML=`<button class="term-close" aria-label="关闭术语解释">×</button><small>术语 · 本站教学释义</small><h3>${E(t.zh)}</h3><div class="term-en">${E(t.en)}</div><p>${E(t.definition)}</p>${t.boundary?`<p class="term-boundary">注意：${E(t.boundary)}</p>`:''}<div class="term-sources">${(t.sources||[]).map(id=>`<a href="#/${E(id)}">${E(window.PAPER_DATA.documents.find(d=>d.id===id)?.title||id)} ↗</a>`).join('')}</div>`;document.body.append(box);$('.term-close',box).onclick=hideTerm;
+ const rect=el.getBoundingClientRect(),w=Math.min(innerWidth-24,350);box.style.width=w+'px';const height=box.getBoundingClientRect().height;box.style.left=Math.max(12,Math.min(rect.left,innerWidth-w-12))+'px';box.style.top=Math.max(12,Math.min(rect.bottom+8,innerHeight-height-12))+'px';
+}
+document.addEventListener('pointerdown',e=>{if(!e.target.closest('.term-popover,[data-study-term]'))hideTerm();},true);
+document.addEventListener('click',e=>{const el=e.target.closest('[data-study-term]');if(!el||el.closest('mark[data-annotation]'))return;if(getSelection()?.toString().trim())return;e.preventDefault();e.stopImmediatePropagation();showTerm(el);},true);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){hideTerm();return;}const el=e.target.closest('[data-study-term]');if(el&&['Enter',' '].includes(e.key)){e.preventDefault();showTerm(el);}});
+addEventListener('resize',hideTerm);addEventListener('scroll',hideTerm,{passive:true});
+
+/* Frameworks retain every existing detail section, anchor and annotation ID. */
+function mountLesson(id){const root=$('#view .reader');if(!root)return;const frame=data.frameworks[id];
+ if(frame&&!root.dataset.framework){root.dataset.framework='v3';
+  const overview=document.createElement('section');overview.className='paper-framework';overview.id='paper-framework';
+  overview.innerHTML=`<span class="eyebrow">先读完整框架 · 再进入方法</span><h2>这篇论文到底在解决什么？</h2><p class="framework-question" id="frame-${E(id)}-question" data-block="frame-${E(id)}-question">${E(frame.question)}</p><p class="framework-narrative" id="frame-${E(id)}-narrative" data-block="frame-${E(id)}-narrative">${E(frame.narrative)}</p>${frame.object?`<p><b>研究对象：</b>${E(frame.object)}</p>`:''}${frame.result?`<p><b>最终产出：</b>${E(frame.result)}</p>`:''}<nav class="study-flow" aria-label="本篇论证链">${frame.phases.map((p,i)=>`<a href="#/${E(id)}/study-stage-${i}"><small>0${i+1}</small><strong>${E(p.title)}</strong><span>${E(p.output)}</span></a>`).join('')}</nav><p class="framework-source">此框架按已核读材料组织，不冒充原文目录。下面保留原有方法细节与出处。</p>`;
+  const first=$('section[id^="s"]',root);if(first)root.insertBefore(overview,first);else root.append(overview);
+  const oldSections=new Map($$('section[id^="s"]',root).map(s=>[s.id,s]));const assigned=new Set();let last=overview;
+  frame.phases.forEach((phase,i)=>{const group=document.createElement('section');group.className='story-phase';group.id='study-stage-'+i;group.innerHTML=`<div class="phase-number">STEP 0${i+1}</div><h2>${E(phase.title)}</h2><p class="phase-bridge" id="frame-${E(id)}-step-${i}" data-block="frame-${E(id)}-step-${i}">${E(phase.bridge)}</p>`;last.after(group);last=group;
+   for(const ix of phase.sections){const s=oldSections.get('s'+ix);if(!s||assigned.has(ix))continue;assigned.add(ix);s.classList.add('study-detail');const h=$('h2',s);if(h){const h3=document.createElement('h3');h3.innerHTML=h.innerHTML.replace(/^\d+\.\s*/,'');h.replaceWith(h3);}group.append(s);}
+   const end=document.createElement('p');end.className='phase-output';end.textContent='这一阶段得到：'+phase.output;group.append(end);
+  });
+  if(frame.next){const n=document.createElement('p');n.className='framework-next';n.textContent=frame.next;last.after(n);}
+  const toc=`<a href="#/${E(id)}/paper-framework">整篇研究框架</a>`+frame.phases.map((p,i)=>`<a href="#/${E(id)}/study-stage-${i}">0${i+1} ${E(p.title)}</a>`).join('');
+  const side=$('.toc');if(side)side.innerHTML='<strong>本篇论证链</strong>'+toc+`<a href="#/${E(id)}/self-test">自测与笔记</a><a href="#/research-framework">← 完整研究框架</a>`;
+  const mobile=$('.mobiletoc',root);if(mobile)mobile.innerHTML='<summary>本篇框架与目录</summary>'+toc;
+ }
+ if(id==='research-framework'&&!root.dataset.journey){root.dataset.journey='v3';const map=document.createElement('nav');map.className='journey-map';map.setAttribute('aria-label','农业系统研究完整链');map.innerHTML=(data.journey?.stages||[]).map((s,i)=>`<a href="#/research-framework/s${i+1}"><small>阶段 ${i+1}</small><strong>${E(s.title)}</strong><span>${E(s.question)}</span></a>`).join('');$('.articlehead',root)?.after(map);}
+ decorate(root);
+}
+
+/* The English source stays byte-for-byte unchanged in the archive. Layout is an overlay. */
+function mountEquations(b){const layout=layouts[b.id];if(!layout||layout.sourceHash!==b.sourceHash)return;
+ for(const g of layout.groups||[]){const first=document.getElementById(g.blocks[0]);if(!first||!first.closest('#original-text')||document.getElementById('equation-'+g.id))continue;
+  const box=document.createElement('figure');box.className='study-equation';box.id='equation-'+g.id;box.innerHTML=`<div class="equation-display">${g.mathml||`<img src="${E(safePath(g.path))}" alt="原文第${g.page}页公式${E(g.number||'')}，保持原符号">`}<span class="equation-number">${g.number?'('+E(g.number)+')':''}</span></div><figcaption>原文第${g.page}页 · ${g.mathml?'公式结构重排，符号按原文':'原式保真排版，不猜测符号'} <button type="button" class="formula-note">公式便签</button></figcaption><details class="formula-raw"><summary>核对原式与原始提取文字</summary><img src="${E(safePath(g.path))}" alt="原式核对图"></details>`;first.before(box);const raw=$('.formula-raw',box);for(const blockId of g.blocks){const el=document.getElementById(blockId);if(el){el.dataset.formulaPart='true';raw.append(el);}}
+  $('.formula-note',box).onclick=()=>window.PaperReader.editNote(null,{docId:b.id,docTitle:b.title,sourceHash:b.sourceHash,block:box.id,quote:'原文第'+g.page+'页公式 '+(g.number||''),type:'note'});
+ }
+}
+function anchor(){const v=$('#original-viewport');if(!v)return null;const vr=v.getBoundingClientRect();for(const el of $$('[data-block]',v)){if(el.closest('details:not([open])'))continue;const r=el.getBoundingClientRect();if(r.bottom>Math.max(vr.top,100)&&r.top<Math.min(innerHeight,vr.bottom)&&r.right>vr.left+20&&r.left<vr.right-20)return {id:el.id,top:r.top};}return null;}
+function restoreAnchor(a){window.PaperReader?.layoutChanged?.();if(a){window.PaperReader?.jumpTo?.(a.id);if(!$('#original-viewport')?.classList.contains('paged')){const e=document.getElementById(a.id);if(e)scrollBy(0,e.getBoundingClientRect().top-a.top);}}}
+function key(b,block){return b.id+'|'+b.sourceHash+'|'+block.id;}
+function sourceOnly(block){const s=normalized(block.text);if(!s)return '原文为空';if(!/[A-Za-z]{3}/.test(s))return '公式、数值与符号按原文保留';if(/^https?:\/\/\S+$/.test(s)||/^\d+$/.test(s))return '标识与数值按原样保留';return null;}
+function fillSlot(slot,entry){const b=slot._block;slot.dataset.status='ready';slot.innerHTML=`<div class="translation-meta"><span>${entry.reviewed?'本机校订译文':'中文对照 · 机器译文，未校订'}</span><button class="translation-edit" type="button">校订</button></div><p class="translated-text" lang="zh-CN" id="${E(b.id)}--zh" data-block="${E(b.id)}--zh">${E(entry.text)}</p>`;$('.translation-edit',slot).onclick=()=>editTranslation(slot,entry);decorate($('.translated-text',slot));}
+async function editTranslation(slot,entry){$('#translation-editor')?.remove();const dialog=document.createElement('dialog');dialog.id='translation-editor';dialog.innerHTML=`<form><h2>校订本段中文</h2><p>仅保存本机。英文原文和原有批注不改变；请保留数字、方向和证据语气。</p><textarea rows="9" aria-label="本段中文译文">${E(entry.text)}</textarea><div class="actions"><button type="submit" class="primary">保存校订</button><button type="button" class="cancel-translation">取消</button></div></form>`;document.body.append(dialog);dialog.showModal();$('.cancel-translation',dialog).onclick=()=>dialog.remove();$('form',dialog).onsubmit=async e=>{e.preventDefault();const value=$('textarea',dialog).value.trim();if(!value)return;try{const saved={...entry,text:value,reviewed:true,updatedAt:new Date().toISOString()};await io('put',saved);fillSlot(slot,saved);dialog.remove();await window.PaperReader?.paintMarks?.();}catch(error){alertStatus('校订保存失败：'+error.message);}};}
+function getWorker(){if(worker)return worker;if(location.protocol==='file:')throw Error('本地单文件不含翻译引擎。请使用完整离线站或导入译文。');worker=new Worker(new URL('translation-worker.js',document.baseURI),{type:'module'});
+ worker.onmessage=e=>{const m=e.data;if(m.type==='loading'){alertStatus('正在加载本机翻译引擎；完成后可离线使用。');return;}if(m.type==='paragraph-progress'){alertStatus(`本段翻译 ${m.done}/${m.total} 句；全文不会被截断。`);return;}const q=pending.get(m.id);if(!q)return;pending.delete(m.id);clearTimeout(q.timeout);if(m.type==='result')q.ok(m);else q.no(Error(m.message||'翻译失败'));};
+ worker.onerror=e=>{const reason=Error(e.message||'设备无法启动本机翻译引擎');for(const q of pending.values()){clearTimeout(q.timeout);q.no(reason);}pending.clear();worker?.terminate();worker=null;};return worker;
+}
+function translate(text){return new Promise((ok,no)=>{try{const w=getWorker(),id=++seq;const timeout=setTimeout(()=>{pending.delete(id);no(Error('本段翻译超时；保留原文，可稍后重试。'));},180000);pending.set(id,{ok,no,timeout});w.postMessage({id,text});}catch(e){no(e);}});}
+function enqueue(slot,front=false){if(!current||slot.dataset.status==='ready'||slot.dataset.status==='source-only'||queued.has(slot.id))return;queued.add(slot.id);front?queue.unshift(slot):queue.push(slot);pump();}
+async function pump(){if(busy||!cfg.zh||!current)return;busy=true;const ticket=run;
+ try{while(queue.length&&cfg.zh&&current&&ticket===run){const slot=queue.shift();queued.delete(slot.id);if(!slot.isConnected||slot.dataset.status==='ready')continue;const b=current,block=slot._block;slot.dataset.status='working';$('.translation-placeholder',slot).textContent='正在本机翻译…';
+   try{const result=await translate(block.text),entry={id:key(b,block),docId:b.id,sourceHash:b.sourceHash,block:block.id,original:block.text,text:result.text,engine:result.engine,reviewed:false,updatedAt:new Date().toISOString()};await io('put',entry);if(slot.isConnected&&ticket===run){const a=anchor();fillSlot(slot,entry);restoreAnchor(a);await window.PaperReader?.paintMarks?.();}}
+   catch(e){if(slot.isConnected){slot.dataset.status='error';slot.innerHTML=`<p class="translation-placeholder">译文尚未生成：${E(e.message)}</p><button class="translation-retry">重试此段</button>`;$('.translation-retry',slot).onclick=()=>{slot.innerHTML='<p class="translation-placeholder">等待重试</p>';enqueue(slot,true);};}alertStatus('翻译未完成。英文、笔记均保留；可重试或导入本机译文。');queue=[];queued.clear();bulk=false;break;}
+   progress();await new Promise(r=>setTimeout(r,30));
+ }}finally{busy=false;progress();if(queue.length&&cfg.zh&&current)pump();}
+}
+function progress(){if(!current)return;const slots=$$('.translation-slot'),ready=slots.filter(x=>['ready','source-only'].includes(x.dataset.status)).length;const counter=$('#translation-count');if(counter)counter.textContent=`${ready}/${slots.length} 段已有对照或原式保留`;if(bulk&&!queue.length&&!busy){bulk=false;alertStatus('本篇处理结束；机器译文仍需核对专业含义、数字与否定语气。');}}
+function observe(){observer?.disconnect();if(!cfg.zh||!current)return;const viewport=$('#original-viewport');observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting)enqueue(e.target);},{root:viewport?.classList.contains('paged')?viewport:null,rootMargin:'160px',threshold:0});for(const s of $$('.translation-slot'))if(!s.closest('.formula-raw'))observer.observe(s);}
+function toggle(value){const a=anchor();cfg.zh=value;persist();document.body.classList.toggle('show-chinese',value);const b=$('#toggle-chinese');if(b){b.textContent=value?'中英\n开':'中文\n关';b.setAttribute('aria-pressed',String(value));b.setAttribute('aria-label',value?'关闭逐段中文翻译':'开启逐段中文翻译');}if(!value){observer?.disconnect();queue=[];queued.clear();bulk=false;}else observe();requestAnimationFrame(()=>restoreAnchor(a));}
+async function mountOriginal(b){leave();current=b;const ticket=run;const root=$('#original-text');if(!root)return;root.dataset.studyDocument=b.id;document.body.classList.add('study-original');mountEquations(b);
+ let saved=[];try{saved=await io('getAll');}catch(e){alertStatus('本机存储暂不可用：'+e.message);}if(ticket!==run||!root.isConnected)return;const cache=new Map(saved.map(x=>[x.id,x]));
+ for(const p of b.pages)for(const block of p.blocks){if(!block.text)continue;const el=document.getElementById(block.id);if(!el||el.closest('.formula-raw'))continue;const slot=document.createElement('div');slot.className='translation-slot';slot.id=block.id+'--translation';slot._block=block;slot.dataset.status='pending';el.after(slot);const only=sourceOnly(block),entry=cache.get(key(b,block));if(only){slot.dataset.status='source-only';slot.innerHTML=`<p class="translation-placeholder">${E(only)}</p>`;}else if(entry?.original===block.text)fillSlot(slot,entry);else{slot.innerHTML='<p class="translation-placeholder">中文对照待生成 · 开启后优先翻译正在阅读的段落。</p>';}}
+ const controls=document.createElement('details');controls.className='translation-controls';controls.innerHTML=`<summary>中文对照与本机离线翻译 <span id="translation-count"></span></summary><p>右侧开关显示或隐藏逐段中文。译文由本机模型生成，不发送论文或笔记给第三方；机器译文并非人工精校。完整缓存包含翻译引擎，首次加载较大。禁止公开改编许可的论文仅在你的设备生成译文。</p><div class="actions"><button id="translate-all">生成本篇全部中文</button><button id="translation-pause">暂停生成</button><button id="export-translations">导出本篇译文</button><button id="import-translations">导入译文备份</button></div><p id="translation-status" role="status">可先阅读英文；首次启用会加载本机模型。退出页面会停止安排新的翻译。</p>`;
+ $('.reader-toolbar')?.after(controls);const button=document.createElement('button');button.id='toggle-chinese';button.className='chinese-rail';button.onclick=()=>toggle(!cfg.zh);document.body.append(button);
+ $('#translate-all').onclick=()=>{if(!cfg.zh)toggle(true);bulk=true;for(const s of $$('.translation-slot'))enqueue(s);alertStatus('正在逐段生成整篇中文，完成的段落会保存本机；可随时暂停。');};$('#translation-pause').onclick=()=>{queue=[];queued.clear();bulk=false;observer?.disconnect();alertStatus('已暂停；正在处理的一段完成后保存。中文开关仍可显示已生成译文。');};
+ $('#export-translations').onclick=async()=>{const entries=(await io('getAll')).filter(x=>x.docId===b.id&&x.sourceHash===b.sourceHash);saveDownload(b.id+'-Chinese-local.json',JSON.stringify({schema:'paper.local.translations.v3',docId:b.id,sourceHash:b.sourceHash,entries},null,2));};$('#import-translations').onclick=()=>importTranslations(b);
+ $('#reader-mode')?.addEventListener('click',()=>setTimeout(observe,80));decorate(root);toggle(cfg.zh);progress();
+}
+function importTranslations(b){const file=document.createElement('input');file.type='file';file.accept='.json';file.onchange=async()=>{try{const f=file.files[0];if(!f)return;if(f.size>30e6)throw Error('文件超过30MB');const pack=JSON.parse(await f.text());if(pack.schema!=='paper.local.translations.v3'||pack.docId!==b.id||pack.sourceHash!==b.sourceHash||!Array.isArray(pack.entries)||pack.entries.length>50000)throw Error('译文不属于这份原文版本');const source=new Map(b.pages.flatMap(p=>p.blocks).filter(x=>x.text).map(x=>[x.id,x]));for(const entry of pack.entries){const block=source.get(entry.block);if(!block||entry.original!==block.text||typeof entry.text!=='string'||entry.text.length>120000)throw Error('译文段落或原文不匹配');}
+ for(const entry of pack.entries){const block=source.get(entry.block),value={...entry,id:key(b,block),docId:b.id,sourceHash:b.sourceHash};await io('put',value);const slot=document.getElementById(block.id+'--translation');if(slot)fillSlot(slot,value);}progress();await window.PaperReader?.paintMarks?.();alertStatus('译文已导入本机；未上传公开仓库。');}catch(e){alertStatus('未导入：'+e.message);}};file.click();}
+function leave(){run++;current=null;observer?.disconnect();observer=null;queue=[];queued.clear();bulk=false;hideTerm();$('#toggle-chinese')?.remove();$('#translation-editor')?.remove();document.body.classList.remove('show-chinese','study-original');}
+window.PaperStudy={mountLesson,mountOriginal,terms:decorate,leave,matchTerms,translateLocal:translate,getTranslationEntries:()=>io('getAll'),version:data.version};
+})();
