@@ -1,0 +1,72 @@
+name: Verify final workspace reading details
+on:
+  push:
+    branches: [workspace-v4-lastmile]
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply narrowly reviewed final rendering fixes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          def patch(name,old,new):
+              p=Path(name);s=p.read_text()
+              if new in s:return
+              assert old in s,(name,old[:80])
+              p.write_text(s.replace(old,new,1))
+          patch('src/workspace.js',"$('.phase-bridge',s)?.after(box);});}","$('.phase-bridge',s)?.after(box);});window.PaperStudy?.terms(root);}")
+          patch('src/workspace.js',"async function workbook(id){const ticket=", "async function workbook(id){if(!id)return myLibrary();const ticket=")
+          patch('src/reader.js','await window.PaperStudy?.mountOriginal(b);await window.PaperWorkspace?.enhanceOriginal(b);await paint();','await window.PaperStudy?.mountOriginal(b);if(ticket!==epoch)return;await window.PaperWorkspace?.enhanceOriginal(b);if(ticket!==epoch)return;await paint();')
+          p=Path('scripts/test_workspace_hardening.py');s=p.read_text();marker='  assert not errors,errors'
+          addition='''  page.goto(BASE+'#/liang-2022');page.wait_for_selector('.connected-walkthrough [data-study-term="midip"]')
+            source_text=page.evaluate("PAPER_STUDY.frameworks['liang-2022'].walkthrough.paragraphs")
+            visible_text=page.locator('.connected-walkthrough > p').all_text_contents();assert visible_text==source_text
+            page.locator('.connected-walkthrough [data-study-term="midip"]').first.click();page.wait_for_selector('.term-example');assert '0.5' in page.locator('.term-example').inner_text();page.keyboard.press('Escape')
+            checks.append('New connected walkthroughs expose the same beginner glossary without changing their source text')
+            page.goto(BASE+'#/workbook');page.wait_for_selector('#my-reference-list');checks.append('Generic workbook entry leads to the paper selector rather than an empty document')
+          '''
+          addition='\n'.join(line[2:] if line.startswith('    ') else line for line in addition.splitlines())
+          if 'New connected walkthroughs expose' not in s:
+              assert marker in s
+              p.write_text(s.replace(marker,addition+'\n'+marker,1))
+          PY
+          node --check src/workspace.js
+          node --check src/reader.js
+          python -m py_compile scripts/test_workspace_hardening.py
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python examples/pareto_lab.py --test
+          pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium > /tmp/browser-install.log 2>&1
+      - name: Verify all existing and workspace tests
+        run: |
+          python scripts/test_browser.py > /tmp/tutorial.log 2>&1 || { tail -80 /tmp/tutorial.log; exit 1; }
+          python scripts/test_reader.py
+          python scripts/test_study.py
+          python scripts/test_workspace.py
+          python scripts/test_workspace_hardening.py
+      - name: Commit only tested rendering fixes
+        run: |
+          git config user.name paper-workspace-builder
+          git config user.email paper-workspace-builder@users.noreply.github.com
+          git add src/workspace.js src/reader.js scripts/test_workspace_hardening.py
+          if ! git diff --cached --quiet; then
+            git commit -m "Complete glossary coverage in connected lessons and preserve route identity"
+            git push origin HEAD:workspace-v4-lastmile
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: workspace-lastmile-acceptance
+          path: test-results
+          retention-days: 30
