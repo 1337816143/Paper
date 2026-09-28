@@ -7,7 +7,8 @@
     "model": "Helsinki-NLP/opus-mt-en-zh",
     "revision": "c8ce7d3af8eb15938be419f1c4c177dc724ab8ec",
     "runtime": "CTranslate2 int8 CPU",
-    "review": "machine-draft-with-explicit-curated-overrides"
+    "segmentation": "sentence-v2",
+    "review": "machine-draft-unless-explicitly-reviewed"
   },
   "license": {
     "name": "CC BY-NC 4.0",
@@ -87,7 +88,13 @@
       "sourceTextHash": "103d34e0dc9f78cdcde90433880b903243e3a1539a92959e2b4d9127bc956af9",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "103d34e0dc9f78cdcde90433880b903243e3a1539a92959e2b4d9127bc956af9",
+          "zh": "53号简讯数据(2024年)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": [
         "numbers-check"
       ]
@@ -97,7 +104,13 @@
       "sourceTextHash": "b0658ce9dccc0acba9a472c2bb992cc9ba72c28f2ffb7146782e56fa3025b55b",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "b0658ce9dccc0acba9a472c2bb992cc9ba72c28f2ffb7146782e56fa3025b55b",
+          "zh": "在 ScienceDirect 上可用的内容列表"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p1-b3-f2fe9c3": {
@@ -105,7 +118,13 @@
       "sourceTextHash": "f2fe9c33b7e8535efebf7c20ebce297c7f5416c3b37bd98d64a22d3d3270be30",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f2fe9c33b7e8535efebf7c20ebce297c7f5416c3b37bd98d64a22d3d3270be30",
+          "zh": "简简数据"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p1-b4-0ca3f07": {
@@ -113,7 +132,13 @@
       "sourceTextHash": "0ca3f075fdccf9232449ff461b63ceb985c1fbcf20bbe23abeee315cb8056b54",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "0ca3f075fdccf9232449ff461b63ceb985c1fbcf20bbe23abeee315cb8056b54",
+          "zh": "日记主页:www.elsevier.com/locate/dib"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p1-b7-0ccb3a9": {
@@ -121,7 +146,13 @@
       "sourceTextHash": "0ccb3a9876bbc64a1ca09fa40c4f844df9ea48ea0c842af1c109cd9130017136",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "0ccb3a9876bbc64a1ca09fa40c4f844df9ea48ea0c842af1c109cd9130017136",
+          "zh": "数据条数"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p1-b8-70be42b": {
@@ -129,25 +160,53 @@
       "sourceTextHash": "b081c26a70868032554d546e56a1c02f9c12080de8ede70e2bc958a38d44c709",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "b081c26a70868032554d546e56a1c02f9c12080de8ede70e2bc958a38d44c709",
+          "zh": "中国北平原州县作物生产生计、投入和产出调查数据"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p1-b9-6e5010d": {
-      "zh": "Zhan Xu a, b, d, ∗, Fan Li c, e, Jiali Cheng a, b, d, Zhengyuan Liang a, b, d, Jeroen C.J. Groot b, Wopke van der Werf a, Chaochun Zhang d",
+      "zh": "Zhan Xu a, b, d , *, Fan Li c, e, Jiali Cheng a, b, d , Zhengyuu Liang a, b, d , Jeroen C.J., Jhan Xu a, b, d , d , *, Fan Li c, e, Jiali Cheng a, b, d , Zhengyuu Liang a, b, d , Jeroen C.J., e, Jiali Cheng a, b, d , Zhengyguan Liang a, b, b, d , d , Jeroen C.J., J., J., J., J., j, J., J., J. , J., J., iali Cheng a, b, b, d, d , igh, igh, J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J. A., J., J., J., J., J., J., J., J., J., J., J., J.,\nGroot b, Wopke van der Werf a, Chaochun Zhang d , Groot b, Wopke van der Werf a, Chaochun Zhang d",
       "sourceTextHash": "185cae954fecb46b4717afc5c23ddf9f200f962877c15486a1b386e9515c7d07",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
-      "flags": [
-        "language-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "df2a7bbbed1907fa2fe9e595f4c5a6c681374f4e7fe44e46f12bcc29c19b7e5d",
+          "zh": "Zhan Xu a, b, d , *, Fan Li c, e, Jiali Cheng a, b, d , Zhengyuu Liang a, b, d , Jeroen C.J., Jhan Xu a, b, d , d , *, Fan Li c, e, Jiali Cheng a, b, d , Zhengyuu Liang a, b, d , Jeroen C.J., e, Jiali Cheng a, b, d , Zhengyguan Liang a, b, b, d , d , Jeroen C.J., J., J., J., J., j, J., J., J. , J., J., iali Cheng a, b, b, d, d , igh, igh, J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J., J. A., J., J., J., J., J., J., J., J., J., J., J., J.,"
+        },
+        {
+          "sourceTextHash": "4a186863f6c65f351a2a98fadf6981409cbf2158dada61b50de1d3c2c1940c42",
+          "zh": "Groot b, Wopke van der Werf a, Chaochun Zhang d , Groot b, Wopke van der Werf a, Chaochun Zhang d"
+        }
+      ],
+      "sentenceCount": 2,
+      "flags": []
     },
     "p1-b10-cc965aa": {
-      "zh": "a 作物系统分析小组中心、Wageningen大学和研究中心、P.O. Box 430,6700 AK Wageningen、荷兰b农业系统生态组、Wagningen大学和研究、P.O. Box 430,6700 AK Wageningen、荷兰发展经济学组、Wageningen大学和研究、Holasseweg 1,6706 KN Wageningen、荷兰国家营养使用和管理关键实验室、资源与环境科学学院、中国农学大学北京100193、中国经济管理学院、华中农业大学武汉430070",
+      "zh": "a 瓦格宁根大学和研究中心作物系统分析小组中心。\n方框430、6700 AK Wageningen,荷兰 b 农业系统生态小组,Wageningen大学和研究,P.O.\n方框430、6700 AK Wageningen、荷兰发展经济学集团、Wagningen大学和研究、Holksewege 1 6706 KN Wageningen、荷兰国家营养利用和管理关键实验室、中国农业大学资源和环境科学学院、中国农业大学、北京100193、北京100193、中国经济管理学院、华中农业大学武汉430070",
       "sourceTextHash": "0f2ff1c302add12222492de338dac27138173e8fd21378d58ba2bcac9c824578",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "2a4737fed654c6122b3974182a5d9670b17f8662d9a484e923b83a7c5dc5ac39",
+          "zh": "a 瓦格宁根大学和研究中心作物系统分析小组中心。"
+        },
+        {
+          "sourceTextHash": "0696befcc24bf321e8585add74f7a42c5521ec0ff8b66cc5c8cb5a0cd776320b",
+          "zh": "方框430、6700 AK Wageningen,荷兰 b 农业系统生态小组,Wageningen大学和研究,P.O."
+        },
+        {
+          "sourceTextHash": "9bf0f9c5117e8edca7a47c711f0b456fc4ffffecda6d4a205227c5ad7738ee0b",
+          "zh": "方框430、6700 AK Wageningen、荷兰发展经济学集团、Wagningen大学和研究、Holksewege 1 6706 KN Wageningen、荷兰国家营养利用和管理关键实验室、中国农业大学资源和环境科学学院、中国农业大学、北京100193、北京100193、中国经济管理学院、华中农业大学武汉430070"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p1-b12-649f063": {
@@ -155,7 +214,13 @@
       "sourceTextHash": "4c55cc485c9402b5bdbf2042fdf7959a2bfd818813e732de4e38b06723ea5a69",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "4c55cc485c9402b5bdbf2042fdf7959a2bfd818813e732de4e38b06723ea5a69",
+          "zh": "2024年2月20日修订 2024年2月23日接受 2024年2月23日接受 可在网上查阅 2024年2月28日"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": [
         "numbers-check"
       ]
@@ -165,7 +230,13 @@
       "sourceTextHash": "31bc2056568e8a1add212fec27c79630056896542fce1d079699a201bfc27308",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "31bc2056568e8a1add212fec27c79630056896542fce1d079699a201bfc27308",
+          "zh": "数据集链接:关于中国北平原贵州县作物生产活动的生计、投入和产出的调查数据(原始数据)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p1-b14-8a7870e": {
@@ -173,49 +244,167 @@
       "sourceTextHash": "84e2754c5108e6bfcd9a6bb5fdc5c5cfef2c57d36acf524300036fa7267b8d10",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "84e2754c5108e6bfcd9a6bb5fdc5c5cfef2c57d36acf524300036fa7267b8d10",
+          "zh": "关键词:乡村类型裁剪系统"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p1-b16-30aeec9": {
-      "zh": "农户在作物选择、管理做法和生计战略方面的决策对于农业维持能力至关重要。数据文章描述了中国北部平原中部一个县Quzhou的三种作物促进种植数据集。三个数据集覆盖不同规模。村数据集汇集了奎州所有342个村庄的基本数据,包括关于人口、土地面积、作物种植、劳动力、灌溉和市场的信息。数据来源于2017年年鉴数据和2018年乡村干部调查。村数据集用来制造一种档次滞后类型,从中选取了属于7个档段类型的35个村庄(每类5个)进行分层随机抽样,以收集关于农场特征和耕作方法的信息。我们调查了这35个村庄,每个村庄采访了15个农户(每村525个到1个)。",
+      "zh": "农民关于作物选择、管理做法和生计战略的决定对农业维持能力至关重要。\n本数据文章介绍了中华北部平原中部一个县Quzhou的三种作物诱导数据集。\n这三个数据集涵盖不同的尺度。\n村数据集汇集了奎州县所有342个村庄的基本数据,包括关于人口、土地面积、作物种植、劳动力、灌溉和市场的信息。\n数据来源于2017年年鉴数据和2018年村干部调查。\n村庄数据集被用来制造一种差差类型,从中挑选了属于七差差差类(每类5个)的35个村庄进行分层随机抽样,以收集关于农场性格和耕作方法的资料。\n我们调查了这35个村庄,与每个村庄的15户农户进行了面谈(525户至525户)。",
       "sourceTextHash": "28c66cd053225402892844756826a81b81bebe8a2e7e46834cc9b68427c5df6e",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "e2867a9f39ae5234c11d684cc1bda8fcaa605d3bb617dae713abdc5556992e05",
+          "zh": "农民关于作物选择、管理做法和生计战略的决定对农业维持能力至关重要。"
+        },
+        {
+          "sourceTextHash": "cbb3d624cbd3ece3f20005844e537b02fac006a6f45df287c237015753485652",
+          "zh": "本数据文章介绍了中华北部平原中部一个县Quzhou的三种作物诱导数据集。"
+        },
+        {
+          "sourceTextHash": "d2300623ee40dcae400e9364396f766e1b43c3f8b499d9a89d717052d80a9e26",
+          "zh": "这三个数据集涵盖不同的尺度。"
+        },
+        {
+          "sourceTextHash": "1692756ebf0055652a0cf895c7aee2553c500e6942c82abe4594164894825327",
+          "zh": "村数据集汇集了奎州县所有342个村庄的基本数据,包括关于人口、土地面积、作物种植、劳动力、灌溉和市场的信息。"
+        },
+        {
+          "sourceTextHash": "0f73ac52e2525dc3af1e15af8161738ca8d0f54534091bdd8b5cdbdf3e5d131a",
+          "zh": "数据来源于2017年年鉴数据和2018年村干部调查。"
+        },
+        {
+          "sourceTextHash": "fb33f1d78ac67f6e34214fe464004f2b7603d09bb364be63484538603b9fc4e6",
+          "zh": "村庄数据集被用来制造一种差差类型,从中挑选了属于七差差差类(每类5个)的35个村庄进行分层随机抽样,以收集关于农场性格和耕作方法的资料。"
+        },
+        {
+          "sourceTextHash": "ab27f1c202a3801c8d1603262e8038dd0c16c1b290ced55a85476f9630a8c53a",
+          "zh": "我们调查了这35个村庄,与每个村庄的15户农户进行了面谈(525户至525户)。"
+        }
+      ],
+      "sentenceCount": 7,
       "flags": []
     },
     "p1-b17-84b100f": {
-      "zh": "* 更正作者:电子邮件地址:zhan.xu@wur.nl(Z.Xu)",
+      "zh": "* 相应作者。\n电子邮件地址:zhan.xu@wur.nl(Z.)\nXu) .",
       "sourceTextHash": "7932da7ac47f8a41a2386e44963c3f8fa049ca4389934865567ec825d950fb49",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "09df90ef87f4a44c5d9be5e46940a22bdc5591c4864065e724e9fe00349fcf42",
+          "zh": "* 相应作者。"
+        },
+        {
+          "sourceTextHash": "de06a4778bf38ccfd2319a79aaa8eb53481d1794838f90274e29cd022e7802b1",
+          "zh": "电子邮件地址:zhan.xu@wur.nl(Z.)"
+        },
+        {
+          "sourceTextHash": "e71f6c28673ad5fc0707e741690a6b47bc744e11530c923ab4a0afa9293b4809",
+          "zh": "Xu) ."
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p1-b18-1766cb3": {
-      "zh": "https://doi.org/10.1016/j.dib.20244.110269 2352-3409/ 2024 《作者》,Elsevier Inc出版。 这是根据《CC BY-NC》许可证(http://creativecommons.org/licenses/by-nc/4.0/)公开查阅的文章。",
+      "zh": "http://doi.org/10.1016/j.dib.20244.1102692352-3409/2024作者。\n由Elsevier公司出版\n这是根据《CC BY-NC》许可证(http://creativecommons.org/licenses/by-nc/4.0/)的公开访问文章。",
       "sourceTextHash": "2f1b4e4620d1f487ec9f822d91986b9ad1a5cd9a946d3836d724c4bbf8b13d27",
       "status": "machine-draft",
       "page": 1,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "4028ce90cc54b8353f6910342e0f1849dcf505c978b624ce97749e551810765b",
+          "zh": "http://doi.org/10.1016/j.dib.20244.1102692352-3409/2024作者。"
+        },
+        {
+          "sourceTextHash": "91ae2e6e5880a374eba1aba8e63a01c050093a1cba50405dcedbc41e9aef350c",
+          "zh": "由Elsevier公司出版"
+        },
+        {
+          "sourceTextHash": "3f9019bdd2f1afe7e2e85195883fb76b7566a0e2b9cbe4f67f3484656182f293",
+          "zh": "这是根据《CC BY-NC》许可证(http://creativecommons.org/licenses/by-nc/4.0/)的公开访问文章。"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": [
         "numbers-check"
       ]
     },
     "p2-b0-7d4b984": {
-      "zh": "2 Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)中的数据 110269",
+      "zh": "2 Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "a5b6352a524559d0e6fc65f92193e03025418a7880cb69d56013837442783a67",
       "status": "machine-draft",
       "page": 2,
-      "chunks": 1,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "80a05b852f221c5add0cba7c296fb0d10f7701b4d6b3cc7961ad2330e47d7149",
+          "zh": "2 Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "77feab4b98589a336e583a9c2a0ba2d35ee64c067cdeaceeb4383036202c3316",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p2-b1-b09af03": {
-      "zh": "受访者代表了2020年的两个农业男子年龄模型:小农场和企业农场,由此形成的住户数据集提供了农场一级的数据,包括农业决策者的人口数据以及家庭成员数量、土地使用和机械再生来源、作物生产管理做法和治理性月补贴。作物水平数据集来自家庭调查,包括一年中每种植1/30公顷以上农庄(1.5平方米)的每个田地每年525个被调查农场的输入-产出清单。该数据集包含1352个农田耕作方法的信息。三个数据集为分析北中国平原一个典型农业县的耕作做法和农场及作物的可持续性属性提供了基础。2024年《作者》。由Elsevier公司出版。这是根据CC BY-NC 许可证(http://creativecommons.org/licenses/by-nc/4.0/)的公开访问文章。",
+      "zh": "tal) in 2020.\n受访者代表了两个农业男子年龄模式:小农场和商业农场。\n由此产生的住户数据集提供农场一级的数据,包括农业决策者和家庭成员人数的人口数据、土地使用和机械再利用来源、作物生产管理做法和治理性修正补贴。\n作物水平数据集来自住户调查,包括一年中每个田地每种植的作物投入产出清单,在一年内525个接受调查的农场的产量大于1/30公顷(1/2)。\n该数据集包括1352个田地的作物种植做法信息。\n这三个数据集为分析华北平原一个典型农业县的耕作做法和农场及作物的可持续性属性提供了基础。\n由Elsevier公司出版\n这是根据《CC BY-NC》许可证(http://creativecommons.org/licenses/by-nc/4.0/)的公开访问文章。",
       "sourceTextHash": "9d3a8a17191fcb98baebe611705dc2082d43f1024ded730ccbde2fe52abc0cf6",
       "status": "machine-draft",
       "page": 2,
-      "chunks": 2,
+      "segments": [
+        {
+          "sourceTextHash": "1359a6df4333af6e064f27e390d449094db9962257f26218a68f689b4712f49b",
+          "zh": "tal) in 2020."
+        },
+        {
+          "sourceTextHash": "5452ca5aab756de1c7d22015111dfa2d4570bfbd9764d511fc731e564fef78f5",
+          "zh": "受访者代表了两个农业男子年龄模式:小农场和商业农场。"
+        },
+        {
+          "sourceTextHash": "d5ae173ac1a3ab563bb187aaae497a0835c019a87c3ca6a5d61f60a536d1808c",
+          "zh": "由此产生的住户数据集提供农场一级的数据,包括农业决策者和家庭成员人数的人口数据、土地使用和机械再利用来源、作物生产管理做法和治理性修正补贴。"
+        },
+        {
+          "sourceTextHash": "33d2f79b3dbf84059b17f6cc8ae42630bb7b54e83f6ef4c6ea08f1ce666d491b",
+          "zh": "作物水平数据集来自住户调查,包括一年中每个田地每种植的作物投入产出清单,在一年内525个接受调查的农场的产量大于1/30公顷(1/2)。"
+        },
+        {
+          "sourceTextHash": "7280e99afbe52c047cac4bf4a0d97e1e3a9ccede68970822927fa4e08950b542",
+          "zh": "该数据集包括1352个田地的作物种植做法信息。"
+        },
+        {
+          "sourceTextHash": "e0ba9d4d21cf626dfc0526ec83be06877397e3b1cbeb3ea9e97643625be79304",
+          "zh": "这三个数据集为分析华北平原一个典型农业县的耕作做法和农场及作物的可持续性属性提供了基础。"
+        },
+        {
+          "sourceTextHash": "91ae2e6e5880a374eba1aba8e63a01c050093a1cba50405dcedbc41e9aef350c",
+          "zh": "由Elsevier公司出版"
+        },
+        {
+          "sourceTextHash": "3f9019bdd2f1afe7e2e85195883fb76b7566a0e2b9cbe4f67f3484656182f293",
+          "zh": "这是根据《CC BY-NC》许可证(http://creativecommons.org/licenses/by-nc/4.0/)的公开访问文章。"
+        }
+      ],
+      "sentenceCount": 8,
       "flags": [
         "numbers-check"
       ]
@@ -225,15 +414,91 @@
       "sourceTextHash": "d13e79e7ac23b60c4f6e977352871fd88a6baf35059bcb3ff9c1a7f7293112fb",
       "status": "machine-draft",
       "page": 2,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "d13e79e7ac23b60c4f6e977352871fd88a6baf35059bcb3ff9c1a7f7293112fb",
+          "zh": "具体规格表"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p2-b3-9b1fea5": {
-      "zh": "作物多样性、作物生产、管理实践、可持续性数据格式 原始数据 数据类型 CSV档案(n=5):一) 乡村数据,二) 农户数据,三) 作物数据,四) 法典本-乡村数据,五) 法典书-乡村数据,五) 法典_住户和作物数据 表格和数字 数据如何获得 数据 数据分为三个数据集:(1) 村庄数据集,(2) 农场数据集,(3) 作物数据集. 村级数据(数据集 1) 由两个来源组成:年鉴[1] 数据和村干部调查,包括中国共产党(中共)村秘书、村监测员和乡村会计师。 数据集2 和 3 的数据是通过使用结构化的问卷进行个人访谈而收集的。我们采访了位于北华平原Quzhou县的525个住户。这525个住户来自35个村庄,每个村庄有5个村庄,这是分析数据集1所查明的7个村庄群组中的每一个村庄各5个村庄。根据年鉴数据[1]和村干部调查数据,数据集包括505个在检查缺失值和潜在误差后的有效观察。首先,我们根据类似作物生产和社会经济特征,根据年鉴数据[1]和村干部调查数据,将Quhone所有342个村庄分为8组,对7个村庄类型中的每个类型选择了五个村庄的随机抽样,不包括一个没有作物生产的半城市村庄类型。我们从35个村庄中每个村庄调查了15个农场,包括小农场和商业农场。我们从地方政府获得了注册商业农场清单,访谈中包括了被调查村庄中的所有商业农场。每个村庄有多达两个商业农场,一个村庄的所有商业农场都包括在内。35个村庄中有21个没有商业农场。从一个村庄的其余小农农场中随机挑选了一个农场,每个村庄有15个农场的样本。我们向所有家庭进行了结构化问卷调查。在这次调查中,我们收集了农场面积大于0.5米(1/30公顷)的所有地块的家庭和农业做法的资料,其中不包括常年作物和温室作物,数据来源地点机构:资源与环境科学学院、中国农大学市/下/区:河北省半州县:中国纬度:36.58和114.83。",
+      "zh": "作物多样性、作物生产、管理做法、可持续性数据格式 原始数据 数据类型 CSV文档 (n = 5): (一) 乡村数据, (二) 农场家庭数据, (三) 作物数据, (四) 法典集 - 乡村数据, (五) 法典集 - 住户和作物数据 表格和数字 数据是如何获得的 数据载于三个数据集:(1) 村庄数据集, (2) 农场数据集, (3) 作物数据集。\n村级数据(数据集1)由两个来源组成:年鉴[1]数据和村干部调查,包括中国共产党(中共)村秘书、村监测员和村会计师。\n数据集2和数据集3的数据是通过使用有条理的调查问卷进行个人访谈而收集的。\n我们在中国北部平原的Quhone县采访了525户家庭。\n这525户家庭来自35个村庄,5个村庄分别来自分析数据集1确定的7个村群中的每个村。\n数据集由505项有效观测组成,在检查缺失值和潜在错误后进行。\n第一步,我们根据年鉴数据[1]和村干部调查数据,根据类似的作物生产和社会经济特征,将奎州所有342个村庄分为8组。\n为7个村庄的每个类型选择了5个村庄的随机抽样,不包括一个没有作物生产的半城市村庄类型。\n我们调查了35个村庄中每个村庄的15个农场,包括小农场和商业农场。\n我们从地方政府那里获得了注册商业农场的名单,接受调查的村庄中的所有商业农场都包括在面谈中。\n每个村庄有多达两个商业农场,一个村庄的所有商业农场都包括在内。\n35个村庄中有21个没有商业农场。\n从一个村庄的其余小农场中随机挑选了15个小农场,以获得每个村庄15个农场的抽样。\n向所有家庭发放了结构化问卷。\n在这次调查中,我们收集了农场所有面积大于0.5 mu (1/30th ha)的土地的家庭和农业做法的资料。\n常年作物和温室作物被排除在调查之外。\n数据源所在地机构:中国农业大学资源与环境科学学院,中国农业大学市/镇/区:河北省半田县:中国纬度:36.58和114.83。",
       "sourceTextHash": "c2862809e56053eff8b115532953b85b2f939f695c17537e0769a27ab886093e",
       "status": "machine-draft",
       "page": 2,
-      "chunks": 3,
+      "segments": [
+        {
+          "sourceTextHash": "ede00a79f81ce1294b4f61e8a783768fdf80a0251363cc1eb1e2d10a2b27d772",
+          "zh": "作物多样性、作物生产、管理做法、可持续性数据格式 原始数据 数据类型 CSV文档 (n = 5): (一) 乡村数据, (二) 农场家庭数据, (三) 作物数据, (四) 法典集 - 乡村数据, (五) 法典集 - 住户和作物数据 表格和数字 数据是如何获得的 数据载于三个数据集:(1) 村庄数据集, (2) 农场数据集, (3) 作物数据集。"
+        },
+        {
+          "sourceTextHash": "dc3a13adefdb900408e239062da563cad7fd725a1508bfece9a16718300d5104",
+          "zh": "村级数据(数据集1)由两个来源组成:年鉴[1]数据和村干部调查,包括中国共产党(中共)村秘书、村监测员和村会计师。"
+        },
+        {
+          "sourceTextHash": "79eaa6482dda56b74666ff8399820e9f9302c5868ae17b23a8eaad5dd3093d1d",
+          "zh": "数据集2和数据集3的数据是通过使用有条理的调查问卷进行个人访谈而收集的。"
+        },
+        {
+          "sourceTextHash": "813d7d623c4455ecb0b5897d75d45939e26fa6202bcd7d9e92cd41fdc1a3c337",
+          "zh": "我们在中国北部平原的Quhone县采访了525户家庭。"
+        },
+        {
+          "sourceTextHash": "1a4f2ed430ff66be26827a5a4ae592e74b54e4833e119598c0f0c04f0c78d93d",
+          "zh": "这525户家庭来自35个村庄,5个村庄分别来自分析数据集1确定的7个村群中的每个村。"
+        },
+        {
+          "sourceTextHash": "6b68c30c46fb3cb1cee88002e4a19527ae8c13bda039a90b587c42e92d06e014",
+          "zh": "数据集由505项有效观测组成,在检查缺失值和潜在错误后进行。"
+        },
+        {
+          "sourceTextHash": "29f154cccefce55251b46f8169ff06fdb46d035eb3ab311bd068464d890c67da",
+          "zh": "第一步,我们根据年鉴数据[1]和村干部调查数据,根据类似的作物生产和社会经济特征,将奎州所有342个村庄分为8组。"
+        },
+        {
+          "sourceTextHash": "df44e39af3e6581d2f75c925c5a992b61c36109804615d7ce081c8d39dd1cc08",
+          "zh": "为7个村庄的每个类型选择了5个村庄的随机抽样,不包括一个没有作物生产的半城市村庄类型。"
+        },
+        {
+          "sourceTextHash": "bc81fdf22603d0655fe31248fdd95c42c5375fdfe4ad74bf75f8e2574246926e",
+          "zh": "我们调查了35个村庄中每个村庄的15个农场,包括小农场和商业农场。"
+        },
+        {
+          "sourceTextHash": "d053cb0995c78196778f734ec6c39c35c52277a682e43147ea0d2eec6af2d166",
+          "zh": "我们从地方政府那里获得了注册商业农场的名单,接受调查的村庄中的所有商业农场都包括在面谈中。"
+        },
+        {
+          "sourceTextHash": "d046c13f9ffa6429c1e516cabd0699e4f212253291fc505552544291a3ed0866",
+          "zh": "每个村庄有多达两个商业农场,一个村庄的所有商业农场都包括在内。"
+        },
+        {
+          "sourceTextHash": "aacdb9acd7aae152f6a40994d2f6181a4bc7e97f8f47606a1420866707d51dc2",
+          "zh": "35个村庄中有21个没有商业农场。"
+        },
+        {
+          "sourceTextHash": "d35c6db2ba25595e6f19408d3a2850c566247fd43aa4508cc21c6ed7f405b2ab",
+          "zh": "从一个村庄的其余小农场中随机挑选了15个小农场,以获得每个村庄15个农场的抽样。"
+        },
+        {
+          "sourceTextHash": "7fbb3352501c6ef3638e9c0035109242ace86e0631d121001a3cc114416d3e01",
+          "zh": "向所有家庭发放了结构化问卷。"
+        },
+        {
+          "sourceTextHash": "9d32a97f696dd0a6f701dd981226ccc195f8dbd494d7b741c426dbde05f9e55f",
+          "zh": "在这次调查中,我们收集了农场所有面积大于0.5 mu (1/30th ha)的土地的家庭和农业做法的资料。"
+        },
+        {
+          "sourceTextHash": "c22189295d05ad1ecdbf33776e2b233b0c6ac80f5ab2348375fa3988ef1d11d3",
+          "zh": "常年作物和温室作物被排除在调查之外。"
+        },
+        {
+          "sourceTextHash": "4ea569e06ce2e6316d6a447ee78855e97415f36a01586219534cee3e93b62538",
+          "zh": "数据源所在地机构:中国农业大学资源与环境科学学院,中国农业大学市/镇/区:河北省半田县:中国纬度:36.58和114.83。"
+        }
+      ],
+      "sentenceCount": 17,
       "flags": []
     },
     "p2-b4-3a4fa1d": {
@@ -241,91 +506,265 @@
       "sourceTextHash": "3a4fa1d3a81bd7c087812f9864f4a922d38c1e83af191d1f55c22d7ddef116dc",
       "status": "machine-draft",
       "page": 2,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "3a4fa1d3a81bd7c087812f9864f4a922d38c1e83af191d1f55c22d7ddef116dc",
+          "zh": "(接下页)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p3-b0-816104b": {
-      "zh": "Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)中的数据 110269 3",
+      "zh": "Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "12098660a59dd28365c8b46e793110aefd795f56b8e62959bece75d4d240b984",
       "status": "machine-draft",
       "page": 3,
-      "chunks": 1,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "711008aa877f86a3464029d52a8a5813872ffb264f1a422657c3ac186ddcf3ca",
+          "zh": "Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "0b071cc5d4c2374d95a693a2ef7ed9b6e9c2ffc34b105313354e955f1459ffaf",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p3-b1-898a729": {
       "zh": "数据存取数据库名称:门德利数据识别号码:Doi:10.17632/jp3v9859cx.1 数据直接地址:https://data.mendeley.com/datastsets/jp3v9859cx/1",
       "sourceTextHash": "5852a38bb44285c9daafb510b5b5589dcacb3d11e3ec3ebf2a2abe93cc95bd7d",
       "status": "machine-draft",
       "page": 3,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "5852a38bb44285c9daafb510b5b5589dcacb3d11e3ec3ebf2a2abe93cc95bd7d",
+          "zh": "数据存取数据库名称:门德利数据识别号码:Doi:10.17632/jp3v9859cx.1 数据直接地址:https://data.mendeley.com/datastsets/jp3v9859cx/1"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p3-b2-fff7b91": {
-      "zh": "1. 数据价值",
+      "zh": "1.\n数据值",
       "sourceTextHash": "fff7b910ff47a9cb27ae9f8f12005872dae74fcd83034d0d138ca67ab9204117",
       "status": "machine-draft",
       "page": 3,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "c977dbe785221d34114d345fdf8ff4e18bb4af66750751dbea29407f9738735f",
+          "zh": "1."
+        },
+        {
+          "sourceTextHash": "b29beb26cf675c6923d8be78d681588805e84df82c2d6bab75a6e565a6685c9d",
+          "zh": "数据值"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p3-b3-cb16320": {
-      "zh": "• 这一数据集载有中国北部平原一个有代表性的州广泛作物系统(确定了62个一年作物系统)第一个公开可得的作物种植做法数据。北中平原是一个对中国小麦和玉米粮食生产至关重要的地区,但它也有重要的棉花生产和大量微粒作物生产。 根据社会经济数据、作物形态和与作物生产有关的资源,可以在Quhou进行进一步调查时,利用具有乡村特点的数据集和相关的类型结果来挑选具有代表性的村庄。 农场一级的数据对于分析奎州作为北中平原有代表性的村庄的作物生产的可持续性和投入/产出关系很有价值。· 数据集可以作为制定促进作物生产先锋的政策的参考来源,这些政策有助于在高投入耕作系统中提高农业可持续性。",
+      "zh": "• 这一数据集载有中国北部平原一个有代表性的州广泛作物系统(确定了62个一年作物系统)第一个公开可得的作物种植做法数据。\n华北平原是一个对中国小麦和玉米谷物生产至关重要的地区,但它也有重要的棉花生产和大量的微作物。\n• 在奎州进行进一步调查时,可根据社会经济数据、作物形态和与作物生产有关的资源,利用具有村庄特征的数据集和相关类型结果,对具有代表性的村庄进行筛选。\n• 农场一级的数据对分析中华北部平原具有代表性的丘州村庄作物生产的可持续性和投入/产出关系很有价值。\n• 农场一级数据对于分析农户一级农业管理战略的绩效,以响应政策干预、农场规模、农业规模、社会-经济条件和住户人口统计等要求,更有价值;\n• 收集了每户家庭经营的农场在一年内种植的所有作物的作物清单数据 > 0.5 mu (1/30th ha)。\n因此,可以将农场水平和作物水平数据合并,作为基准,并用来分析农场的生产效率。\n• 作物水平数据可用于设计新的轮作,以更好地满足利益相关者的需求和可持续性目标。\n• 数据集可以作为一个参考来源,用以制定政策,促进提高高投入耕作系统农业可持续性的作物生产临界点。",
       "sourceTextHash": "cd19af2bf453020163326cd7b96a4d24af714f3708c96ad5f5304b3a0580f1a6",
       "status": "machine-draft",
       "page": 3,
-      "chunks": 3,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "ce4338ed2a1e53db2264f22e5098af75374759dc346c4a7991845f3b4dfb06d7",
+          "zh": "• 这一数据集载有中国北部平原一个有代表性的州广泛作物系统(确定了62个一年作物系统)第一个公开可得的作物种植做法数据。"
+        },
+        {
+          "sourceTextHash": "7b82c2726640e63b5a74895f006bd3cf3d2bda182e5c5055d288764f90fc4ab8",
+          "zh": "华北平原是一个对中国小麦和玉米谷物生产至关重要的地区,但它也有重要的棉花生产和大量的微作物。"
+        },
+        {
+          "sourceTextHash": "3b0e62e6b7653bb84c4a994549360b9831e6b8ecf63c4059e3917a3d9c37044e",
+          "zh": "• 在奎州进行进一步调查时,可根据社会经济数据、作物形态和与作物生产有关的资源,利用具有村庄特征的数据集和相关类型结果,对具有代表性的村庄进行筛选。"
+        },
+        {
+          "sourceTextHash": "cf36781d4bc8618d70e6459f980903ac283efd765ce654005b788b3857a5a170",
+          "zh": "• 农场一级的数据对分析中华北部平原具有代表性的丘州村庄作物生产的可持续性和投入/产出关系很有价值。"
+        },
+        {
+          "sourceTextHash": "bb78a5a0072cc4fa09f99f890040b91361ee275ddbda29993c528543045d1fee",
+          "zh": "• 农场一级数据对于分析农户一级农业管理战略的绩效,以响应政策干预、农场规模、农业规模、社会-经济条件和住户人口统计等要求,更有价值;"
+        },
+        {
+          "sourceTextHash": "3fc22380917f138499d0cbf610f4a1f736a038c5b6be3f56f71c3deb32778a89",
+          "zh": "• 收集了每户家庭经营的农场在一年内种植的所有作物的作物清单数据 > 0.5 mu (1/30th ha)。"
+        },
+        {
+          "sourceTextHash": "96f8a233fbb7b18cde1544baf498459973ae3b77a9a519a66a8df29ec0b20723",
+          "zh": "因此,可以将农场水平和作物水平数据合并,作为基准,并用来分析农场的生产效率。"
+        },
+        {
+          "sourceTextHash": "4e103660b73a3bd7eee05be7ad191a9f34efd214261d9e82f40cf319d2ba3117",
+          "zh": "• 作物水平数据可用于设计新的轮作,以更好地满足利益相关者的需求和可持续性目标。"
+        },
+        {
+          "sourceTextHash": "c3aa6349516a6825f1cdd5b90aa772f224f23af11ded92a97c057455be1c309e",
+          "zh": "• 数据集可以作为一个参考来源,用以制定政策,促进提高高投入耕作系统农业可持续性的作物生产临界点。"
+        }
+      ],
+      "sentenceCount": 9,
+      "flags": []
     },
     "p3-b4-1429d2e": {
-      "zh": "2. 目标",
+      "zh": "2.\n目标目标目标目标目标目标目标",
       "sourceTextHash": "1429d2ed86152d967ce124d5ab47649564b22a0a7f7d55e91d4d2bd8e248700b",
       "status": "machine-draft",
       "page": 3,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4",
+          "zh": "2."
+        },
+        {
+          "sourceTextHash": "3b20adc3b2ce1c15ea6880c3151baabea06f5ba9132c18a9b969fc5299a7d655",
+          "zh": "目标目标目标目标目标目标目标"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p3-b5-4267ffe": {
-      "zh": "住户调查的目的是全面介绍北中平原休州县的作物种植做法和农村生计,该县位于北中平原中心(图1),在土地使用、生产做法和可持续性挑战方面代表北中平原,2019年被选为农业绿色发展重点领域[2]。AGD方案旨在探索可持续性挑战,推动一系列有希望的解决办法,并在中国各地条件相似的地区交流实际经验[3]。具体地说,我们侧重于种植了哪些作物以及农民如何种植这些作物。虽然中华北部平原是中国的粮食碗之一,但前几次研究大多侧重于主要作物种植制度、小麦和玉米的双作物种植,其中小麦在10月播种,次年6月收获,玉米在6月小麦收割后立即播种,10月收获,其他作物生产活动以前没有详细说明。",
+      "zh": "家庭调查的目的是全面介绍中国北部平原州县的作物种植做法和农村生计。\n该县位于华北平原中心(图1),在土地使用、生产做法和可持续性挑战方面代表华北平原。\n它于2019年被选为农业绿色发展重点领域[2]。\nAGD方案旨在探索可持续性挑战,促进一系列有希望的解决办法,并在中国各地条件相似的区域之间分享实际经验[3]。\n具体地说,我们侧重于种植哪些作物以及农民如何种植这些作物。\n虽然华北平原是中国的粮食碗之一,但前几次研究大多侧重于主要作物种植制度、小麦和玉米的双作物种植,其中小麦在10月播种,次年6月收获,玉米在6月小麦收割后立即播种,10月收获。\n以前没有详细说明其他作物生产活动。",
       "sourceTextHash": "de90a5c247a8d341597dde9beefe15ec8e618179766385a4d1ede02c3c93ea3e",
       "status": "machine-draft",
       "page": 3,
-      "chunks": 2,
+      "segments": [
+        {
+          "sourceTextHash": "48675d3c403337e489443f0880ff5a37162a25ea7b6942b58744b68c5920034d",
+          "zh": "家庭调查的目的是全面介绍中国北部平原州县的作物种植做法和农村生计。"
+        },
+        {
+          "sourceTextHash": "baf83edee7b910d340af35b9738f5f4d5fa40d89298392746f5fd47610904019",
+          "zh": "该县位于华北平原中心(图1),在土地使用、生产做法和可持续性挑战方面代表华北平原。"
+        },
+        {
+          "sourceTextHash": "e1f1a23051778547429330344aca16ea95aa90eb7832dc7100bf2080fb632965",
+          "zh": "它于2019年被选为农业绿色发展重点领域[2]。"
+        },
+        {
+          "sourceTextHash": "667c2d45eaffcc3da610dc2b266d18decddb6b1077f9700b874267aa442f9968",
+          "zh": "AGD方案旨在探索可持续性挑战,促进一系列有希望的解决办法,并在中国各地条件相似的区域之间分享实际经验[3]。"
+        },
+        {
+          "sourceTextHash": "3c7959dfccfec8ba99b3122cd80cda27c66aa24b50f0eea7c9938ccdbe1d4ae6",
+          "zh": "具体地说,我们侧重于种植哪些作物以及农民如何种植这些作物。"
+        },
+        {
+          "sourceTextHash": "55a637722a1caa1c70dc4c5a0669d5039bfe7a07e3c22da31b41ac84531a7e11",
+          "zh": "虽然华北平原是中国的粮食碗之一,但前几次研究大多侧重于主要作物种植制度、小麦和玉米的双作物种植,其中小麦在10月播种,次年6月收获,玉米在6月小麦收割后立即播种,10月收获。"
+        },
+        {
+          "sourceTextHash": "084d8f3d913bcc307e0c7529f88131350a680d607abcbe5457f8b654f68cb1c2",
+          "zh": "以前没有详细说明其他作物生产活动。"
+        }
+      ],
+      "sentenceCount": 7,
       "flags": []
     },
     "p3-b6-e13582d": {
-      "zh": "3. 数据说明",
+      "zh": "3.\n数据描述",
       "sourceTextHash": "e13582de4136b5cf5b737ea69446165e362ba0bd861b5887b20e97e7938c76b6",
       "status": "machine-draft",
       "page": 3,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c",
+          "zh": "3."
+        },
+        {
+          "sourceTextHash": "2796adf98f70aae8a8f88d40b6ba4e507c793be35043aa9d583b38895591bfab",
+          "zh": "数据描述"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p3-b7-3da53bc": {
-      "zh": "该数据文件报告了Quzhone县三个数据集的情况,涵盖村庄、农场住房持有量和作物水平,2017年乡村年鉴中的数据、村干部调查数据和差滞类型结果都列入了村庄数据集。",
+      "zh": "该数据文件报告了Quzhone县的三个数据集,涵盖村庄、农场住房持有量和作物水平。\n2017年村年鉴数据、村干部调查数据以及档次滞后类型学结果都列入了村数据集。\n农户家庭数据集提供",
       "sourceTextHash": "b42c56797048ff5ad7b0576e0a245a6394e6e08ee997a8f98cf9b3b1432ae68f",
       "status": "machine-draft",
       "page": 3,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "94ca4d9103d7fa7be6cf6001107a5f94d9c57ff1ad7202cec840e1461c57f9fd",
+          "zh": "该数据文件报告了Quzhone县的三个数据集,涵盖村庄、农场住房持有量和作物水平。"
+        },
+        {
+          "sourceTextHash": "25c75fc923d410a36602e3e1a46ab8e90bac6dc84c6b536c0f3a331c77e6151b",
+          "zh": "2017年村年鉴数据、村干部调查数据以及档次滞后类型学结果都列入了村数据集。"
+        },
+        {
+          "sourceTextHash": "60d23253ca65b1f006eb2679e1ff283c5dd1ccb4f397b7c4709b1cfcc9843006",
+          "zh": "农户家庭数据集提供"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p4-b0-b2c9edb": {
-      "zh": "4 Z. Xu、F. Li和J. Cheng等人/《第53号简报》(2024年)中的数据",
+      "zh": "4 Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "fbe311f5514ad365ca500debff4623cdb423d5fcb87d3b116776a03c262503a8",
       "status": "machine-draft",
       "page": 4,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "a617e83749a7de7b72102c9f8bbdca9423c0ea7174809964e7046ccc78f7d27c",
+          "zh": "4 Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "77feab4b98589a336e583a9c2a0ba2d35ee64c067cdeaceeb4383036202c3316",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": [
         "numbers-check"
       ]
     },
     "p4-b2-e617934": {
-      "zh": "图1. 北中平原地图,北北河北南的绿色多边形是奎州县。",
+      "zh": "Fig. 1.\n华北平原地图\n河北南面的绿色多边形 是奎州县",
       "sourceTextHash": "e617934ef32d5b66b4ff3e38d09dffdcf15774051798fe83d2f6f1c45552a0d6",
       "status": "machine-draft",
       "page": 4,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "cf6e11b4d20a5e769b345c5d9f6882b69d21334cfd1a1111574a0547e8001743",
+          "zh": "Fig. 1."
+        },
+        {
+          "sourceTextHash": "fdb86f5deec4a8f1e96066b36697a6ae280b59cfcede2fc6476b007a5058ae9f",
+          "zh": "华北平原地图"
+        },
+        {
+          "sourceTextHash": "a6d6a0559bef3b71a7dda197b3ff61555f442e28fca4d66cfe975c1529665ec0",
+          "zh": "河北南面的绿色多边形 是奎州县"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p4-b3-34582e5": {
@@ -333,7 +772,13 @@
       "sourceTextHash": "13dea49212c551cf6f96b9a690c6fa8e607009ed1d0629fb1d050f8061c2d8a4",
       "status": "machine-draft",
       "page": 4,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "13dea49212c551cf6f96b9a690c6fa8e607009ed1d0629fb1d050f8061c2d8a4",
+          "zh": "表1 数据集所列商业农场和三个次级商业农场的定义。"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p4-b4-f26e9e1": {
@@ -341,31 +786,115 @@
       "sourceTextHash": "9445933e1f2eb16fa8f5c31f0db9962694463c9e26ecd502737406739497db37",
       "status": "machine-draft",
       "page": 4,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "9445933e1f2eb16fa8f5c31f0db9962694463c9e26ecd502737406739497db37",
+          "zh": "农场管理模式"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p4-b5-f933a46": {
-      "zh": "商业农场优先通过销售农产品获得经济利益; 商业农场规模相对较大(每个农场3公顷以上[3]),通常由专业经理经营; 商业农场需要向地方政府登记才能取得商业许可证; 家庭农场由一家家庭经营; 家庭农场按需要雇用季节性劳动力,农场面积大多大于50毫瓦(3.3公顷) [4]; 合作社农场通常至少包括5个家庭农场[5],共同投资机械和雇佣工人的工资; 农业公司农业公司拥有最大的农场规模; 雇用一名专业经理进行营销和销售[6]; 一些农业公司有自己的加工设施。",
+      "zh": "商业农场将销售农产品的经济利益列为优先事项。\n商业农场规模相对较大(每个农场3公顷以上[3]),通常由专业经理经营。\n商业农场需要向地方政府登记才能获得商业执照。\n家庭农场由一家家庭经营。\n他们根据需要雇用季节性劳动力,农场面积大多大于50毫微秒(3.3公顷)[4]。\n合作社农场通常包括至少五个家庭农场[5],共同投资机械和雇用劳工的工资。\n农业公司农业公司拥有最大的农场规模。\n他们雇用一名专业经理从事销售和销售[6]。\n一些农业公司有自己的加工设施。",
       "sourceTextHash": "8230c7b421f545ea106c91f777a1819fe114a20188926fdb0b8ffe9430f0ad31",
       "status": "machine-draft",
       "page": 4,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "4aa0a1c1e49a329c6e4c7b24ad770d4a6d882b6ddd70800f9a3d43fd70903c25",
+          "zh": "商业农场将销售农产品的经济利益列为优先事项。"
+        },
+        {
+          "sourceTextHash": "e5e0ffa454cc11ef440e46aae624dd8a619f16c8ab8b23f7a4826659a20d5e2a",
+          "zh": "商业农场规模相对较大(每个农场3公顷以上[3]),通常由专业经理经营。"
+        },
+        {
+          "sourceTextHash": "7d676d4b165ebb7052ce5989d3a922cdd825475b406b2e1af3091551476f3135",
+          "zh": "商业农场需要向地方政府登记才能获得商业执照。"
+        },
+        {
+          "sourceTextHash": "650ef30947efbabe66a71f374b568427b1948cce58fb74cb6c32da37337c5f4b",
+          "zh": "家庭农场由一家家庭经营。"
+        },
+        {
+          "sourceTextHash": "a7b5792b417a6b3ebfd2297b0a83d91a8d1196f1626db17ce4f46901a7810a0e",
+          "zh": "他们根据需要雇用季节性劳动力,农场面积大多大于50毫微秒(3.3公顷)[4]。"
+        },
+        {
+          "sourceTextHash": "137116e525226278855d41de90a1a81ed44a36018c864774ac9fd3a602c58fd9",
+          "zh": "合作社农场通常包括至少五个家庭农场[5],共同投资机械和雇用劳工的工资。"
+        },
+        {
+          "sourceTextHash": "2acdc12980f930b33ccec688a3bc6f0653f489edf1922270dfb8ddac12f3a1b8",
+          "zh": "农业公司农业公司拥有最大的农场规模。"
+        },
+        {
+          "sourceTextHash": "fd8a026e8318b0fb4a31aecf415f877c488c6aef830cfe2fcee377fd07a5da31",
+          "zh": "他们雇用一名专业经理从事销售和销售[6]。"
+        },
+        {
+          "sourceTextHash": "bffe388c712fde5c4a9b0ecdb8279c82efdad9738b3a9d91ff9717dd13007495",
+          "zh": "一些农业公司有自己的加工设施。"
+        }
+      ],
+      "sentenceCount": 9,
       "flags": []
     },
     "p4-b6-048590e": {
-      "zh": "从35个村庄的505户住户调查中收集到的关于各种问题的数据资料,包括家庭的社会经济、作物生产决策者的特点和农场每个主要地块的作物生产信息( > 0.5 mu),该数据集有两种类型的农场管理:小农模式和商业模式。商业农场分为三个子类型:家庭农场、合作农场和农业电网房(表1)。 根据家庭调查数据,我们制作了一个作物数据集,提供在一年内被调查农场种植的所有作物的投入产出数据。",
+      "zh": "从35个村庄的505个住户调查中收集的数据资料,涉及各种问题,包括家庭的社会经济、作物生产决策者的特点以及农场每个主要地块的作物生产信息( > 0.5 mu)。\n在这一数据集中,农场管理有两种类型:小农模式和商业模式。\n商业农场分为三类:家庭农场、合作农场和农户(表1)。\n根据家庭调查的数据,我们制作了一个作物数据集,提供一年内在接受调查的农场种植的所有作物的投入产出数据。\n五五岁五",
       "sourceTextHash": "167cdab50b51f7477e4ae69b7355bbd261338a8c0e9f2a0b511dbb809f05c081",
       "status": "machine-draft",
       "page": 4,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "4f74242e5197555385ad97147de97c4f9e1d7566db93be0c7f35bc18e7f4de16",
+          "zh": "从35个村庄的505个住户调查中收集的数据资料,涉及各种问题,包括家庭的社会经济、作物生产决策者的特点以及农场每个主要地块的作物生产信息( > 0.5 mu)。"
+        },
+        {
+          "sourceTextHash": "3a6d0f426e349b1e4caac724721f2173be2b8026642779a4865bb6a52c9801f3",
+          "zh": "在这一数据集中,农场管理有两种类型:小农模式和商业模式。"
+        },
+        {
+          "sourceTextHash": "ecb2d5d9f33be1a54db558a42be56c4b284d3ed57e330757734c550cee9ead0f",
+          "zh": "商业农场分为三类:家庭农场、合作农场和农户(表1)。"
+        },
+        {
+          "sourceTextHash": "86020cd38a9c81076cb31ca7fe3c7c625e02ca026780d7c2f6ed890fc12db05c",
+          "zh": "根据家庭调查的数据,我们制作了一个作物数据集,提供一年内在接受调查的农场种植的所有作物的投入产出数据。"
+        },
+        {
+          "sourceTextHash": "6ab523c52d1407cc4de015423091d1a76995f01d32d6c4b36616df23da744a0e",
+          "zh": "五五岁五"
+        }
+      ],
+      "sentenceCount": 5,
       "flags": []
     },
     "p5-b0-702e391": {
-      "zh": "Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)数据 110269 5",
+      "zh": "Z.\nXu, F.\nLi and J.\nCheng等人/数据简况 53 (2024) (2024) 110269 5",
       "sourceTextHash": "83a94bbb5f290b35bb3429c07e43b99e88df4d842a00d3924b3dcba674d2f0a1",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "711008aa877f86a3464029d52a8a5813872ffb264f1a422657c3ac186ddcf3ca",
+          "zh": "Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "d17b28e2f779d60a94727ac778e8e852f4d9909e64e0e48812e73e298b9de2b3",
+          "zh": "Cheng等人/数据简况 53 (2024) (2024) 110269 5"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": []
     },
     "p5-b1-73f9622": {
@@ -373,7 +902,13 @@
       "sourceTextHash": "76d14a75a65a9aaf8a03457f36ae4d885bcf4e233480ed01174c8dfea5e42465",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "76d14a75a65a9aaf8a03457f36ae4d885bcf4e233480ed01174c8dfea5e42465",
+          "zh": "表2 数据集所涵盖的五种作物系统类型的定义。"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p5-b2-436ab01": {
@@ -381,79 +916,247 @@
       "sourceTextHash": "ce7b8ed35f8d1c2c5cb5563f673181148fc2565330ec451a6182ce00beea2cd7",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "ce7b8ed35f8d1c2c5cb5563f673181148fc2565330ec451a6182ce00beea2cd7",
+          "zh": "面积百分比(%)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p5-b3-82a56b2": {
-      "zh": "单种作物一年中在一块地上种植,例如棉花。 43.9%的中继间插重复种植涉及在同一块地里种植两个作物种类,但两种作物的生长期只部分重叠,如棉花/豆继电器间植。",
+      "zh": "单一作物在一年内在一块地上种植。\n例如棉花。 43.9% 中继间作 Recropection Relay 间作涉及在同一块地种植两种作物,但这两种作物的生长期只是部分重叠。\n例如,棉花/豆豆继电器间植。",
       "sourceTextHash": "e37ad1d2805accb85a6a36afdcb2ed451470b05e794d5bc28b9f540ba94c0714",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "670511e102a1f904b08f2f57d36aaae662c74fb106262c5ffda349a6f3b51bf0",
+          "zh": "单一作物在一年内在一块地上种植。"
+        },
+        {
+          "sourceTextHash": "1d5b9a6dd85a7d63c599fc5b3e2ee6d4b2cf907bf7d8a81b0b38d9f5c72d443b",
+          "zh": "例如棉花。 43.9% 中继间作 Recropection Relay 间作涉及在同一块地种植两种作物,但这两种作物的生长期只是部分重叠。"
+        },
+        {
+          "sourceTextHash": "e3961b64eba56864904c410b321bc452cc571c5f1a18dd43fe4aa6023fb3e73f",
+          "zh": "例如,棉花/豆豆继电器间植。"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p5-b5-4c531d4": {
-      "zh": "双种种植是指在同一块地里每日历年收获两个完整的作物,在生长期没有重叠,例如小麦和双种作物。",
+      "zh": "双种种植是指在同一块地里每日历年收获两个完整的作物,生长期没有重叠。\n例如小麦和玉米的双重种植。",
       "sourceTextHash": "afb4817edea99f4c71dbc2307b9f6a22f6db35482cec35e31fda02fccd2e6ccb",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "35965a9772338f990cf7682357768f482d1538b2c1cd6e7e8f1a5b8b4d0221a3",
+          "zh": "双种种植是指在同一块地里每日历年收获两个完整的作物,生长期没有重叠。"
+        },
+        {
+          "sourceTextHash": "bf4b46d18fdb712160ac40acb63a092c33480a5e69d9c7413d7de843f6a75b16",
+          "zh": "例如小麦和玉米的双重种植。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p5-b7-d654d40": {
-      "zh": "后两种作物作为双种作物种植,与长生长期不同,例如棉花-西瓜-菜菜花,其中棉花是季节长的作物,西瓜和菜菜花在同一个条纹下生长。",
+      "zh": "中继双重作物重复种植包括一年一个包裹的三个作物,包括一个长生长期的作物和两个短生长期的作物。\n后两种作物是作为双种作物种植的,它们与长长生长期作物结合在条形间作物中。\n例如棉花-西瓜-菜菜花,其中棉花是长季作物,西瓜和菜菜花在不同的条纹下生长。",
       "sourceTextHash": "ed4f441b6c2b1788ab19f368e9515017822fd61bf3fc35e2dab9c73471e05696",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "eecd487642e8e11860dfd8c0cb99459dc599d9a9c8a03d58481906e456275ccd",
+          "zh": "中继双重作物重复种植包括一年一个包裹的三个作物,包括一个长生长期的作物和两个短生长期的作物。"
+        },
+        {
+          "sourceTextHash": "573a1f293b5eca346ece1d3ea67bda8a45df775e42a5d40886633338a62d61ac",
+          "zh": "后两种作物是作为双种作物种植的,它们与长长生长期作物结合在条形间作物中。"
+        },
+        {
+          "sourceTextHash": "0c1fcd423db4cf18a1a474127c6ca0a03358fa2d11c1e4398355721ece69567f",
+          "zh": "例如棉花-西瓜-菜菜花,其中棉花是长季作物,西瓜和菜菜花在不同的条纹下生长。"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p5-b9-8973157": {
-      "zh": "3种三作物的种植范围涵盖一年中相继种植的3种作物,例如,同一田地一年中连续种植3种卷心菜作物。",
+      "zh": "3种作物的种植范围涵盖一年来相继种植的3种作物。\n例如,一年中在同一块田地上连续三种卷心菜作物。",
       "sourceTextHash": "1ed243e3082076aea13f50f8a5b384bfbd5b5cc7f8479cd3d79ebb9b02220f8b",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f9a77af29c2ad2ea9ea1db9e1b01d708fba528423f06b3a2c330f0f5fa1816c0",
+          "zh": "3种作物的种植范围涵盖一年来相继种植的3种作物。"
+        },
+        {
+          "sourceTextHash": "c881eba2d1ba6e1b273bfc17231d54e607e0ced999cbcb555bf1f3d064976a5c",
+          "zh": "例如,一年中在同一块田地上连续三种卷心菜作物。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p5-b11-9ce80cb": {
-      "zh": "我们的数据集包括作物种植系统类型(表2)和28种作物,有两本守则作为补充文件提供。第一本《农村代码手册》数据,包括单位、说明、调查问题和村数据集变量的来源;第二本《家庭代码》和作物数据,包括农业住户数据集和作物数据集变量的单位、说明和调查问题。以下各节更详细地介绍每个数据集。",
+      "zh": "我们的数据集包括作物系统类型(表2)和28种作物。\n有两本法典作为补充文件。\n包括单位、描述、调查问题和村数据集变量的来源。\n第二,代码-书本和作物数据,包括单位、描述和农业住户数据集和作物数据集变量调查问题。\n以下各节更详细地介绍每一数据集。",
       "sourceTextHash": "5a37b6745c5301730eb5a354052acc552310815fb02c7e48d921d936818bf5e8",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f900a4cb7a1dca7cad165bba9ff47f0c5b7abf9a2074caf30cedffe89a8f3057",
+          "zh": "我们的数据集包括作物系统类型(表2)和28种作物。"
+        },
+        {
+          "sourceTextHash": "ef0ad0ccc808667550afb4d182e219a3b1a3d027945e3800dc05f3bcbe1ed991",
+          "zh": "有两本法典作为补充文件。"
+        },
+        {
+          "sourceTextHash": "28e44089ef03defc3f7864fd75d311e9e1855a0f5eefb61210ac345e48627e10",
+          "zh": "包括单位、描述、调查问题和村数据集变量的来源。"
+        },
+        {
+          "sourceTextHash": "2861a80bc5805f0012baa4aa2af02dbd304c106eb8552d6209b2c04eea569c23",
+          "zh": "第二,代码-书本和作物数据,包括单位、描述和农业住户数据集和作物数据集变量调查问题。"
+        },
+        {
+          "sourceTextHash": "420e4dfd0e84e93f2cec0ac0e82cb0ede52a054faa619e42e2c34e496f4df8ca",
+          "zh": "以下各节更详细地介绍每一数据集。"
+        }
+      ],
+      "sentenceCount": 5,
       "flags": []
     },
     "p5-b12-8df148c": {
-      "zh": "3.1. 乡村数据集",
+      "zh": "3.1.\n村数据集",
       "sourceTextHash": "8df148c9a875f3671944188c34ea134da61effbc5b7b018e3127cea339e623ae",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "33b8c6ce3d04a3d4c2885fa61630a042a9df028fbe24aef465684a204b5861c1",
+          "zh": "3.1."
+        },
+        {
+          "sourceTextHash": "2652b69e34fbe4dce7d580169b429396e02c5aa2d1814a2a07e9c6a817d1eead",
+          "zh": "村数据集"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p5-b13-bca9355": {
-      "zh": "村数据集包括342个记录,每个乡村各有1个记录和16个变量。15个变量用于构建村庄类型学,而村庄类型学的结果是第16个变量。这15个关键变量代表了三个方面:村结构(例如流行、住户数)、村内几大作物(小麦、玉米、棉花、蔬菜和石油作物)面积以及与作物生产有关的资源(如土地、可灌溉土地、与城市的距离)。7个变量来自村干部调查,其余8个变量取自年鉴[1] (表3 ) 2018年1月进行了村干部调查。这些村干部包括中国共产党(中共)分队、村监测员和会计。这些干部收集并管理村庄统计数据,因此成为主要信息来源。村干部调查的重点是乡村的天赋资源、农业生产结构(作物生产和畜牧生产)、农业污染物和农村废物管理。 只有与作物生产有关的变数才被列入村庄数据集。",
+      "zh": "村庄数据集包括342个记录,每个村在Quhou各有1个记录,还有16个变量。\n使用了15个变量来建立村庄类型,而村庄类型的结果是第16个变量。\n15个关键变数代表三个方面:村庄结构(例如,流行配给、家庭数目)、村庄内少数主要作物(小麦、玉米、棉花、蔬菜和石油作物)面积以及与作物生产有关的资源(例如,土地、可灌溉土地、与城市的距离)。\n7个变量来自乡村干部调查,其余8个变量取自年鉴[1](表3)。\n2018年1月进行了村干部调查。\n这些村干部包括中国共产党(中共)村的副区长、村长和会计。\n这些干部收集和管理乡村统计数据,因此是主要的信息来源。\n村干部调查的重点是村庄的天赋资源、农业生产结构(作物生产和畜牧生产)、农业污染物和农村废物管理。\n只有与作物生产有关的变数被列入村庄数据集。",
       "sourceTextHash": "df052169d0398d5a6e827a1b0869d867d4b766b2aa917922d668de15c4416fb7",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 2,
+      "segments": [
+        {
+          "sourceTextHash": "e10c33fe140efa5e638a5d882197de6b851d309f59ed967fcb406f552fabc002",
+          "zh": "村庄数据集包括342个记录,每个村在Quhou各有1个记录,还有16个变量。"
+        },
+        {
+          "sourceTextHash": "9a5e1e102ce9c2c512d5bbf0d25e3ed3c2acd62a5cc025d22eb9fe8c83922b26",
+          "zh": "使用了15个变量来建立村庄类型,而村庄类型的结果是第16个变量。"
+        },
+        {
+          "sourceTextHash": "22551eec5f92676500e9cb35a8e682d0347d503d3d520b73aa8dfd9153bad4be",
+          "zh": "15个关键变数代表三个方面:村庄结构(例如,流行配给、家庭数目)、村庄内少数主要作物(小麦、玉米、棉花、蔬菜和石油作物)面积以及与作物生产有关的资源(例如,土地、可灌溉土地、与城市的距离)。"
+        },
+        {
+          "sourceTextHash": "bb4e8af0714dc11a7b0cfedce5ce6258d2baa9f0f7f62c9db8aa690fc6cd3e0e",
+          "zh": "7个变量来自乡村干部调查,其余8个变量取自年鉴[1](表3)。"
+        },
+        {
+          "sourceTextHash": "5934606f093de187ed372dbde91e86836b67b1bf3d036018092dcff0ce98c965",
+          "zh": "2018年1月进行了村干部调查。"
+        },
+        {
+          "sourceTextHash": "86e9133d21da12e778539049e753173dd4c524ce77b9459338a91d10c185af6f",
+          "zh": "这些村干部包括中国共产党(中共)村的副区长、村长和会计。"
+        },
+        {
+          "sourceTextHash": "8d378964062b8224d6706dd70fda870fd68c1e6626f931ae35cc92614c3caf4f",
+          "zh": "这些干部收集和管理乡村统计数据,因此是主要的信息来源。"
+        },
+        {
+          "sourceTextHash": "ce7f7ed973d4f26f5bb2cb5ce1da397b607f1d87b47d59c7937861300381325a",
+          "zh": "村干部调查的重点是村庄的天赋资源、农业生产结构(作物生产和畜牧生产)、农业污染物和农村废物管理。"
+        },
+        {
+          "sourceTextHash": "a53459c66663c6a3b5c1622eaf7e8127bd873315b5b84d6a52897bd5acbfff6b",
+          "zh": "只有与作物生产有关的变数被列入村庄数据集。"
+        }
+      ],
+      "sentenceCount": 9,
       "flags": []
     },
     "p5-b14-eee2447": {
-      "zh": "图2显示了每个村庄用冬季小麦、玉米、棉花、棉花、棉花、蔬菜和石油作物耕种的耕地百分比,这些是奎州的主要作物,全县的作物比例差异很大,例如,只有少数村庄广泛种植蔬菜和油类作物,玉米、棉花、蔬菜和油类作物来自年鉴数据,小麦地区来源于乡村干部调查,年鉴和乡村干部数据都记录了2017年使用作物促耕信息的情况,30个村庄没有小麦面积数据,因为有12个村庄被排除在干部调查之外,因为家庭数量太多。",
+      "zh": "图2显示每个村庄用冬季小麦、玉米、棉花、蔬菜和石油作物耕种的耕地百分比,这些作物是奎州的主要作物。\n整个县的作物比例有很大差异。\n例如,只有少数村庄广泛种植植物和石油作物。\n玉米、棉花、蔬菜和石油作物领域来自年鉴数据,小麦地区来自村干部调查。\n年鉴和乡村干部数据都记录了2017年的作物促进上岗信息。\n30个村庄没有小麦面积数据,因为12个村庄被排除在干部调查之外,因为家庭数量太多",
       "sourceTextHash": "728b2ee27718bef7a311e813a14f7f5552274cd99c40b2e38072ef65ad212a10",
       "status": "machine-draft",
       "page": 5,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "93d3445777e47bb91efcfeadce40d23eacef299637243d9375b61489b7318f72",
+          "zh": "图2显示每个村庄用冬季小麦、玉米、棉花、蔬菜和石油作物耕种的耕地百分比,这些作物是奎州的主要作物。"
+        },
+        {
+          "sourceTextHash": "0a3cb85cbb0771feb779eb92d9496838f855279c1391c3e7be59de3046bd1129",
+          "zh": "整个县的作物比例有很大差异。"
+        },
+        {
+          "sourceTextHash": "55a4837d842457ffe8ab113f51d549f99295bc7acb6886337e8363ea4be5754b",
+          "zh": "例如,只有少数村庄广泛种植植物和石油作物。"
+        },
+        {
+          "sourceTextHash": "81fcd32a490657ea59fa2907246000db0f5b09917c5790e0d15f797e0897a33d",
+          "zh": "玉米、棉花、蔬菜和石油作物领域来自年鉴数据,小麦地区来自村干部调查。"
+        },
+        {
+          "sourceTextHash": "4c4852ffe627d2310140c88071b21a0c820eedefe5532668841e849ef255e4a3",
+          "zh": "年鉴和乡村干部数据都记录了2017年的作物促进上岗信息。"
+        },
+        {
+          "sourceTextHash": "d357a4f43c6a3b277074417fc293689ea9f05655b9041d830307e11d536bb8d4",
+          "zh": "30个村庄没有小麦面积数据,因为12个村庄被排除在干部调查之外,因为家庭数量太多"
+        }
+      ],
+      "sentenceCount": 6,
       "flags": []
     },
     "p6-b0-2e8a533": {
-      "zh": "6 Z. Xu、F. Li和J. Cheng等人/《第53号简报》(2024年)中的数据",
+      "zh": "6 Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "cb58ade5a7f82e520afe0595f03daabcbb4dc3789697a47158247d03562d85df",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "8e7c6ca5a8e7177e266c95fe9ac87f0bfadf70cdcbe372f13971a230f43a06d0",
+          "zh": "6 Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "77feab4b98589a336e583a9c2a0ba2d35ee64c067cdeaceeb4383036202c3316",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": [
         "numbers-check"
       ]
@@ -463,7 +1166,13 @@
       "sourceTextHash": "b40898121cf29cfd10a56eb24e7358f9b495350d1e3edf1b0f291a296762011f",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "b40898121cf29cfd10a56eb24e7358f9b495350d1e3edf1b0f291a296762011f",
+          "zh": "表3 乡村数据集变量。"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b2-92569dd": {
@@ -471,15 +1180,27 @@
       "sourceTextHash": "a3ea0d2261e999580e455d5043f68f4779e80d9067aa040379db21d739542455",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "a3ea0d2261e999580e455d5043f68f4779e80d9067aa040379db21d739542455",
+          "zh": "可变单位"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b3-029992d": {
-      "zh": "小农户耕地占小农场经营的可耕地占可耕地总面积的百分比",
+      "zh": "小农户耕地百分比 小农户经营的可耕地占可耕地总面积的百分比",
       "sourceTextHash": "cb5520c98403c15c2e8bfbb3f0ea93e578bda7de631f9442f09b0bd9c2ebadbf",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "cb5520c98403c15c2e8bfbb3f0ea93e578bda7de631f9442f09b0bd9c2ebadbf",
+          "zh": "小农户耕地百分比 小农户经营的可耕地占可耕地总面积的百分比"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b4-8f58b90": {
@@ -487,15 +1208,27 @@
       "sourceTextHash": "8f58b907f2623960bf8816486faf5e4bb2b3ad484d5b17436d983b261d0a2c08",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "8f58b907f2623960bf8816486faf5e4bb2b3ad484d5b17436d983b261d0a2c08",
+          "zh": "村干部调查"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b5-95acfb1": {
-      "zh": "农村干部调查耕地面积,冬季小麦占可耕地面积的百分率(%) 灌溉土地(包括良好的灌溉和地表水灌溉)占总耕地的百分比%",
+      "zh": "《乡村干部调查耕地面积,冬季小麦占可耕地面积的百分率(%) 灌溉用地百分比%%% 灌溉用地(包括良好的灌溉和地表水灌溉)占总耕地的百分比%",
       "sourceTextHash": "c7aae664db5f4b1046b10c441b641e29dabb1118d22c3d1128525f6df97fa4e1",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "c7aae664db5f4b1046b10c441b641e29dabb1118d22c3d1128525f6df97fa4e1",
+          "zh": "《乡村干部调查耕地面积,冬季小麦占可耕地面积的百分率(%) 灌溉用地百分比%%% 灌溉用地(包括良好的灌溉和地表水灌溉)占总耕地的百分比%"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": [
         "numbers-check"
       ]
@@ -505,15 +1238,27 @@
       "sourceTextHash": "3ce0ea91e1e6c3e72f2585ed56cf41b1523e80a54943f4219e084cd949e53211",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "3ce0ea91e1e6c3e72f2585ed56cf41b1523e80a54943f4219e084cd949e53211",
+          "zh": "《年鉴年鉴》"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b7-b4fea60": {
-      "zh": "农场外劳动比率% 非农场外劳动与总劳动力的比率",
+      "zh": "农场外劳动比率% 非农场外劳动与总劳动力之比",
       "sourceTextHash": "7cea7453a51661f41d04fd0816615c1c286428d93cf6ac7b428299be5c2e5c44",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "7cea7453a51661f41d04fd0816615c1c286428d93cf6ac7b428299be5c2e5c44",
+          "zh": "农场外劳动比率% 非农场外劳动与总劳动力之比"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b8-8f58b90": {
@@ -521,7 +1266,13 @@
       "sourceTextHash": "8f58b907f2623960bf8816486faf5e4bb2b3ad484d5b17436d983b261d0a2c08",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "8f58b907f2623960bf8816486faf5e4bb2b3ad484d5b17436d983b261d0a2c08",
+          "zh": "村干部调查"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b9-c6476ab": {
@@ -529,7 +1280,13 @@
       "sourceTextHash": "7319f5f0ca6b8be08e3644ead2f74d5643839dfc09e6402e5f3b36d8943c0f5f",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "7319f5f0ca6b8be08e3644ead2f74d5643839dfc09e6402e5f3b36d8943c0f5f",
+          "zh": "平均收入 1"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b10-3450a2a": {
@@ -537,15 +1294,27 @@
       "sourceTextHash": "3450a2ac6c694e927f4f2456fbb015842b9c344294107c0a80e23378932d3cf9",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "3450a2ac6c694e927f4f2456fbb015842b9c344294107c0a80e23378932d3cf9",
+          "zh": "年份-1"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b11-9377782": {
-      "zh": "每年人均平均净收入年平均净人均收入",
+      "zh": "每年人均平均净收入年平均净收入",
       "sourceTextHash": "f4dfdf723336b152b11a8533b3b1236a80c534e63b47dbd59cb46c7427364c13",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f4dfdf723336b152b11a8533b3b1236a80c534e63b47dbd59cb46c7427364c13",
+          "zh": "每年人均平均净收入年平均净收入"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b12-c8126c3": {
@@ -553,7 +1322,13 @@
       "sourceTextHash": "03bbab797fb14baa850fb22c3acdd98694a47502511d0816523d884825b4caa5",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "03bbab797fb14baa850fb22c3acdd98694a47502511d0816523d884825b4caa5",
+          "zh": "从村委员会到Quzhou市委员会的公路距离"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b13-8f58b90": {
@@ -561,15 +1336,31 @@
       "sourceTextHash": "8f58b907f2623960bf8816486faf5e4bb2b3ad484d5b17436d983b261d0a2c08",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "8f58b907f2623960bf8816486faf5e4bb2b3ad484d5b17436d983b261d0a2c08",
+          "zh": "村干部调查"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b14-4080f95": {
-      "zh": "从村委会到公路网的距离,包括多条高速公路在内的公路网是一个连接城市和农村地区的交通网络。",
+      "zh": "从村委会到公路网的距离。\n公路网包括多条公路,是连接城市和农村地区的交通网络。",
       "sourceTextHash": "8430dccb23dbedb073fee3e58da0639def3bc1c55346d1e340e1d6ba22f7f0c0",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "8cb04ed0132378787be685d9ea4c4406f59ff5f07a8a9b6e1c3b06124ca87cd3",
+          "zh": "从村委会到公路网的距离。"
+        },
+        {
+          "sourceTextHash": "536b0161437ffc6671df8f347bed7723f2610664ec69e2616c84f064a004a7b9",
+          "zh": "公路网包括多条公路,是连接城市和农村地区的交通网络。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p6-b15-8f58b90": {
@@ -577,125 +1368,357 @@
       "sourceTextHash": "8f58b907f2623960bf8816486faf5e4bb2b3ad484d5b17436d983b261d0a2c08",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "8f58b907f2623960bf8816486faf5e4bb2b3ad484d5b17436d983b261d0a2c08",
+          "zh": "村干部调查"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p6-b16-6a43465": {
-      "zh": "1 小麦和玉米通常以双作物顺序耕种,因此,如果用小麦和双作物种植土地,一年可以耕种两次。 由于种植的作物有两倍甚至三倍,因此,作物的百分比可达100%以上。",
+      "zh": "1 小麦和玉米通常以双作物顺序种植。\n因此,如果用小麦和玉米双种耕种土地,土地一年可以耕种两次。\n由于存在双倍甚至三倍的作物种植,作物百分比可达100%以上。",
       "sourceTextHash": "f1569c29379d53992f67a208780dd78aba2cac032412bad6c75ed66d94f43894",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "312ecca3445288baa139417a20257b83487d3065377a6e873bc071a327eede46",
+          "zh": "1 小麦和玉米通常以双作物顺序种植。"
+        },
+        {
+          "sourceTextHash": "bf1c5478c01239ede1647245fb85060d9285adb2e0e4bbdf9a784c5b11c8f27c",
+          "zh": "因此,如果用小麦和玉米双种耕种土地,土地一年可以耕种两次。"
+        },
+        {
+          "sourceTextHash": "ff9f6ed4a761b003fbaf5e8d3a69efdbee36d2e9ad510fdb0654abd73bd8d2cd",
+          "zh": "由于存在双倍甚至三倍的作物种植,作物百分比可达100%以上。"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p6-b17-6357f24": {
-      "zh": "另有18份调查问卷因质量低而被排除在外。",
+      "zh": "小型(100岁以下),或由于高度城市化。\n另有18份问卷因质量低而被排除在外。",
       "sourceTextHash": "23196ec7b6eb353431183aa34e4994dc996067196a039e8dc4c8f40deb755c45",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "56a28f808e2736426f54d12b6faceb92b6ca8b7d36eda43632e9212f52325d26",
+          "zh": "小型(100岁以下),或由于高度城市化。"
+        },
+        {
+          "sourceTextHash": "f0ef8cc6a2dd5c415b348e17559c292aff8b4ae20b170130a8a02d62d2698079",
+          "zh": "另有18份问卷因质量低而被排除在外。"
+        }
+      ],
+      "sentenceCount": 2,
+      "flags": []
     },
     "p6-b18-cd871fc": {
-      "zh": "3.2. 农场住户数据集",
+      "zh": "3.2.\n农场住户数据集",
       "sourceTextHash": "cd871fc82068605f5c7e7ab2c84e942eb347ff7dbed69bbb8a422599aa0e7c54",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "78b575adc9df4b69b0cf151a5b430cd829f10293e5dde53432635afab7686f82",
+          "zh": "3.2."
+        },
+        {
+          "sourceTextHash": "812d0a9ad5c7587591bb46a3d788744ffc2e663edf3d4b1932219cba5de26823",
+          "zh": "农场住户数据集"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p6-b19-03bab75": {
-      "zh": "2020年7月在奎州县收集的农户数据包含505份记录,包括486个小农场、14个家庭农场和5个合作农场的数据;向所有农场决策者亲自发放了结构化问卷,以收集一年作物生产活动数据(2019年6月至2020年6月);调查表有四个部分;对调查问卷第一部分问题的答复导致60栏数据资料的生成;人口信息分为两部分:第一部分是所有持家成员的信息,包括家庭成员人数、年龄和性别、职业以及非农收入;第二部分是关于农业决策人的信息,我们询问他们的耕作经验和受教育年数;第二部分问题的回答分为17栏,说明了资源,如土地分配和自有机械。农场资源包括分配的土地、1个出租土地、2个",
+      "zh": "农场住户数据集报告农场一级的数据,于2020年7月在Quhou县收集。\n家庭数据包含505个记录,包括486个小农户、14个家庭农场和5个合作社农场的数据。\n向所有农场决策者发放了结构化问卷,以便在一年作物种植周期(2019年6月至2020年6月)收集作物生产活动数据。\n调查表有四个部分。\n对调查表第一部分中问题的答复导致生成的数据档案有60栏。\n人口资料分为两部分。\n第一部分是所有持家成员的资料,包括家庭成员人数、年龄和性别、职业和非农收入。\n第二个分部分是关于作出农业决策的人的信息,我们询问了他们的农业经验以及受教育年限。\n对第二部分问题的答复产生了17个栏目,说明了土地分配和自有机械等资源。\n农场资源包括分配的土地、1个出租土地、2个",
       "sourceTextHash": "cc62305c93b44e482cdc8bad77059c21e009f379bd34790671790e2641f6b96f",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 2,
+      "segments": [
+        {
+          "sourceTextHash": "d15d72e9f20e33ba32ea2297d45b482bf6e99d8b5eed21d58354597215a0cc48",
+          "zh": "农场住户数据集报告农场一级的数据,于2020年7月在Quhou县收集。"
+        },
+        {
+          "sourceTextHash": "49309d2dab13fcca266ed9e8c0a0dc379bb49fe88fc368b51d017b8f12579bb5",
+          "zh": "家庭数据包含505个记录,包括486个小农户、14个家庭农场和5个合作社农场的数据。"
+        },
+        {
+          "sourceTextHash": "69f3de7c84da0b2888604a8ea662fc54a743f2e00351f33d6a8e53ac8354bf5f",
+          "zh": "向所有农场决策者发放了结构化问卷,以便在一年作物种植周期(2019年6月至2020年6月)收集作物生产活动数据。"
+        },
+        {
+          "sourceTextHash": "8c17915cabebdd5e52551023a7ddaae01c4bf854708ddb5b95172bdd2a864330",
+          "zh": "调查表有四个部分。"
+        },
+        {
+          "sourceTextHash": "47321e6432ba7c78e580e70b4d0f9052299b016f2bf259779e0fd7fc944df14e",
+          "zh": "对调查表第一部分中问题的答复导致生成的数据档案有60栏。"
+        },
+        {
+          "sourceTextHash": "bce319b6544562b08bc50b71783016e56614c8951e0f7697bd2fd97c74919ce5",
+          "zh": "人口资料分为两部分。"
+        },
+        {
+          "sourceTextHash": "c265303e1ccb0553f02cb06dbf04f4cdced7fd25fda981ec08cc71766fc388e9",
+          "zh": "第一部分是所有持家成员的资料,包括家庭成员人数、年龄和性别、职业和非农收入。"
+        },
+        {
+          "sourceTextHash": "1553cf5eeb60e3be669d62f199d9beb11521048ca665d6f05cd883478a340dc5",
+          "zh": "第二个分部分是关于作出农业决策的人的信息,我们询问了他们的农业经验以及受教育年限。"
+        },
+        {
+          "sourceTextHash": "d31bb6e72639e46ef14c1da2888fe5ec839853e1fd8b875a65f7ea110a6ce95c",
+          "zh": "对第二部分问题的答复产生了17个栏目,说明了土地分配和自有机械等资源。"
+        },
+        {
+          "sourceTextHash": "4e3fa5476a02c88c53e21d2aa012c7595a63443a66e9a9794d3444a00931db3d",
+          "zh": "农场资源包括分配的土地、1个出租土地、2个"
+        }
+      ],
+      "sentenceCount": 10,
       "flags": []
     },
     "p6-b20-60669ce": {
-      "zh": "1 在中国,农村土地由村民集体拥有,所有耕地按比例分配给农村人口使用。",
+      "zh": "1 在中国,农村土地由村民集体拥有,所有耕地按比例分配给农村人口使用。\n这块耕地是分配的土地。",
       "sourceTextHash": "e4eee4f56d28b03a34777574e418db4d6ce4f0167d51e19fda85880eed7e1761",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "50ca01318a30adf36ea0969a025f319455a445d1aa90eb2c823493e0347fee06",
+          "zh": "1 在中国,农村土地由村民集体拥有,所有耕地按比例分配给农村人口使用。"
+        },
+        {
+          "sourceTextHash": "973fb1f784b2c5976d03aa9f4af63ee623ec2ff9d89975d06ad445ebcc02c5ad",
+          "zh": "这块耕地是分配的土地。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p6-b21-f3e9a6d": {
-      "zh": "2 有些村民选择不管理部分或全部分配的耕地,例如由于他们的年龄,为了赚取收入而出租土地。",
+      "zh": "2 有些村民选择不管理部分或全部分配的耕地,例如由于年龄的原因,为了赚取收入而出租土地。\n这块耕地是出租土地",
       "sourceTextHash": "e78ad21f6dc8a69845f71a684bce36b23f49be33b4fb431573b68519189c4994",
       "status": "machine-draft",
       "page": 6,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "d349699ec7346d8cac5fb3feb3991aa815ec3088f3cdbbd8830fa33fbdb4f880",
+          "zh": "2 有些村民选择不管理部分或全部分配的耕地,例如由于年龄的原因,为了赚取收入而出租土地。"
+        },
+        {
+          "sourceTextHash": "14e4763a6d0dbe0ac433193a77812681e4252f0c0bbc32acc16dcab9416ba241",
+          "zh": "这块耕地是出租土地"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p7-b0-2ed8d22": {
-      "zh": "Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)数据 110269 7",
+      "zh": "Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024) 110269 7",
       "sourceTextHash": "dd186dca0be1717ec377a46abf4e76824d787a1be293a4b11d88cabcc7b823e4",
       "status": "machine-draft",
       "page": 7,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "711008aa877f86a3464029d52a8a5813872ffb264f1a422657c3ac186ddcf3ca",
+          "zh": "Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "c2525a1d33c066ce13b3c15e8498db213ac704a64500a152f88109a5675f864b",
+          "zh": "Cheng等人/数据简况53(2024)(2024) 110269 7"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": []
     },
     "p7-b2-f62b58b": {
-      "zh": "图2. 奎州可耕地中种植不同作物的百分比:(a) 小麦,(b) 玉米,(c) 棉花,(d) 蔬菜和(e) 油类作物;在奎州,典型的石油作物是花生、大豆和以向日葵为生的石油;注意到小麦和玉米主要在冬季小麦双种种植系统中种植。",
+      "zh": "Fig. 2.\n奎州可耕地中种植不同作物的百分比:(a)小麦,(b)玉米,(c)棉花,(d)蔬菜,(e)石油作物。\n在奎州,典型的石油作物是花生、大豆和为石油而种植的向日葵。\n请注意,小麦和玉米主要在冬季小麦和玉米双种种植系统中种植。",
       "sourceTextHash": "8af8d63fb360e2978e5ea1dabbf472666c5cc2b3b38faf84e49808d2a34aa704",
       "status": "machine-draft",
       "page": 7,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "2dda3a94576d223bd075e7cd2b3de82cf2e145df636a3a06db5ba23faee92698",
+          "zh": "Fig. 2."
+        },
+        {
+          "sourceTextHash": "868d7008cf6e4770bbe1cf47c769fafb97f95c0bf83823b04524fd2eba8a0b2c",
+          "zh": "奎州可耕地中种植不同作物的百分比:(a)小麦,(b)玉米,(c)棉花,(d)蔬菜,(e)石油作物。"
+        },
+        {
+          "sourceTextHash": "c9ea7e8b6d5c190fccd558d726107ccb53c4cf34c135af9bfb58ac79be3c3b21",
+          "zh": "在奎州,典型的石油作物是花生、大豆和为石油而种植的向日葵。"
+        },
+        {
+          "sourceTextHash": "1d3f29338697fb9fd5204812abe40f8ad06f742ab4d38fac3ea313bb31a662cf",
+          "zh": "请注意,小麦和玉米主要在冬季小麦和玉米双种种植系统中种植。"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": []
     },
     "p7-b3-497983e": {
-      "zh": "第三部分提供了作物种植的详细投入-产出清单,包括864栏。此外,第四部分载有与作物生产有关的补贴和土地租赁数据。这一部分的问题有9栏。调查结果显示,农民使用五种一年耕作制度:单一作物、中继作物、双季作物、继式作物、继式作物和三季作物(表2)。在我们抽样的面积中,双季作物和单季作物分别占54%和44%,其他三种作物种植系统占小面积的百分比。在我们的数据集中,主要的两季作物是小麦作物的双重作物(51%的地区)。单一作物种植的主要作物是棉花(占总面积的23%)。",
+      "zh": "每个种植系统租3块土地。\n包括864栏的第三部分提供了作物生产投入产出的详细清单。\n此外,第四部分还包括与作物生产有关的补贴和土地租赁数据。\n这一部分的问题有9栏。\n调查结果显示,农民使用了五类一年作物种植制度:单一作物种植、中继间植、双重作物种植、继继双作物种植和三重作物种植(表2)。\n在我们的抽样中,双种作物和单种作物分别占54%和44%左右,其他三种作物系统占很小的比例。\n在我们的数据集中,主要的双种作物是小麦和玉米双种作物(占面积的51%)。\n单一作物种植的主要作物是棉花(占总面积23%)。",
       "sourceTextHash": "619ea9167bc506ea8b0aab53c1b8974fd686acd61d9ed7b2f2a792edcd5fd611",
       "status": "machine-draft",
       "page": 7,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f10f6d24db9ed11fd5628b97350d0c8819731185af6d560f6919f4038e2db61d",
+          "zh": "每个种植系统租3块土地。"
+        },
+        {
+          "sourceTextHash": "c8262c3a2d3cf35f0839d7746d14a70d228dc5e639466f90187cd74c1bdd2989",
+          "zh": "包括864栏的第三部分提供了作物生产投入产出的详细清单。"
+        },
+        {
+          "sourceTextHash": "8644b8ff572c89061efb8eb1ca18d387da2dc18798f240134f3621b0608f1983",
+          "zh": "此外,第四部分还包括与作物生产有关的补贴和土地租赁数据。"
+        },
+        {
+          "sourceTextHash": "52f869677584e8b762be2a6b4fd21e22ada87aa623d22471ec35c8e498ff3d55",
+          "zh": "这一部分的问题有9栏。"
+        },
+        {
+          "sourceTextHash": "099f4e7e484351f3a72d42b102ddd1b0a55e30a04caabb470b20bf5e47311dc6",
+          "zh": "调查结果显示,农民使用了五类一年作物种植制度:单一作物种植、中继间植、双重作物种植、继继双作物种植和三重作物种植(表2)。"
+        },
+        {
+          "sourceTextHash": "088457b523651c41b331ceb347da02a4c79dc7f390f8d3aab4752bc29327d8c3",
+          "zh": "在我们的抽样中,双种作物和单种作物分别占54%和44%左右,其他三种作物系统占很小的比例。"
+        },
+        {
+          "sourceTextHash": "4bcdd47612dd830eefe54a16d5680c5cbbf194d7b6862d58f415f0eaf0abb36a",
+          "zh": "在我们的数据集中,主要的双种作物是小麦和玉米双种作物(占面积的51%)。"
+        },
+        {
+          "sourceTextHash": "5e6145c80cc70efef6ba01bca437700ac155570a7cb4a611201756f73fe348f5",
+          "zh": "单一作物种植的主要作物是棉花(占总面积23%)。"
+        }
+      ],
+      "sentenceCount": 8,
       "flags": [
         "numbers-check"
       ]
     },
     "p7-b4-d4508cb": {
-      "zh": "表4说明了家庭和决策者的重要社会经济特征,商业农场的家庭成员数量有13个缺失值,因为这些农场不是由家庭经营的,是由几个家庭经营的。",
+      "zh": "表4说明了家庭和决策者的重要社会经济特征。\n商业农场的家庭成员数量少了13种价值,因为这些农场不是由家庭经营的,是由几个家庭经营的。",
       "sourceTextHash": "497de9e6fb20e2157a3f54ad1ed24983a26dc502a1b006d832a1f46def494bb1",
       "status": "machine-draft",
       "page": 7,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "0f98b251ac1441b07c4bbc3c8ed0e15c7564c2a55f8be9e6fac0e8678194c543",
+          "zh": "表4说明了家庭和决策者的重要社会经济特征。"
+        },
+        {
+          "sourceTextHash": "848e78b73abd2dc2198b19edb48acdb20ae18e7bc07dd41183a1595159544fe5",
+          "zh": "商业农场的家庭成员数量少了13种价值,因为这些农场不是由家庭经营的,是由几个家庭经营的。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p7-b5-1a6f140": {
-      "zh": "图3显示了调查答卷人报告的农场面积分布情况,其中显示抽样农场的平均农场面积为每个农场1.23公顷,中位农场面积为每个农场0.67公顷。",
+      "zh": "图3显示调查答卷人报告的农场面积分布情况。\n调查显示,抽样农场的平均农场面积为每家农场1.23公顷,中位农场面积为每家农场0.67公顷。\n小农农场的平均农场面积为每农场0.71公顷,中位数是",
       "sourceTextHash": "cb8e7e64b6769f27b0f3a0850df5ea82601907347ae998830a9c6f4728a0cbad",
       "status": "machine-draft",
       "page": 7,
-      "chunks": 1,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "8404a2f3a9163c57fdfc22c07fd48d754f639ec78f4c8f43aaefccd6403eea98",
+          "zh": "图3显示调查答卷人报告的农场面积分布情况。"
+        },
+        {
+          "sourceTextHash": "d6cde9c867521183533461504fd59be7f7acd934bb41ab497ae7ec5dcad361e5",
+          "zh": "调查显示,抽样农场的平均农场面积为每家农场1.23公顷,中位农场面积为每家农场0.67公顷。"
+        },
+        {
+          "sourceTextHash": "54c25d1517c4ff96449b30d792bd161ca724baf9dfd076c0dabb2828bd7a91d5",
+          "zh": "小农农场的平均农场面积为每农场0.71公顷,中位数是"
+        }
+      ],
+      "sentenceCount": 3,
+      "flags": []
     },
     "p7-b6-3a8c2c8": {
-      "zh": "3 一些村民想扩大其耕地以赚取更多的收入,他们从其他村民那里租用耕地,这块耕地是租来的。",
+      "zh": "3 一些村民想扩大耕地以赚取更多的钱。\n他们从其他村民那里租取耕地。\n这块耕地是租来的地",
       "sourceTextHash": "9970d4465e58e61eae8780f952d7cd2e049e84af757b9df830c126a10c1e3ebb",
       "status": "machine-draft",
       "page": 7,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "db84f929d7be362150001f7de81c3b0bd7de863a7553474012b2c45b263bca90",
+          "zh": "3 一些村民想扩大耕地以赚取更多的钱。"
+        },
+        {
+          "sourceTextHash": "c0dccb155b73b172a2fdde57dc1c587c17c110ef8472977cb34be1f3ec32ab55",
+          "zh": "他们从其他村民那里租取耕地。"
+        },
+        {
+          "sourceTextHash": "3cb67ca9711b0d92b89be6d92f777d5e2ade54caa670498877848f7311f7044e",
+          "zh": "这块耕地是租来的地"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p8-b0-2d7c7ee": {
-      "zh": "8 Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)中的数据 110269",
+      "zh": "8 Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "e821e4da072fcb5d978e28a862db32a4de4169ab0c404d853f77a4afc4ad0852",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "da9afc8740328c70a14a3cb58b8964179f8b3ca9a8e522cd4d52887ca66853f8",
+          "zh": "8 Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "77feab4b98589a336e583a9c2a0ba2d35ee64c067cdeaceeb4383036202c3316",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p8-b1-25ce852": {
       "zh": "表4 答卷人的社会经济特征。",
       "sourceTextHash": "9190ae8af2c77a7e84d22389cfcb70e75e7712638680f2fefe84b8de3e7ac458",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "9190ae8af2c77a7e84d22389cfcb70e75e7712638680f2fefe84b8de3e7ac458",
+          "zh": "表4 答卷人的社会经济特征。"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p8-b2-2dcfadc": {
@@ -703,7 +1726,13 @@
       "sourceTextHash": "32dc798dd91cbdf1c7d4d47d67b4ecdcc05bf3a7cd171ff573283dfc164a8579",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "32dc798dd91cbdf1c7d4d47d67b4ecdcc05bf3a7cd171ff573283dfc164a8579",
+          "zh": "可变类别 频率(有效百分比)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p8-b3-5ccb9e5": {
@@ -711,7 +1740,13 @@
       "sourceTextHash": "61b94f4bd950b8dd983f4f38f463c184c367a67b4cf3e8b15dd91e039613319d",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "61b94f4bd950b8dd983f4f38f463c184c367a67b4cf3e8b15dd91e039613319d",
+          "zh": "有效失踪"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p8-b4-db07d98": {
@@ -719,35 +1754,57 @@
       "sourceTextHash": "82483990039c01f60531b2005e6c01a935f6b724622e4939c41f67fc668f49dc",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "82483990039c01f60531b2005e6c01a935f6b724622e4939c41f67fc668f49dc",
+          "zh": "家庭规模1-5 366(74.4%) 492(97.4%)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p8-b5-a3723a7": {
-      "zh": "13(2.6%) 6-10 124(25.2%) (25.2%) 在10.2以上(0.4%)",
+      "zh": "13(2.6%) 6-10 124 (25.2%) (25.2%) 超过 10 2 (0.4%) (0.4%) 参加非农务 272(53.9%) 505 (100.0%)",
       "sourceTextHash": "2a6820afdc5f01007b154b983ff03a0c17d0925413b2ed574b1b45c88338dbfa",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "2a6820afdc5f01007b154b983ff03a0c17d0925413b2ed574b1b45c88338dbfa",
+          "zh": "13(2.6%) 6-10 124 (25.2%) (25.2%) 超过 10 2 (0.4%) (0.4%) 参加非农务 272(53.9%) 505 (100.0%)"
+        }
+      ],
+      "sentenceCount": 1,
+      "flags": []
     },
     "p8-b6-4895d7e": {
-      "zh": "男性374(74.0%) 505 (100.0%)",
+      "zh": "男性374(74.0%) 505(100.0%)",
       "sourceTextHash": "8fd4466562a104488f68cb2eaaee9718b352b075b533c286721fe0ce0922cff4",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "8fd4466562a104488f68cb2eaaee9718b352b075b533c286721fe0ce0922cff4",
+          "zh": "男性374(74.0%) 505(100.0%)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": [
         "numbers-check"
       ]
     },
     "p8-b7-8541585": {
-      "zh": "131(26.0%) 年龄青年(18-35岁)(18-35岁) 6(1.2%) 505 (10.0%)",
+      "zh": "131(26.0%) 年龄青年(18-35岁)(18-35岁) 6(1.2%) 505(10.0%)",
       "sourceTextHash": "f44d9311ec2e4e710cb7746dfabdff0cde7803e9f3ad5fdc57688539c59a994d",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f44d9311ec2e4e710cb7746dfabdff0cde7803e9f3ad5fdc57688539c59a994d",
+          "zh": "131(26.0%) 年龄青年(18-35岁)(18-35岁) 6(1.2%) 505(10.0%)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": [
         "numbers-check"
       ]
@@ -757,27 +1814,53 @@
       "sourceTextHash": "7dc84063eb440c16b8afe3cf1bbac83f6ba98261e39f78b321972eaf75bd0ff3",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "7dc84063eb440c16b8afe3cf1bbac83f6ba98261e39f78b321972eaf75bd0ff3",
+          "zh": "(0.0 %) 成人(36-60) 24 8 (49.1%) 老年人(大于60) 251 (49.7%) 教育水平不受教育 137 (27.1%) 505 (100.0%)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": [
         "numbers-check"
       ]
     },
     "p8-b9-05e49cb": {
-      "zh": "小学146(0.0%) 小学146(28.9%) 中学172(34.1%) 中学46(34.1%) 高中46(9.1%) 学士4 (0.8%) 农业经验1-10 25(4.9%) 505(10.0%)",
+      "zh": "小学146(0.0%) 小学146(28.9%) 中学172(34.1%) 中学46(34.1%) 高中46(9.1%) 学士4 (0.8%) 农业经验1-10 25(4.9%) 505(100.0%)",
       "sourceTextHash": "2df74df6531db369148612feb3b1e75e7dd9507810176bb7f0e751730b783fa8",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "2df74df6531db369148612feb3b1e75e7dd9507810176bb7f0e751730b783fa8",
+          "zh": "小学146(0.0%) 小学146(28.9%) 中学172(34.1%) 中学46(34.1%) 高中46(9.1%) 学士4 (0.8%) 农业经验1-10 25(4.9%) 505(100.0%)"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": [
         "numbers-check"
       ]
     },
     "p8-b11-af0ea3f": {
-      "zh": "表5 拥有1个、2个、3个或3个以上耕作系统的农场数量,每个案例的表格列出了农场中具体耕作系统(种植)的数量,例如,212个农场有两种耕作系统,174个农场有棉花,191个农场有冬季小麦种植双重作物。",
+      "zh": "表5 拥有一、二、三或三个以上耕作系统的农场数目。\n对于每种情况,表格列出了农场中存在的具体作物种植系统(树)的几例。\n例如,在212个农场中,有两种种植系统,174个农场有棉花,191个农场有冬季小麦和玉米双种种植。",
       "sourceTextHash": "c6c467478dff34306200df2f72376a68322057557e9813e588f551864b693f60",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "3b4db33395f3ea7f7f7eed9df87c8e1256458f36b7b37693189116210bf1d713",
+          "zh": "表5 拥有一、二、三或三个以上耕作系统的农场数目。"
+        },
+        {
+          "sourceTextHash": "034c139f7eff6b3e7ce3556609b9f155315d900134e2a331038d085ec041b001",
+          "zh": "对于每种情况,表格列出了农场中存在的具体作物种植系统(树)的几例。"
+        },
+        {
+          "sourceTextHash": "0b2a0e7b7face9f38a97b9c308ec33ac4288ef05889319e297f2af7dc6c2add6",
+          "zh": "例如,在212个农场中,有两种种植系统,174个农场有棉花,191个农场有冬季小麦和玉米双种种植。"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p8-b12-99478c7": {
@@ -785,7 +1868,13 @@
       "sourceTextHash": "99478c73db4ccbdbd9ac90fa32a36c92e0d8c58421665d307c594b5cb075a749",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "99478c73db4ccbdbd9ac90fa32a36c92e0d8c58421665d307c594b5cb075a749",
+          "zh": "裁剪系统"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p8-b13-b9603af": {
@@ -793,303 +1882,1021 @@
       "sourceTextHash": "b9603af34e0a37bd097346af72747b1f8f8a93793ba3a0afc5e8bab1aa43b82a",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "b9603af34e0a37bd097346af72747b1f8f8a93793ba3a0afc5e8bab1aa43b82a",
+          "zh": "每个农场耕作系统的数目"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p8-b16-2daca2f": {
-      "zh": "棉花 28 174 37 11 STEvia 棉花 28 174 37 11 斯捷维亚 4 17 11 5 Chili 3 5 5 9 6 马依 4 10 2 3 蔬菜 10 2 植物 20 2 6 2 其他单一作物 2 8 8 8 6 棉花/豆豆 10 6 棉花/米豆 0 5 棉花/西瓜",
+      "zh": "棉花 28 174 37 11 11 斯捷维亚 4 17 11 5 Chili 3 5 5 9 6 马依 4 10 2 3 蔬菜 4 10 2 3 蔬菜 20 2 其它单种 作物 2 8 8 8 6 棉花/豆豆豆 0 6 棉花/豆豆 10 1 冬季小麦和玉米 186 0 1 1 1 冬季小麦和玉米 186 191 37 12 蔬菜 -- 蔬菜 -- 蔬菜 -- 蔬菜 -- 蔬菜 -- -- 0 3 1 其它双种作物 0 6 5 8 重复双种作物 0 0 3 蔬菜 -- -- 蔬菜 -- 蔬菜 -- 1 13 7 蔬菜 -- 蔬菜 -- 蔬菜 -- -- 蔬菜 -- 0 3 0 零",
       "sourceTextHash": "b7956dd02d29e1c86c35306955640bbcbd4b7217fb372922d7a04a8eaf452e90",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "b7956dd02d29e1c86c35306955640bbcbd4b7217fb372922d7a04a8eaf452e90",
+          "zh": "棉花 28 174 37 11 11 斯捷维亚 4 17 11 5 Chili 3 5 5 9 6 马依 4 10 2 3 蔬菜 4 10 2 3 蔬菜 20 2 其它单种 作物 2 8 8 8 6 棉花/豆豆豆 0 6 棉花/豆豆 10 1 冬季小麦和玉米 186 0 1 1 1 冬季小麦和玉米 186 191 37 12 蔬菜 -- 蔬菜 -- 蔬菜 -- 蔬菜 -- 蔬菜 -- -- 0 3 1 其它双种作物 0 6 5 8 重复双种作物 0 0 3 蔬菜 -- -- 蔬菜 -- 蔬菜 -- 1 13 7 蔬菜 -- 蔬菜 -- 蔬菜 -- -- 蔬菜 -- 0 3 0 零"
+        }
+      ],
+      "sentenceCount": 1,
+      "flags": []
     },
     "p8-b17-939ae95": {
-      "zh": "每家农场0.63公顷。 商业农场的平均农场面积为每家农场14.5公顷,中位数为每家农场13.3公顷。 505家农场中有86家(17%)将耕地租给了其他人,22%的农场从其他农场租给了农田。",
+      "zh": "每个农场0.63公顷。\n商业农场的平均农场面积为每个农场14.5公顷,中位数为每个农场13.3公顷。\n505个农场中有86个(17%)将耕地租给其他人,22%的农场从其他农场租给农田。",
       "sourceTextHash": "898106508f1c5d1ffe8452b01c87c9f1d0622285ff2a87ad43f4930a7670619c",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "e798b94bf491a3eb140c496935d6f124f5d50115c9f489e612c2a516dae6ac62",
+          "zh": "每个农场0.63公顷。"
+        },
+        {
+          "sourceTextHash": "2166acf0f77311d750f0c6623c6dd1253a273db64857edc7f5caefc14a68547c",
+          "zh": "商业农场的平均农场面积为每个农场14.5公顷,中位数为每个农场13.3公顷。"
+        },
+        {
+          "sourceTextHash": "7763bff0aa2843d36bf228affdb2e9ba0184fce8ce90f3530fcb786cbeb320a5",
+          "zh": "505个农场中有86个(17%)将耕地租给其他人,22%的农场从其他农场租给农田。"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p8-b18-224a30a": {
-      "zh": "表5列出了每个农场种植的作物系统的数量,并列举了耕作制度。45%的农场只种植了一种作物系统,通常是小麦和玉米的双种作物。在505个农场中,共有212个种植了两种作物系统,其中小麦-玉米的双种作物和棉花是最常用的。",
+      "zh": "表5列出了每个农场种植的耕作系统的数量,并列出了耕作系统。\n45%的农场只种植一种作物,通常是小麦和玉米的双种作物。\n在505个农场中,共有212个种植了两种耕作系统,最常用的是小麦玉米双种作物和单一棉花。\n在12%的农场,",
       "sourceTextHash": "5d2b77335e131ba9e22e50a58a4aefe9d20262e10b603136c882c03b1aaf01df",
       "status": "machine-draft",
       "page": 8,
-      "chunks": 1,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "1cc690ebaa4c61454ea3191984896f3836277418925c3559411ce325031cd253",
+          "zh": "表5列出了每个农场种植的耕作系统的数量,并列出了耕作系统。"
+        },
+        {
+          "sourceTextHash": "1ca52e0ad1f3b1cc2260b66ec60baf561d43968d758d14db1a54c170fb8f5ee1",
+          "zh": "45%的农场只种植一种作物,通常是小麦和玉米的双种作物。"
+        },
+        {
+          "sourceTextHash": "34fb96c3f9d7b79cff9051580febbf992f7a00d9cb6b053bfd84452898a87799",
+          "zh": "在505个农场中,共有212个种植了两种耕作系统,最常用的是小麦玉米双种作物和单一棉花。"
+        },
+        {
+          "sourceTextHash": "0b5d5dfb14cf5fea25be77b1a6ccc92e690f8b4b084eb9e7d18ce1d584ca5bbf",
+          "zh": "在12%的农场,"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": []
     },
     "p9-b0-f3d94a8": {
-      "zh": "Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)数据 110269 9",
+      "zh": "Z.\nXu, F.\nLi and J.\nCheng等人/《数据简况53》(2024年)(2024年)",
       "sourceTextHash": "04e3dc401dcd9124d715f0699de26aad5c9c9cdaf7dedae37573671a8aef0aa1",
       "status": "machine-draft",
       "page": 9,
-      "chunks": 1,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "711008aa877f86a3464029d52a8a5813872ffb264f1a422657c3ac186ddcf3ca",
+          "zh": "Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "fcf2f9c2c42461d2313a7c86e68c6b82f2e997aed7427cc2e50d591475745575",
+          "zh": "Cheng等人/《数据简况53》(2024年)(2024年)"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p9-b2-78375d9": {
-      "zh": "图3. 答复者报告的所有农场(a)、小农户(b)和企业农场(c)的农场面积分布情况:黑色垂直破折线表示中位农场面积,红色垂直破折线表示平均农场面积。",
+      "zh": "Fig. 3.\n答复者所报告的所有农场(a)、小农户(b)和企业农场(c)的农场面积分布情况表明,黑色垂直破折线显示农场中位数,红色垂直破折线显示农场中位数。",
       "sourceTextHash": "c03ad6cbf680a0dec5d51735535d0c6d0881c00d54adae81343ae135d59dc9a2",
       "status": "machine-draft",
       "page": 9,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "448521a316334c62f71cdb8a4da818af542948a7acf994fb77047e9795bbe010",
+          "zh": "Fig. 3."
+        },
+        {
+          "sourceTextHash": "5d39500972e5145c568b7546f80d99f184cf95dbf9832442a0e30650dc6f6aab",
+          "zh": "答复者所报告的所有农场(a)、小农户(b)和企业农场(c)的农场面积分布情况表明,黑色垂直破折线显示农场中位数,红色垂直破折线显示农场中位数。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p9-b3-f4751a9": {
-      "zh": "至少有三个耕作系统的农场比只有一两个耕作系统的农场更经常出现基于蔬菜的耕作系统。",
+      "zh": "有两个以上的作物种植系统。\n在拥有至少三个耕作系统的农场,比只有一两个耕作系统的农场,更经常出现以蔬菜为基础的耕作系统。",
       "sourceTextHash": "42aa6dacb5f80df5a21ba440282a16606ed839755c3debb52c4fdee685169512",
       "status": "machine-draft",
       "page": 9,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "6839d54e81eab8e52ac3076ed7f38ae75a00afa8a0ae802f3c7b0447db674851",
+          "zh": "有两个以上的作物种植系统。"
+        },
+        {
+          "sourceTextHash": "46c64de9050d729e893dd5a09da6ba15c76bd668a2910264fad74537dbb7f225",
+          "zh": "在拥有至少三个耕作系统的农场,比只有一两个耕作系统的农场,更经常出现以蔬菜为基础的耕作系统。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p9-b4-4963f0f": {
-      "zh": "3.3. 作物数据集",
+      "zh": "3.3.\n作物数据集",
       "sourceTextHash": "4963f0f55078ee69a23096f421a01e71f1fe5fab028836c20b85956ac2edfb42",
       "status": "machine-draft",
       "page": 9,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "16deda16575259e6cb822d020236b9a0e191b3a61dbd63fd71504a75caf1e28a",
+          "zh": "3.3."
+        },
+        {
+          "sourceTextHash": "2dd4e63b2503421012e2d411765896ef4f54581baa68064c0f09bc3246f8c262",
+          "zh": "作物数据集"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p9-b5-272096c": {
-      "zh": "作物数据集来自住户调查,适用于2019年6月至2020年6月期间;数据集提供了回顾的实地一级数据,包括112栏和1352个记录;数据集提供了详细的作物投入产出清单和作物管理数据;输入数据包括每台机器的种子、胶卷、肥料、农药、灌溉和燃料消耗的数量和成本、雇用劳动力和购买机械服务的费用以及每一种管理做法的劳力消耗,包括土壤准备、播种、化肥应用、杀虫剂喷洒、除草、收获和其他管理做法。",
+      "zh": "作物数据集来自住户调查,适用于2019年6月至2020年6月期间。\n数据集提供了有112栏和1352记录的回顾的外地一级数据。\n该数据集提供了详细的作物投入产出清单和作物管理数据。\n投入数据包括每台机器的种子、胶片泥浆、肥料、杀虫剂、灌溉和燃料消耗的数量和成本,雇用劳动力和购买机械服务的费用,以及每种管理做法的劳动消费,包括土壤准备、播种、施肥、杀虫剂喷洒、除草、收获和其他管理做法。\n产出数据包含农民报告的平均平均作物产量。",
       "sourceTextHash": "fe10fa1fd87b263bfb1b276b4b53e3e0f6148796e054f4c7a14c61fc18fedd73",
       "status": "machine-draft",
       "page": 9,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "d2813084c4c83b8f8dbc3eb59052cebdf85be27f4dcd0927c001fa5c897c92bc",
+          "zh": "作物数据集来自住户调查,适用于2019年6月至2020年6月期间。"
+        },
+        {
+          "sourceTextHash": "51b99f43433ac2bade054853ee682dbe19746de7c0029bfec6a22766326a65f2",
+          "zh": "数据集提供了有112栏和1352记录的回顾的外地一级数据。"
+        },
+        {
+          "sourceTextHash": "3a621a74a1b5096dafd5c47b8fc4bb882c87bb69c75886d5044cbac0b6415c87",
+          "zh": "该数据集提供了详细的作物投入产出清单和作物管理数据。"
+        },
+        {
+          "sourceTextHash": "866c07b4a0c78dc11eabe861c110faec59fe47750c0efe441b1d6a2db4e616f6",
+          "zh": "投入数据包括每台机器的种子、胶片泥浆、肥料、杀虫剂、灌溉和燃料消耗的数量和成本,雇用劳动力和购买机械服务的费用,以及每种管理做法的劳动消费,包括土壤准备、播种、施肥、杀虫剂喷洒、除草、收获和其他管理做法。"
+        },
+        {
+          "sourceTextHash": "710a90730bef3ec72a2dadadd0ecdb275608be4089cffed2d2402e1667928d7d",
+          "zh": "产出数据包含农民报告的平均平均作物产量。"
+        }
+      ],
+      "sentenceCount": 5,
       "flags": []
     },
     "p10-b0-b65dc8f": {
-      "zh": "10 Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)中的数据 110269",
+      "zh": "10 Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "edc380556d7e896ae0bebff61cc58d2b9c4714a71dd7b3308d3a021eed84f55e",
       "status": "machine-draft",
       "page": 10,
-      "chunks": 1,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "25a2518bb4c53cc627aa410abba16b1f01e3307422762107f2ce37e48caa89d2",
+          "zh": "10 Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "77feab4b98589a336e583a9c2a0ba2d35ee64c067cdeaceeb4383036202c3316",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p10-b2-de338a7": {
-      "zh": "图4. 答复者提供的作物种植数量。",
+      "zh": "Fig. 4.\n按答复者分列的作物种植数量。",
       "sourceTextHash": "de338a74112e64e38767fe94567c51dfb3b8c29ee93c854b71160a88f40c670a",
       "status": "machine-draft",
       "page": 10,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "876dfca935dc426b85367bed6109d09585fa3afd531d41b07134c1c6b01e3a78",
+          "zh": "Fig. 4."
+        },
+        {
+          "sourceTextHash": "9f7d4ae3dd3a181b6507fd25a25465b1ff78532347152763092290c2b1d23518",
+          "zh": "按答复者分列的作物种植数量。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p10-b3-59bfc76": {
-      "zh": "管理包括播种、收割和应用肥料、灌溉、杀虫剂和杂草的频率,以及化肥的类型和数量。关于杀虫剂喷洒,我们区分除草剂、昆虫和杀真菌剂;就每一类而言,我们对治疗频率信息进行了逐项计算。对于间作来说,农民可以提供每条带作物成分所占的百分比。",
+      "zh": "农场上所有4个田地的作物 以及每一份作物的农场开口价格\n管理包括播种、收获和应用化肥、灌溉、杀虫剂和杂草的频率以及肥料类型和数量。\n在杀虫剂喷雾剂方面,我们区分除草剂、昆虫和杀真菌剂;就每一类而言,我们对关于治疗频率的信息进行了共选。\n对于间作而言,农民可以提供每条带中每个作物组成部分所占的百分比。",
       "sourceTextHash": "7d04c5ddd45fcf18ba0176a04ae5684911b5ddbea9e5692277f58d6923f944cd",
       "status": "machine-draft",
       "page": 10,
-      "chunks": 1,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "0778d2afa69bc79eebb63cc74dc137ef3393703310163fbf9175be6180259832",
+          "zh": "农场上所有4个田地的作物 以及每一份作物的农场开口价格"
+        },
+        {
+          "sourceTextHash": "d16974dc8d0ea39d1e1902dea7db8990e5a7e0150381038e43145fe9d371880b",
+          "zh": "管理包括播种、收获和应用化肥、灌溉、杀虫剂和杂草的频率以及肥料类型和数量。"
+        },
+        {
+          "sourceTextHash": "ca2f9431616370b39fac4207818740661e3d4f9bda19a23b8a6e1437e03702b4",
+          "zh": "在杀虫剂喷雾剂方面,我们区分除草剂、昆虫和杀真菌剂;就每一类而言,我们对关于治疗频率的信息进行了共选。"
+        },
+        {
+          "sourceTextHash": "fd380022628ace1bfb693114d89fa91b852f3367ceb52c52e9c72b3c55d28803",
+          "zh": "对于间作而言,农民可以提供每条带中每个作物组成部分所占的百分比。"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": []
     },
     "p10-b4-1a17381": {
-      "zh": "图4提供了关于作物种植种类及其在数据集中的记录的信息:28个作物种是在访谈的农场种植的,但只有9个作物在作物数据集中有10个或10个以上的记录;玉米、冬季小麦和棉花是该地区生长最普遍的作物种。",
+      "zh": "图4提供关于作物种植种类及其在数据集中的记录的信息。\n接受访谈的农场种植了28种作物,但只有9种作物在作物数据集中有10个或10个以上的记录。\n玉米、冬季小麦和棉花是该地区种植最普遍的作物品种。",
       "sourceTextHash": "34d78848ad6ab52115cadafbf32fdeb8f71278b91a94d805aa38aadc7328b1a8",
       "status": "machine-draft",
       "page": 10,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "b48b011164b42c8d0154d688a5e399cab1fc1c857ed6b274e018b4ec043671f5",
+          "zh": "图4提供关于作物种植种类及其在数据集中的记录的信息。"
+        },
+        {
+          "sourceTextHash": "af19b43699ef350c3604bfe4c89a2cfc2549e661fb2edc5a9cd89df82356f30e",
+          "zh": "接受访谈的农场种植了28种作物,但只有9种作物在作物数据集中有10个或10个以上的记录。"
+        },
+        {
+          "sourceTextHash": "6d848af2aebf5c39510c05dc75631e1bcdad3ade47437f908b87536a4a4cdb0b",
+          "zh": "玉米、冬季小麦和棉花是该地区种植最普遍的作物品种。"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p10-b5-412cc5d": {
-      "zh": "4. 实验设计、材料和方法",
+      "zh": "4.\n实验设计、材料和方法",
       "sourceTextHash": "412cc5d49fe14c434b7a2e6979468bdc9f2ffc7f5855a837f6409325eff07828",
       "status": "machine-draft",
       "page": 10,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "23f663630e2f28250c09d7a0c370f55eebf635772f9ce27e46797ab8ef297f4b",
+          "zh": "4."
+        },
+        {
+          "sourceTextHash": "982d40893cfbb821e6bcb8ce2904cd2a67b4e21cfbc4a63b4aeacac28b1b4262",
+          "zh": "实验设计、材料和方法"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p10-b6-1472f2f": {
-      "zh": "在进行住户调查之前,我们根据已有的关于奎州县每个村庄几个主要作物面积的年鉴数据以及2018年进行的村干部调查提供的额外资料,创建了乡村类型学;发展这一类型学使我们得以针对在奎州的主要农业村庄类别开展住户调查,以确保抽样的代表性,避免重要的村庄类型代表性不足,或将时间花在没有或处于边际农业活动的村庄。",
+      "zh": "在进行户口调查之前,我们根据已有的关于奎州县每个村庄几个主要作物面积的年鉴数据以及2018年进行的村干部调查提供的补充资料,建立了村级类型。\n发展这种类型使我们能够针对奎州主要农村类型的住户调查,确保抽样的代表性,并避免重要的村类代表性不足或花费时间在没有农业活动或农业活动边缘的村庄进行调查。\n因此,建立类型学使我们能够处理差异问题,并为住户调查制定更有针对性的方法[7]。\n为选择具有代表性的村庄和",
       "sourceTextHash": "9ac1ea0edc8fab5df78d1c4d6330e2416a9bedf4f4721fa67f3f2e73c72c44e2",
       "status": "machine-draft",
       "page": 10,
-      "chunks": 1,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "24f7ad0132db916b1cc3428765bc9f00907db4da4bd9633b3441ab72b5d39801",
+          "zh": "在进行户口调查之前,我们根据已有的关于奎州县每个村庄几个主要作物面积的年鉴数据以及2018年进行的村干部调查提供的补充资料,建立了村级类型。"
+        },
+        {
+          "sourceTextHash": "fdeab60957feb251c7dbdd2451c4daaf1877be7be611d105cf486efc876daeb8",
+          "zh": "发展这种类型使我们能够针对奎州主要农村类型的住户调查,确保抽样的代表性,并避免重要的村类代表性不足或花费时间在没有农业活动或农业活动边缘的村庄进行调查。"
+        },
+        {
+          "sourceTextHash": "8926b227ed8dee556666231afaed190aa2b3fc213ee446d5dd62151c56054020",
+          "zh": "因此,建立类型学使我们能够处理差异问题,并为住户调查制定更有针对性的方法[7]。"
+        },
+        {
+          "sourceTextHash": "ea2c86a239a37a49561b1e8336a561ebc7a1924b674625f43a4031acc619fa67",
+          "zh": "为选择具有代表性的村庄和"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": []
     },
     "p10-b7-ee6c051": {
-      "zh": "4 田地是一片开阔土地,种植一种作物或种植一种间作物,在奎州,农民通常在多个田地种植同样的作物,这些田地分散在农场各处。",
+      "zh": "4 田地是一片开阔土地,种植一种作物或种植一种间作物。\n在奎州,农民通常在多种田地种植同样的作物,这些田地分散在农场各处。",
       "sourceTextHash": "dd4f2bf58550e982d3f954cb80939fdb187a3088b7285a8f98b6da657d59eccd",
       "status": "machine-draft",
       "page": 10,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f166ef65bf7c413383129536e3ad4b728ea925ded94fa3edaccf33a852cd738b",
+          "zh": "4 田地是一片开阔土地,种植一种作物或种植一种间作物。"
+        },
+        {
+          "sourceTextHash": "001b25266d29a2e5f54e22d64e4ed51711a3b04650cb0042a15fb5651e55350d",
+          "zh": "在奎州,农民通常在多种田地种植同样的作物,这些田地分散在农场各处。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p11-b0-cfe6aeb": {
-      "zh": "Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)中的数据 110269 11",
+      "zh": "Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024) 110269 11",
       "sourceTextHash": "a28b69574f55eedb8186fce034d3c29af1ebdd9da3a57a0c760cdf7ba57309ee",
       "status": "machine-draft",
       "page": 11,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "711008aa877f86a3464029d52a8a5813872ffb264f1a422657c3ac186ddcf3ca",
+          "zh": "Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "99683c33ef8b9ea36f9f50588e88f9c78415af4ea73f9c5deac51915b8d4cf8b",
+          "zh": "Cheng等人/数据简况53(2024)(2024) 110269 11"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": []
     },
     "p11-b2-1773277": {
-      "zh": "图5. 秋州308个村庄上下层群落的巢穴。",
+      "zh": "Fig. 5.\n位于奎州308个村庄的 由等级组群构成的山洞",
       "sourceTextHash": "1773277014b0d2f13bfbe65a188e0b27d3d89c91d93477349aaa164af0478372",
       "status": "machine-draft",
       "page": 11,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f652e105474b525e9ea9f0f29b96b107fd916d54ad84e7ef718f6639dc3723b7",
+          "zh": "Fig. 5."
+        },
+        {
+          "sourceTextHash": "3f860c4bb9981b66f1d9f4ff381d4808e435335ab369e36eb46e8b0a27625c11",
+          "zh": "位于奎州308个村庄的 由等级组群构成的山洞"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p11-b3-27853ca": {
-      "zh": "奎州从更广的角度看待作物活动,该县所有342个村庄都根据其结构、作物形态和与作物生产有关的资源进行分组,分为8个村庄类型(图5)。",
+      "zh": "县内342个村庄都根据其结构、作物形态和与作物生产有关的资源进行分组。\n分为8个村庄类型(图5)。",
       "sourceTextHash": "2ff6945aaa920ebb80c9ab358e782795d305d2bb7540c95743a7d6427e52037b",
       "status": "machine-draft",
       "page": 11,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "13004f783a0158043d5d6639982f85d9d0c62fa8d35ed5218cac12ca24446261",
+          "zh": "县内342个村庄都根据其结构、作物形态和与作物生产有关的资源进行分组。"
+        },
+        {
+          "sourceTextHash": "e39d343415d7d860ab7f17038ee7b651a48142256ba3e7606617c56565c8ecbb",
+          "zh": "分为8个村庄类型(图5)。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p11-b4-5e72a06": {
-      "zh": "4.1. 类型变量的选择",
+      "zh": "4.1.\n类型变量的选择",
       "sourceTextHash": "5e72a062ef707206bcd62fb8ada00028d96d76842e41dc4d65352c4e4f6d26cd",
       "status": "machine-draft",
       "page": 11,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "3cdec0a2bb23a092f1429f560c7800364ca9e3d47c065bebad5eff9873e76e61",
+          "zh": "4.1."
+        },
+        {
+          "sourceTextHash": "3fb0a493a880d3e5cf560af13edb5ed59a905e59187fc7a9806885d11ddb277c",
+          "zh": "类型变量的选择"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p11-b5-221607d": {
-      "zh": "在农户调查之前,根据村级数据集对村庄进行了分类,考虑到分类目标和现有数据(数量和准确度),从结构变数、作物模式和资源(表3)计算出15个变量(表3),资源变数为土地(可耕地)、水(可灌溉水)、劳动力(非农业劳动比率)、金融(平均收入)和市场(与市中心距离和公路网距离),在342个村庄中,保留了308个用于类型分析,因为村干部调查没有调查12个村庄,18个村庄有低质量的问卷;这些村庄被定为“NA”类别,4个在年鉴数据和调查数据之间数据不一致的村庄被定为“外部”。",
+      "zh": "在农户调查之前,根据村数据集对村庄进行了分类。\n考虑到分类目标和现有数据(数量和准确性),从结构变量、作物模式和资源计算出15个变数(表3)。\n资源变数包括土地(可耕地)、水(可灌溉水)、劳动力(非农业劳动力比率)、金融(平均收入)和市场(与市中心距离和公路网距离)。\n在342个村庄中,保留了308个进行类型分析,因为在村干部调查中没有调查12个村庄,18个村庄的问卷质量低;这些村庄被定为“NA”。\n在年鉴数据和调查数据之间存在不一致数据的4个村庄被定为“外部”类型。",
       "sourceTextHash": "0353c190f4a215ad6f3eee590ba0748d79ab0330cc775ca74f69a10ffdcbf04c",
       "status": "machine-draft",
       "page": 11,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "0c1021eaa1ee8675e9b3ca3ed8444b8cf29bc1f42f3bedbbfa796386559274aa",
+          "zh": "在农户调查之前,根据村数据集对村庄进行了分类。"
+        },
+        {
+          "sourceTextHash": "06af152adf0574f90a532e4a43087b3f09de494ddd1a4d95dedbfb05470b528a",
+          "zh": "考虑到分类目标和现有数据(数量和准确性),从结构变量、作物模式和资源计算出15个变数(表3)。"
+        },
+        {
+          "sourceTextHash": "fd06ebdbf80e0e200af53b43c3ce8ab08f64e2c1317e5bcca4257fc3dc02e703",
+          "zh": "资源变数包括土地(可耕地)、水(可灌溉水)、劳动力(非农业劳动力比率)、金融(平均收入)和市场(与市中心距离和公路网距离)。"
+        },
+        {
+          "sourceTextHash": "2a2b24d32082279b551c9fba2d17eade51164164dc89bc5f8f60ef4d4da1b01b",
+          "zh": "在342个村庄中,保留了308个进行类型分析,因为在村干部调查中没有调查12个村庄,18个村庄的问卷质量低;这些村庄被定为“NA”。"
+        },
+        {
+          "sourceTextHash": "53f45ef92133182e0c3840ec23da510c09d0d93c71391635e38d72fa10790249",
+          "zh": "在年鉴数据和调查数据之间存在不一致数据的4个村庄被定为“外部”类型。"
+        }
+      ],
+      "sentenceCount": 5,
       "flags": []
     },
     "p11-b6-082db00": {
-      "zh": "4.2. 多变量分析",
+      "zh": "4.2.\n多变量分析",
       "sourceTextHash": "082db002b804c482692fff5eae2cb5bffba03f5628c65dee5f4651a0df789995",
       "status": "machine-draft",
       "page": 11,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "9f43731df7672c6ffa60bc5f8ac3b2e597744c335faf3de49c1c8511de2fb369",
+          "zh": "4.2."
+        },
+        {
+          "sourceTextHash": "b9b100ee0b13e200cdd962f203491e66f6626c3f792fd8326d6b8505bec23b49",
+          "zh": "多变量分析"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p11-b7-33ee342": {
-      "zh": "采用多变量分析和群集分析,按先后顺序生成了分类类型:使用多变量分析来确定歧视性变数,并使用群集分析",
+      "zh": "采用多变量分析和群集分析,按先后顺序生成了分类类型:采用多变量分析,确定歧视性变量,并采用群集分析",
       "sourceTextHash": "daa91788f1e38edbf677c09cd2cce7c78649a17fbad89a760d5a7ed34f2d80aa",
       "status": "machine-draft",
       "page": 11,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "daa91788f1e38edbf677c09cd2cce7c78649a17fbad89a760d5a7ed34f2d80aa",
+          "zh": "采用多变量分析和群集分析,按先后顺序生成了分类类型:采用多变量分析,确定歧视性变量,并采用群集分析"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p12-b0-b8eb936": {
-      "zh": "12 Z.Xu、F.Li和J.Cheng等人/第53号简报(2024年)中的数据 110269",
+      "zh": "12 Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "1e4b769748690d760f900817d4bc827d7e64a06f878399144a3558240fdb8c59",
       "status": "machine-draft",
       "page": 12,
-      "chunks": 1,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "68fcdf5493d0a9573952081575fcaf13784b2049a1d3027685691a88743fe4d1",
+          "zh": "12 Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "77feab4b98589a336e583a9c2a0ba2d35ee64c067cdeaceeb4383036202c3316",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p12-b1-4f1f520": {
-      "zh": "所有分析都是对R4.1.0[8]版本的de4包进行。主要组成部分分析(PCA)用于根据所有15个量化变量将数据库减为非相关部分。主要主元件的数量是根据两个标准确定的。选定主要组成部分所解释的累积差异应大于60 % , 所有主要组成部分 ' egenval-ues ' 大于1 [8]。结果,我们发现七个主要组成部分解释了各村庄之间66 %的差异。沃德的最低差异法是使用常设仲裁法院的产出进行等级分组分析的,其形式是以保留的个人元件为基础的减少数据集的形式。确定了最大平均值的沙胡特,以确定闭塞-梯数[9]和7个类型的村庄。图5显示,有两个小群组与登德罗格拉姆最大的群组有关,进行了第二次类型分析,以区分最大的群组,使用同样的分类变量和方法将第1类分为两个子类别。图6显示了在五氯苯甲醚和群集分析之后村庄特征和村庄类型之间的关系。图7说明了秋州各村类型的分布情况。",
+      "zh": "将村庄分为同类类型。\nR4.1.0版4.1.0[8]的Ade4包进行了所有分析。\n根据所有15个量化变量,利用主要组成部分分析(PCA)将数据库减少为非相关部分。\n主要委托人(PC)的数目是根据两个标准确定的。\n选定主要组成部分所解释的累积差异应大于60%,所有主要组成部分的均大于一个[8]。\n结果,我们发现7个主要组成部分解释了66%的村庄差异。\n沃德采用最低差异法,利用五氯苯甲醚产出进行等级类集分析,其形式是根据所保留的PC的减少数据集。\n确定闭塞-梯[9]和七类村庄的数量时使用了最高平均值的环影。\n第1类村庄比其他类型村庄的啤酒量高。\n图5显示,两个分专题组与登地块最大的集群相连。\n进行了第二次类型分析,以区分最大的组群。\n使用同样的分类变量和方法将第1类分为两个子类型。\n图6显示了在五氯苯甲醚和集群分析之后村庄特征与村庄类型之间的关系。\n图7显示了Quzhou各村庄类型分布情况。",
       "sourceTextHash": "cb2184aeb18bc4e67677f63dbdee85e8369652042c0e6d96af322f5ade334d36",
       "status": "machine-draft",
       "page": 12,
-      "chunks": 2,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "f0696ee7520d9eda9fc64d189c8d6f8ef180ae76b2a84a2cb0d48acfad406e95",
+          "zh": "将村庄分为同类类型。"
+        },
+        {
+          "sourceTextHash": "130bc36fa4eb53aff5835c649fbe90f3caffde8e7fc4838678134fb4f5b6e859",
+          "zh": "R4.1.0版4.1.0[8]的Ade4包进行了所有分析。"
+        },
+        {
+          "sourceTextHash": "20aa9b4508437862c381fa02c99f6ebdf8c2456cc5eba2212627630c55a33ee7",
+          "zh": "根据所有15个量化变量,利用主要组成部分分析(PCA)将数据库减少为非相关部分。"
+        },
+        {
+          "sourceTextHash": "0bada5651cf0eb391a7c28735def74ae498be525bf5cfc67a7490c2436b17cb7",
+          "zh": "主要委托人(PC)的数目是根据两个标准确定的。"
+        },
+        {
+          "sourceTextHash": "9243a2db1c99372e3a664ab52f65bb7af555be42d22f071338075cf9691d3273",
+          "zh": "选定主要组成部分所解释的累积差异应大于60%,所有主要组成部分的均大于一个[8]。"
+        },
+        {
+          "sourceTextHash": "1aaecccbc6cbcb8cdcccb392bb207006fd27c2f999f9d46ca47528c73111226d",
+          "zh": "结果,我们发现7个主要组成部分解释了66%的村庄差异。"
+        },
+        {
+          "sourceTextHash": "38730bf96ae6318ff572b93a1259375d66153afbca39b09333c00708d528a15b",
+          "zh": "沃德采用最低差异法,利用五氯苯甲醚产出进行等级类集分析,其形式是根据所保留的PC的减少数据集。"
+        },
+        {
+          "sourceTextHash": "a8a8e6aa583e56457ed5d0564a3c92d246665523bed644a15163d777c5d290b7",
+          "zh": "确定闭塞-梯[9]和七类村庄的数量时使用了最高平均值的环影。"
+        },
+        {
+          "sourceTextHash": "6b086323878f56ee6a0578d6ba88c6818f0d5f04361232dfb405d1c9297cbe73",
+          "zh": "第1类村庄比其他类型村庄的啤酒量高。"
+        },
+        {
+          "sourceTextHash": "0a5ad01abdba637ffe869ce8872d56374e04c623120ba3e562a01b8abec9c547",
+          "zh": "图5显示,两个分专题组与登地块最大的集群相连。"
+        },
+        {
+          "sourceTextHash": "077c5013da53e79b82483e29fa1cc827ce7e9026e4923327b95f83bee3ba739b",
+          "zh": "进行了第二次类型分析,以区分最大的组群。"
+        },
+        {
+          "sourceTextHash": "2f1f3544c35f385aeb75c08105004b748cb4ba5bf934af222bfcc27e53c8964c",
+          "zh": "使用同样的分类变量和方法将第1类分为两个子类型。"
+        },
+        {
+          "sourceTextHash": "aa787c9d9ef64ef629ce3bafd9f01d4bbc6f440e0bc4ea7ce7eed28559a5c8fe",
+          "zh": "图6显示了在五氯苯甲醚和集群分析之后村庄特征与村庄类型之间的关系。"
+        },
+        {
+          "sourceTextHash": "bddb74e41e082ab4169e9f59327e7ad6b1796051b37248af7b9b28fa5bc78300",
+          "zh": "图7显示了Quzhou各村庄类型分布情况。"
+        }
+      ],
+      "sentenceCount": 14,
+      "flags": []
     },
     "p12-b2-e938cce": {
-      "zh": "4.3. 说明村庄类型",
+      "zh": "4.3.\n村庄类型说明",
       "sourceTextHash": "e938cce7b433ed2aaf9d56b3b388364447d4c3c9bae0222367b7bebbd5d66aab",
       "status": "machine-draft",
       "page": 12,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "9669536c46d86f3fb629c158e87f0a75f37b88e67896574748d9719b6f2aa694",
+          "zh": "4.3."
+        },
+        {
+          "sourceTextHash": "a143d52aecc015b8a57b3ba10b48c7230558885d516476125264092ce63789f6",
+          "zh": "村庄类型说明"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p12-b3-f59dde0": {
-      "zh": "与其它类型相比,这类村庄的住户很少(平均为192个),每村可耕地较少(84公顷)。这一类型又细分为两类:1-1(88个村庄的面积)农村农民分配给蔬菜的土地远远少于1-2(31个村庄的面积)(图8);2类(8个村庄)有多种农场管理模式的大型可耕地;2类(8个村庄)小于两组,每个村庄的非农劳动力比例较小(37%),可耕地面积大(250公顷);1-1(88个村庄的面积)农村农民分配给蔬菜的土地大大低于1-2(31个村庄的面积)(图7)。中等家庭数量和中等可耕地(75个村庄)是第二大群组,每个村庄有中等家庭(378户),每个村庄平均耕地面积为173公顷;种植作物主要是玉米和小麦,约60%的劳动力还有其他工作(图8)。第4类:接近市场和低农业劳动力,生产大量蔬菜(60英亩),在农村中,第4类与市中心和公路网的距离最小,平均每村96公顷可耕地,该组分配不到48%用于小麦种植,大约20%用于种植作为可耕地的蔬菜。这类村庄的农场外劳动力相对较少(图8)。5类住区离市中心最近,几乎没有土地用于农业;大约70%的劳动力在农场以外工作(图8);这一组中的村庄不包括在农场调查中;6类大户和大片可耕地远离市中心(17个村庄);6类每村有较多的家庭(平均786户),该村的可耕地面积更大(328公顷);这种类型距市中心最远(平均28公里),玉米和小麦是主要作物(图8)。 7类中型可耕地,作物系统多样化(22个村庄)。 这种类型的村庄分配给棉花和石油作物最多的地区(棉花47%,石油作物8%)(图8)。",
+      "zh": "类型1。\n小型家庭和小耕地,有谷类作物种植制度(119个村庄)。 与其他类型相比,这类村庄几乎没有家庭(平均为192个),每个村庄的可耕地较少(84公顷)。\n该类型又细分为两个子类型。\n1-1类村庄的农民(88个村庄的抽样规模)分配给蔬菜的土地远远少于1-2类村庄的农民(31个村庄的抽样规模)(图8)。\n类型2。\n拥有多种农场管理模式的可耕地(8个村庄),在两类土地中规模较小,非农劳动力比例很小(37%),每个村庄可耕地面积大(250公顷)。\n这种类型的商业农场数量最多,小农场占乡村面积的比例在村庄中最小(77%)(图8)。\n类型3。\n中等家庭数量和中等可耕地(75个村庄),以谷种为主的耕种面积(75个村庄),这是第二大组群,每个村庄有中等数量的家庭(378个),每个村庄平均有可耕地(173公顷)。\n种植的作物主要是玉米和小麦,大约60%的劳动力有其他工作(图8)。\n第4类\n在村庄中,4类距离市中心和公路网最小。\n每个村庄平均有96公顷可耕地,这一群体用于小麦种植的拨款不到48%,作为可耕地种植的蔬菜约占20%。\n这类村庄的农场外劳工相对较少(图8)。\n5型\n高度城市化和几乎没有作物生产(7个村庄)。 5类住区离市中心最近,几乎没有土地用于农业。\n大约70%的劳动力从事非农业工作(图8)。\n这一组中的村庄没有包括在农场调查中。\n6. 类型6。\n大城市和大片可耕地远离市中心(17个村庄)。 在6类中,每村家庭更多(平均786户),该村的可耕地面积更大(328公顷)。\n这种作物距离市中心最远(平均28公里),玉米和小麦是主要作物(图8)。\n7型号\n中等可耕地,作物系统多样化(22个村庄),这类村庄的棉花和石油作物分配面积最高(棉花47%,石油作物8%)(图8)。",
       "sourceTextHash": "623ccd412e7dd95b97b77e3ae82fc69b0bc0632525c2ba6f26c2429ebea59776",
       "status": "machine-draft",
       "page": 12,
-      "chunks": 3,
+      "segments": [
+        {
+          "sourceTextHash": "b63f9df147273b6651bb5ab862b093466101296121756c042e225a86b4d73cfa",
+          "zh": "类型1。"
+        },
+        {
+          "sourceTextHash": "996eac9416e3b0df404486eccff34b9821797f42e410da43dd7ffe07e5430655",
+          "zh": "小型家庭和小耕地,有谷类作物种植制度(119个村庄)。 与其他类型相比,这类村庄几乎没有家庭(平均为192个),每个村庄的可耕地较少(84公顷)。"
+        },
+        {
+          "sourceTextHash": "6610be3c2167d9d346ceefec915dc362b7c36bfc3f0cb22dd8d443dcb8aafb2d",
+          "zh": "该类型又细分为两个子类型。"
+        },
+        {
+          "sourceTextHash": "356598be21578584d89a9f0aa745254f38ee7efb6d25c122ee5642d858b953d8",
+          "zh": "1-1类村庄的农民(88个村庄的抽样规模)分配给蔬菜的土地远远少于1-2类村庄的农民(31个村庄的抽样规模)(图8)。"
+        },
+        {
+          "sourceTextHash": "d83911d6d6682179f646ddeb7aa126135b22a3e63d093ad032f7a505ef3a3263",
+          "zh": "类型2。"
+        },
+        {
+          "sourceTextHash": "ba63c0ab7cbf61bfe4a09069faf07a3ca238d09202a451560626abc08b4a648b",
+          "zh": "拥有多种农场管理模式的可耕地(8个村庄),在两类土地中规模较小,非农劳动力比例很小(37%),每个村庄可耕地面积大(250公顷)。"
+        },
+        {
+          "sourceTextHash": "228a567da04897fca8198b2fe8bf1dc4a9032133fc7b8af568e0ca38aabd0d3e",
+          "zh": "这种类型的商业农场数量最多,小农场占乡村面积的比例在村庄中最小(77%)(图8)。"
+        },
+        {
+          "sourceTextHash": "96a5663973e0a7c44db86eeb889a06f13fa16b7f877bfd244876a6fcfba88cfa",
+          "zh": "类型3。"
+        },
+        {
+          "sourceTextHash": "b770456cae6c1d8a3d139dc8adf2725c1fe275e378e77ea18ef3a7a301d23778",
+          "zh": "中等家庭数量和中等可耕地(75个村庄),以谷种为主的耕种面积(75个村庄),这是第二大组群,每个村庄有中等数量的家庭(378个),每个村庄平均有可耕地(173公顷)。"
+        },
+        {
+          "sourceTextHash": "74533b1aa66c8c9602c6b934244258bc0e6c447fbc7674088e81c84042bd7ad2",
+          "zh": "种植的作物主要是玉米和小麦,大约60%的劳动力有其他工作(图8)。"
+        },
+        {
+          "sourceTextHash": "2247f6fd489db520bde25c165d522361b95167c6fa67a2e69252426025656f7f",
+          "zh": "第4类"
+        },
+        {
+          "sourceTextHash": "efd1e56f721adf9c88d9072dcf5329fcf5134096f8afbe2a059430cc7e32bd45",
+          "zh": "在村庄中,4类距离市中心和公路网最小。"
+        },
+        {
+          "sourceTextHash": "8b9218a94fa07db0868bc2ce498bdb74262d06cc933828565446feeeb5a717ad",
+          "zh": "每个村庄平均有96公顷可耕地,这一群体用于小麦种植的拨款不到48%,作为可耕地种植的蔬菜约占20%。"
+        },
+        {
+          "sourceTextHash": "3c1d91f45f58e1fbc21440dae141b4730a9e6a9bbd6969953c87a3edb5f50e93",
+          "zh": "这类村庄的农场外劳工相对较少(图8)。"
+        },
+        {
+          "sourceTextHash": "bfd35b30d48b762c51d12264722e1c84f8ca1b8361d7d31a6b7b60142453496d",
+          "zh": "5型"
+        },
+        {
+          "sourceTextHash": "4e7979eaeddbf16a78d0790983097cd95a238b437f431bc71f7fea89bfd729cd",
+          "zh": "高度城市化和几乎没有作物生产(7个村庄)。 5类住区离市中心最近,几乎没有土地用于农业。"
+        },
+        {
+          "sourceTextHash": "84cba343e8def91ec41a2ea82f966a83db2ce336249c286968448b4a4ba1be5a",
+          "zh": "大约70%的劳动力从事非农业工作(图8)。"
+        },
+        {
+          "sourceTextHash": "652e5d9779354a50cadd00280ef2c667ecbaffd74347283c28479d958b50b9b7",
+          "zh": "这一组中的村庄没有包括在农场调查中。"
+        },
+        {
+          "sourceTextHash": "e2dbfcec360928dbdb27aa545cde524268e9584d5cbddc20ac7061616f7ac6b4",
+          "zh": "6. 类型6。"
+        },
+        {
+          "sourceTextHash": "a945bc33e04402d9cafce2f70c6c9c69fe813043ce8903f4eede2ded582ed31d",
+          "zh": "大城市和大片可耕地远离市中心(17个村庄)。 在6类中,每村家庭更多(平均786户),该村的可耕地面积更大(328公顷)。"
+        },
+        {
+          "sourceTextHash": "29e53602a620e7d6ae678b1ec92b339733a2bfaf9d5d8d2d3b83738cf327a9be",
+          "zh": "这种作物距离市中心最远(平均28公里),玉米和小麦是主要作物(图8)。"
+        },
+        {
+          "sourceTextHash": "6d6dfaa4b4ff5ce1f4de65d6841c3fba4bbde77108d4ffd68ad55e8fd77c3331",
+          "zh": "7型号"
+        },
+        {
+          "sourceTextHash": "b39ce0bb9a028273a15a8801275eb0c16703f9a0c9d76d6be822098998f02afe",
+          "zh": "中等可耕地,作物系统多样化(22个村庄),这类村庄的棉花和石油作物分配面积最高(棉花47%,石油作物8%)(图8)。"
+        }
+      ],
+      "sentenceCount": 23,
+      "flags": []
+    },
+    "p13-b0-a50787f": {
+      "zh": "Z.\nXu, F.\nLi and J.\nCheng等人/《简况53》(2024年)中的数据",
+      "sourceTextHash": "3908fe54eff5a4cffe6ae3aac7c568ad4a3900ea802532bc770c0a18bc22489e",
+      "status": "machine-draft",
+      "page": 13,
+      "segments": [
+        {
+          "sourceTextHash": "711008aa877f86a3464029d52a8a5813872ffb264f1a422657c3ac186ddcf3ca",
+          "zh": "Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "dc1673cfdf1832227a50bfffb4919d3958b92b345efbe8d41cdf9092cc986cc3",
+          "zh": "Cheng等人/《简况53》(2024年)中的数据"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": [
         "numbers-check"
       ]
     },
-    "p13-b0-a50787f": {
-      "zh": "Z. Xu、F. Li和J. Cheng等人/《第53号简报》(2024年)中的数据 110269 13",
-      "sourceTextHash": "3908fe54eff5a4cffe6ae3aac7c568ad4a3900ea802532bc770c0a18bc22489e",
-      "status": "machine-draft",
-      "page": 13,
-      "chunks": 1,
-      "flags": []
-    },
     "p13-b2-09290d8": {
-      "zh": "图6. 乡村特征和村庄之间联系的主要组成部分分析:填满的圆圈代表村庄,不同的颜色代表村庄类型;箭代表村庄特有的变数,例如城市中心(远离市中心)、公路(距离公路网)、家庭(每个村庄的家庭数量)、非农劳动力(非农劳动力比率)、收入(平均收入)、地区(可耕地)、灌溉率(灌溉土地)、小麦(小麦面积)、玉米(有玉米的地区)、棉花(有棉花的地区)、石油作物(有油作物的地区)、蔬菜(带蔬菜的地区)、小型农场(小农户)、合作农场(合作社农场)和家庭农场。关于村庄特点的变数的说明,见表3。拥有更多商业农场的大村庄(n=8);3个中型村庄,主要是谷类村庄(n=75);4个靠近城市、蔬菜比例高的村庄(n=60);5个几乎没有作物生产的城市化村庄(不包括农业调查)(n=7);6个拥有大农场的大村庄,远离城市,大多以谷物为基础(n=17);7个具有多样化作物种植系统的中等村庄,包括棉花和石油作物)(n=22)。 (关于本图图中的颜色说明,请读者查阅本条的网络版本。 )",
+      "zh": "Fig. 6.\n对村庄特征与村庄之间联系的主要分析。\n填满的圈子代表村庄,不同的颜色代表村庄的类型。\n箭头代表村庄特有的变量,如市中心(远离市中心)、公路(距离公路网)、家庭(每个村庄的家庭数量)、非农劳动力(非农劳动力比率)、收入(平均收入)、地区(可耕地)、灌溉率(可耕地)、小麦(小麦区)、玉米(带玉米的地区)、棉花(带棉花的地区)、石油作物(带油作物的地区)、蔬菜(带蔬菜的地区)、小农场(小农户)、合作社(合作农场)和家庭农场。\n关于村庄特点的变量说明,见表3。\n村庄类型:1-1个小村庄,拥有小农场,主要以谷物为主(n=88);1-2个小村庄,拥有小农场,如第1类,但蔬菜较多(n=31);2\n拥有更多商业农场的大村庄(n=8);\n中等规模的村庄,主要是谷类村庄(n=75);\n城市附近的村庄和高比例的蔬菜(n=60);\n城市化村庄几乎没有作物生产(农场调查除外)(n=7);\n拥有大农场的大村庄,远离城市,大多以谷物为主(n=17);\n中等规模的村庄具有多样化的作物种植系统,包括棉花和石油作物)(n=22)。 (关于本图图例中颜色引用的解释,请读者查阅本条的网络版本。 )",
       "sourceTextHash": "e0b587348e0b731f310b0895648b548349ef985d2ff86674e413bbb01a62561e",
       "status": "machine-draft",
       "page": 13,
-      "chunks": 2,
+      "segments": [
+        {
+          "sourceTextHash": "a6a2cb19b2d2302cffa8a874f8953312a15db6d0e443fc6fc84d33634c292efa",
+          "zh": "Fig. 6."
+        },
+        {
+          "sourceTextHash": "20684da5d07166e86c16d67f62d3f426f5825747800cca651b6aeea5da8d3c7e",
+          "zh": "对村庄特征与村庄之间联系的主要分析。"
+        },
+        {
+          "sourceTextHash": "db79b60d11ee0fd32ca94b8ed89e0b15a0fe15322d9dc716fbac6b30a6d769c2",
+          "zh": "填满的圈子代表村庄,不同的颜色代表村庄的类型。"
+        },
+        {
+          "sourceTextHash": "bca79aae8b32b1e528834a0328f743f42c2818b944854b9bdcd7c6723343c5e1",
+          "zh": "箭头代表村庄特有的变量,如市中心(远离市中心)、公路(距离公路网)、家庭(每个村庄的家庭数量)、非农劳动力(非农劳动力比率)、收入(平均收入)、地区(可耕地)、灌溉率(可耕地)、小麦(小麦区)、玉米(带玉米的地区)、棉花(带棉花的地区)、石油作物(带油作物的地区)、蔬菜(带蔬菜的地区)、小农场(小农户)、合作社(合作农场)和家庭农场。"
+        },
+        {
+          "sourceTextHash": "2d097a32de0946de8dcece0fb1cc5158d40726deff4735ace7535047075e18f4",
+          "zh": "关于村庄特点的变量说明,见表3。"
+        },
+        {
+          "sourceTextHash": "425fc5f24c04569681a17197aff8a63c80d3c1113aebad0d2332d7d35a695605",
+          "zh": "村庄类型:1-1个小村庄,拥有小农场,主要以谷物为主(n=88);1-2个小村庄,拥有小农场,如第1类,但蔬菜较多(n=31);2"
+        },
+        {
+          "sourceTextHash": "3d2ebdcab69a05e36333124953d3b04f82e9315dca2779a57f2b7d04d78f6b31",
+          "zh": "拥有更多商业农场的大村庄(n=8);"
+        },
+        {
+          "sourceTextHash": "2e67ea78035940f94a39e5b98c8efd0ab75d313e137fb1d210df92bd78607c07",
+          "zh": "中等规模的村庄,主要是谷类村庄(n=75);"
+        },
+        {
+          "sourceTextHash": "79c53f4c05377e72aa48dae7770942b2a4f8c61cafede3ec50c4e0a3f9cfed30",
+          "zh": "城市附近的村庄和高比例的蔬菜(n=60);"
+        },
+        {
+          "sourceTextHash": "79f263def0e575fd33fbd4ff72945bda0deea6a50184596b291be81e3e7bea9c",
+          "zh": "城市化村庄几乎没有作物生产(农场调查除外)(n=7);"
+        },
+        {
+          "sourceTextHash": "26c5db708636de275b765b0e4c3557ff3cbb9530acfaa2f5184dd861669c124d",
+          "zh": "拥有大农场的大村庄,远离城市,大多以谷物为主(n=17);"
+        },
+        {
+          "sourceTextHash": "92563ef1e24a31eda8aa864485961d4f5d5e7663d8e3ff3c9169fea29d3e681a",
+          "zh": "中等规模的村庄具有多样化的作物种植系统,包括棉花和石油作物)(n=22)。 (关于本图图例中颜色引用的解释,请读者查阅本条的网络版本。 )"
+        }
+      ],
+      "sentenceCount": 12,
       "flags": [
         "numbers-check"
       ]
     },
     "p14-b0-9ce4aaa": {
-      "zh": "14 Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)中的数据",
+      "zh": "14 Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "3dd433e5c80dbe39c2a0536e25aa4cf6867274eb63f99cc04acaccc3ec562fb9",
       "status": "machine-draft",
       "page": 14,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "b41aac29a3744596196b2d8c3f47c90d65302f4d94c52ef20b9d1c8b000a5ed7",
+          "zh": "14 Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "77feab4b98589a336e583a9c2a0ba2d35ee64c067cdeaceeb4383036202c3316",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": [
         "numbers-check"
       ]
     },
     "p14-b2-e0f04a9": {
-      "zh": "图7. Quhone县的乡村类型分布图. Quhone县包括10个乡镇(以粗黑边界划线)和342个村(以浅灰色边界划线),地图上列出了城镇名称。村庄的颜色显示乡村类型:1-1个小村庄,主要以谷物为主的小型农场(n=88);1-2个小村庄,小农场类似1类但蔬菜较多的小型农场(n=31);2个大村庄,更多的商业农场(n=8);3个中型村庄,主要是谷类农场(n=75);4个靠近城市、蔬菜比例高的村庄(n=60);5个几乎没有作物生产的都市化村庄(不包括农业调查)(n=7);6个大村庄,远离城市,大多以谷物为基础的大型农场(n=17);中等规模的村庄具有多样化的作物种植系统,包括棉花和石油作物)(n=22)。 (关于本图图例中颜色引用的解释,请读者查阅本条的网络版本。 )",
+      "zh": "Fig. 7.\n奎州县的村庄类型分布。\n奎州县包括10个乡镇(以粗黑边界划线)和342个村庄(以浅灰边界划线)。\n城镇名称列在地图上。\n村庄的颜色显示村庄类型:1-1个小村庄,拥有小农场,主要以谷物为基础(n=88);1-2个小村庄,拥有小农场,如第1类,但蔬菜较多(n=31);2\n拥有更多商业农场的大村庄(n=8);\n中等规模的村庄,主要是谷类村庄(n=75);\n城市附近的村庄和高比例的蔬菜(n=60);\n城市化村庄几乎没有作物生产(农场调查除外)(n=7);\n拥有大农场的大村庄,远离城市,大多以谷物为主(n=17);\n中等规模的村庄具有多样化的作物种植系统,包括棉花和石油作物)(n=22)。 (关于本图图例中颜色引用的解释,请读者查阅本条的网络版本。 )",
       "sourceTextHash": "5abafe5c9ec4792713448f706e4a9012c8d3c764a21437436cdf73f136b9396c",
       "status": "machine-draft",
       "page": 14,
-      "chunks": 2,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "1e23dbe2d9f226f0001a2529436613102e4ce98051fab83b42f4e1d1636d5b0a",
+          "zh": "Fig. 7."
+        },
+        {
+          "sourceTextHash": "2ddb0e4555d2e85e7fe48837fd9c8c137b3079776f9cc16930bf1fd3ea5b664b",
+          "zh": "奎州县的村庄类型分布。"
+        },
+        {
+          "sourceTextHash": "760f9f60b0f4417774f3f01917fe8e4293c8557b79f71fc63101ca34d8696e7f",
+          "zh": "奎州县包括10个乡镇(以粗黑边界划线)和342个村庄(以浅灰边界划线)。"
+        },
+        {
+          "sourceTextHash": "2179186c8a7f6f553822a80d3420b41882d700a0cdbf0e46c0c6ca808187ff2e",
+          "zh": "城镇名称列在地图上。"
+        },
+        {
+          "sourceTextHash": "a171342ab167637d5fe9698222291b58685c38e64e80a42f94e9799567aa2b6c",
+          "zh": "村庄的颜色显示村庄类型:1-1个小村庄,拥有小农场,主要以谷物为基础(n=88);1-2个小村庄,拥有小农场,如第1类,但蔬菜较多(n=31);2"
+        },
+        {
+          "sourceTextHash": "3d2ebdcab69a05e36333124953d3b04f82e9315dca2779a57f2b7d04d78f6b31",
+          "zh": "拥有更多商业农场的大村庄(n=8);"
+        },
+        {
+          "sourceTextHash": "2e67ea78035940f94a39e5b98c8efd0ab75d313e137fb1d210df92bd78607c07",
+          "zh": "中等规模的村庄,主要是谷类村庄(n=75);"
+        },
+        {
+          "sourceTextHash": "79c53f4c05377e72aa48dae7770942b2a4f8c61cafede3ec50c4e0a3f9cfed30",
+          "zh": "城市附近的村庄和高比例的蔬菜(n=60);"
+        },
+        {
+          "sourceTextHash": "79f263def0e575fd33fbd4ff72945bda0deea6a50184596b291be81e3e7bea9c",
+          "zh": "城市化村庄几乎没有作物生产(农场调查除外)(n=7);"
+        },
+        {
+          "sourceTextHash": "26c5db708636de275b765b0e4c3557ff3cbb9530acfaa2f5184dd861669c124d",
+          "zh": "拥有大农场的大村庄,远离城市,大多以谷物为主(n=17);"
+        },
+        {
+          "sourceTextHash": "92563ef1e24a31eda8aa864485961d4f5d5e7663d8e3ff3c9169fea29d3e681a",
+          "zh": "中等规模的村庄具有多样化的作物种植系统,包括棉花和石油作物)(n=22)。 (关于本图图例中颜色引用的解释,请读者查阅本条的网络版本。 )"
+        }
+      ],
+      "sentenceCount": 11,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p14-b3-d31c489": {
-      "zh": "4.4. 类型学的使用",
+      "zh": "4.4.\n类型学的使用",
       "sourceTextHash": "d31c48912bb88c14b3bbf530850b0f30380716e01960eefd014fa918c8aa62d2",
       "status": "machine-draft",
       "page": 14,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "4e951712dbb7db7e8df2ae156f30ee2ee847ddb5c8f14e10f3c2d6c08375a60a",
+          "zh": "4.4."
+        },
+        {
+          "sourceTextHash": "640178552218ab872b63bff4a0f9dcbed5efc27af89a658232c9221844f95790",
+          "zh": "类型学的使用"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p14-b4-ff3a5e4": {
-      "zh": "分类方法用于选择具有代表性的村庄,以进行2020年7月至8月在Quzhone县进行的农户调查,采用分层随机抽样法,从有作物生产的村庄的七个组(高度城市化的第5组除外)中各抽选五个村,从每个选定的村庄共选定15个农场,商业农场清单由地方政府提供。",
+      "zh": "该类型用于选择具有代表性的村庄,以进行2020年7月至8月在奎州县进行的农户调查。 这次调查采用分层随机抽样方法。\n在有作物生产的村庄中,从七个群组(不包括高度城市化的群组5)中各随机挑选出五个村庄。\n每个选定的村庄共确定了15个农场。\n地方政府提供了商业农场清单。\n所有家庭",
       "sourceTextHash": "e9be7e323abe5694603bc051535698b72ca96703e38b9142766a47b5b449c931",
       "status": "machine-draft",
       "page": 14,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "df7d1ca548a705212b3e2deabdcc9840a47ef78d147b9f65d829990479fe9341",
+          "zh": "该类型用于选择具有代表性的村庄,以进行2020年7月至8月在奎州县进行的农户调查。 这次调查采用分层随机抽样方法。"
+        },
+        {
+          "sourceTextHash": "899a778f0fd43c8f86c42f640875e2578abef351832410ba25db0804f601e233",
+          "zh": "在有作物生产的村庄中,从七个群组(不包括高度城市化的群组5)中各随机挑选出五个村庄。"
+        },
+        {
+          "sourceTextHash": "6049a5c868132a6174c22e982aada298763e0046d4ac7f26a5291cd522614828",
+          "zh": "每个选定的村庄共确定了15个农场。"
+        },
+        {
+          "sourceTextHash": "d1a1da5a405aa49a8161df707140728c547315f251dcb9a31b9b35bcd395f137",
+          "zh": "地方政府提供了商业农场清单。"
+        },
+        {
+          "sourceTextHash": "4081be2a3df9eb6030735cfa6387ad53f948e030002e90a0a0de8b1aa1338a0a",
+          "zh": "所有家庭"
+        }
+      ],
+      "sentenceCount": 5,
       "flags": []
     },
     "p15-b0-947f809": {
-      "zh": "Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)中的数据 110269 15",
+      "zh": "Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "8ea1985f48dbf71972abd0aee09701355a6ca7a33e654319bbf5e1f6844c33d1",
       "status": "machine-draft",
       "page": 15,
-      "chunks": 1,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "711008aa877f86a3464029d52a8a5813872ffb264f1a422657c3ac186ddcf3ca",
+          "zh": "Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "3336f17cf2a65d921a0ee959ab98da418414aa98bb7531cac6382c2d6f5dd580",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p15-b2-b9f0375": {
-      "zh": "图8. 7个村庄类型和2个亚类类型的乡村特征:白钻石点代表平均值,黑点代表外值;石油作物为花生、大豆和油向日葵;村庄:1-1个小村庄,拥有小型农场,主要以谷物为基础(n=88);1-2个小村庄,拥有小型农场,类似1类但蔬菜较多的农场(n=31);2个大村庄,拥有更多的商业农场(n=8);3个中型村庄,主要是谷类农场(n=75);4个靠近城市、蔬菜比例高的村庄(n=60);5个几乎没有作物生产的城市化村庄(不包括农业调查)(n=7);6个大型村庄,远离城市,大多以谷物为基础(n=17);7个中等村庄,拥有多样化的作物系统,包括棉花和石油作物)(n=22)。",
+      "zh": "Fig. 8.\n按类型划分的7个村庄类型和2个亚类型的村庄特征。\n白色钻石点代表平均值,黑色点代表外值。\n石油作物是:花生、大豆和油向日葵。\n乡村类型:1-1个小村庄,小农场,主要以谷物为主(n=88);1-2个小村庄,小农场,如1类,但蔬菜较多(n=31);2\n拥有更多商业农场的大村庄(n=8);\n中等规模的村庄,主要是谷类村庄(n=75);\n城市附近的村庄和高比例的蔬菜(n=60);\n城市化村庄几乎没有作物生产(农场调查除外)(n=7);\n拥有大农场的大村庄,远离城市,大多以谷物为主(n=17);\n中等规模的村庄具有多样化的作物种植制度,包括棉花和石油作物)(n=22)。",
       "sourceTextHash": "669e7e9ff4b949e21348fdf78c0dc7c0437b6c2e0c1bac1d9aa1fe3d76b430f9",
       "status": "machine-draft",
       "page": 15,
-      "chunks": 1,
-      "flags": []
+      "segments": [
+        {
+          "sourceTextHash": "6ca14f9f5833a91fc8c73edac654104bcf2ae5269ad9dbe47d54efc349d0c43c",
+          "zh": "Fig. 8."
+        },
+        {
+          "sourceTextHash": "85e4bdb6b6abfd80a570ee6f013d3527ca48029e313ecf7cedaa2445849a26e0",
+          "zh": "按类型划分的7个村庄类型和2个亚类型的村庄特征。"
+        },
+        {
+          "sourceTextHash": "c105ac16ba67ea7198cb6240ad25ee974923eb1c25826b3da76b8ff05706177b",
+          "zh": "白色钻石点代表平均值,黑色点代表外值。"
+        },
+        {
+          "sourceTextHash": "a5d5115e2ff655b097f22455694cb2ae7b22b4fad9008cbebcd68c931cff9b7d",
+          "zh": "石油作物是:花生、大豆和油向日葵。"
+        },
+        {
+          "sourceTextHash": "34109c5e29e47c95278c0ec91d1a00823ff620e9015537244bfae4ea005bb833",
+          "zh": "乡村类型:1-1个小村庄,小农场,主要以谷物为主(n=88);1-2个小村庄,小农场,如1类,但蔬菜较多(n=31);2"
+        },
+        {
+          "sourceTextHash": "3d2ebdcab69a05e36333124953d3b04f82e9315dca2779a57f2b7d04d78f6b31",
+          "zh": "拥有更多商业农场的大村庄(n=8);"
+        },
+        {
+          "sourceTextHash": "2e67ea78035940f94a39e5b98c8efd0ab75d313e137fb1d210df92bd78607c07",
+          "zh": "中等规模的村庄,主要是谷类村庄(n=75);"
+        },
+        {
+          "sourceTextHash": "79c53f4c05377e72aa48dae7770942b2a4f8c61cafede3ec50c4e0a3f9cfed30",
+          "zh": "城市附近的村庄和高比例的蔬菜(n=60);"
+        },
+        {
+          "sourceTextHash": "79f263def0e575fd33fbd4ff72945bda0deea6a50184596b291be81e3e7bea9c",
+          "zh": "城市化村庄几乎没有作物生产(农场调查除外)(n=7);"
+        },
+        {
+          "sourceTextHash": "26c5db708636de275b765b0e4c3557ff3cbb9530acfaa2f5184dd861669c124d",
+          "zh": "拥有大农场的大村庄,远离城市,大多以谷物为主(n=17);"
+        },
+        {
+          "sourceTextHash": "1208f343084eccceb67473bec95287c305cf6178a20c418d4a6adf133f44cd99",
+          "zh": "中等规模的村庄具有多样化的作物种植制度,包括棉花和石油作物)(n=22)。"
+        }
+      ],
+      "sentenceCount": 11,
+      "flags": [
+        "numbers-check"
+      ]
     },
     "p15-b3-988d87f": {
-      "zh": "如果农场和合作社农场在村落内,这些农场和合作社农场总是包括在内,留下的小农农场是随机挑选出来的,每个村庄抽样取15个农场。",
+      "zh": "如果农场和合作社农场在村里,它们总是包括在内。\n留下的小农户是随机挑选出来的,以获得每个村庄15个农场的抽样。",
       "sourceTextHash": "d98cf1220dde99ba0c8306f7f352ad6c7fa5a66041f93967931ef07346c13bde",
       "status": "machine-draft",
       "page": 15,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "ccad21b259dd5a1e4d5d5b1a7d8ad757e9c4940f9c657e55edf6f0a807fef577",
+          "zh": "如果农场和合作社农场在村里,它们总是包括在内。"
+        },
+        {
+          "sourceTextHash": "2919e2b145148ce06afd283a5905d5d07a36f708d0d503c10933147de28c7792",
+          "zh": "留下的小农户是随机挑选出来的,以获得每个村庄15个农场的抽样。"
+        }
+      ],
+      "sentenceCount": 2,
       "flags": []
     },
     "p15-b4-69b1b67": {
@@ -1097,15 +2904,39 @@
       "sourceTextHash": "69b1b67de5ef98bea519f7c33bf6a1acc7b8d3693331dfd93488dffd794b6844",
       "status": "machine-draft",
       "page": 15,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "69b1b67de5ef98bea519f7c33bf6a1acc7b8d3693331dfd93488dffd794b6844",
+          "zh": "限制"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p15-b5-3f1074b": {
-      "zh": "村干部调查和住户调查是在北中平原的单一县进行的,因此可能无法准确反映整个北中平原的情况。在调查中,农民发现很难记得一些详细的管理数据,如作物、杀虫剂成分和含量的邪教变化以及化肥施用、农药喷洒和灌溉的确切日期。今后,可以进一步跟踪调查中的一些农民,以收集关于管理做法的更详细数据。",
+      "zh": "村干部调查和住户调查在华北平原的一个县进行。\n因此,它可能无法准确反映整个华北平原的情况。\n在调查中,农民发现难以回顾一些详细的管理数据,例如作物、杀虫剂成分和含量的邪教-轮次、化肥施用的确切日期、杀虫剂喷洒和灌溉。\n今后,可以进一步跟踪调查中的一些农民,以收集关于管理做法的更详细数据。",
       "sourceTextHash": "16d4a79185c3087a39aa9953fab1bf9996c984d8c019e824280913c6df592066",
       "status": "machine-draft",
       "page": 15,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "fb54c64ca618215212d34e931ac613c8a87d2514815fd93f7f468d4125317965",
+          "zh": "村干部调查和住户调查在华北平原的一个县进行。"
+        },
+        {
+          "sourceTextHash": "b21b08d2d3a7abc7d60437b145f5b4d6c1bf01b67ff7424b93e2ab28786559fe",
+          "zh": "因此,它可能无法准确反映整个华北平原的情况。"
+        },
+        {
+          "sourceTextHash": "0e00b44ec8ad819498e1377b39e4fa75feb1b49d051e8926ff744936c1260c4a",
+          "zh": "在调查中,农民发现难以回顾一些详细的管理数据,例如作物、杀虫剂成分和含量的邪教-轮次、化肥施用的确切日期、杀虫剂喷洒和灌溉。"
+        },
+        {
+          "sourceTextHash": "09d29dec465f24bde0e47b725e9f6299d6b7d79fc2c7387fd71bbf22565c3e1a",
+          "zh": "今后,可以进一步跟踪调查中的一些农民,以收集关于管理做法的更详细数据。"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": []
     },
     "p15-b6-60788ec": {
@@ -1113,23 +2944,65 @@
       "sourceTextHash": "60788ec97bef21b2f1de26d931593b3662624c805c17245f62779c4123617fe6",
       "status": "machine-draft",
       "page": 15,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "60788ec97bef21b2f1de26d931593b3662624c805c17245f62779c4123617fe6",
+          "zh": "道德操守报表"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p15-b7-66675f0": {
-      "zh": "经与瓦格宁根大学和中国农业大学伦理学专家协商后,我们获得奎州实验站代表的地方主管当局的批准,所有农民自愿参加调查,所有与会者都同意调查和将数据用于非营利研究目的,所有数据都是匿名收集的。",
+      "zh": "经与瓦格宁根大学和中国农业大学伦理学专家协商后,我们获得了奎州实验站代表的地方主管当局的批准。\n所有农民都自愿参加了调查。\n所有与会者都同意调查并将数据用于非营利研究目的。\n所有数据都是匿名收集的。",
       "sourceTextHash": "0acec3782d267359c74c7acfb259cbd66cfa3c644dcadb2a392d19d86e21c669",
       "status": "machine-draft",
       "page": 15,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "ae5fe5121ed927dea68ba0521f3153f7d8fe0228c1c93dca91845a1a3be2e3fa",
+          "zh": "经与瓦格宁根大学和中国农业大学伦理学专家协商后,我们获得了奎州实验站代表的地方主管当局的批准。"
+        },
+        {
+          "sourceTextHash": "87a15ced5ca69fa7dc450f02036727b74e43e72a3cf24b5011c52b06eb75e968",
+          "zh": "所有农民都自愿参加了调查。"
+        },
+        {
+          "sourceTextHash": "6000722674a43f4e6fe7f9c45692e0a3bd00630b0a2a8c98da21f02282b03ead",
+          "zh": "所有与会者都同意调查并将数据用于非营利研究目的。"
+        },
+        {
+          "sourceTextHash": "c51c0b29d6c336127a26db1848f3b4a79fdf0347f16559f6296affc64f381aca",
+          "zh": "所有数据都是匿名收集的。"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": []
     },
     "p16-b0-e4644d9": {
-      "zh": "16 Z. Xu、F. Li和J. Cheng等人/第53号简报(2024年)中的数据",
+      "zh": "16 Z.\nXu, F.\nLi and J.\nCheng等人/数据简况53(2024)(2024)",
       "sourceTextHash": "289b4e0bcdc01b970253dfa479ae8e2a0df063cd23b00e4d14cda218d97a4614",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "a998a7079d775c366e194f88e52f5615700b14280cd02a5389cb49a2aff2b977",
+          "zh": "16 Z."
+        },
+        {
+          "sourceTextHash": "09cef900aac43d48c6a021d58dd3b278d987e2e18ed2c93690feea56dda4854e",
+          "zh": "Xu, F."
+        },
+        {
+          "sourceTextHash": "328efd7e201a270874209b0e230ee7cf13db3deef3e6b76008e1783909a97caa",
+          "zh": "Li and J."
+        },
+        {
+          "sourceTextHash": "77feab4b98589a336e583a9c2a0ba2d35ee64c067cdeaceeb4383036202c3316",
+          "zh": "Cheng等人/数据简况53(2024)(2024)"
+        }
+      ],
+      "sentenceCount": 4,
       "flags": [
         "numbers-check"
       ]
@@ -1139,7 +3012,13 @@
       "sourceTextHash": "f5955ab624107c88e983a75f928127419a5f5d857229286172809eff98812000",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "f5955ab624107c88e983a75f928127419a5f5d857229286172809eff98812000",
+          "zh": "数据可用性"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p16-b2-b9be634": {
@@ -1147,7 +3026,13 @@
       "sourceTextHash": "1ffd0db4987e40474483b6e48ebfe2b07ab1e81e93dbd890d5278ebb0d68bdc4",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "1ffd0db4987e40474483b6e48ebfe2b07ab1e81e93dbd890d5278ebb0d68bdc4",
+          "zh": "中国北平原州Quhone县作物生产活动的生计、投入和产出调查数据(原始数据)(孟德利数据)。"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p16-b3-0c52e90": {
@@ -1155,15 +3040,55 @@
       "sourceTextHash": "0c52e905ad33334a8f895d8c19a628dfabc73a53c04536910e07b5123a85ca94",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "0c52e905ad33334a8f895d8c19a628dfabc73a53c04536910e07b5123a85ca94",
+          "zh": "CREediT 作者声明"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p16-b4-4cfb181": {
-      "zh": "Zhan Xu:概念化、调查、数据整理、写作-审查和编辑;Fan Li:数据整理、资源;Jiali Cheng:调查、数据整理;Zhengyuan Liang:调查、数据整理;Jeroen C.J.Groot:方法、监督、书面-审查和编辑;Wopke van der Werf:监督、写作、审查和编辑;Chaochun Zhang:监督。",
+      "zh": "Zhan Xu:概念化、调查、数据整理、写作-审查和编辑;\nFan Li: 数据文献库,资源;\nJiali Cheng:调查、数据整理;\n梁正元:调查、数据整理;\n杰罗恩·C. J.\nGroot: 方法、监督、写作、审查和编辑;\nWopke van der Werf:监督、写作、审查和编辑;\n周张:监督。",
       "sourceTextHash": "fcd4b64b7c6dc576904d238b2d8f55c01321ab864229c70cca51bd59fcd5b57e",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "9a547d5aaf40b36c3d3b80e9b9a65cbbfc28579c6c877162d803ed6ea58b9c61",
+          "zh": "Zhan Xu:概念化、调查、数据整理、写作-审查和编辑;"
+        },
+        {
+          "sourceTextHash": "766410d141b8470da12025441302e4b03923bcbbf058289dd9b170e8f4010184",
+          "zh": "Fan Li: 数据文献库,资源;"
+        },
+        {
+          "sourceTextHash": "0f9237b38c684404a843f38d8732693414e8a943b875aa106fbd96f7d0ea6e2f",
+          "zh": "Jiali Cheng:调查、数据整理;"
+        },
+        {
+          "sourceTextHash": "1c75337c5a7f0eddb7d1e769e26334f03c0ed013b0ab19a72965eddee987914b",
+          "zh": "梁正元:调查、数据整理;"
+        },
+        {
+          "sourceTextHash": "3afbcebb028f7b2dd30445d8d15defcdfda6eca9eee61c33508fab78707bfe2d",
+          "zh": "杰罗恩·C. J."
+        },
+        {
+          "sourceTextHash": "ef290be59a1982ce517bc00bf062722adc1d5abc27b18d5db76c1bf5a7757cc1",
+          "zh": "Groot: 方法、监督、写作、审查和编辑;"
+        },
+        {
+          "sourceTextHash": "5b931831d6a33452c2b1b189225ff55912828ded28a4f5c05c074a679bf0be73",
+          "zh": "Wopke van der Werf:监督、写作、审查和编辑;"
+        },
+        {
+          "sourceTextHash": "1d14ffcbb55720865df164a1237b69b313beaeb10feae7997fbe2df748ce6a55",
+          "zh": "周张:监督。"
+        }
+      ],
+      "sentenceCount": 8,
       "flags": []
     },
     "p16-b5-4be0f86": {
@@ -1171,15 +3096,35 @@
       "sourceTextHash": "4be0f860ee3560910d50596233fe802eeecf0972c7a9de427a76ae9a622e2ea1",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "4be0f860ee3560910d50596233fe802eeecf0972c7a9de427a76ae9a622e2ea1",
+          "zh": "致谢"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p16-b6-39443c0": {
-      "zh": "这项工作得到了中国英新学院(2020-FJ-XZ-8)和中国奖学金理事会(赠款号码为201913043)以及海南大学合作项目的资助,特别是感谢Nico Heerink公司的宝贵捐款,我们感谢李东正、水井汉、王英英英和佳辉收集农场调查数据。",
+      "zh": "这项工作得到了中国商学院(2020-FJ-XZ-8)和中国奖学金理事会(赠款号码为201913043)和海南大学合作项目的资助。\n特别是,我们要感谢尼科·海林克的宝贵意见。\n我们感谢李东生、韩秀义、王英英英和姬佳辉收集农场调查数据。",
       "sourceTextHash": "23e3b85154bd3f57f909101ac69fa0d26fc21c32b6f5176a81dc2fada20639af",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "fffc49b86b555e312fb1b1e4d9fda36f406f54482d066c553a4ec7af4b7fd4da",
+          "zh": "这项工作得到了中国商学院(2020-FJ-XZ-8)和中国奖学金理事会(赠款号码为201913043)和海南大学合作项目的资助。"
+        },
+        {
+          "sourceTextHash": "20684287dad8451dea660c140dea87bf50aefb094f47813d6731af265a66a94a",
+          "zh": "特别是,我们要感谢尼科·海林克的宝贵意见。"
+        },
+        {
+          "sourceTextHash": "843485f59fb597e3fb53d08787bd7d91d794801e9cf303a589ff6c335e9a1bc6",
+          "zh": "我们感谢李东生、韩秀义、王英英英和姬佳辉收集农场调查数据。"
+        }
+      ],
+      "sentenceCount": 3,
       "flags": []
     },
     "p16-b7-8feb861": {
@@ -1187,7 +3132,13 @@
       "sourceTextHash": "8feb861e18c1f92ff541410539c6ee323dc625a04f9eb03328a60234bd726d3d",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "8feb861e18c1f92ff541410539c6ee323dc625a04f9eb03328a60234bd726d3d",
+          "zh": "利益冲突声明"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p16-b8-813bdb7": {
@@ -1195,7 +3146,13 @@
       "sourceTextHash": "282c3fd6cb03d56db344dc08f12bd96e4a4acfff95b2d50ddb19f8cfc5c61329",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "282c3fd6cb03d56db344dc08f12bd96e4a4acfff95b2d50ddb19f8cfc5c61329",
+          "zh": "作者声明,他们没有已知的相互竞争的经济利益或个人利益集团,这些利益集团或个人利益集团可能似乎影响本文件所报告的工作。"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p16-b9-69824d3": {
@@ -1203,18 +3160,220 @@
       "sourceTextHash": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 1,
+      "segments": [
+        {
+          "sourceTextHash": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
+          "zh": "参考参考资料"
+        }
+      ],
+      "sentenceCount": 1,
       "flags": []
     },
     "p16-b10-947a345": {
-      "zh": "[1] 中国国家统计局,《中国统计年鉴》,中国统计出版社,北京,2017年,(中文)2017年。 [2] 中华人民共和国农业和农村事务部《国家农业绿色发展重点地区名单》(中文),2019年。 [3] J. Shen、Q. Zhu、X. Jiao、H. Ying、H. W. Wang、 X. Wen、W. Xu、T. Li、W. Cong、X. Liu、Y. Hou、Z. Cui、O. Oenema、W. J. Davies、F. Zhang, 《农业绿色发展:中国和世界的典范》,Agric Sci. Eng. 7 (2020年) 5-13。 [4] J. Huang、J. Ding、机构创新和政策支持,以促进中国小规模农业改革,Agric。[5] M. Shen, J. Shen, 《评估中国合作社和家庭农业计划:农村治理观点》,《土地使用政策79》(2018年) 240-250。 [6] Y. Yu、Y.Hu、B.Gu、S.Reis、L.Yang, 《改革小农户以减轻农业污染》, Environ. Sci. Pollut. Res. Int.29 (2021) 13869-13880。 [7] S. Alvarez, C.J. Timler, M. Michalscheck, W. Paas, K. Descheemaeker, P. Tittonell, J.A. Andersson, J.C. Groot, Captur-ing 农场多样性和假设类型:耕作系统类型发展的创新方法框架,PLOS 1 13 (2018) e 0194757。核心小组,R:统计计算语言和环境,R统计计算基金会,2021年。 [9] K.S.Kuivanen、S.Alvarez、M.Michalscheck、S.Adjei-Nsiah、S.Descheemaeker、S.Mellon-Bedi、J.C.J.Groot,《小农耕作制度的多样性及其制约和创新机会的特点:加纳北部地区的案例研究》,NJAS 78 (1)(2016)153-166。",
+      "zh": "[1] 中国国家统计局,《中国统计年鉴》,中国统计出版社,北京,2017年,2017年,(中文版)[2] 中华人民共和国农业和农村事务部,《2019年第二轮国家农业绿色发展重点领域国家农业绿化清单》(中文版)[3]。\nShen, Q. 谢恩.\nZhu, X.\n赵浩,哈\n英英,哈\n王,X号\nWen, W.\nXu, T.\nLi, W.\n康,X号\nLiu, Y.\nHou, Z.\nCui, O.\nOenema, W. J. . ,《世界报》。\n戴维斯,F.\nZhang, \" 农业绿色发展:中国和世界的典范 \" ,前线。\n爱格力克\nSci.\nEng. 7 (2020) 5–13 . [4] J.\n黄JJ\n旨在推动中国小规模农业转型的丁丁、机构创新和政策支持,Agric。\n[5] 第47次(2016年)第227至237次会议[5]\n沈, J.\n[6] Y. 《评估中国合作社和家庭农场方案:农村治理观点》,《土地使用政策79》(2018年),240-250。\nYu, Y.\nHu, B.\nGu, S.\n赖斯, L.\nYang,Environ,改革小农户农场以减轻农业污染。\nSci.\n花生酱\nRes.\nInt. 29 (2021) 13869–13880 . [7] S.\n阿尔瓦雷斯,C. J.\nM. 蒂姆勒\nMichalscheck, W. 米哈尔斯查克, W.\n帕斯,K\nP. P.\n提托内尔,J. A.\n安德斯森,J. C.\nGroot,Captur-ing complications,具有基于假设的类型的农场多样性:农耕系统类型发展的创新方法框架,PLOS 1 13 (2018 e0194757)。 [8]\n核心团队,R:统计计算语言和环境,R统计计算基金会,2021年。 [9]\nS. 库瓦宁\n阿尔瓦雷斯\n米哈尔查克,S\nAdjei-Nsiah, S.,Adjei-Nsiah, S.,Adjei-Nsiah, S.,Adjei-Nsiah, S.Adjei-Nsiah, S.,Adjei-Nsiah, S.,Adjei-Nsiah, S.,S.,Adjei-Nsiah, S.,Adjei-Nsiah, S., S.,Adjei-Nsiah, S.,Adjei-Nsiah, S., S.,S.,Adjei-N.,Adjei-Nsiah, S., S.,Adj,S, S, S, S, S, S, S, S, S, S, S, Adjei, S,Adjei-N西亚。 萨, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, A., S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, A., S, A., S, A., A., A., S, S, A.,\nS. S. 救世主\n梅隆贝迪 J. C. J.\nGroot, 指出小农耕作制度的多样性及其限制和创新机会:加纳北部地区的案例研究,NJAS 78 (1)(2016)153至166。",
       "sourceTextHash": "c019981bacb134a1d2ad27734a8b2b7a50078906dc610453f58c3125564dcdf6",
       "status": "machine-draft",
       "page": 16,
-      "chunks": 3,
-      "flags": [
-        "numbers-check"
-      ]
+      "segments": [
+        {
+          "sourceTextHash": "c369876d51b03db2312d5eeba942350dce06ae26e323c944fbf94d4754a9f32f",
+          "zh": "[1] 中国国家统计局,《中国统计年鉴》,中国统计出版社,北京,2017年,2017年,(中文版)[2] 中华人民共和国农业和农村事务部,《2019年第二轮国家农业绿色发展重点领域国家农业绿化清单》(中文版)[3]。"
+        },
+        {
+          "sourceTextHash": "2ac01454457b9903439b6f8b5f6b2f4b81f93b4ef673f4068696a4013b3b8f0a",
+          "zh": "Shen, Q. 谢恩."
+        },
+        {
+          "sourceTextHash": "f651eda357264a2fcf87e452b2104d49995fc46a0bd7f93ba3a355d0367ebf82",
+          "zh": "Zhu, X."
+        },
+        {
+          "sourceTextHash": "3d8022b6c652602edde0fb5520fe680ddf19d051d1ec31947e8346380124bd9f",
+          "zh": "赵浩,哈"
+        },
+        {
+          "sourceTextHash": "54a2fce6b09df274cccb9b5d375d6d80ed4f1c9ba3b45a6e583a2eece254e4ea",
+          "zh": "英英,哈"
+        },
+        {
+          "sourceTextHash": "0bdba7e2b5aa236409d48ad3504eabcd60be5eea1c65caa4160a0ba3e6e6fdb5",
+          "zh": "王,X号"
+        },
+        {
+          "sourceTextHash": "ac29956198180636e23de698d478e63640a7bb9e3fd71839adcbb2f9b79e0fbc",
+          "zh": "Wen, W."
+        },
+        {
+          "sourceTextHash": "dfc6c8a3a3ba1d74c6f2ee43e880c55b5bbb2f1d18e6d652db2836edb0abf25b",
+          "zh": "Xu, T."
+        },
+        {
+          "sourceTextHash": "c65233a04a153244d3a8e52569fb9edf13bf5bbc2ceb29d2702ada558be3f58f",
+          "zh": "Li, W."
+        },
+        {
+          "sourceTextHash": "fa7f18824728f8f2e586a17c5ca7b1b9943d3c6aa87d6e9ff0790600011d7fb3",
+          "zh": "康,X号"
+        },
+        {
+          "sourceTextHash": "280eae04d8d41ad1026a2bfa7be2b8c576c46c56c5fe90f17c08f3ea3ff592e8",
+          "zh": "Liu, Y."
+        },
+        {
+          "sourceTextHash": "b1f4aa48a4f4c542baac810cfa2c414f7c16d804c4718933032931b9ae258d76",
+          "zh": "Hou, Z."
+        },
+        {
+          "sourceTextHash": "7db7f5d754307d396ce9a05ff82d41df796aaacc04977a7c9645d4ea0e0cf686",
+          "zh": "Cui, O."
+        },
+        {
+          "sourceTextHash": "d485a5429078018913f55d4edb1ddc2ed28e9c1386a1c70beec25430648dfe06",
+          "zh": "Oenema, W. J. . ,《世界报》。"
+        },
+        {
+          "sourceTextHash": "e08aeb3ef0cb5e378a9d3fd64aae43b6cbde3867ea5fc4fc13ed11243ada4aa0",
+          "zh": "戴维斯,F."
+        },
+        {
+          "sourceTextHash": "636a45da77f350bbefae7713e3f6926765dd573c7da93776fca56e1d362af59f",
+          "zh": "Zhang, \" 农业绿色发展:中国和世界的典范 \" ,前线。"
+        },
+        {
+          "sourceTextHash": "03bfcf314bf6ebff69473d94378fe737a92f3ca6c93d386766b157544597f6d1",
+          "zh": "爱格力克"
+        },
+        {
+          "sourceTextHash": "2f2654ba8810e3af3a3d2e3c33a810e85fa35fc36799c3a273d0ca0d97be71ec",
+          "zh": "Sci."
+        },
+        {
+          "sourceTextHash": "1222908e8051f87308a8f155e5fbdadd74b0c9606991b01d5ea51db0e9b00779",
+          "zh": "Eng. 7 (2020) 5–13 . [4] J."
+        },
+        {
+          "sourceTextHash": "4ad616f8cf64a304618dbbaf5ac8afa08822ccd1f7485a373198990eb5893e58",
+          "zh": "黄JJ"
+        },
+        {
+          "sourceTextHash": "f4c40feed98573785916b7ca948e46d88a6a378a5ba600a3691392f7260bd84c",
+          "zh": "旨在推动中国小规模农业转型的丁丁、机构创新和政策支持,Agric。"
+        },
+        {
+          "sourceTextHash": "ff45aca02079c04958ccc47fe4dd1b6eee612049f9bfe15e08b66959f560bf8a",
+          "zh": "[5] 第47次(2016年)第227至237次会议[5]"
+        },
+        {
+          "sourceTextHash": "16890033b46490ca5a957d962684df87c2e8bece13ace10db8e85406bf9fc6d0",
+          "zh": "沈, J."
+        },
+        {
+          "sourceTextHash": "69800f0c00c1186d9c5f3f96217fbfea9c919689c8538a419a32a73b752b5251",
+          "zh": "[6] Y. 《评估中国合作社和家庭农场方案:农村治理观点》,《土地使用政策79》(2018年),240-250。"
+        },
+        {
+          "sourceTextHash": "27e13f37fcb18c2e09739addd3c29eea4b90ad032061a13e8175f26f8c521ec6",
+          "zh": "Yu, Y."
+        },
+        {
+          "sourceTextHash": "aaf9ac5b15cf11a1bb33587030c4b12262faac3ddd5e8838786370bbbbb71641",
+          "zh": "Hu, B."
+        },
+        {
+          "sourceTextHash": "c5f38e49cd49f5d9f958bb317b99fa249af691fefb86063352244406045d84bb",
+          "zh": "Gu, S."
+        },
+        {
+          "sourceTextHash": "103b8e03bfdeaeeebe9cc7d2f42d41069e1ab578a230bd4473ecefe560a7aced",
+          "zh": "赖斯, L."
+        },
+        {
+          "sourceTextHash": "0339b4636c5cc84b81b5f663764b798fd190d67fef3466c11c5a90015db28299",
+          "zh": "Yang,Environ,改革小农户农场以减轻农业污染。"
+        },
+        {
+          "sourceTextHash": "2f2654ba8810e3af3a3d2e3c33a810e85fa35fc36799c3a273d0ca0d97be71ec",
+          "zh": "Sci."
+        },
+        {
+          "sourceTextHash": "241ccaf209825ae2b9bcadfc370c805c28f401def0f43a5bace8818892bc07f7",
+          "zh": "花生酱"
+        },
+        {
+          "sourceTextHash": "aedfc5faa0cfe1d8df13d92886d65d9f975c4d6ffcf8696325cda95cbe1e44f4",
+          "zh": "Res."
+        },
+        {
+          "sourceTextHash": "1676f217b885de8af6700c97fdad610f2c494ac73cfb2fd1d41322301630c525",
+          "zh": "Int. 29 (2021) 13869–13880 . [7] S."
+        },
+        {
+          "sourceTextHash": "d3111af8d22617607f10e36f64ce649696300e634cdc633e5552ba415a1db20c",
+          "zh": "阿尔瓦雷斯,C. J."
+        },
+        {
+          "sourceTextHash": "c6375762d3bbd2a3106ed8a4a1f0a061c6ac93be173001b2bfb71410eb278fd5",
+          "zh": "M. 蒂姆勒"
+        },
+        {
+          "sourceTextHash": "f67821e4c77c6e24cbf295831b89257b02c597cc312d8d83f8190710a7d6fe2e",
+          "zh": "Michalscheck, W. 米哈尔斯查克, W."
+        },
+        {
+          "sourceTextHash": "4d1fd25dcc7d3f8c39cf2bfe9a0bf4a008cf99cad9a662e29c754e0c1bd9d7c9",
+          "zh": "帕斯,K"
+        },
+        {
+          "sourceTextHash": "c589eb26301af5cea686b77c6db74630ff0a750e9ed9e378e5a6a3ac9766d54d",
+          "zh": "P. P."
+        },
+        {
+          "sourceTextHash": "e5e2b53d1779ade8092ec2abe7b15903c33285a1b785d0023db3ab711fa85ec8",
+          "zh": "提托内尔,J. A."
+        },
+        {
+          "sourceTextHash": "eae531b681231d1587c17ff143cae75d713fa7a08e54267319a5994da4cba52c",
+          "zh": "安德斯森,J. C."
+        },
+        {
+          "sourceTextHash": "8e80bcce963495910da47a59e520ab8c8ccab51f5f5917409090b7f18fbc3a11",
+          "zh": "Groot,Captur-ing complications,具有基于假设的类型的农场多样性:农耕系统类型发展的创新方法框架,PLOS 1 13 (2018 e0194757)。 [8]"
+        },
+        {
+          "sourceTextHash": "6a56f31aa4b91d47fc419faf650390675055f0cdc3f69e7be618439861ea839d",
+          "zh": "核心团队,R:统计计算语言和环境,R统计计算基金会,2021年。 [9]"
+        },
+        {
+          "sourceTextHash": "3069b11034bad19b1d778a698f7a6dccad7ff8c4a9d31440889ce50264e63fbb",
+          "zh": "S. 库瓦宁"
+        },
+        {
+          "sourceTextHash": "454562cd1f7cd565059dbc9fdd59e669d89619c76b66940bfcd69e84110cfeac",
+          "zh": "阿尔瓦雷斯"
+        },
+        {
+          "sourceTextHash": "7bf882ff8a9d993ff02b6102ba38909842813840d9aeada0a4757e5703b150c0",
+          "zh": "米哈尔查克,S"
+        },
+        {
+          "sourceTextHash": "5a78d1e86f99a267f2e7ebaa5c6d234c74fd20044d9cee4b4f73ab8045696ca9",
+          "zh": "Adjei-Nsiah, S.,Adjei-Nsiah, S.,Adjei-Nsiah, S.,Adjei-Nsiah, S.Adjei-Nsiah, S.,Adjei-Nsiah, S.,Adjei-Nsiah, S.,S.,Adjei-Nsiah, S.,Adjei-Nsiah, S., S.,Adjei-Nsiah, S.,Adjei-Nsiah, S., S.,S.,Adjei-N.,Adjei-Nsiah, S., S.,Adj,S, S, S, S, S, S, S, S, S, S, S, Adjei, S,Adjei-N西亚。 萨, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, A., S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, S, A., S, A., S, A., A., A., S, S, A.,"
+        },
+        {
+          "sourceTextHash": "838faef1ffaf167a6eacc48d19a1cb3c0017a0eef61b94a3993913a509f629f9",
+          "zh": "S. S. 救世主"
+        },
+        {
+          "sourceTextHash": "49b1d8791e6a200a036e00ee22b73b84bd8cc8bcbf36006da759a4120895ee2d",
+          "zh": "梅隆贝迪 J. C. J."
+        },
+        {
+          "sourceTextHash": "9812c22e3679ffb0f485d0e01a7ebd7f108184b39c93115d5eb1274e21193d33",
+          "zh": "Groot, 指出小农耕作制度的多样性及其限制和创新机会:加纳北部地区的案例研究,NJAS 78 (1)(2016)153至166。"
+        }
+      ],
+      "sentenceCount": 49,
+      "flags": []
     }
   },
   "coverage": {
@@ -1224,6 +3383,7 @@
     "symbolsRetainedBlocks": 9,
     "manuallyReviewedBlocks": 0,
     "machineDraftBlocks": 135,
+    "separatelyTranslatedSentences": 473,
     "allNumericClaimsManuallyVerified": false
   }
 }
