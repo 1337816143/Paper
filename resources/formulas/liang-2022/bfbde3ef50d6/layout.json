@@ -1,0 +1,516 @@
+{
+  "schema": "paper.layout.v3",
+  "docId": "liang-2022",
+  "sourceHash": "bfbde3ef50d61598c5aa73a5ff6d02141f1d7473ae446b0f73f88e6bbef0ef47",
+  "equations": [
+    {
+      "id": "formula-p4-1",
+      "page": 4,
+      "label": "1",
+      "first": "p4-b9-d5a020b",
+      "members": [
+        "p4-b9-d5a020b",
+        "p4-b10-de7d1b7",
+        "p4-b11-3589661",
+        "p4-b32-5af3f24"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-1-89ff39.png",
+      "bbox": [
+        34.59014892578125,
+        473.286865234375,
+        337.7289733886719,
+        540.6670532226562
+      ],
+      "sourceText": "GMtotal =\n∑\ni\nYi × PRi −VCi\n(1)\nD = α ×",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 4
+    },
+    {
+      "id": "formula-p4-2",
+      "page": 4,
+      "label": "2",
+      "first": "p4-b1-4b22777",
+      "members": [
+        "p4-b1-4b22777",
+        "p4-b15-374962b",
+        "p4-b16-de7d1b7",
+        "p4-b17-72a1d64"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-2-d0ed0a.png",
+      "bbox": [
+        34.59046936035156,
+        713.0623779296875,
+        302.7976989746094,
+        767.8795776367188
+      ],
+      "sourceText": "4\nDEYtotal =\n∑\ni\nYi × Ei\n(2)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 4
+    },
+    {
+      "id": "formula-p4-3",
+      "page": 4,
+      "label": "3",
+      "first": "p4-b20-70e0261",
+      "members": [
+        "p4-b20-70e0261",
+        "p4-b21-de7d1b7",
+        "p4-b22-be27c71",
+        "p4-b23-189f400",
+        "p4-b24-dd0eec8"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-3-f87398.png",
+      "bbox": [
+        303.5981140136719,
+        139.2158966064453,
+        565.3511962890625,
+        168.76112365722656
+      ],
+      "sourceText": "LUtotal =\n∑\ni\n∑\nj\nLj,i × Nj,i\n(3)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 4
+    },
+    {
+      "id": "formula-p4-4",
+      "page": 4,
+      "label": "4",
+      "first": "p4-b28-c96490b",
+      "members": [
+        "p4-b28-c96490b",
+        "p4-b29-de7d1b7",
+        "p4-b30-76fda88"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-4-85295e.png",
+      "bbox": [
+        303.5955810546875,
+        352.66400146484375,
+        565.3494262695312,
+        382.2101135253906
+      ],
+      "sourceText": "GWD =\n∑\ni\nIRi −D\n(4)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 4
+    },
+    {
+      "id": "formula-p4-5",
+      "page": 4,
+      "label": "5",
+      "first": "p4-b33-32ebb1a",
+      "members": [
+        "p4-b33-32ebb1a",
+        "p4-b34-16fd171",
+        "p4-b35-de7d1b7",
+        "p4-b36-5904d87",
+        "p4-b37-ba5ec51",
+        "p4-b38-97ce612"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-5-5c7837.png",
+      "bbox": [
+        333.0185546875,
+        459.7579345703125,
+        565.3485107421875,
+        495.3131103515625
+      ],
+      "sourceText": "(\nP +\n∑\ni\nIRi\n)\n(5)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 4
+    },
+    {
+      "id": "formula-p4-6",
+      "page": 4,
+      "label": "6",
+      "first": "p4-b41-19cf79b",
+      "members": [
+        "p4-b41-19cf79b",
+        "p4-b42-de7d1b7",
+        "p4-b44-4826d47"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-6-66aa0a.png",
+      "bbox": [
+        303.59539794921875,
+        595.1981811523438,
+        565.3493041992188,
+        624.7421264648438
+      ],
+      "sourceText": "NLtotal =\n∑\ni\n)\n(6)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 4
+    },
+    {
+      "id": "formula-p5-7",
+      "page": 5,
+      "label": "7",
+      "first": "p5-b3-84652dd",
+      "members": [
+        "p5-b3-84652dd"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p5-eq-7-05a5d9.png",
+      "bbox": [
+        34.59014892578125,
+        126.87571716308594,
+        296.3431396484375,
+        145.90682983398438
+      ],
+      "sourceText": "GHGnet = GHGemi −QSOC\n(7)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-8",
+      "page": 5,
+      "label": "8",
+      "first": "p5-b6-c31afa1",
+      "members": [
+        "p5-b6-c31afa1"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p5-eq-8-23dd3f.png",
+      "bbox": [
+        34.589385986328125,
+        309.65374755859375,
+        296.3431396484375,
+        328.6848449707031
+      ],
+      "sourceText": "PUtotal = IUtotal + HUtotal + FUtotal\n(8)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-9",
+      "page": 5,
+      "label": "9",
+      "first": "p5-b12-b73a8c6",
+      "members": [
+        "p5-b12-b73a8c6",
+        "p5-b13-d782dcd",
+        "p5-b14-9b19467",
+        "p5-b15-855c2a4",
+        "p5-b16-7a7170f"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p5-eq-9-f5bdd1.png",
+      "bbox": [
+        303.5926513671875,
+        584.992919921875,
+        565.3485717773438,
+        620.8864135742188
+      ],
+      "sourceText": "MIDIPc =\n̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\n∑\nn\nk=1\ndk,c\n2\n√\n(9)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-checked-mathml-with-original-crop",
+      "proofPage": 5,
+      "mathML": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>MIDIP</mi><mrow><mi>c</mi></mrow></msub><mo>=</mo><msqrt><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mn>2</mn></msup></mrow></msqrt></mrow></math>",
+      "gloss": "对n个指标到理想点的范围标准化距离平方求和，再开根号；c表示案例群组。",
+      "location": "§2.5.2, equation (9)"
+    },
+    {
+      "id": "formula-p5-10",
+      "page": 5,
+      "label": "10",
+      "first": "p5-b17-60f1c21",
+      "members": [
+        "p5-b17-60f1c21",
+        "p5-b18-4092c3d",
+        "p5-b19-3d60d48",
+        "p5-b20-a6046ce"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p5-eq-10-97c61d.png",
+      "bbox": [
+        303.5952453613281,
+        620.1988525390625,
+        565.3572998046875,
+        652.068115234375
+      ],
+      "sourceText": "dk,c =\n⃒⃒⃒⃒\npk,c −qk\nmdk\n⃒⃒⃒⃒\n(10)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-checked-mathml-with-original-crop",
+      "proofPage": 5,
+      "mathML": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>=</mo><mrow><mo>|</mo><mfrac><mrow><msub><mi>p</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mi>q</mi><mrow><mi>k</mi></mrow></msub></mrow><msub><mi>md</mi><mrow><mi>k</mi></mrow></msub></mfrac><mo>|</mo></mrow></mrow></math>",
+      "gloss": "群组中心与该指标理想值之差，除以全体观测的指标范围，再取绝对值。",
+      "location": "§2.5.2, equation (10)"
+    },
+    {
+      "id": "formula-p5-11",
+      "page": 5,
+      "label": "11",
+      "first": "p5-b21-f6a9eac",
+      "members": [
+        "p5-b21-f6a9eac"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p5-eq-11-5d47cc.png",
+      "bbox": [
+        303.59600830078125,
+        653.77978515625,
+        565.359375,
+        672.8109130859375
+      ],
+      "sourceText": "mdk = maximumk −minimumk\n(11)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-checked-mathml-with-original-crop",
+      "proofPage": 5,
+      "mathML": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>md</mi><mrow><mi>k</mi></mrow></msub><mo>=</mo><msub><mi>maximum</mi><mrow><mi>k</mi></mrow></msub><mo>−</mo><msub><mi>minimum</mi><mrow><mi>k</mi></mrow></msub></mrow></math>",
+      "gloss": "指标k在全体观测中的最大值与最小值之差。",
+      "location": "§2.5.2, equation (11)"
+    },
+    {
+      "id": "formula-p6-12",
+      "page": 6,
+      "label": "12",
+      "first": "p6-b3-e4fdddc",
+      "members": [
+        "p6-b3-e4fdddc",
+        "p6-b4-e05812e",
+        "p6-b5-9b19467",
+        "p6-b6-0bf8671",
+        "p6-b7-eb88c8b",
+        "p6-b8-2d73ad0",
+        "p6-b9-23012b8"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-12-26d30b.png",
+      "bbox": [
+        34.587398529052734,
+        82.69348907470703,
+        296.349365234375,
+        121.81946563720703
+      ],
+      "sourceText": "HDIPc =\n̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\n∑\nn\nk=1\n(\ndk,c −dc\n)2\nn −1\n√\n√\n√\n√\n(12)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-checked-mathml-with-original-crop",
+      "proofPage": 6,
+      "mathML": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>HDIP</mi><mrow><mi>c</mi></mrow></msub><mo>=</mo><msqrt><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mrow><mo>(</mo><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mover><mi>d</mi><mo>¯</mo></mover><mi>c</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac></msqrt></mrow></math>",
+      "gloss": "各指标距离相对其平均距离的样本标准差；分母为n−1。",
+      "location": "§2.5.2, equation (12)"
+    },
+    {
+      "id": "formula-p6-13",
+      "page": 6,
+      "label": "13",
+      "first": "p6-b13-66a3b9c",
+      "members": [
+        "p6-b13-66a3b9c"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-13-9301c3.png",
+      "bbox": [
+        34.589874267578125,
+        268.040771484375,
+        296.3513488769531,
+        287.0718688964844
+      ],
+      "sourceText": "SGk = MPexem,k −MPother,k\n(13)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 6
+    },
+    {
+      "id": "formula-p6-14",
+      "page": 6,
+      "label": "14",
+      "first": "p6-b15-c4fce6e",
+      "members": [
+        "p6-b15-c4fce6e"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-14-f54184.png",
+      "bbox": [
+        34.588706970214844,
+        376.77874755859375,
+        296.3513488769531,
+        395.8098449707031
+      ],
+      "sourceText": "ELP = GMtotal/LUtotal\n(14)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 6
+    },
+    {
+      "id": "formula-p6-15",
+      "page": 6,
+      "label": "15",
+      "first": "p6-b16-6c94304",
+      "members": [
+        "p6-b16-6c94304"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-15-2270e7.png",
+      "bbox": [
+        34.5892333984375,
+        396.4507751464844,
+        296.3513488769531,
+        415.48187255859375
+      ],
+      "sourceText": "NF = NLtotal/DEYtotal\n(15)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 6
+    },
+    {
+      "id": "formula-p6-16",
+      "page": 6,
+      "label": "16",
+      "first": "p6-b17-917efa8",
+      "members": [
+        "p6-b17-917efa8",
+        "p6-b21-8a5edab"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-16-0cd94c.png",
+      "bbox": [
+        34.5892333984375,
+        416.1227722167969,
+        296.3513488769531,
+        447.1960144042969
+      ],
+      "sourceText": "CF = GHGnet/DEYtotal\n(16)\n/",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 6
+    },
+    {
+      "id": "formula-p6-17",
+      "page": 6,
+      "label": "17",
+      "first": "p6-b18-d055c42",
+      "members": [
+        "p6-b18-d055c42",
+        "p6-b19-de7d1b7",
+        "p6-b20-5904d87",
+        "p6-b22-6de649b"
+      ],
+      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-17-a6b2be.png",
+      "bbox": [
+        34.5892333984375,
+        439.2344665527344,
+        294.0160827636719,
+        468.7801208496094
+      ],
+      "sourceText": "BWF =\n∑\ni\nIRi\nDEYtotal\n(17)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 6
+    }
+  ],
+  "blockMap": {
+    "p4-b9-d5a020b": "formula-p4-1",
+    "p4-b10-de7d1b7": "formula-p4-1",
+    "p4-b11-3589661": "formula-p4-1",
+    "p4-b32-5af3f24": "formula-p4-1",
+    "p4-b1-4b22777": "formula-p4-2",
+    "p4-b15-374962b": "formula-p4-2",
+    "p4-b16-de7d1b7": "formula-p4-2",
+    "p4-b17-72a1d64": "formula-p4-2",
+    "p4-b20-70e0261": "formula-p4-3",
+    "p4-b21-de7d1b7": "formula-p4-3",
+    "p4-b22-be27c71": "formula-p4-3",
+    "p4-b23-189f400": "formula-p4-3",
+    "p4-b24-dd0eec8": "formula-p4-3",
+    "p4-b28-c96490b": "formula-p4-4",
+    "p4-b29-de7d1b7": "formula-p4-4",
+    "p4-b30-76fda88": "formula-p4-4",
+    "p4-b33-32ebb1a": "formula-p4-5",
+    "p4-b34-16fd171": "formula-p4-5",
+    "p4-b35-de7d1b7": "formula-p4-5",
+    "p4-b36-5904d87": "formula-p4-5",
+    "p4-b37-ba5ec51": "formula-p4-5",
+    "p4-b38-97ce612": "formula-p4-5",
+    "p4-b41-19cf79b": "formula-p4-6",
+    "p4-b42-de7d1b7": "formula-p4-6",
+    "p4-b44-4826d47": "formula-p4-6",
+    "p5-b3-84652dd": "formula-p5-7",
+    "p5-b6-c31afa1": "formula-p5-8",
+    "p5-b12-b73a8c6": "formula-p5-9",
+    "p5-b13-d782dcd": "formula-p5-9",
+    "p5-b14-9b19467": "formula-p5-9",
+    "p5-b15-855c2a4": "formula-p5-9",
+    "p5-b16-7a7170f": "formula-p5-9",
+    "p5-b17-60f1c21": "formula-p5-10",
+    "p5-b18-4092c3d": "formula-p5-10",
+    "p5-b19-3d60d48": "formula-p5-10",
+    "p5-b20-a6046ce": "formula-p5-10",
+    "p5-b21-f6a9eac": "formula-p5-11",
+    "p6-b3-e4fdddc": "formula-p6-12",
+    "p6-b4-e05812e": "formula-p6-12",
+    "p6-b5-9b19467": "formula-p6-12",
+    "p6-b6-0bf8671": "formula-p6-12",
+    "p6-b7-eb88c8b": "formula-p6-12",
+    "p6-b8-2d73ad0": "formula-p6-12",
+    "p6-b9-23012b8": "formula-p6-12",
+    "p6-b13-66a3b9c": "formula-p6-13",
+    "p6-b15-c4fce6e": "formula-p6-14",
+    "p6-b16-6c94304": "formula-p6-15",
+    "p6-b17-917efa8": "formula-p6-16",
+    "p6-b21-8a5edab": "formula-p6-16",
+    "p6-b18-d055c42": "formula-p6-17",
+    "p6-b19-de7d1b7": "formula-p6-17",
+    "p6-b20-5904d87": "formula-p6-17",
+    "p6-b22-6de649b": "formula-p6-17"
+  },
+  "classification": {
+    "p1-b0-3c257be": "running-metadata",
+    "p2-b0-3c257be": "running-metadata",
+    "p2-b6-5413519": "running-metadata",
+    "p3-b0-3c257be": "running-metadata",
+    "p3-b12-5413519": "running-metadata",
+    "p4-b0-3c257be": "running-metadata",
+    "p4-b2-415f26e": "running-metadata",
+    "p4-b18-814df8a": "running-metadata",
+    "p4-b47-5413519": "running-metadata",
+    "p5-b0-3c257be": "running-metadata",
+    "p5-b25-5413519": "running-metadata",
+    "p6-b0-3c257be": "running-metadata",
+    "p6-b27-072c8a2": "running-metadata",
+    "p6-b35-5413519": "running-metadata",
+    "p7-b0-3c257be": "running-metadata",
+    "p7-b11-564f432": "running-metadata",
+    "p7-b16-5413519": "running-metadata",
+    "p8-b0-3c257be": "running-metadata",
+    "p8-b1-2c62423": "running-metadata",
+    "p8-b4-5413519": "running-metadata",
+    "p9-b0-3c257be": "running-metadata",
+    "p9-b6-5413519": "running-metadata",
+    "p10-b0-3c257be": "running-metadata",
+    "p10-b1-4a44dc1": "running-metadata",
+    "p10-b4-5413519": "running-metadata",
+    "p11-b0-3c257be": "running-metadata",
+    "p11-b13-5413519": "running-metadata",
+    "p12-b0-3c257be": "running-metadata",
+    "p12-b1-6b51d43": "running-metadata",
+    "p12-b4-5413519": "running-metadata",
+    "p13-b0-3c257be": "running-metadata",
+    "p13-b20-5413519": "running-metadata",
+    "p14-b0-3c257be": "running-metadata",
+    "p14-b4-5413519": "running-metadata",
+    "p15-b0-3c257be": "running-metadata",
+    "p15-b4-5413519": "running-metadata"
+  },
+  "sectionHeadingIds": [
+    "p2-b3-6e62ee8",
+    "p3-b3-a77f4aa",
+    "p3-b4-9a5389b",
+    "p3-b7-658e195",
+    "p4-b4-6733a1d",
+    "p4-b6-98a8ad5",
+    "p4-b13-d5b9b1d",
+    "p4-b26-51bdac1",
+    "p5-b8-fd923e6",
+    "p6-b11-47ccc6b",
+    "p6-b25-fb2b681",
+    "p6-b28-c3fea71",
+    "p6-b29-82317f3",
+    "p6-b31-2e9e8a8",
+    "p6-b33-34d3ece",
+    "p7-b2-bdf489e",
+    "p7-b4-be4deb3",
+    "p7-b6-54c664c",
+    "p7-b9-684778b",
+    "p11-b3-c6741f4",
+    "p11-b6-1fd8860",
+    "p13-b3-6022d58",
+    "p13-b5-e64fd69",
+    "p13-b12-188a992",
+    "p13-b18-69824d3"
+  ],
+  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+}

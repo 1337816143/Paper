@@ -1,71 +1,1300 @@
 {
- "schema":"paper.glossary.v3",
- "notice":"教学释义，按相关论文中的用法解释；不是声称作者逐字使用了这些中文定义。",
- "terms":[
- {"id":"farming-system","en":"farming system","zh":"农业经营系统","aliases":["farming systems","农业系统","农场系统"],"definition":"把经营活动、资源、投入产出及其相互联系作为一个整体研究；边界可以是农场，也可能扩展到家庭或景观。先确认论文选定的边界。","caution":"farming system不等于只描述一种作物的种植技术。","sources":[["farmdesign-2012","§2"],["ditzler-2019","模型部分"]],"more":"whole-farm"},
- {"id":"cropping-system","en":"cropping system","zh":"种植系统","aliases":["cropping systems","作物种植系统"],"definition":"作物组成、时序与管理方式的组合。梁2022比较同一种小麦—玉米双季框架下的不同管理案例，梁2023则设计新的作物序列。","caution":"作物种类相同不代表管理和资源绩效相同。","sources":[["liang-2022","§2.1–2.4"],["liang-2023","Methods"]],"more":"rotation"},
- {"id":"positive-deviance","en":"positive deviance","zh":"正向偏离","aliases":["positive deviants","positive deviant","正向案例","正向偏离方法"],"definition":"寻找现实中表现突出的个体或系统，进一步研究其做法。不同论文可以使用统计筛选、访谈提名等不同识别方式。","caution":"这里不是需要删除的统计异常值；梁2022与Toorop2023的识别程序不同。","sources":[["liang-2022","§2.5–2.7"],["toorop-2023","Methods"]],"more":"positive-deviance"},
- {"id":"pareto","en":"Pareto dominance","zh":"帕累托支配","aliases":["Pareto-dominance","Pareto","帕累托","帕雷托","支配关系"],"definition":"先统一改善方向。若A所有指标都不差于B，且至少一项严格更好，A支配B。","caution":"完全相同的两个点不构成严格支配；指标方向和可行性必须先明确。","sources":[["liang-2022","§2.5"],["liang-2023","方案筛选"]],"more":"pareto"},
- {"id":"frontier","en":"Pareto front","zh":"帕累托前沿","aliases":["Pareto frontier","Pareto fronts","non-dominated solutions","non-dominated","non dominated","非支配方案","非支配","帕累托前沿"],"definition":"在给定比较集合内，不被其他可行方案支配的方案集合。它展示不同指标组合，而不是给出唯一冠军。","caution":"样本前沿、搜索到的近似前沿和被完整枚举的有限可行域前沿，证据范围不同。","sources":[["liang-2022","§2.5"],["farmsteps-2026","方案枚举与筛选"]],"more":"pareto"},
- {"id":"nondominated-sorting","en":"non-dominated sorting","zh":"非支配排序","aliases":["non dominated sorting","Pareto ranking"],"definition":"先取第一前沿，移除后在剩余方案中再取下一前沿，逐层得到排序等级。","caution":"等级不是所有指标的加权总分。","sources":[["liang-2022","§2.5"]],"more":"pareto"},
- {"id":"ideal-point","en":"ideal point","zh":"理想点","aliases":["ideal-point","理想点"],"definition":"把各指标在参照集合中的最好值组合成比较基准。不同指标的最好值可能来自不同农场，因此该点未必实际可实现。","sources":[["liang-2022","§2.6"]],"more":"ideal-distance"},
- {"id":"midip","en":"MIDIP","zh":"多指标理想点距离","aliases":["MIDIP"],"definition":"梁2022中：计算群组中心到各指标理想值的范围标准化距离，再平方求和并开根号。越小表示整体越靠近理想点。","caution":"不是距离的简单平均；需同时确认标准化范围和理想点来源。","sources":[["liang-2022","§2.6，原文距离公式"]],"more":"ideal-distance"},
- {"id":"hdip","en":"HDIP","zh":"理想点距离的异质性","aliases":["HDIP"],"definition":"梁2022用各指标标准化理想点距离的样本标准差，描述这些距离在指标之间有多不均衡。","caution":"HDIP低只能说明距离较均匀，所有指标都很差也可能得到低值。","sources":[["liang-2022","§2.6，原文异质性公式"]],"more":"ideal-distance"},
- {"id":"efficiency-score","en":"Pareto efficiency score","zh":"帕累托效率得分","aliases":["Pareto efficiency","帕累托效率得分"],"definition":"梁2023逐个检查目标子集，寻找使某方案在所有同大小目标子集中都非支配的最小子集大小k。","caution":"关键是“所有”而非“至少一个”；不要等同综合得分或非支配概率。","sources":[["liang-2023","§3.5.2"]],"more":"efficiency-score"},
- {"id":"tradeoff","en":"trade-off","zh":"权衡","aliases":["trade-offs","tradeoff","tradeoffs","权衡关系"],"definition":"改善一个关注目标时，另一个目标可能受到不利影响。需区分观测相关、模型预测和优化前沿中的取舍。","caution":"负相关图本身不证明因果权衡，更不证明所有技术条件下都不可同时改善。","sources":[["breure-2024","分类框架与讨论"]],"more":"causality"},
- {"id":"synergy","en":"synergy","zh":"协同","aliases":["synergies","协同关系"],"definition":"同一变化可能同时改善多个目标的关系。是否成立取决于比较基线、模型假设和系统边界。","sources":[["qu-2025","情景与讨论"],["breure-2024","分类框架"]],"more":"pareto"},
- {"id":"multiobjective","en":"multi-objective optimization","zh":"多目标优化","aliases":["multiobjective optimization","multi-objective optimisation","多目标优化"],"definition":"在给定决策变量和约束内同时评价多个目标，通常得到一组不同取舍的有效方案。","caution":"提出多个目标不意味着它们可以被同时最大化；启发式搜索结果不自动构成全局最优证明。","sources":[["farmdesign-2012","§2"],["landscape-2018","Methods"]],"more":"pareto"},
- {"id":"decision-variable","en":"decision variable","zh":"决策变量","aliases":["decision variables","决策变量"],"definition":"模型允许调整的量，如各作物面积、牲畜数量或地块土地利用类型。","caution":"给定的产量或价格通常是参数，除非模型明确把它们作为可调整决策。","sources":[["farmdesign-2012","模型结构"]],"more":"whole-farm"},
- {"id":"constraint","en":"constraint","zh":"约束","aliases":["constraints","资源约束","约束条件"],"definition":"方案必须满足的条件，如面积、水、劳动或作物轮作规则。约束决定可行域。","caution":"全年劳动够用不代表收获高峰时段也够用。","sources":[["farmsteps-2026","Constraint module"]],"more":"rotation"},
- {"id":"rotation","en":"crop rotation","zh":"作物轮作","aliases":["crop rotations","cropping sequence","crop sequence","crop sequences","作物轮作","作物序列"],"definition":"同一土地单元在时间上安排不同作物活动的序列。研究生成方案时，需要播收期、前后衔接、频次和返回间隔规则。","sources":[["liang-2023","轮作生成"]],"more":"rotation"},
- {"id":"rotat","en":"ROTAT","zh":"轮作方案生成器","aliases":["ROTAT+","ROTAT"],"definition":"根据农学规则生成候选轮作；在梁2023研究流程中，生成后还需计算指标和筛选方案。","caution":"生成候选序列不等于已经完成全农场优化；ROTAT与ROTAT+不可默认视为完全相同版本。","sources":[["liang-2023","候选轮作生成"],["farmsteps-2026","Crop sequence module"]],"more":"rotation"},
- {"id":"enumeration","en":"enumeration","zh":"枚举","aliases":["enumerating","systematic enumeration","枚举"],"definition":"在事先界定的离散选择中逐一生成或检查组合。FarmSTEPS案例采用枚举可行方案，再进行非支配筛选。","caution":"完整性只针对实际定义并遍历的空间；组合数会随地块和候选数迅速增加。","sources":[["farmsteps-2026","方案生成与筛选"]],"more":"rotation"},
- {"id":"farmdesign","en":"FarmDESIGN","zh":"全农场生物经济设计模型","aliases":["FarmDESIGN"],"definition":"把年度农场资源与生物经济平衡同多目标探索相连；作物、牲畜、饲料、粪肥、劳动和经济相互关联。","caution":"2012基础版为年度静态稳态框架，不能直接当作逐日作物过程模型或所有后续版本。","sources":[["farmdesign-2012","§2"]],"more":"whole-farm"},
- {"id":"farmsteps","en":"FarmSTEPS","zh":"农场作物序列时空探索模型","aliases":["FarmSTEPS"],"definition":"通过农场配置、土地单元、时间轴、作物序列、指标和约束模块，组织多地块、多时期的作物计划。","caution":"案例中的枚举加筛选，不应称为FarmDESIGN式P-MODE进化搜索。","sources":[["farmsteps-2026","模型架构"]],"more":"rotation"},
- {"id":"landscapeimages","en":"LandscapeIMAGES","zh":"空间显式景观多目标探索框架","aliases":["LandscapeIMAGES"],"definition":"连接可选土地利用、空间对象和绩效指标，按生成、评价、选择与展示的循环探索景观配置。","caution":"输入GIS并不等于每项指标都包含空间过程；需要逐项检查邻接和配置如何进入计算。","sources":[["landscape-2018","§2"]],"more":"spatial-design"},
- {"id":"pmode","en":"P-MODE","zh":"多目标差分进化搜索","aliases":["P-MODE","differential evolution","差分进化"],"definition":"通过候选方案的迭代生成、变化、评价和非支配选择探索方案空间。具体操作和参数应以相应模型版本的方法为准。","caution":"它是搜索机制，不是Pareto支配的定义，也不是全局最优证明。","sources":[["farmdesign-2012","优化方法"],["landscape-2018","优化算法"]],"more":"pareto"},
- {"id":"pca","en":"principal component analysis","zh":"主成分分析","aliases":["principal components analysis","PCA","主成分分析"],"definition":"用原变量的线性组合表达主要变异，常用于降维和描述方案差异。结果取决于变量选择和标准化。","caution":"解释方差最多的PC1不是天然的可持续性总分；Q研究中的PCA对象与普通指标矩阵的分析对象也不同。","sources":[["liang-2023","分类方法"],["cheng-2025","§2.2.4"]],"more":"pca-cluster"},
- {"id":"hca","en":"hierarchical clustering","zh":"层次聚类","aliases":["hierarchical cluster analysis","HCA","层次聚类"],"definition":"依照相似性逐步合并或划分对象，形成树状关系，再选择切分层级得到类别。","caution":"距离、连接方法和标准化会改变结果；不同论文的设置不能直接混用。","sources":[["liang-2022","§2.6–2.7"],["liang-2023","分类方法"]],"more":"pca-cluster"},
- {"id":"ward","en":"Ward.D2","zh":"Ward层次聚类连接方法","aliases":["Ward.D2","Ward's method","Ward clustering"],"definition":"层次聚类中一种与组内离差变化有关的连接规则；在R中常见为hclust的ward.D2选项。","caution":"最小方差解释涉及欧氏几何；忠实复现原文与另做方法敏感性分析要分开。","sources":[["liang-2022","§2.6"],["xu-data-2024","§4.1"]],"more":"pca-cluster"},
- {"id":"standardization","en":"standardization","zh":"标准化","aliases":["standardisation","standardized","normalization","范围标准化","标准化"],"definition":"改变数值尺度以便比较或建模。范围标准化、z分数标准化等方式并不等同，必须读清公式和参照数据。","caution":"只写“标准化处理”不足以复现；极端值和常数列也需处理。","sources":[["liang-2022","§2.6"],["liang-2023","指标与分类"]],"more":"indicators"},
- {"id":"ecosystem-service","en":"ecosystem services","zh":"生态系统服务","aliases":["ecosystem service","生态系统服务"],"definition":"研究中用于表达生态系统与人类获益联系的一组服务概念。程2023讨论的是受访者对这些服务的感知。","caution":"服务感知、生态实测、模型代理指标和社会偏好是不同类型的数据。","sources":[["cheng-2023","引言与问卷设计"],["cheng-2025","Q-set"]],"more":"survey"},
- {"id":"disservice","en":"ecosystem disservices","zh":"生态系统负服务","aliases":["ecosystem dis-services","dis-services","disservices","负服务"],"definition":"研究所关注的生态系统或农业活动带来的不利作用。调查回答体现受访者感知和报告，不能直接当作物理监测。","caution":"没有报告负服务，不等于负服务不存在。","sources":[["cheng-2023","§2.4与讨论"]],"more":"survey"},
- {"id":"rda","en":"redundancy analysis","zh":"冗余分析","aliases":["RDA","冗余分析"],"definition":"受解释变量约束的多变量排序，可理解为多响应回归与排序的结合。程2023用35个村庄均值作为分析单位。","caution":"排序图中的关联不是因果关系；先确认矩阵每一行是谁。","sources":[["cheng-2023","§2.6"]],"more":"rda"},
- {"id":"likert","en":"Likert scale","zh":"Likert式等级评分","aliases":["Likert","李克特量表"],"definition":"用有序等级记录判断或态度。程2023问卷中的等级与0、缺失、不适用等状态需分别编码。","caution":"不能把不知道或未调查统一当成0。","sources":[["cheng-2023","§2.4与§2.6"]],"more":"survey"},
- {"id":"q-method","en":"Q methodology","zh":"Q方法","aliases":["Q-methodology","Q method","Q-method","Q方法"],"definition":"让参与者对同一组陈述排序，再分析不同人的排序模式，以识别和解释共同观点。","caution":"不是普通量表求总分，也不是直接估计总体中每类观点的人口比例。","sources":[["cheng-2025","§2.2"]],"more":"q-method"},
- {"id":"qsort","en":"Q-sort","zh":"Q排序","aliases":["Q-sorts","Q sorting","Q排序"],"definition":"一位参与者对全部Q陈述形成的一套完整排序。程2025用20条陈述，五档格数为2、4、8、4、2。","caution":"低分通常表示相对优先级较低，不一定表示绝对不重要。","sources":[["cheng-2025","§2.2与Fig.1"]],"more":"q-method"},
- {"id":"qset","en":"Q-set","zh":"Q陈述集","aliases":["Q set","Q-set"],"definition":"供所有参与者排序的一组陈述，应覆盖研究议题中需要比较的观点。","caution":"未进入陈述集的重要议题，不会被后续因子分析自动补出来。","sources":[["cheng-2025","§2.2.1"]],"more":"q-method"},
- {"id":"pset","en":"P-set","zh":"Q研究参与者集","aliases":["P-set","P set"],"definition":"参与排序的人群。Q研究通常关注观点的差异与覆盖，不能默认等同概率抽样。","sources":[["cheng-2025","参与者选择与Table 3"]],"more":"q-method"},
- {"id":"factor-loading","en":"factor loading","zh":"因子载荷","aliases":["factor loadings","因子载荷"],"definition":"在这组Q研究中，表示个人Q排序与某一共同观点因子的关联强度；须结合显著性和归属标准判断。","caution":"它不是生态系统服务的优化权重。","sources":[["cheng-2025","§2.2.4"]],"more":"q-method"},
- {"id":"factor-array","en":"factor array","zh":"因子典型排序","aliases":["factor arrays","典型排序"],"definition":"由归属某因子的排序综合得到各陈述的代表性分数与排序，用来解释该观点整体如何分配优先级。","caution":"不要与个人载荷或总体支持比例混淆。","sources":[["cheng-2025","§2.2.4"]],"more":"q-method"},
- {"id":"varimax","en":"varimax","zh":"方差最大旋转","aliases":["varimax rotation","varimax","方差最大旋转"],"definition":"因子分析中用于简化载荷结构、辅助解释的一种正交旋转。程2025在PCA提取后使用它。","caution":"旋转不替代因子数选择、归属标准和访谈解释。","sources":[["cheng-2025","§2.2.4"]],"more":"q-method"},
- {"id":"stakeholder","en":"stakeholder","zh":"利益相关者","aliases":["stakeholders","利益相关者"],"definition":"其利益、行动或决策与研究问题相关的人或机构。不同群体可能关心不同服务，且个人观点与机构立场不能默认等同。","sources":[["cheng-2025","参与者与调查要求"]],"more":"survey"},
- {"id":"typology","en":"farm typology","zh":"农场类型划分","aliases":["typology","typologies","农场类型划分","农场分类"],"definition":"按研究目的组织农场异质性，可以用于抽样、解释现状或构建不同优化约束。三种目的不一定使用相同变量。","sources":[["xu-data-2024","抽样设计"],["xu-thesis","官方摘要"]],"more":"typology"},
- {"id":"mci","en":"multiple cropping index","zh":"复种指数","aliases":["MCI","复种指数"],"definition":"表达同一面积在一年内安排多少轮作物生产。徐2024同时比较年度表现和按MCI换算的每轮作物表现。","caution":"每年用水较低可能来自少种一季，不一定是单季灌溉效率更高。","sources":[["xu-2024","§2.3–2.4"]],"more":"indicators"},
- {"id":"gross-margin","en":"gross margin","zh":"毛利","aliases":["gross margins","毛利"],"definition":"研究按特定收入与变动成本边界计算的经济指标。阅读时必须检查家庭劳动、雇工、租地等成本如何计入。","caution":"毛利不能不加说明地改称净利润；不同论文的成本边界可能不同。","sources":[["liang-2022","§2.4"],["xu-2024","Table 1"]],"more":"indicators"},
- {"id":"n-surplus","en":"nitrogen surplus","zh":"氮盈余","aliases":["N surplus","氮盈余"],"definition":"在明确边界内，用已计入的氮输入减去氮输出得到的收支量。","caution":"它不等于已实测的氮淋溶或某一条氮损失路径，可能涉及库存变化及漏计过程。","sources":[["xu-2024","§2.4与Table 1"]],"more":"nutrients"},
- {"id":"n-loss","en":"nitrogen loss","zh":"氮损失","aliases":["nitrogen losses","N loss","N losses","氮损失"],"definition":"氮通过研究边界流失的过程或模型估算量；具体定义与计算方法必须按本文说明。","caution":"FarmDESIGN基础论文用平衡残差表达，不能把它直接等同分别监测的淋溶和反硝化。","sources":[["farmdesign-2012","§2.2.3"],["liang-2022","§2.4"]],"more":"nutrients"},
- {"id":"n-leaching","en":"nitrogen leaching","zh":"氮淋溶","aliases":["nitrate leaching","氮淋溶","硝态氮淋溶"],"definition":"氮随水向下迁移、离开所定义土壤层或根区的一类具体过程。","caution":"总氮收支残差不允许自动全部解释为淋溶。","sources":[["farmdesign-2012","氮平衡边界"]],"more":"nutrients"},
- {"id":"groundwater","en":"groundwater depletion","zh":"地下水消耗","aliases":["地下水消耗","groundwater use"],"definition":"研究所计算的地下水资源消耗指标，须检查是否扣除补给、采用何种水分平衡以及计量时间。","caution":"灌溉施水量与地下水净消耗不一定是同一指标。","sources":[["liang-2022","§2.4"],["liang-2023","指标定义"]],"more":"indicators"},
- {"id":"tfi","en":"treatment frequency index","zh":"农药施用频次指数","aliases":["TFI","treatment frequency","农药施用频次"],"definition":"以施用次数或相对于规定剂量的施用强度来表达农药使用的指标，具体公式按本文定义。","caution":"不能与kg有效成分或毒性风险直接互换。梁2023与梁2022的农药指标口径不同。","sources":[["xu-2024","Table 1"],["liang-2022","农药指标"]],"more":"indicators"},
- {"id":"dietary-energy","en":"dietary energy yield","zh":"膳食能量产出","aliases":["dietary energy","膳食能量产出"],"definition":"把产品产量换算为可供给的食物能量，计量边界与产品用途按研究设定。","caution":"生产端能量供给不直接证明居民实际摄入和健康结果。","sources":[["liang-2022","指标计算"],["novotny-2024","营养指标"]],"more":"indicators"},
- {"id":"eutrophication","en":"eutrophication","zh":"富营养化","aliases":["eutrophication potential","富营养化"],"definition":"水体等环境中营养物质增加引起的相关影响；生命周期或系统评价中可能以潜势/代理指标表达。","caution":"模型计算的潜势不等于已监测到研究区实际水体变化。","sources":[["liang-2023","Table 2"],["farmsteps-2026","Indicator module"]],"more":"indicators"},
- {"id":"ghg","en":"greenhouse gas","zh":"温室气体","aliases":["greenhouse gases","GHG","温室气体"],"definition":"研究按给定边界核算的一组排放及可能的抵扣项，净值应核查是否包含碳固定、能源与其他过程。","caution":"先确认单位、时间和净/总口径，不能只比较数字大小。","sources":[["liang-2022","指标定义"],["liang-2023","Table 2"]],"more":"indicators"},
- {"id":"farmm3","en":"FarmM3","zh":"粪肥管理链模块","aliases":["FarmM3","manure management","粪肥管理"],"definition":"Qu2025把粪肥管理链模块与FarmDESIGN连接，追踪管理链及农场重新配置中的养分和环境绩效。","caution":"一个环节减少损失不保证全链或全农场总损失等量下降。","sources":[["qu-2025","§2.1–2.4"]],"more":"nutrients"},
- {"id":"pollution-swapping","en":"pollution swapping","zh":"污染转移","aliases":["污染转移"],"definition":"改善一个环节或一种环境指标时，压力可能转移到另一环节、路径或指标。需要完整系统核算。","sources":[["qu-2025","机制与讨论"]],"more":"nutrients"},
- {"id":"steady-state","en":"steady state","zh":"稳态","aliases":["steady-state","稳态"],"definition":"在模型计算期内对某些存量变化作平衡或不变假设。年度稳态并不表达全部季节动态。","caution":"稳态是建模假设，不是说真实农场一年中毫无变化。","sources":[["farmdesign-2012","§2.2"]],"more":"whole-farm"},
- {"id":"scenario","en":"scenario","zh":"情景","aliases":["scenarios","情景分析"],"definition":"一组明确的外部条件或管理设定，用来比较在这些设定下系统如何表现。","caution":"情景不是已发生事实；没有概率依据时不能随意称作发生概率。","sources":[["qu-2025","情景设计"],["breure-2024","方法讨论"]],"more":"uncertainty"},
- {"id":"sensitivity","en":"sensitivity analysis","zh":"敏感性分析","aliases":["敏感性分析"],"definition":"检查输入或假设变化对输出和决策的影响程度，帮助找出关键参数。","caution":"敏感性分析、不确定性传播和跨情景稳健性不是同一问题。","sources":[["breure-2024","风险与不确定性讨论"]],"more":"uncertainty"},
- {"id":"uncertainty","en":"uncertainty","zh":"不确定性","aliases":["uncertainties","不确定性"],"definition":"对数据、参数、外部条件或模型结构尚不能确定的部分；需要说明来源与传播到结论的方式。","caution":"跑几个情景不等于已经量化所有不确定性。","sources":[["breure-2024","讨论"]],"more":"uncertainty"},
- {"id":"robustness","en":"robustness","zh":"稳健性","aliases":["robust decision","稳健性"],"definition":"在不同扰动或情景下仍能保持可接受表现的能力，需先明确接受阈值和测试范围。","caution":"期望利润最高不一定意味着下行风险最小。","sources":[["breure-2024","方法审查"],["toorop-2023","概念比较"]],"more":"uncertainty"},
- {"id":"resilience","en":"resilience","zh":"韧性","aliases":["resilient","韧性"],"definition":"在扰动下承受、恢复或调整的能力；不同文献具体定义和观测指标应分别核对。","caution":"能恢复、能保持和能从扰动获益，不是相同强度的命题。","sources":[["toorop-2023","概念框架"]],"more":"uncertainty"},
- {"id":"antifragility","en":"antifragility","zh":"反脆弱性","aliases":["antifragile","反脆弱性","反脆弱"],"definition":"比保持和恢复更强的概念：某种波动或扰动能够使系统表现改善。","caution":"一个灾后表现好的案例，不能单独证明它是因扰动而获益。","sources":[["toorop-2023","概念框架与案例性质"]],"more":"uncertainty"},
- {"id":"digital-twin","en":"digital twin","zh":"数字孪生","aliases":["digital twins","数字孪生"],"definition":"与现实对象状态和行为相联系的数字表示及其使用体系，需要说明数据更新、模型和决策如何连接。","caution":"静态地图或表格不因换名就自动成为数字孪生。该页带读的全文核读范围仍以证据标记为准。","sources":[["verdouw-2021","官方摘要与框架"]],"more":"data-schema"},
- {"id":"spatially-explicit","en":"spatially explicit","zh":"空间显式","aliases":["spatial-explicit","空间显式"],"definition":"位置、邻接或空间过程实际进入表示和计算；不仅是给非空间计算附一张地图。","sources":[["landscape-2018","GIS与指标模块"]],"more":"spatial-design"},
- {"id":"connectivity","en":"connectivity","zh":"连通性","aliases":["habitat connectivity","连通性"],"definition":"描述空间单元之间联系的指标或属性，具体定义取决于对象、尺度与过程。相同生境面积可以有不同配置与连通性。","sources":[["landscape-2018","案例指标"]],"more":"spatial-design"},
- {"id":"validation","en":"validation","zh":"模型有效性评价","aliases":["model validation","模型验证"],"definition":"判断模型对其拟用于回答的问题是否足够可信，需考虑观测对照、结构假设及外推范围。","caution":"程序测试通过不等于农业预测有效；校准与独立评价也应区别。","sources":[["farmdesign-2012","验证与讨论"],["breure-2024","方法审查"]],"more":"validation"},
- {"id":"kw","en":"Kruskal–Wallis","zh":"Kruskal–Wallis秩检验","aliases":["Kruskal-Wallis","Kruskal–Wallis"],"definition":"用于多组数据比较的非参数秩检验。应读清组别、分析单位以及后续成对比较。","caution":"未在原文明确的多重比较校正，不能自行补成作者采用的方法。","sources":[["cheng-2023","§2.6"]],"more":"survey"},
- {"id":"wilcoxon","en":"Wilcoxon","zh":"Wilcoxon秩检验","aliases":["Wilcoxon"],"definition":"一组基于秩的统计比较方法名称；程2023报告后续Wilcoxon秩和比较，不能与配对符号秩检验默认等同。","sources":[["cheng-2023","§2.6"]],"more":"survey"},
- {"id":"ks","en":"Kolmogorov–Smirnov","zh":"Kolmogorov–Smirnov检验","aliases":["Kolmogorov-Smirnov","Kolmogorov–Smirnov"],"definition":"比较分布的统计检验。徐2024使用它比较指标分布，而不是把它当作通用均值检验。","sources":[["xu-2024","§2.5"]],"more":"indicators"}
- ]
+  "schema": "paper.glossary.v3",
+  "notice": "教学释义，按相关论文中的用法解释；不是声称作者逐字使用了这些中文定义。",
+  "terms": [
+    {
+      "id": "farming-system",
+      "en": "farming system",
+      "zh": "农业经营系统",
+      "aliases": [
+        "farming systems",
+        "农业系统",
+        "农场系统"
+      ],
+      "definition": "把经营活动、资源、投入产出及其相互联系作为一个整体研究；边界可以是农场，也可能扩展到家庭或景观。先确认论文选定的边界。",
+      "caution": "farming system不等于只描述一种作物的种植技术。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "§2"
+        ],
+        [
+          "ditzler-2019",
+          "模型部分"
+        ]
+      ],
+      "more": "whole-farm"
+    },
+    {
+      "id": "cropping-system",
+      "en": "cropping system",
+      "zh": "种植系统",
+      "aliases": [
+        "cropping systems",
+        "作物种植系统"
+      ],
+      "definition": "作物组成、时序与管理方式的组合。梁2022比较同一种小麦—玉米双季框架下的不同管理案例，梁2023则设计新的作物序列。",
+      "caution": "作物种类相同不代表管理和资源绩效相同。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.1–2.4"
+        ],
+        [
+          "liang-2023",
+          "Methods"
+        ]
+      ],
+      "more": "rotation"
+    },
+    {
+      "id": "positive-deviance",
+      "en": "positive deviance",
+      "zh": "正向偏离",
+      "aliases": [
+        "positive deviants",
+        "positive deviant",
+        "正向案例",
+        "正向偏离方法"
+      ],
+      "definition": "寻找现实中表现突出的个体或系统，进一步研究其做法。不同论文可以使用统计筛选、访谈提名等不同识别方式。",
+      "caution": "这里不是需要删除的统计异常值；梁2022与Toorop2023的识别程序不同。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5–2.7"
+        ],
+        [
+          "toorop-2023",
+          "Methods"
+        ]
+      ],
+      "more": "positive-deviance"
+    },
+    {
+      "id": "pareto",
+      "en": "Pareto dominance",
+      "zh": "帕累托支配",
+      "aliases": [
+        "Pareto-dominance",
+        "Pareto",
+        "帕累托",
+        "帕雷托",
+        "支配关系"
+      ],
+      "definition": "先统一改善方向。若A所有指标都不差于B，且至少一项严格更好，A支配B。",
+      "caution": "完全相同的两个点不构成严格支配；指标方向和可行性必须先明确。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5"
+        ],
+        [
+          "liang-2023",
+          "方案筛选"
+        ]
+      ],
+      "more": "pareto"
+    },
+    {
+      "id": "frontier",
+      "en": "Pareto front",
+      "zh": "帕累托前沿",
+      "aliases": [
+        "Pareto frontier",
+        "Pareto fronts",
+        "non-dominated solutions",
+        "non-dominated",
+        "non dominated",
+        "非支配方案",
+        "非支配",
+        "帕累托前沿"
+      ],
+      "definition": "在给定比较集合内，不被其他可行方案支配的方案集合。它展示不同指标组合，而不是给出唯一冠军。",
+      "caution": "样本前沿、搜索到的近似前沿和被完整枚举的有限可行域前沿，证据范围不同。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5"
+        ],
+        [
+          "farmsteps-2026",
+          "方案枚举与筛选"
+        ]
+      ],
+      "more": "pareto"
+    },
+    {
+      "id": "nondominated-sorting",
+      "en": "non-dominated sorting",
+      "zh": "非支配排序",
+      "aliases": [
+        "non dominated sorting",
+        "Pareto ranking"
+      ],
+      "definition": "先取第一前沿，移除后在剩余方案中再取下一前沿，逐层得到排序等级。",
+      "caution": "等级不是所有指标的加权总分。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5"
+        ]
+      ],
+      "more": "pareto"
+    },
+    {
+      "id": "ideal-point",
+      "en": "ideal point",
+      "zh": "理想点",
+      "aliases": [
+        "ideal-point",
+        "理想点"
+      ],
+      "definition": "把各指标在参照集合中的最好值组合成比较基准。不同指标的最好值可能来自不同农场，因此该点未必实际可实现。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5.2"
+        ]
+      ],
+      "more": "ideal-distance"
+    },
+    {
+      "id": "midip",
+      "en": "MIDIP",
+      "zh": "多指标理想点距离",
+      "aliases": [
+        "MIDIP"
+      ],
+      "definition": "梁2022中：计算群组中心到各指标理想值的范围标准化距离，再平方求和并开根号。越小表示整体越靠近理想点。",
+      "caution": "不是距离的简单平均；需同时确认标准化范围和理想点来源。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5.2，原文距离公式"
+        ]
+      ],
+      "more": "ideal-distance"
+    },
+    {
+      "id": "hdip",
+      "en": "HDIP",
+      "zh": "理想点距离的异质性",
+      "aliases": [
+        "HDIP"
+      ],
+      "definition": "梁2022用各指标标准化理想点距离的样本标准差，描述这些距离在指标之间有多不均衡。",
+      "caution": "HDIP低只能说明距离较均匀，所有指标都很差也可能得到低值。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5.2，原文异质性公式"
+        ]
+      ],
+      "more": "ideal-distance"
+    },
+    {
+      "id": "efficiency-score",
+      "en": "Pareto efficiency score",
+      "zh": "帕累托效率得分",
+      "aliases": [
+        "Pareto efficiency",
+        "帕累托效率得分"
+      ],
+      "definition": "梁2023逐个检查目标子集，寻找使某方案在所有同大小目标子集中都非支配的最小子集大小k。",
+      "caution": "关键是“所有”而非“至少一个”；不要等同综合得分或非支配概率。",
+      "sources": [
+        [
+          "liang-2023",
+          "§3.5.2"
+        ]
+      ],
+      "more": "efficiency-score"
+    },
+    {
+      "id": "tradeoff",
+      "en": "trade-off",
+      "zh": "权衡",
+      "aliases": [
+        "trade-offs",
+        "tradeoff",
+        "tradeoffs",
+        "权衡关系"
+      ],
+      "definition": "改善一个关注目标时，另一个目标可能受到不利影响。需区分观测相关、模型预测和优化前沿中的取舍。",
+      "caution": "负相关图本身不证明因果权衡，更不证明所有技术条件下都不可同时改善。",
+      "sources": [
+        [
+          "breure-2024",
+          "分类框架与讨论"
+        ]
+      ],
+      "more": "causality"
+    },
+    {
+      "id": "synergy",
+      "en": "synergy",
+      "zh": "协同",
+      "aliases": [
+        "synergies",
+        "协同关系"
+      ],
+      "definition": "同一变化可能同时改善多个目标的关系。是否成立取决于比较基线、模型假设和系统边界。",
+      "sources": [
+        [
+          "qu-2025",
+          "情景与讨论"
+        ],
+        [
+          "breure-2024",
+          "分类框架"
+        ]
+      ],
+      "more": "pareto"
+    },
+    {
+      "id": "multiobjective",
+      "en": "multi-objective optimization",
+      "zh": "多目标优化",
+      "aliases": [
+        "multiobjective optimization",
+        "multi-objective optimisation",
+        "多目标优化"
+      ],
+      "definition": "在给定决策变量和约束内同时评价多个目标，通常得到一组不同取舍的有效方案。",
+      "caution": "提出多个目标不意味着它们可以被同时最大化；启发式搜索结果不自动构成全局最优证明。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "§2"
+        ],
+        [
+          "landscape-2018",
+          "Methods"
+        ]
+      ],
+      "more": "pareto"
+    },
+    {
+      "id": "decision-variable",
+      "en": "decision variable",
+      "zh": "决策变量",
+      "aliases": [
+        "decision variables",
+        "决策变量"
+      ],
+      "definition": "模型允许调整的量，如各作物面积、牲畜数量或地块土地利用类型。",
+      "caution": "给定的产量或价格通常是参数，除非模型明确把它们作为可调整决策。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "模型结构"
+        ]
+      ],
+      "more": "whole-farm"
+    },
+    {
+      "id": "constraint",
+      "en": "constraint",
+      "zh": "约束",
+      "aliases": [
+        "constraints",
+        "资源约束",
+        "约束条件"
+      ],
+      "definition": "方案必须满足的条件，如面积、水、劳动或作物轮作规则。约束决定可行域。",
+      "caution": "全年劳动够用不代表收获高峰时段也够用。",
+      "sources": [
+        [
+          "farmsteps-2026",
+          "Constraint module"
+        ]
+      ],
+      "more": "rotation"
+    },
+    {
+      "id": "rotation",
+      "en": "crop rotation",
+      "zh": "作物轮作",
+      "aliases": [
+        "crop rotations",
+        "cropping sequence",
+        "crop sequence",
+        "crop sequences",
+        "作物轮作",
+        "作物序列"
+      ],
+      "definition": "同一土地单元在时间上安排不同作物活动的序列。研究生成方案时，需要播收期、前后衔接、频次和返回间隔规则。",
+      "sources": [
+        [
+          "liang-2023",
+          "轮作生成"
+        ]
+      ],
+      "more": "rotation"
+    },
+    {
+      "id": "rotat",
+      "en": "ROTAT",
+      "zh": "轮作方案生成器",
+      "aliases": [
+        "ROTAT+",
+        "ROTAT"
+      ],
+      "definition": "根据农学规则生成候选轮作；在梁2023研究流程中，生成后还需计算指标和筛选方案。",
+      "caution": "生成候选序列不等于已经完成全农场优化；ROTAT与ROTAT+不可默认视为完全相同版本。",
+      "sources": [
+        [
+          "liang-2023",
+          "候选轮作生成"
+        ],
+        [
+          "farmsteps-2026",
+          "Crop sequence module"
+        ]
+      ],
+      "more": "rotation"
+    },
+    {
+      "id": "enumeration",
+      "en": "enumeration",
+      "zh": "枚举",
+      "aliases": [
+        "enumerating",
+        "systematic enumeration",
+        "枚举"
+      ],
+      "definition": "在事先界定的离散选择中逐一生成或检查组合。FarmSTEPS案例采用枚举可行方案，再进行非支配筛选。",
+      "caution": "完整性只针对实际定义并遍历的空间；组合数会随地块和候选数迅速增加。",
+      "sources": [
+        [
+          "farmsteps-2026",
+          "方案生成与筛选"
+        ]
+      ],
+      "more": "rotation"
+    },
+    {
+      "id": "farmdesign",
+      "en": "FarmDESIGN",
+      "zh": "全农场生物经济设计模型",
+      "aliases": [
+        "FarmDESIGN"
+      ],
+      "definition": "把年度农场资源与生物经济平衡同多目标探索相连；作物、牲畜、饲料、粪肥、劳动和经济相互关联。",
+      "caution": "2012基础版为年度静态稳态框架，不能直接当作逐日作物过程模型或所有后续版本。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "§2"
+        ]
+      ],
+      "more": "whole-farm"
+    },
+    {
+      "id": "farmsteps",
+      "en": "FarmSTEPS",
+      "zh": "农场作物序列时空探索模型",
+      "aliases": [
+        "FarmSTEPS"
+      ],
+      "definition": "通过农场配置、土地单元、时间轴、作物序列、指标和约束模块，组织多地块、多时期的作物计划。",
+      "caution": "案例中的枚举加筛选，不应称为FarmDESIGN式P-MODE进化搜索。",
+      "sources": [
+        [
+          "farmsteps-2026",
+          "模型架构"
+        ]
+      ],
+      "more": "rotation"
+    },
+    {
+      "id": "landscapeimages",
+      "en": "LandscapeIMAGES",
+      "zh": "空间显式景观多目标探索框架",
+      "aliases": [
+        "LandscapeIMAGES"
+      ],
+      "definition": "连接可选土地利用、空间对象和绩效指标，按生成、评价、选择与展示的循环探索景观配置。",
+      "caution": "输入GIS并不等于每项指标都包含空间过程；需要逐项检查邻接和配置如何进入计算。",
+      "sources": [
+        [
+          "landscape-2018",
+          "§2"
+        ]
+      ],
+      "more": "spatial-design"
+    },
+    {
+      "id": "pmode",
+      "en": "P-MODE",
+      "zh": "多目标差分进化搜索",
+      "aliases": [
+        "P-MODE",
+        "differential evolution",
+        "差分进化"
+      ],
+      "definition": "通过候选方案的迭代生成、变化、评价和非支配选择探索方案空间。具体操作和参数应以相应模型版本的方法为准。",
+      "caution": "它是搜索机制，不是Pareto支配的定义，也不是全局最优证明。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "优化方法"
+        ],
+        [
+          "landscape-2018",
+          "优化算法"
+        ]
+      ],
+      "more": "pareto"
+    },
+    {
+      "id": "pca",
+      "en": "principal component analysis",
+      "zh": "主成分分析",
+      "aliases": [
+        "principal components analysis",
+        "PCA",
+        "主成分分析"
+      ],
+      "definition": "用原变量的线性组合表达主要变异，常用于降维和描述方案差异。结果取决于变量选择和标准化。",
+      "caution": "解释方差最多的PC1不是天然的可持续性总分；Q研究中的PCA对象与普通指标矩阵的分析对象也不同。",
+      "sources": [
+        [
+          "liang-2023",
+          "分类方法"
+        ],
+        [
+          "cheng-2025",
+          "§2.2.4"
+        ]
+      ],
+      "more": "pca-cluster"
+    },
+    {
+      "id": "hca",
+      "en": "hierarchical clustering",
+      "zh": "层次聚类",
+      "aliases": [
+        "hierarchical cluster analysis",
+        "HCA",
+        "层次聚类"
+      ],
+      "definition": "依照相似性逐步合并或划分对象，形成树状关系，再选择切分层级得到类别。",
+      "caution": "距离、连接方法和标准化会改变结果；不同论文的设置不能直接混用。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5.2"
+        ],
+        [
+          "liang-2023",
+          "分类方法"
+        ]
+      ],
+      "more": "pca-cluster"
+    },
+    {
+      "id": "ward",
+      "en": "Ward.D2",
+      "zh": "Ward层次聚类连接方法",
+      "aliases": [
+        "Ward.D2",
+        "Ward's method",
+        "Ward clustering"
+      ],
+      "definition": "层次聚类中一种与组内离差变化有关的连接规则；在R中常见为hclust的ward.D2选项。",
+      "caution": "最小方差解释涉及欧氏几何；忠实复现原文与另做方法敏感性分析要分开。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5.2"
+        ],
+        [
+          "xu-data-2024",
+          "§4.1"
+        ]
+      ],
+      "more": "pca-cluster"
+    },
+    {
+      "id": "standardization",
+      "en": "standardization",
+      "zh": "标准化",
+      "aliases": [
+        "standardisation",
+        "standardized",
+        "normalization",
+        "范围标准化",
+        "标准化"
+      ],
+      "definition": "改变数值尺度以便比较或建模。范围标准化、z分数标准化等方式并不等同，必须读清公式和参照数据。",
+      "caution": "只写“标准化处理”不足以复现；极端值和常数列也需处理。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.5.2"
+        ],
+        [
+          "liang-2023",
+          "指标与分类"
+        ]
+      ],
+      "more": "indicators"
+    },
+    {
+      "id": "ecosystem-service",
+      "en": "ecosystem services",
+      "zh": "生态系统服务",
+      "aliases": [
+        "ecosystem service",
+        "生态系统服务"
+      ],
+      "definition": "研究中用于表达生态系统与人类获益联系的一组服务概念。程2023讨论的是受访者对这些服务的感知。",
+      "caution": "服务感知、生态实测、模型代理指标和社会偏好是不同类型的数据。",
+      "sources": [
+        [
+          "cheng-2023",
+          "引言与问卷设计"
+        ],
+        [
+          "cheng-2025",
+          "Q-set"
+        ]
+      ],
+      "more": "survey"
+    },
+    {
+      "id": "disservice",
+      "en": "ecosystem disservices",
+      "zh": "生态系统负服务",
+      "aliases": [
+        "ecosystem dis-services",
+        "dis-services",
+        "disservices",
+        "负服务"
+      ],
+      "definition": "研究所关注的生态系统或农业活动带来的不利作用。调查回答体现受访者感知和报告，不能直接当作物理监测。",
+      "caution": "没有报告负服务，不等于负服务不存在。",
+      "sources": [
+        [
+          "cheng-2023",
+          "§2.4与讨论"
+        ]
+      ],
+      "more": "survey"
+    },
+    {
+      "id": "rda",
+      "en": "redundancy analysis",
+      "zh": "冗余分析",
+      "aliases": [
+        "RDA",
+        "冗余分析"
+      ],
+      "definition": "受解释变量约束的多变量排序，可理解为多响应回归与排序的结合。程2023用35个村庄均值作为分析单位。",
+      "caution": "排序图中的关联不是因果关系；先确认矩阵每一行是谁。",
+      "sources": [
+        [
+          "cheng-2023",
+          "§2.6"
+        ]
+      ],
+      "more": "rda"
+    },
+    {
+      "id": "likert",
+      "en": "Likert scale",
+      "zh": "Likert式等级评分",
+      "aliases": [
+        "Likert",
+        "李克特量表"
+      ],
+      "definition": "用有序等级记录判断或态度。程2023问卷中的等级与0、缺失、不适用等状态需分别编码。",
+      "caution": "不能把不知道或未调查统一当成0。",
+      "sources": [
+        [
+          "cheng-2023",
+          "§2.4与§2.6"
+        ]
+      ],
+      "more": "survey"
+    },
+    {
+      "id": "q-method",
+      "en": "Q methodology",
+      "zh": "Q方法",
+      "aliases": [
+        "Q-methodology",
+        "Q method",
+        "Q-method",
+        "Q方法"
+      ],
+      "definition": "让参与者对同一组陈述排序，再分析不同人的排序模式，以识别和解释共同观点。",
+      "caution": "不是普通量表求总分，也不是直接估计总体中每类观点的人口比例。",
+      "sources": [
+        [
+          "cheng-2025",
+          "§2.2"
+        ]
+      ],
+      "more": "q-method"
+    },
+    {
+      "id": "qsort",
+      "en": "Q-sort",
+      "zh": "Q排序",
+      "aliases": [
+        "Q-sorts",
+        "Q sorting",
+        "Q排序"
+      ],
+      "definition": "一位参与者对全部Q陈述形成的一套完整排序。程2025用20条陈述，五档格数为2、4、8、4、2。",
+      "caution": "低分通常表示相对优先级较低，不一定表示绝对不重要。",
+      "sources": [
+        [
+          "cheng-2025",
+          "§2.2与Fig.1"
+        ]
+      ],
+      "more": "q-method"
+    },
+    {
+      "id": "qset",
+      "en": "Q-set",
+      "zh": "Q陈述集",
+      "aliases": [
+        "Q set",
+        "Q-set"
+      ],
+      "definition": "供所有参与者排序的一组陈述，应覆盖研究议题中需要比较的观点。",
+      "caution": "未进入陈述集的重要议题，不会被后续因子分析自动补出来。",
+      "sources": [
+        [
+          "cheng-2025",
+          "§2.2.1"
+        ]
+      ],
+      "more": "q-method"
+    },
+    {
+      "id": "pset",
+      "en": "P-set",
+      "zh": "Q研究参与者集",
+      "aliases": [
+        "P-set",
+        "P set"
+      ],
+      "definition": "参与排序的人群。Q研究通常关注观点的差异与覆盖，不能默认等同概率抽样。",
+      "sources": [
+        [
+          "cheng-2025",
+          "参与者选择与Table 3"
+        ]
+      ],
+      "more": "q-method"
+    },
+    {
+      "id": "factor-loading",
+      "en": "factor loading",
+      "zh": "因子载荷",
+      "aliases": [
+        "factor loadings",
+        "因子载荷"
+      ],
+      "definition": "在这组Q研究中，表示个人Q排序与某一共同观点因子的关联强度；须结合显著性和归属标准判断。",
+      "caution": "它不是生态系统服务的优化权重。",
+      "sources": [
+        [
+          "cheng-2025",
+          "§2.2.4"
+        ]
+      ],
+      "more": "q-method"
+    },
+    {
+      "id": "factor-array",
+      "en": "factor array",
+      "zh": "因子典型排序",
+      "aliases": [
+        "factor arrays",
+        "典型排序"
+      ],
+      "definition": "由归属某因子的排序综合得到各陈述的代表性分数与排序，用来解释该观点整体如何分配优先级。",
+      "caution": "不要与个人载荷或总体支持比例混淆。",
+      "sources": [
+        [
+          "cheng-2025",
+          "§2.2.4"
+        ]
+      ],
+      "more": "q-method"
+    },
+    {
+      "id": "varimax",
+      "en": "varimax",
+      "zh": "方差最大旋转",
+      "aliases": [
+        "varimax rotation",
+        "varimax",
+        "方差最大旋转"
+      ],
+      "definition": "因子分析中用于简化载荷结构、辅助解释的一种正交旋转。程2025在PCA提取后使用它。",
+      "caution": "旋转不替代因子数选择、归属标准和访谈解释。",
+      "sources": [
+        [
+          "cheng-2025",
+          "§2.2.4"
+        ]
+      ],
+      "more": "q-method"
+    },
+    {
+      "id": "stakeholder",
+      "en": "stakeholder",
+      "zh": "利益相关者",
+      "aliases": [
+        "stakeholders",
+        "利益相关者"
+      ],
+      "definition": "其利益、行动或决策与研究问题相关的人或机构。不同群体可能关心不同服务，且个人观点与机构立场不能默认等同。",
+      "sources": [
+        [
+          "cheng-2025",
+          "参与者与调查要求"
+        ]
+      ],
+      "more": "survey"
+    },
+    {
+      "id": "typology",
+      "en": "farm typology",
+      "zh": "农场类型划分",
+      "aliases": [
+        "typology",
+        "typologies",
+        "农场类型划分",
+        "农场分类"
+      ],
+      "definition": "按研究目的组织农场异质性，可以用于抽样、解释现状或构建不同优化约束。三种目的不一定使用相同变量。",
+      "sources": [
+        [
+          "xu-data-2024",
+          "抽样设计"
+        ],
+        [
+          "xu-thesis",
+          "官方摘要"
+        ]
+      ],
+      "more": "typology"
+    },
+    {
+      "id": "mci",
+      "en": "multiple cropping index",
+      "zh": "复种指数",
+      "aliases": [
+        "MCI",
+        "复种指数"
+      ],
+      "definition": "表达同一面积在一年内安排多少轮作物生产。徐2024同时比较年度表现和按MCI换算的每轮作物表现。",
+      "caution": "每年用水较低可能来自少种一季，不一定是单季灌溉效率更高。",
+      "sources": [
+        [
+          "xu-2024",
+          "§2.3–2.4"
+        ]
+      ],
+      "more": "indicators"
+    },
+    {
+      "id": "gross-margin",
+      "en": "gross margin",
+      "zh": "毛利",
+      "aliases": [
+        "gross margins",
+        "毛利"
+      ],
+      "definition": "研究按特定收入与变动成本边界计算的经济指标。阅读时必须检查家庭劳动、雇工、租地等成本如何计入。",
+      "caution": "毛利不能不加说明地改称净利润；不同论文的成本边界可能不同。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.4"
+        ],
+        [
+          "xu-2024",
+          "Table 1"
+        ]
+      ],
+      "more": "indicators"
+    },
+    {
+      "id": "n-surplus",
+      "en": "nitrogen surplus",
+      "zh": "氮盈余",
+      "aliases": [
+        "N surplus",
+        "氮盈余"
+      ],
+      "definition": "在明确边界内，用已计入的氮输入减去氮输出得到的收支量。",
+      "caution": "它不等于已实测的氮淋溶或某一条氮损失路径，可能涉及库存变化及漏计过程。",
+      "sources": [
+        [
+          "xu-2024",
+          "§2.4与Table 1"
+        ]
+      ],
+      "more": "nutrients"
+    },
+    {
+      "id": "n-loss",
+      "en": "nitrogen loss",
+      "zh": "氮损失",
+      "aliases": [
+        "nitrogen losses",
+        "N loss",
+        "N losses",
+        "氮损失"
+      ],
+      "definition": "氮通过研究边界流失的过程或模型估算量；具体定义与计算方法必须按本文说明。",
+      "caution": "FarmDESIGN基础论文用平衡残差表达，不能把它直接等同分别监测的淋溶和反硝化。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "§2.2.3"
+        ],
+        [
+          "liang-2022",
+          "§2.4"
+        ]
+      ],
+      "more": "nutrients"
+    },
+    {
+      "id": "n-leaching",
+      "en": "nitrogen leaching",
+      "zh": "氮淋溶",
+      "aliases": [
+        "nitrate leaching",
+        "氮淋溶",
+        "硝态氮淋溶"
+      ],
+      "definition": "氮随水向下迁移、离开所定义土壤层或根区的一类具体过程。",
+      "caution": "总氮收支残差不允许自动全部解释为淋溶。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "氮平衡边界"
+        ]
+      ],
+      "more": "nutrients"
+    },
+    {
+      "id": "groundwater",
+      "en": "groundwater depletion",
+      "zh": "地下水消耗",
+      "aliases": [
+        "地下水消耗",
+        "groundwater use"
+      ],
+      "definition": "研究所计算的地下水资源消耗指标，须检查是否扣除补给、采用何种水分平衡以及计量时间。",
+      "caution": "灌溉施水量与地下水净消耗不一定是同一指标。",
+      "sources": [
+        [
+          "liang-2022",
+          "§2.4"
+        ],
+        [
+          "liang-2023",
+          "指标定义"
+        ]
+      ],
+      "more": "indicators"
+    },
+    {
+      "id": "tfi",
+      "en": "treatment frequency index",
+      "zh": "农药施用频次指数",
+      "aliases": [
+        "TFI",
+        "treatment frequency",
+        "农药施用频次"
+      ],
+      "definition": "以施用次数或相对于规定剂量的施用强度来表达农药使用的指标，具体公式按本文定义。",
+      "caution": "不能与kg有效成分或毒性风险直接互换。梁2023与梁2022的农药指标口径不同。",
+      "sources": [
+        [
+          "xu-2024",
+          "Table 1"
+        ],
+        [
+          "liang-2022",
+          "农药指标"
+        ]
+      ],
+      "more": "indicators"
+    },
+    {
+      "id": "dietary-energy",
+      "en": "dietary energy yield",
+      "zh": "膳食能量产出",
+      "aliases": [
+        "dietary energy",
+        "膳食能量产出"
+      ],
+      "definition": "把产品产量换算为可供给的食物能量，计量边界与产品用途按研究设定。",
+      "caution": "生产端能量供给不直接证明居民实际摄入和健康结果。",
+      "sources": [
+        [
+          "liang-2022",
+          "指标计算"
+        ],
+        [
+          "novotny-2024",
+          "营养指标"
+        ]
+      ],
+      "more": "indicators"
+    },
+    {
+      "id": "eutrophication",
+      "en": "eutrophication",
+      "zh": "富营养化",
+      "aliases": [
+        "eutrophication potential",
+        "富营养化"
+      ],
+      "definition": "水体等环境中营养物质增加引起的相关影响；生命周期或系统评价中可能以潜势/代理指标表达。",
+      "caution": "模型计算的潜势不等于已监测到研究区实际水体变化。",
+      "sources": [
+        [
+          "liang-2023",
+          "Table 2"
+        ],
+        [
+          "farmsteps-2026",
+          "Indicator module"
+        ]
+      ],
+      "more": "indicators"
+    },
+    {
+      "id": "ghg",
+      "en": "greenhouse gas",
+      "zh": "温室气体",
+      "aliases": [
+        "greenhouse gases",
+        "GHG",
+        "温室气体"
+      ],
+      "definition": "研究按给定边界核算的一组排放及可能的抵扣项，净值应核查是否包含碳固定、能源与其他过程。",
+      "caution": "先确认单位、时间和净/总口径，不能只比较数字大小。",
+      "sources": [
+        [
+          "liang-2022",
+          "指标定义"
+        ],
+        [
+          "liang-2023",
+          "Table 2"
+        ]
+      ],
+      "more": "indicators"
+    },
+    {
+      "id": "farmm3",
+      "en": "FarmM3",
+      "zh": "粪肥管理链模块",
+      "aliases": [
+        "FarmM3",
+        "manure management",
+        "粪肥管理"
+      ],
+      "definition": "Qu2025把粪肥管理链模块与FarmDESIGN连接，追踪管理链及农场重新配置中的养分和环境绩效。",
+      "caution": "一个环节减少损失不保证全链或全农场总损失等量下降。",
+      "sources": [
+        [
+          "qu-2025",
+          "§2.1–2.4"
+        ]
+      ],
+      "more": "nutrients"
+    },
+    {
+      "id": "pollution-swapping",
+      "en": "pollution swapping",
+      "zh": "污染转移",
+      "aliases": [
+        "污染转移"
+      ],
+      "definition": "改善一个环节或一种环境指标时，压力可能转移到另一环节、路径或指标。需要完整系统核算。",
+      "sources": [
+        [
+          "qu-2025",
+          "机制与讨论"
+        ]
+      ],
+      "more": "nutrients"
+    },
+    {
+      "id": "steady-state",
+      "en": "steady state",
+      "zh": "稳态",
+      "aliases": [
+        "steady-state",
+        "稳态"
+      ],
+      "definition": "在模型计算期内对某些存量变化作平衡或不变假设。年度稳态并不表达全部季节动态。",
+      "caution": "稳态是建模假设，不是说真实农场一年中毫无变化。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "§2.2"
+        ]
+      ],
+      "more": "whole-farm"
+    },
+    {
+      "id": "scenario",
+      "en": "scenario",
+      "zh": "情景",
+      "aliases": [
+        "scenarios",
+        "情景分析"
+      ],
+      "definition": "一组明确的外部条件或管理设定，用来比较在这些设定下系统如何表现。",
+      "caution": "情景不是已发生事实；没有概率依据时不能随意称作发生概率。",
+      "sources": [
+        [
+          "qu-2025",
+          "情景设计"
+        ],
+        [
+          "breure-2024",
+          "方法讨论"
+        ]
+      ],
+      "more": "uncertainty"
+    },
+    {
+      "id": "sensitivity",
+      "en": "sensitivity analysis",
+      "zh": "敏感性分析",
+      "aliases": [
+        "敏感性分析"
+      ],
+      "definition": "检查输入或假设变化对输出和决策的影响程度，帮助找出关键参数。",
+      "caution": "敏感性分析、不确定性传播和跨情景稳健性不是同一问题。",
+      "sources": [
+        [
+          "breure-2024",
+          "风险与不确定性讨论"
+        ]
+      ],
+      "more": "uncertainty"
+    },
+    {
+      "id": "uncertainty",
+      "en": "uncertainty",
+      "zh": "不确定性",
+      "aliases": [
+        "uncertainties",
+        "不确定性"
+      ],
+      "definition": "对数据、参数、外部条件或模型结构尚不能确定的部分；需要说明来源与传播到结论的方式。",
+      "caution": "跑几个情景不等于已经量化所有不确定性。",
+      "sources": [
+        [
+          "breure-2024",
+          "讨论"
+        ]
+      ],
+      "more": "uncertainty"
+    },
+    {
+      "id": "robustness",
+      "en": "robustness",
+      "zh": "稳健性",
+      "aliases": [
+        "robust decision",
+        "稳健性"
+      ],
+      "definition": "在不同扰动或情景下仍能保持可接受表现的能力，需先明确接受阈值和测试范围。",
+      "caution": "期望利润最高不一定意味着下行风险最小。",
+      "sources": [
+        [
+          "breure-2024",
+          "方法审查"
+        ],
+        [
+          "toorop-2023",
+          "概念比较"
+        ]
+      ],
+      "more": "uncertainty"
+    },
+    {
+      "id": "resilience",
+      "en": "resilience",
+      "zh": "韧性",
+      "aliases": [
+        "resilient",
+        "韧性"
+      ],
+      "definition": "在扰动下承受、恢复或调整的能力；不同文献具体定义和观测指标应分别核对。",
+      "caution": "能恢复、能保持和能从扰动获益，不是相同强度的命题。",
+      "sources": [
+        [
+          "toorop-2023",
+          "概念框架"
+        ]
+      ],
+      "more": "uncertainty"
+    },
+    {
+      "id": "antifragility",
+      "en": "antifragility",
+      "zh": "反脆弱性",
+      "aliases": [
+        "antifragile",
+        "反脆弱性",
+        "反脆弱"
+      ],
+      "definition": "比保持和恢复更强的概念：某种波动或扰动能够使系统表现改善。",
+      "caution": "一个灾后表现好的案例，不能单独证明它是因扰动而获益。",
+      "sources": [
+        [
+          "toorop-2023",
+          "概念框架与案例性质"
+        ]
+      ],
+      "more": "uncertainty"
+    },
+    {
+      "id": "digital-twin",
+      "en": "digital twin",
+      "zh": "数字孪生",
+      "aliases": [
+        "digital twins",
+        "数字孪生"
+      ],
+      "definition": "与现实对象状态和行为相联系的数字表示及其使用体系，需要说明数据更新、模型和决策如何连接。",
+      "caution": "静态地图或表格不因换名就自动成为数字孪生。该页带读的全文核读范围仍以证据标记为准。",
+      "sources": [
+        [
+          "verdouw-2021",
+          "官方摘要与框架"
+        ]
+      ],
+      "more": "data-schema"
+    },
+    {
+      "id": "spatially-explicit",
+      "en": "spatially explicit",
+      "zh": "空间显式",
+      "aliases": [
+        "spatial-explicit",
+        "空间显式"
+      ],
+      "definition": "位置、邻接或空间过程实际进入表示和计算；不仅是给非空间计算附一张地图。",
+      "sources": [
+        [
+          "landscape-2018",
+          "GIS与指标模块"
+        ]
+      ],
+      "more": "spatial-design"
+    },
+    {
+      "id": "connectivity",
+      "en": "connectivity",
+      "zh": "连通性",
+      "aliases": [
+        "habitat connectivity",
+        "连通性"
+      ],
+      "definition": "描述空间单元之间联系的指标或属性，具体定义取决于对象、尺度与过程。相同生境面积可以有不同配置与连通性。",
+      "sources": [
+        [
+          "landscape-2018",
+          "案例指标"
+        ]
+      ],
+      "more": "spatial-design"
+    },
+    {
+      "id": "validation",
+      "en": "validation",
+      "zh": "模型有效性评价",
+      "aliases": [
+        "model validation",
+        "模型验证"
+      ],
+      "definition": "判断模型对其拟用于回答的问题是否足够可信，需考虑观测对照、结构假设及外推范围。",
+      "caution": "程序测试通过不等于农业预测有效；校准与独立评价也应区别。",
+      "sources": [
+        [
+          "farmdesign-2012",
+          "验证与讨论"
+        ],
+        [
+          "breure-2024",
+          "方法审查"
+        ]
+      ],
+      "more": "validation"
+    },
+    {
+      "id": "kw",
+      "en": "Kruskal–Wallis",
+      "zh": "Kruskal–Wallis秩检验",
+      "aliases": [
+        "Kruskal-Wallis",
+        "Kruskal–Wallis"
+      ],
+      "definition": "用于多组数据比较的非参数秩检验。应读清组别、分析单位以及后续成对比较。",
+      "caution": "未在原文明确的多重比较校正，不能自行补成作者采用的方法。",
+      "sources": [
+        [
+          "cheng-2023",
+          "§2.6"
+        ]
+      ],
+      "more": "survey"
+    },
+    {
+      "id": "wilcoxon",
+      "en": "Wilcoxon",
+      "zh": "Wilcoxon秩检验",
+      "aliases": [
+        "Wilcoxon"
+      ],
+      "definition": "一组基于秩的统计比较方法名称；程2023报告后续Wilcoxon秩和比较，不能与配对符号秩检验默认等同。",
+      "sources": [
+        [
+          "cheng-2023",
+          "§2.6"
+        ]
+      ],
+      "more": "survey"
+    },
+    {
+      "id": "ks",
+      "en": "Kolmogorov–Smirnov",
+      "zh": "Kolmogorov–Smirnov检验",
+      "aliases": [
+        "Kolmogorov-Smirnov",
+        "Kolmogorov–Smirnov"
+      ],
+      "definition": "比较分布的统计检验。徐2024使用它比较指标分布，而不是把它当作通用均值检验。",
+      "sources": [
+        [
+          "xu-2024",
+          "§2.5"
+        ]
+      ],
+      "more": "indicators"
+    }
+  ]
 }

@@ -1,0 +1,38 @@
+{
+  "schema": "paper.layout.v3",
+  "docId": "toorop-2023",
+  "sourceHash": "e4c7cc912b38aaa08b5a262a7592dfd917ae3bd5ca24dc1981928beaef131c36",
+  "equations": [],
+  "blockMap": {},
+  "classification": {
+    "p1-b8-e03fb3a": "running-metadata",
+    "p2-b3-27d3340": "running-metadata",
+    "p3-b4-d66963f": "running-metadata",
+    "p4-b4-631e573": "running-metadata",
+    "p5-b4-c217b20": "running-metadata",
+    "p6-b3-cff8532": "running-metadata",
+    "p7-b3-bed4ecf": "running-metadata",
+    "p8-b38-6ee3a03": "running-metadata",
+    "p9-b4-a75ef99": "running-metadata",
+    "p10-b4-b72bf15": "running-metadata",
+    "p11-b4-a64420e": "running-metadata",
+    "p12-b22-f7e8aca": "running-metadata",
+    "p13-b3-6194101": "running-metadata",
+    "p14-b1-fa1f706": "running-metadata",
+    "p15-b8-879d092": "running-metadata",
+    "p16-b1-3e21031": "running-metadata",
+    "p17-b2-c87ef0c": "running-metadata"
+  },
+  "sectionHeadingIds": [
+    "p2-b3-27d3340",
+    "p4-b4-631e573",
+    "p6-b3-cff8532",
+    "p8-b38-6ee3a03",
+    "p10-b4-b72bf15",
+    "p12-b22-f7e8aca",
+    "p14-b1-fa1f706",
+    "p15-b6-69824d3",
+    "p16-b1-3e21031"
+  ],
+  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+}

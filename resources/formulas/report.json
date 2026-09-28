@@ -1,0 +1,1174 @@
+{
+  "records": [
+    {
+      "id": "liang-2022",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 4,
+      "equations": [
+        {
+          "label": "1",
+          "blocks": [
+            "p4-b9-d5a020b",
+            "p4-b10-de7d1b7",
+            "p4-b11-3589661",
+            "p4-b32-5af3f24"
+          ],
+          "text": "GMtotal =\n∑\ni\nYi × PRi −VCi\n(1)\nD = α ×"
+        },
+        {
+          "label": "2",
+          "blocks": [
+            "p4-b1-4b22777",
+            "p4-b15-374962b",
+            "p4-b16-de7d1b7",
+            "p4-b17-72a1d64"
+          ],
+          "text": "4\nDEYtotal =\n∑\ni\nYi × Ei\n(2)"
+        },
+        {
+          "label": "3",
+          "blocks": [
+            "p4-b20-70e0261",
+            "p4-b21-de7d1b7",
+            "p4-b22-be27c71",
+            "p4-b23-189f400",
+            "p4-b24-dd0eec8"
+          ],
+          "text": "LUtotal =\n∑\ni\n∑\nj\nLj,i × Nj,i\n(3)"
+        },
+        {
+          "label": "4",
+          "blocks": [
+            "p4-b28-c96490b",
+            "p4-b29-de7d1b7",
+            "p4-b30-76fda88"
+          ],
+          "text": "GWD =\n∑\ni\nIRi −D\n(4)"
+        },
+        {
+          "label": "5",
+          "blocks": [
+            "p4-b33-32ebb1a",
+            "p4-b34-16fd171",
+            "p4-b35-de7d1b7",
+            "p4-b36-5904d87",
+            "p4-b37-ba5ec51",
+            "p4-b38-97ce612"
+          ],
+          "text": "(\nP +\n∑\ni\nIRi\n)\n(5)"
+        },
+        {
+          "label": "6",
+          "blocks": [
+            "p4-b41-19cf79b",
+            "p4-b42-de7d1b7",
+            "p4-b44-4826d47"
+          ],
+          "text": "NLtotal =\n∑\ni\n)\n(6)"
+        }
+      ]
+    },
+    {
+      "id": "liang-2022",
+      "page": 5,
+      "equations": [
+        {
+          "label": "7",
+          "blocks": [
+            "p5-b3-84652dd"
+          ],
+          "text": "GHGnet = GHGemi −QSOC\n(7)"
+        },
+        {
+          "label": "8",
+          "blocks": [
+            "p5-b6-c31afa1"
+          ],
+          "text": "PUtotal = IUtotal + HUtotal + FUtotal\n(8)"
+        },
+        {
+          "label": "9",
+          "blocks": [
+            "p5-b12-b73a8c6",
+            "p5-b13-d782dcd",
+            "p5-b14-9b19467",
+            "p5-b15-855c2a4",
+            "p5-b16-7a7170f"
+          ],
+          "text": "MIDIPc =\n̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\n∑\nn\nk=1\ndk,c\n2\n√\n(9)"
+        },
+        {
+          "label": "10",
+          "blocks": [
+            "p5-b17-60f1c21",
+            "p5-b18-4092c3d",
+            "p5-b19-3d60d48",
+            "p5-b20-a6046ce"
+          ],
+          "text": "dk,c =\n⃒⃒⃒⃒\npk,c −qk\nmdk\n⃒⃒⃒⃒\n(10)"
+        },
+        {
+          "label": "11",
+          "blocks": [
+            "p5-b21-f6a9eac"
+          ],
+          "text": "mdk = maximumk −minimumk\n(11)"
+        }
+      ]
+    },
+    {
+      "id": "liang-2022",
+      "page": 6,
+      "equations": [
+        {
+          "label": "12",
+          "blocks": [
+            "p6-b3-e4fdddc",
+            "p6-b4-e05812e",
+            "p6-b5-9b19467",
+            "p6-b6-0bf8671",
+            "p6-b7-eb88c8b",
+            "p6-b8-2d73ad0",
+            "p6-b9-23012b8"
+          ],
+          "text": "HDIPc =\n̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\n∑\nn\nk=1\n(\ndk,c −dc\n)2\nn −1\n√\n√\n√\n√\n(12)"
+        },
+        {
+          "label": "13",
+          "blocks": [
+            "p6-b13-66a3b9c"
+          ],
+          "text": "SGk = MPexem,k −MPother,k\n(13)"
+        },
+        {
+          "label": "14",
+          "blocks": [
+            "p6-b15-c4fce6e"
+          ],
+          "text": "ELP = GMtotal/LUtotal\n(14)"
+        },
+        {
+          "label": "15",
+          "blocks": [
+            "p6-b16-6c94304"
+          ],
+          "text": "NF = NLtotal/DEYtotal\n(15)"
+        },
+        {
+          "label": "16",
+          "blocks": [
+            "p6-b17-917efa8",
+            "p6-b21-8a5edab"
+          ],
+          "text": "CF = GHGnet/DEYtotal\n(16)\n/"
+        },
+        {
+          "label": "17",
+          "blocks": [
+            "p6-b18-d055c42",
+            "p6-b19-de7d1b7",
+            "p6-b20-5904d87",
+            "p6-b22-6de649b"
+          ],
+          "text": "BWF =\n∑\ni\nIRi\nDEYtotal\n(17)"
+        }
+      ]
+    },
+    {
+      "id": "liang-2022",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "liang-2022",
+      "page": 15,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 5,
+      "equations": [
+        {
+          "label": "1",
+          "blocks": [
+            "p5-b3-6c1ce87",
+            "p5-b4-305b1ae",
+            "p5-b5-8254c32",
+            "p5-b6-af40693",
+            "p5-b7-2087277"
+          ],
+          "text": "GM = 1\n15\n(∑\nk\nGMk\n)\n(1)"
+        },
+        {
+          "label": "2",
+          "blocks": [
+            "p5-b8-8baf68a",
+            "p5-b9-2da6ca2",
+            "p5-b10-d9e5ec9"
+          ],
+          "text": "GMk =\n(∑n\ni Ycom,i × PRi,k −Ci,k\n)/\nRL\n/\nCPIk\n(2)"
+        },
+        {
+          "label": "3",
+          "blocks": [
+            "p5-b14-73ace46"
+          ],
+          "text": "GMV = SD(GMk)\n(3)"
+        },
+        {
+          "label": "4",
+          "blocks": [
+            "p5-b16-cab94af",
+            "p5-b17-7b34f2b",
+            "p5-b18-aa83056"
+          ],
+          "text": "L =\n∑n\ni Li\n/\nRL\n(4)"
+        },
+        {
+          "label": "5",
+          "blocks": [
+            "p5-b22-6460382",
+            "p5-b23-520237a",
+            "p5-b24-f4b7057",
+            "p5-b25-bb41f69"
+          ],
+          "text": "Yj =\n∑n\ni Ycom,i × Fj,i\n/\nRAIj\n/\nRL\n(5)"
+        },
+        {
+          "label": "6",
+          "blocks": [
+            "p5-b30-209a9e9",
+            "p5-b31-4062abd",
+            "p5-b32-18d1996"
+          ],
+          "text": "GWD =\n[(∑n\ni IRi\n)\n−D\n]/\nRL\n(6)"
+        },
+        {
+          "label": "7",
+          "blocks": [
+            "p5-b34-2e0eab4",
+            "p5-b35-4062abd",
+            "p5-b36-041a905"
+          ],
+          "text": "D = α ×\n[(∑n\ni IRi\n)\n+ P × RL\n]\n(7)"
+        },
+        {
+          "label": "8",
+          "blocks": [
+            "p5-b39-669371e",
+            "p5-b40-de7d1b7",
+            "p5-b42-a379df4"
+          ],
+          "text": "EUP =\n∑n\ni\n)/\nRL\n(8)"
+        },
+        {
+          "label": "9",
+          "blocks": [
+            "p5-b45-5cc5d11",
+            "p5-b46-de7d1b7",
+            "p5-b48-5ef3a3b"
+          ],
+          "text": "GHGnet =\n∑n\ni\n)/\nRL\n(9)"
+        }
+      ]
+    },
+    {
+      "id": "liang-2023",
+      "page": 6,
+      "equations": [
+        {
+          "label": "10",
+          "blocks": [
+            "p6-b3-940736b"
+          ],
+          "text": "DIV =\n̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\nSN × RL\n√\n(10)"
+        }
+      ]
+    },
+    {
+      "id": "liang-2023",
+      "page": 7,
+      "equations": [
+        {
+          "label": "11",
+          "blocks": [
+            "p7-b3-6516095"
+          ],
+          "text": "Freq = Ns/RL\n(11)"
+        }
+      ]
+    },
+    {
+      "id": "liang-2023",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "liang-2023",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "cheng-2023",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "cheng-2025",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 4,
+      "equations": [
+        {
+          "label": "1",
+          "blocks": [
+            "p4-b9-b759dbb",
+            "p4-b10-189f400",
+            "p4-b11-964c290",
+            "p4-b12-0c426bd"
+          ],
+          "text": "Xi =\n∑n\nj\nAij\n∑Aij\nXij\n(1)"
+        },
+        {
+          "label": "2",
+          "blocks": [
+            "p4-b16-b759dbb",
+            "p4-b17-1bbf53a"
+          ],
+          "text": "Xi =\n∑n\nj AijXij\n(2)"
+        }
+      ]
+    },
+    {
+      "id": "xu-2024",
+      "page": 5,
+      "equations": [
+        {
+          "label": "3",
+          "blocks": [
+            "p5-b3-f3d7f18",
+            "p5-b4-46f789d"
+          ],
+          "text": "Xi,corrected =\nXi\nMCIf,i\n(3)"
+        },
+        {
+          "label": "5",
+          "blocks": [
+            "p5-b12-f48fde2"
+          ],
+          "text": "Nsurplus = Nin −Nout\n(5)"
+        },
+        {
+          "label": "6",
+          "blocks": [
+            "p5-b15-39be352"
+          ],
+          "text": "Dietary energy yield = Y × EP × EC\n(6)"
+        }
+      ]
+    },
+    {
+      "id": "xu-2024",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "xu-2024",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 15,
+      "equations": []
+    },
+    {
+      "id": "xu-data-2024",
+      "page": 16,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 15,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 16,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 17,
+      "equations": []
+    },
+    {
+      "id": "novotny-2024",
+      "page": 18,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "qu-2025",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "breure-2024",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 15,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 16,
+      "equations": []
+    },
+    {
+      "id": "toorop-2023",
+      "page": 17,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "mixed-2026",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 1,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 2,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 3,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 4,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 5,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 6,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 7,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 8,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 9,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 10,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 11,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 12,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 13,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 14,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 15,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 16,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 17,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 18,
+      "equations": []
+    },
+    {
+      "id": "verdouw-2021",
+      "page": 19,
+      "equations": []
+    }
+  ],
+  "total": 33
+}

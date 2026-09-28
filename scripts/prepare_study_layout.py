@@ -61,7 +61,7 @@ def main():
     if roi.height>160 or roi.get_area()>page.rect.get_area()*.3:continue
     roi=(roi+(-3,-3,3,3))&page.rect;fn='p'+str(p['number'])+'-eq-'+label+'-'+hashlib.sha256('|'.join(x['id'] for x in members).encode()).hexdigest()[:6]+'.png';page.get_pixmap(matrix=fitz.Matrix(3,3),clip=roi,alpha=False).save(dest/fn)
     eq={'id':'formula-p'+str(p['number'])+'-'+label,'page':p['number'],'label':label,'first':members[0]['id'],'members':[x['id'] for x in members],'path':(dest/fn).relative_to(ROOT/'resources').as_posix(),'bbox':list(roi),'sourceText':'\n'.join(text(x) for x in members),'source':'Original PDF equation region, not OCR or reconstruction','render':'source-crop','proofPage':p['number']}
-    if b['id']=='liang-2022' and b['sourceHash'].startswith('bfbde3ef50d6') and label in ['9','10','11','12']:
+    if b['id']=='liang-2022' and b['sourceHash'].startswith('bfbde3ef50d6') and label in ['9','10','11','12'] and p['number']==(6 if label=='12' else 5):
      ml,zh=native(label);eq.update(mathML=ml,gloss=zh,render='source-checked-mathml-with-original-crop',location='§2.5.2, equation ('+label+')')
     equations.append(eq)
     for x in members:used.add(x['id']);blockmap[x['id']]=eq['id']

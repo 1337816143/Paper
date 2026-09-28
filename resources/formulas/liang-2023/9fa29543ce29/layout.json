@@ -1,0 +1,337 @@
+{
+  "schema": "paper.layout.v3",
+  "docId": "liang-2023",
+  "sourceHash": "9fa29543ce29ae322554168dc64965aedf34826024d1e8e8a497b3dff6d3a043",
+  "equations": [
+    {
+      "id": "formula-p5-1",
+      "page": 5,
+      "label": "1",
+      "first": "p5-b3-6c1ce87",
+      "members": [
+        "p5-b3-6c1ce87",
+        "p5-b4-305b1ae",
+        "p5-b5-8254c32",
+        "p5-b6-af40693",
+        "p5-b7-2087277"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-1-1eaecd.png",
+      "bbox": [
+        46.49241638183594,
+        155.77088928222656,
+        296.3418273925781,
+        189.1140899658203
+      ],
+      "sourceText": "GM = 1\n15\n(∑\nk\nGMk\n)\n(1)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-2",
+      "page": 5,
+      "label": "2",
+      "first": "p5-b8-8baf68a",
+      "members": [
+        "p5-b8-8baf68a",
+        "p5-b9-2da6ca2",
+        "p5-b10-d9e5ec9"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-2-fd5eb9.png",
+      "bbox": [
+        46.49425506591797,
+        190.57980346679688,
+        296.3431396484375,
+        219.971435546875
+      ],
+      "sourceText": "GMk =\n(∑n\ni Ycom,i × PRi,k −Ci,k\n)/\nRL\n/\nCPIk\n(2)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-3",
+      "page": 5,
+      "label": "3",
+      "first": "p5-b14-73ace46",
+      "members": [
+        "p5-b14-73ace46"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-3-aa9b7c.png",
+      "bbox": [
+        46.49323654174805,
+        463.00775146484375,
+        303.34698486328125,
+        482.0388488769531
+      ],
+      "sourceText": "GMV = SD(GMk)\n(3)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-4",
+      "page": 5,
+      "label": "4",
+      "first": "p5-b16-cab94af",
+      "members": [
+        "p5-b16-cab94af",
+        "p5-b17-7b34f2b",
+        "p5-b18-aa83056"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-4-504ed9.png",
+      "bbox": [
+        46.49371337890625,
+        533.0601196289062,
+        296.34112548828125,
+        558.7684326171875
+      ],
+      "sourceText": "L =\n∑n\ni Li\n/\nRL\n(4)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-5",
+      "page": 5,
+      "label": "5",
+      "first": "p5-b22-6460382",
+      "members": [
+        "p5-b22-6460382",
+        "p5-b23-520237a",
+        "p5-b24-f4b7057",
+        "p5-b25-bb41f69"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-5-ec9b47.png",
+      "bbox": [
+        315.49981689453125,
+        56.16117477416992,
+        565.34912109375,
+        81.868408203125
+      ],
+      "sourceText": "Yj =\n∑n\ni Ycom,i × Fj,i\n/\nRAIj\n/\nRL\n(5)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-6",
+      "page": 5,
+      "label": "6",
+      "first": "p5-b30-209a9e9",
+      "members": [
+        "p5-b30-209a9e9",
+        "p5-b31-4062abd",
+        "p5-b32-18d1996"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-6-5a8741.png",
+      "bbox": [
+        315.5016174316406,
+        210.8184356689453,
+        565.3486938476562,
+        237.8304443359375
+      ],
+      "sourceText": "GWD =\n[(∑n\ni IRi\n)\n−D\n]/\nRL\n(6)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-7",
+      "page": 5,
+      "label": "7",
+      "first": "p5-b34-2e0eab4",
+      "members": [
+        "p5-b34-2e0eab4",
+        "p5-b35-4062abd",
+        "p5-b36-041a905"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-7-ac4943.png",
+      "bbox": [
+        315.50091552734375,
+        278.1138610839844,
+        565.3496704101562,
+        305.1244201660156
+      ],
+      "sourceText": "D = α ×\n[(∑n\ni IRi\n)\n+ P × RL\n]\n(7)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-8",
+      "page": 5,
+      "label": "8",
+      "first": "p5-b39-669371e",
+      "members": [
+        "p5-b39-669371e",
+        "p5-b40-de7d1b7",
+        "p5-b42-a379df4"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-8-7ab37e.png",
+      "bbox": [
+        315.50189208984375,
+        419.6756286621094,
+        565.3495483398438,
+        444.68603515625
+      ],
+      "sourceText": "EUP =\n∑n\ni\n)/\nRL\n(8)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-9",
+      "page": 5,
+      "label": "9",
+      "first": "p5-b45-5cc5d11",
+      "members": [
+        "p5-b45-5cc5d11",
+        "p5-b46-de7d1b7",
+        "p5-b48-5ef3a3b"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-9-f21813.png",
+      "bbox": [
+        315.5023193359375,
+        543.1541748046875,
+        565.34912109375,
+        568.1629638671875
+      ],
+      "sourceText": "GHGnet =\n∑n\ni\n)/\nRL\n(9)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p6-10",
+      "page": 6,
+      "label": "10",
+      "first": "p6-b3-940736b",
+      "members": [
+        "p6-b3-940736b"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p6-eq-10-92d1a7.png",
+      "bbox": [
+        46.49290084838867,
+        103.78278350830078,
+        296.3492431640625,
+        126.63077545166016
+      ],
+      "sourceText": "DIV =\n̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅\nSN × RL\n√\n(10)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 6
+    },
+    {
+      "id": "formula-p7-11",
+      "page": 7,
+      "label": "11",
+      "first": "p7-b3-6516095",
+      "members": [
+        "p7-b3-6516095"
+      ],
+      "path": "formulas/liang-2023/9fa29543ce29/p7-eq-11-3ba1fe.png",
+      "bbox": [
+        34.58807373046875,
+        231.53074645996094,
+        296.349365234375,
+        250.56185913085938
+      ],
+      "sourceText": "Freq = Ns/RL\n(11)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 7
+    }
+  ],
+  "blockMap": {
+    "p5-b3-6c1ce87": "formula-p5-1",
+    "p5-b4-305b1ae": "formula-p5-1",
+    "p5-b5-8254c32": "formula-p5-1",
+    "p5-b6-af40693": "formula-p5-1",
+    "p5-b7-2087277": "formula-p5-1",
+    "p5-b8-8baf68a": "formula-p5-2",
+    "p5-b9-2da6ca2": "formula-p5-2",
+    "p5-b10-d9e5ec9": "formula-p5-2",
+    "p5-b14-73ace46": "formula-p5-3",
+    "p5-b16-cab94af": "formula-p5-4",
+    "p5-b17-7b34f2b": "formula-p5-4",
+    "p5-b18-aa83056": "formula-p5-4",
+    "p5-b22-6460382": "formula-p5-5",
+    "p5-b23-520237a": "formula-p5-5",
+    "p5-b24-f4b7057": "formula-p5-5",
+    "p5-b25-bb41f69": "formula-p5-5",
+    "p5-b30-209a9e9": "formula-p5-6",
+    "p5-b31-4062abd": "formula-p5-6",
+    "p5-b32-18d1996": "formula-p5-6",
+    "p5-b34-2e0eab4": "formula-p5-7",
+    "p5-b35-4062abd": "formula-p5-7",
+    "p5-b36-041a905": "formula-p5-7",
+    "p5-b39-669371e": "formula-p5-8",
+    "p5-b40-de7d1b7": "formula-p5-8",
+    "p5-b42-a379df4": "formula-p5-8",
+    "p5-b45-5cc5d11": "formula-p5-9",
+    "p5-b46-de7d1b7": "formula-p5-9",
+    "p5-b48-5ef3a3b": "formula-p5-9",
+    "p6-b3-940736b": "formula-p6-10",
+    "p7-b3-6516095": "formula-p7-11"
+  },
+  "classification": {
+    "p1-b0-9c537c4": "running-metadata",
+    "p2-b0-9c537c4": "running-metadata",
+    "p2-b3-3d59560": "running-metadata",
+    "p2-b8-5413519": "running-metadata",
+    "p3-b0-9c537c4": "running-metadata",
+    "p3-b13-5413519": "running-metadata",
+    "p4-b0-9c537c4": "running-metadata",
+    "p4-b7-bbb7c27": "running-metadata",
+    "p4-b18-5413519": "running-metadata",
+    "p5-b0-9c537c4": "running-metadata",
+    "p5-b53-5413519": "running-metadata",
+    "p6-b0-9c537c4": "running-metadata",
+    "p6-b13-5413519": "running-metadata",
+    "p7-b0-9c537c4": "running-metadata",
+    "p7-b8-5b3d854": "running-metadata",
+    "p7-b32-5413519": "running-metadata",
+    "p8-b0-9c537c4": "running-metadata",
+    "p8-b6-5413519": "running-metadata",
+    "p9-b0-9c537c4": "running-metadata",
+    "p9-b9-5413519": "running-metadata",
+    "p10-b0-9c537c4": "running-metadata",
+    "p10-b6-5413519": "running-metadata",
+    "p11-b0-9c537c4": "running-metadata",
+    "p11-b10-5413519": "running-metadata",
+    "p12-b0-9c537c4": "running-metadata",
+    "p12-b10-5413519": "running-metadata",
+    "p13-b0-9c537c4": "running-metadata",
+    "p13-b4-5413519": "running-metadata"
+  },
+  "sectionHeadingIds": [
+    "p1-b10-6e62ee8",
+    "p2-b3-3d59560",
+    "p2-b4-fa7d797",
+    "p2-b6-9230bc5",
+    "p3-b3-50e4f4c",
+    "p3-b4-dbe4a6a",
+    "p3-b9-ac7d86d",
+    "p4-b3-704f670",
+    "p4-b9-6d74f04",
+    "p4-b12-af6c62e",
+    "p4-b13-9fd5f78",
+    "p5-b20-bfd32a7",
+    "p5-b27-8eac091",
+    "p6-b5-76b1232",
+    "p6-b9-de32ea1",
+    "p7-b5-6214205",
+    "p7-b6-986659c",
+    "p7-b9-69c4f77",
+    "p7-b11-6973a90",
+    "p7-b13-96bef1b",
+    "p9-b3-a1c5138",
+    "p9-b5-675cf6d",
+    "p11-b3-20ec202",
+    "p11-b6-735fd1d",
+    "p11-b8-cf68c09",
+    "p12-b7-69824d3"
+  ],
+  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+}

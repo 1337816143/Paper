@@ -1,0 +1,184 @@
+{
+  "schema": "paper.layout.v3",
+  "docId": "xu-2024",
+  "sourceHash": "5c1568888f1c72eb2e61e30e8a4b1f9c2582c4f11c4ccae064b34a1bb333be4e",
+  "equations": [
+    {
+      "id": "formula-p4-1",
+      "page": 4,
+      "label": "1",
+      "first": "p4-b9-b759dbb",
+      "members": [
+        "p4-b9-b759dbb",
+        "p4-b10-189f400",
+        "p4-b11-964c290",
+        "p4-b12-0c426bd"
+      ],
+      "path": "formulas/xu-2024/5c1568888f1c/p4-eq-1-85a26f.png",
+      "bbox": [
+        303.5927429199219,
+        388.7792053222656,
+        565.3511962890625,
+        416.67913818359375
+      ],
+      "sourceText": "Xi =\n∑n\nj\nAij\n∑Aij\nXij\n(1)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 4
+    },
+    {
+      "id": "formula-p4-2",
+      "page": 4,
+      "label": "2",
+      "first": "p4-b16-b759dbb",
+      "members": [
+        "p4-b16-b759dbb",
+        "p4-b17-1bbf53a"
+      ],
+      "path": "formulas/xu-2024/5c1568888f1c/p4-eq-2-cbe7dd.png",
+      "bbox": [
+        303.59686279296875,
+        479.99822998046875,
+        565.3511962890625,
+        505.7044372558594
+      ],
+      "sourceText": "Xi =\n∑n\nj AijXij\n(2)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 4
+    },
+    {
+      "id": "formula-p5-3",
+      "page": 5,
+      "label": "3",
+      "first": "p5-b3-f3d7f18",
+      "members": [
+        "p5-b3-f3d7f18",
+        "p5-b4-46f789d"
+      ],
+      "path": "formulas/xu-2024/5c1568888f1c/p5-eq-3-655c28.png",
+      "bbox": [
+        34.58807373046875,
+        322.33642578125,
+        294.0079040527344,
+        347.6841125488281
+      ],
+      "sourceText": "Xi,corrected =\nXi\nMCIf,i\n(3)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-5",
+      "page": 5,
+      "label": "5",
+      "first": "p5-b12-f48fde2",
+      "members": [
+        "p5-b12-f48fde2"
+      ],
+      "path": "formulas/xu-2024/5c1568888f1c/p5-eq-5-e68815.png",
+      "bbox": [
+        303.59686279296875,
+        85.03672790527344,
+        565.3511962890625,
+        104.06784057617188
+      ],
+      "sourceText": "Nsurplus = Nin −Nout\n(5)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
+      "id": "formula-p5-6",
+      "page": 5,
+      "label": "6",
+      "first": "p5-b15-39be352",
+      "members": [
+        "p5-b15-39be352"
+      ],
+      "path": "formulas/xu-2024/5c1568888f1c/p5-eq-6-60d219.png",
+      "bbox": [
+        303.59783935546875,
+        193.82969665527344,
+        565.3504028320312,
+        212.86080932617188
+      ],
+      "sourceText": "Dietary energy yield = Y × EP × EC\n(6)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    }
+  ],
+  "blockMap": {
+    "p4-b9-b759dbb": "formula-p4-1",
+    "p4-b10-189f400": "formula-p4-1",
+    "p4-b11-964c290": "formula-p4-1",
+    "p4-b12-0c426bd": "formula-p4-1",
+    "p4-b16-b759dbb": "formula-p4-2",
+    "p4-b17-1bbf53a": "formula-p4-2",
+    "p5-b3-f3d7f18": "formula-p5-3",
+    "p5-b4-46f789d": "formula-p5-3",
+    "p5-b12-f48fde2": "formula-p5-5",
+    "p5-b15-39be352": "formula-p5-6"
+  },
+  "classification": {
+    "p1-b0-8457091": "running-metadata",
+    "p2-b0-8457091": "running-metadata",
+    "p2-b9-2ea26c7": "running-metadata",
+    "p3-b0-8457091": "running-metadata",
+    "p3-b11-2ea26c7": "running-metadata",
+    "p4-b0-8457091": "running-metadata",
+    "p4-b5-3086f20": "running-metadata",
+    "p4-b21-2ea26c7": "running-metadata",
+    "p5-b0-8457091": "running-metadata",
+    "p5-b11-4f03e62": "running-metadata",
+    "p5-b25-5c258c9": "running-metadata",
+    "p5-b30-2ea26c7": "running-metadata",
+    "p6-b0-8457091": "running-metadata",
+    "p6-b43-2ea26c7": "running-metadata",
+    "p7-b0-8457091": "running-metadata",
+    "p7-b4-2ea26c7": "running-metadata",
+    "p8-b0-8457091": "running-metadata",
+    "p8-b9-2ea26c7": "running-metadata",
+    "p9-b0-8457091": "running-metadata",
+    "p9-b8-2ea26c7": "running-metadata",
+    "p10-b0-8457091": "running-metadata",
+    "p10-b10-2ea26c7": "running-metadata",
+    "p11-b0-8457091": "running-metadata",
+    "p11-b6-2ea26c7": "running-metadata",
+    "p12-b0-8457091": "running-metadata",
+    "p12-b12-2ea26c7": "running-metadata",
+    "p13-b0-8457091": "running-metadata",
+    "p13-b2-188a992": "running-metadata",
+    "p13-b11-2ea26c7": "running-metadata",
+    "p14-b0-8457091": "running-metadata",
+    "p14-b4-2ea26c7": "running-metadata"
+  },
+  "sectionHeadingIds": [
+    "p2-b3-6e62ee8",
+    "p2-b6-bc2c4f1",
+    "p2-b7-ddd6a85",
+    "p3-b3-a77f4aa",
+    "p3-b4-aa7eeb8",
+    "p3-b7-b08b029",
+    "p4-b3-8ec4f46",
+    "p4-b5-3086f20",
+    "p5-b11-4f03e62",
+    "p5-b14-6589b0e",
+    "p5-b18-62e8a30",
+    "p5-b20-c3fea71",
+    "p5-b21-1baddcf",
+    "p5-b23-3293585",
+    "p8-b3-36275be",
+    "p9-b3-292d8bc",
+    "p10-b2-54c664c",
+    "p10-b3-f36e71b",
+    "p10-b6-8505f69",
+    "p12-b3-d00e088",
+    "p12-b6-e64fd69",
+    "p13-b2-188a992",
+    "p13-b4-c9015d5",
+    "p13-b8-69824d3"
+  ],
+  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+}
