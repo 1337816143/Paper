@@ -21,11 +21,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Build and check teaching algorithms and original archive
+      - name: Build and verify source-bound scholarly assets
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
           node --check src/app.js
           node --check src/reader.js
+          node --check src/study.js
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
       - name: Install browser test runtime
@@ -34,8 +35,10 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Test existing tutorials
         run: python scripts/test_browser.py
-      - name: Test original reading, annotations, source download and full offline
+      - name: Test original reader and annotations
         run: python scripts/test_reader.py
+      - name: Test Chinese, formulas, coherent frameworks, terms and full offline
+        run: python scripts/test_study.py
       - name: Save test artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -63,28 +66,29 @@ jobs:
       - name: Publish tested site
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify exact public release and source catalog
+      - name: Verify public scholarly reader release
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        shell: bash
         run: |
           set -euo pipefail
           verified=false
-          for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['archivedOriginals']>=12; print(d)"; then
-              verified=true
-              break
-            fi
+          for attempt in $(seq 1 12); do
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['reader']=='study-v3'; assert d['study']['frameworkFirstPapers']==21; assert d['study']['bilingualPublicOriginals']==8; print(d)"; then verified=true; break; fi
             sleep 5
           done
           test "$verified" = true
-          curl --fail --silent --show-error "${PAGE_URL%/}/resources.js" -o live-source-catalog.js
-          curl --fail --silent --show-error "${PAGE_URL%/}/downloads/index.html" -o live-downloads.html
-          grep -q '原文分卷' live-downloads.html
-      - uses: actions/upload-artifact@v4
+          curl --fail --silent --show-error "${PAGE_URL%/}/" -o live-home.html
+          grep -q 'study.js' live-home.html
+          curl --fail --silent --show-error "${PAGE_URL%/}/read/study-map.html" -o live-framework.html
+          curl --fail --silent --show-error "${PAGE_URL%/}/study-data.js" -o live-study-data.js
+          grep -q 'paper.study.v3' live-study-data.js
+      - name: Save live verification evidence
+        uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification
           path: |
             live-release.json
-            live-source-catalog.js
-            live-downloads.html
+            live-home.html
+            live-framework.html
           retention-days: 30
