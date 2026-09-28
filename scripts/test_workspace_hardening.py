@@ -23,6 +23,12 @@ with sync_playwright() as p:
   fc.value.set_files({'name':'synthetic-backup.json','mimeType':'application/json','buffer':payload.encode()});page.wait_for_selector('#my-reference-list');saved=page.evaluate('async id=>await PaperWorkspace.get("workbooks",id)',id);assert 'Original local interpretation' in saved['values']['question'] and 'Different imported interpretation' in saved['values']['question'];assert saved['values']['method']=='Imported method note'
   page.goto(BASE+'#/workbook/'+id);page.wait_for_selector('[data-workbook="question"]');assert 'Different imported interpretation' in page.locator('[data-workbook="question"]').input_value();checks.append('Conflicting workbook fields stay attached to the paper and retain both versions')
   page.goto(BASE+'#/original/liang-2022');page.wait_for_selector('#view-page-images');page.locator('#view-page-images').click();assert page.locator('#toggle-chinese').is_disabled();page.locator('#view-page-images').click();assert not page.locator('#toggle-chinese').is_disabled();checks.append('Original-image verification mode clearly disables text-only translation and pagination controls')
+  page.goto(BASE+'#/liang-2022');page.wait_for_selector('.connected-walkthrough [data-study-term="midip"]')
+  source_text=page.evaluate("PAPER_STUDY.frameworks['liang-2022'].walkthrough.paragraphs")
+  visible_text=page.locator('.connected-walkthrough > p').all_text_contents();assert visible_text==source_text
+  page.locator('.connected-walkthrough [data-study-term="midip"]').first.click();page.wait_for_selector('.term-example');assert '0.5' in page.locator('.term-example').inner_text();page.keyboard.press('Escape')
+  checks.append('New connected walkthroughs expose the same beginner glossary without changing their source text')
+  page.goto(BASE+'#/workbook');page.wait_for_selector('#my-reference-list');checks.append('Generic workbook entry leads to the paper selector rather than an empty document')
   assert not errors,errors
  except Exception:failure=traceback.format_exc();raise
  finally:
