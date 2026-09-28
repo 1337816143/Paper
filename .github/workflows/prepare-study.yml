@@ -29,6 +29,7 @@ jobs:
           pip install PyMuPDF==1.26.4 playwright==1.55.0
           python scripts/prepare_math_layouts.py
           python scripts/install_study_v3.py
+          python scripts/fix_study_interactions.py
           python scripts/prepare_study_tests.py
           node --check src/study.js
           node --check src/translation-worker.js
