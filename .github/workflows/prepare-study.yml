@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Bundle local-only inference dependencies
+        run: python scripts/bundle_translation.py
       - name: Prepare source-faithful equation layout and integrate study layer
         run: |
           pip install PyMuPDF==1.26.4 playwright==1.55.0
@@ -44,11 +46,11 @@ jobs:
         run: python scripts/test_reader.py
       - name: Real offline translation, framework, terminology and math acceptance
         run: python scripts/test_study.py
-      - name: Commit only tested source and source-equation overlays
+      - name: Commit only tested source, verified runtime and equation overlays
         run: |
           git config user.name paper-study-builder
           git config user.email paper-study-builder@users.noreply.github.com
-          git add src scripts/build_reader.py scripts/package_reader.py scripts/test_browser.py scripts/test_reader.py content/navigation.json content/session-log.json resources/study-layouts.json resources/study-layout-audit.json resources/library AGENTS.md
+          git add src scripts/build_reader.py scripts/package_reader.py scripts/test_browser.py scripts/test_reader.py content/navigation.json content/session-log.json resources/study-layouts.json resources/study-layout-audit.json resources/library vendor/translation AGENTS.md
           if ! git diff --cached --quiet; then
             git commit -m "Integrate tested bilingual study reader and source-faithful math overlays"
             git pull --rebase origin study-bilingual-framework-v3
