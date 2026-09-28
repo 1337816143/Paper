@@ -12,7 +12,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,11 +21,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Build and check teaching algorithms and original archive
+      - name: Build and check teaching algorithms and source archive
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
           node --check src/app.js
           node --check src/reader.js
+          node --check src/study.js
+          node --check src/translation-worker.js
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
       - name: Install browser test runtime
@@ -34,8 +36,13 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Test existing tutorials
         run: python scripts/test_browser.py
-      - name: Test original reading, annotations, source download and full offline
+      - name: Test original reading, annotations and full offline
         run: python scripts/test_reader.py
+      - name: Test framework, terminology, equations and actual offline translation
+        run: python scripts/test_study.py
+      - name: Save public acceptance report
+        run: |
+          cp test-results/study-report.json dist/site/study-validation.json
       - name: Save test artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -63,28 +70,31 @@ jobs:
       - name: Publish tested site
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify exact public release and source catalog
+      - name: Verify exact public release and study resources
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -euo pipefail
           verified=false
           for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['archivedOriginals']>=12; print(d)"; then
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=60; assert d['translation']['offlineModelIncluded']; print(d)"; then
               verified=true
               break
             fi
             sleep 5
           done
           test "$verified" = true
-          curl --fail --silent --show-error "${PAGE_URL%/}/resources.js" -o live-source-catalog.js
+          curl --fail --silent --show-error "${PAGE_URL%/}/study-data.js" -o live-study-data.js
+          curl --fail --silent --show-error "${PAGE_URL%/}/read/research-framework.html" -o live-framework.html
           curl --fail --silent --show-error "${PAGE_URL%/}/downloads/index.html" -o live-downloads.html
-          grep -q '原文分卷' live-downloads.html
+          grep -q 'Paper-Translation' live-downloads.html
+          grep -q '完整' live-framework.html
       - uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification
           path: |
             live-release.json
-            live-source-catalog.js
+            live-study-data.js
+            live-framework.html
             live-downloads.html
           retention-days: 30
