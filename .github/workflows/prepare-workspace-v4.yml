@@ -1,0 +1,83 @@
+name: Prepare and verify reusable paper workspace
+on:
+  push:
+    branches: [reader-workspace-v4]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: workspace-v4-preparation
+  cancel-in-progress: true
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Integrate reviewed workspace and beginner glossary
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/install_workspace_v4.py');s=p.read_text()
+          s=s.replace("start=s.index('const aliases=[];');end=s.index('function decorate(root)',start)","start=s.index('const aliases=[];') if 'const aliases=[];' in s else s.index('let termRE=');end=s.index('function decorate(root)',start)")
+          p.write_text(s)
+          PY
+          python scripts/install_workspace_v4.py
+          python scripts/enrich_terms_v4.py
+          if test -f scripts/refine_workspace_v4.py; then python scripts/refine_workspace_v4.py; fi
+          node --check src/workspace.js
+          node --check src/study.js
+          node --check src/reader.js
+          node --check src/app.js
+          pip install PyMuPDF==1.26.4 playwright==1.55.0
+          python scripts/audit_source_access_v4.py
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python examples/pareto_lab.py --test
+          python examples/sequence_lab.py
+      - name: Install browser runtime
+        run: python -m playwright install --with-deps chromium > /tmp/browser-install.log 2>&1
+      - name: Preserve existing tutorials, originals, notes and real offline translation
+        run: |
+          python scripts/test_browser.py > /tmp/tutorial.log 2>&1 || { tail -80 /tmp/tutorial.log; exit 1; }
+          python scripts/test_reader.py
+          python scripts/test_study.py
+      - name: Verify actual literature queries, personal import, backup and mobile interaction
+        run: python scripts/test_workspace.py
+      - name: Commit only verified source files
+        run: |
+          git config user.name paper-workspace-builder
+          git config user.email paper-workspace-builder@users.noreply.github.com
+          git add src/index.html src/app.js src/reader.js src/study.js src/workspace.js src/workspace.css scripts/build_reader.py scripts/build_tutorials.py scripts/install_workspace_v4.py resources/study-v3.json resources/catalog.json resources/access-audit-v4.json content/navigation.json content/session-log.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Integrate tested literature workspace, safe local imports and beginner terminology"
+            git push origin HEAD:reader-workspace-v4
+          fi
+      - name: Collect acceptance evidence
+        if: always()
+        run: |
+          mkdir -p test-results
+          cp resources/access-audit-v4.json test-results/ 2>/dev/null || true
+          cp dist/site/release.json test-results/workspace-release.json 2>/dev/null || true
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          for n in ['workspace-report.json','study-report.json','reader-report.json','report.json']:
+              p=Path('test-results')/n
+              if p.exists():
+                  x=json.loads(p.read_text());print(n,json.dumps(x,ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paper-workspace-v4-acceptance
+          path: test-results
+          retention-days: 30
