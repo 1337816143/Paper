@@ -20,3 +20,6 @@ content/*.json -> scripts/build.py -> dist/site. All browser assets are local. S
 
 ## Validation
 Check internal links, metadata evidence states, mathematical examples, accessibility, mobile overflow, exact back-position restoration, offline refresh and notes export/import. On failure fix the source rather than weakening tests.
+
+## Study layer v3
+Preserve English source strings, block IDs and existing local annotations. Framework narratives and glossary definitions must cite actual lessons/sources. Translation is a separate on-device layer, labelled as unreviewed machine output; do not publish translations of NoDerivatives sources. All browser inference assets are local, pinned and license/hash checked. No note or private source goes to an inference API. Math changes are technical presentation only; retain source crops and raw blocks. Run scripts/test_study.py in addition to existing browser/reader tests. Update math overlays on original-source refresh; never silently reinterpret ambiguous symbols.

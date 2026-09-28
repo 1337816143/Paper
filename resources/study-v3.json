@@ -1,0 +1,173 @@
+{
+  "schema":"paper.study.v3",
+  "version":"2026-09-28.1",
+  "framing":"以下框架为基于已核读资料的教学组织，不替代原文目录，也不增加原文没有开展的分析。点按术语解释，详细方法按需展开。",
+  "journey":{
+    "title":"把农业系统研究读成一条完整的论证链",
+    "question":"在土地、水、劳动和资金有限，而且不同人重视不同结果的条件下，怎样提出有依据、可实施的农业系统改进方案？",
+    "narrative":["我们先不从软件和缩写开始。研究的起点是一个现实系统：谁经营哪些地块，种什么，投入和产出是多少，受到什么约束。只有把这个系统及其数据边界说清楚，才有资格比较好坏。因此，调查、指标和类型划分先回答‘现在是什么样’，而不是一上来就计算最优解。","下一步有两条互补路线。梁政渊从现实农场寻找可学习的优秀案例，再用农学规则生成尚未实施的轮作，最后把地块内时序与全农场资源约束连接起来。程嘉莉先研究人们怎样感知农业景观，再识别他们优先考虑什么，最后讨论如何把这些偏好与景观设计相连。徐展的工作提醒我们：不同农场的资源和经营背景不同，可行的改进方案也不应只有一种。","因此，每篇论文都应读成‘问题为什么成立—证据从哪里来—为什么需要这一步方法—它产生什么结果—结果能支持到哪里’。Pareto、PCA、Q方法或FarmDESIGN只是其中某个环节的工具，不是需要孤立背诵的知识点。下方沿这条链进入论文；每篇先展示整体框架，再展开原有方法细节。"],
+    "stages":[
+      {"title":"01 认识现实系统","question":"比较对象和资源边界是什么？","input":"村庄、农户、地块与活动记录","output":"可连接、可比较的数据结构和农场类型","papers":["xu-data-2024","xu-2024"],"next":"对象可比以后，才能问哪些现实系统表现更好。"},
+      {"title":"02 找到现实改进线索","question":"谁已经实现了较好的多目标折中？","input":"现实系统的多指标绩效","output":"非支配案例、优势类型与待解释的管理差异","papers":["liang-2022"],"next":"现实中的优秀案例是起点，但并不穷尽未来可能的生产方式。"},
+      {"title":"03 生成未来可行选择","question":"农学规则允许哪些新轮作？","input":"作物活动、日历、轮作规则和绩效参数","output":"可行候选集合及可解释的折中类型","papers":["liang-2023"],"next":"一条轮作在一个地块上可行，还不保证整个农场同一时期有足够资源。"},
+      {"title":"04 连接全农场与时空约束","question":"地块、时间和种养资源流怎样共同决定可行性？","input":"活动组合、平衡关系、地块与时期资源上限","output":"在明确约束和假设内的农场设计选择","papers":["farmdesign-2012","farmsteps-2026","ditzler-2019","qu-2025"],"next":"模型给出可达到的结果，还没有回答谁更愿意接受哪一种。"},
+      {"title":"05 理解人的需求并设计景观","question":"人们看见什么、重视什么；空间配置又能改变什么？","input":"感知调查、相对偏好与空间指标","output":"不同观点及其对应的景观方案讨论","papers":["cheng-2023","cheng-2025","landscape-2018","cheng-thesis"],"next":"方案还需面对风险、遗漏过程和实际实施，不能把模型结果直接写成已发生的改善。"},
+      {"title":"06 检查证据与迁移边界","question":"方案在不同情景和现实条件下还可靠吗？","input":"模型假设、参数范围、利益相关者和验证证据","output":"有边界的结论、改进需求和下一步研究问题","papers":["breure-2024","toorop-2023","hainan-map"],"next":"回到数据和问题定义，形成迭代，而不是不断叠加新工具。"}
+    ]
+  },
+  "frameworks":{
+    "liang-2022":{
+      "question":"在同一类小麦—玉米双季系统中，哪些现实案例能在七项指标间取得较好的折中，值得进一步研究？",
+      "object":"344个已观测的生产系统案例；不是344个随机试验处理。",
+      "result":"由56个第一前沿案例进一步识别优势群组，其中9个案例组成作者选择的典型优秀系统群组。",
+      "narrative":"这篇论文没有先规定一套‘最佳技术’，也没有让模型创造新农场。它先承认同一种种植制度内部存在很大差异：某个农场利润高，可能同时耗水多；某个农场省工，可能能量产出也低。作者因此需要一套方法，从多个维度同时寻找现实中的改进线索。研究最关键的连接是：指标让案例可比较，Pareto保留不同优势，聚类解释优势类型，理想点距离帮助挑选较均衡的群组。最后对照管理和背景差异，讨论这些案例能否成为可学习的参照。",
+      "prior":"先能区分指标、改善方向和分析单位即可，不需要先学会农业模型软件。",
+      "phases":[
+        {"title":"把‘可持续’变成可以比较的证据","bridge":"第一步不是排名，而是把每个案例表达成同口径的指标组合。研究选择毛利、能量、劳动、水、氮、温室气体和农药等维度。每列的方向、单位和估算边界决定后续比较究竟比较什么。若把氮损失估计写成淋溶实测，算法再正确也无法挽救解释。","sections":[0,1],"output":"一个有单位、方向和来源的案例×指标矩阵。"},
+        {"title":"先保留不同优势，再判断哪些组合值得学习","bridge":"Pareto排序回答‘有没有另一个案例全面不差、且至少一项更好’，但第一前沿上仍可能保留靠单项极端优势胜出的案例。因此作者继续聚类，把优势结构分开，再用MIDIP和HDIP描述整体距离与维度间均衡。两种距离必须一起解释，均匀地差也可以得到很低的HDIP。","sections":[2,3],"output":"非支配案例、不同绩效群组及被选中的典型群组。"},
+        {"title":"把统计筛选结果转成有边界的管理启发","bridge":"有了优秀群组，才回头比较其管理措施和经营背景。这里得到的是现实样本中的关联与可学习线索，不是某一种技术的独立因果效应。最后再检查图表、原文数值疑点和数据获取条件，决定哪些步骤可以立即学习，哪些需要作者材料才能复现。","sections":[4,5,6,7],"output":"关于改进潜力的证据与限制，而非对所有农户通用的处方。"}
+      ],
+      "next":"下一篇梁2023将问题从‘现实中谁较好’推进到‘哪些尚未实施的轮作值得考虑’。",
+      "sources":["liang-2022"]
+    },
+    "liang-2023":{
+      "question":"能否系统生成多样化轮作，并从大量相互取舍的方案中找出可解释、可讨论的选择？",
+      "object":"由作物节点和农学规则生成的1—4年轮作，不是3011个实测农场。",
+      "result":"3011个候选轮作→1298个非支配方案→125个经进一步规则筛选的方案→8类绩效组合。",
+      "narrative":"现实案例告诉我们目前有人怎样做，却不保证所有有价值的组合已经有人尝试。这篇论文因此先扩展选择空间：用ROTAT表达哪些作物在什么时间、以什么顺序可以组合，再用统一指标评价。由于11个目标下非支配方案过多，作者另设目标子集意义上的Pareto efficiency筛选，最后用降维和聚类把庞大的结果组织成可讨论的轮作类型。整篇贡献是一个从生成到解释的流程，而不是发布一条唯一最佳轮作。",
+      "prior":"先掌握梁2022中非支配的含义；再问‘待比较的方案从哪里来’。",
+      "phases":[
+        {"title":"用农学规则界定未来的选择空间","bridge":"候选方案并非任意排列作物。作物日历、顺序、返回间隔和频次等规则先决定哪些组合能够被考虑，产量与投入参数再决定怎样评价它们。这里的时间与顺序表达，不应被误解成逐日作物生理模拟。","sections":[0,1,2],"output":"带有农学可行性和11列绩效的轮作候选库。"},
+        {"title":"从巨大前沿中保留更有讨论价值的折中","bridge":"1298个非支配点说明没有明显被全面压过，不代表它们都均衡。进一步得分要求一个方案在所有同大小的目标子集中都保持非支配；‘所有’是方法的关键。阈值取自参照轮作，也不表示保留方案全部指标都超过参照。","sections":[3],"output":"125个满足作者进一步筛选规则的方案。"},
+        {"title":"把方案空间转成可解释的类型","bridge":"PCA和聚类不是再宣布一次最优，而是帮助说明这些方案怎样不同、各类依赖哪些作物与取舍。最终需要回到具体序列及参数假设，判断某类方案适合什么情境，并承认价格风险和前茬效应等表达的边界。","sections":[4,5,6],"output":"8类轮作及其可持续性取舍，以及可迁移与不可直接复制的条件。"}
+      ],"next":"FarmSTEPS再把单条轮作扩展为多个地块、多个时期的农场计划。","sources":["liang-2023"]
+    },
+    "farmsteps-2026":{
+      "question":"怎样同时满足地块内轮作规则与同一时期全农场资源限制，探索多样化种植计划？",
+      "object":"农场配置、土地单元、时间轴、作物序列、指标和约束六个模块。",
+      "result":"案例枚举213679个可行计划，再筛出128个Pareto方案；数量属于该案例的既定空间。",
+      "narrative":"这篇将轮作设计推进到真正的农场计划。一个地块上的作物序列可以完全符合农艺规则，但多个地块一起进入收获期时，劳动力仍可能不足。因此研究必须同时表达‘同一块地前后能怎样安排’和‘同一时期整个农场承担得起什么’。先理解这两个方向的可行性，再理解枚举和Pareto筛选，才不会把多时期规划、动态过程模拟和进化优化混为一谈。",
+      "phases":[
+        {"title":"用模块表达地块与时间","bridge":"先界定可调整的活动、时间粒度、土地单元和输入参数。六个模块共同描述农场，但不同模块并不自动具备生理动态反馈。","sections":[0,1],"output":"可以计算与核查的地块—时间—活动结构。"},
+        {"title":"生成可行计划并比较多目标表现","bridge":"局部序列生成后还要组合、核对横向资源，再比较绩效。案例采用枚举，而不是FarmDESIGN式进化搜索。即使枚举完整，也只对已经定义的离散空间作完整声明。","sections":[2,3],"output":"满足约束的候选及其中的非支配计划。"},
+        {"title":"确定软件学习与海南迁移的接口","bridge":"先把输入表、规则和资源账写清楚，再学习软件操作。扩展到牲畜和水产需要独立的资源流与生产周期，并非简单追加作物名称。","sections":[4,5],"output":"一个可实现的小规模时空规划练习及明确扩展边界。"}
+      ],"next":"对照FarmDESIGN理解资源平衡，再决定你的问题需要哪些模块。","sources":["farmsteps-2026"]
+    },
+    "cheng-2023":{
+      "question":"农业参与者怎样感知生态系统服务及负服务，这些感知在什么村庄背景下有所不同？",
+      "object":"2020年267位参与者的调查；RDA使用35个村庄均值及村庄属性。",
+      "result":"识别感知结构与关联背景，而不是提供2015—2020生态服务的连续实测趋势。",
+      "narrative":"在设计更好的农业景观之前，研究需要理解当地人认为哪些问题存在。但‘认为水质变差’与‘测得水质变差’是两种证据。作者先把感知及回忆变化收集成有编码规则的调查数据，再比较群体和服务类型，并在村庄尺度探讨与环境、社会经济属性的关联。整篇的价值是让人的认知进入系统研究，同时保留感知不能替代监测的边界。",
+      "phases":[
+        {"title":"把感知问题转成可信的调查记录","bridge":"先分清受访者是谁、回答对应哪个时间、0与不知道怎样编码。村庄与个人是不同层级，调查问题和变量编码直接决定后续能解释什么。","sections":[0,1],"output":"有明确时间、单位和缺失规则的感知数据。"},
+        {"title":"在正确层级解释多变量差异","bridge":"个人回答聚合到35个村庄，才与村庄属性进行RDA。排序图用于表达该模型下的关联，不把箭头方向当成因果方向，也不把未解释变异全部归为农户知识不足。","sections":[2,3],"output":"感知差异与村庄背景的多变量关联。"},
+        {"title":"限定结论并设计下一步调查","bridge":"低报负服务不证明负服务不存在；回忆变化也不是五年监测。这些发现帮助确定后续实测、试访与沟通需求，并引出另一类问题：人们知道和看见的事，与他们优先选择的事是否一致？","sections":[4,5],"output":"感知研究的结论边界及转向偏好研究的理由。"}
+      ],"next":"程2025不再主要问‘你认为现在怎样’，而是问‘不同服务之间你更看重什么’。","sources":["cheng-2023"]
+    },
+    "cheng-2025":{
+      "question":"不同利益相关者如何排列生态系统服务的相对优先级，可以识别出哪些共同观点？",
+      "object":"327份20条陈述的Q-sort；五档位置数为2—4—8—4—2。",
+      "result":"总体分析得到3种主要观点；7个群体分别分析共得到18种观点，不能当作18类人口比例。",
+      "narrative":"说每项服务都重要，仍不足以帮助选择一个受资源约束的景观方案。Q方法要求人们将同一组陈述放进有限的等级位置，表达相对取舍，并结合排序理由解释共同观点。统计的对象是人的整套排序模式，而不是给20项服务直接计算一组通用权重。只有把陈述设计、参与者立场、因子提取和观点解释连起来，才读懂了整篇研究。",
+      "phases":[
+        {"title":"先让相对取舍成为可观察的回答","bridge":"研究设计首先决定谁参与、表达个人还是机构立场、排序哪些服务。强制网格让相对优先级可见，但低分不等于绝对无价值。陈述覆盖不足也无法靠后续因子分析自动弥补。","sections":[0,1],"output":"同一组陈述上的完整个人或机构排序。"},
+        {"title":"由排序相似性识别共同观点","bridge":"PCA与varimax生成可解释的因子，载荷描述一份排序与因子的关系；典型排序则表达该观点如何排列陈述。总体分析与分群分析解决的问题不同，必须保留未归组者并解释因子数选择。","sections":[2,3,4],"output":"有归属依据、典型排序和访谈解释的观点模式。"},
+        {"title":"把偏好研究接到设计，而不跳过接口","bridge":"本篇没有完成景观优化，更没有证明观点能直接预测采纳。连接LandscapeIMAGES时，需要另行决定偏好怎样影响目标、约束或方案选择，并检查不同映射方式的影响。","sections":[5,6],"output":"供景观设计讨论使用的偏好证据，而非现成优化权重。"}
+      ],"next":"在博士论文景观设计部分追踪偏好到模型的实际映射；全文未核对处保持待确认。","sources":["cheng-2025"]
+    },
+    "xu-2024":{
+      "question":"小农与经营型农场的可持续性差异，是否只是规模不同，还与作物配置、复种和计量分母有关？",
+      "object":"486个小农场与19个经营型农场，一年作物生产记录。",
+      "result":"不同作物结构、复种与尺度下的绩效差异；不是规模扩大带来改善的因果证明。",
+      "narrative":"这篇的重要性在于提醒我们不要急于把‘农场变大’等同于‘系统更可持续’。作者先比较生产结构，再以地块和农场尺度计算资源、环境与经济指标，进一步用复种指数帮助分辨年度投入变化与种植强度变化。理解结论必须沿着‘经营结构—核算分母—分布比较—解释边界’走，而不是只看哪组均值更高。",
+      "phases":[
+        {"title":"界定比较对象与核算口径","bridge":"先明确有效样本、时间边界及各指标的成本和养分定义。单位面积均值与全农场总量不同，氮盈余也不能改称氮淋溶。","sections":[0,1],"output":"可解释的地块与农场绩效记录。"},
+        {"title":"分辨规模、作物结构与复种的作用","bridge":"少种一季会降低年度资源投入，却未必表示每季管理效率更高。作者用MCI换算和分布比较补充年度结果，并采用面积匹配方式比较丰富度。它们改善解释，但不消除所有混杂。","sections":[2,3,4],"output":"不同尺度和种植强度下的绩效对照。"},
+        {"title":"由差异走向分类型设计","bridge":"既然资源与生产背景不同，下一步优化就需要不同的可行域和代表案例。本篇本身没有进行FarmDESIGN优化，不能将博士论文中的后续工作倒写进来。","sections":[5],"output":"分类、采样和建模所需的边界意识。"}
+      ],"next":"接徐展博士论文的类型化改进路线，再返回全农场模型。","sources":["xu-2024"]
+    },
+    "xu-data-2024":{"question":"如何把一套调查组织成可以连接村庄、家庭和作物活动，并支撑多项研究的数据？","object":"342条村庄总表、308个分类样本村、35个抽样村、525户访问、505份有效家庭记录及1352条作物记录，口径分别不同。","result":"可追溯的数据层级、抽样设计与数据字典。","narrative":"这不是为别的论文补一个下载链接，而是解释证据如何产生。村庄分类帮助覆盖异质性，分层抽样决定访问哪些家庭，家庭与作物表则通过主键连接。只有保留这些关系，后续比较、感知分析和系统建模才不会重复计算或错误外推。","phases":[{"title":"从总体异质性到样本","bridge":"先读清每一个样本数属于哪个层级，再理解分类和抽样为什么这样衔接。","sections":[0,1],"output":"有总体和层次依据的样本。"},{"title":"从记录到可复用的数据关系","bridge":"时间、面积分母和一对多连接关系是这套数据的骨架，不能靠Excel行号或姓名替代。","sections":[2,3],"output":"能够正确聚合和连接的表结构。"},{"title":"复用之前检查边界","bridge":"开放下载不代表无需检查许可、匿名性、采样权重和适用地区。海南的生产周期需要重新定义字段。","sections":[4],"output":"可靠的数据复用计划。"}],"next":"再看这些数据怎样分别进入梁、程、徐的分析。","sources":["xu-data-2024"]},
+    "farmdesign-2012":{"question":"怎样把农场内部相互联系的活动和资源流表达成可计算的多目标设计问题？","object":"静态年度、稳态假设下的全农场生物经济模型。","result":"约束与参数设定内的备选配置和目标取舍，不是自动确定的现实最优经营方案。","narrative":"读这篇先画农场边界：哪些流来自外部，哪些发生在作物、牲畜、饲料、粪肥和土壤之间。然后明确哪些量是输入、哪些可以调整、哪些必须守恒。优化算法最后才进入，用来在这套结构内探索配置。这样读才能发现软件输出背后的科学假设，而不是把按钮操作当成建模能力。","phases":[{"title":"建立系统边界和年度计算结构","bridge":"静态模型能够表示活动之间的关联，但没有自动包含每日天气和施肥到产量的全部响应。先读假设，再读输出。","sections":[0,1],"output":"模型能够与不能回答的问题。"},{"title":"由资源平衡进入设计空间","bridge":"内部流需要抵消；决策、参数、约束与目标分别承担不同职责。缺少约束可能让算法找到现实中不可能的配置。","sections":[2,3],"output":"可行的候选配置及其多目标绩效。"},{"title":"验证解释并连接后续扩展","bridge":"以具体资源链追踪一个决策改变的后果，再检查现实可实施性，最后读家庭和粪肥模块如何扩展边界。","sections":[4],"output":"可解释的模型学习路线。"}],"next":"连接家庭预算、粪肥链与地块时序，按问题需要选择扩展。","sources":["farmdesign-2012"]},
+    "landscape-2018":{"question":"怎样把农业景观中的土地利用选择转成可比较的空间配置和生态服务取舍？","object":"GIS土地对象、可选活动和案例指标模块。","result":"每个候选绩效组合背后对应一张地图；指标有些是代理量，不能当作全部实测服务。","narrative":"景观设计比把各类土地面积相加多了一步：相同数量的生境，放在不同位置可能产生不同连通性和边缘作用。框架通过生成、评价、选择和展示把地图与绩效连接起来，再供利益相关者讨论。其价值在于探索空间选择，而不是替所有参与者做最终决定。","phases":[{"title":"从地图到决策对象","bridge":"先分清土地组成、配置、空间单元和可改变的活动，再识别哪些指标真的使用邻接或空间过程。","sections":[0,1],"output":"明确的空间设计问题。"},{"title":"从配置到服务指标与取舍","bridge":"模型计算代理指标并探索非支配方案；偏好如何进入目标或筛选仍需专门说明。","sections":[2,3],"output":"地图与绩效一一对应的候选集合。"},{"title":"从探索到使用边界","bridge":"战略探索不等于日常自动调度，也不替代生态验证或现实采纳研究。","sections":[4],"output":"可以用于讨论但有明确限制的设计工具。"}],"next":"用程嘉莉研究追踪人的需求如何进入景观设计。","sources":["landscape-2018"]},
+    "landscape-2007":{"question":"为什么田块层面较好的选择，在农场或景观尺度未必仍然最好？","narrative":"这篇早期框架将农业收益、自然保护与景观质量放到一个多尺度讨论中。先理解尺度怎样改变边界与聚合，再看空间显式探索怎样支持土地利用讨论，不把近真实案例演示当成已经落地的政策效果。","phases":[{"title":"问题与框架","bridge":"先看目标由谁定义、在哪个尺度计算。","sections":[0,1],"output":"多尺度权衡的基本逻辑。"},{"title":"案例怎样支撑方法","bridge":"地图和绩效之间往返阅读，再检查演示的结论范围。","sections":[2],"output":"能区分方法可行性与实际实施效果。"}],"sources":["landscape-2007"]},
+    "novotny-2024":{"question":"土地利用重新配置能否改善社区营养供给，同时兼顾收入、劳动与环境目标？","narrative":"这篇把景观设计的产出从粮食或热量扩展到多种营养素。研究先定义生产端供给与人群需求，再比较现有活动重新配置和加入新生产系统的情景。读到营养自给结果时必须回到边界：本地产得出，不等于每个家庭买得起、吃得到或能充分吸收。","phases":[{"title":"界定社区需求与可改变的生产活动","bridge":"营养指标先需要明确产品来源和需求分母。","sections":[0,1],"output":"可计算的营养供给设计问题。"},{"title":"解释情景结果与营养边界","bridge":"逐项追踪营养来源，避免把植物多样化写成直接提供B12或改善居民健康。","sections":[2,3],"output":"营养敏感设计的启发与迁移条件。"}],"sources":["novotny-2024"]},
+    "ditzler-2019":{"question":"农场增收为什么不一定增加家庭福利，怎样把家庭的钱、时间和食物纳入模型？","narrative":"农场并非独立于家庭。家庭成员还要在非农工作、照料和休闲之间分配时间，购买与留用食物也影响预算和营养。因此这篇先扩展模型边界，再探索不同活动组合的取舍，而不是给原有利润指标换一个名称。","phases":[{"title":"从农场边界扩展到家庭","bridge":"明确新增模块怎样改变可支配预算、劳动和营养核算。","sections":[0,1],"output":"农场与家庭指标的区别及连接。"},{"title":"用机会成本理解选择","bridge":"以小规模预算练习追踪一个活动的连锁影响，再判断现实可用性。","sections":[2],"output":"能解释不采纳高农场收益方案的原因。"}],"sources":["ditzler-2019"]},
+    "qu-2025":{"question":"改良粪肥管理能否改善整个农场的环境取舍，而不是只把损失从一个环节移到另一个环节？","narrative":"储存阶段保住的氮仍会进入后续施用与土壤过程。作者因此把粪肥链放回全农场，比较管理技术与资源重新配置。核心不是单项技术的减排百分比，而是系统规模、吸收能力和内部流共同决定的总体表现。","phases":[{"title":"将局部技术放回完整资源链","bridge":"先建立案例和模块边界，再追踪保留的养分流向何处。","sections":[0,1],"output":"全链条核算而非局部效率。"},{"title":"解释前沿变化与案例不确定处","bridge":"区分技术改变可达集合与资源配置沿现有集合移动；原文参数疑点保持记录。","sections":[2,3],"output":"技术与系统配置作用的区分。"}],"sources":["qu-2025"]},
+    "breure-2024":{"question":"怎样判断一项农业权衡分析的方法是否足以支持它提出的决策结论？","narrative":"这篇综述适合在读完几篇案例后回看。它不提供一种包打天下的算法，而是把目标、尺度、方法、风险和参与方式放到共同框架中审查。把它用于自己的研究时，先问决策问题，再检查证据、边界和遗漏，不要把相关图、优化图和因果证据当成同一种分析。","phases":[{"title":"先确定综述的证据范围","bridge":"发表年不等于检索截止年，纳入研究也不是所有农业研究的随机样本。","sections":[0,1],"output":"可正确使用的综述结论。"},{"title":"将方法审查落到具体研究","bridge":"逐项检查目标、尺度、风险和参与，形成可操作的研究修订问题。","sections":[2,3],"output":"一份有来源边界的方法审查框架。"}],"sources":["breure-2024"]},
+    "toorop-2023":{"question":"怎样在农户脆弱性与正向案例中讨论反脆弱性，又不超出已有证据？","narrative":"反脆弱比‘表现稳定’提出了更强的主张。这篇借访谈和案例讨论储备、选择空间与自主性等特征。读法是先界定概念，再看哪些特征被实际观察、哪些机制仍是解释，而不是见到灾后表现好就宣称系统从冲击中受益。","phases":[{"title":"概念必须对应研究证据","bridge":"这里的正向案例识别不同于梁2022的Pareto程序，不能互相套用。","sections":[0,1],"output":"稳健、韧性与反脆弱的区别。"},{"title":"由概念走向可检验问题","bridge":"把抽象能力转成储备、可替代活动、转换成本等可说明的属性。","sections":[2],"output":"不超出数据能力的风险研究问题。"}],"sources":["toorop-2023"]},
+    "mixed-2026":{"question":"为何混合小农系统的创新需要同时考虑技术关联、参与过程和地方情境？","narrative":"这是一篇Perspective。先理解系统思维、参与和情境之间的关系，再看案例如何说明这些原则。它提供创新研究的组织方式，不等于一个统一干预的因果效果检验。","phases":[{"title":"理解框架，而非背三条原则","bridge":"技术改变会沿资源、劳动和收入关系传播，人的参与和地方约束决定这些变化是否有意义。","sections":[0,1],"output":"可以用于提出系统问题的框架。"},{"title":"把框架转成关系与待验证假设","bridge":"画影响链时区分测量、已知机制与尚待调查的假设。","sections":[2],"output":"有证据标签的系统关系图。"}],"sources":["mixed-2026"]},
+    "verdouw-2021":{"question":"农业数字孪生需要怎样连接真实对象、状态数据、模型和决策？","narrative":"先问孪生的对象和用途，再讨论数据更新与模型结构。这里现有带读仅核到摘要与框架层，新增原件可供继续阅读，但不能把‘现在可以打开全文’自动改称‘已经完成全文核读’。","phases":[{"title":"明确概念和已经核实的范围","bridge":"数字地图或静态模型不因有看板就自动成为数字孪生。","sections":[0,1],"output":"对象、更新、模型和行动四个接口问题。"},{"title":"限定自己真正准备实现的系统","bridge":"原型能力应按实际数据连接和反馈说明，不添加未确认的实时控制要求。","sections":[2],"output":"最低可行研究系统与待补材料。"}],"sources":["verdouw-2021"]},
+    "liang-thesis":{"question":"怎样把现实案例、轮作生成和时空规划组织成连续的博士研究，而非相互孤立的论文？","narrative":"此页是研究主线导航，不是对未取得博士全文的章号猜测。按已核读文章能建立‘诊断现实—拓展选择—满足农场约束’的学习链，随后再以博士论文目录和总讨论校对章际关系。","phases":[{"title":"确认材料与时间边界","bridge":"博士完成时间和后续文章发表时间不同。","sections":[0],"output":"清楚的核读范围。"},{"title":"追踪各项研究如何传递问题","bridge":"沿已有文章的输入和输出建立接口，不将教学路线冒充正式目录。","sections":[1,2],"output":"整合性阅读提纲。"}],"sources":["liang-thesis"]},
+    "cheng-thesis":{"question":"感知、偏好和景观重设计之间，证据究竟通过什么接口传递？","narrative":"三类研究回答不同问题。感知调查呈现当地人怎样理解现状，Q方法表达相对偏好，景观模型探索改变空间配置会得到什么结果。真正的整合点在于这些输出怎样转成下一步的输入；未经核读的映射和算法细节仍需保留为缺口。","phases":[{"title":"先确定官方摘要支持的主线","bridge":"不能根据相关文章反推优化章的具体权重、约束和参数。","sections":[0,1],"output":"已经核实的设计范围及未确认接口。"},{"title":"围绕接口组织全文学习","bridge":"将需申请的数据、偏好映射、指标模块和运行设置与具体问题一一对应。","sections":[2,3],"output":"有目标的全文核读与资料申请。"}],"sources":["cheng-thesis"]},
+    "xu-thesis":{"question":"不同类型农场为何需要不同的系统改进路径，现实优秀案例和模型设计又如何互补？","narrative":"这条博士主线从异质性出发：先比较现实类型，再识别较好的管理与配置，最后以全农场模型探索针对性方案。现有材料支持这一主线导航，但不支持猜测未核到的章节算法或代表性农场选择细节。","phases":[{"title":"由总体差异进入类型化问题","bridge":"总体平均并不代表一套现实可行资源组合，分类应服务不同约束。","sections":[0,1],"output":"类型化设计的必要性。"},{"title":"连接已发表证据与待读全文","bridge":"数据、比较、类型与优化各有角色，沿接口准备后续阅读。","sections":[2],"output":"不混淆章节状态的学习路线。"}],"sources":["xu-thesis"]},
+    "groot-2017":{"question":"怎样把生产、自然资源、市场和家庭营养放入同一个综合系统研究框架？","narrative":"作为理论方法章节，它先组织尺度与系统之间的关系，而不是报告营养干预的效果。阅读时对每项指标确认层级，对每个措施确认获益者和成本承担者，再看后续应用如何把框架变成模型。","phases":[{"title":"建立跨系统的研究问题","bridge":"产量只是系统表现的一部分，营养、家庭与景观边界也需要明确。","sections":[0],"output":"综合系统框架。"},{"title":"从概念接口读向实际应用","bridge":"用家庭模型和营养景观案例检查哪些关系已可计算、哪些仍需实证。","sections":[1],"output":"框架到应用的阅读连接。"}],"sources":["groot-2017"]}
+  },
+  "terms":[
+    {"id":"cropping-system","en":"cropping system","zh":"种植系统","aliases":["cropping systems","cropping system","种植系统"],"definition":"一定时空范围内的作物组合、种植次序及其管理方式。读本文时先确认它指一个作物季、一个年度双季制度，还是多年轮作。","boundary":"不自动包含全农场牲畜、家庭预算等全部子系统。","sources":["liang-2022","liang-2023"]},
+    {"id":"farming-system","en":"farming system","zh":"农业经营系统／农作系统","aliases":["farming systems","farming system","农作系统"],"definition":"相互联系的农业生产活动、资源与经营条件组成的系统。中文译法随语境变化；本学习站全农场研究强调土地、作物、动物、劳动和经济之间的联系。","sources":["farmdesign-2012"]},
+    {"id":"whole-farm","en":"whole-farm model","zh":"全农场模型","aliases":["whole-farm model","whole farm model","whole-farm","全农场模型","全农场"],"definition":"把一个农场的多个活动及其资源流一起核算或设计，而不是逐作物孤立分析。","boundary":"全农场范围不意味着已经包含全部动态过程。","sources":["farmdesign-2012","whole-farm"]},
+    {"id":"pareto","en":"Pareto dominance","zh":"帕累托支配","aliases":["Pareto dominance","Pareto domination","帕累托支配","Pareto支配"],"definition":"A在全部目标上都不比B差，且至少一项严格更好，则A支配B。判断前必须统一各目标的改善方向。","sources":["pareto","liang-2022"]},
+    {"id":"pareto-front","en":"Pareto front","zh":"帕累托前沿","aliases":["Pareto frontier","Pareto frontiers","Pareto fronts","Pareto front","Pareto前沿","帕累托前沿","非支配前沿"],"definition":"在被比较的可行集合中，不被其他方案支配的方案所构成的目标空间边界。","boundary":"样本前沿或搜索得到的近似前沿，不自动等于现实全局最优。","sources":["pareto","liang-2023"]},
+    {"id":"nondominated","en":"non-dominated solution","zh":"非支配方案","aliases":["non-dominated solutions","non-dominated solution","non-dominated","nondominated","非支配方案","非支配案例","非支配"],"definition":"在当前比较集合中，没有另一个方案能在所有目标上不差且至少一项更好。","boundary":"可能靠单项极端优势保留，不等于各方面均衡或可直接采纳。","sources":["pareto","liang-2022"]},
+    {"id":"pareto-ranking","en":"Pareto ranking","zh":"帕累托分层排序","aliases":["non-dominated sorting","Pareto ranking","非支配排序","Pareto排序"],"definition":"找出第一非支配层，移除后再找第二层，逐层排列。层级不是目标加权总分。","sources":["liang-2022","pareto"]},
+    {"id":"positive-deviance","en":"positive deviance","zh":"正向偏离／正向案例方法","aliases":["positive deviants","positive deviant","positive deviance","正向偏离","正向案例"],"definition":"从现实对象中识别在相关目标上表现突出的案例，并探究可学习的做法。","boundary":"不同论文可用不同识别程序；不是数据清洗中的异常值剔除，也不自动建立因果关系。","sources":["liang-2022","toorop-2023"]},
+    {"id":"multiobjective","en":"multi-objective optimization","zh":"多目标优化","aliases":["multi-objective optimization","multiobjective optimization","multi-objective optimisation","多目标优化"],"definition":"在约束下同时考虑多个通常存在取舍的目标，探索有效方案集合，再结合决策偏好选择。","sources":["farmdesign-2012","pareto"]},
+    {"id":"tradeoff","en":"trade-off","zh":"权衡／目标间取舍","aliases":["trade-offs","trade-off","tradeoffs","tradeoff","目标取舍","权衡关系","权衡"],"definition":"在特定条件或比较空间中，改善一个目标可能伴随另一个目标的恶化。","boundary":"观测相关、模型中的配置取舍和因果权衡不是同一种证据。","sources":["breure-2024"]},
+    {"id":"synergy","en":"synergy","zh":"协同","aliases":["synergies","synergy","协同"],"definition":"在明确边界与比较条件下，多个目标共同改善或活动之间相互支持。","boundary":"不意味着在所有情景下不存在冲突。","sources":["qu-2025","breure-2024"]},
+    {"id":"midip","en":"MIDIP","zh":"多指标到理想点的距离","aliases":["MIDIP","Multi-indicator distance to the ideal point"],"definition":"梁2022将群组中心到各指标理想值的距离按观测范围标准化后，平方求和并开根号。值较小表示整体更接近该理想点。","boundary":"不是距离的简单平均；理想点可能不对应任何现实农场。","sources":["liang-2022","ideal-distance"]},
+    {"id":"hdip","en":"HDIP","zh":"各指标到理想点距离的异质性","aliases":["HDIP","Heterogeneity of distances to the ideal point"],"definition":"梁2022用标准化距离在指标间的样本标准差描述不均衡。值小表示各维度距离相近。","boundary":"各项都很差但差得一样时也可很小，不能单独据此选最佳系统。","sources":["liang-2022","ideal-distance"]},
+    {"id":"idealpoint","en":"ideal point","zh":"理想点","aliases":["ideal point","理想点"],"definition":"按每一项指标各自的最好值组成的参照点。这些最好值可能来自不同案例，因此不一定同时可达到。","sources":["ideal-distance"]},
+    {"id":"efficiency","en":"Pareto efficiency score","zh":"帕累托效率得分（本文特定定义）","aliases":["Pareto efficiency score","Pareto efficiency","Pareto效率得分"],"definition":"梁2023考察最小目标子集大小k，使某方案在所有大小为k的目标子集中都非支配。","boundary":"关键是‘所有子集’，不是至少一个，也不是非支配概率。其他文献同名概念需另核定义。","sources":["liang-2023","efficiency-score"]},
+    {"id":"pca","en":"principal component analysis (PCA)","zh":"主成分分析","aliases":["principal component analysis","principal components analysis","PCA","主成分分析"],"definition":"用原变量的线性组合提取主要变异方向，以较少维度表达数据差异。","boundary":"保留方差不等于衡量社会重要性，PC1不能自动称为总体可持续性。","sources":["liang-2023","pca-cluster"]},
+    {"id":"hca","en":"hierarchical cluster analysis (HCA)","zh":"层次聚类","aliases":["hierarchical clustering","hierarchical cluster analysis","HCA","层次聚类"],"definition":"根据距离和连接规则逐步合并对象，形成层次结构，再选定切分层级。结果依赖变量、标准化、距离和连接方法。","sources":["liang-2022","liang-2023","pca-cluster"]},
+    {"id":"ward","en":"Ward.D2","zh":"Ward连接方法的一种实现","aliases":["Ward.D2","Ward’s method","Ward's method","Ward clustering"],"definition":"R层次聚类中的连接方法。其最小方差解释对应欧氏几何；复现时需同时核对原文使用的距离和实现设置。","sources":["pca-cluster","liang-2022"]},
+    {"id":"gross-margin","en":"gross margin","zh":"毛利","aliases":["gross margins","gross margin","毛利"],"definition":"按论文的成本边界，以收入减去相应变动成本得到的经济指标。","boundary":"不自动等于扣除所有固定成本和家庭劳动机会成本后的净利润；不同论文成本项需分别核对。","sources":["liang-2022","xu-2024"]},
+    {"id":"dietary-energy","en":"dietary energy yield","zh":"膳食能量产出","aliases":["dietary energy yield","dietary energy production","膳食能量产出"],"definition":"由农业产品数量及可食部分、能量含量等换算的生产端能量供给。","boundary":"不等于家庭实际摄入的能量。","sources":["liang-2022","novotny-2024"]},
+    {"id":"n-surplus","en":"nitrogen surplus","zh":"氮盈余","aliases":["nitrogen surplus","N surplus","氮盈余"],"definition":"在给定系统与时间边界内，氮输入减去定义中的氮输出。","boundary":"可能涉及土壤积累及多种损失或遗漏项，不能直接等同实际氮淋溶。","sources":["xu-2024","nutrients"]},
+    {"id":"n-loss","en":"nitrogen loss","zh":"氮损失","aliases":["nitrogen losses","nitrogen loss","N losses","N loss","氮损失"],"definition":"氮通过相关途径离开所研究系统的量。须查清论文是实测、过程估算，还是平衡残差。","boundary":"不同估算方法不能默认具有同等证据精度。","sources":["farmdesign-2012","liang-2022","nutrients"]},
+    {"id":"groundwater","en":"groundwater depletion","zh":"地下水消耗／耗竭","aliases":["groundwater depletion","地下水消耗","地下水耗竭"],"definition":"与地下水资源减少有关的指标。具体计算可能考虑灌溉、补给或其他水量过程，应以本文公式为准。","boundary":"不能把某个用水估算值说成每个农户都有地下水位实测。","sources":["liang-2022","liang-2023"]},
+    {"id":"ghg","en":"greenhouse gas emissions","zh":"温室气体排放","aliases":["greenhouse gas emissions","greenhouse gases","GHG emissions","GHG","温室气体排放"],"definition":"按特定排放边界及温室效应换算表达的气体排放量。净排放还需要查清抵扣或固碳项。","boundary":"不同边界、时间尺度或CO₂当量系数下的数值不能直接比较。","sources":["liang-2022","liang-2023"]},
+    {"id":"rotation","en":"crop rotation","zh":"作物轮作","aliases":["crop rotations","crop rotation","轮作"],"definition":"同一土地在多个生产时期按一定顺序安排不同作物。是否计入季节、返回间隔和前茬效应，应查具体模型。","sources":["liang-2023","rotation"]},
+    {"id":"rotat","en":"ROTAT","zh":"轮作方案生成工具","aliases":["ROTAT+","ROTAT"],"definition":"用作物活动和农学规则生成候选作物序列的工具。本文先生成再评价。ROTAT与ROTAT+的版本和扩展不能混同。","boundary":"方案生成器不等于逐日作物生长过程模型。","sources":["liang-2023","farmsteps-2026"]},
+    {"id":"farmsteps","en":"FarmSTEPS","zh":"农场时空种植计划探索模型","aliases":["FarmSTEPS"],"definition":"连接农场配置、土地单元、时间轴、作物序列、指标和约束，探索多地块多时期种植计划。","boundary":"已核读案例使用枚举与Pareto筛选，不称为P-MODE。","sources":["farmsteps-2026"]},
+    {"id":"farmdesign","en":"FarmDESIGN","zh":"全农场多目标设计模型","aliases":["FarmDESIGN"],"definition":"将农场作物、动物、资源平衡及经济劳动等指标与多目标设计连接。原始模型采用静态年度与稳态设定。","boundary":"不同后续模块和版本的功能应分别确认。","sources":["farmdesign-2012"]},
+    {"id":"landscapeimages","en":"LandscapeIMAGES","zh":"空间显式景观多目标探索框架","aliases":["LandscapeIMAGES"],"definition":"围绕GIS土地对象与活动选项，生成、评价、筛选并展示土地利用配置及生态系统服务取舍。","boundary":"输出支持方案讨论，不自动保证实际生态效果或社会采纳。","sources":["landscape-2007","landscape-2018"]},
+    {"id":"enumeration","en":"enumeration","zh":"枚举","aliases":["exhaustive enumeration","systematic enumeration","enumeration","枚举"],"definition":"按定义系统列出候选组合并检验可行性。","boundary":"只有确实遍历全部有限空间时，才对该空间完整；不代表覆盖现实所有可能活动。","sources":["farmsteps-2026","rotation"]},
+    {"id":"constraint","en":"constraint","zh":"约束条件","aliases":["constraints","constraint","约束条件","资源约束"],"definition":"候选方案必须满足的限制，例如土地总面积、同一时期劳动上限或饲料需求。目标是希望改善的方向，约束是不能违反的边界。","sources":["whole-farm","farmsteps-2026"]},
+    {"id":"decision-variable","en":"decision variable","zh":"决策变量","aliases":["decision variables","decision variable","决策变量"],"definition":"模型允许选择或调整的量，如作物面积、活动序列、牲畜数量。与预先给定的参数以及计算所得指标不同。","sources":["whole-farm"]},
+    {"id":"ecosystem-services","en":"ecosystem services","zh":"生态系统服务","aliases":["ecosystem services","ecosystem service","生态系统服务"],"definition":"生态系统对人类福祉的相关贡献。研究需明确选择了哪些服务、怎样量化或收集感知，以及属于供给、调节等何种框架。","boundary":"感知评分、代理指标与实测服务量不能相互替代。","sources":["cheng-2023","cheng-2025","landscape-2018"]},
+    {"id":"disservices","en":"ecosystem disservices","zh":"生态系统负服务","aliases":["ecosystem disservices","ecosystem dis-services","dis-services","disservices","负服务"],"definition":"所研究生态或农业系统对人造成的不利影响。本研究关注受访者是否感知或报告这些影响。","boundary":"没有报告不等于实际不存在。","sources":["cheng-2023"]},
+    {"id":"rda","en":"redundancy analysis (RDA)","zh":"冗余分析","aliases":["redundancy analysis","RDA","冗余分析"],"definition":"用解释变量约束多个响应变量的线性排序。程2023的分析单位是35个村庄，使用村庄平均感知。","boundary":"箭头关系是特定模型与尺度下的关联，不是因果证据。","sources":["cheng-2023","rda"]},
+    {"id":"likert","en":"Likert scale","zh":"李克特式等级评分","aliases":["Likert scale","Likert-type","Likert","李克特量表"],"definition":"用有序等级表达回答。分析前需分清真实低值、未知、不适用与未发生，并核对论文的编码与聚合方式。","sources":["cheng-2023","survey"]},
+    {"id":"q-method","en":"Q methodology","zh":"Q方法","aliases":["Q methodology","Q-methodology","Q method","Q方法"],"definition":"让参与者排序同一组陈述，再分析人与人完整排序模式的相似性，识别共同观点并结合理由解释。","boundary":"不是普通量表求总分，也不直接估计总体人口比例。","sources":["cheng-2025","q-method"]},
+    {"id":"qsort","en":"Q-sort","zh":"Q排序／一份完整排序","aliases":["Q-sorts","Q-sort","Q sorting","Q排序"],"definition":"一个参与者将全部陈述放入规定排序位置形成的整体回答。程2025为20条陈述和2—4—8—4—2五档网格。","sources":["cheng-2025"]},
+    {"id":"qset","en":"Q-set","zh":"Q陈述集","aliases":["Q-set","Q set","Q陈述集"],"definition":"参与者需要排序的一组陈述。它对议题的覆盖影响能识别哪些观点。","sources":["q-method","cheng-2025"]},
+    {"id":"pset","en":"P-set","zh":"Q研究参与者集合","aliases":["P-set","P set"],"definition":"参与Q排序的人或机构代表集合，通常用于覆盖观点多样性；不自动具备总体比例推断的抽样基础。","sources":["q-method"]},
+    {"id":"loading","en":"factor loading","zh":"因子载荷","aliases":["factor loadings","factor loading","因子载荷"],"definition":"在本篇Q分析中，表示一份完整排序与某个共同观点因子的关联。","boundary":"不是生态系统服务在优化模型中的目标权重。","sources":["cheng-2025","q-method"]},
+    {"id":"array","en":"factor array","zh":"因子典型排序","aliases":["factor arrays","factor array","factor-array","典型排序"],"definition":"依据归属该因子的排序形成代表性分数，再映射为该观点对全部陈述的典型排序。它与因子载荷是不同对象。","sources":["cheng-2025","q-method"]},
+    {"id":"varimax","en":"varimax rotation","zh":"最大方差正交旋转","aliases":["varimax rotation","varimax","Varimax"],"definition":"因子分析中的一种正交旋转方式，用于使载荷结构更清晰，便于解释。程2025将它用于Q分析。","sources":["cheng-2025"]},
+    {"id":"stakeholder","en":"stakeholder","zh":"利益相关者","aliases":["stakeholders","stakeholder","利益相关者"],"definition":"会影响系统决策或受到其结果影响的个人、群体或机构。应区分代表个人还是机构表达观点。","sources":["cheng-2025"]},
+    {"id":"perception","en":"perception","zh":"感知","aliases":["perceptions","perception","感知"],"definition":"参与者怎样认识或判断现状及变化，受经验、可见性和问题理解等影响。","boundary":"感知不是实测状态；感知、偏好和实际采纳是不同研究对象。","sources":["cheng-2023","survey"]},
+    {"id":"preference","en":"preference","zh":"偏好","aliases":["preferences","preference","偏好"],"definition":"在不同结果或选项之间的相对优先关系。Q排序帮助表达这种取舍。","boundary":"偏好评分不能直接当作实际行为预测。","sources":["cheng-2025","survey"]},
+    {"id":"mci","en":"multiple cropping index (MCI)","zh":"复种指数","aliases":["multiple cropping index","multi-cropping index","MCI","复种指数"],"definition":"表达单位土地在一年内种植活动的重复利用程度。徐2024用它帮助区分年度绩效与每轮作物的平均绩效。","boundary":"用指标除以MCI不等于消除了所有规模或经营背景混杂。","sources":["xu-2024"]},
+    {"id":"typology","en":"farm typology","zh":"农场类型划分","aliases":["farm typology","farm typologies","农场类型划分","类型化"],"definition":"为抽样、解释差异或模型设计，将农场按相关特征组织成有意义的类型。不同目的需要不同变量。","sources":["xu-thesis","typology"]},
+    {"id":"rarefaction","en":"rarefaction","zh":"稀释抽样","aliases":["rarefaction","稀释抽样"],"definition":"在控制或匹配抽样规模后比较丰富度，避免样本面积或数量不同导致直接计数不可比。","sources":["xu-2024"]},
+    {"id":"steady-state","en":"steady state","zh":"稳态","aliases":["steady-state","steady state","稳态"],"definition":"在所研究时间与边界下，相关存量被假定不发生净变化。FarmDESIGN原始年度模型采用相关稳态设定。","boundary":"不意味着现实农场没有季节波动。","sources":["farmdesign-2012","whole-farm"]},
+    {"id":"bioeconomic","en":"bio-economic model","zh":"生物经济模型","aliases":["bio-economic model","bioeconomic model","bio-economic","生物经济模型"],"definition":"将农业生产与资源等生物物理关系同经济核算或选择相连接的模型。具体过程详细程度取决于研究目的。","sources":["farmdesign-2012"]},
+    {"id":"pmode","en":"P-MODE","zh":"群体多目标差分进化方法","aliases":["P-MODE","differential evolution","差分进化"],"definition":"通过群体候选的变异和选择探索多目标设计空间的一类进化搜索方法。","boundary":"搜索到的前沿通常是近似集合，不能无证明宣称全局最优；也不等同FarmSTEPS的枚举。","sources":["farmdesign-2012","landscape-2018"]},
+    {"id":"spatial","en":"spatially explicit","zh":"空间显式","aliases":["spatially explicit","spatial-explicit","空间显式"],"definition":"对象的位置、邻接或空间过程明确影响计算。只有GIS面积输入，不保证模型实际表达了空间配置效应。","sources":["landscape-2018","spatial-design"]},
+    {"id":"connectivity","en":"connectivity","zh":"连通性","aliases":["connectivity","连通性"],"definition":"空间对象在结构或过程意义上的连接程度。相同生境面积，配置不同可得到不同连通性。","sources":["landscape-2018","spatial-design"]},
+    {"id":"proxy","en":"proxy indicator","zh":"代理指标","aliases":["proxy indicators","proxy indicator","代理指标"],"definition":"用较易计算或观测的量间接表达目标过程或服务。","boundary":"代理值改善不自动证明实际生态过程按同样幅度改善。","sources":["landscape-2018","indicators"]},
+    {"id":"nutrition","en":"nutrient self-sufficiency","zh":"营养素自给程度","aliases":["nutrient self-sufficiency","nutritional self-sufficiency","营养自给","营养素自给"],"definition":"以本地生产可提供的营养素量与定义人群需求量相比较的生产端指标。","boundary":"不直接证明家庭消费、分配、可负担性或健康结果。","sources":["novotny-2024","ditzler-2019"]},
+    {"id":"farmm3","en":"FarmM3","zh":"粪肥管理模块","aliases":["FarmM3"],"definition":"Qu2025与FarmDESIGN连接的粪肥链模块，用来比较相关管理对全农场指标的影响。","sources":["qu-2025"]},
+    {"id":"pollution","en":"pollution swapping","zh":"污染转移","aliases":["pollution swapping","污染转移"],"definition":"减少一个阶段或一种形式的污染，同时可能增加另一阶段或形式的污染。需要完整边界核算。","sources":["qu-2025","nutrients"]},
+    {"id":"sensitivity","en":"sensitivity analysis","zh":"敏感性分析","aliases":["sensitivity analysis","敏感性分析"],"definition":"分析输入改变如何影响输出或决策，以识别关键参数与假设。","boundary":"不等于完整的不确定性传播或稳健性证明。","sources":["uncertainty","breure-2024"]},
+    {"id":"uncertainty","en":"uncertainty","zh":"不确定性","aliases":["uncertainties","uncertainty","不确定性"],"definition":"对输入、结构、情景或结果认识不完全的状态。报告时说明来源、表达方式和未处理部分。","sources":["uncertainty","breure-2024"]},
+    {"id":"robustness","en":"robustness","zh":"稳健性","aliases":["robustness","稳健性"],"definition":"在一组明确扰动、参数或情景下，方案仍保持可接受表现的能力。必须说清‘对什么稳健’。","sources":["uncertainty"]},
+    {"id":"resilience","en":"resilience","zh":"韧性","aliases":["resilience","韧性"],"definition":"围绕系统承受扰动、恢复或调整的能力，具体操作定义需按研究说明。","boundary":"不直接等同受扰动后获益的反脆弱性。","sources":["toorop-2023","uncertainty"]},
+    {"id":"antifragility","en":"antifragility","zh":"反脆弱性","aliases":["antifragility","antifragile","反脆弱性","反脆弱"],"definition":"比保持或恢复表现更强的概念，强调在某种扰动或波动条件下系统能够改善。","boundary":"需要比较基准与机制证据，灾后表现好并不足以单独证明。","sources":["toorop-2023"]},
+    {"id":"validation","en":"model validation","zh":"模型有效性检验","aliases":["model validation","模型验证","模型有效性检验"],"definition":"检验模型是否足以支持特定研究用途，常需与独立观测、过程知识和外推边界对照。","boundary":"代码测试通过不等于科学预测可靠。","sources":["validation","farmdesign-2012"]},
+    {"id":"digitaltwin","en":"digital twin","zh":"数字孪生","aliases":["digital twins","digital twin","数字孪生"],"definition":"与特定真实对象及其状态或行为相联系的数字表示与使用框架。需说明对象、更新、模型和决策之间如何连接。","boundary":"一张地图或漂亮看板不自动具备这些连接。","sources":["verdouw-2021"]},
+    {"id":"opportunity","en":"opportunity cost","zh":"机会成本","aliases":["opportunity costs","opportunity cost","机会成本"],"definition":"把有限资源用于一种活动时，放弃的其他可行用途的价值。家庭劳动投入农业时，可能放弃非农收入或其他活动。","sources":["ditzler-2019","whole-farm"]}
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "liang-2022",
+    "sourceSHA256": "bfbde3ef50d61598c5aa73a5ff6d02141f1d7473ae446b0f73f88e6bbef0ef47",
+    "equationGroups": 15,
+    "mathmlTranscriptions": 3,
+    "inlineBlocks": 26,
+    "originalUnchanged": true
+  },
+  {
+    "id": "liang-2023",
+    "sourceSHA256": "9fa29543ce29ae322554168dc64965aedf34826024d1e8e8a497b3dff6d3a043",
+    "equationGroups": 11,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 20,
+    "originalUnchanged": true
+  },
+  {
+    "id": "cheng-2023",
+    "sourceSHA256": "7b8cf2416ee8d64979e58d9fe0cf569d5415d640a87f280ab1c28965c67cc305",
+    "equationGroups": 0,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 6,
+    "originalUnchanged": true
+  },
+  {
+    "id": "cheng-2025",
+    "sourceSHA256": "f21e6a1550fef48f92aee382657a1ac00931c1df1e87e46bfdf40457e56a7162",
+    "equationGroups": 0,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 2,
+    "originalUnchanged": true
+  },
+  {
+    "id": "xu-2024",
+    "sourceSHA256": "5c1568888f1c72eb2e61e30e8a4b1f9c2582c4f11c4ccae064b34a1bb333be4e",
+    "equationGroups": 8,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 24,
+    "originalUnchanged": true
+  },
+  {
+    "id": "xu-data-2024",
+    "sourceSHA256": "962a50daab8d15b0976a0e5119b44f1059cb99848774a30d6e973385a0bc8504",
+    "equationGroups": 2,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 14,
+    "originalUnchanged": true
+  },
+  {
+    "id": "novotny-2024",
+    "sourceSHA256": "3549e6d02b39f329c80d4d2caeb76b584eda198ac413f810fd214cf59b4a0c4b",
+    "equationGroups": 3,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 90,
+    "originalUnchanged": true
+  },
+  {
+    "id": "qu-2025",
+    "sourceSHA256": "7e69eb40dc235c56e72cddc615d123cb8b8679999727d499127a08b0cb2b2769",
+    "equationGroups": 2,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 4,
+    "originalUnchanged": true
+  },
+  {
+    "id": "breure-2024",
+    "sourceSHA256": "766abe34a78ec2fc630ba474fb035879c398600884bd5676bca435b05aed9bc4",
+    "equationGroups": 6,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 19,
+    "originalUnchanged": true
+  },
+  {
+    "id": "toorop-2023",
+    "sourceSHA256": "e4c7cc912b38aaa08b5a262a7592dfd917ae3bd5ca24dc1981928beaef131c36",
+    "equationGroups": 3,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 6,
+    "originalUnchanged": true
+  },
+  {
+    "id": "mixed-2026",
+    "sourceSHA256": "1847ca3bcdced1f671eb5a4c41472b2510921d3aa63d7980e5d9de505c4dc346",
+    "equationGroups": 0,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 32,
+    "originalUnchanged": true
+  },
+  {
+    "id": "verdouw-2021",
+    "sourceSHA256": "6cd910d4ac59ed97e78b6df405d14a08a7265c69e08575f5ab37f013d1f45ca9",
+    "equationGroups": 0,
+    "mathmlTranscriptions": 0,
+    "inlineBlocks": 1,
+    "originalUnchanged": true
+  }
+]
