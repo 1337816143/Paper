@@ -1,0 +1,100 @@
+name: Verify exact separate source equations
+on:
+  push:
+    branches: [study-equation-correction-v3]
+    paths: [.github/workflows/verify-equation-correction.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: study-equation-correction-v3
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          repository: 1337816143/Paper
+          ref: 982b34f5af1b097672e840bc28989bd7f23a6d8d
+          path: reviewed-source
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preserve source text and restore independently numbered formulas
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,shutil
+          layouts_path=Path('resources/study-layouts.json')
+          layouts=json.loads(layouts_path.read_text())
+          reviewed=Path('reviewed-source/resources')
+          r=json.loads((reviewed/'formulas/liang-2022/bfbde3ef50d6/layout.json').read_text())
+          existing=layouts['liang-2022'];assert existing['sourceHash']==r['sourceHash']
+          assert {e['label'] for e in r['equations']}=={str(i) for i in range(1,18)}
+          prior={g['number']:g for g in existing['groups'] if g['number']}
+          groups=[]
+          for e in r['equations']:
+            image=reviewed/e['path'];digest=hashlib.sha256(image.read_bytes()).hexdigest()[:12]
+            rel='library/liang-2022/bfbde3ef50d6/math-v3-'+digest+'.png'
+            target=Path('resources')/rel;shutil.copyfile(image,target)
+            g={'id':prior.get(e['label'],{}).get('id','liang-2022-separate-equation-'+e['label']),'page':e['page'],'number':e['label'],'blocks':e['members'],'bbox':e['bbox'],'path':rel,'method':'independently source-checked equation region; source text and original block IDs preserved','rawEvidence':e['sourceText']}
+            if e.get('mathML'):g['mathml']=e['mathML']
+            groups.append(g)
+          members=[b for g in groups for b in g['blocks']];assert len(members)==len(set(members))
+          assert {g['number'] for g in groups if g.get('mathml')}=={'9','10','11','12'}
+          existing['groups']=groups+[g for g in existing['groups'] if not g['number']]
+          layouts_path.write_text(json.dumps(layouts,ensure_ascii=False,indent=2)+'\n')
+          # Explicit public update record; other ongoing website work is left untouched.
+          log=Path('content/session-log.json');d=json.loads(log.read_text());d.append({'id':'equations-separate-2026-09-28','type':'guide','title':'公式逐式核对：拆开相邻表达式','stage':'格式修复记录','minutes':3,'summary':'梁2022的17个编号公式逐式显示；式9不再被式10合并遮蔽，式14—17也分开显示。','sections':[['修复范围','原件核对','按已确认原件的连续文本块与栏位拆分17个公式。MIDIP、标准化距离、指标范围与HDIP四式各自保留MathML和原式核对图。原英文、段落ID和本机译文、便签不改变。'],['其余功能保留','发布说明','保留主站已经发布的本机离线翻译、21篇研究框架、术语点读与行内上下标，不用另一套阅读器覆盖它们。']],'quiz':[],'related':['liang-2022','ideal-distance']});log.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          PY
+          rm -rf reviewed-source
+      - name: Build and run all published regression suites
+        run: |
+          pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python scripts/test_browser.py
+          python scripts/test_reader.py
+          python scripts/test_study.py
+      - name: Verify MIDIP and normalized distance remain separate visible MathML objects
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from functools import partial
+          from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
+          import threading,json
+          from playwright.sync_api import sync_playwright
+          server=ThreadingHTTPServer(('127.0.0.1',8769),partial(SimpleHTTPRequestHandler,directory='dist/site'));threading.Thread(target=server.serve_forever,daemon=True).start()
+          with sync_playwright() as p:
+            browser=p.chromium.launch();page=browser.new_page()
+            page.goto('http://127.0.0.1:8769/#/original/liang-2022');page.wait_for_selector('.study-equation math')
+            content=page.locator('.study-equation:has(math)').all_text_contents()
+            assert any('MIDIP' in x for x in content)
+            assert any('HDIP' in x for x in content)
+            assert len(content)==4
+            page.locator('.study-equation:has-text("MIDIP")').first.scroll_into_view_if_needed()
+            page.screenshot(path='test-results/equations-independent.png')
+            browser.close()
+          server.shutdown()
+          Path('test-results/equation-fix.json').write_text(json.dumps({'numberedLiangEquations':17,'separateMathML':4,'MIDIPVisibleSeparately':True,'originalBlockIdsPreserved':True},indent=2))
+          PY
+      - name: Commit only validated layout metadata and corresponding source crops
+        run: |
+          git config user.name paper-equation-review
+          git config user.email paper-equation-review@users.noreply.github.com
+          git add resources/study-layouts.json resources/library/liang-2022/bfbde3ef50d6/math-v3-*.png content/session-log.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Keep all 17 Liang expressions separate and preserve visible MIDIP equation'
+            git pull --rebase origin study-equation-correction-v3
+            git push origin HEAD:study-equation-correction-v3
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: separate-equation-verification
+          path: test-results
+          retention-days: 30
