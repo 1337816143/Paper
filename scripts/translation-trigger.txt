@@ -1,0 +1,1 @@
+Retry actual translation with source-safe preservation of symbolic, numeric and identifier-only blocks.
