@@ -28,6 +28,25 @@ with sync_playwright() as p:
   page.goto(BASE+'#/original/liang-2022');page.wait_for_selector('#toggle-chinese');page.wait_for_selector('.study-equation');assert page.locator('.study-equation math').count()>=3
   intact=page.evaluate('''async()=>{const b=await PaperReader.loadBook('liang-2022');return b.pages.flatMap(p=>p.blocks).filter(x=>x.text).every(x=>document.getElementById(x.id)?.textContent===x.text.replace(/\s+/g,' ').trim());}''');assert intact
   checks.append('Original source text and anchors unchanged; display math reconstructed from verified source layout')
+  # Native presentation must cover every expression in a source region, not just the last.
+  assert page.evaluate("""() => {
+    for (const item of Object.values(PAPER_LAYOUTS)) {
+      for (const group of item.groups) {
+        if (!group.mathml) continue;
+        const document = new DOMParser().parseFromString(group.mathml, 'text/html');
+        const numbers = [...document.querySelectorAll('[data-equation-number]')]
+          .map(element => element.getAttribute('data-equation-number'));
+        if (JSON.stringify(group.numbers) !== JSON.stringify(numbers)) return false;
+      }
+    }
+    return true;
+  }""")
+  for equation,label in [('9','MIDIP'),('10','d'),('11','maximum'),('12','HDIP')]:
+   formula=page.locator('.equation-display [data-equation-number="'+equation+'"]');assert formula.count()==1
+   assert label in formula.text_content()
+   assert formula.evaluate("e=>e.getBoundingClientRect().height>0&&!e.closest('details:not([open])')")
+  checks.append('All four Liang ideal-point equations, including adjacent 9 and 10, are visible with source-number coverage')
+
   # Original term spelling remains intact and is selectable.
   ot=page.locator('.original-block [data-study-term="positive-deviance"]').first;ot.click();page.wait_for_selector('#study-term-popover');page.keyboard.press('Escape');assert page.locator('#study-term-popover').count()==0;checks.append('English original terminology works with click-away and Escape')
   page.evaluate('''()=>{const el=[...document.querySelectorAll('.original-block')].find(e=>e.textContent.length>250&&!e.closest('details'));el.scrollIntoView();const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),nodes=[];while(w.nextNode())nodes.push(w.currentNode);const r=document.createRange();r.setStart(nodes[0],0);let n=90;for(const t of nodes){if(n<=t.length){r.setEnd(t,n);break;}n-=t.length;}const s=getSelection();s.removeAllRanges();s.addRange(r);document.dispatchEvent(new Event('selectionchange'));}''');page.wait_for_selector('#selection-tools');page.locator('[data-quick="highlight"]').click();page.wait_for_selector('mark[data-annotation]');quoted=page.locator('mark[data-annotation]').all_text_contents();page.reload();page.wait_for_selector('mark[data-annotation]');assert page.locator('mark[data-annotation]').all_text_contents()==quoted;checks.append('Multi-node selection across terms saves and restores exact original highlights')
