@@ -11,17 +11,16 @@
       "members": [
         "p4-b9-d5a020b",
         "p4-b10-de7d1b7",
-        "p4-b11-3589661",
-        "p4-b32-5af3f24"
+        "p4-b11-3589661"
       ],
-      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-1-89ff39.png",
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-1-5cb633.png",
       "bbox": [
         34.59014892578125,
-        473.286865234375,
-        337.7289733886719,
+        511.12213134765625,
+        296.3431396484375,
         540.6670532226562
       ],
-      "sourceText": "GMtotal =\n∑\ni\nYi × PRi −VCi\n(1)\nD = α ×",
+      "sourceText": "GMtotal =\n∑\ni\nYi × PRi −VCi\n(1)",
       "source": "Original PDF equation region, not OCR or reconstruction",
       "render": "source-crop",
       "proofPage": 4
@@ -30,21 +29,20 @@
       "id": "formula-p4-2",
       "page": 4,
       "label": "2",
-      "first": "p4-b1-4b22777",
+      "first": "p4-b15-374962b",
       "members": [
-        "p4-b1-4b22777",
         "p4-b15-374962b",
         "p4-b16-de7d1b7",
         "p4-b17-72a1d64"
       ],
-      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-2-d0ed0a.png",
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-2-84dc26.png",
       "bbox": [
         34.59046936035156,
         713.0623779296875,
-        302.7976989746094,
-        767.8795776367188
+        296.3431396484375,
+        742.607177734375
       ],
-      "sourceText": "4\nDEYtotal =\n∑\ni\nYi × Ei\n(2)",
+      "sourceText": "DEYtotal =\n∑\ni\nYi × Ei\n(2)",
       "source": "Original PDF equation region, not OCR or reconstruction",
       "render": "source-crop",
       "proofPage": 4
@@ -99,8 +97,9 @@
       "id": "formula-p4-5",
       "page": 4,
       "label": "5",
-      "first": "p4-b33-32ebb1a",
+      "first": "p4-b32-5af3f24",
       "members": [
+        "p4-b32-5af3f24",
         "p4-b33-32ebb1a",
         "p4-b34-16fd171",
         "p4-b35-de7d1b7",
@@ -108,14 +107,14 @@
         "p4-b37-ba5ec51",
         "p4-b38-97ce612"
       ],
-      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-5-5c7837.png",
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-5-866e8e.png",
       "bbox": [
-        333.0185546875,
+        303.5975036621094,
         459.7579345703125,
         565.3485107421875,
         495.3131103515625
       ],
-      "sourceText": "(\nP +\n∑\ni\nIRi\n)\n(5)",
+      "sourceText": "D = α ×\n(\nP +\n∑\ni\nIRi\n)\n(5)",
       "source": "Original PDF equation region, not OCR or reconstruction",
       "render": "source-crop",
       "proofPage": 4
@@ -128,16 +127,17 @@
       "members": [
         "p4-b41-19cf79b",
         "p4-b42-de7d1b7",
+        "p4-b43-f636d15",
         "p4-b44-4826d47"
       ],
-      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-6-66aa0a.png",
+      "path": "formulas/liang-2022/bfbde3ef50d6/p4-eq-6-dc129f.png",
       "bbox": [
         303.59539794921875,
         595.1981811523438,
         565.3493041992188,
         624.7421264648438
       ],
-      "sourceText": "NLtotal =\n∑\ni\n)\n(6)",
+      "sourceText": "NLtotal =\n∑\ni\n(\nNLNH3,i + NLNO3,i + NLN2O,i\n)\n(6)",
       "source": "Original PDF equation region, not OCR or reconstruction",
       "render": "source-crop",
       "proofPage": 4
@@ -353,17 +353,16 @@
       "label": "16",
       "first": "p6-b17-917efa8",
       "members": [
-        "p6-b17-917efa8",
-        "p6-b21-8a5edab"
+        "p6-b17-917efa8"
       ],
-      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-16-0cd94c.png",
+      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-16-e84126.png",
       "bbox": [
         34.5892333984375,
         416.1227722167969,
         296.3513488769531,
-        447.1960144042969
+        435.15386962890625
       ],
-      "sourceText": "CF = GHGnet/DEYtotal\n(16)\n/",
+      "sourceText": "CF = GHGnet/DEYtotal\n(16)",
       "source": "Original PDF equation region, not OCR or reconstruction",
       "render": "source-crop",
       "proofPage": 6
@@ -377,16 +376,17 @@
         "p6-b18-d055c42",
         "p6-b19-de7d1b7",
         "p6-b20-5904d87",
+        "p6-b21-8a5edab",
         "p6-b22-6de649b"
       ],
-      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-17-a6b2be.png",
+      "path": "formulas/liang-2022/bfbde3ef50d6/p6-eq-17-229658.png",
       "bbox": [
         34.5892333984375,
-        439.2344665527344,
+        433.2259216308594,
         294.0160827636719,
         468.7801208496094
       ],
-      "sourceText": "BWF =\n∑\ni\nIRi\nDEYtotal\n(17)",
+      "sourceText": "BWF =\n∑\ni\nIRi\n/\nDEYtotal\n(17)",
       "source": "Original PDF equation region, not OCR or reconstruction",
       "render": "source-crop",
       "proofPage": 6
@@ -396,8 +396,6 @@
     "p4-b9-d5a020b": "formula-p4-1",
     "p4-b10-de7d1b7": "formula-p4-1",
     "p4-b11-3589661": "formula-p4-1",
-    "p4-b32-5af3f24": "formula-p4-1",
-    "p4-b1-4b22777": "formula-p4-2",
     "p4-b15-374962b": "formula-p4-2",
     "p4-b16-de7d1b7": "formula-p4-2",
     "p4-b17-72a1d64": "formula-p4-2",
@@ -409,6 +407,7 @@
     "p4-b28-c96490b": "formula-p4-4",
     "p4-b29-de7d1b7": "formula-p4-4",
     "p4-b30-76fda88": "formula-p4-4",
+    "p4-b32-5af3f24": "formula-p4-5",
     "p4-b33-32ebb1a": "formula-p4-5",
     "p4-b34-16fd171": "formula-p4-5",
     "p4-b35-de7d1b7": "formula-p4-5",
@@ -417,6 +416,7 @@
     "p4-b38-97ce612": "formula-p4-5",
     "p4-b41-19cf79b": "formula-p4-6",
     "p4-b42-de7d1b7": "formula-p4-6",
+    "p4-b43-f636d15": "formula-p4-6",
     "p4-b44-4826d47": "formula-p4-6",
     "p5-b3-84652dd": "formula-p5-7",
     "p5-b6-c31afa1": "formula-p5-8",
@@ -441,10 +441,10 @@
     "p6-b15-c4fce6e": "formula-p6-14",
     "p6-b16-6c94304": "formula-p6-15",
     "p6-b17-917efa8": "formula-p6-16",
-    "p6-b21-8a5edab": "formula-p6-16",
     "p6-b18-d055c42": "formula-p6-17",
     "p6-b19-de7d1b7": "formula-p6-17",
     "p6-b20-5904d87": "formula-p6-17",
+    "p6-b21-8a5edab": "formula-p6-17",
     "p6-b22-6de649b": "formula-p6-17"
   },
   "classification": {
@@ -512,5 +512,5 @@
     "p13-b12-188a992",
     "p13-b18-69824d3"
   ],
-  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+  "policy": "Display overlay only. Source PDFs and all original text IDs unchanged."
 }

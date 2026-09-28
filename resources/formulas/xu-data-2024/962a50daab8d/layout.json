@@ -54,5 +54,5 @@
     "p16-b5-4be0f86",
     "p16-b9-69824d3"
   ],
-  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+  "policy": "Display overlay only. Source PDFs and all original text IDs unchanged."
 }

@@ -34,5 +34,5 @@
     "p15-b6-69824d3",
     "p16-b1-3e21031"
   ],
-  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+  "policy": "Display overlay only. Source PDFs and all original text IDs unchanged."
 }

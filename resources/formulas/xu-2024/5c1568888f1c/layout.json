@@ -69,6 +69,27 @@
       "proofPage": 5
     },
     {
+      "id": "formula-p5-4",
+      "page": 5,
+      "label": "4",
+      "first": "p5-b7-967ae5c",
+      "members": [
+        "p5-b7-967ae5c",
+        "p5-b8-a89460e"
+      ],
+      "path": "formulas/xu-2024/5c1568888f1c/p5-eq-4-6a5c62.png",
+      "bbox": [
+        34.58927917480469,
+        500.0469970703125,
+        296.3420715332031,
+        526.1119384765625
+      ],
+      "sourceText": "Irrigation = Costirrigation × Qpump × η\nPriceelectricity × Ppump × 10 × NI\n(4)",
+      "source": "Original PDF equation region, not OCR or reconstruction",
+      "render": "source-crop",
+      "proofPage": 5
+    },
+    {
       "id": "formula-p5-5",
       "page": 5,
       "label": "5",
@@ -118,6 +139,8 @@
     "p4-b17-1bbf53a": "formula-p4-2",
     "p5-b3-f3d7f18": "formula-p5-3",
     "p5-b4-46f789d": "formula-p5-3",
+    "p5-b7-967ae5c": "formula-p5-4",
+    "p5-b8-a89460e": "formula-p5-4",
     "p5-b12-f48fde2": "formula-p5-5",
     "p5-b15-39be352": "formula-p5-6"
   },
@@ -180,5 +203,5 @@
     "p13-b4-c9015d5",
     "p13-b8-69824d3"
   ],
-  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+  "policy": "Display overlay only. Source PDFs and all original text IDs unchanged."
 }

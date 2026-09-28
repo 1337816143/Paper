@@ -24,20 +24,18 @@
           "blocks": [
             "p4-b9-d5a020b",
             "p4-b10-de7d1b7",
-            "p4-b11-3589661",
-            "p4-b32-5af3f24"
+            "p4-b11-3589661"
           ],
-          "text": "GMtotal =\n∑\ni\nYi × PRi −VCi\n(1)\nD = α ×"
+          "text": "GMtotal =\n∑\ni\nYi × PRi −VCi\n(1)"
         },
         {
           "label": "2",
           "blocks": [
-            "p4-b1-4b22777",
             "p4-b15-374962b",
             "p4-b16-de7d1b7",
             "p4-b17-72a1d64"
           ],
-          "text": "4\nDEYtotal =\n∑\ni\nYi × Ei\n(2)"
+          "text": "DEYtotal =\n∑\ni\nYi × Ei\n(2)"
         },
         {
           "label": "3",
@@ -62,6 +60,7 @@
         {
           "label": "5",
           "blocks": [
+            "p4-b32-5af3f24",
             "p4-b33-32ebb1a",
             "p4-b34-16fd171",
             "p4-b35-de7d1b7",
@@ -69,16 +68,17 @@
             "p4-b37-ba5ec51",
             "p4-b38-97ce612"
           ],
-          "text": "(\nP +\n∑\ni\nIRi\n)\n(5)"
+          "text": "D = α ×\n(\nP +\n∑\ni\nIRi\n)\n(5)"
         },
         {
           "label": "6",
           "blocks": [
             "p4-b41-19cf79b",
             "p4-b42-de7d1b7",
+            "p4-b43-f636d15",
             "p4-b44-4826d47"
           ],
-          "text": "NLtotal =\n∑\ni\n)\n(6)"
+          "text": "NLtotal =\n∑\ni\n(\nNLNH3,i + NLNO3,i + NLN2O,i\n)\n(6)"
         }
       ]
     },
@@ -171,10 +171,9 @@
         {
           "label": "16",
           "blocks": [
-            "p6-b17-917efa8",
-            "p6-b21-8a5edab"
+            "p6-b17-917efa8"
           ],
-          "text": "CF = GHGnet/DEYtotal\n(16)\n/"
+          "text": "CF = GHGnet/DEYtotal\n(16)"
         },
         {
           "label": "17",
@@ -182,9 +181,10 @@
             "p6-b18-d055c42",
             "p6-b19-de7d1b7",
             "p6-b20-5904d87",
+            "p6-b21-8a5edab",
             "p6-b22-6de649b"
           ],
-          "text": "BWF =\n∑\ni\nIRi\nDEYtotal\n(17)"
+          "text": "BWF =\n∑\ni\nIRi\n/\nDEYtotal\n(17)"
         }
       ]
     },
@@ -326,18 +326,20 @@
           "blocks": [
             "p5-b39-669371e",
             "p5-b40-de7d1b7",
+            "p5-b41-91bdd17",
             "p5-b42-a379df4"
           ],
-          "text": "EUP =\n∑n\ni\n)/\nRL\n(8)"
+          "text": "EUP =\n∑n\ni\n(\nEUPpre,i + EUPon,i\n)/\nRL\n(8)"
         },
         {
           "label": "9",
           "blocks": [
             "p5-b45-5cc5d11",
             "p5-b46-de7d1b7",
+            "p5-b47-d39402a",
             "p5-b48-5ef3a3b"
           ],
-          "text": "GHGnet =\n∑n\ni\n)/\nRL\n(9)"
+          "text": "GHGnet =\n∑n\ni\n(\nGHGpre,i + GHGon,i −QSOC\n)/\nRL\n(9)"
         }
       ]
     },
@@ -587,6 +589,14 @@
             "p5-b4-46f789d"
           ],
           "text": "Xi,corrected =\nXi\nMCIf,i\n(3)"
+        },
+        {
+          "label": "4",
+          "blocks": [
+            "p5-b7-967ae5c",
+            "p5-b8-a89460e"
+          ],
+          "text": "Irrigation = Costirrigation × Qpump × η\nPriceelectricity × Ppump × 10 × NI\n(4)"
         },
         {
           "label": "5",
@@ -1170,5 +1180,5 @@
       "equations": []
     }
   ],
-  "total": 33
+  "total": 34
 }

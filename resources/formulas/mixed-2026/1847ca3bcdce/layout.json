@@ -29,5 +29,5 @@
     "p9-b3-b27fedd": "running-metadata"
   },
   "sectionHeadingIds": [],
-  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+  "policy": "Display overlay only. Source PDFs and all original text IDs unchanged."
 }

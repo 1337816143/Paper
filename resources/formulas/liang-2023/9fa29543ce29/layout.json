@@ -166,16 +166,17 @@
       "members": [
         "p5-b39-669371e",
         "p5-b40-de7d1b7",
+        "p5-b41-91bdd17",
         "p5-b42-a379df4"
       ],
-      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-8-7ab37e.png",
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-8-74f2d1.png",
       "bbox": [
         315.50189208984375,
         419.6756286621094,
         565.3495483398438,
         444.68603515625
       ],
-      "sourceText": "EUP =\n∑n\ni\n)/\nRL\n(8)",
+      "sourceText": "EUP =\n∑n\ni\n(\nEUPpre,i + EUPon,i\n)/\nRL\n(8)",
       "source": "Original PDF equation region, not OCR or reconstruction",
       "render": "source-crop",
       "proofPage": 5
@@ -188,16 +189,17 @@
       "members": [
         "p5-b45-5cc5d11",
         "p5-b46-de7d1b7",
+        "p5-b47-d39402a",
         "p5-b48-5ef3a3b"
       ],
-      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-9-f21813.png",
+      "path": "formulas/liang-2023/9fa29543ce29/p5-eq-9-7161d6.png",
       "bbox": [
         315.5023193359375,
         543.1541748046875,
         565.34912109375,
         568.1629638671875
       ],
-      "sourceText": "GHGnet =\n∑n\ni\n)/\nRL\n(9)",
+      "sourceText": "GHGnet =\n∑n\ni\n(\nGHGpre,i + GHGon,i −QSOC\n)/\nRL\n(9)",
       "source": "Original PDF equation region, not OCR or reconstruction",
       "render": "source-crop",
       "proofPage": 5
@@ -268,9 +270,11 @@
     "p5-b36-041a905": "formula-p5-7",
     "p5-b39-669371e": "formula-p5-8",
     "p5-b40-de7d1b7": "formula-p5-8",
+    "p5-b41-91bdd17": "formula-p5-8",
     "p5-b42-a379df4": "formula-p5-8",
     "p5-b45-5cc5d11": "formula-p5-9",
     "p5-b46-de7d1b7": "formula-p5-9",
+    "p5-b47-d39402a": "formula-p5-9",
     "p5-b48-5ef3a3b": "formula-p5-9",
     "p6-b3-940736b": "formula-p6-10",
     "p7-b3-6516095": "formula-p7-11"
@@ -333,5 +337,5 @@
     "p11-b8-cf68c09",
     "p12-b7-69824d3"
   ],
-  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+  "policy": "Display overlay only. Source PDFs and all original text IDs unchanged."
 }

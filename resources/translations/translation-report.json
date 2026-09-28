@@ -12,8 +12,8 @@
       "totalTextBlocks": 224,
       "untranslatedTextBlocks": 0,
       "symbolsRetainedBlocks": 52,
-      "manuallyReviewedBlocks": 3,
-      "machineDraftBlocks": 169,
+      "manuallyReviewedBlocks": 12,
+      "machineDraftBlocks": 160,
       "separatelyTranslatedSentences": 844,
       "allNumericClaimsManuallyVerified": false
     },
@@ -102,5 +102,6 @@
       "allNumericClaimsManuallyVerified": false
     }
   ],
-  "note": "Sentence segmentation prevents omitted source sentences in generation, but machine translation can still contain semantic errors."
+  "note": "Sentence segmentation prevents omitted source sentences in generation, but machine translation can still contain semantic errors.",
+  "sourceReviewedParagraphs": 9
 }

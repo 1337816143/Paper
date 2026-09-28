@@ -46,5 +46,5 @@
     "p7-b18-958e640",
     "p10-b3-8830e1f"
   ],
-  "policy": "Display overlay only. Exact source file and original text blocks unchanged; prior annotation anchors retained."
+  "policy": "Display overlay only. Source PDFs and all original text IDs unchanged."
 }
