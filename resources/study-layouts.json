@@ -6,6 +6,9 @@
         "id": "liang-2022-e5e537cbf9e1",
         "page": 4,
         "number": "1",
+        "numbers": [
+          "1"
+        ],
         "blocks": [
           "p4-b9-d5a020b",
           "p4-b10-de7d1b7",
@@ -25,6 +28,9 @@
         "id": "liang-2022-b0894af981c3",
         "page": 4,
         "number": "2",
+        "numbers": [
+          "2"
+        ],
         "blocks": [
           "p4-b15-374962b",
           "p4-b16-de7d1b7",
@@ -44,6 +50,9 @@
         "id": "liang-2022-edca96a26d4c",
         "page": 4,
         "number": "3",
+        "numbers": [
+          "3"
+        ],
         "blocks": [
           "p4-b20-70e0261",
           "p4-b21-de7d1b7",
@@ -65,6 +74,9 @@
         "id": "liang-2022-e4f48c575ce0",
         "page": 4,
         "number": "4",
+        "numbers": [
+          "4"
+        ],
         "blocks": [
           "p4-b28-c96490b",
           "p4-b29-de7d1b7",
@@ -84,6 +96,9 @@
         "id": "liang-2022-ef403a3780d1",
         "page": 4,
         "number": "5",
+        "numbers": [
+          "5"
+        ],
         "blocks": [
           "p4-b32-5af3f24",
           "p4-b33-32ebb1a",
@@ -107,6 +122,9 @@
         "id": "liang-2022-0a4fc02ffbab",
         "page": 4,
         "number": "6",
+        "numbers": [
+          "6"
+        ],
         "blocks": [
           "p4-b41-19cf79b",
           "p4-b42-de7d1b7",
@@ -127,6 +145,9 @@
         "id": "liang-2022-bdb5d6d25805",
         "page": 5,
         "number": "7",
+        "numbers": [
+          "7"
+        ],
         "blocks": [
           "p5-b3-84652dd"
         ],
@@ -144,6 +165,9 @@
         "id": "liang-2022-e0bc0e6b5ce7",
         "page": 5,
         "number": "8",
+        "numbers": [
+          "8"
+        ],
         "blocks": [
           "p5-b6-c31afa1"
         ],
@@ -160,7 +184,11 @@
       {
         "id": "liang-2022-49821bf5da5e",
         "page": 5,
-        "number": "10",
+        "number": "",
+        "numbers": [
+          "9",
+          "10"
+        ],
         "blocks": [
           "p5-b12-b73a8c6",
           "p5-b13-d782dcd",
@@ -179,14 +207,21 @@
           654.068115234375
         ],
         "path": "library/liang-2022/bfbde3ef50d6/math-v3-49821bf5da5e.png",
-        "method": "source-linked MathML transcription; original crop retained",
+        "method": "all numbered expressions transcribed; complete source crop retained",
         "rawEvidence": "MIDIPc = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n k=1 dk,c 2 √ (9) dk,c = ⃒⃒⃒⃒ pk,c −qk mdk ⃒⃒⃒⃒ (10)",
-        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>=</mo><mo>|</mo><mfrac><mrow><msub><mi>p</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mi>q</mi><mi>k</mi></msub></mrow><msub><mi>md</mi><mi>k</mi></msub></mfrac><mo>|</mo></math>"
+        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtable columnalign=\"left right\" columnspacing=\"1em\" rowspacing=\"1em\"><mtr data-equation-number=\"9\"><mtd><mrow><msub><mi>MIDIP</mi><mi>c</mi></msub><mo>=</mo><msqrt><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mn>2</mn></msup></mrow></msqrt></mrow></mtd><mtd><mtext>(9)</mtext></mtd></mtr><mtr data-equation-number=\"10\"><mtd><mrow><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>=</mo><mo>|</mo><mfrac><mrow><msub><mi>p</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mi>q</mi><mi>k</mi></msub></mrow><msub><mi>md</mi><mi>k</mi></msub></mfrac><mo>|</mo></mrow></mtd><mtd><mtext>(10)</mtext></mtd></mtr></mtable></math>",
+        "transcribedNumbers": [
+          "9",
+          "10"
+        ]
       },
       {
         "id": "liang-2022-585dfc7d97f5",
         "page": 5,
         "number": "11",
+        "numbers": [
+          "11"
+        ],
         "blocks": [
           "p5-b21-f6a9eac"
         ],
@@ -197,14 +232,20 @@
           674.8109130859375
         ],
         "path": "library/liang-2022/bfbde3ef50d6/math-v3-585dfc7d97f5.png",
-        "method": "source-linked MathML transcription; original crop retained",
+        "method": "all numbered expressions transcribed; complete source crop retained",
         "rawEvidence": "mdk = maximumk −minimumk (11)",
-        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>md</mi><mi>k</mi></msub><mo>=</mo><msub><mi>maximum</mi><mi>k</mi></msub><mo>−</mo><msub><mi>minimum</mi><mi>k</mi></msub></math>"
+        "mathml": "<math data-equation-number=\"11\" xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>md</mi><mi>k</mi></msub><mo>=</mo><msub><mi>maximum</mi><mi>k</mi></msub><mo>−</mo><msub><mi>minimum</mi><mi>k</mi></msub></math>",
+        "transcribedNumbers": [
+          "11"
+        ]
       },
       {
         "id": "liang-2022-b9efd2ac21d2",
         "page": 6,
         "number": "12",
+        "numbers": [
+          "12"
+        ],
         "blocks": [
           "p6-b3-e4fdddc",
           "p6-b4-e05812e",
@@ -221,14 +262,20 @@
           123.81946563720703
         ],
         "path": "library/liang-2022/bfbde3ef50d6/math-v3-b9efd2ac21d2.png",
-        "method": "source-linked MathML transcription; original crop retained",
+        "method": "all numbered expressions transcribed; complete source crop retained",
         "rawEvidence": "HDIPc = ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ n k=1 ( dk,c −dc )2 n −1 √ √ √ √ (12)",
-        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>HDIP</mi><mi>c</mi></msub><mo>=</mo><msqrt><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mrow><mo>(</mo><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mover><mi>d</mi><mo>¯</mo></mover><mi>c</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac></msqrt></math>"
+        "mathml": "<math data-equation-number=\"12\" xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>HDIP</mi><mi>c</mi></msub><mo>=</mo><msqrt><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msup><mrow><mo>(</mo><msub><mi>d</mi><mrow><mi>k</mi><mo>,</mo><mi>c</mi></mrow></msub><mo>−</mo><msub><mover><mi>d</mi><mo>¯</mo></mover><mi>c</mi></msub><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac></msqrt></math>",
+        "transcribedNumbers": [
+          "12"
+        ]
       },
       {
         "id": "liang-2022-55bda7df841c",
         "page": 6,
         "number": "13",
+        "numbers": [
+          "13"
+        ],
         "blocks": [
           "p6-b13-66a3b9c"
         ],
@@ -245,7 +292,13 @@
       {
         "id": "liang-2022-d7ee6e2c88a8",
         "page": 6,
-        "number": "17",
+        "number": "14–15–16–17",
+        "numbers": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
         "blocks": [
           "p6-b15-c4fce6e",
           "p6-b16-6c94304",
@@ -270,6 +323,7 @@
         "id": "liang-2022-86c3737ddae0",
         "page": 7,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p7-b12-89c08c3"
         ],
@@ -287,6 +341,7 @@
         "id": "liang-2022-919bf9ed4b52",
         "page": 11,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p11-b9-1cb6f64"
         ],
@@ -898,6 +953,9 @@
         "id": "liang-2023-ee96f4555e1a",
         "page": 5,
         "number": "1",
+        "numbers": [
+          "1"
+        ],
         "blocks": [
           "p5-b3-6c1ce87",
           "p5-b4-305b1ae",
@@ -919,6 +977,9 @@
         "id": "liang-2023-5ae7c747ed7e",
         "page": 5,
         "number": "2",
+        "numbers": [
+          "2"
+        ],
         "blocks": [
           "p5-b8-8baf68a",
           "p5-b9-2da6ca2",
@@ -938,6 +999,9 @@
         "id": "liang-2023-4631a87a5c40",
         "page": 5,
         "number": "3",
+        "numbers": [
+          "3"
+        ],
         "blocks": [
           "p5-b14-73ace46"
         ],
@@ -955,6 +1019,9 @@
         "id": "liang-2023-e2399620d59e",
         "page": 5,
         "number": "4",
+        "numbers": [
+          "4"
+        ],
         "blocks": [
           "p5-b16-cab94af",
           "p5-b17-7b34f2b",
@@ -974,6 +1041,9 @@
         "id": "liang-2023-e6410776af1a",
         "page": 5,
         "number": "5",
+        "numbers": [
+          "5"
+        ],
         "blocks": [
           "p5-b22-6460382",
           "p5-b23-520237a",
@@ -994,6 +1064,9 @@
         "id": "liang-2023-b9dd446065f2",
         "page": 5,
         "number": "6",
+        "numbers": [
+          "6"
+        ],
         "blocks": [
           "p5-b29-82d1849",
           "p5-b30-209a9e9",
@@ -1014,6 +1087,9 @@
         "id": "liang-2023-274d0b60f6fb",
         "page": 5,
         "number": "7",
+        "numbers": [
+          "7"
+        ],
         "blocks": [
           "p5-b34-2e0eab4",
           "p5-b35-4062abd",
@@ -1033,6 +1109,9 @@
         "id": "liang-2023-dc8a4c17939d",
         "page": 5,
         "number": "8",
+        "numbers": [
+          "8"
+        ],
         "blocks": [
           "p5-b39-669371e",
           "p5-b40-de7d1b7",
@@ -1053,6 +1132,9 @@
         "id": "liang-2023-2da1505950d2",
         "page": 5,
         "number": "9",
+        "numbers": [
+          "9"
+        ],
         "blocks": [
           "p5-b45-5cc5d11",
           "p5-b46-de7d1b7",
@@ -1073,6 +1155,9 @@
         "id": "liang-2023-d5557fa47b5c",
         "page": 6,
         "number": "10",
+        "numbers": [
+          "10"
+        ],
         "blocks": [
           "p6-b3-940736b"
         ],
@@ -1090,6 +1175,9 @@
         "id": "liang-2023-e5010ac807e2",
         "page": 7,
         "number": "11",
+        "numbers": [
+          "11"
+        ],
         "blocks": [
           "p7-b3-6516095"
         ],
@@ -2025,6 +2113,9 @@
         "id": "xu-2024-b634c0135170",
         "page": 4,
         "number": "1",
+        "numbers": [
+          "1"
+        ],
         "blocks": [
           "p4-b9-b759dbb",
           "p4-b10-189f400",
@@ -2045,6 +2136,9 @@
         "id": "xu-2024-efa809bb9f19",
         "page": 4,
         "number": "2",
+        "numbers": [
+          "2"
+        ],
         "blocks": [
           "p4-b16-b759dbb",
           "p4-b17-1bbf53a"
@@ -2063,6 +2157,9 @@
         "id": "xu-2024-5139f618612b",
         "page": 5,
         "number": "3",
+        "numbers": [
+          "3"
+        ],
         "blocks": [
           "p5-b3-f3d7f18",
           "p5-b4-46f789d"
@@ -2081,6 +2178,9 @@
         "id": "xu-2024-680afb27c60f",
         "page": 5,
         "number": "4",
+        "numbers": [
+          "4"
+        ],
         "blocks": [
           "p5-b7-967ae5c",
           "p5-b8-a89460e"
@@ -2099,6 +2199,9 @@
         "id": "xu-2024-e49232ea057b",
         "page": 5,
         "number": "5",
+        "numbers": [
+          "5"
+        ],
         "blocks": [
           "p5-b12-f48fde2"
         ],
@@ -2116,6 +2219,9 @@
         "id": "xu-2024-8b28caa972ab",
         "page": 5,
         "number": "6",
+        "numbers": [
+          "6"
+        ],
         "blocks": [
           "p5-b15-39be352"
         ],
@@ -2133,6 +2239,7 @@
         "id": "xu-2024-b3b4310d8b79",
         "page": 6,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p6-b5-e9739a3",
           "p6-b6-1d2f668"
@@ -2151,6 +2258,7 @@
         "id": "xu-2024-0ec9e552388e",
         "page": 6,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p6-b14-29be173"
         ],
@@ -3076,6 +3184,7 @@
         "id": "xu-data-2024-8d1a00b61bdd",
         "page": 8,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p8-b14-511f0c8"
         ],
@@ -3093,6 +3202,7 @@
         "id": "xu-data-2024-907a516c80fc",
         "page": 8,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p8-b15-518c524"
         ],
@@ -3410,6 +3520,7 @@
         "id": "novotny-2024-18fd83fa441f",
         "page": 4,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p4-b3-8b8be7e",
           "p4-b4-3ae1783",
@@ -3429,6 +3540,7 @@
         "id": "novotny-2024-2f8538bc8d69",
         "page": 4,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p4-b7-7ef5f42",
           "p4-b8-6ef413a"
@@ -3447,6 +3559,7 @@
         "id": "novotny-2024-95eba54f78ce",
         "page": 7,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p7-b3-cde5b3c",
           "p7-b4-5187d6d",
@@ -5094,6 +5207,7 @@
         "id": "qu-2025-e5b41ed43620",
         "page": 4,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p4-b1-f10aded",
           "p4-b2-791a7b3",
@@ -5114,6 +5228,7 @@
         "id": "qu-2025-0113faad9327",
         "page": 4,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p4-b6-7721232",
           "p4-b7-791a7b3",
@@ -5258,6 +5373,7 @@
         "id": "breure-2024-afcc8b374e55",
         "page": 5,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p5-b6-9e017d8",
           "p5-b7-fccbc8e",
@@ -5280,6 +5396,7 @@
         "id": "breure-2024-af490ddcded5",
         "page": 5,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p5-b12-1eb5609",
           "p5-b13-6279a7a",
@@ -5301,6 +5418,7 @@
         "id": "breure-2024-8f6b0a9f448c",
         "page": 7,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p7-b11-318c828"
         ],
@@ -5318,6 +5436,7 @@
         "id": "breure-2024-cf00dc73cb40",
         "page": 7,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p7-b19-c0ba089"
         ],
@@ -5335,6 +5454,7 @@
         "id": "breure-2024-07c8569a6799",
         "page": 7,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p7-b57-cd67fc2",
           "p7-b58-dcbf28c"
@@ -5353,6 +5473,7 @@
         "id": "breure-2024-2a7390dda62c",
         "page": 10,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p10-b4-b86a26c"
         ],
@@ -6118,6 +6239,7 @@
         "id": "toorop-2023-b3a6169b1991",
         "page": 8,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p8-b2-a82e164"
         ],
@@ -6135,6 +6257,7 @@
         "id": "toorop-2023-5e78aec09dae",
         "page": 8,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p8-b3-a26e938"
         ],
@@ -6152,6 +6275,7 @@
         "id": "toorop-2023-e626ae37d4ad",
         "page": 8,
         "number": "",
+        "numbers": [],
         "blocks": [
           "p8-b4-e5b940a"
         ],
