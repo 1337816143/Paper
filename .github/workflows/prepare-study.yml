@@ -12,7 +12,7 @@ concurrency:
 jobs:
   prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,18 +24,29 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Wait for complete sentence translations on clean branch
+        run: |
+          set -euo pipefail
+          complete=false
+          for i in $(seq 1 60); do
+            git pull --ff-only origin reader-study-v3
+            if python -c "import json; d=json.load(open('resources/translations/translation-report.json')); assert d.get('segmentation')=='sentence-v2'"; then complete=true; break; fi
+            sleep 15
+          done
+          test "$complete" = true
       - name: Install layout and browser validation tools
         run: |
           pip install PyMuPDF==1.26.4 playwright==1.55.0
           python -m playwright install --with-deps chromium
-      - name: Integrate without modifying original PDFs or annotation identities
+      - name: Integrate and source-check without altering original PDFs
         run: |
           python scripts/integrate_study_v3.py
+          python scripts/apply_study_review.py
           python scripts/prepare_study_layout.py
           node --check src/study.js
           node --check src/reader.js
           node --check src/app.js
-          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python scripts/build.py --source-commit="$(git rev-parse HEAD)"
           python examples/pareto_lab.py --test
       - name: Existing tutorial regression suite
         run: python scripts/test_browser.py
@@ -43,13 +54,13 @@ jobs:
         run: python scripts/test_reader.py
       - name: Bilingual framework mathematics terminology and offline checks
         run: python scripts/test_study.py
-      - name: Commit only validated public source changes and formula resources
+      - name: Commit only validated public source and reviewed reading assets
         run: |
           git config user.name paper-study-builder
           git config user.email paper-study-builder@users.noreply.github.com
-          git add src scripts/prepare_study_layout.py scripts/test_reader.py content/session-log.json study/glossary.json resources/formulas
+          git add src scripts/prepare_study_layout.py scripts/test_reader.py content/session-log.json content/papers.json study/glossary.json resources/formulas resources/translations
           if ! git diff --cached --quiet; then
-            git commit -m 'Integrate tested coherent study reader, complete equation regions and paragraph Chinese'
+            git commit -m 'Finalize verified formula regions and source-reviewed paragraph translations'
             git pull --rebase origin reader-study-v3
             git push origin HEAD:reader-study-v3
           fi
