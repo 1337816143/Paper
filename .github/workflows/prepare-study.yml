@@ -1,0 +1,69 @@
+name: Prepare and validate bilingual study reader
+on:
+  push:
+    branches: [reader-study-v3]
+    paths: [.github/workflows/prepare-study.yml, scripts/study-trigger.txt]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: paper-study-integration
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: reader-study-v3
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install layout and browser validation tools
+        run: |
+          pip install PyMuPDF==1.26.4 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Integrate without modifying original PDFs or annotation identities
+        run: |
+          python scripts/integrate_study_v3.py
+          python scripts/prepare_study_layout.py
+          node --check src/study.js
+          node --check src/reader.js
+          node --check src/app.js
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python examples/pareto_lab.py --test
+      - name: Existing tutorial regression suite
+        run: python scripts/test_browser.py
+      - name: Existing original-reader regression suite
+        run: python scripts/test_reader.py
+      - name: Bilingual framework mathematics terminology and offline checks
+        run: python scripts/test_study.py
+      - name: Commit only validated public source changes and formula resources
+        run: |
+          git config user.name paper-study-builder
+          git config user.email paper-study-builder@users.noreply.github.com
+          git add src scripts/prepare_study_layout.py scripts/test_reader.py content/session-log.json study/glossary.json resources/formulas
+          if ! git diff --cached --quiet; then
+            git commit -m 'Integrate tested coherent study reader, complete equation regions and paragraph Chinese'
+            git pull --rebase origin reader-study-v3
+            git push origin HEAD:reader-study-v3
+          fi
+      - name: Summarize source coverage and original formula regions
+        if: always()
+        run: |
+          mkdir -p test-results
+          test ! -f resources/formulas/report.json || cp resources/formulas/report.json test-results/formula-report.json
+          test ! -f resources/translations/translation-report.json || cp resources/translations/translation-report.json test-results/translation-report.json
+          test ! -f dist/site/release.json || cp dist/site/release.json test-results/release.json
+          git rev-parse HEAD > test-results/source-commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paper-study-v3-validation
+          path: test-results
+          retention-days: 30
