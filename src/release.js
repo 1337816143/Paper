@@ -3,7 +3,7 @@
 const $=s=>document.querySelector(s), D=window.PAPER_DATA, meta=D.application||{version:'开发版',date:D.updated,changes:[]};
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const scopeKey='paper-release-v51:'+new URL('.',location.href.split('#')[0]).pathname;
-let registration=null,savePosition=()=>{},lastActivity=Date.now()-16000,checking=false,applying=false,reloading=false,lastCheck=0,cacheBusy=false;
+let registration=null,savePosition=()=>{},lastActivity=Date.now()-16000,checking=false,applying=false,reloading=false,lastCheck=0,cacheBusy=false,needsReload=false;
 let current={status:'current',message:'当前已安装版本',available:null,lastChecked:null},hadController=!!navigator.serviceWorker?.controller;
 function settings(){try{return JSON.parse(localStorage.getItem(scopeKey)||'{}');}catch{return {};}}
 function remember(patch){try{localStorage.setItem(scopeKey,JSON.stringify({...settings(),...patch}));}catch{}}
@@ -11,7 +11,7 @@ function report(patch){current={...current,...patch};const badge=$('#release-bad
 function safeToReload(){
  if(Date.now()-lastActivity<12000)return {ready:false,reason:'等待你暂停操作后自动更新'};
  if(getSelection()?.toString().trim())return {ready:false,reason:'正在选择文字，稍后自动更新'};
- if(document.querySelector('dialog[open],.context-popover,.term-popover,#translation-editor'))return {ready:false,reason:'正在查看或编辑弹窗，稍后自动更新'};
+ if(document.querySelector('dialog[open],.context-popover,.term-popover,#translation-editor,#release-panel'))return {ready:false,reason:'正在查看或编辑弹窗，稍后自动更新'};
  const a=document.activeElement;if(a&&(a.matches('input,textarea,select')||a.isContentEditable))return {ready:false,reason:'正在输入，已保留当前页面'};
  if(window.PaperWorkspace?.isBusy?.())return {ready:false,reason:'正在处理导入或检索，完成后更新'};
  if(window.PaperStudy?.isBusy?.())return {ready:false,reason:'正在处理本机翻译，完成后更新'};
@@ -30,7 +30,7 @@ async function restoreFullCache(){
  ch.port1.onmessage=e=>{if(e.data.type==='DONE'){const x=e.data;finish();remember({lastCacheVersion:x.complete?D.version:settings().lastCacheVersion});if(x.complete)report({message:'已更新；新增离线资源也已补齐'});else report({message:'程序已更新；离线资源尚未齐全，联网后自动重试'});}};
  registration.active.postMessage({type:'CACHE_ALL'},[ch.port2]);
 }
-function reloadSafely(){if(reloading)return;const safe=safeToReload();if(!safe.ready){report({status:'deferred',message:safe.reason});return;}try{savePosition();window.PaperReader?.beforeNavigate();}catch{report({status:'deferred',message:'尚未确认阅读位置保存，暂不刷新'});return;}reloading=true;remember({reloadTarget:current.available?.version||'',returnURL:location.href,returnY:scrollY});location.reload();}
+function reloadSafely(){needsReload=true;if(reloading)return;const safe=safeToReload();if(!safe.ready){report({status:'deferred',message:safe.reason});return;}try{savePosition();window.PaperReader?.beforeNavigate();}catch{report({status:'deferred',message:'尚未确认阅读位置保存，暂不刷新'});return;}reloading=true;remember({reloadTarget:current.available?.version||'',returnURL:location.href,returnY:scrollY});location.reload();}
 async function maybeApply(){
  if(!registration?.waiting||applying||!navigator.onLine)return;
  const safe=safeToReload();if(!safe.ready){report({status:'deferred',message:safe.reason});return;}
@@ -56,7 +56,7 @@ function init(options={}){
  navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!hadController){hadController=true;return;}reloadSafely();});
  navigator.serviceWorker.register('./sw.js',{scope:'./',updateViaCache:'none'}).then(async r=>{registration=r;await navigator.serviceWorker.ready;await inspectCache();restoreFullCache();check(true);r.addEventListener('updatefound',()=>{const w=r.installing;w?.addEventListener('statechange',()=>{if(w.state==='installed'&&r.waiting){report({status:'available',message:'新版本已准备，暂停操作后自动更新'});maybeApply();}});});}).catch(()=>report({status:'offline',message:'离线更新服务暂不可用；不影响已有笔记'}));
  addEventListener('online',()=>{check(true);restoreFullCache();});document.addEventListener('visibilitychange',()=>{if(!document.hidden){check();maybeApply();}});
- setInterval(()=>{if(!document.hidden){check();maybeApply();}},15000);setInterval(()=>restoreFullCache(),180000);
+ setInterval(()=>{if(!document.hidden){check();if(needsReload)reloadSafely();else maybeApply();}},15000);setInterval(()=>restoreFullCache(),180000);
 }
 window.PaperRelease={init,check,maybeApply,safeToReload,state:()=>({...current,appVersion:meta.version,buildVersion:D.version}),version:meta.version};
 })();

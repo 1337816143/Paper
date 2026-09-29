@@ -12,6 +12,8 @@ class Quiet(SimpleHTTPRequestHandler):
  def end_headers(self):
   self.send_header('Cache-Control','no-store');super().end_headers()
 def check(name,condition):
+ if not condition:
+  (OUT/'release51-failure.json').write_text(json.dumps({'failed':name,'completed':checks,'testData':'synthetic-only'},indent=2))
  assert condition,name
  checks.append(name)
 with tempfile.TemporaryDirectory() as temp:
