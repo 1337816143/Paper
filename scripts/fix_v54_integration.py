@@ -15,7 +15,10 @@ p=R/'scripts/test_personal_v54.py';t=p.read_text();old='def confirmed(page):page
 '''
 if 'personal-v54-failure.json' not in t:assert old in t;t=t.replace(old,new,1)
 t=t.replace("PaperReader.get('annotations','v54-note')", "PaperReader.all('annotations').then(a=>a.find(n=>n.id==='v54-note'))")
-# Target the enclosing section control, not its nested note controls.
 t=t.replace(".last.locator('summary').click()", ".last.locator(':scope > summary').click()")
 p.write_text(t)
-print('Registered static ledgers and tested actual reader/note APIs with exact nested controls.')
+# The public URL has no automatic identity. A user-held encrypted entry is a
+# separate capability, not a managed login or a completed personal provisioning.
+p=R/'scripts/build_reader.py';t=p.read_text();old="r['researchStudio']['automaticSignIn']='private-capability-entry'";new="r['researchStudio']['automaticSignIn']=False; r['researchStudio']['privateEntryMode']='user-held-capability'; r['personalEntry']['provisionedByPublicBuild']=False; r['personalEntry']['actualUserPATValidated']=False; r['sync']['encryptedPrivateEntryStorage']='IndexedDB ciphertext with non-extractable CryptoKey; never in public assets or backups'"
+if new not in t:assert old in t;t=t.replace(old,new,1);p.write_text(t)
+print('Registered static ledgers, exact note controls and truthful private-entry versus public-identity metadata.')
