@@ -1,0 +1,48 @@
+name: Inspect reader sources and public fulltext routes
+on:
+  push:
+    branches: [reader-reliability-v41]
+    paths: [.github/workflows/inspect-reader-v41.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inspect metadata only; no institutional credentials or private text
+        run: |
+          python - <<'PY'
+          import json,pathlib,urllib.request,urllib.parse,time
+          cat=json.load(open('resources/catalog.json'))
+          study=json.load(open('resources/study-v3.json'))
+          print('SOURCE_COMMIT',__import__('subprocess').check_output(['git','rev-parse','HEAD'],text=True).strip())
+          print('TERMS',json.dumps([{'id':t['id'],'en':t['en'],'aliases':t.get('aliases'),'definition':t['definition'],'explanationLength':len(t.get('explanation','')),'example':t.get('example','')} for t in study['terms']],ensure_ascii=False))
+          print('FILES',json.dumps([str(p) for p in pathlib.Path('scripts').glob('*workspace*')]))
+          print('GUIDES',json.dumps([d['id'] for d in json.load(open('content/navigation.json'))]))
+          results=[]
+          for r in cat['records']:
+            if r.get('bookPath'):continue
+            x={k:r[k] for k in ('id','title','sourceURL','candidateURL','downloadURL','metadataURL','status','accessNote') if k in r}
+            if r.get('sourceURL','').startswith('https://doi.org/'):
+              try:
+                url='https://api.openalex.org/works/'+urllib.parse.quote(r['sourceURL'],safe='')
+                req=urllib.request.Request(url,headers={'User-Agent':'Paper-Lab-Public-Source-Audit/4.1'})
+                with urllib.request.urlopen(req,timeout=20) as q:a=json.load(q)
+                x['oa']=a.get('open_access');x['locations']=[{'pdf':l.get('pdf_url'),'landing':l.get('landing_page_url'),'license':l.get('license'),'oa':l.get('is_oa')} for l in a.get('locations',[])]
+              except Exception as e:x['lookupError']=str(e)[:180]
+              time.sleep(.5)
+            results.append(x)
+          print('MISSING_SOURCES',json.dumps(results,ensure_ascii=False))
+          pathlib.Path('reader-v41-audit.json').write_text(json.dumps({'missing':results,'termCount':len(study['terms'])},ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reader-v41-source-audit
+          path: reader-v41-audit.json
+          retention-days: 7
