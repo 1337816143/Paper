@@ -13,6 +13,7 @@ function safeToReload(){
  if(getSelection()?.toString().trim())return {ready:false,reason:'正在选择文字，稍后自动更新'};
  if(document.querySelector('dialog[open],.context-popover,.term-popover,#translation-editor,#release-panel'))return {ready:false,reason:'正在查看或编辑弹窗，稍后自动更新'};
  const a=document.activeElement;if(a&&(a.matches('input,textarea,select')||a.isContentEditable))return {ready:false,reason:'正在输入，已保留当前页面'};
+ if(window.PaperResearch?.hasUnsaved?.())return {ready:false,reason:'研究备注尚未确认本机保存，暂不更新'};
  if(window.PaperWorkspace?.isBusy?.())return {ready:false,reason:'正在处理导入或检索，完成后更新'};
  if(window.PaperStudy?.isBusy?.())return {ready:false,reason:'正在处理本机翻译，完成后更新'};
  const s=window.PaperSync?.status?.();if(s?.busy)return {ready:false,reason:'正在保存云端检查点，完成后更新'};

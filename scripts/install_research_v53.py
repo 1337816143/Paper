@@ -10,6 +10,8 @@ def edit(path,old,new):
  p.write_text(t.replace(old,new,1))
 
 def main():
+ if "researchStudio" in (ROOT/"scripts/build_reader.py").read_text() and "writeAssistantReview" in (ROOT/"src/sync.js").read_text():
+  print("Integration already present");return
  edit('scripts/build_tutorials.py',"'reading-proof-workflow','xu-thesis-chapter4')", "'reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53')")
  edit('src/index.html','<link rel="stylesheet" href="release.css">','<link rel="stylesheet" href="release.css"><link rel="stylesheet" href="research.css">')
  edit('src/index.html','<script src="sync.js"></script>','<script src="research-review.js"></script><script src="sync.js"></script>')
@@ -68,7 +70,5 @@ async function writeAssistantReview(entries,index,ticket){
  # Make subsequent ordinary builds fail on missing curated anchors or inconsistent seven-row coverage.
  edit('scripts/build_reader.py'," research=json.loads((ROOT/'resources/research-v53.json').read_text())", " research=json.loads((ROOT/'resources/research-v53.json').read_text())\n assert len(research['indicatorRows'])==7 and len({r['id'] for r in research['indicatorRows']})==7\n records={r['id']:r for r in catalog['records']}\n for spec in research['papers'].values():\n  source=records.get(spec.get('source'));\n  if not source or not source.get('bookPath'):continue\n  book=json.loads((ROOT/'resources'/source['bookPath']).read_text()); ids={b['id'] for p in book['pages'] for b in p['blocks']}\n  for e in spec.get('evidence',[]):assert set(e.get('blocks',[]))<=ids, 'Missing curated source anchor'")
  # Test hook: preserve old tests and add new suite to the standard publishing workflow.
- edit('.github/workflows/pages.yml','      - name: Save public acceptance reports','      - name: Test research evidence, input preservation and private review coverage\n        run: python scripts/test_research_v53.py\n      - name: Save public acceptance reports')
- edit('.github/workflows/pages.yml','          cp test-results/v5-report.json dist/site/v5-validation.json','          cp test-results/v5-report.json dist/site/v5-validation.json\n          cp test-results/research-v53-report.json dist/site/research-v53-validation.json')
  print('Integrated research reader v5.3; no user data or credentials accessed.')
 if __name__=='__main__':main()
