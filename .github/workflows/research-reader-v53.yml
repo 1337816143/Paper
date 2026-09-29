@@ -31,10 +31,12 @@ jobs:
           p.write_text(p.read_text().replace('dataset.researchV53\',id)', 'dataset.researchV53\',arg=id)'))
           p=Path('scripts/install_research_v53.py')
           t=p.read_text()
-          t=t.replace('def main():\n', 'def main():\n if "researchStudio" in (ROOT/"scripts/build_reader.py").read_text() and "writeAssistantReview" in (ROOT/"src/sync.js").read_text():\n  print("Integration already present");return\n',1)
+          if 'Integration already present' not in t:
+            t=t.replace('def main():\n', 'def main():\n if "researchStudio" in (ROOT/"scripts/build_reader.py").read_text() and "writeAssistantReview" in (ROOT/"src/sync.js").read_text():\n  print("Integration already present");return\n',1)
           p.write_text(t)
           PY
           python scripts/install_research_v53.py
+          python scripts/refine_research_v53.py
           node --check src/research.js
           node --check src/research-review.js
           node --check src/sync.js
