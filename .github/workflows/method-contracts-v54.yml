@@ -1,0 +1,66 @@
+name: Verify personal entry and method ledgers v5.4
+on:
+  push:
+    branches: [method-contracts-v54]
+    paths:
+      - .github/workflows/method-contracts-v54.yml
+      - resources/v54-ready.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: paper-method-v54
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Integrate deterministic reviewed source
+        run: |
+          python scripts/install_v54.py
+          python scripts/fix_v54_integration.py
+          python scripts/update_resources_v54.py
+          node --check src/personal.js
+          node --check src/contracts.js
+          node --check src/release.js
+          python examples/paper_minilab.py --test
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+      - name: Browser runtime
+        run: |
+          pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: New capability and mastery checks
+        run: python scripts/test_personal_v54.py
+      - name: Every existing regression remains mandatory
+        run: |
+          python examples/pareto_lab.py --test
+          python scripts/test_browser.py
+          python scripts/test_reader.py
+          python scripts/test_study.py
+          python scripts/test_workspace.py
+          python scripts/test_workspace_hardening.py
+          python scripts/test_v5.py
+          python scripts/test_release51.py
+          python scripts/test_research_v53.py
+      - name: Commit tested non-workflow source only
+        run: |
+          git diff --exit-code -- .github/workflows
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add AGENTS.md src/index.html src/app.js src/release.js src/personal.js src/contracts.js scripts/build_reader.py scripts/build_tutorials.py scripts/test_personal_v54.py resources/application-release.json resources/method-contracts-v54.json content/papers.json content/method-ledgers-v54.json content/paper-ledgers-v54.json
+          git diff --cached --quiet || git commit -m 'Integrate fully tested v5.4 private-entry capability, method ledgers and verified author-data provenance'
+          git push origin HEAD:method-contracts-v54
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paper-v54-synthetic-tests
+          path: test-results/
+          retention-days: 7
