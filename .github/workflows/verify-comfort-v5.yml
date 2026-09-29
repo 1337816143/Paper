@@ -5,6 +5,8 @@ on:
     paths:
       - '.github/workflows/verify-comfort-v5.yml'
       - 'scripts/prepare_comfort_v5.py'
+      - 'scripts/preflight_comfort_v5.py'
+      - 'scripts/harden_comfort_v5.py'
       - 'scripts/test_v5.py'
       - 'src/comfort.js'
       - 'src/comfort.css'
@@ -32,16 +34,18 @@ jobs:
           node-version: '22'
       - name: Apply source-preserving integration
         run: |
-          python -m py_compile scripts/prepare_comfort_v5.py scripts/test_v5.py
+          python -m py_compile scripts/prepare_comfort_v5.py scripts/preflight_comfort_v5.py scripts/harden_comfort_v5.py scripts/test_v5.py
+          python scripts/preflight_comfort_v5.py
           python scripts/prepare_comfort_v5.py
+          python scripts/harden_comfort_v5.py
           for f in src/app.js src/reader.js src/study.js src/workspace.js src/comfort.js src/sync.js; do node --check "$f"; done
           python scripts/build.py --source-commit="$GITHUB_SHA"
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
       - name: Install browser runtime
         run: |
-          pip install playwright==1.55.0
-          python -m playwright install --with-deps chromium
+          pip install playwright==1.55.0 > /tmp/install.log 2>&1
+          python -m playwright install --with-deps chromium >> /tmp/install.log 2>&1 || { tail -60 /tmp/install.log; exit 1; }
       - name: Preserve previous teaching, source reading, annotations and offline translation
         run: |
           python scripts/test_browser.py > /tmp/old-browser.log 2>&1 || { tail -70 /tmp/old-browser.log; exit 1; }
@@ -54,7 +58,7 @@ jobs:
         run: |
           git config user.name paper-reader-maintainer
           git config user.email paper-reader-maintainer@users.noreply.github.com
-          git add AGENTS.md src/index.html src/app.js src/reader.js src/study.js src/workspace.js src/sync.js src/comfort.js src/comfort.css scripts/build_reader.py scripts/test_reader.py scripts/test_v5.py resources/catalog.json resources/study-v3.json content/session-log.json .github/workflows/pages.yml
+          git add AGENTS.md src/index.html src/app.js src/reader.js src/study.js src/workspace.js src/sync.js src/comfort.js src/comfort.css scripts/build_reader.py scripts/test_reader.py scripts/test_v5.py scripts/prepare_comfort_v5.py resources/catalog.json resources/study-v3.json content/session-log.json .github/workflows/pages.yml
           if ! git diff --cached --quiet; then
             git commit -m "Integrate verified private-vault sync and contextual reading UI"
             git push origin HEAD:reader-comfort-sync-v5
