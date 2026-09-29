@@ -17,8 +17,16 @@ if 'personal-v54-failure.json' not in t:assert old in t;t=t.replace(old,new,1)
 t=t.replace("PaperReader.get('annotations','v54-note')", "PaperReader.all('annotations').then(a=>a.find(n=>n.id==='v54-note'))")
 t=t.replace(".last.locator('summary').click()", ".last.locator(':scope > summary').click()")
 p.write_text(t)
-# The public URL has no automatic identity. A user-held encrypted entry is a
-# separate capability, not a managed login or a completed personal provisioning.
-p=R/'scripts/build_reader.py';t=p.read_text();old="r['researchStudio']['automaticSignIn']='private-capability-entry'";new="r['researchStudio']['automaticSignIn']=False; r['researchStudio']['privateEntryMode']='user-held-capability'; r['personalEntry']['provisionedByPublicBuild']=False; r['personalEntry']['actualUserPATValidated']=False; r['sync']['encryptedPrivateEntryStorage']='IndexedDB ciphertext with non-extractable CryptoKey; never in public assets or backups'"
-if new not in t:assert old in t;t=t.replace(old,new,1);p.write_text(t)
+# Preserve the meaning of the existing anonymous-public-site flag. A private
+# capability must be provisioned separately; builds do not certify user PATs.
+p=R/'scripts/build_reader.py';t=p.read_text()
+old=" release['researchStudio']['automaticSignIn']='private-capability-entry'"
+new=""" release['researchStudio']['automaticSignIn']=False
+ release['researchStudio']['privateEntryMode']='user-held-capability'
+ release['personalEntry']['provisionedByPublicBuild']=False
+ release['personalEntry']['actualUserPATValidated']=False
+ release['sync']['encryptedPrivateEntryStorage']='IndexedDB ciphertext with non-extractable CryptoKey; never in public assets or backups'"""
+if new not in t:
+ assert old in t, 'Actual release metadata assignment missing'
+ t=t.replace(old,new,1);p.write_text(t)
 print('Registered static ledgers, exact note controls and truthful private-entry versus public-identity metadata.')
