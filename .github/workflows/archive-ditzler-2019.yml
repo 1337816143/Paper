@@ -1,0 +1,53 @@
+name: Recover licensed Ditzler original
+on:
+  push:
+    branches: [resources-2019-recovery]
+    paths: [.github/workflows/archive-ditzler-2019.yml, scripts/archive_ditzler_2019.py]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install requests==2.32.5 PyMuPDF==1.26.4 playwright==1.55.0
+      - name: Compile verified original and check all source mappings
+        run: |
+          python scripts/archive_ditzler_2019.py
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python examples/pareto_lab.py --test
+      - run: python -m playwright install --with-deps chromium
+      - name: Existing reader, study, data-safety and offline regressions
+        run: |
+          python scripts/test_browser.py
+          python scripts/test_reader.py
+          python scripts/test_study.py
+          python scripts/test_workspace.py
+          python scripts/test_workspace_hardening.py
+          python scripts/test_v5.py
+          python scripts/test_release51.py
+          python scripts/test_research_v53.py
+      - name: Commit only verified archive and content inputs
+        run: |
+          git diff --exit-code -- .github/workflows
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add resources/catalog.json resources/library/ditzler-2019/ resources/ditzler-2019-recovery.json content/session-log.json
+          git diff --cached --quiet || git commit -m 'Archive complete licensed Ditzler2019 original with source audit and offline assets'
+          git push origin HEAD:resources-2019-recovery
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ditzler-original-recovery-validation
+          path: |
+            test-results/
+            resources/ditzler-2019-recovery.json
+          retention-days: 14
