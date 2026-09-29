@@ -13,5 +13,7 @@ p=R/'scripts/test_personal_v54.py';t=p.read_text();old='def confirmed(page):page
   (OUT/'personal-v54-failure.json').write_text(json.dumps({'completed':checks,'safeStatus':safe,'data':'synthetic-only; no entry URLs or secrets'},ensure_ascii=False,indent=2))
   raise
 '''
-if 'personal-v54-failure.json' not in t:assert old in t;t=t.replace(old,new,1);p.write_text(t)
-print('Registered complete static method ledgers and preserved private entry initialization without exposing secrets.')
+if 'personal-v54-failure.json' not in t:assert old in t;t=t.replace(old,new,1)
+t=t.replace("PaperReader.get('annotations','v54-note')", "PaperReader.all('annotations').then(a=>a.find(n=>n.id==='v54-note'))")
+p.write_text(t)
+print('Registered static method ledgers, preserved private startup, and tested the actual public reader API.')
