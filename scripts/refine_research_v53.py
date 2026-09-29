@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 root=Path(__file__).resolve().parents[1]
 p=root/'src/app.js';t=p.read_text();old="window.PaperReader?.attachLesson();requestAnimationFrame(";new="window.PaperReader?.attachLesson();window.PaperResearch?.enhance();requestAnimationFrame("
 if new not in t:
@@ -28,4 +29,12 @@ new=old+";check('Expanded original evidence and its exact text remain available 
 if new not in t:
  assert old in t;t=t.replace(old,new,1)
 p.write_text(t)
-print('Mounted research additions before scroll restoration; cached open evidence survives back-navigation.')
+# A deployment attempt is not a deployed service. The latest connector attempt was
+# blocked before a service was created, with no diagnosable HTTP response.
+p=root/'resources/application-release.json';r=json.loads(p.read_text())
+r['managedSignIn']='not-deployed-creation-blocked'
+r['changes']=[('Render免费后台本轮创建仍受阻，未创建服务；免手填长期登录未完成，保留已验证的会话授权同步。' if 'Render' in x else x) for x in r['changes']]
+p.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')
+p=root/'AGENTS.md';t=p.read_text().replace('Render free creation on this account returned 402 requiring payment details; do not claim managed automatic sign-in is deployed.','Latest Render creation attempt was blocked by the connector safety check before service creation; do not infer an HTTP or billing cause from that response, and do not claim managed automatic sign-in is deployed.')
+p.write_text(t)
+print('Mounted research additions before scroll restoration; cached open evidence survives back-navigation. Backend is explicitly not deployed.')
