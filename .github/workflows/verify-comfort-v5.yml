@@ -1,0 +1,82 @@
+name: Verify private-sync reading comfort v5
+on:
+  push:
+    branches: [reader-comfort-sync-v5]
+    paths:
+      - '.github/workflows/verify-comfort-v5.yml'
+      - 'scripts/prepare_comfort_v5.py'
+      - 'scripts/preflight_comfort_v5.py'
+      - 'scripts/harden_comfort_v5.py'
+      - 'scripts/finalize_comfort_v5.py'
+      - 'scripts/test_v5.py'
+      - 'src/comfort.js'
+      - 'src/comfort.css'
+      - 'src/sync.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: paper-comfort-v5
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: reader-comfort-sync-v5
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply source-preserving integration
+        run: |
+          python -m py_compile scripts/prepare_comfort_v5.py scripts/preflight_comfort_v5.py scripts/harden_comfort_v5.py scripts/finalize_comfort_v5.py scripts/test_v5.py
+          python scripts/preflight_comfort_v5.py
+          python scripts/prepare_comfort_v5.py
+          python scripts/harden_comfort_v5.py
+          python scripts/finalize_comfort_v5.py
+          for f in src/app.js src/reader.js src/study.js src/workspace.js src/comfort.js src/sync.js; do node --check "$f"; done
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python examples/pareto_lab.py --test
+          python examples/sequence_lab.py
+      - name: Install browser runtime
+        run: |
+          pip install playwright==1.55.0 > /tmp/install.log 2>&1
+          python -m playwright install --with-deps chromium >> /tmp/install.log 2>&1 || { tail -60 /tmp/install.log; exit 1; }
+      - name: Preserve previous teaching, source reading, annotations and offline translation
+        run: |
+          python scripts/test_browser.py > /tmp/old-browser.log 2>&1 || { tail -70 /tmp/old-browser.log; exit 1; }
+          python scripts/test_reader.py
+          python scripts/test_study.py
+          python scripts/test_workspace.py
+          python scripts/test_workspace_hardening.py
+      - name: Validate compact notes, custom tags and multi-device merge semantics
+        run: python scripts/test_v5.py
+      - name: Commit only tested source changes on the feature branch
+        run: |
+          git config user.name paper-reader-maintainer
+          git config user.email paper-reader-maintainer@users.noreply.github.com
+          git add AGENTS.md src/index.html src/app.js src/reader.js src/study.js src/workspace.js src/sync.js src/comfort.js src/comfort.css scripts/build_reader.py scripts/test_reader.py scripts/test_v5.py scripts/prepare_comfort_v5.py resources/catalog.json resources/study-v3.json content/session-log.json
+          git diff --exit-code -- .github/workflows/pages.yml
+          if ! git diff --cached --quiet; then
+            git commit -m "Integrate verified private-vault sync and contextual reading UI"
+            git push origin HEAD:reader-comfort-sync-v5
+          fi
+      - name: Collect scope-accurate verification evidence
+        if: always()
+        run: |
+          mkdir -p test-results
+          test ! -f dist/site/release.json || cp dist/site/release.json test-results/v5-release.json
+          git rev-parse HEAD > test-results/v5-source.txt
+          git diff --stat > test-results/v5-uncommitted-stat.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paper-comfort-v5-tests
+          path: test-results
+          retention-days: 30

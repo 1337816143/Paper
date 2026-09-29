@@ -576,7 +576,7 @@
         "https://research.wur.nl/en/publications/exploring-sustainable-and-diversified-crop-production-systems-for/"
       ],
       "candidateURL": "https://edepot.wur.nl/677384",
-      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
+      "accessCheckedAt": "2026-09-29",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/677384",
@@ -585,7 +585,9 @@
           "error": "HTTP Error 400: Bad Request"
         }
       ],
-      "accessNote": "WUR官方学位论文记录提供Download PDF入口。本轮服务器直读曾返回HTTP 400；这是一次技术请求失败，不等于你没有权限，也不代表无全文。可从官方记录进入下载后导入本机。"
+      "accessNote": "2026-09-29通过WUR官方记录的Download PDF正常浏览器入口核验：仓储显示“This object is not available from our repository until: 2026-12-31”。这是该学位论文的仓储暂不开放提示，不代表其已发表章节论文不可获取。尚未取得完整学位论文。",
+      "accessStatus": "embargoed",
+      "embargoNoticeDate": "2026-12-31"
     },
     {
       "id": "cheng-thesis",

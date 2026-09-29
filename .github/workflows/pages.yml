@@ -29,6 +29,8 @@ jobs:
           node --check src/study.js
           node --check src/translation-worker.js
           node --check src/workspace.js
+          node --check src/sync.js
+          node --check src/comfort.js
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
       - name: Install browser test runtime
@@ -45,11 +47,14 @@ jobs:
         run: |
           python scripts/test_workspace.py
           python scripts/test_workspace_hardening.py
+      - name: Test compact notes, custom tags and private-sync semantics
+        run: python scripts/test_v5.py
       - name: Save public acceptance reports
         run: |
           cp test-results/study-report.json dist/site/study-validation.json
           cp test-results/workspace-report.json dist/site/workspace-validation.json
           cp test-results/workspace-hardening-report.json dist/site/workspace-hardening-validation.json
+          cp test-results/v5-report.json dist/site/v5-validation.json
       - name: Save test artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -84,7 +89,7 @@ jobs:
           set -euo pipefail
           verified=false
           for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=90; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='local-research-v4'; print(d)"; then
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; print(d)"; then
               verified=true
               break
             fi
@@ -93,11 +98,15 @@ jobs:
           test "$verified" = true
           curl --fail --silent --show-error "${PAGE_URL%/}/study-data.js" -o live-study-data.js
           curl --fail --silent --show-error "${PAGE_URL%/}/workspace.js" -o live-workspace.js
+          curl --fail --silent --show-error "${PAGE_URL%/}/sync.js" -o live-sync.js
+          curl --fail --silent --show-error "${PAGE_URL%/}/comfort.css" -o live-comfort.css
           curl --fail --silent --show-error "${PAGE_URL%/}/read/research-framework.html" -o live-framework.html
           curl --fail --silent --show-error "${PAGE_URL%/}/downloads/index.html" -o live-downloads.html
           grep -q 'Paper-Translation' live-downloads.html
           grep -q '完整' live-framework.html
           grep -q 'definedAbbreviations' live-workspace.js
+          grep -q 'window.PaperSync' live-sync.js
+          grep -q 'prefers-reduced-motion' live-comfort.css
       - uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification
@@ -105,6 +114,8 @@ jobs:
             live-release.json
             live-study-data.js
             live-workspace.js
+            live-sync.js
+            live-comfort.css
             live-framework.html
             live-downloads.html
           retention-days: 30
