@@ -1,0 +1,25 @@
+name: Verify research reader v5.3
+on:
+  push:
+    branches: [research-reader-v53]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare exact reviewed source
+        run: |
+          mkdir -p review
+          git archive --format=tar.gz HEAD > review/source.tar.gz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: paper-v53-source
+          path: review/source.tar.gz
+          retention-days: 2
