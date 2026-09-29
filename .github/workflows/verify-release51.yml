@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/verify-release51.yml'
       - 'scripts/integrate_release51.py'
+      - 'scripts/patch_note_concurrency51.py'
       - 'scripts/test_release51.py'
       - 'src/release.js'
       - 'src/release.css'
@@ -33,6 +34,7 @@ jobs:
       - name: Integrate intended source changes and build
         run: |
           python scripts/integrate_release51.py
+          python scripts/patch_note_concurrency51.py
           python scripts/build.py --source-commit="$GITHUB_SHA"
           node --check src/release.js
           node --check src/app.js
@@ -57,9 +59,9 @@ jobs:
         run: |
           git config user.name paper-release-maintainer
           git config user.email paper-release-maintainer@users.noreply.github.com
-          git add -- src/app.js src/index.html src/workspace.js src/study.js src/release.js src/sw-template.js scripts/build_reader.py scripts/build_tutorials.py AGENTS.md CHANGELOG.md content/session-log.json .github/workflows/pages.yml
+          git add -- src/app.js src/index.html src/workspace.js src/study.js src/release.js src/sw-template.js scripts/build_reader.py scripts/build_tutorials.py scripts/test_release51.py resources/catalog.json AGENTS.md CHANGELOG.md content/session-log.json .github/workflows/pages.yml
           if ! git diff --cached --quiet; then
-            git commit -m "Integrate verified v5.1 version display and safe automatic updates [skip ci]"
+            git commit -m "Integrate verified v5.1 safe updates and preserve cross-tab notes [skip ci]"
             git push origin HEAD:version-safe-autoupdate-51
           fi
       - uses: actions/upload-artifact@v4
