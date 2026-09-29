@@ -15,5 +15,7 @@ p=R/'scripts/test_personal_v54.py';t=p.read_text();old='def confirmed(page):page
 '''
 if 'personal-v54-failure.json' not in t:assert old in t;t=t.replace(old,new,1)
 t=t.replace("PaperReader.get('annotations','v54-note')", "PaperReader.all('annotations').then(a=>a.find(n=>n.id==='v54-note'))")
+# Target the enclosing section control, not its nested note controls.
+t=t.replace(".last.locator('summary').click()", ".last.locator(':scope > summary').click()")
 p.write_text(t)
-print('Registered static method ledgers, preserved private startup, and tested the actual public reader API.')
+print('Registered static ledgers and tested actual reader/note APIs with exact nested controls.')
