@@ -81,6 +81,16 @@ async function apply(entries,captured,staged,ticket){const fresh=await capture()
  }
  localStorage.setItem(KEY,JSON.stringify(learning));window.dispatchEvent(new CustomEvent('paper-sync-applied',{detail:{skipped}}));return skipped;
  }finally{applying=false;}}
+
+async function writeAssistantReview(entries,index,ticket){
+ if(!window.PaperReview)return {ready:false,reason:'审阅模块未加载'};
+ const projection=window.PaperReview.project(entries),contentHash=await sha(canonical(projection.records)),manifestPath=PREFIX+'devices/assistant-review.json',prior=await getFile(manifestPath,true);
+ if(prior?.encoding==='base64'){try{const old=JSON.parse(decoder.decode(unbase64(prior.content)));if(old.schema==='paper.assistant.review.v53'&&old.contentHash===contentHash)return {ready:true,unchanged:true,path:manifestPath};}catch{}}
+ const parts=[];for(const [i,part] of window.PaperReview.chunks(projection).entries()){checkConnection(ticket);const bytes=encoder.encode(JSON.stringify(part)),hash=await sha(bytes),path=PREFIX+'devices/review-'+hash.slice(0,40)+'.json',existing=await getFile(path,true);if(existing){if(existing.encoding!=='base64'||await sha(unbase64(existing.content))!==hash)throw Error('助手审阅分块校验不一致');}else await putFile(path,bytes);parts.push({path,sha256:hash,records:part.records.length});}
+ const manifest={schema:'paper.assistant.review.v53',contentHash,sourceCheckpoint:index.hash,sourceCheckpointAt:index.at,projectedAt:new Date().toISOString(),records:projection.records.length,counts:projection.counts,excluded:projection.excluded,parts,notice:projection.note};
+ checkConnection(ticket);await putFile(manifestPath,encoder.encode(JSON.stringify(manifest,null,2)),prior?.sha);return {ready:true,path:manifestPath,records:manifest.records};
+}
+
 async function perform(){if(busy)return {...status};const ticket=connection;busy=true;dirty=false;setStatus({state:'syncing',message:'正在核对私有仓库与本机版本，尚未完成',progress:''});
  try{await verifyVault();checkConnection(ticket);const snapshot=await capture(),saved=await receipt('get',vaultID()),base=saved?.base||{};let successful=null,merged=null;
  for(let attempt=0;attempt<3;attempt++){const remote=await readRemote();checkConnection(ticket);merged=await merge(base,snapshot.entries,remote.entries);await validate(merged.entries);validateReferences(merged.entries);await uploadFiles(snapshot.entries,snapshot.blobs,ticket);await uploadFiles(merged.entries,snapshot.blobs,ticket);
@@ -88,7 +98,8 @@ async function perform(){if(busy)return {...status};const ticket=connection;busy
  try{successful=await writeRemote(merged.entries,remote.sha,ticket);break;}catch(e){if(![409,422].includes(e.http)||attempt===2)throw e;setStatus({progress:'另一设备刚写入，重新合并（'+(attempt+1)+'/3）'});await sleep(500);}}
  if(!successful)throw Error('并发写入未完成；等待重试。');
  const staged=await materialize(merged.entries,snapshot.entries,ticket),skipped=await apply(merged.entries,snapshot.entries,staged,ticket);checkConnection(ticket);const confirmedAt=new Date().toISOString();await receipt('put',{id:vaultID(),base:Object.fromEntries(Object.entries(merged.entries).map(([k,e])=>[k,e.hash])),confirmedAt,commit:successful.commit});
- dirty=dirty||skipped>0;setStatus({state:dirty?'pending':'synced',message:dirty?'云端检查点已保存；同步期间的新修改继续排队':'GitHub 已确认本次数据；本机副本已核对'+(merged.conflicts.length?'，冲突版本已保留，请处理':''),confirmedAt,commit:successful.commit,progress:''});return {...status};
+ let assistantReview;try{assistantReview=await writeAssistantReview(merged.entries,successful.index,ticket);}catch(e){assistantReview={ready:false,reason:e.message};}
+ dirty=dirty||skipped>0;setStatus({assistantReview,state:dirty?'pending':'synced',message:dirty?'云端检查点已保存；同步期间的新修改继续排队':'GitHub 已确认本次数据；本机副本已核对'+(merged.conflicts.length?'，冲突版本已保留，请处理':''),confirmedAt,commit:successful.commit,progress:''});return {...status};
  }catch(e){dirty=true;setStatus({state:authorization?(navigator.onLine?'error':'offline'):'local-only',message:e.message,progress:''});throw e;
  }finally{busy=false;}}
 async function sync(){clearTimeout(timer);if(!authorization)throw Error('尚未连接 GitHub；不能将本地保存显示为云端成功。');return navigator.locks?navigator.locks.request('paper-vault-'+vaultID(),perform):perform();}

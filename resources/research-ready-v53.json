@@ -1,0 +1,9 @@
+{
+  "schema": "paper.research.acceptance.resume.v1",
+  "date": "2026-09-29",
+  "requestedVersion": "5.3.0",
+  "previousFailure": "All reading, originals, study, workspace and v5 synchronization tests passed; legacy release test still expected literal v5.1.0.",
+  "correction": "Assert visible version exactly equals built semantic release and simulate its next patch; retain every original safety and preservation assertion.",
+  "releaseRequires": "Complete regression suite, actual Pages deployment, and standard My-Evolution mirror verification",
+  "hostedAuthorization": "Not deployed; do not expose shared credentials or report unsynchronized device data as read"
+}

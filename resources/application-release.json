@@ -1,17 +1,18 @@
 {
   "schema": "paper.application.release.v1",
-  "version": "5.1.0",
+  "version": "5.3.0",
   "date": "2026-09-29",
-  "title": "可见版本与保护笔记的自动更新",
+  "title": "原文证据、指标细读与博士研究设计工作台",
   "changes": [
-    "页头展示易读版本号，版本面板区分程序版本、内容校验值与云端保存状态。",
-    "联网、回到前台与定期检查更新；新资源就绪且所有本站标签页安全后自动应用。",
-    "编辑、选字、导入、翻译或会话授权同步期间延后刷新，不中断笔记与授权。",
-    "修复多个标签页保存阅读位置时可能覆盖另一页整篇笔记的问题；并发内容保留核对。",
-    "已有完整离线缓存的设备在新版本启用后自动补齐新增资源，不清除私人数据。",
-    "补充徐展博士论文第4章的正文方法链，明确8项评价与7项优化目标的区别。"
+    "带读关键处加入可展开的原始段落、完整页图和研究导师四栏标注。",
+    "逐项讲清梁2022的全部7个指标：单位、依据、计算输入、假设及海南迁移边界。",
+    "新增样本选取专题：32张方法/设计卡片及系统方法说明、真实来源和案例。",
+    "依据官方课题6的PhD2要求建立候选方向、海南分阶段设计和集中决策面板。",
+    "各节、指标、术语和研究标注支持小框自动保存，集中查看所有手动输入。",
+    "已授权私有同步后生成便于助手逐条读取的私有审阅索引；保留原始输入和冲突。",
+    "Render免费后台本轮创建仍受阻，未创建服务；免手填长期登录未完成，保留已验证的会话授权同步。"
   ],
   "automaticUpdate": "idle-and-all-tabs-safe",
-  "managedSignIn": "awaiting-secure-backend-connection",
-  "credentialPolicy": "No credentials in source, public configuration, cache, logs or chat-derived records"
+  "managedSignIn": "not-deployed-creation-blocked",
+  "credentialPolicy": "No shared GitHub credentials in source, public configuration, logs or cached artifacts"
 }
