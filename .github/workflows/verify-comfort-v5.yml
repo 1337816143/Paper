@@ -7,6 +7,7 @@ on:
       - 'scripts/prepare_comfort_v5.py'
       - 'scripts/preflight_comfort_v5.py'
       - 'scripts/harden_comfort_v5.py'
+      - 'scripts/finalize_comfort_v5.py'
       - 'scripts/test_v5.py'
       - 'src/comfort.js'
       - 'src/comfort.css'
@@ -34,10 +35,11 @@ jobs:
           node-version: '22'
       - name: Apply source-preserving integration
         run: |
-          python -m py_compile scripts/prepare_comfort_v5.py scripts/preflight_comfort_v5.py scripts/harden_comfort_v5.py scripts/test_v5.py
+          python -m py_compile scripts/prepare_comfort_v5.py scripts/preflight_comfort_v5.py scripts/harden_comfort_v5.py scripts/finalize_comfort_v5.py scripts/test_v5.py
           python scripts/preflight_comfort_v5.py
           python scripts/prepare_comfort_v5.py
           python scripts/harden_comfort_v5.py
+          python scripts/finalize_comfort_v5.py
           for f in src/app.js src/reader.js src/study.js src/workspace.js src/comfort.js src/sync.js; do node --check "$f"; done
           python scripts/build.py --source-commit="$GITHUB_SHA"
           python examples/pareto_lab.py --test
