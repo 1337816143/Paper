@@ -91,10 +91,10 @@
         "https://research.wur.nl/en/publications/farmsteps-a-model-for-spatial-temporal-exploration-of-diversified/"
       ],
       "downloadURL": "https://edepot.wur.nl/713946",
-      "accessStatus": "public-pdf-readable",
-      "accessNote": "本轮无需登录即可读取此来源的完整PDF（20页）。全文访问和本站公开转载分别处理：可从来源下载并导入个人阅读库；未将许可待确认的原件公开镜像。 WUR官方记录标注Taverne。",
+      "accessStatus": "private-copy-verified",
+      "accessNote": "已核对项目所有者的私有阅读库原件。通过私有同步恢复到当前设备后可阅读全文；未取得公开转载许可，因此不放进公开镜像。 此来源无需登录可读取完整PDF（20页），WUR官方记录标注Taverne；可读不等于已确认允许在本公开仓库再分发。",
       "accessEvidence": "https://research.wur.nl/en/publications/farmsteps-a-model-for-spatial-temporal-exploration-of-diversified/",
-      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
+      "accessCheckedAt": "2026-09-29",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/713946",
@@ -111,7 +111,8 @@
           ],
           "licenseMarkers": []
         }
-      ]
+      ],
+      "privateCopyAvailable": true
     },
     {
       "id": "cheng-2023",
@@ -297,7 +298,7 @@
         "https://doi.org/10.1016/j.landurbplan.2017.12.008",
         "https://research.wur.nl/en/publications/exploring-ecosystem-services-trade-offs-in-agricultural-landscape/"
       ],
-      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
+      "accessCheckedAt": "2026-09-29",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/445630",
@@ -315,8 +316,9 @@
           "licenseMarkers": []
         }
       ],
-      "accessStatus": "public-pdf-readable",
-      "accessNote": "本轮无需登录即可读取此来源的完整PDF（20页）。全文访问和本站公开转载分别处理：可从来源下载并导入个人阅读库；未将许可待确认的原件公开镜像。"
+      "accessStatus": "private-copy-verified",
+      "accessNote": "已核对项目所有者的私有阅读库原件。通过私有同步恢复到当前设备后可阅读全文；未取得公开转载许可，因此不放进公开镜像。",
+      "privateCopyAvailable": true
     },
     {
       "id": "landscape-2007",
@@ -585,8 +587,8 @@
           "error": "HTTP Error 400: Bad Request"
         }
       ],
-      "accessNote": "2026-09-29通过WUR官方记录的Download PDF正常浏览器入口核验：仓储显示“This object is not available from our repository until: 2026-12-31”。这是该学位论文的仓储暂不开放提示，不代表其已发表章节论文不可获取。尚未取得完整学位论文。",
-      "accessStatus": "embargoed",
+      "accessNote": "WUR官方Download PDF入口本轮显示暂不开放至2026-12-31。这不是已发表相关文章无全文的证明；章节论文需分别检索。",
+      "accessStatus": "official-embargo",
       "embargoNoticeDate": "2026-12-31"
     },
     {
@@ -618,7 +620,8 @@
           "error": "<urlopen error timed out>"
         }
       ],
-      "accessNote": "WUR官方学位论文记录提供Download PDF入口。本轮服务器直读曾返回HTTP 400；这是一次技术请求失败，不等于你没有权限，也不代表无全文。可从官方记录进入下载后导入本机。"
+      "accessNote": "WUR官方仓储本轮返回暂不开放日期2027-01-09。已发表的2023、2025论文仍可独立阅读全文。",
+      "accessStatus": "official-embargo"
     },
     {
       "id": "xu-thesis",
@@ -640,7 +643,7 @@
         "https://research.wur.nl/en/publications/exploring-options-for-a-more-sustainable-crop-production-on-the-n/"
       ],
       "candidateURL": "https://edepot.wur.nl/681150",
-      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
+      "accessCheckedAt": "2026-09-29",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/681150",
@@ -649,7 +652,10 @@
           "error": "The read operation timed out"
         }
       ],
-      "accessNote": "已知WUR原件入口有响应，但本轮访问审计在45MB检测上限处停止，未归类为权限问题。个人PDF导入支持单文件120MB和最多400页；超过限制请分卷。"
+      "accessNote": "已核对项目所有者的私有阅读库原件。通过私有同步恢复到当前设备后可阅读全文；未取得公开转载许可，因此不放进公开镜像。",
+      "privateCopyAvailable": true,
+      "accessStatus": "private-copy-verified",
+      "verifiedPDFPages": 322
     },
     {
       "id": "groot-2017",

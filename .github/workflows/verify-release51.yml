@@ -1,0 +1,75 @@
+name: Verify safe versioned automatic updates
+on:
+  push:
+    branches: [version-safe-autoupdate-51]
+    paths:
+      - '.github/workflows/verify-release51.yml'
+      - 'scripts/integrate_release51.py'
+      - 'scripts/patch_note_concurrency51.py'
+      - 'scripts/finalize_reading51.py'
+      - 'scripts/test_release51.py'
+      - 'src/release.js'
+      - 'src/release.css'
+      - 'resources/application-release.json'
+      - 'content/reading-proof-workflow.json'
+      - 'content/xu-thesis-chapter4.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: paper-release51-prepare
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: version-safe-autoupdate-51
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Integrate intended source changes and build
+        run: |
+          python scripts/integrate_release51.py
+          python scripts/patch_note_concurrency51.py
+          python scripts/finalize_reading51.py
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          node --check src/release.js
+          node --check src/app.js
+          node --check src/study.js
+          node --check src/workspace.js
+          python examples/pareto_lab.py --test
+      - name: Install browser runtime
+        run: |
+          pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Real multi-tab automatic update and preservation checks
+        run: python scripts/test_release51.py
+      - name: Existing tutorial, originals, translation, workspace and synchronization checks
+        run: |
+          python scripts/test_browser.py
+          python scripts/test_reader.py
+          python scripts/test_study.py
+          python scripts/test_workspace.py
+          python scripts/test_workspace_hardening.py
+          python scripts/test_v5.py
+      - name: Commit only verified integration files
+        run: |
+          git config user.name paper-release-maintainer
+          git config user.email paper-release-maintainer@users.noreply.github.com
+          git add -- src/app.js src/index.html src/workspace.js src/study.js src/release.js src/sw-template.js scripts/build_reader.py scripts/build_tutorials.py scripts/test_release51.py resources/catalog.json resources/study-v3.json content/papers.json content/reading-proof-workflow.json AGENTS.md CHANGELOG.md content/session-log.json .github/workflows/pages.yml
+          if ! git diff --cached --quiet; then
+            git commit -m "Integrate verified v5.1 safe updates and preserve cross-tab notes [skip ci]"
+            git push origin HEAD:version-safe-autoupdate-51
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: release51-acceptance
+          path: test-results
+          retention-days: 30
