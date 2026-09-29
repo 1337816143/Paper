@@ -12,7 +12,7 @@ class Quiet(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
 server=ThreadingHTTPServer(('127.0.0.1',8795),partial(Quiet,directory=str(OUT)));threading.Thread(target=server.serve_forever,daemon=True).start()
 BASE='http://127.0.0.1:8795/';checks=[];errors=[];failure=None
-files={};fault={'cas':False,'writes':0,'force401':False};secret='ghs_'+'SyntheticSessionOnlyForTests123456789'
+files={};fault={'cas':False,'writes':0,'force401':False};secret='ghs_123_'+'SyntheticJWT.Header-Payload.SignatureOnlyForTests123456789'
 
 def github(route):
  request=route.request;url=urllib.parse.urlsplit(request.url);path=urllib.parse.unquote(url.path)

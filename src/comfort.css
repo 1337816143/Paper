@@ -43,3 +43,6 @@ input,select,textarea{background:var(--paper);border:1px solid var(--line);borde
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}button:active,.btn:active{transform:none!important}}
 @media(forced-colors:active){.topbar,.sidebar,.context-popover,.term-popover,.card,.hero{background:Canvas;border:1px solid CanvasText;box-shadow:none}.tag,.sync-status{border:1px solid ButtonText}}
 @media print{.context-popover,.sync-status,.tag-add,.heading-raw{display:none!important}.card,.articlehead,.hero{box-shadow:none;backdrop-filter:none}body{background:white}}
+
+/* Keep the editor readable even above dense text; glass remains at its edge. */
+.context-popover{background:color-mix(in srgb,var(--paper) 95%,transparent)}
