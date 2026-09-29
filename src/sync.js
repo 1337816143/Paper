@@ -33,15 +33,15 @@ function checkConfig(c){if(!c||!/^[-\w]+\/[-.\w]+$/.test(c.repository)||!/^paper
 function checkConnection(ticket){if(!authorization||ticket!==connection)throw Error('同步连接已关闭；本地数据保留。');}
 async function api(path,{method='GET',body,missing=false}={}){
  if(!authorization||!config)throw Error('请先在同步中心连接 GitHub。');if(!navigator.onLine)throw Error('当前离线，本地更改保留待同步。');
- if(!path.startsWith('/repos/'+config.repository+'/'))throw Error('拒绝访问同步仓库之外的路径');
+ const root='/repos/'+config.repository;if(path!==root&&!path.startsWith(root+'/'))throw Error('拒绝访问同步仓库之外的路径');
  if(method!=='GET'){const gap=1050-(Date.now()-lastWrite);if(gap>0)await sleep(gap);lastWrite=Date.now();}
  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),45000);
- try{const response=await fetch('https://api.github.com'+path,{method,headers:{Accept:'application/vnd.github+json','Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28',Authorization:'Bearer '+authorization},body:body?JSON.stringify(body):undefined,credentials:'omit',cache:'no-store',referrerPolicy:'no-referrer',signal:controller.signal});
+ try{const response=await fetch('https://api.github.com'+path,{method,headers:{Accept:'application/vnd.github+json','Content-Type':'application/json',Authorization:'Bearer '+authorization},body:body?JSON.stringify(body):undefined,credentials:'omit',cache:'no-store',referrerPolicy:'no-referrer',signal:controller.signal});
  if(response.status===404&&missing)return null;
  if(!response.ok){const error=Error(response.status===401?'GitHub 授权失效，请重新连接；本地数据未删除。':response.status===403||response.status===429?'GitHub 拒绝请求或限流，请检查权限并稍后重试；未标记同步完成。':'GitHub 请求失败（HTTP '+response.status+'）');error.http=response.status;throw error;}
  return response.status===204?null:await response.json();
- }catch(e){if(e.name==='AbortError')throw Error('GitHub 请求超时；本地更改和已上传分块保留。');throw e;}finally{clearTimeout(timeout);}}
-const route=path=>'/repos/'+config.repository+'/'+path;
+ }catch(e){if(e.name==='AbortError')throw Error('GitHub 请求超时；本地更改和已上传分块保留。');if(e instanceof TypeError)throw Error('浏览器未能连接 GitHub API，请检查网络或浏览器跨域错误；本地更改未删除，也未标记云端完成。');throw e;}finally{clearTimeout(timeout);}}
+const route=path=>'/repos/'+config.repository+(path?'/'+path:'');
 async function verifyVault(){const info=await api(route(''));if(info.private!==true)throw Error('拒绝同步：目标是公开仓库。私人笔记和论文只能进入私有仓库。');const branch=await api(route('branches/'+encodeURIComponent(config.branch)),{missing:true});if(!branch)throw Error('私有数据分支尚不存在，请按同步中心说明创建；不向网站主分支写入。');if(info.permissions&&info.permissions.push===false)throw Error('此授权没有仓库写入权限。');}
 async function getFile(path,missing=false){if(!path.startsWith(PREFIX)||path.includes('..'))throw Error('不允许的同步文件路径');return api(route('contents/'+path)+'?ref='+encodeURIComponent(config.branch),{missing});}
 async function putFile(path,bytes,priorSHA){if(!path.startsWith(PREFIX)||path.includes('..'))throw Error('不允许的同步文件路径');return api(route('contents/'+path),{method:'PUT',body:{message:'Paper private vault checkpoint [skip ci]',branch:config.branch,content:base64(bytes),...(priorSHA?{sha:priorSHA}:{})}});}
