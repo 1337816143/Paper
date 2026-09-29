@@ -10,23 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Bundle public source without private data
+      - name: Bundle licensed browser runtime and existing equation crops
         run: |
           mkdir -p /tmp/review52
           python - <<'PY'
           import pathlib,zipfile
-          root=pathlib.Path('.')
-          with zipfile.ZipFile('/tmp/review52/public-source52.zip','w',zipfile.ZIP_DEFLATED) as z:
-            for folder in ['src','scripts','content','examples','resources','.github']:
-              for p in pathlib.Path(folder).rglob('*'):
-                if p.is_file() and (p.suffix in ['.js','.py','.mjs','.json','.css','.html','.md','.txt','.csv','.svg','.R','.yml','.yaml','.toml'] or p.name=='manifest.webmanifest'):
-                  if p.stat().st_size < 12000000: z.write(p,p.as_posix())
-            for name in ['AGENTS.md','README.md','package.json','package-lock.json']:
-              p=root/name
-              if p.exists():z.write(p,name)
+          with zipfile.ZipFile('/tmp/review52/runtime52.zip','w',zipfile.ZIP_DEFLATED) as z:
+            for p in pathlib.Path('vendor').rglob('*'):
+              if p.is_file():z.write(p,p.as_posix())
+            for p in pathlib.Path('resources/library').rglob('math-v3-*'):
+              if p.is_file():z.write(p,p.as_posix())
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: paper-public-source52
-          path: /tmp/review52/public-source52.zip
+          name: paper-reviewed-runtime52
+          path: /tmp/review52/runtime52.zip
           retention-days: 3
