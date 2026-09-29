@@ -2,24 +2,71 @@ name: Verify research reader v5.3
 on:
   push:
     branches: [research-reader-v53]
+    paths:
+      - .github/workflows/research-reader-v53.yml
+      - resources/research-ready-v53.json
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: research-reader-v53
+  cancel-in-progress: true
 jobs:
-  prepare:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Prepare exact reviewed source
-        run: |
-          mkdir -p review
-          git archive --format=tar.gz HEAD > review/source.tar.gz
-      - uses: actions/upload-artifact@v4
+      - uses: actions/setup-node@v4
         with:
-          name: paper-v53-source
-          path: review/source.tar.gz
-          retention-days: 2
+          node-version: '22'
+      - name: Apply reviewed integration and validate source
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/test_research_v53.py')
+          p.write_text(p.read_text().replace('dataset.researchV53\',id)', 'dataset.researchV53\',arg=id)'))
+          p=Path('scripts/install_research_v53.py')
+          t=p.read_text()
+          t=t.replace('def main():\n', 'def main():\n if "researchStudio" in (ROOT/"scripts/build_reader.py").read_text() and "writeAssistantReview" in (ROOT/"src/sync.js").read_text():\n  print("Integration already present");return\n',1)
+          p.write_text(t)
+          PY
+          python scripts/install_research_v53.py
+          node --check src/research.js
+          node --check src/research-review.js
+          node --check src/sync.js
+          python scripts/build.py --source-commit="$GITHUB_SHA"
+          python examples/pareto_lab.py --test
+          python examples/sequence_lab.py
+      - name: Install browser runtime
+        run: |
+          pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Test evidence and every feedback surface
+        run: python scripts/test_research_v53.py
+      - name: Existing complete reading and offline regressions
+        run: |
+          python scripts/test_browser.py
+          python scripts/test_reader.py
+          python scripts/test_study.py
+          python scripts/test_workspace.py
+          python scripts/test_workspace_hardening.py
+          python scripts/test_v5.py
+          python scripts/test_release51.py
+      - name: Commit verified integration only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add AGENTS.md src/index.html src/app.js src/release.js src/sync.js src/research.js resources/application-release.json resources/research-v53.json scripts/build_tutorials.py scripts/build_reader.py scripts/install_research_v53.py scripts/test_research_v53.py .github/workflows/pages.yml
+          git diff --cached --quiet || git commit -m 'Integrate tested research-reader v5.3 without altering private data'
+          git push origin HEAD:research-reader-v53
+      - name: Save synthetic acceptance reports and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-research-v53-tests
+          path: test-results/
+          retention-days: 7
