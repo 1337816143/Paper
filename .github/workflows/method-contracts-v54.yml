@@ -27,6 +27,7 @@ jobs:
         run: |
           python scripts/install_v54.py
           python scripts/fix_v54_integration.py
+          python scripts/update_resources_v54.py
           node --check src/personal.js
           node --check src/contracts.js
           node --check src/release.js
@@ -54,11 +55,12 @@ jobs:
           git diff --exit-code -- .github/workflows
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add AGENTS.md src/index.html src/app.js src/release.js src/personal.js src/contracts.js scripts/build_reader.py scripts/build_tutorials.py scripts/test_personal_v54.py resources/application-release.json content/method-ledgers-v54.json content/paper-ledgers-v54.json
-          git diff --cached --quiet || git commit -m 'Integrate tested v5.4 personal entry and complete method ledgers'
+          git add AGENTS.md src/index.html src/app.js src/release.js src/personal.js src/contracts.js scripts/build_reader.py scripts/build_tutorials.py scripts/test_personal_v54.py resources/application-release.json resources/method-contracts-v54.json content/papers.json content/method-ledgers-v54.json content/paper-ledgers-v54.json
+          git diff --cached --quiet || git commit -m 'Integrate fully tested v5.4 private-entry capability, method ledgers and verified author-data provenance'
           git push origin HEAD:method-contracts-v54
       - uses: actions/upload-artifact@v4
         if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: paper-v54-synthetic-tests
           path: test-results/
