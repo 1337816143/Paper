@@ -51,14 +51,16 @@ jobs:
           python scripts/test_browser.py > /tmp/old-browser.log 2>&1 || { tail -70 /tmp/old-browser.log; exit 1; }
           python scripts/test_reader.py
           python scripts/test_study.py
-          if test -f scripts/test_workspace.py; then python scripts/test_workspace.py; fi
+          python scripts/test_workspace.py
+          python scripts/test_workspace_hardening.py
       - name: Validate compact notes, custom tags and multi-device merge semantics
         run: python scripts/test_v5.py
       - name: Commit only tested source changes on the feature branch
         run: |
           git config user.name paper-reader-maintainer
           git config user.email paper-reader-maintainer@users.noreply.github.com
-          git add AGENTS.md src/index.html src/app.js src/reader.js src/study.js src/workspace.js src/sync.js src/comfort.js src/comfort.css scripts/build_reader.py scripts/test_reader.py scripts/test_v5.py scripts/prepare_comfort_v5.py resources/catalog.json resources/study-v3.json content/session-log.json .github/workflows/pages.yml
+          git add AGENTS.md src/index.html src/app.js src/reader.js src/study.js src/workspace.js src/sync.js src/comfort.js src/comfort.css scripts/build_reader.py scripts/test_reader.py scripts/test_v5.py scripts/prepare_comfort_v5.py resources/catalog.json resources/study-v3.json content/session-log.json
+          git diff --exit-code -- .github/workflows/pages.yml
           if ! git diff --cached --quiet; then
             git commit -m "Integrate verified private-vault sync and contextual reading UI"
             git push origin HEAD:reader-comfort-sync-v5
