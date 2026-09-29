@@ -18,11 +18,12 @@ def github(route):
  request=route.request;url=urllib.parse.urlsplit(request.url);path=urllib.parse.unquote(url.path)
  def reply(code,data):route.fulfill(status=code,content_type='application/json',body=json.dumps(data))
  if fault['force401']:return reply(401,{'message':'Test authentication failure'})
- if path.rstrip('/') in ['/repos/paper-tests/private','/repos/paper-tests/public']:return reply(200,{'private':'/private' in path,'permissions':{'push':True}})
+ if path.rstrip('/') in ['/repos/paper-tests/private','/repos/paper-tests/public']:return reply(200,{'private':'/private' in path,'permissions':{'push':False}})
  if '/branches/' in path:return reply(200,{'name':'paper-user-data','commit':{'sha':'test-branch'}})
  if '/contents/' not in path:return reply(404,{'message':'Not found'})
  file=path.split('/contents/',1)[1]
  assert file.startswith('private/paper-sync/v5/'),file
+ if request.method!='GET' and fault.get('denyWrite'):return reply(403,{'message':'Synthetic endpoint Contents permission denial'})
  if request.method=='GET':
   if file not in files:return reply(404,{'message':'Not found'})
   b,s=files[file];return reply(200,{'encoding':'base64','content':base64.b64encode(b).decode(),'sha':s,'size':len(b)})
@@ -76,6 +77,9 @@ with sync_playwright() as p:
   for page2 in [pa,pb]:
    assert not page2.evaluate("s=>JSON.stringify(localStorage).includes(s)||JSON.stringify(sessionStorage).includes(s)",secret)
    assert not page2.evaluate("async s=>JSON.stringify((await PaperSync.capture()).entries).includes(s)",secret)
+  pa.evaluate('PaperSync.disconnect()');fault['denyWrite']=True
+  denied=pa.evaluate("async token=>{try{await PaperSync.connect({repository:'paper-tests/private',branch:'paper-user-data'},token);return false;}catch{return !PaperSync.status().connected&&PaperSync.status().state==='error';}}",secret)
+  assert denied;fault['denyWrite']=False;checks.append('Actual Contents write denial blocks connection despite readable private repository metadata')
   writes=fault['writes'];result=pa.evaluate("async token=>{PaperSync.disconnect();try{await PaperSync.connect({repository:'paper-tests/public',branch:'paper-user-data'},token);return false;}catch(e){return e.message.includes('公开仓库');}}",secret);assert result and fault['writes']==writes;pb.evaluate('PaperSync.disconnect()');checks.append('Public repositories are rejected before any note write; authorization never enters storage or captured backups')
   phone=browser.new_context(viewport={'width':390,'height':844},is_mobile=True,has_touch=True,device_scale_factor=2);m=phone.new_page();m.goto(BASE+'#/annotations');m.wait_for_selector('#new-note');m.locator('#new-note').click();m.wait_for_selector('#note-editor');box=m.locator('#note-editor').bounding_box();assert box['x']>=0 and box['x']+box['width']<=391;assert m.evaluate('document.documentElement.scrollWidth<=innerWidth+1');m.screenshot(path=str(RES/'v5-phone-note.png'));m.locator('#close-note').click();m.goto(BASE+'#/home');m.wait_for_selector('.interactive-tag');assert m.evaluate('document.documentElement.scrollWidth<=innerWidth+1');m.screenshot(path=str(RES/'v5-phone-home.png'));m.locator('#theme').click();m.screenshot(path=str(RES/'v5-phone-dark.png'));checks.append('390px touch viewport, note popover, liquid-glass light/dark layouts stay within the screen')
   m.emulate_media(reduced_motion='reduce');assert m.evaluate("getComputedStyle(document.querySelector('.hero')).animationName==='none'");checks.append('Reduced-motion preference disables decorative animation')
