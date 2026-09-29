@@ -24,17 +24,10 @@ jobs:
       - name: Build and check teaching algorithms and source archive
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
-          node --check src/app.js
-          node --check src/reader.js
-          node --check src/study.js
-          node --check src/translation-worker.js
-          node --check src/workspace.js
-          node --check src/sync.js
-          node --check src/comfort.js
-          node --check src/research.js
-          node --check src/research-review.js
+          for file in app reader study translation-worker workspace sync comfort research research-review release personal contracts; do node --check "src/$file.js"; done
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
+          python examples/paper_minilab.py --test
       - name: Install browser test runtime
         run: |
           pip install playwright==1.55.0
@@ -52,11 +45,11 @@ jobs:
       - name: Test compact notes, custom tags and private-sync semantics
         run: python scripts/test_v5.py
       - name: Test safe automatic releases
-        run: |
-          node --check src/release.js
-          python scripts/test_release51.py
+        run: python scripts/test_release51.py
       - name: Test research evidence and all manual-input surfaces
         run: python scripts/test_research_v53.py
+      - name: Test private-entry persistence, two profiles and method ledgers with synthetic credentials only
+        run: python scripts/test_personal_v54.py
       - name: Save public acceptance reports
         run: |
           cp test-results/study-report.json dist/site/study-validation.json
@@ -65,6 +58,7 @@ jobs:
           cp test-results/v5-report.json dist/site/v5-validation.json
           cp test-results/release51-report.json dist/site/release51-validation.json
           cp test-results/research-v53-report.json dist/site/research-v53-validation.json
+          cp test-results/personal-v54-report.json dist/site/personal-v54-validation.json
       - name: Save test artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -92,29 +86,26 @@ jobs:
       - name: Publish tested site
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify exact public release and workspace resources
+      - name: Verify exact public release and bounded private-entry capability
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           set -euo pipefail
           verified=false
           for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.3.0'; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; print(d)"; then
-              verified=true
-              break
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.4.0'; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==21; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
+              verified=true; break
             fi
             sleep 5
           done
           test "$verified" = true
-          curl --fail --silent --show-error "${PAGE_URL%/}/study-data.js" -o live-study-data.js
-          curl --fail --silent --show-error "${PAGE_URL%/}/workspace.js" -o live-workspace.js
-          curl --fail --silent --show-error "${PAGE_URL%/}/sync.js" -o live-sync.js
+          for name in study-data workspace sync release research personal contracts; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
           curl --fail --silent --show-error "${PAGE_URL%/}/comfort.css" -o live-comfort.css
-          curl --fail --silent --show-error "${PAGE_URL%/}/release.js" -o live-release.js
-          curl --fail --silent --show-error "${PAGE_URL%/}/research.js" -o live-research.js
           curl --fail --silent --show-error "${PAGE_URL%/}/read/xu-chapter4.html" -o live-xu-chapter4.html
           curl --fail --silent --show-error "${PAGE_URL%/}/read/research-framework.html" -o live-framework.html
           curl --fail --silent --show-error "${PAGE_URL%/}/read/liang-indicator-audit.html" -o live-indicator-audit.html
+          curl --fail --silent --show-error "${PAGE_URL%/}/read/method-ledgers.html" -o live-method-ledgers.html
+          curl --fail --silent --show-error "${PAGE_URL%/}/examples/paper_minilab.py" -o live-minilab.py
           curl --fail --silent --show-error "${PAGE_URL%/}/downloads/index.html" -o live-downloads.html
           grep -q 'Paper-Translation' live-downloads.html
           grep -q '完整' live-framework.html
@@ -122,21 +113,13 @@ jobs:
           grep -q 'window.PaperSync' live-sync.js
           grep -q 'window.PaperRelease' live-release.js
           grep -q 'window.PaperResearch' live-research.js
+          grep -q 'window.PaperPersonal' live-personal.js
+          grep -q 'window.PaperContracts' live-contracts.js
           grep -q '7个目标' live-xu-chapter4.html
           grep -q 'prefers-reduced-motion' live-comfort.css
+          python live-minilab.py --test
       - uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification
-          path: |
-            live-release.json
-            live-study-data.js
-            live-workspace.js
-            live-sync.js
-            live-comfort.css
-            live-release.js
-            live-research.js
-            live-indicator-audit.html
-            live-xu-chapter4.html
-            live-framework.html
-            live-downloads.html
+          path: live-*
           retention-days: 30
