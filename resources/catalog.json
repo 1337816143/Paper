@@ -702,6 +702,21 @@
       "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
       "accessAttempts": [],
       "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
+    },
+    {
+      "id": "dong-2026",
+      "title": "The potential for attaining agricultural production targets within nutrient boundaries: A case study for Hainan Island, China",
+      "citation": "Dong, P., et al. (2026). Agricultural Systems, 234, 104695.",
+      "sourceURL": "https://doi.org/10.1016/j.agsy.2026.104695",
+      "checkedAt": "2026-09-30T09:31:00Z",
+      "status": "rights-review",
+      "pages": 13,
+      "reason": "用户提供的13页出版PDF已在本机核对；版权页声明保留所有权利，未取得公开再分发许可，不进入公开原文库。补充材料与作者原始数据尚未取得。",
+      "aliases": ["https://doi.org/10.1016/j.agsy.2026.104695"],
+      "accessStatus": "user-local-copy-verified",
+      "accessNote": "可在自己的设备导入合法持有的原PDF阅读。本站的带读和方法账本不等于公开原件，也不表示本机文件已同步到私人云端。",
+      "verifiedPDFPages": 13,
+      "sha256": "cf0b6c31874d95e945d7e3926ba7c64806d719d2aede3b2c13fdb6658aed2b86"
     }
   ],
   "policy": "Noncommercial scholarly archive; explicit licenses, exact originals; private imports stay local."
