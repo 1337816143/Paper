@@ -27,7 +27,8 @@ async function withGateway(fn,{login}={}){
 }
 
 test('deployment rejects shared GitHub Pages origins and missing credentials',()=>{
-  assert.throws(()=>checkedConfig({}),/credentials/);
+  assert.throws(()=>checkedConfig({}),/invalid/);
+  assert.throws(()=>checkedConfig({GITHUB_APP_CLIENT_ID:'x',PUBLIC_BASE_URL:'http://127.0.0.1:4173',PAPER_SITE_ORIGIN:'http://127.0.0.1:4173',ALLOW_INSECURE_LOCAL:'1'}),/Partial gateway credentials/);
   const env={GITHUB_APP_CLIENT_ID:'x',GITHUB_APP_CLIENT_SECRET:'y',COOKIE_KEY_BASE64URL:Buffer.alloc(32).toString('base64url'),PUBLIC_BASE_URL:'https://1337816143.github.io',PAPER_SITE_ORIGIN:'https://1337816143.github.io'};
   assert.throws(()=>checkedConfig(env),/dedicated same-origin/);
 });
@@ -103,4 +104,23 @@ test('gateway serves the Paper site at the OAuth origin with bounded paths and C
       assert.equal((await fetch(base+'/style.css',{method:'HEAD'})).status,200);
     }finally{server.close();await once(server,'close');}
   }finally{await rm(site,{recursive:true,force:true});}
+});
+
+test('unconfigured gateway serves the public site but refuses authorization',async()=>{
+  const site=await mkdtemp(join(tmpdir(),'paper-unconfigured-'));
+  await writeFile(join(site,'index.html'),'<title>Paper</title>');
+  const disabled=checkedConfig({
+    RENDER_EXTERNAL_URL:'http://127.0.0.1:4173',ALLOW_INSECURE_LOCAL:'1',PAPER_SITE_DIR:site
+  });
+  assert.equal(disabled.enabled,false);
+  const server=createGateway(disabled,{fetchImpl:async()=>{throw Error('GitHub must not be called');}});
+  server.listen(0,'127.0.0.1');await once(server,'listening');
+  const base='http://127.0.0.1:'+server.address().port;
+  try{
+    assert.equal((await fetch(base+'/')).status,200);
+    assert.deepEqual(await (await fetch(base+'/auth/config')).json(),{mode:'unconfigured',repository:'1337816143/My-Evolution'});
+    assert.equal((await fetch(base+'/start?nonce='+ 'n'.repeat(32))).status,503);
+    assert.equal((await fetch(base+'/callback?code=x')).status,503);
+    assert.equal((await fetch(base+'/refresh',{method:'POST'})).status,503);
+  }finally{server.close();await once(server,'close');await rm(site,{recursive:true,force:true});}
 });

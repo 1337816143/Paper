@@ -19,15 +19,18 @@ const plainError=(res,status,message)=>json(res,status,{error:message});
 
 export function checkedConfig(env=process.env){
   const clientId=env.GITHUB_APP_CLIENT_ID,clientSecret=env.GITHUB_APP_CLIENT_SECRET;
-  const baseUrl=env.PUBLIC_BASE_URL,siteOrigin=env.PAPER_SITE_ORIGIN;
-  const cookieKey=Buffer.from(env.COOKIE_KEY_BASE64URL||'','base64url');
-  if(!clientId||!clientSecret||cookieKey.length!==32)throw Error('Gateway credentials are not configured');
+  const baseUrl=env.PUBLIC_BASE_URL||env.RENDER_EXTERNAL_URL,siteOrigin=env.PAPER_SITE_ORIGIN||baseUrl;
+  const credentials=[clientId,clientSecret,env.COOKIE_KEY_BASE64URL];
+  const enabled=credentials.every(Boolean);
+  if(credentials.some(Boolean)&&!enabled)throw Error('Partial gateway credentials are not allowed');
+  const cookieKey=enabled?Buffer.from(env.COOKIE_KEY_BASE64URL,'base64url'):null;
+  if(enabled&&cookieKey.length!==32)throw Error('Gateway cookie key must be 32 bytes');
   for(const [label,url] of [['PUBLIC_BASE_URL',baseUrl],['PAPER_SITE_ORIGIN',siteOrigin]]){
     let parsed;try{parsed=new URL(url);}catch{throw Error(label+' is invalid');}
     if(parsed.origin!==url||parsed.username||parsed.password||parsed.protocol!=='https:'&&!(env.ALLOW_INSECURE_LOCAL==='1'&&parsed.hostname==='127.0.0.1'))throw Error(label+' must be an allowed origin');
   }
   if(siteOrigin!==baseUrl||new URL(siteOrigin).hostname.endsWith('.github.io'))throw Error('A dedicated same-origin Paper host is required');
-  return {clientId,clientSecret,baseUrl,siteOrigin,cookieKey,siteDir:env.PAPER_SITE_DIR?resolve(env.PAPER_SITE_DIR):null,expectedLogin:'1337816143',repository:REPOSITORY};
+  return {enabled,clientId,clientSecret,baseUrl,siteOrigin,cookieKey,siteDir:env.PAPER_SITE_DIR?resolve(env.PAPER_SITE_DIR):null,expectedLogin:'1337816143',repository:REPOSITORY};
 }
 
 function seal(data,key){const iv=randomBytes(12),cipher=createCipheriv('aes-256-gcm',key,iv);const body=Buffer.concat([cipher.update(JSON.stringify(data),'utf8'),cipher.final()]);return [b64(iv),b64(cipher.getAuthTag()),b64(body)].join('.');}
@@ -68,8 +71,9 @@ export function createGateway(config,{fetchImpl=fetch}={}){
   return createServer(async(req,res)=>{
     Object.entries(safeHeaders).forEach(([k,v])=>res.setHeader(k,v));
     const url=new URL(req.url||'/',config.baseUrl);
-    if(url.pathname==='/health'&&req.method==='GET')return json(res,200,{status:'ready'});
-    if(url.pathname==='/auth/config'&&req.method==='GET')return json(res,200,{mode:'github-app',repository:REPOSITORY});
+    if(url.pathname==='/health'&&req.method==='GET')return json(res,200,{status:'ready',auth:config.enabled?'ready':'unconfigured'});
+    if(url.pathname==='/auth/config'&&req.method==='GET')return json(res,200,{mode:config.enabled?'github-app':'unconfigured',repository:REPOSITORY});
+    if(!config.enabled&&['/start','/callback','/refresh'].includes(url.pathname))return plainError(res,503,'Private login is not configured');
     if(url.pathname==='/start'&&req.method==='GET'){
       const nonce=url.searchParams.get('nonce');if(!nonce||! /^[A-Za-z0-9_-]{24,100}$/.test(nonce))return plainError(res,400,'Invalid login request');
       const state=b64(randomBytes(32)),verifier=b64(randomBytes(32));

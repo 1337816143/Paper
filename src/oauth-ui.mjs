@@ -2,10 +2,30 @@ import {createOAuthClient,encryptedDeviceStore} from './oauth-client.mjs';
 
 const dedicated=(location.protocol==='https:'||location.hostname==='127.0.0.1')
   && !location.hostname.endsWith('.github.io') && location.protocol!=='file:';
-let available=false;
+let available=false,dormant=false;
 if(dedicated){
-  try{available=localStorage.getItem('paper-oauth-host-v1')===location.origin;}catch{}
-  try{const response=await fetch('/auth/config',{cache:'no-store',credentials:'omit'});if(response.ok&&(await response.json()).mode==='github-app'){available=true;try{localStorage.setItem('paper-oauth-host-v1',location.origin);}catch{}}}catch{}
+  try{const cached=localStorage.getItem('paper-oauth-host-v1');available=cached===location.origin;dormant=cached==='unconfigured:'+location.origin;}catch{}
+  try{
+    const response=await fetch('/auth/config',{cache:'no-store',credentials:'omit'});
+    if(response.ok){
+      const mode=(await response.json()).mode;
+      if(mode==='github-app'){available=true;dormant=false;try{localStorage.setItem('paper-oauth-host-v1',location.origin);}catch{}}
+      if(mode==='unconfigured'){available=false;dormant=true;try{localStorage.setItem('paper-oauth-host-v1','unconfigured:'+location.origin);}catch{}}
+    }
+  }catch{}
+}
+if(dormant&&window.PaperSync){
+  document.body.classList.add('oauth-host');
+  const mountDormant=()=>{
+    if(location.hash!=='#/sync'||document.querySelector('#paper-oauth-panel'))return;
+    const view=document.querySelector('#view');if(!view)return;
+    const panel=document.createElement('section');panel.id='paper-oauth-panel';panel.className='card paper-oauth-panel';
+    panel.innerHTML='<div class="paper-oauth-heading"><div><span class="eyebrow">PRIVATE GITHUB VAULT</span><h2>私人同步尚未开通</h2></div><span class="paper-oauth-badge">未启用</span></div><p>这个入口目前只提供公开学习内容。你的笔记仍保存在本机；GitHub 登录配置完成后，这里会出现一次登录按钮。请不要在网页中输入或粘贴令牌。</p>';
+    view.prepend(panel);
+  };
+  new MutationObserver(mountDormant).observe(document.querySelector('#view'),{childList:true});
+  addEventListener('hashchange',()=>queueMicrotask(mountDormant));
+  mountDormant();
 }
 if(available&&window.PaperSync){
   document.body.classList.add('oauth-host');

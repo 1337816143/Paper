@@ -58,6 +58,7 @@ def main():
         ('127.0.0.1', 0), functools.partial(QuietHandler, directory=str(site)))
     thread = threading.Thread(target=static.serve_forever, daemon=True)
     thread.start()
+    disabled = None
     try:
         for _ in range(80):
             if gateway.poll() is not None:
@@ -112,14 +113,49 @@ def main():
             assert plain.locator('#paper-oauth-panel').count() == 0
             assert plain.locator('#vault-connect').is_visible()
             mirror.close()
+            disabled_port = free_port()
+            disabled_origin = f'http://127.0.0.1:{disabled_port}'
+            disabled_env = env.copy()
+            for name in ('GITHUB_APP_CLIENT_ID', 'GITHUB_APP_CLIENT_SECRET',
+                         'COOKIE_KEY_BASE64URL', 'PUBLIC_BASE_URL', 'PAPER_SITE_ORIGIN'):
+                disabled_env.pop(name, None)
+            disabled_env.update({'PORT': str(disabled_port), 'RENDER_EXTERNAL_URL': disabled_origin})
+            disabled = subprocess.Popen(['node', 'auth-gateway/server.mjs'], cwd=ROOT, env=disabled_env,
+                                        stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+            for _ in range(80):
+                if disabled.poll() is not None:
+                    raise RuntimeError('Unconfigured gateway exited: ' + disabled.stderr.read().decode()[-1200:])
+                try:
+                    with urllib.request.urlopen(disabled_origin + '/auth/config', timeout=1) as response:
+                        assert json.load(response)['mode'] == 'unconfigured'
+                    break
+                except Exception:
+                    time.sleep(.1)
+            else:
+                raise RuntimeError('Unconfigured gateway did not become ready')
+            dormant = browser.new_context()
+            dormant_page = dormant.new_page()
+            dormant_page.goto(disabled_origin + '/#/sync', wait_until='domcontentloaded')
+            dormant_page.locator('#paper-oauth-panel').wait_for(timeout=30000)
+            assert '私人同步尚未开通' in dormant_page.locator('#paper-oauth-panel').inner_text()
+            assert dormant_page.locator('#vault-connect').is_hidden()
+            assert dormant_page.get_by_role('button', name='使用 GitHub 登录').count() == 0
+            dormant.close()
             context.close()
             browser.close()
-        report = {'passed': True, 'checks': 13, 'credentials': 'synthetic only'}
+        report = {'passed': True, 'checks': 17, 'credentials': 'synthetic only'}
         (args.output / 'oauth-ui-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
         print(json.dumps(report))
     finally:
         static.shutdown()
         static.server_close()
+        if disabled is not None:
+            disabled.terminate()
+            try:
+                disabled.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                disabled.kill()
+                disabled.wait(timeout=5)
         gateway.terminate()
         try:
             gateway.wait(timeout=5)
