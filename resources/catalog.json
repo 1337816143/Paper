@@ -692,16 +692,25 @@
     },
     {
       "id": "farmsteps-software",
-      "title": "FarmSTEPS官方代码与说明",
+      "title": "FarmSTEPS官方软件与手册（许可待核）",
       "sourceURL": "https://git.wur.nl/jeroen.groot/farmsteps.package",
       "status": "rights-review",
       "reason": "软件许可需独立核验；论文许可不自动授权源码与文档镜像。",
       "aliases": [
         "https://git.wur.nl/jeroen.groot/farmsteps.package"
       ],
-      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
-      "accessAttempts": [],
-      "accessNote": "本站尚未保存原文。已知来源的本轮读取状态见下方；请求失败不能判断你是否有机构访问权限。可打开原站或用题名重新检索。"
+      "accessCheckedAt": "2026-10-01",
+      "accessStatus": "official-repository-readable",
+      "candidateURL": "https://git.wur.nl/api/v4/projects/27163/repository/files/Docs%2FFarmSTEPS_Manual.pdf/raw?ref=221d777ca84c565613ddb7643f9fd0211e7f2914",
+      "accessAttempts": [
+        {
+          "url": "https://git.wur.nl/jeroen.groot/farmsteps.package",
+          "status": "public-repository-readable",
+          "commit": "221d777ca84c565613ddb7643f9fd0211e7f2914",
+          "filesObserved": "Bin/FarmSTEPS.exe; Docs/FarmSTEPS_Manual.pdf; Docs/FarmSTEPS_ReleaseNotes.pdf; Input/*.mdb and GIS samples; R/20230410_Farm_Clean.R"
+        }
+      ],
+      "accessNote": "WUR公开GitLab仓库可访问，2025-09-10提交含2023年v1.0.3 Windows可执行文件、15页手册、发布说明和输入样例。手册第5–6页说明地块历史、年度作物面积目标、地块适宜性、纵向序列约束与全场横向筛选；第8页列出三种算法，第11–12页只给出LND/CRP最简字段。README仍是GitLab模板，仓库未标出许可；这里提供官方原站链接，不镜像二进制或声称已运行、已复现2026论文案例。"
     },
     {
       "id": "dong-2026",
