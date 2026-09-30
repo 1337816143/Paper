@@ -1,0 +1,14 @@
+.oauth-host #vault-connect,.oauth-host #personal-status-panel,.oauth-host .sync-panel>details{display:none!important}
+.paper-oauth-panel{border-color:var(--accent);display:grid;gap:12px;margin:18px 0 24px}
+.paper-oauth-panel h2{margin:4px 0 0;font-size:clamp(20px,2.5vw,26px);line-height:1.35}
+.paper-oauth-panel p{margin:0;line-height:1.8}
+.paper-oauth-heading{display:flex;gap:16px;align-items:start;justify-content:space-between}
+.paper-oauth-badge{border:1px solid var(--line);border-radius:999px;background:var(--soft);padding:6px 12px;font-size:12px;white-space:nowrap}
+.paper-oauth-badge[data-state=synced]{border-color:var(--accent);color:var(--accent)}
+.paper-oauth-badge[data-state=error],.paper-oauth-badge[data-state=offline]{border-color:var(--warn);color:var(--warn)}
+.paper-oauth-message{min-height:1.8em;color:var(--muted);font-size:14px}
+.paper-oauth-actions{display:flex;flex-wrap:wrap;gap:10px}
+.paper-oauth-actions button{min-height:42px}
+.paper-oauth-panel details{margin:0}
+@media(max-width:600px){.paper-oauth-heading{display:block}.paper-oauth-badge{display:inline-block;margin-top:12px}.paper-oauth-actions button{width:100%}}
+

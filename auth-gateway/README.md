@@ -1,6 +1,6 @@
 # Paper GitHub App login gateway (deployment candidate)
 
-Status: **tested locally, not deployed or connected to Paper Lab**. The current public GitHub Pages site retains its existing local-first sync behavior. No real user has signed in through this gateway, and no private checkpoint has been confirmed by this prototype.
+Status: **gateway and dedicated-host UI tested locally, not deployed**. The public GitHub Pages site retains its existing local-first sync behavior. No real user has signed in through this gateway, and no private checkpoint has been confirmed by this prototype.
 
 ## Purpose and boundary
 
@@ -13,8 +13,8 @@ Changing origins does **not** move existing local notes. Before switching, the c
 ## External setup required before activation
 
 1. Register a GitHub App owned by the user's account, with expiring user access tokens enabled. Install it for **only** `1337816143/My-Evolution`. Grant repository **Contents: read/write** and the default Metadata read permission; do not grant Actions, Administration or all-repository access. Restrict the app's callback URL to `<dedicated-origin>/callback`.
-2. Provision a private HTTPS web service for this gateway and the Paper site at the same origin. Keep `GITHUB_APP_CLIENT_SECRET` and a random 32-byte `COOKIE_KEY_BASE64URL` in the service's secret store, never in GitHub Pages, source files, URLs, logs or screenshots. Configure `GITHUB_APP_CLIENT_ID`, `PUBLIC_BASE_URL` and `PAPER_SITE_ORIGIN` with that exact origin.
-3. Integrate `browser-client.mjs` into the Paper UI only after the host and app are available. The login button must open `/start`; on success call `createOAuthClient(...).login()`. At startup call `resume()` before claiming cloud sync. Keep `PaperSync`'s actual private repository write/readback check and `云端已确认` receipt as the acceptance gate. Test an isolated synthetic note on two devices and verify refresh-token rotation, revocation, offline edits and conflict preservation.
+2. Provision a private HTTPS web service for this gateway and the Paper site at the same origin. Build Paper into `dist/site` using `python scripts/build.py`; set `PAPER_SITE_DIR` to that absolute directory and start `node auth-gateway/server.mjs`. Keep `GITHUB_APP_CLIENT_SECRET` and a random 32-byte `COOKIE_KEY_BASE64URL` in the service's secret store, never in GitHub Pages, source files, URLs, logs or screenshots. Configure `GITHUB_APP_CLIENT_ID`, `PUBLIC_BASE_URL` and `PAPER_SITE_ORIGIN` with that exact origin. The gateway serves only files under `PAPER_SITE_DIR` and applies a script CSP to HTML.
+3. The dedicated-host build loads `oauth-ui.mjs` and its encrypted browser controller; the public GitHub Pages build skips login activation. Verify the login button, refresh recovery, and `PaperSync`'s private repository write/readback before claiming `云端已确认`. Test an isolated synthetic note on two devices and verify refresh-token rotation, revocation, offline edits and conflict preservation. Do not use the service with multiple active Paper tabs until rotating credentials are coordinated between tabs.
 
 The GitHub App registration and service creation expand access to a private repository and need review of the exact permission screen. No credentials should be sent in chat.
 

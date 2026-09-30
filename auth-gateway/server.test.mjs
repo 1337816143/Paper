@@ -72,3 +72,35 @@ test('refresh requires the exact origin and rotates through the server secret',(
   assert.equal(good.headers.get('access-control-allow-origin'),config().siteOrigin);
   assert.equal((await good.json()).accessToken,ACCESS);
 }));
+import {mkdtemp,mkdir,writeFile,rm} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+
+test('gateway serves the Paper site at the OAuth origin with bounded paths and CSP',async()=>{
+  const site=await mkdtemp(join(tmpdir(),'paper-site-'));
+  try{
+    await writeFile(join(site,'index.html'),'<title>Paper</title>');
+    await writeFile(join(site,'style.css'),'body{}');
+    await mkdir(join(site,'downloads'));
+    await writeFile(join(site,'downloads','Paper-Lab-offline.html'),'<script>offline()</script>');
+    const server=createGateway({...config(),siteDir:site},{fetchImpl:mockGithub()});
+    server.listen(0,'127.0.0.1');await once(server,'listening');
+    const base='http://127.0.0.1:'+server.address().port;
+    try{
+      const marker=await fetch(base+'/auth/config');
+      assert.deepEqual(await marker.json(),{mode:'github-app',repository:'1337816143/My-Evolution'});
+      const home=await fetch(base+'/');
+      assert.equal(home.status,200);
+      assert.equal(await home.text(),'<title>Paper</title>');
+      assert.match(home.headers.get('content-security-policy'),/script-src 'self'/);
+      const css=await fetch(base+'/style.css');
+      assert.equal(css.headers.get('content-type'),'text/css; charset=utf-8');
+      assert.equal(await css.text(),'body{}');
+      assert.equal((await fetch(base+'/.env')).status,404);
+      assert.equal((await fetch(base+'/%2e%2e/%2e%2e/secrets')).status,404);
+      const offline=await fetch(base+'/downloads/Paper-Lab-offline.html');
+      assert.match(offline.headers.get('content-disposition'),/^attachment/);
+      assert.equal((await fetch(base+'/style.css',{method:'HEAD'})).status,200);
+    }finally{server.close();await once(server,'close');}
+  }finally{await rm(site,{recursive:true,force:true});}
+});

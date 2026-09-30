@@ -1,6 +1,9 @@
 import {createServer} from 'node:http';
 import {createCipheriv,createDecipheriv,createHash,randomBytes,timingSafeEqual} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
+import {createReadStream} from 'node:fs';
+import {realpath,stat} from 'node:fs/promises';
+import {resolve,sep} from 'node:path';
 
 const REPOSITORY='1337816143/My-Evolution';
 const COOKIE='__Host-paper-oauth';
@@ -24,7 +27,7 @@ export function checkedConfig(env=process.env){
     if(parsed.origin!==url||parsed.username||parsed.password||parsed.protocol!=='https:'&&!(env.ALLOW_INSECURE_LOCAL==='1'&&parsed.hostname==='127.0.0.1'))throw Error(label+' must be an allowed origin');
   }
   if(siteOrigin!==baseUrl||new URL(siteOrigin).hostname.endsWith('.github.io'))throw Error('A dedicated same-origin Paper host is required');
-  return {clientId,clientSecret,baseUrl,siteOrigin,cookieKey,expectedLogin:'1337816143',repository:REPOSITORY};
+  return {clientId,clientSecret,baseUrl,siteOrigin,cookieKey,siteDir:env.PAPER_SITE_DIR?resolve(env.PAPER_SITE_DIR):null,expectedLogin:'1337816143',repository:REPOSITORY};
 }
 
 function seal(data,key){const iv=randomBytes(12),cipher=createCipheriv('aes-256-gcm',key,iv);const body=Buffer.concat([cipher.update(JSON.stringify(data),'utf8'),cipher.final()]);return [b64(iv),b64(cipher.getAuthTag()),b64(body)].join('.');}
@@ -33,6 +36,26 @@ function cookieValue(req){const match=(req.headers.cookie||'').match(/(?:^|;\s*)
 const cookieHeader=value=>`${COOKIE}=${value}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`;
 const clearCookie=`${COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`;
 const safeHeaders={'Cache-Control':'no-store','Referrer-Policy':'no-referrer','X-Content-Type-Options':'nosniff','X-Frame-Options':'DENY'};
+const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.pdf':'application/pdf','.woff2':'font/woff2','.wasm':'application/wasm','.zip':'application/zip','.webmanifest':'application/manifest+json'};
+const SITE_CSP="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'";
+
+async function serveSite(req,res,root,pathname){
+  if(!root||!['GET','HEAD'].includes(req.method))return plainError(res,404,'Not found');
+  let segments;try{segments=(pathname==='/'?'/index.html':pathname).slice(1).split('/').map(decodeURIComponent);}catch{return plainError(res,400,'Invalid path');}
+  if(segments.some(s=>!s||s==='.'||s==='..'||s.startsWith('.')||s.includes('\\')||s.includes('/')||s.includes('\0')))return plainError(res,404,'Not found');
+  const target=resolve(root,...segments);
+  if(!target.startsWith(root+sep))return plainError(res,404,'Not found');
+  try{
+    const actual=await realpath(target),info=await stat(actual);
+    if(!actual.startsWith(root+sep)||!info.isFile())return plainError(res,404,'Not found');
+    const extension='.'+segments.at(-1).split('.').at(-1).toLowerCase();
+    const headers={...safeHeaders,'Content-Type':MIME[extension]||'application/octet-stream','Content-Length':String(info.size),'Cache-Control':'no-cache'};
+    if(extension==='.html')headers['Content-Security-Policy']=SITE_CSP;
+    if(pathname==='/downloads/Paper-Lab-offline.html')headers['Content-Disposition']='attachment; filename="Paper-Lab-offline.html"';
+    res.writeHead(200,headers);if(req.method==='HEAD')return res.end();
+    createReadStream(actual).on('error',()=>res.destroy()).pipe(res);return;
+  }catch{return plainError(res,404,'Not found');}
+}
 
 async function githubJson(fetchImpl,url,options){const response=await fetchImpl(url,{...options,signal:AbortSignal.timeout(12000)});if(!response.ok)throw Error('GitHub request failed');const data=await response.json();if(data.error||!data||typeof data!=='object')throw Error('GitHub authorization was not completed');return data;}
 async function exchange(fetchImpl,config,grant){const data=await githubJson(fetchImpl,GITHUB_TOKEN,{method:'POST',headers:{Accept:'application/json','Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({client_id:config.clientId,client_secret:config.clientSecret,...grant})});if(!TOKEN.test(data.access_token)||!REFRESH.test(data.refresh_token)||!Number.isFinite(data.expires_in)||!Number.isFinite(data.refresh_token_expires_in))throw Error('Expiring GitHub App tokens are required');return data;}
@@ -46,6 +69,7 @@ export function createGateway(config,{fetchImpl=fetch}={}){
     Object.entries(safeHeaders).forEach(([k,v])=>res.setHeader(k,v));
     const url=new URL(req.url||'/',config.baseUrl);
     if(url.pathname==='/health'&&req.method==='GET')return json(res,200,{status:'ready'});
+    if(url.pathname==='/auth/config'&&req.method==='GET')return json(res,200,{mode:'github-app',repository:REPOSITORY});
     if(url.pathname==='/start'&&req.method==='GET'){
       const nonce=url.searchParams.get('nonce');if(!nonce||! /^[A-Za-z0-9_-]{24,100}$/.test(nonce))return plainError(res,400,'Invalid login request');
       const state=b64(randomBytes(32)),verifier=b64(randomBytes(32));
@@ -69,10 +93,10 @@ export function createGateway(config,{fetchImpl=fetch}={}){
       try{const body=await bodyJson(req);if(!REFRESH.test(body.refreshToken))return json(res,400,{error:'Invalid refresh credential'},cors);const tokens=await exchange(fetchImpl,config,{grant_type:'refresh_token',refresh_token:body.refreshToken});await verifyOwner(fetchImpl,config,tokens.access_token);return json(res,200,tokenResult(tokens),cors);}
       catch{return json(res,401,{error:'Session expired; sign in again'},cors);}
     }
-    return plainError(res,404,'Not found');
+    return serveSite(req,res,config.siteDir,url.pathname);
   });
 }
 
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
-  const config=checkedConfig();const port=Number(process.env.PORT||3000);createGateway(config).listen(port,'0.0.0.0');
+  const config=checkedConfig();if(!config.siteDir)throw Error('PAPER_SITE_DIR is required to serve Paper at the same origin');const port=Number(process.env.PORT||3000);createGateway(config).listen(port,'0.0.0.0');
 }
