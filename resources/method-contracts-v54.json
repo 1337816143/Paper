@@ -137,7 +137,7 @@
     "farmsteps-2026": {
       "object": "一个农场多个地块在三年规划窗口中的作物序列配置；同时存在地块内时序规则与跨地块资源限制。",
       "question": "怎样把地块、时间、活动和农场约束连接起来，系统生成并比较可行生产计划？",
-      "evidence": "原文模型结构、案例与代码可得性；全文目前存私有阅读库，不能把有书目页误算为公开镜像已缓存。",
+      "evidence": "2026论文的模型结构和案例结果来自私有阅读库原文。另核对WUR官方GitLab的FarmSTEPS手册v1.0.3（2023）第5–6页：地块历史、面积目标、地块适宜性、纵向序列约束、横向全场筛选；第8页列出三种算法。该公开仓库含可执行文件、手册、输入样例，但不能把2023手册直接当作2026论文所用版本或案例复现证据。",
       "inputs": [
         [
           "farm/plot/land_unit ID与面积",
@@ -178,12 +178,29 @@
         "kind": "机制练习",
         "do": "运行两地块三时期示例，分别统计局部序列数、组合数、通过资源限制数与非支配数。",
         "expect": "能举出每块地都可行而农场同一季劳动超限的组合，并指出约束在哪一步检查。",
-        "notReproduced": "不是FarmSTEPS原软件或213679方案复现；C#包许可、依赖与原输入仍需核实。"
+        "notReproduced": "不是FarmSTEPS原软件或213679方案复现。已见WUR公开仓库的Windows可执行文件及输入样例，尚未安装运行；仓库未标明许可，2023年v1.0.3与2026论文案例版本/数据是否一致仍待核对。"
       },
       "gaps": [
-        "原软件版本、许可和可运行环境",
-        "完整案例输入/序列规则",
+        "WUR仓库2023年v1.0.3与2026论文所用版本的对应关系、运行环境及许可",
+        "仓库样例与论文完整案例输入/序列规则的对应关系；手册第11–12页只列LND/CRP最简字段",
         "不确定性和跨企业动态扩展的实证支持"
+      ],
+      "authorResources": [
+        {
+          "label": "WUR官方FarmSTEPS仓库",
+          "url": "https://git.wur.nl/jeroen.groot/farmsteps.package",
+          "status": "核查提交221d777；公开可读，许可未标出，未运行"
+        },
+        {
+          "label": "FarmSTEPS手册v1.0.3（15页）",
+          "url": "https://git.wur.nl/api/v4/projects/27163/repository/files/Docs%2FFarmSTEPS_Manual.pdf/raw?ref=221d777ca84c565613ddb7643f9fd0211e7f2914",
+          "status": "2023年手册；与2026论文版本不可直接等同"
+        },
+        {
+          "label": "FarmSTEPS发布说明",
+          "url": "https://git.wur.nl/api/v4/projects/27163/repository/files/Docs%2FFarmSTEPS_ReleaseNotes.pdf/raw?ref=221d777ca84c565613ddb7643f9fd0211e7f2914",
+          "status": "记录v1.0.3及2022–2023更新"
+        }
       ],
       "links": [
         "rotation",
