@@ -91,6 +91,19 @@ def main():
             page.locator('#paper-oauth-panel').wait_for(timeout=30000)
             assert page.locator('#vault-connect').is_hidden()
             assert not errors, errors
+            second = context.new_page()
+            second.goto(origin + '/#/sync', wait_until='domcontentloaded')
+            second.locator('#paper-oauth-panel').wait_for(timeout=30000)
+            assert second.get_by_role('button', name='使用 GitHub 登录').is_disabled()
+            assert second.evaluate('window.PaperOAuth.status().owner') is False
+            page.close()
+            for _ in range(30):
+                if second.evaluate('window.PaperOAuth?.status().owner === true'):
+                    break
+                time.sleep(.5)
+            else:
+                raise AssertionError('Second tab did not take over the Web Lock')
+            assert second.get_by_role('button', name='使用 GitHub 登录').is_enabled()
             mirror = browser.new_context()
             plain = mirror.new_page()
             static_origin = f'http://127.0.0.1:{static.server_address[1]}'
@@ -101,7 +114,7 @@ def main():
             mirror.close()
             context.close()
             browser.close()
-        report = {'passed': True, 'checks': 10, 'credentials': 'synthetic only'}
+        report = {'passed': True, 'checks': 13, 'credentials': 'synthetic only'}
         (args.output / 'oauth-ui-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
         print(json.dumps(report))
     finally:
