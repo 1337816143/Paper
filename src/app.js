@@ -72,7 +72,16 @@ function updatePareto(){
  $('#pareto-result').textContent='按 '+cols.map(k=>names[k]).join('、')+' 比较；当前非支配方案：'+farmRows.filter((_,i)=>nd[i]).map(r=>r[0]).join('、')+'。支配要求所有所选目标不差，且至少一个严格更好；相同值不构成严格支配。';
  $('#pareto-plot').setAttribute('aria-label','利润与用水二维投影；非支配方案 '+farmRows.filter((_,i)=>nd[i]).map(r=>r[0]).join('、')+'；判定依据 '+cols.map(k=>names[k]).join('、'));
  const xs=farmRows.map(r=>r[1]),ys=farmRows.map(r=>r[2]),xmin=Math.min(...xs),xmax=Math.max(...xs),ymin=Math.min(...ys),ymax=Math.max(...ys);
- const px=v=>55+(v-xmin)/(xmax-xmin||1)*520,py=v=>245-(v-ymin)/(ymax-ymin||1)*195;
+ const fraction=(v,min,max)=>{
+  if(min===max)return 0;
+  const span=max-min;
+  if(Number.isFinite(span))return (v-min)/span;
+  // Only the plotting coordinates are rescaled when subtraction overflows.
+  // Original inputs and the dominance comparisons above remain unchanged.
+  const scale=Math.max(Math.abs(min),Math.abs(max));
+  return (v/scale-min/scale)/(max/scale-min/scale);
+ };
+ const px=v=>55+fraction(v,xmin,xmax)*520,py=v=>245-fraction(v,ymin,ymax)*195;
  $('#pareto-plot').innerHTML=`<path d="M45 30V255H605" stroke="currentColor" fill="none"/><text x="510" y="285" fill="currentColor" font-size="13">利润 ↑</text><text x="8" y="20" fill="currentColor" font-size="13">用水</text>${farmRows.map((r,i)=>`<circle cx="${px(r[1])}" cy="${py(r[2])}" r="${nd[i]?7:5}" fill="${nd[i]?'var(--accent)':'var(--muted)'}" opacity=".7"/><text x="${px(r[1])+9}" y="${py(r[2])-8+i%2*20}" font-size="13" fill="currentColor">${r[0]}</text>`).join('')}`;
 }
 function updateQ(){const values=$$('.q-select').map(s=>Number(s.value)),counts=[1,2,3,4,5].map(n=>values.filter(v=>v===n).length),cap=[2,4,8,4,2];$('#q-counts').innerHTML=counts.map((n,i)=>`<div class="qcol"><span>${i+1}分</span><strong>${n} / ${cap[i]}</strong></div>`).join('');const ok=counts.every((n,i)=>n===cap[i]);$('#q-result').textContent=ok?'排序符合网格。请进一步解释两端卡片的选择理由；这不是观点因子分析。':'请调整到2–4–8–4–2；未完成'+values.filter(v=>v===0).length+'张。';}

@@ -2,7 +2,7 @@
 from pathlib import Path
 from http.server import SimpleHTTPRequestHandler,ThreadingHTTPServer
 from functools import partial
-import threading,json
+import threading,json,math
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'dist/site';RES=ROOT/'test-results';RES.mkdir(exist_ok=True)
 server=ThreadingHTTPServer(('127.0.0.1',8765),partial(SimpleHTTPRequestHandler,directory=str(OUT)))
@@ -47,6 +47,25 @@ with sync_playwright() as p:
     assert '非支配方案：C' in page.locator('#pareto-result').inner_text()
     page.locator('.objective[value="2"]').check();page.locator('.objective[value="3"]').check()
     checks.append('Pareto witnesses, invalid-input reset and objective-only maximization')
+    ordinary=[[100,30,80],[80,40,100],[120,50,90],[90,20,70],[100,30,80],[110,35,120]]
+    projection_cases=[
+        [[1e308,1e308,80],[-1e308,-1e308,100],[1e308,-1e308,90],[-1e308,1e308,70],[0,0,80],[5e307,-5e307,120]],
+        [[1.7976931348623157e308,1.7976931348623157e308,80],[-1.7976931348623157e308,-1.7976931348623157e308,100],[0,0,90],[1e308,-1e308,70],[-1e308,1e308,80],[1.7976931348623155e308,-1.7976931348623155e308,120]],
+        [[5e-324,5e-324,80],[-5e-324,-5e-324,100],[1e-323,-1e-323,90],[-1e-323,1e-323,70],[0,0,80],[5e-324,0,120]],
+        [[1e308,-1e308,row[2]] for row in ordinary],
+    ]
+    for rows in projection_cases:
+        for i,row in enumerate(rows):
+            for j,value in enumerate(row,1):page.locator(f'[data-farm="{i}"][data-col="{j}"]').fill(str(value))
+        points=page.locator('#pareto-plot circle').evaluate_all('(els)=>els.map(e=>[Number(e.getAttribute("cx")),Number(e.getAttribute("cy"))])')
+        assert len(points)==6 and all(math.isfinite(x) and math.isfinite(y) and 55<=x<=575 and 50<=y<=245 for x,y in points),points
+        expected=[not any(j!=i and all(s[k]>=r[k] if k==0 else s[k]<=r[k] for k in range(3)) and any(s[k]>r[k] if k==0 else s[k]<r[k] for k in range(3)) for j,s in enumerate(rows)) for i,r in enumerate(rows)]
+        assert [page.locator(f'#result-{i}').inner_text().startswith('非支配') for i in range(6)]==expected
+        assert [[float(page.locator(f'[data-farm="{i}"][data-col="{j}"]').input_value()) for j in range(1,4)] for i in range(6)]==rows
+    page.screenshot(path=str(RES/'pareto-finite-extremes.png'),full_page=False)
+    for i,row in enumerate(ordinary):
+        for j,value in enumerate(row,1):page.locator(f'[data-farm="{i}"][data-col="{j}"]').fill(str(value))
+    checks.append('Finite extreme, near-maximum, subnormal and constant projections stay bounded without altering inputs or dominance')
     for i,score in enumerate([1]*2+[2]*4+[3]*8+[4]*4+[5]*2):page.locator('.q-select').nth(i).select_option(str(score))
     assert '符合' in page.locator('#q-result').inner_text();checks.append('interactive Pareto and Q-sort')
     page.evaluate("document.querySelector('a[href=\"#/offline\"]').click()")
