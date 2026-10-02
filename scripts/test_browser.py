@@ -31,6 +31,22 @@ with sync_playwright() as p:
     assert page.locator('.card').count()>1;checks.append('offline-capable full content search')
     page.evaluate("document.querySelector('a[href=\"#/lab\"]').click()")
     page.wait_for_selector('#pareto-result');assert 'A' in page.locator('#pareto-result').inner_text()
+    assert '支配' in page.locator('#result-1').inner_text()
+    assert 'E' in page.locator('#result-0').inner_text()
+    numeric=page.locator('[data-farm="0"][data-col="1"]')
+    numeric.fill('')
+    assert '暂不可计算' in page.locator('#pareto-result').inner_text()
+    assert page.locator('#pareto-plot circle').count()==0
+    assert page.locator('#result-1').inner_text()=='待计算'
+    assert numeric.get_attribute('aria-invalid')=='true'
+    numeric.fill('100')
+    assert page.locator('#pareto-plot circle').count()==6
+    for objective in page.locator('.objective').all():objective.uncheck()
+    assert page.locator('#pareto-plot circle').count()==0
+    page.locator('.objective[value="1"]').check()
+    assert '非支配方案：C' in page.locator('#pareto-result').inner_text()
+    page.locator('.objective[value="2"]').check();page.locator('.objective[value="3"]').check()
+    checks.append('Pareto witnesses, invalid-input reset and objective-only maximization')
     for i,score in enumerate([1]*2+[2]*4+[3]*8+[4]*4+[5]*2):page.locator('.q-select').nth(i).select_option(str(score))
     assert '符合' in page.locator('#q-result').inner_text();checks.append('interactive Pareto and Q-sort')
     page.evaluate("document.querySelector('a[href=\"#/offline\"]').click()")
