@@ -28,6 +28,8 @@ jobs:
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
           python examples/paper_minilab.py --test
+          python examples/model_reasoning_lab.py --test
+          python scripts/test_learning_depth.py
       - name: Install browser test runtime
         run: |
           pip install playwright==1.55.0
@@ -48,6 +50,8 @@ jobs:
         run: python scripts/test_release51.py
       - name: Test research evidence and all manual-input surfaces
         run: python scripts/test_research_v53.py
+      - name: Test source-linked units, boundary and scenario lessons
+        run: python scripts/test_learning_depth_browser.py
       - name: Test private-entry persistence, two profiles and method ledgers with synthetic credentials only
         run: python scripts/test_personal_v54.py
       - name: Save public acceptance reports
