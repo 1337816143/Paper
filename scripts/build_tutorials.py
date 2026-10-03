@@ -31,13 +31,13 @@ def main():
     if out.exists():shutil.rmtree(out)
     for d in ('read','downloads','examples'):(out/d).mkdir(parents=True,exist_ok=True)
     documents=[]
-    for name in ('papers','dong-2026','methods','navigation','session-log','reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53','method-ledgers-v54','paper-ledgers-v54','dong-2026-ledger'):
+    for name in ('papers','dong-2026','methods','navigation','session-log','reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53','method-ledgers-v54','paper-ledgers-v54','dong-2026-ledger','research-library-v55'):
         file=ROOT/'content'/f'{name}.json'
         if file.exists():documents+=json.loads(file.read_text(encoding='utf-8'))
     byid={d['id']:d for d in documents}
     if len(byid)!=len(documents):raise ValueError('Duplicate content ID')
     d=byid['liang-2022'];d['sections'][2][3]='§2.5.1–2.5.2；§3.1–3.2';d['sections'][3][3]='§2.5.2，公式9–12；零范围处理为实现补充'
-    aliases={'home','library','methods','notes','offline','search','lab','discover','my-library','workbook','glossary'}|set(byid)
+    aliases={'home','library','methods','notes','offline','search','lab','discover','my-library','workbook','glossary','coverage','my-work'}|set(byid)
     for d in documents:
         if not re.fullmatch('[a-z0-9-]+',d['id']) or not d.get('sections'):raise ValueError('Invalid document')
         refs=re.findall(r'\[\[([a-z0-9-]+)\|',json.dumps(d,ensure_ascii=False))+(d.get('related') or [])+(d.get('sources') or [])
@@ -55,8 +55,12 @@ def main():
     for n in (192,512):(out/f'icon-{n}.png').write_bytes(png_icon(n))
     manifest={'name':'Paper Lab · 农业系统论文带读','short_name':'Paper Lab','id':'./','start_url':'./#/home','scope':'./','display':'standalone','background_color':'#f4f5f0','theme_color':'#175c50','lang':'zh-CN','icons':[{'src':f'icon-{n}.png','sizes':f'{n}x{n}','type':'image/png','purpose':'any maskable'} for n in (192,512)]}
     (out/'manifest.webmanifest').write_text(json.dumps(manifest,ensure_ascii=False),encoding='utf-8');(out/'.nojekyll').touch()
+    presentation=json.loads((ROOT/'resources/research-presentation.json').read_text())
+    def explain(s):
+        for a,b in sorted(presentation.items(),key=lambda item:-len(item[0])):s=str(s).replace(a,b)
+        return s
     def rich(s):
-        text=html.escape(str(s));text=re.sub(r'\[\[([a-z0-9-]+)\|([^\]]+)\]\]',lambda m:f'<a href="../index.html#/{m[1]}">{m[2]}</a>',text)
+        text=html.escape(explain(str(s)));text=re.sub(r'\[\[([a-z0-9-]+)\|([^\]]+)\]\]',lambda m:f'<a href="../index.html#/{m[1]}">{m[2]}</a>',text)
         return '<p>'+text.replace('\n\n','</p><p>').replace('\n','<br>')+'</p>'
     def shell(title,body):return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+html.escape(title)+' · Paper Lab</title><link rel="stylesheet" href="../style.css"></head><body><main style="max-width:850px;margin:auto;padding:28px"><p><a href="../index.html">Paper Lab</a> / <a href="index.html">静态目录</a></p>'+body+'</main></body></html>'
     index=[]
@@ -65,8 +69,10 @@ def main():
         if d.get('evidence'):body+='<div class="notice">核读范围：'+html.escape(d['evidence'])+'</div>'
         if d.get('url'):body+='<p><a target="_blank" rel="noopener noreferrer" href="'+html.escape(d['url'],quote=True)+'">原始文献来源 ↗</a></p>'
         body+='<p><a href="../index.html#/'+d['id']+'">交互阅读、保存位置与笔记 →</a></p>'
-        for i,s in enumerate(d['sections']):body+=f'<section class="reader" id="s{i}"><span class="kind">{html.escape(s[1])}</span><h2>{i+1}. {html.escape(s[0])}</h2><div class="prose">{rich(s[2])}</div>'+('<p class="source-note">'+html.escape(s[3])+'</p>' if len(s)>3 else '')+'</section>'
-        for q,ans in d.get('quiz',[]):body+='<details><summary>'+html.escape(q)+'</summary>'+rich(ans)+'</details>'
+        for i,s in enumerate(d['sections']):body+=f'<section class="reader" id="s{i}"><span class="kind">{html.escape(explain(s[1]))}</span><h2>{i+1}. {html.escape(explain(s[0]))}</h2><div class="prose">{rich(s[2])}</div>'+('<p class="source-note">'+html.escape(s[3])+'</p>' if len(s)>3 else '')+'</section>'
+        if d.get('quiz'):body+='<section id="self-test"><h2>关键问题与解说</h2><p>直接查看解释；本页没有答题或评分。</p>'
+        for q,ans in d.get('quiz',[]):body+='<details open><summary>'+html.escape(q)+'</summary>'+rich(ans)+'</details>'
+        if d.get('quiz'):body+='</section>'
         if d.get('sources'):body+='<h2>来源与应用</h2>'+''.join('<p><a href="'+i+'.html">'+html.escape(byid[i]['title'])+'</a></p>' for i in d['sources'])
         (out/'read'/f'{d["id"]}.html').write_text(shell(d['title'],body),encoding='utf-8');index.append(f'<p><a href="{d["id"]}.html">{title}</a></p>')
     (out/'read/index.html').write_text(shell('静态目录','<h1>论文与方法全文目录</h1>'+''.join(index)),encoding='utf-8')
