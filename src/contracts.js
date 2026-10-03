@@ -2,7 +2,7 @@
 (()=>{'use strict';const C=window.PAPER_CONTRACTS?.contracts||{},D=new Map((window.PAPER_DATA?.documents||[]).map(d=>[d.id,d]));const cache=new Map();
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 function link(id,label){const a=el('a',label||D.get(id)?.title||id);a.href='#/'+id;return a;}
-function prose(text){const p=el('p',text,'prose');return p;}
+function prose(text){const p=el('p',window.PaperLibrary?.explain(text)??text,'prose');return p;}
 function detail(title,body,open=false){const d=el('details',undefined,'method-contract-part');d.open=open;d.append(el('summary',title));for(const node of body)d.append(node);return d;}
 function note(parent,id,kind,label){if(typeof window.PaperResearch?.noteBox!=='function')throw Error('Research note storage is not ready');const box=PaperResearch.noteBox(id,'method-contract-'+kind,label,true);const input=box.querySelector('textarea');if(input)input.placeholder='记录你自己的推导、证据或疑问；所有记录自愿填写，不影响阅读。';parent.append(box);}
 function make(id,c){const root=el('section',undefined,'method-contract');root.id='method-contract';root.dataset.contract=id;root.append(el('span','METHOD LEDGER · 从原始资料到可检验理解','eyebrow'),el('h2','先把这篇研究完整接通'),prose(c.question));

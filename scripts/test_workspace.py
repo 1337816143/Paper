@@ -63,8 +63,13 @@ with sync_playwright() as p:
   page.goto(BASE+'#/liang-2022');page.wait_for_selector('.reading-sequence');assert page.locator('.stage-io').count()==3
   term=page.locator('.prose [data-study-term="midip"]').first;term.click();page.wait_for_selector('.term-example');assert '0.5' in page.locator('.term-example').inner_text();page.locator('.term-popover').evaluate("e=>e.dispatchEvent(new WheelEvent('wheel',{bubbles:true,deltaY:40}))");assert page.locator('.term-popover').count()==1;page.keyboard.press('Escape');assert page.locator('.term-popover').count()==0
   checks.append('Expanded aliases, beginner examples, connected phase inputs/outputs and readable scrollable popovers')
-  page.goto(BASE+'#/original/farmsteps-2026');page.wait_for_selector('#source-access-v4');assert page.locator('a[href="https://edepot.wur.nl/713946"]').count()>0;assert 'Taverne' in page.locator('#source-access-v4').inner_text()
-  checks.append('Unarchived article provides official repository access instead of a dead-end unavailable message')
+  page.goto(BASE+'#/original/farmsteps-2026');page.wait_for_selector('#source-access-v4')
+  assert page.locator('a[href="https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf"]').count()>0
+  access=page.locator('#source-access-v4').inner_text()
+  assert 'CC BY 4.0' in access and '软件' in access and '尚未生成新的站内归档' in access
+  record=page.evaluate("PAPER_SOURCES.records.find(r=>r.id==='farmsteps-2026')")
+  assert record['license']['name']=='CC BY 4.0' and not record.get('bookPath')
+  checks.append('Unarchived FarmSTEPS links current official OA PDF, verified article license and distinct software/archive boundaries')
   # Simulated failure branches are explicitly separate from real public API acceptance.
   page.goto(BASE+'#/discover');page.wait_for_selector('#literature-query');page.route('https://api.crossref.org/**',lambda route:route.fulfill(status=429,body='rate limit',headers={'Access-Control-Allow-Origin':'*'}));page.locator('#literature-query').fill('10.9999/failure');page.locator('#literature-search').evaluate('e=>e.requestSubmit()');page.wait_for_function("document.querySelector('#literature-status').textContent.includes('限流')");page.unroute('https://api.crossref.org/**')
   checks.append('Simulated 429 provider error surfaces a useful retry status rather than a false empty result')
