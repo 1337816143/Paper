@@ -46,7 +46,7 @@ try:
         original.locator('textarea').fill('SYNTHETIC old section s1: retain my unit question')
         page.wait_for_function('JSON.parse(localStorage.getItem("paper-lab-learning-v1")).notes["research::whole-farm::s1"]?.includes("SYNTHETIC")')
         question = page.locator('#self-test details').filter(has_text='同一土地配置从3头增到4头')
-        question.locator('summary').click()
+        assert question.evaluate('(el)=>el.open'), 'Explanations are visible without answering'
         check('Self-test reveals the remaining labour violation', '1200 h' in question.locator('p').inner_text())
         goto(page, 'nutrients')
         check('Both boundaries and the definition-specific efficiency answers are visible',

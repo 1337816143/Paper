@@ -94,7 +94,10 @@ class ContentTests(unittest.TestCase):
         for id in PREFIXES:
             self.assertEqual(docs[id]['sections'], METHODS[id]['sections'])
             html = (out/'read'/f'{id}.html').read_text()
-            self.assertIn(METHODS[id]['sections'][-1][0], html)
+            heading=METHODS[id]['sections'][-1][0]
+            presentation=json.loads((ROOT/'resources/research-presentation.json').read_text())
+            for old,new in sorted(presentation.items(),key=lambda item:-len(item[0])):heading=heading.replace(old,new)
+            self.assertIn(heading, html)
         source = (ROOT/'examples/model_reasoning_lab.py').read_bytes()
         self.assertEqual((out/'examples/model_reasoning_lab.py').read_bytes(), source)
         self.assertEqual(built['files']['model_reasoning_lab.py'], source.decode())

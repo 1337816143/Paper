@@ -1,5 +1,9 @@
 # Paper Lab maintenance contract
 
+## Research-first direction v5.5 (supersedes earlier assessment language)
+The user uses Paper to understand existing research and develop PhD innovation, not to complete exercises, quizzes or mastery checks. Organize navigation by research question, argument, methods/formulas, data/software, reproduction and synthesis. Existing question/answer content is open explanatory material; examples are optional, fully explained and clearly synthetic. Never gate access on completion, scoring or proof of mastery. Preserve every original source, section/block ID, local note and legacy progress field. Content coverage describes evidence/material availability, never the reader. Keep all cloud-only implementation and publication coordinated with the repository owner; preserve private boundaries and the existing synchronization protocol.
+
+
 ## Sources and privacy
 Paper is the upstream for public academic reading content. Preserve all verified learning content; do not overwrite with summaries. Never publish private chats, recordings, contact details, offer letters, signatures, application documents, credentials or unauthorized PDFs. User-uploaded copyrighted sources may support original explanatory notes, not wholesale redistribution.
 

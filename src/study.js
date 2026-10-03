@@ -47,7 +47,7 @@ addEventListener('resize',hideTerm);addEventListener('wheel',e=>{if(!e.target.cl
 
 /* Frameworks retain every existing detail section, anchor and annotation ID. */
 function mountLesson(id){const root=$('#view .reader');if(!root)return;const frame=data.frameworks[id];
- if(frame?.readingCheck&&!root.querySelector('.guided-reading-check')){const check=document.createElement('section');check.className='guided-reading-check';check.innerHTML='<h2>读完后，把论证连回去</h2><p>'+E(frame.readingCheck.start)+'</p><p>'+E(frame.readingCheck.finish)+'</p><p>把数据怎样经过方法变成结果写清楚，再指出一个结果不能支持的推论。找不到原文证据的部分保留为问题，不自行补齐。</p><a href="#/workbook/'+E(id)+'">把答案记入本篇工作表 →</a>';const before=root.querySelector('#self-test');if(before)before.before(check);else root.append(check);}
+ if(frame?.readingCheck&&!root.querySelector('.guided-reading-check')){const check=document.createElement('section');check.className='guided-reading-check';check.innerHTML='<h2>论证链回顾与研究记录</h2><p>'+E(frame.readingCheck.start)+'</p><p>'+E(frame.readingCheck.finish)+'</p><p>此处汇总数据、方法与结果的连接。可在工作表自由记录需要追溯的证据和迁移边界，不要求提交答案。</p><a href="#/workbook/'+E(id)+'">打开本篇研究工作表 →</a>';const before=root.querySelector('#self-test');if(before)before.before(check);else root.append(check);}
  if(frame&&!root.dataset.framework){root.dataset.framework='v3';
   const overview=document.createElement('section');overview.className='paper-framework';overview.id='paper-framework';
   overview.innerHTML=`<span class="eyebrow">先读完整框架 · 再进入方法</span><h2>这篇论文到底在解决什么？</h2><p class="framework-question" id="frame-${E(id)}-question" data-block="frame-${E(id)}-question">${E(frame.question)}</p><p class="framework-narrative" id="frame-${E(id)}-narrative" data-block="frame-${E(id)}-narrative">${E(frame.narrative)}</p>${frame.object?`<p><b>研究对象：</b>${E(frame.object)}</p>`:''}${frame.result?`<p><b>最终产出：</b>${E(frame.result)}</p>`:''}<nav class="study-flow" aria-label="本篇论证链">${frame.phases.map((p,i)=>`<a href="#/${E(id)}/study-stage-${i}"><small>0${i+1}</small><strong>${E(p.title)}</strong><span>${E(p.output)}</span></a>`).join('')}</nav><p class="framework-source">此框架按已核读材料组织，不冒充原文目录。下面保留原有方法细节与出处。</p>`;
@@ -59,7 +59,7 @@ function mountLesson(id){const root=$('#view .reader');if(!root)return;const fra
   });
   if(frame.next){const n=document.createElement('p');n.className='framework-next';n.textContent=frame.next;last.after(n);}
   const toc=`<a href="#/${E(id)}/paper-framework">整篇研究框架</a>`+frame.phases.map((p,i)=>`<a href="#/${E(id)}/study-stage-${i}">0${i+1} ${E(p.title)}</a>`).join('');
-  const side=$('.toc');if(side)side.innerHTML='<strong>本篇论证链</strong>'+toc+`<a href="#/${E(id)}/self-test">自测与笔记</a><a href="#/research-framework">← 完整研究框架</a>`;
+  const side=$('.toc');if(side)side.innerHTML='<strong>本篇论证链</strong>'+toc+`<a href="#/${E(id)}/self-test">关键解说与笔记</a><a href="#/research-framework">← 完整研究框架</a>`;
   const mobile=$('.mobiletoc',root);if(mobile)mobile.innerHTML='<summary>本篇框架与目录</summary>'+toc;
  }
  if(id==='research-framework'&&!root.dataset.journey){root.dataset.journey='v3';const map=document.createElement('nav');map.className='journey-map';map.setAttribute('aria-label','农业系统研究完整链');map.innerHTML=(data.journey?.stages||[]).map((s,i)=>`<a href="#/research-framework/s${i+1}"><small>阶段 ${i+1}</small><strong>${E(s.title)}</strong><span>${E(s.question)}</span></a>`).join('');$('.articlehead',root)?.after(map);}
