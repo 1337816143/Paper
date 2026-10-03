@@ -38,7 +38,7 @@ try:
   goto(page,'whole-farm');check('Full numeric explanation retained', '1200 h/年' in page.locator('#s6').inner_text() and '请先自己算' not in page.locator('#s6').inner_text())
   goto(page,'farmsteps-2026');check('FarmSTEPS preserves six legacy section anchors and adds six evidence sections',all(page.locator('#s'+str(i)).count()==1 for i in range(12)))
   check('FarmSTEPS keeps unresolved source conflicts and research proposal distinct',all(x in page.locator('#view').inner_text() for x in ['1280 h','444.16','研究建议，尚未证明原创','外部R']))
-  check('FarmSTEPS public article has no assessment prompt',not any(x in page.locator('#view').inner_text() for x in ['练习','自测','错题','要求能够解释','应能说明']))
+  check('FarmSTEPS public article has no assessment prompt',not any(x in page.locator('#view').inner_text() for x in ['练习','自测','错题','要求能够解释','应能说明','读完应能解释']))
   for part in page.locator('.method-contract-part').all():part.evaluate('(e)=>e.open=true')
   for width in [390,320]:
    page.set_viewport_size({'width':width,'height':844});check(f'{width}px FarmSTEPS expanded ledger has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
