@@ -36,6 +36,13 @@ try:
   check('Legacy done data is not removed or reinterpreted',page.evaluate('JSON.parse(localStorage.getItem("paper-lab-learning-v1")).done["liang-2022"]') is True)
   page.locator('nav[aria-label="三层研究阅读"] a').nth(2).click();check('Evidence depth has a real anchor',page.locator('#research-evidence').count()==1)
   goto(page,'whole-farm');check('Full numeric explanation retained', '1200 h/年' in page.locator('#s6').inner_text() and '请先自己算' not in page.locator('#s6').inner_text())
+  goto(page,'farmsteps-2026');check('FarmSTEPS preserves six legacy section anchors and adds six evidence sections',all(page.locator('#s'+str(i)).count()==1 for i in range(12)))
+  check('FarmSTEPS keeps unresolved source conflicts and research proposal distinct',all(x in page.locator('#view').inner_text() for x in ['1280 h','444.16','研究建议，尚未证明原创','外部R']))
+  check('FarmSTEPS public article has no assessment prompt',not any(x in page.locator('#view').inner_text() for x in ['练习','自测','错题','要求能够解释','应能说明']))
+  for part in page.locator('.method-contract-part').all():part.evaluate('(e)=>e.open=true')
+  for width in [390,320]:
+   page.set_viewport_size({'width':width,'height':844});check(f'{width}px FarmSTEPS expanded ledger has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
+  page.set_viewport_size({'width':1440,'height':1000});page.screenshot(path=str(RES/'farmsteps-research-desktop.png'),full_page=True)
   goto(page,'lab');check('Mechanisms show computed Pareto and complete Q example immediately','非支配' in page.locator('#pareto-result').inner_text() and all(page.locator('.q-select').nth(i).input_value() for i in range(20)))
   for width in [390,320]:
    page.set_viewport_size({'width':width,'height':844})
