@@ -26,7 +26,7 @@ try:
   goto(page,'coverage');check('All 22 sources have coverage rows',page.locator('.coverage-card').count()==22)
   check('Archive availability is independent from close reading', '全文各节和案例尚未完整核读' in page.locator('#verdouw-2021').inner_text() and '许可原文已归档' in page.locator('#verdouw-2021').inner_text())
   check('Unpublished private sources stay distinct', '公开站未归档全文' in page.locator('#dong-2026').inner_text() and '13页出版PDF全文已核读' in page.locator('#dong-2026').inner_text())
-  goto(page,'library');page.locator('[data-filter="程嘉莉"]').click();check('Author filtering still works',page.locator('#catalog .card').count()>=3 and page.locator('#catalog .coverage-inline').count()>=3)
+  goto(page,'library');check('Incremental conference guide does not duplicate the 22 primary sources',page.locator('#catalog .card').count()==22);page.locator('[data-filter="程嘉莉"]').click();check('Author filtering still works',page.locator('#catalog .card').count()>=3 and page.locator('#catalog .coverage-inline').count()>=3)
   # Seed an old synthetic v1 backup, including optional method-contract keys.
   legacy={'notes':{'liang-2022':'SYNTHETIC legacy paper note: 机制练习是我的原话','research::liang-2022::s1':'SYNTHETIC stable section','research::liang-2022::method-contract-explain':'SYNTHETIC existing research explanation'},'done':{'liang-2022':True},'positions':{'liang-2022':{'route':'#/liang-2022/s1','y':640,'at':1}},'last':'liang-2022'}
   page.evaluate('(s)=>localStorage.setItem("paper-lab-learning-v1",JSON.stringify(s))',legacy);page.reload();goto(page,'liang-2022');page.wait_for_selector('.research-reading-layers')
@@ -43,6 +43,16 @@ try:
   for width in [390,320]:
    page.set_viewport_size({'width':width,'height':844});check(f'{width}px FarmSTEPS expanded ledger has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
   page.set_viewport_size({'width':1440,'height':1000});page.screenshot(path=str(RES/'farmsteps-research-desktop.png'),full_page=True)
+  goto(page,'coverage');check('Thesis coverage keeps conference and doctoral reading distinct',all(x in page.locator('#cheng-thesis').inner_text() for x in ['2027-01-09','独立FSD2025','不能替代博士优化章']))
+  for id,count in [('liang-thesis',3),('cheng-thesis',4)]:
+   goto(page,id);check(id+' retains all pre-existing section anchors',all(page.locator('#s'+str(i)).count()==1 for i in range(count)))
+   check(id+' links incremental evidence guide',page.locator('#view a[href="#/cheng-landscape-evidence-2025"]').count()>0)
+  goto(page,'cheng-landscape-evidence-2025');check('Conference guide separates observed methods from future preference integration',all(x in page.locator('#view').inner_text() for x in ['Differential Evolution','2026摘要反写2025','kg ha⁻¹ year⁻¹','反证']))
+  check('Conference guide does not add questions or scores',page.locator('#self-test details').count()==0 and page.locator('#done').count()==0)
+  for width in [390,320]:
+   page.set_viewport_size({'width':width,'height':844});check(f'{width}px conference evidence has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
+  page.screenshot(path=str(RES/'thesis-evidence-mobile.png'),full_page=True)
+  page.set_viewport_size({'width':1440,'height':1000});page.screenshot(path=str(RES/'thesis-evidence-desktop.png'),full_page=True)
   goto(page,'lab');check('Mechanisms show computed Pareto and complete Q example immediately','非支配' in page.locator('#pareto-result').inner_text() and all(page.locator('.q-select').nth(i).input_value() for i in range(20)))
   for width in [390,320]:
    page.set_viewport_size({'width':width,'height':844})

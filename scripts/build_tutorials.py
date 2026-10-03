@@ -31,7 +31,7 @@ def main():
     if out.exists():shutil.rmtree(out)
     for d in ('read','downloads','examples'):(out/d).mkdir(parents=True,exist_ok=True)
     documents=[]
-    for name in ('papers','dong-2026','methods','navigation','session-log','reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53','method-ledgers-v54','paper-ledgers-v54','dong-2026-ledger','research-library-v55'):
+    for name in ('papers','dong-2026','methods','navigation','session-log','reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53','method-ledgers-v54','paper-ledgers-v54','dong-2026-ledger','research-library-v55','thesis-evidence-v552'):
         file=ROOT/'content'/f'{name}.json'
         if file.exists():documents+=json.loads(file.read_text(encoding='utf-8'))
     byid={d['id']:d for d in documents}
