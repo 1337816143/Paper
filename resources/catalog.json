@@ -584,18 +584,29 @@
         "https://research.wur.nl/en/publications/exploring-sustainable-and-diversified-crop-production-systems-for/"
       ],
       "candidateURL": "https://edepot.wur.nl/677384",
-      "accessCheckedAt": "2026-09-29",
+      "accessCheckedAt": "2026-10-03T16:14:00Z",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/677384",
           "authenticated": false,
           "status": "request-failed",
           "error": "HTTP Error 400: Bad Request"
+        },
+        {
+          "url": "https://edepot.wur.nl/677384",
+          "resolvedURL": "https://library.wur.nl/WebQuery/edepot/677384",
+          "authenticated": false,
+          "status": "official-embargo",
+          "observedAt": "2026-10-03T16:14:00Z",
+          "noticeUntil": "2026-12-31",
+          "method": "cloud-browser-visible-page",
+          "fullTextAcquired": false
         }
       ],
-      "accessNote": "WUR官方Download PDF入口本轮显示暂不开放至2026-12-31。这不是已发表相关文章无全文的证明；章节论文需分别检索。",
+      "accessNote": "2026-10-03在官方页面复核暂不开放至2026-12-31；该日期不是保证自动解禁。已发表文章需分别核读，整本博士全文仍未取得。",
       "accessStatus": "official-embargo",
-      "embargoNoticeDate": "2026-12-31"
+      "embargoNoticeDate": "2026-12-31",
+      "accessRecheckPolicy": "日期届满仅触发重新核验；即使日期已过，也不能自动改为已取得全文或正文/附录已核。"
     },
     {
       "id": "cheng-thesis",
@@ -617,17 +628,68 @@
         "https://research.wur.nl/en/publications/multifunctional-and-stakeholder-informed-agricultural-landscape-r/"
       ],
       "candidateURL": "https://edepot.wur.nl/681106",
-      "accessCheckedAt": "2026-09-28T15:18:04.050994+00:00",
+      "accessCheckedAt": "2026-10-03T16:14:00Z",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/681106",
           "authenticated": false,
           "status": "request-failed",
           "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://edepot.wur.nl/681106",
+          "resolvedURL": "https://library.wur.nl/WebQuery/edepot/681106",
+          "authenticated": false,
+          "status": "official-embargo",
+          "observedAt": "2026-10-03T16:14:00Z",
+          "noticeUntil": "2027-01-09",
+          "method": "cloud-browser-visible-page",
+          "fullTextAcquired": false
         }
       ],
-      "accessNote": "WUR官方仓储本轮返回暂不开放日期2027-01-09。已发表的2023、2025论文仍可独立阅读全文。",
-      "accessStatus": "official-embargo"
+      "accessNote": "2026-10-03在官方页面复核暂不开放至2027-01-09；该日期不是保证自动解禁。已发表文章需分别核读，整本博士全文仍未取得。",
+      "accessStatus": "official-embargo",
+      "embargoNoticeDate": "2027-01-09",
+      "relatedOpenEvidence": [
+        {
+          "id": "cheng-fsd-2025",
+          "kind": "conference-paper",
+          "title": "Trade-offs among ecosystem services in diversified agricultural landscape designs for the North China Plain",
+          "authors": "Cheng, J., Liang, Z., Xu, Z., Chen, Y., Zhang, C., Richter, A., Cong, W.-F., Zhang, F., van der Werf, W., & Groot, J.C.J.",
+          "year": 2025,
+          "publisher": "INRAE",
+          "event": "8th International Farming Systems Design Conference",
+          "pages": "442–444",
+          "pdfPages": [
+            2,
+            3,
+            4
+          ],
+          "pdfContainerPages": 6,
+          "url": "https://edepot.wur.nl/701440",
+          "metadataURL": "https://research.wur.nl/en/publications/trade-offs-among-ecosystem-services-in-diversified-agricultural-l/",
+          "sha256": "11c5173da6f9f38cdd2084dc5e74e7029f345a8d7e5ddeed5f538cd8b5dfa0b4",
+          "bytes": 615983,
+          "readAt": "2026-10-03",
+          "reading": "正文全部三页及Fig.1–2已核读和目视核对；未运行模型、数据或算法",
+          "license": "CC BY-NC-ND 4.0",
+          "licenseLocation": "WUR记录；PDF第5页HAL许可页",
+          "publicationPolicy": "只链接官方未改原件；本站提供独立研究说明，不再分发PDF、整页图、逐段译文或改编图",
+          "identityBoundary": "独立会议短文，不等于2026博士论文优化章；论文集DOI不冒充短文独立DOI",
+          "fullThesisAcquired": false,
+          "originalModelRun": false,
+          "unresolved": [
+            "完整博士目录与优化章",
+            "指标公式和参数表",
+            "精确变量、空间单元与约束",
+            "算法种群、停止条件、随机种子及收敛验证",
+            "数据、源码与软件许可",
+            "Q观点到权重/筛选/约束的博士版本接口"
+          ],
+          "sourceDiscrepancy": "Methods称five steps，但可见编号只到Step 4；不补造第五步"
+        }
+      ],
+      "accessRecheckPolicy": "日期届满仅触发重新核验；即使日期已过，也不能自动改为已取得全文或正文/附录已核。"
     },
     {
       "id": "xu-thesis",
@@ -734,6 +796,28 @@
       "accessNote": "可在自己的设备导入合法持有的原PDF阅读。本站的带读和方法账本不等于公开原件，也不表示本机文件已同步到私人云端。",
       "verifiedPDFPages": 13,
       "sha256": "cf0b6c31874d95e945d7e3926ba7c64806d719d2aede3b2c13fdb6658aed2b86"
+    },
+    {
+      "id": "cheng-landscape-evidence-2025",
+      "title": "Trade-offs among ecosystem services in diversified agricultural landscape designs for the North China Plain",
+      "citation": "Cheng et al. (2025). FSD8 proceedings, pp.442–444. INRAE. WUR E-depot 701440.",
+      "sourceURL": "https://edepot.wur.nl/701440",
+      "metadataURL": "https://research.wur.nl/en/publications/trade-offs-among-ecosystem-services-in-diversified-agricultural-l/",
+      "checkedAt": "2026-10-03T16:19:00Z",
+      "status": "licensed-not-archived",
+      "reason": "已核读官方会议短文正文和两幅图；仅链接未改原件，不公开归档或提供整篇译文。独立会议短文不替代2026博士论文。",
+      "license": {
+        "name": "CC BY-NC-ND 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "evidence": "WUR官方书目与PDF第5页许可声明"
+      },
+      "aliases": [
+        "https://edepot.wur.nl/701440",
+        "https://research.wur.nl/en/publications/trade-offs-among-ecosystem-services-in-diversified-agricultural-l/"
+      ],
+      "downloadURL": "https://edepot.wur.nl/701440",
+      "sha256": "11c5173da6f9f38cdd2084dc5e74e7029f345a8d7e5ddeed5f538cd8b5dfa0b4",
+      "bytes": 615983
     }
   ],
   "policy": "Noncommercial scholarly archive; explicit licenses, exact originals; private imports stay local."
