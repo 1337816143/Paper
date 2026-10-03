@@ -28,10 +28,16 @@ jobs:
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
           python examples/paper_minilab.py --test
+      - name: Test GitHub App gateway and dedicated-host login UI
+        run: |
+          npm --prefix auth-gateway test
+          node --check src/oauth-ui.mjs
       - name: Install browser test runtime
         run: |
           pip install playwright==1.55.0
           python -m playwright install --with-deps chromium
+      - name: Test dedicated-host login surface in a real browser
+        run: python scripts/test_oauth_ui.py
       - name: Test existing tutorials
         run: python scripts/test_browser.py
       - name: Test original reading, annotations and full offline

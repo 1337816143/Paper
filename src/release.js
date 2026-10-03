@@ -18,7 +18,7 @@ function safeToReload(){
  if(window.PaperStudy?.isBusy?.())return {ready:false,reason:'正在处理本机翻译，完成后更新'};
  const s=window.PaperSync?.status?.();if(s?.busy)return {ready:false,reason:'正在保存云端检查点，完成后更新'};
  // v5 keeps authorization only in page memory. Never silently destroy that session.
- if(s?.connected&&!window.PaperPersonal?.safeToReload?.())return {ready:false,reason:'云端会话仍在连接；新版本已准备，断开会话或下次打开时应用'};
+ if(s?.connected&&!(window.PaperOAuth?.safeToReload?.()??window.PaperPersonal?.safeToReload?.()))return {ready:false,reason:'云端会话仍在连接；新版本已准备，断开会话或下次打开时应用'};
  if(document.querySelector('#import-progress'))return {ready:false,reason:'导入页面仍打开，返回阅读后自动更新'};
  return {ready:true,reason:''};
 }
@@ -44,7 +44,7 @@ async function check(force=false){
  }catch{report({status:'offline',message:'暂时无法核验新版本；已安装内容和笔记保留'});}finally{checking=false;}
 }
 function show(){
- $('#release-panel')?.remove();const p=document.createElement('aside');p.id='release-panel';p.className='release-panel';p.setAttribute('role','dialog');p.setAttribute('aria-label','版本与更新');p.innerHTML=`<div class="popover-head"><h2>版本与自动更新</h2><button id="release-close" aria-label="关闭版本说明">×</button></div><strong>Paper Lab v${E(meta.version)}</strong><p>发布说明日期：${E(meta.date)}<br>内容校验值：<code>${E(D.version)}</code></p><p id="release-available"></p><p id="release-message" role="status"></p><div class="release-changes">${(meta.changes||[]).map(s=>'<p>'+E(s)+'</p>').join('')}</div><button id="release-check">立即检查</button><p class="release-boundary">版本号表示程序更新，不表示私人笔记已上云。云端状态请看顶部同步标记。当前免填令牌登录仍待安全服务端接入，不能把授权写进公开网页。</p>`;document.body.append(p);const box=$('#release-badge').getBoundingClientRect();p.style.top=Math.min(box.bottom+10,innerHeight-220)+'px';p.style.right='14px';$('#release-close').onclick=()=>p.remove();$('#release-check').onclick=()=>check(true);report({});
+ $('#release-panel')?.remove();const p=document.createElement('aside');p.id='release-panel';p.className='release-panel';p.setAttribute('role','dialog');p.setAttribute('aria-label','版本与更新');p.innerHTML=`<div class="popover-head"><h2>版本与自动更新</h2><button id="release-close" aria-label="关闭版本说明">×</button></div><strong>Paper Lab v${E(meta.version)}</strong><p>发布说明日期：${E(meta.date)}<br>内容校验值：<code>${E(D.version)}</code></p><p id="release-available"></p><p id="release-message" role="status"></p><div class="release-changes">${(meta.changes||[]).map(s=>'<p>'+E(s)+'</p>').join('')}</div><button id="release-check">立即检查</button><p class="release-boundary">版本号表示程序更新，不表示私人笔记已上云。云端状态请看顶部同步标记。${window.PaperOAuth?'本设备已启用 GitHub 登录；以同步状态确认私人数据是否已上云。':'当前免填令牌登录仍待安全服务端接入，不能把授权写进公开网页。'}</p>`;document.body.append(p);const box=$('#release-badge').getBoundingClientRect();p.style.top=Math.min(box.bottom+10,innerHeight-220)+'px';p.style.right='14px';$('#release-close').onclick=()=>p.remove();$('#release-check').onclick=()=>check(true);report({});
  setTimeout(()=>{const close=e=>{if(!p.isConnected){document.removeEventListener('pointerdown',close,true);return;}if(!p.contains(e.target)&&!e.target.closest('#release-badge')){p.remove();document.removeEventListener('pointerdown',close,true);}};document.addEventListener('pointerdown',close,true);},0);
 }
 function init(options={}){
