@@ -11,3 +11,6 @@ body.dark .research-chain>a{background:rgba(255,255,255,.035)}body.dark .researc
 @media(max-width:1150px){.research-chain{grid-template-columns:repeat(3,minmax(0,1fr))}.research-chain>a:last-child{grid-column:span 2}}
 @media(max-width:650px){.research-chain{grid-template-columns:1fr}.research-chain>a:last-child{grid-column:auto}.research-chain>a{display:grid;grid-template-columns:24px 1fr;gap:6px 10px;padding:17px}.research-chain h3{margin:0}.research-chain p,.research-chain small{grid-column:2;margin:0}.research-objectives{padding:20px}.research-objectives>div{grid-template-columns:1fr;gap:22px}.research-reading-layers{padding:18px}.research-reading-layers nav{grid-template-columns:1fr}.coverage-card dl{grid-template-columns:1fr}.coverage-card dt{border:0;padding-bottom:0}.coverage-card dd{padding-top:4px}.research-facts{gap:12px 18px}.research-facts b{font-size:23px}.research-reading-layers h2{font-size:20px}}
 @media(prefers-reduced-motion:reduce){.research-chain>a:hover{transform:none}}
+
+/* Long canonical source URLs stay readable without widening narrow screens. */
+.reader .source-note{overflow-wrap:anywhere;word-break:break-word}
