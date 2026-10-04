@@ -28,6 +28,18 @@ class ExplanationDepth(unittest.TestCase):
      s[2]=s[2].split('\n\n【从零开始：原文公式 → 代入 → 解释】')[0].split('\n\n【本轮阅读标记】')[0]
      if i==0:s[3]=s[3].removesuffix('；2026-10-04增量补七项公式/代入')
     self.assertEqual(hashlib.sha256(json.dumps(s,ensure_ascii=False).encode()).hexdigest(),sha,(id,i))
+ def test_presentation_preserves_measurement_meaning_and_removes_response_demand(self):
+  rules=read('resources/research-presentation.json')
+  def explain(s):
+   for a,b in sorted(rules.items(),key=lambda x:-len(x[0])):s=s.replace(a,b)
+   return s
+  raw='IR、P、D和α来自测量、调查还是模型'
+  self.assertEqual(explain(raw),'IR、P、D和α来源于测量、调查还是模型')
+  g=read('content/indicator-audit-v53.json')[0]
+  self.assertIn('自愿记录',explain(g['sections'][10][2]))
+  self.assertNotIn('验收：不看本文',explain(g['sections'][10][2]))
+  self.assertNotIn('你必须掌握',explain(g['sections'][1][2]))
+  self.assertIn('验收：不看本文',g['sections'][10][2], 'Keep legacy source strings and anchors intact')
  def test_roadmap_preserves_honest_page_level_scope(self):
   g=read('content/explanation-roadmap-v553.json')[0];a=g['auditSnapshot']
   self.assertEqual(len(a['pageCoverage']),112);self.assertEqual(len({x['pageId'] for x in a['pageCoverage']}),112)

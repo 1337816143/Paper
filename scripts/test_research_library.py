@@ -28,7 +28,7 @@ try:
   check('Unpublished private sources stay distinct', '公开站未归档全文' in page.locator('#dong-2026').inner_text() and '13页出版PDF全文已核读' in page.locator('#dong-2026').inner_text())
   goto(page,'library');check('Incremental conference guide does not duplicate the 22 primary sources',page.locator('#catalog .card').count()==22);page.locator('[data-filter="程嘉莉"]').click();check('Author filtering still works',page.locator('#catalog .card').count()>=3 and page.locator('#catalog .coverage-inline').count()>=3)
   # Seed an old synthetic v1 backup, including optional method-contract keys.
-  legacy={'notes':{'liang-2022':'SYNTHETIC legacy paper note: 机制练习是我的原话','research::liang-2022::s1':'SYNTHETIC stable section','research::liang-2022::method-contract-explain':'SYNTHETIC existing research explanation'},'done':{'liang-2022':True},'positions':{'liang-2022':{'route':'#/liang-2022/s1','y':640,'at':1}},'last':'liang-2022'}
+  legacy={'notes':{'liang-2022':'SYNTHETIC legacy paper note: 机制练习是我的原话；自测笔记来自测量','research::liang-2022::s1':'SYNTHETIC stable section','research::liang-2022::method-contract-explain':'SYNTHETIC existing research explanation'},'done':{'liang-2022':True},'positions':{'liang-2022':{'route':'#/liang-2022/s1','y':640,'at':1}},'last':'liang-2022'}
   page.evaluate('(s)=>localStorage.setItem("paper-lab-learning-v1",JSON.stringify(s))',legacy);page.reload();goto(page,'liang-2022');page.wait_for_selector('.research-reading-layers')
   check('Question explanations are open with no checkbox or score',page.locator('#self-test details').count()>0 and page.locator('#self-test details:not([open])').count()==0 and page.locator('#done').count()==0)
   check('Old note and section anchor survive refocus',page.locator('#note').input_value()==legacy['notes']['liang-2022'] and page.locator('#s1').count()==1)
@@ -58,6 +58,7 @@ try:
    page.set_viewport_size({'width':width,'height':844});check(f'{width}px explanation roadmap has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
   page.set_viewport_size({'width':1440,'height':1000})
   goto(page,'liang-indicator-audit');check('All seven indicators expose source formula and numeric substitution',all('完整合成代入' in page.locator('#s'+str(i)).inner_text() for i in range(2,9)))
+  check('Presentation does not corrupt measurement provenance or demand assessment','来源于测量、调查还是模型' in page.locator('#s5').inner_text() and '来关键解说量' not in page.locator('#view').inner_text() and '验收：不看本文' not in page.locator('#view').inner_text())
   check('Indicator equations distinguish missing coefficients from toy outputs',all(x in page.locator('#view').inner_text() for x in ['45.82','83.5','Tables S2–S6本轮未取得','不构成作者原始记录']))
   for width in [390,320]:
    page.set_viewport_size({'width':width,'height':844});check(f'{width}px worked indicator page has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
