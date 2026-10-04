@@ -143,7 +143,19 @@ jobs:
           python live-minilab.py --test
           grep -q 'window.PaperContext' live-context-notes.js
           grep -q 'liang23-eleven' live-context-notes-data.js
-          grep -q 'window.PaperWalkthrough' live-research-walkthrough.js
+          for name in context-notes research-walkthrough; do
+            curl --fail --silent --show-error "https://raw.githubusercontent.com/1337816143/Paper/$GITHUB_SHA/src/$name.js" -o "expected-$name.js"
+            cmp "live-$name.js" "expected-$name.js"
+          done
+          node <<'JS'
+          const assert = require('node:assert/strict');
+          const walkthrough = require('./live-research-walkthrough.js');
+          assert.equal(typeof walkthrough.mount, 'function');
+          const result = walkthrough.model.farmPipeline();
+          assert.deepEqual(result.rows.map(row => row.margin), [1900, 1700, 2200, 2600]);
+          assert.deepEqual(result.fronts, [['A', 'C'], ['B']]);
+          console.log('Served walkthrough matches its commit and computes the expected synthetic result');
+          JS
           curl --fail --silent --show-error "${PAGE_URL%/}/examples/farm_walkthrough.py?verify=$GITHUB_SHA" -o live-farm-walkthrough.py
           curl --fail --silent --show-error "${PAGE_URL%/}/examples/farm_walkthrough_synthetic.csv?verify=$GITHUB_SHA" -o farm_walkthrough_synthetic.csv
           python live-farm-walkthrough.py --test
