@@ -31,7 +31,7 @@ def main():
     if out.exists():shutil.rmtree(out)
     for d in ('read','downloads','examples'):(out/d).mkdir(parents=True,exist_ok=True)
     documents=[]
-    for name in ('papers','dong-2026','methods','navigation','session-log','reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53','method-ledgers-v54','paper-ledgers-v54','dong-2026-ledger','research-library-v55','thesis-evidence-v552','exemplar-transfer-v553','explanation-roadmap-v553'):
+    for name in ('papers','dong-2026','methods','navigation','session-log','reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53','method-ledgers-v54','paper-ledgers-v54','dong-2026-ledger','research-library-v55','thesis-evidence-v552','exemplar-transfer-v553','explanation-roadmap-v553','liang-2023-context-v554','interactive-research-v554'):
         file=ROOT/'content'/f'{name}.json'
         if file.exists():documents+=json.loads(file.read_text(encoding='utf-8'))
     byid={d['id']:d for d in documents}
@@ -40,6 +40,7 @@ def main():
     aliases={'home','library','methods','notes','offline','search','lab','discover','my-library','workbook','glossary','coverage','my-work'}|set(byid)
     for d in documents:
         if not re.fullmatch('[a-z0-9-]+',d['id']) or not d.get('sections'):raise ValueError('Invalid document')
+        if d.get('sourceId') and (d['sourceId'] not in byid or byid[d['sourceId']]['type'] not in ('paper','thesis')):raise ValueError('Invalid canonical paper source')
         refs=re.findall(r'\[\[([a-z0-9-]+)\|',json.dumps(d,ensure_ascii=False))+(d.get('related') or [])+(d.get('sources') or [])
         if set(refs)-aliases:raise ValueError('Broken links: '+str(set(refs)-aliases))
     files={f.name:f.read_text(encoding='utf-8') for f in sorted((ROOT/'examples').iterdir()) if f.is_file() and f.suffix in {'.py','.R','.csv','.md'}}

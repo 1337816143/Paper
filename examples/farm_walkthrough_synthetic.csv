@@ -1,0 +1,9 @@
+farm_id,crop_event,area_ha,harvest_kg,price_usd_per_Mg,cost_usd_per_ha,irrigation_mm,labor_h_per_ha,annual_rain_mm,recharge_alpha,period_years
+A,wheat,1,6000,300,1000,300,45.5,500,0.2,1
+A,maize,1,8000,250,900,150,28.5,500,0.2,1
+B,wheat,1,6000,300,1100,315,50,500,0.2,1
+B,maize,1,8000,250,1000,160,30,500,0.2,1
+C,wheat,1,6000,300,850,330,55,500,0.2,1
+C,maize,1,8000,250,750,170,30,500,0.2,1
+D,wheat,1,6000,300,650,230,90,500,0.2,1
+D,maize,1,8000,250,550,120,50,500,0.2,1

@@ -1,0 +1,18 @@
+/* Context explanations are explicit article annotations, separate from user marks. */
+.context-note-trigger{display:inline;min-height:0;box-shadow:none;transform:none;font:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;background:transparent;border:0;border-radius:2px;padding:0 1px;margin:0;text-align:inherit;text-decoration-line:underline;text-decoration-style:dashed;text-decoration-thickness:1.5px;text-underline-offset:.2em;text-decoration-color:var(--accent,#175c50);cursor:help;white-space:normal;user-select:text;-webkit-user-select:text}
+.context-note-trigger:hover{box-shadow:none;border:0;background:rgba(45,138,112,.11)}
+.context-note-trigger:focus-visible{outline:2px solid var(--accent,#175c50);outline-offset:3px;background:rgba(45,138,112,.11)}
+.context-note-dialog{width:min(600px,calc(100vw - 24px));max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);padding:0;border:1px solid var(--line,#ccd9d1);border-radius:18px;background:var(--paper,#fffefb);color:var(--ink,#233731);box-shadow:0 20px 70px #0d221b38;overflow:hidden}
+.context-note-dialog[open]{display:flex;flex-direction:column}
+.context-note-dialog::backdrop{background:#0d221b55;backdrop-filter:blur(2px)}
+.context-note-header{flex:0 0 auto;display:flex;align-items:flex-start;gap:20px;padding:20px 22px 14px;border-bottom:1px solid var(--line,#dfe7e2);background:var(--paper,#fffefb)}
+.context-note-header small{color:var(--muted,#5d6e65);font-size:12px;letter-spacing:.04em}
+.context-note-header h2{font-size:21px;line-height:1.4;margin:7px 0 0;overflow-wrap:anywhere}
+.context-note-close{flex:0 0 40px;width:40px;height:40px;padding:0;border-radius:50%;font-size:24px;line-height:1;color:inherit;background:transparent;border:1px solid var(--line,#dfe7e2)}
+.context-note-body{flex:1 1 auto;min-height:0;padding:18px 22px 24px;max-height:calc(100dvh - 150px);overflow:auto;overscroll-behavior:contain;overflow-wrap:anywhere;font-size:16px;line-height:1.75}
+.context-note-body p{margin:0 0 14px}.context-note-body h3{font-size:16px;margin:20px 0 9px}.context-note-body h3:first-child{margin-top:0}.context-note-body ul{padding-left:1.3em;margin:8px 0 16px}.context-note-body li{margin-bottom:8px}
+.context-note-lead{font-size:17px;font-weight:550}.context-note-details details{padding:12px 0;border-top:1px solid var(--line,#dfe7e2)}.context-note-details summary{cursor:pointer;font-weight:600}.context-note-details details p{margin:12px 0 0}
+.context-note-sources{margin-top:18px;padding-top:4px;border-top:1px solid var(--line,#dfe7e2)}.context-note-sources a{display:block;margin:8px 0;color:var(--accent,#175c50)}.context-note-boundary{padding:12px 14px;border-radius:10px;background:rgba(45,138,112,.08);font-size:14px;color:var(--muted,#52675b)}
+@media(max-width:480px){.context-note-dialog{margin:auto;width:calc(100vw - 16px);max-width:calc(100vw - 16px);border-radius:14px}.context-note-header{padding:16px 16px 12px;gap:12px}.context-note-header h2{font-size:19px}.context-note-body{flex:1 1 auto;min-height:0;padding:16px;max-height:calc(100dvh - 140px)}}
+@media(prefers-reduced-motion:reduce){.context-note-dialog[open]{display:flex;flex-direction:column}
+.context-note-dialog::backdrop{backdrop-filter:none}}
