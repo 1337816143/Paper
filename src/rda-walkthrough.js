@@ -27,7 +27,7 @@ function mount(container) {
  if(mounts.has(container)) return mounts.get(container);
  const config = global.PAPER_RDA;
  if(!config || !Array.isArray(config.records) || !global.PaperRDAModel) throw new Error('RDA 合成配置或计算模型尚未载入。');
- const doc=container.ownerDocument, uid='paper-rda-'+(++serial), state={...defaults}, source=config.source || {};
+ const doc=container.ownerDocument, uid='paper-rda-'+(++serial), state={...defaults}, source=config.source || {}, mountedHash=global.location?.hash || '';
  let result=global.PaperRDAModel.calculate(config.records,state.v4B), invalid='', mounted=true, observer;
  const panel=doc.createElement('div');
  panel.className='rda-walkthrough';panel.setAttribute('data-no-terms','');panel.setAttribute('tabindex','0');panel.setAttribute('role','region');panel.setAttribute('aria-labelledby',uid+'-title');
@@ -130,13 +130,18 @@ function mount(container) {
  const step=event.key==='Home'?0:event.key==='End'?5:Math.max(0,Math.min(5,state.step+(event.key==='ArrowRight'?1:-1)));
  event.preventDefault();state.step=step;render();
  }
+ function onRoute(){
+ // A popstate render may mount this panel before its paired hashchange arrives.
+ // The new panel belongs to the current route and must survive that late event.
+ if((global.location?.hash || '')!==mountedHash || !container.isConnected)destroy();
+ }
  function destroy(){
  if(!mounted)return;
- mounted=false;panel.removeEventListener('click',click);panel.removeEventListener('input',change);panel.removeEventListener('change',change);panel.removeEventListener('keydown',keydown);global.removeEventListener('hashchange',destroy);global.removeEventListener('popstate',destroy);if(observer)observer.disconnect();panel.remove();active.delete(controller);mounts.delete(container);
+ mounted=false;panel.removeEventListener('click',click);panel.removeEventListener('input',change);panel.removeEventListener('change',change);panel.removeEventListener('keydown',keydown);global.removeEventListener('hashchange',onRoute);global.removeEventListener('popstate',onRoute);if(observer)observer.disconnect();panel.remove();active.delete(controller);mounts.delete(container);
  }
  function busy(){return mounted && (!!invalid || Object.keys(defaults).some(k=>state[k]!==defaults[k]) || (panel.contains(doc.activeElement) && ['INPUT','SELECT','TEXTAREA'].includes(doc.activeElement.tagName)));}
  const controller={destroy,reset,getState:()=>({...state,invalid:!!invalid,error:invalid,mounted,busy:busy(),pendingTimer:false,lastValidV4B:state.v4B}),isBusy:busy};
- mounts.set(container,controller);active.add(controller);panel.addEventListener('click',click);panel.addEventListener('input',change);panel.addEventListener('change',change);panel.addEventListener('keydown',keydown);global.addEventListener('hashchange',destroy);global.addEventListener('popstate',destroy);
+ mounts.set(container,controller);active.add(controller);panel.addEventListener('click',click);panel.addEventListener('input',change);panel.addEventListener('change',change);panel.addEventListener('keydown',keydown);global.addEventListener('hashchange',onRoute);global.addEventListener('popstate',onRoute);
  if(global.MutationObserver){observer=new global.MutationObserver(()=>{if(!container.isConnected||!panel.isConnected)destroy();});observer.observe(doc.documentElement,{childList:true,subtree:true});}
  render();return controller;
 }

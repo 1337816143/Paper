@@ -75,7 +75,7 @@ test('native scrolling and form arrow keys are not intercepted',()=>{
  let prevented=false;e.panel.listeners.keydown({target:e.panel,key:'Home',preventDefault(){prevented=true}});assert.equal(prevented,true);assert.equal(e.ctl.getState().step,0);e.panel.listeners.keydown({target:e.panel,key:'ArrowRight',preventDefault(){}});assert.equal(e.ctl.getState().step,1);
 });
 test('duplicate mount, route change, detachment and explicit destroy release guards',()=>{
- const e=env();assert.equal(e.api.mount(e.container),e.ctl);assert.equal(e.container.children.length,1);e.input('v4B',4.25);e.win.listeners.hashchange();assert.equal(e.ctl.getState().mounted,false);assert.equal(e.api.isBusy(),false);assert.equal(e.container.children.length,0);
+ const e=env();assert.equal(e.api.mount(e.container),e.ctl);assert.equal(e.container.children.length,1);e.input('v4B',4.25);e.win.listeners.popstate();e.win.listeners.hashchange();assert.equal(e.ctl.getState().mounted,true);assert.equal(e.api.isBusy(),true);e.win.location.hash='#/another-lesson';e.win.listeners.hashchange();assert.equal(e.ctl.getState().mounted,false);assert.equal(e.api.isBusy(),false);assert.equal(e.container.children.length,0);
  const again=e.api.mount(e.container);assert.notEqual(again,e.ctl);e.container.remove();for(const o of e.observers)if(!o.off)o.f();assert.equal(again.getState().mounted,false);assert.equal(e.api.isBusy(),false);again.destroy();
  const other=env();other.ctl.destroy();assert.equal(other.api.isBusy(),false);assert.equal(other.win.listeners.hashchange,undefined);assert.equal(other.win.listeners.popstate,undefined);
 });
