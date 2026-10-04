@@ -26,9 +26,14 @@ def run():
    if doi and re.sub(r'\s+','',doi).lower() not in re.sub(r'\s+','',front).lower():raise ValueError('Source identity changed')
    if not doi:raise ValueError('Changed source requires manual identity verification')
    destination=ROOT/'resources/library'/r['id']/sha[:12];destination.mkdir(parents=True,exist_ok=True)
-   f=destination/'source.pdf';f.write_bytes(raw);r.update(sha256=sha,license=lic,checkedAt=stamp,bytes=len(raw),pages=len(d))
-   prefix='library/'+r['id']+'/'+sha[:12];convert(f,r,destination,prefix)
-   r.update(bookPath=prefix+'/book.json',originalPath=prefix+'/source.pdf',epubPath=prefix+'/article.epub')
+   f=destination/'source.pdf';f.write_bytes(raw)
+   prefix='library/'+r['id']+'/'+sha[:12]
+   # Compile a candidate with its own version paths; preserve the active catalog
+   # if conversion fails. The converter writes this exact record to provenance.
+   candidate=dict(r,sha256=sha,license=lic,checkedAt=stamp,bytes=len(raw),pages=len(d),
+                  bookPath=prefix+'/book.json',originalPath=prefix+'/source.pdf',epubPath=prefix+'/article.epub')
+   convert(f,candidate,destination,prefix)
+   r.update(candidate)
    return {'id':r['id'],'status':'new-licensed-version','checkedAt':stamp,'sha256':sha}
   except Exception as e:return {'id':r['id'],'status':'retained-last-good-version','checkedAt':stamp,'error':str(e)[:200]}
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:report=list(pool.map(check,catalog['records']))

@@ -53,6 +53,27 @@ try:
    page.set_viewport_size({'width':width,'height':844});check(f'{width}px conference evidence has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
   page.screenshot(path=str(RES/'thesis-evidence-mobile.png'),full_page=True)
   page.set_viewport_size({'width':1440,'height':1000});page.screenshot(path=str(RES/'thesis-evidence-desktop.png'),full_page=True)
+  goto(page,'explanation-roadmap');check('Whole-site roadmap distinguishes actual review from inventory',all(x in page.locator('#view').inner_text() for x in ['57页','37页','不是全站全部细节','因子载荷→加权z→代表排序']))
+  for width in [390,320]:
+   page.set_viewport_size({'width':width,'height':844});check(f'{width}px explanation roadmap has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
+  page.set_viewport_size({'width':1440,'height':1000})
+  goto(page,'liang-indicator-audit');check('All seven indicators expose source formula and numeric substitution',all('完整合成代入' in page.locator('#s'+str(i)).inner_text() for i in range(2,9)))
+  check('Indicator equations distinguish missing coefficients from toy outputs',all(x in page.locator('#view').inner_text() for x in ['45.82','83.5','Tables S2–S6本轮未取得','不构成作者原始记录']))
+  for width in [390,320]:
+   page.set_viewport_size({'width':width,'height':844});check(f'{width}px worked indicator page has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
+  page.set_viewport_size({'width':1440,'height':1000});page.locator('#s2').screenshot(path=str(RES/'seven-indicators-worked-gm.png'))
+  for id,value in [('data-schema','120 Mg'),('pareto','F1={A,C}'),('ideal-distance','0.353553')]:
+   goto(page,id);check(id+' exposes complete foundational worked results',value in page.locator('#view').inner_text())
+  goto(page,'liang-2022');page.locator('#s8 a[href="#/liang-exemplar-transfer"]').click();page.wait_for_selector('#s8')
+  check('Liang transfer guide is reachable from the preserved article',page.locator('.articlehead h1').inner_text()=='从优秀农户到可迁移方案：梁2022的证据接口')
+  check('Transfer guide exposes complete results and separates evidence',all(x in page.locator('#view').inner_text() for x in ['九例中的一例','−350','反证','0.2','0.02','尚未证明原创']))
+  check('Transfer guide has no assessment UI',page.locator('#self-test').count()==0 and page.locator('#done').count()==0)
+  page.screenshot(path=str(RES/'exemplar-transfer-desktop.png'),full_page=True)
+  for width in [390,320]:
+   page.set_viewport_size({'width':width,'height':844});check(f'{width}px transfer guide has no horizontal overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth+2'))
+  page.screenshot(path=str(RES/'exemplar-transfer-mobile.png'),full_page=True)
+  page.go_back();page.wait_for_selector('.research-reading-layers');check('Back from transfer guide retains the original paper and note',page.locator('#note').input_value()==legacy['notes']['liang-2022'] and page.locator('#s8').count()==1)
+  page.set_viewport_size({'width':1440,'height':1000})
   goto(page,'lab');check('Mechanisms show computed Pareto and complete Q example immediately','非支配' in page.locator('#pareto-result').inner_text() and all(page.locator('.q-select').nth(i).input_value() for i in range(20)))
   for width in [390,320]:
    page.set_viewport_size({'width':width,'height':844})
@@ -65,7 +86,7 @@ try:
    goto(page,'home');page.locator('#menu').click();check(f'{width}px all six mobile navigation entries accessible',page.locator('nav[aria-label="主导航"] a').count()==6 and page.locator('#sidebar').evaluate('e=>e.classList.contains("open")'))
    page.locator('nav[aria-label="主导航"] a[href="#/my-work"]').click();check(f'{width}px mobile navigation closes after use',not page.locator('#sidebar').evaluate('e=>e.classList.contains("open")'))
   page.set_viewport_size({'width':390,'height':844});goto(page,'home');page.screenshot(path=str(RES/'research-library-mobile.png'),full_page=True)
-  goto(page,'liang-2022');page.evaluate('navigator.serviceWorker.ready.then(()=>true)');page.wait_for_function('!!navigator.serviceWorker.controller',timeout=60000);ctx.set_offline(True);page.reload();page.wait_for_selector('.research-reading-layers');check('Offline article keeps new navigation and legacy note',page.locator('#note').input_value()==legacy['notes']['liang-2022']);ctx.set_offline(False)
+  goto(page,'liang-2022');page.evaluate('navigator.serviceWorker.ready.then(()=>true)');page.wait_for_function('!!navigator.serviceWorker.controller',timeout=60000);ctx.set_offline(True);page.reload();page.wait_for_selector('.research-reading-layers');check('Offline article keeps new navigation and legacy note',page.locator('#note').input_value()==legacy['notes']['liang-2022']);goto(page,'liang-exemplar-transfer');check('Offline transfer guide keeps complete computed results','−350' in page.locator('#view').inner_text());ctx.set_offline(False)
   goto(page,'notes')
   with page.expect_download() as download:page.locator('[data-action="export"]').click()
   backup_path=Path(download.value.path());backup=json.loads(backup_path.read_text());check('Export preserves legacy flags and all research-note keys',backup['data']['done']['liang-2022'] and all(backup['data']['notes'][k]==v for k,v in legacy['notes'].items()))
