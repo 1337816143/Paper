@@ -5,6 +5,7 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json, re, threading
 from playwright.sync_api import sync_playwright
+from browser_idle import observe_activity,after_reading_idle,release_snapshot
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'dist/site'; RES=ROOT/'test-results'; RES.mkdir(exist_ok=True)
 class Quiet(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
@@ -31,7 +32,7 @@ def expected_blocks(id):
 def legacy_blocks():
  return p.locator('.prose [data-block]').evaluate_all('(xs)=>Object.fromEntries(xs.map(x=>[x.id,x.textContent]))')
 try:
- pw=sync_playwright().start();b=pw.chromium.launch();ctx=b.new_context(viewport={'width':1440,'height':1000});p=ctx.new_page();p.on('pageerror',lambda e:errors.append(str(e)));p.clock.install()
+ pw=sync_playwright().start();b=pw.chromium.launch();ctx=b.new_context(viewport={'width':1440,'height':1000});p=ctx.new_page();p.on('pageerror',lambda e:errors.append(str(e)));p.clock.install();observe_activity(p)
  for id in ['rda','cheng-2023']:
   go(id);check(id+' retains every original paragraph text and block ID',legacy_blocks()==expected_blocks(id))
   check(id+' offers the new guide outside annotated prose',p.locator('.articletools a[href="#/cheng-2023-rda-walkthrough/rda-walkthrough"]').count()==1 and p.locator('.prose .rda-walkthrough').count()==0)
@@ -45,14 +46,14 @@ try:
  check('New guide opens at the tool and retains canonical original link',p.url.endswith('/rda-walkthrough') and p.locator('.articlehead a[href="#/original/cheng-2023"]').count()==1)
  check('Tool creates no old annotation blocks or glossary terms',panel.locator('.prose,[data-block],.term-word').count()==0)
  check('Default tool has no autoplay or busy state',not p.evaluate('PaperRDA.isBusy()'))
- panel.locator('[data-step="3"]').click();p.clock.fast_forward(13000)
- check('Reading later RDA stage defers automatic update',not p.evaluate('PaperRelease.safeToReload().ready') and 'RDA' in p.evaluate('PaperRelease.safeToReload().reason'))
+ panel.locator('[data-step="3"]').click();idle=after_reading_idle(p)
+ check('Reading later RDA stage defers automatic update',not idle['ready'] and 'RDA' in idle['reason'])
  panel.locator('[data-field="v4B"]').fill('4.25')
  check('Input change rotates actual fitted decomposition','0.907322' in panel.inner_text() and '0.435815' in panel.inner_text() and panel.locator('[data-field="v4B"]').evaluate('(e)=>e===document.activeElement'))
  panel.locator('[data-step="4"]').click();before=panel.locator('[data-variable="A"] circle').get_attribute('cx')
  panel.locator('[data-field="denominator"]').select_option('constrained')
  check('Denominator change keeps coordinates and residual accounting',panel.locator('[data-variable="A"] circle').get_attribute('cx')==before and '残差部分仍在' in panel.inner_text())
- panel.locator('[data-field="v4B"]').fill('');p.clock.fast_forward(13000)
+ panel.locator('[data-field="v4B"]').fill('');after_reading_idle(p)
  check('Invalid in-progress input retains last valid result and defers update','上次有效结果' in panel.locator('.rda-status').inner_text() and not p.evaluate('PaperRelease.safeToReload().ready'))
  panel.locator('[data-action="reset"]').click();check('Reset restores default state and removes update guard',not p.evaluate('PaperRDA.isBusy()') and panel.locator('[data-field="v4B"]').input_value()=='3.75')
  panel.locator('[data-step="5"]').click();panel.locator('img').scroll_into_view_if_needed();p.wait_for_function('document.querySelector(".rda-source-figure img")?.naturalWidth>0')
@@ -73,7 +74,7 @@ try:
 except Exception as e:
  report={'passed':False,'checks':checks,'errors':errors,'error':str(e)}
  if p:
-  try:p.screenshot(path=str(RES/'rda-integration-last-state.png'));report['url']=p.url
+  try:p.screenshot(path=str(RES/'rda-integration-last-state.png'));report['url']=p.url;report['releaseState']=release_snapshot(p)
   except Exception:pass
  raise
 finally:
