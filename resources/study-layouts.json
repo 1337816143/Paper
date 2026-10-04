@@ -6233,10 +6233,10 @@
     "scope": "Layout overlays only; machine-detected display equations may still require visual review."
   },
   "toorop-2023": {
-    "sourceHash": "e4c7cc912b38aaa08b5a262a7592dfd917ae3bd5ca24dc1981928beaef131c36",
+    "sourceHash": "d35515e6a4299a6e9955853e9a4b441766cc3b79e4586094bc7fb15241c978f8",
     "groups": [
       {
-        "id": "toorop-2023-b3a6169b1991",
+        "id": "toorop-2023-38361c50a0c5",
         "page": 8,
         "number": "",
         "numbers": [],
@@ -6249,12 +6249,12 @@
           254.00123596191406,
           145.43267822265625
         ],
-        "path": "library/toorop-2023/e4c7cc912b38/math-v3-b3a6169b1991.png",
+        "path": "library/toorop-2023/d35515e6a429/math-v3-38361c50a0c5.png",
         "method": "exact PDF region; no reconstructed symbols",
         "rawEvidence": "Part-time farmer (n = 17) Wealthy farmer (n = 19)"
       },
       {
-        "id": "toorop-2023-5e78aec09dae",
+        "id": "toorop-2023-60ed9f28fb37",
         "page": 8,
         "number": "",
         "numbers": [],
@@ -6267,12 +6267,12 @@
           320.5013122558594,
           145.4326171875
         ],
-        "path": "library/toorop-2023/e4c7cc912b38/math-v3-5e78aec09dae.png",
+        "path": "library/toorop-2023/d35515e6a429/math-v3-60ed9f28fb37.png",
         "method": "exact PDF region; no reconstructed symbols",
         "rawEvidence": "Small-scale crop-livestock farmer (n = 20)"
       },
       {
-        "id": "toorop-2023-e626ae37d4ad",
+        "id": "toorop-2023-d991460482dd",
         "page": 8,
         "number": "",
         "numbers": [],
@@ -6285,7 +6285,7 @@
           445.9633483886719,
           145.43255615234375
         ],
-        "path": "library/toorop-2023/e4c7cc912b38/math-v3-e626ae37d4ad.png",
+        "path": "library/toorop-2023/d35515e6a429/math-v3-d991460482dd.png",
         "method": "exact PDF region; no reconstructed symbols",
         "rawEvidence": "Medium-scale cereal crop farmer (n = 17) Resource-poor farmers (n = 20)"
       }

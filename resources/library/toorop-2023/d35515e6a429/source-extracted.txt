@@ -1,0 +1,1124 @@
+RESEARCH ARTICLE
+
+Analyzing antifragility among smallholder farmers in
+Bihar, India: An assessment of farmers’ vulnerability and
+the strengths of positive deviants
+
+Roos Adelhart Toorop1,*
+, Santiago Lopez-Ridaura2
+, Mangi Lal Jat3,4, Pauline Eichenseer1,
+Deepak Bijarniya3
+, Raj Kumar Jat5
+and Jeroen C.J. Groot1,2,6
+
+1Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, The Netherlands,
+2International Maize and Wheat Improvement Center (CIMMYT), Sustainable Agrifood System Program and CGIAR
+Research Program on Climate Change, Agriculture and Food Security (CCAFS), Apdo, 6-641 06600, México, D.F.,
+Mexico, 3International Maize and Wheat Improvement Center (CIMMYT), Sustainable Agrifood System Program, NASC
+Complex, DPS Marg, New Delhi 110012, India,
+4International Crops Research Institute for the Semi-Arid Tropics
+(ICRISAT), Patancheru, Hyderabad-502324, India, 5Borlaug Institute for South Asia (BISA), CIMMYT, Pusa, Samastipur,
+Bihar, 848125, India and 6Bioversity International, Viale dei Tre Denari, 472/a, 00054 Maccarese (Fiumicino), Italy
+*Corresponding author. Email: roos.deadelharttoorop@wur.nl
+
+(Received 25 January 2022; revised 20 October 2022; accepted 03 January 2023)
+
+Summary
+Farmers around the world are increasingly vulnerable: climate variability is identified as the primary
+stressor, but unfavorable biophysical circumstances and disturbances in the socioeconomic domain (labor
+dynamics and price volatility) also affect farm management and production. To deal with these disturban-
+ces, adaptations are recognized as essential. Antifragility acknowledges that adaptations and volatility are
+inherent characteristics of complex systems and abandons the idea of returning to the pre-disturbance
+system state. Instead, antifragility recognizes that disturbances can trigger reorganization, enabling selec-
+tion and removal of weaker system features and allowing the system to evolve toward a better state. In this
+study, we assessed the vulnerability of different types of smallholder farms in Bihar, India, and explored the
+scope for more antifragile farming systems that can ‘bounce back better’ after disturbances. Accumulation
+of stocks, creation of optionality (i.e., having multiple options for innovation) and strengthening of farmer
+autonomy were identified as criteria for antifragility. We had focus group discussions with in total 92 farm-
+ers and found that most expressed themselves to be vulnerable: they experienced challenges but had limited
+adaptive capacity to change their situation. They mostly made short-term decisions to cope with or miti-
+gate urgent challenges but did not engage in strategic planning driven by longer-term objectives. Instead,
+they waited for governmental support to improve their livelihoods. Despite being confronted with similar
+challenges, four positive deviant farmers showed to be more antifragile: their diverse farming systems were
+abundant in stocks and optionality, and the farmers were distinguished in terms of their autonomy, com-
+petence, and connectedness to peers, the community, and markets. To support antifragility among regular
+farmers, adaptations at policy level may be required, for example, by shifting from a top-down toward a
+bottom-up adaptation and innovation regime where initiative and cooperation are encouraged. With a
+more autonomous orientation, farmers’ intrinsic motivation is expected to increase, enabling transitions
+at the farm level. In this way, connected systems can be developed which are socioeconomically and bio-
+physically adaptive. When practices, knowledge, and skills are continuously developed, an antifragile sys-
+tem with ample stocks and optionality may evolve over time.
+
+Keywords: Autonomy; Adaptive capacity; Smallholder farmers; Policy; Bihar
+
+© The Author(s), 2023. Published by Cambridge University Press. This is an Open Access article, distributed under the terms of the Creative
+Commons Attribution licence (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution and reproduction,
+provided the original article is properly cited.
+
+Experimental Agriculture (2023), vol. 59, e4, 1–17
+doi:10.1017/S0014479723000017
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+Highlights
+
+• All farm types were vulnerable and locked in with limited adaptive capacity.
+• Challenges often did not jeopardize the continuity of the farms but constrained performance.
+• Positive deviants showed strong autonomy and connectedness and were rich in optionality
+and stocks.
+• Antifragility can increase when autonomy is enhanced.
+
+Introduction
+During the second half of the 20th century, agricultural practices have radically changed through-
+out South Asia: mechanization, intensification, and specialization driven by the Green Revolution
+policy objectives and advancing technology led to major changes in farm management (Behera
+and France, 2016; Davis et al., 2019). Introduction of chemical fertilizers, improved crop varieties
+and animal breeds, irrigation, and mechanization induced changes in both the biophysical and
+socioeconomic environment, aiming for improved yields, profit, or labor productivity.
+Although yields increased and economy grew from these efforts (Jat et al., 2020), the gains were
+distributed unequally. Nowadays, poverty and undernourishment are still the reality, among
+others in Bihar, one of India’s most populous states. Continuous intensive cultivation led to soil
+degradation and overexploitation of natural resources which resulted, in combination with the
+changes in the biophysical and climatic environment, high degree of farm fragmentation, inade-
+quate infrastructure, and weak institutions and markets, in a challenge for smallholder farmers to
+sustain their livelihoods (Aryal et al., 2018; Lopez-Ridaura et al., 2018).
+Climate variability is identified as the primary stressor (Singh et al., 2020), but also unfavorable
+biophysical circumstances and disturbances in the socioeconomic domain (e.g., labor dynamics
+and price volatility) impact farm management and likely affect production. Farming activities are
+often exposed to unpredictable perturbations, for example, floods, labor shocks, or the recent
+COVID-19 pandemic that cannot be anticipated. To act upon the expression to ‘expect the unex-
+pected’, the ability to make changes and adaptations are recognized as essential. As farming is
+subjected to the dynamics of complex systems, the focus should be on managing farms toward
+their adaptive capacity, creating conditions that enable productive, but largely unspecified, future
+states. It is about defining the conditions for an adaptive system that benefits and evolves from
+disturbances (Darnhofer, 2020; Taleb, 2012).
+The objective to optimize production systems drives the development direction toward high-
+yielding mechanized agriculture, often based on capital-intensive inputs, making smallholder
+farmers increasingly dependent, for instance, on external inputs, machinery, and financing.
+The consequence is optimization, homogenization, and fragilization of such systems: the system
+impairs in suboptimal circumstances (Altieri et al., 2015; Meynard et al., 2018; Urruty et al., 2016).
+Although there has been an increasing social and political pressure for enhanced robustness (with-
+standing) and resilience (recovery, ‘bounce back’) of these systems, it can be questioned whether
+the current system needs enhancement or a thorough transformation (Hendrickson, 2015; Rivera-
+Ferre et al., 2021). Instead of aiming for highly productive and efficient systems, here we propose
+to investigate ways to become antifragile: the opposite of fragile.
+A system is antifragile when it gains from disturbances (Taleb, 2012). The average performance
+of an antifragile system increases as perturbations trigger selection and removal of underperform-
+ing system features, while the strongest features survive. The response to the disturbance could
+start with a temporary decline of performance followed by a recovery exceeding the initial per-
+formance of the system. Antifragility can be developed in all systems (natural, human, financial,
+
+2
+Roos Adelhart Toorop et al.
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+social or socioeconomical, biophysical, natural, or political) and at all levels (molecules, organisms,
+people, companies, or markets).
+In this paper, we focus on the vulnerability of smallholder farmers in Bihar and explore options
+to become more antifragile. The objectives are to: i) identify their main challenges and coping
+strategies; ii) assess the scope for antifragility; and iii) learn from positive deviants who have
+already transformed their farming systems toward more antifragile systems. In the discussion,
+we elaborate attention points to enhance antifragility among farmers in Bihar.
+
+Methodology
+Conceptual framework
+In the past decades, concepts like vulnerability, robustness, and resilience have been used to better
+grasp the sustainability and understand the dynamics of socio-ecological systems (Folke et al.,
+2021; Meuwissen et al., 2019). The vulnerability of a farming system can be conceptualized as
+a result of the exposure and sensitivity to changing conditions and the inherent adaptive capacity
+to deal with those conditions (Adger, 2006; Smit and Wandel, 2006). After a disturbance, the per-
+formance of a fragile system is impaired, and the system is not able to return to the original state
+over time (Figure 1a). In contrast, a robust system withstands shocks and maintains performance
+within the normal variation around the mean (Figure 1b), while a resilient system is affected but
+recovers over time (Figure 1c). In this study, we add antifragility to these concepts. Opposed to the
+fragile response, the antifragile system (Figure 1d) improves its performance over time due to
+reorganization after a disturbance (Taleb, 2012). The disturbance then triggers this reorganization,
+within the field or farm or even at higher levels, enabling selection and removal of less-adapted
+system features. In addition to adaptation after a disturbance, Taleb (2012) describes the impor-
+tance of evolutionary improvement that can be triggered through processes like ‘tinkering’ and the
+‘Barbell Strategy’. Tinkering refers to a process of trial and error informed by knowledge and expe-
+rience accumulated over time (a career, a lifetime, or generations). In their commercial strategy,
+farmers could apply the ‘Barbell Strategy’ which implies combining an array of low-risk activities
+(limited gains in case of success, but also low losses when a failure occurs) with a small number of
+high-risk activities that can potentially result in large gains when successful. These strategies
+increase the adaptiveness (i.e., the capacity to change) which is necessary for evolutionary
+improvement but also is a valuable asset in case of unexpected disturbances.
+We present antifragility here rather as a set of features enabling an antifragile response than a
+‘testable body of theory’. Building upon Taleb (2012), we identified three features as imperative to
+allow antifragile responses of farming systems:
+
+Figure 1. Responses of a system’s performance (green line) to variability in a driving variable over time (blue line). The
+arrows indicate disturbances.
+
+Experimental Agriculture
+3
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+• Accumulating stocks: Reserves or storage capacity to be able to use a resource when needed
+but are redundant to the system at status quo. These reserves may be of use when the system
+reorganizes after a disturbance. Accumulating reserves also entails keeping debts (negative
+stocks) at a low level, relative to the assets of the farm.
+• Creating optionality (i.e., having multiple options): Employing multiple activities and skills
+(e.g., diversity of crops grown, biodiversity, multiple sources of income and information, and
+diversity of resources) which enable new opportunities. Experimentation is necessary to
+develop new skills and try new practices which can be upscaled if they prove to be successful.
+• Strengthening autonomy: Self-determination and self-organization that enable autonomous
+decision-making, rather than relying on external help. This includes the ability and creativity
+to see opportunities and customize these to the local context and to disengage from activities
+which are no longer opportune.
+
+Supplementary Material Table S1 contains a glossary with all terms.
+
+Study area
+This study focused on farmers in the villages Chaundali (district of Samastipur) and Nirpur (dis-
+trict of Vaishali), located in Northern Bihar (Supplementary Material Figure S1), which were vis-
+ited in January and February 2020. Previous studies from the same research team (Adelhart
+Toorop et al., 2020a, 2020b) were conducted in these villages, and strong contacts had already
+been established. The villages were 20 km apart from each other and considered comparable
+in terms of farming systems, soils, and climate. Both villages were located at a distance of ca.
+6 km from the nearest market, with poor access roads. At a weather station in Pusa,
+Samastipur (<20 km from study sites), the yearly rainfall ranged from 787 to 2390 mm/year
+in the time period between 2007 and 2017 with an average of 1344 mm/year. July–September were
+typically the hottest (33.5 to 38.5°C) and most humid months receiving up to 70% of annual pre-
+cipitation, while the lowest temperatures were recorded in January with mean temperatures rang-
+ing from 7 to 10°C (Jat et al., 2018). The dominant cropping pattern is rice in kharif (monsoon,
+June–October) followed by wheat in rabi (November–April) and a fallow period during zaid
+(summer, April–June/July). Data for this study were collected in the middle of the rabi season
+(January and February) which is a relatively quiet moment agriculturally in the year.
+
+Methodological framework
+Figure 2 gives an overview of the methodological framework. Two central questions were formu-
+lated: 1) how vulnerable are different types of smallholder farmers in Bihar and 2) what are atten-
+tion points to promote antifragility among smallholder farmers? These questions led to a three-
+step approach where first the challenges and coping strategies of farmers were identified in order
+to assess their vulnerability. Subsequently, the options to become more antifragile were explored in
+focus group discussions (FGDs) with farmers and interviews with policy-informers (step 2) and in
+interaction with positive deviant farmers (step 3). The last two steps constitute an iterative cycle
+where the learnings from positive deviants could be discussed with and valued by farmers. Positive
+deviants are defined as individuals that achieve better outcomes than their peers despite having the
+same resources and constraints (Pant and Odame, 2009). The viewpoints of farmers, positive devi-
+ants, and policy-informers enable the formulation of attention points to increase the antifragility
+among farmers.
+For clarity: in this study, we refer to farmers and positive deviants. Farmers are regular farmers,
+while positive deviants are the farmers that were specifically selected as exemplary farmers with
+more antifragile farming systems. Positive deviants cannot be grouped in one of the farm types, as
+their farm structure and management strongly deviate from the average. Both farmers and positive
+deviants were smallholders.
+
+4
+Roos Adelhart Toorop et al.
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+Participant selection
+Farmers were recruited for FGDs based on their willingness to participate in the study and on their
+farm type. A typology constructed by Lopez-Ridaura et al. (2018) was used, as their extensive
+household survey on farming systems and livelihood pursuits among 269 households in
+Northern Bihar was suitable to categorize farmers in this study in the same area. Based on func-
+tional and structural characteristics, five smallholder farm types were distinguished: part-time
+farmers, wealthy farmers, small-scale crop and livestock farmers, medium-scale cereal crop farmers,
+and resource-poor farmers (see Supplementary Material Table S2 for descriptions of each of the
+farm types). In the days prior to the FGDs, quick surveys were conducted to assign farmers to a
+type (Supplementary Material Table S3). Two FGDs were organized for each of the five farm types,
+one in Chaundali and one in Nirpur, with about 10 farmers attending each FGD. In total, 92 farm-
+ers attended the FGDs.
+To understand policy-making and dissemination, we aimed at interviewing ‘policy-informers’
+at all levels of the socio-institutional environment around farming in the case study area. Policy-
+informers could be both governmental and nongovernmental and were involved in policy-mak-
+ing, often through an advisory role. The snowball technique (Goodman, 1961) was used to get in
+touch with people from village to state level. In total, 13 policy-informers were interviewed. At the
+end of each interview, participants were asked to nominate positively deviating farmers which they
+thought to be outstanding in terms of autonomy, optionality, and stocks, that is, the features for
+antifragility. Those farmers were visited as positive deviants. We here elaborate on the practices
+and trajectories of four positive deviants.
+
+Identifying challenges and coping strategies
+In FGDs, farmers were asked to list all challenges they faced to sustain their livelihoods, followed
+by a discussion where farmers shared their coping strategies and potential solutions (see
+Supplementary Material Table S4 for a description of the format of the FGDs). Each response
+was assigned the label ‘coping’, ‘buffering’, or ‘adapting’. The response received the label: ‘coping’
+when it implied continuation of the business as usual (i.e., no new skills or knowledge required);
+‘buffering’ when management was adjusted to mitigate the effect; and ‘adapting’ when the
+response required new knowledge and skills and implied transformation at systems level. To
+reduce perception bias, two researchers assigned the labels independently.
+In this way, we answered the questions: a) What challenges/constraints do farmers face to sus-
+tain their livelihoods? b) How do farmers cope, buffer, or adapt to these challenges? and c) What
+could be done additionally to improve the situation?
+
+Figure 2. Methodological framework with main research questions (purple dashed boxes) to be answered through three
+subsequent steps (blue boxes) with corresponding sub-questions (green boxes) and methods (orange boxes).
+
+Experimental Agriculture
+5
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+Assessing scope for antifragility
+In FGDs and interviews, both farmers (n = 92) and policy-informers (n = 13) were introduced to
+the concept of antifragility (‘eventually gaining from an unfortunate situation’) and the three strat-
+egies. They were asked to rank the following five statements based on importance: ‘I aim for a
+diversified income’; ‘I am dependent on advice’; ‘Limiting the use of fertilizers and inputs is impor-
+tant’; ‘Water storage is essential in case of a drought’; ‘Storage facilities to store produce are impor-
+tant to get a good price on the market’. To ensure that all respondents understood the exercise, an
+individual explanation was given and each statement was written in Hindi and depicted with an
+icon on a card.
+Each of the statements was used to trigger discussions about autonomy, optionality, and stocks,
+and we compared differences between farmers and policy-informers using a Kruskal–Wallis test,
+in case of significant differences followed by a Dunn’s test, to assess post hoc differences between
+types (farmers and policy-informers). For all the analyses, we used R software and considered
+statistical significance at P-value < 0.05. Likert scale data R-packages were used for visualization
+(http://www.bryer.org/project/likert/).
+To understand how farmers are supported and directed in their decision-making, we inter-
+viewed people who had a stake in the development of policies (referred to as ‘policy-informers’).
+Figure 3 presents the policy structure in Bihar with the research, training, and extension organ-
+izations (‘knowledge generators’) in green and the governmental policy system in gray. The
+knowledge generators inform the policy system and are in direct touch with farmers, as part
+of research and through extension of KVKs1 which are under their direction. Within the policy
+system, we distinguish ‘vision makers’, who plan and design development programs and ‘imple-
+menters’ who disseminate these through extension services.
+We had 13 semi-structured interviews with knowledge generators (4), vision makers (3), imple-
+menters (4), and extension workers (2) to ask for their responsibilities, goals, and vulnerability
+(‘what is the worst that can happen’). We addressed this question both for the position of the
+interviewee and for the organization they worked for. The interview was followed by the ranking
+of the strategies for antifragility and elaboration on each of the strategies. As part of this ranking,
+we discussed to what extent their work contributed to the development of the three strategies (i.e.,
+stock, optionality, and autonomy) at farm level and what their outlook was on agriculture for the
+coming 5–10 years. Finally, we asked if they could nominate a positive deviant farm with strong
+performance on the three strategies.
+Through the FGDs with farmers and interviews with policy-informers, we addressed the ques-
+tions: a) How are the strategies for antifragility interpreted by farmers and policy-informers? b)
+How are they currently represented in the lives of farmers? and c) Is there scope to develop these
+strategies?
+
+Learning from positive deviants
+Based on the nominations from policy-informers, positive deviant farmers were visited. During a
+farm tour, structural (farm assets and resources) and functional (livelihood pursuits) character-
+istics of the farm were listed (Supplementary Materials Table S5). A semi-structured interview
+followed in which the farmer was asked for the trajectory of change and reflection on the three
+strategies for antifragility.
+These farm visits revealed information to answer the questions: a) What enabled positive devi-
+ant farmers to transform their farming system? b) What makes their farming systems more anti-
+fragile? and c) How are the three strategies for antifragility represented?
+
+1KVK stands for Krishi Vigyan Kendra, meaning ‘farm science center’. They act as agricultural extension centers. KVKs are
+usually associated with a local agricultural university and serve as link between the Indian Council of Agricultural Research
+(ICAR) and farmers.
+
+6
+Roos Adelhart Toorop et al.
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+Results
+Challenges and coping strategies
+Farmers across all farm types listed a broad array of challenges to sustain their livelihoods: water
+and labor scarcity; low market prices; and low quality and access to inputs (Table 1). Farmers
+coped with the majority of the challenges by bearing higher costs, leaving land fallow, or post-
+poning farm management practices. Pointing at the government for support was common.
+The consequences of challenges and room to maneuver differed among farm types. For the
+part-time farmers and wealthy farmers, water or labor scarcity mainly resulted in higher cultiva-
+tion costs: they had the means to pay higher diesel prices to use borewells or machinery. Farmers
+from other farm types often had to ‘queue’ to use a community borewell or to hire laborers. These
+farmers would eventually also bear the costs of being late with their practices with reduced farm
+productivity. High-quality inputs were expensive and scarce resulting in inevitable yield penalties
+for farmers without access to credits (often medium-scale crop and livestock farmers and resource-
+poor farmers). They either bought low-quality seeds or were late with the purchase of seeds as they
+did not have credits until their harvest of the previous season was sold.
+
+Figure 3. Institutional web of policy-informers, with knowledge generators, vision makers, implementers, and extension
+workers. Functions in gray are part of the governmental policy system, and functions in green are research, training, and
+extension organizations.
+
+Experimental Agriculture
+7
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+Table 1. Most frequently mentioned challenges with potential coping strategies. Italics categorize the strategies which
+were already (widely) practiced. Colors categorize the responses as coping (orange), buffering (yellow), or adaptation
+(green). In the case of white cells, the challenge was not (unanimously) recognized by the farm type
+
+Challenge
+Coping strategies
+
+Part-time farmer
+(n = 17)
+Wealthy
+farmer (n = 19)
+
+Small-scale
+crop-livestock
+farmer (n = 20)
+
+Medium-scale
+cereal crop
+farmer (n = 17)
+Resource-poor
+farmers (n = 20)
+
+Water scarcity
+Irrigate more, bear
+increased costs
+Gov. should invest
+in borewells and
+ponds
+
+Deepen borewell
+Gov. should
+invest in
+community
+borewell
+
+Gov. should
+invest in
+community
+borewell and
+ponds
+Substitute
+vegetables and
+rice
+
+Leave land fallow
+Switch to green
+fodder
+Leave land fallow
+
+Change to short
+duration
+varieties
+
+Leave land fallow
+
+Switch to green
+manure or
+sesbania
+
+Switch to green
+fodder
+
+Labor scarcity
+Delayed seeding
+Leave land fallow
+Leave land fallow
+Pay high price to
+get labor
+Work harder
+
+Include family
+labor
+Replace paddy with
+sesbania
+Delayed seeding
+
+Use mechanization
+Use mechanization
+Include family
+labor
+Start machinery
+cooperative
+Include family
+labor
+
+Low quality and
+access to inputs
+(seeds, fertilizers,
+and pesticides)
+
+Bear higher costs
+and lower yields
+Gov. should own
+shops with
+licensed
+products
+
+Bear higher costs
+and lower yields
+Gov. should own
+shops with
+licensed
+products
+
+Bear higher costs
+and lower
+yields
+
+Use organic
+fertilizers
+Pay higher price to
+get scarce quality
+inputs
+
+Use vermicompost
+
+Save seeds for
+wheat
+
+Low market prices
+There should be a
+minimum
+support price for
+vegetables
+
+Gov. should invest
+in storage for
+vegetables
+
+Gov. should
+invest in
+storage for
+vegetables
+
+Only cultivate for
+home
+consumption
+
+Change to cash
+crops which do
+well on the
+market
+
+Only enter the
+market for a
+part of the
+income
+
+There should be
+a minimum
+support price
+for vegetables
+
+Lack of advice
+Approach
+neighbors,
+researchers, and
+call centers
+
+Approach
+neighbors,
+researchers,
+and call
+centers
+
+Poor soil quality
+Level the fields to
+avoid ponding
+Move clay from
+lowlands to
+poor highlands
+
+Use organic
+fertilizers
+Grow mung bean
+and sesbania
+
+Lack of credits
+Bank should
+provide credits
+Save seeds
+Do more off-
+farm work
+
+No suitable
+mechanization
+Start machinery
+cooperative
+
+Heat stress
+Bear losses when
+seeding was not
+done in time
+
+Low crop
+productivity
+Purchase better
+seeds
+
+8
+Roos Adelhart Toorop et al.
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+In some cases, the impact of the problem was buffered through deviation from the business as
+usual. Labor scarcity could be buffered through including family labor or using mechanization
+instead of hiring labor; lack of seeds was partly solved by saving wheat seeds; and low market
+prices were less of a problem when produce was primarily for self-consumption. In addition
+to the coping and buffering responses, some solutions implied a systems transformation, that
+is, rearrangement of the farming system and its management. Farmers mentioned switching crops
+(especially replacing vegetables and rice), use of organic instead of artificial fertilizers, and starting
+a machinery cooperative as potential options to overcome constraints. However, apart from the
+use of organic fertilizers, these transformative changes were not practiced among the participants
+of the FGDs. In addition to the constraints summarized in Table 1, land fragmentation, damage by
+wild animals, lack of off-farm working opportunities, and poor water quality were listed as prob-
+lems, but no solutions were raised. For solutions, the farmers pointed at the government to take
+action.
+
+Scope for antifragility
+
+Insights from farmers
+Farmers interpreted optionality as diversification of marketable crops, and this feature was valued
+as a way to spread risks in case of climatic disasters. Although not acknowledged as optionality,
+most farmers owned cattle and produced dairy products, crops (cereals), and fruit for home con-
+sumption. Especially, cereal production was highly valued by all farm types, both for home con-
+sumption and sales. Livestock had a subordinate role because of the high labor demand and
+competition between food and feed crops. Only the farm type with livestock as livelihood strategy
+(small-scale crop and livestock farmer) mentioned milk as a continuous source of income, with a
+low, but stable price. The part-time farmers and resource-poor farmers relied on their income from
+off-farm activities to sustain their way of farming, and a lack of off-farm job opportunities for the
+resource-poor farmers was mentioned as problematic. For the other farm types, an off-farm job
+was undesirable but considered an option, if necessary, to continue farming. Farmers of all types
+wanted a future outside agriculture for the next generations.
+There was little response to peak prices on the market. Farmers reasoned that other farmers
+would respond quicker and that a good price in 1 year did not guarantee a good price for the next
+year. Moreover, there was a general reluctance toward change: experimentation was not common,
+and changes were implemented after others (e.g., neighbors) showed these to be successful. This
+conservative attitude is also expressed in Table 1, and farmers coped with most challenges.
+Stocks were mostly interpreted as storage capacity for products and were acknowledged as
+important to better regulate supply and demand. Although farmers understood the benefits of
+stocks like rainwater storage and soil organic matter stocks, these were not a priority. There were
+communal water ponds in the villages, but as these were used by wealthier farmers who had the
+means to pump, they were not perceived as stocks. On-farm storage was limited to cereals for
+home consumption and wheat seeds.
+When talking about autonomy, farmers referred to the freedom to say ‘no’ to advisors and
+shopkeepers. Although this freedom was felt, farmers expressed the feeling of being locked in.
+They acknowledged the need for change but did not take any action themselves as they expected
+the government to support them with the right techniques and financial support. In general, they
+felt disadvantaged when compared to farmers in other states and thought that their governmental
+support was less relevant than in the neighboring states. They mentioned that in Bihar, the mini-
+mum support price2 was not working and that they lacked ‘good’ markets where they could get
+
+2Based on the recommendations of the Commission for Agricultural Costs and Prices, the Department of Agriculture and
+Co-operation, Government of India, declares Minimum Support Prices (MSP) for 22 crops before their sowing seasons.
+
+Experimental Agriculture
+9
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+good prices. When discussing collectiveness versus independence, farmers expressed a strong
+sense of community with neighbors and family for daily life, but that farming was restricted
+to the household. In village meetings, farm-related issues were discussed and there was informa-
+tion exchange about governmental projects and schemes. Despite these village meetings, there was
+little (collective) power to address the challenges at hand. Farmers relied heavily on all sorts of
+inputs and argued that these inputs gave the best chance to get the highest attainable yield. With
+these high yields, the high costs of cultivation would pay off.
+
+Insights from policy-informers
+Policy-informers mentioned various solutions to address the challenges that farmers mentioned.
+Conservation agriculture and integrated farming systems were frequently mentioned as the devel-
+opment directions which could integrally solve the problems at hand. When talking about anti-
+fragility, all policy-informers acknowledged the need of optionality and especially highlighted the
+importance of a diversity of activities to spread risks. Nevertheless, cereals, and in particular rice,
+were still seen as the most important crops of which the cultivation needed to be enhanced
+through improved technology. Increasing stocks of water and soil quality were mentioned as cru-
+cial for sustainable development of farming systems. Minimizing inputs was not seen as urgent.
+Use of vermicompost and manure was promoted, but the use of artificial fertilizers, pesticides, and
+purchased seeds was still considered to be inevitable. Policy-informers were less familiar with the
+concepts of autonomy and independence, and these features were not seen as positive assets.
+Enhancing farmers’ livelihoods was viewed on as a governmental responsibility, as one of the
+vision makers said: ‘It is our responsibility to bring changes in farmers’ behavior and to improve
+their income, their quality of life’. Being successful as governmental organization implied having
+farmers adopt the promoted practices. Policy-informers were mostly skeptical about antifragility
+as a concept, especially in case of shocks. In their opinion, farming systems should be robust
+enough to not be affected by mild and medium-sized disturbances, and large disturbances were
+undesirable.
+
+Ranking features of antifragility
+Farmers and policy-informers did not indicate clear priorities in development directions when
+asked to rank features for antifragility (Figure 4). No significant differences were found between
+farmers and policy-informers (Supplementary Material Method S1). All statements received both
+low and high ranks, indicating that stakeholders were divided within and between groups.
+Interviews and FGDs revealed that low ranks indicate lower importance but were not perceived
+as unimportant. The only statement that received more low than high ranks by both farmers and
+policy-informers concerned limiting the use of inputs in order to become independent. In general,
+increasing optionality and stocks were understood as important for farmers to develop further, but
+autonomy and independence were not seen as important characteristics to support an effective
+response to disturbances.
+
+Positive deviants
+Table 2 gives an overview of four farming systems that were nominated by the interviewed policy-
+informers as positively deviating from the farmer population on the basis of the three strategies.
+The farmers stated that structural long-term challenges and constraints rather than unpredictable
+shocks triggered them to change their farm management. Opportunities arose through their pro-
+fessional network, which helped them to acquire knowledge and skills. These positive deviants
+started with a phase of low-cost experiments in which new practices were developed next to
+the business as usual.
+
+10
+Roos Adelhart Toorop et al.
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+Only in the case of success, the practice was upscaled. The products (e.g., mushrooms, fish, and
+organic vegetables) could be sold on a niche market, where good prices were received. The four
+positive deviant farmers made the deliberate choice to increase their optionality, in particular
+through diversification of activities. They showed independence, for instance, through direct sales,
+but were nevertheless still dependent on some inputs like seeds. In Supplementary Material Box
+S1, two positive deviants give a short description of their trajectories of change.
+
+Discussion
+In this study, we assessed the vulnerability of different types of smallholder farmers in Bihar and
+explored the scope for more antifragile farming systems. Our results show that farmers across all
+farm types were vulnerable and locked in with limited adaptive capacity to improve their situation
+(Table 1). The level of vulnerability differed across farm types as adaptive capacity and exposure to
+challenges depended on resource endowment. Many challenges implied either increased cultiva-
+tion costs or delayed crop management practices leading to yield penalties. The higher-resource
+endowed farmers (part-time farmers, wealthy farmers, and medium-scale cereal crop farmers)
+could afford the higher costs, while the less-resource endowed farmers (small-scale crop-livestock
+
+Figure 4. Results of a five-point Likert scale ranging from less important (1) to very important (5) in which farmers were
+asked how important they considered the features for antifragility. Percentages indicate the share of responses that were
+less important (receiving 1 or 2, left), neutral (receiving 3, middle), and important (receiving 4 or 5, right).
+
+Experimental Agriculture
+11
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+farmers and resource-poor farmers) had no means to manage higher costs, or the social context did
+not allow them to have the first access to the resource. FGDs and interviews with policy-informers
+revealed a strong top-down community governance and policy structure. The financial resources
+and information available were translated into concrete and systematic programs which could be
+adopted by farmers. With their focus on uniformity, the development programs often did not
+encourage all features required for antifragility. Especially, the higher-resource endowed farmers
+in this study showed limited initiative and autonomy.
+The ability to take initiative (i.e., decision-making and agency) is not purely a rational process
+(Moller et al., 2006; Pacilly et al., 2016; Rietveld et al., 2020). Adoption and adaptation of new
+practices and technologies are related to farmers’ motivations, which can range in their degree
+of autonomy and control (Jambo et al., 2019; Moller et al., 2006). Self-determination theory rec-
+ognizes autonomy, competence, and connectedness as the basis on which motivation is built
+
+Table 2. Description of production and management systems of antifragile examples
+
+Production
+system
+Stocks
+Optionality
+Independence
+Notes
+
+Organic farm,
+diversified
+production
+
+200 trees for timber,
+harvested when
+needed, usually
+after 15 years; chili
+can be stored; soil
+improvement with
+vermicompost led
+to lower irrigation
+demand.
+
+Wide variety of crops
+(incl. flowers and
+medicinal herbs
+which are rare);
+vermicompost
+
+Direct sales; uses
+mainly organic
+fertilizers; cereals
+for home
+consumption
+
+At the moment no
+market for organic
+produce, but
+expects this soon
+expects to benefit
+from a head start.
+Already inspired 30
+nearby farmers who
+are also (partly)
+organic now.
+Satisfied with
+income.
+
+Mushroom
+production 
+arable
+production
+
+Mushroom residue
+goes to soil;
+vermicompost gives
+good results
+
+Wide variety of crops
+ mushrooms
+Direct sales; network
+of ‘innovative
+farmers’ for
+knowledge
+exchanges
+
+Satisfied with income
+and way of farming
+Learns from doing: if
+an experiment is
+successful, he
+increases area. Now
+trials with capsicum.
+
+Mushrooms
+(oyster 
+spores),
+biogas, fish,
+service
+provider,
+rents out
+tube well*
+
+Manure is source of
+biogas, digestate
+used as fertilizer;
+has stock of biogas;
+cereal stock; dries
+mushrooms to
+store; family
+members all work
+on farm and replace
+each other.
+
+Different agricultural
+‘enterprises’
+generating income
+throughout the year.
+Cultivation and
+service provision
+(tube well and
+contract work with
+own machinery)
+
+Has own input shop
+and own
+machinery; Direct
+sales – negotiates
+price with
+customers who
+come to the farm.
+
+Received training but
+no/little monetary
+support. Proud to
+be a teacher in
+mushroom
+cultivation.
+
+Fish collective*
+Always produce; safety
+increases with more
+members (more
+people to watch/
+guard);
+
+Different types of fish;
+wide variety of fruits
+and vegetables for
+members of the
+collective; labor
+tasks are divided
+
+Direct sales; no
+employees, hire
+temporary labor
+when needed.
+
+All members of the
+collective also have
+their own farming
+activities.
+As collective they have
+more power,
+government
+provided electricity.
+
+*Supplementary Material Box S1 gives a short description of the trajectories of change for these farmers.
+
+12
+Roos Adelhart Toorop et al.
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+(Ryan and Deci, 2000). In our study, these characteristics distinguished the positive deviants from
+the farmers in the FGDs. Although farms within a farm type were comparable in their resources
+and livelihood strategies, there was no collective power or agency (i.e., connectedness) to over-
+come the constrained situation, neither to share knowledge or practical work. In contrast, the
+positive deviants formed strong ties with others for production and marketing, which stimulated
+learning and continuous adaptations of the farming systems management. They indicated engage-
+ment and satisfaction with their systems, their daily activities, and their income.
+The self-determination theory explains that coercive and external pressures tend to minimize
+(intrinsic) motivation (Moller et al., 2006; Ryan and Deci, 2000). We observed this in the strong
+reliance on and expectation of governmental interventions. Triggering farmers’ intrinsic motiva-
+tion and connectedness is crucial to increase autonomous functioning (Stobbelaar et al., 2009).
+Figure 5 schematically represents a rationale which could ultimately lead to more antifragility
+at farm level. Greater autonomy will enable initiative and development of competences
+(Moller et al., 2006), for example, through a dual strategy where something new is explored simul-
+taneously with activities that are known and safe (Barbell Strategy) or through trial, error, and
+selection (‘tinkering’). When practices, knowledge and skills are continuously developed, com-
+plexity will evolve over time (Clancy, 2010; Urruty et al., 2016), and an increase in optionality
+and stocks can be expected (Altieri et al., 2015; Gliessman, 2015). As a result of these assets, adap-
+tiveness (i.e., capacity to adapt farming practices and cultivation choices) increases. To support
+such a shift, transformation and adaptation of policies may be required. This can, for example,
+start with formulation of goal-oriented and adaptive policies that promote cooperation
+(Stobbelaar et al., 2009). In this way, connective systems which are socioeconomically and bio-
+physically adaptive can be aimed for.
+When interpreting the results presented here, the limitations of the research context should be
+considered. In this study, we organized FGDs to identify challenges and coping strategies of dif-
+ferent types of smallholder farmers. In order to have farmers available, the FGDs were planned in
+the middle of the rabi season (January and February) which is a relatively quiet moment in the
+year. Our results and analysis are based on a snapshot in time, while the perception of challenges
+may be dynamic (Nikolaski et al., 2018). The challenges listed in Table 1 can be identified as struc-
+tural problems or long-term stressors. Although Bihar is known for its vulnerability caused by
+
+Figure 5. Relationship between autonomy and the ability to develop optionality and stocks, to reinforce adaptiveness in
+case of a disturbance.
+
+Experimental Agriculture
+13
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+climatic anomalies (Chhabra and Haris, 2015; Lopez-Ridaura et al., 2018; Shirsath et al., 2017),
+sudden disturbances and shocks were hardly mentioned. This can be explained by the lower fre-
+quency of the shocks compared to the continuous stress of the daily challenges and the age of the
+participants. Only challenges that were shared among all participants of the FGDs were listed, and
+younger farmers may not have been exposed to less frequent shocks. Although the list of chal-
+lenges may not be exhaustive, understanding of the stressors is an indispensable first step toward
+increasing the systems’ vulnerability to shocks (Tendall et al., 2015).
+Four positive deviant farms showed that it was feasible to deviate from the dominating wheat–
+rice production systems. We did not collect data on their performance indicators and were there-
+fore not able to show quantitative (statistical) deviance compared to average farmers. Because the
+positive deviant farmers showed optionality, stocks, and autonomy, we expect them to be more
+antifragile, but we do not have direct evidence in terms of differences in system dynamics between
+their farms and average farms. Moreover, it was difficult to single out success factors with this
+small and normatively selected sample of positive deviant farmers. To go beyond the explorative
+nature of this study, the social and agronomical performance and development of different types
+of positive deviant farming systems should be better understood. Clear indicators for positive
+deviance should then be developed. These positive deviants received help from governmental pro-
+grams, which is probably why they were known by the policy-informers who nominated them.
+Although they showed higher levels of autonomy and seemed to not to rely on the extra attention
+they got, their flagship position may have also helped them to develop.
+In this study, we elaborate on the term ‘antifragility’, that was first introduced by Taleb (2012),
+as a dynamic system property in socio-ecological systems. The features contributing to antifra-
+gility are not new in the scientific literature. A few examples: optionality, especially in the form
+of diversity, is widely acknowledged to foster adaptation. Ecological, social, and political diversity
+are promoted to increase options and reduce risks (Altieri et al., 2015; Hoy, 2015; Lade et al.,
+2020). Stocks in various forms contribute as a buffer against failure, redundancy, and diversity
+and avoid that the loss of critical system components triggers dramatic changes in the system
+dynamics (Altieri et al., 2015; Hodbod and Eakin, 2015). Fraser et al. (2015) and Stave and
+Kopainsky (2015) relate the importance of stocks to food security. Autonomy or self-organization
+in biological, social, and ecological systems should avoid top-down suppression and reliance and
+supports the self-organizing properties of diverse entities at local scales (Berkes, 2007; Hoy, 2015).
+Antifragility has overlap with the scientific literature describing adaptive management, adap-
+tation, resilience, and transformation: it requires, for example, that adaptation and transformation
+benefit from disturbances and evolve. Antifragility, however, aims to use disturbances to improve
+the system and to increase its performance. It does not aim at stability, coping, or recovery;
+instead, it requires long-term learning, trial, and adaptation to structurally gain from ‘disorder’
+(e.g., rapid and unpredictable changes). The resilient system dynamics described by, for example,
+Darnhofer (2021) (i.e., transformation after unexpected shocks) and Tendall et al. (2015) (i.e.,
+eradicate weaknesses to build capacities) could therefore be recognized as antifragile responses.
+Moreover, movements like agroecology and organic agriculture claim to reduce vulnerability
+and increase resilience due to attention to crop and animal diversification, maintenance of local
+genetic diversity, crop rotations, and organic matter and nutrient cycles (Altieri et al., 2015), and
+these systems may often have antifragile responses. However, similar to the concept of resilience
+thinking, antifragility is still a paradigm rather than a testable concept. A framework for collecting
+empirical evidence for antifragility in agroecosystems still needs to be developed.
+This study explored the scope to increase antifragility at farm level. However, farmers are, as
+primary producers, influenced by commercial (traders, breeders, and financers) and public insti-
+tutes (Figure 3) all with their own objectives (Pacilly et al., 2016). True antifragility extends to this
+whole system. Recent studies on the impact of COVID-19 on the food system have found that long
+supply chains are more vulnerable (Kumar et al., 2021; Meuwissen et al., 2019; Rivera-Ferre et al.,
+2021), and that connectedness, flexibility, and diversity throughout the supply chain were
+
+14
+Roos Adelhart Toorop et al.
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+beneficial in dealing with the crisis. These studies suggest that a trajectory toward more antifra-
+gility at the farm level ideally goes hand in hand with rigorous rethinking of the hierarchical struc-
+tures and desirable sizes of food systems.
+
+Conclusions
+Farming systems are increasingly exposed to unpredictable perturbations. Antifragile systems
+thrive in such situations, as their configuration and characteristics enable them to change and
+adapt when necessary. The concept of antifragility could provide a new perspective on ‘sustain-
+ability’ in the agricultural domain, although a framework that collects empirical evidence should
+be developed.
+This study used a case study approach to explore the concept of antifragility at farm level.
+Farmers across all farm types in the two villages in Bihar, India, appeared to be vulnerable
+and locked in with limited adaptive capacity to overcome the challenges at hand. Four positive
+deviants that were more autonomous and richer in optionality and stocks were expected to be
+more antifragile and thus able to deal better with unexpected shocks and disturbances. We con-
+clude that supporting antifragility at the farm level requires changes at policy level. This could start
+with the formulation of goal-oriented and adaptive policies that promote cooperation and farm-
+ers’ autonomous decision-making. This may result in a more proactive attitude enabling devel-
+opment of competences leading to more optionality and stocks. That, in turn, will increase the
+adaptiveness of the farmer and the farm enterprise.
+
+Supplementary
+material.
+For
+supplementary
+material
+accompanying
+this
+paper
+visit
+https://doi.org/10.1017/
+S0014479723000017
+
+Acknowledgements. We thank the farmers for their time and for sharing their experiences and expertise.
+
+Financial Support. We acknowledge the financial and technical support from CGIAR Research Programs on Climate
+Change, Agriculture and Food Security (CCAFS), Wheat Agri-food Systems (WHEAT), Indian Council of Agricultural
+Research (ICAR), and all donors who supported this research through their contributions to the CGIAR Fund. For a list
+of Fund donors, please see: http://www.cgiar.org/our-funders/. The contribution of JCJG was supported by the Senior
+Expert program of the Dutch Science Council (NWO), grant number 17222.
+
+Conflicts of Interest. The authors declare no conflicts of interest.
+
+References
+
+Adelhart Toorop R., Ceccarelli V., Bijarniya D., Jat M.L., Jat R.K., Lopez-Ridaura S. and Groot J.C.J. (2020a). Using a
+positive deviance approach to inform farming systems redesign: A case study from Bihar, India. Agricultural Systems 185,
+102942. doi: 10.1016/j.agsy.2020.102942.
+Adelhart Toorop R., Lopez-Ridaura S., Bijarniya D., Kalawantawanit E., Jat R.K., Prusty A.K., Jat M.L. and Groot J.C.J.
+(2020b). Farm-level exploration of economic and environmental impacts of sustainable intensification of rice-wheat crop-
+ping systems in the Eastern Indo-Gangetic plains. European Journal of Agronomy 121, 126157. doi: 10.1016/j.eja.2020.
+126157.
+Adger W.N. (2006). Vulnerability. Global Environmental Change 16, 268–281. doi: 10.1016/j.gloenvcha.2006.02.006.
+Altieri M.A., Nicholls C.I., Henao A. and Lana M.A. (2015). Agroecology and the design of climate change-resilient farming
+systems. Agronomy for Sustainable Development, Springer-Verlag France, pp. 869–890. doi: 10.1007/s13593-015-0285-2.
+Aryal J.P., Jat M.L., Sapkota T.B., Khatri-Chhetri A., Kassie M., Rahut D.B. and Maharjan S. (2018). Adoption of multiple
+climate-smart agricultural practices in the Gangetic plains of Bihar, India. International Journal of Climate Change
+Strategies and Management. doi: 10.1108/ijccsm-02-2017-0025.
+Behera U.K. and France J. (2016). Integrated farming systems and the livelihood security of small and marginal farmers in
+India and other developing countries. Advances in Agronomy 138, 235–282. doi: 10.1016/bs.agron.2016.04.001.
+Berkes F. (2007). Understanding uncertainty and reducing vulnerability: Lessons from resilience thinking. Natural Hazards
+41, 283–295. doi: 10.1007/s11069-006-9036-7.
+Chhabra V. and Haris A.A. (2015). Climate variability, extreme rainfall and temperature events over different agro-ecological
+zones of Bihar. Journal of AgriSearch 2, 189–194.
+
+Experimental Agriculture
+15
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+Clancy T.R. (2010). Diamonds in the rough: Positive deviance and complexity. Journal of Nursing Administration 40, 53–56.
+doi: 10.1097/NNA.0b013e3181cb97d9.
+Darnhofer I. (2020). Farm resilience in the face of the unexpected: Lessons from the COVID-19 pandemic. Agriculture and
+Human Values 37, 605–606. doi: 10.1007/s10460-020-10053-5.
+Davis K.F., Chhatre A., Rao N.D., Singh D., Ghosh-Jerath S., Mridul A., Poblete-Cazenave M., Pradhan N. and DeFries R.
+(2019). Assessing the sustainability of post-Green Revolution cereals in India. Proceedings of the National Academy of
+Sciences of the United States of America 116, 25034–25041. doi: 10.1073/pnas.1910935116.
+Folke C., Haider L.J., Lade S.J., Norström A.V. and Rocha J. (2021). Commentary: Resilience and social-ecological systems:
+A handful of frontiers. Global Environmental Change 71. doi: 10.1016/j.gloenvcha.2021.102400.
+Fraser E.D.G., Legwegoh A. and KC K. (2015). Food stocks and grain reserves: Evaluating whether storing food creates
+resilient food systems. Journal of Environmental Studies and Sciences 5, 445–458. doi: 10.1007/s13412-015-0276-2.
+Gliessman S.R. (2015). Agroecology: The Ecology of Sustainable Food Systems (E. W. Engles, Ed.), 3rd edn, Santa Cruz: CRC
+Press Taylor & Francis Group. Retrieved from https://books.google.nl/books?hl=nl&lr=&id=AVi3BgAAQBAJ&oi=fnd&
+pg=PP1&dq=gliessmanagroecology,theecologyofsustainablefoodsystems&ots=YnNos30GXT&sig=wvu0z
+LAXzLgI8bLFxejKuIYp0j4#v=onepage&q=gliessmanagroecology%2Ctheecologyofsustainablefoodsys
+Goodman L.A. (1961). Snowball sampling. Annals of Mathematical Statistics 32, 148–170.
+Hendrickson M.K. (2015). Resilience in a concentrated and consolidated food system. Journal of Environmental Studies and
+Sciences 5, 418–431. doi: 10.1007/s13412-015-0292-2.
+Hodbod J. and Eakin H. (2015). Adapting a social-ecological resilience framework for food systems. Journal of Environmental
+Studies and Sciences 5, 474–484. doi: 10.1007/s13412-015-0280-6.
+Hoy C.W. (2015). Agroecosystem health, agroecosystem resilience, and food security. Journal of Environmental Studies and
+Sciences 5, 623–635. doi: 10.1007/s13412-015-0322-0.
+Jambo I.J., Groot J.C.J., Descheemaeker K., Bekunda M. and Tittonell P. (2019). Motivations for the use of sustainable
+intensification practices among smallholder farmers in Tanzania and Malawi. NJAS - Wageningen Journal of Life
+Sciences 89, 100306. doi: 10.1016/j.njas.2019.100306.
+Jat M.L., Chakraborty D., Ladha J.K., Rana D.S., Gathala M.K., McDonald A. and Gerard B. (2020). Conservation
+agriculture for sustainable intensification in South Asia. Nature Sustainability 3, 336–343. doi: 10.1038/s41893-020-
+0500-2.
+Jat R.K., Singh R.G., Kumar M., Jat M.L., Parihar C.M., Bijarniya D., Sutaliya J.M., Jat M.K., Parihar M., Kakraliya S.K.
+and Gupta R.K. (2018). Ten years of conservation agriculture in a rice–maize rotation of Eastern Gangetic Plains of India:
+Yield trends, water productivity and economic profitability. Field Crops Research 232, 1–10. doi: 10.1016/j.fcr.2018.12.004.
+Kumar P., Singh S.S., Pandey A.K., Singh R.K., Srivastava P.K., Kumar M., Dubey S.K., Sah U., Nandan R., Singh S.K.,
+Agrawal P., Kushwaha A., Rani M., Biswas J.K. and Drews M. (2021). Multi-level impacts of the COVID-19 lockdown on
+agricultural systems in India: The case of Uttar Pradesh. Agricultural Systems 187, 103027. doi: 10.1016/j.agsy.2020.103027.
+Lade S.J., Steffen W., de Vries W., Carpenter S.R., Donges J.F., Gerten D., Hoff H., Newbold., T., Richardson K. and
+Rockström J. (2020). Human impacts on planetary boundaries amplified by Earth system interactions. Nature
+Sustainability 3, 119–128. doi: 10.1038/s41893-019-0454-4.
+Lopez-Ridaura S., Frelat R., Van Wijk M.T., Valbuena D., Krupnik T.J. and Jat M.L. (2018). Climate smart agriculture,
+farm household typologies and food security: An ex-ante assessment from Eastern India Agricultural Systems 159, 57–68.
+doi: 10.1016/j.agsy.2017.09.007.
+Meuwissen M.P.M., Feindt P.H., Spiegel A., Termeer C.J.A.M., Mathijs E., de Mey Y., Finger R., Balmann A., Wauters E.,
+Urquhart J., Vigani M., Zawalińska K., Herrera H., Nicholas-Davies P., Hansson H., Paas W., Slijper T., Coopmans I.,
+Vroege W., Ciechomska A., Accatino F., Kopainsky B., Poortvliet P.M., Candel J.J.L., Maye D., Severini S., Senni S.,
+Soriano B., Lagerkvist C.J., Peneva M., Gavrilescu C. and Reidsma P. (2019). A framework to assess the resilience of
+farming systems. Agricultural Systems 176, 102656. doi: 10.1016/j.agsy.2019.102656.
+Meynard J.M., Charrier F., Fares M., Le Bail M., Magrini M.B., Charlier A. and Messéan A. (2018). Socio-technical lock-in
+hinders crop diversification in France. Agronomy for Sustainable Development 38. doi: 10.1007/s13593-018-0535-1.
+Moller A.C., Ryan R.M. and Deci E.L. (2006). Self-determination theory and public policy: Improving the quality of con-
+sumer decisions without using coercion. Journal of Public Policy and Marketing 25, 104–116. doi: 10.1509/jppm.25.1.104.
+Nikolaski Z. Christiaensen L. and Hill R. (2018). Household shocks and coping mechanism: evidence from Sub-Saharan
+Africa. Telling Myths from Facts. Directions in Development—Agriculture and Rural Development, (November 2017),
+123–134. Retrieved from http://eprints.lse.ac.uk/85313/1/PagesfromAgricultureinAfrica_Bookfinal.pdf
+Pacilly F.C.A., Groot J.C.J., Hofstede G.J., Schaap B.F. and van Bueren E.T.L. (2016). Analysing potato late blight control as
+a social-ecological system using fuzzy cognitive mapping. Agronomy for Sustainable Development 36. doi: 10.1007/s13593-
+016-0370-1.
+Pant L.P. and Odame H.H. (2009). The promise of positive deviants: bridging divides between scientific research and local
+practices in smallholder agriculture. Knowledge Management for Development Journal 5, 160–172. doi: 10.1080/
+18716340903201504.
+
+16
+Roos Adelhart Toorop et al.
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at
+
+Rietveld A., Van Der Burg M. and Groot J.C.J. (2020). Bridging youth and gender studies to analyse rural young women and
+men ’ s livelihood pathways in Central Uganda. Journal of Rural Studies, 0–1. doi: 10.1016/j.jrurstud.2020.01.020.
+Rivera-Ferre M.G., López-i-Gelats F., Ravera F., Oteros-Rozas E., di Masso M., Binimelis R. and El Bilali H. (2021). The
+two-way relationship between food systems and the COVID19 pandemic: causes and consequences. Agricultural Systems
+191, 103134. doi: 10.1016/j.agsy.2021.103134.
+Ryan R.M. and Deci E.L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development,
+and well-being. American Psychologist 55, 68–78. doi: 10.1037//0003-066x.55.1.68.
+Shirsath P.B., Aggarwal P.K., Thornton P.K. and Dunnett A. (2017). Prioritizing climate-smart agricultural land use
+options at a regional scale. Agricultural Systems 151, 174–183. doi: 10.1016/J.AGSY.2016.09.018.
+Singh R.K., Singh A., Kumar S., Sheoran P., Sharma D.K., Stringer L.C., Quinn C.H., Kumar A. and Singh D. (2020).
+Perceived climate variability and compounding stressors: Implications for risks to livelihoods of smallholder Indian farm-
+ers. Environmental Management, 1–19. doi: 10.1007/s00267-020-01345-x.
+Smit B. and Wandel J. (2006). Adaptation, adaptive capacity and vulnerability. Global Environmental Change 16, 282–292.
+doi: 10.1016/j.gloenvcha.2006.03.008.
+Stave K.A. and Kopainsky B. (2015). A system dynamics approach for examining mechanisms and pathways of food supply
+vulnerability. Journal of Environmental Studies and Sciences 5, 321–336. doi: 10.1007/s13412-015-0289-x.
+Stobbelaar D.J., Groot J.C.J., Bishop C., Hall J. and Pretty J. (2009). Internalization of agri-environmental policies and the
+role of institutions. Journal of Environmental Management 90, S175–S184. doi: 10.1016/j.jenvman.2008.11.019.
+Taleb N.N. (2012). Antifragile - things that gain from disorder. London: Penguin Books Ltd.
+Tendall D.M., Joerin J., Kopainsky B., Edwards P., Shreck A., Le Q.B., Kruetli P., Grant M. and Six J. (2015). Food system
+resilience: Defining the concept. Global Food Security 6, 17–23. doi: 10.1016/j.gfs.2015.08.001.
+Urruty N., Tailliez-Lefebvre D. and Huyghe C. (2016). Stability, robustness, vulnerability and resilience of agricultural systems.
+A review. Agronomy for Sustainable Development, Springer-Verlag France, pp. 1–15. doi: 10.1007/s13593-015-0347-5.
+
+Cite this article: Adelhart Toorop R, Lopez-Ridaura S, Jat ML, Eichenseer P, Bijarniya D, Jat RK, and Groot JCJ. Analyzing
+antifragility among smallholder farmers in Bihar, India: An assessment of farmers’ vulnerability and the strengths of positive
+deviants. Experimental Agriculture. https://doi.org/10.1017/S0014479723000017
+
+Experimental Agriculture
+17
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017
+Downloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at

@@ -1,0 +1,1785 @@
+{
+  "schema": "paper.original.v2",
+  "id": "toorop-2023",
+  "lessonId": "toorop-2023",
+  "title": "Analyzing antifragility among smallholder farmers in Bihar, India: An assessment of farmers’ vulnerability and the strengths of positive deviants",
+  "citation": "Adelhart Toorop, R., et al. (2023). Experimental Agriculture, 59, e4.",
+  "origin": "https://doi.org/10.1017/S0014479723000017",
+  "sourceHash": "d35515e6a4299a6e9955853e9a4b441766cc3b79e4586094bc7fb15241c978f8",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": " this way, connected systems can be developed which are socioeconomically and bio- physically adaptive. When practices, knowledge, and skills are continuously developed, an antifragile sys- tem with ample stocks and optionality may evolve over time. Keywords: Autonomy; Adaptive capacity; Smallholder farmers; Policy; Bihar © The Author(s), 2023. Published by Cambridge University Press. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution and reproduction, provided the original article is properly cited. Experimental Agriculture (2023), vol. 59, e4, 1–17 doi:10.1017/S0014479723000017 https://www.cambridge.org/core/terms. https://doi.org/10.1017/S00",
+    "pageScope": "first/last pages of acquired article"
+  },
+  "originalPath": "library/toorop-2023/d35515e6a429/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/toorop-2023/d35515e6a429/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-a6260a3",
+          "kind": "paragraph",
+          "text": "RESEARCH ARTICLE",
+          "bbox": [
+            42.51969909667969,
+            67.9925765991211,
+            127.57920837402344,
+            76.4925765991211
+          ]
+        },
+        {
+          "id": "p1-b1-963671f",
+          "kind": "heading",
+          "text": "Analyzing antifragility among smallholder farmers in\nBihar, India: An assessment of farmers’ vulnerability and\nthe strengths of positive deviants",
+          "bbox": [
+            42.51969909667969,
+            95.19451904296875,
+            427.1908874511719,
+            147.19418334960938
+          ]
+        },
+        {
+          "id": "p1-b2-275691b",
+          "kind": "paragraph",
+          "text": "Roos Adelhart Toorop1,*\n, Santiago Lopez-Ridaura2\n, Mangi Lal Jat3,4, Pauline Eichenseer1,\nDeepak Bijarniya3\n, Raj Kumar Jat5\nand Jeroen C.J. Groot1,2,6",
+          "bbox": [
+            42.518646240234375,
+            157.85308837890625,
+            421.53741455078125,
+            182.14163208007812
+          ]
+        },
+        {
+          "id": "p1-b3-7013e23",
+          "kind": "paragraph",
+          "text": "1Farming Systems Ecology, Wageningen University and Research, P.O. Box 430, 6700 AK Wageningen, The Netherlands,\n2International Maize and Wheat Improvement Center (CIMMYT), Sustainable Agrifood System Program and CGIAR\nResearch Program on Climate Change, Agriculture and Food Security (CCAFS), Apdo, 6-641 06600, México, D.F.,\nMexico, 3International Maize and Wheat Improvement Center (CIMMYT), Sustainable Agrifood System Program, NASC\nComplex, DPS Marg, New Delhi 110012, India,\n4International Crops Research Institute for the Semi-Arid Tropics\n(ICRISAT), Patancheru, Hyderabad-502324, India, 5Borlaug Institute for South Asia (BISA), CIMMYT, Pusa, Samastipur,\nBihar, 848125, India and 6Bioversity International, Viale dei Tre Denari, 472/a, 00054 Maccarese (Fiumicino), Italy\n*Corresponding author. Email: roos.deadelharttoorop@wur.nl",
+          "bbox": [
+            42.519432067871094,
+            189.5089874267578,
+            439.25823974609375,
+            268.6351013183594
+          ]
+        },
+        {
+          "id": "p1-b4-6cf3da4",
+          "kind": "paragraph",
+          "text": "(Received 25 January 2022; revised 20 October 2022; accepted 03 January 2023)",
+          "bbox": [
+            42.519676208496094,
+            278.60699462890625,
+            302.2723083496094,
+            286.60687255859375
+          ]
+        },
+        {
+          "id": "p1-b5-c815d0a",
+          "kind": "paragraph",
+          "text": "Summary\nFarmers around the world are increasingly vulnerable: climate variability is identified as the primary\nstressor, but unfavorable biophysical circumstances and disturbances in the socioeconomic domain (labor\ndynamics and price volatility) also affect farm management and production. To deal with these disturban-\nces, adaptations are recognized as essential. Antifragility acknowledges that adaptations and volatility are\ninherent characteristics of complex systems and abandons the idea of returning to the pre-disturbance\nsystem state. Instead, antifragility recognizes that disturbances can trigger reorganization, enabling selec-\ntion and removal of weaker system features and allowing the system to evolve toward a better state. In this\nstudy, we assessed the vulnerability of different types of smallholder farms in Bihar, India, and explored the\nscope for more antifragile farming systems that can ‘bounce back better’ after disturbances. Accumulation\nof stocks, creation of optionality (i.e., having multiple options for innovation) and strengthening of farmer\nautonomy were identified as criteria for antifragility. We had focus group discussions with in total 92 farm-\ners and found that most expressed themselves to be vulnerable: they experienced challenges but had limited\nadaptive capacity to change their situation. They mostly made short-term decisions to cope with or miti-\ngate urgent challenges but did not engage in strategic planning driven by longer-term objectives. Instead,\nthey waited for governmental support to improve their livelihoods. Despite being confronted with similar\nchallenges, four positive deviant farmers showed to be more antifragile: their diverse farming systems were\nabundant in stocks and optionality, and the farmers were distinguished in terms of their autonomy, com-\npetence, and connectedness to peers, the community, and markets. To support antifragility among regular\nfarmers, adaptations at policy level may be required, for example, by shifting from a top-down toward a\nbottom-up adaptation and innovation regime where initiative and cooperation are encouraged. With a\nmore autonomous orientation, farmers’ intrinsic motivation is expected to increase, enabling transitions\nat the farm level. In this way, connected systems can be developed which are socioeconomically and bio-\nphysically adaptive. When practices, knowledge, and skills are continuously developed, an antifragile sys-\ntem with ample stocks and optionality may evolve over time.",
+          "bbox": [
+            51.47627258300781,
+            307.6478271484375,
+            430.2357482910156,
+            580.8707885742188
+          ]
+        },
+        {
+          "id": "p1-b6-03ace67",
+          "kind": "paragraph",
+          "text": "Keywords: Autonomy; Adaptive capacity; Smallholder farmers; Policy; Bihar",
+          "bbox": [
+            42.51969909667969,
+            599.5978393554688,
+            291.2829284667969,
+            607.6582641601562
+          ]
+        },
+        {
+          "id": "p1-b7-33929fd",
+          "kind": "paragraph",
+          "text": "© The Author(s), 2023. Published by Cambridge University Press. This is an Open Access article, distributed under the terms of the Creative\nCommons Attribution licence (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution and reproduction,\nprovided the original article is properly cited.",
+          "bbox": [
+            42.51969909667969,
+            638.9443359375,
+            439.1943664550781,
+            661.9319458007812
+          ]
+        },
+        {
+          "id": "p1-b8-e03fb3a",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture (2023), vol. 59, e4, 1–17\ndoi:10.1017/S0014479723000017",
+          "bbox": [
+            42.519683837890625,
+            36.067256927490234,
+            184.04156494140625,
+            52.53816604614258
+          ]
+        },
+        {
+          "id": "p1-b11-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/toorop-2023/d35515e6a429/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p1-figure2",
+          "kind": "image",
+          "path": "library/toorop-2023/d35515e6a429/p1-figure2.png",
+          "alt": "Original source page 1, graphic 2",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-6e51782",
+          "kind": "paragraph",
+          "text": "Highlights",
+          "bbox": [
+            54.02830123901367,
+            64.53509521484375,
+            99.61763763427734,
+            75.03519439697266
+          ]
+        },
+        {
+          "id": "p2-b1-3d34e34",
+          "kind": "paragraph",
+          "text": "• All farm types were vulnerable and locked in with limited adaptive capacity.\n• Challenges often did not jeopardize the continuity of the farms but constrained performance.\n• Positive deviants showed strong autonomy and connectedness and were rich in optionality\nand stocks.\n• Antifragility can increase when autonomy is enhanced.",
+          "bbox": [
+            65.9905014038086,
+            90.27507781982422,
+            450.64105224609375,
+            148.1914520263672
+          ]
+        },
+        {
+          "id": "p2-b2-3a11554",
+          "kind": "paragraph",
+          "text": "Introduction\nDuring the second half of the 20th century, agricultural practices have radically changed through-\nout South Asia: mechanization, intensification, and specialization driven by the Green Revolution\npolicy objectives and advancing technology led to major changes in farm management (Behera\nand France, 2016; Davis et al., 2019). Introduction of chemical fertilizers, improved crop varieties\nand animal breeds, irrigation, and mechanization induced changes in both the biophysical and\nsocioeconomic environment, aiming for improved yields, profit, or labor productivity.\nAlthough yields increased and economy grew from these efforts (Jat et al., 2020), the gains were\ndistributed unequally. Nowadays, poverty and undernourishment are still the reality, among\nothers in Bihar, one of India’s most populous states. Continuous intensive cultivation led to soil\ndegradation and overexploitation of natural resources which resulted, in combination with the\nchanges in the biophysical and climatic environment, high degree of farm fragmentation, inade-\nquate infrastructure, and weak institutions and markets, in a challenge for smallholder farmers to\nsustain their livelihoods (Aryal et al., 2018; Lopez-Ridaura et al., 2018).\nClimate variability is identified as the primary stressor (Singh et al., 2020), but also unfavorable\nbiophysical circumstances and disturbances in the socioeconomic domain (e.g., labor dynamics\nand price volatility) impact farm management and likely affect production. Farming activities are\noften exposed to unpredictable perturbations, for example, floods, labor shocks, or the recent\nCOVID-19 pandemic that cannot be anticipated. To act upon the expression to ‘expect the unex-\npected’, the ability to make changes and adaptations are recognized as essential. As farming is\nsubjected to the dynamics of complex systems, the focus should be on managing farms toward\ntheir adaptive capacity, creating conditions that enable productive, but largely unspecified, future\nstates. It is about defining the conditions for an adaptive system that benefits and evolves from\ndisturbances (Darnhofer, 2020; Taleb, 2012).\nThe objective to optimize production systems drives the development direction toward high-\nyielding mechanized agriculture, often based on capital-intensive inputs, making smallholder\nfarmers increasingly dependent, for instance, on external inputs, machinery, and financing.\nThe consequence is optimization, homogenization, and fragilization of such systems: the system\nimpairs in suboptimal circumstances (Altieri et al., 2015; Meynard et al., 2018; Urruty et al., 2016).\nAlthough there has been an increasing social and political pressure for enhanced robustness (with-\nstanding) and resilience (recovery, ‘bounce back’) of these systems, it can be questioned whether\nthe current system needs enhancement or a thorough transformation (Hendrickson, 2015; Rivera-\nFerre et al., 2021). Instead of aiming for highly productive and efficient systems, here we propose\nto investigate ways to become antifragile: the opposite of fragile.\nA system is antifragile when it gains from disturbances (Taleb, 2012). The average performance\nof an antifragile system increases as perturbations trigger selection and removal of underperform-\ning system features, while the strongest features survive. The response to the disturbance could\nstart with a temporary decline of performance followed by a recovery exceeding the initial per-\nformance of the system. Antifragility can be developed in all systems (natural, human, financial,",
+          "bbox": [
+            54.026153564453125,
+            191.41378784179688,
+            450.7195129394531,
+            651.4470825195312
+          ]
+        },
+        {
+          "id": "p2-b3-27d3340",
+          "kind": "heading",
+          "text": "2\nRoos Adelhart Toorop et al.",
+          "bbox": [
+            54.02830123901367,
+            35.53901672363281,
+            186.59701538085938,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p2-b4-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-cf1bc16",
+          "kind": "paragraph",
+          "text": "social or socioeconomical, biophysical, natural, or political) and at all levels (molecules, organisms,\npeople, companies, or markets).\nIn this paper, we focus on the vulnerability of smallholder farmers in Bihar and explore options\nto become more antifragile. The objectives are to: i) identify their main challenges and coping\nstrategies; ii) assess the scope for antifragility; and iii) learn from positive deviants who have\nalready transformed their farming systems toward more antifragile systems. In the discussion,\nwe elaborate attention points to enhance antifragility among farmers in Bihar.",
+          "bbox": [
+            42.51969909667969,
+            198.7169189453125,
+            439.1535949707031,
+            279.4918518066406
+          ]
+        },
+        {
+          "id": "p3-b1-71ea24a",
+          "kind": "paragraph",
+          "text": "Methodology\nConceptual framework\nIn the past decades, concepts like vulnerability, robustness, and resilience have been used to better\ngrasp the sustainability and understand the dynamics of socio-ecological systems (Folke et al.,\n2021; Meuwissen et al., 2019). The vulnerability of a farming system can be conceptualized as\na result of the exposure and sensitivity to changing conditions and the inherent adaptive capacity\nto deal with those conditions (Adger, 2006; Smit and Wandel, 2006). After a disturbance, the per-\nformance of a fragile system is impaired, and the system is not able to return to the original state\nover time (Figure 1a). In contrast, a robust system withstands shocks and maintains performance\nwithin the normal variation around the mean (Figure 1b), while a resilient system is affected but\nrecovers over time (Figure 1c). In this study, we add antifragility to these concepts. Opposed to the\nfragile response, the antifragile system (Figure 1d) improves its performance over time due to\nreorganization after a disturbance (Taleb, 2012). The disturbance then triggers this reorganization,\nwithin the field or farm or even at higher levels, enabling selection and removal of less-adapted\nsystem features. In addition to adaptation after a disturbance, Taleb (2012) describes the impor-\ntance of evolutionary improvement that can be triggered through processes like ‘tinkering’ and the\n‘Barbell Strategy’. Tinkering refers to a process of trial and error informed by knowledge and expe-\nrience accumulated over time (a career, a lifetime, or generations). In their commercial strategy,\nfarmers could apply the ‘Barbell Strategy’ which implies combining an array of low-risk activities\n(limited gains in case of success, but also low losses when a failure occurs) with a small number of\nhigh-risk activities that can potentially result in large gains when successful. These strategies\nincrease the adaptiveness (i.e., the capacity to change) which is necessary for evolutionary\nimprovement but also is a valuable asset in case of unexpected disturbances.\nWe present antifragility here rather as a set of features enabling an antifragile response than a\n‘testable body of theory’. Building upon Taleb (2012), we identified three features as imperative to\nallow antifragile responses of farming systems:",
+          "bbox": [
+            42.51655578613281,
+            310.75238037109375,
+            439.2070007324219,
+            619.8719482421875
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/toorop-2023/d35515e6a429/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b3-8534a9c",
+          "kind": "paragraph",
+          "text": "Figure 1. Responses of a system’s performance (green line) to variability in a driving variable over time (blue line). The\narrows indicate disturbances.",
+          "bbox": [
+            42.519683837890625,
+            160.76034545898438,
+            439.1408386230469,
+            178.33953857421875
+          ]
+        },
+        {
+          "id": "p3-b4-d66963f",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture\n3",
+          "bbox": [
+            320.0314025878906,
+            35.53901672363281,
+            439.214599609375,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p3-b5-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-9081299",
+          "kind": "paragraph",
+          "text": "• Accumulating stocks: Reserves or storage capacity to be able to use a resource when needed\nbut are redundant to the system at status quo. These reserves may be of use when the system\nreorganizes after a disturbance. Accumulating reserves also entails keeping debts (negative\nstocks) at a low level, relative to the assets of the farm.\n• Creating optionality (i.e., having multiple options): Employing multiple activities and skills\n(e.g., diversity of crops grown, biodiversity, multiple sources of income and information, and\ndiversity of resources) which enable new opportunities. Experimentation is necessary to\ndevelop new skills and try new practices which can be upscaled if they prove to be successful.\n• Strengthening autonomy: Self-determination and self-organization that enable autonomous\ndecision-making, rather than relying on external help. This includes the ability and creativity\nto see opportunities and customize these to the local context and to disengage from activities\nwhich are no longer opportune.",
+          "bbox": [
+            65.9905014038086,
+            64.36650848388672,
+            450.70758056640625,
+            204.5430450439453
+          ]
+        },
+        {
+          "id": "p4-b1-c711128",
+          "kind": "paragraph",
+          "text": "Supplementary Material Table S1 contains a glossary with all terms.",
+          "bbox": [
+            65.99051666259766,
+            214.75930786132812,
+            350.171630859375,
+            225.00941467285156
+          ]
+        },
+        {
+          "id": "p4-b2-49e3bfb",
+          "kind": "paragraph",
+          "text": "Study area\nThis study focused on farmers in the villages Chaundali (district of Samastipur) and Nirpur (dis-\ntrict of Vaishali), located in Northern Bihar (Supplementary Material Figure S1), which were vis-\nited in January and February 2020. Previous studies from the same research team (Adelhart\nToorop et al., 2020a, 2020b) were conducted in these villages, and strong contacts had already\nbeen established. The villages were 20 km apart from each other and considered comparable\nin terms of farming systems, soils, and climate. Both villages were located at a distance of ca.\n6 km from the nearest market, with poor access roads. At a weather station in Pusa,\nSamastipur (<20 km from study sites), the yearly rainfall ranged from 787 to 2390 mm/year\nin the time period between 2007 and 2017 with an average of 1344 mm/year. July–September were\ntypically the hottest (33.5 to 38.5°C) and most humid months receiving up to 70% of annual pre-\ncipitation, while the lowest temperatures were recorded in January with mean temperatures rang-\ning from 7 to 10°C (Jat et al., 2018). The dominant cropping pattern is rice in kharif (monsoon,\nJune–October) followed by wheat in rabi (November–April) and a fallow period during zaid\n(summer, April–June/July). Data for this study were collected in the middle of the rabi season\n(January and February) which is a relatively quiet moment agriculturally in the year.",
+          "bbox": [
+            54.02423095703125,
+            243.6929931640625,
+            450.6949462890625,
+            432.16448974609375
+          ]
+        },
+        {
+          "id": "p4-b3-dc51f20",
+          "kind": "paragraph",
+          "text": "Methodological framework\nFigure 2 gives an overview of the methodological framework. Two central questions were formu-\nlated: 1) how vulnerable are different types of smallholder farmers in Bihar and 2) what are atten-\ntion points to promote antifragility among smallholder farmers? These questions led to a three-\nstep approach where first the challenges and coping strategies of farmers were identified in order\nto assess their vulnerability. Subsequently, the options to become more antifragile were explored in\nfocus group discussions (FGDs) with farmers and interviews with policy-informers (step 2) and in\ninteraction with positive deviant farmers (step 3). The last two steps constitute an iterative cycle\nwhere the learnings from positive deviants could be discussed with and valued by farmers. Positive\ndeviants are defined as individuals that achieve better outcomes than their peers despite having the\nsame resources and constraints (Pant and Odame, 2009). The viewpoints of farmers, positive devi-\nants, and policy-informers enable the formulation of attention points to increase the antifragility\namong farmers.\nFor clarity: in this study, we refer to farmers and positive deviants. Farmers are regular farmers,\nwhile positive deviants are the farmers that were specifically selected as exemplary farmers with\nmore antifragile farming systems. Positive deviants cannot be grouped in one of the farm types, as\ntheir farm structure and management strongly deviate from the average. Both farmers and positive\ndeviants were smallholders.",
+          "bbox": [
+            54.02830123901367,
+            450.848876953125,
+            450.70526123046875,
+            662.7909545898438
+          ]
+        },
+        {
+          "id": "p4-b4-631e573",
+          "kind": "heading",
+          "text": "4\nRoos Adelhart Toorop et al.",
+          "bbox": [
+            54.02830123901367,
+            35.53901672363281,
+            186.59701538085938,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p4-b5-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-9d78cbb",
+          "kind": "paragraph",
+          "text": "Participant selection\nFarmers were recruited for FGDs based on their willingness to participate in the study and on their\nfarm type. A typology constructed by Lopez-Ridaura et al. (2018) was used, as their extensive\nhousehold survey on farming systems and livelihood pursuits among 269 households in\nNorthern Bihar was suitable to categorize farmers in this study in the same area. Based on func-\ntional and structural characteristics, five smallholder farm types were distinguished: part-time\nfarmers, wealthy farmers, small-scale crop and livestock farmers, medium-scale cereal crop farmers,\nand resource-poor farmers (see Supplementary Material Table S2 for descriptions of each of the\nfarm types). In the days prior to the FGDs, quick surveys were conducted to assign farmers to a\ntype (Supplementary Material Table S3). Two FGDs were organized for each of the five farm types,\none in Chaundali and one in Nirpur, with about 10 farmers attending each FGD. In total, 92 farm-\ners attended the FGDs.\nTo understand policy-making and dissemination, we aimed at interviewing ‘policy-informers’\nat all levels of the socio-institutional environment around farming in the case study area. Policy-\ninformers could be both governmental and nongovernmental and were involved in policy-mak-\ning, often through an advisory role. The snowball technique (Goodman, 1961) was used to get in\ntouch with people from village to state level. In total, 13 policy-informers were interviewed. At the\nend of each interview, participants were asked to nominate positively deviating farmers which they\nthought to be outstanding in terms of autonomy, optionality, and stocks, that is, the features for\nantifragility. Those farmers were visited as positive deviants. We here elaborate on the practices\nand trajectories of four positive deviants.",
+          "bbox": [
+            42.51666259765625,
+            257.4722900390625,
+            439.2110595703125,
+            502.462646484375
+          ]
+        },
+        {
+          "id": "p5-b1-71339d7",
+          "kind": "paragraph",
+          "text": "Identifying challenges and coping strategies\nIn FGDs, farmers were asked to list all challenges they faced to sustain their livelihoods, followed\nby a discussion where farmers shared their coping strategies and potential solutions (see\nSupplementary Material Table S4 for a description of the format of the FGDs). Each response\nwas assigned the label ‘coping’, ‘buffering’, or ‘adapting’. The response received the label: ‘coping’\nwhen it implied continuation of the business as usual (i.e., no new skills or knowledge required);\n‘buffering’ when management was adjusted to mitigate the effect; and ‘adapting’ when the\nresponse required new knowledge and skills and implied transformation at systems level. To\nreduce perception bias, two researchers assigned the labels independently.\nIn this way, we answered the questions: a) What challenges/constraints do farmers face to sus-\ntain their livelihoods? b) How do farmers cope, buffer, or adapt to these challenges? and c) What\ncould be done additionally to improve the situation?",
+          "bbox": [
+            42.516571044921875,
+            523.5888061523438,
+            439.1872863769531,
+            662.791748046875
+          ]
+        },
+        {
+          "id": "p5-figure1",
+          "kind": "image",
+          "path": "library/toorop-2023/d35515e6a429/p5-figure1.png",
+          "alt": "Original source page 5, graphic 1",
+          "caption": "原文第5页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p5-b3-9abb6e5",
+          "kind": "paragraph",
+          "text": "Figure 2. Methodological framework with main research questions (purple dashed boxes) to be answered through three\nsubsequent steps (blue boxes) with corresponding sub-questions (green boxes) and methods (orange boxes).",
+          "bbox": [
+            42.51969909667969,
+            219.48280334472656,
+            439.11627197265625,
+            236.78997802734375
+          ]
+        },
+        {
+          "id": "p5-b4-c217b20",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture\n5",
+          "bbox": [
+            320.0314025878906,
+            35.53901672363281,
+            439.214599609375,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p5-b5-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-134e19b",
+          "kind": "paragraph",
+          "text": "Assessing scope for antifragility\nIn FGDs and interviews, both farmers (n = 92) and policy-informers (n = 13) were introduced to\nthe concept of antifragility (‘eventually gaining from an unfortunate situation’) and the three strat-\negies. They were asked to rank the following five statements based on importance: ‘I aim for a\ndiversified income’; ‘I am dependent on advice’; ‘Limiting the use of fertilizers and inputs is impor-\ntant’; ‘Water storage is essential in case of a drought’; ‘Storage facilities to store produce are impor-\ntant to get a good price on the market’. To ensure that all respondents understood the exercise, an\nindividual explanation was given and each statement was written in Hindi and depicted with an\nicon on a card.\nEach of the statements was used to trigger discussions about autonomy, optionality, and stocks,\nand we compared differences between farmers and policy-informers using a Kruskal–Wallis test,\nin case of significant differences followed by a Dunn’s test, to assess post hoc differences between\ntypes (farmers and policy-informers). For all the analyses, we used R software and considered\nstatistical significance at P-value < 0.05. Likert scale data R-packages were used for visualization\n(http://www.bryer.org/project/likert/).\nTo understand how farmers are supported and directed in their decision-making, we inter-\nviewed people who had a stake in the development of policies (referred to as ‘policy-informers’).\nFigure 3 presents the policy structure in Bihar with the research, training, and extension organ-\nizations (‘knowledge generators’) in green and the governmental policy system in gray. The\nknowledge generators inform the policy system and are in direct touch with farmers, as part\nof research and through extension of KVKs1 which are under their direction. Within the policy\nsystem, we distinguish ‘vision makers’, who plan and design development programs and ‘imple-\nmenters’ who disseminate these through extension services.\nWe had 13 semi-structured interviews with knowledge generators (4), vision makers (3), imple-\nmenters (4), and extension workers (2) to ask for their responsibilities, goals, and vulnerability\n(‘what is the worst that can happen’). We addressed this question both for the position of the\ninterviewee and for the organization they worked for. The interview was followed by the ranking\nof the strategies for antifragility and elaboration on each of the strategies. As part of this ranking,\nwe discussed to what extent their work contributed to the development of the three strategies (i.e.,\nstock, optionality, and autonomy) at farm level and what their outlook was on agriculture for the\ncoming 5–10 years. Finally, we asked if they could nominate a positive deviant farm with strong\nperformance on the three strategies.\nThrough the FGDs with farmers and interviews with policy-informers, we addressed the ques-\ntions: a) How are the strategies for antifragility interpreted by farmers and policy-informers? b)\nHow are they currently represented in the lives of farmers? and c) Is there scope to develop these\nstrategies?",
+          "bbox": [
+            54.02204895019531,
+            65.34009552001953,
+            450.7182312011719,
+            486.8156433105469
+          ]
+        },
+        {
+          "id": "p6-b1-5aa2532",
+          "kind": "paragraph",
+          "text": "Learning from positive deviants\nBased on the nominations from policy-informers, positive deviant farmers were visited. During a\nfarm tour, structural (farm assets and resources) and functional (livelihood pursuits) character-\nistics of the farm were listed (Supplementary Materials Table S5). A semi-structured interview\nfollowed in which the farmer was asked for the trajectory of change and reflection on the three\nstrategies for antifragility.\nThese farm visits revealed information to answer the questions: a) What enabled positive devi-\nant farmers to transform their farming system? b) What makes their farming systems more anti-\nfragile? and c) How are the three strategies for antifragility represented?",
+          "bbox": [
+            54.028289794921875,
+            512.873779296875,
+            450.706298828125,
+            616.870849609375
+          ]
+        },
+        {
+          "id": "p6-b2-146666c",
+          "kind": "paragraph",
+          "text": "1KVK stands for Krishi Vigyan Kendra, meaning ‘farm science center’. They act as agricultural extension centers. KVKs are\nusually associated with a local agricultural university and serve as link between the Indian Council of Agricultural Research\n(ICAR) and farmers.",
+          "bbox": [
+            54.028961181640625,
+            633.1309814453125,
+            450.76953125,
+            662.197509765625
+          ]
+        },
+        {
+          "id": "p6-b3-cff8532",
+          "kind": "heading",
+          "text": "6\nRoos Adelhart Toorop et al.",
+          "bbox": [
+            54.02830123901367,
+            35.53901672363281,
+            186.59701538085938,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p6-b4-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-04ec15c",
+          "kind": "paragraph",
+          "text": "Results\nChallenges and coping strategies\nFarmers across all farm types listed a broad array of challenges to sustain their livelihoods: water\nand labor scarcity; low market prices; and low quality and access to inputs (Table 1). Farmers\ncoped with the majority of the challenges by bearing higher costs, leaving land fallow, or post-\nponing farm management practices. Pointing at the government for support was common.\nThe consequences of challenges and room to maneuver differed among farm types. For the\npart-time farmers and wealthy farmers, water or labor scarcity mainly resulted in higher cultiva-\ntion costs: they had the means to pay higher diesel prices to use borewells or machinery. Farmers\nfrom other farm types often had to ‘queue’ to use a community borewell or to hire laborers. These\nfarmers would eventually also bear the costs of being late with their practices with reduced farm\nproductivity. High-quality inputs were expensive and scarce resulting in inevitable yield penalties\nfor farmers without access to credits (often medium-scale crop and livestock farmers and resource-\npoor farmers). They either bought low-quality seeds or were late with the purchase of seeds as they\ndid not have credits until their harvest of the previous season was sold.",
+          "bbox": [
+            42.519683837890625,
+            462.4058837890625,
+            439.2119140625,
+            642.15478515625
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/toorop-2023/d35515e6a429/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b2-baa5eba",
+          "kind": "paragraph",
+          "text": "Figure 3. Institutional web of policy-informers, with knowledge generators, vision makers, implementers, and extension\nworkers. Functions in gray are part of the governmental policy system, and functions in green are research, training, and\nextension organizations.",
+          "bbox": [
+            42.51969528198242,
+            415.75360107421875,
+            439.1774597167969,
+            442.5288391113281
+          ]
+        },
+        {
+          "id": "p7-b3-bed4ecf",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture\n7",
+          "bbox": [
+            320.0314025878906,
+            35.53901672363281,
+            439.214599609375,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p7-b4-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-3ca023d",
+          "kind": "paragraph",
+          "text": "Table 1. Most frequently mentioned challenges with potential coping strategies. Italics categorize the strategies which\nwere already (widely) practiced. Colors categorize the responses as coping (orange), buffering (yellow), or adaptation\n(green). In the case of white cells, the challenge was not (unanimously) recognized by the farm type",
+          "bbox": [
+            54.028297424316406,
+            66.35533142089844,
+            450.5992431640625,
+            93.1297607421875
+          ]
+        },
+        {
+          "id": "p8-b1-66eee80",
+          "kind": "paragraph",
+          "text": "Challenge\nCoping strategies",
+          "bbox": [
+            62.02199935913086,
+            101.8652114868164,
+            311.6531982421875,
+            109.64862060546875
+          ]
+        },
+        {
+          "id": "p8-b2-a82e164",
+          "kind": "paragraph",
+          "text": "Part-time farmer\n(n = 17)\nWealthy\nfarmer (n = 19)",
+          "bbox": [
+            132.8885498046875,
+            124.3154067993164,
+            249.00123596191406,
+            140.43267822265625
+          ]
+        },
+        {
+          "id": "p8-b3-a26e938",
+          "kind": "paragraph",
+          "text": "Small-scale\ncrop-livestock\nfarmer (n = 20)",
+          "bbox": [
+            267.7029724121094,
+            115.7549819946289,
+            315.5013122558594,
+            140.4326171875
+          ]
+        },
+        {
+          "id": "p8-b4-e5b940a",
+          "kind": "paragraph",
+          "text": "Medium-scale\ncereal crop\nfarmer (n = 17)\nResource-poor\nfarmers (n = 20)",
+          "bbox": [
+            331.255615234375,
+            115.75492095947266,
+            440.9633483886719,
+            140.43255615234375
+          ]
+        },
+        {
+          "id": "p8-b5-60c62e2",
+          "kind": "paragraph",
+          "text": "Water scarcity\nIrrigate more, bear\nincreased costs\nGov. should invest\nin borewells and\nponds",
+          "bbox": [
+            62.02191162109375,
+            149.3169403076172,
+            253.36912536621094,
+            173.99456787109375
+          ]
+        },
+        {
+          "id": "p8-b6-1327a2b",
+          "kind": "paragraph",
+          "text": "Deepen borewell\nGov. should\ninvest in\ncommunity\nborewell",
+          "bbox": [
+            261.6369934082031,
+            149.31687927246094,
+            370.8797302246094,
+            182.61187744140625
+          ]
+        },
+        {
+          "id": "p8-b7-2774ca4",
+          "kind": "paragraph",
+          "text": "Gov. should\ninvest in\ncommunity\nborewell and\nponds\nSubstitute\nvegetables and\nrice",
+          "bbox": [
+            128.521240234375,
+            149.3168182373047,
+            435.74932861328125,
+            208.40695190429688
+          ]
+        },
+        {
+          "id": "p8-b8-7d15c1a",
+          "kind": "paragraph",
+          "text": "Leave land fallow\nSwitch to green\nfodder\nLeave land fallow",
+          "bbox": [
+            195.07835388183594,
+            183.6722869873047,
+            381.0106201171875,
+            199.78955078125
+          ]
+        },
+        {
+          "id": "p8-b9-d1732cf",
+          "kind": "paragraph",
+          "text": "Change to short\nduration\nvarieties",
+          "bbox": [
+            328.13555908203125,
+            196.3148651123047,
+            377.4391784667969,
+            220.99252319335938
+          ]
+        },
+        {
+          "id": "p8-b10-efe250d",
+          "kind": "paragraph",
+          "text": "Leave land fallow",
+          "bbox": [
+            388.6830139160156,
+            196.3148651123047,
+            441.5580749511719,
+            203.81475830078125
+          ]
+        },
+        {
+          "id": "p8-b11-775020b",
+          "kind": "paragraph",
+          "text": "Switch to green\nmanure or\nsesbania",
+          "bbox": [
+            195.07684326171875,
+            222.1100311279297,
+            240.93801879882812,
+            246.78768920898438
+          ]
+        },
+        {
+          "id": "p8-b12-8b82790",
+          "kind": "paragraph",
+          "text": "Switch to green\nfodder",
+          "bbox": [
+            328.13482666015625,
+            222.1100311279297,
+            375.5514831542969,
+            238.17031860351562
+          ]
+        },
+        {
+          "id": "p8-b13-98095ad",
+          "kind": "paragraph",
+          "text": "Labor scarcity\nDelayed seeding\nLeave land fallow\nLeave land fallow\nPay high price to\nget labor\nWork harder",
+          "bbox": [
+            62.018157958984375,
+            251.87339782714844,
+            427.7357177734375,
+            267.99066162109375
+          ]
+        },
+        {
+          "id": "p8-b14-5a30554",
+          "kind": "paragraph",
+          "text": "Include family\nlabor\nReplace paddy with\nsesbania\nDelayed seeding",
+          "bbox": [
+            128.51901245117188,
+            264.5159606933594,
+            309.0678405761719,
+            280.5762634277344
+          ]
+        },
+        {
+          "id": "p8-b15-7d7030d",
+          "kind": "paragraph",
+          "text": "Use mechanization\nUse mechanization\nInclude family\nlabor\nStart machinery\ncooperative\nInclude family\nlabor",
+          "bbox": [
+            128.5182647705078,
+            285.6626892089844,
+            431.64617919921875,
+            301.77996826171875
+          ]
+        },
+        {
+          "id": "p8-b16-8b5e95b",
+          "kind": "paragraph",
+          "text": "Low quality and\naccess to inputs\n(seeds, fertilizers,\nand pesticides)",
+          "bbox": [
+            62.015838623046875,
+            306.8656311035156,
+            121.7532958984375,
+            340.1606750488281
+          ]
+        },
+        {
+          "id": "p8-b17-239a503",
+          "kind": "paragraph",
+          "text": "Bear higher costs\nand lower yields\nGov. should own\nshops with\nlicensed\nproducts",
+          "bbox": [
+            128.51596069335938,
+            306.8656005859375,
+            247.2454071044922,
+            340.16064453125
+          ]
+        },
+        {
+          "id": "p8-b18-239a503",
+          "kind": "paragraph",
+          "text": "Bear higher costs\nand lower yields\nGov. should own\nshops with\nlicensed\nproducts",
+          "bbox": [
+            261.63018798828125,
+            306.8655700683594,
+            380.3033142089844,
+            340.1606140136719
+          ]
+        },
+        {
+          "id": "p8-b19-afa4ac2",
+          "kind": "paragraph",
+          "text": "Bear higher costs\nand lower\nyields",
+          "bbox": [
+            388.6777648925781,
+            306.86553955078125,
+            439.4498291015625,
+            331.6001892089844
+          ]
+        },
+        {
+          "id": "p8-b20-881325b",
+          "kind": "paragraph",
+          "text": "Use organic\nfertilizers\nPay higher price to\nget scarce quality\ninputs",
+          "bbox": [
+            128.51373291015625,
+            336.68585205078125,
+            321.0639343261719,
+            361.363525390625
+          ]
+        },
+        {
+          "id": "p8-b21-4c7140f",
+          "kind": "paragraph",
+          "text": "Use vermicompost",
+          "bbox": [
+            388.6762390136719,
+            336.68585205078125,
+            440.84027099609375,
+            344.1857604980469
+          ]
+        },
+        {
+          "id": "p8-b22-fcfd4fa",
+          "kind": "paragraph",
+          "text": "Save seeds for\nwheat",
+          "bbox": [
+            128.51296997070312,
+            357.8888244628906,
+            169.8291778564453,
+            374.006103515625
+          ]
+        },
+        {
+          "id": "p8-b23-cbcda22",
+          "kind": "paragraph",
+          "text": "Low market prices\nThere should be a\nminimum\nsupport price for\nvegetables",
+          "bbox": [
+            62.012107849121094,
+            379.0917663574219,
+            254.7565460205078,
+            412.3868103027344
+          ]
+        },
+        {
+          "id": "p8-b24-cb913cd",
+          "kind": "paragraph",
+          "text": "Gov. should invest\nin storage for\nvegetables",
+          "bbox": [
+            261.6279296875,
+            379.09173583984375,
+            318.47265625,
+            403.7694091796875
+          ]
+        },
+        {
+          "id": "p8-b25-88a3c3d",
+          "kind": "paragraph",
+          "text": "Gov. should\ninvest in\nstorage for\nvegetables",
+          "bbox": [
+            328.1280517578125,
+            379.09173583984375,
+            368.6514892578125,
+            412.38873291015625
+          ]
+        },
+        {
+          "id": "p8-b26-1994111",
+          "kind": "paragraph",
+          "text": "Only cultivate for\nhome\nconsumption",
+          "bbox": [
+            388.6862487792969,
+            379.0936584472656,
+            441.3415832519531,
+            403.7713317871094
+          ]
+        },
+        {
+          "id": "p8-b27-e87b75e",
+          "kind": "paragraph",
+          "text": "Change to cash\ncrops which do\nwell on the\nmarket",
+          "bbox": [
+            195.08006286621094,
+            417.4743957519531,
+            250.06788635253906,
+            450.7694091796875
+          ]
+        },
+        {
+          "id": "p8-b28-679ac30",
+          "kind": "paragraph",
+          "text": "Only enter the\nmarket for a\npart of the\nincome",
+          "bbox": [
+            261.6371765136719,
+            417.474365234375,
+            307.540283203125,
+            450.7694091796875
+          ]
+        },
+        {
+          "id": "p8-b29-30fd82f",
+          "kind": "paragraph",
+          "text": "There should be\na minimum\nsupport price\nfor vegetables",
+          "bbox": [
+            328.13726806640625,
+            417.4743347167969,
+            377.7528076171875,
+            450.76934814453125
+          ]
+        },
+        {
+          "id": "p8-b30-b23bd99",
+          "kind": "paragraph",
+          "text": "Lack of advice\nApproach\nneighbors,\nresearchers, and\ncall centers",
+          "bbox": [
+            62.020599365234375,
+            455.9120178222656,
+            251.89483642578125,
+            489.20709228515625
+          ]
+        },
+        {
+          "id": "p8-b31-0cf60c5",
+          "kind": "paragraph",
+          "text": "Approach\nneighbors,\nresearchers,\nand call\ncenters",
+          "bbox": [
+            328.1372985839844,
+            455.9120178222656,
+            371.24969482421875,
+            497.7674560546875
+          ]
+        },
+        {
+          "id": "p8-b32-47f4cd8",
+          "kind": "paragraph",
+          "text": "Poor soil quality\nLevel the fields to\navoid ponding\nMove clay from\nlowlands to\npoor highlands",
+          "bbox": [
+            62.020599365234375,
+            502.9101257324219,
+            381.9873352050781,
+            527.5878295898438
+          ]
+        },
+        {
+          "id": "p8-b33-1863d4b",
+          "kind": "paragraph",
+          "text": "Use organic\nfertilizers\nGrow mung bean\nand sesbania",
+          "bbox": [
+            328.13653564453125,
+            532.6735229492188,
+            381.74273681640625,
+            565.9685668945312
+          ]
+        },
+        {
+          "id": "p8-b34-39eadec",
+          "kind": "paragraph",
+          "text": "Lack of credits\nBank should\nprovide credits\nSave seeds\nDo more off-\nfarm work",
+          "bbox": [
+            62.019866943359375,
+            571.1112670898438,
+            429.3874206542969,
+            595.7888793945312
+          ]
+        },
+        {
+          "id": "p8-b35-8ff1a25",
+          "kind": "paragraph",
+          "text": "No suitable\nmechanization\nStart machinery\ncooperative",
+          "bbox": [
+            62.019073486328125,
+            600.8746337890625,
+            243.39366149902344,
+            616.9918823242188
+          ]
+        },
+        {
+          "id": "p8-b36-6e030f1",
+          "kind": "paragraph",
+          "text": "Heat stress\nBear losses when\nseeding was not\ndone in time",
+          "bbox": [
+            62.018341064453125,
+            622.0775756835938,
+            250.3003692626953,
+            646.8121948242188
+          ]
+        },
+        {
+          "id": "p8-b37-9a7a4a8",
+          "kind": "paragraph",
+          "text": "Low crop\nproductivity\nPurchase better\nseeds",
+          "bbox": [
+            62.017608642578125,
+            652.8616333007812,
+            435.5816345214844,
+            668.9789428710938
+          ]
+        },
+        {
+          "id": "p8-b38-6ee3a03",
+          "kind": "heading",
+          "text": "8\nRoos Adelhart Toorop et al.",
+          "bbox": [
+            54.02830123901367,
+            35.53901672363281,
+            186.59701538085938,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p8-b39-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        },
+        {
+          "id": "p8-figure1",
+          "kind": "image",
+          "path": "library/toorop-2023/d35515e6a429/p8-figure1.png",
+          "alt": "Original source page 8, graphic 1",
+          "caption": "原文第8页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-e686ae3",
+          "kind": "paragraph",
+          "text": "In some cases, the impact of the problem was buffered through deviation from the business as\nusual. Labor scarcity could be buffered through including family labor or using mechanization\ninstead of hiring labor; lack of seeds was partly solved by saving wheat seeds; and low market\nprices were less of a problem when produce was primarily for self-consumption. In addition\nto the coping and buffering responses, some solutions implied a systems transformation, that\nis, rearrangement of the farming system and its management. Farmers mentioned switching crops\n(especially replacing vegetables and rice), use of organic instead of artificial fertilizers, and starting\na machinery cooperative as potential options to overcome constraints. However, apart from the\nuse of organic fertilizers, these transformative changes were not practiced among the participants\nof the FGDs. In addition to the constraints summarized in Table 1, land fragmentation, damage by\nwild animals, lack of off-farm working opportunities, and poor water quality were listed as prob-\nlems, but no solutions were raised. For solutions, the farmers pointed at the government to take\naction.",
+          "bbox": [
+            42.5200309753418,
+            65.03504180908203,
+            439.2102355957031,
+            216.2783660888672
+          ]
+        },
+        {
+          "id": "p9-b1-2bf833b",
+          "kind": "paragraph",
+          "text": "Scope for antifragility",
+          "bbox": [
+            42.51969909667969,
+            237.5701904296875,
+            133.34255981445312,
+            247.0701904296875
+          ]
+        },
+        {
+          "id": "p9-b2-8144365",
+          "kind": "paragraph",
+          "text": "Insights from farmers\nFarmers interpreted optionality as diversification of marketable crops, and this feature was valued\nas a way to spread risks in case of climatic disasters. Although not acknowledged as optionality,\nmost farmers owned cattle and produced dairy products, crops (cereals), and fruit for home con-\nsumption. Especially, cereal production was highly valued by all farm types, both for home con-\nsumption and sales. Livestock had a subordinate role because of the high labor demand and\ncompetition between food and feed crops. Only the farm type with livestock as livelihood strategy\n(small-scale crop and livestock farmer) mentioned milk as a continuous source of income, with a\nlow, but stable price. The part-time farmers and resource-poor farmers relied on their income from\noff-farm activities to sustain their way of farming, and a lack of off-farm job opportunities for the\nresource-poor farmers was mentioned as problematic. For the other farm types, an off-farm job\nwas undesirable but considered an option, if necessary, to continue farming. Farmers of all types\nwanted a future outside agriculture for the next generations.\nThere was little response to peak prices on the market. Farmers reasoned that other farmers\nwould respond quicker and that a good price in 1 year did not guarantee a good price for the next\nyear. Moreover, there was a general reluctance toward change: experimentation was not common,\nand changes were implemented after others (e.g., neighbors) showed these to be successful. This\nconservative attitude is also expressed in Table 1, and farmers coped with most challenges.\nStocks were mostly interpreted as storage capacity for products and were acknowledged as\nimportant to better regulate supply and demand. Although farmers understood the benefits of\nstocks like rainwater storage and soil organic matter stocks, these were not a priority. There were\ncommunal water ponds in the villages, but as these were used by wealthier farmers who had the\nmeans to pump, they were not perceived as stocks. On-farm storage was limited to cereals for\nhome consumption and wheat seeds.\nWhen talking about autonomy, farmers referred to the freedom to say ‘no’ to advisors and\nshopkeepers. Although this freedom was felt, farmers expressed the feeling of being locked in.\nThey acknowledged the need for change but did not take any action themselves as they expected\nthe government to support them with the right techniques and financial support. In general, they\nfelt disadvantaged when compared to farmers in other states and thought that their governmental\nsupport was less relevant than in the neighboring states. They mentioned that in Bihar, the mini-\nmum support price2 was not working and that they lacked ‘good’ markets where they could get",
+          "bbox": [
+            42.51763153076172,
+            266.0303039550781,
+            439.1986389160156,
+            630.8189697265625
+          ]
+        },
+        {
+          "id": "p9-b3-72fd4fb",
+          "kind": "paragraph",
+          "text": "2Based on the recommendations of the Commission for Agricultural Costs and Prices, the Department of Agriculture and\nCo-operation, Government of India, declares Minimum Support Prices (MSP) for 22 crops before their sowing seasons.",
+          "bbox": [
+            42.519447326660156,
+            643.10888671875,
+            439.222412109375,
+            662.1972045898438
+          ]
+        },
+        {
+          "id": "p9-b4-a75ef99",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture\n9",
+          "bbox": [
+            320.0314025878906,
+            35.53901672363281,
+            439.214599609375,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p9-b5-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-ebc328f",
+          "kind": "paragraph",
+          "text": "good prices. When discussing collectiveness versus independence, farmers expressed a strong\nsense of community with neighbors and family for daily life, but that farming was restricted\nto the household. In village meetings, farm-related issues were discussed and there was informa-\ntion exchange about governmental projects and schemes. Despite these village meetings, there was\nlittle (collective) power to address the challenges at hand. Farmers relied heavily on all sorts of\ninputs and argued that these inputs gave the best chance to get the highest attainable yield. With\nthese high yields, the high costs of cultivation would pay off.",
+          "bbox": [
+            54.02830123901367,
+            65.03504180908203,
+            450.70733642578125,
+            145.80992126464844
+          ]
+        },
+        {
+          "id": "p10-b1-c696c71",
+          "kind": "paragraph",
+          "text": "Insights from policy-informers\nPolicy-informers mentioned various solutions to address the challenges that farmers mentioned.\nConservation agriculture and integrated farming systems were frequently mentioned as the devel-\nopment directions which could integrally solve the problems at hand. When talking about anti-\nfragility, all policy-informers acknowledged the need of optionality and especially highlighted the\nimportance of a diversity of activities to spread risks. Nevertheless, cereals, and in particular rice,\nwere still seen as the most important crops of which the cultivation needed to be enhanced\nthrough improved technology. Increasing stocks of water and soil quality were mentioned as cru-\ncial for sustainable development of farming systems. Minimizing inputs was not seen as urgent.\nUse of vermicompost and manure was promoted, but the use of artificial fertilizers, pesticides, and\npurchased seeds was still considered to be inevitable. Policy-informers were less familiar with the\nconcepts of autonomy and independence, and these features were not seen as positive assets.\nEnhancing farmers’ livelihoods was viewed on as a governmental responsibility, as one of the\nvision makers said: ‘It is our responsibility to bring changes in farmers’ behavior and to improve\ntheir income, their quality of life’. Being successful as governmental organization implied having\nfarmers adopt the promoted practices. Policy-informers were mostly skeptical about antifragility\nas a concept, especially in case of shocks. In their opinion, farming systems should be robust\nenough to not be affected by mild and medium-sized disturbances, and large disturbances were\nundesirable.",
+          "bbox": [
+            54.02728271484375,
+            171.6392822265625,
+            450.69500732421875,
+            393.21527099609375
+          ]
+        },
+        {
+          "id": "p10-b2-d397d13",
+          "kind": "paragraph",
+          "text": "Ranking features of antifragility\nFarmers and policy-informers did not indicate clear priorities in development directions when\nasked to rank features for antifragility (Figure 4). No significant differences were found between\nfarmers and policy-informers (Supplementary Material Method S1). All statements received both\nlow and high ranks, indicating that stakeholders were divided within and between groups.\nInterviews and FGDs revealed that low ranks indicate lower importance but were not perceived\nas unimportant. The only statement that received more low than high ranks by both farmers and\npolicy-informers concerned limiting the use of inputs in order to become independent. In general,\nincreasing optionality and stocks were understood as important for farmers to develop further, but\nautonomy and independence were not seen as important characteristics to support an effective\nresponse to disturbances.",
+          "bbox": [
+            54.02830123901367,
+            414.05816650390625,
+            450.70428466796875,
+            541.5258178710938
+          ]
+        },
+        {
+          "id": "p10-b3-284db6f",
+          "kind": "paragraph",
+          "text": "Positive deviants\nTable 2 gives an overview of four farming systems that were nominated by the interviewed policy-\ninformers as positively deviating from the farmer population on the basis of the three strategies.\nThe farmers stated that structural long-term challenges and constraints rather than unpredictable\nshocks triggered them to change their farm management. Opportunities arose through their pro-\nfessional network, which helped them to acquire knowledge and skills. These positive deviants\nstarted with a phase of low-cost experiments in which new practices were developed next to\nthe business as usual.",
+          "bbox": [
+            54.02830123901367,
+            568.3165283203125,
+            450.706298828125,
+            662.7925415039062
+          ]
+        },
+        {
+          "id": "p10-b4-b72bf15",
+          "kind": "heading",
+          "text": "10\nRoos Adelhart Toorop et al.",
+          "bbox": [
+            54.02830123901367,
+            35.53901672363281,
+            191.1883544921875,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p10-b5-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-317eda1",
+          "kind": "paragraph",
+          "text": "Only in the case of success, the practice was upscaled. The products (e.g., mushrooms, fish, and\norganic vegetables) could be sold on a niche market, where good prices were received. The four\npositive deviant farmers made the deliberate choice to increase their optionality, in particular\nthrough diversification of activities. They showed independence, for instance, through direct sales,\nbut were nevertheless still dependent on some inputs like seeds. In Supplementary Material Box\nS1, two positive deviants give a short description of their trajectories of change.",
+          "bbox": [
+            42.5200309753418,
+            462.67901611328125,
+            439.1887512207031,
+            531.6622314453125
+          ]
+        },
+        {
+          "id": "p11-b1-d4b8e6a",
+          "kind": "paragraph",
+          "text": "Discussion\nIn this study, we assessed the vulnerability of different types of smallholder farmers in Bihar and\nexplored the scope for more antifragile farming systems. Our results show that farmers across all\nfarm types were vulnerable and locked in with limited adaptive capacity to improve their situation\n(Table 1). The level of vulnerability differed across farm types as adaptive capacity and exposure to\nchallenges depended on resource endowment. Many challenges implied either increased cultiva-\ntion costs or delayed crop management practices leading to yield penalties. The higher-resource\nendowed farmers (part-time farmers, wealthy farmers, and medium-scale cereal crop farmers)\ncould afford the higher costs, while the less-resource endowed farmers (small-scale crop-livestock",
+          "bbox": [
+            42.51969909667969,
+            555.6090087890625,
+            439.19549560546875,
+            662.7923583984375
+          ]
+        },
+        {
+          "id": "p11-figure1",
+          "kind": "image",
+          "path": "library/toorop-2023/d35515e6a429/p11-figure1.png",
+          "alt": "Original source page 11, graphic 1",
+          "caption": "原文第11页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p11-b3-b831392",
+          "kind": "paragraph",
+          "text": "Figure 4. Results of a five-point Likert scale ranging from less important (1) to very important (5) in which farmers were\nasked how important they considered the features for antifragility. Percentages indicate the share of responses that were\nless important (receiving 1 or 2, left), neutral (receiving 3, middle), and important (receiving 4 or 5, right).",
+          "bbox": [
+            42.51969528198242,
+            415.52679443359375,
+            439.1363830566406,
+            442.3020324707031
+          ]
+        },
+        {
+          "id": "p11-b4-a64420e",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture\n11",
+          "bbox": [
+            315.4960021972656,
+            35.53901672363281,
+            439.1727294921875,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p11-b5-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-8c335a1",
+          "kind": "paragraph",
+          "text": "farmers and resource-poor farmers) had no means to manage higher costs, or the social context did\nnot allow them to have the first access to the resource. FGDs and interviews with policy-informers\nrevealed a strong top-down community governance and policy structure. The financial resources\nand information available were translated into concrete and systematic programs which could be\nadopted by farmers. With their focus on uniformity, the development programs often did not\nencourage all features required for antifragility. Especially, the higher-resource endowed farmers\nin this study showed limited initiative and autonomy.\nThe ability to take initiative (i.e., decision-making and agency) is not purely a rational process\n(Moller et al., 2006; Pacilly et al., 2016; Rietveld et al., 2020). Adoption and adaptation of new\npractices and technologies are related to farmers’ motivations, which can range in their degree\nof autonomy and control (Jambo et al., 2019; Moller et al., 2006). Self-determination theory rec-\nognizes autonomy, competence, and connectedness as the basis on which motivation is built",
+          "bbox": [
+            54.0262451171875,
+            512.7388305664062,
+            450.705322265625,
+            652.3031616210938
+          ]
+        },
+        {
+          "id": "p12-b1-8a32b7b",
+          "kind": "paragraph",
+          "text": "Table 2. Description of production and management systems of antifragile examples",
+          "bbox": [
+            54.02830123901367,
+            66.35533142089844,
+            336.5633544921875,
+            74.13787841796875
+          ]
+        },
+        {
+          "id": "p12-b2-83bedad",
+          "kind": "paragraph",
+          "text": "Production\nsystem\nStocks\nOptionality\nIndependence\nNotes",
+          "bbox": [
+            62.02199935913086,
+            83.0757064819336,
+            413.91583251953125,
+            99.58976745605469
+          ]
+        },
+        {
+          "id": "p12-b3-619762b",
+          "kind": "paragraph",
+          "text": "Organic farm,\ndiversified\nproduction",
+          "bbox": [
+            62.02199935913086,
+            108.6808853149414,
+            106.77224731445312,
+            134.40203857421875
+          ]
+        },
+        {
+          "id": "p12-b4-475286e",
+          "kind": "paragraph",
+          "text": "200 trees for timber,\nharvested when\nneeded, usually\nafter 15 years; chili\ncan be stored; soil\nimprovement with\nvermicompost led\nto lower irrigation\ndemand.",
+          "bbox": [
+            121.09638977050781,
+            108.6808853149414,
+            190.97799682617188,
+            188.428955078125
+          ]
+        },
+        {
+          "id": "p12-b5-efe3ab0",
+          "kind": "paragraph",
+          "text": "Wide variety of crops\n(incl. flowers and\nmedicinal herbs\nwhich are rare);\nvermicompost",
+          "bbox": [
+            203.5281982421875,
+            108.67935943603516,
+            273.43927001953125,
+            152.4283447265625
+          ]
+        },
+        {
+          "id": "p12-b6-eeaa0e0",
+          "kind": "paragraph",
+          "text": "Direct sales; uses\nmainly organic\nfertilizers; cereals\nfor home\nconsumption",
+          "bbox": [
+            287.2635498046875,
+            108.67862701416016,
+            352.3758850097656,
+            152.4276123046875
+          ]
+        },
+        {
+          "id": "p12-b7-b3d3bdf",
+          "kind": "paragraph",
+          "text": "At the moment no\nmarket for organic\nproduce, but\nexpects this soon\nexpects to benefit\nfrom a head start.\nAlready inspired 30\nnearby farmers who\nare also (partly)\norganic now.\nSatisfied with\nincome.",
+          "bbox": [
+            366.9170227050781,
+            108.67789459228516,
+            441.27496337890625,
+            215.4111328125
+          ]
+        },
+        {
+          "id": "p12-b8-94a110d",
+          "kind": "paragraph",
+          "text": "Mushroom\nproduction \u0001\narable\nproduction",
+          "bbox": [
+            62.0235595703125,
+            222.6278533935547,
+            114.9677734375,
+            257.41949462890625
+          ]
+        },
+        {
+          "id": "p12-b9-1bf9a74",
+          "kind": "paragraph",
+          "text": "Mushroom residue\ngoes to soil;\nvermicompost gives\ngood results",
+          "bbox": [
+            121.09794616699219,
+            222.62709045410156,
+            194.5848388671875,
+            257.4187316894531
+          ]
+        },
+        {
+          "id": "p12-b10-2d421a9",
+          "kind": "paragraph",
+          "text": "Wide variety of crops\n\u0001 mushrooms\nDirect sales; network\nof ‘innovative\nfarmers’ for\nknowledge\nexchanges",
+          "bbox": [
+            203.52975463867188,
+            222.62632751464844,
+            356.19586181640625,
+            266.37530517578125
+          ]
+        },
+        {
+          "id": "p12-b11-f53663a",
+          "kind": "paragraph",
+          "text": "Satisfied with income\nand way of farming\nLearns from doing: if\nan experiment is\nsuccessful, he\nincreases area. Now\ntrials with capsicum.",
+          "bbox": [
+            366.9185791015625,
+            222.62559509277344,
+            442.13214111328125,
+            284.40240478515625
+          ]
+        },
+        {
+          "id": "p12-b12-d26b25a",
+          "kind": "paragraph",
+          "text": "Mushrooms\n(oyster \u0001\nspores),\nbiogas, fish,\nservice\nprovider,\nrents out\ntube well*",
+          "bbox": [
+            62.025909423828125,
+            291.6191101074219,
+            109.18635559082031,
+            362.40985107421875
+          ]
+        },
+        {
+          "id": "p12-b13-1c8ccdf",
+          "kind": "paragraph",
+          "text": "Manure is source of\nbiogas, digestate\nused as fertilizer;\nhas stock of biogas;\ncereal stock; dries\nmushrooms to\nstore; family\nmembers all work\non farm and replace\neach other.",
+          "bbox": [
+            121.10029602050781,
+            291.61761474609375,
+            196.78042602539062,
+            380.3796081542969
+          ]
+        },
+        {
+          "id": "p12-b14-bbfe4c9",
+          "kind": "paragraph",
+          "text": "Different agricultural\n‘enterprises’\ngenerating income\nthroughout the year.\nCultivation and\nservice provision\n(tube well and\ncontract work with\nown machinery)",
+          "bbox": [
+            203.5321044921875,
+            291.6161193847656,
+            279.98956298828125,
+            371.36419677734375
+          ]
+        },
+        {
+          "id": "p12-b15-b646bf0",
+          "kind": "paragraph",
+          "text": "Has own input shop\nand own\nmachinery; Direct\nsales – negotiates\nprice with\ncustomers who\ncome to the farm.",
+          "bbox": [
+            287.2674560546875,
+            291.6146240234375,
+            355.2054138183594,
+            353.3914489746094
+          ]
+        },
+        {
+          "id": "p12-b16-2d7fb01",
+          "kind": "paragraph",
+          "text": "Received training but\nno/little monetary\nsupport. Proud to\nbe a teacher in\nmushroom\ncultivation.",
+          "bbox": [
+            366.9208984375,
+            291.6131286621094,
+            437.2659606933594,
+            344.37603759765625
+          ]
+        },
+        {
+          "id": "p12-b17-67123ca",
+          "kind": "paragraph",
+          "text": "Fish collective*\nAlways produce; safety\nincreases with more\nmembers (more\npeople to watch/\nguard);",
+          "bbox": [
+            62.027435302734375,
+            388.61322021484375,
+            196.67884826660156,
+            432.3622131347656
+          ]
+        },
+        {
+          "id": "p12-b18-9070608",
+          "kind": "paragraph",
+          "text": "Different types of fish;\nwide variety of fruits\nand vegetables for\nmembers of the\ncollective; labor\ntasks are divided",
+          "bbox": [
+            203.5328369140625,
+            388.6124572753906,
+            279.90576171875,
+            441.3753662109375
+          ]
+        },
+        {
+          "id": "p12-b19-ff40c10",
+          "kind": "paragraph",
+          "text": "Direct sales; no\nemployees, hire\ntemporary labor\nwhen needed.",
+          "bbox": [
+            287.2681884765625,
+            388.6117248535156,
+            348.89923095703125,
+            423.40338134765625
+          ]
+        },
+        {
+          "id": "p12-b20-80fd6b3",
+          "kind": "paragraph",
+          "text": "All members of the\ncollective also have\ntheir own farming\nactivities.\nAs collective they have\nmore power,\ngovernment\nprovided electricity.",
+          "bbox": [
+            366.9216613769531,
+            388.6109619140625,
+            442.21044921875,
+            459.4017028808594
+          ]
+        },
+        {
+          "id": "p12-b21-e97fb7b",
+          "kind": "paragraph",
+          "text": "*Supplementary Material Box S1 gives a short description of the trajectories of change for these farmers.",
+          "bbox": [
+            54.02830123901367,
+            466.43646240234375,
+            357.8872985839844,
+            473.18658447265625
+          ]
+        },
+        {
+          "id": "p12-b22-f7e8aca",
+          "kind": "heading",
+          "text": "12\nRoos Adelhart Toorop et al.",
+          "bbox": [
+            54.02830123901367,
+            35.53901672363281,
+            191.1883544921875,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p12-b23-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-6d48414",
+          "kind": "paragraph",
+          "text": "(Ryan and Deci, 2000). In our study, these characteristics distinguished the positive deviants from\nthe farmers in the FGDs. Although farms within a farm type were comparable in their resources\nand livelihood strategies, there was no collective power or agency (i.e., connectedness) to over-\ncome the constrained situation, neither to share knowledge or practical work. In contrast, the\npositive deviants formed strong ties with others for production and marketing, which stimulated\nlearning and continuous adaptations of the farming systems management. They indicated engage-\nment and satisfaction with their systems, their daily activities, and their income.\nThe self-determination theory explains that coercive and external pressures tend to minimize\n(intrinsic) motivation (Moller et al., 2006; Ryan and Deci, 2000). We observed this in the strong\nreliance on and expectation of governmental interventions. Triggering farmers’ intrinsic motiva-\ntion and connectedness is crucial to increase autonomous functioning (Stobbelaar et al., 2009).\nFigure 5 schematically represents a rationale which could ultimately lead to more antifragility\nat farm level. Greater autonomy will enable initiative and development of competences\n(Moller et al., 2006), for example, through a dual strategy where something new is explored simul-\ntaneously with activities that are known and safe (Barbell Strategy) or through trial, error, and\nselection (‘tinkering’). When practices, knowledge and skills are continuously developed, com-\nplexity will evolve over time (Clancy, 2010; Urruty et al., 2016), and an increase in optionality\nand stocks can be expected (Altieri et al., 2015; Gliessman, 2015). As a result of these assets, adap-\ntiveness (i.e., capacity to adapt farming practices and cultivation choices) increases. To support\nsuch a shift, transformation and adaptation of policies may be required. This can, for example,\nstart with formulation of goal-oriented and adaptive policies that promote cooperation\n(Stobbelaar et al., 2009). In this way, connective systems which are socioeconomically and bio-\nphysically adaptive can be aimed for.\nWhen interpreting the results presented here, the limitations of the research context should be\nconsidered. In this study, we organized FGDs to identify challenges and coping strategies of dif-\nferent types of smallholder farmers. In order to have farmers available, the FGDs were planned in\nthe middle of the rabi season (January and February) which is a relatively quiet moment in the\nyear. Our results and analysis are based on a snapshot in time, while the perception of challenges\nmay be dynamic (Nikolaski et al., 2018). The challenges listed in Table 1 can be identified as struc-\ntural problems or long-term stressors. Although Bihar is known for its vulnerability caused by",
+          "bbox": [
+            42.51251220703125,
+            311.08221435546875,
+            439.1966247558594,
+            662.333740234375
+          ]
+        },
+        {
+          "id": "p13-figure1",
+          "kind": "image",
+          "path": "library/toorop-2023/d35515e6a429/p13-figure1.png",
+          "alt": "Original source page 13, graphic 1",
+          "caption": "原文第13页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p13-b2-ca4f345",
+          "kind": "paragraph",
+          "text": "Figure 5. Relationship between autonomy and the ability to develop optionality and stocks, to reinforce adaptiveness in\ncase of a disturbance.",
+          "bbox": [
+            42.51969909667969,
+            268.8623046875,
+            439.14959716796875,
+            286.16949462890625
+          ]
+        },
+        {
+          "id": "p13-b3-6194101",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture\n13",
+          "bbox": [
+            315.4960021972656,
+            35.53901672363281,
+            439.1727294921875,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p13-b4-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-626ad34",
+          "kind": "paragraph",
+          "text": "climatic anomalies (Chhabra and Haris, 2015; Lopez-Ridaura et al., 2018; Shirsath et al., 2017),\nsudden disturbances and shocks were hardly mentioned. This can be explained by the lower fre-\nquency of the shocks compared to the continuous stress of the daily challenges and the age of the\nparticipants. Only challenges that were shared among all participants of the FGDs were listed, and\nyounger farmers may not have been exposed to less frequent shocks. Although the list of chal-\nlenges may not be exhaustive, understanding of the stressors is an indispensable first step toward\nincreasing the systems’ vulnerability to shocks (Tendall et al., 2015).\nFour positive deviant farms showed that it was feasible to deviate from the dominating wheat–\nrice production systems. We did not collect data on their performance indicators and were there-\nfore not able to show quantitative (statistical) deviance compared to average farmers. Because the\npositive deviant farmers showed optionality, stocks, and autonomy, we expect them to be more\nantifragile, but we do not have direct evidence in terms of differences in system dynamics between\ntheir farms and average farms. Moreover, it was difficult to single out success factors with this\nsmall and normatively selected sample of positive deviant farmers. To go beyond the explorative\nnature of this study, the social and agronomical performance and development of different types\nof positive deviant farming systems should be better understood. Clear indicators for positive\ndeviance should then be developed. These positive deviants received help from governmental pro-\ngrams, which is probably why they were known by the policy-informers who nominated them.\nAlthough they showed higher levels of autonomy and seemed to not to rely on the extra attention\nthey got, their flagship position may have also helped them to develop.\nIn this study, we elaborate on the term ‘antifragility’, that was first introduced by Taleb (2012),\nas a dynamic system property in socio-ecological systems. The features contributing to antifra-\ngility are not new in the scientific literature. A few examples: optionality, especially in the form\nof diversity, is widely acknowledged to foster adaptation. Ecological, social, and political diversity\nare promoted to increase options and reduce risks (Altieri et al., 2015; Hoy, 2015; Lade et al.,\n2020). Stocks in various forms contribute as a buffer against failure, redundancy, and diversity\nand avoid that the loss of critical system components triggers dramatic changes in the system\ndynamics (Altieri et al., 2015; Hodbod and Eakin, 2015). Fraser et al. (2015) and Stave and\nKopainsky (2015) relate the importance of stocks to food security. Autonomy or self-organization\nin biological, social, and ecological systems should avoid top-down suppression and reliance and\nsupports the self-organizing properties of diverse entities at local scales (Berkes, 2007; Hoy, 2015).\nAntifragility has overlap with the scientific literature describing adaptive management, adap-\ntation, resilience, and transformation: it requires, for example, that adaptation and transformation\nbenefit from disturbances and evolve. Antifragility, however, aims to use disturbances to improve\nthe system and to increase its performance. It does not aim at stability, coping, or recovery;\ninstead, it requires long-term learning, trial, and adaptation to structurally gain from ‘disorder’\n(e.g., rapid and unpredictable changes). The resilient system dynamics described by, for example,\nDarnhofer (2021) (i.e., transformation after unexpected shocks) and Tendall et al. (2015) (i.e.,\neradicate weaknesses to build capacities) could therefore be recognized as antifragile responses.\nMoreover, movements like agroecology and organic agriculture claim to reduce vulnerability\nand increase resilience due to attention to crop and animal diversification, maintenance of local\ngenetic diversity, crop rotations, and organic matter and nutrient cycles (Altieri et al., 2015), and\nthese systems may often have antifragile responses. However, similar to the concept of resilience\nthinking, antifragility is still a paradigm rather than a testable concept. A framework for collecting\nempirical evidence for antifragility in agroecosystems still needs to be developed.\nThis study explored the scope to increase antifragility at farm level. However, farmers are, as\nprimary producers, influenced by commercial (traders, breeders, and financers) and public insti-\ntutes (Figure 3) all with their own objectives (Pacilly et al., 2016). True antifragility extends to this\nwhole system. Recent studies on the impact of COVID-19 on the food system have found that long\nsupply chains are more vulnerable (Kumar et al., 2021; Meuwissen et al., 2019; Rivera-Ferre et al.,\n2021), and that connectedness, flexibility, and diversity throughout the supply chain were",
+          "bbox": [
+            54.02215576171875,
+            65.03504180908203,
+            450.72052001953125,
+            662.7936401367188
+          ]
+        },
+        {
+          "id": "p14-b1-fa1f706",
+          "kind": "heading",
+          "text": "14\nRoos Adelhart Toorop et al.",
+          "bbox": [
+            54.02830123901367,
+            35.53901672363281,
+            191.1883544921875,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p14-b2-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-14.png"
+    },
+    {
+      "number": 15,
+      "blocks": [
+        {
+          "id": "p15-b0-08ea634",
+          "kind": "paragraph",
+          "text": "beneficial in dealing with the crisis. These studies suggest that a trajectory toward more antifra-\ngility at the farm level ideally goes hand in hand with rigorous rethinking of the hierarchical struc-\ntures and desirable sizes of food systems.",
+          "bbox": [
+            42.51969909667969,
+            65.03504180908203,
+            439.16497802734375,
+            98.75584411621094
+          ]
+        },
+        {
+          "id": "p15-b1-e7aee2c",
+          "kind": "paragraph",
+          "text": "Conclusions\nFarming systems are increasingly exposed to unpredictable perturbations. Antifragile systems\nthrive in such situations, as their configuration and characteristics enable them to change and\nadapt when necessary. The concept of antifragility could provide a new perspective on ‘sustain-\nability’ in the agricultural domain, although a framework that collects empirical evidence should\nbe developed.\nThis study used a case study approach to explore the concept of antifragility at farm level.\nFarmers across all farm types in the two villages in Bihar, India, appeared to be vulnerable\nand locked in with limited adaptive capacity to overcome the challenges at hand. Four positive\ndeviants that were more autonomous and richer in optionality and stocks were expected to be\nmore antifragile and thus able to deal better with unexpected shocks and disturbances. We con-\nclude that supporting antifragility at the farm level requires changes at policy level. This could start\nwith the formulation of goal-oriented and adaptive policies that promote cooperation and farm-\ners’ autonomous decision-making. This may result in a more proactive attitude enabling devel-\nopment of competences leading to more optionality and stocks. That, in turn, will increase the\nadaptiveness of the farmer and the farm enterprise.",
+          "bbox": [
+            42.51969909667969,
+            123.5523681640625,
+            439.1885070800781,
+            313.0523376464844
+          ]
+        },
+        {
+          "id": "p15-b2-d0a47e9",
+          "kind": "paragraph",
+          "text": "Supplementary\nmaterial.\nFor\nsupplementary\nmaterial\naccompanying\nthis\npaper\nvisit\nhttps://doi.org/10.1017/\nS0014479723000017",
+          "bbox": [
+            42.51969909667969,
+            322.1324768066406,
+            439.1874084472656,
+            340.4075927734375
+          ]
+        },
+        {
+          "id": "p15-b3-1906d6f",
+          "kind": "paragraph",
+          "text": "Acknowledgements. We thank the farmers for their time and for sharing their experiences and expertise.",
+          "bbox": [
+            42.5205078125,
+            350.08172607421875,
+            388.93218994140625,
+            358.32257080078125
+          ]
+        },
+        {
+          "id": "p15-b4-cac1c63",
+          "kind": "paragraph",
+          "text": "Financial Support. We acknowledge the financial and technical support from CGIAR Research Programs on Climate\nChange, Agriculture and Food Security (CCAFS), Wheat Agri-food Systems (WHEAT), Indian Council of Agricultural\nResearch (ICAR), and all donors who supported this research through their contributions to the CGIAR Fund. For a list\nof Fund donors, please see: http://www.cgiar.org/our-funders/. The contribution of JCJG was supported by the Senior\nExpert program of the Dutch Science Council (NWO), grant number 17222.",
+          "bbox": [
+            42.5205078125,
+            368.0534973144531,
+            439.19622802734375,
+            416.263427734375
+          ]
+        },
+        {
+          "id": "p15-b5-437e6e4",
+          "kind": "paragraph",
+          "text": "Conflicts of Interest. The authors declare no conflicts of interest.",
+          "bbox": [
+            42.5205078125,
+            425.9943542480469,
+            257.5081787109375,
+            434.2351989746094
+          ]
+        },
+        {
+          "id": "p15-b6-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            42.51969909667969,
+            459.62786865234375,
+            91.82817077636719,
+            470.1279602050781
+          ]
+        },
+        {
+          "id": "p15-b7-eb5dfd0",
+          "kind": "paragraph",
+          "text": "Adelhart Toorop R., Ceccarelli V., Bijarniya D., Jat M.L., Jat R.K., Lopez-Ridaura S. and Groot J.C.J. (2020a). Using a\npositive deviance approach to inform farming systems redesign: A case study from Bihar, India. Agricultural Systems 185,\n102942. doi: 10.1016/j.agsy.2020.102942.\nAdelhart Toorop R., Lopez-Ridaura S., Bijarniya D., Kalawantawanit E., Jat R.K., Prusty A.K., Jat M.L. and Groot J.C.J.\n(2020b). Farm-level exploration of economic and environmental impacts of sustainable intensification of rice-wheat crop-\nping systems in the Eastern Indo-Gangetic plains. European Journal of Agronomy 121, 126157. doi: 10.1016/j.eja.2020.\n126157.\nAdger W.N. (2006). Vulnerability. Global Environmental Change 16, 268–281. doi: 10.1016/j.gloenvcha.2006.02.006.\nAltieri M.A., Nicholls C.I., Henao A. and Lana M.A. (2015). Agroecology and the design of climate change-resilient farming\nsystems. Agronomy for Sustainable Development, Springer-Verlag France, pp. 869–890. doi: 10.1007/s13593-015-0285-2.\nAryal J.P., Jat M.L., Sapkota T.B., Khatri-Chhetri A., Kassie M., Rahut D.B. and Maharjan S. (2018). Adoption of multiple\nclimate-smart agricultural practices in the Gangetic plains of Bihar, India. International Journal of Climate Change\nStrategies and Management. doi: 10.1108/ijccsm-02-2017-0025.\nBehera U.K. and France J. (2016). Integrated farming systems and the livelihood security of small and marginal farmers in\nIndia and other developing countries. Advances in Agronomy 138, 235–282. doi: 10.1016/bs.agron.2016.04.001.\nBerkes F. (2007). Understanding uncertainty and reducing vulnerability: Lessons from resilience thinking. Natural Hazards\n41, 283–295. doi: 10.1007/s11069-006-9036-7.\nChhabra V. and Haris A.A. (2015). Climate variability, extreme rainfall and temperature events over different agro-ecological\nzones of Bihar. Journal of AgriSearch 2, 189–194.",
+          "bbox": [
+            42.51824951171875,
+            474.1365051269531,
+            439.27392578125,
+            662.1962280273438
+          ]
+        },
+        {
+          "id": "p15-b8-879d092",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture\n15",
+          "bbox": [
+            315.4960021972656,
+            35.53901672363281,
+            439.1727294921875,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p15-b9-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-15.png"
+    },
+    {
+      "number": 16,
+      "blocks": [
+        {
+          "id": "p16-b0-a407731",
+          "kind": "paragraph",
+          "text": "Clancy T.R. (2010). Diamonds in the rough: Positive deviance and complexity. Journal of Nursing Administration 40, 53–56.\ndoi: 10.1097/NNA.0b013e3181cb97d9.\nDarnhofer I. (2020). Farm resilience in the face of the unexpected: Lessons from the COVID-19 pandemic. Agriculture and\nHuman Values 37, 605–606. doi: 10.1007/s10460-020-10053-5.\nDavis K.F., Chhatre A., Rao N.D., Singh D., Ghosh-Jerath S., Mridul A., Poblete-Cazenave M., Pradhan N. and DeFries R.\n(2019). Assessing the sustainability of post-Green Revolution cereals in India. Proceedings of the National Academy of\nSciences of the United States of America 116, 25034–25041. doi: 10.1073/pnas.1910935116.\nFolke C., Haider L.J., Lade S.J., Norström A.V. and Rocha J. (2021). Commentary: Resilience and social-ecological systems:\nA handful of frontiers. Global Environmental Change 71. doi: 10.1016/j.gloenvcha.2021.102400.\nFraser E.D.G., Legwegoh A. and KC K. (2015). Food stocks and grain reserves: Evaluating whether storing food creates\nresilient food systems. Journal of Environmental Studies and Sciences 5, 445–458. doi: 10.1007/s13412-015-0276-2.\nGliessman S.R. (2015). Agroecology: The Ecology of Sustainable Food Systems (E. W. Engles, Ed.), 3rd edn, Santa Cruz: CRC\nPress Taylor & Francis Group. Retrieved from https://books.google.nl/books?hl=nl&lr=&id=AVi3BgAAQBAJ&oi=fnd&\npg=PP1&dq=gliessman\u0001agroecology,\u0001the\u0001ecology\u0001of\u0001sustainable\u0001food\u0001systems&ots=YnNos30GXT&sig=wvu0z\nLAXzLgI8bLFxejKuIYp0j4#v=onepage&q=gliessmanagroecology%2Ctheecologyofsustainablefoodsys\nGoodman L.A. (1961). Snowball sampling. Annals of Mathematical Statistics 32, 148–170.\nHendrickson M.K. (2015). Resilience in a concentrated and consolidated food system. Journal of Environmental Studies and\nSciences 5, 418–431. doi: 10.1007/s13412-015-0292-2.\nHodbod J. and Eakin H. (2015). Adapting a social-ecological resilience framework for food systems. Journal of Environmental\nStudies and Sciences 5, 474–484. doi: 10.1007/s13412-015-0280-6.\nHoy C.W. (2015). Agroecosystem health, agroecosystem resilience, and food security. Journal of Environmental Studies and\nSciences 5, 623–635. doi: 10.1007/s13412-015-0322-0.\nJambo I.J., Groot J.C.J., Descheemaeker K., Bekunda M. and Tittonell P. (2019). Motivations for the use of sustainable\nintensification practices among smallholder farmers in Tanzania and Malawi. NJAS - Wageningen Journal of Life\nSciences 89, 100306. doi: 10.1016/j.njas.2019.100306.\nJat M.L., Chakraborty D., Ladha J.K., Rana D.S., Gathala M.K., McDonald A. and Gerard B. (2020). Conservation\nagriculture for sustainable intensification in South Asia. Nature Sustainability 3, 336–343. doi: 10.1038/s41893-020-\n0500-2.\nJat R.K., Singh R.G., Kumar M., Jat M.L., Parihar C.M., Bijarniya D., Sutaliya J.M., Jat M.K., Parihar M., Kakraliya S.K.\nand Gupta R.K. (2018). Ten years of conservation agriculture in a rice–maize rotation of Eastern Gangetic Plains of India:\nYield trends, water productivity and economic profitability. Field Crops Research 232, 1–10. doi: 10.1016/j.fcr.2018.12.004.\nKumar P., Singh S.S., Pandey A.K., Singh R.K., Srivastava P.K., Kumar M., Dubey S.K., Sah U., Nandan R., Singh S.K.,\nAgrawal P., Kushwaha A., Rani M., Biswas J.K. and Drews M. (2021). Multi-level impacts of the COVID-19 lockdown on\nagricultural systems in India: The case of Uttar Pradesh. Agricultural Systems 187, 103027. doi: 10.1016/j.agsy.2020.103027.\nLade S.J., Steffen W., de Vries W., Carpenter S.R., Donges J.F., Gerten D., Hoff H., Newbold., T., Richardson K. and\nRockström J. (2020). Human impacts on planetary boundaries amplified by Earth system interactions. Nature\nSustainability 3, 119–128. doi: 10.1038/s41893-019-0454-4.\nLopez-Ridaura S., Frelat R., Van Wijk M.T., Valbuena D., Krupnik T.J. and Jat M.L. (2018). Climate smart agriculture,\nfarm household typologies and food security: An ex-ante assessment from Eastern India Agricultural Systems 159, 57–68.\ndoi: 10.1016/j.agsy.2017.09.007.\nMeuwissen M.P.M., Feindt P.H., Spiegel A., Termeer C.J.A.M., Mathijs E., de Mey Y., Finger R., Balmann A., Wauters E.,\nUrquhart J., Vigani M., Zawalińska K., Herrera H., Nicholas-Davies P., Hansson H., Paas W., Slijper T., Coopmans I.,\nVroege W., Ciechomska A., Accatino F., Kopainsky B., Poortvliet P.M., Candel J.J.L., Maye D., Severini S., Senni S.,\nSoriano B., Lagerkvist C.J., Peneva M., Gavrilescu C. and Reidsma P. (2019). A framework to assess the resilience of\nfarming systems. Agricultural Systems 176, 102656. doi: 10.1016/j.agsy.2019.102656.\nMeynard J.M., Charrier F., Fares M., Le Bail M., Magrini M.B., Charlier A. and Messéan A. (2018). Socio-technical lock-in\nhinders crop diversification in France. Agronomy for Sustainable Development 38. doi: 10.1007/s13593-018-0535-1.\nMoller A.C., Ryan R.M. and Deci E.L. (2006). Self-determination theory and public policy: Improving the quality of con-\nsumer decisions without using coercion. Journal of Public Policy and Marketing 25, 104–116. doi: 10.1509/jppm.25.1.104.\nNikolaski Z. Christiaensen L. and Hill R. (2018). Household shocks and coping mechanism: evidence from Sub-Saharan\nAfrica. Telling Myths from Facts. Directions in Development—Agriculture and Rural Development, (November 2017),\n123–134. Retrieved from http://eprints.lse.ac.uk/85313/1/PagesfromAgricultureinAfrica_Bookfinal.pdf\nPacilly F.C.A., Groot J.C.J., Hofstede G.J., Schaap B.F. and van Bueren E.T.L. (2016). Analysing potato late blight control as\na social-ecological system using fuzzy cognitive mapping. Agronomy for Sustainable Development 36. doi: 10.1007/s13593-\n016-0370-1.\nPant L.P. and Odame H.H. (2009). The promise of positive deviants: bridging divides between scientific research and local\npractices in smallholder agriculture. Knowledge Management for Development Journal 5, 160–172. doi: 10.1080/\n18716340903201504.",
+          "bbox": [
+            54.022705078125,
+            66.16667175292969,
+            450.76318359375,
+            644.6778564453125
+          ]
+        },
+        {
+          "id": "p16-b1-3e21031",
+          "kind": "heading",
+          "text": "16\nRoos Adelhart Toorop et al.",
+          "bbox": [
+            54.02830123901367,
+            35.53901672363281,
+            191.1883544921875,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p16-b2-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-16.png"
+    },
+    {
+      "number": 17,
+      "blocks": [
+        {
+          "id": "p17-b0-b4e4d72",
+          "kind": "paragraph",
+          "text": "Rietveld A., Van Der Burg M. and Groot J.C.J. (2020). Bridging youth and gender studies to analyse rural young women and\nmen ’ s livelihood pathways in Central Uganda. Journal of Rural Studies, 0–1. doi: 10.1016/j.jrurstud.2020.01.020.\nRivera-Ferre M.G., López-i-Gelats F., Ravera F., Oteros-Rozas E., di Masso M., Binimelis R. and El Bilali H. (2021). The\ntwo-way relationship between food systems and the COVID19 pandemic: causes and consequences. Agricultural Systems\n191, 103134. doi: 10.1016/j.agsy.2021.103134.\nRyan R.M. and Deci E.L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development,\nand well-being. American Psychologist 55, 68–78. doi: 10.1037//0003-066x.55.1.68.\nShirsath P.B., Aggarwal P.K., Thornton P.K. and Dunnett A. (2017). Prioritizing climate-smart agricultural land use\noptions at a regional scale. Agricultural Systems 151, 174–183. doi: 10.1016/J.AGSY.2016.09.018.\nSingh R.K., Singh A., Kumar S., Sheoran P., Sharma D.K., Stringer L.C., Quinn C.H., Kumar A. and Singh D. (2020).\nPerceived climate variability and compounding stressors: Implications for risks to livelihoods of smallholder Indian farm-\ners. Environmental Management, 1–19. doi: 10.1007/s00267-020-01345-x.\nSmit B. and Wandel J. (2006). Adaptation, adaptive capacity and vulnerability. Global Environmental Change 16, 282–292.\ndoi: 10.1016/j.gloenvcha.2006.03.008.\nStave K.A. and Kopainsky B. (2015). A system dynamics approach for examining mechanisms and pathways of food supply\nvulnerability. Journal of Environmental Studies and Sciences 5, 321–336. doi: 10.1007/s13412-015-0289-x.\nStobbelaar D.J., Groot J.C.J., Bishop C., Hall J. and Pretty J. (2009). Internalization of agri-environmental policies and the\nrole of institutions. Journal of Environmental Management 90, S175–S184. doi: 10.1016/j.jenvman.2008.11.019.\nTaleb N.N. (2012). Antifragile - things that gain from disorder. London: Penguin Books Ltd.\nTendall D.M., Joerin J., Kopainsky B., Edwards P., Shreck A., Le Q.B., Kruetli P., Grant M. and Six J. (2015). Food system\nresilience: Defining the concept. Global Food Security 6, 17–23. doi: 10.1016/j.gfs.2015.08.001.\nUrruty N., Tailliez-Lefebvre D. and Huyghe C. (2016). Stability, robustness, vulnerability and resilience of agricultural systems.\nA review. Agronomy for Sustainable Development, Springer-Verlag France, pp. 1–15. doi: 10.1007/s13593-015-0347-5.",
+          "bbox": [
+            42.51806640625,
+            66.6279067993164,
+            439.2706604003906,
+            294.6568298339844
+          ]
+        },
+        {
+          "id": "p17-b1-64e9cce",
+          "kind": "paragraph",
+          "text": "Cite this article: Adelhart Toorop R, Lopez-Ridaura S, Jat ML, Eichenseer P, Bijarniya D, Jat RK, and Groot JCJ. Analyzing\nantifragility among smallholder farmers in Bihar, India: An assessment of farmers’ vulnerability and the strengths of positive\ndeviants. Experimental Agriculture. https://doi.org/10.1017/S0014479723000017",
+          "bbox": [
+            42.5211181640625,
+            634.1792602539062,
+            439.27130126953125,
+            662.1962280273438
+          ]
+        },
+        {
+          "id": "p17-b2-c87ef0c",
+          "kind": "paragraph",
+          "text": "Experimental Agriculture\n17",
+          "bbox": [
+            315.4960021972656,
+            35.53901672363281,
+            439.1727294921875,
+            45.03901672363281
+          ]
+        },
+        {
+          "id": "p17-b3-f2bd585",
+          "kind": "paragraph",
+          "text": "https://www.cambridge.org/core/terms. https://doi.org/10.1017/S0014479723000017\nDownloaded from https://www.cambridge.org/core. IP address: 20.169.67.52, on 04 Oct 2026 at 09:59:37, subject to the Cambridge Core terms of use, available at",
+          "bbox": [
+            7.799999713897705,
+            678.686767578125,
+            464.0399475097656,
+            694.782470703125
+          ]
+        }
+      ],
+      "snapshot": "library/toorop-2023/d35515e6a429/page-17.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 17,
+    "pageSnapshots": 17,
+    "allTextBlocksRetained": true,
+    "textCharacters": 64507,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 8,
+    "sourceSHA256": "d35515e6a4299a6e9955853e9a4b441766cc3b79e4586094bc7fb15241c978f8",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

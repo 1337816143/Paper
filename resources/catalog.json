@@ -470,7 +470,7 @@
       "title": "Analyzing antifragility among smallholder farmers in Bihar, India: An assessment of farmers’ vulnerability and the strengths of positive deviants",
       "citation": "Adelhart Toorop, R., et al. (2023). Experimental Agriculture, 59, e4.",
       "sourceURL": "https://doi.org/10.1017/S0014479723000017",
-      "checkedAt": "2026-09-27T22:26:03Z",
+      "checkedAt": "2026-10-04T09:58:59Z",
       "status": "licensed",
       "attempts": [
         {
@@ -487,16 +487,16 @@
         "pageScope": "first/last pages of acquired article"
       },
       "pages": 17,
-      "sha256": "e4c7cc912b38aaa08b5a262a7592dfd917ae3bd5ca24dc1981928beaef131c36",
-      "bytes": 781676,
+      "sha256": "d35515e6a4299a6e9955853e9a4b441766cc3b79e4586094bc7fb15241c978f8",
+      "bytes": 781702,
       "textCharacters": 64719,
       "aliases": [
         "https://doi.org/10.1017/S0014479723000017",
         "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/66B2E61F9C8263919091FEE52C1B877C/S0014479723000017a.pdf/div-class-title-analyzing-antifragility-among-smallholder-farmers-in-bihar-india-an-assessment-of-farmers-vulnerability-and-the-strengths-of-positive-deviants-div.pdf"
       ],
-      "bookPath": "library/toorop-2023/e4c7cc912b38/book.json",
-      "originalPath": "library/toorop-2023/e4c7cc912b38/source.pdf",
-      "epubPath": "library/toorop-2023/e4c7cc912b38/article.epub",
+      "bookPath": "library/toorop-2023/d35515e6a429/book.json",
+      "originalPath": "library/toorop-2023/d35515e6a429/source.pdf",
+      "epubPath": "library/toorop-2023/d35515e6a429/article.epub",
       "scope": "所获主文PDF内全部页；不自动包含站外补充材料",
       "technicalChanges": "Format conversion only; no editorial rewrite",
       "noncommercial": true
