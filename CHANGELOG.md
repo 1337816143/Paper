@@ -1,3 +1,9 @@
+# 5.5.5 · 2026-10-04
+
+- Add a source-grounded Cheng2023/Fig.7 RDA guide with explicit field units, dates and missing settings.
+- Recalculate a coherent four-village synthetic matrix, fitted/residual split, eigensystem and both explanation denominators.
+- Distinguish variable and village plots, including the angle-vs-raw-correlation counterexample. Preserve original figure bytes and old lesson anchors.
+
 # 更新记录
 
 ## 5.5.4 · 2026-10-04 · 行内上下文与可交互走读

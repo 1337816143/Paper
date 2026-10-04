@@ -1,0 +1,5 @@
+village_id,crop_share_percent,distance_km,perception_a,perception_b
+V1,10,2,2,3.25
+V2,10,6,2,3.25
+V3,30,2,3,1.75
+V4,30,6,5,3.75

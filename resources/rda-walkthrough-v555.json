@@ -1,0 +1,157 @@
+{
+  "schema": "paper.rda.walkthrough.v1",
+  "version": "5.5.5",
+  "csv": "rda_synthetic_villages.csv",
+  "guideId": "cheng-2023-rda-walkthrough",
+  "source": {
+    "paperId": "cheng-2023",
+    "citation": "Cheng et al.2023, Journal of Environmental Management347:119060",
+    "doi": "https://doi.org/10.1016/j.jenvman.2023.119060",
+    "sourcePage": "#/original/cheng-2023/page-9",
+    "sourcePageLabel": "原文Fig.7 · PDF第9页",
+    "methodsPage": "#/original/cheng-2023/page-4",
+    "figureAnchor": "#/original/cheng-2023/p9-figure1",
+    "figurePath": "library/cheng-2023/7b8cf2416ee8/p9-figure1.png",
+    "figureCaption": "Cheng等2023 Fig.7原图，保持原字节；彩点代表服务/负服务指标，黑线代表村庄解释变量。原图的具体plot scaling及完整特征值未取得，本示例不声称再现这些坐标。",
+    "figureAlt": "程2023的RDA原图：彩色服务指标点与黑色解释变量线，轴标签11.7%和9.4%",
+    "license": "CC BY-NC-ND4.0；只展示未改原图，教学示意图独立制作",
+    "sourceHash": "7b8cf2416ee8d64979e58d9fe0cf569d5415d640a87f280ab1c28965c67cc305",
+    "figureHash": "74592a6bfa1be2f5645402c0405d79de80e2faee76f2a6e4ef7ffc3527154d23",
+    "percentages": "正文报告约21%，图轴标11.7%和9.4%。未取得完整特征值及绘图设置，不能由两轴加总倒推所有约束轴、精确残差或作者的完整R²定义。"
+  },
+  "variables": [
+    {
+      "id": "SOM",
+      "label": "土壤有机质",
+      "unit": "g/kg",
+      "meaning": "土壤中的浓度量，不能当作每公顷年度投入量",
+      "year": "2018",
+      "origin": "土壤调查，经IDW空间插值获得村级均值",
+      "boundary": "不是每位2020受访者现场量出的值；插值误差未在本示例重建。"
+    },
+    {
+      "id": "Soil TN",
+      "label": "土壤总氮",
+      "unit": "g/kg",
+      "meaning": "土壤中的浓度量，不能当作每公顷年度投入量",
+      "year": "2018",
+      "origin": "土壤调查，经IDW空间插值获得村级均值",
+      "boundary": "不是每位2020受访者现场量出的值；插值误差未在本示例重建。"
+    },
+    {
+      "id": "EC",
+      "label": "土壤电导率",
+      "unit": "dS/m",
+      "meaning": "导电性指标；不同于农户感知的盐渍化评分",
+      "year": "2018",
+      "origin": "土壤调查，经IDW空间插值获得村级均值",
+      "boundary": ""
+    },
+    {
+      "id": "N_input",
+      "label": "施肥量（原表Fertilizer use amount）",
+      "unit": "kg N/ha/year",
+      "meaning": "图中解释变量N_input；以氮质量、面积与年度为口径",
+      "year": "2020",
+      "origin": "家庭调查；具体算法指向补充材料S5",
+      "boundary": "本轮未取得S5，不能补造投入组成或换算参数。"
+    },
+    {
+      "id": "TFI",
+      "label": "农药使用频度",
+      "unit": "原表单位栏写TFI",
+      "meaning": "原表称Pesticide use frequency，并引用Liang2022方法",
+      "year": "2020",
+      "origin": "家庭调查；Table1",
+      "boundary": "不能直接当kg农药/ha、喷雾兑水量或简单施药次数；本轮没有Cheng完整计算表。"
+    },
+    {
+      "id": "Cereals",
+      "label": "谷物",
+      "unit": "%",
+      "meaning": "各类种植面积/total crop production area；谷物种植面积比例",
+      "year": "2020",
+      "origin": "村负责人调查",
+      "boundary": "分母是原文规定的作物生产面积，不能替换成村庄总面积；组成约束和完整类别需原始数据核对。"
+    },
+    {
+      "id": "Vegetables",
+      "label": "蔬菜",
+      "unit": "%",
+      "meaning": "各类种植面积/total crop production area；蔬菜种植面积比例",
+      "year": "2020",
+      "origin": "村负责人调查",
+      "boundary": "分母是原文规定的作物生产面积，不能替换成村庄总面积；组成约束和完整类别需原始数据核对。"
+    },
+    {
+      "id": "Fiber crops",
+      "label": "纤维作物",
+      "unit": "%",
+      "meaning": "各类种植面积/total crop production area；本案例具体为棉花",
+      "year": "2020",
+      "origin": "村负责人调查",
+      "boundary": "分母是原文规定的作物生产面积，不能替换成村庄总面积；组成约束和完整类别需原始数据核对。"
+    },
+    {
+      "id": "Sugar crops",
+      "label": "糖料作物",
+      "unit": "%",
+      "meaning": "各类种植面积/total crop production area；本案例具体为甜叶菊Stevia，并非自动指甘蔗",
+      "year": "2020",
+      "origin": "村负责人调查",
+      "boundary": "分母是原文规定的作物生产面积，不能替换成村庄总面积；组成约束和完整类别需原始数据核对。"
+    },
+    {
+      "id": "Fruit trees",
+      "label": "果树",
+      "unit": "%",
+      "meaning": "各类种植面积/total crop production area；果树种植面积比例",
+      "year": "2020",
+      "origin": "村负责人调查",
+      "boundary": "分母是原文规定的作物生产面积，不能替换成村庄总面积；组成约束和完整类别需原始数据核对。"
+    },
+    {
+      "id": "Distance to city",
+      "label": "距县城中心",
+      "unit": "km",
+      "meaning": "到曲周县城中心的空间距离，不是出行时间",
+      "year": "原表未另标统一调查年份",
+      "origin": "原文Table1距离变量",
+      "boundary": "不要由距离相关直接推断城市需求的因果效应。"
+    },
+    {
+      "id": "Distance to rivers",
+      "label": "距最近河流",
+      "unit": "km",
+      "meaning": "到最近河流的空间距离，不是水量或灌溉可用性",
+      "year": "原表未另标统一调查年份",
+      "origin": "原文Table1距离变量",
+      "boundary": ""
+    },
+    {
+      "id": "Non-agricultural labour",
+      "label": "非农劳动力比例",
+      "unit": "%",
+      "meaning": "非农劳动力的比例，不是总人数",
+      "year": "2018",
+      "origin": "村负责人资料",
+      "boundary": "与2020感知存在年份差，不能默认为同期实测。"
+    },
+    {
+      "id": "Population",
+      "label": "人口规模",
+      "unit": "Capita（人数）",
+      "meaning": "人口数，不是人口密度",
+      "year": "2017来源",
+      "origin": "NBSC2017；原文Table1",
+      "boundary": "密度还需要面积分母。"
+    }
+  ],
+  "boundaries": [
+    "四行输入均为合成，A/B是抽象响应得分，不对应作者原始指标列。",
+    "X/Y用样本标准差标准化；本例拟合轴=Yhat乘特征向量，变量坐标=corr(变量,拟合轴)。",
+    "变量图只显示约束子空间；夹角不是全部原始相关系数，更不是因果效应。",
+    "原文35村的原始矩阵、逐指标S1/S5细节、完整模型输出和原绘图scaling未取得。",
+    "本例不执行显著性推断，不把四村或69.444%当作研究样本量/模型优劣建议。"
+  ]
+}

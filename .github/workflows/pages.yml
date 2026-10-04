@@ -24,7 +24,7 @@ jobs:
       - name: Build and check teaching algorithms and source archive
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
-          for file in app reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough; do node --check "src/$file.js"; done
+          for file in app reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough; do node --check "src/$file.js"; done
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
           python examples/paper_minilab.py --test
@@ -41,6 +41,10 @@ jobs:
           python examples/farm_walkthrough.py --test
           node tests/research-walkthrough/math.test.cjs
           node tests/research-walkthrough/dom.test.cjs
+          python examples/rda_walkthrough.py --test
+          node tests/rda/math.test.cjs
+          node tests/rda/dom.test.cjs
+          python scripts/test_rda_sources.py
       - name: Install browser test runtime
         run: |
           pip install playwright==1.55.0
@@ -55,6 +59,10 @@ jobs:
           python scripts/test_walkthrough_integration.py
       - name: Test existing tutorials
         run: python scripts/test_browser.py
+      - name: Test RDA figure walkthrough, legacy anchors, notes and offline integration
+        run: |
+          python tests/rda/browser_test.py
+          python scripts/test_rda_walkthrough.py
       - name: Test original reading, annotations and full offline
         run: python scripts/test_reader.py
       - name: Test framework, terminology, equations and actual offline translation
@@ -116,13 +124,13 @@ jobs:
           set -euo pipefail
           verified=false
           for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.4'; assert d['contextualExplanations']['annotations']==12; assert d['contextualExplanations']['paperPages']==4; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.5'; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==12; assert d['contextualExplanations']['paperPages']==4; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
               verified=true; break
             fi
             sleep 5
           done
           test "$verified" = true
-          for name in study-data workspace sync release research personal contracts context-notes-data context-notes research-walkthrough; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
+          for name in study-data workspace sync release research personal contracts context-notes-data context-notes research-walkthrough rda-walkthrough-data rda-model rda-walkthrough; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
           curl --fail --silent --show-error "${PAGE_URL%/}/comfort.css" -o live-comfort.css
           curl --fail --silent --show-error "${PAGE_URL%/}/read/xu-chapter4.html" -o live-xu-chapter4.html
           curl --fail --silent --show-error "${PAGE_URL%/}/read/research-framework.html" -o live-framework.html
@@ -143,7 +151,7 @@ jobs:
           python live-minilab.py --test
           grep -q 'window.PaperContext' live-context-notes.js
           grep -q 'liang23-eleven' live-context-notes-data.js
-          for name in context-notes research-walkthrough; do
+          for name in context-notes research-walkthrough rda-model rda-walkthrough; do
             curl --fail --silent --show-error "https://raw.githubusercontent.com/1337816143/Paper/$GITHUB_SHA/src/$name.js" -o "expected-$name.js"
             cmp "live-$name.js" "expected-$name.js"
           done
@@ -154,11 +162,25 @@ jobs:
           const result = walkthrough.model.farmPipeline();
           assert.deepEqual(result.rows.map(row => row.margin), [1900, 1700, 2200, 2600]);
           assert.deepEqual(result.fronts, [['A', 'C'], ['B']]);
-          console.log('Served walkthrough matches its commit and computes the expected synthetic result');
+          const rda = require('./live-rda-model.js');
+          const config = JSON.parse(require('node:fs').readFileSync('live-rda-walkthrough-data.js','utf8').replace(/^window\.PAPER_RDA=/,'').replace(/;\s*$/,''));
+          assert.equal(config.records.length, 4);
+          const rd = rda.calculate(config.records);
+          assert.ok(Math.abs(rd.total_inertia-2)<1e-10);
+          assert.ok(Math.abs(rd.constrained_inertia-25/18)<1e-10);
+          assert.ok(Math.abs(rd.residual_fraction-11/36)<1e-10);
+          console.log('Served walkthroughs match their commit and compute expected synthetic results');
           JS
           curl --fail --silent --show-error "${PAGE_URL%/}/examples/farm_walkthrough.py?verify=$GITHUB_SHA" -o live-farm-walkthrough.py
           curl --fail --silent --show-error "${PAGE_URL%/}/examples/farm_walkthrough_synthetic.csv?verify=$GITHUB_SHA" -o farm_walkthrough_synthetic.csv
           python live-farm-walkthrough.py --test
+          curl --fail --silent --show-error "${PAGE_URL%/}/examples/rda_walkthrough.py?verify=$GITHUB_SHA" -o live-rda-walkthrough.py
+          curl --fail --silent --show-error "${PAGE_URL%/}/examples/rda_synthetic_villages.csv?verify=$GITHUB_SHA" -o rda_synthetic_villages.csv
+          python live-rda-walkthrough.py --test
+          curl --fail --silent --show-error "${PAGE_URL%/}/library/cheng-2023/7b8cf2416ee8/p9-figure1.png?verify=$GITHUB_SHA" -o live-rda-original-figure.png
+          python -c "import hashlib; assert hashlib.sha256(open('live-rda-original-figure.png','rb').read()).hexdigest()=='74592a6bfa1be2f5645402c0405d79de80e2faee76f2a6e4ef7ffc3527154d23'"
+          curl --fail --silent --show-error "${PAGE_URL%/}/read/cheng-2023-rda-walkthrough.html?verify=$GITHUB_SHA" -o live-rda-guide.html
+          grep -q "0.272166" live-rda-guide.html
       - uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification
