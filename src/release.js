@@ -17,6 +17,7 @@ function safeToReload(){
  if(window.PaperWorkspace?.isBusy?.())return {ready:false,reason:'正在处理导入或检索，完成后更新'};
  if(window.PaperStudy?.isBusy?.())return {ready:false,reason:'正在处理本机翻译，完成后更新'};
  if(window.PaperWalkthrough?.isBusy?.())return {ready:false,reason:'正在查看或调整研究演示，离开或重置后自动更新'};
+ if(window.PaperQWalkthrough?.isBusy?.())return {ready:false,reason:'正在查看或调整Q方法演示，离开或重置后自动更新'};
  if(window.PaperRDA?.isBusy?.())return {ready:false,reason:'正在查看或调整RDA演示，离开或重置后自动更新'};
  const s=window.PaperSync?.status?.();if(s?.busy)return {ready:false,reason:'正在保存云端检查点，完成后更新'};
  // v5 keeps authorization only in page memory. Never silently destroy that session.

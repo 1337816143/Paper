@@ -63,7 +63,7 @@ class RDASources(unittest.TestCase):
    self.assertIn(phrase,single)
   self.assertNotIn('<script src="rda-',single)
   release=json.loads((out/'release.json').read_text())
-  self.assertEqual(release['appVersion'],'5.5.5');self.assertEqual(release['researchLibrary']['papers'],22)
+  self.assertEqual(release['appVersion'],read('resources/application-release.json')['version']);self.assertEqual(release['rdaWalkthrough']['version'],'5.5.5');self.assertEqual(release['researchLibrary']['papers'],22)
   self.assertFalse(release['rdaWalkthrough']['authorPlotScalingVerified']);self.assertFalse(release['rdaWalkthrough']['RParityVerified'])
   self.assertTrue((out/'read/cheng-2023-rda-walkthrough.html').exists())
 

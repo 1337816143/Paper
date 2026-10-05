@@ -31,7 +31,7 @@ def main():
     if out.exists():shutil.rmtree(out)
     for d in ('read','downloads','examples'):(out/d).mkdir(parents=True,exist_ok=True)
     documents=[]
-    for name in ('papers','dong-2026','methods','navigation','session-log','reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53','method-ledgers-v54','paper-ledgers-v54','dong-2026-ledger','research-library-v55','thesis-evidence-v552','exemplar-transfer-v553','explanation-roadmap-v553','liang-2023-context-v554','interactive-research-v554','rda-walkthrough-v555'):
+    for name in ('papers','dong-2026','methods','navigation','session-log','reading-proof-workflow','xu-thesis-chapter4','research-planning-v53','sampling-v53','indicator-audit-v53','method-ledgers-v54','paper-ledgers-v54','dong-2026-ledger','research-library-v55','thesis-evidence-v552','exemplar-transfer-v553','explanation-roadmap-v553','liang-2023-context-v554','interactive-research-v554','rda-walkthrough-v555','q-walkthrough-v556'):
         file=ROOT/'content'/f'{name}.json'
         if file.exists():documents+=json.loads(file.read_text(encoding='utf-8'))
     byid={d['id']:d for d in documents}
@@ -43,8 +43,8 @@ def main():
         if d.get('sourceId') and (d['sourceId'] not in byid or byid[d['sourceId']]['type'] not in ('paper','thesis')):raise ValueError('Invalid canonical paper source')
         refs=re.findall(r'\[\[([a-z0-9-]+)\|',json.dumps(d,ensure_ascii=False))+(d.get('related') or [])+(d.get('sources') or [])
         if set(refs)-aliases:raise ValueError('Broken links: '+str(set(refs)-aliases))
-    files={f.name:f.read_text(encoding='utf-8') for f in sorted((ROOT/'examples').iterdir()) if f.is_file() and f.suffix in {'.py','.R','.csv','.md'}}
-    for name,text in files.items():(out/'examples'/name).write_text(text,encoding='utf-8')
+    files={f.name:f.read_bytes().decode('utf-8') for f in sorted((ROOT/'examples').iterdir()) if f.is_file() and f.suffix in {'.py','.R','.csv','.md','.json'}}
+    for name,text in files.items():(out/'examples'/name).write_bytes(text.encode('utf-8'))
     inputs=sorted([*(ROOT/'content').glob('*.json'),*(ROOT/'src').glob('*'),*(ROOT/'examples').glob('*'),Path(__file__)])
     digest=hashlib.sha256(b''.join(f.read_bytes() for f in inputs if f.is_file())).hexdigest()[:12]
     data={'version':digest,'sourceCommit':a.source_commit,'updated':date,'documents':documents,'files':files}
@@ -70,6 +70,7 @@ def main():
         if d.get('evidence'):body+='<div class="notice">核读范围：'+html.escape(d['evidence'])+'</div>'
         if d.get('url'):body+='<p><a target="_blank" rel="noopener noreferrer" href="'+html.escape(d['url'],quote=True)+'">原始文献来源 ↗</a></p>'
         body+='<p><a href="../index.html#/'+d['id']+'">交互阅读、保存位置与笔记 →</a></p>'
+        if d['id'] in {'q-method','cheng-2025','ledger-cheng-2025'}:body+='<p class="notice q-coverage-update">更新说明（5.5.6）：本页原有小示例的排序、相关演示继续保留。新增完整带读用另一套明确标注的合成数据展开后续因子链，并连接作者图表；它没有补齐作者原始数据、确切软件设置或类别缩放公式。<a href="../index.html#/cheng-2025-q-walkthrough/q-walkthrough">进入新增带读 →</a></p>'
         for i,s in enumerate(d['sections']):body+=f'<section class="reader" id="s{i}"><span class="kind">{html.escape(explain(s[1]))}</span><h2>{i+1}. {html.escape(explain(s[0]))}</h2><div class="prose">{rich(s[2])}</div>'+('<p class="source-note">'+html.escape(s[3])+'</p>' if len(s)>3 else '')+'</section>'
         if d.get('quiz'):body+='<section id="self-test"><h2>关键问题与解说</h2><p>直接查看解释；本页没有答题或评分。</p>'
         for q,ans in d.get('quiz',[]):body+='<details open><summary>'+html.escape(q)+'</summary>'+rich(ans)+'</details>'

@@ -1,0 +1,193 @@
+{
+  "schema": "paper.q.walkthrough.v1",
+  "version": "5.5.6",
+  "guideId": "cheng-2025-q-walkthrough",
+  "csv": "q_synthetic.csv",
+  "scenarioDefinitions": [
+    {
+      "id": "baseline",
+      "label": "默认合成排序",
+      "description": "20条原创陈述与10份合成排序；每份网格为2/4/8/4/2。"
+    },
+    {
+      "id": "reverse-p03",
+      "label": "反转P03的合成排序",
+      "description": "仅将P03每个分数变为6−原分数，保留同一网格；配套脚本重新计算整条链，用于观察负载荷与负权重。"
+    }
+  ],
+  "source": {
+    "paperId": "cheng-2025",
+    "citation": "Cheng et al.2025, Agricultural Systems223:104187（2024-11-29在线发表）",
+    "doi": "https://doi.org/10.1016/j.agsy.2024.104187",
+    "pdfURL": "https://edepot.wur.nl/680477",
+    "sourceHash": "f21e6a1550fef48f92aee382657a1ac00931c1df1e87e46bfdf40457e56a7162",
+    "original": "#/original/cheng-2025",
+    "methods": "#/original/cheng-2025/page-5",
+    "license": "CC BY-NC-ND4.0；原图不修改，讲解与合成示意另行制作",
+    "figures": [
+      {
+        "id": "fig3",
+        "title": "Fig.3：每个观点对四类服务的分值",
+        "anchor": "#/original/cheng-2025/p7-figure1",
+        "alt": "Cheng2025 Fig.3原图：七类利益相关者的十八个观点，四种形状对应四类生态系统服务",
+        "caption": "原文Fig.3，PDF第7页；原图字节保持不变。每个横轴标签是一个观点，颜色/形状表示服务类别。",
+        "meaning": "蓝三角是Provisioning，绿菱形Regulating，紫圆Supporting，红方形Cultural。Farmer_1是农户群体内部识别的一个观点，不是第1位农户；同一横坐标可能有重叠标记。红线50对应作者“高于50才称优先”的规则。",
+        "boundary": "这里是类别平均再缩放的factor scores，不是参与者载荷、人数、真实生态产出或概率。主文把缩放细式指向补充材料，本轮未取得；原图只可约读Farmer_1为100/44/33/44，不能把反推小数称为印刷原值。",
+        "path": "library/cheng-2025/f21e6a1550fe/p7-figure1.png",
+        "sha256": "7660f954048dfa63ab5a558d1d4936219881c04161b01549dea488659f3e7deb",
+        "width": 1029,
+        "height": 697
+      },
+      {
+        "id": "fig4",
+        "title": "Fig.4：观点之间的定性优先关系",
+        "anchor": "#/original/cheng-2025/p9-figure1",
+        "alt": "Cheng2025 Fig.4原图：以生产、环境和文化为顶点的定性观点位置示意",
+        "caption": "原文Fig.4，PDF第9页；它是定性优先关系示意，保持原图不重新加点或上色。",
+        "meaning": "点是观点；点的颜色表示所属利益相关者群体。顶点表示对相应类别的排他性优先。C>P表示文化与供给都超过50，而文化更被偏重；原图以Village_2和Farmer_3为例。S/R取Supporting或Regulating中较大者。",
+        "boundary": "三角形位置不是PCA/RDA载荷坐标，不能测量“两倍距离”或推断总体人数。不同模型中的编号1也不能当作同一个共同因子。",
+        "path": "library/cheng-2025/f21e6a1550fe/p9-figure1.png",
+        "sha256": "c713ad8cae53e07e3261d3f945af601bfcbbcfd439917811242bc264f79c8b9c",
+        "width": 960,
+        "height": 687
+      },
+      {
+        "id": "fig5",
+        "title": "Fig.5：观点分组后的农户属性比较",
+        "anchor": "#/original/cheng-2025/p10-figure1",
+        "alt": "Cheng2025 Fig.5原图：Culture、Environment、Production、Ungrouped四组的年龄、教育、收入、农业经验和面积分布",
+        "caption": "原文Fig.5，PDF第10页；这是另一条属性关联分析支路，不是Q区分陈述检验。",
+        "meaning": "四组为三种已命名农户观点加未归组者；横轴Ungrouped不是第四个已提取因子。面板(a)年龄的总体比较p=0.016，(b)教育p=0.002；连续属性采用Kruskal–Wallis，分类属性的检验用Chi-square（§2.4）。图上的点群帮助比较分布，不能只看大点。",
+        "boundary": "总体检验不直接指出哪一对组不同，也不证明年龄或教育导致观点。此图题/已读方法未明确误差线的具体统计口径，本页不擅称其为SD、SE或95%CI。图5与图2的群体平均重要性气泡图、Q的SED检验是不同分析。",
+        "path": "library/cheng-2025/f21e6a1550fe/p10-figure1.png",
+        "sha256": "c33581c708c5d818fa14937a4abdadf480ff89179887b24e384fb7724fd977c7",
+        "width": 1031,
+        "height": 699
+      }
+    ],
+    "categoryExample": {
+      "label": "原文Table5已发表的Farmer_1典型排序",
+      "sourceLink": "#/original/cheng-2025/p8-figure1",
+      "membershipLink": "#/original/cheng-2025/page-4",
+      "categories": [
+        {
+          "name": "Provisioning · 供给服务",
+          "scores": [
+            5,
+            5
+          ],
+          "count": 2,
+          "sum": 10,
+          "mean": 5.0,
+          "members": [
+            "Nutrient provisioning",
+            "Profit provisioning"
+          ]
+        },
+        {
+          "name": "Regulating · 调节服务",
+          "scores": [
+            3,
+            3,
+            4,
+            3,
+            3,
+            2,
+            2
+          ],
+          "count": 7,
+          "sum": 20,
+          "mean": 2.857142857142857,
+          "members": [
+            "Water regulation",
+            "Air quality",
+            "Natural hazard regulation",
+            "Water quality",
+            "Biological control",
+            "Pollination",
+            "Climate regulation"
+          ]
+        },
+        {
+          "name": "Supporting · 支持服务",
+          "scores": [
+            4,
+            3,
+            1,
+            2
+          ],
+          "count": 4,
+          "sum": 10,
+          "mean": 2.5,
+          "members": [
+            "Water provisioning",
+            "Soil fertility",
+            "Natural habitats of field border",
+            "Natural habitats within fields"
+          ]
+        },
+        {
+          "name": "Cultural · 文化服务",
+          "scores": [
+            1,
+            4,
+            2,
+            3,
+            3,
+            4,
+            3
+          ],
+          "count": 7,
+          "sum": 20,
+          "mean": 2.857142857142857,
+          "members": [
+            "Agricultural tourism",
+            "Scientific and educational value",
+            "Aesthetic value",
+            "Belonging value",
+            "Self-identity value",
+            "Social relations",
+            "Spiritual value"
+          ]
+        }
+      ],
+      "boundary": "这些是已发表的factor scores，不是原始农户Q-sorts。类别成员依Table2；原表顺序2/7/4/7。均值可据此核算；后面的0–100变换记为g_k(均值;参考界限)，原作者细式本轮未取得。不得把本站原创S01–S20硬套进作者的四类。"
+    },
+    "authorSettings": [
+      "原文20条陈述，1–5分的强制网格为2/4/8/4/2；它表达相对重要性，非独立Likert同意程度。",
+      "先分析全部327份排序得到总体3个观点，再分7个利益相关者群体识别累计18个观点；不能把这些编号当同一套因子。",
+      "原文报告PCA、varimax、p<0.05载荷与平方优势、R4.4.0；具体包版本、全部旋转细节和原脚本仍未取得。",
+      "本站固定两个因子是教学选择；第三特征值也大于1，因此不是Kaiser准则自动得出的唯一解。",
+      "权重与z等细式据官方qmethod实现核对；可靠性0.8是计算假设，不是作者实测信度。",
+      "补充材料官方入口核查仍未取得：WUR只列主文/DOI，官方ScienceDirect附件区访问返回403；不据此声称补充材料不存在。"
+    ],
+    "sourceLinks": [
+      {
+        "label": "Methods §2.2.4–2.2.5",
+        "href": "#/original/cheng-2025/page-5"
+      },
+      {
+        "label": "Table2陈述与类别",
+        "href": "#/original/cheng-2025/page-4"
+      },
+      {
+        "label": "Table5各观点典型排序",
+        "href": "#/original/cheng-2025/page-8"
+      }
+    ]
+  },
+  "downloads": [
+    "q_pipeline.py",
+    "q_synthetic.csv",
+    "qmethod_reference.R",
+    "q_method_readme.md",
+    "q_method_sources.json"
+  ],
+  "scope": [
+    "全部10人和S01–S20均为原创合成；不复现作者327人结果。",
+    "两套完整情景结果由同一配套脚本生成；页面选择用于追踪计算对象，不是拟合任意上传数据。",
+    "手动转轴只展示同一保留子空间的几何关系，不改变后续采用的varimax模型。",
+    "载荷、z、网格分数、类别均值和农场优化目标权重是不同对象；转换需要另外论证。"
+  ],
+  "resultsFile": "q-results-v556.json"
+}

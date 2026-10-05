@@ -1,3 +1,9 @@
+## 5.5.6 — Q排序到观点的完整走读
+
+- 增加同一20×10合成数据的八步联动、P03反向情景、公式代入和可运行Python/R参考
+- 衔接作者Table2/Table5与Fig.3/4/5，保留缩放和原始数据的证据缺口
+- 保留旧段落/锚点与笔记；示例下载保留原UTF-8字节并接受真实浏览器/软件对照验收
+
 # 5.5.5 · 2026-10-04
 
 - Add a source-grounded Cheng2023/Fig.7 RDA guide with explicit field units, dates and missing settings.

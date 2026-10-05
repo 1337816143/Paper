@@ -1,0 +1,171 @@
+{
+  "schema": "paper.q.public.sources.v1",
+  "version": "5.5.6",
+  "paper": {
+    "title": "Stakeholder perspectives on ecosystem services in agricultural landscapes: A case study in the North China Plain",
+    "doi": "10.1016/j.agsy.2024.104187",
+    "url": "https://doi.org/10.1016/j.agsy.2024.104187",
+    "pdf": "https://edepot.wur.nl/680477",
+    "sha256": "f21e6a1550fef48f92aee382657a1ac00931c1df1e87e46bfdf40457e56a7162",
+    "location": "§2.2.4 printedpp4–5; exact existing blocks p4-b3-301d6dd and p5-b0-6f29b33. Page5 visually checked.",
+    "license": "The existing archived source is CC BY-NC-ND 4.0. This stage adds original explanatory prose, invented statements/data and original synthetic diagrams, and displays unchanged, attributed archived Fig.3/4/5 beside source links. It does not modify those source figures or add a wholesale translation of the article."
+  },
+  "source_facts": [
+    {
+      "id": "author-design",
+      "kind": "article fact",
+      "evidence": "§2.2.4 pp4–5; Fig1; existing design section",
+      "claim": "20 statements with a1–5 grid, capacities2/4/8/4/2. PCA and varimax, R4.4.0 and qmethod. Overall327 sorts analysed first, then seven stakeholder groups separately."
+    },
+    {
+      "id": "factor-count",
+      "kind": "article fact vs teaching choice",
+      "evidence": "§2.2.4 p4",
+      "claim": "Author factor retention combined statistical criteria and expert judgment. The prototype fixes2 factors for teaching although its third eigenvalue is1.2677>1. Its2-factor result is not attributed to the Kaiser criterion."
+    },
+    {
+      "id": "flagging",
+      "kind": "article rule with package numerical detail",
+      "source": "https://cran.r-project.org/src/contrib/qmethod_1.8.4.tar.gz",
+      "claim": "abs(loading)>1.96/sqrt(number of statements), AND own squared loading>sum of other retained squared loadings. Both inequalities strict. Strong negative loadings may be flagged and need interpretation. Current official implementation and CRAN1.8.4 agree with p<.05; no verified p<.01-default conflict exists.",
+      "archiveMember": "qmethod/R/qflag.R",
+      "sourceSHA256": "c672fbf62c684e4cc6c8be4e4a07ab89cb72939b5397e128e9b1b38b30c6b36a"
+    },
+    {
+      "id": "orientation",
+      "kind": "official tool interface",
+      "source": "https://aiorazabala.github.io/qmethod/Cookbook",
+      "claim": "qmethod input is statements in rows and Q-sorts/persons in columns. The person-correlation matrix is therefore10×10 here; the statement score matrix is20×2. The conceptual phrase person×statement must not lead to blindly transposing the tool input."
+    },
+    {
+      "id": "weights-z",
+      "kind": "package implementation, author-run details not confirmed",
+      "source": "https://cran.r-project.org/src/contrib/qmethod_1.8.4.tar.gz",
+      "claim": "Set unflagged weights0; signed w=l/(1-l²). Weighted statement totals are standardized across statements using sample SD. Raw grid scores enter the weighted sum. Prototype rejects near-unit defining loadings within1e-12 as an explicit numerical safety policy.",
+      "archiveMember": "qmethod/R/qzscores.R",
+      "sourceSHA256": "c672fbf62c684e4cc6c8be4e4a07ab89cb72939b5397e128e9b1b38b30c6b36a"
+    },
+    {
+      "id": "rank-grid",
+      "kind": "package implementation",
+      "source": "https://cran.r-project.org/src/contrib/qmethod_1.8.4.tar.gz",
+      "claim": "Ascending z ranks map to the sorted grid; this is not round(z). Exact ties receive mean ranks and R indexing truncates fractional indices. A tie straddling grid positions can change nominal slot occupancy. Current synthetic arrays retain the intended counts without forcing a tie-break.",
+      "archiveMember": "qmethod/R/qzscores.R",
+      "sourceSHA256": "c672fbf62c684e4cc6c8be4e4a07ab89cb72939b5397e128e9b1b38b30c6b36a"
+    },
+    {
+      "id": "reliability",
+      "kind": "package assumption, not empirical author result",
+      "source": "https://cran.r-project.org/src/contrib/qmethod_1.8.4.tar.gz",
+      "claim": "Assumed individual reliability0.8. Composite R=mr/[1+(m-1)r], SE=SD(z)sqrt(1-R), SED=sqrt(SEf²+SEg²). This is not an estimated Cronbach alpha or field-measured reliability.",
+      "archiveMember": "qmethod/R/qfcharact.R",
+      "sourceSHA256": "c672fbf62c684e4cc6c8be4e4a07ab89cb72939b5397e128e9b1b38b30c6b36a"
+    },
+    {
+      "id": "distinguishing",
+      "kind": "scoped package comparison",
+      "source": "https://cran.r-project.org/src/contrib/qmethod_1.8.4.tar.gz",
+      "claim": "The prototype implements two-factor comparisons at p<.05 (1.960×SED) and p<.01 (2.576×SED), strict inequalities. It does not implement all multifactor qdc categories or add multiple-comparison correction. Consensus means no difference detected under this procedure, not unanimity, equivalence or high importance.",
+      "archiveMember": "qmethod/R/qdc.R",
+      "sourceSHA256": "c672fbf62c684e4cc6c8be4e4a07ab89cb72939b5397e128e9b1b38b30c6b36a"
+    },
+    {
+      "id": "interpretation",
+      "kind": "teaching interpretation",
+      "claim": "Provisional descriptions summarize the invented arrays only. No interview reasons exist for these invented people. Do not infer motivation, population proportions, adoption or optimization weights."
+    }
+  ],
+  "author_missing": [
+    "Original327 Q-sorts and accompanying interviews",
+    "Supplementary worked calculations and exact authorR script",
+    "Exact qmethod/psych package versions and all rotation options",
+    "Author tie handling and reliability settings beyond what the main text states"
+  ],
+  "reference_environment": {
+    "schema": "paper-q-reference-contract.v1",
+    "declared_before_r_execution": true,
+    "scope": "Two synthetic scenarios; numerical agreement is not reproduction of Cheng author data or author settings.",
+    "runtime": {
+      "R": "4.4.3",
+      "qmethod": "1.8.4",
+      "psych": "2.5.6",
+      "numpy": "2.3.5"
+    },
+    "input": {
+      "filename": "q_synthetic.csv",
+      "sha256": "4d7edb10053a7695a7cbe5da15d4c12f4fd68d48f0622f38ca3543c829f9c88b",
+      "shape": [
+        20,
+        10
+      ],
+      "scenario_ids": [
+        "baseline",
+        "reverse-p03"
+      ]
+    },
+    "matched_settings": {
+      "nfactors": 2,
+      "extraction": "PCA",
+      "rotation": "varimax",
+      "normalize": true,
+      "eps": 1e-12,
+      "cor.method": "pearson",
+      "forced": true,
+      "assumed_individual_reliability": 0.8
+    },
+    "tolerances": {
+      "matrix_eigen_atol": 1e-10,
+      "matrix_eigen_rtol": 1e-10,
+      "arithmetic_atol": 1e-08,
+      "arithmetic_rtol": 1e-08,
+      "discrete_outputs": "exact equality: scores, flags, ranks, factor arrays, counts and distinguishing/consensus classes"
+    },
+    "tolerance_rationale": "Matching eps and normalization removes default-iteration differences. Tight matrix/eigen tolerances allow floating-point library variation; arithmetic tolerances allow small rotation error amplified by l/(1-l^2). Never expand tolerances after a failed run. The native default eps=1e-5 result is a separately labelled diagnostic, not an alternate passing gate.",
+    "sources": [
+      {
+        "package": "qmethod",
+        "version": "1.8.4",
+        "url": "https://cran.r-project.org/src/contrib/qmethod_1.8.4.tar.gz",
+        "filename": "qmethod_1.8.4.tar.gz",
+        "sha256": "c672fbf62c684e4cc6c8be4e4a07ab89cb72939b5397e128e9b1b38b30c6b36a",
+        "inspected": [
+          "R/qmethod.R",
+          "R/qflag.R",
+          "R/qzscores.R",
+          "R/qfcharact.R",
+          "R/qdc.R",
+          "NAMESPACE",
+          "DESCRIPTION"
+        ]
+      },
+      {
+        "package": "psych",
+        "version": "2.5.6",
+        "url": "https://cran.r-project.org/src/contrib/Archive/psych/psych_2.5.6.tar.gz",
+        "filename": "psych_2.5.6.tar.gz",
+        "sha256": "ced7eb0ef4e6be7ddab22b0b3f934d3dbd25eefc394067ff9fa1a916ec315110",
+        "inspected": [
+          "R/principal.R",
+          "DESCRIPTION"
+        ]
+      }
+    ],
+    "official_docs": [
+      "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/varimax.html",
+      "https://search.r-project.org/CRAN/refmans/qmethod/html/qmethod.html",
+      "https://search.r-project.org/CRAN/refmans/qmethod/html/qzscores.html",
+      "https://cran.r-project.org/src/contrib/Archive/psych/"
+    ],
+    "source_checked_at": "2026-10-04",
+    "source_observation": "The inspected psych 2.5.6 archive forwards ... to stats::varimax, allowing normalize and eps. Do not infer this from moving master. qmethod::qzscores returns loa, flagged, zsc, zsc_n and f_char; qdc is a separate official step when using qzscores.",
+    "dependencies": "R base/recommended packages are supplied by the pinned R runtime. Non-numerical import dependencies are installed from official CRAN and recorded with sessionInfo; they are not asserted to match the author environment. GPArotation is imported by psych but the declared lowercase varimax path calls stats::varimax.",
+    "r_parity_status": "Not run locally: Rscript is unavailable. No R result fixture is fabricated."
+  },
+  "updates": [
+    "Canonicalized unrotated eigenvector signs for portable display; largest absolute component positive, deterministic tie handling.",
+    "Python and reference R explicitly use Kaiser normalization and relative eps=1e-12; last decimals differ from the earlier isolated prototype.",
+    "Baseline and reverse-p03 outputs are independently reproducible; both20×10 inputs are synthetic.",
+    "Raw source Fig3/4/5 remain unchanged. Table5 Farmer_1 category means are confirmed arithmetic; exact author0–100 scaling remains unconfirmed."
+  ],
+  "verification_policy": "R comparison requires actual exports, fixed versions/hashes and predeclared tolerances in full CI. An executable R file alone is not evidence of a completed comparison."
+}

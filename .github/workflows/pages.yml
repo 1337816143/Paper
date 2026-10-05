@@ -21,10 +21,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install pinned synthetic Q numeric runtime
+        run: pip install numpy==2.3.5
       - name: Build and check teaching algorithms and source archive
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
-          for file in app reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough; do node --check "src/$file.js"; done
+          for file in app reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough; do node --check "src/$file.js"; done
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
           python examples/paper_minilab.py --test
@@ -45,6 +47,21 @@ jobs:
           node tests/rda/math.test.cjs
           node tests/rda/dom.test.cjs
           python scripts/test_rda_sources.py
+          python examples/q_pipeline.py --test
+          python tests/q/math_checks.py
+          node tests/q/dom.test.cjs
+          python scripts/test_q_sources.py
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.4.3'
+          use-public-rspm: false
+      - name: Compare the synthetic Q chain with pinned official R packages
+        run: |
+          python tests/q/compare_r_reference.py --fetch-sources /tmp/q-r-sources
+          Rscript -e 'install.packages(c("mnormt", "GPArotation", "digest", "knitr", "xtable"), repos="https://cloud.r-project.org"); install.packages("/tmp/q-r-sources/psych_2.5.6.tar.gz", repos=NULL, type="source"); install.packages("/tmp/q-r-sources/qmethod_1.8.4.tar.gz", repos=NULL, type="source")'
+          mkdir -p test-results/q-reference
+          Rscript examples/qmethod_reference.R --output-dir test-results/q-reference
+          python tests/q/compare_r_reference.py --reference-dir test-results/q-reference --output test-results/q-reference/parity-report.json
       - name: Install browser test runtime
         run: |
           pip install playwright==1.55.0
@@ -63,6 +80,10 @@ jobs:
         run: |
           python tests/rda/browser_test.py
           python scripts/test_rda_walkthrough.py
+      - name: Test the Q selection chain, history, downloads and offline integration
+        run: |
+          python tests/q/browser_test.py
+          python scripts/test_q_walkthrough.py
       - name: Test original reading, annotations and full offline
         run: python scripts/test_reader.py
       - name: Test framework, terminology, equations and actual offline translation
@@ -124,13 +145,13 @@ jobs:
           set -euo pipefail
           verified=false
           for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.5'; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==12; assert d['contextualExplanations']['paperPages']==4; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.6'; assert d['qWalkthrough']['syntheticStatements']==20; assert d['qWalkthrough']['syntheticPeople']==10; assert d['qWalkthrough']['scenarios']==2; assert not d['qWalkthrough']['authorResultsReproduced']; assert not d['qWalkthrough']['authorScalingVerified']; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==12; assert d['contextualExplanations']['paperPages']==4; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
               verified=true; break
             fi
             sleep 5
           done
           test "$verified" = true
-          for name in study-data workspace sync release research personal contracts context-notes-data context-notes research-walkthrough rda-walkthrough-data rda-model rda-walkthrough; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
+          for name in study-data workspace sync release research personal contracts context-notes-data context-notes research-walkthrough rda-walkthrough-data rda-model rda-walkthrough q-walkthrough-data q-walkthrough; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
           curl --fail --silent --show-error "${PAGE_URL%/}/comfort.css" -o live-comfort.css
           curl --fail --silent --show-error "${PAGE_URL%/}/read/xu-chapter4.html" -o live-xu-chapter4.html
           curl --fail --silent --show-error "${PAGE_URL%/}/read/research-framework.html" -o live-framework.html
@@ -151,7 +172,7 @@ jobs:
           python live-minilab.py --test
           grep -q 'window.PaperContext' live-context-notes.js
           grep -q 'liang23-eleven' live-context-notes-data.js
-          for name in context-notes research-walkthrough rda-model rda-walkthrough; do
+          for name in context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough; do
             curl --fail --silent --show-error "https://raw.githubusercontent.com/1337816143/Paper/$GITHUB_SHA/src/$name.js" -o "expected-$name.js"
             cmp "live-$name.js" "expected-$name.js"
           done
@@ -169,7 +190,15 @@ jobs:
           assert.ok(Math.abs(rd.total_inertia-2)<1e-10);
           assert.ok(Math.abs(rd.constrained_inertia-25/18)<1e-10);
           assert.ok(Math.abs(rd.residual_fraction-11/36)<1e-10);
-          console.log('Served walkthroughs match their commit and compute expected synthetic results');
+          const q = JSON.parse(require('node:fs').readFileSync('live-q-walkthrough-data.js','utf8').replace(/^window\.PAPER_Q=/,'').replace(/;\s*$/,''));
+          assert.equal(q.scenarios.length,2);
+          const baseline = q.scenarios.find(x=>x.id==='baseline').result;
+          const reversed = q.scenarios.find(x=>x.id==='reverse-p03').result;
+          assert.equal(baseline.nstat,20); assert.equal(baseline.npeople,10);
+          assert.deepEqual(baseline.flagged_counts,[5,4]);
+          assert.deepEqual(baseline.factor_arrays,reversed.factor_arrays);
+          assert.ok(reversed.weights[2][0]<0);
+          console.log('Served walkthroughs match their commit and preserve verified synthetic results');
           JS
           curl --fail --silent --show-error "${PAGE_URL%/}/examples/farm_walkthrough.py?verify=$GITHUB_SHA" -o live-farm-walkthrough.py
           curl --fail --silent --show-error "${PAGE_URL%/}/examples/farm_walkthrough_synthetic.csv?verify=$GITHUB_SHA" -o farm_walkthrough_synthetic.csv
@@ -181,6 +210,10 @@ jobs:
           python -c "import hashlib; assert hashlib.sha256(open('live-rda-original-figure.png','rb').read()).hexdigest()=='74592a6bfa1be2f5645402c0405d79de80e2faee76f2a6e4ef7ffc3527154d23'"
           curl --fail --silent --show-error "${PAGE_URL%/}/read/cheng-2023-rda-walkthrough.html?verify=$GITHUB_SHA" -o live-rda-guide.html
           grep -q "0.272166" live-rda-guide.html
+          curl --fail --silent --show-error "${PAGE_URL%/}/examples/q_synthetic.csv?verify=$GITHUB_SHA" -o live-q-synthetic.csv
+          python -c "import hashlib; assert hashlib.sha256(open('live-q-synthetic.csv','rb').read()).hexdigest()=='4d7edb10053a7695a7cbe5da15d4c12f4fd68d48f0622f38ca3543c829f9c88b'"
+          curl --fail --silent --show-error "${PAGE_URL%/}/read/cheng-2025-q-walkthrough.html?verify=$GITHUB_SHA" -o live-q-guide.html
+          grep -q "Farmer_1" live-q-guide.html
       - uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification

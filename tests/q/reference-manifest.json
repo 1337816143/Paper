@@ -1,0 +1,80 @@
+{
+  "schema": "paper-q-reference-contract.v1",
+  "declared_before_r_execution": true,
+  "scope": "Two synthetic scenarios; numerical agreement is not reproduction of Cheng author data or author settings.",
+  "runtime": {
+    "R": "4.4.3",
+    "qmethod": "1.8.4",
+    "psych": "2.5.6",
+    "numpy": "2.3.5"
+  },
+  "input": {
+    "filename": "q_synthetic.csv",
+    "sha256": "4d7edb10053a7695a7cbe5da15d4c12f4fd68d48f0622f38ca3543c829f9c88b",
+    "shape": [
+      20,
+      10
+    ],
+    "scenario_ids": [
+      "baseline",
+      "reverse-p03"
+    ]
+  },
+  "matched_settings": {
+    "nfactors": 2,
+    "extraction": "PCA",
+    "rotation": "varimax",
+    "normalize": true,
+    "eps": 1e-12,
+    "cor.method": "pearson",
+    "forced": true,
+    "assumed_individual_reliability": 0.8
+  },
+  "tolerances": {
+    "matrix_eigen_atol": 1e-10,
+    "matrix_eigen_rtol": 1e-10,
+    "arithmetic_atol": 1e-08,
+    "arithmetic_rtol": 1e-08,
+    "discrete_outputs": "exact equality: scores, flags, ranks, factor arrays, counts and distinguishing/consensus classes"
+  },
+  "tolerance_rationale": "Matching eps and normalization removes default-iteration differences. Tight matrix/eigen tolerances allow floating-point library variation; arithmetic tolerances allow small rotation error amplified by l/(1-l^2). Never expand tolerances after a failed run. The native default eps=1e-5 result is a separately labelled diagnostic, not an alternate passing gate.",
+  "sources": [
+    {
+      "package": "qmethod",
+      "version": "1.8.4",
+      "url": "https://cran.r-project.org/src/contrib/qmethod_1.8.4.tar.gz",
+      "filename": "qmethod_1.8.4.tar.gz",
+      "sha256": "c672fbf62c684e4cc6c8be4e4a07ab89cb72939b5397e128e9b1b38b30c6b36a",
+      "inspected": [
+        "R/qmethod.R",
+        "R/qflag.R",
+        "R/qzscores.R",
+        "R/qfcharact.R",
+        "R/qdc.R",
+        "NAMESPACE",
+        "DESCRIPTION"
+      ]
+    },
+    {
+      "package": "psych",
+      "version": "2.5.6",
+      "url": "https://cran.r-project.org/src/contrib/Archive/psych/psych_2.5.6.tar.gz",
+      "filename": "psych_2.5.6.tar.gz",
+      "sha256": "ced7eb0ef4e6be7ddab22b0b3f934d3dbd25eefc394067ff9fa1a916ec315110",
+      "inspected": [
+        "R/principal.R",
+        "DESCRIPTION"
+      ]
+    }
+  ],
+  "official_docs": [
+    "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/varimax.html",
+    "https://search.r-project.org/CRAN/refmans/qmethod/html/qmethod.html",
+    "https://search.r-project.org/CRAN/refmans/qmethod/html/qzscores.html",
+    "https://cran.r-project.org/src/contrib/Archive/psych/"
+  ],
+  "source_checked_at": "2026-10-04",
+  "source_observation": "The inspected psych 2.5.6 archive forwards ... to stats::varimax, allowing normalize and eps. Do not infer this from moving master. qmethod::qzscores returns loa, flagged, zsc, zsc_n and f_char; qdc is a separate official step when using qzscores.",
+  "dependencies": "R base/recommended packages are supplied by the pinned R runtime. Non-numerical import dependencies are installed from official CRAN and recorded with sessionInfo; they are not asserted to match the author environment. GPArotation is imported by psych but the declared lowercase varimax path calls stats::varimax.",
+  "r_parity_status": "Not run locally: Rscript is unavailable. No R result fixture is fabricated."
+}
