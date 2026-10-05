@@ -76,6 +76,76 @@ test('geometry preview rotates retained points but cannot alter downstream numbe
  const e=env();e.click('[data-step="2"]');e.input('loadingView','geometry');const field=e.q('[data-field="angle"]');field.focus();const before=e.q('[data-person="P01"]').querySelector('circle').getAttribute('cx');e.input('angle',45);const after=e.q('[data-person="P01"]').querySelector('circle').getAttribute('cx');assert.notEqual(after,before);assert.equal(e.doc.activeElement,field);assert.ok(e.q('.q-stage').textContent.includes('GEOMETRY PREVIEW'));assert.ok(e.q('.q-stage').textContent.includes('当前显示 -0.479628'));
  e.click('[data-step="4"]');const fixed=e.q('.q-stage').textContent;e.click('[data-step="2"]');e.input('angle',-93);e.click('[data-step="4"]');assert.equal(e.q('.q-stage').textContent,fixed);
 });
+function loadingLayout(e,r,view,angle=0) {
+ // These are conservative model envelopes, NOT measured browser text bounds.
+ // Actual SVG getBBox/font and pixel checks belong to browser_test.py.
+ const labels=e.panel.querySelectorAll('.q-point-label'),markers=e.panel.querySelectorAll('[data-point-marker]');
+ assert.equal(labels.length,10);assert.equal(markers.length,10);
+ assert.deepEqual(labels.map(n=>n.getAttribute('data-person-label')).sort(),[...r.participants].sort());
+ assert.deepEqual(markers.map(n=>n.getAttribute('data-point-marker')).sort(),[...r.participants].sort());
+ const boxes=labels.map(n=>({id:n.getAttribute('data-person-label'),x:Number(n.getAttribute('x'))-3,y:Number(n.getAttribute('y'))-14,width:6+[...n.textContent].reduce((v,c)=>v+(c.charCodeAt(0)>255?13:8),0),height:20}));
+ const overlap=(a,b,gap=0)=>a.x<b.x+b.width+gap && a.x+a.width+gap>b.x && a.y<b.y+b.height+gap && a.y+a.height+gap>b.y;
+ const state=e.ctl.getState(),rad=angle*Math.PI/180;
+ const points=(view==='varimax'?r.rotated_loadings:r.unrotated_loadings).map(([a,b])=>view==='geometry'?[a*Math.cos(rad)-b*Math.sin(rad),a*Math.sin(rad)+b*Math.cos(rad)]:[a,b]);
+ const centers=markers.map(n=>{
+  let cx,cy;
+  if(n.tagName==='CIRCLE'){cx=Number(n.getAttribute('cx'));cy=Number(n.getAttribute('cy'));}
+  else if(n.tagName==='RECT'){cx=Number(n.getAttribute('x'))+Number(n.getAttribute('width'))/2;cy=Number(n.getAttribute('y'))+Number(n.getAttribute('height'))/2;}
+  else {const match=n.getAttribute('d').match(/^M([\d.e+-]+),([\d.e+-]+)/);assert.ok(match);cx=Number(match[1]);cy=Number(match[2])+7;}
+  const id=n.getAttribute('data-point-marker'),i=r.participants.indexOf(id),expected=points[i];
+  assert.ok(Math.abs(cx-(62+(expected[0]+1.1)/2.2*410))<1e-9,id+' actual marker x');
+  assert.ok(Math.abs(cy-(442-(expected[1]+1.1)/2.2*410))<1e-9,id+' actual marker y');
+  const radius=id===state.person||id===state.other?13:8;
+  return{id,cx,cy,radius,x:cx-radius-3,y:cy-radius-3,width:2*(radius+3),height:2*(radius+3)};
+ });
+ for(const [i,box]of boxes.entries()){
+  assert.ok([box.x,box.y,box.width,box.height].every(Number.isFinite),box.id+' finite envelope');
+  assert.ok(box.x>=64 && box.y>=34 && box.x+box.width<=470 && box.y+box.height<=440,box.id+' inside plot');
+  for(const other of boxes.slice(i+1))assert.equal(overlap(box,other,3.99),false,box.id+'/'+other.id+' label envelopes');
+  for(const marker of centers)assert.equal(overlap(box,marker),false,box.id+'/'+marker.id+' marker clearance');
+ }
+ const leaderLayer=e.q('.q-point-leaders'),groups=e.panel.querySelectorAll('.q-point');
+ assert.ok(groups.every(n=>n.parentNode===leaderLayer.parentNode && n.parentNode.children.indexOf(n)>n.parentNode.children.indexOf(leaderLayer)),'all leaders paint behind all points/text');
+ assert.equal(leaderLayer.children.length,10);
+ for(const leader of leaderLayer.children){
+  const id=leader.getAttribute('data-person-leader'),marker=centers.find(m=>m.id===id),box=boxes.find(b=>b.id===id);
+  const [x1,y1,x2,y2]=['x1','y1','x2','y2'].map(k=>Number(leader.getAttribute(k)));
+  assert.ok([x1,y1,x2,y2].every(Number.isFinite));
+  assert.ok(Math.abs(Math.hypot(x1-marker.cx,y1-marker.cy)-marker.radius)<1e-9,id+' leader starts outside marker');
+  assert.ok(x2>=box.x && x2<=box.x+box.width && y2>=box.y && y2<=box.y+box.height,id+' leader ends at label');
+  assert.ok(Math.hypot(x2-x1,y2-y1)<=85,id+' short leader');
+ }
+ for(const label of labels){const id=label.getAttribute('data-person-label');assert.equal(label.textContent,id+(id===state.person?'（选）':id===state.other?'（比较）':''));}
+ return labels.map(n=>[n.getAttribute('data-person-label'),n.getAttribute('x'),n.getAttribute('y'),n.textContent]);
+}
+test('loading label envelopes avoid each other and every fixed marker across views and selections',()=>{
+ const e=env(),before=JSON.stringify(config.scenarios);e.click('[data-step="2"]');
+ for(const scenario of config.scenarios){
+  e.input('scenario',scenario.id);
+  for(const [person,other]of [['P01','P05'],['P07','P04'],['P10','P03'],['P03','P03']]){
+   e.input('person',person);e.input('other',other);
+   for(const view of ['varimax','unrotated','geometry']){
+    e.input('loadingView',view);
+    for(const angle of view==='geometry'?[-180,-135,-93,-90,-45,-1,0,1,37,45,90,93,135,179,180]:[0]){
+     if(view==='geometry')e.input('angle',angle);
+     loadingLayout(e,scenario.result,view,angle);
+    }
+   }
+  }
+ }
+ assert.equal(JSON.stringify(config.scenarios),before,'label placement cannot mutate any statistical result');
+});
+test('loading placement is deterministic after control changes and history restoration',()=>{
+ const e=env(),r=config.scenarios[0].result;e.click('[data-step="2"]');
+ const original=loadingLayout(e,r,'varimax');
+ e.input('loadingView','geometry');e.input('angle',37);e.input('person','P07');e.input('other','P04');
+ e.input('loadingView','varimax');e.input('person','P01');e.input('other','P05');
+ assert.deepEqual(loadingLayout(e,r,'varimax'),original);
+ const saved={...e.win.history.state};e.win.history.state={};e.win.location.hash='#/cheng-2025';e.win.dispatch('popstate');
+ e.win.history.state=saved;e.win.location.hash='#/cheng-2025-q-walkthrough';e.api.mount(e.container);e.win.dispatch('hashchange');
+ const labels=e.container.querySelectorAll('.q-point-label').map(n=>[n.getAttribute('data-person-label'),n.getAttribute('x'),n.getAttribute('y'),n.textContent]);
+ assert.deepEqual(labels,original);
+});
 test('invalid geometry preserves last valid angle, including recovery to the same angle',()=>{
  const e=env();e.click('[data-step="2"]');e.input('loadingView','geometry');e.input('angle',45);
  for(const invalid of ['',181,-181,'abc',1.5,'Infinity']){e.input('angle',invalid);assert.equal(e.ctl.getState().angle,45);assert.equal(e.ctl.getState().invalid,true);assert.equal(e.q('[data-field="angle"]').getAttribute('aria-invalid'),'true');}

@@ -15,6 +15,39 @@ const note = text => '<div class="q-note">' + text + '</div>';
 const safeLink = value => typeof value === 'string' && (/^#\/[\w/.-]+$/.test(value) || /^https:\/\/[^\s<>"']+$/.test(value)) ? value : '';
 const localImage = value => typeof value === 'string' && /^(?:resources\/)?library\/[A-Za-z0-9_./-]+\.(?:png|jpg|jpeg|webp)$/i.test(value) && !value.split('/').includes('..') ? value : '';
 const link = (url, label) => safeLink(url) ? '<a href="' + escape(url) + '">' + escape(label) + '</a>' : escape(label);
+function loadingLabels(markers) {
+  // Conservative boxes for 12px system text: 8px Latin / 13px full-width,
+  // with extra side bearings and 20px height. Only labels move, never markers.
+  const bounds = {left:64, top:34, right:470, bottom:440}, height = 20;
+  const overlaps = (a,b,gap=0) => a.x < b.x+b.width+gap && a.x+a.width+gap > b.x && a.y < b.y+b.height+gap && a.y+a.height+gap > b.y;
+  const clamp = (v,min,max) => Math.max(min,Math.min(max,v));
+  const obstacles = markers.map(m=>({x:m.x-m.radius-3,y:m.y-m.radius-3,width:2*(m.radius+3),height:2*(m.radius+3)}));
+  const labels = markers.map((m,i)=>({...m,index:i,width:6+sum([...m.text].map(c=>c.charCodeAt(0)>255?13:8)),height}));
+  const placed = [];
+  // Reserve the longest selection/comparison labels first; participant order
+  // resolves ties, so returning to the same controls reproduces the same plot.
+  for (const label of [...labels].sort((a,b)=>b.width-a.width || a.index-b.index)) {
+    let best = null, bestScore = Infinity;
+    const consider = (left,top) => {
+      const box = {x:clamp(left,bounds.left,bounds.right-label.width),y:clamp(top,bounds.top,bounds.bottom-height),width:label.width,height};
+      if (obstacles.some(o=>overlaps(box,o)) || placed.some(o=>overlaps(box,o,4))) return;
+      const endX = clamp(label.x,box.x,box.x+box.width), endY = clamp(label.y,box.y,box.y+height);
+      const score = (endX-label.x)**2+(endY-label.y)**2;
+      if (score < bestScore) { bestScore = score; best = {...box,endX,endY}; }
+    };
+    // Search nearby sides and diagonals, preferring short leader lines. Bounds
+    // clamp candidates inward at the edge of the unchanged coordinate system.
+    for (let gap=4;gap<=100;gap+=8) for (const [dx,dy] of [[1,0],[-1,0],[0,-1],[0,1],[1,-1],[-1,-1],[1,1],[-1,1]]) {
+      consider(label.x+(dx>0?label.radius+gap:dx<0?-label.radius-gap-label.width:-label.width/2),label.y+(dy>0?label.radius+gap:dy<0?-label.radius-gap-height:-height/2));
+    }
+    // A bounded scan covers unusually crowded selections without allowing an
+    // overlap as a fallback. The ten-participant plot has ample free space.
+    if (!best) for (let top=bounds.top;top<=bounds.bottom-height;top+=8) for (let left=bounds.left;left<=bounds.right-label.width;left+=8) consider(left,top);
+    if (!best) throw new Error('Q 载荷图没有足够的标签空间');
+    label.box = best; placed.push(best);
+  }
+  return labels;
+}
 function mount(container) {
   if (!container || !container.ownerDocument || typeof container.append !== 'function') throw new TypeError('PaperQWalkthrough.mount 需要 DOM 容器');
   if (mounts.has(container)) return mounts.get(container);
@@ -106,11 +139,22 @@ function mount(container) {
   }
   function loadingPlot(r,x,points) {
     const px = value => 62+(value+1.1)/2.2*410, py = value => 442-(value+1.1)/2.2*410;
+    const markers = points.map((point,i)=>({id:r.participants[i],x:px(point[0]),y:py(point[1]),radius:i===x.p||i===x.o?13:8,text:r.participants[i]+(i===x.p?'（选）':i===x.o?'（比较）':'')}));
+    const labels = loadingLabels(markers);
     let body = '<circle class="q-unit-circle" cx="'+px(0)+'" cy="'+py(0)+'" r="'+(410/2.2)+'"/><line class="q-axis" x1="62" x2="472" y1="'+py(0)+'" y2="'+py(0)+'"/><line class="q-axis" x1="'+px(0)+'" x2="'+px(0)+'" y1="32" y2="442"/>';
     body += [-1,0,1].map(v=>'<text x="'+px(v)+'" y="464" text-anchor="middle">'+v+'</text><text x="50" y="'+(py(v)+5)+'" text-anchor="end">'+v+'</text>').join('');
-    body += points.map((point,i)=>{const xp=px(point[0]),yp=py(point[1]),chosen=i===x.p,other=i===x.o,kind=r.flagged[i][0]?'one':r.flagged[i][1]?'two':'none';const shape=kind==='one'?'<circle cx="'+xp+'" cy="'+yp+'" r="6"/>':kind==='two'?'<rect x="'+(xp-5)+'" y="'+(yp-5)+'" width="10" height="10"/>':'<path d="M'+xp+','+(yp-7)+' l7,7 l-7,7 l-7,-7 Z"/>';return '<g class="q-point q-factor-'+kind+'" data-person="'+escape(r.participants[i])+'">'+(chosen||other?'<circle class="q-selection-ring" cx="'+xp+'" cy="'+yp+'" r="11"/>':'')+shape+'<text x="'+(xp+(point[0]>.72?-8:9))+'" y="'+(yp+(i%2?21:-12))+'" text-anchor="'+(point[0]>.72?'end':'start')+'">'+escape(r.participants[i])+(chosen?'（选）':other?'（比较）':'')+'</text></g>';}).join('');
+    // All leaders are behind all marker shapes and text, including other people.
+    body += '<g class="q-point-leaders" aria-hidden="true">'+labels.map(label=>{
+      const b=label.box,dx=b.endX-label.x,dy=b.endY-label.y,length=Math.hypot(dx,dy),offset=label.radius/length;
+      return '<line class="q-point-leader" data-person-leader="'+escape(label.id)+'" x1="'+(label.x+dx*offset)+'" y1="'+(label.y+dy*offset)+'" x2="'+b.endX+'" y2="'+b.endY+'"/>';
+    }).join('')+'</g>';
+    body += labels.map((label,i)=>{
+      const xp=label.x,yp=label.y,chosen=i===x.p,other=i===x.o,kind=r.flagged[i][0]?'one':r.flagged[i][1]?'two':'none',marker=' data-point-marker="'+escape(label.id)+'"',b=label.box;
+      const shape=kind==='one'?'<circle'+marker+' cx="'+xp+'" cy="'+yp+'" r="6"/>':kind==='two'?'<rect'+marker+' x="'+(xp-5)+'" y="'+(yp-5)+'" width="10" height="10"/>':'<path'+marker+' d="M'+xp+','+(yp-7)+' l7,7 l-7,7 l-7,-7 Z"/>';
+      return '<g class="q-point q-factor-'+kind+'" data-person="'+escape(label.id)+'">'+(chosen||other?'<circle class="q-selection-ring" cx="'+xp+'" cy="'+yp+'" r="11"/>':'')+shape+'<text class="q-point-label" data-person-label="'+escape(label.id)+'" x="'+(b.x+3)+'" y="'+(b.y+14)+'" text-anchor="start">'+escape(label.text)+'</text></g>';
+    }).join('');
     body += '<text x="268" y="495" text-anchor="middle">'+(state.loadingView==='varimax'?'F1 载荷':'显示轴1')+'</text><text x="62" y="22">'+(state.loadingView==='varimax'?'F2 载荷':'显示轴2')+'</text>';
-    return svg('loadings','一个点是一整份人的排序：圆=固定结果F1；方=固定结果F2；菱形=未标记。图形标签沿用固定 varimax 标记',560,510,body);
+    return svg('loadings','一个点是一整份人的排序：圆=固定结果F1；方=固定结果F2；菱形=未标记。图形标签沿用固定 varimax 标记。细线仅将标签连回对应数据点，点的位置不变',560,510,body);
   }
   function extraction(r,x) {
     const k=x.f, eigen=r.all_eigenvalues[k], vectors=r.retained_eigenvectors, rowProducts=r.person_correlation[x.p].map((v,j)=>v*vectors[j][k]), norm=Math.sqrt(dot(r.unrotated_loadings[x.p],r.unrotated_loadings[x.p])), points=loadingPoints(r), retained=100*sum(r.all_eigenvalues.slice(0,2))/sum(r.all_eigenvalues);

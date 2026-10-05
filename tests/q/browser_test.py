@@ -14,6 +14,7 @@ The parent app integration suite owns full-app notes/offline/scroll acceptance.
 """
 import hashlib
 import json
+import math
 import os
 import sys
 from pathlib import Path
@@ -132,6 +133,79 @@ def contrast(page, selector):
       while((bg==='rgba(0, 0, 0, 0)' || bg==='transparent')&&node.parentElement){node=node.parentElement;bg=getComputedStyle(node).backgroundColor}
       const paper=lum(bg);return (Math.max(ink,paper)+.05)/(Math.min(ink,paper)+.05);
     }''')
+
+
+def loading_label_errors(page):
+    """Check actual SVG glyph bounds and unchanged marker geometry, not estimates."""
+    current = state(page)
+    result = next(item['result'] for item in CONFIG['scenarios'] if item['id'] == current['scenario'])
+    points = result['rotated_loadings'] if current['loadingView'] == 'varimax' else result['unrotated_loadings']
+    if current['loadingView'] == 'geometry':
+        angle = math.radians(current['angle'])
+        points = [[x*math.cos(angle)-y*math.sin(angle), x*math.sin(angle)+y*math.cos(angle)]
+                  for x, y in points]
+    expected = {person: [62+(x+1.1)/2.2*410, 442-(y+1.1)/2.2*410]
+                for person, (x, y) in zip(result['participants'], points)}
+    geometry = page.evaluate(r'''()=>{
+      const svg=document.querySelector('.q-stage .q-point-label')?.ownerSVGElement;
+      if(!svg)return {error:'No loading-plot labels rendered'};
+      const inverse=svg.getScreenCTM().inverse();
+      const point=(el,x,y)=>new DOMPoint(x,y).matrixTransform(inverse.multiply(el.getScreenCTM()));
+      const box=el=>{const b=el.getBBox(),ps=[[b.x,b.y],[b.x+b.width,b.y],
+        [b.x,b.y+b.height],[b.x+b.width,b.y+b.height]].map(([x,y])=>point(el,x,y));
+        return {left:Math.min(...ps.map(p=>p.x)),right:Math.max(...ps.map(p=>p.x)),
+          top:Math.min(...ps.map(p=>p.y)),bottom:Math.max(...ps.map(p=>p.y))};};
+      const labels=[...svg.querySelectorAll('.q-point-label')].map(el=>({
+        id:el.getAttribute('data-person-label'),text:el.textContent,box:box(el),
+        visible:getComputedStyle(el).display!=='none'&&getComputedStyle(el).visibility==='visible'
+          &&Number(getComputedStyle(el).opacity)>0&&el.getClientRects().length>0}));
+      const markers=[...svg.querySelectorAll('[data-point-marker]')].map(el=>{
+        let x,y;const tag=el.tagName.toLowerCase();
+        if(tag==='circle'){x=+el.getAttribute('cx');y=+el.getAttribute('cy');}
+        else if(tag==='rect'){x=+el.getAttribute('x')+(+el.getAttribute('width'))/2;
+          y=+el.getAttribute('y')+(+el.getAttribute('height'))/2;}
+        else if(tag==='path'){const values=el.getAttribute('d').match(/[-+]?(?:\d*\.?\d+)(?:e[-+]?\d+)?/gi).map(Number);
+          x=values[0];y=values[1]+7;}
+        else return {id:el.getAttribute('data-point-marker'),error:'Unexpected marker shape'};
+        const p=point(el,x,y),ring=el.closest('.q-point')?.querySelector('.q-selection-ring');
+        return {id:el.getAttribute('data-point-marker'),x:p.x,y:p.y,radius:ring?11:7};
+      });
+      return {labels,markers,width:svg.viewBox.baseVal.width,height:svg.viewBox.baseVal.height};
+    }''')
+    if geometry.get('error'):
+        return [geometry['error']]
+    labels, markers, problems = geometry['labels'], geometry['markers'], []
+    ids = set(result['participants'])
+    if len(labels) != 10 or {row['id'] for row in labels} != ids:
+        problems.append('Ten unique participant labels are required')
+    if len(markers) != 10 or {row['id'] for row in markers} != ids:
+        problems.append('Ten unique original data markers are required')
+    def overlap(a, b):
+        return a['left'] < b['right'] and a['right'] > b['left'] and a['top'] < b['bottom'] and a['bottom'] > b['top']
+    for index, row in enumerate(labels):
+        box = row['box']
+        if not row['visible'] or box['right'] <= box['left'] or box['bottom'] <= box['top'] or not row['text'].startswith(row['id'] or ''):
+            problems.append(str(row['id'])+' label is hidden, empty, or missing its identity')
+        if box['left'] < 0 or box['top'] < 0 or box['right'] > geometry['width'] or box['bottom'] > geometry['height']:
+            problems.append(row['id']+' label leaves the SVG view box')
+        for other in labels[index+1:]:
+            if overlap(box, other['box']):
+                problems.append(row['id']+'/'+other['id']+' glyph boxes overlap')
+        for marker in markers:
+            if marker.get('error'):
+                problems.append(marker['error']);continue
+            radius = marker['radius']
+            point_box = dict(left=marker['x']-radius, right=marker['x']+radius,
+                             top=marker['y']-radius, bottom=marker['y']+radius)
+            if overlap(box, point_box):
+                problems.append(row['id']+' label covers '+marker['id']+' marker/ring')
+    for marker in markers:
+        if marker.get('error') or marker['id'] not in expected:
+            continue
+        x, y = expected[marker['id']]
+        if abs(marker['x']-x) > 1e-8 or abs(marker['y']-y) > 1e-8:
+            problems.append(marker['id']+' data point moved during label layout')
+    return problems
 
 
 with sync_playwright() as pw:
@@ -288,6 +362,8 @@ with sync_playwright() as pw:
                           page.locator('.q-stage > details').first.evaluate('(el)=>!el.open')
                           and page.locator('.q-stage .q-figure .q-scroll-hint').count() == 2
                           and page.locator('.q-stage .q-figure .q-scroll-hint:visible').count() == 2)
+                    problems = loading_label_errors(page)
+                    check(f'{width}px loading labels and original marker positions: {problems}', not problems)
             step(page, 1)
             page.screenshot(path=str(OUT / f'mobile-{width}-correlation.png'), full_page=True)
         context.close()
@@ -295,6 +371,21 @@ with sync_playwright() as pw:
             c, p = boot(browser, color_scheme=scheme, reduced_motion='reduce')
             if scheme == 'dark':
                 p.evaluate('document.body.classList.add("dark")')
+            step(p, 2)
+            for scenario in CONFIG['scenarios']:
+                field(p, 'scenario', scenario['id'])
+                field(p, 'person', 'P03' if scenario['id'] == 'reverse-p03' else 'P01')
+                field(p, 'other', 'P07' if scenario['id'] == 'reverse-p03' else 'P05')
+                cases = [('varimax', 0), ('unrotated', 0)] + [
+                    ('geometry', angle) for angle in [-180, -135, -90, -45, 0, 45, 90, 135, 180]]
+                for view, degrees in cases:
+                    field(p, 'loadingView', view)
+                    if view == 'geometry':
+                        p.locator('[data-field="angle"]').fill(str(degrees))
+                    problems = loading_label_errors(p)
+                    check(f'{scheme} {scenario["id"]} {view} {degrees}: glyphs clear and points unchanged: {problems}',
+                          not problems)
+            p.locator('[data-action="reset"]').click()
             step(p, 2)
             for selector in ['.q-status', '.q-equation', '.q-scroll-hint', '.q-steps [aria-current="step"]']:
                 check(f'{scheme} text contrast >=4.5: {selector}', contrast(p, selector) >= 4.5)
