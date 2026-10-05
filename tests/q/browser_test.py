@@ -282,7 +282,12 @@ with sync_playwright() as pw:
                 check(f'{width}px stage {number + 1}: scroll containers remain inside viewport',
                       regions.evaluate_all('els=>els.every(el=>el.getBoundingClientRect().right<=innerWidth+1)'))
                 check(f'{width}px stage {number + 1}: scroll hint visible',
-                      page.locator('.q-scroll-hint').first.is_visible())
+                      page.locator('.q-stage .q-scroll-hint:visible').count() > 0)
+                if number == 2:
+                    check(f'{width}px collapsed PCA detail preserves both visible chart hints',
+                          page.locator('.q-stage > details').first.evaluate('(el)=>!el.open')
+                          and page.locator('.q-stage .q-figure .q-scroll-hint').count() == 2
+                          and page.locator('.q-stage .q-figure .q-scroll-hint:visible').count() == 2)
             step(page, 1)
             page.screenshot(path=str(OUT / f'mobile-{width}-correlation.png'), full_page=True)
         context.close()
@@ -319,9 +324,24 @@ with sync_playwright() as pw:
         (OUT / 'browser-result.json').write_text(json.dumps(report, ensure_ascii=False, indent=2))
         print(json.dumps({'passed': len(checks), 'report': str(OUT / 'browser-result.json')}))
     except Exception as error:
+        diagnostic = {}
+        # Capture while Playwright and the failed page are still alive.
+        opened = [p for c in browser.contexts for p in c.pages if not p.is_closed()]
+        if opened:
+            failed_page = opened[-1]
+            try:
+                failed_page.screenshot(path=str(OUT / 'last-failure.png'), full_page=True)
+                diagnostic = failed_page.evaluate('''()=>({url:location.href,
+                  state:window.qController?.getState(),
+                  hints:[...document.querySelectorAll('.q-stage .q-scroll-hint')].map(el=>({
+                    text:el.textContent, hiddenInDetails:!!el.closest('details:not([open])'),
+                    rectangles:el.getClientRects().length, display:getComputedStyle(el).display,
+                    visibility:getComputedStyle(el).visibility}))})''')
+            except Exception as capture_error:
+                diagnostic = {'capture_error':str(capture_error)}
         (OUT / 'browser-result.json').write_text(json.dumps({
             'status': 'failed', 'checks_completed': checks, 'error': str(error),
-            'page_errors': errors, 'unexpected_requests': unexpected,
+            'page_errors': errors, 'unexpected_requests': unexpected, 'diagnostic': diagnostic,
             'scope': 'Actual isolated Chromium acceptance; a partial run is not a pass.'
         }, ensure_ascii=False, indent=2))
         raise
