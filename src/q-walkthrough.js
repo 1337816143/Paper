@@ -54,7 +54,7 @@ function mount(container) {
   const q = selector => panel.querySelector(selector), stage = q('.q-stage');
   function remember() {
     if (!mounted || (global.location?.hash || '') !== mountedHash || !global.history?.replaceState) return;
-    if (stage.dataset.step !== undefined) detailsByStep[stage.dataset.step] = [...stage.querySelectorAll('details')].map(item => !!item.open);
+    if (stage.dataset.renderedStep !== undefined) detailsByStep[stage.dataset.renderedStep] = [...stage.querySelectorAll('details')].map(item => !!item.open);
     historySnapshots.set(historyKey, {hash:mountedHash, state:{...state}, detailsByStep:{...detailsByStep}, downloadsOpen:!!q('.q-downloads').open});
     global.history.replaceState({...global.history.state, paperQEntry:historyKey}, '', global.location.href);
   }
@@ -225,8 +225,8 @@ function mount(container) {
       q('.q-status').textContent='第'+(state.step+1)+'步 · '+(state.step===7?'原论文证据':chosen.label+' · '+chosen.description)+(invalid?' · 无效输入未采用，保留上次有效结果':'');
       q('.q-error').textContent=invalid;q('.q-error').hidden=!invalid;
       q('[data-field="angle"]').setAttribute('aria-invalid',String(!!invalid));
-      if(stage.dataset.step !== undefined) detailsByStep[stage.dataset.step]=[...stage.querySelectorAll('details')].map(item=>!!item.open);
-      stage.innerHTML=stages[state.step](r,x);stage.dataset.step=String(state.step);
+      if(stage.dataset.renderedStep !== undefined) detailsByStep[stage.dataset.renderedStep]=[...stage.querySelectorAll('details')].map(item=>!!item.open);
+      stage.innerHTML=stages[state.step](r,x);stage.dataset.renderedStep=String(state.step);
       stage.querySelectorAll('details').forEach((item,i)=>{item.open=!!detailsByStep[state.step]?.[i];});
       stage.querySelectorAll('[data-source-image]').forEach(img=>img.addEventListener('error',()=>{img.hidden=true;const status=stage.querySelector('[data-image-status="'+img.getAttribute('data-source-image')+'"]');if(status)status.hidden=false;},{once:true}));
       remember();

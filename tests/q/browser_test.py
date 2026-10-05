@@ -147,6 +147,9 @@ with sync_playwright() as pw:
               and not state(page)['pendingTimer'])
         page.evaluate('PaperQWalkthrough.mount(document.querySelector("#q-host"))')
         check('Mount is idempotent', page.locator('.q-walkthrough').count() == 1)
+        check('Step navigation attributes belong only to the eight buttons',
+              page.locator('[data-step]').count() == 8
+              and page.locator('[data-step]').evaluate_all("els=>els.every(el=>el.tagName==='BUTTON')"))
         check('Legacy source and private-note sentinels survive',
               page.locator('#original-paragraph').inner_text() == 'Original source sentinel.'
               and page.locator('#private-note').input_value() == 'Synthetic private note sentinel'
