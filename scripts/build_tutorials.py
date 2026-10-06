@@ -75,7 +75,10 @@ def main():
         def q_source_correction(i):
             if d['id']!='cheng-2025-q-walkthrough' or i not in (16,19):return ''
             return '<p class="notice q-si-legacy-update" data-no-terms>历史来源状态：本节保留旧文字以保护已有笔记。2026-10-05已取得官方SI，类别缩放公式已确认；下文“未取得／反推候选／细式未补齐”不再表示当前状态。<a href="#s20">查看原文证据校正</a> · <a href="#s22">查看类别完整代入</a></p>'
-        for i,s in enumerate(d['sections']):body+=f'<section class="reader" id="s{i}"><span class="kind">{html.escape(explain(s[1]))}</span><h2>{i+1}. {html.escape(explain(s[0]))}</h2>{q_source_correction(i)}<div class="prose">{rich(s[2])}</div>'+('<p class="source-note">'+html.escape(s[3])+'</p>' if len(s)>3 else '')+'</section>'
+        def dong_source_correction(i):
+            if not ((d['id']=='dong-2026' and i in (5,6,8)) or (d['id']=='dong-2026-ledger' and i in (3,5)) or (d['id']=='explanation-roadmap' and i==25)):return ''
+            return '<p class="notice dong-source-update">历史来源状态：官方SI现已取得；下文旧“补充缺失”等字样仅保留当时记录，不再表示当前状态。原始数据、完整NUFER与P拟合仍缺。<a href="../index.html#/dong-si-boundary-walkthrough">新带读与完整推导</a></p>'
+        for i,s in enumerate(d['sections']):body+=f'<section class="reader" id="s{i}"><span class="kind">{html.escape(explain(s[1]))}</span><h2>{i+1}. {html.escape(explain(s[0]))}</h2>{q_source_correction(i)}{dong_source_correction(i)}<div class="prose">{rich(s[2])}</div>'+('<p class="source-note">'+html.escape(s[3])+'</p>' if len(s)>3 else '')+'</section>'
         if d.get('quiz'):body+='<section id="self-test"><h2>关键问题与解说</h2><p>直接查看解释；本页没有答题或评分。</p>'
         for q,ans in d.get('quiz',[]):body+='<details open><summary>'+html.escape(q)+'</summary>'+rich(ans)+'</details>'
         if d.get('quiz'):body+='</section>'

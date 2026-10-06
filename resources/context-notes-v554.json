@@ -762,6 +762,129 @@
         }
       ],
       "boundary": "合成机制和发表表格算术分别验证；原始327份Q排序、访谈和作者完整代码仍未复现。"
+    },
+    {
+      "id": "dong-si-input-boundary",
+      "pageId": "dong-si-boundary-walkthrough",
+      "sectionId": "s1",
+      "phrases": [
+        "268、314、436"
+      ],
+      "title": "先给输入贴上系统边界",
+      "evidenceLabel": "原文定位＋明确合成解释",
+      "summary": "268人为、314作物总输入、436种养合并输入，不能套同一条阈值。",
+      "sections": [
+        {
+          "title": "公开原表怎样配对",
+          "paragraphs": [
+            "S6人为项为(268/262−1)×100%；地下水、氨、地表水分别用(314/218−1)×100%、(314/187−1)×100%、(314/174−1)×100%。用436是把种养合并边界误代入作物阈值。"
+          ]
+        },
+        {
+          "title": "未闭合必须保留",
+          "paragraphs": [
+            "S7分项314.1−42.2−3.2=268.7，与S6的268仍差0.7 Gg；主文398与SI436差异也未裁决。命名清楚不代表所有原数已闭合。"
+          ]
+        }
+      ],
+      "sourceLocation": "SI TableS6 p30、S7 pp31–32（固定35页渲染）；主文印刷p6",
+      "links": [
+        {
+          "href": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X26000636-mmc1.docx",
+          "label": "官方SI DOCX（按公式/表号定位）"
+        },
+        {
+          "href": "#/original/dong-2026",
+          "label": "原文身份与本机导入"
+        },
+        {
+          "href": "#/dong-si-boundary-walkthrough/s1",
+          "label": "同页完整推导"
+        }
+      ],
+      "boundary": "未取得作者完整NUFER/输入、1107条P观测或董博士全文；原件不公开重托管。"
+    },
+    {
+      "id": "dong-si-internal-flow",
+      "pageId": "dong-si-boundary-walkthrough",
+      "sectionId": "s2",
+      "phrases": [
+        "内部收到的300+100+150=550"
+      ],
+      "title": "合并种养账本时，内部流为什么抵消？",
+      "evidenceLabel": "原文定位＋明确合成解释",
+      "summary": "流进入哪个边界，决定它是外部输入还是内部转移。",
+      "sections": [
+        {
+          "title": "同一条流，两种身份",
+          "paragraphs": [
+            "合成粪肥300从畜牧到作物：是作物的输入，但对合并种养是内部转移；合成秸秆还田100和饲料150也要分开识别。"
+          ]
+        },
+        {
+          "title": "只检查记账一致",
+          "paragraphs": [
+            "3010总收受−550内部收受=2460外部输入，均为kg N/年自编数据。守恒残差0不证明参数真实；故意加123外部输入而不写去向，应留下123残差。"
+          ]
+        }
+      ],
+      "sourceLocation": "主文Eqs.1–9；SI S7；自有合成账本",
+      "links": [
+        {
+          "href": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X26000636-mmc1.docx",
+          "label": "官方SI DOCX（按公式/表号定位）"
+        },
+        {
+          "href": "#/original/dong-2026",
+          "label": "原文身份与本机导入"
+        },
+        {
+          "href": "#/dong-si-boundary-walkthrough/s2",
+          "label": "同页完整推导"
+        }
+      ],
+      "boundary": "未取得作者完整NUFER/输入、1107条P观测或董博士全文；原件不公开重托管。"
+    },
+    {
+      "id": "dong-si-nh3-inverse",
+      "pageId": "dong-si-boundary-walkthrough",
+      "sectionId": "s3",
+      "phrases": [
+        "NH₃_em,crit = L × f_NH3/f_ag"
+      ],
+      "title": "从沉降L到农业地氨排放上界",
+      "evidenceLabel": "原文定位＋明确合成解释",
+      "summary": "L以自然地ha计，氨排放以农业ha计；面积分母转换依赖原式假设。",
+      "sections": [
+        {
+          "title": "原式与合成代入",
+          "paragraphs": [
+            "S47给L×fNH3/fag，默认合成10×0.50/0.40=12.5 kg N/农业ha/年；这是氮元素质量，不是NH3分子重量。S48固定A/B，S49再解B。"
+          ]
+        },
+        {
+          "title": "只判断这一条约束",
+          "paragraphs": [
+            "原式假设地区内再沉降、农业/自然地单位面积沉降相同和组分比例固定。得到M100、总输入110并不证明地下水、P、盈利或田间产量全部可行。Nem包含NH3+N2O+NOx，反硝化另列。"
+          ]
+        }
+      ],
+      "sourceLocation": "SI S23–S49，重点渲染pp7、12；合成参数不是作者校准值",
+      "links": [
+        {
+          "href": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X26000636-mmc1.docx",
+          "label": "官方SI DOCX（按公式/表号定位）"
+        },
+        {
+          "href": "#/original/dong-2026",
+          "label": "原文身份与本机导入"
+        },
+        {
+          "href": "#/dong-si-boundary-walkthrough/s3",
+          "label": "同页完整推导"
+        }
+      ],
+      "boundary": "未取得作者完整NUFER/输入、1107条P观测或董博士全文；原件不公开重托管。"
     }
   ]
 }
