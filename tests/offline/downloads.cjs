@@ -29,5 +29,17 @@ function click(href){const a=new Element('a');a.href=href;a.attrs.download='';le
  const normalPost=context.navigator.serviceWorker.controller.postMessage;const timerCount=timers.size;context.navigator.serviceWorker.controller.postMessage=()=>{throw Error('synthetic port failure');};await click(root+'downloads/test.zip').run();assert.equal(context.window.PaperDownloads.isBusy(),false);assert.equal(timers.size,timerCount,'Synchronous postMessage failure must clear its timer');context.navigator.serviceWorker.controller.postMessage=normalPost;
  const savedController=context.navigator.serviceWorker.controller;context.navigator.serviceWorker.controller=null;await click(root+'offline-manifest.json').run();assert.equal(context.window.PaperDownloads.state().integrity,'HTTPS-control-response');assert(context.window.PaperDownloads.state().message.includes('原始清单已取得'));context.navigator.serviceWorker.controller=savedController;
  assert([...timers.values()].every(x=>x.ms===60000),'Only delayed Blob releases remain, not read timeouts');for(const {fn} of [...timers.values()])fn();assert.equal(timers.size,downloads.length); // Fake timer registry does not auto-remove fired handles.
+ // The same handler is inlined in downloads/Paper-Lab-offline.html. Its
+ // explicit build-time root must resolve to the site, not downloads/.
+ document.currentScript={src:'',dataset:{paperRoot:'../'}};
+ context.location.href=root+'downloads/Paper-Lab-offline.html';
+ vm.runInContext(source,context);
+ const inlineCount=downloads.length;await click(root+'offline-manifest.json').run();
+ assert.equal(downloads.length,inlineCount+1);assert.equal(context.window.PaperDownloads.state().integrity,'worker-pinned-manifest');
+ await click(root+'downloads/test.zip').run();assert.equal(downloads.length,inlineCount+2);
+ // file: single HTML has embedded teaching downloads, no hosted manifest fetch.
+ const fileFetches=fetchCount;listener=null;delete context.window.PaperDownloads;
+ context.location.href='file:///saved/Paper-Lab-offline.html';context.location.protocol='file:';
+ vm.runInContext(source,context);assert.equal(listener,null);assert.equal(context.window.PaperDownloads,undefined);assert.equal(fetchCount,fileFetches);
  console.log('PASS real download-handler VM: exact Blob bytes, pinned manifest, wrong bytes/pin rejection, retry, duplicate busy guard, delayed release, blob/data/external/scope exclusion (not browser acceptance)');
  }finally{for(const u of blobs)URL.revokeObjectURL(u);}})().catch(e=>{console.error(e);process.exitCode=1;});

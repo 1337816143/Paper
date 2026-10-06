@@ -2,7 +2,7 @@
    download navigation is not a reliable service-worker offline read path. */
 (()=>{'use strict';
  if(!/^https?:$/.test(location.protocol))return;
- const root=new URL('.',document.currentScript?.src||location.href);
+ const root=new URL(document.currentScript?.dataset?.paperRoot||'.',document.currentScript?.src||location.href);
  const manifestURL=new URL('offline-manifest.json',root);
  let busy=false,last={state:'idle'},activeTrigger=null,releaseTimers=new Set();
  const digest=async bytes=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),n=>n.toString(16).padStart(2,'0')).join('');
