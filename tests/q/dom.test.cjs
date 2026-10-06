@@ -43,6 +43,21 @@ function env(options={}) {
 }
 let passed=0;function test(name,fn){fn();passed++;console.log('PASS DOM-simulated',name)}
 const F=(v,n=6)=>(Math.abs(v)<.5*10**-n?0:v).toFixed(n);
+test('official SI positive common scaling follows both current scenarios and factors without mutating fixtures',()=>{
+ const e=env();const before=JSON.stringify(config.scenarios);
+ for(const scenario of config.scenarios){e.input('scenario',scenario.id);for(const f of [0,1]){e.input('factor',f);e.input('person','P03');e.input('statement','S12');e.click('[data-step="4"]');const r=scenario.result,c=10/Math.max(...r.weights.map(row=>row[f])),text=e.q('.q-si-weight').textContent;for(const v of [c,c*r.weights[2][f],c*r.weighted_totals[11][f],r.statement_z[11][f]])assert.ok(text.includes(F(v)));assert.ok(text.includes('SI仅写SD'));}}
+ assert.equal(JSON.stringify(config.scenarios),before);
+});
+test('official category formula and source conflict are visible separately from synthetic controls',()=>{
+ const e=env();e.click('[data-step="7"]');const text=e.q('.q-stage').textContent;
+ for(const term of ['13/7–29/7','43.75','33.33','72个','恰好50不算','Company_2','327份原始排序'])assert.ok(text.includes(term),term);
+ assert.ok(e.panel.querySelectorAll('a').some(a=>a.getAttribute('href')===config.source.supplement.url+'#page=14'));
+});
+test('all 18 published viewpoints recalculate 72 cells and keep selection focus',()=>{
+ const e=env();e.click('[data-step="7"]');const select=e.q('[data-field="sourcePerspective"]');select.focus();
+ for(const row of config.source.publishedTables.rows){e.input('sourcePerspective',row.perspective);assert.equal(e.doc.activeElement,select);assert.equal(e.q('[data-field="sourcePerspective"]'),select);const text=e.q('.q-stage').textContent;assert.ok(text.includes(row.perspective));const current=e.q('.q-si-current').querySelector('tbody').children;assert.equal(current.length,4);let offset=0;for(let k=0;k<4;k++){const c=config.source.categoryExample.categories[k],scores=row.factorScores.slice(offset,offset+c.count);offset+=c.count;const scaled=100*(scores.reduce((a,b)=>a+b,0)-c.minimumSum)/(c.maximumSum-c.minimumSum);assert.equal(current[k].children[1].textContent,scores.join(', '));assert.equal(current[k].children[6].textContent,F(scaled,2)+' / '+F(row.reportedCategoryScores[k],2));assert.equal(current[k].children[7].textContent,scaled>50?'优先':'不超过50');assert.ok(Math.abs(Number(e.q('[data-category="'+k+'"]').querySelector('rect').getAttribute('width'))-scaled*4)<1e-9);}assert.equal(e.panel.querySelectorAll('[data-category]').length,4);}
+ assert.ok(e.q('.q-si-all-published').textContent.includes('11、9、4、7'));e.input('sourcePerspective','Company_2');assert.ok(e.q('.q-stage').textContent.includes('不超过50'));e.ctl.reset();assert.equal(e.ctl.getState().sourcePerspective,'Farmer_1');
+});
 test('both complete current-companion scenarios render all eight stages',()=>{
  const e=env();assert.equal(e.api.isBusy(),false);assert.equal(e.ctl.getState().person,'P01');assert.equal(e.ctl.getState().statement,'S01');
  for(const scenario of config.scenarios){e.input('scenario',scenario.id);for(let i=0;i<8;i++){e.click(`[data-step="${i}"]`);assert.equal(e.ctl.getState().step,i);assert.ok(e.q('.q-stage').textContent.length>400);assert.ok(!/NaN|Infinity/.test(e.q('.q-stage').textContent));}}
@@ -62,7 +77,7 @@ test('P07/S18 selected cell, product, eigenvector, flag and contribution truly f
 test('selectors retain DOM identity and focus, only relevant controls are shown',()=>{
  const e=env(),select=e.q('[data-field="person"]');select.focus();e.input('person','P10');assert.equal(e.doc.activeElement,select);assert.equal(e.q('[data-field="person"]'),select);assert.equal(e.api.isBusy(),true);
  e.click('[data-step="5"]');assert.equal(e.q('[data-control="person"]').hidden,true);assert.equal(e.q('[data-control="other"]').hidden,true);assert.equal(e.q('[data-control="statement"]').hidden,false);
- e.click('[data-step="6"]');assert.equal(e.q('[data-control="factor"]').hidden,true);e.click('[data-step="7"]');for(const c of e.panel.querySelectorAll('[data-control]'))assert.equal(c.hidden,true);
+ e.click('[data-step="6"]');assert.equal(e.q('[data-control="factor"]').hidden,true);e.click('[data-step="7"]');for(const c of e.panel.querySelectorAll('[data-control]'))assert.equal(c.hidden,c.getAttribute('data-control')!=='sourcePerspective');
 });
 test('navigation announces and scrolls the new heading after long tables; form edits keep focus',()=>{
  const e=env();e.click('[data-action="next"]');assert.equal(e.doc.activeElement,e.q('h3'));assert.equal(e.q('h3').scrolled,true);
@@ -167,7 +182,7 @@ test('S04 and S12 shortcuts show the correct two significance outcomes',()=>{
 });
 test('source originals, published Table5 means and missing scaling are clearly separated',()=>{
  const e=env();e.click('[data-step="7"]');assert.equal(e.panel.querySelectorAll('img').length,3);config.source.figures.forEach((figure,i)=>assert.equal(e.q(`[data-source-image="${i}"]`).getAttribute('src'),figure.path));
- for(const term of ['2.857143','2.500000','精确缩放公式未确认','Ungrouped','不是因果证明','不是原始农户记录'])if(term!=='不是原始农户记录')assert.ok(e.q('.q-stage').textContent.includes(term),term);
+ for(const term of ['2.857143','2.500000','精确缩放公式已确认','Ungrouped','不是因果证明','不是原始农户记录'])if(term!=='不是原始农户记录')assert.ok(e.q('.q-stage').textContent.includes(term),term);
  const img=e.q('[data-source-image="1"]');img.listeners.error();assert.equal(img.hidden,true);assert.equal(e.q('[data-image-status="1"]').hidden,false);
  const f=env({protocol:'file:'});f.click('[data-step="7"]');assert.equal(f.panel.querySelectorAll('img').length,0);assert.ok(f.q('.q-stage').textContent.includes('原图未嵌入'));f.click('[data-step="1"]');assert.ok(f.q('svg'));
 });

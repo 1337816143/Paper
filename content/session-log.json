@@ -495,7 +495,8 @@
       "cheng-2025",
       "q-method",
       "explanation-roadmap"
-    ]
+    ],
+    "evidence": "历史更新记录（2026-10-04）：以下“缩放细式仍未取得”保留当日来源状态，不再表示当前状态。2026-10-05已核对官方SI pp.3–5及TableS3，当前公式和完整推导见Cheng Q走读s20–s22；原始327份排序与完整代码仍未取得。"
   },
   {
     "id": "update-20261005-annual-balance",
@@ -526,6 +527,32 @@
       "farmdesign-2012-balance-walkthrough",
       "qu-2025-chain-walkthrough",
       "explanation-roadmap"
+    ]
+  },
+  {
+    "id": "session-cheng-si-20261005",
+    "type": "guide",
+    "title": "2026-10-05：Cheng Q官方补充材料校正",
+    "stage": "原文证据校正",
+    "minutes": 5,
+    "tags": [
+      "Q methodology",
+      "原文核对"
+    ],
+    "summary": "SI公式与72个发表类别分数校正；既有合成数值、原文、节ID和笔记锚点保留。",
+    "sections": [
+      [
+        "这次更新确认什么",
+        "作者证据与独立算术",
+        "官方15页SI确认权重最大值归一到10、跨陈述z、固定网格类别界限和严格>50；72个已发表类别值在印刷精度下匹配。作者原始数据（327份排序）和完整运行设置仍未取得。新增校正节与原有内容分层，未改toy数据。",
+        "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf"
+      ]
+    ],
+    "quiz": [],
+    "related": [
+      "cheng-2025-q-walkthrough",
+      "cheng-2025",
+      "q-method"
     ]
   }
 ]

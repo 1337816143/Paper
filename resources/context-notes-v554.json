@@ -620,6 +620,148 @@
         }
       ],
       "boundary": ""
+    },
+    {
+      "id": "cheng25-si-weights",
+      "pageId": "cheng-2025-q-walkthrough",
+      "sectionId": "s20",
+      "phrases": [
+        "Wᵢ=10wᵢ/max(w₁,…,wₙ)"
+      ],
+      "title": "w和W：为什么把最大权重变成10？",
+      "evidenceLabel": "官方SI事实＋本站原创推导",
+      "summary": "同一因子的w都乘同一个正数，改变Total的数字尺度，满足条件时不改变z。",
+      "sections": [
+        {
+          "title": "符号先对上人和陈述",
+          "paragraphs": [
+            "fᵢ是一个人对这个因子的载荷；wᵢ=fᵢ/(1−fᵢ²)。只在该因子的定义排序集合内求最大w，再令Wᵢ=10wᵢ/max(w)。最大W是10；权重之和通常不是10或1。"
+          ]
+        },
+        {
+          "title": "跟着一个合成数值",
+          "paragraphs": [
+            "合成F1的P01：w≈6.687330，c≈1.495365，W=10。S01的Total由74.235136变111.008633；均值和SD同倍变化，z仍≈1.618656。数值来自本站合成例，不是作者327人。"
+          ]
+        },
+        {
+          "title": "何时不能这样说",
+          "paragraphs": [
+            "所有权重必须使用同一个有限正倍数；SD>0、定义排序/陈述集合与SD口径一致，不先舍入。SI未明确SD采用样本或总体分母。负倍数会翻转z，零倍数使z无定义。"
+          ]
+        }
+      ],
+      "sourceLocation": "Cheng2025 SI pp.3–5、TableS3 p.14；主文Table5 p.8。当前内容核对于2026-10-05。",
+      "links": [
+        {
+          "href": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf#page=3",
+          "label": "官方SI公式原页"
+        },
+        {
+          "href": "#/original/cheng-2025/page-8",
+          "label": "主文Table5原文"
+        },
+        {
+          "href": "#/cheng-2025-q-walkthrough/s21",
+          "label": "同页完整推导与数值代入"
+        }
+      ],
+      "boundary": "合成机制和发表表格算术分别验证；原始327份Q排序、访谈和作者完整代码仍未复现。"
+    },
+    {
+      "id": "cheng25-si-z",
+      "pageId": "cheng-2025-q-walkthrough",
+      "sectionId": "s21",
+      "phrases": [
+        "z′=z"
+      ],
+      "title": "z不变：被除掉的是共同尺度",
+      "evidenceLabel": "官方SI事实＋本站原创推导",
+      "summary": "标准化比较的是同一因子的20条陈述，而不是20个人。",
+      "sections": [
+        {
+          "title": "完整抵消",
+          "paragraphs": [
+            "令T′=cT。mean(T′)=c mean(T)，当c>0时SD(T′)=c SD(T)，因此[cT−c mean(T)]/[c SD(T)]=z。每个人不同倍数会改变相对贡献，这个证明便不能直接使用。"
+          ]
+        },
+        {
+          "title": "边界和代码",
+          "paragraphs": [
+            "SD=0时不能计算z；c<0时SD乘|c|而分子乘c，z会反号。正倍数下因子数组还需保持同分规则与计算精度，不能先舍入再声称名次必然完全相同。"
+          ]
+        },
+        {
+          "title": "研究解释",
+          "paragraphs": [
+            "这个缩放不是改变利益相关者偏好或求优化目标权重。它只是同一组已标记排序生成典型观点时的数值表达。"
+          ]
+        }
+      ],
+      "sourceLocation": "Cheng2025 SI pp.3–5、TableS3 p.14；主文Table5 p.8。当前内容核对于2026-10-05。",
+      "links": [
+        {
+          "href": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf#page=3",
+          "label": "官方SI公式原页"
+        },
+        {
+          "href": "#/original/cheng-2025/page-8",
+          "label": "主文Table5原文"
+        },
+        {
+          "href": "#/cheng-2025-q-walkthrough/s21",
+          "label": "同页完整推导与数值代入"
+        }
+      ],
+      "boundary": "合成机制和发表表格算术分别验证；原始327份Q排序、访谈和作者完整代码仍未复现。"
+    },
+    {
+      "id": "cheng25-si-category",
+      "pageId": "cheng-2025-q-walkthrough",
+      "sectionId": "s22",
+      "phrases": [
+        "严格为>50",
+        "可达边界"
+      ],
+      "title": "类别界限与严格>50：为什么50不算？",
+      "evidenceLabel": "官方SI事实＋本站原创推导",
+      "summary": "类别成员占用同一强制网格，所以不同条数有不同可达范围。",
+      "sections": [
+        {
+          "title": "七项类别怎样取界限",
+          "paragraphs": [
+            "七个最低槽位1+1+2+2+2+2+3=13，最高3+4+4+4+4+5+5=29。类别总和20给100×(20−13)/(29−13)=43.75；用均值式得到同一数。"
+          ]
+        },
+        {
+          "title": "等号属于哪一侧",
+          "paragraphs": [
+            "作者SI p.5定义higher than 50，故Company_2支持类50不算优先。18观点四类计数为11、9、4、7，类别非互斥；这些数字不是人口比例。"
+          ]
+        },
+        {
+          "title": "原文冲突如何保留",
+          "paragraphs": [
+            "TableS3与Table5复算显示支持优先为Academics_1、County_1、Village_3、Company_1，主文p.7却写这些群体缺席；同页文化优先有7/5表述冲突。教学并列登记，不修改作者原图或宣布勘误。"
+          ]
+        }
+      ],
+      "sourceLocation": "Cheng2025 SI pp.3–5、TableS3 p.14；主文Table5 p.8。当前内容核对于2026-10-05。",
+      "links": [
+        {
+          "href": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf#page=4",
+          "label": "官方SI公式原页"
+        },
+        {
+          "href": "#/original/cheng-2025/page-8",
+          "label": "主文Table5原文"
+        },
+        {
+          "href": "#/cheng-2025-q-walkthrough/s22",
+          "label": "同页完整推导与数值代入"
+        }
+      ],
+      "boundary": "合成机制和发表表格算术分别验证；原始327份Q排序、访谈和作者完整代码仍未复现。"
     }
   ]
 }

@@ -63,6 +63,13 @@ try:
  trigger(p,'liang23-eleven').click();p.locator('#paper-context-note a[href="#/liang-2023-indicator-details"]').click();p.wait_for_url('**/#/liang-2023-indicator-details');check('Deep guide original link resolves to the real paper',p.locator('.articlehead a[href="#/original/liang-2023"]').count()==1);check('Deep guide opens with no stale popup',p.locator('#paper-context-note').count()==0 and '11项指标' in p.locator('.articlehead h1').inner_text());p.go_back();p.wait_for_selector('[data-context-note="liang23-eleven"]');check('Back restores the previous lesson note',p.locator('#note').input_value()==synthetic)
  for page,id in [('liang-2022','liang22-seven'),('liang-2022','liang22-midip-hdip'),('cheng-2025','cheng25-grid'),('farmsteps-2026','farmsteps-vertical-horizontal')]:
   go(p,page);trigger(p,id).click();p.wait_for_selector('#paper-context-note[open]');check(id+' has its own context',p.locator('#paper-context-note').inner_text().strip()!='');p.keyboard.press('Escape')
+ # Official-SI explanations reuse the source-scoped layer without rewriting old prose.
+ for section,id in [('s20','cheng25-si-weights'),('s21','cheng25-si-z'),('s22','cheng25-si-category')]:
+  go(p,'cheng-2025-q-walkthrough/'+section);trigger(p,id).click();p.wait_for_selector('#paper-context-note[open]')
+  box=p.locator('#paper-context-note');check(id+' exposes official source and full derivation',box.locator('a[href*="mmc1.pdf"]').count()==1 and box.locator('a[href^="#/cheng-2025-q-walkthrough/s"]').count()==1)
+  p.keyboard.press('Escape');check(id+' closes and restores focus',trigger(p,id).evaluate('(e)=>e===document.activeElement'))
+ for section in ['s16','s19']:
+  go(p,'cheng-2025-q-walkthrough/'+section);check(section+' deep link shows current status before historical prose','不再表示当前状态' in p.locator('#'+section+' .q-si-legacy-update').inner_text())
  # Synthetic fixture uses the pre-5.5.3 public paragraph ID from commit f140045.
  legacy={'id': 'synthetic-pre553-relocation', 'docId': 'lesson:liang-indicator-audit', 'type': 'highlight', 'title': 'SYNTHETIC legacy relocation', 'comment': 'Synthetic annotation only', 'tags': [], 'links': [], 'color': 'yellow', 'quote': '因此这不是每个案例连续监测地下水位下降，也不是简单用水量本身；‘消耗’', 'segments': [{'block': 'lesson-block-15', 'start': 0, 'end': 35, 'quote': '因此这不是每个案例连续监测地下水位下降，也不是简单用水量本身；‘消耗’', 'prefix': '', 'suffix': '包含了模型估计补给。把mm换成立方米要有相应面积：1 mm作用于1 ha相当于1'}]}
  go(p,'liang-indicator-audit');p.evaluate('(v)=>PaperReader.put("annotations",v)',legacy);p.reload();p.wait_for_selector('mark[data-annotation="synthetic-pre553-relocation"]')
