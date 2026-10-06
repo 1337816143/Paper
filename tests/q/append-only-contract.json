@@ -1,0 +1,44 @@
+{
+  "schema": "paper.q.append-only.v1",
+  "baselineSourceCommit": "1345e9c27f1b0a6d92efb8730be94e055547ee05",
+  "integrationBaseCommit": "1d65a6216c1145ffce450007390d43a71141903c",
+  "preservedSectionCount": 20,
+  "preservedSectionsSha256": "0c95c545571c86441e3bd9d2fa0c25b00aad0ac8a2b6604a2bff53bac7ae2a56",
+  "preservedAnchors": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19"
+  ],
+  "appendedTitles": [
+    "2026-10-05原文校正：研究链与两次缩放分别在做什么",
+    "把最大权重变成10：数字代入与z不变的边界",
+    "按作者公式重算类别：为何七张卡不是1到5"
+  ],
+  "appendedAnchors": [
+    "s20",
+    "s21",
+    "s22"
+  ],
+  "renderOnlyLegacyNotices": [
+    "s16",
+    "s19"
+  ],
+  "quizMustRemainEmpty": true
+}

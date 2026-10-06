@@ -32,7 +32,7 @@
         "alt": "Cheng2025 Fig.3原图：七类利益相关者的十八个观点，四种形状对应四类生态系统服务",
         "caption": "原文Fig.3，PDF第7页；原图字节保持不变。每个横轴标签是一个观点，颜色/形状表示服务类别。",
         "meaning": "蓝三角是Provisioning，绿菱形Regulating，紫圆Supporting，红方形Cultural。Farmer_1是农户群体内部识别的一个观点，不是第1位农户；同一横坐标可能有重叠标记。红线50对应作者“高于50才称优先”的规则。",
-        "boundary": "这里是类别平均再缩放的factor scores，不是参与者载荷、人数、真实生态产出或概率。主文把缩放细式指向补充材料，本轮未取得；原图只可约读Farmer_1为100/44/33/44，不能把反推小数称为印刷原值。",
+        "boundary": "类别均值依据SI pp.4–5的可达界限缩放；TableS3（p.14）印刷Farmer_1为100.00/43.75/33.33/43.75。它们不是参与者载荷、人数、生态产出或概率；不是327人原始数据复现。",
         "path": "library/cheng-2025/f21e6a1550fe/p7-figure1.png",
         "sha256": "7660f954048dfa63ab5a558d1d4936219881c04161b01549dea488659f3e7deb",
         "width": 1029,
@@ -82,7 +82,10 @@
           "members": [
             "Nutrient provisioning",
             "Profit provisioning"
-          ]
+          ],
+          "minimumSum": 2,
+          "maximumSum": 10,
+          "publishedScaled": 100
         },
         {
           "name": "Regulating · 调节服务",
@@ -106,7 +109,10 @@
             "Biological control",
             "Pollination",
             "Climate regulation"
-          ]
+          ],
+          "minimumSum": 13,
+          "maximumSum": 29,
+          "publishedScaled": 43.75
         },
         {
           "name": "Supporting · 支持服务",
@@ -124,7 +130,10 @@
             "Soil fertility",
             "Natural habitats of field border",
             "Natural habitats within fields"
-          ]
+          ],
+          "minimumSum": 6,
+          "maximumSum": 18,
+          "publishedScaled": 33.33
         },
         {
           "name": "Cultural · 文化服务",
@@ -148,18 +157,21 @@
             "Self-identity value",
             "Social relations",
             "Spiritual value"
-          ]
+          ],
+          "minimumSum": 13,
+          "maximumSum": 29,
+          "publishedScaled": 43.75
         }
       ],
-      "boundary": "这些是已发表的factor scores，不是原始农户Q-sorts。类别成员依Table2；原表顺序2/7/4/7。均值可据此核算；后面的0–100变换记为g_k(均值;参考界限)，原作者细式本轮未取得。不得把本站原创S01–S20硬套进作者的四类。"
+      "boundary": "这些是Table5已发表的factor scores，不是原始农户Q-sorts；成员依Table2。SI pp.4–5公式与TableS3已核对，类别分数可复算。不得把原创合成S01–S20硬套进作者类别。"
     },
     "authorSettings": [
       "原文20条陈述，1–5分的强制网格为2/4/8/4/2；它表达相对重要性，非独立Likert同意程度。",
       "先分析全部327份排序得到总体3个观点，再分7个利益相关者群体识别累计18个观点；不能把这些编号当同一套因子。",
       "原文报告PCA、varimax、p<0.05载荷与平方优势、R4.4.0；具体包版本、全部旋转细节和原脚本仍未取得。",
       "本站固定两个因子是教学选择；第三特征值也大于1，因此不是Kaiser准则自动得出的唯一解。",
-      "权重与z等细式据官方qmethod实现核对；可靠性0.8是计算假设，不是作者实测信度。",
-      "补充材料官方入口核查仍未取得：WUR只列主文/DOI，官方ScienceDirect附件区访问返回403；不据此声称补充材料不存在。"
+      "SI p.3已确认w=f/(1−f²)、W=10w/max(w)及跨陈述标准化；样本SD、精确同分、可靠性0.8仍仅是本站核对的软件规则，非作者实测信度或完整运行证据。",
+      "2026-10-05已核读官方15页SI，pp.3–5和TableS3确认两次缩放；原327份排序、访谈、确切包版本和脚本仍未取得。"
     ],
     "sourceLinks": [
       {
@@ -173,15 +185,618 @@
       {
         "label": "Table5各观点典型排序",
         "href": "#/original/cheng-2025/page-8"
+      },
+      {
+        "label": "官方SI：公式pp.3–5／TableS3 p.14",
+        "href": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf#page=3"
       }
-    ]
+    ],
+    "supplement": {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf",
+      "sha256": "4a972518e4b721fb33b3e7091ab032a34be347b0a6ed133778ffecd38f6470a6",
+      "pages": 15,
+      "formulaPages": [
+        3,
+        4,
+        5
+      ],
+      "categoryTablePage": 14,
+      "checkedAt": "2026-10-05",
+      "authorScalingVerified": true,
+      "authorResultsReproduced": false
+    },
+    "publishedTables": {
+      "schema": "paper.cheng.published.arrays.v1",
+      "source": {
+        "doi": "10.1016/j.agsy.2024.104187",
+        "table": "Main Table5 p8; SI TableS3 p14",
+        "supplement": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf",
+        "mainSHA256": "f21e6a1550fef48f92aee382657a1ac00931c1df1e87e46bfdf40457e56a7162",
+        "supplementSHA256": "4a972518e4b721fb33b3e7091ab032a34be347b0a6ed133778ffecd38f6470a6",
+        "scope": "Numerical facts transcribed from published tables; not raw Q-sorts, not original author code; original PDFs are not included"
+      },
+      "categoryOrder": [
+        "provisioning",
+        "regulating",
+        "supporting",
+        "cultural"
+      ],
+      "categoryCounts": [
+        2,
+        7,
+        4,
+        7
+      ],
+      "rows": [
+        {
+          "perspective": "Farmer_1",
+          "factorScores": [
+            5,
+            5,
+            3,
+            3,
+            4,
+            3,
+            3,
+            2,
+            2,
+            4,
+            3,
+            1,
+            2,
+            1,
+            4,
+            2,
+            3,
+            3,
+            4,
+            3
+          ],
+          "reportedCategoryScores": [
+            100.0,
+            43.75,
+            33.33,
+            43.75
+          ]
+        },
+        {
+          "perspective": "Farmer_2",
+          "factorScores": [
+            2,
+            3,
+            3,
+            5,
+            4,
+            5,
+            3,
+            3,
+            2,
+            3,
+            4,
+            2,
+            2,
+            1,
+            4,
+            3,
+            3,
+            3,
+            4,
+            1
+          ],
+          "reportedCategoryScores": [
+            37.5,
+            75.0,
+            41.67,
+            37.5
+          ]
+        },
+        {
+          "perspective": "Farmer_3",
+          "factorScores": [
+            3,
+            4,
+            2,
+            3,
+            2,
+            3,
+            2,
+            1,
+            1,
+            3,
+            3,
+            2,
+            3,
+            3,
+            4,
+            5,
+            4,
+            4,
+            5,
+            3
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            6.25,
+            41.67,
+            93.75
+          ]
+        },
+        {
+          "perspective": "Academics_1",
+          "factorScores": [
+            3,
+            4,
+            3,
+            3,
+            3,
+            4,
+            4,
+            3,
+            1,
+            5,
+            5,
+            2,
+            3,
+            2,
+            4,
+            3,
+            2,
+            3,
+            2,
+            1
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            50.0,
+            75.0,
+            25.0
+          ]
+        },
+        {
+          "perspective": "Academics_2",
+          "factorScores": [
+            3,
+            5,
+            2,
+            2,
+            3,
+            3,
+            3,
+            2,
+            2,
+            3,
+            3,
+            3,
+            1,
+            1,
+            4,
+            3,
+            4,
+            4,
+            5,
+            4
+          ],
+          "reportedCategoryScores": [
+            75.0,
+            25.0,
+            33.33,
+            75.0
+          ]
+        },
+        {
+          "perspective": "County_1",
+          "factorScores": [
+            3,
+            2,
+            4,
+            5,
+            3,
+            4,
+            5,
+            2,
+            3,
+            3,
+            4,
+            3,
+            3,
+            1,
+            4,
+            3,
+            3,
+            2,
+            2,
+            1
+          ],
+          "reportedCategoryScores": [
+            37.5,
+            81.25,
+            58.33,
+            18.75
+          ]
+        },
+        {
+          "perspective": "County_2",
+          "factorScores": [
+            3,
+            4,
+            3,
+            3,
+            3,
+            5,
+            2,
+            2,
+            2,
+            5,
+            3,
+            1,
+            3,
+            3,
+            4,
+            4,
+            3,
+            4,
+            2,
+            1
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            43.75,
+            50.0,
+            50.0
+          ]
+        },
+        {
+          "perspective": "County_3",
+          "factorScores": [
+            2,
+            2,
+            3,
+            5,
+            4,
+            5,
+            3,
+            2,
+            4,
+            3,
+            3,
+            1,
+            1,
+            2,
+            3,
+            4,
+            4,
+            3,
+            3,
+            3
+          ],
+          "reportedCategoryScores": [
+            25.0,
+            81.25,
+            16.67,
+            56.25
+          ]
+        },
+        {
+          "perspective": "Village_1",
+          "factorScores": [
+            3,
+            4,
+            3,
+            4,
+            4,
+            5,
+            3,
+            2,
+            2,
+            5,
+            3,
+            1,
+            2,
+            1,
+            4,
+            3,
+            3,
+            3,
+            3,
+            2
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            62.5,
+            41.67,
+            37.5
+          ]
+        },
+        {
+          "perspective": "Village_2",
+          "factorScores": [
+            3,
+            4,
+            3,
+            4,
+            2,
+            3,
+            3,
+            2,
+            1,
+            4,
+            2,
+            3,
+            2,
+            5,
+            4,
+            5,
+            3,
+            3,
+            3,
+            1
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            31.25,
+            41.67,
+            68.75
+          ]
+        },
+        {
+          "perspective": "Village_3",
+          "factorScores": [
+            3,
+            3,
+            2,
+            3,
+            3,
+            3,
+            4,
+            3,
+            1,
+            4,
+            2,
+            4,
+            3,
+            1,
+            2,
+            5,
+            3,
+            4,
+            5,
+            2
+          ],
+          "reportedCategoryScores": [
+            50.0,
+            37.5,
+            58.33,
+            56.25
+          ]
+        },
+        {
+          "perspective": "Citizen_1",
+          "factorScores": [
+            3,
+            3,
+            3,
+            5,
+            3,
+            4,
+            4,
+            1,
+            1,
+            3,
+            2,
+            2,
+            3,
+            3,
+            2,
+            4,
+            2,
+            5,
+            3,
+            4
+          ],
+          "reportedCategoryScores": [
+            50.0,
+            50.0,
+            33.33,
+            62.5
+          ]
+        },
+        {
+          "perspective": "Citizen_2",
+          "factorScores": [
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            2,
+            2,
+            3,
+            3,
+            2,
+            3,
+            1,
+            2,
+            3,
+            5,
+            5,
+            3,
+            1
+          ],
+          "reportedCategoryScores": [
+            50.0,
+            62.5,
+            41.67,
+            43.75
+          ]
+        },
+        {
+          "perspective": "Citizen_3",
+          "factorScores": [
+            4,
+            3,
+            3,
+            5,
+            4,
+            3,
+            3,
+            2,
+            2,
+            3,
+            3,
+            4,
+            2,
+            1,
+            5,
+            3,
+            2,
+            3,
+            4,
+            1
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            56.25,
+            50.0,
+            37.5
+          ]
+        },
+        {
+          "perspective": "Company_1",
+          "factorScores": [
+            3,
+            4,
+            3,
+            3,
+            3,
+            4,
+            5,
+            2,
+            3,
+            4,
+            4,
+            2,
+            3,
+            2,
+            5,
+            2,
+            3,
+            3,
+            1,
+            1
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            62.5,
+            58.33,
+            25.0
+          ]
+        },
+        {
+          "perspective": "Company_2",
+          "factorScores": [
+            3,
+            4,
+            3,
+            4,
+            4,
+            5,
+            4,
+            3,
+            5,
+            3,
+            3,
+            3,
+            3,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            93.75,
+            50.0,
+            0.0
+          ]
+        },
+        {
+          "perspective": "Township_1",
+          "factorScores": [
+            1,
+            4,
+            3,
+            3,
+            2,
+            4,
+            2,
+            3,
+            2,
+            4,
+            3,
+            2,
+            3,
+            5,
+            4,
+            5,
+            3,
+            3,
+            3,
+            1
+          ],
+          "reportedCategoryScores": [
+            37.5,
+            37.5,
+            50.0,
+            68.75
+          ]
+        },
+        {
+          "perspective": "Township_2",
+          "factorScores": [
+            3,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            5,
+            3,
+            1,
+            2,
+            1,
+            2,
+            4,
+            4,
+            5,
+            2,
+            2
+          ],
+          "reportedCategoryScores": [
+            62.5,
+            56.25,
+            41.67,
+            43.75
+          ]
+        }
+      ]
+    }
   },
   "downloads": [
     "q_pipeline.py",
     "q_synthetic.csv",
     "qmethod_reference.R",
     "q_method_readme.md",
-    "q_method_sources.json"
+    "q_method_sources.json",
+    "q_si_categories.py",
+    "q_published_tables.json"
   ],
   "scope": [
     "全部10人和S01–S20均为原创合成；不复现作者327人结果。",

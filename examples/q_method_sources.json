@@ -73,11 +73,18 @@
       "id": "interpretation",
       "kind": "teaching interpretation",
       "claim": "Provisional descriptions summarize the invented arrays only. No interview reasons exist for these invented people. Do not infer motivation, population proportions, adoption or optimization weights."
+    },
+    {
+      "id": "author-si-scaling",
+      "kind": "article supplement fact with independent arithmetic verification",
+      "source": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf",
+      "evidence": "SI pp3–5; TableS3 p14; main Table2 p4 and Table5 p8",
+      "claim": "Within a perspective w=f/(1−f²), W=10w/max(w); Total_b sums respondent-specific importance scores times W. Mean and SD are across statement totals. Category means scale to attainable grid bounds; priority is strictly >50. Exact7-card bounds13/7 and29/7 are derived from the published grid and reproduce all72 TableS3 values to printed precision. Raw327-sort replication, author SD denominator and tie conventions remain unverified."
     }
   ],
   "author_missing": [
     "Original327 Q-sorts and accompanying interviews",
-    "Supplementary worked calculations and exact authorR script",
+    "Exact author R script and complete extraction/rotation/flagging settings",
     "Exact qmethod/psych package versions and all rotation options",
     "Author tie handling and reliability settings beyond what the main text states"
   ],
@@ -165,7 +172,21 @@
     "Canonicalized unrotated eigenvector signs for portable display; largest absolute component positive, deterministic tie handling.",
     "Python and reference R explicitly use Kaiser normalization and relative eps=1e-12; last decimals differ from the earlier isolated prototype.",
     "Baseline and reverse-p03 outputs are independently reproducible; both20×10 inputs are synthetic.",
-    "Raw source Fig3/4/5 remain unchanged. Table5 Farmer_1 category means are confirmed arithmetic; exact author0–100 scaling remains unconfirmed."
+    "2026-10-05: Official15-page supplement acquired and formula pages3–5/TableS3p14 checked. Author category scaling verified; published-array arithmetic agrees for72 values. Synthetic input and numeric pipeline are unchanged; complete author result replication remains false."
   ],
-  "verification_policy": "R comparison requires actual exports, fixed versions/hashes and predeclared tolerances in full CI. An executable R file alone is not evidence of a completed comparison."
+  "verification_policy": "R comparison requires actual exports, fixed versions/hashes and predeclared tolerances in full CI. An executable R file alone is not evidence of a completed comparison.",
+  "supplement": {
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24003378-mmc1.pdf",
+    "sha256": "4a972518e4b721fb33b3e7091ab032a34be347b0a6ed133778ffecd38f6470a6",
+    "pages": 15,
+    "formulaPages": [
+      3,
+      4,
+      5
+    ],
+    "categoryTablePage": 14,
+    "checkedAt": "2026-10-05",
+    "authorScalingVerified": true,
+    "authorResultsReproduced": false
+  }
 }

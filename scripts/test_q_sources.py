@@ -26,7 +26,7 @@ class QSources(unittest.TestCase):
    self.assertTrue(fig['meaning']);self.assertTrue(fig['boundary'])
   self.assertEqual([f['id'] for f in CONFIG['source']['figures']],['fig3','fig4','fig5'])
 
- def test_author_arithmetic_does_not_claim_unverified_scaling(self):
+ def test_author_arithmetic_distinguishes_verified_si_and_raw_replication(self):
   categories=CONFIG['source']['categoryExample']['categories']
   self.assertEqual([r['count'] for r in categories],[2,7,4,7])
   self.assertEqual([sum(r['scores']) for r in categories],[10,20,10,20])
@@ -80,7 +80,7 @@ class QSources(unittest.TestCase):
   self.assertNotIn('<script src="q-walkthrough',single)
   release=json.loads((out/'release.json').read_text());self.assertEqual(release['appVersion'],read('resources/application-release.json')['version']);self.assertEqual(release['qWalkthrough']['version'],'5.5.6')
   self.assertEqual(release['researchLibrary']['papers'],22);self.assertEqual(release['qWalkthrough']['scenarios'],2)
-  self.assertFalse(release['qWalkthrough']['authorScalingVerified']);self.assertFalse(release['qWalkthrough']['authorResultsReproduced'])
+  self.assertTrue(release['qWalkthrough']['authorScalingVerified']);self.assertFalse(release['qWalkthrough']['authorResultsReproduced'])
   self.assertEqual(release['qWalkthrough']['referenceComparison'],'pinned-R-required-in-CI')
 
 if __name__=='__main__':unittest.main(verbosity=2)

@@ -25,8 +25,17 @@ class Sources(unittest.TestCase):
         self.assertEqual(len(baseline['documents']), 120)
         for identity, old in baseline['documents'].items():
             document = next(d for d in read(old['file']) if d['id'] == identity)
-            self.assertEqual(len(document['sections']), old['sectionCount'], identity)
-            self.assertEqual(digest(document['sections']), old['sectionsSha256'], identity)
+            sections = document['sections']
+            if identity == 'cheng-2025-q-walkthrough':
+                contract = read('tests/q/append-only-contract.json')
+                self.assertEqual(old['sectionCount'], 20)
+                self.assertEqual(contract['preservedSectionCount'], old['sectionCount'])
+                self.assertEqual(contract['preservedSectionsSha256'], old['sectionsSha256'])
+                self.assertEqual(len(sections), old['sectionCount'] + 3, identity)
+                self.assertEqual([s[0] for s in sections[20:]], contract['appendedTitles'])
+                sections = sections[:old['sectionCount']]
+            self.assertEqual(len(sections), old['sectionCount'], identity)
+            self.assertEqual(digest(sections), old['sectionsSha256'], identity)
             self.assertEqual(digest(document.get('quiz', [])), old['quizSha256'], identity)
         self.assertEqual(hashlib.sha256((ROOT/'resources/catalog.json').read_bytes()).hexdigest(), baseline['catalogSha256'])
 

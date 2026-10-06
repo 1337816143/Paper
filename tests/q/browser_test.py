@@ -310,7 +310,33 @@ with sync_playwright() as pw:
             image_hash = hashlib.sha256((ROOT / 'resources' / figure['path']).read_bytes()).hexdigest()
             check('Untouched original source hash: ' + figure['id'], image_hash == figure['sha256'])
         check('All original figures are separate images', page.locator('.q-source-figure img').count() == 3)
-        check('Source bridge preserves unknown scaling', '精确缩放公式未确认' in text(page))
+        check('Source bridge confirms official SI scaling and retains raw-data boundary', '精确缩放公式已确认' in text(page) and '72个' in text(page) and '327份原始排序' in text(page))
+        source_choice = page.locator('[data-field="sourcePerspective"]')
+        source_choice.focus()
+        for row in CONFIG['source']['publishedTables']['rows']:
+            source_choice.select_option(row['perspective'])
+            current_rows = page.locator('.q-si-current tbody tr')
+            offset = 0
+            for k, category in enumerate(CONFIG['source']['categoryExample']['categories']):
+                scores = row['factorScores'][offset:offset+category['count']]; offset += category['count']
+                scaled = 100*(sum(scores)-category['minimumSum'])/(category['maximumSum']-category['minimumSum'])
+                cells = current_rows.nth(k).locator('th,td').all_text_contents()
+                width = float(page.locator(f'[data-category="{k}"] rect').get_attribute('width'))
+                check('Current published table and chart recalculate: ' + row['perspective'] + '/' + str(k),
+                      cells[1] == ', '.join(str(x) for x in scores)
+                      and cells[6] == f'{scaled:.2f} / {row["reportedCategoryScores"][k]:.2f}'
+                      and cells[7] == ('优先' if scaled > 50 else '不超过50')
+                      and abs(width - scaled*4) < 1e-9)
+            check('Published selection state matches selected author perspective', state(page)['sourcePerspective'] == row['perspective'])
+            check('Published selector retains keyboard focus: ' + row['perspective'],
+                  source_choice.evaluate('(el)=>document.activeElement===el'))
+        source_choice.select_option('Company_2')
+        check('Strict 50 boundary is explicit in actual source panel', '不超过50' in text(page))
+        page.locator('.q-si-all-published summary').click()
+        check('Complete 72-cell table and 7/5 source discrepancy are accessible',
+              '11、9、4、7' in text(page) and '后写5种' in text(page))
+        page.locator('.q-si-category-chart').scroll_into_view_if_needed()
+        page.screenshot(path=str(OUT / 'si-published-derivation-desktop.png'), full_page=True)
         source_detail=page.locator('.q-stage details').first
         source_detail.locator('summary').click()
         return_state=state(page)
@@ -326,7 +352,7 @@ with sync_playwright() as pw:
         check('Native Back popstate plus hashchange preserves newly mounted panel',
               page.locator('.q-walkthrough').count() == 1 and state(page)['mounted'])
         check('Original-source Back restores the same stage, choices and open explanation',
-              all(state(page)[key]==return_state[key] for key in ['step','scenario','person','statement','factor','other','loadingView','angle'])
+              all(state(page)[key]==return_state[key] for key in ['step','scenario','person','statement','factor','other','loadingView','angle','sourcePerspective'])
               and page.locator('.q-stage details').first.evaluate('(el)=>el.open'))
         page.go_forward()
         page.wait_for_selector('#source-page')
@@ -364,6 +390,10 @@ with sync_playwright() as pw:
                           and page.locator('.q-stage .q-figure .q-scroll-hint:visible').count() == 2)
                     problems = loading_label_errors(page)
                     check(f'{width}px loading labels and original marker positions: {problems}', not problems)
+            step(page, 7)
+            page.locator('[data-field="sourcePerspective"]').select_option('Academics_1')
+            page.locator('.q-si-category-chart').scroll_into_view_if_needed()
+            page.screenshot(path=str(OUT / f'si-published-derivation-mobile-{width}.png'), full_page=True)
             step(page, 1)
             page.screenshot(path=str(OUT / f'mobile-{width}-correlation.png'), full_page=True)
         context.close()

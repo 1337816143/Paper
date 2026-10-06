@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Source-scoped annotation contracts and offline packaging; no private records."""
-import json,re,unittest
+import hashlib,json,re,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text())
@@ -8,8 +8,9 @@ DATA=read('resources/context-notes-v554.json')
 DOCS={d['id']:d for p in (ROOT/'content').glob('*.json') for d in json.loads(p.read_text())}
 class ContextData(unittest.TestCase):
  def test_every_annotation_is_explicit_and_source_scoped(self):
-  self.assertEqual(len(DATA['entries']),12)
-  self.assertEqual(len({x['id'] for x in DATA['entries']}),12)
+  self.assertEqual(len(DATA['entries']),15)
+  self.assertEqual(hashlib.sha256(json.dumps(DATA['entries'][:12],ensure_ascii=False,separators=(',',':')).encode()).hexdigest(),'3327ceccbf2344317b9a5565ea892dcd413e7760af57ce3cff675214b954ef9d')
+  self.assertEqual(len({x['id'] for x in DATA['entries']}),15)
   for e in DATA['entries']:
    self.assertIn(e['pageId'],DOCS);self.assertRegex(e['sectionId'],r'^s\d+$')
    sec=DOCS[e['pageId']]['sections'][int(e['sectionId'][1:])]
