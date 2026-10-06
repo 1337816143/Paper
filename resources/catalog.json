@@ -788,14 +788,52 @@
       "checkedAt": "2026-09-30T09:31:00Z",
       "status": "rights-review",
       "pages": 13,
-      "reason": "用户提供的13页出版PDF已在本机核对；版权页声明保留所有权利，未取得公开再分发许可，不进入公开原文库。补充材料与作者原始数据尚未取得。",
+      "reason": "2026-10-06来源状态更新：官方补充SI DOCX已经取得，并有35页固定本地渲染副本；本轮针对S6/S7输入边界及S23–S49氨路径复核。作者原始数据、完整NUFER实现/运行输入及1107条P观测仍未取得；取得SI不代表原始数据或作者结果已经复现。公开再分发许可状态未改变，主文、SI原件和渲染页图不进入公开原文库。\n\n历史核验记录（2026-09-30，原样保留；其中SI“尚未取得”已由上述更新取代）：用户提供的13页出版PDF已在本机核对；版权页声明保留所有权利，未取得公开再分发许可，不进入公开原文库。补充材料与作者原始数据尚未取得。",
       "aliases": [
         "https://doi.org/10.1016/j.agsy.2026.104695"
       ],
       "accessStatus": "user-local-copy-verified",
       "accessNote": "可在自己的设备导入合法持有的原PDF阅读。本站的带读和方法账本不等于公开原件，也不表示本机文件已同步到私人云端。",
       "verifiedPDFPages": 13,
-      "sha256": "cf0b6c31874d95e945d7e3926ba7c64806d719d2aede3b2c13fdb6658aed2b86"
+      "sha256": "cf0b6c31874d95e945d7e3926ba7c64806d719d2aede3b2c13fdb6658aed2b86",
+      "sourceStatusUpdatedAt": "2026-10-06",
+      "sourceIdentityMapping": {
+        "schema": "paper.source.identity.mapping.v1",
+        "canonicalCatalogIdentityPreserved": true,
+        "legacyPublicationPDF": {
+          "pages": 13,
+          "sha256": "cf0b6c31874d95e945d7e3926ba7c64806d719d2aede3b2c13fdb6658aed2b86",
+          "verification": "既有目录13页出版PDF身份原样保留；本次附加修复未重读此哈希对应的文件字节"
+        },
+        "repositoryWrappedPDF": {
+          "pages": 14,
+          "bytes": 7500951,
+          "sha256": "f88fb273a641a0c3dcfe8b190c054809c600b670144285541658a2bab67ec79b",
+          "sameWorkDOI": "10.1016/j.agsy.2026.104695",
+          "repositoryCoverPages": 1,
+          "articlePrintedPages": 13,
+          "containerToPrintedPageOffset": 1,
+          "verification": "本轮重算字节数、SHA-256与14页容器页数；含1页仓储封面及印刷页1–13",
+          "relationshipLimit": "同一论文的另一文件身份；未将正文页字节逐一与既有13页cf0b文件比较，不替换目录主哈希或主pages字段"
+        },
+        "supplementaryDOCX": {
+          "bytes": 1365995,
+          "sha256": "e579a1a6791b98f8fab5389781465cbf4a9a4f255be46996b6f02491e630bdde",
+          "sourceURL": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X26000636-mmc1.docx",
+          "accessStatus": "acquired-private-source",
+          "fixedPagination": false,
+          "verification": "本轮重算已取得官方SI DOCX的字节数与SHA-256；DOCX页数取决于排版环境"
+        },
+        "supplementaryLocalRender": {
+          "pages": 35,
+          "bytes": 2645604,
+          "sha256": "c7b35d5b49b67f22be77a0d649a8761bf8deb402df9581b23d6adf6d9b8092e7",
+          "derivedFromDOCXSHA256": "e579a1a6791b98f8fab5389781465cbf4a9a4f255be46996b6f02491e630bdde",
+          "accessStatus": "private-review-derivative",
+          "verification": "已取得DOCX的35页本地渲染副本；本轮重新核验字节数、哈希与页数，教学SI页码指此固定副本"
+        },
+        "publicRedistribution": "not authorized; metadata and original explanatory notes only"
+      }
     },
     {
       "id": "cheng-landscape-evidence-2025",

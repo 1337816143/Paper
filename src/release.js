@@ -9,6 +9,7 @@ function settings(){try{return JSON.parse(localStorage.getItem(scopeKey)||'{}');
 function remember(patch){try{localStorage.setItem(scopeKey,JSON.stringify({...settings(),...patch}));}catch{}}
 function report(patch){current={...current,...patch};const badge=$('#release-badge');if(badge){badge.dataset.status=current.status;badge.title=current.message;badge.textContent='v'+meta.version+(current.available?' · 新版':'');}const status=$('#release-message');if(status)status.textContent=current.message;const pending=$('#release-available');if(pending)pending.textContent=current.available?'可用版本：'+(current.available.appVersion||current.available.version):'未发现新版本';}
 function safeToReload(){
+ if(window.PaperDong?.isBusy?.())return {ready:false,reason:'正在查看或调整董SI合成计算，离开或重置后自动更新'};
  if(cacheBusy||window.PaperOffline?.isBusy?.()||window.PaperDownloads?.isBusy?.())return {ready:false,reason:'正在保存或核验离线资源，完成后更新'};
  if(Date.now()-lastActivity<12000)return {ready:false,reason:'等待你暂停操作后自动更新'};
  if(getSelection()?.toString().trim())return {ready:false,reason:'正在选择文字，稍后自动更新'};

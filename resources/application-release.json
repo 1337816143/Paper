@@ -1,12 +1,13 @@
 {
   "schema": "paper.application.release.v1",
-  "version": "5.5.10",
+  "version": "5.5.11",
   "date": "2026-10-06",
-  "title": "单文件资源清单入口与子目录下载修复",
+  "title": "董SI输入边界与氨约束端到端带读",
   "changes": [
-    "HTTP打开downloads中的单文件时，资源清单明确解析到所属Paper根目录，不误入downloads子目录。",
-    "清单下载入口在HTTP单文件中可见；file:单文件明确说明没有完整清单并保留笔记/合成例导出。",
-    "保留全部5.5.9教学、旧段落锚点、私人笔记、完整离线与8个资源包。"
+    "新增来源锚定的种养账本、268/314/436口径和S23–S49氨路径合成计算。",
+    "原董主文9节、账本6节及catalog旧13页身份保留，来源已取得状态与历史文本分层。",
+    "可改参数、边界与收获目标，逐项重算并下载；不宣称完整NUFER或作者原始数据复现。",
+    "保留5.5.10单文件清单修复、旧教学、私人笔记与全站离线。"
   ],
   "automaticUpdate": "idle-and-all-tabs-safe",
   "managedSignIn": "private-entry-client-encrypted-no-hosted-server",

@@ -25,7 +25,8 @@ try:
   # Every official coverage row is conservative about source availability and reproduction.
   goto(page,'coverage');check('All 22 sources have coverage rows',page.locator('.coverage-card').count()==22)
   check('Archive availability is independent from close reading', '全文各节和案例尚未完整核读' in page.locator('#verdouw-2021').inner_text() and '许可原文已归档' in page.locator('#verdouw-2021').inner_text())
-  check('Unpublished private sources stay distinct', '公开站未归档全文' in page.locator('#dong-2026').inner_text() and '13页出版PDF全文已核读' in page.locator('#dong-2026').inner_text())
+  check('Unpublished private sources stay distinct', '公开站未归档全文' in page.locator('#dong-2026').inner_text() and '14页PDF含仓储封面、13页正文' in page.locator('#dong-2026').inner_text() and '官方SI DOCX已取得' in page.locator('#dong-2026').inner_text())
+  check('Legacy Dong13-page source identity is not rebound to the14-page wrapper', page.evaluate("(()=>{const d=PAPER_SOURCES.records.find(x=>x.id==='dong-2026');return d.pages===13&&d.verifiedPDFPages===13&&d.sha256==='cf0b6c31874d95e945d7e3926ba7c64806d719d2aede3b2c13fdb6658aed2b86';})()"))
   goto(page,'library');check('Incremental conference guide does not duplicate the 22 primary sources',page.locator('#catalog .card').count()==22);page.locator('[data-filter="程嘉莉"]').click();check('Author filtering still works',page.locator('#catalog .card').count()>=3 and page.locator('#catalog .coverage-inline').count()>=3)
   # Seed an old synthetic v1 backup, including optional method-contract keys.
   legacy={'notes':{'liang-2022':'SYNTHETIC legacy paper note: 机制练习是我的原话；自测笔记来自测量','research::liang-2022::s1':'SYNTHETIC stable section','research::liang-2022::method-contract-explain':'SYNTHETIC existing research explanation'},'done':{'liang-2022':True},'positions':{'liang-2022':{'route':'#/liang-2022/s1','y':640,'at':1}},'last':'liang-2022'}

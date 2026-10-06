@@ -8,9 +8,10 @@ DATA=read('resources/context-notes-v554.json')
 DOCS={d['id']:d for p in (ROOT/'content').glob('*.json') for d in json.loads(p.read_text())}
 class ContextData(unittest.TestCase):
  def test_every_annotation_is_explicit_and_source_scoped(self):
-  self.assertEqual(len(DATA['entries']),15)
+  self.assertEqual(len(DATA['entries']),18)
+  self.assertEqual(hashlib.sha256(json.dumps(DATA['entries'][:15],ensure_ascii=False,separators=(',',':')).encode()).hexdigest(),'98ab12d5f20e568b4ef3355ae7bc0729de8f8c71775e9bffd48eb321d58fd370')
   self.assertEqual(hashlib.sha256(json.dumps(DATA['entries'][:12],ensure_ascii=False,separators=(',',':')).encode()).hexdigest(),'3327ceccbf2344317b9a5565ea892dcd413e7760af57ce3cff675214b954ef9d')
-  self.assertEqual(len({x['id'] for x in DATA['entries']}),15)
+  self.assertEqual(len({x['id'] for x in DATA['entries']}),18)
   for e in DATA['entries']:
    self.assertIn(e['pageId'],DOCS);self.assertRegex(e['sectionId'],r'^s\d+$')
    sec=DOCS[e['pageId']]['sections'][int(e['sectionId'][1:])]

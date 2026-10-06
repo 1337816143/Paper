@@ -26,7 +26,7 @@ jobs:
       - name: Build and check teaching algorithms and source archive
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
-          for file in app offline-downloads reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough; do node --check "src/$file.js"; done
+          for file in app offline-downloads reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough dong-boundary-model dong-boundary; do node --check "src/$file.js"; done
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
           python examples/paper_minilab.py --test
@@ -51,6 +51,11 @@ jobs:
           python tests/q/math_checks.py
           python tests/q/si_checks.py
           python examples/q_si_categories.py --test
+          python -m unittest discover -s tests -p test_dong_boundary_lab.py -v
+          python tests/dong/parity.py
+          node tests/dong/math.test.cjs
+          node tests/dong/dom.test.cjs
+          python tests/dong/sources.py
           node tests/q/dom.test.cjs
           python scripts/test_q_sources.py
           python examples/annual_balance.py --test
@@ -96,6 +101,8 @@ jobs:
         run: |
           python tests/q/browser_test.py
           python scripts/test_q_walkthrough.py
+      - name: Test Dong SI live synthetic calculation, preserved source IDs, notes and downloads
+        run: python tests/dong/browser_test.py
       - name: Test annual balances, actual downloads, history, old notes and offline
         run: |
           python tests/annual-balance/browser_test.py
@@ -159,6 +166,15 @@ jobs:
           name: paper-single-entry-acceptance
           path: test-results/single-entry
           retention-days: 30
+      - name: Save bounded Dong SI browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-dong-acceptance
+          path: |
+            test-results/dong
+            test-results/dong-parity.json
+          retention-days: 30
       - name: Save test artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -202,13 +218,13 @@ jobs:
           set -euo pipefail
           verified=false
           for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.10'; assert d['fullOffline']['allDeployedPayloads']; assert d['fullOffline']['hostedDownloadZIPs']; assert d['annualBalance']['inputConfigurations']==4410; assert not d['annualBalance']['sourceDataReproduced']; assert not d['annualBalance']['agronomicResponseValidated']; assert d['qWalkthrough']['syntheticStatements']==20; assert d['qWalkthrough']['syntheticPeople']==10; assert d['qWalkthrough']['scenarios']==2; assert not d['qWalkthrough']['authorResultsReproduced']; assert d['qWalkthrough']['authorScalingVerified']; assert d['qWalkthrough']['sourceCorrectionVersion']=='5.5.9'; assert d['qWalkthrough']['publishedPerspectives']==18; assert d['qWalkthrough']['publishedCategoryCells']==72; assert d['qWalkthrough']['originalSectionCount']==20; assert d['qWalkthrough']['appendedSourceSections']==3; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==15; assert d['contextualExplanations']['paperPages']==5; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.11'; assert d['fullOffline']['allDeployedPayloads']; assert d['fullOffline']['hostedDownloadZIPs']; assert d['annualBalance']['inputConfigurations']==4410; assert not d['annualBalance']['sourceDataReproduced']; assert not d['annualBalance']['agronomicResponseValidated']; assert d['qWalkthrough']['syntheticStatements']==20; assert d['qWalkthrough']['syntheticPeople']==10; assert d['qWalkthrough']['scenarios']==2; assert not d['qWalkthrough']['authorResultsReproduced']; assert d['qWalkthrough']['authorScalingVerified']; assert d['qWalkthrough']['sourceCorrectionVersion']=='5.5.9'; assert d['qWalkthrough']['publishedPerspectives']==18; assert d['qWalkthrough']['publishedCategoryCells']==72; assert d['dongBoundary']['syntheticOnly']; assert not d['dongBoundary']['authorResultsReproduced']; assert d['dongBoundary']['legacyMainSections']==9; assert d['dongBoundary']['legacyLedgerSections']==6; assert d['qWalkthrough']['originalSectionCount']==20; assert d['qWalkthrough']['appendedSourceSections']==3; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==18; assert d['contextualExplanations']['paperPages']==6; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
               verified=true; break
             fi
             sleep 5
           done
           test "$verified" = true
-          for name in study-data workspace sync release research personal contracts context-notes-data context-notes research-walkthrough rda-walkthrough-data rda-model rda-walkthrough q-walkthrough-data q-walkthrough annual-balance-model annual-balance-walkthrough; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
+          for name in study-data workspace sync release research personal contracts context-notes-data context-notes research-walkthrough rda-walkthrough-data rda-model rda-walkthrough q-walkthrough-data q-walkthrough annual-balance-model annual-balance-walkthrough dong-boundary-model dong-boundary; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
           curl --fail --silent --show-error "${PAGE_URL%/}/comfort.css" -o live-comfort.css
           curl --fail --silent --show-error "${PAGE_URL%/}/read/xu-chapter4.html" -o live-xu-chapter4.html
           curl --fail --silent --show-error "${PAGE_URL%/}/read/research-framework.html" -o live-framework.html
@@ -229,7 +245,7 @@ jobs:
           python live-minilab.py --test
           grep -q 'window.PaperContext' live-context-notes.js
           grep -q 'liang23-eleven' live-context-notes-data.js
-          for name in context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough; do
+          for name in context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough dong-boundary-model dong-boundary; do
             curl --fail --silent --show-error "https://raw.githubusercontent.com/1337816143/Paper/$GITHUB_SHA/src/$name.js" -o "expected-$name.js"
             cmp "live-$name.js" "expected-$name.js"
           done

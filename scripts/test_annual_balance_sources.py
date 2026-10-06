@@ -34,10 +34,29 @@ class Sources(unittest.TestCase):
                 self.assertEqual(len(sections), old['sectionCount'] + 3, identity)
                 self.assertEqual([s[0] for s in sections[20:]], contract['appendedTitles'])
                 sections = sections[:old['sectionCount']]
+            if identity in {'dong-2026','dong-2026-ledger'}:
+                contract = read('tests/dong/append-only-contract.json')['documents'][identity]
+                self.assertEqual(contract['originalSectionCount'], old['sectionCount'])
+                self.assertEqual(contract['originalSectionsSha256'], old['sectionsSha256'])
+                self.assertEqual(len(sections), old['sectionCount'] + 1)
+                self.assertEqual([s[0] for s in sections[old['sectionCount']:]], contract['appendedTitles'])
+                sections = sections[:old['sectionCount']]
             self.assertEqual(len(sections), old['sectionCount'], identity)
             self.assertEqual(digest(sections), old['sectionsSha256'], identity)
             self.assertEqual(digest(document.get('quiz', [])), old['quizSha256'], identity)
-        self.assertEqual(hashlib.sha256((ROOT/'resources/catalog.json').read_bytes()).hexdigest(), baseline['catalogSha256'])
+        catalog = read('resources/catalog.json')
+        contract = read('tests/dong/append-only-contract.json')
+        dong = next(row for row in catalog['records'] if row['id'] == 'dong-2026')
+        self.assertEqual(dong['pages'], 13)
+        self.assertEqual(dong['sha256'], 'cf0b6c31874d95e945d7e3926ba7c64806d719d2aede3b2c13fdb6658aed2b86')
+        self.assertIn(contract['catalogOriginalReason'], dong['reason'])
+        self.assertEqual(dong['sourceStatusUpdatedAt'], '2026-10-06')
+        self.assertTrue(dong['sourceIdentityMapping']['canonicalCatalogIdentityPreserved'])
+        dong['reason'] = contract['catalogOriginalReason']
+        del dong['sourceStatusUpdatedAt']; del dong['sourceIdentityMapping']
+        original_bytes = (json.dumps(catalog, ensure_ascii=False, indent=2) + '\n').encode()
+        self.assertEqual(hashlib.sha256(original_bytes).hexdigest(), baseline['catalogSha256'])
+        self.assertEqual(contract['catalogOriginalSHA256'], baseline['catalogSha256'])
 
     def test_new_guides_separate_sources_and_teaching(self):
         docs = read('content/wholefarm-balance-v557.json')
