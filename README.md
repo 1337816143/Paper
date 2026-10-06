@@ -1,10 +1,44 @@
+## 5.5.8 · 完整离线与汇报前自检
+
+在“离线与下载”点击“缓存完整网站”，保持该页面打开直到显示“已完整缓存”。范围是**此版本全部已部署且合法托管的文件**：123篇既有文档/路由、静态正文、原图与归档原件、交互工具、代码/数据、离线翻译模型、全部8个ZIP（基础包+7个资源卷）、验证报告和离线控制文件。当前完整网站约674 MiB，具体条目数和字节数以页面和最终清单为准；ZIP与展开内容同时保存，所以比单纯阅读缓存大。未取得或未获转载许可的外部论文、外部动态检索、私人GitHub同步及其它联网服务不在离线承诺内；私人导入和笔记仍留在原有设备数据库。
+
+- 进度区分别显示已核验字节/总字节、条目数和本次网络接收量；下载完并不等于校验通过
+- 断点保留以**完整且已通过SHA-256核验的文件**为单位；一个大文件中途断开会重新下载该文件，不宣称字节级HTTP续传
+- 空间不足、网络断开、错误200响应或任何hash失败都不能显示完整；失败详情列出资源与原因，释放空间/联网后继续重试
+- 容量估计由浏览器提供且同来源共享配额，不是保证；旧版与已验证资源保留，代码不自动删缓存、不改私人数据库、不碰其它路径站点
+- 汇报前点“完整校验离线状态”，再关闭网络，刷新网站，重新打开浏览器，进入从未看过的正文/原图/工具，试下载ZIP。浏览器或系统仍可能清理缓存，不承诺永久保存；请同时保留下载备份
+- 独立备份：下载基础ZIP和全部原文/翻译卷，全部解压到同一目录，运行 `python -m http.server 8000` 后打开 `http://localhost:8000`。ZIP有独立的解压后清单；为了避免无限自包含，解压目录不再递归包含那些ZIP本身。轻量HTML只包含带读和示例，不能替代完整原件/模型包
+
+### 构建与完整性边界
+
+`build.py` 先生成内容与独立portable ZIP，再封存线上清单。CI保留全部原有测试（包括固定R参考比较），复制公开验证报告后必须再运行 `python scripts/seal_site.py`。此后dist/site不能再变更。`python scripts/seal_site.py --check --audit test-results/offline-deployment-exact-tree.json` 检查实际最终树并在站外留下每个文件的**原始字节SHA-256**，线上部署后逐文件对照同一审计。
+
+普通payload的字节数和原始SHA-256记录在offline-manifest.json。控制文件采用固定协议：sw.js的唯一64位MANIFEST_SHA字段替换为ASCII零后计算**规范化SHA-256**，清单记录该值与字节数；运行SW钉住清单原始SHA，校验下载SW的精确pin以及全部其余字节。只有该固定字段被归零，不接受任意排除范围；严格UTF-8和唯一声明检查防止歧义。此协议避免自摘要循环，规范化hash不冒充原始文件hash。信任根仍是浏览器通过HTTPS安装的站点SW，不抵御整个站点同时被恶意替换。
+
+缓存以Paper路径和清单摘要隔离，公共内容按SHA寻址。完整确认来自实际缓存写后与全树复核，不来自URL存在或历史完成记录。后台快速盘点明确标为inventory-only，不宣称当前字节已全部复核；手动校验/完整缓存会重读真实字节，发现损坏即撤销历史完成记录。不同标签页重复下载请求合并，整站与单篇队列串行；活动缓存/阅读/输入/选择/导入/私人同步会话都阻止不安全的自动更新。
+
+### 新增验收（旧套件仍全部必跑）
+
+```
+python scripts/build.py --source-commit="$GITHUB_SHA"
+node tests/offline/sw_runtime.cjs
+node tests/offline/ui_contract.cjs
+python tests/offline/test_manifest.py
+# 先运行所有既有CI测试并复制7份公开报告，再执行：
+python scripts/seal_site.py --audit test-results/offline-deployment-exact-tree.json
+python scripts/test_full_offline.py
+python scripts/seal_site.py --check --audit test-results/offline-deployment-exact-tree.json
+```
+
+Node VM测试明确是模拟：覆盖中断、跨worker重启续传、重复命令、配额失败重试、同URL变更、缓存截断/替换、损坏控制文件恢复、Range与scope隔离。Playwright测试才是真实浏览器证据：实际CacheStorage配额故障、截断网络、关闭重开浏览器并断网、全部文件字节对比、全部文档/工具路由、原图、实际ZIP下载、解压包再离线打开、合成私人数据库和其他站点缓存保留。物理手机/OS自动清理不由CI模拟证明。
+
 # Paper Lab · 博士研究工作区
 
 围绕 farming-systems analysis、multi-objective design 与 spatial decision support 的离线优先研究文献工作区。
 
 ## 版本与数据状态
 
-程序版本由 `resources/application-release.json` 维护，当前为 **5.5.7**。页头显示易读版本；`release.json` 另保留准确源码提交和内容校验值。发布结果以标准 Pages 工作流与实际网址为准。
+程序版本由 `resources/application-release.json` 维护，当前为 **5.5.8**。页头显示易读版本；`release.json` 另保留准确源码提交和内容校验值。发布结果以标准 Pages 工作流与实际网址为准。
 
 自动更新默认开启，但会等待所有同站标签页进入安全状态。输入、选字、弹窗、导入、本机翻译或当前页面内存中的 GitHub 同步会话存在时，不强制刷新。新版本启用后，曾完整缓存的设备自动补齐新增离线资源。版本更新不等于私人数据已获云端确认。
 
