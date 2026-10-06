@@ -78,7 +78,7 @@ class QSources(unittest.TestCase):
   single=(out/'downloads/Paper-Lab-offline.html').read_text()
   for text in ['window.PAPER_Q=','PaperQWalkthrough','reverse-p03','q-scroll-hint']:self.assertIn(text,single)
   self.assertNotIn('<script src="q-walkthrough',single)
-  release=json.loads((out/'release.json').read_text());self.assertEqual(release['appVersion'],'5.5.6')
+  release=json.loads((out/'release.json').read_text());self.assertEqual(release['appVersion'],read('resources/application-release.json')['version']);self.assertEqual(release['qWalkthrough']['version'],'5.5.6')
   self.assertEqual(release['researchLibrary']['papers'],22);self.assertEqual(release['qWalkthrough']['scenarios'],2)
   self.assertFalse(release['qWalkthrough']['authorScalingVerified']);self.assertFalse(release['qWalkthrough']['authorResultsReproduced'])
   self.assertEqual(release['qWalkthrough']['referenceComparison'],'pinned-R-required-in-CI')

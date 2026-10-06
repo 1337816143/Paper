@@ -496,5 +496,36 @@
       "q-method",
       "explanation-roadmap"
     ]
+  },
+  {
+    "id": "update-20261005-annual-balance",
+    "type": "guide",
+    "title": "2026-10-05：年度收支与粪肥链原文带读",
+    "stage": "学习内容更新",
+    "minutes": 5,
+    "summary": "将农场输入、单位、内部流和模型比较连成可计算的解释链。",
+    "sections": [
+      [
+        "新增原文带读",
+        "来源与解释",
+        "[[farmdesign-2012-balance-walkthrough|FarmDESIGN完整带读]]解释年度边界、参数附录、目标产量、约束与图表。[[qu-2025-chain-walkthrough|Qu完整带读]]区分原农场、修改基线、A/B目标和链条与全场结果。"
+      ],
+      [
+        "同一数据怎样用于理解",
+        "合成模型范围",
+        "10ha完全合成案例连接每条饲料和N流、边界抵消、约束与可运行代码；不复现作者模型，不把固定产量假设变成施肥建议。"
+      ],
+      [
+        "后续原文整合",
+        "本阶段边界",
+        "全语料阅读的新发现将分批源核并加入网站。本轮落实这两篇的基础模型解释，不代表其他论文所有细节已经更新。"
+      ]
+    ],
+    "quiz": [],
+    "related": [
+      "farmdesign-2012-balance-walkthrough",
+      "qu-2025-chain-walkthrough",
+      "explanation-roadmap"
+    ]
   }
 ]

@@ -1,0 +1,726 @@
+{
+  "sourceCommit": "1345e9c27f1b0a6d92efb8730be94e055547ee05",
+  "documents": {
+    "dong-2026-ledger": {
+      "file": "content/dong-2026-ledger.json",
+      "sectionCount": 6,
+      "sectionsSha256": "33bd90f689b91cc9fe2ecadc9a5cddc5c80ba9da6a6a9b07df562577af511c04",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "dong-2026": {
+      "file": "content/dong-2026.json",
+      "sectionCount": 9,
+      "sectionsSha256": "5ff580401207ac70a893355487b8fc770367e98abcc9242bdc4917cce8226a9d",
+      "quizSha256": "799a2443be2082d6162330c3606deb277dbfbd4eec3a3304f7610fb3c2a5db86"
+    },
+    "liang-exemplar-transfer": {
+      "file": "content/exemplar-transfer-v553.json",
+      "sectionCount": 9,
+      "sectionsSha256": "5b033672ad59f219c3ee95cbf3a26f0705bb1e1314bc5eb0dac907a4cd010b0f",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "explanation-roadmap": {
+      "file": "content/explanation-roadmap-v553.json",
+      "sectionCount": 34,
+      "sectionsSha256": "b4be253c80d26c0d28edfa45b11cf8e833d82cdfc65b4a4dbded60ad782cc5ee",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "liang-indicator-audit": {
+      "file": "content/indicator-audit-v53.json",
+      "sectionCount": 12,
+      "sectionsSha256": "8635c6f3321d7cf97d7a0dc4b4981937a6cb034e72223e037441e7009e02f321",
+      "quizSha256": "62c5d46e27482b84e54d0947aa9c959047b4c4d612a661d453d9fd41fb227efe"
+    },
+    "interactive-research-guide": {
+      "file": "content/interactive-research-v554.json",
+      "sectionCount": 6,
+      "sectionsSha256": "58639c2bf3e81741fec1b61c93a0abc0597ecb32d500276b38f364b31dc3fc1b",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "liang-2023-indicator-details": {
+      "file": "content/liang-2023-context-v554.json",
+      "sectionCount": 15,
+      "sectionsSha256": "0c1fff917ae32e6912d260409381b2577a4234b8e276dc0952721323a7b44de1",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "method-ledgers": {
+      "file": "content/method-ledgers-v54.json",
+      "sectionCount": 4,
+      "sectionsSha256": "b70aa834905faf598fda110fca88b1929d63ff0f7429de977b074cb4832fb115",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "pareto": {
+      "file": "content/methods.json",
+      "sectionCount": 5,
+      "sectionsSha256": "158bce589f633e5bb334596242de8f888f28d12071eb00501128eddcad3eb64f",
+      "quizSha256": "e008ee7b8c0402fd27c4fdb8f29c971f9a21fd0a33c90bc7ed040b8233b761c3"
+    },
+    "ideal-distance": {
+      "file": "content/methods.json",
+      "sectionCount": 5,
+      "sectionsSha256": "1d5a3cd9e53faeb7264066814e9a09ab8901e35baf651c12ffb0d0938c2630b4",
+      "quizSha256": "5261004ac33b5c8fa9944b32f1b456a2c1fae86eb719ddf8904db0a1921171b2"
+    },
+    "efficiency-score": {
+      "file": "content/methods.json",
+      "sectionCount": 4,
+      "sectionsSha256": "6e39f76dfaf484ddd0c4ac905700cc4b62c2e036abfbbeb826edbafca43f9e36",
+      "quizSha256": "a4d490f5adb1cda396bdc0197cbfef5f5b58ef78d62172d5392b1a1d03d6aed9"
+    },
+    "positive-deviance": {
+      "file": "content/methods.json",
+      "sectionCount": 5,
+      "sectionsSha256": "4d6d59f2f1293c496d3aa45bbc687eddcece44c3534b5b72cf328b274551a018",
+      "quizSha256": "490343b239261e926cc26181cde08077fc5cc3effc0343818a5c79116d855940"
+    },
+    "indicators": {
+      "file": "content/methods.json",
+      "sectionCount": 5,
+      "sectionsSha256": "bb074c0d93f3da14849406d45a9e660140bacd98c217f6e665163b1474478cec",
+      "quizSha256": "c0ba0b5aae829bf33e3ea081d79bec49ac44d5c6bea9f1bdc2b6771a16cb39ce"
+    },
+    "pca-cluster": {
+      "file": "content/methods.json",
+      "sectionCount": 5,
+      "sectionsSha256": "39ad94241fa5cb1b7ff3f25c92528665888eb824745adaca3f2ae7ce56ffeda7",
+      "quizSha256": "520273047f45b826d617250bb3cd25aa4f0e48801821f002a03cab2dba6c541f"
+    },
+    "rotation": {
+      "file": "content/methods.json",
+      "sectionCount": 4,
+      "sectionsSha256": "0298b10537fa04d2278fec3132542e780ee338bd69e445ce5ce3c2248d87ff43",
+      "quizSha256": "c696f105395e6839c1edcf902e9204c5fb2fc314f3f9d53b1c639ab5f52869ed"
+    },
+    "whole-farm": {
+      "file": "content/methods.json",
+      "sectionCount": 8,
+      "sectionsSha256": "3bbd3cbf896d69c9615c475c77768854dda924b73399bcd1e96c252646cf50a6",
+      "quizSha256": "34e4b02077b20327c78500be2b6d9d940f87614e17f241d67cd9825b8f222474"
+    },
+    "nutrients": {
+      "file": "content/methods.json",
+      "sectionCount": 7,
+      "sectionsSha256": "05a5777a63f014492246870192e95d3d9e3b436f6f15a80cd51f7f5da3e69c4c",
+      "quizSha256": "59ac11db77978fc35bada9b450cb52c9639f2db4fc2c26fa3907e203b44bf06a"
+    },
+    "rda": {
+      "file": "content/methods.json",
+      "sectionCount": 5,
+      "sectionsSha256": "b8d39598c0dc8265919eae0ef81324790ae890ebf54c483e63a00890e2ef454c",
+      "quizSha256": "a176eb3af98a095eb99b5d478fec0c0f2692a5b5b3c6aa52b25989a7562e43ca"
+    },
+    "q-method": {
+      "file": "content/methods.json",
+      "sectionCount": 5,
+      "sectionsSha256": "8532297a6ce12838d06577ff6eb26f7216f51e4d31e1744e6addd1cf6b85d33f",
+      "quizSha256": "9b400ea249d5cae76945d0a535f5bde7e255a0cb61cead1dbe2946a90aae8fea"
+    },
+    "typology": {
+      "file": "content/methods.json",
+      "sectionCount": 4,
+      "sectionsSha256": "702a08a9706b7b9dfd7036a9e059e5ddfc801bcba7419f6a5a93d1519673d44d",
+      "quizSha256": "695895f9cb1ab367c5a4ccca2aa470adb0dfccea3a184046e2b40944c7157043"
+    },
+    "data-schema": {
+      "file": "content/methods.json",
+      "sectionCount": 5,
+      "sectionsSha256": "a565d45ccc2405800cf7dd17b0c244263b83970265a8824904eda0cce034b6c1",
+      "quizSha256": "bb0b33e16968eee6d2431986d771c67101dc179916377ebc183470790e932651"
+    },
+    "survey": {
+      "file": "content/methods.json",
+      "sectionCount": 4,
+      "sectionsSha256": "3e7dd9c411d8d885ca268efaefb3b798cc27c2490aefc2ba957d3fda9be4cdfc",
+      "quizSha256": "479ee37c73db2cd4c5afbe48237db988afe8621381e1e9ece8417d13a0e133fe"
+    },
+    "uncertainty": {
+      "file": "content/methods.json",
+      "sectionCount": 9,
+      "sectionsSha256": "9f288c698288f3cb37f475ee2291973186eac9a298411051a33bc21b708bb007",
+      "quizSha256": "c3a88560d142085226c8feb0f2629aa3f7b5a5eeed1e443690c3cce09f33b6cd"
+    },
+    "validation": {
+      "file": "content/methods.json",
+      "sectionCount": 4,
+      "sectionsSha256": "cd226d1b60a2ad9a874d1f495aefa4920ca6f9082897d9d324ce02299a5fb483",
+      "quizSha256": "681bbe654b0ee40cc0de56c76d636578e0a81a7f516a533ca2a7bc9d89f482cb"
+    },
+    "causality": {
+      "file": "content/methods.json",
+      "sectionCount": 3,
+      "sectionsSha256": "3cda7f5505312ecf92d80d84a6b637c7351eab511c2e2bb1043454be2603e171",
+      "quizSha256": "6abcd25ff19fdc7301b4681c87cbf3047c402d6b5e21c178331b8c56663974a2"
+    },
+    "spatial-design": {
+      "file": "content/methods.json",
+      "sectionCount": 4,
+      "sectionsSha256": "5759a3e4c34cb06863b5f318099e3e84094b909f00d001a98b7abc08b3848352",
+      "quizSha256": "36f7881c5f8b0e27ce72479cb3811587dfa28ba530e6ebb00abb7fb91c979366"
+    },
+    "research-framework": {
+      "file": "content/navigation.json",
+      "sectionCount": 7,
+      "sectionsSha256": "57ed71e7e22b3d616f1507ed99b86a9ecd49b8d5fc95a4c694b5017f9dab5068",
+      "quizSha256": "80fe9eebf4d56cd127c88a5107414f28acd3351ada1493edc5f434bfdbc61103"
+    },
+    "course": {
+      "file": "content/navigation.json",
+      "sectionCount": 8,
+      "sectionsSha256": "4786d7b806a6628d4ce53627efae990ef33142ed7208bb7e280adfcd84936660",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "hainan-map": {
+      "file": "content/navigation.json",
+      "sectionCount": 5,
+      "sectionsSha256": "418c8f9a5a0e4cf78147dbb0b132d6c4d18c0b1a7fb0529ff8df2d2d7921dbb4",
+      "quizSha256": "1a1d1be0e36825e1fb4a2e460eac6848f1bfebe2a73dbc8dd484ea5682098354"
+    },
+    "corrections": {
+      "file": "content/navigation.json",
+      "sectionCount": 6,
+      "sectionsSha256": "e6ef212aaf1998a18d486055908e4bfe41c54970422d9306cce0f68e3faf55d7",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "offline-help": {
+      "file": "content/navigation.json",
+      "sectionCount": 5,
+      "sectionsSha256": "f802d431f9d9d90ed39762960737116042a30b1c005967af06b34890952123d4",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "model-map": {
+      "file": "content/navigation.json",
+      "sectionCount": 4,
+      "sectionsSha256": "c30048783e1dd02bc959a8c7dc8671ff6c8c3db5606ddf7b459da7178f4b249e",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "reader-guide": {
+      "file": "content/navigation.json",
+      "sectionCount": 6,
+      "sectionsSha256": "e84ed98789ab67f41e924db2b8b353523e02914e8d6b88b612f9d18eaa1e1c1b",
+      "quizSha256": "356cc5e8304dd20b26f95c03ec2f34caa3bd7ef4c3aaf149b802fac19630ba45"
+    },
+    "ledger-liang-2022": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "0e8f2747eb24585c3626f6e891abb20431fae9c30365f82cab60331555d6c872",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-liang-2023": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "e6092a14315f22d1890f6c29c8be6feb34b7d4a9ebe6e7caba3c601ac2e326a3",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-farmsteps-2026": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "388c7dc79a3b5f6e3df75363e9467c4d9dd3fb5d488b5b71c6cb8133dafd6f1c",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-cheng-2023": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "39d93ebb8f981a6d49d9f170b8b88851f7fb426c71532d58c1f35a6c48e949e6",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-cheng-2025": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "e72255c40c0893d7535ad8789f5630b6a0242e3b3d240282db138977b04b530f",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-xu-2024": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "bea28b9fa6c1c99198ef712ba6ca23753043b0d0b73278a129a2758864ac1016",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-xu-data-2024": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "8c034629c21042adf47b9d3dec2f484c9bfda0734b0660937fcbad46a6921fa4",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-farmdesign-2012": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "e6a9d9cd83bde3dc415690d2b24cea5508246dd60d4389715b5c9db276221bd9",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-landscape-2018": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "2094c37d4c5e7c6b62b93be7a75ae9fbb00a149386213e966a112d0e2f1a9bec",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-landscape-2007": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "a92fa6c7d2bd19b36ed7b49bf5f450b179fc5110c2cb441866bee1483abafc8b",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-novotny-2024": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "542a4aca892cc24d7bd3744837f8e2dec918c0ee566e0b69150e5e03cf82f28b",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-ditzler-2019": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "7264823535e2eaf4872837472429f6bcf64256452ee174a0aa0d933ea684b15b",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-qu-2025": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "991c29c0ab057bff577c10c42cdeb3f4c84933c355dd5a0f2ffe4e07629589c8",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-breure-2024": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "b45c0e706ca380318dd52febc23164e5f87595badcde92035f0223523bcbb6ea",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-toorop-2023": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "5ca4d21887b7fcd6e857d0dd948e156d1fa1b351dbc43f7ede19fe7e2a96499c",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-mixed-2026": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "6c9efc4d62cd8376da454c9160828226d187b34661d4f684b467fda09a73fdb6",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-verdouw-2021": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "bac90cbed576c1baab334a7422d94bba6cf9038ce37b4eba3a96b1a56314929f",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-liang-thesis": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 8,
+      "sectionsSha256": "5d2751b2c09d4497bec113a89dc4c5ef0317a0b4286b8b32bda21915169a2605",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-cheng-thesis": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 8,
+      "sectionsSha256": "affb4e94acb6e73d5b0900815f68d80a5b2f91ca92acef746ca1d9b79d6d1738",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-xu-thesis": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "52426e660bf0c5033ac349c8c32068ed775d0061171e18f385c74b0c77763688",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ledger-groot-2017": {
+      "file": "content/paper-ledgers-v54.json",
+      "sectionCount": 7,
+      "sectionsSha256": "80df24d741956b35f8420f152b921e1a82475cfa6b2edbc14c79ca58f1d658d5",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "liang-2022": {
+      "file": "content/papers.json",
+      "sectionCount": 9,
+      "sectionsSha256": "8a0d4fe546ee5004cf697442c9b3fa80fcda7bf55b1dfd70cdf43de65778f56c",
+      "quizSha256": "1b2e607f4ac892bed4db4e5ab07b20dbac9b023c0d721c183c7c839394d8278d"
+    },
+    "liang-2023": {
+      "file": "content/papers.json",
+      "sectionCount": 7,
+      "sectionsSha256": "0976b19704e0ffd6280852b77c60845bb68c6b726a7f08fe8ce6068a824e0a28",
+      "quizSha256": "078f5d6f5e2de9dbc5ae70eb5409e5a2cdf47a26a99f46db410032522919680d"
+    },
+    "farmsteps-2026": {
+      "file": "content/papers.json",
+      "sectionCount": 12,
+      "sectionsSha256": "1556e50c9e2b0875870ead07a5d9c2c64843b8477d0e97398754b1536602ae2f",
+      "quizSha256": "71cb8c53c4718ebab729cdf63297c218a6e15c95c107e0a0ccf94f69071b684e"
+    },
+    "cheng-2023": {
+      "file": "content/papers.json",
+      "sectionCount": 6,
+      "sectionsSha256": "4c7522a9a15f957009ad80d86d0133da9db79b92f56905eb4612e30c9b304b46",
+      "quizSha256": "40215db83f276ae29ee4d6f3f7ad4124363bbaead30149c5cfd857550d1adb45"
+    },
+    "cheng-2025": {
+      "file": "content/papers.json",
+      "sectionCount": 7,
+      "sectionsSha256": "f2694b9c0f1706d126eafac78373e71543d54677b1d02c147dd9083f32c5cb04",
+      "quizSha256": "298804568f3f7828a13c50189b0965d628d4d5590555b159a34fa735b8328490"
+    },
+    "xu-2024": {
+      "file": "content/papers.json",
+      "sectionCount": 6,
+      "sectionsSha256": "b2fb86c34cbcb02fbfc0f5abcf97ddff927ade0b6766a72e263babf753ca2e08",
+      "quizSha256": "7c518dc7a4985c170fd7dfd22edf701e3dcfd6731b05942b8fa42a0c3e65ffb0"
+    },
+    "xu-data-2024": {
+      "file": "content/papers.json",
+      "sectionCount": 5,
+      "sectionsSha256": "5d9335e6797d9b8d2a2c09170c1a653ab8d50fa31b453bdd00a79fd4e95141af",
+      "quizSha256": "9243fd245bc96dc022d9fbaf118e29226f3ac9a922d5f5d5e66db5d939b69993"
+    },
+    "farmdesign-2012": {
+      "file": "content/papers.json",
+      "sectionCount": 5,
+      "sectionsSha256": "5fb17d2c6bc6e2518b1b43051e1a530e33c6f4e3dc2366dbfc6f645fe57385cb",
+      "quizSha256": "35a93ff4df82f6e4add227d7cc59122da386f3a09883d21490338a0c3e1d7df6"
+    },
+    "landscape-2018": {
+      "file": "content/papers.json",
+      "sectionCount": 5,
+      "sectionsSha256": "44def3c6f414104f5c332b24fb6ba1e2f4ba6017498917e505a9565323904f15",
+      "quizSha256": "f5bf64788b42d9fe5ab7a68a74e35f5ae83a8c909ca1314af4e84c4f70241fb9"
+    },
+    "landscape-2007": {
+      "file": "content/papers.json",
+      "sectionCount": 3,
+      "sectionsSha256": "f2deb99295be26b817e4ee35624cdfffa958a0014d1d8e16f6ffaee0cb14282f",
+      "quizSha256": "f7338ef5fe65db0b1e708f5ac87d9f4d6de17197a6b102bbd5634c81274e8a4c"
+    },
+    "novotny-2024": {
+      "file": "content/papers.json",
+      "sectionCount": 4,
+      "sectionsSha256": "e337e0eda387b5a153331f9d6ec203e9f9b9bd23e8a1bb66b3b33c362d4015e7",
+      "quizSha256": "63bee5a0f68b5e6d66cb46d166383bbcc8984e376d5e0fe0d5d0804a0d762291"
+    },
+    "ditzler-2019": {
+      "file": "content/papers.json",
+      "sectionCount": 4,
+      "sectionsSha256": "6d9eaca8bf26b870d2b7349637f16f97a328a8455e6c93431af923e43a650629",
+      "quizSha256": "07eccb21e46c1419e2045bf8833cd6bb04a8f24b7914a0eceb94198fa20ac3bf"
+    },
+    "qu-2025": {
+      "file": "content/papers.json",
+      "sectionCount": 4,
+      "sectionsSha256": "e8df6cb4800c526b5a384d754053d9ab2047261f8fcd7defdb5c71141f9ed9ac",
+      "quizSha256": "9b1a16180381dc60f4aaa560ebff29b3cab9172106b2d0cc234d8e500e5c34ab"
+    },
+    "breure-2024": {
+      "file": "content/papers.json",
+      "sectionCount": 4,
+      "sectionsSha256": "e2075b448d44f31d27950189cb0d7d67bce2c8347c5dad339821f4c39ac6ade4",
+      "quizSha256": "319b678b88927d09c33baa103bd7e20e049417f1e88927609e43dde8871bbee9"
+    },
+    "toorop-2023": {
+      "file": "content/papers.json",
+      "sectionCount": 3,
+      "sectionsSha256": "f9735b236c1e1500e45effcffc35b2c8766c0ddd93c02527ab914bad9aa7eac2",
+      "quizSha256": "34841d5faab1cae6daa23b8cdb5600edcd5a55892e77f961943f94a229dc092e"
+    },
+    "mixed-2026": {
+      "file": "content/papers.json",
+      "sectionCount": 3,
+      "sectionsSha256": "ee8eb18a63710ab45481ea97d42efcfc04733541fdb49d0012aed5ab9831c5b1",
+      "quizSha256": "6656f0c45dbd10143aa3a2dc1fe4a626770788699f797b538e9fcb097ec8c790"
+    },
+    "verdouw-2021": {
+      "file": "content/papers.json",
+      "sectionCount": 3,
+      "sectionsSha256": "3eb530620759956807867e592569ae9bbdc149fe9514cad4eb47ff9a66a96553",
+      "quizSha256": "4912a03d4dc5b5652d9f20a0677def869ef0c0f48a110065ca9d6876377db3d8"
+    },
+    "liang-thesis": {
+      "file": "content/papers.json",
+      "sectionCount": 5,
+      "sectionsSha256": "4ee72dda4dfdce988edc0315f76e403f2ba52326acc177f8e6b73175a26f122d",
+      "quizSha256": "57e26e4c8f2208a72eb47bcd64bd1d3e29b1edfdee105ec61cb2b50b7bb4f06a"
+    },
+    "cheng-thesis": {
+      "file": "content/papers.json",
+      "sectionCount": 6,
+      "sectionsSha256": "9733b602edf08dcf840b9fa8f0a99a025c8992ecda20fb57878f01c2f33fae9d",
+      "quizSha256": "836b77a039e18c5d75d5ec033eab6ef9020d8a8890cef9b85af98566187220e7"
+    },
+    "xu-thesis": {
+      "file": "content/papers.json",
+      "sectionCount": 4,
+      "sectionsSha256": "be1ffaa30ad772c7cdaf87cbb518d2163548e5052bed29f52732d903b6e1ec7e",
+      "quizSha256": "f5fd040d6d1dd71ebc49823828d57f7234143bbf47fb0414f9a1f5a1105f3352"
+    },
+    "groot-2017": {
+      "file": "content/papers.json",
+      "sectionCount": 2,
+      "sectionsSha256": "079f0a00f1d1160b84b0a83f37d3121899a5527623836293333d027c4b578163",
+      "quizSha256": "5bafec9d11bf8eb39344b67c3bc4b6b9fa296ad07adfd1655d5899c7b114e057"
+    },
+    "cheng-2025-q-walkthrough": {
+      "file": "content/q-walkthrough-v556.json",
+      "sectionCount": 20,
+      "sectionsSha256": "0c95c545571c86441e3bd9d2fa0c25b00aad0ac8a2b6604a2bff53bac7ae2a56",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "cheng-2023-rda-walkthrough": {
+      "file": "content/rda-walkthrough-v555.json",
+      "sectionCount": 13,
+      "sectionsSha256": "991508d93f05957397916357f81fab6d0190f98fc97a3e35b56a4733b2f4b734",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "reading-proof-workflow": {
+      "file": "content/reading-proof-workflow.json",
+      "sectionCount": 7,
+      "sectionsSha256": "7d60c2c5ad66fa55dddbee9aedac41925ca71c12559bb934125a94deb61e98d2",
+      "quizSha256": "3ed483e5e0c2f5d8c7be2b47c0fa5f6b0e6a17eb88a1c301a3bb7fe78159599c"
+    },
+    "model-software": {
+      "file": "content/research-library-v55.json",
+      "sectionCount": 5,
+      "sectionsSha256": "ecdc00e6c3fe7982094279e5c9897339e25a841aef8d09669b49e97d11e3e7a7",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "reproduction-records": {
+      "file": "content/research-library-v55.json",
+      "sectionCount": 5,
+      "sectionsSha256": "9d4e7c933a45d44ea20e2986e69908f63f7e3bca4dcde661dd25daa84c8212c6",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "research-synthesis": {
+      "file": "content/research-library-v55.json",
+      "sectionCount": 7,
+      "sectionsSha256": "d0276ec0005ee51384097dc7a80160bd90e2bc2426b283a7d601873a70d50817",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "research-studio": {
+      "file": "content/research-planning-v53.json",
+      "sectionCount": 6,
+      "sectionsSha256": "70a4304ef7b7c3e986b1f2a06a384e6b0fa4981574558690a72358d2cff91b61",
+      "quizSha256": "a54b030809a80c356df564a3ee3699b4215e1e2f8c64695ac8323d432ad0f0a4"
+    },
+    "topic6-requirements": {
+      "file": "content/research-planning-v53.json",
+      "sectionCount": 5,
+      "sectionsSha256": "1c9113f792341e85de5d9caa699de9ddd7b72cfc5cdf0c3f7782fe0351c72715",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "research-directions": {
+      "file": "content/research-planning-v53.json",
+      "sectionCount": 5,
+      "sectionsSha256": "b8654bf6a007596c13de81ca457865d0a4d7ed55c11982f01d7f42551d0310a1",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "hainan-field-design": {
+      "file": "content/research-planning-v53.json",
+      "sectionCount": 6,
+      "sectionsSha256": "7ad540817bddd43afd61ef5684b36cb5f925feb804c50101aea111c75c3cffd6",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "indicator-selection": {
+      "file": "content/research-planning-v53.json",
+      "sectionCount": 5,
+      "sectionsSha256": "7c7dcb43d571a388064981007302f785affbbb361932edb8ead96a0422de1970",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "research-decisions": {
+      "file": "content/research-planning-v53.json",
+      "sectionCount": 6,
+      "sectionsSha256": "64890a12a6f84e782beb7c107e1be9edc6ddcccea155adde049f545d0bb1a6d8",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "research-feedback": {
+      "file": "content/research-planning-v53.json",
+      "sectionCount": 3,
+      "sectionsSha256": "fe3427c7f394c4943c9a41fbad8e0604c6c850e3317e9819eb5f956c8b59ad5c",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-library": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 5,
+      "sectionsSha256": "2b43e6b82eb182bbb8e8b4a6dac090e673fc24203ab7f655586173318d09cb7d",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-random": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "073e3b0c0bdc966e7e502a8fd5224613248850ab757beef328e457549f8cd8f2",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-stratified": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "f39f3c720e3f53139886c8f31322d5c6f87f44194476f0047e067d0973445c95",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-cluster": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "93b260811097c64364ea9267d0c6a6ae54f8f642d28e43a0b4a2046a48f4654b",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-pps": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "35b77619d6b40c9da972de66fa9e0dde527a1c07ad852972015f6d9abdf14207",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-phase": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "7c17c24381c12907152b0402de9ed5af9005a74e2a363bd6e3be7147b37c08ef",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-frames": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "ed6bcfbdb5062ebcc1f8d00664b9e7aec5c155b2091e13edea1a8d5a2411cb22",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-purposeful": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "fed89c187f6a71a9ea9882ca84e79c79ab0c0a4594cb3c54d3f76cc2eb29731a",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-nonprob": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "77f0b6b3f8f70d7cf49099c539d3635122c90625f036dda69488fb490df81b7a",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-spatial": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 5,
+      "sectionsSha256": "f509f87cd676dffc3734a27cbf0c3b846a6a298fae97693fdbc8b7434e9de500",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-panel": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "47cc73dc9f28061b3f61d1aefc61f0fa5670ed3b2b710d8edbc42bc34db528e6",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-nested": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "e61437e5dfbf7aafc119f3b4d2e55516e23831ecee61dd6a27466b49d5621fe3",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sampling-validation": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 4,
+      "sectionsSha256": "20ca0f0800eb811a9f8736abb609477094e610412f08c71d6a8aa0f3c874cc6d",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "sample-size-design": {
+      "file": "content/sampling-v53.json",
+      "sectionCount": 6,
+      "sectionsSha256": "4d1ccd7fdbe1e0be31745d79a247bf544b58c19f2858788682a7df34bd5159fb",
+      "quizSha256": "cc878830ece79a1757836f2714554b17750c609562764fab42e602eb5efd4941"
+    },
+    "session-2026-09-28": {
+      "file": "content/session-log.json",
+      "sectionCount": 3,
+      "sectionsSha256": "81c4d5c1f95324392fb7d3418c178779db0fd696cc0116237a670b8a5b72283e",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "reader-offline-update": {
+      "file": "content/session-log.json",
+      "sectionCount": 4,
+      "sectionsSha256": "079817d43fdae9afc2e84031384dd2c91c08b0ceebe94ad647d3c4536e534d3d",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "study-bilingual-framework-2026-09-28": {
+      "file": "content/session-log.json",
+      "sectionCount": 3,
+      "sectionsSha256": "8cd1a754318b3d370eaf10cf27ae81a4c47ed7dee46479f96bcd4da7e5b341ac",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "reader-workspace-20260928": {
+      "file": "content/session-log.json",
+      "sectionCount": 1,
+      "sectionsSha256": "58efaadb2447b4187946f71d5f5602ed43c566bda47962fc2a078e822deaa046",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "update-20260929-reader-v5": {
+      "file": "content/session-log.json",
+      "sectionCount": 4,
+      "sectionsSha256": "ab7fc93561b4c17285a64e0582be9c7fa9d56e4272403aba8e82d230a3331320",
+      "quizSha256": "93efbf523c6fd37142969adba04ace6ffa47ba0abc869ad4b9f1613f053f9a3f"
+    },
+    "release-510": {
+      "file": "content/session-log.json",
+      "sectionCount": 5,
+      "sectionsSha256": "2854d7940d595a250dc3294ea712bdeeb25f29a3106fc2e8503bc406154cba8c",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "study-dong-2026-09-30": {
+      "file": "content/session-log.json",
+      "sectionCount": 2,
+      "sectionsSha256": "d75e6ec769225dd31a68101a96929cd33a26f1af21d084f372c172288c91f194",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "study-2026-10-02-learning-usability": {
+      "file": "content/session-log.json",
+      "sectionCount": 4,
+      "sectionsSha256": "25a560b02a51f3a6b43cf776d3dc3f848cc23c4feaa1eda6ecc1823fe57a8693",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "study-2026-10-03-model-reasoning": {
+      "file": "content/session-log.json",
+      "sectionCount": 3,
+      "sectionsSha256": "7f41c677d000690b146742fd7c5c419356f45e07d74ab86d31e4f43abecf6c9d",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "research-2026-10-03-library": {
+      "file": "content/session-log.json",
+      "sectionCount": 2,
+      "sectionsSha256": "1282b1033046577616eb297e1630e1e5ffdacba498b33630151a6595a3e2455a",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "session-2026-10-03-farmsteps-evidence": {
+      "file": "content/session-log.json",
+      "sectionCount": 3,
+      "sectionsSha256": "2aaf30d9b1cce46a78d2353ad3f642b93e2fcb5f0de31743220e52878083c5ed",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "update-20261003-thesis-evidence-v552": {
+      "file": "content/session-log.json",
+      "sectionCount": 2,
+      "sectionsSha256": "0fd7ec9c58cf6fce37d90e9040f92bef547d4de261eb6d527f051d161db7a0af",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "research-exemplar-transfer-2026-10-04": {
+      "file": "content/session-log.json",
+      "sectionCount": 4,
+      "sectionsSha256": "cfb9ad048e4f8f547dd8600dc60007a29c44335cf764664458f04b3b6f512344",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "context-and-visual-research-2026-10-04": {
+      "file": "content/session-log.json",
+      "sectionCount": 3,
+      "sectionsSha256": "83b821dd360c3219c143fe07ac2ad16dc25669b9628f65a579fbb19690be0bde",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "rda-matrix-figure-v555-20261004": {
+      "file": "content/session-log.json",
+      "sectionCount": 3,
+      "sectionsSha256": "f6f1c36c127aee84555dbe6c5df3905356e473a711b441749a38209b6bbb7a86",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "q-factor-chain-v556-20261004": {
+      "file": "content/session-log.json",
+      "sectionCount": 3,
+      "sectionsSha256": "2a8de93c607c08a09ef1e83c7dfbb842a914813525bb2e80e664de01dafd3fde",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "cheng-landscape-evidence-2025": {
+      "file": "content/thesis-evidence-v552.json",
+      "sectionCount": 9,
+      "sectionsSha256": "d57478f08a3635a02397f2ff84074d072487ae23aba09ff5ff09ed3efa176349",
+      "quizSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "xu-chapter4": {
+      "file": "content/xu-thesis-chapter4.json",
+      "sectionCount": 7,
+      "sectionsSha256": "8eedfc7a724d003f6878550480b23e1a14805e7a917668104157edc82c6b4eec",
+      "quizSha256": "136ab2daf3557697b5aa7b2331a7595754cc1ddf42411ca5fc97c55d90ff34c7"
+    }
+  },
+  "catalogSha256": "1dffd666ef3c0dde1e2ff668a2f5a5f6430eb9e7b27cdfecf58dd49381346809"
+}
