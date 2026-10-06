@@ -35,7 +35,7 @@ def check(name, condition):
     print('PASS', name)
 
 
-def boot(browser, *, color_scheme='light', width=1100, file_mode=False, theme=None):
+def boot(browser, *, color_scheme='light', width=1100, file_mode=False, theme=None, clocked=True):
     context = browser.new_context(viewport={'width': width, 'height': 900},
                                   color_scheme=color_scheme, reduced_motion='reduce',
                                   accept_downloads=True)
@@ -52,7 +52,8 @@ def boot(browser, *, color_scheme='light', width=1100, file_mode=False, theme=No
             route.abort()
 
     page.route('**/*', serve)
-    page.clock.install()
+    if clocked:
+        page.clock.install()
     if file_mode:
         fixture = OUT / 'annual-single-file-fixture.html'
         fixture.write_text(HTML)
@@ -300,7 +301,9 @@ with sync_playwright() as playwright:
         check('detachment cleanup releases active panel guard',not page.evaluate('PaperAnnualBalance.isBusy()'))
         context.close()
         for scheme in ['light','dark']:
-            context,page=boot(browser,color_scheme=scheme)
+            # Native scrolling is a browser effect, not a JavaScript timer.
+            # Keep a real clock and await the same observable scroll condition.
+            context,page=boot(browser,color_scheme=scheme,clocked=False)
             for selector in ['.annual-status','.annual-boundary','.annual-scroll-hint','.annual-steps [aria-current="step"]','.annual-caveat']:
                 check(f'{scheme} readable text contrast: {selector}',contrast(page,selector)>=4.5)
             check(f'{scheme} diagram labels remain separated',not figure_text_problems(page))
@@ -314,7 +317,7 @@ with sync_playwright() as playwright:
                 page.locator('.annual-chart-scroll').evaluate('el=>{el.scrollLeft=0}')
                 page.locator('.annual-chart-scroll').focus()
                 page.locator('.annual-chart-scroll').press('ArrowRight')
-                page.clock.run_for(500)
+                page.wait_for_function('document.querySelector(".annual-chart-scroll").scrollLeft>0',timeout=2000)
                 check(f'{scheme} {width}px chart keyboard scroll stays local',
                       page.locator('.annual-chart-scroll').evaluate('el=>el.scrollLeft>0')
                       and state(page)['step']==5 and no_overflow(page))
@@ -348,7 +351,15 @@ with sync_playwright() as playwright:
             page=pages[-1]
             try:
                 page.screenshot(path=str(OUT/'last-failure.png'),full_page=True)
-                diagnostic=page.evaluate('({url:location.href,state:window.annualController?.getState(),ledgerOpen:document.querySelector(".annual-ledger")?.open,width:innerWidth,scrollWidth:document.documentElement.scrollWidth})')
+                diagnostic=page.evaluate('''()=>{
+                  const scroller=document.querySelector('.annual-chart-scroll');
+                  return {url:location.href,state:window.annualController?.getState(),
+                    ledgerOpen:document.querySelector('.annual-ledger')?.open,
+                    width:innerWidth,scrollWidth:document.documentElement.scrollWidth,
+                    focus:document.activeElement?.className,
+                    chart:scroller?{scrollLeft:scroller.scrollLeft,clientWidth:scroller.clientWidth,
+                      scrollWidth:scroller.scrollWidth,overflowX:getComputedStyle(scroller).overflowX}:null};
+                }''')
             except Exception as capture_error:
                 diagnostic={'capture_error':str(capture_error)}
         (OUT / 'browser-result.json').write_text(json.dumps({
