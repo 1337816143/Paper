@@ -6,6 +6,7 @@
 - 断点保留以**完整且已通过SHA-256核验的文件**为单位；一个大文件中途断开会重新下载该文件，不宣称字节级HTTP续传
 - 空间不足、网络断开、错误200响应或任何hash失败都不能显示完整；失败详情列出资源与原因，释放空间/联网后继续重试
 - 容量估计由浏览器提供且同来源共享配额，不是保证；旧版与已验证资源保留，代码不自动删缓存、不改私人数据库、不碰其它路径站点
+- 网站自有下载链接先读取本站清单与资源，核验bytes/SHA后用Blob交给浏览器保存，避免原生下载导航的断网限制；清单控制文件使用已安装SW的pin核对，不自称自摘要独立验证。Blob/data笔记导出、站外及其他路径下载不接管。页面“已交给浏览器”不等于系统已保存，请检查下载列表
 - 汇报前点“完整校验离线状态”，再关闭网络，刷新网站，重新打开浏览器，进入从未看过的正文/原图/工具，试下载ZIP。浏览器或系统仍可能清理缓存，不承诺永久保存；请同时保留下载备份
 - 独立备份：下载基础ZIP和全部原文/翻译卷，全部解压到同一目录，运行 `python -m http.server 8000` 后打开 `http://localhost:8000`。ZIP有独立的解压后清单；为了避免无限自包含，解压目录不再递归包含那些ZIP本身。轻量HTML只包含带读和示例，不能替代完整原件/模型包
 
@@ -23,6 +24,7 @@
 python scripts/build.py --source-commit="$GITHUB_SHA"
 node tests/offline/sw_runtime.cjs
 node tests/offline/ui_contract.cjs
+node tests/offline/downloads.cjs
 python tests/offline/test_manifest.py
 # 先运行所有既有CI测试并复制7份公开报告，再执行：
 python scripts/seal_site.py --audit test-results/offline-deployment-exact-tree.json

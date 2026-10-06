@@ -8,7 +8,9 @@ class ManifestTests(unittest.TestCase):
  def test_final_tree_and_downloads(self):
   out=ROOT/'dist/site';report=check(out);m=json.loads((out/'offline-manifest.json').read_text())
   paths={r['url'] for r in m['resources']}
-  self.assertIn('./data.json',paths);self.assertIn('./.nojekyll',paths)
+  self.assertIn('./data.json',paths);self.assertIn('./.nojekyll',paths);self.assertIn('./offline-downloads.js',paths)
+  self.assertIn('offline-downloads.js',(out/'index.html').read_text());self.assertIn('../offline-downloads.js',(out/'downloads/index.html').read_text())
+  self.assertIn('verified-fetch-to-blob',(out/'downloads/Paper-Lab-offline.html').read_text())
   self.assertEqual({p.relative_to(out).as_posix() for p in out.rglob('*.zip')},{p[2:] for p in paths if p.endswith('.zip')})
   self.assertGreaterEqual(len(json.loads((out/'data.json').read_text())['documents']),123)
   for p in out.glob('*-validation.json'):self.assertIn('./'+p.name,paths)
@@ -22,6 +24,8 @@ class ManifestTests(unittest.TestCase):
      self.assertNotIn(n,members,'Duplicate archive member');members[n]=p
   with zipfile.ZipFile(out/'downloads/Paper-Lab-offline.zip') as z:
    raw=z.read('offline-manifest.json');m=json.loads(raw);sw=z.read('sw.js')
+  self.assertIn('offline-downloads.js',members)
+  with zipfile.ZipFile(out/'downloads/Paper-Lab-offline.zip') as z:self.assertIn('../offline-downloads.js',z.read('downloads/index.html').decode())
   self.assertEqual(m['mode'],'portable-extracted');self.assertEqual(PIN.search(sw).group(1).decode(),sha(raw))
   self.assertEqual(sha(canonical_worker(sw)),m['controls'][0]['canonicalSha256'])
   self.assertFalse(any(r['url'].endswith('.zip') for r in m['resources']))
