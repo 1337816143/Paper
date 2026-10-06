@@ -89,9 +89,12 @@
     function rawControls() {
       return Object.fromEntries(Object.keys(model.defaults).map(name => [name, name === 'replaceRetained' ? q('[data-annual-field="' + name + '"]').checked : q('[data-annual-field="' + name + '"]').value]));
     }
+    function captureSnapshot() {
+      snapshots.set(historyKey, {hash: mountedHash, inputs: {...inputs}, raw: rawControls(), step, ledgerOpen: q('.annual-ledger').open});
+    }
     function remember() {
       if (!mounted || (global.location?.hash || '') !== mountedHash) return;
-      snapshots.set(historyKey, {hash: mountedHash, inputs: {...inputs}, raw: rawControls(), step, ledgerOpen: q('.annual-ledger').open});
+      captureSnapshot();
       // Only an opaque entry key is placed in existing history state. No inputs,
       // notes or private data are put in web storage or sent anywhere.
       if (global.history?.replaceState) global.history.replaceState({...global.history.state, paperAnnualEntry: historyKey}, '', global.location.href);
@@ -279,6 +282,9 @@
     }
     function destroy() {
       if (!mounted) return;
+      // Native <details> toggle can still be queued when navigation removes us.
+      // Save the departing panel's actual state without changing the new entry.
+      captureSnapshot();
       mounted = false;
       for (const [name, handler] of [['click', click], ['input', change], ['change', change], ['keydown', keydown]]) panel.removeEventListener(name, handler);
       panel.removeEventListener('toggle', remember, true);

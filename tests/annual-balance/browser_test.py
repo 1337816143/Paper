@@ -348,7 +348,7 @@ with sync_playwright() as playwright:
             page=pages[-1]
             try:
                 page.screenshot(path=str(OUT/'last-failure.png'),full_page=True)
-                diagnostic=page.evaluate('({url:location.href,state:window.annualController?.getState(),width:innerWidth,scrollWidth:document.documentElement.scrollWidth})')
+                diagnostic=page.evaluate('({url:location.href,state:window.annualController?.getState(),ledgerOpen:document.querySelector(".annual-ledger")?.open,width:innerWidth,scrollWidth:document.documentElement.scrollWidth})')
             except Exception as capture_error:
                 diagnostic={'capture_error':str(capture_error)}
         (OUT / 'browser-result.json').write_text(json.dumps({

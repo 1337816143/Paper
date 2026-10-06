@@ -2,6 +2,19 @@
 const assert=require('node:assert/strict'),{env,Node}=require('./dom-harness.cjs');
 let passed=0;
 function test(name,fn){fn();passed++;console.log('PASS DOM-simulated',name);}
+test('departure captures an opened ledger even before its queued toggle event',()=>{
+ const e=env();e.click('[data-annual-stage="5"]');e.click('[data-annual-scenario="replace"]');
+ const priorHash=e.win.location.hash,priorState={...e.win.history.state};
+ e.q('.annual-ledger').open=true; // No toggle callback has run yet.
+ e.win.location.hash='#/original/farmdesign-2012';e.win.history.state={originalReader:true};
+ e.win.dispatch('hashchange');
+ assert.deepEqual(e.win.history.state,{originalReader:true});
+ e.win.location.hash=priorHash;e.win.history.state=priorState;
+ const returned=e.api.mount(e.container);
+ assert.equal(returned.getState().inputs.replaceRetained,true);
+ assert.equal(returned.getState().step,5);
+ assert.equal(e.container.querySelector('.annual-ledger').open,true);
+});
 test('old history keys cannot alias another entry after a document reload',()=>{
  const old=env();old.input('herd',12);const oldState={...old.win.history.state};
  const fresh=env();fresh.input('herd',4);
