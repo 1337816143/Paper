@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+"""Source, original-anchor and packaging contracts for the annual balance lesson."""
+from pathlib import Path
+import hashlib
+import json
+import re
+import tempfile
+import unittest
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def read(path):
+    return json.loads((ROOT / path).read_text())
+
+
+def digest(value):
+    return hashlib.sha256(json.dumps(value, ensure_ascii=False, separators=(',', ':')).encode()).hexdigest()
+
+
+class Sources(unittest.TestCase):
+    def test_published_prose_and_source_catalog_unchanged(self):
+        baseline = read('tests/annual-balance/source-baseline.json')
+        self.assertEqual(baseline['sourceCommit'], '1345e9c27f1b0a6d92efb8730be94e055547ee05')
+        self.assertEqual(len(baseline['documents']), 120)
+        for identity, old in baseline['documents'].items():
+            document = next(d for d in read(old['file']) if d['id'] == identity)
+            self.assertEqual(len(document['sections']), old['sectionCount'], identity)
+            self.assertEqual(digest(document['sections']), old['sectionsSha256'], identity)
+            self.assertEqual(digest(document.get('quiz', [])), old['quizSha256'], identity)
+        self.assertEqual(hashlib.sha256((ROOT/'resources/catalog.json').read_bytes()).hexdigest(), baseline['catalogSha256'])
+
+    def test_new_guides_separate_sources_and_teaching(self):
+        docs = read('content/wholefarm-balance-v557.json')
+        self.assertEqual([x['sourceId'] for x in docs], ['farmdesign-2012', 'qu-2025'])
+        self.assertEqual(sum(len(x['sections']) for x in docs), 34)
+        for d in docs:
+            self.assertEqual(d['quiz'], [])
+            for s in d['sections']:
+                self.assertEqual(len(s), 4)
+                self.assertTrue(s[3])
+        text = json.dumps(docs, ensure_ascii=False)
+        for fact in ['9–9.5ha','9–45ha','62头','56.2 LU','M1和M4','15–28kg','3000h','4000h','Table 3','0.25','160欧元','8页参数附录']:
+            self.assertTrue(fact in text, "Missing source boundary: " + fact)
+        self.assertNotIn('本轮没有取得', docs[0]['sections'][2][2])
+        self.assertNotIn('全场全场', text)
+        self.assertTrue(all('合成' in json.dumps(d,ensure_ascii=False) for d in docs))
+
+    def test_input_csv_and_python_are_self_contained(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('annual_balance',ROOT/'examples/annual_balance.py')
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        value=module.read_input(str(ROOT/'examples/annual_balance_synthetic.csv'))
+        self.assertEqual(value,module.DEFAULTS)
+        self.assertEqual(module.calculate(value)['farmSurplus'],720)
+        self.assertNotRegex((ROOT/'examples/annual_balance.py').read_text(),r'\b(?:numpy|pandas|requests)\b')
+        with tempfile.TemporaryDirectory() as directory:
+            path=Path(directory)/'malformed.csv'
+            for row in ['8,6,0.2,false,99','8,6','8,6,0.2']:
+                path.write_text('herd,forageArea,lossFraction,replaceRetained\n'+row+'\n')
+                with self.assertRaisesRegex(ValueError,'exactly four columns'):
+                    module.read_input(str(path))
+
+    def test_built_assets_examples_and_standalone(self):
+        out=ROOT/'dist/site'
+        for name in ['annual-balance-model.js','annual-balance-walkthrough.js','annual-balance-walkthrough.css']:
+            self.assertEqual((out/name).read_bytes(),(ROOT/'src'/name).read_bytes())
+        for name in ['annual_balance.py','annual_balance_synthetic.csv','annual_balance_readme.md','annual_balance_sources.json']:
+            self.assertEqual((out/'examples'/name).read_bytes(),(ROOT/'examples'/name).read_bytes())
+        release=json.loads((out/'release.json').read_text())
+        self.assertEqual(release['appVersion'],read('resources/application-release.json')['version'])
+        self.assertEqual(release['annualBalance']['inputConfigurations'],4410)
+        self.assertFalse(release['annualBalance']['agronomicResponseValidated'])
+        self.assertFalse(release['annualBalance']['sourceDataReproduced'])
+        self.assertEqual(release['paperEntries'],22)
+        single=(out/'downloads/Paper-Lab-offline.html').read_text()
+        self.assertIn('PaperAnnualBalanceModel',single)
+        self.assertIn('PaperAnnualBalance',single)
+        self.assertNotIn('<script src="annual-balance',single)
+        self.assertNotIn('<link rel="stylesheet" href="annual-balance',single)
+        for id in ['farmdesign-2012','qu-2025','whole-farm','nutrients']:
+            self.assertIn('annual-balance-link',(out/'read'/f'{id}.html').read_text())
+
+
+if __name__=='__main__':
+    unittest.main()

@@ -1,0 +1,402 @@
+{
+  "schema": "paper.annual-balance.sources.v1",
+  "version": "5.5.7",
+  "reviewedDate": "2026-10-05",
+  "sources": [
+    {
+      "id": "farmdesign-2012",
+      "doi": "10.1016/j.agsy.2012.03.012",
+      "url": "https://doi.org/10.1016/j.agsy.2012.03.012",
+      "scope": "15-page published main text, printed pages63–77; original parameter supplement,8pages",
+      "supplementURL": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X12000558-mmc1.docx",
+      "supplementTitle": "Appendix I. Parameters characterizing the farm components",
+      "supplementNamingNote": "Main text calls the online supplement Appendix A; appendix pages use I.1–I.9 table identifiers.",
+      "softwareReplicated": false,
+      "unresolved": [
+        "Eq8 DMD semantic ambiguity",
+        "Eq22 subsidy sign",
+        "Main-text labour5696−4000 differs from reported1698",
+        "Main-text OM2563−2782 differs from reported−189",
+        "Appendix family labour3000 differs from main-text4000",
+        "Original executable and exact input version unavailable"
+      ]
+    },
+    {
+      "id": "qu-2025",
+      "doi": "10.1016/j.agsy.2024.104170",
+      "url": "https://doi.org/10.1016/j.agsy.2024.104170",
+      "publishedMainTextURL": "https://edepot.wur.nl/677886",
+      "scope": "11-page main text,4figures and3tables",
+      "softwareReplicated": false,
+      "unresolved": [
+        "Abstract9.6ha versus Methods9.5ha",
+        "Scenario B herd baseline56.2LU versus Table3 upper bound57LU",
+        "Author data and executable version not acquired"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s0",
+      "title": "先知道作者要帮谁作什么决定",
+      "evidenceLabel": "原文研究问题",
+      "sourceLocation": "§1–2，pp.63–64；§3，pp.70–72",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s1",
+      "title": "一年、面积、存量与流量分别是什么",
+      "evidenceLabel": "概念和单位",
+      "sourceLocation": "§2.2，p.64；单位解释为本站教学",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s2",
+      "title": "输入数据库为何不只是一张产量表",
+      "evidenceLabel": "原文数据结构",
+      "sourceLocation": "§2.1，p.64；参数附录Appendix I，pp.1–8",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s3",
+      "title": "参数表的颜色在说明数据从哪里来",
+      "evidenceLabel": "附录来源带读",
+      "sourceLocation": "参数附录p1来源图例与Tables I.1–I.3；本站原创数据组织说明",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s4",
+      "title": "鲜重、干物质、N含量与价格怎样串起来",
+      "evidenceLabel": "独立单位换算例",
+      "sourceLocation": "参数附录Table I.5a，p3；全部代入数值为本站合成",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s5",
+      "title": "产品用途、季节比例和粪肥参数分别控制什么",
+      "evidenceLabel": "附录字段到过程",
+      "sourceLocation": "参数附录Tables I.4–I.9，pp.2–8；FOG定义为Table I.5a p3",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s6",
+      "title": "已经取得附录，为何还不能宣称原样复现",
+      "evidenceLabel": "原文一致性与缺口",
+      "sourceLocation": "参数附录Table I.2 p1；主文§4 p70、Table3 p73、Eq.8 p67与Eq.22 p68；独立算术检查，非作者勘误",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s7",
+      "title": "目标产量是输入，需求与收支是计算结果",
+      "evidenceLabel": "最关键的方法边界",
+      "sourceLocation": "§2.2，pp.64–65",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s8",
+      "title": "参数、决策、约束和结果怎么分",
+      "evidenceLabel": "从对象到变量",
+      "sourceLocation": "§2.3.1，Eqs.32–34，pp.68–69；Tables 1–2，pp.71–72",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s9",
+      "title": "先沿一条饲料流算到底",
+      "evidenceLabel": "同一合成农场的数值代入",
+      "sourceLocation": "原创合成例；不使用原作者农场参数",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s10",
+      "title": "原模型的饲料检查比干物质相加更细",
+      "evidenceLabel": "原方法与示例差距",
+      "sourceLocation": "§2.2.2，pp.65–66；Table 2，p.72",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s11",
+      "title": "同一份氮在内部传递，为什么不能重复增加全场输入",
+      "evidenceLabel": "守恒与边界",
+      "sourceLocation": "原文Fig.1–2、§2.2.5；本段代入为自编守恒例",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s12",
+      "title": "劳动平衡的正号为何代表缺人",
+      "evidenceLabel": "原文定义与独立算例",
+      "sourceLocation": "§2.2.6，Eqs.18–19，p.68；1200/1000为独立教学输入",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s13",
+      "title": "毛利、营业利润与家庭收入不能换着叫",
+      "evidenceLabel": "经济边界",
+      "sourceLocation": "§2.2.7，Eqs.20–31，p.68；§4，p.70",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s14",
+      "title": "有机质与土壤氮损失是不同账本",
+      "evidenceLabel": "原文计算对象",
+      "sourceLocation": "§2.2.3–2.2.5，Eqs.1–17，pp.66–67；Fig.2，p.66",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s15",
+      "title": "约束决定搜索可以走到哪里",
+      "evidenceLabel": "原文约束",
+      "sourceLocation": "§3.2与Table 2，pp.71–72",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s16",
+      "title": "一次差分进化到底改了什么",
+      "evidenceLabel": "原公式与数值代入",
+      "sourceLocation": "§2.3.2，Eq.35及F/CR/M/G设置，p.69；6/2/4及r为合成数字",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s17",
+      "title": "四个目标、rank 0和二维图怎样同时看",
+      "evidenceLabel": "图形阅读",
+      "sourceLocation": "§2.3.3，Fig.3，p.69；§3.2，p.70；Figs.4–5，pp.74–75",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s18",
+      "title": "Table 3每一列为何不能拼成一座万能农场",
+      "evidenceLabel": "原表数值带读",
+      "sourceLocation": "Table 3，p.73；§5.1，pp.72–74；本站独立核表与减法",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "farmdesign-2012-balance-walkthrough",
+      "section": "s19",
+      "title": "模型、搜索和实施分别还缺什么证据",
+      "evidenceLabel": "验证与海南研究连接",
+      "sourceLocation": "§5.2–5.3，pp.74–76；研究迁移为本站分析建议",
+      "canonicalSource": "farmdesign-2012",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s0",
+      "title": "这篇在FarmDESIGN基础上新问了什么",
+      "evidenceLabel": "研究问题",
+      "sourceLocation": "§1–2，pp.1–4",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s1",
+      "title": "三个起点不能混成一个对照",
+      "evidenceLabel": "原案例与基线",
+      "sourceLocation": "§2.1与Table 1，p.3；§2.5与Table 3，p.5；摘要p.1",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s2",
+      "title": "两个模型如何交接同一份物料",
+      "evidenceLabel": "输入、处理与回传",
+      "sourceLocation": "§2.2，p.4；结构示意为本站解释",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s3",
+      "title": "M1到M4具体改变什么",
+      "evidenceLabel": "原文管理链",
+      "sourceLocation": "§2.3与Table 2，p.4；§4，p.9",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s4",
+      "title": "A和B的变量与目标各是什么",
+      "evidenceLabel": "原文完整目标集合",
+      "sourceLocation": "§2.4，pp.4–5；Table 3，p.5",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s5",
+      "title": "先讲清每个环境指标在数什么",
+      "evidenceLabel": "单位与分子分母",
+      "sourceLocation": "§2.4，pp.4–5",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s6",
+      "title": "把合成农场的粪链损失先算出来",
+      "evidenceLabel": "连续算例第一步",
+      "sourceLocation": "完全合成的年度守恒示例；原文机制参见§2.2与§3.2",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s7",
+      "title": "只提高保留率，全场为何没有少损",
+      "evidenceLabel": "连续算例第二步",
+      "sourceLocation": "自编算例；与作者§3.2的污染转移机制相连，不是其46–58%结果的复算",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s8",
+      "title": "减少外部投入后，为什么还要追问产量",
+      "evidenceLabel": "连续算例第三步",
+      "sourceLocation": "教学计算；不构成施肥处方或作者情景复现",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s9",
+      "title": "改牛数或面积时，零值与盈余如何处理",
+      "evidenceLabel": "交互模型边界",
+      "sourceLocation": "本站交互约定；作者模型约束另见Table 3",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s10",
+      "title": "Fig.1与Fig.2先问损失发生在哪个边界",
+      "evidenceLabel": "原图带读",
+      "sourceLocation": "Fig.1，p.5；§3.2与Fig.2，p.6",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s11",
+      "title": "Fig.3与Fig.4不是时间演变图",
+      "evidenceLabel": "多目标与配置解释",
+      "sourceLocation": "Figs.3–4，pp.7–8；配置解释§3.4，pp.8–9",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s12",
+      "title": "怎样运行示例，什么才算复现",
+      "evidenceLabel": "代码与输出边界",
+      "sourceLocation": "§2.6，p.5；Data availability；本站代码另行标注为教学实现",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    },
+    {
+      "guide": "qu-2025-chain-walkthrough",
+      "section": "s13",
+      "title": "海南迁移要补的下一层证据",
+      "evidenceLabel": "研究建议",
+      "sourceLocation": "§4，p.9；跨论文联系为本站原创综合",
+      "canonicalSource": "qu-2025",
+      "explanation": "Original explanatory paraphrase or explicitly labelled teaching calculation; not a verbatim transcription."
+    }
+  ],
+  "syntheticExamples": [
+    {
+      "id": "annual-10ha",
+      "inputsFile": "annual_balance_synthetic.csv",
+      "script": "annual_balance.py",
+      "areaHa": 10,
+      "authorParametersUsed": false,
+      "explicitZeros": [
+        "feed waste",
+        "fixation",
+        "bedding",
+        "manure imports",
+        "stock accumulation"
+      ],
+      "outcomeScope": "Annual conservation under prescribed production; no agronomic or environmental-loss calibration."
+    },
+    {
+      "id": "product-unit-1ha",
+      "separateFromAnnualModel": true,
+      "freshKg": 20000,
+      "dryMatterFraction": 0.25,
+      "dryKg": 5000,
+      "nitrogenFractionOfDryMatter": 0.02,
+      "totalKgN": 100,
+      "fedDryKg": 4000,
+      "exportedDryKg": 1000,
+      "exportedFreshKg": 4000,
+      "syntheticPriceEURPerFreshKg": 0.04,
+      "salesEUR": 160,
+      "nonGrazingFraction": 0.7,
+      "nonGrazingDryKg": 2800,
+      "grazingDryKg": 1200
+    },
+    {
+      "id": "one-DE-coordinate",
+      "authorFormula": "Groot2012 Eq35, printedp69",
+      "syntheticCoordinates": {
+        "c1": 6,
+        "c2": 2,
+        "c3": 4,
+        "r": 0.2
+      },
+      "authorCaseParameters": {
+        "F": 0.15,
+        "CR": 0.85
+      },
+      "trialCoordinate": 4.6,
+      "fullOptimizerImplemented": false
+    }
+  ],
+  "validationBoundaries": {
+    "numericParityIsAgronomicValidation": false,
+    "authorResultsReproduced": false,
+    "realUserNotesReadOrRestored": false,
+    "websiteOldParagraphsAndAnchorsMustBePreserved": true
+  }
+}

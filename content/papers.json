@@ -638,7 +638,7 @@
     "en": "Multi-objective optimization and design of farming systems",
     "citation": "Groot, J. C. J., Oomen, G. J. M., & Rossing, W. A. H. (2012). Agricultural Systems, 110, 63–77.",
     "url": "https://doi.org/10.1016/j.agsy.2012.03.012",
-    "evidence": "用户提供的原始论文正文；年度模型结构与限制已核对",
+    "evidence": "主文15页与8页原始参数附录已核读；模型结构、图表和字段来源已对照。原可执行软件与精确输入版本未取得，主文/附录差异见新增全过程带读。",
     "minutes": 65,
     "tags": [
       "FarmDESIGN",
@@ -699,7 +699,8 @@
       "pareto",
       "validation",
       "ditzler-2019",
-      "qu-2025"
+      "qu-2025",
+      "farmdesign-2012-balance-walkthrough"
     ]
   },
   {
@@ -947,7 +948,7 @@
     "en": "Improved manure management moves trade-off and synergy relationships among environmental indicators in desirable directions",
     "citation": "Qu, Q., Groot, J. C. J., & Zhang, K. (2025). Agricultural Systems, 222, 104170.",
     "url": "https://doi.org/10.1016/j.agsy.2024.104170",
-    "evidence": "摘要与Methods含FarmM3、粪肥链和情景设置已核读；未复算全部结果",
+    "evidence": "11页主文、Figs.1–4与Tables1–3已核读；修改基线、A/B目标与约束已对照。未取得作者原始数据和可执行模型，未复现其优化结果。",
     "minutes": 40,
     "tags": [
       "FarmM3",
@@ -992,7 +993,8 @@
       "farmdesign-2012",
       "nutrients",
       "pareto",
-      "validation"
+      "validation",
+      "qu-2025-chain-walkthrough"
     ]
   },
   {

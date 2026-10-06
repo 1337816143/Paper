@@ -26,7 +26,7 @@ jobs:
       - name: Build and check teaching algorithms and source archive
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
-          for file in app reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough; do node --check "src/$file.js"; done
+          for file in app reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough; do node --check "src/$file.js"; done
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
           python examples/paper_minilab.py --test
@@ -51,6 +51,11 @@ jobs:
           python tests/q/math_checks.py
           node tests/q/dom.test.cjs
           python scripts/test_q_sources.py
+          python examples/annual_balance.py --test
+          python tests/annual-balance/parity.py
+          node tests/annual-balance/math.test.cjs
+          node tests/annual-balance/dom.test.cjs
+          python scripts/test_annual_balance_sources.py
       - uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.4.3'
@@ -84,6 +89,10 @@ jobs:
         run: |
           python tests/q/browser_test.py
           python scripts/test_q_walkthrough.py
+      - name: Test annual balances, actual downloads, history, old notes and offline
+        run: |
+          python tests/annual-balance/browser_test.py
+          python scripts/test_annual_balance_integration.py
       - name: Test original reading, annotations and full offline
         run: python scripts/test_reader.py
       - name: Test framework, terminology, equations and actual offline translation
@@ -118,6 +127,15 @@ jobs:
           name: paper-site-and-tests
           path: test-results
           retention-days: 30
+      - name: Save bounded annual-balance acceptance evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-annual-acceptance
+          path: |
+            test-results/annual-balance
+            test-results/annual-*
+          retention-days: 30
       - name: Upload GitHub Pages artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
@@ -145,13 +163,13 @@ jobs:
           set -euo pipefail
           verified=false
           for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.6'; assert d['qWalkthrough']['syntheticStatements']==20; assert d['qWalkthrough']['syntheticPeople']==10; assert d['qWalkthrough']['scenarios']==2; assert not d['qWalkthrough']['authorResultsReproduced']; assert not d['qWalkthrough']['authorScalingVerified']; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==12; assert d['contextualExplanations']['paperPages']==4; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.7'; assert d['annualBalance']['inputConfigurations']==4410; assert not d['annualBalance']['sourceDataReproduced']; assert not d['annualBalance']['agronomicResponseValidated']; assert d['qWalkthrough']['syntheticStatements']==20; assert d['qWalkthrough']['syntheticPeople']==10; assert d['qWalkthrough']['scenarios']==2; assert not d['qWalkthrough']['authorResultsReproduced']; assert not d['qWalkthrough']['authorScalingVerified']; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==12; assert d['contextualExplanations']['paperPages']==4; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
               verified=true; break
             fi
             sleep 5
           done
           test "$verified" = true
-          for name in study-data workspace sync release research personal contracts context-notes-data context-notes research-walkthrough rda-walkthrough-data rda-model rda-walkthrough q-walkthrough-data q-walkthrough; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
+          for name in study-data workspace sync release research personal contracts context-notes-data context-notes research-walkthrough rda-walkthrough-data rda-model rda-walkthrough q-walkthrough-data q-walkthrough annual-balance-model annual-balance-walkthrough; do curl --fail --silent --show-error "${PAGE_URL%/}/$name.js" -o "live-$name.js"; done
           curl --fail --silent --show-error "${PAGE_URL%/}/comfort.css" -o live-comfort.css
           curl --fail --silent --show-error "${PAGE_URL%/}/read/xu-chapter4.html" -o live-xu-chapter4.html
           curl --fail --silent --show-error "${PAGE_URL%/}/read/research-framework.html" -o live-framework.html
@@ -172,7 +190,7 @@ jobs:
           python live-minilab.py --test
           grep -q 'window.PaperContext' live-context-notes.js
           grep -q 'liang23-eleven' live-context-notes-data.js
-          for name in context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough; do
+          for name in context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough; do
             curl --fail --silent --show-error "https://raw.githubusercontent.com/1337816143/Paper/$GITHUB_SHA/src/$name.js" -o "expected-$name.js"
             cmp "live-$name.js" "expected-$name.js"
           done
@@ -198,6 +216,14 @@ jobs:
           assert.deepEqual(baseline.flagged_counts,[5,4]);
           assert.deepEqual(baseline.factor_arrays,reversed.factor_arrays);
           assert.ok(reversed.weights[2][0]<0);
+          const annual = require('./live-annual-balance-model.js');
+          const a0 = annual.calculate(annual.defaults);
+          const a1 = annual.calculate({...annual.defaults, lossFraction: 0.1});
+          const a2 = annual.calculate({...annual.defaults, lossFraction: 0.1, replaceRetained: true});
+          assert.deepEqual([a0.chainLoss,a0.soilResidual,a0.farmSurplus],[168,552,720]);
+          assert.deepEqual([a1.chainLoss,a1.soilResidual,a1.farmSurplus],[84,636,720]);
+          assert.deepEqual([a2.mineralNitrogen,a2.chainLoss,a2.soilResidual,a2.farmSurplus],[836,84,552,636]);
+          assert.equal(typeof annual.calculate,'function');
           console.log('Served walkthroughs match their commit and preserve verified synthetic results');
           JS
           curl --fail --silent --show-error "${PAGE_URL%/}/examples/farm_walkthrough.py?verify=$GITHUB_SHA" -o live-farm-walkthrough.py
@@ -214,6 +240,13 @@ jobs:
           python -c "import hashlib; assert hashlib.sha256(open('live-q-synthetic.csv','rb').read()).hexdigest()=='4d7edb10053a7695a7cbe5da15d4c12f4fd68d48f0622f38ca3543c829f9c88b'"
           curl --fail --silent --show-error "${PAGE_URL%/}/read/cheng-2025-q-walkthrough.html?verify=$GITHUB_SHA" -o live-q-guide.html
           grep -q "Farmer_1" live-q-guide.html
+          curl --fail --silent --show-error "${PAGE_URL%/}/examples/annual_balance.py?verify=$GITHUB_SHA" -o live-annual-balance.py
+          curl --fail --silent --show-error "${PAGE_URL%/}/examples/annual_balance_synthetic.csv?verify=$GITHUB_SHA" -o annual_balance_synthetic.csv
+          python live-annual-balance.py --test
+          python live-annual-balance.py --input annual_balance_synthetic.csv --json > live-annual-default.json
+          python -c "import json; d=json.load(open('live-annual-default.json')); assert d['farmSurplus']==720 and d['soilResidual']==552"
+          curl --fail --silent --show-error "${PAGE_URL%/}/read/farmdesign-2012-balance-walkthrough.html?verify=$GITHUB_SHA" -o live-annual-guide.html
+          grep -q 'Appendix I' live-annual-guide.html
       - uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification

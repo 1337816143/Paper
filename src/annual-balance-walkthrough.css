@@ -1,0 +1,95 @@
+/* All styling belongs to the synthetic panel; no source/note/progress selectors. */
+section.annual-walkthrough{--annual-paper:var(--paper,#fffefa);--annual-ink:var(--ink,#24362f);--annual-muted:var(--muted,#52665b);--annual-line:var(--line,#d8e2d9);--annual-accent:var(--accent,#155b4b);--annual-soft:var(--soft,#ecf3ec);--annual-warn:var(--warn,#80501b);--annual-warnbg:var(--warnbg,#fff3db);min-width:0;max-width:100%;margin:28px 0;padding:clamp(13px,3vw,28px);border:1px solid var(--annual-line);border-radius:18px;background:var(--annual-paper);color:var(--annual-ink);font-size:15px;line-height:1.75;overflow-wrap:anywhere;isolation:isolate}
+.annual-walkthrough *{box-sizing:border-box}
+.annual-walkthrough [hidden]{display:none!important}
+.annual-walkthrough h2,.annual-walkthrough h3{color:var(--annual-ink);line-height:1.45;letter-spacing:normal}
+.annual-walkthrough .annual-header h2{margin:6px 0 12px;font-size:clamp(23px,3vw,31px);font-weight:750}
+.annual-walkthrough h3{margin:8px 0 12px;font-size:clamp(18px,2.3vw,23px)}
+.annual-walkthrough p{margin:8px 0 14px}
+.annual-walkthrough .annual-eyebrow{font-size:12px;letter-spacing:.035em;font-weight:700;color:var(--annual-accent)}
+.annual-walkthrough .annual-header>p{max-width:76ch}
+.annual-walkthrough .annual-boundary{padding:12px 14px;border:1px dashed var(--annual-line);border-radius:9px;background:var(--annual-soft);font-size:13px}
+.annual-walkthrough .annual-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;min-width:0;margin:23px 0 12px;padding:17px;border:1px solid var(--annual-line);border-radius:12px;background:var(--annual-soft)}
+.annual-walkthrough legend{max-width:100%;padding:0 7px;font-size:14px;font-weight:700;color:var(--annual-ink)}
+.annual-walkthrough .annual-field{min-width:0}
+.annual-walkthrough label{display:block;font-size:13px;font-weight:650;line-height:1.6}
+.annual-walkthrough input,.annual-walkthrough button{min-height:44px;border:1px solid var(--annual-line);border-radius:8px;background:var(--annual-paper);color:var(--annual-ink);font:inherit;line-height:1.45;padding:9px 11px}
+.annual-walkthrough .annual-field input{display:block;min-width:0;width:100%;margin-top:7px;font-variant-numeric:tabular-nums}
+.annual-walkthrough small{display:block;margin-top:5px;font-size:11px;line-height:1.6;color:var(--annual-muted)}
+.annual-walkthrough .annual-replace{grid-column:1/-1;padding-top:10px;border-top:1px solid var(--annual-line)}
+.annual-walkthrough .annual-replace label{display:flex;align-items:center;gap:10px;cursor:pointer}
+.annual-walkthrough .annual-replace input{flex:0 0 21px;width:21px;height:21px;min-height:21px;accent-color:var(--annual-accent);margin:0}
+.annual-walkthrough button{cursor:pointer}
+.annual-walkthrough button:hover:not(:disabled){border-color:var(--annual-accent)}
+.annual-walkthrough button:disabled{opacity:.55;cursor:not-allowed}
+.annual-walkthrough button:focus-visible,.annual-walkthrough input:focus-visible,.annual-walkthrough a:focus-visible,.annual-walkthrough summary:focus-visible,.annual-walkthrough:focus-visible{outline:3px solid var(--annual-accent);outline-offset:3px}
+.annual-walkthrough .annual-toolbar,.annual-walkthrough .annual-scenarios{display:flex;flex-wrap:wrap;gap:8px;margin:13px 0}
+.annual-walkthrough .annual-toolbar button,.annual-walkthrough .annual-scenarios button{font-size:12px}
+.annual-walkthrough .annual-status{color:var(--annual-accent);font-size:13px;min-height:2em}
+.annual-walkthrough .annual-error{padding:12px 14px;background:var(--annual-warnbg);color:var(--annual-warn);border-left:3px solid var(--annual-warn);border-radius:5px;font-size:13px}
+.annual-walkthrough [aria-invalid=true]{border:2px solid var(--annual-warn);background:var(--annual-warnbg)}
+.annual-walkthrough.annual-last-valid .annual-status{padding:10px 13px;border:1px dashed var(--annual-warn);border-radius:8px;background:var(--annual-warnbg);color:var(--annual-warn);font-weight:650}
+.annual-walkthrough.annual-last-valid .annual-figure{border-color:var(--annual-warn)}
+.annual-walkthrough .annual-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:23px 0}
+.annual-walkthrough .annual-steps button{display:flex;align-items:center;gap:8px;text-align:left;font-size:12px;font-weight:650}
+.annual-walkthrough .annual-steps span{display:grid;place-items:center;flex-shrink:0;width:25px;height:25px;border:1px solid var(--annual-line);border-radius:50%;font-size:11px}
+.annual-walkthrough .annual-steps [aria-current=step]{border-color:var(--annual-accent);background:var(--annual-soft);box-shadow:inset 0 0 0 1px var(--annual-accent)}
+.annual-walkthrough .annual-steps [aria-current=step] span{background:var(--annual-accent);color:var(--annual-paper);border-color:var(--annual-accent)}
+.annual-walkthrough .annual-stage{min-width:0;padding-top:19px;border-top:1px solid var(--annual-line)}
+.annual-walkthrough .annual-stage>h3{scroll-margin-top:28px}
+.annual-walkthrough .annual-equation{padding:13px 15px;background:var(--annual-soft);border-radius:9px;font-size:14px;line-height:1.95;font-variant-numeric:tabular-nums}
+.annual-walkthrough .annual-nav{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:18px 0 25px;font-size:13px}
+.annual-walkthrough .annual-nav button{font-size:13px}
+.annual-walkthrough .annual-position{color:var(--annual-muted);font-variant-numeric:tabular-nums}
+.annual-walkthrough .annual-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:22px 0 18px}
+.annual-walkthrough .annual-metrics>div{min-width:0;padding:15px;border:1px solid var(--annual-line);border-radius:11px;background:var(--annual-soft)}
+.annual-walkthrough .annual-metrics span{display:block;font-size:12px;color:var(--annual-muted)}
+.annual-walkthrough .annual-metrics strong{display:block;margin-top:5px;font-size:clamp(24px,3vw,30px);line-height:1.25;font-variant-numeric:tabular-nums}
+.annual-walkthrough .annual-metrics>div:first-child{border-left:4px solid var(--annual-accent)}
+.annual-walkthrough .annual-constraints{padding:14px 17px;border:1px solid var(--annual-line);border-radius:11px;font-size:13px}
+.annual-walkthrough .annual-constraints h3{font-size:16px;margin-top:0}
+.annual-walkthrough .annual-constraints ul{padding-left:20px;margin:6px 0 9px}
+.annual-walkthrough li{margin:6px 0}
+.annual-walkthrough .annual-constraint-summary{font-weight:650;margin-bottom:0}
+.annual-walkthrough .annual-figure{margin:24px 0 18px;max-width:100%;border:1px solid var(--annual-line);border-radius:12px;overflow:hidden;background:var(--annual-paper)}
+.annual-walkthrough .annual-figure-heading{padding:15px 17px 0}
+.annual-walkthrough .annual-figure-heading h3{font-size:18px;margin:0 0 8px}
+.annual-walkthrough .annual-scroll-hint{font-size:12px;color:var(--annual-muted)}
+.annual-walkthrough .annual-chart-scroll,.annual-walkthrough .annual-table-scroll{min-width:0;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin}
+.annual-walkthrough .annual-chart-scroll:focus-visible,.annual-walkthrough .annual-table-scroll:focus-visible{outline:3px solid var(--annual-accent);outline-offset:-3px}
+.annual-walkthrough .annual-figure svg{display:block;width:100%;min-width:860px;height:auto;margin:auto}
+.annual-walkthrough .annual-figure text{font-family:inherit;font-size:14px;fill:var(--annual-ink)}
+.annual-walkthrough .annual-figure .annual-flow-value{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
+.annual-walkthrough .annual-figure .annual-node-title{font-size:16px;font-weight:700}
+.annual-walkthrough .annual-farm-boundary{stroke:var(--annual-line);stroke-width:2;stroke-dasharray:7 5;fill:var(--annual-soft);fill-opacity:.4}
+.annual-walkthrough .annual-boundary-title{font-size:13px!important;fill:var(--annual-muted)!important}
+.annual-walkthrough .annual-node{fill:var(--annual-soft);stroke:var(--annual-accent);stroke-width:1.5}
+.annual-walkthrough .annual-flow{stroke:var(--annual-ink);stroke-width:1.6;fill:none}
+.annual-walkthrough .annual-internal{stroke:var(--annual-accent);stroke-width:2}
+.annual-walkthrough .annual-residual{stroke-dasharray:5 4}
+.annual-walkthrough .annual-arrow-head{fill:var(--annual-ink)}
+.annual-walkthrough figcaption{padding:11px 17px;font-size:12px;color:var(--annual-muted);border-top:1px solid var(--annual-line)}
+.annual-walkthrough .annual-table-scroll{margin:16px 0;border:1px solid var(--annual-line);border-radius:9px}
+.annual-walkthrough table{width:100%;min-width:430px;border-collapse:collapse;background:var(--annual-paper);font-size:12px;line-height:1.65}
+.annual-walkthrough caption{text-align:left;padding:11px 13px;font-size:13px;font-weight:700;color:var(--annual-ink);background:var(--annual-soft)}
+.annual-walkthrough th,.annual-walkthrough td{padding:9px 12px;vertical-align:top;text-align:left;white-space:normal;word-break:normal;font-variant-numeric:tabular-nums;border-bottom:1px solid var(--annual-line)}
+.annual-walkthrough th[scope=col]{font-size:11px;background:var(--annual-soft)}
+.annual-walkthrough th[scope=row]{font-weight:650}
+.annual-walkthrough tr:last-child>*{border-bottom:0}
+.annual-walkthrough .annual-all-table table{min-width:720px}
+.annual-walkthrough .annual-stage table{min-width:630px}
+.annual-walkthrough .annual-ledger{margin:20px 0;padding:6px 15px;border:1px solid var(--annual-line);border-radius:11px;font-size:13px}
+.annual-walkthrough summary{min-height:44px;padding:10px 0;font-weight:650;cursor:pointer}
+.annual-walkthrough .annual-caveat{padding:13px 17px;border-left:3px solid var(--annual-warn);background:var(--annual-warnbg);color:var(--annual-ink);border-radius:5px;margin:23px 0;font-size:13px}
+.annual-walkthrough .annual-caveat h3{font-size:17px}
+.annual-walkthrough .annual-downloads{font-size:12px}
+.annual-walkthrough .annual-downloads h3{font-size:18px}
+.annual-walkthrough .annual-download-status{color:var(--annual-accent)}
+.annual-walkthrough .annual-footnote{padding-top:14px;margin-top:22px;border-top:1px solid var(--annual-line);font-size:12px;color:var(--annual-muted)}
+.annual-walkthrough a{color:var(--annual-accent);text-decoration:underline;text-underline-offset:3px}
+/* Host-selected body.dark wins even when the operating-system preference differs. */
+body.dark section.annual-walkthrough{--annual-paper:var(--paper,#192c24);--annual-ink:var(--ink,#e7efe8);--annual-muted:var(--muted,#aec0b1);--annual-line:var(--line,#3c5243);--annual-accent:var(--accent,#9bd7ba);--annual-soft:var(--soft,#283e31);--annual-warn:var(--warn,#efc58e);--annual-warnbg:var(--warnbg,#382e20)}
+@media(max-width:700px){.annual-walkthrough .annual-controls{grid-template-columns:1fr;gap:13px}.annual-walkthrough .annual-metrics{grid-template-columns:1fr;gap:8px}.annual-walkthrough .annual-metrics>div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 10px;padding:11px 13px;align-items:center}.annual-walkthrough .annual-metrics strong{font-size:23px;margin:0}.annual-walkthrough .annual-metrics small{margin:0;grid-column:1/-1}.annual-walkthrough .annual-scenarios{flex-direction:column}.annual-walkthrough .annual-scenarios button{text-align:left}}
+@media(max-width:430px){section.annual-walkthrough{padding:12px;border-radius:12px;font-size:14px}.annual-walkthrough .annual-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.annual-walkthrough .annual-steps button{font-size:11px;padding:8px 6px;gap:6px}.annual-walkthrough .annual-controls{padding:12px}.annual-walkthrough .annual-equation{padding:11px;font-size:13px}.annual-walkthrough .annual-ledger{padding:5px 10px}.annual-walkthrough .annual-toolbar button{padding:8px;font-size:11px}.annual-walkthrough .annual-figure-heading,.annual-walkthrough figcaption{padding-left:12px;padding-right:12px}}
+@media(prefers-reduced-motion:reduce){.annual-walkthrough,.annual-walkthrough *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{section.annual-walkthrough,body.dark section.annual-walkthrough{--annual-paper:#fff;--annual-ink:#17291e;--annual-muted:#384c3f;--annual-line:#aaa;--annual-soft:#f4f7f4;--annual-accent:#174d3a;--annual-warn:#61431f;--annual-warnbg:#fff;border:0;border-radius:0;margin:0;padding:0;font-size:10pt;box-shadow:none}.annual-walkthrough .annual-controls,.annual-walkthrough .annual-toolbar,.annual-walkthrough .annual-steps,.annual-walkthrough .annual-nav,.annual-walkthrough .annual-scenarios,.annual-walkthrough .annual-downloads{display:none}.annual-walkthrough .annual-table-scroll,.annual-walkthrough .annual-chart-scroll{overflow:visible;max-height:none}.annual-walkthrough .annual-figure{break-inside:avoid}.annual-walkthrough .annual-figure svg{width:100%;min-width:0}.annual-walkthrough table,.annual-walkthrough .annual-all-table table,.annual-walkthrough .annual-stage table{min-width:0;font-size:8pt}.annual-walkthrough th,.annual-walkthrough td{padding:5px 6px}.annual-walkthrough tr{break-inside:avoid}.annual-walkthrough .annual-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.annual-walkthrough .annual-caveat{break-inside:avoid}.annual-walkthrough .annual-scroll-hint{display:none}}
