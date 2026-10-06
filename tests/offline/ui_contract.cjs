@@ -11,6 +11,13 @@ const markup=vm.runInNewContext('('+offline+')()', {head:(title,description)=>de
 assert(markup.includes('网页版完整缓存还包含全部下载ZIP'));
 assert(markup.includes('已解压离线包只核验解压内容'));
 assert(markup.includes('href="downloads/index.html"'));
+assert(markup.includes('href="offline-manifest.json" data-paper-manifest download'));
+const localMarkup=vm.runInNewContext('('+offline+')()', {head:(title,description)=>description,location:{protocol:'file:'},D:{files:{}},esc:String});
+assert(!localMarkup.includes('href="offline-manifest.json"'));
+assert(!localMarkup.includes('data-paper-manifest'));
+assert(localMarkup.includes('本地单文件只包含正文与教学，没有完整资源清单'));
+assert(localMarkup.includes('data-action="export"'),'Local note export remains available');
+
 assert(!/href="[^"]*\.zip"/.test(markup),'Shared entry must not link to ZIPs absent from extracted packages');
 const status={textContent:''},capacityStatus={textContent:'尚需约2.5MiB'};buttons.set('#cache-status',status);buttons.set('#cache-capacity',capacityStatus);
 vm.runInContext("showCache({type:'DONE',complete:true,mode:'portable-extracted',count:3,totalBytes:10,version:'fixture'})",context);

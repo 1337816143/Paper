@@ -1,13 +1,12 @@
 {
   "schema": "paper.application.release.v1",
-  "version": "5.5.9",
+  "version": "5.5.10",
   "date": "2026-10-06",
-  "title": "Cheng Q补充公式与全链原文带读",
+  "title": "单文件资源清单入口与子目录下载修复",
   "changes": [
-    "核对官方SI权重与类别缩放，加入同一合成数据的完整代入、条件和公开表格72格复算。",
-    "保留旧20节及笔记锚点，追加3节来源校正；就地提示历史状态并登记正文与图表矛盾。",
-    "保留5.5.8逐字节完整离线、下载、年度收支、私人笔记与全部既有验证。",
-    "原始327份Q排序、访谈和作者完整运行设置仍未取得；教学与表格复算不冒称作者结果复现。"
+    "HTTP打开downloads中的单文件时，资源清单明确解析到所属Paper根目录，不误入downloads子目录。",
+    "清单下载入口在HTTP单文件中可见；file:单文件明确说明没有完整清单并保留笔记/合成例导出。",
+    "保留全部5.5.9教学、旧段落锚点、私人笔记、完整离线与8个资源包。"
   ],
   "automaticUpdate": "idle-and-all-tabs-safe",
   "managedSignIn": "private-entry-client-encrypted-no-hosted-server",
