@@ -1,0 +1,195 @@
+{
+  "schema": "paper.research-leads.v1",
+  "papers": {
+    "liang-2022": {
+      "full": {
+        "sha256": "92cfc99d8491739f8e7235c364b60faa65bdf901d83bb1f613fd09c8fa38516b",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "c1ca5cbbf490b9b85af0092b6c9409539212de808616d0b89061e4955e252e30",
+        "accepted": true
+      }
+    },
+    "cheng-2023": {
+      "full": {
+        "sha256": "d92c41d9325923d01c3cc13579be9c88aec2a90aa212a28ef565b07515b20238",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "f60efc7a47c7655f1dc2a30f357b46312426464825d9a583c4b5b4324db4cc82",
+        "accepted": true
+      }
+    },
+    "cheng-2025": {
+      "full": {
+        "sha256": "32ee24ab87390af09dadab7432d302c96749a9272ff188d7c378f79b17193bc0",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "8361c06edcadba50e943bbdb4a982cc5d93a99fc1e4b8b4b7d6ae8239123b988",
+        "accepted": true
+      }
+    },
+    "cheng-landscape-evidence-2025": {
+      "full": {
+        "sha256": "6a115d957ff3a10270fac6cf8fe5833af2c38f5ada26beb02789470ae38adbf6",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "f6335b9925414f14ef58cbd666f0a63c54186dd8529a5e4228f615ac75c09b5a",
+        "accepted": true
+      }
+    },
+    "xu-2024": {
+      "full": {
+        "sha256": "595a1a62d25a02d68b783a1837120c9620c8f2e81cd9aa25620b5681ebd8a328",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "1abf652ae1c09c563fc079a086dd5a85359593721332df9e00034218dc96e06b",
+        "accepted": true
+      }
+    },
+    "xu-data-2024": {
+      "full": {
+        "sha256": "de5182a8ebc97a3f725f39e95b355b4d6ef02f92f99b756e9891a38dd0dd5bc6",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "d9d24cc2820423ef100c4b61c8156d9453deafdea99d869ee2b3ae1339b0a0f8",
+        "accepted": true
+      }
+    },
+    "dong-2026": {
+      "full": {
+        "sha256": "78a83525d2fd980b7cf8681fc1abc494f8e66f0efaab06ca45aeb596c9075db7",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "05c545e2563212b581861babc861f6cd1c4fbad05bd8d4f7181a38ad26e6f822",
+        "accepted": true
+      }
+    },
+    "liang-2023": {
+      "full": {
+        "sha256": "e2887410b421aac81f53cf89e58e707775c6934168f477bad5e0192397fae451",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "eeb554aa95723dbf4eda6fd402daec382795355b9f89ba95394876cf827b147b",
+        "accepted": true
+      }
+    },
+    "farmsteps-2026": {
+      "full": {
+        "sha256": "75b7c496b8209b0beb32aa739345142c6c8c108c3ad400d1950c2fbff86ebd96",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "504971901d7770443b61fd5398ec12d170c69d79263ba8a46408816dd2cf89c9",
+        "accepted": true
+      }
+    },
+    "farmdesign-2012": {
+      "full": {
+        "sha256": "f7bfcf3f24f41d2ca612b5dd8c7c3ab657176106fd933c0f6b07ee7834994b31",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "88d453ccdbbd0403d5bc9dd5a32db108a3c3edbddd9071da6ababe9bc1a93e97",
+        "accepted": true
+      }
+    },
+    "landscape-2007": {
+      "full": {
+        "sha256": "b49edda8c09efc9afcc9a4fd082163326f81a6c241b28be4957ebe8f4e05f36d",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "241ea5aa45f1e0a0a3aef9051c94e8ddd26a314114da4bc80a8062380f883777",
+        "accepted": true
+      }
+    },
+    "landscape-2018": {
+      "full": {
+        "sha256": "36172e342424426e85bd8755c35e71df507573a9f35638da5878b8f5b803588c",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "77f665b907774b1587dadb308bf1d55755d89278daa50a9ceeabb041bdcc4e99",
+        "accepted": true
+      }
+    },
+    "groot-2017": {
+      "full": {
+        "sha256": "64405733be558e8ec98fcfc9373de61690dd6338eb58287085f11e48e23da41a",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "e05d291632b82feac556b16ea7d39bf745dc5fee5a973bd2d50515c7c5f9c42b",
+        "accepted": true
+      }
+    },
+    "breure-2024": {
+      "full": {
+        "sha256": "54687543229c6a3b2a15148ae72147ef6eab11596648e11e3b20c5d6cec97561",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "ba04da8ae60273d602095843a66e710975f43df79b29457beae624005bc12fc9",
+        "accepted": true
+      }
+    },
+    "toorop-2023": {
+      "full": {
+        "sha256": "927f8886cf36614ba9aa9bdd614048bf61d506a4b8b3f77a1ed0e3f42734c009",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "69e7248c7b18055030c63fe9cdcb5f67d3694fe14d5ad8a84bec14b7e437db50",
+        "accepted": true
+      }
+    },
+    "novotny-2024": {
+      "full": {
+        "sha256": "9eaf54c1f8bdc21a7aa2db2f1a0f9ce9aea8b853a2518a8f02f8fd0b495a0bb5",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "19f60c5720650f9d8007b8cae5cce50eb446354bd1e7981aa9af2c494728eb9b",
+        "accepted": true
+      }
+    },
+    "qu-2025": {
+      "full": {
+        "sha256": "2022f48f1d30a3ec64289c9288b217d033b25c2d27ac6f9a61f9f446ab7c36ce",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "f8f50305c8bc92ebd08028c84988bb0b3ae08dbccf26015b449206881d10bc8d",
+        "accepted": true
+      }
+    },
+    "mixed-2026": {
+      "full": {
+        "sha256": "15208a7a2fd00bd5e380a382ff65705ee9f1edf07faa6772ab72ba49cd1c58fd",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "1b18341debbf7fb7256d520e17848b02ccaa82b723772bf04937881b5f151c59",
+        "accepted": true
+      }
+    },
+    "verdouw-2021": {
+      "full": {
+        "sha256": "14de8b764acfe647eff587b1a1b4d62c2268af0a03b08c0a93009892cb9dc98e",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "17675cd68444799489ddc4a53c6e6f7a368ec24adc183c8d8006aa1550462cc8",
+        "accepted": true
+      }
+    }
+  }
+}

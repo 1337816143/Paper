@@ -3,6 +3,7 @@
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
 import argparse,hashlib,html,json,re,shutil,struct,subprocess,zipfile,zlib
+from research_leads import load_research_leads,static_lead_html
 ROOT=Path(__file__).resolve().parents[1]
 
 def png_icon(size):
@@ -43,11 +44,15 @@ def main():
         if d.get('sourceId') and (d['sourceId'] not in byid or byid[d['sourceId']]['type'] not in ('paper','thesis')):raise ValueError('Invalid canonical paper source')
         refs=re.findall(r'\[\[([a-z0-9-]+)\|',json.dumps(d,ensure_ascii=False))+(d.get('related') or [])+(d.get('sources') or [])
         if set(refs)-aliases:raise ValueError('Broken links: '+str(set(refs)-aliases))
+    research_leads=load_research_leads(ROOT,byid)
     files={f.name:f.read_bytes().decode('utf-8') for f in sorted((ROOT/'examples').iterdir()) if f.is_file() and f.suffix in {'.py','.R','.csv','.md','.json'}}
     for name,text in files.items():(out/'examples'/name).write_bytes(text.encode('utf-8'))
     inputs=sorted([*(ROOT/'content').glob('*.json'),*(ROOT/'src').glob('*'),*(ROOT/'examples').glob('*'),Path(__file__)])
+    inputs.append(ROOT/'scripts/research_leads.py')
+    inputs += sorted((ROOT/'resources/research-leads').rglob('*')) if (ROOT/'resources/research-leads').exists() else []
     digest=hashlib.sha256(b''.join(f.read_bytes() for f in inputs if f.is_file())).hexdigest()[:12]
     data={'version':digest,'sourceCommit':a.source_commit,'updated':date,'documents':documents,'files':files}
+    if research_leads:data['researchLeads']=research_leads
     datajs='window.PAPER_DATA='+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+';\n'
     for name in ('index.html','style.css','app.js'):shutil.copyfile(ROOT/'src'/name,out/name)
     css=(out/'style.css').read_text(encoding='utf-8')+'\n@media(max-width:800px){.reader .prose{font-size:var(--body-size)!important}}\n'
@@ -80,6 +85,7 @@ def main():
                 return '<p class="notice dong-source-update">历史输入口径校正：下文旧段落把268 Gg与四个阈值并列，不能据此把268逐项相除。当前应当用人为输入268配262；作物总输入314分别配218、187、174。旧段落仅保留来源纠正历史与笔记，不再表示当前口径。<a href="../index.html#/dong-si-boundary-walkthrough/s1">查看原表配对和完整复算</a></p>'
             if not ((d['id']=='dong-2026' and i in (5,6,8)) or (d['id']=='dong-2026-ledger' and i in (3,5)) or (d['id']=='explanation-roadmap' and i==25)):return ''
             return '<p class="notice dong-source-update">历史来源状态：官方SI现已取得；下文旧“补充缺失”等字样仅保留当时记录，不再表示当前状态。原始数据、完整NUFER与P拟合仍缺。<a href="../index.html#/dong-si-boundary-walkthrough">新带读与完整推导</a></p>'
+        body+=static_lead_html(research_leads.get(d['id'],{}),d['id'])
         for i,s in enumerate(d['sections']):body+=f'<section class="reader" id="s{i}"><span class="kind">{html.escape(explain(s[1]))}</span><h2>{i+1}. {html.escape(explain(s[0]))}</h2>{q_source_correction(i)}{dong_source_correction(i)}<div class="prose">{rich(s[2])}</div>'+('<p class="source-note">'+html.escape(s[3])+'</p>' if len(s)>3 else '')+'</section>'
         if d.get('quiz'):body+='<section id="self-test"><h2>关键问题与解说</h2><p>直接查看解释；本页没有答题或评分。</p>'
         for q,ans in d.get('quiz',[]):body+='<details open><summary>'+html.escape(q)+'</summary>'+rich(ans)+'</details>'
