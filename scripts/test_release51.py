@@ -58,7 +58,7 @@ with tempfile.TemporaryDirectory() as temp:
    check('other tab input blocks activation',a.evaluate('PAPER_DATA.version')==before and b.evaluate('PAPER_DATA.version')==before)
    check('other tab unsaved text unchanged',b.locator('#note').input_value()=='Synthetic device B draft must never disappear.')
    b.locator('h1').first.click();b.evaluate('getSelection().removeAllRanges()');a.wait_for_timeout(13500)
-   a.evaluate('PaperRelease.maybeApply()');a.wait_for_function('(v)=>PAPER_DATA.version===v',arg=new,timeout=45000);b.wait_for_function('(v)=>PAPER_DATA.version===v',arg=new,timeout=45000)
+   a.evaluate('PaperRelease.maybeApply()');a.wait_for_function('(v)=>window.PAPER_DATA?.version===v',arg=new,timeout=45000);b.wait_for_function('(v)=>window.PAPER_DATA?.version===v',arg=new,timeout=45000)
    check('both pages update without manual activation',a.locator('#release-badge').inner_text().split()[0]=='v'+next_version and b.locator('#release-badge').inner_text().split()[0]=='v'+next_version)
    notes=a.evaluate("JSON.parse(localStorage.getItem('paper-lab-learning-v1')).notes")
    check('both notes survive automatic reload',notes.get('liang-2022')=='Synthetic device A note retained across upgrade.' and notes.get('cheng-2025')=='Synthetic device B draft must never disappear.')
