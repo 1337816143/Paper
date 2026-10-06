@@ -60,13 +60,14 @@ try:
   browser=pw.chromium.launch();context=browser.new_context(viewport={'width':1440,'height':1000},accept_downloads=True,reduced_motion='reduce')
   page=context.new_page();page.on('pageerror',lambda e:errors.append(str(e)));page.clock.install();observe_activity(page)
   notes={};oldblocks={}
-  for id,indices in [('dong-2026',[5,6,8]),('dong-2026-ledger',[3,5])]:
+  for id,indices in [('dong-2026',[4,5,6,8]),('dong-2026-ledger',[3,5])]:
    go(id);oldblocks[id]=expected_blocks(id)
    actual=page.locator('.prose [data-block]').evaluate_all('(xs)=>Object.fromEntries(xs.map(x=>[x.id,x.textContent]))')
    check(id+' original paragraph text and stable IDs preserved',all(actual[k]==v for k,v in oldblocks[id].items()))
    check(id+' appended correction adds no old-prose markup',page.locator('.prose .dong-source-update').count()==0)
    for i in indices:
-    go(f'{id}/s{i}');check(f'{id}/s{i} deep anchor exposes historical source notice','不再表示当前状态' in page.locator(f'#s{i} .dong-source-update').inner_text())
+    go(f'{id}/s{i}');check(f'{id}/s{i} deep anchor exposes historical source notice','不再表示当前' in page.locator(f'#s{i} .dong-source-update').inner_text())
+   n=4 if id=='dong-2026' else 3;notice=page.locator(f'#s{n} .dong-source-update').inner_text();check(id+' old268 paragraph is explicitly corrected at its own anchor',all(t in notice for t in ['268配262','314分别配218、187、174','不能据此把268逐项相除']))
    note='SYNTHETIC preserved old note for '+id;notes[id]=note;page.locator('#note').fill(note);page.locator('#note').evaluate('(e)=>e.blur()');page.clock.run_for(300)
   go('dong-2026');first=next(iter(oldblocks['dong-2026']));quote=oldblocks['dong-2026'][first][:24]
   legacy={'id':'synthetic-pre5511-dong','docId':'lesson:dong-2026','type':'highlight','title':'SYNTHETIC pre-5.5.11 annotation','comment':'Synthetic only','tags':[],'links':[],'color':'yellow','quote':quote,'segments':[{'block':first,'start':0,'end':len(quote),'quote':quote,'prefix':'','suffix':oldblocks['dong-2026'][first][len(quote):len(quote)+40]}]}

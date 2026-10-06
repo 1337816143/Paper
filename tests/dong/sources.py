@@ -62,6 +62,10 @@ class Sources(unittest.TestCase):
   for token in ['PaperDongModel','g.PaperDong=','data-paper-root="../"','body.single a[download]:not([data-paper-manifest])','href="../offline-manifest.json"']:
    self.assertIn(token,single)
   self.assertNotRegex(single,r'(?:src|href)="dong-boundary[^" ]*\.(?:js|css)"')
-  for id,indices in [('dong-2026',[5,6,8]),('dong-2026-ledger',[3,5]),('explanation-roadmap',[25])]:
+  for id,indices in [('dong-2026',[4,5,6,8]),('dong-2026-ledger',[3,5]),('explanation-roadmap',[25])]:
    html=(out/'read'/f'{id}.html').read_text();self.assertEqual(html.count('class="notice dong-source-update"'),len(indices))
+   if id!='explanation-roadmap':
+    n=4 if id=='dong-2026' else 3;section=re.search(r'<section class="reader" id="s'+str(n)+r'">(.*?)</section>',html).group(1)
+    for t in ['268配262','314分别配218、187、174','不能据此把268逐项相除']:self.assertIn(t,section)
+    self.assertLess(section.index('dong-source-update'),section.index('class="prose"'))
 if __name__=='__main__':unittest.main()
