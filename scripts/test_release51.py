@@ -8,6 +8,15 @@ from playwright.sync_api import sync_playwright
 from seal_site import seal
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'test-results';OUT.mkdir(exist_ok=True)
 checks=[]
+def wait_for_waiting_worker(page, timeout=30):
+ deadline=time.monotonic()+timeout
+ while time.monotonic()<deadline:
+  # page.evaluate awaits the Promise; the polling predicate is an actual bool.
+  ready=page.evaluate("async()=>{const r=await navigator.serviceWorker.getRegistration();return !!r?.waiting;}")
+  assert isinstance(ready,bool), 'Worker waiting check must resolve to a boolean'
+  if ready:return
+  page.wait_for_timeout(100)
+ raise AssertionError('New service worker did not reach waiting before the deadline')
 class Quiet(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
  def end_headers(self):
@@ -44,7 +53,7 @@ with tempfile.TemporaryDirectory() as temp:
    data=json.loads((target/'data.json').read_text());data['version']=new;data['application']['version']=next_version
    (target/'data.json').write_text(json.dumps(data,ensure_ascii=False));(target/'data.js').write_text('window.PAPER_DATA='+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+';')
    old['version']=new;old['appVersion']=next_version;old['application']['version']=next_version;(target/'release.json').write_text(json.dumps(old,ensure_ascii=False));seal(target)
-   time.sleep(1.2);a.evaluate('PaperRelease.check(true)');a.wait_for_function('navigator.serviceWorker.getRegistration().then(r=>!!r.waiting)',timeout=30000)
+   a.evaluate('PaperRelease.check(true)');wait_for_waiting_worker(a,timeout=30)
    a.wait_for_timeout(13500);a.evaluate('PaperRelease.maybeApply()');a.wait_for_timeout(1500)
    check('other tab input blocks activation',a.evaluate('PAPER_DATA.version')==before and b.evaluate('PAPER_DATA.version')==before)
    check('other tab unsaved text unchanged',b.locator('#note').input_value()=='Synthetic device B draft must never disappear.')

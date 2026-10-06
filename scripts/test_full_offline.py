@@ -6,13 +6,13 @@ from pathlib import Path
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from tempfile import TemporaryDirectory
 from threading import Thread
-import hashlib, json, socket, sys, zipfile
+import hashlib, json, socket, sys, zipfile, urllib.request, urllib.error
 from playwright.sync_api import sync_playwright
 from seal_site import check
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'dist/site';OUT=ROOT/'test-results';OUT.mkdir(exist_ok=True)
-AUDIT=check(SITE);MANIFEST=json.loads((SITE/'offline-manifest.json').read_text());checks=[];errors=[];success=False
+AUDIT=check(SITE);MANIFEST=json.loads((SITE/'offline-manifest.json').read_text());checks=[];errors=[];success=False;closed_origins=[];corruption_diagnostics={}
 class Handler(SimpleHTTPRequestHandler):
- interrupted='';corrupt='';portable=None
+ interrupted='';corrupt='';portable=None;blocked='';watched='';requests=[]
  def log_message(self,*a):pass
  def translate_path(self,path):
   from urllib.parse import unquote, urlsplit
@@ -20,8 +20,16 @@ class Handler(SimpleHTTPRequestHandler):
   if name.startswith('/Paper/'):return str(SITE/name[len('/Paper/'):])
   if name.startswith('/Portable/') and self.portable:return str(self.portable/name[len('/Portable/'):])
   return str(SITE/'__not_found__')
+ def send_response(self, code, message=None):
+  if getattr(self,'trace',None) is not None:self.trace['status']=code
+  super().send_response(code,message)
  def do_GET(self):
   name=self.path.split('?')[0]
+  if name==self.watched:
+   self.trace={'path':name,'blocked':name==self.blocked};self.requests.append(self.trace)
+  if name==self.blocked:
+   body=b'SYNTHETIC offline test: origin resource blocked'
+   self.send_response(503);self.send_header('Content-Length',str(len(body)));self.end_headers();self.wfile.write(body);return
   if name==self.interrupted:
    data=Path(self.translate_path(name)).read_bytes();self.send_response(200);self.send_header('Content-Length',str(len(data)));self.end_headers()
    try:self.wfile.write(data[:min(100000,len(data)//2)]);self.wfile.flush();self.connection.shutdown(socket.SHUT_RDWR)
@@ -32,7 +40,15 @@ class Handler(SimpleHTTPRequestHandler):
   try:super().do_GET()
   except (BrokenPipeError,ConnectionResetError):pass
  def end_headers(self):self.send_header('Cache-Control','no-store');super().end_headers()
-server=ThreadingHTTPServer(('127.0.0.1',0),Handler);Thread(target=server.serve_forever,daemon=True).start();origin=f'http://127.0.0.1:{server.server_port}';base=origin+'/Paper/'
+server=ThreadingHTTPServer(('127.0.0.1',0),Handler);Thread(target=server.serve_forever,daemon=True).start();origin=f'http://127.0.0.1:{server.server_port}';base=origin+'/Paper/';servers=[server]
+def stop_origin(server):
+ server.shutdown();server.server_close()
+ # Independent refusal proof: even a service-worker network bypass cannot fetch here.
+ try:
+  connection=socket.create_connection(('127.0.0.1',server.server_port),timeout=1)
+ except OSError:closed_origins.append(server.server_port);return
+ else:
+  connection.close();raise AssertionError('Offline origin still accepts network connections')
 def passed(name):checks.append(name);print('PASS',name,flush=True)
 def message(page,kind):
  return page.evaluate('''kind=>new Promise((resolve,reject)=>{const ch=new MessageChannel();const timer=setTimeout(()=>{ch.port1.close();reject(Error('worker operation timed out'));},600000);ch.port1.onmessage=e=>{if(e.data.type==='DONE'){clearTimeout(timer);ch.port1.close();resolve(e.data);}};navigator.serviceWorker.ready.then(r=>r.active.postMessage({type:kind},[ch.port2])).catch(e=>{clearTimeout(timer);reject(e);});})''',kind)
@@ -54,12 +70,36 @@ try:
   zipped=next(r for r in MANIFEST['resources'] if r['url'].endswith('.zip'));Handler.interrupted='/Paper/'+zipped['url'][2:]
   page.locator('#cache-site').click();wait_done(page);assert '已完整缓存' not in page.locator('#cache-status').inner_text();assert zipped['url'] in page.locator('#cache-failures').inner_text();partial=message(page,'STATUS_FAST');assert partial['count']>20 and not partial['complete'];passed('truncated network response never counts complete; verified resources retained')
   Handler.interrupted='';page.locator('#cache-site').click();wait_done(page);assert '已完整缓存' in page.locator('#cache-status').inner_text();assert float(page.locator('#cache-progress').get_attribute('value'))>0;assert message(page,'STATUS')['complete'];passed('retry completes the exact final tree including every ZIP and CI report')
-  # Same-size cache replacement is detected, cannot be served offline, and repaired.
+  # A page-context offline flag may not block worker-origin fetches. Independently
+  # deny the exact original at the HTTP server before testing corrupt-cache fallback.
   target=next(r for r in MANIFEST['resources'] if r['url'].endswith('.csv'))
+  Handler.blocked=Handler.watched='/Paper/'+target['url'][2:];Handler.requests=[]
+  corruption_diagnostics.update(target=target['url'],expectedBytes=target['bytes'],expectedSHA256=target['sha256'])
+  try:
+   with urllib.request.urlopen(base+target['url'][2:],timeout=10) as probe:origin_status=probe.status
+  except urllib.error.HTTPError as error:origin_status=error.code
+  corruption_diagnostics['originProbeStatus']=origin_status
+  assert origin_status==503,corruption_diagnostics
   page.evaluate('''async r=>{const c=await caches.open('paper-lab:/Paper/:sha256-v3');await c.put(new URL('.paper-offline/sha256/'+r.sha256,location.href),new Response(new Uint8Array(r.bytes)));}''',target)
-  assert not message(page,'STATUS')['complete'];assert not message(page,'STATUS_FAST')['previouslyVerified'];ctx.set_offline(True);assert page.evaluate('async p=>(await fetch(new URL(p,location.href))).status',target['url'])==503;ctx.set_offline(False);assert message(page,'CACHE_ALL')['complete'];passed('same-size cached corruption invalidates checkpoint and exact retry repairs it')
+  damaged=message(page,'STATUS');assert not damaged['complete']
+  assert not message(page,'STATUS_FAST')['previouslyVerified']
+  fetch_digest='''async p=>{const r=await fetch(new URL(p,location.href),{cache:'no-store'}),b=await r.arrayBuffer();return {status:r.status,bytes:b.byteLength,sha256:Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b)),x=>x.toString(16).padStart(2,'0')).join(''),bodySummary:r.status===200?'':new TextDecoder().decode(b).slice(0,200)};}'''
+  request_start=len(Handler.requests);ctx.set_offline(True)
+  rejected=page.evaluate(fetch_digest,target['url'])
+  corruption_diagnostics.update(offlineFetch=rejected,offlineOriginRequests=Handler.requests[request_start:],handlerSawOfflineRefetch=len(Handler.requests)>request_start)
+  print('CORRUPTION_DIAGNOSTIC '+json.dumps(corruption_diagnostics),flush=True)
+  assert rejected['status']==503,corruption_diagnostics
+  assert '此资源未通过当前版本完整性校验' in rejected['bodySummary'],corruption_diagnostics
+  assert rejected['sha256']!=target['sha256'],corruption_diagnostics
+  Handler.blocked='';ctx.set_offline(False)
+  assert message(page,'CACHE_ALL')['complete']
+  repaired=page.evaluate(fetch_digest,target['url'])
+  corruption_diagnostics.update(repairedFetch=repaired,originRequests=Handler.requests[:])
+  assert repaired=={'status':200,'bytes':target['bytes'],'sha256':target['sha256'],'bodySummary':''},corruption_diagnostics
+  assert any(r.get('status')==200 and not r['blocked'] for r in Handler.requests),corruption_diagnostics
+  passed('same-size cached corruption invalidates checkpoint, fails closed with origin blocked, and exact network retry repairs it')
   page.screenshot(path=str(OUT/'full-offline-desktop.png'),full_page=True)
-  ctx.close()
+  ctx.close();stop_origin(server);passed('Paper HTTP origin is shut down and refuses connections before offline restart')
   # A new Chromium process uses the persisted profile with network disabled before navigation.
   ctx=pw.chromium.launch_persistent_context(profile,accept_downloads=True,viewport={'width':1280,'height':900});ctx.set_offline(True);page=ctx.new_page();page.on('pageerror',lambda e:errors.append(str(e)));page.goto(base+'#/offline');page.wait_for_selector('#cache-site');assert message(page,'STATUS')['complete'];passed('fresh browser process reopens the complete site with network disabled')
   assert page.evaluate(GET,SENTINELS)==[r[2] for r in SENTINELS]
@@ -97,8 +137,22 @@ try:
    for archive in (SITE/'downloads').glob('*.zip'):
     with zipfile.ZipFile(archive) as z:z.extractall(unpacked)
    check(Handler.portable)
-   browser=pw.chromium.launch();portable=browser.new_context(accept_downloads=True);p=portable.new_page();p.goto(origin+'/Portable/#/offline');p.wait_for_selector('#cache-site');assert message(p,'CACHE_ALL')['complete'];portable.set_offline(True);p.reload();p.wait_for_selector('#cache-site');assert message(p,'STATUS')['complete'];p.goto(origin+'/Portable/#/original/liang-2022');p.wait_for_selector('#original-text');assert p.locator('.source-page').count()==15;p.screenshot(path=str(OUT/'full-offline-portable.png'));browser.close();Handler.portable=None
+   portable_server=ThreadingHTTPServer(('127.0.0.1',0),Handler);Thread(target=portable_server.serve_forever,daemon=True).start();servers.append(portable_server);portable_origin=f'http://127.0.0.1:{portable_server.server_port}'
+   browser=pw.chromium.launch();portable=browser.new_context(accept_downloads=True);p=portable.new_page();p.goto(portable_origin+'/Portable/#/offline');p.wait_for_selector('#cache-site')
+   assert '已解压离线包只核验解压内容' in p.locator('#view').inner_text()
+   assert p.locator('#view a[href$=".zip"]').count()==0
+   p.locator('#cache-site').click();wait_done(p)
+   result=message(p,'STATUS');assert result['complete'] and result['mode']=='portable-extracted'
+   status=p.locator('#cache-status').inner_text();assert '可离线使用全部已解压内容' in status and '并下载ZIP' not in status
+   stop_origin(portable_server);portable.set_offline(True);p.reload();p.wait_for_selector('#cache-site');p.locator('#check-cache').click();wait_done(p)
+   assert '可离线使用全部已解压内容' in p.locator('#cache-status').inner_text()
+   p.locator('#view a[href="downloads/index.html"]').click();p.wait_for_function("document.querySelector('h1')?.textContent==='独立离线包已解压'")
+   assert p.locator('a[href$=".zip"]').count()==0 and '原ZIP仍在你保存的下载位置' in p.locator('main').inner_text()
+   p.screenshot(path=str(OUT/'full-offline-portable.png'))
+   p.goto(portable_origin+'/Portable/#/original/liang-2022');p.wait_for_selector('#original-text');assert p.locator('.source-page').count()==15;browser.close();Handler.portable=None
    passed('all real ZIP volumes extract, verify, open, cache and read originals offline')
  check(SITE,OUT/'offline-deployment-exact-tree.json');success=True
 finally:
- server.shutdown();(OUT/'full-offline-report.json').write_text(json.dumps({'status':'passed' if success else 'incomplete','checks':checks,'errors':errors,'testData':'synthetic only','scope':'Chromium persistent profile and mobile viewport; not physical mobile OS eviction testing','manifestSHA256':AUDIT['manifestSHA256']},ensure_ascii=False,indent=2))
+ if corruption_diagnostics:corruption_diagnostics['originRequests']=Handler.requests[:]
+ for running_server in servers:running_server.shutdown();running_server.server_close()
+ (OUT/'full-offline-report.json').write_text(json.dumps({'status':'passed' if success else 'incomplete','checks':checks,'errors':errors,'testData':'synthetic only','scope':'Chromium persistent profile and mobile viewport; not physical mobile OS eviction testing','manifestSHA256':AUDIT['manifestSHA256'],'offlineNetworkProof':{'closedAndRefusedOriginPorts':closed_origins,'networkEmulationAlsoUsed':True},'corruptionDiagnostics':corruption_diagnostics},ensure_ascii=False,indent=2))
