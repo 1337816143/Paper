@@ -9,6 +9,7 @@ function settings(){try{return JSON.parse(localStorage.getItem(scopeKey)||'{}');
 function remember(patch){try{localStorage.setItem(scopeKey,JSON.stringify({...settings(),...patch}));}catch{}}
 function report(patch){current={...current,...patch};const badge=$('#release-badge');if(badge){badge.dataset.status=current.status;badge.title=current.message;badge.textContent='v'+meta.version+(current.available?' · 新版':'');}const status=$('#release-message');if(status)status.textContent=current.message;const pending=$('#release-available');if(pending)pending.textContent=current.available?'可用版本：'+(current.available.appVersion||current.available.version):'未发现新版本';}
 function safeToReload(){
+ if(cacheBusy||window.PaperOffline?.isBusy?.()||window.PaperDownloads?.isBusy?.())return {ready:false,reason:'正在保存或核验离线资源，完成后更新'};
  if(Date.now()-lastActivity<12000)return {ready:false,reason:'等待你暂停操作后自动更新'};
  if(getSelection()?.toString().trim())return {ready:false,reason:'正在选择文字，稍后自动更新'};
  if(document.querySelector('dialog[open],.context-popover,.term-popover,#translation-editor,#release-panel'))return {ready:false,reason:'正在查看或编辑弹窗，稍后自动更新'};
@@ -27,12 +28,12 @@ function safeToReload(){
  return {ready:true,reason:''};
 }
 function message(worker,data,timeout=7000){return new Promise((ok,no)=>{if(!worker){no(Error('离线服务暂未就绪'));return;}const channel=new MessageChannel(),timer=setTimeout(()=>{channel.port1.close();no(Error('更新服务响应超时；原版本继续可用'));},timeout);channel.port1.onmessage=e=>{clearTimeout(timer);channel.port1.close();ok(e.data);};worker.postMessage(data,[channel.port2]);});}
-async function inspectCache(){if(!registration?.active)return;try{const r=await message(registration.active,{type:'STATUS'});if(r.complete)remember({fullCache:true});return r;}catch{return null;}}
+async function inspectCache(){if(!registration?.active)return;try{const r=await message(registration.active,{type:'STATUS_FAST'});if(r.complete||(r.previouslyVerified&&r.allPresent))remember({fullCache:true});return r;}catch{return null;}}
 async function restoreFullCache(){
  if(cacheBusy||!settings().fullCache||!navigator.onLine||!registration?.active)return;
- const s=await inspectCache();if(!s||s.complete)return;cacheBusy=true;const ch=new MessageChannel();let timer;
- const finish=()=>{clearTimeout(timer);ch.port1.close();cacheBusy=false;};timer=setTimeout(finish,900000);
- ch.port1.onmessage=e=>{if(e.data.type==='DONE'){const x=e.data;finish();remember({lastCacheVersion:x.complete?D.version:settings().lastCacheVersion});if(x.complete)report({message:'已更新；新增离线资源也已补齐'});else report({message:'程序已更新；离线资源尚未齐全，联网后自动重试'});}};
+ const s=await inspectCache();if(!s||s.complete||(s.previouslyVerified&&s.allPresent))return;if(navigator.storage?.estimate){try{const e=await navigator.storage.estimate();if(Number.isFinite(e.quota)&&Number.isFinite(e.usage)&&e.quota-e.usage<Math.max(0,s.totalBytes-s.verifiedBytes)){report({message:'完整离线缓存需要更多浏览器空间；已保存内容保留，请到离线中心查看'});return;}}catch{}}cacheBusy=true;const ch=new MessageChannel();let timer;
+ const finish=()=>{clearTimeout(timer);ch.port1.close();cacheBusy=false;};const arm=()=>{clearTimeout(timer);timer=setTimeout(finish,180000);};arm();
+ ch.port1.onmessage=e=>{arm();if(e.data.type==='DONE'){const x=e.data;finish();remember({lastCacheVersion:x.complete?D.version:settings().lastCacheVersion});if(x.complete)report({message:'已更新；新增离线资源也已补齐'});else report({message:'程序已更新；离线资源尚未齐全，联网后自动重试'});}};
  registration.active.postMessage({type:'CACHE_ALL'},[ch.port2]);
 }
 function reloadSafely(){needsReload=true;if(reloading)return;const safe=safeToReload();if(!safe.ready){report({status:'deferred',message:safe.reason});return;}try{savePosition();window.PaperReader?.beforeNavigate();}catch{report({status:'deferred',message:'尚未确认阅读位置保存，暂不刷新'});return;}reloading=true;remember({reloadTarget:current.available?.version||'',returnURL:location.href,returnY:scrollY});location.reload();}

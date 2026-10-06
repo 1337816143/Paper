@@ -1,0 +1,23 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync('src/app.js','utf8');
+const section=source.slice(source.indexOf('let offlineJob='),source.indexOf('function bind()'));
+const buttons=new Map([['#cache-site',{disabled:false}],['#check-cache',{disabled:false}]]);
+const context=vm.createContext({window:{},navigator:{serviceWorker:{ready:new Promise(()=>{}),getRegistration:async()=>({active:null,installing:null,update:async()=>{}})}},setTimeout:(fn,ms)=>setTimeout(fn,Math.min(ms,20)),clearTimeout,Promise,MessageChannel,$:id=>buttons.get(id),Error});
+vm.runInContext(section,context);
+// Render the actual shared entry, then exercise the actual mode-aware status renderer.
+const offline=source.match(/^function offline\(\)\{.*$/m)[0];
+const markup=vm.runInNewContext('('+offline+')()', {head:(title,description)=>description,location:{protocol:'https:'},D:{files:{}},esc:String});
+assert(markup.includes('网页版完整缓存还包含全部下载ZIP'));
+assert(markup.includes('已解压离线包只核验解压内容'));
+assert(markup.includes('href="downloads/index.html"'));
+assert(!/href="[^"]*\.zip"/.test(markup),'Shared entry must not link to ZIPs absent from extracted packages');
+const status={textContent:''},capacityStatus={textContent:'尚需约2.5MiB'};buttons.set('#cache-status',status);buttons.set('#cache-capacity',capacityStatus);
+vm.runInContext("showCache({type:'DONE',complete:true,mode:'portable-extracted',count:3,totalBytes:10,version:'fixture'})",context);
+assert(status.textContent.includes('可离线使用全部已解压内容'));assert(!status.textContent.includes('并下载ZIP'));
+vm.runInContext("showCache({type:'DONE',complete:true,mode:'deployed-complete',count:3,totalBytes:10,version:'fixture'})",context);
+assert(status.textContent.includes('并下载ZIP'));
+vm.runInContext("showCache({type:'DONE',complete:false,count:2,expected:3,totalBytes:2097152,verifiedBytes:1048576})",context);assert(capacityStatus.textContent.includes('尚需约 1.0 MiB'));
+vm.runInContext("showCache({type:'DONE',complete:true,count:3,totalBytes:2097152,verifiedBytes:2097152})",context);assert(capacityStatus.textContent.includes('尚需约 0.0 MiB'));
+console.log('PASS shared offline entry and both mode-specific success messages (VM rendering)');
+(async()=>{const running=vm.runInContext("offlineRequest('CACHE_ALL')",context);assert.equal(context.window.PaperOffline.isBusy(),true);assert.equal(buttons.get('#cache-site').disabled,true);await assert.rejects(running,/离线服务未能完成安装/);assert.equal(context.window.PaperOffline.isBusy(),false);assert.equal(buttons.get('#cache-site').disabled,false);context.navigator.serviceWorker.getRegistration=async()=>({active:null,installing:null,update:async()=>{throw Error('synthetic install retry failure');}});await assert.rejects(vm.runInContext("offlineRequest('CACHE_ALL')",context),/synthetic install retry failure/);assert.equal(buttons.get('#cache-site').disabled,false);context.window.PaperOffline.beginBook();assert.equal(context.window.PaperOffline.isBusy(),true);context.window.PaperOffline.endBook();assert.equal(context.window.PaperOffline.isBusy(),false);console.log('PASS UI ready timeout, update failure recovery, button restoration and book busy guard (VM simulation, not browser)');})().catch(e=>{console.error(e);process.exitCode=1;});

@@ -12,7 +12,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,7 +26,7 @@ jobs:
       - name: Build and check teaching algorithms and source archive
         run: |
           python scripts/build.py --source-commit="$GITHUB_SHA"
-          for file in app reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough; do node --check "src/$file.js"; done
+          for file in app offline-downloads reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough; do node --check "src/$file.js"; done
           python examples/pareto_lab.py --test
           python examples/sequence_lab.py
           python examples/paper_minilab.py --test
@@ -56,6 +56,11 @@ jobs:
           node tests/annual-balance/math.test.cjs
           node tests/annual-balance/dom.test.cjs
           python scripts/test_annual_balance_sources.py
+          node --check src/sw-template.js
+          node tests/offline/sw_runtime.cjs
+          node tests/offline/ui_contract.cjs
+          node tests/offline/downloads.cjs
+          python tests/offline/test_manifest.py
       - uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.4.3'
@@ -120,6 +125,30 @@ jobs:
           cp test-results/release51-report.json dist/site/release51-validation.json
           cp test-results/research-v53-report.json dist/site/research-v53-validation.json
           cp test-results/personal-v54-report.json dist/site/personal-v54-validation.json
+      - name: Seal and test the exact final deployed tree including reports and ZIPs
+        run: |
+          python scripts/seal_site.py --audit test-results/offline-deployment-exact-tree.json
+          python tests/offline/test_manifest.py
+          python scripts/test_full_offline.py
+          python scripts/seal_site.py --check --audit test-results/offline-deployment-exact-tree.json
+      - name: Preserve exact deployment audit independently of the sealed site
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-exact-deployment-audit
+          path: test-results/offline-deployment-exact-tree.json
+          retention-days: 30
+      - name: Save bounded full-offline acceptance evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-offline-acceptance
+          path: |
+            test-results/offline-deployment-exact-tree.json
+            test-results/full-offline-report.json
+            test-results/full-offline-desktop.png
+            test-results/full-offline-mobile.png
+            test-results/full-offline-portable.png
+          retention-days: 30
       - name: Save test artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -163,7 +192,7 @@ jobs:
           set -euo pipefail
           verified=false
           for attempt in $(seq 1 15); do
-            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.7'; assert d['annualBalance']['inputConfigurations']==4410; assert not d['annualBalance']['sourceDataReproduced']; assert not d['annualBalance']['agronomicResponseValidated']; assert d['qWalkthrough']['syntheticStatements']==20; assert d['qWalkthrough']['syntheticPeople']==10; assert d['qWalkthrough']['scenarios']==2; assert not d['qWalkthrough']['authorResultsReproduced']; assert not d['qWalkthrough']['authorScalingVerified']; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==12; assert d['contextualExplanations']['paperPages']==4; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
+            if curl --fail --silent --show-error "${PAGE_URL%/}/release.json?verify=$GITHUB_SHA" -o live-release.json && python -c "import json,os; d=json.load(open('live-release.json')); assert d['sourceCommit']==os.environ['GITHUB_SHA']; assert d['appVersion']=='5.5.8'; assert d['fullOffline']['allDeployedPayloads']; assert d['fullOffline']['hostedDownloadZIPs']; assert d['annualBalance']['inputConfigurations']==4410; assert not d['annualBalance']['sourceDataReproduced']; assert not d['annualBalance']['agronomicResponseValidated']; assert d['qWalkthrough']['syntheticStatements']==20; assert d['qWalkthrough']['syntheticPeople']==10; assert d['qWalkthrough']['scenarios']==2; assert not d['qWalkthrough']['authorResultsReproduced']; assert not d['qWalkthrough']['authorScalingVerified']; assert d['rdaWalkthrough']['syntheticRecords']==4; assert not d['rdaWalkthrough']['authorPlotScalingVerified']; assert not d['rdaWalkthrough']['RParityVerified']; assert d['contextualExplanations']['annotations']==12; assert d['contextualExplanations']['paperPages']==4; assert d['archivedOriginals']>=12; assert d['studyFrameworks']==21; assert d['glossaryTerms']>=98; assert d['translation']['offlineModelIncluded']; assert d['workspace']=='private-sync-v5'; assert d['sync']['requiresUserAuthorization']; assert d['researchStudio']['samplingCards']>=32; assert d['researchStudio']['indicatorDefinitions']==7; assert d['methodContracts']['count']==22; assert not d['methodContracts']['masteryInferredFromVisit']; assert not d['personalEntry']['anonymousPublicAccess']; assert not d['personalEntry']['provisionedByPublicBuild']; print(d)"; then
               verified=true; break
             fi
             sleep 5
@@ -247,6 +276,36 @@ jobs:
           python -c "import json; d=json.load(open('live-annual-default.json')); assert d['farmSurplus']==720 and d['soilResidual']==552"
           curl --fail --silent --show-error "${PAGE_URL%/}/read/farmdesign-2012-balance-walkthrough.html?verify=$GITHUB_SHA" -o live-annual-guide.html
           grep -q 'Appendix I' live-annual-guide.html
+      - name: Download the exact tested tree digest
+        uses: actions/download-artifact@v4
+        with:
+          name: paper-exact-deployment-audit
+          path: audit
+      - name: Compare every served file with the exact tested deployment bytes
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python - <<'PYLIVE'
+          import concurrent.futures, hashlib, json, os, time, urllib.request, urllib.parse
+          audit=json.load(open('audit/offline-deployment-exact-tree.json'))
+          assert audit['sourceCommit']==os.environ['GITHUB_SHA']
+          base=os.environ['PAGE_URL'].rstrip('/')+'/'
+          def verify(row):
+              url=base+urllib.parse.quote(row['path'],safe='/')+'?offline-verify='+os.environ['GITHUB_SHA']
+              for attempt in range(8):
+                  try:
+                      with urllib.request.urlopen(url,timeout=120) as response:
+                          digest=hashlib.sha256();size=0
+                          while chunk:=response.read(1024*1024):digest.update(chunk);size+=len(chunk)
+                      assert size==row['bytes'] and digest.hexdigest()==row['sha256'],row['path']
+                      return row['path']
+                  except Exception:
+                      if attempt==7:raise
+                      time.sleep(5)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:verified=list(pool.map(verify,audit['files']))
+          json.dump({'status':'passed','sourceCommit':audit['sourceCommit'],'files':len(verified),'bytes':audit['bytes'],'manifestSHA256':audit['manifestSHA256'],'includesExactManifestAndWorkerBytes':True},open('live-full-offline-integrity.json','w'),indent=2)
+          print('Verified every served payload and control:',len(verified),'files')
+          PYLIVE
       - uses: actions/upload-artifact@v4
         with:
           name: paper-live-verification

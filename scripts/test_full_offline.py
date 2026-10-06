@@ -1,0 +1,232 @@
+"""Chromium acceptance of the exact final deploy tree, with actual offline restart.
+Run AFTER CI reports are copied and seal_site.py finalizes the deployment. No
+files in dist/site are written by this test. All personal records are synthetic.
+"""
+from pathlib import Path
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
+from tempfile import TemporaryDirectory
+from threading import Thread
+import hashlib, json, socket, sys, zipfile, urllib.request, urllib.error
+from playwright.sync_api import sync_playwright
+from seal_site import check
+ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'dist/site';OUT=ROOT/'test-results';OUT.mkdir(exist_ok=True)
+AUDIT=check(SITE);MANIFEST=json.loads((SITE/'offline-manifest.json').read_text());checks=[];errors=[];success=False;closed_origins=[];corruption_diagnostics={};download_diagnostics=[]
+class Handler(SimpleHTTPRequestHandler):
+ interrupted='';corrupt='';portable=None;blocked='';watched='';requests=[]
+ def log_message(self,*a):pass
+ def translate_path(self,path):
+  from urllib.parse import unquote, urlsplit
+  name=unquote(urlsplit(path).path)
+  if name.startswith('/Paper/'):return str(SITE/name[len('/Paper/'):])
+  if name.startswith('/Portable/') and self.portable:return str(self.portable/name[len('/Portable/'):])
+  return str(SITE/'__not_found__')
+ def send_response(self, code, message=None):
+  if getattr(self,'trace',None) is not None:self.trace['status']=code
+  super().send_response(code,message)
+ def do_GET(self):
+  name=self.path.split('?')[0]
+  if name==self.watched:
+   self.trace={'path':name,'blocked':name==self.blocked};self.requests.append(self.trace)
+  if name==self.blocked:
+   body=b'SYNTHETIC offline test: origin resource blocked'
+   self.send_response(503);self.send_header('Content-Length',str(len(body)));self.end_headers();self.wfile.write(body);return
+  if name==self.interrupted:
+   data=Path(self.translate_path(name)).read_bytes();self.send_response(200);self.send_header('Content-Length',str(len(data)));self.end_headers()
+   try:self.wfile.write(data[:min(100000,len(data)//2)]);self.wfile.flush();self.connection.shutdown(socket.SHUT_RDWR)
+   except OSError:pass
+   self.connection.close();return
+  if name==self.corrupt:
+   data=Path(self.translate_path(name)).read_bytes();self.send_response(200);self.send_header('Content-Length',str(len(data)));self.end_headers();self.wfile.write(b'X'*len(data));return
+  try:super().do_GET()
+  except (BrokenPipeError,ConnectionResetError):pass
+ def end_headers(self):self.send_header('Cache-Control','no-store');super().end_headers()
+server=ThreadingHTTPServer(('127.0.0.1',0),Handler);Thread(target=server.serve_forever,daemon=True).start();origin=f'http://127.0.0.1:{server.server_port}';base=origin+'/Paper/';servers=[server]
+def stop_origin(server):
+ server.shutdown();server.server_close()
+ # Independent refusal proof: even a service-worker network bypass cannot fetch here.
+ try:
+  connection=socket.create_connection(('127.0.0.1',server.server_port),timeout=1)
+ except OSError:closed_origins.append(server.server_port);return
+ else:
+  connection.close();raise AssertionError('Offline origin still accepts network connections')
+def passed(name):checks.append(name);print('PASS',name,flush=True)
+def message(page,kind):
+ return page.evaluate('''kind=>new Promise((resolve,reject)=>{const ch=new MessageChannel();const timer=setTimeout(()=>{ch.port1.close();reject(Error('worker operation timed out'));},600000);ch.port1.onmessage=e=>{if(e.data.type==='DONE'){clearTimeout(timer);ch.port1.close();resolve(e.data);}};navigator.serviceWorker.ready.then(r=>r.active.postMessage({type:kind},[ch.port2])).catch(e=>{clearTimeout(timer);reject(e);});})''',kind)
+def native_download_probe(page, spec):
+ # Diagnostic control only: reproduce the previous native download path without
+ # the new handler, then still require every real product button to pass below.
+ diagnostic={'kind':'native-download-control','target':spec['path']};download_diagnostics.append(diagnostic)
+ page.evaluate('''spec=>{const a=document.createElement('a');a.id='native-download-probe';a.href=new URL('../'+spec.path,location.href);a.download=spec.path.split('/').pop();a.textContent='原生下载对照（仅测试）';document.querySelector('main').prepend(a);window.__nativeProbe=e=>{if(e.target.closest('#native-download-probe'))e.stopImmediatePropagation();};document.addEventListener('click',window.__nativeProbe,true);}''',spec)
+ try:
+  with page.expect_download(timeout=15000) as info:page.locator('#native-download-probe').click()
+  item=info.value;failure=item.failure();diagnostic.update(failure=failure,suggestedFilename=item.suggested_filename,downloadURLScheme=item.url.split(':',1)[0])
+  if failure is None:
+   actual=Path(item.path()).read_bytes();diagnostic.update(actualBytes=len(actual),actualSHA256=hashlib.sha256(actual).hexdigest());item.delete()
+ except Exception as error:diagnostic['exception']=str(error)
+ finally:
+  page.evaluate("()=>{document.removeEventListener('click',window.__nativeProbe,true);delete window.__nativeProbe;document.querySelector('#native-download-probe')?.remove();}")
+  print('NATIVE_DOWNLOAD_CONTROL '+json.dumps(diagnostic,ensure_ascii=False),flush=True)
+
+def download_checked(page, selector, spec, repeat=False, prepare_route=None, dispatched_route=None):
+ diagnostic={'kind':'product-download','target':spec['path'],'expectedBytes':spec['bytes'],'expectedSHA256':spec['sha256'],'repeatWhilePreparing':repeat,'prepareRoute':prepare_route,'dispatchedRoute':dispatched_route};download_diagnostics.append(diagnostic)
+ events=[]
+ def saw_download(item):events.append(item)
+ page.on('download',saw_download)
+ if repeat or prepare_route:page.evaluate("()=>{window.__downloadOriginalFetch=window.fetch;window.__downloadGate=new Promise(resolve=>{window.__releaseDownloadGate=resolve;});window.fetch=async(...args)=>{await window.__downloadGate;return window.__downloadOriginalFetch(...args);};}")
+ try:
+  with page.expect_download(timeout=60000) as info:
+   page.locator(selector).click()
+   if repeat or prepare_route:
+    assert page.evaluate('PaperDownloads.isBusy()')
+    if repeat:page.locator(selector).dispatch_event('click')
+    if prepare_route:
+     page.evaluate('(route)=>{location.hash=route;}',prepare_route);page.wait_for_function('(route)=>location.hash===route && !!document.querySelector("#note")',arg=prepare_route)
+     assert spec['path'].split('/')[-1] in page.locator('#paper-download-status').inner_text()
+    assert page.evaluate('PaperDownloads.isBusy()')
+    page.evaluate("()=>{window.fetch=window.__downloadOriginalFetch;window.__releaseDownloadGate();}")
+  item=info.value;feedback=page.locator('#paper-download-status');assert feedback.is_visible();feedback_box=feedback.bounding_box()
+  if not prepare_route:
+   trigger_box=page.locator(selector).bounding_box();assert feedback_box['y']>=trigger_box['y'] and feedback_box['y']-trigger_box['y']<240,{'feedback':feedback_box,'trigger':trigger_box}
+  if dispatched_route:
+   page.evaluate('(route)=>{location.hash=route;}',dispatched_route);page.wait_for_function('(route)=>location.hash===route && !!document.querySelector("#note")',arg=dispatched_route)
+   assert spec['path'].split('/')[-1] in page.locator('#paper-download-status').inner_text()
+  assert page.evaluate("(()=>{const r=document.querySelector('#paper-download-status').getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;})()"),'Download feedback should be in the current viewport';failure=item.failure();diagnostic.update(failure=failure,suggestedFilename=item.suggested_filename,downloadURLScheme=item.url.split(':',1)[0],ui=page.evaluate('PaperDownloads.state()'))
+  print('DOWNLOAD_DIAGNOSTIC '+json.dumps(diagnostic,ensure_ascii=False),flush=True)
+  assert failure is None,diagnostic
+  assert diagnostic['downloadURLScheme']=='blob',diagnostic
+  actual=Path(item.path()).read_bytes();diagnostic.update(actualBytes=len(actual),actualSHA256=hashlib.sha256(actual).hexdigest())
+  assert len(actual)==spec['bytes'] and diagnostic['actualSHA256']==spec['sha256'],diagnostic
+  item.delete();assert len(events)==1,{'unexpectedDownloads':len(events),**diagnostic};return item.url
+ except Exception as error:
+  diagnostic['exception']=str(error)
+  diagnostic['ui']=page.evaluate('window.PaperDownloads?.state?.()||null')
+  print('DOWNLOAD_FAILURE '+json.dumps(diagnostic,ensure_ascii=False),flush=True);raise
+ finally:
+  page.remove_listener('download',saw_download)
+  if repeat or prepare_route:page.evaluate("()=>{if(window.__downloadOriginalFetch)window.fetch=window.__downloadOriginalFetch;window.__releaseDownloadGate?.();}")
+def wait_done(page):page.wait_for_function("!PaperOffline.isBusy() && !document.querySelector('#cache-site').disabled && !document.querySelector('#cache-status').textContent.startsWith('正在准备')",timeout=600000)
+SENTINELS=[['paper-lab-reader-v2','annotations',{'id':'offline-qa-note','comment':'SYNTHETIC private annotation','bookId':'liang-2022'}],['paper-lab-reader-v2','files',{'id':'offline-qa-import','label':'SYNTHETIC imported file'}],['paper-translations-v3','translations',{'id':'offline-qa-translation','text':'SYNTHETIC reviewed translation'}],['paper-personal-device-v1','entry',{'id':'offline-qa-capability','testOnly':'SYNTHETIC noncredential sentinel'}]]
+PUT='''async rows=>{for(const [name,store,value] of rows){const db=await new Promise((ok,no)=>{const r=indexedDB.open(name);r.onupgradeneeded=()=>r.result.createObjectStore(store,{keyPath:'id'});r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error);});await new Promise((ok,no)=>{const tx=db.transaction(store,'readwrite');tx.objectStore(store).put(value);tx.oncomplete=ok;tx.onerror=()=>no(tx.error);});db.close();}}'''
+GET='''async rows=>{const values=[];for(const [name,store,value] of rows){const db=await new Promise((ok,no)=>{const r=indexedDB.open(name);r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error);});values.push(await new Promise((ok,no)=>{const r=db.transaction(store).objectStore(store).get(value.id);r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error);}));db.close();}return values;}'''
+try:
+ with TemporaryDirectory() as profile, sync_playwright() as pw:
+  ctx=pw.chromium.launch_persistent_context(profile,accept_downloads=True,viewport={'width':1280,'height':900});page=ctx.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
+  page.goto(base+'#/liang-2022');page.wait_for_selector('#note');page.locator('#note').fill('SYNTHETIC offline restart note');page.locator('h1').first.click();page.evaluate("Promise.race([navigator.serviceWorker.ready.then(()=>true),new Promise((_,reject)=>setTimeout(()=>reject(Error('SW install timeout')),90000))])");page.wait_for_function('!!navigator.serviceWorker.controller')
+  page.evaluate(PUT,SENTINELS);page.evaluate("async()=>{const c=await caches.open('paper-lab:/Farm/:offline-sentinel');await c.put('/Farm/sentinel',new Response('SYNTHETIC Farm cache'));const d=await caches.open('mydotwork-sentinel');await d.put('/MyDotWork/sentinel',new Response('SYNTHETIC MyDotWork cache'));}")
+  page.goto(base+'#/offline');page.wait_for_selector('#cache-site')
+  # Actual browser CacheStorage quota failure, then recovery. No mocked Cache.put.
+  cdp=ctx.new_cdp_session(page);cdp.send('Storage.overrideQuotaForOrigin',{'origin':origin,'quotaSize':1})
+  page.locator('#cache-site').click();wait_done(page);assert '已完整缓存' not in page.locator('#cache-status').inner_text();assert page.locator('#cache-failures').is_visible();assert not page.locator('#cache-site').is_disabled()
+  assert page.evaluate(GET,SENTINELS)==[r[2] for r in SENTINELS];passed('real browser quota failure is recoverable and preserves synthetic private stores')
+  cdp.send('Storage.overrideQuotaForOrigin',{'origin':origin,'quotaSize':4*1024**3})
+  zipped=next(r for r in MANIFEST['resources'] if r['url'].endswith('.zip'));Handler.interrupted='/Paper/'+zipped['url'][2:]
+  page.locator('#cache-site').click();wait_done(page);assert '已完整缓存' not in page.locator('#cache-status').inner_text();assert zipped['url'] in page.locator('#cache-failures').inner_text();partial=message(page,'STATUS_FAST');assert partial['count']>20 and not partial['complete'];passed('truncated network response never counts complete; verified resources retained')
+  Handler.interrupted='';page.locator('#cache-site').click();wait_done(page);assert '已完整缓存' in page.locator('#cache-status').inner_text();assert '尚需约 0.0 MiB' in page.locator('#cache-capacity').inner_text();assert float(page.locator('#cache-progress').get_attribute('value'))>0;assert message(page,'STATUS')['complete'];passed('retry completes the exact final tree including every ZIP and CI report')
+  # A page-context offline flag may not block worker-origin fetches. Independently
+  # deny the exact original at the HTTP server before testing corrupt-cache fallback.
+  target=next(r for r in MANIFEST['resources'] if r['url'].endswith('.csv'))
+  Handler.blocked=Handler.watched='/Paper/'+target['url'][2:];Handler.requests=[]
+  corruption_diagnostics.update(target=target['url'],expectedBytes=target['bytes'],expectedSHA256=target['sha256'])
+  try:
+   with urllib.request.urlopen(base+target['url'][2:],timeout=10) as probe:origin_status=probe.status
+  except urllib.error.HTTPError as error:origin_status=error.code
+  corruption_diagnostics['originProbeStatus']=origin_status
+  assert origin_status==503,corruption_diagnostics
+  page.evaluate('''async r=>{const c=await caches.open('paper-lab:/Paper/:sha256-v3');await c.put(new URL('.paper-offline/sha256/'+r.sha256,location.href),new Response(new Uint8Array(r.bytes)));}''',target)
+  damaged=message(page,'STATUS');assert not damaged['complete']
+  assert not message(page,'STATUS_FAST')['previouslyVerified']
+  fetch_digest='''async p=>{const r=await fetch(new URL(p,location.href),{cache:'no-store'}),b=await r.arrayBuffer();return {status:r.status,bytes:b.byteLength,sha256:Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b)),x=>x.toString(16).padStart(2,'0')).join(''),bodySummary:r.status===200?'':new TextDecoder().decode(b).slice(0,200)};}'''
+  request_start=len(Handler.requests);ctx.set_offline(True)
+  rejected=page.evaluate(fetch_digest,target['url'])
+  corruption_diagnostics.update(offlineFetch=rejected,offlineOriginRequests=Handler.requests[request_start:],handlerSawOfflineRefetch=len(Handler.requests)>request_start)
+  print('CORRUPTION_DIAGNOSTIC '+json.dumps(corruption_diagnostics),flush=True)
+  assert rejected['status']==503,corruption_diagnostics
+  assert '此资源未通过当前版本完整性校验' in rejected['bodySummary'],corruption_diagnostics
+  assert rejected['sha256']!=target['sha256'],corruption_diagnostics
+  Handler.blocked='';ctx.set_offline(False)
+  assert message(page,'CACHE_ALL')['complete']
+  repaired=page.evaluate(fetch_digest,target['url'])
+  corruption_diagnostics.update(repairedFetch=repaired,originRequests=Handler.requests[:])
+  assert repaired=={'status':200,'bytes':target['bytes'],'sha256':target['sha256'],'bodySummary':''},corruption_diagnostics
+  assert any(r.get('status')==200 and not r['blocked'] for r in Handler.requests),corruption_diagnostics
+  passed('same-size cached corruption invalidates checkpoint, fails closed with origin blocked, and exact network retry repairs it')
+  page.screenshot(path=str(OUT/'full-offline-desktop.png'),full_page=True)
+  ctx.close();stop_origin(server);passed('Paper HTTP origin is shut down and refuses connections before offline restart')
+  # A new Chromium process uses the persisted profile with network disabled before navigation.
+  ctx=pw.chromium.launch_persistent_context(profile,accept_downloads=True,viewport={'width':1280,'height':900});ctx.set_offline(True);page=ctx.new_page();page.on('pageerror',lambda e:errors.append(str(e)));page.goto(base+'#/offline');page.wait_for_selector('#cache-site');assert message(page,'STATUS')['complete'];passed('fresh browser process reopens the complete site with network disabled')
+  assert page.evaluate(GET,SENTINELS)==[r[2] for r in SENTINELS]
+  assert page.evaluate("JSON.parse(localStorage.getItem('paper-lab-learning-v1')).notes['liang-2022']")=='SYNTHETIC offline restart note'
+  assert page.evaluate("async()=>await(await(await caches.open('paper-lab:/Farm/:offline-sentinel')).match('/Farm/sentinel')).text()")=='SYNTHETIC Farm cache'
+  assert page.evaluate("async()=>await(await(await caches.open('mydotwork-sentinel')).match('/MyDotWork/sentinel')).text()")=='SYNTHETIC MyDotWork cache';passed('notes, annotations, imported records, translations, capability sentinels and other site scopes survive')
+  # All files, including normalized-control files, are compared against actual final-tree bytes.
+  for r in AUDIT['files']:
+   got=page.evaluate('''async name=>{const r=await fetch(new URL(name,location.href)),b=await r.arrayBuffer();return {status:r.status,bytes:b.byteLength,sha256:Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b)),x=>x.toString(16).padStart(2,'0')).join('')};}''',r['path'])
+   assert got=={'status':200,'bytes':r['bytes'],'sha256':r['sha256']},(r['path'],got)
+  passed(f"offline byte comparison matches every final deployed file ({len(AUDIT['files'])})")
+  data=json.loads((SITE/'data.json').read_text())
+  for d in data['documents']:
+   page.goto(base+'#/'+d['id']);page.wait_for_function('(title)=>document.querySelector("#view h1")?.textContent===title',arg=d['title']);assert '没有找到这篇内容' not in page.locator('#view').inner_text()
+  for route in ['home','library','methods','coverage','my-work','notes','search','lab','resources','annotations','discover','my-library','workbook','glossary','sync','offline']:
+   page.goto(base+'#/'+route);page.wait_for_function('(route)=>location.hash==="#/"+route && !!document.querySelector("#view h1")',arg=route);page.wait_for_timeout(50);assert '没有找到这篇内容' not in page.locator('#view').inner_text()
+  passed(f"all {len(data['documents'])} document routes and core navigation open offline, including never-visited pages")
+  # Open never-visited full source, actual original figure, and exercise existing interactive model.
+  page.goto(base+'#/original/liang-2023');page.wait_for_selector('#original-text');page.locator('.source-figure img').first.scroll_into_view_if_needed();page.wait_for_function("document.querySelector('.source-figure img').naturalWidth>0")
+  page.goto(base+'#/farmdesign-2012-balance-walkthrough');page.wait_for_selector('[data-annual-field="lossFraction"]');page.locator('[data-annual-field="lossFraction"]').fill('0.1');assert page.locator('[data-annual-value="chainLoss"]').inner_text()=='84.00';passed('original figures and interactive farm calculation work offline')
+  pdf=next(r for r in MANIFEST['resources'] if r['url'].endswith('.pdf'))
+  got=page.evaluate("async p=>{const r=await fetch(new URL(p,location.href),{headers:{Range:'bytes=2-17'}});return {status:r.status,bytes:Array.from(new Uint8Array(await r.arrayBuffer())),range:r.headers.get('Content-Range')};}",pdf['url'])
+  assert got['status']==206 and bytes(got['bytes'])==(SITE/pdf['url'][2:]).read_bytes()[2:18];passed('offline PDF byte-range response matches original bytes')
+  page.goto(base+'downloads/index.html');page.wait_for_function('!!window.PaperDownloads')
+  native_download_probe(page,next(r for r in AUDIT['files'] if r['path'].endswith('.zip')))
+  for number,r in enumerate(r for r in MANIFEST['resources'] if r['url'].endswith('.zip')):
+   name=Path(r['url']).name
+   download_checked(page,'a[href="'+name+'"]',{'path':r['url'][2:],'bytes':r['bytes'],'sha256':r['sha256']},repeat=number==0)
+  passed('every hosted ZIP downloads through real browser UI offline with exact SHA-256')
+  page.goto(base+'#/offline');page.wait_for_selector('#cache-site');page.clock.install();download_urls=[]
+  html_spec=next(r for r in AUDIT['files'] if r['path']=='downloads/Paper-Lab-offline.html')
+  rejected_events=[]
+  def rejected_download(item):rejected_events.append(item)
+  page.on('download',rejected_download)
+  page.evaluate("spec=>{window.__badDownloadFetch=window.fetch;const target=new URL(spec.path,location.href).href;window.fetch=(url,options)=>String(url)===target?Promise.resolve(new Response(new Uint8Array(spec.bytes),{status:200})):window.__badDownloadFetch(url,options);}",html_spec)
+  try:
+   page.locator('#view a[download][href="downloads/Paper-Lab-offline.html"]').click();page.wait_for_function("PaperDownloads.state().state==='error'&&!PaperDownloads.isBusy()")
+   assert not rejected_events,'Wrong bytes must not be dispatched to the browser download manager'
+   assert 'SHA-256校验失败' in page.locator('#paper-download-status').inner_text()
+   download_diagnostics.append({'kind':'corrupt-download-response-rejected','target':html_spec['path'],'ui':page.evaluate('PaperDownloads.state()'),'dispatchedDownloads':len(rejected_events)})
+  finally:
+   page.evaluate('window.fetch=window.__badDownloadFetch');page.remove_listener('download',rejected_download)
+  passed('download UI rejects same-size wrong bytes without dispatch and enables retry')
+  for name in ['downloads/Paper-Lab-offline.html','offline-manifest.json']:
+   page.goto(base+'#/offline');page.wait_for_selector('#cache-site')
+   spec=next(r for r in AUDIT['files'] if r['path']==name)
+   download_urls.append(download_checked(page,'#view a[download][href="'+name+'"]',spec,prepare_route='#/liang-2022' if name.endswith('.html') else None,dispatched_route='#/cheng-2025' if name.endswith('.html') else None))
+  page.clock.run_for(61000)
+  assert page.evaluate("async urls=>Promise.all(urls.map(url=>fetch(url).then(()=>false,()=>true)))",download_urls)==[True,True],'Blob URLs must be released after 60 seconds'
+  passed('download preparation and dispatch survive hash navigation with original bytes; URLs revoke after 60 seconds')
+  passed('offline single HTML and manifest downloads use real UI and exact deployed bytes')
+  page.goto(base+'#/offline');page.set_viewport_size({'width':390,'height':844});page.wait_for_selector('#cache-site');page.locator('#check-cache').click();wait_done(page);assert '已完整缓存' in page.locator('#cache-status').inner_text();assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1');page.screenshot(path=str(OUT/'full-offline-mobile.png'),full_page=True);passed('390px offline controls remain readable and deep verification succeeds')
+  assert not errors,errors;ctx.close()
+  # The actual delivered archives must extract into a working independently sealed site.
+  with TemporaryDirectory() as unpacked:
+   Handler.portable=Path(unpacked)
+   for archive in (SITE/'downloads').glob('*.zip'):
+    with zipfile.ZipFile(archive) as z:z.extractall(unpacked)
+   check(Handler.portable)
+   portable_server=ThreadingHTTPServer(('127.0.0.1',0),Handler);Thread(target=portable_server.serve_forever,daemon=True).start();servers.append(portable_server);portable_origin=f'http://127.0.0.1:{portable_server.server_port}'
+   browser=pw.chromium.launch();portable=browser.new_context(accept_downloads=True);p=portable.new_page();p.goto(portable_origin+'/Portable/#/offline');p.wait_for_selector('#cache-site')
+   assert '已解压离线包只核验解压内容' in p.locator('#view').inner_text()
+   assert p.locator('#view a[href$=".zip"]').count()==0
+   p.locator('#cache-site').click();wait_done(p)
+   result=message(p,'STATUS');assert result['complete'] and result['mode']=='portable-extracted'
+   status=p.locator('#cache-status').inner_text();assert '可离线使用全部已解压内容' in status and '并下载ZIP' not in status
+   stop_origin(portable_server);portable.set_offline(True);p.reload();p.wait_for_selector('#cache-site');p.locator('#check-cache').click();wait_done(p)
+   assert '可离线使用全部已解压内容' in p.locator('#cache-status').inner_text()
+   p.locator('#view a[href="downloads/index.html"]').click();p.wait_for_function("document.querySelector('h1')?.textContent==='独立离线包已解压'")
+   assert p.locator('a[href$=".zip"]').count()==0 and '原ZIP仍在你保存的下载位置' in p.locator('main').inner_text()
+   p.screenshot(path=str(OUT/'full-offline-portable.png'))
+   p.goto(portable_origin+'/Portable/#/original/liang-2022');p.wait_for_selector('#original-text');assert p.locator('.source-page').count()==15;browser.close();Handler.portable=None
+   passed('all real ZIP volumes extract, verify, open, cache and read originals offline')
+ check(SITE,OUT/'offline-deployment-exact-tree.json');success=True
+finally:
+ if corruption_diagnostics:corruption_diagnostics['originRequests']=Handler.requests[:]
+ for running_server in servers:running_server.shutdown();running_server.server_close()
+ (OUT/'full-offline-report.json').write_text(json.dumps({'status':'passed' if success else 'incomplete','checks':checks,'errors':errors,'testData':'synthetic only','scope':'Chromium persistent profile and mobile viewport; not physical mobile OS eviction testing','manifestSHA256':AUDIT['manifestSHA256'],'offlineNetworkProof':{'closedAndRefusedOriginPorts':closed_origins,'networkEmulationAlsoUsed':True},'corruptionDiagnostics':corruption_diagnostics,'downloadDiagnostics':download_diagnostics},ensure_ascii=False,indent=2))
