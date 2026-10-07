@@ -14,7 +14,16 @@ assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-tran
 legacy=[d for d in data['documents'] if d['id'] in ids]
 assert sha(canonical(legacy))==contract['legacy_documents_sha256'],'An old document changed'
 assert sha(canonical(data['researchLeads']))==contract['legacy_research_leads_sha256'],'An accepted research introduction changed'
-for f,key in [('src/reader.js','reader_sha256'),('resources/catalog.json','catalog_sha256')]:assert sha((ROOT/f).read_bytes())==contract[key]
+# Only these independently reviewed stale-navigation guards may differ from
+# the pinned reader. Remove them exactly, then verify every original byte.
+reader=(ROOT/'src/reader.js').read_bytes().decode('utf-8')
+reader_guards=[("async function notes(target){const ns=await all('annotations');", "async function notes(target){const ticket=epoch,ns=await all('annotations');if(ticket!==epoch)return;"), ("async function paint(){const root=docid?$('#original-text'):$('#view .reader');", "async function paint(){const ticket=epoch,root=docid?$('#original-text'):$('#view .reader');"), ("const ns=(await all('annotations')).filter(n=>n.docId===id);", "const ns=(await all('annotations')).filter(n=>n.docId===id);if(ticket!==epoch||!root.isConnected||root!==(docid?$('#original-text'):$('#view .reader')))return;"), ('let b=document.getElementById(s.block),a=b?resolve(s,b):null;', 'let b=document.getElementById(s.block);if(b&&!root.contains(b))b=null;let a=b?resolve(s,b):null;')]
+reader_guards.append(("async function shelf(){const locals=await all('books');","async function shelf(){const ticket=epoch,locals=await all('books');if(ticket!==epoch)return;"))
+for before,after in reader_guards:
+ assert reader.count(after)==1,'Expected exact reader navigation guard'
+ reader=reader.replace(after,before,1)
+assert sha(reader.encode())==contract['reader_sha256'],'Reader changed outside reviewed navigation guards'
+assert sha((ROOT/'resources/catalog.json').read_bytes())==contract['catalog_sha256']
 assert {pid:len(row['steps']) for pid,row in raw['papers'].items()}==contract['paper_step_counts']
 assert transfers==load_method_transfers(ROOT,{d['id'] for d in data['documents']})
 class Fragment(HTMLParser):

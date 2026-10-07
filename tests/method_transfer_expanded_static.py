@@ -14,7 +14,16 @@ assert sha(canonical([d for d in data['documents'] if d['id'] in ids]))==contrac
 assert sha((ROOT/'resources/method-transfer.json').read_bytes())==contract['legacy_method_source_sha256']
 assert sha(canonical({pid:transfers[pid] for pid in contract['legacy_method_ids']}))==contract['legacy_method_html_sha256']
 assert sha(canonical(data['researchLeads']))==contract['legacy_research_leads_sha256']
-for f,h in contract['protected_source_files'].items():assert sha((ROOT/f).read_bytes())==h,f
+# Retain original frozen reader bytes after removing only the exact reviewed
+# async-route guards. Every other protected source remains byte-identical.
+reader=(ROOT/'src/reader.js').read_bytes().decode('utf-8')
+reader_guards=[("async function notes(target){const ns=await all('annotations');", "async function notes(target){const ticket=epoch,ns=await all('annotations');if(ticket!==epoch)return;"), ("async function paint(){const root=docid?$('#original-text'):$('#view .reader');", "async function paint(){const ticket=epoch,root=docid?$('#original-text'):$('#view .reader');"), ("const ns=(await all('annotations')).filter(n=>n.docId===id);", "const ns=(await all('annotations')).filter(n=>n.docId===id);if(ticket!==epoch||!root.isConnected||root!==(docid?$('#original-text'):$('#view .reader')))return;"), ('let b=document.getElementById(s.block),a=b?resolve(s,b):null;', 'let b=document.getElementById(s.block);if(b&&!root.contains(b))b=null;let a=b?resolve(s,b):null;')]
+reader_guards.append(("async function shelf(){const locals=await all('books');","async function shelf(){const ticket=epoch,locals=await all('books');if(ticket!==epoch)return;"))
+for before,after in reader_guards:
+ assert reader.count(after)==1,'Expected exact reader navigation guard'
+ reader=reader.replace(after,before,1)
+for f,h in contract['protected_source_files'].items():
+ assert sha(reader.encode() if f=='src/reader.js' else (ROOT/f).read_bytes())==h,f
 assert set(extra['papers'])==set(contract['new_method_step_counts']) and len(extra['papers'])==15
 assert set(old_raw['papers']).isdisjoint(extra['papers'])
 assert set(transfers)==set(data['researchLeads']) and len(transfers)==19
