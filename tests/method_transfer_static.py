@@ -9,11 +9,11 @@ from method_transfer import load_method_transfers,static_transfer_html,static_so
 sha=lambda b:hashlib.sha256(b).hexdigest()
 canonical=lambda obj:json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 contract=json.loads((ROOT/'tests/method-transfer-baseline.json').read_text());data=json.loads((SITE/'data.json').read_text());raw=json.loads((ROOT/'resources/method-transfer.json').read_text());all_transfers=data['methodTransfers'];transfers={pid:all_transfers[pid] for pid in raw['papers']};ids=set(contract['legacy_document_ids'])
-assert len(ids)==127 and len(data['documents'])==129
-assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-20261007','method-transfer-expanded-20261007']
+assert len(ids)==127 and len(data['documents'])==130
+assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-20261007','method-transfer-expanded-20261007','ditzler-reading-20261007']
 legacy=[d for d in data['documents'] if d['id'] in ids]
 assert sha(canonical(legacy))==contract['legacy_documents_sha256'],'An old document changed'
-assert sha(canonical(data['researchLeads']))==contract['legacy_research_leads_sha256'],'An accepted research introduction changed'
+assert sha(canonical({k:v for k,v in data['researchLeads'].items() if k!='ditzler-2019'}))==contract['legacy_research_leads_sha256'],'An accepted research introduction changed'
 # Only these independently reviewed stale-navigation guards may differ from
 # the pinned reader. Remove them exactly, then verify every original byte.
 reader=(ROOT/'src/reader.js').read_bytes().decode('utf-8')
@@ -90,7 +90,7 @@ with tempfile.TemporaryDirectory() as tmp:
     assert p.read_text()==current,p.name
 assert counts==211
 single=(SITE/'downloads/Paper-Lab-offline.html').read_text();single_data=re.search(r'window\.PAPER_DATA=(.*?);\n',single)[1];assert {pid:json.loads(single_data)['methodTransfers'][pid] for pid in raw['papers']}==transfers
-assert len(data['researchLeads'])==19 and sum(len(x['hashes']) for x in data['researchLeads'].values())==38
+assert len(data['researchLeads'])==20 and sum(len(x['hashes']) for x in data['researchLeads'].values())==40
 # New content is escaped and unknown documents, duplicate identities and missing text fail closed.
 with tempfile.TemporaryDirectory() as tmp:
  root=Path(tmp);assert load_method_transfers(root,ids)=={};(root/'resources').mkdir();f=root/'resources/method-transfer.json'

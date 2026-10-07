@@ -7,6 +7,12 @@ def load_research_leads(root,document_ids):
     if not manifest.exists():return {}
     data=json.loads(manifest.read_text(encoding='utf-8'))
     if data.get('schema')!=SCHEMA:raise ValueError('Unsupported research-lead schema')
+    supplement=folder/'accepted-ditzler.json'
+    if supplement.exists():
+        extra=json.loads(supplement.read_text(encoding='utf-8'))
+        if extra.get('schema')!=SCHEMA or set(extra.get('papers',{}))!={'ditzler-2019'}:raise ValueError('Invalid Ditzler addition')
+        if set(extra['papers'])&set(data['papers']):raise ValueError('Research addition cannot overwrite existing leads')
+        data['papers'].update(extra['papers'])
     leads={}
     for pid,row in data['papers'].items():
         if not re.fullmatch(r'[a-z0-9-]+',pid) or pid not in document_ids:raise ValueError('Unknown research-lead target: '+pid)
@@ -23,6 +29,11 @@ def load_research_leads(root,document_ids):
         # These explicit IDs allow new annotations while preserving all legacy indices.
         block='<section class="research-lead-overlay" data-research-lead="'+pid+'" data-no-terms>'
         block+='<nav aria-label="研究串讲版本"><a href="#/'+pid+'/research-lead-'+pid+'-full">读完整版串讲</a> · <a href="#/'+pid+'/research-lead-'+pid+'-brief">读简略串讲</a></nav>'
+        links=row.get('sourceLinks',[])
+        allowed={'https://cgspace.cgiar.org/server/api/core/bitstreams/0b457171-47c4-48c1-9d6b-13118d7b8e35/content','https://hdl.handle.net/10568/101595','https://data.mendeley.com/datasets/n3sk27ggwf/1'}
+        if links:
+            if pid!='ditzler-2019' or len(links)!=3 or {x['url'] for x in links}!=allowed:raise ValueError('Unverified research source links')
+            block+='<nav class="source-note" aria-label="核验原文来源">'+' · '.join('<a href="'+html.escape(x['url'],quote=True)+'" target="_blank" rel="noopener noreferrer">'+html.escape(x['label'])+'</a>' for x in links)+'</nav>'
         for version,title in [('full','完整研究串讲'),('brief','简略研究串讲')]:
             block+='<div id="research-lead-'+pid+'-'+version+'" class="research-lead-copy" data-lead-version="'+version+'" data-lead-sha256="'+hashes[version]+'" style="font-size:var(--body-size,17px);overflow-wrap:anywhere"><h2>'+title+'</h2>'
             for index,paragraph in enumerate(paragraphs[version],1):

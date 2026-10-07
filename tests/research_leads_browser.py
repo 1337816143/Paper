@@ -18,7 +18,7 @@ OUT = ROOT / 'test-results/research-leads'
 OUT.mkdir(parents=True, exist_ok=True)
 DATA = json.loads((SITE / 'data.json').read_text())
 LEADS = DATA['researchLeads']
-assert len(LEADS) == 19
+assert len(LEADS) == 20
 checks, errors = [], []
 
 
@@ -132,7 +132,7 @@ Object.defineProperty(window,'PAPER_DATA',{configurable:true,get(){return paperD
         single = SITE / 'downloads/Paper-Lab-offline.html'
         p.goto(single.resolve().as_uri() + '#/liang-2022')
         assert_lead(p, 'liang-2022')
-        check('single HTML embeds all nineteen accepted additions', p.evaluate('Object.keys(PAPER_DATA.researchLeads).length') == 19)
+        check('single HTML embeds all twenty accepted additions', p.evaluate('Object.keys(PAPER_DATA.researchLeads).length') == 20)
         p.evaluate('location.hash = "#/verdouw-2021"')
         assert_lead(p, 'verdouw-2021')
         check('file-protocol text has no network dependency', not external)

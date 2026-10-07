@@ -12,7 +12,7 @@ function evaluate(data){
  code+='docs.forEach(d=>store.notes[d.id]="SYNTHETIC retained note <>&");\nglobalThis.rendered=Object.fromEntries(docs.map(d=>[d.id,article(d)]));';
  const context={window,URL};Object.defineProperty(context,'localStorage',{get(){throw Error('No storage mutation allowed')}});Object.defineProperty(context,'indexedDB',{get(){throw Error('No storage mutation allowed')}});vm.runInNewContext(code,context);return context.rendered;
 }
-const previous={...D,methodTransfers:Object.fromEntries(Object.entries(D.methodTransfers).filter(([id])=>contract.legacy_method_ids.includes(id)))};
+const previous={...D,methodTransfers:Object.fromEntries(Object.entries(D.methodTransfers).filter(([id])=>contract.legacy_method_ids.includes(id)||id==='ditzler-2019'))};
 const before=evaluate(previous),after=evaluate(D);let additions=0;
 for(const doc of D.documents){
  const isNew=Object.hasOwn(contract.new_method_step_counts,doc.id),fragment=isNew?D.methodTransfers[doc.id].html:'';
