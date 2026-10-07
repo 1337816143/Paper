@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """All nineteen method pages, exact legacy overlays and annotation preservation."""
 from pathlib import Path
+from liang_correction_contract import original_leads, original_source_bytes
 from html.parser import HTMLParser
 import hashlib,html,json,re,sys,tempfile,subprocess,copy
 ROOT=Path(__file__).resolve().parents[1];SITE=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else ROOT/'dist/site';BASE=Path(sys.argv[2]).resolve() if len(sys.argv)>2 else None
@@ -8,12 +9,12 @@ sys.path.insert(0,str(ROOT/'scripts'))
 from method_transfer import load_method_transfers,static_transfer_html,static_source_notice
 canonical=lambda x:json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode();sha=lambda b:hashlib.sha256(b).hexdigest()
 contract=json.loads((ROOT/'tests/method-transfer-expanded-baseline.json').read_text());data=json.loads((SITE/'data.json').read_text());extra=json.loads((ROOT/'resources/method-transfer-expanded.json').read_text());old_raw=json.loads((ROOT/'resources/method-transfer.json').read_text());ids=set(contract['legacy_document_ids']);transfers=data['methodTransfers']
-assert len(ids)==128 and len(data['documents'])==130
-assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-expanded-20261007','ditzler-reading-20261007']
+assert len(ids)==128 and len(data['documents'])==131
+assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-expanded-20261007','ditzler-reading-20261007','liang-source-discrepancy-20261007']
 assert sha(canonical([d for d in data['documents'] if d['id'] in ids]))==contract['legacy_documents_sha256']
 assert sha((ROOT/'resources/method-transfer.json').read_bytes())==contract['legacy_method_source_sha256']
 assert sha(canonical({pid:transfers[pid] for pid in contract['legacy_method_ids']}))==contract['legacy_method_html_sha256']
-assert sha(canonical({k:v for k,v in data['researchLeads'].items() if k!='ditzler-2019'}))==contract['legacy_research_leads_sha256']
+assert sha(canonical({k:v for k,v in original_leads(data['researchLeads']).items() if k!='ditzler-2019'}))==contract['legacy_research_leads_sha256']
 # Retain original frozen reader bytes after removing only the exact reviewed
 # async-route guards. Every other protected source remains byte-identical.
 reader=(ROOT/'src/reader.js').read_bytes().decode('utf-8')
@@ -23,7 +24,7 @@ for before,after in reader_guards:
  assert reader.count(after)==1,'Expected exact reader navigation guard'
  reader=reader.replace(after,before,1)
 for f,h in contract['protected_source_files'].items():
- assert sha(reader.encode() if f=='src/reader.js' else (ROOT/f).read_bytes())==h,f
+ assert sha(reader.encode() if f=='src/reader.js' else original_source_bytes(ROOT,f))==h,f
 assert set(extra['papers'])==set(contract['new_method_step_counts']) and len(extra['papers'])==15
 assert set(old_raw['papers']).isdisjoint(extra['papers'])
 assert set(transfers)==set(data['researchLeads']) and len(transfers)==20

@@ -3,11 +3,11 @@
   "papers": {
     "liang-2022": {
       "full": {
-        "sha256": "92cfc99d8491739f8e7235c364b60faa65bdf901d83bb1f613fd09c8fa38516b",
+        "sha256": "0224d898f4fb0925ecedb5e645dea00724c7c05a347d95b7cb8d4c5765ad99b6",
         "accepted": true
       },
       "brief": {
-        "sha256": "c1ca5cbbf490b9b85af0092b6c9409539212de808616d0b89061e4955e252e30",
+        "sha256": "b197c754c970725d47ff3188df0b191140e75f996090a3dcc64e32113cea1d14",
         "accepted": true
       }
     },

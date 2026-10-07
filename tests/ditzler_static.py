@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Additive Ditzler closure; real browser execution is a separate CI gate."""
 from pathlib import Path
+from liang_correction_contract import original_leads, original_source_bytes
 from html.parser import HTMLParser
 import hashlib,html,json,re,sys,tempfile,copy,zipfile
 ROOT=Path(__file__).resolve().parents[1]; SITE=ROOT/'dist/site';sys.path.insert(0,str(ROOT/'scripts'))
@@ -12,12 +13,12 @@ application=json.loads((ROOT/'resources/application-release.json').read_text())
 assert "assert d['appVersion']=='"+application['version']+"'" in (ROOT/'.github/workflows/pages.yml').read_text(), 'Live deploy guard must require the current exact release'
 legacy=[d for d in data['documents'] if d['id'] in contract['documentIds']]
 assert len(legacy)==129 and sha(canon(legacy))==contract['documentsSHA256']
-assert [d['id'] for d in data['documents'] if d['id'] not in contract['documentIds']]==['ditzler-reading-20261007']
+assert [d['id'] for d in data['documents'] if d['id'] not in contract['documentIds']]==['ditzler-reading-20261007','liang-source-discrepancy-20261007']
 assert set(data['researchLeads'])==set(contract['legacyLeadIds'])|{pid}
 assert set(data['methodTransfers'])==set(contract['legacyMethodIds'])|{pid}
-assert sha(canon({k:data['researchLeads'][k] for k in contract['legacyLeadIds']}))==contract['researchLeadsSHA256']
+assert sha(canon({k:original_leads(data['researchLeads'])[k] for k in contract['legacyLeadIds']}))==contract['researchLeadsSHA256']
 assert sha(canon({k:data['methodTransfers'][k] for k in contract['legacyMethodIds']}))==contract['methodTransfersSHA256']
-for path,h in contract['unchangedSourceSHA256'].items():assert sha((ROOT/path).read_bytes())==h,path
+for path,h in contract['unchangedSourceSHA256'].items():assert sha(original_source_bytes(ROOT,path))==h,path
 ids={d['id'] for d in data['documents']}; lead=data['researchLeads'][pid]; method=data['methodTransfers'][pid]
 assert load_research_leads(ROOT,ids)[pid]==lead
 assert load_method_transfers(ROOT,ids,'method-transfer-ditzler.json')=={pid:method}

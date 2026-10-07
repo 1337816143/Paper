@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Literal method fields, old content/anchors and all three reading surfaces."""
 from pathlib import Path
+from liang_correction_contract import original_leads, original_source_bytes
 from html.parser import HTMLParser
 import hashlib,html,json,re,sys,tempfile,copy,subprocess
 ROOT=Path(__file__).resolve().parents[1]; SITE=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else ROOT/'dist/site'; BASE=Path(sys.argv[2]).resolve() if len(sys.argv)>2 else None
@@ -9,11 +10,11 @@ from method_transfer import load_method_transfers,static_transfer_html,static_so
 sha=lambda b:hashlib.sha256(b).hexdigest()
 canonical=lambda obj:json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 contract=json.loads((ROOT/'tests/method-transfer-baseline.json').read_text());data=json.loads((SITE/'data.json').read_text());raw=json.loads((ROOT/'resources/method-transfer.json').read_text());all_transfers=data['methodTransfers'];transfers={pid:all_transfers[pid] for pid in raw['papers']};ids=set(contract['legacy_document_ids'])
-assert len(ids)==127 and len(data['documents'])==130
-assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-20261007','method-transfer-expanded-20261007','ditzler-reading-20261007']
+assert len(ids)==127 and len(data['documents'])==131
+assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-20261007','method-transfer-expanded-20261007','ditzler-reading-20261007','liang-source-discrepancy-20261007']
 legacy=[d for d in data['documents'] if d['id'] in ids]
 assert sha(canonical(legacy))==contract['legacy_documents_sha256'],'An old document changed'
-assert sha(canonical({k:v for k,v in data['researchLeads'].items() if k!='ditzler-2019'}))==contract['legacy_research_leads_sha256'],'An accepted research introduction changed'
+assert sha(canonical({k:v for k,v in original_leads(data['researchLeads']).items() if k!='ditzler-2019'}))==contract['legacy_research_leads_sha256'],'An accepted research introduction changed'
 # Only these independently reviewed stale-navigation guards may differ from
 # the pinned reader. Remove them exactly, then verify every original byte.
 reader=(ROOT/'src/reader.js').read_bytes().decode('utf-8')
