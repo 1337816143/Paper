@@ -5,11 +5,12 @@ from html.parser import HTMLParser
 import hashlib,html,json,re,sys,tempfile,copy,subprocess
 ROOT=Path(__file__).resolve().parents[1]; SITE=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else ROOT/'dist/site'; BASE=Path(sys.argv[2]).resolve() if len(sys.argv)>2 else None
 sys.path.insert(0,str(ROOT/'scripts'))
-from method_transfer import load_method_transfers,static_transfer_html
+from method_transfer import load_method_transfers,static_transfer_html,static_source_notice
 sha=lambda b:hashlib.sha256(b).hexdigest()
 canonical=lambda obj:json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
-contract=json.loads((ROOT/'tests/method-transfer-baseline.json').read_text());data=json.loads((SITE/'data.json').read_text());raw=json.loads((ROOT/'resources/method-transfer.json').read_text());transfers=data['methodTransfers'];ids=set(contract['legacy_document_ids'])
-assert len(ids)==127 and len(data['documents'])==128
+contract=json.loads((ROOT/'tests/method-transfer-baseline.json').read_text());data=json.loads((SITE/'data.json').read_text());raw=json.loads((ROOT/'resources/method-transfer.json').read_text());all_transfers=data['methodTransfers'];transfers={pid:all_transfers[pid] for pid in raw['papers']};ids=set(contract['legacy_document_ids'])
+assert len(ids)==127 and len(data['documents'])==129
+assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-20261007','method-transfer-expanded-20261007']
 legacy=[d for d in data['documents'] if d['id'] in ids]
 assert sha(canonical(legacy))==contract['legacy_documents_sha256'],'An old document changed'
 assert sha(canonical(data['researchLeads']))==contract['legacy_research_leads_sha256'],'An accepted research introduction changed'
@@ -59,7 +60,7 @@ with tempfile.TemporaryDirectory() as tmp:
    for url in set(record.get('aliases',[])+[record.get('sourceURL',''),record.get('downloadURL','')]):
     if url:static=static.replace('href="'+html.escape(url,quote=True)+'"','href="../index.html#/original/'+record['id']+'"')
   page=(SITE/'read'/f'{pid}.html').read_text();assert page.count(static)==1;assert page.index('data-research-lead')<page.index(static)<page.index('<section class="reader" id="s0"')
-  if BASE:assert page.replace(static,'',1)==(BASE/'read'/f'{pid}.html').read_text(),pid
+  if BASE:assert page.replace(static,'',1).replace(static_source_notice(ROOT,pid),'',1)==(BASE/'read'/f'{pid}.html').read_text(),pid
   ids_on_page=re.findall(r'\bid="([^"]+)"',articles['after'][pid]);assert len(ids_on_page)==len(set(ids_on_page)),pid
  if BASE:
   for p in (BASE/'read').glob('*.html'):
@@ -69,9 +70,17 @@ with tempfile.TemporaryDirectory() as tmp:
      if doc['id'] not in ids:
       entry='<p><a href="'+doc['id']+'.html">'+html.escape(doc['title'])+'</a></p>';assert current.count(entry)==1;current=current.replace(entry,'',1)
     assert current==p.read_text()
-   elif p.stem not in transfers:assert p.read_bytes()==(SITE/'read'/p.name).read_bytes(),p.name
+   elif p.stem not in transfers:
+    current=(SITE/'read'/p.name).read_text()
+    if p.stem in all_transfers:
+     later=static_transfer_html(all_transfers[p.stem],p.stem)
+     for record in json.loads((ROOT/'resources/catalog.json').read_text())['records']:
+      for url in set(record.get('aliases',[])+[record.get('sourceURL',''),record.get('downloadURL','')]):
+       if url:later=later.replace('href="'+html.escape(url,quote=True)+'"','href="../index.html#/original/'+record['id']+'"')
+     assert current.count(later)==1;current=current.replace(later,'',1).replace(static_source_notice(ROOT,p.stem),'',1)
+    assert p.read_text()==current,p.name
 assert counts==211
-single=(SITE/'downloads/Paper-Lab-offline.html').read_text();single_data=re.search(r'window\.PAPER_DATA=(.*?);\n',single)[1];assert json.loads(single_data)['methodTransfers']==transfers
+single=(SITE/'downloads/Paper-Lab-offline.html').read_text();single_data=re.search(r'window\.PAPER_DATA=(.*?);\n',single)[1];assert {pid:json.loads(single_data)['methodTransfers'][pid] for pid in raw['papers']}==transfers
 assert len(data['researchLeads'])==19 and sum(len(x['hashes']) for x in data['researchLeads'].values())==38
 # New content is escaped and unknown documents, duplicate identities and missing text fail closed.
 with tempfile.TemporaryDirectory() as tmp:

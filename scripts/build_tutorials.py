@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime,timezone,timedelta
 import argparse,hashlib,html,json,re,shutil,struct,subprocess,zipfile,zlib
 from research_leads import load_research_leads,static_lead_html
-from method_transfer import load_method_transfers,static_transfer_html
+from method_transfer import load_method_transfers,static_transfer_html,static_source_notice
 ROOT=Path(__file__).resolve().parents[1]
 
 def png_icon(size):
@@ -47,11 +47,14 @@ def main():
         if set(refs)-aliases:raise ValueError('Broken links: '+str(set(refs)-aliases))
     research_leads=load_research_leads(ROOT,byid)
     method_transfers=load_method_transfers(ROOT,byid)
+    extended_transfers=load_method_transfers(ROOT,byid,'method-transfer-expanded.json')
+    if set(extended_transfers)&set(method_transfers):raise ValueError('Expanded transfers cannot overwrite existing methods')
+    method_transfers.update(extended_transfers)
     files={f.name:f.read_bytes().decode('utf-8') for f in sorted((ROOT/'examples').iterdir()) if f.is_file() and f.suffix in {'.py','.R','.csv','.md','.json'}}
     for name,text in files.items():(out/'examples'/name).write_bytes(text.encode('utf-8'))
     inputs=sorted([*(ROOT/'content').glob('*.json'),*(ROOT/'src').glob('*'),*(ROOT/'examples').glob('*'),Path(__file__)])
     inputs.append(ROOT/'scripts/research_leads.py')
-    inputs += [ROOT/'scripts/method_transfer.py',ROOT/'resources/method-transfer.json']
+    inputs += [ROOT/'scripts/method_transfer.py',ROOT/'resources/method-transfer.json',ROOT/'resources/method-transfer-expanded.json']
     inputs += sorted((ROOT/'resources/research-leads').rglob('*')) if (ROOT/'resources/research-leads').exists() else []
     digest=hashlib.sha256(b''.join(f.read_bytes() for f in inputs if f.is_file())).hexdigest()[:12]
     data={'version':digest,'sourceCommit':a.source_commit,'updated':date,'documents':documents,'files':files}
@@ -91,6 +94,7 @@ def main():
             return '<p class="notice dong-source-update">历史来源状态：官方SI现已取得；下文旧“补充缺失”等字样仅保留当时记录，不再表示当前状态。原始数据、完整NUFER与P拟合仍缺。<a href="../index.html#/dong-si-boundary-walkthrough">新带读与完整推导</a></p>'
         body+=static_lead_html(research_leads.get(d['id'],{}),d['id'])
         body+=static_transfer_html(method_transfers.get(d['id'],{}),d['id'])
+        if d['id'] in method_transfers:body+=static_source_notice(ROOT,d['id'])
         for i,s in enumerate(d['sections']):body+=f'<section class="reader" id="s{i}"><span class="kind">{html.escape(explain(s[1]))}</span><h2>{i+1}. {html.escape(explain(s[0]))}</h2>{q_source_correction(i)}{dong_source_correction(i)}<div class="prose">{rich(s[2])}</div>'+('<p class="source-note">'+html.escape(s[3])+'</p>' if len(s)>3 else '')+'</section>'
         if d.get('quiz'):body+='<section id="self-test"><h2>关键问题与解说</h2><p>直接查看解释；本页没有答题或评分。</p>'
         for q,ans in d.get('quiz',[]):body+='<details open><summary>'+html.escape(q)+'</summary>'+rich(ans)+'</details>'

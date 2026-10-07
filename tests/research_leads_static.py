@@ -56,13 +56,13 @@ for pid,lead in leads.items():
  if BASE:
   previous=text.replace(block,'',1)
   if pid in data.get('methodTransfers',{}):
-   from method_transfer import static_transfer_html
+   from method_transfer import static_transfer_html,static_source_notice
    later=static_transfer_html(data['methodTransfers'][pid],pid)
    for record in json.loads((ROOT/'resources/catalog.json').read_text())['records']:
     for url in set(record.get('aliases',[])+[record.get('sourceURL',''),record.get('downloadURL','')]):
      if url:later=later.replace('href="'+html.escape(url,quote=True)+'"','href="../index.html#/original/'+record['id']+'"')
    assert previous.count(later)==1
-   previous=previous.replace(later,'',1)
+   previous=previous.replace(later,'',1).replace(static_source_notice(ROOT,pid),'',1)
   assert previous==(BASE/'read'/(pid+'.html')).read_text(),pid
  assert text.index(block)<text.index('<section class="reader" id="s0"')
 if BASE:

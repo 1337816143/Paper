@@ -54,8 +54,8 @@ class Sources(unittest.TestCase):
   for f in ['dong-boundary.js','dong-boundary-model.js','dong-boundary.css']:
    self.assertEqual((out/f).read_bytes(),(ROOT/'src'/f).read_bytes())
   self.assertEqual((out/'examples/dong_boundary_lab.py').read_bytes(),(ROOT/'examples/dong_boundary_lab.py').read_bytes())
-  r=json.loads((out/'release.json').read_text());self.assertEqual(r['appVersion'],'5.5.13')
-  self.assertEqual(r['documents'],128) if 'documents' in r else None
+  r=json.loads((out/'release.json').read_text());self.assertEqual(r['appVersion'],'5.5.14')
+  self.assertEqual(r['documents'],129) if 'documents' in r else None
   self.assertTrue(r['dongBoundary']['syntheticOnly']);self.assertFalse(r['dongBoundary']['authorResultsReproduced'])
   self.assertEqual(r['dongBoundary']['legacyMainSections'],9);self.assertEqual(r['dongBoundary']['legacyLedgerSections'],6)
   single=(out/'downloads/Paper-Lab-offline.html').read_text()
