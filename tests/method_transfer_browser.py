@@ -133,8 +133,11 @@ def exercise_new_method_notes(browser,base,label,offline=False):
    check(label+'/'+pid+' glossary close leaves exact paragraph and route',paragraph.text_content()==selected['text'] and page.url.endswith('#/'+pid))
   page.evaluate("""(id)=>{const block=document.getElementById(id);const range=document.createRange();range.selectNodeContents(block);const selection=getSelection();selection.removeAllRanges();selection.addRange(range);document.dispatchEvent(new Event('selectionchange'));}""",selected['id'])
   page.locator('#selection-tools').wait_for(state='visible');page.locator('#selection-tools [data-quick="highlight"]').click()
-  page.wait_for_function('async({pid,id,quote})=>(await PaperReader.all("annotations")).filter(r=>r.docId==="lesson:"+pid&&r.quote===quote&&r.segments?.[0]?.block===id).length===1',arg={'pid':pid,'id':selected['id'],'quote':selected['text']})
-  record=page.evaluate('async({pid,id})=>(await PaperReader.all("annotations")).find(r=>r.docId==="lesson:"+pid&&r.segments?.[0]?.block===id)',{'pid':pid,'id':selected['id']})
+  # paint() follows the committed toolbar put; wait on real DOM completion.
+  # Playwright 1.55 treats a Promise predicate as truthy, so predicates stay sync.
+  page.wait_for_function('(id)=>!!document.getElementById(id)?.querySelector("mark[data-annotation]")',arg=selected['id'])
+  matching=page.evaluate('async({pid,id,quote})=>(await PaperReader.all("annotations")).filter(r=>r.docId==="lesson:"+pid&&r.quote===quote&&r.segments?.[0]?.block===id)',{'pid':pid,'id':selected['id'],'quote':selected['text']})
+  check(label+'/'+pid+' exactly one committed annotation matches the selected method block',len(matching)==1);record=matching[0]
   check(label+'/'+pid+' actual selection toolbar saves one stable method block',len(record['segments'])==1 and record['quote']==selected['text'] and record['segments'][0]['start']==0 and record['segments'][0]['end']==selected['utf16Length'])
   marks=assert_method_annotation(page,pid,record,selected['text'])
   if selected['hasTerm']:
@@ -162,7 +165,9 @@ def exercise_new_method_notes(browser,base,label,offline=False):
  restored=browser.new_context(offline=offline,viewport={'width':390,'height':844},reduced_motion='reduce');page=restored.new_page();page.on('pageerror',lambda e:errors.append(str(e)));goto_exact(page,base+'#/annotations');page.locator('#import-annotations').wait_for(state='visible')
  check(label+' import uses an empty isolated context',page.evaluate('()=>PaperReader.all("annotations")')==[])
  with page.expect_file_chooser() as chooser:page.locator('#import-annotations').click()
- chooser.value.set_files(export);page.wait_for_function('async()=> (await PaperReader.all("annotations")).length===19')
+ chooser.value.set_files(export)
+ # importNotes renders the list only after all nineteen writes complete.
+ page.wait_for_function('()=>document.querySelectorAll("#annotation-list .annotation-card").length===19')
  imported_records={r['id']:r for r in page.evaluate('()=>PaperReader.all("annotations")')}
  if imported_records!=expected:
   differences=[]
@@ -171,6 +176,7 @@ def exercise_new_method_notes(browser,base,label,offline=False):
    changed={key:{'expectedPresent':key in before,'actualPresent':key in after,'expected':before.get(key),'actual':after.get(key)} for key in sorted(set(before)|set(after)) if (key in before)!=(key in after) or before.get(key)!=after.get(key)}
    if changed:differences.append({'id':identity,'fields':changed})
   import_diagnostics.append({'mode':label,'expectedCount':len(expected),'actualCount':len(imported_records),'missing':sorted(set(expected)-set(imported_records)),'unexpected':sorted(set(imported_records)-set(expected)),'recordDifferences':differences})
+ check(label+' all nineteen imported annotations are committed',len(imported_records)==19)
  check(label+' imported annotations retain exact original records',imported_records==expected)
  for pid,snapshot in saved.items():
   record=snapshot['record'];block_id=record['segments'][0]['block'];goto_exact(page,base+'#/'+pid+'/'+block_id);page.wait_for_function('(id)=>{const e=document.getElementById(id);return e&&!e.closest("details:not([open])");}',arg=block_id);assert_method_annotation(page,pid,record,snapshot['text'])
