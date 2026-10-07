@@ -8,6 +8,8 @@ from research_leads import load_research_leads,static_lead_html
 from method_transfer import load_method_transfers,static_transfer_html,static_source_notice
 sha=lambda b:hashlib.sha256(b).hexdigest();canon=lambda d:json.dumps(d,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 contract=json.loads((ROOT/'tests/ditzler-baseline.json').read_text());data=json.loads((SITE/'data.json').read_text());pid='ditzler-2019'
+application=json.loads((ROOT/'resources/application-release.json').read_text())
+assert "assert d['appVersion']=='"+application['version']+"'" in (ROOT/'.github/workflows/pages.yml').read_text(), 'Live deploy guard must require the current exact release'
 legacy=[d for d in data['documents'] if d['id'] in contract['documentIds']]
 assert len(legacy)==129 and sha(canon(legacy))==contract['documentsSHA256']
 assert [d['id'] for d in data['documents'] if d['id'] not in contract['documentIds']]==['ditzler-reading-20261007']
