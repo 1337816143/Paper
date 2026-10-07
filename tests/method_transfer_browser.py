@@ -7,7 +7,7 @@ from urllib.parse import unquote,urlsplit
 import hashlib,json,re,time
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'dist/site';OUT=ROOT/'test-results/method-transfer';OUT.mkdir(parents=True,exist_ok=True)
-new_note_results=[]
+new_note_results=[];history_diagnostics=[];navigation_events=[]
 RAW=json.loads((ROOT/'resources/method-transfer.json').read_text());PAPERS=dict(RAW['papers']);PAPERS.update(json.loads((ROOT/'resources/method-transfer-expanded.json').read_text())['papers']);assert len(PAPERS)==19;checks=[];errors=[];passed=False
 class Handler(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
@@ -32,6 +32,14 @@ def assert_transfer(page,pid,toggle=False):
    summary.focus();summary.press('Enter');check(pid+'/'+step['id']+' opens by keyboard',detail.evaluate('(e)=>e.open'))
    summary.press('Enter');check(pid+'/'+step['id']+' closes by keyboard',not detail.evaluate('(e)=>e.open'))
  return block
+
+def snapshot_history(page,label):
+ session=page.context.new_cdp_session(page)
+ try:history=session.send('Page.getNavigationHistory')
+ finally:session.detach()
+ state=page.evaluate("()=>({hash:location.hash,length:history.length,state:history.state,methodRoots:[...document.querySelectorAll('#view [data-method-transfer]')].map(e=>e.dataset.methodTransfer),activeId:document.activeElement?.id||null})")
+ row={'label':label,'entries':[{'id':e['id'],'url':e['url']} for e in history['entries']],'currentIndex':history['currentIndex'],'page':state}
+ history_diagnostics.append(row);print('HISTORY_DIAGNOSTIC',json.dumps(row,ensure_ascii=False),flush=True)
 
 def legacy_blocks(page):
  return page.locator('#view .reader .prose p, #view .reader .prose pre').evaluate_all('(nodes)=>nodes.map(p=>[p.id,p.textContent])')
@@ -119,6 +127,7 @@ server=ThreadingHTTPServer(('127.0.0.1',0),Handler);Thread(target=server.serve_f
 try:
  with sync_playwright() as pw:
   browser=pw.chromium.launch();context=browser.new_context(viewport={'width':1280,'height':900},reduced_motion='reduce');page=context.new_page();page.on('pageerror',lambda e:errors.append(str(e)))
+  history_session=context.new_cdp_session(page);history_session.send('Page.enable');history_session.on('Page.navigatedWithinDocument',lambda event:navigation_events.append({'at':time.monotonic(),'url':event['url'],'navigationType':event.get('navigationType')}))
   for pid in PAPERS:
    page.goto(BASE+'#/'+pid);block=assert_transfer(page,pid,True)
    block.locator('details').evaluate_all('(xs)=>xs.forEach(e=>e.open=true)');page.set_viewport_size({'width':390,'height':844})
@@ -126,7 +135,11 @@ try:
    if pid=='farmsteps-2026':block.screenshot(path=str(OUT/'farmsteps-mobile-expanded.png'))
    page.set_viewport_size({'width':1280,'height':900});page.evaluate('location.hash="#/'+pid+'/s0"');page.wait_for_url(BASE+'#/'+pid+'/s0')
    check(pid+' old s0 anchor exists',page.locator('#s0').count()==1)
-  page.goto(BASE+'#/farmdesign-2012/s0');page.goto(BASE+'#/landscape-2018/s0');page.go_back();page.wait_for_url(BASE+'#/farmdesign-2012/s0');assert_transfer(page,'farmdesign-2012');page.go_forward();page.wait_for_url(BASE+'#/landscape-2018/s0');assert_transfer(page,'landscape-2018');check('Back and Forward retain old routes and additions',True)
+  rapid_pair_started=time.monotonic()
+  try:
+   page.goto(BASE+'#/farmdesign-2012/s0');page.goto(BASE+'#/landscape-2018/s0');page.go_back();page.wait_for_url(BASE+'#/farmdesign-2012/s0');assert_transfer(page,'farmdesign-2012');page.go_forward();page.wait_for_url(BASE+'#/landscape-2018/s0');assert_transfer(page,'landscape-2018');check('Back and Forward retain old routes and additions',True)
+  finally:
+   snapshot_history(page,'after unmodified rapid legacy pair');history_diagnostics[-1].update(navigationEvents=navigation_events,rapidPairStarted=rapid_pair_started,rapidPairFinished=time.monotonic())
   context.close()
   # Disable only the new overlay, create synthetic old notes/highlights, then
   # reload the same browser storage with the overlay restored.
@@ -168,4 +181,4 @@ try:
    p.goto(single+'#/'+pid);assert_transfer(p,pid,True)
   check('offline single HTML embeds all nineteen method additions',p.evaluate('Object.keys(PAPER_DATA.methodTransfers).length')==19);check('file-protocol text has no network dependency',not external);check('no browser script errors',not errors);offline.close();new_note_results.append(exercise_new_method_notes(browser,single,'file',offline=True));check('no errors after new method interaction tests',not errors);browser.close();passed=True
 finally:
- server.shutdown();report={'passed':passed,'browser':'Chromium via Playwright','papers':len(PAPERS),'steps':sum(len(row['steps']) for row in PAPERS.values()),'checks':checks,'errors':errors,'sourceCommit':json.loads((SITE/'release.json').read_text())['sourceCommit'],'dataSHA256':hashlib.sha256((SITE/'data.json').read_bytes()).hexdigest(),'syntheticRecordsOnly':True,'newMethodInteractionResults':new_note_results};(OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ server.shutdown();report={'passed':passed,'browser':'Chromium via Playwright','papers':len(PAPERS),'steps':sum(len(row['steps']) for row in PAPERS.values()),'checks':checks,'errors':errors,'sourceCommit':json.loads((SITE/'release.json').read_text())['sourceCommit'],'dataSHA256':hashlib.sha256((SITE/'data.json').read_bytes()).hexdigest(),'syntheticRecordsOnly':True,'newMethodInteractionResults':new_note_results,'historyDiagnostics':history_diagnostics};(OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
