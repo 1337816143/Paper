@@ -51,15 +51,16 @@ def legacy_blocks(page):
 
 def exercise_rapid_app_history(page,base,label):
  pid='farmdesign-2012';goto_exact(page,base+'#/'+pid);page.wait_for_selector('#method-transfer-'+pid+'[data-method-transfer-ready="v1"]')
+ page.locator('.toc a[href="#/farmdesign-2012/study-stage-0"]').wait_for(state='attached');page.locator('.toc a[href="#/farmdesign-2012/study-stage-1"]').wait_for(state='attached')
  note='SYNTHETIC rapid history note '+label;page.locator('#note').fill(note);original=legacy_blocks(page)
  # Both clicks and native Back are in one JS task: no protocol, frame or sleep
  # between them. These are existing UI anchors handled by the real app router.
- clicks=page.evaluate("""()=>{const visited=[];for(const hash of ['#/farmdesign-2012/s0','#/farmdesign-2012/s1']){const a=document.querySelector('.toc a[href="'+hash+'"]');if(!a)throw Error('Missing actual TOC anchor '+hash);a.click();visited.push(location.hash);}history.back();return visited;}""")
- check(label+' same-task TOC click-handler stress commits both exact anchors',clicks==['#/farmdesign-2012/s0','#/farmdesign-2012/s1'])
- page.wait_for_url(base+'#/'+pid+'/s0');page.wait_for_selector('#method-transfer-'+pid+'[data-method-transfer-ready="v1"]')
- check(label+' immediate native Back restores the preceding exact anchor and old note',page.locator('#s0').count()==1 and page.locator('#note').input_value()==note and legacy_blocks(page)==original)
- page.go_forward();page.wait_for_url(base+'#/'+pid+'/s1');page.wait_for_selector('#method-transfer-'+pid+'[data-method-transfer-ready="v1"]')
- check(label+' native Forward restores the later exact anchor and old note',page.locator('#s1').count()==1 and page.locator('#note').input_value()==note and legacy_blocks(page)==original)
+ clicks=page.evaluate("""()=>{const visited=[];for(const hash of ['#/farmdesign-2012/study-stage-0','#/farmdesign-2012/study-stage-1']){const a=document.querySelector('.toc a[href="'+hash+'"]');if(!a)throw Error('Missing actual TOC anchor '+hash);a.click();visited.push(location.hash);}history.back();return visited;}""")
+ check(label+' same-task TOC click-handler stress commits both exact anchors',clicks==['#/farmdesign-2012/study-stage-0','#/farmdesign-2012/study-stage-1'])
+ page.wait_for_url(base+'#/'+pid+'/study-stage-0');page.wait_for_selector('#method-transfer-'+pid+'[data-method-transfer-ready="v1"]')
+ check(label+' immediate native Back restores the preceding exact anchor and old note',page.locator('#study-stage-0').is_visible() and page.locator('#s0').count()==1 and page.locator('#note').input_value()==note and legacy_blocks(page)==original)
+ page.go_forward();page.wait_for_url(base+'#/'+pid+'/study-stage-1');page.wait_for_selector('#method-transfer-'+pid+'[data-method-transfer-ready="v1"]')
+ check(label+' native Forward restores the later exact anchor and old note',page.locator('#study-stage-1').is_visible() and page.locator('#s1').count()==1 and page.locator('#note').input_value()==note and legacy_blocks(page)==original)
  # Separate trusted mouse-input path; prepare two distinct notes, then start
  # on a third paper so a missed first click cannot accidentally pass Back.
  page.set_viewport_size({'width':1280,'height':900});mouse_saved={}
