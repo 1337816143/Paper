@@ -605,5 +605,32 @@
       "dong-2026"
     ],
     "quiz": []
+  },
+  {
+    "id": "method-transfer-20261007",
+    "type": "guide",
+    "stage": "研究迁移更新",
+    "title": "四篇原方法如何接入农场与省域研究",
+    "summary": "在四篇现有论文内增加30步输入—操作—输出—用途说明，区分原文、合成版本和拟议接法。",
+    "sections": [
+      [
+        "阅读位置",
+        "原创方法连接说明",
+        "从[[farmdesign-2012|FarmDESIGN 2012]]、[[farmsteps-2026|FarmSTEPS 2026]]、[[landscape-2007|Landscape 2007]]和[[landscape-2018|Landscape 2018]]的“方法如何接入两个尺度研究”进入。既有完整版、简略版、正文和原图继续保留。",
+        "原论文页码、公式和限制见四篇新增展开项"
+      ],
+      [
+        "证据边界",
+        "来源与研究提案",
+        "教学代入与合成版本均不是作者原始数据或作者软件复现。FarmSTEPS负P字面核算与物理损失分开；2599与2303是简单重建未闭合；FarmDESIGN式8的DMD印刷式与定义待核。拟议A/B接口未被宣称为Farm网站已实现功能。",
+        "2026-10-07；四篇主文与FarmSTEPS SI方法审查"
+      ]
+    ],
+    "related": [
+      "farmdesign-2012",
+      "farmsteps-2026",
+      "landscape-2007",
+      "landscape-2018"
+    ]
   }
 ]
