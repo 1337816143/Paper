@@ -7,7 +7,7 @@ from urllib.parse import unquote,urlsplit
 import hashlib,json,re,time
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1];SITE=ROOT/'dist/site';OUT=ROOT/'test-results/method-transfer';OUT.mkdir(parents=True,exist_ok=True)
-new_note_results=[];history_diagnostics=[];navigation_events=[];annotation_diagnostics=[]
+new_note_results=[];history_diagnostics=[];navigation_events=[];annotation_diagnostics=[];import_diagnostics=[]
 RAW=json.loads((ROOT/'resources/method-transfer.json').read_text());PAPERS=dict(RAW['papers']);PAPERS.update(json.loads((ROOT/'resources/method-transfer-expanded.json').read_text())['papers']);assert len(PAPERS)==19;checks=[];errors=[];passed=False
 class Handler(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
@@ -160,9 +160,18 @@ def exercise_new_method_notes(browser,base,label,offline=False):
  if offline:check(label+' new method tools require no network',not network)
  context.close()
  restored=browser.new_context(offline=offline,viewport={'width':390,'height':844},reduced_motion='reduce');page=restored.new_page();page.on('pageerror',lambda e:errors.append(str(e)));goto_exact(page,base+'#/annotations');page.locator('#import-annotations').wait_for(state='visible')
+ check(label+' import uses an empty isolated context',page.evaluate('()=>PaperReader.all("annotations")')==[])
  with page.expect_file_chooser() as chooser:page.locator('#import-annotations').click()
  chooser.value.set_files(export);page.wait_for_function('async()=> (await PaperReader.all("annotations")).length===19')
- check(label+' imported annotations retain exact original records',{r['id']:r for r in page.evaluate('()=>PaperReader.all("annotations")')}==expected)
+ imported_records={r['id']:r for r in page.evaluate('()=>PaperReader.all("annotations")')}
+ if imported_records!=expected:
+  differences=[]
+  for identity in sorted(set(imported_records)&set(expected)):
+   before,after=expected[identity],imported_records[identity]
+   changed={key:{'expectedPresent':key in before,'actualPresent':key in after,'expected':before.get(key),'actual':after.get(key)} for key in sorted(set(before)|set(after)) if (key in before)!=(key in after) or before.get(key)!=after.get(key)}
+   if changed:differences.append({'id':identity,'fields':changed})
+  import_diagnostics.append({'mode':label,'expectedCount':len(expected),'actualCount':len(imported_records),'missing':sorted(set(expected)-set(imported_records)),'unexpected':sorted(set(imported_records)-set(expected)),'recordDifferences':differences})
+ check(label+' imported annotations retain exact original records',imported_records==expected)
  for pid,snapshot in saved.items():
   record=snapshot['record'];block_id=record['segments'][0]['block'];goto_exact(page,base+'#/'+pid+'/'+block_id);page.wait_for_function('(id)=>{const e=document.getElementById(id);return e&&!e.closest("details:not([open])");}',arg=block_id);assert_method_annotation(page,pid,record,snapshot['text'])
   check(label+'/'+pid+' imported note returns to unchanged legacy context',legacy_blocks(page)==snapshot['legacy'])
@@ -228,4 +237,4 @@ try:
    goto_exact(p,single+'#/'+pid);assert_transfer(p,pid,True)
   check('offline single HTML embeds all nineteen method additions',p.evaluate('Object.keys(PAPER_DATA.methodTransfers).length')==19);check('file-protocol text has no network dependency',not external);check('no browser script errors',not errors);offline.close();new_note_results.append(exercise_new_method_notes(browser,single,'file',offline=True));check('no errors after new method interaction tests',not errors);browser.close();passed=True
 finally:
- server.shutdown();report={'passed':passed,'browser':'Chromium via Playwright','papers':len(PAPERS),'steps':sum(len(row['steps']) for row in PAPERS.values()),'checks':checks,'errors':errors,'sourceCommit':json.loads((SITE/'release.json').read_text())['sourceCommit'],'dataSHA256':hashlib.sha256((SITE/'data.json').read_bytes()).hexdigest(),'syntheticRecordsOnly':True,'newMethodInteractionResults':new_note_results,'historyDiagnostics':history_diagnostics,'annotationDiagnostics':annotation_diagnostics};(OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ server.shutdown();report={'passed':passed,'browser':'Chromium via Playwright','papers':len(PAPERS),'steps':sum(len(row['steps']) for row in PAPERS.values()),'checks':checks,'errors':errors,'sourceCommit':json.loads((SITE/'release.json').read_text())['sourceCommit'],'dataSHA256':hashlib.sha256((SITE/'data.json').read_bytes()).hexdigest(),'syntheticRecordsOnly':True,'newMethodInteractionResults':new_note_results,'historyDiagnostics':history_diagnostics,'annotationDiagnostics':annotation_diagnostics,'importDiagnostics':import_diagnostics};(OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
