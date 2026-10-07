@@ -53,7 +53,17 @@ for pid,lead in leads.items():
  assert [p[1] for p in parser.paragraphs]==expected;counts+=len(expected)
  block=static_lead_html(lead,pid);text=(SITE/'read'/(pid+'.html')).read_text();assert text.count(block)==1
  for version in ['full','brief']:assert 'href="#research-lead-'+pid+'-'+version+'"' in block
- if BASE:assert text.replace(block,'',1)==(BASE/'read'/(pid+'.html')).read_text(),pid
+ if BASE:
+  previous=text.replace(block,'',1)
+  if pid in data.get('methodTransfers',{}):
+   from method_transfer import static_transfer_html
+   later=static_transfer_html(data['methodTransfers'][pid],pid)
+   for record in json.loads((ROOT/'resources/catalog.json').read_text())['records']:
+    for url in set(record.get('aliases',[])+[record.get('sourceURL',''),record.get('downloadURL','')]):
+     if url:later=later.replace('href="'+html.escape(url,quote=True)+'"','href="../index.html#/original/'+record['id']+'"')
+   assert previous.count(later)==1
+   previous=previous.replace(later,'',1)
+  assert previous==(BASE/'read'/(pid+'.html')).read_text(),pid
  assert text.index(block)<text.index('<section class="reader" id="s0"')
 if BASE:
  for p in (BASE/'read').glob('*.html'):
