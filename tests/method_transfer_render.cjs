@@ -3,6 +3,8 @@ const fs=require('fs'),path=require('path'),vm=require('vm'),crypto=require('cry
 const root=path.resolve(__dirname,'..'),site=path.resolve(process.argv[2]||path.join(root,'dist/site'));
 const D=JSON.parse(fs.readFileSync(path.join(site,'data.json'),'utf8'));
 const current=fs.readFileSync(path.join(root,'src/app.js'),'utf8'),contract=JSON.parse(fs.readFileSync(path.join(root,'tests/method-transfer-baseline.json'),'utf8'));
+// This historical guard isolates the original four additions; the expanded guard covers all nineteen.
+D.methodTransfers=Object.fromEntries(Object.entries(D.methodTransfers||{}).filter(([id])=>Object.hasOwn(contract.paper_step_counts,id)));
 const marker="${D.methodTransfers?.[d.id]?.html||''}";assert.equal(current.split(marker).length,2);
 const original=current.replace(marker,'');assert.equal(crypto.createHash('sha256').update(original).digest('hex'),contract.app_sha256);
 const presentation=JSON.parse(fs.readFileSync(path.join(root,'resources/research-presentation.json'),'utf8'));
