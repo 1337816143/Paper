@@ -51,11 +51,25 @@ try:
    p.goto(BASE+'#/'+pid);p.wait_for_selector('#lesson-block-0');check(pid+' pre-addition overlay is absent',p.locator('[data-method-transfer]').count()==0)
    note='SYNTHETIC old note for '+pid;p.locator('#note').fill(note);original=p.locator('#lesson-block-0').text_content();quote=original[:20];identity='synthetic-transfer-'+pid
    record={'id':identity,'docId':'lesson:'+pid,'type':'highlight','title':'SYNTHETIC legacy anchor','comment':'Synthetic only','tags':[],'links':[],'color':'yellow','quote':quote,'segments':[{'block':'lesson-block-0','start':0,'end':len(quote),'quote':quote,'prefix':'','suffix':original[len(quote):len(quote)+40]}]}
-   p.evaluate('(record)=>PaperReader.put("annotations",record)',record);records[pid]=(note,original,quote,identity)
+   p.evaluate('(record)=>PaperReader.put("annotations",record)',record);records[pid]=(note,original,quote,identity,record)
   p.evaluate('sessionStorage.setItem("synthetic-transfer-phase","new")');p.reload()
-  for pid,(note,original,quote,identity) in records.items():
-   p.goto(BASE+'#/'+pid);assert_transfer(p,pid);mark=p.locator('#lesson-block-0 mark[data-annotation="'+identity+'"]');mark.wait_for(state='attached')
-   check(pid+' original note survives',p.locator('#note').input_value()==note);check(pid+' original highlight uses unchanged quote and block', ''.join(mark.all_text_contents())==quote and p.locator('#lesson-block-0').text_content()==original)
+  for visit in ['after addition','after route re-entry']:
+   p.goto(BASE+'#/home')
+   for pid,(note,original,quote,identity,record) in records.items():
+    p.goto(BASE+'#/'+pid);assert_transfer(p,pid)
+    # Glossary spans can divide one selection into several DOM marks. Wait
+    # for the complete ordered quote, never just its first fragment.
+    p.wait_for_function("""({identity,quote,original})=>{
+      const block=document.getElementById('lesson-block-0');
+      const marks=[...document.querySelectorAll('mark[data-annotation]')].filter(e=>e.dataset.annotation===identity);
+      return block&&marks.length>0&&marks.every(e=>block.contains(e))&&
+        marks.map(e=>e.textContent).join('')===quote&&block.textContent===original;
+    }""",arg={'identity':identity,'quote':quote,'original':original})
+    mark=p.locator('#lesson-block-0 mark[data-annotation="'+identity+'"]')
+    stored=p.evaluate('async(identity)=>(await PaperReader.all("annotations")).filter(r=>r.id===identity)',identity)
+    check(pid+' '+visit+' retains the original annotation and selection',stored==[record])
+    check(pid+' '+visit+' original note survives',p.locator('#note').input_value()==note)
+    check(pid+' '+visit+' original highlight uses unchanged ordered quote and block', ''.join(mark.all_text_contents())==quote and p.locator('#lesson-block-0').text_content()==original)
   with p.expect_download() as download:p.locator('article button[data-action="export"]').click()
   downloaded=OUT/'synthetic-notes.json';download.value.save_as(downloaded);backup=json.loads(downloaded.read_text());check('export retains all four original notes',all(backup['data']['notes'][pid]==v[0] for pid,v in records.items()))
   old.close()
