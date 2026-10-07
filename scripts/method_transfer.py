@@ -3,7 +3,7 @@ from pathlib import Path
 import html,json,re
 
 def load_method_transfers(root,document_ids,filename='method-transfer.json'):
-    if filename not in {'method-transfer.json','method-transfer-expanded.json'}:raise ValueError('Invalid method-transfer file')
+    if filename not in {'method-transfer.json','method-transfer-expanded.json','method-transfer-ditzler.json'}:raise ValueError('Invalid method-transfer file')
     path=Path(root)/'resources'/filename
     if not path.exists():return {}
     data=json.loads(path.read_text(encoding='utf-8'))

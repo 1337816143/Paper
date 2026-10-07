@@ -1,0 +1,17 @@
+{
+  "schema": "paper.reading-update.v1",
+  "date": "2026-10-07",
+  "paperId": "ditzler-2019",
+  "coverage": {
+    "reading": "2026-10-07已重新核读15页主文，Fig.1–6、Table1–2和Eq.1–4；只完成发表数字核账，未运行作者模型",
+    "appendix": "主文内附A1–A4已逐项核读；独立SI未取得，不能称全部依赖齐全",
+    "data": "作者Mendeley v1归档已定位；具体案例输入文件未取得，直接访问403后停止",
+    "code": "FarmDESIGN软件家族已定位；软件构建、文件、运行环境、依赖及程序许可未核验",
+    "reproduction": "发表数字诊断发现NP预算等表文不一致；不是作者基线或优化结果复现"
+  },
+  "sourceURL": "https://cgspace.cgiar.org/server/api/core/bitstreams/0b457171-47c4-48c1-9d6b-13118d7b8e35/content",
+  "sourceSHA256": "c865f2df627aa360e93e07ffd6860d29672e7f25ab0c950a85b890fb2c3e7a62",
+  "mainTextRead": true,
+  "authorSoftwareExecuted": false,
+  "publicFilesAdded": false
+}

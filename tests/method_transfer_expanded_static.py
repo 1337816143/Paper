@@ -8,12 +8,12 @@ sys.path.insert(0,str(ROOT/'scripts'))
 from method_transfer import load_method_transfers,static_transfer_html,static_source_notice
 canonical=lambda x:json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode();sha=lambda b:hashlib.sha256(b).hexdigest()
 contract=json.loads((ROOT/'tests/method-transfer-expanded-baseline.json').read_text());data=json.loads((SITE/'data.json').read_text());extra=json.loads((ROOT/'resources/method-transfer-expanded.json').read_text());old_raw=json.loads((ROOT/'resources/method-transfer.json').read_text());ids=set(contract['legacy_document_ids']);transfers=data['methodTransfers']
-assert len(ids)==128 and len(data['documents'])==129
-assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-expanded-20261007']
+assert len(ids)==128 and len(data['documents'])==130
+assert [d['id'] for d in data['documents'] if d['id'] not in ids]==['method-transfer-expanded-20261007','ditzler-reading-20261007']
 assert sha(canonical([d for d in data['documents'] if d['id'] in ids]))==contract['legacy_documents_sha256']
 assert sha((ROOT/'resources/method-transfer.json').read_bytes())==contract['legacy_method_source_sha256']
 assert sha(canonical({pid:transfers[pid] for pid in contract['legacy_method_ids']}))==contract['legacy_method_html_sha256']
-assert sha(canonical(data['researchLeads']))==contract['legacy_research_leads_sha256']
+assert sha(canonical({k:v for k,v in data['researchLeads'].items() if k!='ditzler-2019'}))==contract['legacy_research_leads_sha256']
 # Retain original frozen reader bytes after removing only the exact reviewed
 # async-route guards. Every other protected source remains byte-identical.
 reader=(ROOT/'src/reader.js').read_bytes().decode('utf-8')
@@ -26,7 +26,7 @@ for f,h in contract['protected_source_files'].items():
  assert sha(reader.encode() if f=='src/reader.js' else (ROOT/f).read_bytes())==h,f
 assert set(extra['papers'])==set(contract['new_method_step_counts']) and len(extra['papers'])==15
 assert set(old_raw['papers']).isdisjoint(extra['papers'])
-assert set(transfers)==set(data['researchLeads']) and len(transfers)==19
+assert set(transfers)==set(data['researchLeads']) and len(transfers)==20
 assert {pid:len(row['steps']) for pid,row in extra['papers'].items()}==contract['new_method_step_counts']
 assert sha(canonical(extra['papers']))==contract['reviewed_new_papers_sha256']
 assert load_method_transfers(ROOT,ids)=={pid:transfers[pid] for pid in old_raw['papers']}
@@ -91,8 +91,8 @@ source_kinds={'public-archive':0,'source-status':0}
 for pid in transfers:
  notice=static_source_notice(ROOT,pid);page=(SITE/'read'/f'{pid}.html').read_text();assert page.count(notice)==1
  kind='public-archive' if 'data-method-source-status="public-archive"' in notice else 'source-status';source_kinds[kind]+=1
-assert source_kinds=={'public-archive':12,'source-status':7}
-assert len(data['researchLeads'])==19 and sum(len(row['hashes']) for row in data['researchLeads'].values())==38
+assert source_kinds=={'public-archive':12,'source-status':8}
+assert len(data['researchLeads'])==20 and sum(len(row['hashes']) for row in data['researchLeads'].values())==40
 # Non-DOI primary sources are allowed only for that exact catalog identity.
 with tempfile.TemporaryDirectory() as tmp:
  r=Path(tmp);(r/'resources').mkdir();sample=copy.deepcopy(extra);pid='cheng-landscape-evidence-2025';sample['papers']={pid:sample['papers'][pid]};f=r/'resources/method-transfer-expanded.json';f.write_text(json.dumps(sample))
@@ -109,4 +109,4 @@ with tempfile.TemporaryDirectory() as tmp:
   except ValueError:pass
   else:raise AssertionError('Unknown input file accepted')
 OUT=ROOT/'test-results';OUT.mkdir(exist_ok=True);(OUT/'method-transfer-expanded-anchors.json').write_text(json.dumps(anchor_proof,ensure_ascii=False,indent=2)+'\n')
-result={'passed':True,'legacy_documents_unchanged':len(ids),'total_documents':len(data['documents']),'legacy_annotation_blocks_unchanged':anchor_count,'legacy_four_method_fragments_byte_identical':True,'legacy_method_steps':30,'legacy_method_fields':211,'new_method_papers':15,'total_method_papers':19,'new_method_steps':sum(contract['new_method_step_counts'].values()),'new_literal_step_fields':fields,'new_literal_paragraphs':paragraphs,'old_research_narratives':38,'static_pages_strip_to_exact_baseline':BASE is not None,'singleHTML_all19_identical':True,'sourceURLs_catalog_bound':True,'static_source_notices_additive':True,'browser_tested':False};(OUT/'method-transfer-expanded-static.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result))
+result={'passed':True,'legacy_documents_unchanged':len(ids),'total_documents':len(data['documents']),'legacy_annotation_blocks_unchanged':anchor_count,'legacy_four_method_fragments_byte_identical':True,'legacy_method_steps':30,'legacy_method_fields':211,'new_method_papers':15,'total_method_papers':20,'new_method_steps':sum(contract['new_method_step_counts'].values()),'new_literal_step_fields':fields,'new_literal_paragraphs':paragraphs,'old_research_narratives':38,'static_pages_strip_to_exact_baseline':BASE is not None,'singleHTML_all20_identical':True,'sourceURLs_catalog_bound':True,'static_source_notices_additive':True,'browser_tested':False};(OUT/'method-transfer-expanded-static.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result))

@@ -50,11 +50,14 @@ def main():
     extended_transfers=load_method_transfers(ROOT,byid,'method-transfer-expanded.json')
     if set(extended_transfers)&set(method_transfers):raise ValueError('Expanded transfers cannot overwrite existing methods')
     method_transfers.update(extended_transfers)
+    ditzler_transfers=load_method_transfers(ROOT,byid,'method-transfer-ditzler.json')
+    if set(ditzler_transfers)&set(method_transfers):raise ValueError('Ditzler transfer cannot overwrite existing methods')
+    method_transfers.update(ditzler_transfers)
     files={f.name:f.read_bytes().decode('utf-8') for f in sorted((ROOT/'examples').iterdir()) if f.is_file() and f.suffix in {'.py','.R','.csv','.md','.json'}}
     for name,text in files.items():(out/'examples'/name).write_bytes(text.encode('utf-8'))
     inputs=sorted([*(ROOT/'content').glob('*.json'),*(ROOT/'src').glob('*'),*(ROOT/'examples').glob('*'),Path(__file__)])
     inputs.append(ROOT/'scripts/research_leads.py')
-    inputs += [ROOT/'scripts/method_transfer.py',ROOT/'resources/method-transfer.json',ROOT/'resources/method-transfer-expanded.json']
+    inputs += [ROOT/'scripts/method_transfer.py',ROOT/'resources/method-transfer.json',ROOT/'resources/method-transfer-expanded.json',ROOT/'resources/method-transfer-ditzler.json']
     inputs += sorted((ROOT/'resources/research-leads').rglob('*')) if (ROOT/'resources/research-leads').exists() else []
     digest=hashlib.sha256(b''.join(f.read_bytes() for f in inputs if f.is_file())).hexdigest()[:12]
     data={'version':digest,'sourceCommit':a.source_commit,'updated':date,'documents':documents,'files':files}

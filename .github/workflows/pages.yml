@@ -29,6 +29,7 @@ jobs:
           for file in method-transfer-ui app offline-downloads reader study translation-worker workspace sync comfort research research-review release personal contracts research-library context-notes research-walkthrough rda-model rda-walkthrough q-walkthrough annual-balance-model annual-balance-walkthrough dong-boundary-model dong-boundary; do node --check "src/$file.js"; done
           node tests/method_transfer_ui.cjs
           node tests/reader_navigation.cjs
+          python tests/ditzler_static.py
           python tests/method_transfer_expanded_static.py
           python tests/method_transfer_static.py
           python tests/research_leads_static.py
@@ -192,6 +193,7 @@ jobs:
           name: paper-method-transfer-acceptance
           path: |
             test-results/method-transfer/report.json
+            test-results/ditzler-static.json
             test-results/method-transfer-static.json
             test-results/method-transfer-expanded-static.json
             test-results/method-transfer-expanded-anchors.json

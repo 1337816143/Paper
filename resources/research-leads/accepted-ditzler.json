@@ -1,0 +1,30 @@
+{
+  "schema": "paper.research-leads.v1",
+  "date": "2026-10-07",
+  "papers": {
+    "ditzler-2019": {
+      "full": {
+        "sha256": "8d84a6f10309236c69c7ddbad29e89cca6cd46b3bd493071e8109df3262ff896",
+        "accepted": true
+      },
+      "brief": {
+        "sha256": "125b247aa8123eeb28746c4cc551e2e3d21793aef25d5839cd0dbe05a5fa4616",
+        "accepted": true
+      },
+      "sourceLinks": [
+        {
+          "label": "CGSpace机构开放主文（15页；CC BY 4.0）",
+          "url": "https://cgspace.cgiar.org/server/api/core/bitstreams/0b457171-47c4-48c1-9d6b-13118d7b8e35/content"
+        },
+        {
+          "label": "永久机构记录",
+          "url": "https://hdl.handle.net/10568/101595"
+        },
+        {
+          "label": "作者归档入口（文件及运行环境未核验）",
+          "url": "https://data.mendeley.com/datasets/n3sk27ggwf/1"
+        }
+      ]
+    }
+  }
+}
