@@ -824,7 +824,7 @@
     "scripts/test_thesis_evidence.py": "7bef5bf1c455bca33283a0fdfecd5311f8476513d57bb99cb481f7d5d02befac",
     "scripts/test_v5.py": "0a31b60fd1a2bc190a34c6fa32b314ab5d36bc89ba7e3bcd3c6b1fcc2ffd3308",
     "scripts/test_walkthrough_integration.py": "3ad555e1adfbcf4bb915f49a478a4a6611eb8c227f1b1e628cbfdcaf0c8602f8",
-    "scripts/test_workspace.py": "cd9b9806ee9f60165cce9d84aaf619b529529ef5a3c5d529c0612a927dda68e3",
+    "scripts/test_workspace.py": "b4c93201bc7c0564a0bd33851101070e4608b9be1cd088610fe4174a7834d121",
     "scripts/test_workspace_hardening.py": "3455df908e13940accbbf291ff332706d790da8f8b45714a6b63a87fb80e3f29",
     "scripts/update_resources_v54.py": "c9777bc29a1ac80e308d2ea5effded3313a9408aeda4da213bf33c0317cda9a3",
     "scripts/vendor_translation.py": "2b78836a493ff334a9bf9dff9ee70312ad720a1811ddaf49aa9c0c60436109b6",

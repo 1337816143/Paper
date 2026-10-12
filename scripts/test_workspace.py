@@ -64,6 +64,7 @@ with sync_playwright() as p:
   term=page.locator('.prose [data-study-term="midip"]').first;term.click();page.wait_for_selector('.term-example');assert '0.5' in page.locator('.term-example').inner_text();page.locator('.term-popover').evaluate("e=>e.dispatchEvent(new WheelEvent('wheel',{bubbles:true,deltaY:40}))");assert page.locator('.term-popover').count()==1;page.keyboard.press('Escape');assert page.locator('.term-popover').count()==0
   checks.append('Expanded aliases, beginner examples, connected phase inputs/outputs and readable scrollable popovers')
   page.goto(BASE+'#/original/farmsteps-2026');page.wait_for_selector('#original-text')
+  page.locator('.source-fidelity summary').click()
   assert page.locator('.source-fidelity').inner_text().find('CC BY 4.0')>=0
   record=page.evaluate("PAPER_SOURCES.records.find(r=>r.id==='farmsteps-2026')")
   assert record['license']['name']=='CC BY 4.0' and record.get('bookPath')
