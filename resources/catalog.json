@@ -70,8 +70,8 @@
       "title": "FarmSTEPS, a model for spatial-temporal exploration of diversified and sustainable crop sequence plans for crop farms",
       "citation": "Liang, Z., et al. (2026). Agronomy for Sustainable Development, 46, 23.",
       "sourceURL": "https://doi.org/10.1007/s13593-026-01097-8",
-      "checkedAt": "2026-10-03",
-      "status": "licensed-not-archived",
+      "checkedAt": "2026-10-12",
+      "status": "licensed",
       "attempts": [
         {
           "url": "https://edepot.wur.nl/713946",
@@ -85,16 +85,18 @@
       "metadataURL": "https://research.wur.nl/en/publications/farmsteps-a-model-for-spatial-temporal-exploration-of-diversified/",
       "candidateURL": "https://edepot.wur.nl/713946",
       "pages": 20,
-      "reason": "现出版PDF第18页已核CC BY 4.0；出版社2026-08-30转OA。当前仍未新增站内原件归档；软件许可独立待核。",
+      "reason": "出版商2026-08-30转OA；2026-10-12归档全文。软件许可独立待核。",
       "aliases": [
         "https://doi.org/10.1007/s13593-026-01097-8",
-        "https://research.wur.nl/en/publications/farmsteps-a-model-for-spatial-temporal-exploration-of-diversified/"
+        "https://research.wur.nl/en/publications/farmsteps-a-model-for-spatial-temporal-exploration-of-diversified/",
+        "https://edepot.wur.nl/713946",
+        "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf"
       ],
       "downloadURL": "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf",
-      "accessStatus": "private-copy-verified",
-      "accessNote": "现正文已开放获取；完整PDF第18页明确CC BY 4.0，旧订阅判断已更正。本轮更新元数据和原创解释，尚未生成新的站内归档。软件、独立数据及第三方材料许可分别核实。",
+      "accessStatus": "public-pdf-archived",
+      "accessNote": "当前出版商PDF已重新下载、核验DOI/题名/20页/字节数/SHA-256，并目视核验第18页CC BY 4.0；全文原件、页图、文本和EPUB已归档。中文机器翻译与教学说明独立于原文。",
       "accessEvidence": "https://link.springer.com/article/10.1007/s13593-026-01097-8#change-history",
-      "accessCheckedAt": "2026-10-03",
+      "accessCheckedAt": "2026-10-12",
       "accessAttempts": [
         {
           "url": "https://edepot.wur.nl/713946",
@@ -110,15 +112,34 @@
             "10.1007/s13593-026-01097-8"
           ],
           "licenseMarkers": []
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.1007/s13593-026-01097-8.pdf",
+          "authenticated": false,
+          "status": "public-pdf-archived",
+          "observedAt": "2026-10-12",
+          "pages": 20,
+          "bytes": 6615319,
+          "sha256": "d17dce19f85b1c0277e0158275de034a75ad62472ef37ee3741c2f4208b9bc33",
+          "identityCheck": "DOI and title on PDF page 1; license visually verified on page 18"
         }
       ],
       "privateCopyAvailable": true,
       "license": {
         "name": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/",
-        "evidence": "Current publisher PDF page 18, Open Access paragraph; visually verified 2026-10-03. Applies to article; third-party exceptions remain.",
+        "evidence": "Publisher PDF page 18, Open Access paragraph; downloaded and visually verified 2026-10-12. CC BY 4.0 applies to article with stated third-party credit-line exceptions.",
         "pageScope": "PDF page 18"
-      }
+      },
+      "sha256": "d17dce19f85b1c0277e0158275de034a75ad62472ef37ee3741c2f4208b9bc33",
+      "bytes": 6615319,
+      "bookPath": "library/farmsteps-2026/d17dce19f85b/book.json",
+      "originalPath": "library/farmsteps-2026/d17dce19f85b/source.pdf",
+      "epubPath": "library/farmsteps-2026/d17dce19f85b/article.epub",
+      "scope": "所获主文PDF全部20页；站外补充材料与软件不在归档范围内",
+      "technicalChanges": "Technical format conversion; exact PDF preserved; Chinese translation is a separate on-device unreviewed machine layer",
+      "noncommercial": true,
+      "textCharacters": 86983
     },
     {
       "id": "cheng-2023",

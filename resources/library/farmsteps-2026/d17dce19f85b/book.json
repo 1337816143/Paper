@@ -1,0 +1,2511 @@
+{
+  "schema": "paper.original.v2",
+  "id": "farmsteps-2026",
+  "lessonId": "farmsteps-2026",
+  "title": "FarmSTEPS, a model for spatial-temporal exploration of diversified and sustainable crop sequence plans for crop farms",
+  "citation": "Liang, Z., et al. (2026). Agronomy for Sustainable Development, 46, 23.",
+  "origin": "https://doi.org/10.1007/s13593-026-01097-8",
+  "sourceHash": "d17dce19f85b1c0277e0158275de034a75ad62472ef37ee3741c2f4208b9bc33",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence": "Publisher PDF page 18, Open Access paragraph; downloaded and visually verified 2026-10-12. CC BY 4.0 applies to article with stated third-party credit-line exceptions.",
+    "pageScope": "PDF page 18"
+  },
+  "originalPath": "library/farmsteps-2026/d17dce19f85b/source.pdf",
+  "originalType": "pdf",
+  "epubPath": "library/farmsteps-2026/d17dce19f85b/article.epub",
+  "convertedBy": "Technical format conversion; all text blocks and original page images; no editorial rewrite",
+  "pages": [
+    {
+      "number": 1,
+      "blocks": [
+        {
+          "id": "p1-b0-150affe",
+          "kind": "paragraph",
+          "text": "Vol.:(0123456789)",
+          "bbox": [
+            485.48040771484375,
+            737.9720458984375,
+            540.6723022460938,
+            746.9800415039062
+          ]
+        },
+        {
+          "id": "p1-b1-c737358",
+          "kind": "paragraph",
+          "text": "Agronomy for Sustainable Development (2026) 46:23 \nhttps://doi.org/10.1007/s13593-026-01097-8",
+          "bbox": [
+            51.02360153198242,
+            32.36515808105469,
+            225.52783203125,
+            53.26666259765625
+          ]
+        },
+        {
+          "id": "p1-b3-a6260a3",
+          "kind": "paragraph",
+          "text": "RESEARCH ARTICLE",
+          "bbox": [
+            56.787899017333984,
+            64.21063995361328,
+            146.2304229736328,
+            75.81964111328125
+          ]
+        },
+        {
+          "id": "p1-b5-89aa83b",
+          "kind": "heading",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified \nand sustainable crop sequence plans for crop farms",
+          "bbox": [
+            51.02360153198242,
+            103.1909408569336,
+            478.72918701171875,
+            139.366943359375
+          ]
+        },
+        {
+          "id": "p1-b6-725eb82",
+          "kind": "paragraph",
+          "text": "Zhengyuan Liang1,2 · Zhan Xu1,4 · Jiali Cheng1,2 · Wen‑Feng Cong1 · Chaochun Zhang1 · Fusuo Zhang1 · \nWopke van der Werf4 · Jeroen C. J. Groot2,3",
+          "bbox": [
+            51.0203857421875,
+            154.35389709472656,
+            485.150390625,
+            180.15789794921875
+          ]
+        },
+        {
+          "id": "p1-b7-e2f5433",
+          "kind": "paragraph",
+          "text": "Received: 24 January 2025 / Accepted: 4 February 2026 / Published online: 17 March 2026 \n© INRAE and Springer-Verlag France SAS, part of Springer Nature 2026, modified publication 2026",
+          "bbox": [
+            51.02360153198242,
+            198.61192321777344,
+            368.2010803222656,
+            218.17889404296875
+          ]
+        },
+        {
+          "id": "p1-b8-1a5385b",
+          "kind": "paragraph",
+          "text": "Abstract\nCrop diversification could enhance economic and environmental sustainability of crop farming, but achieving this requires \ncareful planning that accounts for crop interrelationships in a rotation or spatial layout. Several models have been devised to \ndesign diversified crop rotations or crop spatial layouts, but they often fail to capture farm settings, production constraints, \nand sustainability objectives specific to a farm at both temporal and spatial scales. To fill this gap, we developed a novel \nrule-based whole-farm planning model, FarmSTEPS, for systematically exploring diversified and sustainable farm crop \nsequence plans in a spatial-temporally explicit manner. FarmSTEPS comprises multiple farm characterization modules, \nan algorithm for generating farm crop sequence plans, and a multi-attribute decision-aid tool. Users first characterize farm \nconfigurations and plot properties, and parameterize candidate crops according to the actual situation of farms. Subsequently \nthe algorithm generates and evaluates all feasible crop sequence plans for each plot from the first planning period until the \nend of the planning window, subject to user-defined sequence- and farm-level constraints. Eventually, the model suggests a \nset of superior farm plans using the multi-attribute decision-aid tool. We illustrate the model with a Chinese wheat-maize \nfarm to explore future three-year cropping plans targeting five sustainability objectives: maximizing gross margin and mini-\nmizing four environmental impacts (groundwater depletion, pesticide input, aquatic eutrophication, GHG emission). The \nmodel generated 213,679 feasible plans, with 128 being Pareto-optimal in terms of the five objectives. Overall, relative to \nthe wheat-maize baseline, these optimal plans increased gross margin by 3-50% while mitigating environmental impacts by \n10-56%, largely through the inclusion of tuber and oil crops, though trade-offs existed between economic and environmental \nbenefits. The case study demonstrates that FarmSTEPS is an effective tool for designing diversified and sustainable crop \nsequence plans tailored to farm-specific conditions while informing stakeholders on potential benefits and trade-offs among \nsustainability objectives.",
+          "bbox": [
+            51.02360153198242,
+            235.61915588378906,
+            547.1499633789062,
+            487.869140625
+          ]
+        },
+        {
+          "id": "p1-b9-9e471aa",
+          "kind": "paragraph",
+          "text": "Keywords  Crop diversification · Farming system redesign · Pareto optimality · Profitability · Environmental sustainability · \nNorth China Plain",
+          "bbox": [
+            51.02360153198242,
+            497.7791442871094,
+            544.5307006835938,
+            525.369140625
+          ]
+        },
+        {
+          "id": "p1-b10-d80058c",
+          "kind": "heading",
+          "text": "1  Introduction",
+          "bbox": [
+            51.02360153198242,
+            546.1411743164062,
+            131.326416015625,
+            561.0091552734375
+          ]
+        },
+        {
+          "id": "p1-b11-54e6dde",
+          "kind": "paragraph",
+          "text": "Sustainable crop farming is required to produce sufficient \ncrop products while ensuring farm incomes and minimiz-\ning environmental externalities (Cui et al. 2018). Many \nmajor crop-producing regions around the world have been \nexperiencing crop specialization and intensification in the \npast few decades, with farmlands dominated by single or a \nfew crop species, particularly major cereals (Ramankutty \net al. 2018). This trend contributed to increased agricultural \nproductivity in terms of dietary energy but caused various",
+          "bbox": [
+            51.023590087890625,
+            572.7791748046875,
+            291.81756591796875,
+            687.869140625
+          ]
+        },
+        {
+          "id": "p1-b12-5fa3601",
+          "kind": "paragraph",
+          "text": "farming sustainability challenges in both the economic and \nenvironmental domains, such as undesired and unstable \noperating profits, overexploitation of freshwater (particularly \ngroundwater), exposure of humans and the environment to \nagrochemicals, greenhouse gas (GHG) emissions, and agro-\nbiodiversity loss (Campbell et al. 2017; Chakraborti et al. \n2023), threatening economic well-being and environmental \nhealth. It is therefore crucial to transform currently intensi-\nfied and specialized crop farming systems toward increased \nsustainability.\nCrop diversification is deemed an effective strategy to \nimprove the multi-attribute sustainability of crop farming \n(Hufnagel et al. 2020). From a temporal perspective, it \nExtended author information available on the last page of the article",
+          "bbox": [
+            51.02360153198242,
+            547.7791748046875,
+            546.9140625,
+            719.7088012695312
+          ]
+        },
+        {
+          "id": "p1-figure1",
+          "kind": "image",
+          "path": "library/farmsteps-2026/d17dce19f85b/p1-figure1.png",
+          "alt": "Original source page 1, graphic 1",
+          "caption": "原文第1页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-1.png"
+    },
+    {
+      "number": 2,
+      "blocks": [
+        {
+          "id": "p2-b0-b9fe6d4",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 2 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p2-b2-6c7872e",
+          "kind": "paragraph",
+          "text": "presents itself in the form of diversified crop sequences, i.e., \ncultivating a sequence of different crops on the same piece \nof land, while from a spatial perspective, crop diversification \nresults in spatial cropping plans with different crops across \ndifferent pieces of land every year (Dury et al. 2012). Sus-\ntainability benefits of crop diversification have been found \nin many previous studies. A meta-analysis and a system-\natic review both indicated that diversified cropping systems \ncould deliver higher financial returns relative to simplified \nsystems, often via introducing high-profit crops such as veg-\netables and root crops (Sánchez et al. 2022; Feliciano 2019). \nFurthermore, multiple empirical and meta-analysis studies \nhave demonstrated that diversification could reduce the reli-\nance on agricultural resource inputs, including groundwater, \nfertilizer, pesticide, and fossil energy, and mitigate associ-\nated environmental impacts by incorporating resource-effi-\ncient crops such as beans, coarse cereals, and some oil crops \n(Boeraeve et al. 2020; Hunt et al. 2020; Guinet et al. 2023; \nYang et al. 2024). The successful cases in these studies high-\nlight that achieving the sustainability benefits of diversified \nsystems requires careful, reasoned planning.\nModels serve as an efficient tool for planning sustain-\nable and diversified crop production systems because they \ncan handle, systematically and transparently, many factors \nfor cropping system innovation, including various candi-\ndate crops, system constraints, and sustainability objectives \n(Dury et al. 2012). Several models have been devised to \nfacilitate the planning of diversified systems either tempo-\nrally or spatially. Among them, crop rotation generator mod-\nels such as ROTAT+ and ROTOR can create all agronomi-\ncally viable crop rotations at the plot scale and evaluate their \nmulti-attribute sustainability, given a list of candidate crops \nand rotation rules (Dogliotti et al. 2003, 2004; Bachinger \nand Zander 2007). However, the generated sustainable rota-\ntions are often difficult to implement on real farms since the \nmodels do not account for the farm-specific situations and \ndemands, for example, the heterogeneity in size and proper-\nties of plots within a farm, resource accessibility and avail-\nability at a farm, and the whole-farm performance objectives \npursued by farmers and other stakeholders. Moreover, these \nmodels were built merely for fixed rotation systems, which \nfollow a cyclical pattern of component crops, rather than \ngenerating flexible and non-cyclical crop sequences for the \nfuture (Castellazzi et al. 2008). This model limitation might \nconstrain the scope of sustainability improvement delivered \nby temporal crop diversification for farms (Dury et al. 2013).\nSome whole-farm planning models are able to allocate \ncrops or crop sequences to different farm plots to improve \nfarm-level sustainability objectives using optimization tech-\nniques such as linear programming and heuristic algorithms \n(Dogliotti et al. 2005; Groot et al. 2012; Sempore et al. 2015; \nCapitanescu et al. 2017). But there are several limitations \nto these models: 1) primarily optimizing a single objective",
+          "bbox": [
+            51.023590087890625,
+            54.14585494995117,
+            291.84759521484375,
+            719.23583984375
+          ]
+        },
+        {
+          "id": "p2-b3-54fbabe",
+          "kind": "paragraph",
+          "text": "(usually profits) rather than multiple ones when using lin-\near programming; 2) overlooking key agronomic constraints \nsuch as disallowed crop successions or maximum planting \nfrequency of crops in a crop sequence; 3) missing period-\nby-period assessment and constraints on farm cropping \nplans, e.g., the minimum farm profit in each year, making \nthe resulting diversified farm plans less practical for farmers \n(Kaim et al. 2018); and 4) lacking capabilities to create non-\ncyclical and flexible crop sequences over planning horizons \n(Janssen and Van Ittersum 2007). There is still a need for a \nmodelling framework for the spatial-temporal exploration of \nwhole-farm cropping plans based on farm-specific situations \nand multiple sustainability objectives. This topic remains \nlargely unexplored.\nThe North China Plain is a major crop-producing region \nin China and a typical intensified and specialized crop farm-\ning region   , where over 60% of the farmland is currently \ndevoted to annual double cropping of winter wheat and \nsummer maize (Li and Lei 2021). This cereal-dominated \nsystem is highly water- and nutrient-demanding, with an \nestimated blue water demand of 300 mm/year and nitro-\ngen uptake of 400 kg N/ha/year (Yang et al. 2021; Zhang \n2021). To achieve higher productivity, farmers often use a \nconsiderable amount of groundwater and fertilizers (Liang \net al. 2022). This practice leads to a sharp groundwater table \ndecline and a high N surplus (approximately 250 kg N/ha/\nyear; Zhang 2021), which contributes to waterbody eutrophi-\ncation (Kong et al. 2016; Zhang et al. 2017). Additionally, \nChinese agri-environmental policies target the reduction of \nchemical pesticides and the mitigation of carbon emissions \n(MARA 2021). To reduce the environmental burden aris-\ning from crop production, the local government encourages \nfarmers to partially replace staple cereals with low-input \ncrops, especially on large-scale farms that have sufficient \nresources and skills to manage new crops (Xu et al. 2024; \nFig. 1). However, farm managers are more concerned about \nfarm gross margin and lack methods for designing profitable \nyet environmentally benign farm cropping plans tailored to \nspecific situations of their farms. With this need, the typi-\ncal wheat-maize farm in the North China Plain could serve \nas an ideal case for model-based exploration of sustainable \nwhole-farm crop sequence plans.\nThe primary aim of this study is to present a novel \nmodel, FarmSTEPS, for exploration of diversified and sus-\ntainable crop sequence plans for crop farms aligned with \nfarm-specific conditions and requirements. FarmSTEPS is \na whole-farm modelling framework capable of systemati-\ncally generating desired farm cropping plans in a spatial-\ntemporally explicit manner by integrating farm characteri-\nzation modules, an exhaustive whole-farm crop sequence \nplanning algorithm, and a multi-attribute decision-aid tool. \nThe second aim is to illustrate the application of this model \nby exploring alternative options for a wheat-maize family",
+          "bbox": [
+            306.1435852050781,
+            54.14585494995117,
+            546.939697265625,
+            719.23583984375
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-2.png"
+    },
+    {
+      "number": 3,
+      "blocks": [
+        {
+          "id": "p3-b0-aab5c0e",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 3 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2527465820312,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p3-b2-6a0976d",
+          "kind": "paragraph",
+          "text": "farm in the North China Plain when developing future three-\nyear cropping plans with five sustainability objectives, i.e., \nmaximizing gross margin and minimizing four environmen-\ntal impacts. This application allows us to assess the potential \nbenefits and trade-offs among sustainability objectives when \ntransitioning to new farm plans. The model flexibility allows \nit to be applied to other farms, adapting to specific farm set-\ntings, production constraints, and sustainability objectives.",
+          "bbox": [
+            51.02360153198242,
+            429.0528259277344,
+            291.8226318359375,
+            531.642822265625
+          ]
+        },
+        {
+          "id": "p3-b3-f49b213",
+          "kind": "paragraph",
+          "text": "2  \u0007Model",
+          "bbox": [
+            51.02360153198242,
+            552.4148559570312,
+            97.61961364746094,
+            567.2828369140625
+          ]
+        },
+        {
+          "id": "p3-b4-eda7af2",
+          "kind": "paragraph",
+          "text": "We developed a rule-based model, FarmSTEPS (Spatio-\nTemporal Exploration ProcedureS for crop allocation on \na Farm, Fig. 2) to systematically generate and evaluate \nfeasible crop sequence plans for plots within a given crop \nfarm in a spatial-temporally explicit manner, subject to both \nsequence- and farm-associated constraints. This was done by \nintegrating multiple modules for farm characterization and \nstakeholder expectations (section 2.1) with a whole-farm \ncrop sequence planning algorithm (section 2.2). Model users \ncould apply FarmSTEPS by parameterizing these modules \nin terms of the real situation and objectives and constraints",
+          "bbox": [
+            51.02360153198242,
+            579.052734375,
+            291.7316589355469,
+            719.1427001953125
+          ]
+        },
+        {
+          "id": "p3-b5-f5bae11",
+          "kind": "paragraph",
+          "text": "of the focus farm and accordingly obtain a set of possible \ncropping plans and their performance as model output. Then \na multi-attribute decision-aid tool, Pareto ranking, efficiently \nidentifies the superior solutions from the entire set of pos-\nsible plans in terms of sustainability objectives of interests, \nwhich could inform the stakeholders’ decision-making pro-\ncess (Section 2.3). We programmed the model software in \nthe C# language in Microsoft Visual Studio.",
+          "bbox": [
+            306.14361572265625,
+            429.0527038574219,
+            546.9085083007812,
+            531.6427001953125
+          ]
+        },
+        {
+          "id": "p3-b6-817fcf4",
+          "kind": "paragraph",
+          "text": "2.1  \u0007FarmSTEPS modules",
+          "bbox": [
+            306.1416931152344,
+            554.44873046875,
+            418.3515930175781,
+            567.03271484375
+          ]
+        },
+        {
+          "id": "p3-b7-ed9298d",
+          "kind": "paragraph",
+          "text": "2.1.1  \u0007Farm configuration module",
+          "bbox": [
+            306.1416931152344,
+            580.4227294921875,
+            440.1116638183594,
+            591.78271484375
+          ]
+        },
+        {
+          "id": "p3-b8-4b0fd21",
+          "kind": "paragraph",
+          "text": "Since each plot within a farm is the basic unit for crop \nsequence planning, the initial step in applying the model \nis configuring the farm by loading the farm plot map in an \nESRI shape file, where each plot is represented by a GIS \npolygon. The key aim of this module is to read, store, and \ndisplay the farm plot configuration along with relevant geo-\ngraphical attributes, e.g., the position, size, and slope per \nplot.",
+          "bbox": [
+            306.1416931152344,
+            604.052734375,
+            546.8649291992188,
+            706.6427001953125
+          ]
+        },
+        {
+          "id": "p3-figure1",
+          "kind": "image",
+          "path": "library/farmsteps-2026/d17dce19f85b/p3-figure1.png",
+          "alt": "Original source page 3, graphic 1",
+          "caption": "原文第3页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p3-b10-07674bb",
+          "kind": "paragraph",
+          "text": "Fig. 1   Photographs of widely cultivated crops (winter wheat and \nsummer maize; A, B) and less commonly cultivated crops (peanut, \nsweet potato and sunflower; C–E) in the North China Plain. The \nannual winter wheat-summer maize annual double cropping system \ndominates regional farmland, while those low-input minor crops,",
+          "bbox": [
+            51.023597717285156,
+            357.8033447265625,
+            291.2803955078125,
+            410.6138610839844
+          ]
+        },
+        {
+          "id": "p3-b11-7d24593",
+          "kind": "paragraph",
+          "text": "including oil and tuber/root crops, offer opportunities to diversify \nlocal arable farming systems for enhancing both economic and envi-\nronmental sustainability (photo credit: Zhengyuan Liang and Zhan \nXu).",
+          "bbox": [
+            306.1426086425781,
+            357.7863464355469,
+            546.3772583007812,
+            400.6008605957031
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-3.png"
+    },
+    {
+      "number": 4,
+      "blocks": [
+        {
+          "id": "p4-b0-d8b5e6b",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 4 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p4-b2-dd30d87",
+          "kind": "paragraph",
+          "text": "2.1.2  \u0007Land‑unit module",
+          "bbox": [
+            51.02360153198242,
+            558.0428466796875,
+            147.61260986328125,
+            569.40283203125
+          ]
+        },
+        {
+          "id": "p4-b3-49573b4",
+          "kind": "paragraph",
+          "text": "Each plot should be linked with a specific land-unit, which \ndescribes characteristics of the plot such as soil properties \nand includes a list of candidate crops that can be grown \non the plot. This allows to consider the differences in envi-\nronmental conditions, crop selection, and crop performance \namong plots in a farm. For example, some of the plots might \nnot have access to irrigation and therefore some drought-\nsensitive crops are banned and the candidate crop yields in \nthese plots would be lower than those in irrigated plots. The \nland-units are set in the ROTAT+ software that is connected",
+          "bbox": [
+            51.02360153198242,
+            581.6728515625,
+            291.78668212890625,
+            709.2628173828125
+          ]
+        },
+        {
+          "id": "p4-b4-c616e84",
+          "kind": "paragraph",
+          "text": "to FarmSTEPS. ROTAT+ is normally used as a tool for \nfield-level crop rotation generation (Liang et al. 2023) while \nacting as a module in FarmSTEPS to record the land and \ncrop information. Here, users need to parameterize each \ncandidate crop with information that is essential for gener-\nating whole-farm crop sequence plans and calculating their \nindicator performance (see Section 2.1.5), including plant-\ning and harvesting dates, agricultural resource inputs (e.g., \nlabor requirement, fertilizer application, pesticide input and \nirrigation water consumption), and crop and pollutant out-\nput (e.g., yield, revenue, nutrient losses, GHG emissions). \nSince assessment indicators may vary across case farms,",
+          "bbox": [
+            306.1435852050781,
+            556.5528564453125,
+            546.9365234375,
+            709.142822265625
+          ]
+        },
+        {
+          "id": "p4-figure1",
+          "kind": "image",
+          "path": "library/farmsteps-2026/d17dce19f85b/p4-figure1.png",
+          "alt": "Original source page 4, graphic 1",
+          "caption": "原文第4页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p4-b6-d23ef13",
+          "kind": "paragraph",
+          "text": "Fig. 2   The modeling framework of the FarmSTEPS model. Model \nusers firstly characterize the farm in terms of plot configuration, \nland-units, and crop sequences (see Sections 2.1.1, 2.1.2, 2.1.4 in the \nmain text), and define the timeline, indicators, and constraints (see \nSection  2.1.3, 2.1.5, 2.1.6 in the main text) for the generation and \nassessment of alternative farm cropping plans by setting six inter-\nconnected modules (farm configuration module, land-unit module, \ntimeline module, crop sequence module, indicator module and con-\nstraint module; Sections  2.1 in the main text). Next, the planning \nalgorithm creates all feasible farm crop sequence plans in a spatial-",
+          "bbox": [
+            51.023590087890625,
+            440.4832458496094,
+            291.28887939453125,
+            543.2737426757812
+          ]
+        },
+        {
+          "id": "p4-b7-9f751fb",
+          "kind": "paragraph",
+          "text": "temporally explicit way for the whole farm over the whole planning \nwindow (Section 2.2 in the main text). Users eventually can check the \nindicator performance and crop sequences of individual farm crop-\nping plans, compare the performance across the entire set of feasible \ncropping plans, and identify the better-performing plans (Section 2.3 \nin the main text). This framework was presented with a hypothetical \nfarm where P1-P4 denote four plots, LU1-2 denote two land-units, \nInd1-Ind3 denote the indicators of interest and Seq.  1, Seq.  6, and \nSeq. 8 denote three crop sequences used in a created farm plan (Plan \n3). Prod. denotes the production of corresponding crops.",
+          "bbox": [
+            306.1510925292969,
+            440.44927978515625,
+            546.4203491210938,
+            543.23974609375
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-4.png"
+    },
+    {
+      "number": 5,
+      "blocks": [
+        {
+          "id": "p5-b0-5c03bcd",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 5 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2527465820312,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p5-b2-c46998d",
+          "kind": "paragraph",
+          "text": "the model is designed to flexibly accommodate user-defined \ninput-output attributes for each crop.",
+          "bbox": [
+            51.02360153198242,
+            54.14585494995117,
+            291.4155578613281,
+            81.73585510253906
+          ]
+        },
+        {
+          "id": "p5-b3-94cffad",
+          "kind": "paragraph",
+          "text": "2.1.3  \u0007Timeline module",
+          "bbox": [
+            51.02360153198242,
+            97.31584167480469,
+            142.7526092529297,
+            108.67584228515625
+          ]
+        },
+        {
+          "id": "p5-b4-28d7393",
+          "kind": "paragraph",
+          "text": "To reflect the actual farmers’ dynamic decision-making pro-\ncesses, several timeline parameters should be set for farm \nplanning. The first one is the starting date of planning, deter-\nmined based on when farmers would change the current crop \narrangement or the start of the cropping season. Secondly, \nthe length of the planning period, reflecting how often farm-\ners assess farm performance and make cropping decisions, \nmust be defined. One or multiple crops can be sown and \nharvested per planning period. This period typically spans \none year but can vary, ranging from shorter (e.g., one quar-\nter) to longer (e.g., multiple years). The third parameter is \nthe number of planning periods for crop sequence genera-\ntion, also known as the “planning window” in FarmSTEPS. \nAdditionally, users can specify the length of historical crop \nsequences prior to the starting date of farm planning, ena-\nbling the model to account for the cropping history of each \nfarm plot. All of these timeline parameters are applied uni-\nformly across all plots within a farm.",
+          "bbox": [
+            51.023590087890625,
+            120.94584655761719,
+            291.6636047363281,
+            348.53582763671875
+          ]
+        },
+        {
+          "id": "p5-b5-2d06061",
+          "kind": "paragraph",
+          "text": "2.1.4  \u0007Crop sequence module",
+          "bbox": [
+            51.023590087890625,
+            364.1158447265625,
+            167.4925537109375,
+            375.475830078125
+          ]
+        },
+        {
+          "id": "p5-b6-0bd2bc4",
+          "kind": "paragraph",
+          "text": "With defined timeline parameters, this module allows to set \nthe historical and baseline crop sequences for each plot in \na farm. Setting historical crop sequences incorporates the \ninfluence of past crops on future crop planning in the model. \nBaseline crop sequences represent the farmers’ original idea \nfor arranging crop sequences across plots in the planning \nwindow, providing a reference for comparing with novel \nplans. Users can choose a few candidate crops from the land-\nunits to constitute historical and baseline crop sequences \nfor plots.",
+          "bbox": [
+            51.023590087890625,
+            387.7458190917969,
+            291.7686462402344,
+            515.3358154296875
+          ]
+        },
+        {
+          "id": "p5-b7-0f46676",
+          "kind": "paragraph",
+          "text": "2.1.5  \u0007Indicator module",
+          "bbox": [
+            51.023590087890625,
+            530.9158325195312,
+            144.5725860595703,
+            542.2758178710938
+          ]
+        },
+        {
+          "id": "p5-b8-3409fe8",
+          "kind": "paragraph",
+          "text": "Indicator assessment in FarmSTEPS relies on crop input-\noutput relationships so model users can define any indicators \nof their interest that are calculated in terms of crop input-\noutput dataset to assess farm cropping plans. For instance, \ndietary nutrient yield from the human-nutrition domain, \ngross margin and labor use from the socio-economic \ndomain, and groundwater use and GHG emission from the \nenvironmental domain. These indicators can be set as objec-\ntives for improving sustainability benefits or as constraints \nfor eliminating undesired solutions during planning.\nFor a given whole-farm crop sequence plan, the module \nbegins with evaluating the crop-level performance ­(Ii,p,t,c), \ni.e., the ith indicator performance of the component crop c",
+          "bbox": [
+            51.023590087890625,
+            554.5458374023438,
+            291.6925354003906,
+            719.6378173828125
+          ]
+        },
+        {
+          "id": "p5-b9-6fdd8c3",
+          "kind": "paragraph",
+          "text": "of the sequence on the plot p in the tth planning period. If \nthe growing season of a crop spans two planning periods, \nusers can decide whether the indicator values are allocated \nbetween periods proportionate to the growing duration or \ncredited to the period when the crop is harvested. The former \nis suitable for indicators associated with agricultural inputs \nsuch as labor input and environmental costs while the latter \nis suitable for product and economic output-related indica-\ntors such as gross margin and food energy production.\nAssessment outcomes are subsequently computed at the \nplot, period and farm level and presented to the user. The \nindicator performance of each plot ­(Ii,p) is calculated as:",
+          "bbox": [
+            306.139404296875,
+            53.2148551940918,
+            546.7921752929688,
+            206.73585510253906
+          ]
+        },
+        {
+          "id": "p5-b10-5593a32",
+          "kind": "paragraph",
+          "text": "Where PW is the duration of the planning window (in \nyears). The farm performance of indicator i per planning \nperiod ­(Ii,t) is computed as:",
+          "bbox": [
+            306.1438903808594,
+            246.49583435058594,
+            546.8218994140625,
+            286.5858154296875
+          ]
+        },
+        {
+          "id": "p5-b11-c5f2133",
+          "kind": "paragraph",
+          "text": "Where ­Ap represents the land area (ha) of plot p. The \noverall performance of indicator i across the entire planning \nwindow ­(Ii,farm) is:",
+          "bbox": [
+            306.14239501953125,
+            331.5457458496094,
+            546.7535400390625,
+            372.6778259277344
+          ]
+        },
+        {
+          "id": "p5-b12-3a94dbd",
+          "kind": "paragraph",
+          "text": "2.1.6  \u0007Constraint module",
+          "bbox": [
+            306.1462097167969,
+            430.4658203125,
+            405.23516845703125,
+            441.8258056640625
+          ]
+        },
+        {
+          "id": "p5-b13-e4033cb",
+          "kind": "paragraph",
+          "text": "Various constraints can be formulated in FarmSTEPS to \nensure that the generated farm cropping plans comply with \nthe agronomic rules and satisfy the farm-specific demands. \nHere, all constraints are classified into two types: longitudi-\nnal and transversal constraints. The longitudinal constraints \nare applied to crop sequences on each plot while transversal \nones are applied to the whole farm.",
+          "bbox": [
+            306.1462097167969,
+            454.0957946777344,
+            546.8342895507812,
+            544.185791015625
+          ]
+        },
+        {
+          "id": "p5-b14-0d9b0d6",
+          "kind": "paragraph",
+          "text": "Longitudinal constraints  Longitudinal constraints, applied \nat the temporal scale, include sequence-level rules and plot-\nlevel constraints.",
+          "bbox": [
+            306.1462097167969,
+            554.0958251953125,
+            546.6339721679688,
+            594.185791015625
+          ]
+        },
+        {
+          "id": "p5-b15-54803ad",
+          "kind": "paragraph",
+          "text": "Sequence-level rules can help to avoid the negative \nagronomic effects of unreasonable crop successions, for \nexample, yield loss and build-up of soil pathogens. Users \ncan set the following crop sequence rules based on local \ncontext: the maximum planting frequency of a certain crop \n(group), the minimum interval between repeated planting \nof a certain crop (group), and the disallowed crop suc-\ncession matrix (Dogliotti et al. 2003). The planned crop",
+          "bbox": [
+            306.1462097167969,
+            604.0958251953125,
+            546.8768920898438,
+            706.685791015625
+          ]
+        },
+        {
+          "id": "p5-b16-48318ee",
+          "kind": "paragraph",
+          "text": "(1)\nIi,p =",
+          "bbox": [
+            305.9617919921875,
+            219.6958465576172,
+            544.2562255859375,
+            235.38426208496094
+          ]
+        },
+        {
+          "id": "p5-b17-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            330.62200927734375,
+            214.4326629638672,
+            339.7642822265625,
+            228.93629455566406
+          ]
+        },
+        {
+          "id": "p5-b18-e3b98a4",
+          "kind": "paragraph",
+          "text": "t",
+          "bbox": [
+            339.76568603515625,
+            219.67413330078125,
+            341.712158203125,
+            226.6758270263672
+          ]
+        },
+        {
+          "id": "p5-b19-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            342.3309020996094,
+            214.4326629638672,
+            351.4731750488281,
+            228.93629455566406
+          ]
+        },
+        {
+          "id": "p5-b20-e14f27b",
+          "kind": "paragraph",
+          "text": "cIi,p,t,c\nPW",
+          "bbox": [
+            345.2107849121094,
+            214.47653198242188,
+            374.302978515625,
+            240.24594116210938
+          ]
+        },
+        {
+          "id": "p5-b21-d65165e",
+          "kind": "paragraph",
+          "text": "(2)\nIi,t =",
+          "bbox": [
+            305.9648132324219,
+            302.14581298828125,
+            544.2521362304688,
+            317.2358093261719
+          ]
+        },
+        {
+          "id": "p5-b22-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            329.16668701171875,
+            294.2856750488281,
+            338.3089599609375,
+            308.7892761230469
+          ]
+        },
+        {
+          "id": "p5-b23-148de9c",
+          "kind": "paragraph",
+          "text": "p",
+          "bbox": [
+            338.3109130859375,
+            299.527099609375,
+            341.83978271484375,
+            306.52880859375
+          ]
+        },
+        {
+          "id": "p5-b24-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            344.0078125,
+            294.2856750488281,
+            353.15008544921875,
+            308.7892761230469
+          ]
+        },
+        {
+          "id": "p5-b25-3e34fd2",
+          "kind": "paragraph",
+          "text": "c (Ii,p,t,c × Ap)",
+          "bbox": [
+            353.1518859863281,
+            293.9849853515625,
+            406.91864013671875,
+            306.9666748046875
+          ]
+        },
+        {
+          "id": "p5-b26-36c0025",
+          "kind": "paragraph",
+          "text": "∑\np Ap",
+          "bbox": [
+            354.9967956542969,
+            310.9556579589844,
+            380.5845642089844,
+            325.4592590332031
+          ]
+        },
+        {
+          "id": "p5-b27-785f99e",
+          "kind": "paragraph",
+          "text": "(3)\nIi,farm =",
+          "bbox": [
+            305.9648132324219,
+            387.1958312988281,
+            544.2521362304688,
+            402.28582763671875
+          ]
+        },
+        {
+          "id": "p5-b28-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            340.27301025390625,
+            379.3357849121094,
+            349.415283203125,
+            393.8393859863281
+          ]
+        },
+        {
+          "id": "p5-b29-148de9c",
+          "kind": "paragraph",
+          "text": "p",
+          "bbox": [
+            349.4171142578125,
+            384.57720947265625,
+            352.94598388671875,
+            391.57891845703125
+          ]
+        },
+        {
+          "id": "p5-b30-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            355.1050109863281,
+            379.3357849121094,
+            364.2472839355469,
+            393.8393859863281
+          ]
+        },
+        {
+          "id": "p5-b31-e3b98a4",
+          "kind": "paragraph",
+          "text": "t",
+          "bbox": [
+            364.2491149902344,
+            384.57720947265625,
+            366.1955871582031,
+            391.57891845703125
+          ]
+        },
+        {
+          "id": "p5-b32-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            368.48779296875,
+            379.3357849121094,
+            377.63006591796875,
+            393.8393859863281
+          ]
+        },
+        {
+          "id": "p5-b33-fb90b7e",
+          "kind": "paragraph",
+          "text": "c (Ii,p,t,c × Ap)\n∑\np Ap × PW",
+          "bbox": [
+            359.8658142089844,
+            379.03497314453125,
+            431.39874267578125,
+            410.50927734375
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-5.png"
+    },
+    {
+      "number": 6,
+      "blocks": [
+        {
+          "id": "p6-b0-b984ed0",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 6 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p6-b2-085fc80",
+          "kind": "paragraph",
+          "text": "sequences in each plot account for these rules with histori-\ncal sequences.\nPlot-level constraints are used to limit the ith indicator \nperformance of the crop sequence on the plot p within a \ncertain range:",
+          "bbox": [
+            51.020904541015625,
+            54.14585494995117,
+            291.63885498046875,
+            119.23585510253906
+          ]
+        },
+        {
+          "id": "p6-b3-d205273",
+          "kind": "paragraph",
+          "text": "Where ­Ii,p,max and ­Ii,p,min are the maximum and minimum \nvalue of the ith indicator that users enter into the model to \nintroduce their expectations on plot p.",
+          "bbox": [
+            51.02080535888672,
+            147.6958465576172,
+            291.7674865722656,
+            187.7858428955078
+          ]
+        },
+        {
+          "id": "p6-b4-e0f7f67",
+          "kind": "paragraph",
+          "text": "Transversal constraints  Transversal constraints, applied at \nthe spatial scale, include period- and farm-level constraints.",
+          "bbox": [
+            51.023406982421875,
+            197.6958465576172,
+            291.7023010253906,
+            225.2858428955078
+          ]
+        },
+        {
+          "id": "p6-b5-bb3d55b",
+          "kind": "paragraph",
+          "text": "Period-level constraints are set to remove the created farm \ncropping plans that, within a planning period, are unaccepta-\nble from the perspective of the indicator performance and/or \nthe harvested area or production of certain crops:",
+          "bbox": [
+            51.023406982421875,
+            235.1958465576172,
+            291.8253479003906,
+            287.78582763671875
+          ]
+        },
+        {
+          "id": "p6-b6-e873a9d",
+          "kind": "paragraph",
+          "text": "Where ­Ii,t,max and ­Ii,t,min are the user-defined maximum \nand minimum value of the ith indicator at the whole farm in \nthe tth planning period. ­Ac,t,max and ­Ac,t,min mean the maxi-\nmum and minimum harvested area (ha) for crop species c \nwhile ­Pc,t,max and ­Pc,t,min mean the maximum and minimum \nproduction (Mg) for crop species c in the farm for the tth \nplanning period.\nLikewise, farm-level constraints can rule out unaccepta-\nble farm plans over the entire planning window:",
+          "bbox": [
+            51.018699645996094,
+            375.7458190917969,
+            291.8114013671875,
+            490.8359069824219
+          ]
+        },
+        {
+          "id": "p6-b7-4f0b018",
+          "kind": "paragraph",
+          "text": "Where for the entire planning window, ­Ii,farm,max and \n­Ii,farm,min represent the maximum and minimum value of \nthe ith indicator at the whole farm scale, and ­Ac,farm,max, \n­Ac,farm,min, ­Pc,farm,max, and ­Pc,farm,min mean the maximum and \nminimum harvested area (ha) and production (kg) for crop \nspecies c across the plots in the farm, respectively.",
+          "bbox": [
+            51.020198822021484,
+            578.7959594726562,
+            291.64727783203125,
+            656.3859252929688
+          ]
+        },
+        {
+          "id": "p6-b8-afded55",
+          "kind": "paragraph",
+          "text": "2.2  \u0007FarmSTEPS planning algorithm",
+          "bbox": [
+            51.02360153198242,
+            666.6919555664062,
+            212.7126007080078,
+            679.2759399414062
+          ]
+        },
+        {
+          "id": "p6-b9-6e0e97e",
+          "kind": "paragraph",
+          "text": "The planning algorithm in the FarmSTEPS software creates \na list of feasible crop sequence plans for the whole farm, i.e.",
+          "bbox": [
+            51.02360153198242,
+            691.2959594726562,
+            291.5465087890625,
+            718.8859252929688
+          ]
+        },
+        {
+          "id": "p6-b10-999038d",
+          "kind": "paragraph",
+          "text": "(4)\nIi,p,min ≤Ii,p≤Ii,p,max",
+          "bbox": [
+            50.84560012817383,
+            124.94033813476562,
+            289.1335754394531,
+            141.6359405517578
+          ]
+        },
+        {
+          "id": "p6-b11-4fb9648",
+          "kind": "paragraph",
+          "text": "(5)\nIi,t,min ≤Ii,t≤Ii,t,max",
+          "bbox": [
+            50.84360122680664,
+            293.4903259277344,
+            289.13397216796875,
+            309.7358093261719
+          ]
+        },
+        {
+          "id": "p6-b12-85bae60",
+          "kind": "paragraph",
+          "text": "(6)\nAc,t,min ≤Ac,t≤Ac,t,max",
+          "bbox": [
+            50.8755989074707,
+            323.7403259277344,
+            289.13397216796875,
+            339.9358215332031
+          ]
+        },
+        {
+          "id": "p6-b13-3f63dd6",
+          "kind": "paragraph",
+          "text": "(7)\nPc,t,min ≤Pc,t≤Pc,t,max",
+          "bbox": [
+            50.860599517822266,
+            353.89031982421875,
+            289.13397216796875,
+            370.13592529296875
+          ]
+        },
+        {
+          "id": "p6-b14-d4d9069",
+          "kind": "paragraph",
+          "text": "(8)\nIi,farm,min ≤Ii,farm≤Ii,farm,max",
+          "bbox": [
+            50.84360122680664,
+            496.5404052734375,
+            289.13397216796875,
+            512.7859497070312
+          ]
+        },
+        {
+          "id": "p6-b15-c48603f",
+          "kind": "paragraph",
+          "text": "(9)\nAc,farm,min ≤Ac,farm≤Ac,farm,max",
+          "bbox": [
+            50.8765983581543,
+            526.7904663085938,
+            289.13397216796875,
+            542.9859008789062
+          ]
+        },
+        {
+          "id": "p6-b16-c8e4e82",
+          "kind": "paragraph",
+          "text": "(10)\nPc,farm,min ≤Pc,farm≤Pc,farm,max",
+          "bbox": [
+            50.860599517822266,
+            556.9404296875,
+            289.13397216796875,
+            573.1859130859375
+          ]
+        },
+        {
+          "id": "p6-b17-554e4ef",
+          "kind": "paragraph",
+          "text": "‘farm-plans’ (across one or more ‘planning-periods’, which \nare user defined periods for instance for one year. Generally \nspeaking, the planning procedure initially looks at the first \nplanning-period and generates all possible combinations of \nconsecutive crops (‘crop-sequence’) for each plot across the \nwhole farm, considering predefined longitudinal and trans-\nversal constraints. Then it proceeds to the next planning-\nperiod based on the list of possible crop combinations from \nthe previous period and repeats this process until the end \nof the planning window is reached (Fig. 3), reflecting the \nfarmers’ dynamic decision-making processes. The model \nultimately provides all feasible farm-plans with their cor-\nresponding indicator performance (Fig. 3).\nSpecifically speaking, the planning commences with the \ngeneration of feasible crop sequences per plot in the first \nplanning period. For each plot in the farm, the algorithm \nconstructs a crop-sequence containing a list of crops that \nhave been grown before the start of the first planning-period, \ni.e. the plot history. Then the last day of the historical crop-\nsequence is checked to determine whether there is growing \ntime to accommodate a one or more crops in the first plan-\nning-period. If growing time is available, the crop-sequence \nadds the first crop or successive crops from the candidate \ncrop list of the plot. Then the crop sequence rules are applied \nto the crop-sequence to examine the agronomic feasibil-\nity. If this crop-sequence conforms to agronomic rules, it \nis stored in the collection of crop-sequences for the plot. \nAfter that, the added crop(s) in the crop-sequence is(are) \nemptied to add and examine the next single crop and suc-\ncessive crops from the list. This process runs throughout all \ncandidate crops for the plot and then generates a collection \nof all agronomically feasible crop-sequences in each plot in \nthe first planning-period.\nSubsequently, the algorithm produces all feasible farm \ncropping plans during the first planning-period. In doing so, \na farm-plan by combining feasible crop-sequences across \nall plots in the farm within the first planning-period. If this \nfarm-plan does not violate the period-level constraints, it is \nadded to the collection of farm-plans for the first planning-\nperiod. Similarly, the farm-plan deletes the first combina-\ntion, and the above process is then repeated to the rest of \nall combinations of crop-sequences to generate the whole \ncollection of feasible farm-plans. Moreover, a crop-sequence \nwould be marked if used in a feasible farm plan. The crop-\nsequences that are not marked at the end of the farm plan \ngeneration are eliminated from the collection of feasible \ncrop-sequences for a plot.\nThe planning procedure for creating feasible crop-\nsequences and farm-plans is also applied for the each of \nthe following planning-periods until the end of the plan-\nning window. Here, a crop-sequence for a plot builds on not \nonly its historical sequence but also on one feasible sequence \nfrom the previous planning-periods. All crop-sequences for",
+          "bbox": [
+            306.1416931152344,
+            54.14585494995117,
+            546.9139404296875,
+            719.23583984375
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-6.png"
+    },
+    {
+      "number": 7,
+      "blocks": [
+        {
+          "id": "p7-b0-f2ee46a",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 7 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2527465820312,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p7-b2-d7b9a00",
+          "kind": "paragraph",
+          "text": "the plot are systematically added with subsequent crops \nin the focus period and all agronomically feasible crop \nsequences are selected and stored, as the algorithm does \nin the first period. Likewise, all feasible farm-plans for the \nfollowing period are accordingly obtained with the help of \nperiod-level constraints. Furthermore, at the end of the final \nplanning-period, plot- and farm-level constraints remove the \nfarm farm-plans that are unacceptable due to undesirable \nperformance for certain plots and the whole farm across \nthe entire planning window. The remaining farm-plans are \ndeemed feasible and exported as the outcome of the Farm-\nSTEPS planning algorithm.",
+          "bbox": [
+            51.02360153198242,
+            566.552734375,
+            291.81158447265625,
+            719.1427001953125
+          ]
+        },
+        {
+          "id": "p7-b3-77556f0",
+          "kind": "heading",
+          "text": "2.3  \u0007Identification of Pareto‑optimal farm plans",
+          "bbox": [
+            306.1416931152344,
+            567.7428588867188,
+            521.6846313476562,
+            580.3268432617188
+          ]
+        },
+        {
+          "id": "p7-b4-4842d9a",
+          "kind": "paragraph",
+          "text": "The FarmSTEPS model typically generates a large set of \nalternative farm-plans, some of which may underperform in \nterms of sustainability objectives. These suboptimal farm-\nplans could therefore be excluded from those recommended \nto end users. Here, we applied the Pareto ranking method, \na non-weighing multi-criteria decision-aid tool, to identify \nthe Pareto-optimal plans from the entire set of generated \nfarm-plans. A plan was ranked as Pareto-optimal when its \nperformance of any one objective cannot be outstripped by \nanother farm-plan without these other plans being inferior to",
+          "bbox": [
+            306.1416931152344,
+            592.3468627929688,
+            546.9144897460938,
+            719.9368286132812
+          ]
+        },
+        {
+          "id": "p7-figure1",
+          "kind": "image",
+          "path": "library/farmsteps-2026/d17dce19f85b/p7-figure1.png",
+          "alt": "Original source page 7, graphic 1",
+          "caption": "原文第7页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p7-b6-3805258",
+          "kind": "paragraph",
+          "text": "Fig. 3   Sketch of the algorithm for systematic generation of feasi-\nble farm-plans. The algorithm is illustrated for generating all feasi-\nble plans for a hypothetical farm over two future planning-periods. \nThis farm contains two plots with different candidate crops and his-\ntorical crop sequences. The vertical blue dashed arrow indicates the \ngeneration of crop sequences at the plot level, while the horizontal \nblue dashed arrow represents the aggregation of sequences into \nfarm-plans. In each planning-period, the model first creates all fea-\nsible crop-sequences for each plot, subject to longitudinal constraints \n(expressed as vertical red arrow; Section 2.1.6 in the main text). For \nthe hypothetical farm, the longitudinal constraint is that the same crop \nmay not be planted consecutively in the same plot. Candidate crops",
+          "bbox": [
+            51.023590087890625,
+            423.4433288574219,
+            291.28466796875,
+            546.225830078125
+          ]
+        },
+        {
+          "id": "p7-b7-b147c96",
+          "kind": "paragraph",
+          "text": "in red color mean their associated crop-sequences were all infeasible \ndue to this longitudinal constraint. Then the model combines feasi-\nble crop-sequences between the two plots to produce farm-plans and \nidentifies feasible farm-plans by checking transversal constraints \n(expressed as horizontal red arrows; Section 2.1.6 in the main text). \nWe set the transversal constraint that each candidate crop is allocated \nto at most one plot in any given unit planning-period, ensuring that \nthe harvested area of each crop does not exceed the area of a single \nplot. The above two steps are repeated until the end of the planning \nwindow, resulting in a set of all feasible farm-plans (n=11). Candi-\ndate crops in rose color mean some plans including them are ruled \nout due to this transversal constraint.",
+          "bbox": [
+            306.142578125,
+            423.4008483886719,
+            546.40771484375,
+            546.183349609375
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-7.png"
+    },
+    {
+      "number": 8,
+      "blocks": [
+        {
+          "id": "p8-b0-ab4aa24",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 8 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p8-figure1",
+          "kind": "image",
+          "path": "library/farmsteps-2026/d17dce19f85b/p8-figure1.png",
+          "alt": "Original source page 8, graphic 1",
+          "caption": "原文第8页图形 / 公式切片；完整原排版见本页末核对图"
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-8.png"
+    },
+    {
+      "number": 9,
+      "blocks": [
+        {
+          "id": "p9-b0-9d846af",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 9 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2527465820312,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p9-b2-8cbcbea",
+          "kind": "paragraph",
+          "text": "at least one of the other objectives (Groot et al. 2012). This \nwas done in R software via the is_nondominated function \nfrom the “eaf” package. While the Pareto ranking has not \nbeen directly embedded within the FarmSTEPS software, it \nserves as an essential component of the overall methodologi-\ncal framework, enabling trade-off analysis and guiding the \nselection of desirable plans for end users.",
+          "bbox": [
+            51.023590087890625,
+            141.55271911621094,
+            291.6404724121094,
+            231.64271545410156
+          ]
+        },
+        {
+          "id": "p9-b3-fe9f99a",
+          "kind": "paragraph",
+          "text": "3  \u0007Case study",
+          "bbox": [
+            51.02360153198242,
+            252.4147186279297,
+            121.04360961914062,
+            267.28271484375
+          ]
+        },
+        {
+          "id": "p9-b4-dfb9d26",
+          "kind": "paragraph",
+          "text": "3.1  \u0007Case farm description",
+          "bbox": [
+            51.02360153198242,
+            279.4488525390625,
+            169.5706024169922,
+            292.0328369140625
+          ]
+        },
+        {
+          "id": "p9-b5-2fb0fd7",
+          "kind": "paragraph",
+          "text": "The case farm modeled in FarmSTEPS is a single farm \nlocated in Quzhou County, Hebei Province, China \n(114°98′E, 36°94′N, Fig. 4). This farm is a large-scale family \nfarm with a cropland area of 23 ha. Quzhou has a temperate \ncontinental monsoon climate, with a mean annual tempera-\nture of 13.1 ℃ and a mean annual precipitation of 430 mm. \nThe farm has a loamy textured calcareous alluvial soil, with \na soil bulk density of 1.43 g/cm3, a pH of 8.2, and a soil \norganic matter content of 1.57%. Farm managers have been \nconsecutively cultivating only wheat-maize double cropping \non the whole farm for at least five years. Double cropping \nof wheat and maize is a common cropping pattern in the \nNorth China Plain due to its high output of cereal grain for \nhuman consumption (wheat) and farm animals (maize) and \nthe availability of mechanization.\nWe selected this farm as a case study to illustrate the \ncapabilities of FarmSTEPS for both practical and methodo-\nlogical reasons.\nFrom a practical perspective, the farmers are currently \nunsatisfied with the farming profitability and therefore seek \nto improve farm gross margin by diversifying cropping plans. \nFurthermore, the local government endeavors to reduce \nresource and environmental pressures arising from agricultural \nproduction such as groundwater overdraft, nutrient pollution, \npesticide overuse, and GHG emissions by collaborating with \nlarge-scale farms that can set an example for nearby, often \nsmaller, farms. The case farm also encounters practical con-\nstraints related to labor availability, market outlets, and on-\nfarm management in the face of altering cropping plans. Thus, \nthe farm acts as a suitable case to use FarmSTEPS to explore \ndiversified farm crop sequence plans towards achieving multi-\nattribute farming sustainability.",
+          "bbox": [
+            51.01358413696289,
+            304.0528259277344,
+            291.7770080566406,
+            706.642822265625
+          ]
+        },
+        {
+          "id": "p9-b6-5263ad1",
+          "kind": "paragraph",
+          "text": "From a methodological perspective, this farm represents \nmultiple dimensions of complexity relevant to whole-farm \ncrop planning, specifically:\nVariable plot size: Although the farm consists of only five \nplots, their sizes vary considerably. This heterogeneity in plot \narea markedly influences crop allocation decisions and farm-\nlevel outcomes;\nDiverse candidate crops: The crop portfolio includes a \nwide range of crops, from staple cereals and tuber crops to oil \ncrops and vegetables, with distinct crop calendars, agronomic \nrequirements, and economic and environmental profiles;",
+          "bbox": [
+            306.1418762207031,
+            54.14280319213867,
+            546.8451538085938,
+            194.23280334472656
+          ]
+        },
+        {
+          "id": "p9-b7-d87079b",
+          "kind": "paragraph",
+          "text": "1)\t Land-unit-specific crop set: The farm includes two \nland units, each with a different set of candidate crops, \nreflecting spatial heterogeneity in farm management.\n2)\t Flexible cropping intensity: The one-year unit planning \nperiod allows for both single and double cropping sys-\ntems, increasing the number of feasible crop sequence \ncombinations.\n3)\t Multi-objective assessment: Five sustainability indica-\ntors (economic returns, groundwater depletion, pesticide \ninput, eutrophication potential, and GHG emissions) \nwere used to evaluate the cropping plans, capturing \ntrade-offs between farm profitability and environmental \nimpacts.\n4)\t Complex constraints: In addition to crop sequence rules, \nwe considered transversal constraints at the period and \nfarm levels. These include limits on total production and \nharvested area of crops, as well as thresholds for dietary \nenergy yield, and socioeconomic and environmental \nindicators.",
+          "bbox": [
+            306.1418762207031,
+            204.14280700683594,
+            546.900390625,
+            444.2327880859375
+          ]
+        },
+        {
+          "id": "p9-b8-3fe3c91",
+          "kind": "paragraph",
+          "text": "This case study does not address certain dimensions of \ncomplexity, such as spatial variability in soil across plots \n(Aggarwal et al. 2022) or a longer planning horizon (> three \nyears), which could be tested in the future studies. However, \ngiven the multiple forms of complexity represented above, this \ncase provides a robust and sufficiently representative testbed \nfor illustrating the core capabilities of FarmSTEPS.",
+          "bbox": [
+            306.1418762207031,
+            454.1427917480469,
+            546.892822265625,
+            544.2327880859375
+          ]
+        },
+        {
+          "id": "p9-b9-91e4098",
+          "kind": "paragraph",
+          "text": "3.2  \u0007Model application for the case farm",
+          "bbox": [
+            306.1416931152344,
+            554.5418701171875,
+            487.1225891113281,
+            567.1258544921875
+          ]
+        },
+        {
+          "id": "p9-b10-a8e4f0a",
+          "kind": "paragraph",
+          "text": "3.2.1  \u0007Farm, timeline, and crop sequence characterization",
+          "bbox": [
+            306.1416931152344,
+            580.515869140625,
+            534.849609375,
+            591.8758544921875
+          ]
+        },
+        {
+          "id": "p9-b11-38e2126",
+          "kind": "paragraph",
+          "text": "The cropland on the case farm consisted of five plots (Plot \n1–5; Fig. 4), divided by multiple farm lanes for agricultural \nmachinery transport.\nWe established two land-units in ROTAT+: one was \nlinked to Plots 1 and 2 while the other one was to Plots 3–5. \nThere was no discrepancy in soil properties and resource \navailability among the five plots so we did not consider these \ncharacteristics in land-units. The candidate crop list for each \nland-unit was determined through discussion with the farm",
+          "bbox": [
+            306.14166259765625,
+            604.1458740234375,
+            546.8135375976562,
+            719.23583984375
+          ]
+        },
+        {
+          "id": "p9-b12-51d13a3",
+          "kind": "paragraph",
+          "text": "Fig. 4   Location and plot configuration of the case farm in the North \nChina Plain for the FarmSTEPS application. The blue and green color \nof the plots represent two land-units defined in the model, which dif-\nfered in the set of candidate crops. The plot in yellow was a fixed plot, \nwhich was set to be devoted to wheat-maize double cropping over the \nplanning window.",
+          "bbox": [
+            51.023597717285156,
+            55.435298919677734,
+            291.2591552734375,
+            118.24165344238281
+          ]
+        },
+        {
+          "id": "p9-b13-ae3704d",
+          "kind": "paragraph",
+          "text": "◂",
+          "bbox": [
+            45.74369812011719,
+            43.72779846191406,
+            51.02369689941406,
+            68.44779968261719
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-9.png"
+    },
+    {
+      "number": 10,
+      "blocks": [
+        {
+          "id": "p10-b0-c405f4a",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 10 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p10-b2-da1293b",
+          "kind": "paragraph",
+          "text": "managers regarding which crops are suitable for planting \non the farm and are acceptable for managers (Table 1). The \nonly difference between the two land-units was the candi-\ndate crops because managers were willing to cultivate labor-\nintensive crops (peanut and garlic) only on Plots 1 and 2. \nThe crops shared in both land-units were parameterized with \nthe same input-output inventory, reflecting the relatively \nhomogeneous management and performance of candidate \ncrops observed across all five plots (Table S1). All crop \ninput-output data were collected from farmers’ interview \nand local cropping system survey, representing the average \nlevel in the region. At this stage, we did not consider the \ninter-annual uncertainties of crop performance.\nWe explored future three-year farm crop sequence plans \nto enhance sustainability of farm production. A three-year \nplanning window is generally acceptable for farmers in the \nNorth China Plain, where long-term crop sequence plan-\nning is uncommon (Xiao et al. 2022). In this context, crop \nsequences longer than three years are technologically com-\nplex and less practical for farmers. Importantly, even within \na short planning horizon, whole-farm crop sequencing offers \nsignificantly greater opportunities for crop diversification \ncompared to the prevailing wheat-maize annual double crop-\nping system.\nThe planning period in this study was set to one year as \nmanagers often assess farm performance on an annual basis. \nThe starting date of planning was set at October ­1st, immedi-\nately following the harvesting of summer maize. Moreover, \nwe considered the historical crop sequences on each plot \nover the past two years.\nWe chose wheat-maize double cropping in each year as \nthe historical and future baseline crop sequence across the \nfive plots. Following farmers’ preference, Plot 3 was dedi-\ncated solely to the wheat-maize system throughout the plan-\nning window. As a result, while Plot 3 remained part of the \nsustainability assessment (sharing land-unit data with Plots \n4 and 5), it was excluded from the crop sequence generation \nprocess.",
+          "bbox": [
+            51.02357482910156,
+            54.14585494995117,
+            291.8014831542969,
+            531.73583984375
+          ]
+        },
+        {
+          "id": "p10-b3-bc84e43",
+          "kind": "paragraph",
+          "text": "3.2.2  \u0007Sustainability objectives",
+          "bbox": [
+            306.14727783203125,
+            55.63578796386719,
+            428.5952453613281,
+            66.99578857421875
+          ]
+        },
+        {
+          "id": "p10-b4-b42f5b4",
+          "kind": "paragraph",
+          "text": "We set five sustainability indicators as objectives to improve \nat the whole farm level by designing diversified farm crop-\nping plans, containing one from the economic domain (gross \nmargin) and four from the environmental domain (ground-\nwater depletion, pesticide input, eutrophication potential, \nand GHG emission).\nMaximizing farm gross margin ­(IGM,farm , USD/ha/year) \nover the planning window is the key interest of the farm-\ners. The model evaluated the farm gross margin using Eq. 3, \nbased on the gross margin ­(IndGM,c, USD/ha) of each com-\nponent crop in the farm, which was calculated as:",
+          "bbox": [
+            306.1408386230469,
+            79.26579284667969,
+            546.93896484375,
+            219.35585021972656
+          ]
+        },
+        {
+          "id": "p10-b5-5edec81",
+          "kind": "paragraph",
+          "text": "Where ­Yp,t,c (Mg/ha) and ­PRc (USD/Mg) is the yield and \nsales price of the harvested commodity for crop c. ­COp,t,c \n(USD/ha) is the variable costs for agricultural inputs (i.e., \nseeds/seedlings, irrigation, fertilizers, animal manures, pes-\nticides, plastic films, and plant growth regulators.), hired \nlabor, and machinery required for crop c (Table S1).\nMinimizing groundwater depletion ­(IGWD,farm , mm/year) \nplays a critical role in alleviating the groundwater crisis in the \nNorth China Plain and is of key interest to the county govern-\nment. The model estimated this indicator using the following \nequation:",
+          "bbox": [
+            306.1409912109375,
+            246.3157196044922,
+            546.9179077148438,
+            386.40570068359375
+          ]
+        },
+        {
+          "id": "p10-b6-e176579",
+          "kind": "paragraph",
+          "text": "Where ­IGC,farm (mm/year) means farm-level groundwater \nconsumption for crop production, which is derived from the \ngroundwater irrigation amount used for each component crop \n­(IGC,p,t,c, mm) in a farm plan (Table S1):",
+          "bbox": [
+            306.1376037597656,
+            412.66571044921875,
+            546.8255004882812,
+            466.2977294921875
+          ]
+        },
+        {
+          "id": "p10-b7-3f04f85",
+          "kind": "paragraph",
+          "text": "(11)\nIGM,p,t,c = Yp,t,c × PRc −COp,t,c",
+          "bbox": [
+            305.9656982421875,
+            225.88877868652344,
+            544.2523193359375,
+            241.0056915283203
+          ]
+        },
+        {
+          "id": "p10-b8-4589939",
+          "kind": "paragraph",
+          "text": "(12)\nIGWD,farm = IGC,farm −Dfarm",
+          "bbox": [
+            305.9646911621094,
+            392.61572265625,
+            544.2521362304688,
+            407.7057189941406
+          ]
+        },
+        {
+          "id": "p10-b9-ad913ba",
+          "kind": "paragraph",
+          "text": "(13)\nIGC,farm =",
+          "bbox": [
+            305.9587097167969,
+            480.8157043457031,
+            544.2521362304688,
+            495.90570068359375
+          ]
+        },
+        {
+          "id": "p10-b10-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            348.04278564453125,
+            472.9556579589844,
+            357.18505859375,
+            487.4592590332031
+          ]
+        },
+        {
+          "id": "p10-b11-148de9c",
+          "kind": "paragraph",
+          "text": "p",
+          "bbox": [
+            357.18701171875,
+            478.1971130371094,
+            360.71588134765625,
+            485.1988220214844
+          ]
+        },
+        {
+          "id": "p10-b12-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            362.8747863769531,
+            472.9556579589844,
+            372.0170593261719,
+            487.4592590332031
+          ]
+        },
+        {
+          "id": "p10-b13-e3b98a4",
+          "kind": "paragraph",
+          "text": "t",
+          "bbox": [
+            372.0190124511719,
+            478.1971130371094,
+            373.9654846191406,
+            485.1988220214844
+          ]
+        },
+        {
+          "id": "p10-b14-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            376.2576904296875,
+            472.9556579589844,
+            385.39996337890625,
+            487.4592590332031
+          ]
+        },
+        {
+          "id": "p10-b15-59e1427",
+          "kind": "paragraph",
+          "text": "c (IGC,p,t,c × Ap)\n∑\np Ap × PW",
+          "bbox": [
+            371.5237121582031,
+            472.6548767089844,
+            446.9447326660156,
+            504.1291809082031
+          ]
+        },
+        {
+          "id": "p10-b16-88a7d21",
+          "kind": "paragraph",
+          "text": "Table 1   The list of candidate crops and their agronomic constraints \nand suitable plots for the case farm in this study. Max. Fre. means the \nmaximum planting frequency of a certain crop in a crop sequence; \nThe planting frequency of a certain crop is defined as the ratio of",
+          "bbox": [
+            51.023597717285156,
+            547.4353637695312,
+            291.2752685546875,
+            590.2498168945312
+          ]
+        },
+        {
+          "id": "p10-b17-80a4bc4",
+          "kind": "paragraph",
+          "text": "the number of times the crop is planted in a crop sequence and the \nlength of the sequence. Min. Rep. (in years) means the minimum time \ninterval between the repeated cultivation of a certain crop in a crop \nsequence.",
+          "bbox": [
+            306.1426086425781,
+            547.4268188476562,
+            546.3939819335938,
+            590.2413330078125
+          ]
+        },
+        {
+          "id": "p10-b18-6e731aa",
+          "kind": "paragraph",
+          "text": "No.\nCrop name (abbreviation)\nLatin name\nBotanical family\nPlanting date\nHarvest date\nMax.Fre.\nMin.Rep.\nSuitable plots",
+          "bbox": [
+            51.02360153198242,
+            594.4290161132812,
+            543.7345581054688,
+            607.2554931640625
+          ]
+        },
+        {
+          "id": "p10-b19-a6acd13",
+          "kind": "paragraph",
+          "text": "1\nWheat\nTriticum aestivum\nGramineae\nOct.15\nJun.1\n1\n0\n1, 2, 3, 4, 5\n2\nSummer maize (SuMaize)\nZea mays\nGramineae\nJun.10\nOct.1\n1\n0\n1, 2, 3, 4, 5\n3\nSpring maize (SpMaize)\nZea mays\nGramineae\nMay.20\nOct.1\n1\n0\n1, 2, 4, 5\n4\nPeanut\nArachis hypogaea\nFabaceae\nApr.15\nAug.25\n0.5\n1.5\n4, 5\n5\nSunflower\nHelianthus annuus\nAsteraceae\nFeb.25\nJul.1\n0.5\n1.5\n1, 2, 4, 5\n6\nPotato\nSolanum tuberosum\nSolanaceae\nMar.5\nJun.20\n0.5\n1.5\n1, 2, 4, 5\n7\nSweet potato (SwPotato)\nIpomoea batatas\nConvolvulaceae\nApr.12\nSep.30\n0.5\n1.5\n1, 2, 4, 5\n8\nGarlic\nAllium sativum\nAmaryllidaceae\nOct.5\nJun.3\n0.5\n1.5\n4, 5",
+          "bbox": [
+            50.88763427734375,
+            613.154541015625,
+            535.4301147460938,
+            713.3779907226562
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-10.png"
+    },
+    {
+      "number": 11,
+      "blocks": [
+        {
+          "id": "p11-b0-a734941",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 11 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2528686523438,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p11-b2-1b784b7",
+          "kind": "paragraph",
+          "text": "While ­Dfarm (mm/year) means the farm-level deep infiltra-\ntion, estimated as:",
+          "bbox": [
+            51.01959991455078,
+            54.14585494995117,
+            289.1597595214844,
+            81.73585510253906
+          ]
+        },
+        {
+          "id": "p11-b3-5023115",
+          "kind": "paragraph",
+          "text": "Where AP (mm/year) is the annual precipitation amount \nand 0.02 is the unitless recharge coefficient for the study area.\nMinimizing farm pesticide input ­(IPesti,farm), expressed in kg \nactive ingredient (AI)/ha/year, is strongly emphasized in the \nnational and regional agricultural policies on the reduction in \nagrochemicals. The pesticide input at the farm level was also \naggregated from the crop-level input ­(IPesti,p,t,c, kg AI/ha/year) \nusing Eq. 3. ­IPesti,p,t,c was computed as follows:",
+          "bbox": [
+            51.01959991455078,
+            108.19584655761719,
+            291.78009033203125,
+            211.8277130126953
+          ]
+        },
+        {
+          "id": "p11-b4-d5e52e6",
+          "kind": "paragraph",
+          "text": "Where ­IInsect,p,t,c, ­IInsect,p,t,c and ­IInsect,p,t,c (kg AI/ha/year) \ndenotes insecticide, fungicide, and herbicide input for crop c, \nrespectively (Table S1).\nMinimizing life-cycle aquatic eutrophication potential \n­(IEUP,farm) and GHG emissions ­(IGHG,farm) indicate combating \nnutrient pollution and global warming. These two indicators \naccounted for environmental impacts from both pre-farm and \non-farm stages. The pre-farm stage includes corresponding \nimpacts associated with the manufacturing and transportation \nof agricultural inputs such as fertilizers, pesticides, electricity \nfor irrigation, and fuel for machinery use. The on-farm stage \nencompasses environmental impacts induced by field opera-\ntions. Likewise, their farm-level assessment was done using \nEq. 3 with corresponding crop-level performance ­(IndEUP,p,t,c, \nkg ­PO4 eq./ha/yr and ­IndGHG,p,t,c, Mg ­CO2 eq./ha/yr):",
+          "bbox": [
+            51.020904541015625,
+            237.5457000732422,
+            291.7408142089844,
+            428.677734375
+          ]
+        },
+        {
+          "id": "p11-b5-6ab5ca4",
+          "kind": "paragraph",
+          "text": "Where ­IEUP-PRE,p,t,c and ­IEUP-ON,p,t,c (kg ­PO4 eq./ha/yr) \nrepresent pre-farm and on-farm eutrophication potential for \ncrop c, while ­IGHG-PRE,p,t,c and ­IGHG-ON,p,t,c (Mg ­CO2 eq./ha/\nyr) represent pre-farm and on-farm eutrophication poten-\ntial for crop c. The calculation for these pre- and on-farm \nenvironmental performances is further detailed in the Sup-\nplementary Material S1.",
+          "bbox": [
+            51.0216064453125,
+            483.74560546875,
+            291.6015625,
+            573.8355712890625
+          ]
+        },
+        {
+          "id": "p11-b6-8d42a17",
+          "kind": "paragraph",
+          "text": "3.2.3  \u0007Constraints",
+          "bbox": [
+            51.022918701171875,
+            585.1156005859375,
+            121.13191223144531,
+            596.4755859375
+          ]
+        },
+        {
+          "id": "p11-b7-19b8541",
+          "kind": "paragraph",
+          "text": "From the perspective of longitudinal constraints (temporal-\nscale constraints), we formulated multiple crop sequence \nrules with local agronomists to filter out agronomically \ninfeasible sequences but did not set any plot-level constraints \nthat would define acceptable ranges of indicator values as \nthe farmer did not have specific demands in the regard. \nCrop sequence rules we used included the maximum fre-\nquency of a crop or crop group in a sequence, the minimum",
+          "bbox": [
+            51.022918701171875,
+            608.74560546875,
+            291.77978515625,
+            711.3355712890625
+          ]
+        },
+        {
+          "id": "p11-b8-d36824c",
+          "kind": "paragraph",
+          "text": "(14)\nDfarm = 0.02 × (IGC,farm + AP)",
+          "bbox": [
+            50.86759948730469,
+            88.04557800292969,
+            289.1329040527344,
+            103.13557434082031
+          ]
+        },
+        {
+          "id": "p11-b9-a77ebcd",
+          "kind": "paragraph",
+          "text": "(15)\nIPesti,p,t,c = IInsect,p,t,c + IFungi,p,t,c + IHerb,p,t,c",
+          "bbox": [
+            50.84159851074219,
+            217.11875915527344,
+            289.13397216796875,
+            232.33570861816406
+          ]
+        },
+        {
+          "id": "p11-b10-52157ca",
+          "kind": "paragraph",
+          "text": "(16)\nIEUP,p,t,c = IEUP−PRE,p,t,c + IEUP−ON,p,t,c",
+          "bbox": [
+            50.847599029541016,
+            433.9687805175781,
+            289.13397216796875,
+            449.1856994628906
+          ]
+        },
+        {
+          "id": "p11-b11-461251b",
+          "kind": "paragraph",
+          "text": "(17)\nIGHG,p,t,c = IGHG−PRE,p,t,c + IGHG−ON,p,t,c",
+          "bbox": [
+            50.839599609375,
+            463.3186950683594,
+            289.13397216796875,
+            478.5356140136719
+          ]
+        },
+        {
+          "id": "p11-b12-287f008",
+          "kind": "paragraph",
+          "text": "interval between repeated cultivation of a crop or crop group \nin a sequence (Table 1), and disallowed crop successions \n(Table S2). To align with local widespread practices, we \npermitted cereals to be planted every year because they were \nquite tolerant to continuous cropping, while other crops sen-\nsitive to continuous cropping, such as peanut, potato and \ngarlic, had to be cultivated every other year to avoid sub-\nstantial yield penalties. Crop successions were disallowed \nwhen crops were from the same botanical family or there \nwas a long fallowing period between them.\nFarm managers proposed several transversal constraints \n(spatial-scale constraints) on indicator performance and \ncrop harvested area to fit generated farm plans with their \ndemands. At first, we defined two indicators that were used \nas period- and farm-level constraints in the model: labor use \nand dietary energy yield. The labor use per crop ­(ILabor,p,t,c, \nh/ha) was quantified as (Table S1):",
+          "bbox": [
+            306.1416931152344,
+            54.14585494995117,
+            546.9286499023438,
+            269.23583984375
+          ]
+        },
+        {
+          "id": "p11-b13-da56411",
+          "kind": "paragraph",
+          "text": "Where f denotes the manual farming operations including \ntransplanting, fertilization, irrigation, pesticide application, \npruning, and harvesting. The crop-level dietary energy yield \n­(IDE,p,t,c, persons/ha) was estimated as",
+          "bbox": [
+            306.1419982910156,
+            301.79583740234375,
+            546.9324340820312,
+            355.427734375
+          ]
+        },
+        {
+          "id": "p11-b14-16eefa0",
+          "kind": "paragraph",
+          "text": "Where ­Fc is the fraction of dietary energy in the product \nof crop c (Table S3). RAI is the recommended annual intake \nof dietary energy of a reference person (Yang et al.. 2018). \nTheir period- and farm-level performance was computed \nusing Eqs. 2 and 3.\nThen multiple period-level constraints of indicator per-\nformance were put forward: 1) The gross margin in each \nperiod must be higher than the baseline; 2) The ground-\nwater consumption, pesticide input, eutrophication poten-\ntial, and GHG emission must be lower than the baseline in \neach period; 3) The total labor use (hired plus family labor) \nhad to not exceed 520 h in each period. With these con-\nstraints, generated farm plans could be used to find ways to \nimprove five sustainability objectives at once. Furthermore, \nthree constraints on crop harvested area should be met: 1) \nWheat area must be greater than 8 ha per period to fulfill \nthe supply contract that managers signed with a flour mill; \n2) Maize area should not exceed 12 ha per period to prevent \nthe dominance of maize production; and 3) The harvested \narea for sunflower, potato, and sweet potato must be limited \nto less than 8 ha due to limited market access. Regarding \nthe whole-farm level, we required the dietary energy yield \nto be at least half of the baseline plan to rule out farm plans",
+          "bbox": [
+            306.142822265625,
+            392.94561767578125,
+            546.8600463867188,
+            683.03564453125
+          ]
+        },
+        {
+          "id": "p11-b15-db7e270",
+          "kind": "paragraph",
+          "text": "(18)\nILabor,p,t,c =",
+          "bbox": [
+            305.9587097167969,
+            278.5956115722656,
+            544.2529296875,
+            293.68560791015625
+          ]
+        },
+        {
+          "id": "p11-b16-be27c71",
+          "kind": "paragraph",
+          "text": "∑",
+          "bbox": [
+            352.8758850097656,
+            276.90985107421875,
+            365.7991027832031,
+            291.4134521484375
+          ]
+        },
+        {
+          "id": "p11-b17-497d110",
+          "kind": "paragraph",
+          "text": "f ILabor,p,t,c,f",
+          "bbox": [
+            365.7997131347656,
+            279.11346435546875,
+            408.6101989746094,
+            294.237060546875
+          ]
+        },
+        {
+          "id": "p11-b18-a0a4f3f",
+          "kind": "paragraph",
+          "text": "(19)\nIDE,p,t,c =",
+          "bbox": [
+            305.95770263671875,
+            366.74560546875,
+            544.2521362304688,
+            381.96319580078125
+          ]
+        },
+        {
+          "id": "p11-b19-8fe0571",
+          "kind": "paragraph",
+          "text": "Yp,t,c × Fc",
+          "bbox": [
+            346.68280029296875,
+            360.710693359375,
+            386.13336181640625,
+            373.2154846191406
+          ]
+        },
+        {
+          "id": "p11-b20-b087027",
+          "kind": "paragraph",
+          "text": "RAI",
+          "bbox": [
+            358.04071044921875,
+            376.8033752441406,
+            375.2650146484375,
+            386.8058776855469
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-11.png"
+    },
+    {
+      "number": 12,
+      "blocks": [
+        {
+          "id": "p12-b0-22016c6",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 12 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p12-b2-fb4dbab",
+          "kind": "paragraph",
+          "text": "that were unproductive in food energy. These constraints \ncollectively guide the generation of farm cropping plans that \nare both economically viable and environmentally friendly, \nmeeting the specific needs and constraints of the case farm.",
+          "bbox": [
+            51.02360153198242,
+            54.14585494995117,
+            291.66448974609375,
+            106.73585510253906
+          ]
+        },
+        {
+          "id": "p12-b3-eb3486c",
+          "kind": "paragraph",
+          "text": "4  \u0007Results",
+          "bbox": [
+            51.02360153198242,
+            127.50785827636719,
+            102.2516098022461,
+            142.3758544921875
+          ]
+        },
+        {
+          "id": "p12-b4-79ffcaf",
+          "kind": "paragraph",
+          "text": "4.1  \u0007Farm baseline plan versus Pareto‑optimal plans",
+          "bbox": [
+            51.02360153198242,
+            154.54185485839844,
+            287.06927490234375,
+            167.1258544921875
+          ]
+        },
+        {
+          "id": "p12-b5-4f3169e",
+          "kind": "paragraph",
+          "text": "The baseline crop sequence plan for the case farm, i.e., con-\ntinuous wheat-maize double cropping over future three years \nacross all plots, resulted in a farm gross margin of 2303 \nUSD/ha/yr, groundwater depletion of 284 mm/yr, pesticide \ninput of 6.67 kg AI/ha/yr, eutrophication potential of 28.9 \nkg ­PO4 eq./ha/yr, and GHG emission of 10.0 Mg ­CO2 eq./\nha/yr (Fig. 5).\nFarmSTEPS generated 213,679 feasible farm-plans, with \n128 of them being Pareto-optimal in terms of five sustain-\nability objectives. Compared with the baseline farm plan, \nthese Pareto-optimal farm-plans achieved 3–50% higher \nfarm gross margin while reaching 32–56% lower groundwa-\nter depletion, 31–47% lower pesticide input, 10–33% lower \neutrophication potential and 22–40% lower GHG emission. \nThus, the diversification of crop sequences on the case farm \nresulted in improvements of all five indicators, though trade-\noffs existed between economic and environmental objectives \n(Fig. 5).\nThe improved sustainability performance of optimal \nfarm-plans was mainly due to the inclusion of non-cereal \ncrops, particularly sweet potato and sunflower (Table 2). \nOn the largest plot in the farm, Plot 4, half of the optimal \nfarm-plans suggested a sweet potato-based crop-sequence \n(SwPotato-Wheat-SuMaize-SwPotato), and the other half \ncombined sweet potato and sunflower with wheat-maize \ndouble cropping. On the intermediate-size plots, Plot 2 and \n4, most generated crop-sequences were still combinations \nof sweet potato, sunflower, and wheat-maize double crop-\nping in the crop sequence, accounting for 37% and 64% of \noptimal plans for two plots respectively. However, the model \ngenerated garlic-maize double cropping for Plot 2, a plot in \nwhich labor-intensive crops were allowed to be planted, in \n36% of optimal plans. The generated crop-sequences on Plot \n1, the smallest plot, offered more space for crop diversifica-\ntion across optimal plans, with only 5% involving wheat-\nmaize double cropping.",
+          "bbox": [
+            51.01820373535156,
+            179.14585876464844,
+            291.8231506347656,
+            631.73583984375
+          ]
+        },
+        {
+          "id": "p12-b6-bb1b5b1",
+          "kind": "paragraph",
+          "text": "4.2  \u0007Example farm plans",
+          "bbox": [
+            51.02360153198242,
+            642.0418701171875,
+            160.82559204101562,
+            654.6258544921875
+          ]
+        },
+        {
+          "id": "p12-b7-df2ae23",
+          "kind": "paragraph",
+          "text": "We selected and presented three individual plans as exam-\nples from the Pareto-optimal set of 128 farm-plans (Fig. 6). \nThese three example farm-plans showed contrasting sustain-\nability profiles, including one profit-prioritized farm plan,",
+          "bbox": [
+            51.02360153198242,
+            666.6458740234375,
+            291.6335754394531,
+            719.23583984375
+          ]
+        },
+        {
+          "id": "p12-b8-9c0e9d4",
+          "kind": "paragraph",
+          "text": "one environment-prioritized plan, and one plan that achieved \na balance between profitability and environmental soundness \n(Fig. 5; Fig. 6).\nThe profit-prioritized farm-plan created the highest farm \ngross margin, 50% higher than the baseline, while also \nincurring the highest environmental costs across optimal \nplans, but still below the baseline (Fig. 5; Fig. 6). Such \nperformance resulted from the crop-sequence on the larg-\nest plot (Plot 4) being dominated by sweet potato, the most \nprofitable crop in this plot, as well as crop-sequences that \nfrequently cultivated profitable crops, especially garlic, on \nthe intermediate- and smallest-size plots (Plot 1–2, Fig. 6). \nIn contrast, the environment-prioritized plan was one of the \nleast environmentally impactful plans across the Pareto set \nbut also the third least profitable one. Compared with the \nbaseline, this plan reduced environmental costs by 32–56% \nwhile increasing gross margin by only 9%. The success of \nits environmental performance was in part due to the culti-\nvation of sunflower, the most resource-saving crop, and the \nmarkedly decreased land-use intensity realized by replacing \nwheat-maize double cropping with low-input single crops \nin a year, such as sweet potato, peanut, and spring maize \n(Fig. 6).\nThe balanced farm-plan resulted in an intermediate level \nof sustainability performance between the profit- and envi-\nronment-prioritized farm-plan. Similar to the profit-prior-\nitized farm-plan, its crop sequence in Plot 4 still included \nsweet potato, while the crop-sequences on the intermediate- \nand smallest-size plot presented a mix of profitable crops, \ne.g., garlic and potato, and less resource-intensive crops, \ne.g., sunflower and sweet potato.",
+          "bbox": [
+            306.1435852050781,
+            54.14585494995117,
+            546.942626953125,
+            444.23583984375
+          ]
+        },
+        {
+          "id": "p12-b9-ed87af2",
+          "kind": "paragraph",
+          "text": "5  \u0007Discussion",
+          "bbox": [
+            306.1416931152344,
+            465.0078125,
+            375.7657165527344,
+            479.8758239746094
+          ]
+        },
+        {
+          "id": "p12-b10-3140933",
+          "kind": "paragraph",
+          "text": "In this study, we presented a novel rule-based model, \nFarmSTEPS, for exploring sustainable and diversified \nfarm crop sequence plans aligned with farm-specific situa-\ntions and constraints. This modelling framework integrates \nfarm characterization modules, an algorithm for exhaus-\ntive whole-farm crop sequence planning, and a multi-\nattribute decision-aid tool that can recommend a set of \ndesirable farm cropping plans in a systematic and spatial-\ntemporally explicit manner. We applied FarmSTEPS in a \ncase farm and successfully obtained 128 optimal three-\nyear crop sequence plans, which markedly outperformed \nthe baseline yearly repeating wheat-maize double cropping \nplan in gross margin, groundwater depletion, pesticide \ninput, eutrophication potential, and GHG emission concur-\nrently, albeit with trade-offs occurring between economic \nand environmental objectives. The plot-specific crop \nsequences of these optimal plans highlighted the impor-\ntant role of a few of candidate crops, e.g., sweet potato",
+          "bbox": [
+            306.1416931152344,
+            491.64581298828125,
+            546.9241943359375,
+            719.23583984375
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-12.png"
+    },
+    {
+      "number": 13,
+      "blocks": [
+        {
+          "id": "p13-b0-75d42c5",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 13 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2528686523438,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p13-b2-03d9ca5",
+          "kind": "paragraph",
+          "text": "and sunflower, in advancing overall sustainability. Thus, \nthe model outcomes do not only present the potential and \ntrade-offs of sustainability objectives but also identify \npromising crops and crop sequences for the studied farm, \nwhich could support the stakeholders’ discussion to facili-\ntate informed decision-making on future farm production \nchoices. While demonstrated on a single case farm, the \nFarmSTEPS model serves as a flexible framework that \ncan be adapted to diverse crop farming contexts by adjust-\ning plot configurations, candidate crop data, farm-specific \nconstraints and objectives, thus supporting the navigation",
+          "bbox": [
+            51.023590087890625,
+            529.0528564453125,
+            291.63555908203125,
+            669.142822265625
+          ]
+        },
+        {
+          "id": "p13-b3-fbe98c0",
+          "kind": "paragraph",
+          "text": "of sustainable cropping solutions tailored to different farm \ncircumstances and aspirations.",
+          "bbox": [
+            306.1435852050781,
+            529.0528564453125,
+            546.7615966796875,
+            556.642822265625
+          ]
+        },
+        {
+          "id": "p13-b4-c591180",
+          "kind": "paragraph",
+          "text": "5.1  \u0007Model‑based design of diversified whole‑farm \ncropping plans towards multi‑attribute \nsustainability",
+          "bbox": [
+            306.1416931152344,
+            566.94873046875,
+            537.7985229492188,
+            604.5247192382812
+          ]
+        },
+        {
+          "id": "p13-b5-1e810f0",
+          "kind": "paragraph",
+          "text": "The design of sustainable and diversified crop sequence \nplans for farms is a complex process, entailing a combina-\ntion of many elements: plot configuration and heterogeneity, \nvarious candidate crops, various sequence- and farm-level \nconstraints, numerous decision-making periods, and mul-\ntiple sustainability goals. We developed the FarmSTEPS \nmodel to assist farm stakeholders to systematically generate",
+          "bbox": [
+            306.1416931152344,
+            616.552734375,
+            546.8865356445312,
+            706.6427001953125
+          ]
+        },
+        {
+          "id": "p13-figure1",
+          "kind": "image",
+          "path": "library/farmsteps-2026/d17dce19f85b/p13-figure1.png",
+          "alt": "Original source page 13, graphic 1",
+          "caption": "原文第13页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p13-b7-a14ce3b",
+          "kind": "paragraph",
+          "text": "Fig. 5   Biplot matrix of sustainability objectives across 128 Pareto-\noptimal farm cropping plans (in blue circles) and baseline farm plans \n(the single red square). Sustainability objectives comprised gross \nmargin (USD/ha/yr), groundwater depletion (mm/yr), pesticide input",
+          "bbox": [
+            51.023597717285156,
+            470.84332275390625,
+            291.2761535644531,
+            513.6578369140625
+          ]
+        },
+        {
+          "id": "p13-b8-3bf71c9",
+          "kind": "paragraph",
+          "text": "(kg AI/ha/yr), aquatic eutrophication (kg ­PO4 eq./ha/yr), and GHG \nemission (Mg ­CO2 eq./ha/yr). Three examples of optimal plans were \nhighlighted in blue, orange, and green, representing profit-prioritized, \nbalanced, and environment-prioritized farm plan, respectively.",
+          "bbox": [
+            306.1426086425781,
+            470.8348388671875,
+            546.3866577148438,
+            513.6618041992188
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-13.png"
+    },
+    {
+      "number": 14,
+      "blocks": [
+        {
+          "id": "p14-b0-43f56f2",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 14 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p14-b2-7401145",
+          "kind": "paragraph",
+          "text": "promising farm plans with a given set of abovementioned \nelements, without missing any possible solutions.\nMany of existing whole-farm planning models, such as \nFarmIMAGES (Dogliotti et al. 2005) and FarmDESIGN \n(Groot et al. 2012), also aim to address these challenges, \nalbeit through different methodological approaches. \nFarmIMAGES identifies more sustainable cropping plans \nby first generating multi-year crop rotations at the plot \nscale, followed by a multi-objective mixed-integer pro-\ngramming algorithm to allocate these rotations across fixed \nplots (Dogliotti et al. 2014). This structure enables the \nefficient selection of a single optimal plan that enhances \nmean annual economic and environmental performance \nat the whole-farm level. While this approach is computa-\ntionally efficient and robust, its single-solution outcome \nmay overlook alternative plans that align with diverse \nstakeholder priorities. In contrast, FarmDESIGN uses a \nheuristic algorithm to allocate crop rotations based on \nproportional farmland area, resulting in a set of near-opti-\nmal solutions (Ditzler et al. 2019). Its flexible approach, \nallowing crop allocation without fixed plot boundaries, \ncan reveal new opportunities for improving farm-scale \nsustainability outcomes. However, due to the nature of \nheuristic optimization, the solutions may be non-robust \nin some cases and may converge to local optima, espe-\ncially when the number of crop rotation options is large. \nFarmSTEPS, by comparison, takes a comprehensive and",
+          "bbox": [
+            51.023590087890625,
+            379.0528259277344,
+            291.76055908203125,
+            719.142822265625
+          ]
+        },
+        {
+          "id": "p14-b3-c3770b8",
+          "kind": "paragraph",
+          "text": "exhaustive approach: it first enumerates all agronomically \nfeasible crop sequences at the plot level, and then system-\natically constructs all possible whole-farm plans across the \nplanning horizon by combining these sequences over time \nand space, while incorporating spatial and temporal con-\nstraints. This integration of exhaustive enumeration with \nconstraint-guided filtering allows the model to spatial-\ntemporally explicitly generate and preserve all promising \nplans while aligning them with real-world sustainability \ngoals and stakeholder preferences. Through Pareto-based \nevaluation, FarmSTEPS effectively narrows the solution \nspace and provides a set of desired farm plans against mul-\ntiple sustainability objectives. Despite the heavier compu-\ntational burden and limited flexibility in modifying plot \nstructures within the model, these challenges can be fully \nor partially addressed by incorporating appropriate con-\nstraints and importing revised farm plot maps that reflect \nthe desired configurations.\nCompared with existing models, one of the primary \nadvancements of FarmSTEPS is its ability to assess farm-\nscale sustainability performance and enforce production \nconstraints at finer temporal scales, such as on an annual \nbasis within a multi-year planning horizon. For example, \nmany models do not account for year-by-year gross mar-\ngins or allow for the specification of minimum gross margin \nthresholds per year. Cropping plans with high mean annual \nreturns but extremely low margins in individual years may",
+          "bbox": [
+            306.1435852050781,
+            379.0528259277344,
+            546.9234008789062,
+            719.142822265625
+          ]
+        },
+        {
+          "id": "p14-b4-acb2017",
+          "kind": "paragraph",
+          "text": "Table 2   Top five crop \nsequences planned for each \nplot across 128 Pareto-optimal \nfarm plans. Plot 3 was set to \nbe dedicated to wheat-maize \ndouble cropping over the \nplanning window. SuM, SpM, \nand SwPot mean summer \nmaize, spring maize, and sweet \npotato.",
+          "bbox": [
+            51.023597717285156,
+            55.435298919677734,
+            159.30426025390625,
+            158.2255401611328
+          ]
+        },
+        {
+          "id": "p14-b5-beb3416",
+          "kind": "paragraph",
+          "text": "Plot number\nCrop sequence in the planning window\nFrequency",
+          "bbox": [
+            178.5825958251953,
+            59.318843841552734,
+            543.7518920898438,
+            72.14533996582031
+          ]
+        },
+        {
+          "id": "p14-b6-01389cd",
+          "kind": "paragraph",
+          "text": "Period 1\nPeriod 2\nPeriod 3",
+          "bbox": [
+            250.81640625,
+            75.59636688232422,
+            450.89794921875,
+            88.42286682128906
+          ]
+        },
+        {
+          "id": "p14-b7-ad3b697",
+          "kind": "paragraph",
+          "text": "Plot 1\nPeanut\nSwPotato\nSunflower\n13\nGarlic-SuMaize\nSwPotato\nGarlic-SuMaize\n12\nSpMaize\nSwPotato\nSunflower\n11\nGarlic-SuMaize\nSwPotato\nSunflower\n10\nGarlic-SuMaize\nSwPotato\nPotato\n9\nPlot 2\nWheat-SuMaize\nSwPotato\nSunflower\n17\nSwPotato\nSunflower\nWheat-SuMaize\n15\nSunflower\nWheat-SuMaize\nWheat-SuMaize\n15\nGarlic-SuMaize\nSunflower\nWheat-SuMaize\n11\nGarlic-SuMaize\nSunflower\nGarlic-SuMaize\n10\nPlot 3\nWheat-SuMaize\nWheat-SuMaize\nWheat-SuMaize\n128\nPlot 4\nSwPotato\nWheat-SuMaize\nSwPotato\n60\nWheat-SuMaize\nSwPotato\nSunflower\n25\nSunflower\nWheat-SuMaize\nSwPotato\n21\nSwPotato\nSunflower\nWheat-SuMaize\n21\nWheat-SuMaize\nSunflower\nWheat-SuMaize\n1\nPlot 5\nWheat-SuMaize\nSwPotato\nSunflower\n46\nSwPotato\nSunflower\nWheat-SuMaize\n19\nSunflower\nWheat-SuMaize\nSwPotato\n17\nWheat-SuMaize\nSwPotato\nWheat-SuMaize\n15\nWheat-SuMaize\nSunflower\nWheat-SuMaize\n9",
+          "bbox": [
+            178.58343505859375,
+            94.31334686279297,
+            520.7600708007812,
+            356.751220703125
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-14.png"
+    },
+    {
+      "number": 15,
+      "blocks": [
+        {
+          "id": "p15-b0-29a4e05",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 15 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2528686523438,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p15-b2-e885361",
+          "kind": "paragraph",
+          "text": "still be impractical for farmers who must manage cash flow \nand financial risk. In this regard, FarmSTEPS introduces \na novel combination of spatial and temporal design and \nevaluation, enabling the creation of diversified, sustainable \ncropping plans that are better aligned with the operational \nrealities and long-term goals of farmers.\nAnother innovative feature of our model is its ability to \ngenerate flexible and non-cyclical crop sequences, rather \nthan being limited to fixed crop rotations, for farm plots \nover the planning window (Castellazzi et al. 2008). Flex-\nible crop sequences better represent the actual farmers’ \ndecision-making tactics and offer greater opportunity \nto improve farm performance. For instance, in our case \nfarm, the model created a flexible three-year sequence \nof (SwPotato-Wheat-SuMaize-SwPotato) for the largest \nplot (Plot 4) in almost half of optimal farm plans, which \ngreatly contributed to better economic and environmental \noutcomes. However, if the model is restricted to generating",
+          "bbox": [
+            51.02360153198242,
+            491.5528259277344,
+            291.8265380859375,
+            719.142822265625
+          ]
+        },
+        {
+          "id": "p15-b3-f50251c",
+          "kind": "paragraph",
+          "text": "only cyclical three-year rotations, this sequence would \nbe disallowed because sweet potato is prohibited to be \nplanted after itself according to predefined agronomic \nrules (Table S2), thereby limiting the sustainability ben-\nefits of new plans. Although flexible sequences might \nincrease the management complexity for farmers, this \nfeature can help them explore the full range of future pos-\nsibilities and potential improvements.\nIn our case study, the model produced a range of optimal \nfarm cropping plans that reached better economic and envi-\nronmental sustainability benefits than the baseline wheat-\nmaize plan, and did so for all indicators. The resulting crop \nsequences showed that wheat-maize double cropping was \nmainly substituted by sweet potato and sunflower in opti-\nmal plans, particularly on the larger-size plots. This substitu-\ntion can be explained by the fact that these two crops were \nresource-efficient, well mechanized, and moderately produc-\ntive in dietary energy with comparable or higher profitability",
+          "bbox": [
+            306.1435852050781,
+            491.5528259277344,
+            546.90185546875,
+            719.142822265625
+          ]
+        },
+        {
+          "id": "p15-figure1",
+          "kind": "image",
+          "path": "library/farmsteps-2026/d17dce19f85b/p15-figure1.png",
+          "alt": "Original source page 15, graphic 1",
+          "caption": "原文第15页图形 / 公式切片；完整原排版见本页末核对图"
+        },
+        {
+          "id": "p15-b5-1e30d53",
+          "kind": "paragraph",
+          "text": "Fig. 6   Spatial-temporal crop allocation (A-D) and sustainability \nobjective performance (E) of baseline and three examples of optimal \nfarm-plans with contrasting sustainability profiles. The top row in \npanel A-D indicates the calendar year, and the reference year means \nthe calendar year of the start date. The length of the box with crop \nnames represents the growing season of the crops, and the breaks \n(white sections) between two adjacent crops represent fallow periods.",
+          "bbox": [
+            51.023597717285156,
+            393.6512145996094,
+            291.28472900390625,
+            466.7257385253906
+          ]
+        },
+        {
+          "id": "p15-b6-1e5ad61",
+          "kind": "paragraph",
+          "text": "SuM, SpM, and SwPot mean summer maize, spring maize, and sweet \npotato. In the radar plot, indicator values were rescaled to 0–1 using \nMax-Min approach where 0 and 1 denote the worst and best perfor-\nmance observed over all Pareto-optimal and original farm plans. The \nfigure illustrates trade-offs between economic performance and envi-\nronmental performance among the optimized crop sequence plans.",
+          "bbox": [
+            306.1426086425781,
+            393.8977355957031,
+            546.3695068359375,
+            456.7042541503906
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-15.png"
+    },
+    {
+      "number": 16,
+      "blocks": [
+        {
+          "id": "p16-b0-d5c669b",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 16 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p16-b2-b528c8f",
+          "kind": "paragraph",
+          "text": "than the currently dominant wheat-maize system (Table S1), \nthus offering ample chances to improve sustainability objec-\ntives while adhering to constraints regarding labor availabil-\nity and dietary energy provisioning. Without the inclusion \nof such crops in the candidate crop list, the model would \nprobably not be able to create farm plans outperforming the \nbaseline across all objectives. In such cases, relaxing con-\nstraints on indicator values would be necessary to allow the \nmodel to produce feasible farm plans, but at the expense of \neither economic or environmental benefits associated with \nthe adoption of the new farm plans in comparison to the \nreference plan. Consequently, the model outcomes under-\nscored the vital role of crops possessing the aforementioned \ndesired attributes in future crop farming systems, particu-\nlarly for intensified and specialized food production areas \nwhere labor resources are scarce.\nIn the future, multi-actor participatory approaches are \nneeded to bridge the gap between model outcomes and final \ndecision-making for real-world application (Leclère et al. \n2023). Engaging relevant stakeholders, such as farmers, \nsupply chain actors, and policymakers is crucial to identify-\ning farm cropping plans that achieve compromises across \ncompeting objectives and are socially and institutionally \nacceptable (Liang et al. 2026). For example, group work-\nshops can provide a platform for stakeholders to collectively \nevaluate the feasibility, benefits, and potential limitations of \nselected plans (Quinio et al. 2022). Such workshops could \nhelp identify and improve compromise solutions that cater \nfor the demands of multiple actors and promote the transla-\ntion of model outputs into actionable and context-sensitive \ndecisions for implementation.",
+          "bbox": [
+            51.023590087890625,
+            54.14585494995117,
+            291.81964111328125,
+            444.23583984375
+          ]
+        },
+        {
+          "id": "p16-b3-c7c5cf4",
+          "kind": "paragraph",
+          "text": "5.2  \u0007Opportunities for widespread application \nof the FarmSTEPS model",
+          "bbox": [
+            51.02360153198242,
+            454.54180908203125,
+            262.08831787109375,
+            479.621826171875
+          ]
+        },
+        {
+          "id": "p16-b4-bb21bb2",
+          "kind": "paragraph",
+          "text": "The FarmSTEPS model holds strong potential for broad \napplication in exploring sustainable and diversified farm \ncropping plans across different world regions. Its flexibility \nin dealing with different farm settings, crop portfolios, pro-\nduction constraints, and sustainability objectives makes it \nwell-suited to a variety of agricultural contexts. The model \ncan be adapted for use on farms that vary by crop type (from \narable farms and horticultural farms, to grassland farms), \nproduction scale (from smallholder farms to large-scale \nfarms), and management modes (from organic to industrial). \nHowever, successful application requires necessary adapta-\ntions of model inputs to reflect specific farm conditions.\nThese adaptations fall into five main aspects:",
+          "bbox": [
+            51.02360153198242,
+            491.64581298828125,
+            291.78546142578125,
+            656.73583984375
+          ]
+        },
+        {
+          "id": "p16-b5-d2629b6",
+          "kind": "paragraph",
+          "text": "1)\t Farm plot configurations: Users can extract plot map \nfrom satellite or aerial imagery and convert them into \nESRI files that records geographical attributes of each \nplot such as location, area, and slope.",
+          "bbox": [
+            51.02360153198242,
+            666.6458740234375,
+            291.78448486328125,
+            719.23583984375
+          ]
+        },
+        {
+          "id": "p16-b6-c521559",
+          "kind": "paragraph",
+          "text": "2)\t Sustainability objectives: Farm stakeholders may opt \nfor varying sets of sustainability indicators to serve as \nobjectives in cropping plan design. For instance, sub-\nsistence smallholders may prioritize the production \nof dietary nutrients ranging from calorific energy and \nprotein to minerals and vitamins (Timler et al. 2020), \nand farms in mountainous areas focus on lowering soil \nerosion (Smith et al. 2017). FarmSTEPS allows users to \nflexibly define or select any indicators computable from \nby crop and plot parameters within defined land-units.\n3)\t Land-units and candidate crops: Users can define the \nland-units for each of farm plots, where soil proper-\nties, resource availability, and candidate crops for each \nplot are specified according to the actual situation. The \nselection of candidate crops is guided by factors such as \ncompatibility with pedo-climatic environments, market \norientation, and farmers’ preferences (Adhikari et al. \n2023). For instance, horticultural farms may include \nonly vegetables, fruits and flowers as candidates. Cru-\ncially, users must collect crop data required for the \nassessment of farm-specific sustainability objectives. \nSuch input-output data of candidate crops should reflect \ntheir performance under the farming context of the focus \nfarm or plot. For example, for a particular crop, higher \nyield and water usage on irrigated plots versus rainfed \nplots, and lower yield and less synthetic agrochemical \ninputs in organic farms versus conventional farms. The \ninput-output inventory of crops can be compiled based \non a variety of sources, including local farm surveys, \nexpert knowledge, statistical documents, and scientific \nliterature (Liang et al. 2023).\n4)\t Production constraints: The longitudinal and transversal \nconstraints can be tailored to farm’s unique barriers and \ndemands. Longitudinal constraints, i.e., crop sequence \nrules, may be formulated based on local agronomists and \nlocal field observations. Transversal constraints can be \ndefined not only in terms of total requirement and har-\nvested area of crops per unit planning period, but also \ninput or indicator thresholds. For example, annual irri-\ngation water quotas may apply in farms in water-scarce \nregions (Zhang and Oki 2023), while fertilizer quotas \ncould be imposed for farms in nutrient-surplus regions \n(Expósito and Velasco 2020).\n5)\t Planning timeline: Timeline parameters can be deter-\nmined with farmers to reflect their actual decision-\nmaking behaviors and account for the farm reality. \nFor instance, the unit planning period may exceed one \nyear to account for perennial crops on grassland farms. \nOrganic farms, which often adopt long-term crop \nsequences, may benefit from planning windows that \nspan a decade or more.",
+          "bbox": [
+            306.1435546875,
+            54.14579391479492,
+            546.918212890625,
+            694.2357788085938
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-16.png"
+    },
+    {
+      "number": 17,
+      "blocks": [
+        {
+          "id": "p17-b0-c7d3163",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 17 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2528686523438,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p17-b2-86658f6",
+          "kind": "paragraph",
+          "text": "With above adaptations, our model can create a set of \ntailored cropping plans for individual farms, providing \nstakeholders with valuable insights into the potential ben-\nefits and trade-offs across multiple sustainability objectives. \nWidespread adoption of the model among farms in a region \ncould also help policymakers understand the contribution \nof crop diversification to combating regional sustainability \nchallenges and the intractable trade-offs across objectives \nmost farms perhaps encounter. This, in turn, can assist poli-\ncymakers in identifying macro-level solutions, e.g., incentiv-\nizing machinery specific to certain crops, to further foster \nagricultural sustainability.\nLastly, while the model is flexible and versatile, Farm-\nSTEPS is specifically designed for whole-farm crop \nsequence planning and does not currently account for other \ndimensions of farm management, such as livestock systems, \nby-product allocation, or landscape-level modifications.",
+          "bbox": [
+            51.022186279296875,
+            54.14585494995117,
+            291.79736328125,
+            269.23583984375
+          ]
+        },
+        {
+          "id": "p17-b3-77f8550",
+          "kind": "paragraph",
+          "text": "5.3  \u0007Limitations",
+          "bbox": [
+            51.02360153198242,
+            279.54180908203125,
+            122.5994873046875,
+            292.1258239746094
+          ]
+        },
+        {
+          "id": "p17-b4-50fc639",
+          "kind": "paragraph",
+          "text": "Several limitations of the model may need to be addressed \nin future work. First, we did not consider the uncertainty in \ncrop yields, market prices, and weather over the planning \nwindow (Komarek et al. 2020), as the current version of \nFarmSTEPS is deterministic. In this case study, we used \ncrop input-output data collected in a year with a normal \nweather pattern and average price data over the past five \nyears to mitigate the effects of uncertainty. Moving forward, \nwe may think of introducing stochastic parameters, allowing \nusers to input a reasonable distribution of parameters rather \nthan fixed values (Ballot et al. 2018). This will enable us to \nexamine the effects of future uncertainty on the performance \nof whole-farm plans, though generating outcomes would fur-\nther aggravate the computational burden of obtaining the \nsolutions and their performance.\nFurthermore, FarmSTEPS did not account for crop inter-\nactions at temporal and spatial scales. For example, the yield \nof a crop may be influenced by preceding crops in a crop \nsequence (Reckling et al. 2016), and farmers should avoid \nplanting some crops in neighboring plots to prevent spread \nof pests and diseases and associated yield loss (Juventia \net al. 2022). Incorporating pre-crop effects and crop topo-\nlogical constraints into the next version of FarmSTEPS will \nenhance the accuracy of farm assessments.\nFarmSTEPS serves as a valuable tool for exploring trade-\noffs across multiple sustainability objectives in the redesign \nof farm cropping plans. However, the current modeling \nframework does not yet incorporate quantitative trade-off \nanalysis methods, such as sensitivity analysis and shadow \nprice analysis (Kanter et al. 2018). Sensitivity analysis \ncan help identify how small changes in model inputs (e.g., \nresource availability, crop yields, or market prices) influence \noutcomes across different objectives, thereby highlighting",
+          "bbox": [
+            51.023590087890625,
+            304.14581298828125,
+            291.7574768066406,
+            719.23583984375
+          ]
+        },
+        {
+          "id": "p17-b5-dba61c7",
+          "kind": "paragraph",
+          "text": "which parameters most affect the trade-off dynamics. \nShadow price analysis estimates the marginal cost or benefit \nof improving one objective at the expense of another, offer-\ning stakeholders a clearer picture of the ‘price’ of trade-offs \n(Breure et al. 2024). Integrating such methods into future \napplications of FarmSTEPS could provide a deeper under-\nstanding of the drivers and intensities of trade-offs, thereby \nenhancing transparency and supporting more informed, \nevidence-based decision-making.\nLastly, FarmSTEPS remains challenging for farmers to \nuse independently. The first barrier is its application involves \nextensive data collection and specialized tasks such as farm \nmapping and multi-criteria assessment. Therefore, at this \nstage, agricultural advisors are crucial in working with farm-\ners to use the model and explore more sustainable farming \noptions. Moreover, running the model can require high-per-\nformance hardware in some cases. In our case study, a farm \nwith five plots, eight candidate crops, and three planning \nperiods required approximately 15 minutes for FarmSTEPS \nto generate all feasible farm plans. As the number of land \nparcels, alternative crops, and planning horizons increases, \nhigh-performance computing platforms may be needed \nto complete the crop planning process efficiently. In such \nsituations, IT specialists are essential to support farmers in \nmodel implementation, computation management, and result \ninterpretation.",
+          "bbox": [
+            306.1435852050781,
+            54.14579391479492,
+            546.8935546875,
+            381.73577880859375
+          ]
+        },
+        {
+          "id": "p17-b6-6803a38",
+          "kind": "paragraph",
+          "text": "6  \u0007Conclusion",
+          "bbox": [
+            306.1416931152344,
+            402.5078125,
+            377.8297424316406,
+            417.3758239746094
+          ]
+        },
+        {
+          "id": "p17-b7-f752395",
+          "kind": "paragraph",
+          "text": "In this study, we presented a novel farm planning model, \nFarmSTEPS, built to systematically explore sustainable and \ndiversified crop sequence plans for crop farms in a spatial-\ntemporally explicit manner. The model can capture spatial \nconfiguration, plot heterogeneity, production constraints, and \ndevelopment objectives specific to each farm, thus ensur-\ning that generated plans are tailored to each farm’s unique \nconditions. We illustrated it using a wheat-maize farm in \nChina, where the model created a set of optimal plans supe-\nrior to the baseline plan in both economic and environmen-\ntal performance, while also uncovering a trade-off between \nthese two sustainability domains. FarmSTEPS can assist in \nidentifying the critical crops and crop sequences specific to \neach plot for sustainable farm production. Users can cus-\ntomize the model for farms of interest according on-farm \nrealities, which offers opportunities for widespread applica-\ntion of our model across different farming regions. Overall, \nFarmSTEPS serves as an efficient tool for designing sus-\ntainable whole-farm cropping plans and informing stake-\nholders about synergies and trade-offs among sustainability \nobjectives.",
+          "bbox": [
+            306.1416931152344,
+            429.14581298828125,
+            546.9379272460938,
+            694.23583984375
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-17.png"
+    },
+    {
+      "number": 18,
+      "blocks": [
+        {
+          "id": "p18-b0-c7333b5",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 18 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p18-b2-99d9c1f",
+          "kind": "paragraph",
+          "text": "Supplementary Information  The online version contains supplemen-\ntary material available at https://​doi.​org/​10.​1007/​s13593-​026-​01097-8.",
+          "bbox": [
+            51.023597717285156,
+            54.789302825927734,
+            289.1817321777344,
+            77.61177062988281
+          ]
+        },
+        {
+          "id": "p18-b3-e6842e4",
+          "kind": "paragraph",
+          "text": "Authors' contributions  Zhengyuan Liang: Conceptualization, Method-\nology, Investigation, Data curation, Formal analysis, Writing − original \ndraft, Writing − review & editing. Jeroen C.J. Groot: Conceptualiza-\ntion, Methodology, Software, Supervision, Writing − review & editing. \nZhan Xu: Investigation, Data curation. Jiali Cheng: Investigation, Data \ncuration. Wen-Feng Cong: Conceptualization, Supervision, Writing − \nreview & editing, Funding acquisition. Chaochun Zhang: Supervision, \nResources, Funding acquisition. Fusuo Zhang: Supervision, Resources, \nProject administration. Wopke van der Werf: Supervision, Writing − \nreview & editing.",
+          "bbox": [
+            51.023590087890625,
+            84.78575897216797,
+            291.39508056640625,
+            187.5760040283203
+          ]
+        },
+        {
+          "id": "p18-b4-800bf1a",
+          "kind": "paragraph",
+          "text": "Funding  This study was funded by the China Scholarship Council \n(No.201913043) and Hainan University.",
+          "bbox": [
+            51.023590087890625,
+            194.75,
+            291.31695556640625,
+            217.5724639892578
+          ]
+        },
+        {
+          "id": "p18-b5-872be31",
+          "kind": "paragraph",
+          "text": "Data availability  All data used in this study are included in this pub-\nlished article and supplementary materials.",
+          "bbox": [
+            51.02358627319336,
+            224.7464599609375,
+            289.07110595703125,
+            247.5689239501953
+          ]
+        },
+        {
+          "id": "p18-b6-da68e2b",
+          "kind": "paragraph",
+          "text": "Code availability  Software and data can be downloaded from: https://​\ngit.​wur.​nl/​jeroen.​groot/​farms​teps.​packa​ge.",
+          "bbox": [
+            51.0235595703125,
+            254.742919921875,
+            291.2590637207031,
+            277.5653991699219
+          ]
+        },
+        {
+          "id": "p18-b7-4826cfa",
+          "kind": "heading",
+          "text": "Declarations",
+          "bbox": [
+            51.02360153198242,
+            286.15081787109375,
+            110.99560546875,
+            298.7348327636719
+          ]
+        },
+        {
+          "id": "p18-b8-0282769",
+          "kind": "paragraph",
+          "text": "Ethics approval  The study was performed in accordance with the ethi-\ncal standards as laid down in the 1964 Declaration of Helsinki.",
+          "bbox": [
+            51.02360153198242,
+            307.2893371582031,
+            289.0237731933594,
+            330.1118469238281
+          ]
+        },
+        {
+          "id": "p18-b9-40e59db",
+          "kind": "paragraph",
+          "text": "Consent to participate  Informed consent was obtained from all indi-\nvidual participants in this study.",
+          "bbox": [
+            51.023597717285156,
+            337.28582763671875,
+            289.2104797363281,
+            360.10833740234375
+          ]
+        },
+        {
+          "id": "p18-b10-0b827a8",
+          "kind": "paragraph",
+          "text": "Consent for publication  Informed consent was obtained from all indi-\nvidual participants in this study to publish the data as presented in this \nmanuscript.",
+          "bbox": [
+            51.023597717285156,
+            367.2823181152344,
+            291.3033752441406,
+            400.100830078125
+          ]
+        },
+        {
+          "id": "p18-b11-4903e10",
+          "kind": "paragraph",
+          "text": "Conflict of interest  The authors have no relevant financial or non-fi-\nnancial interests to disclose.",
+          "bbox": [
+            51.023597717285156,
+            412.23883056640625,
+            289.1172180175781,
+            435.06134033203125
+          ]
+        },
+        {
+          "id": "p18-b12-069273f",
+          "kind": "paragraph",
+          "text": "Open Access   This article is licensed under a Creative Commons Attri-\nbution 4.0 International License, which permits use, sharing, adapta-\ntion, distribution and reproduction in any medium or format, as long \nas you give appropriate credit to the original author(s) and the source, \nprovide a link to the Creative Commons licence, and indicate if changes \nwere made. The images or other third party material in this article are \nincluded in the article's Creative Commons licence, unless indicated \notherwise in a credit line to the material. If material is not included in \nthe article's Creative Commons licence and your intended use is not \npermitted by statutory regulation or exceeds the permitted use, you will \nneed to obtain permission directly from the copyright holder. To view a \ncopy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.",
+          "bbox": [
+            51.023597717285156,
+            442.2353210449219,
+            291.3782653808594,
+            565.017822265625
+          ]
+        },
+        {
+          "id": "p18-b13-69824d3",
+          "kind": "heading",
+          "text": "References",
+          "bbox": [
+            51.02360153198242,
+            586.583740234375,
+            109.8716049194336,
+            601.4517211914062
+          ]
+        },
+        {
+          "id": "p18-b14-e4396fd",
+          "kind": "paragraph",
+          "text": "Adhikari L, Komarek AM, De Voil P, Rodriguez D (2023) A frame-\nwork for the assessment of farm diversification options in broada-\ncre agriculture. Agric Syst 210:103724. https://​doi.​org/​10.​1016/j.​\nagsy.​2023.​103724\nAggarwal S, Srinivas R, Puppala H, Magner J (2022) Integrated deci-\nsion support for promoting crop rotation based sustainable agri-\ncultural management using geoinformatics and stochastic optimi-\nzation. Comput Electron Agric 200:107213. https://​doi.​org/​10.​\n1016/j.​compag.​2022.​107213",
+          "bbox": [
+            51.02360153198242,
+            612.2562255859375,
+            291.25909423828125,
+            705.0507202148438
+          ]
+        },
+        {
+          "id": "p18-b15-2451b1c",
+          "kind": "paragraph",
+          "text": "Bachinger J, Zander P (2007) ROTOR, a tool for generating and \nevaluating crop rotations for organic farming systems. Eur J \nAgron 26:130–143. https://​doi.​org/​10.​1016/j.​eja.​2006.​09.​002\nBallot R, Loyce C, Jeuffroy MH, Ronceux A, Gombert J, Lesur-\nDumoulin C, Guichard L (2018) First cropping system model \nbased on expert-knowledge parameterization. Agron Sustain \nDev 38:33. https://​doi.​org/​10.​1007/​s13593-​018-​0512-8\nBoeraeve F, Dendoncker N, Cornélis JT, Degrune F, Dufrêne M \n(2020) Contribution of agroecological farming systems to the \ndelivery of ecosystem services. J Environ Manage 260:109576. \nhttps://​doi.​org/​10.​1016/j.​jenvm​an.​2019.​109576\nBreure TS, Estrada-Carmona N, Petsakos A, Gotor E, Jansen B, \nGroot JCJ (2024) A systematic review of the methodology of \ntrade-off analysis in agriculture. Nat Food. https://​doi.​org/​10.​\n1038/​s43016-​024-​00926-x\nCampbell BM, Beare DJ, Bennett EM, Hall-Spencer JM, Ingram \nJSI, Jaramillo F, Ortiz R, Ramankutty N, Sayer JA, Shindell D \n(2017) Agriculture production as a major driver of the Earth \nsystem exceeding planetary boundaries. Ecol Soc 22:8. https://​\ndoi.​org/​10.​5751/​ES-​09595-​220408\nCapitanescu F, Marvuglia A, Navarrete Gutiérrez T, Benetto E \n(2017) Multi-stage farm management optimization under envi-\nronmental and crop rotation constraints. J Clean Prod 147:197–\n205. https://​doi.​org/​10.​1016/j.​jclep​ro.​2017.​01.​076\nCastellazzi MS, Wood GA, Burgess PJ, Morris J, Conrad KF, Perry \nJN (2008) A systematic representation of crop rotations. Agric \nSyst 97:26–33. https://​doi.​org/​10.​1016/j.​agsy.​2007.​10.​006\nChakraborti R, Davis KF, DeFries R, Rao ND, Joseph J, Ghosh S \n(2023) Crop switching for water sustainability in India’s food \nbowl yields co-benefits for food security and farmers’ profits. \nNat Water. https://​doi.​org/​10.​1038/​s44221-​023-​00135-z\nCui Z, Zhang H, Chen X, Zhang C, Ma W, Huang C, Zhang W, Mi \nG, Miao Y, Li X, Gao Q, Yang J, Wang Z, Ye Y, Guo S, Lu J, \nHuang J, Lv S, Sun Y, Liu Y, Peng X, Ren J, Li S, Deng X, Shi \nX, Zhang Q, Yang Z, Tang L, Wei C, Jia L, Zhang J, He M, \nTong Y, Tang Q, Zhong X, Liu Z, Cao N, Kou C, Ying H, Yin \nY, Jiao X, Zhang Q, Fan M, Jiang R, Zhang F, Dou Z (2018) \nPursuing sustainable productivity with millions of smallholder \nfarmers. Nature 555:363–366. https://​doi.​org/​10.​1038/​natur​\ne25785\nDitzler L, Komarek AM, Chiang TW, Alvarez S, Chatterjee SA, Tim-\nler C, Raneri JE, Carmona NE, Kennedy G, Groot JCJ (2019) A \nmodel to examine farm household trade-offs and synergies with \nan application to smallholders in Vietnam. Agric Syst 173:49–63. \nhttps://​doi.​org/​10.​1016/j.​agsy.​2019.​02.​008\nDogliotti S, Rossing WAH, van Ittersum MK (2003) ROTAT, a tool for \nsystematically generating crop rotations. Eur J Agron 19:239–250. \nhttps://​doi.​org/​10.​1016/​S1161-​0301(02)​00047-3\nDogliotti S, Rossing WA, Van Ittersum MK (2004) Systematic design \nand evaluation of crop rotations enhancing soil conservation, soil \nfertility and farm income: a case study for vegetable farms in \nSouth Uruguay. Agric Syst 80(3):277–302. https://​doi.​org/​10.​\n1016/j.​agsy.​2003.​08.​001\nDogliotti S, Van Ittersum MK, Rossing WAH (2005) A method for \nexploring sustainable development options at farm scale: a case \nstudy for vegetable farms in South Uruguay. Agric Syst 86:29–51. \nhttps://​doi.​org/​10.​1016/j.​agsy.​2004.​08.​002\nDogliotti S, Garcí MC, Peluffo S, Dieste JP, Pedemonte AJ, Bacigalupe \nGF, Scarlato M, Alliaume F, Alvarez J, Chiappe M, Rossing WAH \n(2014) Co-innovation of family farm systems: a systems approach \nto sustainable agriculture. Agric Syst 126:76–86. https://​doi.​org/​\n10.​1016/j.​agsy.​2013.​02.​009\nDury J, Schaller N, Garcia F, Reynaud A, Bergez JE (2012) Mod-\nels to support cropping plan and crop rotation decisions. A \nreview. Agron Sustain Dev 32:567–580. https://​doi.​org/​10.​1007/​\ns13593-​011-​0037-x",
+          "bbox": [
+            306.1426086425781,
+            54.656185150146484,
+            546.5464477539062,
+            717.22216796875
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-18.png"
+    },
+    {
+      "number": 19,
+      "blocks": [
+        {
+          "id": "p19-b0-b205774",
+          "kind": "paragraph",
+          "text": "FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…\nPage 19 of 20 \n23",
+          "bbox": [
+            51.02360153198242,
+            30.80449867248535,
+            544.2528686523438,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p19-b2-4150711",
+          "kind": "paragraph",
+          "text": "Dury J, Garcia F, Reynaud A, Bergez JE (2013) Cropping-plan deci-\nsion-making on irrigated crop farms: a spatio-temporal analysis. \nEur J Agron 50:1–10. https://​doi.​org/​10.​1016/j.​eja.​2013.​04.​008\nExpósito A, Velasco F (2020) Exploring environmental efficiency of \nthe European agricultural sector in the use of mineral fertilizers. \nJ Clean Prod 253:119971. https://​doi.​org/​10.​1016/j.​jclep​ro.​2020.​\n119971\nFeliciano D (2019) A review on the contribution of crop diversifica-\ntion to Sustainable Development Goal 1 “No poverty” in different \nworld regions. Sustain Dev 27:795–808. https://​doi.​org/​10.​1002/​\nsd.​1923\nGroot JCJ, Oomen GJM, Rossing WAH (2012) Multi-objective opti-\nmization and design of farming systems. Agric Syst 110:63–77. \nhttps://​doi.​org/​10.​1016/j.​agsy.​2012.​03.​012\nGuinet M, Adeux G, Cordeau S, Courson E, Nandillon R, Zhang Y, \nMunier-Jolain N (2023) Fostering temporal crop diversification \nto reduce pesticide use. Nat Commun 14:7416. https://​doi.​org/​10.​\n1038/​s41467-​023-​43234-x\nKaim A, Cord AF, Volk M (2018) A review of multi-criteria optimiza-\ntion techniques for agricultural land use allocation. Environ Model \nSoftw 105:79–93. https://​doi.​org/​10.​1016/j.​envso​ft.​2018.​03.​031\nKanter DR, Musumba M, Wood SLR, Palm C, Antle J, Balvanera P, \nDale VH, Havlik P, Kline KL, Scholes RJ, Thornton P, Tittonell \nP, Andelman S (2018) Evaluating agricultural trade-offs in the age \nof sustainable development. Agric Syst 163:73–88. https://​doi.​org/​\n10.​1016/j.​agsy.​2016.​09.​010\nKomarek AM, De Pinto A, Smith VH (2020) A review of types of risks \nin agriculture: what we know and what we need to know. Agric \nSyst 178:102738. https://​doi.​org/​10.​1016/j.​agsy.​2019.​102738\nKong X, Zhang X, Lal R, Zhang F, Chen X, Niu Z, Han L, Song W \n(2016) Groundwater depletion by agricultural intensification in \nChina’s HHH plains, Since 1980s. Adv Agron 59–106. https://​\ndoi.​org/​10.​1016/​bs.​agron.​2015.​09.​003\nHufnagel J, Reckling M, Ewert F (2020) Diverse approaches to crop \ndiversification in agricultural research. A review. Agron Sustain \nDev 40:14. https://​doi.​org/​10.​1007/​s13593-​020-​00617-4\nJanssen S, Van Ittersum MK (2007) Assessing farm innovations and \nresponses to policies: a review of bio-economic farm models. \nAgric Syst 94:622–636. https://​doi.​org/​10.​1016/j.​agsy.​2007.​03.​\n001\nJuventia SD, Selin Norén ILM, van Apeldoorn DF, Ditzler L, Rossing \nWAH (2022) Spatio-temporal design of strip cropping systems. \nAgric Syst 201:103455. https://​doi.​org/​10.​1016/j.​agsy.​2022.​\n103455\nLeclère M, Loyce C, Jeuffroy MH (2023) A participatory and multi-\nactor approach to locally support crop diversification based on \nthe case study of camelina in northern France. Agron Sustain Dev \n43:13. https://​doi.​org/​10.​1007/​s13593-​023-​00871-2\nLi J, Lei H (2021) Tracking the spatio-temporal change of planting \narea of winter wheat-summer maize cropping system in the \nNorth China Plain during 2001–2018. Comput Electron Agric \n187:106222. https://​doi.​org/​10.​1016/j.​compag.​2021.​106222\nLiang Z, van der Werf W, Xu Z, Cheng J, Wang C, Cong WF, Zhang \nC, Zhang F, Groot JCJ (2022) Identifying exemplary sustainable \ncropping systems using a positive deviance approach: wheat-\nmaize double cropping in the North China Plain. Agric Syst \n201:103471. https://​doi.​org/​10.​1016/j.​agsy.​2022.​103471\nLiang Z, Xu Z, Cheng J, Ma B, Cong WF, Zhang C, Zhang F, van der \nWerf W, Groot JCJ (2023) Designing diversified crop rotations to \nadvance sustainability: a method and an application. Sustain Prod \nConsum 40:532–544. https://​doi.​org/​10.​1016/j.​spc.​2023.​07.​018\nLiang Z, Ma B, Yu RP, Huo Y, Mudare S, Ying F, Li L, Zhang \nF, Cong WF (2026) A general framework for designing and \nassessing sustainable and diversified cropping systems: bridging \nknowledge-driven, model-aided, and participatory approaches.",
+          "bbox": [
+            51.023597717285156,
+            54.687313079833984,
+            291.4240417480469,
+            707.25732421875
+          ]
+        },
+        {
+          "id": "p19-b3-7d66115",
+          "kind": "paragraph",
+          "text": "Field Crops Res 337:110269. https://​doi.​org/​10.​1016/j.​fcr.​2025.​\n110269\nMARA (Ministry of Agriculture and Rural Affairs of the People’s \nRepublic of China) (2021) The plan of National Crop Produc-\ntion Development for the 14th Five-Year. URL: https://​www.​\nmoa.​gov.​cn/​govpu​blic/ (Accessed on Jun. 15, 2025; In Chinese).\nQuinio M, Jeuffroy MH, Guichard L, Salazar P, Détienne F (2022) \nAnalyzing co-design of agroecology-oriented cropping systems: \nlessons to build design-support tools. Agron Sustain Dev 42:72. \nhttps://​doi.​org/​10.​1007/​s13593-​022-​00772-w\nRamankutty N, Mehrabi Z, Waha K, Jarvis L, Kremen C, Herrero \nM, Rieseberg LH (2018) Trends in global agricultural land use: \nimplications for environmental health and food security. Annu \nRev Plant Biol 29(69):789–815. https://​doi.​org/​10.​1146/​annur​\nev-​arpla​nt-​042817-​040256\nReckling M, Hecker JM, Bergkvist G, Watson CA, Zander P, \nSchläfke N, Stoddard FL, Eory V, Topp CFE, Maire J, Bach-\ninger J (2016) A cropping system assessment framework—eval-\nuating effects of introducing legumes into crop rotations. Eur J \nAgron 76:186–197. https://​doi.​org/​10.​1016/j.​eja.​2015.​11.​005\nSánchez AC, Kamau HN, Grazioli F, Jones SK (2022) Financial prof-\nitability of diversified farming systems: a global meta-analysis. \nEcol Econ 201:107595. https://​doi.​org/​10.​1016/j.​ecole​con.​2022.​\n107595\nSempore AW, Andrieu N, Nacro HB, Sedogo MP, Le Gal PY (2015) \nRelevancy and role of whole-farm models in supporting small-\nholder farmers in planning their agricultural season. Environ \nModel Softw 68:147–155. https://​doi.​org/​10.​1016/j.​envso​ft.​\n2015.​02.​015\nSmith A, Snapp S, Chikowo R, Thorne P, Bekunda M, Glover J \n(2017) Measuring sustainable intensification in smallholder \nagroecosystems: a review. Glob Food Secur 12:127–138. https://​\ndoi.​org/​10.​1016/j.​gfs.​2016.​11.​002\nTimler C, Alvarez S, DeClerck F, Remans R, Raneri J, Estrada Car-\nmona N, Mashingaidze N, Abe Chatterjee S, Chiang TW, Ter-\nmote C, Yang RY, Descheemaeker K, Brouwer ID, Kennedy \nG, Tittonell PA, Groot JCJ (2020) Exploring solution spaces \nfor nutrition-sensitive agriculture in Kenya and Vietnam. Agric \nSyst 180:102774. https://​doi.​org/​10.​1016/j.​agsy.​2019.​102774\nHunt ND, Liebman M, Thakrar SK, Hill JD (2020) Fossil energy use, \nclimate change impacts, and air quality-related human health \ndamages of conventional and diversified cropping systems in \nIowa, USA. Environ Sci Technol 54:11002–11014. https://​doi.​\norg/​10.​1021/​acs.​est.​9b069​29\nXiao H, van Es HM, Amsili JP, Shi Q, Sun J, Chen Y, Sui P (2022) \nLowering soil greenhouse gas emissions without sacrificing \nyields by increasing crop rotation diversity in the North China \nPlain. Field Crops Res 276:108366. https://​doi.​org/​10.​1016/j.​\nfcr.​2021.​108366\nXu Z, Liang Z, Cheng J, Groot JCJ, Zhang C, Cong WF, Zhang F, \nvan der Werf W (2024) Comparing the sustainability of small-\nholder and business farms in the North China Plain; a case study \nin Quzhou. Agric Syst 216:103896. https://​doi.​org/​10.​1016/j.​\nagsy.​2024.​103896\nYang X, Steenhuis TS, Davis KF, van der Werf W, Ritsema CJ, \nPacenka S, Zhang F, Siddique KH, Du T (2021) Diversified crop \nrotations enhance groundwater and economic sustainability of \nfood production. Food Energ Secur 10(4):e311. https://​doi.​org/​\n10.​1002/​fes3.​311\nYang X, Xiong J, Du T, Ju X, Gan Y, Li S, Xia L, Shen Y, Pacenka \nS, Steenhuis TS, Siddique KHM, Kang S, Butterbach-Bahl \nK (2024) Diversifying crop rotation increases food produc-\ntion, reduces net greenhouse gas emissions and improves \nsoil health. Nat Commun 15:198. https://​doi.​org/​10.​1038/​\ns41467-​023-​44464-9",
+          "bbox": [
+            306.151123046875,
+            54.431880950927734,
+            546.5858764648438,
+            707.0018310546875
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-19.png"
+    },
+    {
+      "number": 20,
+      "blocks": [
+        {
+          "id": "p20-b0-0c2eea6",
+          "kind": "paragraph",
+          "text": "Z. Liang et al.\n23 \nPage 20 of 20",
+          "bbox": [
+            51.02360153198242,
+            30.80462074279785,
+            544.253173828125,
+            41.33612060546875
+          ]
+        },
+        {
+          "id": "p20-b2-5b3baf3",
+          "kind": "paragraph",
+          "text": "Yang Y, Wang G, He M, Pan X, Wang Z (2018) China food compo-\nsition tables. Peking University Medical Press: Beijing, China. \nISBN: 978-7-5659-1699-1 (in Chinese)\nZhang W, Jin X, Liu D, Lang C, Shan B (2017) Temporal and spatial \nvariation of nitrogen and phosphorus and eutrophication assess-\nment for a typical arid river — Fuyang River in northern China. J \nEnviron Sci 55:41–48. https://​doi.​org/​10.​1016/j.​jes.​2016.​07.​004\nZhang CY, Oki T (2023) Water pricing reform for sustainable water \nresources management in China’s agricultural sector. Agric Water \nManage 275:108045. https://​doi.​org/​10.​1016/j.​agwat.​2022.​108045",
+          "bbox": [
+            51.023597717285156,
+            54.687313079833984,
+            291.29302978515625,
+            157.47755432128906
+          ]
+        },
+        {
+          "id": "p20-b3-3c25523",
+          "kind": "paragraph",
+          "text": "Zhang L (2021) Nitrogen management for high-yielding winter wheat-\nsummer maize rotation system and long-term integrated assess-\nment. PhD thesis, China Agricultural University (in Chinese with \nEnglish abstract).",
+          "bbox": [
+            306.1426086425781,
+            54.653072357177734,
+            546.4157104492188,
+            97.46748352050781
+          ]
+        },
+        {
+          "id": "p20-b4-2544c03",
+          "kind": "paragraph",
+          "text": "Publisher's Note  Springer Nature remains neutral with regard to \njurisdictional claims in published maps and institutional affiliations.",
+          "bbox": [
+            306.14263916015625,
+            104.70098114013672,
+            546.3948974609375,
+            127.52345275878906
+          ]
+        },
+        {
+          "id": "p20-b5-80f6498",
+          "kind": "heading",
+          "text": "Authors and Affiliations",
+          "bbox": [
+            51.02360153198242,
+            183.7051239013672,
+            177.3944091796875,
+            198.5731201171875
+          ]
+        },
+        {
+          "id": "p20-b6-725eb82",
+          "kind": "paragraph",
+          "text": "Zhengyuan Liang1,2 · Zhan Xu1,4 · Jiali Cheng1,2 · Wen‑Feng Cong1 · Chaochun Zhang1 · Fusuo Zhang1 · \nWopke van der Werf4 · Jeroen C. J. Groot2,3",
+          "bbox": [
+            51.0203857421875,
+            209.7691192626953,
+            485.150390625,
+            235.5731201171875
+          ]
+        },
+        {
+          "id": "p20-b7-26615b6",
+          "kind": "paragraph",
+          "text": "*\t Wen‑Feng Cong \n\t\nwenfeng.cong@cau.edu.cn",
+          "bbox": [
+            50.31809997558594,
+            249.44061279296875,
+            156.84010314941406,
+            272.2630920410156
+          ]
+        },
+        {
+          "id": "p20-b8-0603e67",
+          "kind": "paragraph",
+          "text": "1\t\nState Key Laboratory of Nutrient Use and Management, Key \nLaboratory of Plant‑Soil Interactions, Ministry of Education, \nCollege of Resources and Environmental Science, National \nAcademy of Agriculture Green Development, China \nAgricultural University, Beijing 100193, China",
+          "bbox": [
+            51.02360153198242,
+            278.7122802734375,
+            276.29315185546875,
+            332.31414794921875
+          ]
+        },
+        {
+          "id": "p20-b9-14c794e",
+          "kind": "heading",
+          "text": "2\t\nFarming Systems Ecology, Wageningen University \nand Research, P.O. Box 430, 6700 AK Wageningen, \nthe Netherlands",
+          "bbox": [
+            51.02360153198242,
+            333.7437744140625,
+            244.27960205078125,
+            367.3536376953125
+          ]
+        },
+        {
+          "id": "p20-b10-99dc7c9",
+          "kind": "heading",
+          "text": "3\t\nPlant Production Systems, Wageningen University \nand Research, P.O. Box 430, 6700 AK Wageningen, \nthe Netherlands",
+          "bbox": [
+            306.1418151855469,
+            248.6492919921875,
+            499.3967590332031,
+            282.2590637207031
+          ]
+        },
+        {
+          "id": "p20-b11-573c906",
+          "kind": "heading",
+          "text": "4\t\nCentre for Crop Systems Analysis, Wageningen University \nand Research, P.O. Box 430, 6700 AK Wageningen, \nthe Netherlands",
+          "bbox": [
+            306.1418151855469,
+            283.6807861328125,
+            521.87158203125,
+            317.2906494140625
+          ]
+        }
+      ],
+      "snapshot": "library/farmsteps-2026/d17dce19f85b/page-20.png"
+    }
+  ],
+  "audit": {
+    "pageCount": 20,
+    "pageSnapshots": 20,
+    "allTextBlocksRetained": true,
+    "textCharacters": 86983,
+    "normalizedCharacterCoverage": 1.0,
+    "graphicSnippets": 7,
+    "sourceSHA256": "d17dce19f85b1c0277e0158275de034a75ad62472ef37ee3741c2f4208b9bc33",
+    "manualCharacterReview": false,
+    "limitations": "Reading order, tables and equations can require visual checking. Full-page images and original PDF preserve complete visual content."
+  }
+}

@@ -118,5 +118,15 @@
     "multiEquationGroups": 0,
     "inlineBlocks": 1,
     "originalUnchanged": true
+  },
+  {
+    "id": "farmsteps-2026",
+    "sourceSHA256": "d17dce19f85b1c0277e0158275de034a75ad62472ef37ee3741c2f4208b9bc33",
+    "equationGroups": 19,
+    "mathmlGroups": 0,
+    "mathmlTranscriptions": 0,
+    "multiEquationGroups": 0,
+    "inlineBlocks": 24,
+    "originalUnchanged": true
   }
 ]

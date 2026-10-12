@@ -1,13 +1,12 @@
 {
   "schema": "paper.application.release.v1",
-  "version": "5.5.15",
-  "date": "2026-10-07",
-  "title": "Ditzler家庭系统完整串讲与两尺度借鉴",
+  "version": "5.5.16",
+  "date": "2026-10-12",
+  "title": "FarmSTEPS许可原文离线归档",
   "changes": [
-    "Ditzler2019机构开放主文15页重新核读；新增完整与简略串讲、公式与全部发表表值核账。",
-    "新增家庭账户到农场/海南省域的8步拟议接口；保留预算、符号、面积、用途等出版边界。",
-    "原有19篇方法、38份串讲、旧正文图表与笔记锚点保持不变；本轮没有新增原图或PDF。",
-    "作者归档文件、软件构建、依赖与运行结果仍未核实；全文可读不等于原研究复现。"
+    "核验当前出版PDF20页、第18页CC BY 4.0及既有SHA-256，归档未改原件、完整文本、页图和EPUB。",
+    "复用逐段本机中文机器翻译、源图公式布局与既有研究方法内容；保留笔记锚点、原文及译文。",
+    "软件许可与站外补充材料独立登记；归档不表示已运行或复现原模型。"
   ],
   "automaticUpdate": "idle-and-all-tabs-safe",
   "managedSignIn": "private-entry-client-encrypted-no-hosted-server",

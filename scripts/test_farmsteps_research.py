@@ -28,8 +28,13 @@ class ResearchEvidence(unittest.TestCase):
  def test_license_independent_from_software(self):
   r=next(r for r in read('resources/catalog.json')['records'] if r['id']=='farmsteps-2026')
   self.assertEqual(r['license']['name'],'CC BY 4.0')
-  self.assertEqual(r['status'],'licensed-not-archived')
-  self.assertNotIn('bookPath',r)
+  self.assertEqual(r['status'],'licensed')
+  self.assertIn('bookPath',r)
+  book=read('resources/'+r['bookPath'])
+  self.assertEqual(len(book['pages']),20)
+  self.assertEqual(hashlib.sha256((ROOT/'resources'/r['originalPath']).read_bytes()).hexdigest(),r['sha256'])
+  self.assertTrue(book['audit']['allTextBlocksRetained'])
+  self.assertEqual(book['sourceHash'],read('resources/study-layouts.json')['farmsteps-2026']['sourceHash'])
   self.assertIn('2026-08-30',r['reason'])
   self.assertIn('软件许可',r['reason'])
  def test_no_paper_prompts_require_assessment(self):

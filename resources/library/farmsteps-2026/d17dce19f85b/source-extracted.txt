@@ -1,0 +1,1959 @@
+Vol.:(0123456789)
+
+Agronomy for Sustainable Development (2026) 46:23 
+https://doi.org/10.1007/s13593-026-01097-8
+
+RESEARCH ARTICLE
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified 
+and sustainable crop sequence plans for crop farms
+
+Zhengyuan Liang1,2 · Zhan Xu1,4 · Jiali Cheng1,2 · Wen‑Feng Cong1 · Chaochun Zhang1 · Fusuo Zhang1 · 
+Wopke van der Werf4 · Jeroen C. J. Groot2,3
+
+Received: 24 January 2025 / Accepted: 4 February 2026 / Published online: 17 March 2026 
+© INRAE and Springer-Verlag France SAS, part of Springer Nature 2026, modified publication 2026
+
+Abstract
+Crop diversification could enhance economic and environmental sustainability of crop farming, but achieving this requires 
+careful planning that accounts for crop interrelationships in a rotation or spatial layout. Several models have been devised to 
+design diversified crop rotations or crop spatial layouts, but they often fail to capture farm settings, production constraints, 
+and sustainability objectives specific to a farm at both temporal and spatial scales. To fill this gap, we developed a novel 
+rule-based whole-farm planning model, FarmSTEPS, for systematically exploring diversified and sustainable farm crop 
+sequence plans in a spatial-temporally explicit manner. FarmSTEPS comprises multiple farm characterization modules, 
+an algorithm for generating farm crop sequence plans, and a multi-attribute decision-aid tool. Users first characterize farm 
+configurations and plot properties, and parameterize candidate crops according to the actual situation of farms. Subsequently 
+the algorithm generates and evaluates all feasible crop sequence plans for each plot from the first planning period until the 
+end of the planning window, subject to user-defined sequence- and farm-level constraints. Eventually, the model suggests a 
+set of superior farm plans using the multi-attribute decision-aid tool. We illustrate the model with a Chinese wheat-maize 
+farm to explore future three-year cropping plans targeting five sustainability objectives: maximizing gross margin and mini-
+mizing four environmental impacts (groundwater depletion, pesticide input, aquatic eutrophication, GHG emission). The 
+model generated 213,679 feasible plans, with 128 being Pareto-optimal in terms of the five objectives. Overall, relative to 
+the wheat-maize baseline, these optimal plans increased gross margin by 3-50% while mitigating environmental impacts by 
+10-56%, largely through the inclusion of tuber and oil crops, though trade-offs existed between economic and environmental 
+benefits. The case study demonstrates that FarmSTEPS is an effective tool for designing diversified and sustainable crop 
+sequence plans tailored to farm-specific conditions while informing stakeholders on potential benefits and trade-offs among 
+sustainability objectives.
+
+Keywords  Crop diversification · Farming system redesign · Pareto optimality · Profitability · Environmental sustainability · 
+North China Plain
+
+1  Introduction
+
+Sustainable crop farming is required to produce sufficient 
+crop products while ensuring farm incomes and minimiz-
+ing environmental externalities (Cui et al. 2018). Many 
+major crop-producing regions around the world have been 
+experiencing crop specialization and intensification in the 
+past few decades, with farmlands dominated by single or a 
+few crop species, particularly major cereals (Ramankutty 
+et al. 2018). This trend contributed to increased agricultural 
+productivity in terms of dietary energy but caused various
+
+farming sustainability challenges in both the economic and 
+environmental domains, such as undesired and unstable 
+operating profits, overexploitation of freshwater (particularly 
+groundwater), exposure of humans and the environment to 
+agrochemicals, greenhouse gas (GHG) emissions, and agro-
+biodiversity loss (Campbell et al. 2017; Chakraborti et al. 
+2023), threatening economic well-being and environmental 
+health. It is therefore crucial to transform currently intensi-
+fied and specialized crop farming systems toward increased 
+sustainability.
+Crop diversification is deemed an effective strategy to 
+improve the multi-attribute sustainability of crop farming 
+(Hufnagel et al. 2020). From a temporal perspective, it 
+Extended author information available on the last page of the article
+
+Z. Liang et al.
+23 
+Page 2 of 20
+
+presents itself in the form of diversified crop sequences, i.e., 
+cultivating a sequence of different crops on the same piece 
+of land, while from a spatial perspective, crop diversification 
+results in spatial cropping plans with different crops across 
+different pieces of land every year (Dury et al. 2012). Sus-
+tainability benefits of crop diversification have been found 
+in many previous studies. A meta-analysis and a system-
+atic review both indicated that diversified cropping systems 
+could deliver higher financial returns relative to simplified 
+systems, often via introducing high-profit crops such as veg-
+etables and root crops (Sánchez et al. 2022; Feliciano 2019). 
+Furthermore, multiple empirical and meta-analysis studies 
+have demonstrated that diversification could reduce the reli-
+ance on agricultural resource inputs, including groundwater, 
+fertilizer, pesticide, and fossil energy, and mitigate associ-
+ated environmental impacts by incorporating resource-effi-
+cient crops such as beans, coarse cereals, and some oil crops 
+(Boeraeve et al. 2020; Hunt et al. 2020; Guinet et al. 2023; 
+Yang et al. 2024). The successful cases in these studies high-
+light that achieving the sustainability benefits of diversified 
+systems requires careful, reasoned planning.
+Models serve as an efficient tool for planning sustain-
+able and diversified crop production systems because they 
+can handle, systematically and transparently, many factors 
+for cropping system innovation, including various candi-
+date crops, system constraints, and sustainability objectives 
+(Dury et al. 2012). Several models have been devised to 
+facilitate the planning of diversified systems either tempo-
+rally or spatially. Among them, crop rotation generator mod-
+els such as ROTAT+ and ROTOR can create all agronomi-
+cally viable crop rotations at the plot scale and evaluate their 
+multi-attribute sustainability, given a list of candidate crops 
+and rotation rules (Dogliotti et al. 2003, 2004; Bachinger 
+and Zander 2007). However, the generated sustainable rota-
+tions are often difficult to implement on real farms since the 
+models do not account for the farm-specific situations and 
+demands, for example, the heterogeneity in size and proper-
+ties of plots within a farm, resource accessibility and avail-
+ability at a farm, and the whole-farm performance objectives 
+pursued by farmers and other stakeholders. Moreover, these 
+models were built merely for fixed rotation systems, which 
+follow a cyclical pattern of component crops, rather than 
+generating flexible and non-cyclical crop sequences for the 
+future (Castellazzi et al. 2008). This model limitation might 
+constrain the scope of sustainability improvement delivered 
+by temporal crop diversification for farms (Dury et al. 2013).
+Some whole-farm planning models are able to allocate 
+crops or crop sequences to different farm plots to improve 
+farm-level sustainability objectives using optimization tech-
+niques such as linear programming and heuristic algorithms 
+(Dogliotti et al. 2005; Groot et al. 2012; Sempore et al. 2015; 
+Capitanescu et al. 2017). But there are several limitations 
+to these models: 1) primarily optimizing a single objective
+
+(usually profits) rather than multiple ones when using lin-
+ear programming; 2) overlooking key agronomic constraints 
+such as disallowed crop successions or maximum planting 
+frequency of crops in a crop sequence; 3) missing period-
+by-period assessment and constraints on farm cropping 
+plans, e.g., the minimum farm profit in each year, making 
+the resulting diversified farm plans less practical for farmers 
+(Kaim et al. 2018); and 4) lacking capabilities to create non-
+cyclical and flexible crop sequences over planning horizons 
+(Janssen and Van Ittersum 2007). There is still a need for a 
+modelling framework for the spatial-temporal exploration of 
+whole-farm cropping plans based on farm-specific situations 
+and multiple sustainability objectives. This topic remains 
+largely unexplored.
+The North China Plain is a major crop-producing region 
+in China and a typical intensified and specialized crop farm-
+ing region   , where over 60% of the farmland is currently 
+devoted to annual double cropping of winter wheat and 
+summer maize (Li and Lei 2021). This cereal-dominated 
+system is highly water- and nutrient-demanding, with an 
+estimated blue water demand of 300 mm/year and nitro-
+gen uptake of 400 kg N/ha/year (Yang et al. 2021; Zhang 
+2021). To achieve higher productivity, farmers often use a 
+considerable amount of groundwater and fertilizers (Liang 
+et al. 2022). This practice leads to a sharp groundwater table 
+decline and a high N surplus (approximately 250 kg N/ha/
+year; Zhang 2021), which contributes to waterbody eutrophi-
+cation (Kong et al. 2016; Zhang et al. 2017). Additionally, 
+Chinese agri-environmental policies target the reduction of 
+chemical pesticides and the mitigation of carbon emissions 
+(MARA 2021). To reduce the environmental burden aris-
+ing from crop production, the local government encourages 
+farmers to partially replace staple cereals with low-input 
+crops, especially on large-scale farms that have sufficient 
+resources and skills to manage new crops (Xu et al. 2024; 
+Fig. 1). However, farm managers are more concerned about 
+farm gross margin and lack methods for designing profitable 
+yet environmentally benign farm cropping plans tailored to 
+specific situations of their farms. With this need, the typi-
+cal wheat-maize farm in the North China Plain could serve 
+as an ideal case for model-based exploration of sustainable 
+whole-farm crop sequence plans.
+The primary aim of this study is to present a novel 
+model, FarmSTEPS, for exploration of diversified and sus-
+tainable crop sequence plans for crop farms aligned with 
+farm-specific conditions and requirements. FarmSTEPS is 
+a whole-farm modelling framework capable of systemati-
+cally generating desired farm cropping plans in a spatial-
+temporally explicit manner by integrating farm characteri-
+zation modules, an exhaustive whole-farm crop sequence 
+planning algorithm, and a multi-attribute decision-aid tool. 
+The second aim is to illustrate the application of this model 
+by exploring alternative options for a wheat-maize family
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 3 of 20 
+23
+
+farm in the North China Plain when developing future three-
+year cropping plans with five sustainability objectives, i.e., 
+maximizing gross margin and minimizing four environmen-
+tal impacts. This application allows us to assess the potential 
+benefits and trade-offs among sustainability objectives when 
+transitioning to new farm plans. The model flexibility allows 
+it to be applied to other farms, adapting to specific farm set-
+tings, production constraints, and sustainability objectives.
+
+2  Model
+
+We developed a rule-based model, FarmSTEPS (Spatio-
+Temporal Exploration ProcedureS for crop allocation on 
+a Farm, Fig. 2) to systematically generate and evaluate 
+feasible crop sequence plans for plots within a given crop 
+farm in a spatial-temporally explicit manner, subject to both 
+sequence- and farm-associated constraints. This was done by 
+integrating multiple modules for farm characterization and 
+stakeholder expectations (section 2.1) with a whole-farm 
+crop sequence planning algorithm (section 2.2). Model users 
+could apply FarmSTEPS by parameterizing these modules 
+in terms of the real situation and objectives and constraints
+
+of the focus farm and accordingly obtain a set of possible 
+cropping plans and their performance as model output. Then 
+a multi-attribute decision-aid tool, Pareto ranking, efficiently 
+identifies the superior solutions from the entire set of pos-
+sible plans in terms of sustainability objectives of interests, 
+which could inform the stakeholders’ decision-making pro-
+cess (Section 2.3). We programmed the model software in 
+the C# language in Microsoft Visual Studio.
+
+2.1  FarmSTEPS modules
+
+2.1.1  Farm configuration module
+
+Since each plot within a farm is the basic unit for crop 
+sequence planning, the initial step in applying the model 
+is configuring the farm by loading the farm plot map in an 
+ESRI shape file, where each plot is represented by a GIS 
+polygon. The key aim of this module is to read, store, and 
+display the farm plot configuration along with relevant geo-
+graphical attributes, e.g., the position, size, and slope per 
+plot.
+
+Fig. 1   Photographs of widely cultivated crops (winter wheat and 
+summer maize; A, B) and less commonly cultivated crops (peanut, 
+sweet potato and sunflower; C–E) in the North China Plain. The 
+annual winter wheat-summer maize annual double cropping system 
+dominates regional farmland, while those low-input minor crops,
+
+including oil and tuber/root crops, offer opportunities to diversify 
+local arable farming systems for enhancing both economic and envi-
+ronmental sustainability (photo credit: Zhengyuan Liang and Zhan 
+Xu).
+
+Z. Liang et al.
+23 
+Page 4 of 20
+
+2.1.2  Land‑unit module
+
+Each plot should be linked with a specific land-unit, which 
+describes characteristics of the plot such as soil properties 
+and includes a list of candidate crops that can be grown 
+on the plot. This allows to consider the differences in envi-
+ronmental conditions, crop selection, and crop performance 
+among plots in a farm. For example, some of the plots might 
+not have access to irrigation and therefore some drought-
+sensitive crops are banned and the candidate crop yields in 
+these plots would be lower than those in irrigated plots. The 
+land-units are set in the ROTAT+ software that is connected
+
+to FarmSTEPS. ROTAT+ is normally used as a tool for 
+field-level crop rotation generation (Liang et al. 2023) while 
+acting as a module in FarmSTEPS to record the land and 
+crop information. Here, users need to parameterize each 
+candidate crop with information that is essential for gener-
+ating whole-farm crop sequence plans and calculating their 
+indicator performance (see Section 2.1.5), including plant-
+ing and harvesting dates, agricultural resource inputs (e.g., 
+labor requirement, fertilizer application, pesticide input and 
+irrigation water consumption), and crop and pollutant out-
+put (e.g., yield, revenue, nutrient losses, GHG emissions). 
+Since assessment indicators may vary across case farms,
+
+Fig. 2   The modeling framework of the FarmSTEPS model. Model 
+users firstly characterize the farm in terms of plot configuration, 
+land-units, and crop sequences (see Sections 2.1.1, 2.1.2, 2.1.4 in the 
+main text), and define the timeline, indicators, and constraints (see 
+Section  2.1.3, 2.1.5, 2.1.6 in the main text) for the generation and 
+assessment of alternative farm cropping plans by setting six inter-
+connected modules (farm configuration module, land-unit module, 
+timeline module, crop sequence module, indicator module and con-
+straint module; Sections  2.1 in the main text). Next, the planning 
+algorithm creates all feasible farm crop sequence plans in a spatial-
+
+temporally explicit way for the whole farm over the whole planning 
+window (Section 2.2 in the main text). Users eventually can check the 
+indicator performance and crop sequences of individual farm crop-
+ping plans, compare the performance across the entire set of feasible 
+cropping plans, and identify the better-performing plans (Section 2.3 
+in the main text). This framework was presented with a hypothetical 
+farm where P1-P4 denote four plots, LU1-2 denote two land-units, 
+Ind1-Ind3 denote the indicators of interest and Seq.  1, Seq.  6, and 
+Seq. 8 denote three crop sequences used in a created farm plan (Plan 
+3). Prod. denotes the production of corresponding crops.
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 5 of 20 
+23
+
+the model is designed to flexibly accommodate user-defined 
+input-output attributes for each crop.
+
+2.1.3  Timeline module
+
+To reflect the actual farmers’ dynamic decision-making pro-
+cesses, several timeline parameters should be set for farm 
+planning. The first one is the starting date of planning, deter-
+mined based on when farmers would change the current crop 
+arrangement or the start of the cropping season. Secondly, 
+the length of the planning period, reflecting how often farm-
+ers assess farm performance and make cropping decisions, 
+must be defined. One or multiple crops can be sown and 
+harvested per planning period. This period typically spans 
+one year but can vary, ranging from shorter (e.g., one quar-
+ter) to longer (e.g., multiple years). The third parameter is 
+the number of planning periods for crop sequence genera-
+tion, also known as the “planning window” in FarmSTEPS. 
+Additionally, users can specify the length of historical crop 
+sequences prior to the starting date of farm planning, ena-
+bling the model to account for the cropping history of each 
+farm plot. All of these timeline parameters are applied uni-
+formly across all plots within a farm.
+
+2.1.4  Crop sequence module
+
+With defined timeline parameters, this module allows to set 
+the historical and baseline crop sequences for each plot in 
+a farm. Setting historical crop sequences incorporates the 
+influence of past crops on future crop planning in the model. 
+Baseline crop sequences represent the farmers’ original idea 
+for arranging crop sequences across plots in the planning 
+window, providing a reference for comparing with novel 
+plans. Users can choose a few candidate crops from the land-
+units to constitute historical and baseline crop sequences 
+for plots.
+
+2.1.5  Indicator module
+
+Indicator assessment in FarmSTEPS relies on crop input-
+output relationships so model users can define any indicators 
+of their interest that are calculated in terms of crop input-
+output dataset to assess farm cropping plans. For instance, 
+dietary nutrient yield from the human-nutrition domain, 
+gross margin and labor use from the socio-economic 
+domain, and groundwater use and GHG emission from the 
+environmental domain. These indicators can be set as objec-
+tives for improving sustainability benefits or as constraints 
+for eliminating undesired solutions during planning.
+For a given whole-farm crop sequence plan, the module 
+begins with evaluating the crop-level performance ­(Ii,p,t,c), 
+i.e., the ith indicator performance of the component crop c
+
+of the sequence on the plot p in the tth planning period. If 
+the growing season of a crop spans two planning periods, 
+users can decide whether the indicator values are allocated 
+between periods proportionate to the growing duration or 
+credited to the period when the crop is harvested. The former 
+is suitable for indicators associated with agricultural inputs 
+such as labor input and environmental costs while the latter 
+is suitable for product and economic output-related indica-
+tors such as gross margin and food energy production.
+Assessment outcomes are subsequently computed at the 
+plot, period and farm level and presented to the user. The 
+indicator performance of each plot ­(Ii,p) is calculated as:
+
+Where PW is the duration of the planning window (in 
+years). The farm performance of indicator i per planning 
+period ­(Ii,t) is computed as:
+
+Where ­Ap represents the land area (ha) of plot p. The 
+overall performance of indicator i across the entire planning 
+window ­(Ii,farm) is:
+
+2.1.6  Constraint module
+
+Various constraints can be formulated in FarmSTEPS to 
+ensure that the generated farm cropping plans comply with 
+the agronomic rules and satisfy the farm-specific demands. 
+Here, all constraints are classified into two types: longitudi-
+nal and transversal constraints. The longitudinal constraints 
+are applied to crop sequences on each plot while transversal 
+ones are applied to the whole farm.
+
+Longitudinal constraints  Longitudinal constraints, applied 
+at the temporal scale, include sequence-level rules and plot-
+level constraints.
+
+Sequence-level rules can help to avoid the negative 
+agronomic effects of unreasonable crop successions, for 
+example, yield loss and build-up of soil pathogens. Users 
+can set the following crop sequence rules based on local 
+context: the maximum planting frequency of a certain crop 
+(group), the minimum interval between repeated planting 
+of a certain crop (group), and the disallowed crop suc-
+cession matrix (Dogliotti et al. 2003). The planned crop
+
+(1)
+Ii,p =
+
+∑
+
+t
+
+∑
+
+cIi,p,t,c
+PW
+
+(2)
+Ii,t =
+
+∑
+
+p
+
+∑
+
+c (Ii,p,t,c × Ap)
+
+∑
+p Ap
+
+(3)
+Ii,farm =
+
+∑
+
+p
+
+∑
+
+t
+
+∑
+
+c (Ii,p,t,c × Ap)
+∑
+p Ap × PW
+
+Z. Liang et al.
+23 
+Page 6 of 20
+
+sequences in each plot account for these rules with histori-
+cal sequences.
+Plot-level constraints are used to limit the ith indicator 
+performance of the crop sequence on the plot p within a 
+certain range:
+
+Where ­Ii,p,max and ­Ii,p,min are the maximum and minimum 
+value of the ith indicator that users enter into the model to 
+introduce their expectations on plot p.
+
+Transversal constraints  Transversal constraints, applied at 
+the spatial scale, include period- and farm-level constraints.
+
+Period-level constraints are set to remove the created farm 
+cropping plans that, within a planning period, are unaccepta-
+ble from the perspective of the indicator performance and/or 
+the harvested area or production of certain crops:
+
+Where ­Ii,t,max and ­Ii,t,min are the user-defined maximum 
+and minimum value of the ith indicator at the whole farm in 
+the tth planning period. ­Ac,t,max and ­Ac,t,min mean the maxi-
+mum and minimum harvested area (ha) for crop species c 
+while ­Pc,t,max and ­Pc,t,min mean the maximum and minimum 
+production (Mg) for crop species c in the farm for the tth 
+planning period.
+Likewise, farm-level constraints can rule out unaccepta-
+ble farm plans over the entire planning window:
+
+Where for the entire planning window, ­Ii,farm,max and 
+­Ii,farm,min represent the maximum and minimum value of 
+the ith indicator at the whole farm scale, and ­Ac,farm,max, 
+­Ac,farm,min, ­Pc,farm,max, and ­Pc,farm,min mean the maximum and 
+minimum harvested area (ha) and production (kg) for crop 
+species c across the plots in the farm, respectively.
+
+2.2  FarmSTEPS planning algorithm
+
+The planning algorithm in the FarmSTEPS software creates 
+a list of feasible crop sequence plans for the whole farm, i.e.
+
+(4)
+Ii,p,min ≤Ii,p≤Ii,p,max
+
+(5)
+Ii,t,min ≤Ii,t≤Ii,t,max
+
+(6)
+Ac,t,min ≤Ac,t≤Ac,t,max
+
+(7)
+Pc,t,min ≤Pc,t≤Pc,t,max
+
+(8)
+Ii,farm,min ≤Ii,farm≤Ii,farm,max
+
+(9)
+Ac,farm,min ≤Ac,farm≤Ac,farm,max
+
+(10)
+Pc,farm,min ≤Pc,farm≤Pc,farm,max
+
+‘farm-plans’ (across one or more ‘planning-periods’, which 
+are user defined periods for instance for one year. Generally 
+speaking, the planning procedure initially looks at the first 
+planning-period and generates all possible combinations of 
+consecutive crops (‘crop-sequence’) for each plot across the 
+whole farm, considering predefined longitudinal and trans-
+versal constraints. Then it proceeds to the next planning-
+period based on the list of possible crop combinations from 
+the previous period and repeats this process until the end 
+of the planning window is reached (Fig. 3), reflecting the 
+farmers’ dynamic decision-making processes. The model 
+ultimately provides all feasible farm-plans with their cor-
+responding indicator performance (Fig. 3).
+Specifically speaking, the planning commences with the 
+generation of feasible crop sequences per plot in the first 
+planning period. For each plot in the farm, the algorithm 
+constructs a crop-sequence containing a list of crops that 
+have been grown before the start of the first planning-period, 
+i.e. the plot history. Then the last day of the historical crop-
+sequence is checked to determine whether there is growing 
+time to accommodate a one or more crops in the first plan-
+ning-period. If growing time is available, the crop-sequence 
+adds the first crop or successive crops from the candidate 
+crop list of the plot. Then the crop sequence rules are applied 
+to the crop-sequence to examine the agronomic feasibil-
+ity. If this crop-sequence conforms to agronomic rules, it 
+is stored in the collection of crop-sequences for the plot. 
+After that, the added crop(s) in the crop-sequence is(are) 
+emptied to add and examine the next single crop and suc-
+cessive crops from the list. This process runs throughout all 
+candidate crops for the plot and then generates a collection 
+of all agronomically feasible crop-sequences in each plot in 
+the first planning-period.
+Subsequently, the algorithm produces all feasible farm 
+cropping plans during the first planning-period. In doing so, 
+a farm-plan by combining feasible crop-sequences across 
+all plots in the farm within the first planning-period. If this 
+farm-plan does not violate the period-level constraints, it is 
+added to the collection of farm-plans for the first planning-
+period. Similarly, the farm-plan deletes the first combina-
+tion, and the above process is then repeated to the rest of 
+all combinations of crop-sequences to generate the whole 
+collection of feasible farm-plans. Moreover, a crop-sequence 
+would be marked if used in a feasible farm plan. The crop-
+sequences that are not marked at the end of the farm plan 
+generation are eliminated from the collection of feasible 
+crop-sequences for a plot.
+The planning procedure for creating feasible crop-
+sequences and farm-plans is also applied for the each of 
+the following planning-periods until the end of the plan-
+ning window. Here, a crop-sequence for a plot builds on not 
+only its historical sequence but also on one feasible sequence 
+from the previous planning-periods. All crop-sequences for
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 7 of 20 
+23
+
+the plot are systematically added with subsequent crops 
+in the focus period and all agronomically feasible crop 
+sequences are selected and stored, as the algorithm does 
+in the first period. Likewise, all feasible farm-plans for the 
+following period are accordingly obtained with the help of 
+period-level constraints. Furthermore, at the end of the final 
+planning-period, plot- and farm-level constraints remove the 
+farm farm-plans that are unacceptable due to undesirable 
+performance for certain plots and the whole farm across 
+the entire planning window. The remaining farm-plans are 
+deemed feasible and exported as the outcome of the Farm-
+STEPS planning algorithm.
+
+2.3  Identification of Pareto‑optimal farm plans
+
+The FarmSTEPS model typically generates a large set of 
+alternative farm-plans, some of which may underperform in 
+terms of sustainability objectives. These suboptimal farm-
+plans could therefore be excluded from those recommended 
+to end users. Here, we applied the Pareto ranking method, 
+a non-weighing multi-criteria decision-aid tool, to identify 
+the Pareto-optimal plans from the entire set of generated 
+farm-plans. A plan was ranked as Pareto-optimal when its 
+performance of any one objective cannot be outstripped by 
+another farm-plan without these other plans being inferior to
+
+Fig. 3   Sketch of the algorithm for systematic generation of feasi-
+ble farm-plans. The algorithm is illustrated for generating all feasi-
+ble plans for a hypothetical farm over two future planning-periods. 
+This farm contains two plots with different candidate crops and his-
+torical crop sequences. The vertical blue dashed arrow indicates the 
+generation of crop sequences at the plot level, while the horizontal 
+blue dashed arrow represents the aggregation of sequences into 
+farm-plans. In each planning-period, the model first creates all fea-
+sible crop-sequences for each plot, subject to longitudinal constraints 
+(expressed as vertical red arrow; Section 2.1.6 in the main text). For 
+the hypothetical farm, the longitudinal constraint is that the same crop 
+may not be planted consecutively in the same plot. Candidate crops
+
+in red color mean their associated crop-sequences were all infeasible 
+due to this longitudinal constraint. Then the model combines feasi-
+ble crop-sequences between the two plots to produce farm-plans and 
+identifies feasible farm-plans by checking transversal constraints 
+(expressed as horizontal red arrows; Section 2.1.6 in the main text). 
+We set the transversal constraint that each candidate crop is allocated 
+to at most one plot in any given unit planning-period, ensuring that 
+the harvested area of each crop does not exceed the area of a single 
+plot. The above two steps are repeated until the end of the planning 
+window, resulting in a set of all feasible farm-plans (n=11). Candi-
+date crops in rose color mean some plans including them are ruled 
+out due to this transversal constraint.
+
+Z. Liang et al.
+23 
+Page 8 of 20
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 9 of 20 
+23
+
+at least one of the other objectives (Groot et al. 2012). This 
+was done in R software via the is_nondominated function 
+from the “eaf” package. While the Pareto ranking has not 
+been directly embedded within the FarmSTEPS software, it 
+serves as an essential component of the overall methodologi-
+cal framework, enabling trade-off analysis and guiding the 
+selection of desirable plans for end users.
+
+3  Case study
+
+3.1  Case farm description
+
+The case farm modeled in FarmSTEPS is a single farm 
+located in Quzhou County, Hebei Province, China 
+(114°98′E, 36°94′N, Fig. 4). This farm is a large-scale family 
+farm with a cropland area of 23 ha. Quzhou has a temperate 
+continental monsoon climate, with a mean annual tempera-
+ture of 13.1 ℃ and a mean annual precipitation of 430 mm. 
+The farm has a loamy textured calcareous alluvial soil, with 
+a soil bulk density of 1.43 g/cm3, a pH of 8.2, and a soil 
+organic matter content of 1.57%. Farm managers have been 
+consecutively cultivating only wheat-maize double cropping 
+on the whole farm for at least five years. Double cropping 
+of wheat and maize is a common cropping pattern in the 
+North China Plain due to its high output of cereal grain for 
+human consumption (wheat) and farm animals (maize) and 
+the availability of mechanization.
+We selected this farm as a case study to illustrate the 
+capabilities of FarmSTEPS for both practical and methodo-
+logical reasons.
+From a practical perspective, the farmers are currently 
+unsatisfied with the farming profitability and therefore seek 
+to improve farm gross margin by diversifying cropping plans. 
+Furthermore, the local government endeavors to reduce 
+resource and environmental pressures arising from agricultural 
+production such as groundwater overdraft, nutrient pollution, 
+pesticide overuse, and GHG emissions by collaborating with 
+large-scale farms that can set an example for nearby, often 
+smaller, farms. The case farm also encounters practical con-
+straints related to labor availability, market outlets, and on-
+farm management in the face of altering cropping plans. Thus, 
+the farm acts as a suitable case to use FarmSTEPS to explore 
+diversified farm crop sequence plans towards achieving multi-
+attribute farming sustainability.
+
+From a methodological perspective, this farm represents 
+multiple dimensions of complexity relevant to whole-farm 
+crop planning, specifically:
+Variable plot size: Although the farm consists of only five 
+plots, their sizes vary considerably. This heterogeneity in plot 
+area markedly influences crop allocation decisions and farm-
+level outcomes;
+Diverse candidate crops: The crop portfolio includes a 
+wide range of crops, from staple cereals and tuber crops to oil 
+crops and vegetables, with distinct crop calendars, agronomic 
+requirements, and economic and environmental profiles;
+
+1)	 Land-unit-specific crop set: The farm includes two 
+land units, each with a different set of candidate crops, 
+reflecting spatial heterogeneity in farm management.
+2)	 Flexible cropping intensity: The one-year unit planning 
+period allows for both single and double cropping sys-
+tems, increasing the number of feasible crop sequence 
+combinations.
+3)	 Multi-objective assessment: Five sustainability indica-
+tors (economic returns, groundwater depletion, pesticide 
+input, eutrophication potential, and GHG emissions) 
+were used to evaluate the cropping plans, capturing 
+trade-offs between farm profitability and environmental 
+impacts.
+4)	 Complex constraints: In addition to crop sequence rules, 
+we considered transversal constraints at the period and 
+farm levels. These include limits on total production and 
+harvested area of crops, as well as thresholds for dietary 
+energy yield, and socioeconomic and environmental 
+indicators.
+
+This case study does not address certain dimensions of 
+complexity, such as spatial variability in soil across plots 
+(Aggarwal et al. 2022) or a longer planning horizon (> three 
+years), which could be tested in the future studies. However, 
+given the multiple forms of complexity represented above, this 
+case provides a robust and sufficiently representative testbed 
+for illustrating the core capabilities of FarmSTEPS.
+
+3.2  Model application for the case farm
+
+3.2.1  Farm, timeline, and crop sequence characterization
+
+The cropland on the case farm consisted of five plots (Plot 
+1–5; Fig. 4), divided by multiple farm lanes for agricultural 
+machinery transport.
+We established two land-units in ROTAT+: one was 
+linked to Plots 1 and 2 while the other one was to Plots 3–5. 
+There was no discrepancy in soil properties and resource 
+availability among the five plots so we did not consider these 
+characteristics in land-units. The candidate crop list for each 
+land-unit was determined through discussion with the farm
+
+Fig. 4   Location and plot configuration of the case farm in the North 
+China Plain for the FarmSTEPS application. The blue and green color 
+of the plots represent two land-units defined in the model, which dif-
+fered in the set of candidate crops. The plot in yellow was a fixed plot, 
+which was set to be devoted to wheat-maize double cropping over the 
+planning window.
+
+◂
+
+Z. Liang et al.
+23 
+Page 10 of 20
+
+managers regarding which crops are suitable for planting 
+on the farm and are acceptable for managers (Table 1). The 
+only difference between the two land-units was the candi-
+date crops because managers were willing to cultivate labor-
+intensive crops (peanut and garlic) only on Plots 1 and 2. 
+The crops shared in both land-units were parameterized with 
+the same input-output inventory, reflecting the relatively 
+homogeneous management and performance of candidate 
+crops observed across all five plots (Table S1). All crop 
+input-output data were collected from farmers’ interview 
+and local cropping system survey, representing the average 
+level in the region. At this stage, we did not consider the 
+inter-annual uncertainties of crop performance.
+We explored future three-year farm crop sequence plans 
+to enhance sustainability of farm production. A three-year 
+planning window is generally acceptable for farmers in the 
+North China Plain, where long-term crop sequence plan-
+ning is uncommon (Xiao et al. 2022). In this context, crop 
+sequences longer than three years are technologically com-
+plex and less practical for farmers. Importantly, even within 
+a short planning horizon, whole-farm crop sequencing offers 
+significantly greater opportunities for crop diversification 
+compared to the prevailing wheat-maize annual double crop-
+ping system.
+The planning period in this study was set to one year as 
+managers often assess farm performance on an annual basis. 
+The starting date of planning was set at October ­1st, immedi-
+ately following the harvesting of summer maize. Moreover, 
+we considered the historical crop sequences on each plot 
+over the past two years.
+We chose wheat-maize double cropping in each year as 
+the historical and future baseline crop sequence across the 
+five plots. Following farmers’ preference, Plot 3 was dedi-
+cated solely to the wheat-maize system throughout the plan-
+ning window. As a result, while Plot 3 remained part of the 
+sustainability assessment (sharing land-unit data with Plots 
+4 and 5), it was excluded from the crop sequence generation 
+process.
+
+3.2.2  Sustainability objectives
+
+We set five sustainability indicators as objectives to improve 
+at the whole farm level by designing diversified farm crop-
+ping plans, containing one from the economic domain (gross 
+margin) and four from the environmental domain (ground-
+water depletion, pesticide input, eutrophication potential, 
+and GHG emission).
+Maximizing farm gross margin ­(IGM,farm , USD/ha/year) 
+over the planning window is the key interest of the farm-
+ers. The model evaluated the farm gross margin using Eq. 3, 
+based on the gross margin ­(IndGM,c, USD/ha) of each com-
+ponent crop in the farm, which was calculated as:
+
+Where ­Yp,t,c (Mg/ha) and ­PRc (USD/Mg) is the yield and 
+sales price of the harvested commodity for crop c. ­COp,t,c 
+(USD/ha) is the variable costs for agricultural inputs (i.e., 
+seeds/seedlings, irrigation, fertilizers, animal manures, pes-
+ticides, plastic films, and plant growth regulators.), hired 
+labor, and machinery required for crop c (Table S1).
+Minimizing groundwater depletion ­(IGWD,farm , mm/year) 
+plays a critical role in alleviating the groundwater crisis in the 
+North China Plain and is of key interest to the county govern-
+ment. The model estimated this indicator using the following 
+equation:
+
+Where ­IGC,farm (mm/year) means farm-level groundwater 
+consumption for crop production, which is derived from the 
+groundwater irrigation amount used for each component crop 
+­(IGC,p,t,c, mm) in a farm plan (Table S1):
+
+(11)
+IGM,p,t,c = Yp,t,c × PRc −COp,t,c
+
+(12)
+IGWD,farm = IGC,farm −Dfarm
+
+(13)
+IGC,farm =
+
+∑
+
+p
+
+∑
+
+t
+
+∑
+
+c (IGC,p,t,c × Ap)
+∑
+p Ap × PW
+
+Table 1   The list of candidate crops and their agronomic constraints 
+and suitable plots for the case farm in this study. Max. Fre. means the 
+maximum planting frequency of a certain crop in a crop sequence; 
+The planting frequency of a certain crop is defined as the ratio of
+
+the number of times the crop is planted in a crop sequence and the 
+length of the sequence. Min. Rep. (in years) means the minimum time 
+interval between the repeated cultivation of a certain crop in a crop 
+sequence.
+
+No.
+Crop name (abbreviation)
+Latin name
+Botanical family
+Planting date
+Harvest date
+Max.Fre.
+Min.Rep.
+Suitable plots
+
+1
+Wheat
+Triticum aestivum
+Gramineae
+Oct.15
+Jun.1
+1
+0
+1, 2, 3, 4, 5
+2
+Summer maize (SuMaize)
+Zea mays
+Gramineae
+Jun.10
+Oct.1
+1
+0
+1, 2, 3, 4, 5
+3
+Spring maize (SpMaize)
+Zea mays
+Gramineae
+May.20
+Oct.1
+1
+0
+1, 2, 4, 5
+4
+Peanut
+Arachis hypogaea
+Fabaceae
+Apr.15
+Aug.25
+0.5
+1.5
+4, 5
+5
+Sunflower
+Helianthus annuus
+Asteraceae
+Feb.25
+Jul.1
+0.5
+1.5
+1, 2, 4, 5
+6
+Potato
+Solanum tuberosum
+Solanaceae
+Mar.5
+Jun.20
+0.5
+1.5
+1, 2, 4, 5
+7
+Sweet potato (SwPotato)
+Ipomoea batatas
+Convolvulaceae
+Apr.12
+Sep.30
+0.5
+1.5
+1, 2, 4, 5
+8
+Garlic
+Allium sativum
+Amaryllidaceae
+Oct.5
+Jun.3
+0.5
+1.5
+4, 5
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 11 of 20 
+23
+
+While ­Dfarm (mm/year) means the farm-level deep infiltra-
+tion, estimated as:
+
+Where AP (mm/year) is the annual precipitation amount 
+and 0.02 is the unitless recharge coefficient for the study area.
+Minimizing farm pesticide input ­(IPesti,farm), expressed in kg 
+active ingredient (AI)/ha/year, is strongly emphasized in the 
+national and regional agricultural policies on the reduction in 
+agrochemicals. The pesticide input at the farm level was also 
+aggregated from the crop-level input ­(IPesti,p,t,c, kg AI/ha/year) 
+using Eq. 3. ­IPesti,p,t,c was computed as follows:
+
+Where ­IInsect,p,t,c, ­IInsect,p,t,c and ­IInsect,p,t,c (kg AI/ha/year) 
+denotes insecticide, fungicide, and herbicide input for crop c, 
+respectively (Table S1).
+Minimizing life-cycle aquatic eutrophication potential 
+­(IEUP,farm) and GHG emissions ­(IGHG,farm) indicate combating 
+nutrient pollution and global warming. These two indicators 
+accounted for environmental impacts from both pre-farm and 
+on-farm stages. The pre-farm stage includes corresponding 
+impacts associated with the manufacturing and transportation 
+of agricultural inputs such as fertilizers, pesticides, electricity 
+for irrigation, and fuel for machinery use. The on-farm stage 
+encompasses environmental impacts induced by field opera-
+tions. Likewise, their farm-level assessment was done using 
+Eq. 3 with corresponding crop-level performance ­(IndEUP,p,t,c, 
+kg ­PO4 eq./ha/yr and ­IndGHG,p,t,c, Mg ­CO2 eq./ha/yr):
+
+Where ­IEUP-PRE,p,t,c and ­IEUP-ON,p,t,c (kg ­PO4 eq./ha/yr) 
+represent pre-farm and on-farm eutrophication potential for 
+crop c, while ­IGHG-PRE,p,t,c and ­IGHG-ON,p,t,c (Mg ­CO2 eq./ha/
+yr) represent pre-farm and on-farm eutrophication poten-
+tial for crop c. The calculation for these pre- and on-farm 
+environmental performances is further detailed in the Sup-
+plementary Material S1.
+
+3.2.3  Constraints
+
+From the perspective of longitudinal constraints (temporal-
+scale constraints), we formulated multiple crop sequence 
+rules with local agronomists to filter out agronomically 
+infeasible sequences but did not set any plot-level constraints 
+that would define acceptable ranges of indicator values as 
+the farmer did not have specific demands in the regard. 
+Crop sequence rules we used included the maximum fre-
+quency of a crop or crop group in a sequence, the minimum
+
+(14)
+Dfarm = 0.02 × (IGC,farm + AP)
+
+(15)
+IPesti,p,t,c = IInsect,p,t,c + IFungi,p,t,c + IHerb,p,t,c
+
+(16)
+IEUP,p,t,c = IEUP−PRE,p,t,c + IEUP−ON,p,t,c
+
+(17)
+IGHG,p,t,c = IGHG−PRE,p,t,c + IGHG−ON,p,t,c
+
+interval between repeated cultivation of a crop or crop group 
+in a sequence (Table 1), and disallowed crop successions 
+(Table S2). To align with local widespread practices, we 
+permitted cereals to be planted every year because they were 
+quite tolerant to continuous cropping, while other crops sen-
+sitive to continuous cropping, such as peanut, potato and 
+garlic, had to be cultivated every other year to avoid sub-
+stantial yield penalties. Crop successions were disallowed 
+when crops were from the same botanical family or there 
+was a long fallowing period between them.
+Farm managers proposed several transversal constraints 
+(spatial-scale constraints) on indicator performance and 
+crop harvested area to fit generated farm plans with their 
+demands. At first, we defined two indicators that were used 
+as period- and farm-level constraints in the model: labor use 
+and dietary energy yield. The labor use per crop ­(ILabor,p,t,c, 
+h/ha) was quantified as (Table S1):
+
+Where f denotes the manual farming operations including 
+transplanting, fertilization, irrigation, pesticide application, 
+pruning, and harvesting. The crop-level dietary energy yield 
+­(IDE,p,t,c, persons/ha) was estimated as
+
+Where ­Fc is the fraction of dietary energy in the product 
+of crop c (Table S3). RAI is the recommended annual intake 
+of dietary energy of a reference person (Yang et al.. 2018). 
+Their period- and farm-level performance was computed 
+using Eqs. 2 and 3.
+Then multiple period-level constraints of indicator per-
+formance were put forward: 1) The gross margin in each 
+period must be higher than the baseline; 2) The ground-
+water consumption, pesticide input, eutrophication poten-
+tial, and GHG emission must be lower than the baseline in 
+each period; 3) The total labor use (hired plus family labor) 
+had to not exceed 520 h in each period. With these con-
+straints, generated farm plans could be used to find ways to 
+improve five sustainability objectives at once. Furthermore, 
+three constraints on crop harvested area should be met: 1) 
+Wheat area must be greater than 8 ha per period to fulfill 
+the supply contract that managers signed with a flour mill; 
+2) Maize area should not exceed 12 ha per period to prevent 
+the dominance of maize production; and 3) The harvested 
+area for sunflower, potato, and sweet potato must be limited 
+to less than 8 ha due to limited market access. Regarding 
+the whole-farm level, we required the dietary energy yield 
+to be at least half of the baseline plan to rule out farm plans
+
+(18)
+ILabor,p,t,c =
+
+∑
+
+f ILabor,p,t,c,f
+
+(19)
+IDE,p,t,c =
+
+Yp,t,c × Fc
+
+RAI
+
+Z. Liang et al.
+23 
+Page 12 of 20
+
+that were unproductive in food energy. These constraints 
+collectively guide the generation of farm cropping plans that 
+are both economically viable and environmentally friendly, 
+meeting the specific needs and constraints of the case farm.
+
+4  Results
+
+4.1  Farm baseline plan versus Pareto‑optimal plans
+
+The baseline crop sequence plan for the case farm, i.e., con-
+tinuous wheat-maize double cropping over future three years 
+across all plots, resulted in a farm gross margin of 2303 
+USD/ha/yr, groundwater depletion of 284 mm/yr, pesticide 
+input of 6.67 kg AI/ha/yr, eutrophication potential of 28.9 
+kg ­PO4 eq./ha/yr, and GHG emission of 10.0 Mg ­CO2 eq./
+ha/yr (Fig. 5).
+FarmSTEPS generated 213,679 feasible farm-plans, with 
+128 of them being Pareto-optimal in terms of five sustain-
+ability objectives. Compared with the baseline farm plan, 
+these Pareto-optimal farm-plans achieved 3–50% higher 
+farm gross margin while reaching 32–56% lower groundwa-
+ter depletion, 31–47% lower pesticide input, 10–33% lower 
+eutrophication potential and 22–40% lower GHG emission. 
+Thus, the diversification of crop sequences on the case farm 
+resulted in improvements of all five indicators, though trade-
+offs existed between economic and environmental objectives 
+(Fig. 5).
+The improved sustainability performance of optimal 
+farm-plans was mainly due to the inclusion of non-cereal 
+crops, particularly sweet potato and sunflower (Table 2). 
+On the largest plot in the farm, Plot 4, half of the optimal 
+farm-plans suggested a sweet potato-based crop-sequence 
+(SwPotato-Wheat-SuMaize-SwPotato), and the other half 
+combined sweet potato and sunflower with wheat-maize 
+double cropping. On the intermediate-size plots, Plot 2 and 
+4, most generated crop-sequences were still combinations 
+of sweet potato, sunflower, and wheat-maize double crop-
+ping in the crop sequence, accounting for 37% and 64% of 
+optimal plans for two plots respectively. However, the model 
+generated garlic-maize double cropping for Plot 2, a plot in 
+which labor-intensive crops were allowed to be planted, in 
+36% of optimal plans. The generated crop-sequences on Plot 
+1, the smallest plot, offered more space for crop diversifica-
+tion across optimal plans, with only 5% involving wheat-
+maize double cropping.
+
+4.2  Example farm plans
+
+We selected and presented three individual plans as exam-
+ples from the Pareto-optimal set of 128 farm-plans (Fig. 6). 
+These three example farm-plans showed contrasting sustain-
+ability profiles, including one profit-prioritized farm plan,
+
+one environment-prioritized plan, and one plan that achieved 
+a balance between profitability and environmental soundness 
+(Fig. 5; Fig. 6).
+The profit-prioritized farm-plan created the highest farm 
+gross margin, 50% higher than the baseline, while also 
+incurring the highest environmental costs across optimal 
+plans, but still below the baseline (Fig. 5; Fig. 6). Such 
+performance resulted from the crop-sequence on the larg-
+est plot (Plot 4) being dominated by sweet potato, the most 
+profitable crop in this plot, as well as crop-sequences that 
+frequently cultivated profitable crops, especially garlic, on 
+the intermediate- and smallest-size plots (Plot 1–2, Fig. 6). 
+In contrast, the environment-prioritized plan was one of the 
+least environmentally impactful plans across the Pareto set 
+but also the third least profitable one. Compared with the 
+baseline, this plan reduced environmental costs by 32–56% 
+while increasing gross margin by only 9%. The success of 
+its environmental performance was in part due to the culti-
+vation of sunflower, the most resource-saving crop, and the 
+markedly decreased land-use intensity realized by replacing 
+wheat-maize double cropping with low-input single crops 
+in a year, such as sweet potato, peanut, and spring maize 
+(Fig. 6).
+The balanced farm-plan resulted in an intermediate level 
+of sustainability performance between the profit- and envi-
+ronment-prioritized farm-plan. Similar to the profit-prior-
+itized farm-plan, its crop sequence in Plot 4 still included 
+sweet potato, while the crop-sequences on the intermediate- 
+and smallest-size plot presented a mix of profitable crops, 
+e.g., garlic and potato, and less resource-intensive crops, 
+e.g., sunflower and sweet potato.
+
+5  Discussion
+
+In this study, we presented a novel rule-based model, 
+FarmSTEPS, for exploring sustainable and diversified 
+farm crop sequence plans aligned with farm-specific situa-
+tions and constraints. This modelling framework integrates 
+farm characterization modules, an algorithm for exhaus-
+tive whole-farm crop sequence planning, and a multi-
+attribute decision-aid tool that can recommend a set of 
+desirable farm cropping plans in a systematic and spatial-
+temporally explicit manner. We applied FarmSTEPS in a 
+case farm and successfully obtained 128 optimal three-
+year crop sequence plans, which markedly outperformed 
+the baseline yearly repeating wheat-maize double cropping 
+plan in gross margin, groundwater depletion, pesticide 
+input, eutrophication potential, and GHG emission concur-
+rently, albeit with trade-offs occurring between economic 
+and environmental objectives. The plot-specific crop 
+sequences of these optimal plans highlighted the impor-
+tant role of a few of candidate crops, e.g., sweet potato
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 13 of 20 
+23
+
+and sunflower, in advancing overall sustainability. Thus, 
+the model outcomes do not only present the potential and 
+trade-offs of sustainability objectives but also identify 
+promising crops and crop sequences for the studied farm, 
+which could support the stakeholders’ discussion to facili-
+tate informed decision-making on future farm production 
+choices. While demonstrated on a single case farm, the 
+FarmSTEPS model serves as a flexible framework that 
+can be adapted to diverse crop farming contexts by adjust-
+ing plot configurations, candidate crop data, farm-specific 
+constraints and objectives, thus supporting the navigation
+
+of sustainable cropping solutions tailored to different farm 
+circumstances and aspirations.
+
+5.1  Model‑based design of diversified whole‑farm 
+cropping plans towards multi‑attribute 
+sustainability
+
+The design of sustainable and diversified crop sequence 
+plans for farms is a complex process, entailing a combina-
+tion of many elements: plot configuration and heterogeneity, 
+various candidate crops, various sequence- and farm-level 
+constraints, numerous decision-making periods, and mul-
+tiple sustainability goals. We developed the FarmSTEPS 
+model to assist farm stakeholders to systematically generate
+
+Fig. 5   Biplot matrix of sustainability objectives across 128 Pareto-
+optimal farm cropping plans (in blue circles) and baseline farm plans 
+(the single red square). Sustainability objectives comprised gross 
+margin (USD/ha/yr), groundwater depletion (mm/yr), pesticide input
+
+(kg AI/ha/yr), aquatic eutrophication (kg ­PO4 eq./ha/yr), and GHG 
+emission (Mg ­CO2 eq./ha/yr). Three examples of optimal plans were 
+highlighted in blue, orange, and green, representing profit-prioritized, 
+balanced, and environment-prioritized farm plan, respectively.
+
+Z. Liang et al.
+23 
+Page 14 of 20
+
+promising farm plans with a given set of abovementioned 
+elements, without missing any possible solutions.
+Many of existing whole-farm planning models, such as 
+FarmIMAGES (Dogliotti et al. 2005) and FarmDESIGN 
+(Groot et al. 2012), also aim to address these challenges, 
+albeit through different methodological approaches. 
+FarmIMAGES identifies more sustainable cropping plans 
+by first generating multi-year crop rotations at the plot 
+scale, followed by a multi-objective mixed-integer pro-
+gramming algorithm to allocate these rotations across fixed 
+plots (Dogliotti et al. 2014). This structure enables the 
+efficient selection of a single optimal plan that enhances 
+mean annual economic and environmental performance 
+at the whole-farm level. While this approach is computa-
+tionally efficient and robust, its single-solution outcome 
+may overlook alternative plans that align with diverse 
+stakeholder priorities. In contrast, FarmDESIGN uses a 
+heuristic algorithm to allocate crop rotations based on 
+proportional farmland area, resulting in a set of near-opti-
+mal solutions (Ditzler et al. 2019). Its flexible approach, 
+allowing crop allocation without fixed plot boundaries, 
+can reveal new opportunities for improving farm-scale 
+sustainability outcomes. However, due to the nature of 
+heuristic optimization, the solutions may be non-robust 
+in some cases and may converge to local optima, espe-
+cially when the number of crop rotation options is large. 
+FarmSTEPS, by comparison, takes a comprehensive and
+
+exhaustive approach: it first enumerates all agronomically 
+feasible crop sequences at the plot level, and then system-
+atically constructs all possible whole-farm plans across the 
+planning horizon by combining these sequences over time 
+and space, while incorporating spatial and temporal con-
+straints. This integration of exhaustive enumeration with 
+constraint-guided filtering allows the model to spatial-
+temporally explicitly generate and preserve all promising 
+plans while aligning them with real-world sustainability 
+goals and stakeholder preferences. Through Pareto-based 
+evaluation, FarmSTEPS effectively narrows the solution 
+space and provides a set of desired farm plans against mul-
+tiple sustainability objectives. Despite the heavier compu-
+tational burden and limited flexibility in modifying plot 
+structures within the model, these challenges can be fully 
+or partially addressed by incorporating appropriate con-
+straints and importing revised farm plot maps that reflect 
+the desired configurations.
+Compared with existing models, one of the primary 
+advancements of FarmSTEPS is its ability to assess farm-
+scale sustainability performance and enforce production 
+constraints at finer temporal scales, such as on an annual 
+basis within a multi-year planning horizon. For example, 
+many models do not account for year-by-year gross mar-
+gins or allow for the specification of minimum gross margin 
+thresholds per year. Cropping plans with high mean annual 
+returns but extremely low margins in individual years may
+
+Table 2   Top five crop 
+sequences planned for each 
+plot across 128 Pareto-optimal 
+farm plans. Plot 3 was set to 
+be dedicated to wheat-maize 
+double cropping over the 
+planning window. SuM, SpM, 
+and SwPot mean summer 
+maize, spring maize, and sweet 
+potato.
+
+Plot number
+Crop sequence in the planning window
+Frequency
+
+Period 1
+Period 2
+Period 3
+
+Plot 1
+Peanut
+SwPotato
+Sunflower
+13
+Garlic-SuMaize
+SwPotato
+Garlic-SuMaize
+12
+SpMaize
+SwPotato
+Sunflower
+11
+Garlic-SuMaize
+SwPotato
+Sunflower
+10
+Garlic-SuMaize
+SwPotato
+Potato
+9
+Plot 2
+Wheat-SuMaize
+SwPotato
+Sunflower
+17
+SwPotato
+Sunflower
+Wheat-SuMaize
+15
+Sunflower
+Wheat-SuMaize
+Wheat-SuMaize
+15
+Garlic-SuMaize
+Sunflower
+Wheat-SuMaize
+11
+Garlic-SuMaize
+Sunflower
+Garlic-SuMaize
+10
+Plot 3
+Wheat-SuMaize
+Wheat-SuMaize
+Wheat-SuMaize
+128
+Plot 4
+SwPotato
+Wheat-SuMaize
+SwPotato
+60
+Wheat-SuMaize
+SwPotato
+Sunflower
+25
+Sunflower
+Wheat-SuMaize
+SwPotato
+21
+SwPotato
+Sunflower
+Wheat-SuMaize
+21
+Wheat-SuMaize
+Sunflower
+Wheat-SuMaize
+1
+Plot 5
+Wheat-SuMaize
+SwPotato
+Sunflower
+46
+SwPotato
+Sunflower
+Wheat-SuMaize
+19
+Sunflower
+Wheat-SuMaize
+SwPotato
+17
+Wheat-SuMaize
+SwPotato
+Wheat-SuMaize
+15
+Wheat-SuMaize
+Sunflower
+Wheat-SuMaize
+9
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 15 of 20 
+23
+
+still be impractical for farmers who must manage cash flow 
+and financial risk. In this regard, FarmSTEPS introduces 
+a novel combination of spatial and temporal design and 
+evaluation, enabling the creation of diversified, sustainable 
+cropping plans that are better aligned with the operational 
+realities and long-term goals of farmers.
+Another innovative feature of our model is its ability to 
+generate flexible and non-cyclical crop sequences, rather 
+than being limited to fixed crop rotations, for farm plots 
+over the planning window (Castellazzi et al. 2008). Flex-
+ible crop sequences better represent the actual farmers’ 
+decision-making tactics and offer greater opportunity 
+to improve farm performance. For instance, in our case 
+farm, the model created a flexible three-year sequence 
+of (SwPotato-Wheat-SuMaize-SwPotato) for the largest 
+plot (Plot 4) in almost half of optimal farm plans, which 
+greatly contributed to better economic and environmental 
+outcomes. However, if the model is restricted to generating
+
+only cyclical three-year rotations, this sequence would 
+be disallowed because sweet potato is prohibited to be 
+planted after itself according to predefined agronomic 
+rules (Table S2), thereby limiting the sustainability ben-
+efits of new plans. Although flexible sequences might 
+increase the management complexity for farmers, this 
+feature can help them explore the full range of future pos-
+sibilities and potential improvements.
+In our case study, the model produced a range of optimal 
+farm cropping plans that reached better economic and envi-
+ronmental sustainability benefits than the baseline wheat-
+maize plan, and did so for all indicators. The resulting crop 
+sequences showed that wheat-maize double cropping was 
+mainly substituted by sweet potato and sunflower in opti-
+mal plans, particularly on the larger-size plots. This substitu-
+tion can be explained by the fact that these two crops were 
+resource-efficient, well mechanized, and moderately produc-
+tive in dietary energy with comparable or higher profitability
+
+Fig. 6   Spatial-temporal crop allocation (A-D) and sustainability 
+objective performance (E) of baseline and three examples of optimal 
+farm-plans with contrasting sustainability profiles. The top row in 
+panel A-D indicates the calendar year, and the reference year means 
+the calendar year of the start date. The length of the box with crop 
+names represents the growing season of the crops, and the breaks 
+(white sections) between two adjacent crops represent fallow periods.
+
+SuM, SpM, and SwPot mean summer maize, spring maize, and sweet 
+potato. In the radar plot, indicator values were rescaled to 0–1 using 
+Max-Min approach where 0 and 1 denote the worst and best perfor-
+mance observed over all Pareto-optimal and original farm plans. The 
+figure illustrates trade-offs between economic performance and envi-
+ronmental performance among the optimized crop sequence plans.
+
+Z. Liang et al.
+23 
+Page 16 of 20
+
+than the currently dominant wheat-maize system (Table S1), 
+thus offering ample chances to improve sustainability objec-
+tives while adhering to constraints regarding labor availabil-
+ity and dietary energy provisioning. Without the inclusion 
+of such crops in the candidate crop list, the model would 
+probably not be able to create farm plans outperforming the 
+baseline across all objectives. In such cases, relaxing con-
+straints on indicator values would be necessary to allow the 
+model to produce feasible farm plans, but at the expense of 
+either economic or environmental benefits associated with 
+the adoption of the new farm plans in comparison to the 
+reference plan. Consequently, the model outcomes under-
+scored the vital role of crops possessing the aforementioned 
+desired attributes in future crop farming systems, particu-
+larly for intensified and specialized food production areas 
+where labor resources are scarce.
+In the future, multi-actor participatory approaches are 
+needed to bridge the gap between model outcomes and final 
+decision-making for real-world application (Leclère et al. 
+2023). Engaging relevant stakeholders, such as farmers, 
+supply chain actors, and policymakers is crucial to identify-
+ing farm cropping plans that achieve compromises across 
+competing objectives and are socially and institutionally 
+acceptable (Liang et al. 2026). For example, group work-
+shops can provide a platform for stakeholders to collectively 
+evaluate the feasibility, benefits, and potential limitations of 
+selected plans (Quinio et al. 2022). Such workshops could 
+help identify and improve compromise solutions that cater 
+for the demands of multiple actors and promote the transla-
+tion of model outputs into actionable and context-sensitive 
+decisions for implementation.
+
+5.2  Opportunities for widespread application 
+of the FarmSTEPS model
+
+The FarmSTEPS model holds strong potential for broad 
+application in exploring sustainable and diversified farm 
+cropping plans across different world regions. Its flexibility 
+in dealing with different farm settings, crop portfolios, pro-
+duction constraints, and sustainability objectives makes it 
+well-suited to a variety of agricultural contexts. The model 
+can be adapted for use on farms that vary by crop type (from 
+arable farms and horticultural farms, to grassland farms), 
+production scale (from smallholder farms to large-scale 
+farms), and management modes (from organic to industrial). 
+However, successful application requires necessary adapta-
+tions of model inputs to reflect specific farm conditions.
+These adaptations fall into five main aspects:
+
+1)	 Farm plot configurations: Users can extract plot map 
+from satellite or aerial imagery and convert them into 
+ESRI files that records geographical attributes of each 
+plot such as location, area, and slope.
+
+2)	 Sustainability objectives: Farm stakeholders may opt 
+for varying sets of sustainability indicators to serve as 
+objectives in cropping plan design. For instance, sub-
+sistence smallholders may prioritize the production 
+of dietary nutrients ranging from calorific energy and 
+protein to minerals and vitamins (Timler et al. 2020), 
+and farms in mountainous areas focus on lowering soil 
+erosion (Smith et al. 2017). FarmSTEPS allows users to 
+flexibly define or select any indicators computable from 
+by crop and plot parameters within defined land-units.
+3)	 Land-units and candidate crops: Users can define the 
+land-units for each of farm plots, where soil proper-
+ties, resource availability, and candidate crops for each 
+plot are specified according to the actual situation. The 
+selection of candidate crops is guided by factors such as 
+compatibility with pedo-climatic environments, market 
+orientation, and farmers’ preferences (Adhikari et al. 
+2023). For instance, horticultural farms may include 
+only vegetables, fruits and flowers as candidates. Cru-
+cially, users must collect crop data required for the 
+assessment of farm-specific sustainability objectives. 
+Such input-output data of candidate crops should reflect 
+their performance under the farming context of the focus 
+farm or plot. For example, for a particular crop, higher 
+yield and water usage on irrigated plots versus rainfed 
+plots, and lower yield and less synthetic agrochemical 
+inputs in organic farms versus conventional farms. The 
+input-output inventory of crops can be compiled based 
+on a variety of sources, including local farm surveys, 
+expert knowledge, statistical documents, and scientific 
+literature (Liang et al. 2023).
+4)	 Production constraints: The longitudinal and transversal 
+constraints can be tailored to farm’s unique barriers and 
+demands. Longitudinal constraints, i.e., crop sequence 
+rules, may be formulated based on local agronomists and 
+local field observations. Transversal constraints can be 
+defined not only in terms of total requirement and har-
+vested area of crops per unit planning period, but also 
+input or indicator thresholds. For example, annual irri-
+gation water quotas may apply in farms in water-scarce 
+regions (Zhang and Oki 2023), while fertilizer quotas 
+could be imposed for farms in nutrient-surplus regions 
+(Expósito and Velasco 2020).
+5)	 Planning timeline: Timeline parameters can be deter-
+mined with farmers to reflect their actual decision-
+making behaviors and account for the farm reality. 
+For instance, the unit planning period may exceed one 
+year to account for perennial crops on grassland farms. 
+Organic farms, which often adopt long-term crop 
+sequences, may benefit from planning windows that 
+span a decade or more.
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 17 of 20 
+23
+
+With above adaptations, our model can create a set of 
+tailored cropping plans for individual farms, providing 
+stakeholders with valuable insights into the potential ben-
+efits and trade-offs across multiple sustainability objectives. 
+Widespread adoption of the model among farms in a region 
+could also help policymakers understand the contribution 
+of crop diversification to combating regional sustainability 
+challenges and the intractable trade-offs across objectives 
+most farms perhaps encounter. This, in turn, can assist poli-
+cymakers in identifying macro-level solutions, e.g., incentiv-
+izing machinery specific to certain crops, to further foster 
+agricultural sustainability.
+Lastly, while the model is flexible and versatile, Farm-
+STEPS is specifically designed for whole-farm crop 
+sequence planning and does not currently account for other 
+dimensions of farm management, such as livestock systems, 
+by-product allocation, or landscape-level modifications.
+
+5.3  Limitations
+
+Several limitations of the model may need to be addressed 
+in future work. First, we did not consider the uncertainty in 
+crop yields, market prices, and weather over the planning 
+window (Komarek et al. 2020), as the current version of 
+FarmSTEPS is deterministic. In this case study, we used 
+crop input-output data collected in a year with a normal 
+weather pattern and average price data over the past five 
+years to mitigate the effects of uncertainty. Moving forward, 
+we may think of introducing stochastic parameters, allowing 
+users to input a reasonable distribution of parameters rather 
+than fixed values (Ballot et al. 2018). This will enable us to 
+examine the effects of future uncertainty on the performance 
+of whole-farm plans, though generating outcomes would fur-
+ther aggravate the computational burden of obtaining the 
+solutions and their performance.
+Furthermore, FarmSTEPS did not account for crop inter-
+actions at temporal and spatial scales. For example, the yield 
+of a crop may be influenced by preceding crops in a crop 
+sequence (Reckling et al. 2016), and farmers should avoid 
+planting some crops in neighboring plots to prevent spread 
+of pests and diseases and associated yield loss (Juventia 
+et al. 2022). Incorporating pre-crop effects and crop topo-
+logical constraints into the next version of FarmSTEPS will 
+enhance the accuracy of farm assessments.
+FarmSTEPS serves as a valuable tool for exploring trade-
+offs across multiple sustainability objectives in the redesign 
+of farm cropping plans. However, the current modeling 
+framework does not yet incorporate quantitative trade-off 
+analysis methods, such as sensitivity analysis and shadow 
+price analysis (Kanter et al. 2018). Sensitivity analysis 
+can help identify how small changes in model inputs (e.g., 
+resource availability, crop yields, or market prices) influence 
+outcomes across different objectives, thereby highlighting
+
+which parameters most affect the trade-off dynamics. 
+Shadow price analysis estimates the marginal cost or benefit 
+of improving one objective at the expense of another, offer-
+ing stakeholders a clearer picture of the ‘price’ of trade-offs 
+(Breure et al. 2024). Integrating such methods into future 
+applications of FarmSTEPS could provide a deeper under-
+standing of the drivers and intensities of trade-offs, thereby 
+enhancing transparency and supporting more informed, 
+evidence-based decision-making.
+Lastly, FarmSTEPS remains challenging for farmers to 
+use independently. The first barrier is its application involves 
+extensive data collection and specialized tasks such as farm 
+mapping and multi-criteria assessment. Therefore, at this 
+stage, agricultural advisors are crucial in working with farm-
+ers to use the model and explore more sustainable farming 
+options. Moreover, running the model can require high-per-
+formance hardware in some cases. In our case study, a farm 
+with five plots, eight candidate crops, and three planning 
+periods required approximately 15 minutes for FarmSTEPS 
+to generate all feasible farm plans. As the number of land 
+parcels, alternative crops, and planning horizons increases, 
+high-performance computing platforms may be needed 
+to complete the crop planning process efficiently. In such 
+situations, IT specialists are essential to support farmers in 
+model implementation, computation management, and result 
+interpretation.
+
+6  Conclusion
+
+In this study, we presented a novel farm planning model, 
+FarmSTEPS, built to systematically explore sustainable and 
+diversified crop sequence plans for crop farms in a spatial-
+temporally explicit manner. The model can capture spatial 
+configuration, plot heterogeneity, production constraints, and 
+development objectives specific to each farm, thus ensur-
+ing that generated plans are tailored to each farm’s unique 
+conditions. We illustrated it using a wheat-maize farm in 
+China, where the model created a set of optimal plans supe-
+rior to the baseline plan in both economic and environmen-
+tal performance, while also uncovering a trade-off between 
+these two sustainability domains. FarmSTEPS can assist in 
+identifying the critical crops and crop sequences specific to 
+each plot for sustainable farm production. Users can cus-
+tomize the model for farms of interest according on-farm 
+realities, which offers opportunities for widespread applica-
+tion of our model across different farming regions. Overall, 
+FarmSTEPS serves as an efficient tool for designing sus-
+tainable whole-farm cropping plans and informing stake-
+holders about synergies and trade-offs among sustainability 
+objectives.
+
+Z. Liang et al.
+23 
+Page 18 of 20
+
+Supplementary Information  The online version contains supplemen-
+tary material available at https://​doi.​org/​10.​1007/​s13593-​026-​01097-8.
+
+Authors' contributions  Zhengyuan Liang: Conceptualization, Method-
+ology, Investigation, Data curation, Formal analysis, Writing − original 
+draft, Writing − review & editing. Jeroen C.J. Groot: Conceptualiza-
+tion, Methodology, Software, Supervision, Writing − review & editing. 
+Zhan Xu: Investigation, Data curation. Jiali Cheng: Investigation, Data 
+curation. Wen-Feng Cong: Conceptualization, Supervision, Writing − 
+review & editing, Funding acquisition. Chaochun Zhang: Supervision, 
+Resources, Funding acquisition. Fusuo Zhang: Supervision, Resources, 
+Project administration. Wopke van der Werf: Supervision, Writing − 
+review & editing.
+
+Funding  This study was funded by the China Scholarship Council 
+(No.201913043) and Hainan University.
+
+Data availability  All data used in this study are included in this pub-
+lished article and supplementary materials.
+
+Code availability  Software and data can be downloaded from: https://​
+git.​wur.​nl/​jeroen.​groot/​farms​teps.​packa​ge.
+
+Declarations
+
+Ethics approval  The study was performed in accordance with the ethi-
+cal standards as laid down in the 1964 Declaration of Helsinki.
+
+Consent to participate  Informed consent was obtained from all indi-
+vidual participants in this study.
+
+Consent for publication  Informed consent was obtained from all indi-
+vidual participants in this study to publish the data as presented in this 
+manuscript.
+
+Conflict of interest  The authors have no relevant financial or non-fi-
+nancial interests to disclose.
+
+Open Access   This article is licensed under a Creative Commons Attri-
+bution 4.0 International License, which permits use, sharing, adapta-
+tion, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, 
+provide a link to the Creative Commons licence, and indicate if changes 
+were made. The images or other third party material in this article are 
+included in the article's Creative Commons licence, unless indicated 
+otherwise in a credit line to the material. If material is not included in 
+the article's Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will 
+need to obtain permission directly from the copyright holder. To view a 
+copy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+
+References
+
+Adhikari L, Komarek AM, De Voil P, Rodriguez D (2023) A frame-
+work for the assessment of farm diversification options in broada-
+cre agriculture. Agric Syst 210:103724. https://​doi.​org/​10.​1016/j.​
+agsy.​2023.​103724
+Aggarwal S, Srinivas R, Puppala H, Magner J (2022) Integrated deci-
+sion support for promoting crop rotation based sustainable agri-
+cultural management using geoinformatics and stochastic optimi-
+zation. Comput Electron Agric 200:107213. https://​doi.​org/​10.​
+1016/j.​compag.​2022.​107213
+
+Bachinger J, Zander P (2007) ROTOR, a tool for generating and 
+evaluating crop rotations for organic farming systems. Eur J 
+Agron 26:130–143. https://​doi.​org/​10.​1016/j.​eja.​2006.​09.​002
+Ballot R, Loyce C, Jeuffroy MH, Ronceux A, Gombert J, Lesur-
+Dumoulin C, Guichard L (2018) First cropping system model 
+based on expert-knowledge parameterization. Agron Sustain 
+Dev 38:33. https://​doi.​org/​10.​1007/​s13593-​018-​0512-8
+Boeraeve F, Dendoncker N, Cornélis JT, Degrune F, Dufrêne M 
+(2020) Contribution of agroecological farming systems to the 
+delivery of ecosystem services. J Environ Manage 260:109576. 
+https://​doi.​org/​10.​1016/j.​jenvm​an.​2019.​109576
+Breure TS, Estrada-Carmona N, Petsakos A, Gotor E, Jansen B, 
+Groot JCJ (2024) A systematic review of the methodology of 
+trade-off analysis in agriculture. Nat Food. https://​doi.​org/​10.​
+1038/​s43016-​024-​00926-x
+Campbell BM, Beare DJ, Bennett EM, Hall-Spencer JM, Ingram 
+JSI, Jaramillo F, Ortiz R, Ramankutty N, Sayer JA, Shindell D 
+(2017) Agriculture production as a major driver of the Earth 
+system exceeding planetary boundaries. Ecol Soc 22:8. https://​
+doi.​org/​10.​5751/​ES-​09595-​220408
+Capitanescu F, Marvuglia A, Navarrete Gutiérrez T, Benetto E 
+(2017) Multi-stage farm management optimization under envi-
+ronmental and crop rotation constraints. J Clean Prod 147:197–
+205. https://​doi.​org/​10.​1016/j.​jclep​ro.​2017.​01.​076
+Castellazzi MS, Wood GA, Burgess PJ, Morris J, Conrad KF, Perry 
+JN (2008) A systematic representation of crop rotations. Agric 
+Syst 97:26–33. https://​doi.​org/​10.​1016/j.​agsy.​2007.​10.​006
+Chakraborti R, Davis KF, DeFries R, Rao ND, Joseph J, Ghosh S 
+(2023) Crop switching for water sustainability in India’s food 
+bowl yields co-benefits for food security and farmers’ profits. 
+Nat Water. https://​doi.​org/​10.​1038/​s44221-​023-​00135-z
+Cui Z, Zhang H, Chen X, Zhang C, Ma W, Huang C, Zhang W, Mi 
+G, Miao Y, Li X, Gao Q, Yang J, Wang Z, Ye Y, Guo S, Lu J, 
+Huang J, Lv S, Sun Y, Liu Y, Peng X, Ren J, Li S, Deng X, Shi 
+X, Zhang Q, Yang Z, Tang L, Wei C, Jia L, Zhang J, He M, 
+Tong Y, Tang Q, Zhong X, Liu Z, Cao N, Kou C, Ying H, Yin 
+Y, Jiao X, Zhang Q, Fan M, Jiang R, Zhang F, Dou Z (2018) 
+Pursuing sustainable productivity with millions of smallholder 
+farmers. Nature 555:363–366. https://​doi.​org/​10.​1038/​natur​
+e25785
+Ditzler L, Komarek AM, Chiang TW, Alvarez S, Chatterjee SA, Tim-
+ler C, Raneri JE, Carmona NE, Kennedy G, Groot JCJ (2019) A 
+model to examine farm household trade-offs and synergies with 
+an application to smallholders in Vietnam. Agric Syst 173:49–63. 
+https://​doi.​org/​10.​1016/j.​agsy.​2019.​02.​008
+Dogliotti S, Rossing WAH, van Ittersum MK (2003) ROTAT, a tool for 
+systematically generating crop rotations. Eur J Agron 19:239–250. 
+https://​doi.​org/​10.​1016/​S1161-​0301(02)​00047-3
+Dogliotti S, Rossing WA, Van Ittersum MK (2004) Systematic design 
+and evaluation of crop rotations enhancing soil conservation, soil 
+fertility and farm income: a case study for vegetable farms in 
+South Uruguay. Agric Syst 80(3):277–302. https://​doi.​org/​10.​
+1016/j.​agsy.​2003.​08.​001
+Dogliotti S, Van Ittersum MK, Rossing WAH (2005) A method for 
+exploring sustainable development options at farm scale: a case 
+study for vegetable farms in South Uruguay. Agric Syst 86:29–51. 
+https://​doi.​org/​10.​1016/j.​agsy.​2004.​08.​002
+Dogliotti S, Garcí MC, Peluffo S, Dieste JP, Pedemonte AJ, Bacigalupe 
+GF, Scarlato M, Alliaume F, Alvarez J, Chiappe M, Rossing WAH 
+(2014) Co-innovation of family farm systems: a systems approach 
+to sustainable agriculture. Agric Syst 126:76–86. https://​doi.​org/​
+10.​1016/j.​agsy.​2013.​02.​009
+Dury J, Schaller N, Garcia F, Reynaud A, Bergez JE (2012) Mod-
+els to support cropping plan and crop rotation decisions. A 
+review. Agron Sustain Dev 32:567–580. https://​doi.​org/​10.​1007/​
+s13593-​011-​0037-x
+
+FarmSTEPS, a model for spatial‑temporal exploration of diversified and sustainable crop…
+Page 19 of 20 
+23
+
+Dury J, Garcia F, Reynaud A, Bergez JE (2013) Cropping-plan deci-
+sion-making on irrigated crop farms: a spatio-temporal analysis. 
+Eur J Agron 50:1–10. https://​doi.​org/​10.​1016/j.​eja.​2013.​04.​008
+Expósito A, Velasco F (2020) Exploring environmental efficiency of 
+the European agricultural sector in the use of mineral fertilizers. 
+J Clean Prod 253:119971. https://​doi.​org/​10.​1016/j.​jclep​ro.​2020.​
+119971
+Feliciano D (2019) A review on the contribution of crop diversifica-
+tion to Sustainable Development Goal 1 “No poverty” in different 
+world regions. Sustain Dev 27:795–808. https://​doi.​org/​10.​1002/​
+sd.​1923
+Groot JCJ, Oomen GJM, Rossing WAH (2012) Multi-objective opti-
+mization and design of farming systems. Agric Syst 110:63–77. 
+https://​doi.​org/​10.​1016/j.​agsy.​2012.​03.​012
+Guinet M, Adeux G, Cordeau S, Courson E, Nandillon R, Zhang Y, 
+Munier-Jolain N (2023) Fostering temporal crop diversification 
+to reduce pesticide use. Nat Commun 14:7416. https://​doi.​org/​10.​
+1038/​s41467-​023-​43234-x
+Kaim A, Cord AF, Volk M (2018) A review of multi-criteria optimiza-
+tion techniques for agricultural land use allocation. Environ Model 
+Softw 105:79–93. https://​doi.​org/​10.​1016/j.​envso​ft.​2018.​03.​031
+Kanter DR, Musumba M, Wood SLR, Palm C, Antle J, Balvanera P, 
+Dale VH, Havlik P, Kline KL, Scholes RJ, Thornton P, Tittonell 
+P, Andelman S (2018) Evaluating agricultural trade-offs in the age 
+of sustainable development. Agric Syst 163:73–88. https://​doi.​org/​
+10.​1016/j.​agsy.​2016.​09.​010
+Komarek AM, De Pinto A, Smith VH (2020) A review of types of risks 
+in agriculture: what we know and what we need to know. Agric 
+Syst 178:102738. https://​doi.​org/​10.​1016/j.​agsy.​2019.​102738
+Kong X, Zhang X, Lal R, Zhang F, Chen X, Niu Z, Han L, Song W 
+(2016) Groundwater depletion by agricultural intensification in 
+China’s HHH plains, Since 1980s. Adv Agron 59–106. https://​
+doi.​org/​10.​1016/​bs.​agron.​2015.​09.​003
+Hufnagel J, Reckling M, Ewert F (2020) Diverse approaches to crop 
+diversification in agricultural research. A review. Agron Sustain 
+Dev 40:14. https://​doi.​org/​10.​1007/​s13593-​020-​00617-4
+Janssen S, Van Ittersum MK (2007) Assessing farm innovations and 
+responses to policies: a review of bio-economic farm models. 
+Agric Syst 94:622–636. https://​doi.​org/​10.​1016/j.​agsy.​2007.​03.​
+001
+Juventia SD, Selin Norén ILM, van Apeldoorn DF, Ditzler L, Rossing 
+WAH (2022) Spatio-temporal design of strip cropping systems. 
+Agric Syst 201:103455. https://​doi.​org/​10.​1016/j.​agsy.​2022.​
+103455
+Leclère M, Loyce C, Jeuffroy MH (2023) A participatory and multi-
+actor approach to locally support crop diversification based on 
+the case study of camelina in northern France. Agron Sustain Dev 
+43:13. https://​doi.​org/​10.​1007/​s13593-​023-​00871-2
+Li J, Lei H (2021) Tracking the spatio-temporal change of planting 
+area of winter wheat-summer maize cropping system in the 
+North China Plain during 2001–2018. Comput Electron Agric 
+187:106222. https://​doi.​org/​10.​1016/j.​compag.​2021.​106222
+Liang Z, van der Werf W, Xu Z, Cheng J, Wang C, Cong WF, Zhang 
+C, Zhang F, Groot JCJ (2022) Identifying exemplary sustainable 
+cropping systems using a positive deviance approach: wheat-
+maize double cropping in the North China Plain. Agric Syst 
+201:103471. https://​doi.​org/​10.​1016/j.​agsy.​2022.​103471
+Liang Z, Xu Z, Cheng J, Ma B, Cong WF, Zhang C, Zhang F, van der 
+Werf W, Groot JCJ (2023) Designing diversified crop rotations to 
+advance sustainability: a method and an application. Sustain Prod 
+Consum 40:532–544. https://​doi.​org/​10.​1016/j.​spc.​2023.​07.​018
+Liang Z, Ma B, Yu RP, Huo Y, Mudare S, Ying F, Li L, Zhang 
+F, Cong WF (2026) A general framework for designing and 
+assessing sustainable and diversified cropping systems: bridging 
+knowledge-driven, model-aided, and participatory approaches.
+
+Field Crops Res 337:110269. https://​doi.​org/​10.​1016/j.​fcr.​2025.​
+110269
+MARA (Ministry of Agriculture and Rural Affairs of the People’s 
+Republic of China) (2021) The plan of National Crop Produc-
+tion Development for the 14th Five-Year. URL: https://​www.​
+moa.​gov.​cn/​govpu​blic/ (Accessed on Jun. 15, 2025; In Chinese).
+Quinio M, Jeuffroy MH, Guichard L, Salazar P, Détienne F (2022) 
+Analyzing co-design of agroecology-oriented cropping systems: 
+lessons to build design-support tools. Agron Sustain Dev 42:72. 
+https://​doi.​org/​10.​1007/​s13593-​022-​00772-w
+Ramankutty N, Mehrabi Z, Waha K, Jarvis L, Kremen C, Herrero 
+M, Rieseberg LH (2018) Trends in global agricultural land use: 
+implications for environmental health and food security. Annu 
+Rev Plant Biol 29(69):789–815. https://​doi.​org/​10.​1146/​annur​
+ev-​arpla​nt-​042817-​040256
+Reckling M, Hecker JM, Bergkvist G, Watson CA, Zander P, 
+Schläfke N, Stoddard FL, Eory V, Topp CFE, Maire J, Bach-
+inger J (2016) A cropping system assessment framework—eval-
+uating effects of introducing legumes into crop rotations. Eur J 
+Agron 76:186–197. https://​doi.​org/​10.​1016/j.​eja.​2015.​11.​005
+Sánchez AC, Kamau HN, Grazioli F, Jones SK (2022) Financial prof-
+itability of diversified farming systems: a global meta-analysis. 
+Ecol Econ 201:107595. https://​doi.​org/​10.​1016/j.​ecole​con.​2022.​
+107595
+Sempore AW, Andrieu N, Nacro HB, Sedogo MP, Le Gal PY (2015) 
+Relevancy and role of whole-farm models in supporting small-
+holder farmers in planning their agricultural season. Environ 
+Model Softw 68:147–155. https://​doi.​org/​10.​1016/j.​envso​ft.​
+2015.​02.​015
+Smith A, Snapp S, Chikowo R, Thorne P, Bekunda M, Glover J 
+(2017) Measuring sustainable intensification in smallholder 
+agroecosystems: a review. Glob Food Secur 12:127–138. https://​
+doi.​org/​10.​1016/j.​gfs.​2016.​11.​002
+Timler C, Alvarez S, DeClerck F, Remans R, Raneri J, Estrada Car-
+mona N, Mashingaidze N, Abe Chatterjee S, Chiang TW, Ter-
+mote C, Yang RY, Descheemaeker K, Brouwer ID, Kennedy 
+G, Tittonell PA, Groot JCJ (2020) Exploring solution spaces 
+for nutrition-sensitive agriculture in Kenya and Vietnam. Agric 
+Syst 180:102774. https://​doi.​org/​10.​1016/j.​agsy.​2019.​102774
+Hunt ND, Liebman M, Thakrar SK, Hill JD (2020) Fossil energy use, 
+climate change impacts, and air quality-related human health 
+damages of conventional and diversified cropping systems in 
+Iowa, USA. Environ Sci Technol 54:11002–11014. https://​doi.​
+org/​10.​1021/​acs.​est.​9b069​29
+Xiao H, van Es HM, Amsili JP, Shi Q, Sun J, Chen Y, Sui P (2022) 
+Lowering soil greenhouse gas emissions without sacrificing 
+yields by increasing crop rotation diversity in the North China 
+Plain. Field Crops Res 276:108366. https://​doi.​org/​10.​1016/j.​
+fcr.​2021.​108366
+Xu Z, Liang Z, Cheng J, Groot JCJ, Zhang C, Cong WF, Zhang F, 
+van der Werf W (2024) Comparing the sustainability of small-
+holder and business farms in the North China Plain; a case study 
+in Quzhou. Agric Syst 216:103896. https://​doi.​org/​10.​1016/j.​
+agsy.​2024.​103896
+Yang X, Steenhuis TS, Davis KF, van der Werf W, Ritsema CJ, 
+Pacenka S, Zhang F, Siddique KH, Du T (2021) Diversified crop 
+rotations enhance groundwater and economic sustainability of 
+food production. Food Energ Secur 10(4):e311. https://​doi.​org/​
+10.​1002/​fes3.​311
+Yang X, Xiong J, Du T, Ju X, Gan Y, Li S, Xia L, Shen Y, Pacenka 
+S, Steenhuis TS, Siddique KHM, Kang S, Butterbach-Bahl 
+K (2024) Diversifying crop rotation increases food produc-
+tion, reduces net greenhouse gas emissions and improves 
+soil health. Nat Commun 15:198. https://​doi.​org/​10.​1038/​
+s41467-​023-​44464-9
+
+Z. Liang et al.
+23 
+Page 20 of 20
+
+Yang Y, Wang G, He M, Pan X, Wang Z (2018) China food compo-
+sition tables. Peking University Medical Press: Beijing, China. 
+ISBN: 978-7-5659-1699-1 (in Chinese)
+Zhang W, Jin X, Liu D, Lang C, Shan B (2017) Temporal and spatial 
+variation of nitrogen and phosphorus and eutrophication assess-
+ment for a typical arid river — Fuyang River in northern China. J 
+Environ Sci 55:41–48. https://​doi.​org/​10.​1016/j.​jes.​2016.​07.​004
+Zhang CY, Oki T (2023) Water pricing reform for sustainable water 
+resources management in China’s agricultural sector. Agric Water 
+Manage 275:108045. https://​doi.​org/​10.​1016/j.​agwat.​2022.​108045
+
+Zhang L (2021) Nitrogen management for high-yielding winter wheat-
+summer maize rotation system and long-term integrated assess-
+ment. PhD thesis, China Agricultural University (in Chinese with 
+English abstract).
+
+Publisher's Note  Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.
+
+Authors and Affiliations
+
+Zhengyuan Liang1,2 · Zhan Xu1,4 · Jiali Cheng1,2 · Wen‑Feng Cong1 · Chaochun Zhang1 · Fusuo Zhang1 · 
+Wopke van der Werf4 · Jeroen C. J. Groot2,3
+
+*	 Wen‑Feng Cong 
+	
+wenfeng.cong@cau.edu.cn
+
+1	
+State Key Laboratory of Nutrient Use and Management, Key 
+Laboratory of Plant‑Soil Interactions, Ministry of Education, 
+College of Resources and Environmental Science, National 
+Academy of Agriculture Green Development, China 
+Agricultural University, Beijing 100193, China
+
+2	
+Farming Systems Ecology, Wageningen University 
+and Research, P.O. Box 430, 6700 AK Wageningen, 
+the Netherlands
+
+3	
+Plant Production Systems, Wageningen University 
+and Research, P.O. Box 430, 6700 AK Wageningen, 
+the Netherlands
+
+4	
+Centre for Crop Systems Analysis, Wageningen University 
+and Research, P.O. Box 430, 6700 AK Wageningen, 
+the Netherlands
