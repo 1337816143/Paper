@@ -134,7 +134,7 @@
   "legacy_research_leads_sha256": "6792d0a588d10441de488bbb988759f2de22d52e094c931c8fb677cc94829d26",
   "app_sha256": "9f1c6e7a1e1b4ff1e5b2ed4028d279d2c3432b3fbcd6c69695a75a1d66731a99",
   "reader_sha256": "7ed6c65d96f0e766cf3e3f78a03cb95f32483f5eb05f9f52746d1a6dbd9f2783",
-  "catalog_sha256": "58b68285c6bda6fef3d338e1577220bdf36a6b34f673e979d64e47776fe35d03",
+  "catalog_sha256": "d2ac2f78c1acc5163d0e97e6bb2c5c85b56dbf23e3530dafdbf274a2c0be63da",
   "legacy_source_blobs": 754,
   "previous_legacy_documents": 126,
   "baseline_documents": 127,

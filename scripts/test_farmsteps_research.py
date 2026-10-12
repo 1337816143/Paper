@@ -37,6 +37,9 @@ class ResearchEvidence(unittest.TestCase):
   self.assertEqual(book['sourceHash'],read('resources/study-layouts.json')['farmsteps-2026']['sourceHash'])
   self.assertIn('2026-08-30',r['reason'])
   self.assertIn('软件许可',r['reason'])
+ def test_other_source_records_preserved(self):
+  records=[r for r in read('resources/catalog.json')['records'] if r['id']!='farmsteps-2026']
+  self.assertEqual(hashlib.sha256(json.dumps(records,sort_keys=True,ensure_ascii=False).encode()).hexdigest(),'46765d38769f72d926d1f62735e102d88a614c3634823fc325fb94f4a807b96c')
  def test_no_paper_prompts_require_assessment(self):
   rules=read('resources/research-presentation.json')
   for p in PAPERS.values():

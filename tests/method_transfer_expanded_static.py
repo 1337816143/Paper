@@ -91,7 +91,7 @@ source_kinds={'public-archive':0,'source-status':0}
 for pid in transfers:
  notice=static_source_notice(ROOT,pid);page=(SITE/'read'/f'{pid}.html').read_text();assert page.count(notice)==1
  kind='public-archive' if 'data-method-source-status="public-archive"' in notice else 'source-status';source_kinds[kind]+=1
-assert source_kinds=={'public-archive':12,'source-status':8}
+assert source_kinds=={'public-archive':13,'source-status':7}
 assert len(data['researchLeads'])==20 and sum(len(row['hashes']) for row in data['researchLeads'].values())==40
 # Non-DOI primary sources are allowed only for that exact catalog identity.
 with tempfile.TemporaryDirectory() as tmp:
