@@ -1698,6 +1698,1121 @@
     },
     "scope": "Layout overlays only; machine-detected display equations may still require visual review."
   },
+  "farmsteps-2026": {
+    "sourceHash": "d17dce19f85b1c0277e0158275de034a75ad62472ef37ee3741c2f4208b9bc33",
+    "groups": [
+      {
+        "id": "farmsteps-2026-c7523d8e3438",
+        "page": 5,
+        "number": "1",
+        "numbers": [
+          "1"
+        ],
+        "blocks": [
+          "p5-b16-48318ee",
+          "p5-b17-be27c71",
+          "p5-b18-e3b98a4",
+          "p5-b19-be27c71",
+          "p5-b20-e14f27b"
+        ],
+        "bbox": [
+          300.9617919921875,
+          209.4326629638672,
+          549.2562255859375,
+          245.24594116210938
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-c7523d8e3438.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(1) Ii,p = ∑ t ∑ cIi,p,t,c PW"
+      },
+      {
+        "id": "farmsteps-2026-14959b27eed6",
+        "page": 5,
+        "number": "2",
+        "numbers": [
+          "2"
+        ],
+        "blocks": [
+          "p5-b21-d65165e",
+          "p5-b22-be27c71",
+          "p5-b23-148de9c",
+          "p5-b24-be27c71",
+          "p5-b25-3e34fd2",
+          "p5-b26-36c0025"
+        ],
+        "bbox": [
+          300.9648132324219,
+          288.9849853515625,
+          549.2521362304688,
+          330.4592590332031
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-14959b27eed6.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(2) Ii,t = ∑ p ∑ c (Ii,p,t,c × Ap) ∑ p Ap"
+      },
+      {
+        "id": "farmsteps-2026-c09c943ab635",
+        "page": 5,
+        "number": "3",
+        "numbers": [
+          "3"
+        ],
+        "blocks": [
+          "p5-b27-785f99e",
+          "p5-b28-be27c71",
+          "p5-b29-148de9c",
+          "p5-b30-be27c71",
+          "p5-b31-e3b98a4",
+          "p5-b32-be27c71",
+          "p5-b33-fb90b7e"
+        ],
+        "bbox": [
+          300.9648132324219,
+          374.03497314453125,
+          549.2521362304688,
+          415.50927734375
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-c09c943ab635.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(3) Ii,farm = ∑ p ∑ t ∑ c (Ii,p,t,c × Ap) ∑ p Ap × PW"
+      },
+      {
+        "id": "farmsteps-2026-0c8cd6e2d9ce",
+        "page": 6,
+        "number": "4",
+        "numbers": [
+          "4"
+        ],
+        "blocks": [
+          "p6-b10-999038d"
+        ],
+        "bbox": [
+          45.84560012817383,
+          119.94033813476562,
+          294.1335754394531,
+          146.6359405517578
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-0c8cd6e2d9ce.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(4) Ii,p,min ≤Ii,p≤Ii,p,max"
+      },
+      {
+        "id": "farmsteps-2026-e05d4a7b81a8",
+        "page": 6,
+        "number": "5",
+        "numbers": [
+          "5"
+        ],
+        "blocks": [
+          "p6-b11-4fb9648"
+        ],
+        "bbox": [
+          45.84360122680664,
+          288.4903259277344,
+          294.13397216796875,
+          314.7358093261719
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-e05d4a7b81a8.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(5) Ii,t,min ≤Ii,t≤Ii,t,max"
+      },
+      {
+        "id": "farmsteps-2026-4e2b626f993f",
+        "page": 6,
+        "number": "6",
+        "numbers": [
+          "6"
+        ],
+        "blocks": [
+          "p6-b12-85bae60"
+        ],
+        "bbox": [
+          45.8755989074707,
+          318.7403259277344,
+          294.13397216796875,
+          344.9358215332031
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-4e2b626f993f.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(6) Ac,t,min ≤Ac,t≤Ac,t,max"
+      },
+      {
+        "id": "farmsteps-2026-c83f5963207d",
+        "page": 6,
+        "number": "7",
+        "numbers": [
+          "7"
+        ],
+        "blocks": [
+          "p6-b13-3f63dd6"
+        ],
+        "bbox": [
+          45.860599517822266,
+          348.89031982421875,
+          294.13397216796875,
+          375.13592529296875
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-c83f5963207d.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(7) Pc,t,min ≤Pc,t≤Pc,t,max"
+      },
+      {
+        "id": "farmsteps-2026-b11f35205a39",
+        "page": 6,
+        "number": "8",
+        "numbers": [
+          "8"
+        ],
+        "blocks": [
+          "p6-b14-d4d9069"
+        ],
+        "bbox": [
+          45.84360122680664,
+          491.5404052734375,
+          294.13397216796875,
+          517.7859497070312
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-b11f35205a39.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(8) Ii,farm,min ≤Ii,farm≤Ii,farm,max"
+      },
+      {
+        "id": "farmsteps-2026-7d085152754b",
+        "page": 6,
+        "number": "9",
+        "numbers": [
+          "9"
+        ],
+        "blocks": [
+          "p6-b15-c48603f"
+        ],
+        "bbox": [
+          45.8765983581543,
+          521.7904663085938,
+          294.13397216796875,
+          547.9859008789062
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-7d085152754b.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(9) Ac,farm,min ≤Ac,farm≤Ac,farm,max"
+      },
+      {
+        "id": "farmsteps-2026-40bbf104c6a2",
+        "page": 6,
+        "number": "10",
+        "numbers": [
+          "10"
+        ],
+        "blocks": [
+          "p6-b16-c8e4e82"
+        ],
+        "bbox": [
+          45.860599517822266,
+          551.9404296875,
+          294.13397216796875,
+          578.1859130859375
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-40bbf104c6a2.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(10) Pc,farm,min ≤Pc,farm≤Pc,farm,max"
+      },
+      {
+        "id": "farmsteps-2026-245d4f377bfd",
+        "page": 10,
+        "number": "11",
+        "numbers": [
+          "11"
+        ],
+        "blocks": [
+          "p10-b7-3f04f85"
+        ],
+        "bbox": [
+          300.9656982421875,
+          220.88877868652344,
+          549.2523193359375,
+          246.0056915283203
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-245d4f377bfd.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(11) IGM,p,t,c = Yp,t,c × PRc −COp,t,c"
+      },
+      {
+        "id": "farmsteps-2026-2a60babafd62",
+        "page": 10,
+        "number": "12",
+        "numbers": [
+          "12"
+        ],
+        "blocks": [
+          "p10-b8-4589939"
+        ],
+        "bbox": [
+          300.9646911621094,
+          387.61572265625,
+          549.2521362304688,
+          412.7057189941406
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-2a60babafd62.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(12) IGWD,farm = IGC,farm −Dfarm"
+      },
+      {
+        "id": "farmsteps-2026-797559eca534",
+        "page": 10,
+        "number": "13",
+        "numbers": [
+          "13"
+        ],
+        "blocks": [
+          "p10-b9-ad913ba",
+          "p10-b10-be27c71",
+          "p10-b11-148de9c",
+          "p10-b12-be27c71",
+          "p10-b13-e3b98a4",
+          "p10-b14-be27c71",
+          "p10-b15-59e1427"
+        ],
+        "bbox": [
+          300.9587097167969,
+          467.6548767089844,
+          549.2521362304688,
+          509.1291809082031
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-797559eca534.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(13) IGC,farm = ∑ p ∑ t ∑ c (IGC,p,t,c × Ap) ∑ p Ap × PW"
+      },
+      {
+        "id": "farmsteps-2026-f4a58643d291",
+        "page": 11,
+        "number": "14",
+        "numbers": [
+          "14"
+        ],
+        "blocks": [
+          "p11-b8-d36824c"
+        ],
+        "bbox": [
+          45.86759948730469,
+          83.04557800292969,
+          294.1329040527344,
+          108.13557434082031
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-f4a58643d291.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(14) Dfarm = 0.02 × (IGC,farm + AP)"
+      },
+      {
+        "id": "farmsteps-2026-41ed412565e7",
+        "page": 11,
+        "number": "15",
+        "numbers": [
+          "15"
+        ],
+        "blocks": [
+          "p11-b9-a77ebcd"
+        ],
+        "bbox": [
+          45.84159851074219,
+          212.11875915527344,
+          294.13397216796875,
+          237.33570861816406
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-41ed412565e7.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(15) IPesti,p,t,c = IInsect,p,t,c + IFungi,p,t,c + IHerb,p,t,c"
+      },
+      {
+        "id": "farmsteps-2026-5b0796b90e01",
+        "page": 11,
+        "number": "16",
+        "numbers": [
+          "16"
+        ],
+        "blocks": [
+          "p11-b10-52157ca"
+        ],
+        "bbox": [
+          45.847599029541016,
+          428.9687805175781,
+          294.13397216796875,
+          454.1856994628906
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-5b0796b90e01.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(16) IEUP,p,t,c = IEUP−PRE,p,t,c + IEUP−ON,p,t,c"
+      },
+      {
+        "id": "farmsteps-2026-2c466fa1f69b",
+        "page": 11,
+        "number": "17",
+        "numbers": [
+          "17"
+        ],
+        "blocks": [
+          "p11-b11-461251b"
+        ],
+        "bbox": [
+          45.839599609375,
+          458.3186950683594,
+          294.13397216796875,
+          483.5356140136719
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-2c466fa1f69b.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(17) IGHG,p,t,c = IGHG−PRE,p,t,c + IGHG−ON,p,t,c"
+      },
+      {
+        "id": "farmsteps-2026-45de22f07cb8",
+        "page": 11,
+        "number": "18",
+        "numbers": [
+          "18"
+        ],
+        "blocks": [
+          "p11-b15-db7e270",
+          "p11-b16-be27c71",
+          "p11-b17-497d110"
+        ],
+        "bbox": [
+          300.9587097167969,
+          271.90985107421875,
+          549.2529296875,
+          299.237060546875
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-45de22f07cb8.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(18) ILabor,p,t,c = ∑ f ILabor,p,t,c,f"
+      },
+      {
+        "id": "farmsteps-2026-6dac3b756668",
+        "page": 11,
+        "number": "19",
+        "numbers": [
+          "19"
+        ],
+        "blocks": [
+          "p11-b18-a0a4f3f",
+          "p11-b19-8fe0571",
+          "p11-b20-b087027"
+        ],
+        "bbox": [
+          300.95770263671875,
+          355.710693359375,
+          549.2521362304688,
+          391.8058776855469
+        ],
+        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-6dac3b756668.png",
+        "method": "exact PDF region; no reconstructed symbols",
+        "rawEvidence": "(19) IDE,p,t,c = Yp,t,c × Fc RAI"
+      }
+    ],
+    "inline": {
+      "p1-b6-725eb82": [
+        {
+          "start": 15,
+          "end": 18,
+          "tag": "sup",
+          "text": "1,2"
+        },
+        {
+          "start": 28,
+          "end": 31,
+          "tag": "sup",
+          "text": "1,4"
+        },
+        {
+          "start": 45,
+          "end": 48,
+          "tag": "sup",
+          "text": "1,2"
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 82,
+          "end": 83,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 97,
+          "end": 98,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 119,
+          "end": 120,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 141,
+          "end": 144,
+          "tag": "sup",
+          "text": "2,3"
+        }
+      ],
+      "p5-b8-3409fe8": [
+        {
+          "start": 683,
+          "end": 690,
+          "tag": "sub",
+          "text": "i,p,t,c"
+        },
+        {
+          "start": 704,
+          "end": 706,
+          "tag": "sup",
+          "text": "th"
+        }
+      ],
+      "p5-b9-6fdd8c3": [
+        {
+          "start": 38,
+          "end": 40,
+          "tag": "sup",
+          "text": "th"
+        },
+        {
+          "start": 685,
+          "end": 688,
+          "tag": "sub",
+          "text": "i,p"
+        }
+      ],
+      "p5-b10-5593a32": [
+        {
+          "start": 119,
+          "end": 122,
+          "tag": "sub",
+          "text": "i,t"
+        }
+      ],
+      "p5-b11-c5f2133": [
+        {
+          "start": 8,
+          "end": 9,
+          "tag": "sub",
+          "text": "p"
+        },
+        {
+          "start": 127,
+          "end": 129,
+          "tag": "sub",
+          "text": "i,"
+        },
+        {
+          "start": 129,
+          "end": 133,
+          "tag": "sub",
+          "text": "farm"
+        }
+      ],
+      "p6-b2-085fc80": [
+        {
+          "start": 122,
+          "end": 124,
+          "tag": "sup",
+          "text": "th"
+        }
+      ],
+      "p6-b3-d205273": [
+        {
+          "start": 8,
+          "end": 11,
+          "tag": "sub",
+          "text": "i,p"
+        },
+        {
+          "start": 11,
+          "end": 15,
+          "tag": "sub",
+          "text": ",max"
+        },
+        {
+          "start": 22,
+          "end": 25,
+          "tag": "sub",
+          "text": "i,p"
+        },
+        {
+          "start": 25,
+          "end": 29,
+          "tag": "sub",
+          "text": ",min"
+        },
+        {
+          "start": 72,
+          "end": 74,
+          "tag": "sup",
+          "text": "th"
+        }
+      ],
+      "p6-b6-e873a9d": [
+        {
+          "start": 8,
+          "end": 11,
+          "tag": "sub",
+          "text": "i,t"
+        },
+        {
+          "start": 11,
+          "end": 15,
+          "tag": "sub",
+          "text": ",max"
+        },
+        {
+          "start": 22,
+          "end": 25,
+          "tag": "sub",
+          "text": "i,t"
+        },
+        {
+          "start": 25,
+          "end": 29,
+          "tag": "sub",
+          "text": ",min"
+        },
+        {
+          "start": 85,
+          "end": 87,
+          "tag": "sup",
+          "text": "th"
+        },
+        {
+          "start": 124,
+          "end": 126,
+          "tag": "sup",
+          "text": "th"
+        },
+        {
+          "start": 146,
+          "end": 149,
+          "tag": "sub",
+          "text": "c,t"
+        },
+        {
+          "start": 149,
+          "end": 153,
+          "tag": "sub",
+          "text": ",max"
+        },
+        {
+          "start": 160,
+          "end": 163,
+          "tag": "sub",
+          "text": "c,t"
+        },
+        {
+          "start": 163,
+          "end": 167,
+          "tag": "sub",
+          "text": ",min"
+        },
+        {
+          "start": 246,
+          "end": 249,
+          "tag": "sub",
+          "text": "c,t"
+        },
+        {
+          "start": 249,
+          "end": 253,
+          "tag": "sub",
+          "text": ",max"
+        },
+        {
+          "start": 260,
+          "end": 263,
+          "tag": "sub",
+          "text": "c,t"
+        },
+        {
+          "start": 263,
+          "end": 267,
+          "tag": "sub",
+          "text": ",min"
+        },
+        {
+          "start": 353,
+          "end": 355,
+          "tag": "sup",
+          "text": "th"
+        }
+      ],
+      "p6-b7-4f0b018": [
+        {
+          "start": 40,
+          "end": 42,
+          "tag": "sub",
+          "text": "i,"
+        },
+        {
+          "start": 42,
+          "end": 50,
+          "tag": "sub",
+          "text": "farm,max"
+        },
+        {
+          "start": 57,
+          "end": 59,
+          "tag": "sub",
+          "text": "i,"
+        },
+        {
+          "start": 59,
+          "end": 67,
+          "tag": "sub",
+          "text": "farm,min"
+        },
+        {
+          "start": 116,
+          "end": 118,
+          "tag": "sup",
+          "text": "th"
+        },
+        {
+          "start": 160,
+          "end": 162,
+          "tag": "sub",
+          "text": "c,"
+        },
+        {
+          "start": 162,
+          "end": 170,
+          "tag": "sub",
+          "text": "farm,max"
+        },
+        {
+          "start": 174,
+          "end": 176,
+          "tag": "sub",
+          "text": "c,"
+        },
+        {
+          "start": 176,
+          "end": 185,
+          "tag": "sub",
+          "text": "farm,min,"
+        },
+        {
+          "start": 188,
+          "end": 190,
+          "tag": "sub",
+          "text": "c,"
+        },
+        {
+          "start": 190,
+          "end": 198,
+          "tag": "sub",
+          "text": "farm,max"
+        },
+        {
+          "start": 206,
+          "end": 208,
+          "tag": "sub",
+          "text": "c,"
+        },
+        {
+          "start": 208,
+          "end": 216,
+          "tag": "sub",
+          "text": "farm,min"
+        }
+      ],
+      "p9-b5-2fb0fd7": [
+        {
+          "start": 430,
+          "end": 431,
+          "tag": "sup",
+          "text": "3"
+        }
+      ],
+      "p10-b2-da1293b": [
+        {
+          "start": 1515,
+          "end": 1517,
+          "tag": "sup",
+          "text": "st"
+        }
+      ],
+      "p10-b4-b42f5b4": [
+        {
+          "start": 349,
+          "end": 356,
+          "tag": "sub",
+          "text": "GM,farm"
+        },
+        {
+          "start": 521,
+          "end": 524,
+          "tag": "sub",
+          "text": "GM,"
+        },
+        {
+          "start": 524,
+          "end": 525,
+          "tag": "sub",
+          "text": "c"
+        }
+      ],
+      "p10-b5-5edec81": [
+        {
+          "start": 8,
+          "end": 13,
+          "tag": "sub",
+          "text": "p,t,c"
+        },
+        {
+          "start": 29,
+          "end": 30,
+          "tag": "sub",
+          "text": "c"
+        },
+        {
+          "start": 111,
+          "end": 116,
+          "tag": "sub",
+          "text": "p,t,c"
+        },
+        {
+          "start": 392,
+          "end": 400,
+          "tag": "sub",
+          "text": "GWD,farm"
+        }
+      ],
+      "p10-b6-e176579": [
+        {
+          "start": 8,
+          "end": 15,
+          "tag": "sub",
+          "text": "GC,farm"
+        },
+        {
+          "start": 176,
+          "end": 179,
+          "tag": "sub",
+          "text": "GC,"
+        },
+        {
+          "start": 179,
+          "end": 184,
+          "tag": "sub",
+          "text": "p,t,c"
+        }
+      ],
+      "p11-b2-1b784b7": [
+        {
+          "start": 8,
+          "end": 12,
+          "tag": "sub",
+          "text": "farm"
+        }
+      ],
+      "p11-b3-5023115": [
+        {
+          "start": 155,
+          "end": 165,
+          "tag": "sub",
+          "text": "Pesti,farm"
+        },
+        {
+          "start": 412,
+          "end": 418,
+          "tag": "sub",
+          "text": "Pesti,"
+        },
+        {
+          "start": 418,
+          "end": 423,
+          "tag": "sub",
+          "text": "p,t,c"
+        },
+        {
+          "start": 455,
+          "end": 461,
+          "tag": "sub",
+          "text": "Pesti,"
+        },
+        {
+          "start": 461,
+          "end": 466,
+          "tag": "sub",
+          "text": "p,t,c"
+        }
+      ],
+      "p11-b4-d5e52e6": [
+        {
+          "start": 8,
+          "end": 15,
+          "tag": "sub",
+          "text": "Insect,"
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "tag": "sub",
+          "text": "p,t,c"
+        },
+        {
+          "start": 24,
+          "end": 31,
+          "tag": "sub",
+          "text": "Insect,"
+        },
+        {
+          "start": 31,
+          "end": 36,
+          "tag": "sub",
+          "text": "p,t,c"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "tag": "sub",
+          "text": "Insect,"
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "tag": "sub",
+          "text": "p,t,c"
+        },
+        {
+          "start": 219,
+          "end": 227,
+          "tag": "sub",
+          "text": "EUP,farm"
+        },
+        {
+          "start": 250,
+          "end": 258,
+          "tag": "sub",
+          "text": "GHG,farm"
+        },
+        {
+          "start": 818,
+          "end": 821,
+          "tag": "sub",
+          "text": "EUP"
+        },
+        {
+          "start": 821,
+          "end": 827,
+          "tag": "sub",
+          "text": ",p,t,c"
+        },
+        {
+          "start": 835,
+          "end": 836,
+          "tag": "sub",
+          "text": "4"
+        },
+        {
+          "start": 855,
+          "end": 858,
+          "tag": "sub",
+          "text": "GHG"
+        },
+        {
+          "start": 858,
+          "end": 864,
+          "tag": "sub",
+          "text": ",p,t,c"
+        },
+        {
+          "start": 872,
+          "end": 873,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p11-b5-6ab5ca4": [
+        {
+          "start": 8,
+          "end": 15,
+          "tag": "sub",
+          "text": "EUP-PRE"
+        },
+        {
+          "start": 15,
+          "end": 21,
+          "tag": "sub",
+          "text": ",p,t,c"
+        },
+        {
+          "start": 28,
+          "end": 34,
+          "tag": "sub",
+          "text": "EUP-ON"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "tag": "sub",
+          "text": ",p,t,c"
+        },
+        {
+          "start": 48,
+          "end": 49,
+          "tag": "sub",
+          "text": "4"
+        },
+        {
+          "start": 137,
+          "end": 144,
+          "tag": "sub",
+          "text": "GHG-PRE"
+        },
+        {
+          "start": 144,
+          "end": 150,
+          "tag": "sub",
+          "text": ",p,t,c"
+        },
+        {
+          "start": 157,
+          "end": 163,
+          "tag": "sub",
+          "text": "GHG-ON"
+        },
+        {
+          "start": 163,
+          "end": 169,
+          "tag": "sub",
+          "text": ",p,t,c"
+        },
+        {
+          "start": 177,
+          "end": 178,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p11-b12-287f008": [
+        {
+          "start": 919,
+          "end": 924,
+          "tag": "sub",
+          "text": "Labor"
+        },
+        {
+          "start": 924,
+          "end": 930,
+          "tag": "sub",
+          "text": ",p,t,c"
+        }
+      ],
+      "p11-b13-da56411": [
+        {
+          "start": 185,
+          "end": 187,
+          "tag": "sub",
+          "text": "DE"
+        },
+        {
+          "start": 187,
+          "end": 193,
+          "tag": "sub",
+          "text": ",p,t,c"
+        }
+      ],
+      "p11-b14-16eefa0": [
+        {
+          "start": 8,
+          "end": 9,
+          "tag": "sub",
+          "text": "c"
+        }
+      ],
+      "p12-b5-4f3169e": [
+        {
+          "start": 303,
+          "end": 304,
+          "tag": "sub",
+          "text": "4"
+        },
+        {
+          "start": 347,
+          "end": 348,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p13-b8-3bf71c9": [
+        {
+          "start": 45,
+          "end": 46,
+          "tag": "sub",
+          "text": "4"
+        },
+        {
+          "start": 83,
+          "end": 84,
+          "tag": "sub",
+          "text": "2"
+        }
+      ],
+      "p20-b6-725eb82": [
+        {
+          "start": 15,
+          "end": 18,
+          "tag": "sup",
+          "text": "1,2"
+        },
+        {
+          "start": 28,
+          "end": 31,
+          "tag": "sup",
+          "text": "1,4"
+        },
+        {
+          "start": 45,
+          "end": 48,
+          "tag": "sup",
+          "text": "1,2"
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 82,
+          "end": 83,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 97,
+          "end": 98,
+          "tag": "sup",
+          "text": "1"
+        },
+        {
+          "start": 119,
+          "end": 120,
+          "tag": "sup",
+          "text": "4"
+        },
+        {
+          "start": 141,
+          "end": 144,
+          "tag": "sup",
+          "text": "2,3"
+        }
+      ]
+    },
+    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
+  },
   "cheng-2023": {
     "sourceHash": "7b8cf2416ee8d64979e58d9fe0cf569d5415d640a87f280ab1c28965c67cc305",
     "groups": [],
@@ -7533,1121 +8648,6 @@
           "end": 75,
           "tag": "sup",
           "text": "c"
-        }
-      ]
-    },
-    "scope": "Layout overlays only; machine-detected display equations may still require visual review."
-  },
-  "farmsteps-2026": {
-    "sourceHash": "d17dce19f85b1c0277e0158275de034a75ad62472ef37ee3741c2f4208b9bc33",
-    "groups": [
-      {
-        "id": "farmsteps-2026-c7523d8e3438",
-        "page": 5,
-        "number": "1",
-        "numbers": [
-          "1"
-        ],
-        "blocks": [
-          "p5-b16-48318ee",
-          "p5-b17-be27c71",
-          "p5-b18-e3b98a4",
-          "p5-b19-be27c71",
-          "p5-b20-e14f27b"
-        ],
-        "bbox": [
-          300.9617919921875,
-          209.4326629638672,
-          549.2562255859375,
-          245.24594116210938
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-c7523d8e3438.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(1) Ii,p = ∑ t ∑ cIi,p,t,c PW"
-      },
-      {
-        "id": "farmsteps-2026-14959b27eed6",
-        "page": 5,
-        "number": "2",
-        "numbers": [
-          "2"
-        ],
-        "blocks": [
-          "p5-b21-d65165e",
-          "p5-b22-be27c71",
-          "p5-b23-148de9c",
-          "p5-b24-be27c71",
-          "p5-b25-3e34fd2",
-          "p5-b26-36c0025"
-        ],
-        "bbox": [
-          300.9648132324219,
-          288.9849853515625,
-          549.2521362304688,
-          330.4592590332031
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-14959b27eed6.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(2) Ii,t = ∑ p ∑ c (Ii,p,t,c × Ap) ∑ p Ap"
-      },
-      {
-        "id": "farmsteps-2026-c09c943ab635",
-        "page": 5,
-        "number": "3",
-        "numbers": [
-          "3"
-        ],
-        "blocks": [
-          "p5-b27-785f99e",
-          "p5-b28-be27c71",
-          "p5-b29-148de9c",
-          "p5-b30-be27c71",
-          "p5-b31-e3b98a4",
-          "p5-b32-be27c71",
-          "p5-b33-fb90b7e"
-        ],
-        "bbox": [
-          300.9648132324219,
-          374.03497314453125,
-          549.2521362304688,
-          415.50927734375
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-c09c943ab635.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(3) Ii,farm = ∑ p ∑ t ∑ c (Ii,p,t,c × Ap) ∑ p Ap × PW"
-      },
-      {
-        "id": "farmsteps-2026-0c8cd6e2d9ce",
-        "page": 6,
-        "number": "4",
-        "numbers": [
-          "4"
-        ],
-        "blocks": [
-          "p6-b10-999038d"
-        ],
-        "bbox": [
-          45.84560012817383,
-          119.94033813476562,
-          294.1335754394531,
-          146.6359405517578
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-0c8cd6e2d9ce.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(4) Ii,p,min ≤Ii,p≤Ii,p,max"
-      },
-      {
-        "id": "farmsteps-2026-e05d4a7b81a8",
-        "page": 6,
-        "number": "5",
-        "numbers": [
-          "5"
-        ],
-        "blocks": [
-          "p6-b11-4fb9648"
-        ],
-        "bbox": [
-          45.84360122680664,
-          288.4903259277344,
-          294.13397216796875,
-          314.7358093261719
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-e05d4a7b81a8.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(5) Ii,t,min ≤Ii,t≤Ii,t,max"
-      },
-      {
-        "id": "farmsteps-2026-4e2b626f993f",
-        "page": 6,
-        "number": "6",
-        "numbers": [
-          "6"
-        ],
-        "blocks": [
-          "p6-b12-85bae60"
-        ],
-        "bbox": [
-          45.8755989074707,
-          318.7403259277344,
-          294.13397216796875,
-          344.9358215332031
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-4e2b626f993f.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(6) Ac,t,min ≤Ac,t≤Ac,t,max"
-      },
-      {
-        "id": "farmsteps-2026-c83f5963207d",
-        "page": 6,
-        "number": "7",
-        "numbers": [
-          "7"
-        ],
-        "blocks": [
-          "p6-b13-3f63dd6"
-        ],
-        "bbox": [
-          45.860599517822266,
-          348.89031982421875,
-          294.13397216796875,
-          375.13592529296875
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-c83f5963207d.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(7) Pc,t,min ≤Pc,t≤Pc,t,max"
-      },
-      {
-        "id": "farmsteps-2026-b11f35205a39",
-        "page": 6,
-        "number": "8",
-        "numbers": [
-          "8"
-        ],
-        "blocks": [
-          "p6-b14-d4d9069"
-        ],
-        "bbox": [
-          45.84360122680664,
-          491.5404052734375,
-          294.13397216796875,
-          517.7859497070312
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-b11f35205a39.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(8) Ii,farm,min ≤Ii,farm≤Ii,farm,max"
-      },
-      {
-        "id": "farmsteps-2026-7d085152754b",
-        "page": 6,
-        "number": "9",
-        "numbers": [
-          "9"
-        ],
-        "blocks": [
-          "p6-b15-c48603f"
-        ],
-        "bbox": [
-          45.8765983581543,
-          521.7904663085938,
-          294.13397216796875,
-          547.9859008789062
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-7d085152754b.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(9) Ac,farm,min ≤Ac,farm≤Ac,farm,max"
-      },
-      {
-        "id": "farmsteps-2026-40bbf104c6a2",
-        "page": 6,
-        "number": "10",
-        "numbers": [
-          "10"
-        ],
-        "blocks": [
-          "p6-b16-c8e4e82"
-        ],
-        "bbox": [
-          45.860599517822266,
-          551.9404296875,
-          294.13397216796875,
-          578.1859130859375
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-40bbf104c6a2.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(10) Pc,farm,min ≤Pc,farm≤Pc,farm,max"
-      },
-      {
-        "id": "farmsteps-2026-245d4f377bfd",
-        "page": 10,
-        "number": "11",
-        "numbers": [
-          "11"
-        ],
-        "blocks": [
-          "p10-b7-3f04f85"
-        ],
-        "bbox": [
-          300.9656982421875,
-          220.88877868652344,
-          549.2523193359375,
-          246.0056915283203
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-245d4f377bfd.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(11) IGM,p,t,c = Yp,t,c × PRc −COp,t,c"
-      },
-      {
-        "id": "farmsteps-2026-2a60babafd62",
-        "page": 10,
-        "number": "12",
-        "numbers": [
-          "12"
-        ],
-        "blocks": [
-          "p10-b8-4589939"
-        ],
-        "bbox": [
-          300.9646911621094,
-          387.61572265625,
-          549.2521362304688,
-          412.7057189941406
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-2a60babafd62.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(12) IGWD,farm = IGC,farm −Dfarm"
-      },
-      {
-        "id": "farmsteps-2026-797559eca534",
-        "page": 10,
-        "number": "13",
-        "numbers": [
-          "13"
-        ],
-        "blocks": [
-          "p10-b9-ad913ba",
-          "p10-b10-be27c71",
-          "p10-b11-148de9c",
-          "p10-b12-be27c71",
-          "p10-b13-e3b98a4",
-          "p10-b14-be27c71",
-          "p10-b15-59e1427"
-        ],
-        "bbox": [
-          300.9587097167969,
-          467.6548767089844,
-          549.2521362304688,
-          509.1291809082031
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-797559eca534.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(13) IGC,farm = ∑ p ∑ t ∑ c (IGC,p,t,c × Ap) ∑ p Ap × PW"
-      },
-      {
-        "id": "farmsteps-2026-f4a58643d291",
-        "page": 11,
-        "number": "14",
-        "numbers": [
-          "14"
-        ],
-        "blocks": [
-          "p11-b8-d36824c"
-        ],
-        "bbox": [
-          45.86759948730469,
-          83.04557800292969,
-          294.1329040527344,
-          108.13557434082031
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-f4a58643d291.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(14) Dfarm = 0.02 × (IGC,farm + AP)"
-      },
-      {
-        "id": "farmsteps-2026-41ed412565e7",
-        "page": 11,
-        "number": "15",
-        "numbers": [
-          "15"
-        ],
-        "blocks": [
-          "p11-b9-a77ebcd"
-        ],
-        "bbox": [
-          45.84159851074219,
-          212.11875915527344,
-          294.13397216796875,
-          237.33570861816406
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-41ed412565e7.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(15) IPesti,p,t,c = IInsect,p,t,c + IFungi,p,t,c + IHerb,p,t,c"
-      },
-      {
-        "id": "farmsteps-2026-5b0796b90e01",
-        "page": 11,
-        "number": "16",
-        "numbers": [
-          "16"
-        ],
-        "blocks": [
-          "p11-b10-52157ca"
-        ],
-        "bbox": [
-          45.847599029541016,
-          428.9687805175781,
-          294.13397216796875,
-          454.1856994628906
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-5b0796b90e01.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(16) IEUP,p,t,c = IEUP−PRE,p,t,c + IEUP−ON,p,t,c"
-      },
-      {
-        "id": "farmsteps-2026-2c466fa1f69b",
-        "page": 11,
-        "number": "17",
-        "numbers": [
-          "17"
-        ],
-        "blocks": [
-          "p11-b11-461251b"
-        ],
-        "bbox": [
-          45.839599609375,
-          458.3186950683594,
-          294.13397216796875,
-          483.5356140136719
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-2c466fa1f69b.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(17) IGHG,p,t,c = IGHG−PRE,p,t,c + IGHG−ON,p,t,c"
-      },
-      {
-        "id": "farmsteps-2026-45de22f07cb8",
-        "page": 11,
-        "number": "18",
-        "numbers": [
-          "18"
-        ],
-        "blocks": [
-          "p11-b15-db7e270",
-          "p11-b16-be27c71",
-          "p11-b17-497d110"
-        ],
-        "bbox": [
-          300.9587097167969,
-          271.90985107421875,
-          549.2529296875,
-          299.237060546875
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-45de22f07cb8.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(18) ILabor,p,t,c = ∑ f ILabor,p,t,c,f"
-      },
-      {
-        "id": "farmsteps-2026-6dac3b756668",
-        "page": 11,
-        "number": "19",
-        "numbers": [
-          "19"
-        ],
-        "blocks": [
-          "p11-b18-a0a4f3f",
-          "p11-b19-8fe0571",
-          "p11-b20-b087027"
-        ],
-        "bbox": [
-          300.95770263671875,
-          355.710693359375,
-          549.2521362304688,
-          391.8058776855469
-        ],
-        "path": "library/farmsteps-2026/d17dce19f85b/math-v3-6dac3b756668.png",
-        "method": "exact PDF region; no reconstructed symbols",
-        "rawEvidence": "(19) IDE,p,t,c = Yp,t,c × Fc RAI"
-      }
-    ],
-    "inline": {
-      "p1-b6-725eb82": [
-        {
-          "start": 15,
-          "end": 18,
-          "tag": "sup",
-          "text": "1,2"
-        },
-        {
-          "start": 28,
-          "end": 31,
-          "tag": "sup",
-          "text": "1,4"
-        },
-        {
-          "start": 45,
-          "end": 48,
-          "tag": "sup",
-          "text": "1,2"
-        },
-        {
-          "start": 64,
-          "end": 65,
-          "tag": "sup",
-          "text": "1"
-        },
-        {
-          "start": 82,
-          "end": 83,
-          "tag": "sup",
-          "text": "1"
-        },
-        {
-          "start": 97,
-          "end": 98,
-          "tag": "sup",
-          "text": "1"
-        },
-        {
-          "start": 119,
-          "end": 120,
-          "tag": "sup",
-          "text": "4"
-        },
-        {
-          "start": 141,
-          "end": 144,
-          "tag": "sup",
-          "text": "2,3"
-        }
-      ],
-      "p5-b8-3409fe8": [
-        {
-          "start": 683,
-          "end": 690,
-          "tag": "sub",
-          "text": "i,p,t,c"
-        },
-        {
-          "start": 704,
-          "end": 706,
-          "tag": "sup",
-          "text": "th"
-        }
-      ],
-      "p5-b9-6fdd8c3": [
-        {
-          "start": 38,
-          "end": 40,
-          "tag": "sup",
-          "text": "th"
-        },
-        {
-          "start": 685,
-          "end": 688,
-          "tag": "sub",
-          "text": "i,p"
-        }
-      ],
-      "p5-b10-5593a32": [
-        {
-          "start": 119,
-          "end": 122,
-          "tag": "sub",
-          "text": "i,t"
-        }
-      ],
-      "p5-b11-c5f2133": [
-        {
-          "start": 8,
-          "end": 9,
-          "tag": "sub",
-          "text": "p"
-        },
-        {
-          "start": 127,
-          "end": 129,
-          "tag": "sub",
-          "text": "i,"
-        },
-        {
-          "start": 129,
-          "end": 133,
-          "tag": "sub",
-          "text": "farm"
-        }
-      ],
-      "p6-b2-085fc80": [
-        {
-          "start": 122,
-          "end": 124,
-          "tag": "sup",
-          "text": "th"
-        }
-      ],
-      "p6-b3-d205273": [
-        {
-          "start": 8,
-          "end": 11,
-          "tag": "sub",
-          "text": "i,p"
-        },
-        {
-          "start": 11,
-          "end": 15,
-          "tag": "sub",
-          "text": ",max"
-        },
-        {
-          "start": 22,
-          "end": 25,
-          "tag": "sub",
-          "text": "i,p"
-        },
-        {
-          "start": 25,
-          "end": 29,
-          "tag": "sub",
-          "text": ",min"
-        },
-        {
-          "start": 72,
-          "end": 74,
-          "tag": "sup",
-          "text": "th"
-        }
-      ],
-      "p6-b6-e873a9d": [
-        {
-          "start": 8,
-          "end": 11,
-          "tag": "sub",
-          "text": "i,t"
-        },
-        {
-          "start": 11,
-          "end": 15,
-          "tag": "sub",
-          "text": ",max"
-        },
-        {
-          "start": 22,
-          "end": 25,
-          "tag": "sub",
-          "text": "i,t"
-        },
-        {
-          "start": 25,
-          "end": 29,
-          "tag": "sub",
-          "text": ",min"
-        },
-        {
-          "start": 85,
-          "end": 87,
-          "tag": "sup",
-          "text": "th"
-        },
-        {
-          "start": 124,
-          "end": 126,
-          "tag": "sup",
-          "text": "th"
-        },
-        {
-          "start": 146,
-          "end": 149,
-          "tag": "sub",
-          "text": "c,t"
-        },
-        {
-          "start": 149,
-          "end": 153,
-          "tag": "sub",
-          "text": ",max"
-        },
-        {
-          "start": 160,
-          "end": 163,
-          "tag": "sub",
-          "text": "c,t"
-        },
-        {
-          "start": 163,
-          "end": 167,
-          "tag": "sub",
-          "text": ",min"
-        },
-        {
-          "start": 246,
-          "end": 249,
-          "tag": "sub",
-          "text": "c,t"
-        },
-        {
-          "start": 249,
-          "end": 253,
-          "tag": "sub",
-          "text": ",max"
-        },
-        {
-          "start": 260,
-          "end": 263,
-          "tag": "sub",
-          "text": "c,t"
-        },
-        {
-          "start": 263,
-          "end": 267,
-          "tag": "sub",
-          "text": ",min"
-        },
-        {
-          "start": 353,
-          "end": 355,
-          "tag": "sup",
-          "text": "th"
-        }
-      ],
-      "p6-b7-4f0b018": [
-        {
-          "start": 40,
-          "end": 42,
-          "tag": "sub",
-          "text": "i,"
-        },
-        {
-          "start": 42,
-          "end": 50,
-          "tag": "sub",
-          "text": "farm,max"
-        },
-        {
-          "start": 57,
-          "end": 59,
-          "tag": "sub",
-          "text": "i,"
-        },
-        {
-          "start": 59,
-          "end": 67,
-          "tag": "sub",
-          "text": "farm,min"
-        },
-        {
-          "start": 116,
-          "end": 118,
-          "tag": "sup",
-          "text": "th"
-        },
-        {
-          "start": 160,
-          "end": 162,
-          "tag": "sub",
-          "text": "c,"
-        },
-        {
-          "start": 162,
-          "end": 170,
-          "tag": "sub",
-          "text": "farm,max"
-        },
-        {
-          "start": 174,
-          "end": 176,
-          "tag": "sub",
-          "text": "c,"
-        },
-        {
-          "start": 176,
-          "end": 185,
-          "tag": "sub",
-          "text": "farm,min,"
-        },
-        {
-          "start": 188,
-          "end": 190,
-          "tag": "sub",
-          "text": "c,"
-        },
-        {
-          "start": 190,
-          "end": 198,
-          "tag": "sub",
-          "text": "farm,max"
-        },
-        {
-          "start": 206,
-          "end": 208,
-          "tag": "sub",
-          "text": "c,"
-        },
-        {
-          "start": 208,
-          "end": 216,
-          "tag": "sub",
-          "text": "farm,min"
-        }
-      ],
-      "p9-b5-2fb0fd7": [
-        {
-          "start": 430,
-          "end": 431,
-          "tag": "sup",
-          "text": "3"
-        }
-      ],
-      "p10-b2-da1293b": [
-        {
-          "start": 1515,
-          "end": 1517,
-          "tag": "sup",
-          "text": "st"
-        }
-      ],
-      "p10-b4-b42f5b4": [
-        {
-          "start": 349,
-          "end": 356,
-          "tag": "sub",
-          "text": "GM,farm"
-        },
-        {
-          "start": 521,
-          "end": 524,
-          "tag": "sub",
-          "text": "GM,"
-        },
-        {
-          "start": 524,
-          "end": 525,
-          "tag": "sub",
-          "text": "c"
-        }
-      ],
-      "p10-b5-5edec81": [
-        {
-          "start": 8,
-          "end": 13,
-          "tag": "sub",
-          "text": "p,t,c"
-        },
-        {
-          "start": 29,
-          "end": 30,
-          "tag": "sub",
-          "text": "c"
-        },
-        {
-          "start": 111,
-          "end": 116,
-          "tag": "sub",
-          "text": "p,t,c"
-        },
-        {
-          "start": 392,
-          "end": 400,
-          "tag": "sub",
-          "text": "GWD,farm"
-        }
-      ],
-      "p10-b6-e176579": [
-        {
-          "start": 8,
-          "end": 15,
-          "tag": "sub",
-          "text": "GC,farm"
-        },
-        {
-          "start": 176,
-          "end": 179,
-          "tag": "sub",
-          "text": "GC,"
-        },
-        {
-          "start": 179,
-          "end": 184,
-          "tag": "sub",
-          "text": "p,t,c"
-        }
-      ],
-      "p11-b2-1b784b7": [
-        {
-          "start": 8,
-          "end": 12,
-          "tag": "sub",
-          "text": "farm"
-        }
-      ],
-      "p11-b3-5023115": [
-        {
-          "start": 155,
-          "end": 165,
-          "tag": "sub",
-          "text": "Pesti,farm"
-        },
-        {
-          "start": 412,
-          "end": 418,
-          "tag": "sub",
-          "text": "Pesti,"
-        },
-        {
-          "start": 418,
-          "end": 423,
-          "tag": "sub",
-          "text": "p,t,c"
-        },
-        {
-          "start": 455,
-          "end": 461,
-          "tag": "sub",
-          "text": "Pesti,"
-        },
-        {
-          "start": 461,
-          "end": 466,
-          "tag": "sub",
-          "text": "p,t,c"
-        }
-      ],
-      "p11-b4-d5e52e6": [
-        {
-          "start": 8,
-          "end": 15,
-          "tag": "sub",
-          "text": "Insect,"
-        },
-        {
-          "start": 15,
-          "end": 20,
-          "tag": "sub",
-          "text": "p,t,c"
-        },
-        {
-          "start": 24,
-          "end": 31,
-          "tag": "sub",
-          "text": "Insect,"
-        },
-        {
-          "start": 31,
-          "end": 36,
-          "tag": "sub",
-          "text": "p,t,c"
-        },
-        {
-          "start": 43,
-          "end": 50,
-          "tag": "sub",
-          "text": "Insect,"
-        },
-        {
-          "start": 50,
-          "end": 55,
-          "tag": "sub",
-          "text": "p,t,c"
-        },
-        {
-          "start": 219,
-          "end": 227,
-          "tag": "sub",
-          "text": "EUP,farm"
-        },
-        {
-          "start": 250,
-          "end": 258,
-          "tag": "sub",
-          "text": "GHG,farm"
-        },
-        {
-          "start": 818,
-          "end": 821,
-          "tag": "sub",
-          "text": "EUP"
-        },
-        {
-          "start": 821,
-          "end": 827,
-          "tag": "sub",
-          "text": ",p,t,c"
-        },
-        {
-          "start": 835,
-          "end": 836,
-          "tag": "sub",
-          "text": "4"
-        },
-        {
-          "start": 855,
-          "end": 858,
-          "tag": "sub",
-          "text": "GHG"
-        },
-        {
-          "start": 858,
-          "end": 864,
-          "tag": "sub",
-          "text": ",p,t,c"
-        },
-        {
-          "start": 872,
-          "end": 873,
-          "tag": "sub",
-          "text": "2"
-        }
-      ],
-      "p11-b5-6ab5ca4": [
-        {
-          "start": 8,
-          "end": 15,
-          "tag": "sub",
-          "text": "EUP-PRE"
-        },
-        {
-          "start": 15,
-          "end": 21,
-          "tag": "sub",
-          "text": ",p,t,c"
-        },
-        {
-          "start": 28,
-          "end": 34,
-          "tag": "sub",
-          "text": "EUP-ON"
-        },
-        {
-          "start": 34,
-          "end": 40,
-          "tag": "sub",
-          "text": ",p,t,c"
-        },
-        {
-          "start": 48,
-          "end": 49,
-          "tag": "sub",
-          "text": "4"
-        },
-        {
-          "start": 137,
-          "end": 144,
-          "tag": "sub",
-          "text": "GHG-PRE"
-        },
-        {
-          "start": 144,
-          "end": 150,
-          "tag": "sub",
-          "text": ",p,t,c"
-        },
-        {
-          "start": 157,
-          "end": 163,
-          "tag": "sub",
-          "text": "GHG-ON"
-        },
-        {
-          "start": 163,
-          "end": 169,
-          "tag": "sub",
-          "text": ",p,t,c"
-        },
-        {
-          "start": 177,
-          "end": 178,
-          "tag": "sub",
-          "text": "2"
-        }
-      ],
-      "p11-b12-287f008": [
-        {
-          "start": 919,
-          "end": 924,
-          "tag": "sub",
-          "text": "Labor"
-        },
-        {
-          "start": 924,
-          "end": 930,
-          "tag": "sub",
-          "text": ",p,t,c"
-        }
-      ],
-      "p11-b13-da56411": [
-        {
-          "start": 185,
-          "end": 187,
-          "tag": "sub",
-          "text": "DE"
-        },
-        {
-          "start": 187,
-          "end": 193,
-          "tag": "sub",
-          "text": ",p,t,c"
-        }
-      ],
-      "p11-b14-16eefa0": [
-        {
-          "start": 8,
-          "end": 9,
-          "tag": "sub",
-          "text": "c"
-        }
-      ],
-      "p12-b5-4f3169e": [
-        {
-          "start": 303,
-          "end": 304,
-          "tag": "sub",
-          "text": "4"
-        },
-        {
-          "start": 347,
-          "end": 348,
-          "tag": "sub",
-          "text": "2"
-        }
-      ],
-      "p13-b8-3bf71c9": [
-        {
-          "start": 45,
-          "end": 46,
-          "tag": "sub",
-          "text": "4"
-        },
-        {
-          "start": 83,
-          "end": 84,
-          "tag": "sub",
-          "text": "2"
-        }
-      ],
-      "p20-b6-725eb82": [
-        {
-          "start": 15,
-          "end": 18,
-          "tag": "sup",
-          "text": "1,2"
-        },
-        {
-          "start": 28,
-          "end": 31,
-          "tag": "sup",
-          "text": "1,4"
-        },
-        {
-          "start": 45,
-          "end": 48,
-          "tag": "sup",
-          "text": "1,2"
-        },
-        {
-          "start": 64,
-          "end": 65,
-          "tag": "sup",
-          "text": "1"
-        },
-        {
-          "start": 82,
-          "end": 83,
-          "tag": "sup",
-          "text": "1"
-        },
-        {
-          "start": 97,
-          "end": 98,
-          "tag": "sup",
-          "text": "1"
-        },
-        {
-          "start": 119,
-          "end": 120,
-          "tag": "sup",
-          "text": "4"
-        },
-        {
-          "start": 141,
-          "end": 144,
-          "tag": "sup",
-          "text": "2,3"
         }
       ]
     },
