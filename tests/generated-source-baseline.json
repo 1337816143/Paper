@@ -1,0 +1,10 @@
+{
+  "resources/study-layouts.json": {
+    "originalSHA256": "dac22e120013b4e5b31033ccbb8e497d3b8e4acbedca8b2162c10535a73acbf7",
+    "semanticSHA256": "a55043061f85aaee3ec290b798e6602c52df970ccb3381aff4e09e3e5212d7ea"
+  },
+  "resources/study-layout-audit.json": {
+    "originalSHA256": "da0284a4874e54cc068a339f77a6a0d733b9e116ee922d9633bd0c2acaa64a31",
+    "semanticSHA256": "5b2712f8dafd67f440e7dcb1d2fa09881bb4909dc048f787ee8c803a3c3b853a"
+  }
+}

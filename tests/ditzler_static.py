@@ -2,10 +2,11 @@
 """Additive Ditzler closure; real browser execution is a separate CI gate."""
 from pathlib import Path
 from html.parser import HTMLParser
-import hashlib,html,json,re,sys,tempfile,copy,zipfile
+import hashlib,html,json,re,sys,tempfile,copy,zipfile,subprocess
 ROOT=Path(__file__).resolve().parents[1]; SITE=ROOT/'dist/site';sys.path.insert(0,str(ROOT/'scripts'))
 from research_leads import load_research_leads,static_lead_html
 from method_transfer import load_method_transfers,static_transfer_html,static_source_notice
+from source_refresh_contract import check_unchanged_sources
 sha=lambda b:hashlib.sha256(b).hexdigest();canon=lambda d:json.dumps(d,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
 contract=json.loads((ROOT/'tests/ditzler-baseline.json').read_text());data=json.loads((SITE/'data.json').read_text());pid='ditzler-2019'
 application=json.loads((ROOT/'resources/application-release.json').read_text())
@@ -17,7 +18,8 @@ assert set(data['researchLeads'])==set(contract['legacyLeadIds'])|{pid}
 assert set(data['methodTransfers'])==set(contract['legacyMethodIds'])|{pid}
 assert sha(canon({k:data['researchLeads'][k] for k in contract['legacyLeadIds']}))==contract['researchLeadsSHA256']
 assert sha(canon({k:data['methodTransfers'][k] for k in contract['legacyMethodIds']}))==contract['methodTransfersSHA256']
-for path,h in contract['unchangedSourceSHA256'].items():assert sha((ROOT/path).read_bytes())==h,path
+subprocess.run([sys.executable, str(ROOT/'tests/test_source_refresh_contract.py')], check=True)
+check_unchanged_sources(ROOT, contract['unchangedSourceSHA256'])
 ids={d['id'] for d in data['documents']}; lead=data['researchLeads'][pid]; method=data['methodTransfers'][pid]
 assert load_research_leads(ROOT,ids)[pid]==lead
 assert load_method_transfers(ROOT,ids,'method-transfer-ditzler.json')=={pid:method}
